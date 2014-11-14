@@ -1,0 +1,67 @@
+Project Charter.
+
+title, project name:
+Speakable Programming For Every Language (SPEL).
+
+purpose:
+To make a human speakable programming language,
+which can be used for human-to-human and human-to-computer communication.
+It will be used as the basis for a General Intelligence Operating System,
+with focuses on hard real time, parallel processing, and fault tolerance.
+
+business case:
+People may be more willing to learn a computer programming language,
+which uses grammar structures already available in human languages.
+
+business model:
+Main model is to have a software market place, 
+where features or bug fixes can be requested, 
+and funding for them crowd sourced. 
+The core would get a percentage.
+
+can have commericial licenses available for an ongoing fee to core.
+i.e. once they stop making payments they either have to stop using it,
+or make it open source. What happened with OSX and OpenBSD is unacceptable.
+
+product description/deliverables:
+A low level programming language with human language syntax.
+Modules/libraries to support higher level programming paradigms.
+
+approach, software model:
+edge-driven design.
+Bulls eye model, of concentric rings,
+with small stable core,
+surrounded by modules/libraries and developers/prosumers/spel-makers
+surrounded by consumers/end-users/spel-users
+surrounded by masses/media
+
+project metrics, measureable project objectives:
+Alexa, and search engine ranking. (masses)
+Number of downloads. (spel-users)
+Number of active contributors. (spel-makers)
+Number of architectures supported by core compiler.
+Number of design patterns supported with libraries.
+Number of programming paradigms supported with libraries.
+Male/female ratio of users and makers to assess gender-neutrality.
+
+project resources: (Sep 2014)
+1 sourceforge account with free hosting of code and masses site.
+1 dual core x64 development platform (laptop which is missing a monitor).
+1 raspberry pi web server for developer site.
+1 500/80KB ADSL internet connection.
+1 fully dedicated core spel-maker (project manager).
+1 part time tester.
+ -budget:
+	~$5/month or as much as project manager can afford.
+
+sponsors:
+	social insurance.
+
+project manager:
+	Logan Streondj <streondj@gmail.com>
+
+high level assumptions:
+More people can learn
+
+high level project risks:
+

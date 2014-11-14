@@ -1,0 +1,43 @@
+
+socially
+--------
+1. enthral admirers.
+2. help beginners.
+3. recruit the experienced.
+4. respect the experts.
+
+* take everything very seriously, no sarcasm, allusions or inferences.
+* love one another, be kind and gentle, caring and co-operative.
+* answer questions thoroughly, and provide examples.
+* interaction is the basis of relationships.
+* hand holding or mentoring is encouraged.
+
+* avoid rudisms like RTFM, and STFW which hurt our community.
+* the goal is to help people feel a part of our community,
+	not to redirect them elsewhere to find it.
+	if there is a specific explanation available,
+	then it can certainly be linked to.
+	if there is a very common query,
+	then it can be added to a manual, tutorial, FAQ or interactive demo.
+
+admirer
+-------
+once you've heard of and become curious about Mkaw,
+you are an admirer. Also for those that use Mkaw programs.
+
+beginner
+--------
+once you have written your first Mkaw program,
+even if it is a hello world program,
+you are a beginner.
+
+experienced
+-----------
+If you feel comfortable writing mkaw programs,
+and have some mkaw scripts or projects of your own,
+then you are experienced.
+
+expert
+------
+If you are a developer of a mkaw project with regular users,
+then you are an expert.

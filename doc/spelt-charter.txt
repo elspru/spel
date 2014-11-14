@@ -1,0 +1,65 @@
+Project Charter.
+
+title, project name:
+Speakable Programming For Every Language Translator (SPELT).
+
+purpose:
+Allowing people of any human language background to communicate through SPEL.
+
+business case:
+People around the world wish to communicate to others, 
+without having to learn a new vocabulary or grammar.
+Developers may wish to internationalize their projects,
+without having to hire or manage a horde of translators.
+International meetings where everyone can use their own language,
+and yet still very precisely convey what they mean.
+International laws which are meant to be understood in multiple langauges.
+
+business model:
+certifications and courses, similar to breadth of CISCO's programs.
+while all material would be freely available,
+official certification would have a fee,
+that is split between teachers and core.
+
+possible jobs as parlimentarians or mediation experts,
+for various intercultural language issues.
+
+product description/deliverables:
+A command line translator, with web front ends.
+Translates file to file, as interpreter, or even gettext files.
+
+approach, software model:
+edge-driven design.
+Small stable core vocabulary.
+Modular extension for domain specific vocabularies.
+Content system to allow all vocabularies in same namespace.
+
+project metrics, measureable project objectives:
+Alexa, and search engine ranking. (masses)
+Number of downloads. (end-users)
+Number of active contributors. (developers)
+Number of translation targets.
+Number of grammar structures supported.
+
+project resources: (Sep 2014)
+1 sourceforge account with free hosting of code and masses site.
+1 dual core x64 development platform (laptop which is missing a monitor).
+1 raspberry pi web server for developer site.
+1 500/80KB ADSL internet connection.
+1 fully dedicated core spel-maker (project manager).
+1 part time tester.
+ -budget:
+	~$5/month or as much as project manager can afford.
+
+sponsors:
+	social insurance.
+
+project manager:
+	Logan Streondj <streondj@gmail.com>
+
+high level assumptions:
+In order to be understood more clearly by a larger audience,
+people would be willing to write or speak in a more formal way.
+
+high level project risks:
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="spel.xsl"?>
+<page>
+	<info>
+		su warn be test ya
+	</info>
+	<main>
+		hello world ya
+	</main>
+	<talk>
+		self-talk or chat-talk ya
+	</talk>
+	<say>
+		user input
+	</say>
+</page>

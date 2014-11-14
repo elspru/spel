@@ -1,0 +1,48 @@
+codingly
+========
+0. every type/object can be converted to and from speakable text.
+1. reentrant idempotent pure functions are ideal.
+2. limit production sideffects to main file.
+3. up to 3 parameters per function, including return type.
+
+elaboration
+===========
+
+text
+-----
+0. every type/object can be converted to and from speakable text.
+	implement "to text" for converting to words.
+	and "from text" to convert from words.
+
+functions
+---------
+1. reentrant idempotent pure functions are ideal.
+* treat input arguments as immutable (use const)
+* function preference lowest to highest:
+	0. referetially transparent. (stateless, no global variables).
+	1. assign variables once. (immutable)
+	2. reentrant, idempotent.
+	3. pure.
+
+side effects
+-------------
+2. limit production sideffects to main file.
+* prefer working with finite input and output, rather than streams
+* only place side-effect functions are called is from main file
+* side-effect functions defined in io file(s)
+* minimize size of main file
+
+workaround for debugging is use of assert, for errors use exceptions.
+
+parameters
+----------
+3. up to 3 parameters per function.
+* human short term memory is 4+1 items one is function name, 3 paramaters tops.
+	intel has 4 general purpose registers for fast calling convention. 
+* assembly languages use up to 3 parameters, including return register
+* C++ argument order D=V(S,O) D V(S,O){} where 
+	0. D is destination.
+	1. V is verb or function name.
+	2. S is source object. (optional)
+	3. O is object formating. (optional)
+* if simple type is insufficient then use a structure or object container.

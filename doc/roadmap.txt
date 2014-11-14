@@ -1,0 +1,7 @@
+0.1 hello world javascript in console and browser
+0.1.1 hello world javascript in console (10 Oct 2014)
+0.1.2 hello world javascript in browser (12 Oct 2014)
+0.1.3 hello world in browser via cgi/server
+0.2 hello world translation from mkaw to mkaw variant
+0.3 hello world translation from mkaw variant to mkaw
+0.4 mkaw grammar support
