@@ -22,12 +22,12 @@ function Word(language,input){
 	return this;
 }
 Word.prototype.copy = function(){
- 	return new Word(JSON.parse(JSON.stringify(this)));
+ 	return new Word(language, JSON.parse(JSON.stringify(this)));
 }
-function wordInputToMatch(input){
+function wordInputToMatch(language,input){
 	if (typeof input === "string"
 		|| Array.isArray(input))
-		return new Word(input);
+		return new Word(language, input);
 	else if (typeof input === "object"
 		&& input.be === "Word")
 		return input;
@@ -35,8 +35,8 @@ function wordInputToMatch(input){
 	else throw new TypeError(JSON.stringify(input)
 			+ " not valid match for "+"Word");
 }
-Word.prototype.isSuperset = function(input){
-	var match = wordInputToMatch(input);
+Word.prototype.isSuperset = function(language,input){
+	var match = wordInputToMatch(language,input);
 	if (match === undefined) return true;
 	if (match !== undefined
 	   && this.lemma !== match.lemma)
@@ -47,10 +47,10 @@ Word.prototype.isSuperset = function(input){
 	//console.log(match.lemma+" "+this.lemma);
 	return true;
 }
-Word.prototype.isSubset = function(input){
+Word.prototype.isSubset = function(language,input){
 }
-Word.prototype.isLike = function(input){
-	return this.isSuperset(input);
+Word.prototype.isLike = function(language,input){
+	return this.isSuperset(language,input);
 }
 
 Word.prototype.toString = function(){ 

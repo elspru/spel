@@ -82,10 +82,19 @@ function lastSentenceWordIndexParse(grammar,tokens){
 	return Index;
 }
 
+exports.phraseError = phraseError;
+function phraseError(tokens){
+		throw new Error("su quo te "+tokens.join(" ")+" quo ted"
+			+" be lack ob valid phrase ender"
+			+" like one of ar "
+			+grammar.phraseWords.join(" wu ")
+			+" wu ya");
+}
 /// su first phrase be parse ya
 exports.firstPhrase = firstPhraseParse.curry(grammar);
 function firstPhraseParse(grammar,tokens){
 	var phraseEnder = tokens.find(wordMatch.curry(grammar.phraseWords));
+	if (phraseEnder === null) phraseError(tokens);
 	var previousSlice = tokens.slice(0,phraseEnder+1);
 	return lastPhraseParse(grammar,previousSlice);
 }
@@ -94,6 +103,7 @@ function firstPhraseParse(grammar,tokens){
 exports.lastPhrase = lastPhraseParse.curry(grammar);
 function lastPhraseParse(grammar,tokens){
 	var lastCaseIndexP = lastCaseIndexParse.curry(grammar);
+	if (lastCaseIndexP === -1) phraseError();
 	var phraseEnder = lastCaseIndexP(tokens);
 	var end = phraseEnder+1;
 	var previousSlice = tokens.slice(0,phraseEnder);
@@ -125,9 +135,18 @@ function lastSpecificPhraseParse(tokens,phraseWord){
 	return lastPhraseParse(grammar,previousSlice);
 }
 /// be parse bo sentence de
+exports.sentenceError = sentenceError;
+function sentenceError(tokens){
+		throw new Error("su quo te "+tokens.join(" ")+" quo ted"
+			+" be lack ob valid sentence ender"
+			+" like one of ar "
+			+grammar.sentenceWords.join(" wu ")
+			+" wu ya");
+}
 exports.firstSentence = firstSentenceParse.curry(grammar);
 function firstSentenceParse(grammar,tokens){
 	var sentenceEnder = tokens.find(wordMatch.curry(grammar.sentenceWords));
+	if (sentenceEnder === null) sentenceError(tokens);
 	// if followed by space include it
 	if (tokenize.isSpace(tokens[sentenceEnder+1]))
 		sentenceEnder=sentenceEnder+1;
@@ -136,6 +155,8 @@ function firstSentenceParse(grammar,tokens){
 exports.lastSentence = lastSentenceParse.curry(grammar);
 function lastSentenceParse(grammar,tokens){
 	var lastSentWordIP = lastSentenceWordIndexParse.curry(grammar);
+	var sentenceEnder = tokens.rfind(wordMatch.curry(grammar.sentenceWords));
+	if (sentenceEnder === null) sentenceError(tokens);
 	var sentenceEnder = lastSentWordIP(tokens);
 	if (tokenize.isSpace(tokens[sentenceEnder+1]))
 		sentenceEnder=sentenceEnder+1;

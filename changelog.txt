@@ -9370,3 +9370,10 @@ ofand the forgetfullness at birth.
 0424 best things now is to finish the new word implementaiton I
 made ya then would like to make button to view dictionary ya
 then improve the toLocaleString to incorporate word order ya
+0612 okay added quote support, it required a major overhaul,
+adding language input to just about every function and
+constructor ya
+0628 okay so a button to view dictionary.
+0629 oh another thing, potentially more important,
+is to update the sourceforge site.  meh, I think I'll get some
+more functionality first. made a git revision 0.2.2 on roadmap.

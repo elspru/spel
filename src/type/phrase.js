@@ -53,7 +53,8 @@ function phraseInputToMatch(language,input){
 	else if (typeof input === "object"
 		&& input.be === "Phrase")
 		return input;
-	else throw new TypeError("unsupported type:"+input);
+	else throw new TypeError(JSON.stringify(input)
+			+" not valid match for "+"Phrase");
 }
 Phrase.prototype.isSubset= function(language,input){
 	var match = phraseInputToMatch(language,input);

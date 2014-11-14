@@ -60,7 +60,7 @@ function sentenceGet(input){
 		return this.byIndexSentenceGet(input);
 	if (typeof input === "string"
 		|| Array.isArray(input))
-		return this.sentenceFindGet(input);
+		return this.sentenceFindGet(language,input);
 	// else
 	throw new TypeError("unsupported type:"+input);
 }
@@ -97,7 +97,7 @@ function sentenceFindAllGet(language,input){
 	// filter sentences with
 	// if isLike match, then return
 	var sentences = this.sentences.filter(function(sentence){
-		return sentence.isLike(match)});
+		return sentence.isLike(language,match)});
 	var newText = new Text(language, sentences.join("\n"));
 	return newText;
 }
@@ -125,12 +125,12 @@ function byIndexSentenceDelete (index){
 	newText.sentences.splice(index,1);
 	return newText;
 }
-Text.prototype.sentenceUpdate = function(input,replacement){
+Text.prototype.sentenceUpdate = function(language,input,replacement){
 	if (typeof input === "number")
-		return this.byIndexSentenceUpdate(input,replacement);
+		return this.byIndexSentenceUpdate(language,input,replacement);
 	if (typeof input === "string"
 		|| Array.isArray(input))
-		return this.sentenceFindUpdate(input,replacement);
+		return this.sentenceFindUpdate(language,input,replacement);
 	// else
 	throw new TypeError("unsupported type:"+input+" "+replacement);
 }
@@ -138,12 +138,12 @@ Text.prototype.sentenceFindUpdate = sentenceFindUpdate;
 function sentenceFindUpdate(language,input,replacement){
 	var match = sentenceInputToMatch(language,input);
 	var index = this.sentences.rfind(function(sentence){
-		return sentence.isLike(match)});
+		return sentence.isLike(language,match)});
 	if (index === null){
 		throw Error("no match found for "+input+
 				"\n in "+this.title);
 	}
-	return this.byIndexSentenceUpdate(index,replacement);
+	return this.byIndexSentenceUpdate(language, index,replacement);
 }
 Text.prototype.byIndexSentenceUpdate = byIndexSentenceUpdate;
 function byIndexSentenceUpdate(language,index,replacement){

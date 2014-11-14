@@ -13,9 +13,11 @@
 var hof = require("./lib/hof");
 var io = require("./lib/io");
 var Text = require('./type/text');
+var Language = require('./lang/language');
+var mwak = new Language();
 
-var debug = true;
-var amount = 2;
+var debug = false;
+var amount = 4;
 var langDir = "../doc/lang/";
 var fileStem = "vocab-mwak-";
 var fileSuffix = "bit.txt";
@@ -26,8 +28,8 @@ var i,j;
 function textUpdate(theText,sentence){
 	//sentence = text.sentences[j];
 	//console.log(String(sentence));
-	var matchPhrase = String(sentence.phraseGet(".u"));
-	theText.sentenceUpdate(matchPhrase,sentence);
+	var matchPhrase = String(sentence.phraseGet(mwak,".u"));
+	theText.sentenceUpdate(mwak,matchPhrase,sentence);
 }
 for (i=1;i<=amount;i++){
 	CFilename = "./vocab-mwak-C"+i+"bit.txt";
@@ -37,14 +39,14 @@ for (i=1;i<=amount;i++){
 	XOrig = io.fileRead(XFilename);
 	//JSON.parse(io.fileRead(XFilename+".json"));
 	console.log("loading "+CFilename);
-	CText = new Text(COrig,CFilename);
+	CText = new Text(mwak,COrig,CFilename);
 	console.log("loading "+XFilename);
-	XText = new Text(XOrig,XFilename);
+	XText = new Text(mwak,XOrig,XFilename);
 	//console.log(XText);
 	// update current core based on previous
 	if (typeof CPText !== "undefined"){
 	console.log("updating "+CFilename);
-	definitions = CPText.select(".a");
+	definitions = CPText.select(mwak,".a");
 	definitions.sentences.forEach(textUpdate.curry(CText));
 	if (debug)
 		console.log(String(XText));
@@ -57,11 +59,11 @@ for (i=1;i<=amount;i++){
 	// update current extended based on previous
 	if (typeof XPText !== "undefined"){
 	console.log("updating "+XFilename);
-	definitions = XPText.select(".a");
+	definitions = XPText.select(mwak,".a");
 	definitions.sentences.forEach(textUpdate.curry(XText));
 	}
 	// update current extended based on current core
-	definitions = CText.select(".a");
+	definitions = CText.select(mwak,".a");
 	definitions.sentences.forEach(textUpdate.curry(XText));
 	if (debug)
 		console.log(String(XText));

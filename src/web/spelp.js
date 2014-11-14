@@ -13,21 +13,34 @@ var Language = require("../lang/language");
 var Word = require("../type/word");
 
 var file = io.fileRead("../vocab-mwak-C4bit.txt");
-var text = new Text(file);
+var mwak = new Language();
+var text = new Text(mwak,file);
 var grammar = new Grammar();
-var dict = new Dictionary(text);
+var dict = new Dictionary(mwak,text);
 var lang = new Language(grammar,dict);
-var word = new Word("sla");
-var word2 = new Word("munt");
+var /*Elem*/ mainArea =  document.getElementById("main");
+var /*Elem*/ infoArea =  document.getElementById("info");
 
 function hello(text){
 	return text;
 }
+function mainUpdate(input){
+	mainArea.innerHTML = input;
+}
+function infoUpdate(input){
+	infoArea.innerHTML = input;
+}
 function submitInput(userInput){
-	var /*Elem*/ main =  document.getElementById("main");
-	var text = new Text(userInput);
-	main.innerHTML = text.toLocaleString(lang);
+	mainUpdate("");//clear info
+	infoUpdate("");//clear main
+	try{
+	var text = new Text(lang,userInput);
 	//	submitInput(userInput);
+	} 
+	catch (error){
+		infoUpdate(error);
+	}
+	mainUpdate(text.toLocaleString(lang));
 }
 
 function init(){

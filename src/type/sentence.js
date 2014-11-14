@@ -29,6 +29,7 @@ function Sentence(language, input) {
 	//this.tokens = tokens;
 // su sentence words be everytoken which be after bo last case ya
 	var lastCaseIndex = parse.lastCaseIndex(tokens);
+	if (lastCaseIndex === -1) parse.phraseError(tokens);
 	lastCaseIndex++;
 			
 	var lastWords = tokens.slice(lastCaseIndex,tokens.length);
@@ -58,12 +59,12 @@ function sentenceInputToMatch(language, input){
 	if (typeof input === "string"||
 		Array.isArray(input))
 		 return new Sentence(language, input);
-	else if (input.be === "Sentence")
+	else if (input && input.be === "Sentence")
 		return input;
-	else throw new TypeError("unsupported type:"+input);
+	else throw new TypeError(input+" not valid match for "+"Sentence");
 }
 Sentence.prototype.isSubset = function(language,input){
-	var match = sentenceInputToMatch(languge,input);
+	var match = sentenceInputToMatch(language,input);
 	if (!this.endWords.isSubset(match.endWords))
 		return false;
 	// check phrases are a subset
@@ -104,7 +105,7 @@ Sentence.prototype.isLike = function(language,input){
 }
 Sentence.prototype.indexOf = phraseIndexFind;
 Sentence.prototype.phraseIndexFind = phraseIndexFind;
-function phraseIndexFind(cases){
+function phraseIndexFind(language,cases){
 	var caseWord;
 	if (Array.isArray(cases)){
 		caseWord = cases;
@@ -117,7 +118,7 @@ function phraseIndexFind(cases){
 	    length = phrases.length;
 	for (i=0;i<length;i++){
 		phrase = phrases[i];
-		if(phrase.caseWord.isLike(caseWord))
+		if(phrase.caseWord.isLike(language,caseWord))
 			return i;
 	}
 	return -1;
@@ -125,18 +126,19 @@ function phraseIndexFind(cases){
 /// su phraseGet be get bo phrase by cases ya
 
 Sentence.prototype.phraseGet = phraseGet;
-function phraseGet(input){
+function phraseGet(language, input){
 	if (typeof input === "number")
 		return this.byIndexPhraseGet(input);
 	if (typeof input === "string"
 		|| Array.isArray(input))
-		return this.phraseFindGet(input);
+		return this.phraseFindGet(language,input);
 	// else
-	throw new TypeError("unsupported type:"+input);
+	throw new TypeError(JSON.stringify(input)
+			+" not valid match for "+"phraseGet");
 }
 Sentence.prototype.phraseFindGet = phraseFindGet;
-function phraseFindGet(cases){
-	var index = this.indexOf(cases);
+function phraseFindGet(language,cases){
+	var index = this.indexOf(language,cases);
 	if (index === -1)
 		throw new RangeError(cases +" not found in "+this);
 	return this.byIndexPhraseGet(index);
@@ -235,6 +237,9 @@ Sentence.prototype.toLocaleString = function(language){
 	var i;
 	for (i=0; i<phrasesLength; i++)
 		string += phrases[i].toLocaleString(language);
-	string = string.concat(endWords.join(joiner),ender);
+	//console.log(endWords);
+	if (endWords !== undefined)
+	string = string.concat(endWords.join(joiner));
+	string += ender;
 	return string;
 };

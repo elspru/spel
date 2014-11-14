@@ -65,7 +65,7 @@ Type.prototype.isSuperset = function(language, input){
 	//	    console.log("content false");
 		return false;}
 	if (match.typeWord !== undefined
-	    && !match.typeWord.isSuperset(langauge, this.typeWord)){
+	    && !match.typeWord.isSuperset(language, this.typeWord)){
 	//	console.log("typeword false");
 		return false;}
 	return true;
