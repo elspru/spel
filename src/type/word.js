@@ -1,5 +1,13 @@
 var tokenize = require("../compile/tokenize");
+var translate = require("../compile/translate");
+var emitter = require("events").EventEmitter;
 module.exports = Word;
+var emi = new emitter();
+//this.e = emi;
+//translate.e.on("warn",function(err){
+//	emi.emit("warn",err);});
+//translate.e.on("error",function(err){
+//	emi.emit("error",err);});
 /// su word be object ya
 function Word(language,input){
 	var tokens;
@@ -62,16 +70,15 @@ Word.prototype.toString = function(){
 };
 Word.prototype.toLocaleString = function(language){
 	var translation = new String();
+	var dict = language.dictionary.fromMwak;
 	if (this.adwords !== undefined){
 	var i, transl;
 	for (i=0;i<this.adwords.length;i++){
-		transl = language.dictionary.mwakFrom[this.adwords[i]];
-		if (transl === undefined) transl = this.adwords[i] ;
+		transl = translate.word(dict,this.adwords[i]);
 		translation+= transl+" ";
 	}
 	}
-	transl = language.dictionary.mwakFrom[this.lemma];
-	if (transl === undefined) transl = this.lemma;
+	transl = translate.word(dict,this.lemma);
 	translation += transl;
 	return translation;
 }

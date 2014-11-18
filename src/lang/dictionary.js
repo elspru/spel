@@ -19,22 +19,22 @@ function Dictionary(language, input){
 		text = new Text(language, input);
 	else if (typeof input === "object"
 		&& input.be === "Dictionary"){
-			this.mwakFrom = input.mwakFrom;
-			this.mwakTo = input.mwakTo;
+			this.fromMwak = input.fromMwak;
+			this.toMwak = input.toMwak;
 			return this;
 		}
 	//else if (Array.isArray(input)) toke
 // if no input then blank dictionary ya
 	else if (input === undefined){
-		this.mwakTo = new Object();
-		this.mwakFrom = new Object();
+		this.toMwak = new Object();
+		this.fromMwak = new Object();
 		return this;
 	}
 	else throw new TypeError(input+" unknown to "+this.be);
-//	mwakFrom is object mapping su contents to bo contents
-	this.mwakFrom = dictMake(language,text,[".u",".a"]);
-//	mwakTo is object mapping bo contents to su contents
-	this.mwakTo = dictMake(language,text,[".a",".u"]);
+//	fromMwak is object mapping su contents to bo contents
+	this.fromMwak = dictMake(language,text,[".u",".a"]);
+//	toMwak is object mapping bo contents to su contents
+	this.toMwak = dictMake(language,text,[".a",".u"]);
 	return this;
 }
 Dictionary.prototype.copy = function(){

@@ -4,6 +4,7 @@ var Word = require("./word");
 //var Quote = require("./quote");
 //var parse = require("../compile/parse");
 module.exports = Type;
+//Word.e.on("warn",function(err){console.log(err);});
 function Type(language,input){
 	this.be = "Type";
 	var tokens;

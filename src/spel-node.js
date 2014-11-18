@@ -29,18 +29,29 @@ var mwak = new Language();
 //console.log("nsent"+JSON.stringify(nsentence));
 
 //var file = JSON.parse(io.fileRead("vocab-mwak-C4bit.txt.json"));
-//var file = io.fileRead("vocab-mwak-C4bit.txt");
-//var text = new Text(mwak,file);
+var file = io.fileRead("vocab-mwak-C4bit.txt");
+var text = new Text(mwak,file);
 //////console.log(String(text));
 ////////console.log(String(text));
-//var grammar = new Grammar();
-//var dict = new Dictionary(mwak,text);
-//var eng = new Language(grammar,dict);
+var dict = new Dictionary(mwak,text);
+var wordOrder = {
+	verbFinal : true,
+	postpositional : false,
+	phraseOrder: [".u","ta",".a","ki",".i"]
+};
+var grammar = new Grammar(wordOrder,dict);
+var eng = new Language(grammar,dict);
 
-var word = new Text(mwak,"yi yi ya ");
 //console.log(word);
+//var emitter = require("events").EventEmitter;
+//var d = require("domain").create();
+//d.on("warn",function(err){console.log(err)});
+//d.on("error",function(err){console.log(err)});
+//d.run(function(){
+var word = new Text(mwak,"mi .u mwa .i sla asdf munt .a ya ");
 console.log(word.toString());
-//console.log(word.toLocaleString(eng));
+console.log(word.toLocaleString(eng));
+//});
 //console.log(JSON.stringify(mwak));
 //console.log(word.toLocaleString(lang)+" "+word2.toLocaleString(lang));//JSON.stringify(dict));
 //console.log("sent "+text.toLocaleString(lang));

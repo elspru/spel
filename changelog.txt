@@ -9377,3 +9377,43 @@ constructor ya
 0629 oh another thing, potentially more important,
 is to update the sourceforge site.  meh, I think I'll get some
 more functionality first. made a git revision 0.2.2 on roadmap.
+0749 added exception information
+1052 time-at now su me be wish add bo word order correction ya 
+1613 have to set how word order initialization will work ya
+1615 su bibliography entries bo tha
+su author on(time-at) date bo title be medium from domain at
+link ya 
+1645 ideally su me be would have bo global message system
+for warnings and errors ya
+2154 so I can use an event emitter, and process.on to catch it.
+.emit("warn","message"); and
+process.on("warn",function(warn){console.log(warn);});
+1735 I was thinking that for a multi-language blog, for posts
+which have set-times, such as post at prime-time, they can post
+at prime time, depending on the locales timezone.
+1739 so the main goal now is to get the prepositional stuff
+working. which means we need to use english prepositional word
+order. 
+1837 great :-) it works for console ya now for browser ya
+1840 ideally su word order be define in mwak text file ya
+1845 based on wikipedia page on head-order, things which may
+have head orders are
+verb noun adjective adposition determiner 
+complentizer tense aspect ya
+1849 anyways lets get it working in browser first
+and then maybe can define enough vocab to make that file,
+right now we only need adpositional order anyways.
+1856 .ia su it be work in browser ya
+1901 su me be need start bo etymology and definition dictionary
+for mwak ya
+1902 in mkaw they were tkic and tikc, which are both valid for
+the extended word set.
+} 17 Nov 2014
+1922 be past complete bo definitions for C2bit ya
+1329 it seems like I would have to pass an event emitter to all
+my sub functions in order to have support for warning. I'm
+already passing language. :-|. 
+1443 this error reporting stuff seems rather complicated. 
+1444 I think I'll work on some more productive stuff for now.
+1445 like getting a translate to and from drop down menu.
+1516 okay cool so it works now :-)

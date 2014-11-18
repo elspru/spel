@@ -17,9 +17,18 @@ var mwak = new Language();
 var text = new Text(mwak,file);
 var grammar = new Grammar();
 var dict = new Dictionary(mwak,text);
-var lang = new Language(grammar,dict);
+var engWordOrder = {
+	verbFinal : true,
+	postpositional : false,
+	phraseOrder: [".u","ta",".a","ki",".i"]
+};
+var engGrammar = new Grammar(engWordOrder,dict);
+var eng = new Language(engGrammar,dict);
+var lang;// = new Language(grammar,dict);
 var /*Elem*/ mainArea =  document.getElementById("main");
 var /*Elem*/ infoArea =  document.getElementById("info");
+var /*Elem*/ toLangChoice = document.getElementById("toLang");
+var /*Elem*/ fromLangChoice=document.getElementById("fromLang");
 
 function hello(text){
 	return text;
@@ -31,16 +40,25 @@ function infoUpdate(input){
 	infoArea.innerHTML = input;
 }
 function submitInput(userInput){
-	mainUpdate("");//clear info
-	infoUpdate("");//clear main
+	infoUpdate("");//clear info
+	mainUpdate("");//clear main
+	var fromLangv = fromLangChoice.value;
+	var toLangv = toLangChoice.value;
+	var toLang, fromLang;
+	console.log("toLangv"+toLangv);
+	if (toLangv === "en")
+		toLang = eng;
+	if (toLangv === "mwak")
+		toLang = mwak;
+	console.log(toLang);
 	try{
-	var text = new Text(lang,userInput);
-	//	submitInput(userInput);
+	var text = new Text(fromLang,userInput);
+	var translation = text.toLocaleString(toLang);
 	} 
 	catch (error){
 		infoUpdate(error);
 	}
-	mainUpdate(text.toLocaleString(lang));
+	mainUpdate(translation);
 }
 
 function init(){

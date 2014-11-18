@@ -4,7 +4,9 @@
 0.2 hello world translation from mwak to mwak variant 
 0.2.1 hello world console translation (05 Nov 2014)
 0.2.2 hello world browser translation (11 Nov 2014)
-0.2.2 partial compound word support (14 Nov 2014)
-0.2.3 exceptions info in browser (14 Nov 2014)
+0.2.3 partial compound word support (14 Nov 2014)
+0.2.4 exceptions info in browser (14 Nov 2014)
+0.2.5 translate to multiple langauges (18 Nov 2014)
+0.2.6 view dictionary support.
+0.2.7 multiple dictionary files support.
 0.3 hello world translation from mwak variant to mwak 
-0.4 mkaw grammar support

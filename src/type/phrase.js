@@ -105,12 +105,10 @@ Phrase.prototype.toLocaleString = function(language){
 	if (typeof this.content === "object")
 		content = this.content.toLocaleString(language);
 	else content = this.content;
-	//if (Array.isArray(content) 
-	//	&& content.length>1
-	//	&& tokenize.isTokens(content))
-	//	joiner = '';
-	//var contentString = content.toString();
-	var string = content .concat(joiner,
-			this.caseWord.toLocaleString(language),joiner);
+	var caseWord = this.caseWord.toLocaleString(language);
+	var string = new String()
+	if (language.grammar.wordOrder.postpositional)
+	       string = content+joiner+caseWord+joiner;
+	else string = caseWord+joiner+content+joiner
 	return string;
 };

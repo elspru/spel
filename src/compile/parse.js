@@ -86,9 +86,9 @@ exports.phraseError = phraseError;
 function phraseError(tokens){
 		throw new Error("su quo te "+tokens.join(" ")+" quo ted"
 			+" be lack ob valid phrase ender"
-			+" like one of ar "
+			+" like one of ar wu "
 			+grammar.phraseWords.join(" wu ")
-			+" wu ya");
+			+" ya");
 }
 /// su first phrase be parse ya
 exports.firstPhrase = firstPhraseParse.curry(grammar);
@@ -139,9 +139,9 @@ exports.sentenceError = sentenceError;
 function sentenceError(tokens){
 		throw new Error("su quo te "+tokens.join(" ")+" quo ted"
 			+" be lack ob valid sentence ender"
-			+" like one of ar "
+			+" like one of ar wu "
 			+grammar.sentenceWords.join(" wu ")
-			+" wu ya");
+			+" ya");
 }
 exports.firstSentence = firstSentenceParse.curry(grammar);
 function firstSentenceParse(grammar,tokens){
