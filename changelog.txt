@@ -9410,6 +9410,7 @@ for mwak ya
 the extended word set.
 } 17 Nov 2014
 1922 be past complete bo definitions for C2bit ya
+} 18 Nov 2014
 1329 it seems like I would have to pass an event emitter to all
 my sub functions in order to have support for warning. I'm
 already passing language. :-|. 
@@ -9417,3 +9418,141 @@ already passing language. :-|.
 1444 I think I'll work on some more productive stuff for now.
 1445 like getting a translate to and from drop down menu.
 1516 okay cool so it works now :-)
+1520 okay now to view dictionary. 
+2216 saw some statistics that the highest paying and highest
+gaining sallaries of those with professional degrees. That
+implies we should have professional degrees available for Mwak.
+While all the course material would have to be open source. The
+certification testing could be sufficiently pricey, as people
+have to attend in person, there needs to be someone who speaks
+fluent mwak or mwak variant which is being tested, as well as
+written and programming portions of the exam. Of course they
+would also have to pay some kind of money to the certifying
+body/college to have their license renewed, with potential
+retesting for new features etc. 
+2250 hmmm it seems like most of them are various post-graduate
+degrees such as for lawyers, doctors and that kinda stuff. I was
+looking at getting an undergrad just now, and it kinda made me
+queasy. so much money, so little to gain. mostly social status I
+guess, since I'm not really interested in a job per se. oh well.
+2347 phraseSort, phraseSort  with performance grammar
+2351 I was meditating and thought that Mwak can become a degree
+program, much like English or Spanish, as it is a language, just
+happens to also be a programming language, and for writing
+rules. People could write masters and PHd's in it, even
+submitting modules or patches to the main project. 
+2353 at least for now can turn the warn for undefined
+translations into an exception ya it will motivate me to define
+a sufficient amount of words ya
+} 19 Nov 2014
+0013 updated html page to be all in mwak english
+0713 testing view dictionary ya
+1726 asked samta to review a small story I wrote in mwak
+english. she said she couldn't make any sense of it. Thus it is
+now higher priority to have conjugation support, before I though
+lossy natural translation can be optional, but now I'm thinking
+it will be mandatory, though it wil be a big task, we can keep
+it for 0.4
+1738 okay so hopefully we'll get to 0.3 by this weekend :-)
+1805 so that is two subversion per day. next be format ya
+1827 excellent have dictionary formated for html output :-).
+} 20 Nov 2014
+0504 multiple dictionary files support ya
+main issue I guess is standardized dictionary naming ya
+best to use all mwak if possible. 
+0506 mwaktatick.i for mwak mwak dictionary
+0509 need support for 24 glyph dictionary,
+so instead of by bit, may need to sort them by glyph
+2 4 8 16 24 32
+0517 also need words for core, extended, and glyph
+0521 instead of core can use middle instead.
+中 /*truŋ/ Old Chinese. tengah Malay. stred Slovak. 
+midden Dutch. middle English. mitt Swedish. medium Latin.
+ten tin tan pin 
+0541 extended or wide or big or large
+guru Kannada. gedang Malay. grandis Latin. gichi Ojibwe.
+大 (dà) Mandarin. 
+kat 
+0604 bah could have just checked my mkaw 3 bit, since these are
+3 bit definitions anyhow.  though guess can make then 4 bit, 3
+bit has inside, and big, can make then middle and large.
+0613 anyways glyph, character or letter
+字母 (zh) (zìmǔ). littera Latin. herufi Swahili. 
+litera Ukranian. harf Arabic. lerfu Lojban. raide Lithuanian.
+yip 
+0633 thinking instead of big can use more size.
+0640 formated lines which go over 64 glyphs with tabs, though I
+guess that wont be preserved after vocab update. thus is kinda
+silly. 
+0640 much more
+(gèngduō) Mandarin. plus French. 'ákthar Arabic. mwy Welsh.
+mehr German. more English. motha Scottish Gaelic. más Spanish. 
+aveli sat Armenian. vel Latvian.  plu Interlingua.
+th~v~d~p ng~m a r~l~y
+pay
+0651 less
+更少 (gèng shǎo) Mandarin. moins French. mence Russian. minus
+Interlinua. 
+min
+0704 size
+ʻǁnàhã !Xoo. maqaas Arabic. méret Hungarian. sunpō Japanese. o
+尺寸 (chǐcùn) Mandardin. mecutʿyun Armenian. razm'ér Russian. 
+mégethos Greek. 
+map
+0711 space physical extent in two or three dimensions.
+ʻǁnàhã !Xoo. 空間 (kōngjiān). nafasi Swahili. erdve Lithuanian. 
+mokowa Maori.  espace French. farag makan Arabic. 
+prostanstvo Russian. 
+psan
+1010 so thinking we haven't really decided on a solid base for
+the vocabulary. maybe should go with interlingua *shrugs*.
+so far been using languages from all over the place. i.e. with
+maximal different langauge families for representation.
+of course that means it's "equally hard" for everyone,
+since almost no one has more than a couple words in common.
+1016 hmm I had that python script to amalgamate words,
+for instance the word word has a lot of variations. 
+1439 anyways, so it's taking me a long while to get this
+dictionary support stuff, so I'll switch to phrase and
+performance grammar sorting, then work on clauses and
+dictionaries. 
+1440 might even do multiple dictionaries or clauses in 0.3
+1441 bah I already have the dictionary stuff open though ya
+hmmm okay so quick in next few moments have to figure out how to
+structure the name of dictionaries. 
+01yippimak.umwaktacikhtick.iya.txt
+su-16-glyph's-word-to-mwak-small-dictionary.txt
+1455 bah I'll go back to borean nostratic for basic words, it's
+too confusing when there are many options. I'll reserve
+wikitionary for only the ones I can't find in proto lists.
+just like I made mkaw. 
+1502 okay, so I have small is kut  big wul, many pat, few cik
+1522 bah still no progress, anyways so we're moving to phrase
+sorting by case.  this is done in sentence.
+1623 seems like I'll have to switch language, input to input,
+language
+or provide a bunch of if language undefined stuff.
+1625 or we can just use a keyword like if language is "mwak"
+1635 okay phrase sort works now :-) there seems to be an issue
+with word translate however. 
+2142 okay fixed that part also ya
+2149 next is performance grammar phrase ordering ya
+2150 it's same place, but gotta do some more calculations. 
+2154 I'm thinking the performance grammar will only make sense
+after clauses. 
+} 21 Nov 2014
+0658 so I'm moving rest to 0.3 thus next is hello world
+translation from mwak variant to mwak. 
+2300 made a short story involving AI detractors and
+reincarnation http://mwak.tk/story/girlDragon.txt
+} 23 Nov 2014
+1038 found out about Elon Musk's fears about AGI, I guess as
+someone not in the field, he doesn't realize how utterly
+unfounded they are. But ya w/e. 
+1041 anyways so next is hello world translation for mwak variant
+to mwak. 
+2050 made dictionary only output the defined words.
+} 24 Nov 2014
+0652 have to change order of language,input grammar,input
+since it is causing too many errors when I forget to enter
+grammar/language, since it is often superfluous. 

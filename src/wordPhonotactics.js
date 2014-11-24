@@ -48,11 +48,11 @@ var Bit5Alphabet = 	['m','k','i','a','y','u','p','w',
 			 'v','^','_','6','I','x','j','C'];
 var alphabet = Bit1Alphabet;
 //var alphabet = Glyph3Alphabet;
-//var alphabet = Bit2Alphabet;
+var alphabet = Bit2Alphabet;
 //var alphabet = Glyph5Alphabet;
 //var alphabet = Glyph7Alphabet;
-//var alphabet = Bit3Alphabet;
-//var alphabet = Glyph12Alphabet;
+var alphabet = Bit3Alphabet;
+var alphabet = Glyph12Alphabet;
 //var alphabet = Bit4Alphabet;
 //var alphabet = Glyph19Alphabet;
 //var alphabet = Glyph24Alphabet;

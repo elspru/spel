@@ -7,6 +7,16 @@
 0.2.3 partial compound word support (14 Nov 2014)
 0.2.4 exceptions info in browser (14 Nov 2014)
 0.2.5 translate to multiple langauges (18 Nov 2014)
-0.2.6 view dictionary support.
-0.2.7 multiple dictionary files support.
+0.2.6 view dictionary support (19 Nov 2014)
+0.2.7 format for html output (19 Nov 2014)
+0.2.8 phrase sort by case (20 Nov 2014)
+0.2.9 change order of language, input to input,language
+
 0.3 hello world translation from mwak variant to mwak 
+0.3.1 support for clauses
+0.3.2 performance grammar phrase ordering
+0.3.3 multiple dictionary files support.
+0.3.4 move ender formating to text out of sentence.
+0.4 conjugation support for natural-like output
+0.4.1 spaceless mwak tokenization
+0.4.2 conjugation dictionary

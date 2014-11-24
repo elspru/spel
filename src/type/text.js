@@ -72,13 +72,15 @@ function byIndexSentenceGet(index){
 }
 function sentenceInputToMatch(language, input){
 	if (input === undefined)
-		throw new TypeError("undefined input");
+		throw new TypeError("undefined input for "
+		   +" sentenceInputToMatch of Text object");
 	if (typeof input === "string"||
 		Array.isArray(input))
 		 return new Sentence(language,input);
 	else if (input.be === "Sentence")
 		return input;
-	else throw new TypeError("unsupported type:"+input);
+	else throw new TypeError("unsupported type:"+input
+		  +"for  sentenceInputToMatch of Text object");
 }
 Text.prototype.indexOf = sentenceFindGet;
 Text.prototype.sentenceFindGet = sentenceFindGet;
@@ -154,21 +156,23 @@ function byIndexSentenceUpdate(language,index,replacement){
 	newText.sentences.splice(index,1,sentence);
 	return newText;
 }
-Text.prototype.toString = function(){
+Text.prototype.toString = function(format){
 	var string = new String();
 	var sentences = this.sentences;
 	var sentencesLength = sentences.length;
 	var i;
 	for (i=0; i<sentencesLength; i++){
-		string += sentences[i].toString();}
+		string += sentences[i].toString(format);}
 	return string;//this.string;
 };
-Text.prototype.toLocaleString = function(language){
+Text.prototype.toLocaleString = function(language,format){
 	var string = new String();
 	var sentences = this.sentences;
 	var sentencesLength = sentences.length;
 	var i;
 	for (i=0; i<sentencesLength; i++){
-		string += sentences[i].toLocaleString(language);}
+		string += sentences[i].
+			toLocaleString(language,format);
+	}
 	return string;//this.string;
 };

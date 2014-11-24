@@ -17,6 +17,8 @@ function Word(language,input){
 	else if (typeof input === "object"
 		&& input.be === "Word"){
 			this.lemma = input.lemma;
+			if (input.adwords)
+			this.adwords = input.adwords;
 			return this;
 		}
 	else if (Array.isArray(input)) tokens = input; 
@@ -74,6 +76,7 @@ Word.prototype.toLocaleString = function(language){
 	if (this.adwords !== undefined){
 	var i, transl;
 	for (i=0;i<this.adwords.length;i++){
+		console.log(this.adwords[i]);
 		transl = translate.word(dict,this.adwords[i]);
 		translation+= transl+" ";
 	}

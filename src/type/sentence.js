@@ -1,7 +1,7 @@
-
 "use strict"
 var tokenize = require("../compile/tokenize");
 var parse = require("../compile/parse");
+var Word = require("./word");
 var Phrase = require("./phrase");
 var err = require("../lib/error");
 module.exports = Sentence;
@@ -13,12 +13,14 @@ function Sentence(language, input) {
 		tokens = tokenize.stringToWords(input);}
 	else if (typeof input === "object"
 		&& input.be === "Sentence"){
-			this.phrases = new Array();
-			for (i=0; i< input.phrases.length; i++)
-				this.phrases[i]=new Phrase(language, input.phrases[i]);
-			this.endWords = input.endWords;
-			return this;
-		}
+		this.phrases = new Array();
+		for (i=0; i< input.phrases.length; i++)
+			this.phrases[i]=
+			new Phrase(language, input.phrases[i]);
+		if (input.endWords)
+		this.endWords= new Word(language, input.endWords);
+		return this;
+	}
 	else if (Array.isArray(input)) tokens = input;
 	else throw new TypeError(input+" is not a valid Phrase input");
 	// extract quotes
@@ -51,7 +53,8 @@ function Sentence(language, input) {
 	}
 	phrases.reverse();
 	this.phrases = phrases;
-	this.endWords = lastWords;
+	if (lastWords !== undefined)
+	this.endWords = new Word(language,lastWords);
 	return this;
 }
 exports.sentenceInputToMatch = sentenceInputToMatch;
@@ -87,9 +90,6 @@ Sentence.prototype.isSuperset= function(language,input){
 	var matchPhrases = match.phrases;
 	var result = matchPhrases.every(function(matchPhrase){
 		if (!thisPhrases.some(function(phrase){
-				//console.log("phrase ")
-				//console.log(phrase);
-				//console.log("match "+matchPhrase);
 				return phrase.isSuperset(language,matchPhrase)
 			}))
 			return false;
@@ -154,14 +154,14 @@ Sentence.prototype.phraseFindDelete = phraseFindDelete;
 function phraseFindDelete(cases){
 	var index = this.indexOf(cases);
 	if (index === -1) /// if none
-		return this.sentence();/// return copy
+		return this;/// return itself
 	return this.phraseDel(index);
 }
 Sentence.prototype.byIndexPhraseDelete = byIndexPhraseDelete;
 function byIndexPhraseDelete(index){
 	err.indexCheck(this.phrases.length,index);
 	// remove phrase from array.
-	var sentence = this.copy();
+	var sentence = this;
 	sentence.phrases.splice(index,1);
 	return sentence;
 }
@@ -199,36 +199,19 @@ Sentence.prototype.byIndexPhraseSet = function(index,replacement){
 		phrase = replacement;
 	else throw new TypeError("unrecognized type");
 	// remove phrase from array.
-	var sentence = this.copy();
+	var sentence = this;
 	sentence.phrases.splice(index,1,phrase);
 	return sentence;
 }
-Sentence.prototype.copy = function(){
+Sentence.prototype.copy = function(language){
  	return new Sentence(language, JSON.parse(JSON.stringify(this)));
 }
-Sentence.prototype.toString = function(){
-	var joiner = '';
-	var ender = '';
-	var endWords = this.endWords;
-	if (tokenize.isWords(endWords)){
-		joiner = " ";
-		ender = '\n'
-	}
-	var string = new String();
-	var phrases = this.phrases;
-	var phrasesLength = phrases.length;
-	var i;
-	for (i=0; i<phrasesLength; i++)
-		string += phrases[i].toString();
-	string = string.concat(endWords.join(joiner),ender);
-	return string;
-};
-Sentence.prototype.toLocaleString = function(language){
-	var joiner = ' ';
+Sentence.prototype.toString = function(format){
+	var joiner = " ";
 	var ender = '\n';
 	var endWords = this.endWords;
-	//if (tokenize.isWords(endWords)){
-	//	joiner = " ";
+	//if (tokenize.isTokens(endWords)){
+	//	joiner = "";
 	//	ender = '\n'
 	//}
 	var string = new String();
@@ -236,10 +219,78 @@ Sentence.prototype.toLocaleString = function(language){
 	var phrasesLength = phrases.length;
 	var i;
 	for (i=0; i<phrasesLength; i++)
-		string += phrases[i].toLocaleString(language);
-	//console.log(endWords);
-	if (endWords !== undefined)
-	string = string.concat(endWords.join(joiner));
-	string += ender;
+		string += phrases[i].toString();
+	string = string.concat(endWords.toString(),ender);
 	return string;
+};
+Sentence.prototype.toLocaleString = function(language,format){
+// be convert bo sentence to language with format de
+// algorithm:
+// be set bo joiner and ender from format ya
+// be set bo empty string for translation result ya
+// be clone bo this sentence to working sentence ya
+//
+// be start of loop for each phrase in language phrase order de
+// be get bo phrase from working sentence ya 
+// if found then
+// be append bo phrase translation to result ya and
+// be delete bo phrase from sentence ya
+// be end of loop ya
+//
+// be loop for each phrase in working sentence de
+// be append bo phrase translation to result ya
+//
+// be translate bo end words ya 
+// be append to result ya
+// be append bo ender ya
+// return result ya
+//
+
+
+// be set bo joiner and ender from format ya
+	var joiner = ' ';
+	var ender = '\n';
+	if (format && format.newline) 
+		ender = format.newline;
+// be set bo empty string for translation result ya
+	var result = new String();
+// be clone bo this sentence to working sentence ya
+	var sentence = this.copy(language);
+//
+// be start of loop for each phrase in language phrase order de
+	var orderPhrases = language.grammar
+		.wordOrder.phraseOrder;
+	var orderPhrasesLength = orderPhrases.length;
+	var phrases = sentence.phrases;
+	var i;
+	var phraseIndex = -1;
+	for (i=0; i<orderPhrasesLength; i++){
+// be get bo phrase from working sentence ya 
+	phraseIndex = sentence.indexOf(language, orderPhrases[i]);
+// if found then
+	if (phraseIndex !== -1){
+// be append bo phrase translation to result ya and
+		result += phrases[phraseIndex]
+			.toLocaleString(language,format);
+// be delete bo phrase from sentence ya
+		sentence.phraseDelete(phraseIndex);
+	}
+// be end of loop ya
+	}
+//
+// be loop for each phrase in working sentence de
+	var phrasesLength = phrases.length;
+	for (i=0; i<phrasesLength; i++)
+// be append bo phrase translation to result ya
+	result += phrases[i].toLocaleString(language,format);
+// 
+// be translate bo end words ya 
+	var endWords = this.endWords.
+		toLocaleString(language,format);
+// be append to result ya
+	if (endWords !== undefined) result += endWords;
+// be append bo ender ya
+	result += ender;
+// return result ya
+	return result;
 };

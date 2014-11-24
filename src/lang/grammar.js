@@ -32,13 +32,14 @@ this.wordOrder.phraseOrder= wordOrder.phraseOrder;
 var mwakGrammar = {
 	be: "Grammar",
 	phraseWords: [".i",".a",".u","pi","kai","nia"],
-	sentenceWords: ["ya","do"],
-	typeWords: ["yi","te","ted"],
+	sentenceWords: ["ya","pa"],
+	typeWords: ["yi"],
 	quotes: {
 		singleWord: ["yi"],
-		multiWord: [["te","ted"]]
+		multiWord: []
 	},
 	wordOrder: {
+		headFinal: true,
 		verbFinal: true,
 		postpositional: true,
 		phraseOrder: [".u","ta",".a","ki",".i"]
