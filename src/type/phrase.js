@@ -27,22 +27,23 @@ function Phrase(language, input){
 			+" not valid for "+this.be);
 	// extract quotes
 	tokens = parse.quotesExtract(language,tokens);
-	//if (!tokenize.isTokens(tokens))
-	//	throw new TypeError("su Phrase be need bo tokens ya");
-	//this.string = tokens.join("");
-	//this.tokens = tokens;
-	//this.words = tokens.filter(isWord);
-	//if (tokenize.isWords(phrase)){
-	//this.string = input.join("");
-	//this.tokens = input.;
-	//this.words = input.filter(isWord);
-	//}
-	var lastWordIndex = parse.lastWordIndex(tokens);
-	//var lastWord = tokens[lastWordIndex];//
-	var lastWord = new Word(language, tokens[lastWordIndex]);
-	var previousTokens = tokens.slice(0,lastWordIndex)
-	this.content = new Type(language, previousTokens);//previousTokens;
-	this.caseWord = lastWord;
+	// parse last phrase
+	var grammar = language.grammar;
+	var lastPhrase = parse.lastPhrase(grammar,tokens);
+	// if postpositional last word is case
+	// if prepositional first word is case
+	var caseWordIndex = null;
+	var otherTokens = new Array();
+	if (language.grammar.wordOrder.postpositional){
+	caseWordIndex = lastPhrase.length-1;
+	otherTokens = lastPhrase.slice(0,caseWordIndex);
+	}
+	else {caseWordIndex = 0;
+		otherTokens = lastPhrase.slice(1);
+	}
+	this.content = new Type(language, otherTokens);
+	var caseWord = new Word(language, tokens[caseWordIndex]);
+	this.caseWord = caseWord;
 	////this.clause = new Sentence();
 	return this;
 }

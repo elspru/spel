@@ -30,31 +30,53 @@ function Sentence(language, input) {
 	//this.string = tokens.join("");
 	//this.tokens = tokens;
 // su sentence words be everytoken which be after bo last case ya
-	var lastCaseIndex = parse.lastCaseIndex(tokens);
-	if (lastCaseIndex === -1) parse.phraseError(tokens);
+	var grammar = language.grammar;
+	var lastCaseIndex = 
+		parse.lastCaseIndex(grammar, tokens);
+	if (lastCaseIndex === -1) 
+		parse.phraseError(grammar,tokens);
 	lastCaseIndex++;
 			
-	var lastWords = tokens.slice(lastCaseIndex,tokens.length);
-	var previousTokens = tokens.slice(0,lastCaseIndex)
+	// if postpositional, last words of sentence are at end
+	if (language.grammar.wordOrder.postpositional){
+	var lastWordStart = lastCaseIndex; //tokens.length-1;
+	var lastWord = tokens.slice(lastWordStart,tokens.length);
+	var otherTokens = tokens.slice(0,lastWordStart)
+	}
+	// if prepositional, last words of sentence are at start
+	else {
+		var firstCaseIndex = 
+			parse.firstCaseIndex(grammar,tokens);
+		lastWord = tokens[tokens.length-1];
+		if (!firstCaseIndex === 0) 
+	 	mood = [tokens.slice(0,firstCaseIndex)
+			 ,tokens[tokens.length-1]];
+
+		otherTokens = tokens.slice(firstCaseIndex,
+				tokens.length-firstCaseIndex);
+	}
+
 	var previousLength = 0;
 	var phrases = new Array();
 	var lastPhrase, phrase;
-	while (previousTokens.length>0 &&
-		previousTokens.length != previousLength){
+	var grammar = language.grammar;
+	while (otherTokens.length>0 &&
+		otherTokens.length != previousLength){
 	// avoid infinite loops from starter garbage
-		previousLength = previousTokens.length;
-		lastPhrase = parse.lastPhrase(previousTokens);
+		previousLength = otherTokens.length;
+		lastPhrase = parse.lastPhrase(grammar,
+				otherTokens);
 		if (lastPhrase.length === 0)
 			break;
 		phrase =  new Phrase(language, lastPhrase);
-		phrases.push(phrase);
-		previousTokens = previousTokens.slice(0,
-				previousTokens.length-lastPhrase.length)
+		phrases.unshift(phrase);
+		otherTokens = otherTokens.slice(0,
+		otherTokens.length-lastPhrase.length);
 	}
-	phrases.reverse();
+	//phrases.reverse();
 	this.phrases = phrases;
-	if (lastWords !== undefined)
-	this.endWords = new Word(language,lastWords);
+	if (lastWord !== undefined)
+	this.endWords = new Word(language,lastWord);
 	return this;
 }
 exports.sentenceInputToMatch = sentenceInputToMatch;
@@ -89,11 +111,10 @@ Sentence.prototype.isSuperset= function(language,input){
 	var thisPhrases = this.phrases;
 	var matchPhrases = match.phrases;
 	var result = matchPhrases.every(function(matchPhrase){
-		if (!thisPhrases.some(function(phrase){
-				return phrase.isSuperset(language,matchPhrase)
-			}))
-			return false;
-		return true;
+	 if (!thisPhrases.some(function(phrase){
+	  return phrase.isSuperset(language,matchPhrase)
+	 })) return false;
+	 else return true;
 	});
 	return result;
 }

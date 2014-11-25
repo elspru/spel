@@ -67,9 +67,20 @@ function surroundingQuoteParse(grammar,wordIndex,tokens){
 }
 /// be parse bo type de
 /// be parse bo phrase de
-exports.lastCaseIndex = lastCaseIndexParse.curry(grammar);
+exports.lastCaseIndex = lastCaseIndexParse;
 function lastCaseIndexParse(grammar,tokens){
-	var Index =tokens.rfind(wordMatch.curry(grammar.phraseWords));
+	if (!tokens.length) return -1;
+	var Index = tokens.rfind(
+			wordMatch.curry(grammar.phraseWords));
+	if (Index=== null)
+		return -1;
+	return Index;
+}
+exports.firstCaseIndex = firstCaseIndexParse;
+function firstCaseIndexParse(grammar,tokens){
+	if (!tokens.length) return -1;
+	var Index = tokens.find(
+			wordMatch.curry(grammar.phraseWords));
 	if (Index=== null)
 		return -1;
 	return Index;
@@ -83,7 +94,7 @@ function lastSentenceWordIndexParse(grammar,tokens){
 }
 
 exports.phraseError = phraseError;
-function phraseError(tokens){
+function phraseError(grammar,tokens){
 		throw new Error("su quo te "+tokens.join(" ")+" quo ted"
 			+" be lack ob valid phrase ender"
 			+" like one of ar wu "
@@ -91,32 +102,60 @@ function phraseError(tokens){
 			+" ya");
 }
 /// su first phrase be parse ya
-exports.firstPhrase = firstPhraseParse.curry(grammar);
+exports.firstPhrase = firstPhraseParse;
 function firstPhraseParse(grammar,tokens){
 	var phraseEnder = tokens.find(wordMatch.curry(grammar.phraseWords));
-	if (phraseEnder === null) phraseError(tokens);
+	if (phraseEnder === null) phraseError(grammar, tokens);
 	var previousSlice = tokens.slice(0,phraseEnder+1);
 	return lastPhraseParse(grammar,previousSlice);
 }
 
 /// su last phrase be parse ya
-exports.lastPhrase = lastPhraseParse.curry(grammar);
+exports.lastPhrase = lastPhraseParse;
 function lastPhraseParse(grammar,tokens){
+// algorithm:
+// 	be find ob last case index ya
+//	if postpositional
+//		get previous slice, previous case, 
+//			previous sentence ender
+//		make available one start, else 0 is start
+//	if prepositional
+//		get sentence ender
+//		if available make end, else length is end
+//
+//
 	var lastCaseIndexP = lastCaseIndexParse.curry(grammar);
-	if (lastCaseIndexP === -1) phraseError();
-	var phraseEnder = lastCaseIndexP(tokens);
-	var end = phraseEnder+1;
-	var previousSlice = tokens.slice(0,phraseEnder);
-	var previousCase = lastCaseIndexParse(grammar,previousSlice);
+	var phraseWordIndex = lastCaseIndexP(tokens);
+	if (phraseWordIndex === -1) phraseError(grammar, tokens);
+	var start, end;
+//	if postpositional
+	if (grammar.wordOrder.postpositional){
+//		get previous slice, previous case, 
+	end = phraseWordIndex+1;
+	var previousSlice = tokens.slice(0,phraseWordIndex);
+	var previousCase = lastCaseIndexP(previousSlice);
+//			previous sentence ender
 	var previousSentenceEnder = lastSentenceWordIndexParse
 		(grammar,previousSlice);
-	var start;
+//		make available one start, else 0 is start
 	if (previousCase <= previousSentenceEnder)
 		start = previousSentenceEnder+1;
 	else if(previousCase === -1 && 
 			previousSentenceEnder === -1)
 		start = 0;
 	else start = previousCase+1;
+	}
+//	if prepositional
+	else {
+		start = phraseWordIndex;
+//		get sentence ender
+	var sentenceEnderIndex = lastSentenceWordIndexParse(
+			grammar,tokens);
+//		if available make end, else length is end
+	if (sentenceEnderIndex !== -1)
+		end = sentenceEnderIndex;
+	else end = tokens.length;
+	}
 	return tokens.slice(start,end);
 }
 
@@ -176,7 +215,9 @@ function quotesExtract(language, tokens){
 	var quoteExtractedTokens = new Array();
 	var i = tokens.length-1, 
 	    thisToken, quote;
+	// if type final
 	// go backwards through tokens
+	if (language.grammar.wordOrder.typeFinal){
 	for (i; i >= 0; i--){
 		thisToken = tokens[i];
 		if (i===0) quoteExtractedTokens.unshift(thisToken);
@@ -186,41 +227,22 @@ function quotesExtract(language, tokens){
 			i--;
 		}
 		else quoteExtractedTokens.unshift(thisToken);
+	}}
+	// else go forwards
+	else { // type initial
+	for (i=0; i < tokens.length; i++){
+		thisToken = tokens[i];
+		if (i===tokens.length-1) 
+			quoteExtractedTokens.push(thisToken);
+		else if (wordMatch(singleQuotes,thisToken)){
+			quote = new Type(language,
+					[thisToken,tokens[i+1]])
+			quoteExtractedTokens.push(quote);
+			i++;
+		}
+		else quoteExtractedTokens.push(thisToken);
+	}
 	}
 	return quoteExtractedTokens;
-	//return tokens.expand(function(token,index,tokenArray){
-	//	var prevToken=tokenArray[index-1];
-	//	var thisToken=token;//tokenArray[index];
-	//	var nextToken=tokenArray[index+1];
-	//	var nextNextToken=tokenArray[index+2];
-	//	// yi yi yi yi edge case not supported ya
-	//	var prevTokenQuoteBool  = wordMatch(singleQuotes,prevToken);
-	//	var thisTokenQuoteBool  = wordMatch(singleQuotes,thisToken);
-	//	var nextTokenQuoteBool  = wordMatch(singleQuotes,nextToken);
-	//	if ( prevTokenQuoteBool
-	//		&& thisTokenQuoteBool
-	//		&& nextTokenQuoteBool)
-	//		throw Error("too many single word quote "
-	//			+ "words in a row ya\n"+thisToken
-	//			+nextToken+" "+nextNextToken+'\n'
-	//			+"use multi word quote instead please ya");
-	//	// be use bo multi word quote instead do
-	//	//// if previous quote and this quote
-	//	////  then return quote
-	//	//if (wordMatch(singleQuotes,prevToken)
-	//	//	&& wordMatch(singleQuotes,thisToken))
-	//	//	return String(prevToken+" "+thisToken);
-
-	//	// if followed by quote word that isn't quoted
-	//	//  then skip
-	//	if (nextTokenQuoteBool)
-//	//		&& !wordMatch(singleQuotes,nextNextToken))
-	//		return null;
-	//	// if is quote then return quote;
-	//	if (thisTokenQuoteBool)
-	//		return String(prevToken+" "+thisToken);
-	//	// else return this token
-	//	return thisToken;
-	//});
 	
 }

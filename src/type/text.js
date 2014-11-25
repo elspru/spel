@@ -98,8 +98,10 @@ function sentenceFindAllGet(language,input){
 	var match = sentenceInputToMatch(language,input);
 	// filter sentences with
 	// if isLike match, then return
-	var sentences = this.sentences.filter(function(sentence){
-		return sentence.isLike(language,match)});
+	var sentences = this.sentences.filter(
+	  function(sentence){
+		return sentence.isLike(language,match);
+	   });
 	var newText = new Text(language, sentences.join("\n"));
 	return newText;
 }

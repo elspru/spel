@@ -19,6 +19,7 @@ var grammar = new Grammar();
 var engDict = new Dictionary(mwak,text);
 var engWordOrder = {
 	verbFinal : true,
+	typeFinal : false,
 	postpositional : false,
 	phraseOrder: [".u","ta",".a","ki",".i"]
 };

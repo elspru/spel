@@ -9556,3 +9556,44 @@ to mwak.
 0652 have to change order of language,input grammar,input
 since it is causing too many errors when I forget to enter
 grammar/language, since it is often superfluous. 
+0655 I think somewhere deep, maybe in word, it uses grammar for
+even simple stuff. will have to give it a mwak default perhaps.
+1047 that is a trivial problem, I think I just have to ignore
+for now, have to press ahead with things that actually improve
+the output or functionality is some manner. 
+1048 as appetizer I can get type ordering properly, so the
+english dictionary output is more readable. 
+1106 anyways it works for single word quotes, but not if a
+second word is put in there, so there is an error in parsing.
+Thus we can also put in pre words also.
+1123 well I guess it's ungrammatical anyways, so we'll just
+focus on it being proper when grammatical.
+1134 okay so now gotta make quote parsing work with the eng
+word.
+1153 okay it is working for quote extraction ya
+next lets get it working for phrase ya
+1213 updated in phrase.js now have to update in parse.js
+1243 is a toughy
+1315 hmmm seems dictionary not loading properly.
+1317 text select may be at issue.
+2122 select works if one case is matched but not two
+2127 seems like sentence.isSuperset only returns true if last
+case matches.
+} 25 Nov 2014
+0556 okay got dictionary back to functional.
+0702 okay pretty much working, 
+but doesn't have full mood/junction support.
+0705 next can add mood support, and then add it to browser.
+0707 oh actually I'm also missing word translation,
+have to translate the words from english.
+0713 okay done  :-);
+0938 after ar mood clauses junctions posession
+be able ob tha be write ob like in english ya
+0954 su basic junction design de
+if su a junction word 
+at start of phrase in postpositional 
+or at end of phrase in prepositional ya
+in example de
+mi .u ki tu .u ya
+su me and su thee ya
+

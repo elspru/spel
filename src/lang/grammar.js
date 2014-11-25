@@ -41,6 +41,7 @@ var mwakGrammar = {
 	wordOrder: {
 		headFinal: true,
 		verbFinal: true,
+		typeFinal: true,
 		postpositional: true,
 		phraseOrder: [".u","ta",".a","ki",".i"]
 	}

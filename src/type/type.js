@@ -31,12 +31,25 @@ function Type(language,input){
 	var firstToken = tokens[0];
 	if (typeof firstToken === "object") // such as Quote
 		return firstToken;
-	var lastWord = tokens[tokensLength-1];
+	var typeWord = new String();
+	var otherTokens = new Array();
+	// if type Final type word is last word
+	// else it is first word
+	if (language.grammar.wordOrder.typeFinal){
+		var index = tokensLength-1;
+		typeWord = tokens[index];
+		otherTokens = tokens.slice(0,index);
+	}
+	else {	typeWord = tokens[0];
+		otherTokens = tokens.slice(1);
+	}
+
 	// if last word is typeword then set it
 	if (language 
-	   && parse.wordMatch(language.grammar.typeWords,lastWord)){
-		this.content = new Word(language, tokens.slice(0,tokensLength-1));
-		this.typeWord = new Word(language, lastWord);
+	   && parse.wordMatch(language.grammar.typeWords,
+		   typeWord)){
+		this.content = new Word(language, otherTokens);
+		this.typeWord = new Word(language, typeWord);
 	}
 	// else return all tokens as word
 	else this.content = new Word(language, tokens);
@@ -91,9 +104,20 @@ Type.prototype.toString = function(){
 Type.prototype.valueGet = function(){
 	return this.content.toString();
 }
-Type.prototype.toLocaleString = function(language){
+Type.prototype.toLocaleString = function(language, format){
+	var result = 
+		this.content.toLocaleString(language, format);
 	if (this.typeWord === undefined) 
-		return this.content.toLocaleString(language);
-	return String(this.content.toLocaleString(language)+" "
-		+this.typeWord.toLocaleString(language));
+		return result;
+	// else check type order, append if true, prepend if
+	// false.
+	var joiner = " ";
+	var typeTransl = 
+		this.typeWord.toLocaleString(language, format);
+	console.log(typeTransl);
+	if (language.grammar.wordOrder.typeFinal)
+	  result += joiner + typeTransl ;
+	else result = typeTransl + joiner + result;
+	return result;
+	
 }

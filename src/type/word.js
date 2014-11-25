@@ -2,7 +2,7 @@ var tokenize = require("../compile/tokenize");
 var translate = require("../compile/translate");
 var emitter = require("events").EventEmitter;
 module.exports = Word;
-var emi = new emitter();
+//var emi = new emitter();
 //this.e = emi;
 //translate.e.on("warn",function(err){
 //	emi.emit("warn",err);});
@@ -25,10 +25,14 @@ function Word(language,input){
 	else throw new TypeError(JSON.stringify(input)+" unknown to "+this.be);
 	var tokensLength = tokens.length;
 	var lastTokenIndex = tokensLength-1;
+	var transDict = language.dictionary.toMwak;
 	if (tokensLength > 1){
-		this.adwords = tokens.slice(0,lastTokenIndex);
+		var words = tokens.slice(0,lastTokenIndex)
+		this.adwords = translate.array(transDict,words);
+		//this.adwords =(		adwords);
 	}
-	this.lemma = tokens[lastTokenIndex];
+	this.lemma = translate.word(transDict,
+			tokens[lastTokenIndex]);
 	return this;
 }
 Word.prototype.copy = function(){
@@ -54,7 +58,6 @@ Word.prototype.isSuperset = function(language,input){
 	if (match.adwords !== undefined
 	   && !this.adwords.isSuperset(match.adwords))
 		return false;
-	//console.log(match.lemma+" "+this.lemma);
 	return true;
 }
 Word.prototype.isSubset = function(language,input){
@@ -67,21 +70,32 @@ Word.prototype.toString = function(){
 	var string = new String();
 	if (this.adwords !== undefined)
 		string = this.adwords.join(" ")+" ";
+	if (this.lemma !== undefined)
 	string += this.lemma;
 	return string;
 };
-Word.prototype.toLocaleString = function(language){
+Word.prototype.toLocaleString = function(language,format){
 	var translation = new String();
+	var joiner = " ";
+	var verbFinal = language.grammar.wordOrder.verbFinal;
 	var dict = language.dictionary.fromMwak;
 	if (this.adwords !== undefined){
-	var i, transl;
+	var i, transl, adword;
 	for (i=0;i<this.adwords.length;i++){
-		console.log(this.adwords[i]);
-		transl = translate.word(dict,this.adwords[i]);
-		translation+= transl+" ";
+		adword = this.adwords[i];
+		if (false && typeof adword === "object")
+			adword.toLocaleString(language,format);
+		else transl = translate.word(dict,adword);
+		if (verbFinal) translation+= transl+joiner;
+		else translation = joiner+transl+translation;
 	}
 	}
-	transl = translate.word(dict,this.lemma);
-	translation += transl;
+	var lemma = this.lemma;
+	if (lemma === undefined) lemma = "";
+	if (false && typeof lemma === "object")
+		transl = lemma.toLocaleString(language,format);
+	else transl = translate.word(dict,lemma);
+	if (verbFinal) translation += transl;
+	else translation = transl + translation;
 	return translation;
 }

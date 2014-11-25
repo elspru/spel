@@ -28,29 +28,34 @@ var mwak = new Language();
 //var nsentence = new Text(sentence);
 //console.log("nsent"+JSON.stringify(nsentence));
 
+//var phrase = new Sentence(mwak,"mi .u mao .a lai kai ya");
+//console.log(JSON.stringify(phrase));
+//console.log(phrase.isSuperset(mwak,"kai"));
 //var file = JSON.parse(io.fileRead("vocab-mwak-C4bit.txt.json"));
 var file = io.fileRead("vocab-mwak-C16glyph.txt");
+console.log("file loaded");
 var text = new Text(mwak,file);
-//////console.log(String(text));
-////////console.log(String(text));
+console.log("text loaded");
 var dict = new Dictionary(mwak,text);
+console.log("dict loaded");
 var wordOrder = {
 	headFinal : false,
 	verbFinal : true,
+	typeFinal : false,
 	postpositional : false,
 	phraseOrder: [".u",".i","ta",".a"]
 };
+//console.log(dict.fromMwak);
 var grammar = new Grammar(wordOrder,dict);
+console.log("grammar loaded");
 var eng = new Language(grammar,dict);
+console.log("english language loaded");
 
-//console.log(text.toString(eng));
-console.log(text.toLocaleString(eng));
-//console.log(word);
-//var emitter = require("events").EventEmitter;
-//var d = require("domain").create();
-//d.on("warn",function(err){console.log(err)});
-//d.on("error",function(err){console.log(err)});
-//d.run(function(){
-var word = new Text(mwak,"mi .u sla munt .a mwa .i pa ");
+//var word = new Text(mwak,"mi .u sla munt .a mwa .i .ia yi kai pa ");
+//	console.log(eng.grammar.phraseWords);
+var string = ":-) su wu me be love ob hello world ya"
+var tokens = tokenize.stringToWords(string);
+var word = new Sentence(eng,string);
 console.log(word.toString());
+console.log(JSON.stringify(word));
 console.log(word.toLocaleString(eng));
