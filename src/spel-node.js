@@ -53,7 +53,7 @@ console.log("english language loaded");
 
 //var word = new Text(mwak,"mi .u sla munt .a mwa .i .ia yi kai pa ");
 //	console.log(eng.grammar.phraseWords);
-var string = ":-) su wu me be love ob hello world ya"
+var string = "su me be say ob hello world ya"
 var tokens = tokenize.stringToWords(string);
 var word = new Sentence(eng,string);
 console.log(word.toString());

@@ -9596,4 +9596,9 @@ or at end of phrase in prepositional ya
 in example de
 mi .u ki tu .u ya
 su me and su thee ya
+1555 almost have multi language input working in browser ya
+but su extra last case artifact in output ya
+1603 seems related to preliminary mood programing artifacts ya
+1632 okay want to update vocabUpdate with new dictionary names
+ya
 

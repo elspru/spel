@@ -21,7 +21,7 @@ var engWordOrder = {
 	verbFinal : true,
 	typeFinal : false,
 	postpositional : false,
-	phraseOrder: [".u","ta",".a","ki",".i"]
+	phraseOrder: [".u",".i","ta",".a","ki"]
 };
 
 var engGrammar = new Grammar(engWordOrder,engDict);
@@ -55,6 +55,10 @@ function submitInput(userInput){
 		toLangDict = eng;
 	if (toLangv === "mwak")
 		toLangDict = mwak;
+	if (fromLangv === "en")
+		fromLangDict = eng;
+	if (fromLangv === "mwak")
+		fromLangDict = mwak;
 	try{
 	var text = new Text(fromLangDict,userInput);
 	var translation = text.toLocaleString(toLangDict);

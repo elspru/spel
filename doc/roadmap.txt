@@ -10,11 +10,11 @@
 0.2.6 view dictionary support (19 Nov 2014)
 0.2.7 format for html output (19 Nov 2014)
 0.2.8 phrase sort by case (20 Nov 2014)
-
-0.3 hello world translation from mwak variant to mwak  (25 Nov
+0.3.0 hello world translation from mwak variant to mwak  (25 Nov
 2014)
-0.3.1 mood support
-0.3.2 variable input in browser support
+0.3.1 multi language input in browser support (25 Nov 2014)
+
+0.3.2 mood support
 0.3.4 support for clauses
 0.3.5 performance grammar phrase ordering
 0.3.6 multiple dictionary files support.
@@ -24,5 +24,6 @@
 0.4.4 junctions
 0.5 conjugation support for natural-like output
 0.5.1 spaceless mwak tokenization
-0.5.2 conjugation dictionary
+0.5.4 conjugation dictionary
+0.5.8 contractions
 

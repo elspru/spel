@@ -20,13 +20,16 @@ var debug = false;
 var amount = 4;
 var langDir = "../doc/lang/";
 var fileStem = "vocab-mwak-";
-var fileSuffix = "bit.txt";
+var fileSuffix = "glyph.txt";
 var COrig, XOrig, CFilename, XFilename,
     CText, XText, XPText, CPText,
     definitions, sentence, phrase;
 var i,j;
 function textUpdate(theText,sentence){
 	//sentence = text.sentences[j];
+k
+	//console.log(String(sentence));
+k sla munt .i ya 
 	//console.log(String(sentence));
 	var matchPhrase = String(sentence.phraseGet(mwak,".u"));
 	theText.sentenceUpdate(mwak,matchPhrase,sentence);

@@ -49,11 +49,9 @@ function Sentence(language, input) {
 			parse.firstCaseIndex(grammar,tokens);
 		lastWord = tokens[tokens.length-1];
 		if (!firstCaseIndex === 0) 
-	 	mood = [tokens.slice(0,firstCaseIndex)
-			 ,tokens[tokens.length-1]];
-
+	 	mood = tokens.slice(0,firstCaseIndex);
 		otherTokens = tokens.slice(firstCaseIndex,
-				tokens.length-firstCaseIndex);
+				tokens.length-firstCaseIndex-1);
 	}
 
 	var previousLength = 0;
