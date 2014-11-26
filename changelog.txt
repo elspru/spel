@@ -9599,6 +9599,11 @@ su me and su thee ya
 1555 almost have multi language input working in browser ya
 but su extra last case artifact in output ya
 1603 seems related to preliminary mood programing artifacts ya
+1631 has been resolved ya
 1632 okay want to update vocabUpdate with new dictionary names
 ya
+} 26 Nov 2014
+0520 updated :-) ya now for mood support ya
+0555 ha su spel be have ob mood support time-at now ya
+0556 now for clause support ya
 

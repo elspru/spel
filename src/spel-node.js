@@ -53,9 +53,9 @@ console.log("english language loaded");
 
 //var word = new Text(mwak,"mi .u sla munt .a mwa .i .ia yi kai pa ");
 //	console.log(eng.grammar.phraseWords);
-var string = "su me be say ob hello world ya"
+var string = "ha su me be say ob hello world ya"
 var tokens = tokenize.stringToWords(string);
-var word = new Sentence(eng,string);
+var word = new Text(eng,string);
 console.log(word.toString());
 console.log(JSON.stringify(word));
 console.log(word.toLocaleString(eng));

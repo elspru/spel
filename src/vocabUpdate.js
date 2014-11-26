@@ -21,22 +21,20 @@ var amount = 4;
 var langDir = "../doc/lang/";
 var fileStem = "vocab-mwak-";
 var fileSuffix = "glyph.txt";
+var fileNumbers = ["2","4","8","16"];
 var COrig, XOrig, CFilename, XFilename,
     CText, XText, XPText, CPText,
     definitions, sentence, phrase;
 var i,j;
 function textUpdate(theText,sentence){
 	//sentence = text.sentences[j];
-k
-	//console.log(String(sentence));
-k sla munt .i ya 
 	//console.log(String(sentence));
 	var matchPhrase = String(sentence.phraseGet(mwak,".u"));
 	theText.sentenceUpdate(mwak,matchPhrase,sentence);
 }
-for (i=1;i<=amount;i++){
-	CFilename = "./vocab-mwak-C"+i+"bit.txt";
-	XFilename = "./vocab-mwak-X"+i+"bit.txt";
+for (i=0;i<amount;i++){
+	CFilename = fileStem+"C"+fileNumbers[i]+fileSuffix;
+	XFilename = fileStem+"X"+fileNumbers[i]+fileSuffix;
 	COrig = io.fileRead(CFilename);
 	//JSON.parse(io.fileRead(CFilename+".json"));
 	XOrig = io.fileRead(XFilename);

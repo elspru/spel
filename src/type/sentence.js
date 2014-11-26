@@ -13,16 +13,19 @@ function Sentence(language, input) {
 		tokens = tokenize.stringToWords(input);}
 	else if (typeof input === "object"
 		&& input.be === "Sentence"){
-		this.phrases = new Array();
-		for (i=0; i< input.phrases.length; i++)
-			this.phrases[i]=
-			new Phrase(language, input.phrases[i]);
-		if (input.endWords)
-		this.endWords= new Word(language, input.endWords);
-		return this;
+	this.phrases = new Array();
+	for (i=0; i< input.phrases.length; i++)
+		this.phrases[i]=
+		new Phrase(language, input.phrases[i]);
+	if (input.endWords)
+	this.endWords= new Word(language, input.endWords);
+	if (input.mood)
+	this.mood = new Word(language, input.mood);
+	return this;
 	}
 	else if (Array.isArray(input)) tokens = input;
-	else throw new TypeError(input+" is not a valid Phrase input");
+	else throw new TypeError(input
+			+" is not a valid Phrase input");
 	// extract quotes
 	tokens = parse.quotesExtract(language,tokens);
 	//if (!tokenize.isTokens(tokens))
@@ -36,22 +39,24 @@ function Sentence(language, input) {
 	if (lastCaseIndex === -1) 
 		parse.phraseError(grammar,tokens);
 	lastCaseIndex++;
-			
+	var lastWord, otherTokens, mood;		
 	// if postpositional, last words of sentence are at end
-	if (language.grammar.wordOrder.postpositional){
-	var lastWordStart = lastCaseIndex; //tokens.length-1;
-	var lastWord = tokens.slice(lastWordStart,tokens.length);
-	var otherTokens = tokens.slice(0,lastWordStart)
+	if (grammar.wordOrder.postpositional){
+	var lastWordStart = tokens.length-1;
+	lastWord = tokens.slice(lastWordStart,tokens.length);
+	if (lastWordStart != lastCaseIndex)
+	mood = tokens.slice(lastCaseIndex,lastWordStart);
+	otherTokens = tokens.slice(0,lastCaseIndex);
 	}
 	// if prepositional, last words of sentence are at start
 	else {
 		var firstCaseIndex = 
 			parse.firstCaseIndex(grammar,tokens);
 		lastWord = tokens[tokens.length-1];
-		if (!firstCaseIndex === 0) 
+		if (firstCaseIndex !== 0) 
 	 	mood = tokens.slice(0,firstCaseIndex);
 		otherTokens = tokens.slice(firstCaseIndex,
-				tokens.length-firstCaseIndex-1);
+				tokens.length-firstCaseIndex);
 	}
 
 	var previousLength = 0;
@@ -73,6 +78,8 @@ function Sentence(language, input) {
 	}
 	//phrases.reverse();
 	this.phrases = phrases;
+	if (mood !== undefined)
+	this.mood = new Word(language,mood);
 	if (lastWord !== undefined)
 	this.endWords = new Word(language,lastWord);
 	return this;
@@ -226,21 +233,26 @@ Sentence.prototype.copy = function(language){
  	return new Sentence(language, JSON.parse(JSON.stringify(this)));
 }
 Sentence.prototype.toString = function(format){
-	var joiner = " ";
-	var ender = '\n';
+	var joiner = ' ';
+	var mood = this.mood;
 	var endWords = this.endWords;
+	var ender = '\n';
 	//if (tokenize.isTokens(endWords)){
 	//	joiner = "";
 	//	ender = '\n'
 	//}
-	var string = new String();
+	var result = new String();
 	var phrases = this.phrases;
 	var phrasesLength = phrases.length;
 	var i;
 	for (i=0; i<phrasesLength; i++)
-		string += phrases[i].toString();
-	string = string.concat(endWords.toString(),ender);
-	return string;
+		result += phrases[i].toString();
+	if (mood)
+	result += mood.toString()+joiner;
+	if (endWords)
+	result += endWords.toString();
+	result += ender;
+	return result;
 };
 Sentence.prototype.toLocaleString = function(language,format){
 // be convert bo sentence to language with format de
@@ -249,6 +261,7 @@ Sentence.prototype.toLocaleString = function(language,format){
 // be set bo empty string for translation result ya
 // be clone bo this sentence to working sentence ya
 //
+// if prepositional then translate mood and append to result
 // be start of loop for each phrase in language phrase order de
 // be get bo phrase from working sentence ya 
 // if found then
@@ -259,6 +272,7 @@ Sentence.prototype.toLocaleString = function(language,format){
 // be loop for each phrase in working sentence de
 // be append bo phrase translation to result ya
 //
+// if postpositional then translate mood and append to result
 // be translate bo end words ya 
 // be append to result ya
 // be append bo ender ya
@@ -275,10 +289,15 @@ Sentence.prototype.toLocaleString = function(language,format){
 	var result = new String();
 // be clone bo this sentence to working sentence ya
 	var sentence = this.copy(language);
+	var grammar = language.grammar;
+	var wordOrder = grammar.wordOrder;
+	var mood = this.mood;
 //
+// if prepositional then translate mood and append to result
+	if (mood && wordOrder.postpositional === false)
+	result+=mood.toLocaleString(language,format)+joiner;
 // be start of loop for each phrase in language phrase order de
-	var orderPhrases = language.grammar
-		.wordOrder.phraseOrder;
+	var orderPhrases = wordOrder.phraseOrder;
 	var orderPhrasesLength = orderPhrases.length;
 	var phrases = sentence.phrases;
 	var i;
@@ -303,6 +322,9 @@ Sentence.prototype.toLocaleString = function(language,format){
 // be append bo phrase translation to result ya
 	result += phrases[i].toLocaleString(language,format);
 // 
+// if postpositional then translate mood and append to result
+	if (mood && wordOrder.postpositional === true)
+	result+=mood.toLocaleString(language,format)+joiner;
 // be translate bo end words ya 
 	var endWords = this.endWords.
 		toLocaleString(language,format);
