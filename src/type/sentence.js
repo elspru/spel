@@ -19,7 +19,7 @@ function Sentence(language, input) {
 		new Phrase(language, input.phrases[i]);
 	if (input.endWords)
 	this.endWords= new Word(language, input.endWords);
-	if (input.mood)
+	if (input.mood !== undefined)
 	this.mood = new Word(language, input.mood);
 	return this;
 	}
@@ -34,25 +34,34 @@ function Sentence(language, input) {
 	//this.tokens = tokens;
 // su sentence words be everytoken which be after bo last case ya
 	var grammar = language.grammar;
+	var wordOrder = grammar.wordOrder;
 	var lastCaseIndex = 
 		parse.lastCaseIndex(grammar, tokens);
 	if (lastCaseIndex === -1) 
 		parse.phraseError(grammar,tokens);
 	lastCaseIndex++;
-	var lastWord, otherTokens, mood;		
+	var lastWord = undefined, 
+	    otherTokens = undefined, 
+	    mood = undefined;		
 	// if postpositional, last words of sentence are at end
-	if (grammar.wordOrder.postpositional){
-	var lastWordStart = tokens.length-1;
-	lastWord = tokens.slice(lastWordStart,tokens.length);
-	if (lastWordStart != lastCaseIndex)
+	if (wordOrder.postpositional){
+	var lastWordStart = parse.lastSentenceWordIndex(
+			grammar,tokens);
+	if (lastWord!==-1){
+	lastWord = tokens.slice(lastWordStart,lastWordStart+1);
+	if (lastWordStart < lastCaseIndex+1)
 	mood = tokens.slice(lastCaseIndex,lastWordStart);
+	}
 	otherTokens = tokens.slice(0,lastCaseIndex);
 	}
 	// if prepositional, last words of sentence are at start
 	else {
 		var firstCaseIndex = 
 			parse.firstCaseIndex(grammar,tokens);
-		lastWord = tokens[tokens.length-1];
+		var lastWordI = 
+		parse.lastSentenceWordIndex(grammar,tokens);
+		if (lastWordI !== -1)
+		lastWord = tokens[lastWordI];
 		if (firstCaseIndex !== 0) 
 	 	mood = tokens.slice(0,firstCaseIndex);
 		otherTokens = tokens.slice(firstCaseIndex,
@@ -62,25 +71,36 @@ function Sentence(language, input) {
 	var previousLength = 0;
 	var phrases = new Array();
 	var lastPhrase, phrase;
-	var grammar = language.grammar;
+	// if clause initial get via last phrases
+	// if clause final get via first phrases
 	while (otherTokens.length>0 &&
 		otherTokens.length != previousLength){
 	// avoid infinite loops from starter garbage
 		previousLength = otherTokens.length;
+	if (wordOrder.clauseInitial===true){
 		lastPhrase = parse.lastPhrase(grammar,
 				otherTokens);
-		if (lastPhrase.length === 0)
-			break;
+		if (lastPhrase.length === 0) break;
 		phrase =  new Phrase(language, lastPhrase);
 		phrases.unshift(phrase);
 		otherTokens = otherTokens.slice(0,
 		otherTokens.length-lastPhrase.length);
+	}else{
+		if (parse.firstCaseIndex(grammar,otherTokens) 
+				=== -1)
+		       	break;
+		lastPhrase = parse.firstPhrase(grammar,
+				otherTokens);
+		phrase = new Phrase(language, lastPhrase);
+		phrases.push(phrase);
+		otherTokens = otherTokens.slice(
+				lastPhrase.length);
 	}
-	//phrases.reverse();
+	}
 	this.phrases = phrases;
-	if (mood !== undefined)
+	if (mood && mood.length>0)
 	this.mood = new Word(language,mood);
-	if (lastWord !== undefined)
+	if (lastWord && lastWord.length>0)
 	this.endWords = new Word(language,lastWord);
 	return this;
 }
@@ -95,7 +115,8 @@ function sentenceInputToMatch(language, input){
 }
 Sentence.prototype.isSubset = function(language,input){
 	var match = sentenceInputToMatch(language,input);
-	if (!this.endWords.isSubset(match.endWords))
+	if (this.endWords &&
+		!this.endWords.isSubset(match.endWords))
 		return false;
 	// check phrases are a subset
 	var thisPhrases = this.phrases;
@@ -110,7 +131,8 @@ Sentence.prototype.isSubset = function(language,input){
 }
 Sentence.prototype.isSuperset= function(language,input){
 	var match = sentenceInputToMatch(language,input);
-	if (!this.endWords.isSuperset(match.endWords))
+	if (this.endWords && 
+		!this.endWords.isSuperset(match.endWords))
 		return false;
 	// check phrases are a subset
 	var thisPhrases = this.phrases;
@@ -236,7 +258,7 @@ Sentence.prototype.toString = function(format){
 	var joiner = ' ';
 	var mood = this.mood;
 	var endWords = this.endWords;
-	var ender = '\n';
+	var ender = '';
 	//if (tokenize.isTokens(endWords)){
 	//	joiner = "";
 	//	ender = '\n'
@@ -282,9 +304,7 @@ Sentence.prototype.toLocaleString = function(language,format){
 
 // be set bo joiner and ender from format ya
 	var joiner = ' ';
-	var ender = '\n';
-	if (format && format.newline) 
-		ender = format.newline;
+	var ender = '';
 // be set bo empty string for translation result ya
 	var result = new String();
 // be clone bo this sentence to working sentence ya
@@ -304,7 +324,8 @@ Sentence.prototype.toLocaleString = function(language,format){
 	var phraseIndex = -1;
 	for (i=0; i<orderPhrasesLength; i++){
 // be get bo phrase from working sentence ya 
-	phraseIndex = sentence.indexOf(language, orderPhrases[i]);
+	phraseIndex = sentence.indexOf(language, 
+			orderPhrases[i]);
 // if found then
 	if (phraseIndex !== -1){
 // be append bo phrase translation to result ya and
@@ -318,18 +339,21 @@ Sentence.prototype.toLocaleString = function(language,format){
 //
 // be loop for each phrase in working sentence de
 	var phrasesLength = phrases.length;
-	for (i=0; i<phrasesLength; i++)
+	for (i=0; i<phrasesLength; i++){
 // be append bo phrase translation to result ya
 	result += phrases[i].toLocaleString(language,format);
+	}
 // 
 // if postpositional then translate mood and append to result
 	if (mood && wordOrder.postpositional === true)
 	result+=mood.toLocaleString(language,format)+joiner;
 // be translate bo end words ya 
+	if (this.endWords){
 	var endWords = this.endWords.
-		toLocaleString(language,format);
+	toLocaleString(language,format);
 // be append to result ya
-	if (endWords !== undefined) result += endWords;
+	result += endWords;
+	}
 // be append bo ender ya
 	result += ender;
 // return result ya

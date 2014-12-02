@@ -117,6 +117,7 @@ Array.prototype.stencil = function(/*array*/offsets,func){
 // map
 // reduce
 /// su find be based on find from EcmaScript 6 ya
+/// be return ob index or null ya
 Array.prototype.find = function(func){
 	if (typeof func != "function")
 		throw new TypeError("su find be need by function ya");

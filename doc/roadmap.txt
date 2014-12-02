@@ -13,17 +13,20 @@
 0.3.0 hello world translation from mwak variant to mwak  (25 Nov
 2014)
 0.3.1 multi language input in browser support (25 Nov 2014)
-0.3.2 mood support (26 Nov 2014)
+0.3.2 sentence mood support (26 Nov 2014)
+0.3.3 support for phrase clauses (01 Dec 2014)
 
-0.3.4 support for clauses
+0.3.4 support for conditional clauses
 0.3.5 performance grammar phrase ordering
-0.3.6 multiple dictionary files support
-0.3.7 move ender formating to text out of sentence.
-0.3.8 posession
-0.4 multi sentence quotes
-0.4.4 junctions
-0.5 conjugation support for natural-like output
+0.3.8 posession or genitives
+0.3.C junctions
+0.4.0 word quotes
+0.4.4 number quotes
+0.4.8 multi word quotes
+0.4.C multi sentence quotes
+0.5.0 multiple dictionary files support
 0.5.1 spaceless mwak tokenization
 0.5.4 conjugation dictionary
-0.5.8 contractions
+0.5.8 conjugation support for natural-like output
+0.5.C contractions
 

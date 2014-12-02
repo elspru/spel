@@ -159,22 +159,26 @@ function byIndexSentenceUpdate(language,index,replacement){
 	return newText;
 }
 Text.prototype.toString = function(format){
-	var string = new String();
+	var result = new String();
+	var newline = '\n';
+	if (format && format.newline) newline = format.newline;
 	var sentences = this.sentences;
 	var sentencesLength = sentences.length;
 	var i;
-	for (i=0; i<sentencesLength; i++){
-		string += sentences[i].toString(format);}
-	return string;//this.string;
+	for (i=0; i<sentencesLength; i++)
+		result += sentences[i].toString(format)+newline; 
+	return result;//this.string;
 };
 Text.prototype.toLocaleString = function(language,format){
 	var string = new String();
+	var newline = '\n';
+	if (format && format.newline) newline = format.newline;
 	var sentences = this.sentences;
 	var sentencesLength = sentences.length;
 	var i;
 	for (i=0; i<sentencesLength; i++){
-		string += sentences[i].
-			toLocaleString(language,format);
+		string += sentences[i].toLocaleString(language,
+				format)+newline;
 	}
 	return string;//this.string;
 };

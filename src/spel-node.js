@@ -22,6 +22,7 @@ var Dictionary = require("./lang/dictionary");
 var Grammar = require("./lang/grammar");
 var Language = require("./lang/language");
 var Word = require("./type/word");
+var Clause = require("./type/clause");
 var mwak = new Language();
 //var mwak = require("./lang/mwak");
 
@@ -42,6 +43,7 @@ var wordOrder = {
 	headFinal : false,
 	verbFinal : true,
 	typeFinal : false,
+	clauseInitial : false,
 	postpositional : false,
 	phraseOrder: [".u",".i","ta",".a"]
 };
@@ -53,9 +55,19 @@ console.log("english language loaded");
 
 //var word = new Text(mwak,"mi .u sla munt .a mwa .i .ia yi kai pa ");
 //	console.log(eng.grammar.phraseWords);
-var string = "ha su me be say ob hello world ya"
+var string = "be ha to love tha ob hello world encla su me ya"
+var mstring = " mi .u tai sla munt .a ti mwa ta .ia .i ya"
 var tokens = tokenize.stringToWords(string);
-var word = new Text(eng,string);
+var mtokens = tokenize.stringToWords(mstring);
+//console.log("mtoken "+mtokens);
+//var clause = parse.adjacentClause(eng.grammar,tokens,0);
+//console.log(parse.lastSentenceWordIndex(mwak.grammar,["ha","ya"]));
+//console.log("eclause "+clause);
+//var clause = parse.adjacentClause(mwak.grammar,mtokens);
+//console.log("mclause "+clause);
+var word = new Sentence(mwak,mstring);
+//var word = new Sentence(eng,string);
 console.log(word.toString());
 console.log(JSON.stringify(word));
 console.log(word.toLocaleString(eng));
+console.log(word.toLocaleString(mwak));

@@ -4,6 +4,7 @@ var parse = require("../compile/parse");
 var Quote = require("./quote");
 var Type = require("./type");
 var Word = require("./word");
+var Clause = require("./clause");
 module.exports = Phrase;
 function Phrase(language, input){
 	this.be = "Phrase";
@@ -12,14 +13,16 @@ function Phrase(language, input){
 		tokens = tokenize.stringToWords(input);}
 	else if (typeof input === "object"
 		&& input.be === "Phrase"){
+			if (input.clause)
+			this.clause = new Clause(
+					language,input.clause);
 		        if (typeof input.content === "object"
 				&& input.content.be === "Type")
-				this.content = new Type(language, input.content);
-			//else if (typeof input.content === "object"
-			//	&& input.content.be === "Quote")
-			//	this.content = new Quote(input.content);
+			this.content = new Type(
+				language, input.content);
 			else  this.content = input.content;
-			this.caseWord = new Word(language, input.caseWord);
+			this.caseWord = new Word(language, 
+					input.caseWord);
 			return this;
 		}
 	else if (Array.isArray(input)) tokens = input;
@@ -29,7 +32,11 @@ function Phrase(language, input){
 	tokens = parse.quotesExtract(language,tokens);
 	// parse last phrase
 	var grammar = language.grammar;
-	var lastPhrase = parse.lastPhrase(grammar,tokens);
+	var wordOrder = grammar.wordOrder;
+	var lastPhrase;
+	if (wordOrder.clauseInitial)
+	lastPhrase = parse.lastPhrase(grammar,tokens);
+	else lastPhrase = parse.firstPhrase(grammar,tokens);
 	// if postpositional last word is case
 	// if prepositional first word is case
 	var caseWordIndex = null;
@@ -39,7 +46,15 @@ function Phrase(language, input){
 	otherTokens = lastPhrase.slice(0,caseWordIndex);
 	}
 	else {caseWordIndex = 0;
-		otherTokens = lastPhrase.slice(1);
+		otherTokens = lastPhrase.slice(caseWordIndex+1);
+	}
+	var clause = parse.adjacentClauseIndex(language.grammar,
+			otherTokens);
+	if (clause){
+	this.clause = new Clause(language, 
+			otherTokens.slice(clause[0],clause[1]));
+	otherTokens.splice(clause[0],
+			(clause[1]-clause[0]));
 	}
 	this.content = new Type(language, otherTokens);
 	var caseWord = new Word(language, tokens[caseWordIndex]);
@@ -86,9 +101,12 @@ Phrase.prototype.valueGet = function(){
 	// or if is quote, then contents of quote
 	return this.content.valueGet();
 }
-Phrase.prototype.toString = function(){
+Phrase.prototype.toString = function(format){
 	var joiner = ' ';
-	var content;
+	var content,result;
+	var result = new String();
+	if (this.clause)
+		result+= this.clause.toString() + joiner;
 	if (typeof this.content === "object")
 		content = this.content.toString();
 	else content = this.content;
@@ -96,20 +114,31 @@ Phrase.prototype.toString = function(){
 		&& content.length>1
 		&& tokenize.isTokens(content))
 		joiner = '';
-	var string = content.toString()
-		.concat(joiner,this.caseWord.toString(),joiner);
-	return string;
+	if (content)
+	result += content.toString() + joiner;
+	if (this.caseWord)
+	result += this.caseWord.toString() +joiner;
+	return result;
 };
-Phrase.prototype.toLocaleString = function(language){
+Phrase.prototype.toLocaleString = function(language, format){
 	var joiner = ' ';
 	var content;
+	var result = new String();
+	var clause = new String();
+	if (this.clause)
+	clause = this.clause.toLocaleString(language, format);
 	if (typeof this.content === "object")
 		content = this.content.toLocaleString(language);
 	else content = this.content;
+	if (content) content += joiner;
 	var caseWord = this.caseWord.toLocaleString(language);
-	var string = new String()
-	if (language.grammar.wordOrder.postpositional)
-	       string = content+joiner+caseWord+joiner;
-	else string = caseWord+joiner+content+joiner
-	return string;
+	var position = new String();
+	var wordOrder = language.grammar.wordOrder;
+	if (wordOrder.postpositional)
+	       positionPhrase = content+caseWord+joiner;
+	else positionPhrase = caseWord+joiner+content
+	if (wordOrder.clauseInitial===true)
+		result = clause + joiner + positionPhrase;
+	else result = positionPhrase + clause;
+	return result;
 };

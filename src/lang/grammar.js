@@ -8,12 +8,16 @@ return Object.create(mwakGrammar);}
 this.be = "Dictionary";
 if (dictionary){
 var dict = dictionary.fromMwak;
-this.phraseWords=translate.array(dict,
-		mwakGrammar.phraseWords);
-this.sentenceWords=translate.array(dict,
-		mwakGrammar.sentenceWords);
 this.typeWords=translate.array(dict,
 		mwakGrammar.typeWords);
+this.phraseWords=translate.array(dict,
+		mwakGrammar.phraseWords);
+this.clauseWords=translate.array(dict,
+		mwakGrammar.clauseWords);
+this.clauseTerminator=translate.array(dict,
+		mwakGrammar.clauseTerminator);
+this.sentenceWords=translate.array(dict,
+		mwakGrammar.sentenceWords);
 this.quotes = new Object();
 this.quotes.singleWord=translate.array(dict, 
 		mwakGrammar.quotes.singleWord);
@@ -25,15 +29,18 @@ this.wordOrder = new Object();
 if (wordOrder){
 this.wordOrder.verbFinal= wordOrder.verbFinal;
 this.wordOrder.postpositional= wordOrder.postpositional;
+this.wordOrder.clauseInitial= wordOrder.clauseInitial;
 this.wordOrder.phraseOrder= wordOrder.phraseOrder;
 }
 }
 
 var mwakGrammar = {
 	be: "Grammar",
-	phraseWords: [".i",".a",".u","pi","kai","nia"],
-	sentenceWords: ["ya","pa"],
 	typeWords: ["yi"],
+	phraseWords: [".i","ta",".a",".u","pi","kai","nia"],
+	clauseWords: ["ti"],
+	clauseTerminator: ["tai"],
+	sentenceWords: ["ya","pa"],
 	quotes: {
 		singleWord: ["yi"],
 		multiWord: []
@@ -43,6 +50,7 @@ var mwakGrammar = {
 		verbFinal: true,
 		typeFinal: true,
 		postpositional: true,
-		phraseOrder: [".u","ta",".a","ki",".i"]
+		clauseInitial: true,
+		phraseOrder: [".u","ta",".a",".i"]
 	}
 }

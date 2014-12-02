@@ -31,8 +31,10 @@ function Word(language,input){
 		this.adwords = translate.array(transDict,words);
 		//this.adwords =(		adwords);
 	}
+	if (tokensLength >0)
 	this.lemma = translate.word(transDict,
 			tokens[lastTokenIndex]);
+	if (!this.lemma && !this.adwords) return undefined;
 	return this;
 }
 Word.prototype.copy = function(){
@@ -91,11 +93,12 @@ Word.prototype.toLocaleString = function(language,format){
 	}
 	}
 	var lemma = this.lemma;
+	var transLemma;
 	if (lemma === undefined) lemma = "";
 	if (false && typeof lemma === "object")
 		transl = lemma.toLocaleString(language,format);
-	else transl = translate.word(dict,lemma);
-	if (verbFinal) translation += transl;
-	else translation = transl + translation;
+	else transLemma = translate.word(dict,lemma);
+	if (verbFinal) translation += transLemma;
+	else translation = transLemma + translation;
 	return translation;
 }
