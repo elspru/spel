@@ -128,10 +128,11 @@ Phrase.prototype.toLocaleString = function(language, format){
 	if (this.clause)
 	clause = this.clause.toLocaleString(language, format);
 	if (typeof this.content === "object")
-		content = this.content.toLocaleString(language);
+	content = this.content.toLocaleString(language,format);
 	else content = this.content;
 	if (content) content += joiner;
-	var caseWord = this.caseWord.toLocaleString(language);
+	var caseWord = this.caseWord.toLocaleString(
+			language,format,"ch");
 	var position = new String();
 	var wordOrder = language.grammar.wordOrder;
 	if (wordOrder.postpositional)

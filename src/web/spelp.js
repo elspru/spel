@@ -12,16 +12,68 @@ var Grammar = require("../lang/grammar");
 var Language = require("../lang/language");
 var Word = require("../type/word");
 
-var file = io.fileRead("../vocab-mwak-C16glyph.txt");
+var file = io.fileRead("../vocab/vocab-mwak-C16glyph.txt");
 var mwak = new Language();
 var text = new Text(mwak,file);
 var grammar = new Grammar();
 var engDict = new Dictionary(mwak,text);
+
+function span(classId,glyph){
+return "<span class="+classId+">"+glyph+"</span>";
+}
+
+function htmlSynGlyphsTransform(string){
+var glyphs=tokenize.stringToGlyphs(string);
+var result = new String();
+var i, glyph;
+for (i=0;i<glyphs.length;i++){
+glyph = glyphs[i];
+if (glyph === '.') glyph = span("gs",glyph);
+else glyph = span(glyph+'y',glyph);
+result+=glyph;
+}
+return result;
+}
+
+function htmlTypeGlyphsTransform(string,type){
+if (this.glyphsTransform)
+var synResult = this.glyphsTransform(string);
+else synResult = string;
+return span(type,synResult);
+}
+
+function themeSet(mode){
+var cssElem = document.querySelector( "link[rel=stylesheet]");
+if (mode === "day") cssElem.href = "spel-day.css";
+else cssElem.href = "spel-night.css";
+}
+
+var HtmlFormat = { newline: "<br/>"};
+synSet("off");
+syntaxSet("on");
+
+function synSet(mode){
+if (mode === "on")
+HtmlFormat.glyphsTransform = htmlSynGlyphsTransform;
+else 
+HtmlFormat.glyphsTransform = undefined;
+}
+
+function syntaxSet(mode){
+if (mode === "on")
+HtmlFormat.typeGlyphsTransform = htmlTypeGlyphsTransform;
+else 
+HtmlFormat.typeGlyphsTransform = undefined;
+}
+
+
 var engWordOrder = {
+	headFinal : false,
 	verbFinal : true,
 	typeFinal : false,
+	clauseInitial: false,
 	postpositional : false,
-	phraseOrder: [".u",".i","ta",".a","ki"]
+	phraseOrder: [".u",".i","ta",".a"]
 };
 
 var engGrammar = new Grammar(engWordOrder,engDict);
@@ -60,8 +112,9 @@ function submitInput(userInput){
 	if (fromLangv === "mwak")
 		fromLangDict = mwak;
 	try{
-	var text = new Text(fromLangDict,userInput);
-	var translation = text.toLocaleString(toLangDict);
+	var text = new Sentence(fromLangDict,userInput);
+	var translation = text.toLocaleString(toLangDict,
+			HtmlFormat);
 	} 
 	catch (error){
 		infoUpdate(error);
@@ -73,26 +126,55 @@ function init(){
 // algorithm:
 // 	put listeners on main language selector
 // 	put listeners on dictionary viewer
+// 	put listeners on theme selector
+// 	put listeners on syntax highlighting selector 
+// 	put listeners on synesthezia selector
 // 	put listeners on compilation buttons
 
 
 // 	put listeners on main language selector
 // 	put listeners on dictionary viewer
+	synSet("off");
 	var dictButton = document.getElementById("dict");
 	var dictDefs =  text.select(mwak,".a");
-	var HtmlFormat = { newline: "<br/>"};
 	dictButton.onclick = function(){
 		//infoUpdate(text.toString());
 		infoUpdate(dictDefs.toLocaleString(inLangDict,
 					HtmlFormat));
 	}
+// 	put listeners on theme selector
+	var themeButton = document.getElementById(
+			"themeButton");
+	themeButton.addEventListener("click",function(){
+	var themeModeElem = document.getElementById(
+			"theme");
+	var themeMode = themeModeElem.value;
+	themeSet(themeMode);
+	},false);
+// 	put listeners on syntax highlighting selector 
+	var syntaxButton = document.getElementById(
+			"syntaxButton");
+	syntaxButton.addEventListener("click",function(){
+	var syntaxModeElem = document.getElementById(
+			"syntax");
+	var syntaxMode = syntaxModeElem.value;
+	syntaxSet(syntaxMode);
+	},false);
+// 	put listeners on synesthezia selector
+	var synButton = document.getElementById(
+			"synButton");
+	synButton.addEventListener("click",function(){
+	var synModeElem = document.getElementById(
+			"syn");
+	var synMode = synModeElem.value;
+	synSet(synMode);
+	},false);
 // 	put listeners on compilation buttons
-	//var inputForm = document.getElementById("inputForm");
-	//inputForm.action = "javascript:submitInput()";
-	var inputForm = document.querySelector("input#submitButton");
-//	compileButton.href = "javascript: submitInput()";
+	var inputForm = document.querySelector(
+			"input#submitButton");
 	inputForm.addEventListener("click",function(){
-	var /*Elem*/ userInputEl = document.getElementById("inputText");
+	var /*Elem*/ userInputEl = document.getElementById(
+		"inputText");
 	var /*String*/ userInput = userInputEl.value;
 	submitInput(userInput);
 	},false);

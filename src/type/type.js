@@ -113,8 +113,7 @@ Type.prototype.toLocaleString = function(language, format){
 	// false.
 	var joiner = " ";
 	var typeTransl = 
-		this.typeWord.toLocaleString(language, format);
-	console.log(typeTransl);
+	this.typeWord.toLocaleString(language, format, "th");
 	if (language.grammar.wordOrder.typeFinal)
 	  result += joiner + typeTransl ;
 	else result = typeTransl + joiner + result;

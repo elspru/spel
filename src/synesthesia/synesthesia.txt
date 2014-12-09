@@ -1,0 +1,83 @@
+if we have distinct colors for each glyph
+
+name	glyph	hue
+black 	i
+red	a	000
+cyan	u	180
+lime	e	075
+white	o
+	6
+	I
+magenta	m	300
+green	k	120
+yellow	y	060
+blue	p	240
+orange	w	030
+pink	n	330
+amber	s	045
+lspring	t	150
+lgray	l	
+dgray	h	
+indigo	f	270
+harleq	.	105
+torch	c	345
+scarlet	r	015
+sky	b	195
+libre	g	135
+chartr	d	090
+royal	z	225
+hmagent j	315
+han	v	255
+purple 	q	285
+dodger	x	210
+	T
+
+name	glyph	hue	sat	brightness
+black 	i		0	023
+lgray	.		0	062
+white	o		0	085
+red	a	000
+scarlet	r	015
+orange	w	030
+amber	s	045
+yellow	y	060
+lime	e	075
+chartr	l	090
+harleq	d	105
+green	k	120
+libre	g	135
+lspring	t	150
+mspring h	165
+cyan	u	180
+sky	b	195
+dodger	x	210
+royal	z	225
+blue	p	240
+han	v	255
+indigo	f	270
+purple 	q	285
+magenta	m	300
+hmagent j	315
+pink	n	330
+torch	c	345
+	6
+	I
+	T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
+	<link 
+	rel="stylesheet" type="text/css" href="spel-day.css">
 	<title>SPEL HTML5 IDE</title>
 	<script defer src="spel.js"></script>
-	<link rel="stylesheet" type="text/css"
-	href="spel.css">
 </head>
 <body>
 <noscript>
@@ -20,7 +20,25 @@
 </select> 
 <input id="inLangButton" type="submit" value="ya"/> <br/>
 su you be may view ob 
-<a id="dict" href="#">dictionary</a> ya
+<a id="dict" href="#info">dictionary</a> ya<br/>
+su theme for
+<select id="theme">
+	<option value="day">day</a>
+	<option value="night">night</a>
+</select>  
+<input id="themeButton" type="submit" value="ya"/> <br/>
+su syntax highlighting be
+<select id="syntax">
+	<option value="on">on</a>
+	<option value="off">off</a>
+</select>  
+<input id="syntaxButton" type="submit" value="ya"/> <br/>
+su visual <a href="#info" id="synInfo">synesthesia</a> be
+<select id="syn">
+	<option value="off">off</a>
+	<option value="on">on</a>
+</select>  
+<input id="synButton" type="submit" value="ya"/> <br/>
 </p>
 <div id="info"></div><br/>
 <div id="main"></div><br/>
@@ -38,7 +56,7 @@ su you be may view ob
 	</select>
 	ob quo te
 	<input type="text" id="inputText"
-	value="ha su me be say ob hello world ya">
+	value="ha su me be say ob tha su hello world be good ya">
 	</input>
 	quo ted be
 	<input id="submitButton" type="submit" 

@@ -1,0 +1,61 @@
+/* golden ratio intervals
+ * 0x9D 0x61 0x3C 0xD9 of 0x100
+ * 62   38   23   85   0f 100 */
+
+div{
+width:32em;
+}
+body{
+	background-color:black;
+	color:white;
+}
+/* HSL color wheel colors 
+ * 0 red
+ * 30 orange
+ * 60 yellow
+ * 90 chartreuse
+ * 120 green
+ * 160 turqoise
+ * 180 cyan
+ * 210 saphire
+ * 240 blue
+ * 270 purple
+ * 300 magenta
+ * 330 pink 
+ */
+/* synesthesia glyphs */
+.iy{ color:hsl(60,0%,38%);/*black*/ }
+.oy{ color:hsl(180,0%,91%);/*white*/}
+.gs{ color:hsl(90,0%,85%);/*light gray*/ }
+
+.ay{ color:hsl(000,85%,62%);/*red*/ }
+.ry{ color:hsl(015,62%,62%);/*scarley*/ }
+.wy{ color:hsl(030,62%,62%);/*orange*/ }
+.sy{ color:hsl(045,62%,62%);/*amber*/ }
+.yy{ color:hsl(060,62%,62%);/*yellow*/ }
+.ey{ color:hsl(075,85%,62%);/*lime*/}
+.ly{ color:hsl(090,62%,62%);/*chartr*/ }
+.dy{ color:hsl(105,62%,62%);/* . harlequin*/}
+.ky{ color:hsl(120,62%,62%);/*green*/ }
+.gy{ color:hsl(135,62%,62%);/*libre*/ }
+.ty{ color:hsl(150,62%,62%);/*light spring*/ }
+.hy{ color:hsl(165,62%,62%);/*medium spring*/ }
+.uy{ color:hsl(180,85%,62%);/*cyan*/ }
+.by{ color:hsl(195,62%,62%);/*sky*/ }
+.xy{ color:hsl(210,62%,62%);/*dodger*/ }
+.zy{ color:hsl(225,62%,62%);/*han*/ }
+.py{ color:hsl(240,62%,62%);/*blue*/ }
+.vy{ color:hsl(255,62%,62%);/*han*/}
+.fy{ color:hsl(270,62%,62%);/*indigo*/ }
+.qy{ color:hsl(285,62%,62%);/*purple*/ }
+.my{ color:hsl(300,62%,62%);/*magenta*/ }
+.jy{ color:hsl(315,62%,62%);/*hmagenta*/}
+.ny{ color:hsl(330,62%,62%);/*pink*/ }
+.cy{ color:hsl(345,62%,62%);/*torch*/ }
+
+/* syntax highlighting */
+.sh{ background-color:hsl(270,0%,5%);/*dark gray*/ }
+.ch{ background-color:hsl(270,0%,14%);/*bright gray*/ }
+.th{ background-color:hsl(0,61%,9%);/*red*/ }
+.lh{ background-color:hsl(240,61%,9%);/*blue*/ }
+.mh{ background-color:hsl(180,61%,9%);/*cyan*/ }

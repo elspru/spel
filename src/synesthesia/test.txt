@@ -1,0 +1,20 @@
+hello 
+how are you?
+Hello World I say!
+The quick red fox jumps over the lazy brown dog.
+THE QUICK RED FOX JUMPS OVER THE LAZY BROWN DOG.
+abcdefghijklmnopqrstuvwxyz.
+ABCDEFGHIJKLMNOPQRSTUVWXYZ.
+numbers 	0123456789
+hex numbers	0123456789ABCDEF
+symbols 	.,?;:&$~=+-/*%#@\|"'()<>{}[]_`
+
+Maximize distinctiveness between similar looking 
+and similar sounding glyphs by comparing those that are:
+
+dyslexic glyphs	pqgbd ce tf EF sz vwu ij tl1 hnr O0
+same manner	ptkq bdg fsch vzjx mwnq ywlr aeiou
+same place 	epfvbw sztcd ijy uwkxq oh
+manner & place	pb td kg fv sz cj 
+often together	se ys ie ce qu pl gl cl th sh ch ma wh re fx
+affricates	pf bv ts dz sh ch tc dj kx gx kh gh ps bz sch 

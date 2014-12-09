@@ -112,33 +112,39 @@ function phraseError(grammar,tokens){
 /// su first phrase be parse ya
 exports.firstPhrase = firstPhraseParse;
 function firstPhraseParse(grammar,tokens){
-	var phraseEnderI = firstCaseIndexParse(grammar,tokens);
-	if (phraseEnderI === null) phraseError(grammar, tokens);
-	var otherSlice;
-	var wordOrder = grammar.wordOrder;
-	if (wordOrder.postpositional=== false)
-	otherSlice = tokens.slice(phraseEnderI);
-	if (wordOrder.clauseInitial === false){
-	// if case before clause then slice before it ya
-	var nextSlice = otherSlice.slice(1);
-	var nextCaseI = firstCaseIndexParse(grammar,nextSlice);
-	var nextClauseI = firstClauseWordIndexParse(grammar,nextSlice);
-	if (nextCaseI === -1) nextCaseI = nextSlice.length;
-	if (nextCaseI < nextClauseI)
-	otherSlice = otherSlice.slice(0,nextCaseI+1);
-	}
-	else {
-		otherSlice = tokens.slice(0,phraseEnderI+1);
-	}
-	var resultI = lastPhraseIndexParse(grammar,otherSlice);
-	var result;
-	// if clause final, include start
-	if (wordOrder.clauseInitial=== false)
-	result = tokens.slice(phraseEnderI,
-			resultI[1]+phraseEnderI);
-	else result = tokens.slice(resultI[0],resultI[1]);
-	return result;
+var phraseHeadIdx = firstCaseIndexParse(grammar,tokens);
+if (phraseHeadIdx === null) phraseError(grammar, tokens);
+var otherSlice;
+var wordOrder = grammar.wordOrder;
+
+if (wordOrder.postpositional=== false)
+otherSlice = tokens.slice(phraseHeadIdx);
+
+if (wordOrder.clauseInitial === false){
+// if case before clause then slice before it ya
+var nextSlice = otherSlice.slice(1);
+var nextCaseI = firstCaseIndexParse(grammar,nextSlice);
+var nextClauseI = firstClauseWordIndexParse(grammar,nextSlice);
+if (nextCaseI !== -1)
+if (nextClauseI === -1|| nextCaseI < nextClauseI) 
+ otherSlice = otherSlice.slice(0,nextCaseI+1); 
+// if nextClause available, set it's end as phrase end ya
+else if (nextClauseI !== -1){
+var clauseIdxs = adjacentClauseIndexParse(grammar,nextSlice);
+otherSlice = otherSlice.slice(0,clauseIdxs[1]+1);
+return otherSlice;
 }
+} 
+else { otherSlice = tokens.slice(0,phraseHeadIdx+1); }
+
+var resultI = lastPhraseIndexParse(grammar,otherSlice);
+var result;
+// if clause final, include start
+if (wordOrder.clauseInitial=== false)
+result = tokens.slice(phraseHeadIdx,resultI[1]+phraseHeadIdx);
+else result = tokens.slice(resultI[0],resultI[1]);
+return result;
+}/* function's end */
 
 /// su last phrase be parse ya
 exports.lastPhrase = lastPhraseParse;

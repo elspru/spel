@@ -99,19 +99,19 @@ Clause.prototype.toLocaleString = function(language,format){
 	var clauseWord = this.clauseWord;
 	if (language.grammar.wordOrder.clauseInitial){
 	if (clauseTerm) result += clauseTerm.toLocaleString(
-			language,format);
+			language,format,"lh");
 	if (sentence) result += sentence.toLocaleString(
 			language,format);
 	if (clauseWord) result += clauseWord.toLocaleString(
-			language,format);
+			language,format,"lh");
 	}
 	else {
 	if (clauseWord) result += clauseWord.toLocaleString(
-			language,format)+joiner;
+			language,format,"lh")+joiner;
 	if (sentence) result += sentence.toLocaleString(
 			language,format);
 	if (clauseTerm) result += clauseTerm.toLocaleString(
-			language,format)+joiner;
+			language,format,"lh")+joiner;
 	}
 	return result;
 };

@@ -76,29 +76,39 @@ Word.prototype.toString = function(){
 	string += this.lemma;
 	return string;
 };
-Word.prototype.toLocaleString = function(language,format){
-	var translation = new String();
-	var joiner = " ";
-	var verbFinal = language.grammar.wordOrder.verbFinal;
-	var dict = language.dictionary.fromMwak;
-	if (this.adwords !== undefined){
-	var i, transl, adword;
-	for (i=0;i<this.adwords.length;i++){
-		adword = this.adwords[i];
-		if (false && typeof adword === "object")
-			adword.toLocaleString(language,format);
-		else transl = translate.word(dict,adword);
-		if (verbFinal) translation+= transl+joiner;
-		else translation = joiner+transl+translation;
-	}
-	}
-	var lemma = this.lemma;
-	var transLemma;
-	if (lemma === undefined) lemma = "";
-	if (false && typeof lemma === "object")
-		transl = lemma.toLocaleString(language,format);
-	else transLemma = translate.word(dict,lemma);
-	if (verbFinal) translation += transLemma;
-	else translation = transLemma + translation;
-	return translation;
+Word.prototype.toLocaleString = function(language,format,type){
+var translation = new String();
+var joiner = " ";
+var verbFinal = language.grammar.wordOrder.verbFinal;
+var dict = language.dictionary.fromMwak;
+
+if (this.adwords !== undefined){
+var i, transl, adword;
+for (i=0;i<this.adwords.length;i++){
+adword = this.adwords[i];
+if (false && typeof adword === "object")
+	adword.toLocaleString(language,format);
+else transl = translate.word(dict,adword);
+if (verbFinal) translation+= transl+joiner;
+else translation = joiner+transl+translation;
+}}
+
+var lemma = this.lemma;
+var transLemma;
+if (lemma === undefined) lemma = "";
+if (false && typeof lemma === "object")
+transl = lemma.toLocaleString(language,format);
+else transLemma = translate.word(dict,lemma);
+if (verbFinal) translation += transLemma;
+else translation = transLemma + translation;
+
+// syntax formating and color-grapheme synesthesia
+if (format){
+if (type && format.typeGlyphsTransform)
+translation = format.typeGlyphsTransform(translation,type);
+else if (format.glyphsTransform)
+translation = format.glyphsTransform(translation);
+}
+
+return translation;
 }
