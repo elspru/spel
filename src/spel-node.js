@@ -44,6 +44,7 @@ var wordOrder = {
 	verbFinal : true,
 	typeFinal : false,
 	clauseInitial : false,
+	genitiveInitial : false,
 	postpositional : false,
 	phraseOrder: [".u",".i","ta",".a"]
 };
@@ -55,20 +56,23 @@ console.log("english language loaded");
 
 //var word = new Text(mwak,"mi .u sla munt .a mwa .i .ia yi kai pa ");
 //	console.log(eng.grammar.phraseWords);
-var string = "ha su me be say ob tha be good su hello world ya"
+//var string = "ha btw cool su me be say ob tha be good su hello world ya"
+var string = "  su tha be good of me ya "
 var mstring = " mi .u tai sla munt .a ti mwa ta .i .ia ya"
+var mstring = " mi pi pam .i ti .u ya "
 var tokens = tokenize.stringToWords(string);
 var mtokens = tokenize.stringToWords(mstring);
 //var word = new Sentence(mwak,mstring);
-var word = new Text(eng,string);
+//var word = parse.lastPhrase(mwak.grammar,mtokens);
+var word = new Sentence(eng,string);
 var format = new Object();
 format.glyphsTransform=darkConsoleGlyphsTransform;
 console.log(word.toString());
 console.log(JSON.stringify(word));
 console.log(word.toLocaleString(eng,format));
 console.log(word.toLocaleString(mwak,format));
-console.log("synesthezia");
-console.log(grayConsoleGlyphsTransform(word.toString()));
+//console.log("synesthezia");
+//console.log(grayConsoleGlyphsTransform(word.toString()));
 function darkConsoleGlyphsTransform(string){
 var glyphs=tokenize.stringToGlyphs(string);
 var result = new String();

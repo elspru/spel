@@ -9939,3 +9939,157 @@ now.
 0703 debugging
 0723 okay seems to be fully functional
 0724 roadmap and git commit
+1553 next is support for conditional clauses, but I guess I'll
+start with night gvim to make working more interesting. 
+1624 doing some color juggling
+2116 be story idea time-at post artilect war de
+su treaty parties be agree ob tha su intersectional world
+government be not work as su many be unhappy with laws for the
+few 
+and tha instead su unifying world government be replace ob it ya
+cuz biological precedent su biologically inhabitable ob areas be
+allocated for biological organisms ya and those areas which were
+generally hostile to biological life such as true deserts were
+allocated for technological life ya
+su the centaurs or biological technological hybrids be allocated
+ob the borders to allow for trade ya 
+2144 set up new system for vim syntax highlighting.
+2221 okay now am working with the html quality syntax
+highlighting in gvim over ssh :-). interesting stuff. 
+much more uniform this way for sure. 
+2233 anyways sleepy time now :-).
+} 10 Dec 2014
+0657 anyways now have to do that phraseClause thing ya
+0702 hm even though I earlier said I decided on si and tua, the
+vocab says ku for if, and nothing for then ya
+0739 so decided to stick with ku for wu if as there is support
+from austronesian, baltic and sino-tibetan languages ya
+0749 so I've decided that culture and biology specific words
+should go in the extended vocabulary, wheras medium independant
+words would go in the core vocabulary. This would ensure we
+don't have some technobots on another planet with core words
+which are completely useless to them ya
+1437 anyways I have to get back to getting something useful ya
+1440 now that I have added clausePhrase words to the grammar ya
+have to add checks for them in the adjacentClauseParse
+also have to add support in phrase object ya
+1444 wow the new synesthesia colors are just so beautiful, can't
+help admiring them ya
+1445 can probably even add the syntax highlighting ooo ya bah
+got to stay focused ya
+1447 at this point it may be easier simply for me to add the if
+and then to the regular clauses, but also the phrases, then have
+a check when creating the phrase for them, to make sure that it
+actually returns a clause instead of a phrase ya
+1449 my only concern with that is it may grab a clause which
+wasn't meant for it. however I can't come up with any examples
+where this might happen at the moment. 
+1453 oh yes but we'll have to make sure that it terminates in
+case there is another clause word, probably already have that
+check, but it is especially important for if then statements ya
+1459 actually now that I think about it that's not very viable,
+since we have to allow for nested subordinate clauses. thus this
+is a rather special case, may need a seperate parsing function
+for this class of clause phrases which don't support nesting.
+in example if su something be equals ob if soemthing else
+doesn't make any sense ya phraseClauses are thus a top level
+divider, can only be halted by other phraseClauses or a sentence
+head. be able call ob them tha conditionalWords ya
+1511 okay so I guess I'll start with the parsing
+1523 hmmm I'm wondering if perhaps as is also a phrase clause ya
+2218 seems that as is a junction ya
+so perhaps if and then is also ya
+i'll delay implementing them until after junctions ya
+} 11 Dec 2014
+0634 anyways so now to support genitives. I'll save performance
+grammar for later, since it's more optional ya.
+0637 so genitives are like a subphrase ya
+0657 updated caseWord and content to head and body in phrase ya
+0701 most common word for possessive particle is wu de or a
+variation ya in 7 glyphs that would be pi and 12 glyphs that
+would be ti
+0706 however ti is already taken by clause starter ya
+0719 defined pi in C5glyph
+0824 need a parsing algorithm for the sub phrases ya
+likely will be a modification of the ordinary phrases ya
+so I'll maybe put in a flag or something so it knows what it is
+checking ya
+0833 su me be reading ob la
+Epistemological Pluralism and the Revaluation of the Concrete ya
+about how males and females tend to approach programming
+differently ya with females tending towards the soft approach
+and males tending towards the hard approach ya
+su it be interesting ya be have to make ob future tutorials tha
+work on both approaches ya
+1254 can probably use something like last case or sub case index
+parse ya
+1308 made firstAnyCaseIndexParse and lastAnyCaseIndexParse ya
+1330 one of my main concerns now is have to check for whether
+clause or genetive comes first, since we could have both of tha
+and tha person of place or tha place's person ya
+1345 okay I'm getting close just got to add it onto object
+then probably some thorough testing ya
+1409 okay seems like I've managed to implement genetives without
+breaking anything so far, which is good :-).
+} 12 Dec 2014
+0631 anyways so gotta get back to work ya
+0637 testing the genetives ya
+0657 hmmm seems to be grabbing backwards or something ya
+0659 oh it seems to be parsing the phrases seperately ya
+0700 can probably do a phrase level test ya
+0704 yep so the phrase parse isn't including the sub phrase ya
+0712 okay fixed, issue was that pi was in phraseWord array ya
+0715 okay output is correct, but underlaying representation
+indicates that it is not recognizing the subphrase ya
+0804 okay it is now recognizing properly, now I need toString
+and toLocaleString set up for it ya
+1258 okay genitives seem fully functional at least when
+getting it from mwak ya
+1300 now to test from english ya
+1314 actually seems it doesn't work on sentence level as yet ya
+1322 anyways so I guess I'll finish getting mwak version to work
+first, and then work on the english. I'm considering changing it
+from 's to of actually since it seems more generic ya
+} 13 Dec 2014
+0718 so something is not quite right with how sentence is
+processing the phrase ya
+0730 okay be fixed ob sentence and ob text level by tha be add
+ob subphrase to cloning portion ya
+0812 cool be managed add ob rounded corners to syntax
+highlighting ya
+1314 did a test seems that encla doesn't properly add in the
+case of clause final ya
+1427 be past fix ya
+1517 be flow start ob think about junctions ya
+} 15 Dec 2014
+0547 be will add ob dictionary hide on double click ya
+0558 be past add ya
+0602 be able add ob syntax highlighting information and
+synesthesia information ya
+0641 okay su web front be more ob user friendly tat now ya
+0704 back to debugging genitives, now for english version ya
+0717 be set-up ob firstPhraseIndexParse ya
+0721 be done ob set-up ya
+0731 be test ob web front ya
+0746 su issue with extra clause term ya
+0802 be past fix ob pthat ya
+0809 hmm have to check mwak version again it may have issue ya
+0814 okay fixed :-D ya it was the eternal issue of not loading
+grammar from external file ya
+0823 hmm issue with genitive within clause ya
+0835 or rather be issue with genitive in clause within phrase ya
+0858 seems like issue with gotherTokens kinda stuff
+1129 okay seems to be fixed, can check web version.
+1131 almost, but not quite seems the english version is broke ya
+1136 genitiveI doesn't seem to be in relation to otherTokens
+1147 okay seems to be all clear now check web version ya
+1200 need a word for example ya ksim maybe or sli and slim
+1445 okay tat now be incorporate ob genitive example in web
+front end ya
+1452 tat later su it be fun make ob old chinese variant ya
+ but for now su we be should stick to standard chinese ya
+ as su more people be able quickly understand ob it ya
+1504 vocabUpdate seems to be having some issues, possibly with
+select ya
+1511 nope it was just I made it .u instead of .a 
+1515 okay so roadmap and git

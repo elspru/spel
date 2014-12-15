@@ -161,7 +161,7 @@ function phraseIndexFind(language,cases){
 	    length = phrases.length;
 	for (i=0;i<length;i++){
 		phrase = phrases[i];
-		if(phrase.caseWord.isLike(language,caseWord))
+		if(phrase.head.isLike(language,caseWord))
 			return i;
 	}
 	return -1;
@@ -328,11 +328,11 @@ for (i=0; i<orderPhrasesLength; i++){
 phraseIndex = sentence.indexOf(language,orderPhrases[i]);
 // if found then
 if (phraseIndex !== -1){
-// be may add bo clause term to phrase translation ya
+// be may add ob clause term to phrase translation ya
 var phrase = phrases[phraseIndex];
 var phraseTrans = 
 clauseTermMaybeAdd(language,format,phrase,result.length,
-sentence.length);
+sentence.phrases.length);
 // be append bo it to result ya and
 result +=  phraseTrans;
 // be delete bo phrase from sentence ya
@@ -373,7 +373,8 @@ resultLength, sentenceLength){
 
 var phraseTrans =
 phrase.toLocaleString(language,format);
-if (phrase.clause){
+var clause = phrase.clause;
+if (clause && !clause.clauseTerm){
 var grammar = language.grammar;
 var clauseInitial = grammar.wordOrder.clauseInitial;
 var joiner = " ";
@@ -384,11 +385,12 @@ var clauseTerm = new Word(language,grammar.clauseTerminator[0]);
 return clauseTerm.toLocaleString(language,format,"lh")
 +joiner+phraseTrans;}
 // if clauseFinal and phrase has clause and sentence non zero
-else if (clauseInitial===false && sentenceLength > 0){
+else if (clauseInitial===false && sentenceLength > 1){
 // then append clauseTerm translation ya
+
 var clauseTerm = new Word(language,grammar.clauseTerminator[0]);
-return phraseTrans+joiner
-+clauseTerm.toLocaleString(language,format,"lh");}
+return phraseTrans+
+clauseTerm.toLocaleString(language,format,"lh")+joiner;}
 } return phraseTrans; }
 
 function simpleClauseTermMaybeAdd(format, phrase, resultLength){
@@ -397,7 +399,8 @@ function simpleClauseTermMaybeAdd(format, phrase, resultLength){
 
 var phraseTrans = phrase.toString(format);
 // if phrase has clause and result non zero
-if (phrase.clause && resultLength > 0){
+var clause = phrase.clause;
+if (clause && !clause.clauseTerm && resultLength > 0){
 var joiner = " ";
 // then prepend clauseTerm translation ya
 var clauseTerm = "tai"/* mwak clauseTerminator */ ;

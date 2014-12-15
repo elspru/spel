@@ -72,6 +72,7 @@ var engWordOrder = {
 	verbFinal : true,
 	typeFinal : false,
 	clauseInitial: false,
+	genitiveInitial: false,
 	postpositional : false,
 	phraseOrder: [".u",".i","ta",".a"]
 };
@@ -89,6 +90,9 @@ var toLangCode = "en",
 var toLangDict = eng, 
     fromLangDict = mwak,
     inLangDict = eng;
+var dictShown = false;
+var syntaxInfoShown = false;
+var synInfoShown = false;
 function hello(text){
 	return text;
 }
@@ -96,7 +100,12 @@ function mainUpdate(input){
 	mainArea.innerHTML = input;
 }
 function infoUpdate(input){
+	// set output
 	infoArea.innerHTML = input;
+	// clear shown variables
+	dictShown = false;
+	syntaxInfoShown = false;
+	synInfoShown = false;
 }
 function submitInput(userInput){
 	infoUpdate("");//clear info
@@ -111,15 +120,20 @@ function submitInput(userInput){
 		fromLangDict = eng;
 	if (fromLangv === "mwak")
 		fromLangDict = mwak;
+	var noError= true;
 	try{
-	var text = new Sentence(fromLangDict,userInput);
+	var text = new Text(fromLangDict,userInput);
+	console.log(JSON.stringify(text));
 	var translation = text.toLocaleString(toLangDict,
 			HtmlFormat);
 	} 
 	catch (error){
 		infoUpdate(error);
+		noError = false;
 	}
 	mainUpdate(translation);
+	if (noError)
+	infoUpdate("ha :-D 😃  su translation be success ya");
 }
 
 function init(){
@@ -138,9 +152,12 @@ function init(){
 	var dictButton = document.getElementById("dict");
 	var dictDefs =  text.select(mwak,".a");
 	dictButton.onclick = function(){
-		//infoUpdate(text.toString());
-		infoUpdate(dictDefs.toLocaleString(inLangDict,
-					HtmlFormat));
+	if (dictShown === false){
+	infoUpdate(dictDefs.toLocaleString(inLangDict, HtmlFormat));
+	dictShown = true;}
+	else {if (dictShown === true)
+	infoUpdate("");
+	dictShown = false;}
 	}
 // 	put listeners on theme selector
 	var themeButton = document.getElementById(
@@ -152,23 +169,52 @@ function init(){
 	themeSet(themeMode);
 	},false);
 // 	put listeners on syntax highlighting selector 
-	var syntaxButton = document.getElementById(
-			"syntaxButton");
-	syntaxButton.addEventListener("click",function(){
-	var syntaxModeElem = document.getElementById(
-			"syntax");
-	var syntaxMode = syntaxModeElem.value;
-	syntaxSet(syntaxMode);
-	},false);
+var syntaxButton = document.getElementById( "syntaxButton");
+syntaxButton.addEventListener("click",function(){
+var syntaxModeElem = document.getElementById( "syntax");
+var syntaxMode = syntaxModeElem.value;
+syntaxSet(syntaxMode);
+infoUpdate("click translate to apply changes");
+},false);
+
+var syntaxInfo = document.getElementById( "syntaxInfo");
+syntaxInfo.addEventListener("click",function(){
+if (syntaxInfoShown === false){
+infoUpdate('syntax highlighting consists of <br/>'
++'<span class="sh">sentence head</span><br/>'
++'<span class="ch">phrase head  </span><br/>'
++'<span class="th">type head  </span><br/>'
++'<span class="gh">genitive head  </span><br/>'
++'<span class="lh">clause head  </span><br/>'
++'<span class="mh">mood </span> ya <br/>');
+syntaxInfoShown = true;
+} else infoUpdate('');
+},false);
 // 	put listeners on synesthezia selector
-	var synButton = document.getElementById(
-			"synButton");
-	synButton.addEventListener("click",function(){
-	var synModeElem = document.getElementById(
-			"syn");
-	var synMode = synModeElem.value;
-	synSet(synMode);
-	},false);
+var synButton = document.getElementById("synButton");
+synButton.addEventListener("click",function(){
+var synModeElem = document.getElementById("syn");
+var synMode = synModeElem.value;
+synSet(synMode);
+infoUpdate("click translate to apply changes");
+},false);
+
+var synInfo = document.getElementById( "synInfo");
+synInfo.addEventListener("click",function(){
+if (synInfoShown === false){
+infoUpdate('<p>Synesthesia training can boost IQ '
++'as shown in the study by University of Sussex ob <a '
++'href="http://www.nature.com/srep/2014/141118/srep07089/full/srep07089.html">'
++'Adults Can Be Trained to Acquire Synesthetic Experiences</a>.'
++'</p><p>'
++'The synesthesia here is based on the study by MIT ob '
++'<a href="http://web.mit.edu/synesthesia/www/trends.html">'
++'Trends in colored letter synesthesia</a> '
++'and maximizing hue distance between similar looking glyphs '
++'and similar sounding phonemes.</p>');
+synInfoShown = true;
+} else infoUpdate('');
+},false);
 // 	put listeners on compilation buttons
 	var inputForm = document.querySelector(
 			"input#submitButton");

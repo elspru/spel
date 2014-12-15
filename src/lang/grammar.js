@@ -4,7 +4,8 @@ module.exports = Grammar;
 /// be load bo grammar de
 function Grammar(wordOrder,dictionary){
 if (!dictionary&&!wordOrder){
-return Object.create(mwakGrammar);}
+return mwakGrammar;
+}
 this.be = "Dictionary";
 if (dictionary){
 var dict = dictionary.fromMwak;
@@ -12,6 +13,8 @@ this.typeWords=translate.array(dict,
 		mwakGrammar.typeWords);
 this.phraseWords=translate.array(dict,
 		mwakGrammar.phraseWords);
+this.subPhraseWords=translate.array(dict,
+		mwakGrammar.subPhraseWords);
 this.clauseWords=translate.array(dict,
 		mwakGrammar.clauseWords);
 this.clauseTerminator=translate.array(dict,
@@ -29,6 +32,7 @@ this.wordOrder = new Object();
 if (wordOrder){
 this.wordOrder.verbFinal= wordOrder.verbFinal;
 this.wordOrder.postpositional= wordOrder.postpositional;
+this.wordOrder.genitiveInitial= wordOrder.genitiveInitial;
 this.wordOrder.clauseInitial= wordOrder.clauseInitial;
 this.wordOrder.phraseOrder= wordOrder.phraseOrder;
 }
@@ -37,7 +41,9 @@ this.wordOrder.phraseOrder= wordOrder.phraseOrder;
 var mwakGrammar = {
 	be: "Grammar",
 	typeWords: ["yi"],
-	phraseWords: [".i","ta",".a",".u","pi","kai","nia"],
+	phraseWords: [".i","ta",".a",".u","kai","nia"],
+	subPhraseWords: ["pi"],
+	conditionalWords: ["ku","tua"],
 	clauseWords: ["ti"],
 	clauseTerminator: ["tai"],
 	sentenceWords: ["ya","pa"],
@@ -51,6 +57,7 @@ var mwakGrammar = {
 		typeFinal: true,
 		postpositional: true,
 		clauseInitial: true,
+		genitiveInitial: true,
 		phraseOrder: [".u","ta",".a",".i"]
 	}
 }

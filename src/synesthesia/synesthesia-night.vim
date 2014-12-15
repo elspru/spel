@@ -96,59 +96,53 @@ syntax match chevron ">"
 syntax match underscore "_"
 syntax match grave "`"
 
-" VOWELS
-highlight default link i DarkGray
-"highlight default link i YellowVowel
+" emoji
+syntax match emojiFaces "[😀-😷]"
+
+" Latin letters
+highlight default link i Black
+highlight default link period Lgray
+highlight default link o White
+
 highlight default link a RedVowel
-highlight default link u CyanVowel
-"highlight default link e GreenVowel
-highlight default link e YellowVowel
-"highlight default link o CyanVowel
-highlight default link o BrightGray
-
-" CONSONANTS
-"highlight default link "\. Yellow
-"highlight default link "\." Yellow
-highlight default link k DarkGreen
-highlight default link g DarkGreen
-highlight default link t Cyan
-highlight default link d Green
-highlight default link p Blue
-highlight default link b DarkCyan
-"highlight default link b Purple
-
-highlight default link m Magenta
-highlight default link n Red
-highlight default link q DarkMagenta
-
-highlight default link r DarkRed
-highlight default link y Yellow
+highlight default link c Scarlet
 highlight default link w Orange
-highlight default link l Green
-
-highlight default link f Magenta
-highlight default link v DarkMagenta
-highlight default link s Orange
-highlight default link z Blue
-highlight default link c DarkRed
-highlight default link j Red
-highlight default link x DarkCyan
-highlight default link h Cyan
+highlight default link s Amber
+highlight default link y Yellow
+highlight default link e LimeVowel
+highlight default link l Chartr
+highlight default link d Harleq
+highlight default link k Green
+highlight default link g Libre
+highlight default link t Lspring
+highlight default link q Mspring
+highlight default link u CyanVowel
+highlight default link b Sky
+highlight default link v Dodger
+highlight default link h Royal
+highlight default link p Blue
+highlight default link z Han
+highlight default link n Indigo
+highlight default link x Purple
+highlight default link m Magenta
+highlight default link j Hmagent
+highlight default link f Pink
+highlight default link r Torch
 
 " NUMBERS
-highlight default link n0 DarkGray
+highlight default link n0 Black
 highlight default link n1 Red
-highlight default link n2 nOrange
+highlight default link n2 Orange
 highlight default link n3 Yellow
 highlight default link n4 Green
 highlight default link n5 Cyan
 highlight default link n6 Blue
 highlight default link n7 Magenta
-highlight default link n8 BrightGray
-highlight default link n9 nRed
+highlight default link n8 White
+highlight default link n9 Scarlet
 
 " PUNCTUATION
-highlight default link period LightGray
+"highlight default link period LightGray
 highlight default link comma Red
 highlight default link question Blue
 highlight default link semicomma Magenta
@@ -175,34 +169,57 @@ highlight default link curlybrace Green
 highlight default link squarebracket Blue
 highlight default link underscore LightGray
 
+" emoji
+highlight default link emojiFaces Yellow
+
 " COLORS
 
 highlight Gray ctermfg=Gray
 highlight DarkGray ctermfg=Gray
 highlight BrightGray ctermfg=White
-highlight Red ctermfg=Red
 highlight DarkRed ctermfg=DarkRed
 highlight nRed ctermfg=DarkRed
-highlight Orange ctermfg=DarkYellow
 highlight nOrange ctermfg=DarkYellow
-highlight Yellow ctermfg=Yellow
 highlight Chartr ctermfg=LightGreen
-highlight Green ctermfg=LightGreen
 highlight DarkGreen ctermfg=DarkGreen
 highlight LightGreen ctermfg=LightGreen
 highlight Turq ctermfg=Cyan
-highlight Cyan ctermfg=Cyan
 highlight DarkCyan ctermfg=DarkCyan
 highlight Saphire ctermfg=Blue
-highlight Blue ctermfg=Blue
 highlight DarkBlue ctermfg=DarkCyan
-highlight Purple ctermfg=DarkMagenta
 highlight DarkMagenta ctermfg=DarkMagenta
-highlight Magenta ctermfg=Magenta
-highlight Pink ctermfg=Red
 
-highlight BlueVowel ctermfg=Blue
-highlight RedVowel ctermfg=Red
-highlight YellowVowel ctermfg=Yellow
 highlight GreenVowel ctermfg=Green
-highlight CyanVowel ctermfg=Cyan
+highlight BlueVowel ctermfg=Blue
+
+highlight Black 	ctermfg=DarkGray	guifg=#616161
+highlight Lgray		ctermfg=LightGray	guifg=#9E9E9E
+highlight White		ctermfg=White		guifg=#D9D9D9
+highlight RedVowel	ctermfg=Red		guifg=#F04C4C
+highlight Red		ctermfg=Red		guifg=#DA6262
+highlight Scarlet	ctermfg=DarkRed		guifg=#DA8062
+highlight Orange	ctermfg=DarkYellow	guifg=#DA9E62
+highlight Amber		ctermfg=DarkYellow	guifg=#DABC62
+highlight Yellow	ctermfg=Yellow		guifg=#DADA62
+highlight YellowVowel	ctermfg=Yellow		guifg=#9EF04C
+highlight Lime		ctermfg=Yellow		guifg=#BCDA62
+highlight LimeVowel	ctermfg=Yellow		guifg=#C7F04C
+highlight Chartr	ctermfg=Green		guifg=#9EDA62
+highlight Harleq	ctermfg=Green		guifg=#80DA62
+highlight Green		ctermfg=DarkGreen	guifg=#62DA62
+highlight Libre		ctermfg=DarkGreen	guifg=#62DA80
+highlight Lspring	ctermfg=Cyan		guifg=#62DA9E
+highlight Mspring 	ctermfg=Cyan		guifg=#62DABC
+highlight CyanVowel	ctermfg=Cyan		guifg=#4CF0F0
+highlight Cyan		ctermfg=Cyan		guifg=#62DADA
+highlight Sky		ctermfg=DarkCyan	guifg=#62BCDA
+highlight Dodger	ctermfg=DarkCyan	guifg=#629EDA
+highlight Royal		ctermfg=Blue		guifg=#6280DA
+highlight Blue		ctermfg=Blue		guifg=#6262DA
+highlight Han		ctermfg=Blue		guifg=#8062DA
+highlight Indigo	ctermfg=DarkMagenta	guifg=#9E62DA
+highlight Purple 	ctermfg=DarkMagenta	guifg=#BC62DA
+highlight Magenta	ctermfg=Magenta		guifg=#DA62DA
+highlight Hmagent 	ctermfg=Magenta		guifg=#DA62BC
+highlight Pink		ctermfg=Red		guifg=#DA629E
+highlight Torch		ctermfg=DarkRed		guifg=#DA6280

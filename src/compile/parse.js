@@ -69,12 +69,11 @@ function surroundingQuoteParse(grammar,wordIndex,tokens){
 /// be parse bo phrase de
 exports.lastCaseIndex = lastCaseIndexParse;
 function lastCaseIndexParse(grammar,tokens){
-	if (!tokens.length) return -1;
-	var Index = tokens.rfind(
-			wordMatch.curry(grammar.phraseWords));
-	if (Index=== null)
-		return -1;
-	return Index;
+if (!tokens.length) return -1;
+var Index = tokens.rfind(wordMatch.curry(grammar.phraseWords));
+if (Index=== null)
+	return -1;
+return Index;
 }
 exports.firstCaseIndex = firstCaseIndexParse;
 function firstCaseIndexParse(grammar,tokens){
@@ -110,15 +109,26 @@ function phraseError(grammar,tokens){
 			+" ya");
 }
 /// su first phrase be parse ya
-exports.firstPhrase = firstPhraseParse;
+exports. firstPhrase = 
+	 firstPhraseParse;
 function firstPhraseParse(grammar,tokens){
-var phraseHeadIdx = firstCaseIndexParse(grammar,tokens);
+var startEnd = firstPhraseIndexParse(grammar,tokens);
+return tokens.slice(startEnd[0],startEnd[1]);
+}
+exports. firstPhraseIndex = 
+	 firstPhraseIndexParse;
+function firstPhraseIndexParse(grammar,tokens){
+var startEnd = new Array();
+var phraseHeadIdx = firstAnyCaseIndexParse(grammar,tokens);
 if (phraseHeadIdx === null) phraseError(grammar, tokens);
 var otherSlice;
 var wordOrder = grammar.wordOrder;
 
-if (wordOrder.postpositional=== false)
+if (wordOrder.postpositional=== false){
 otherSlice = tokens.slice(phraseHeadIdx);
+startEnd[0]=phraseHeadIdx;
+}
+
 
 if (wordOrder.clauseInitial === false){
 // if case before clause then slice before it ya
@@ -131,8 +141,10 @@ if (nextClauseI === -1|| nextCaseI < nextClauseI)
 // if nextClause available, set it's end as phrase end ya
 else if (nextClauseI !== -1){
 var clauseIdxs = adjacentClauseIndexParse(grammar,nextSlice);
-otherSlice = otherSlice.slice(0,clauseIdxs[1]+1);
-return otherSlice;
+//otherSlice = otherSlice.slice(0,clauseIdxs[1]+1);
+//return otherSlice;
+startEnd[1]=clauseIdxs[1]+1+phraseHeadIdx;
+return startEnd;
 }
 } 
 else { otherSlice = tokens.slice(0,phraseHeadIdx+1); }
@@ -140,10 +152,14 @@ else { otherSlice = tokens.slice(0,phraseHeadIdx+1); }
 var resultI = lastPhraseIndexParse(grammar,otherSlice);
 var result;
 // if clause final, include start
-if (wordOrder.clauseInitial=== false)
-result = tokens.slice(phraseHeadIdx,resultI[1]+phraseHeadIdx);
-else result = tokens.slice(resultI[0],resultI[1]);
-return result;
+if (wordOrder.clauseInitial=== false){
+//result = tokens.slice(phraseHeadIdx,resultI[1]+phraseHeadIdx);
+startEnd[0]=phraseHeadIdx;
+startEnd[1]=resultI[1]+phraseHeadIdx;}
+//else result = tokens.slice(resultI[0],resultI[1]);
+else startEnd = resultI;
+//return result;
+return startEnd;
 }/* function's end */
 
 /// su last phrase be parse ya
@@ -152,6 +168,8 @@ function lastPhraseParse(grammar,tokens){
 	var indexes = lastPhraseIndexParse(grammar,tokens);
 	return tokens.slice(indexes[0],indexes[1]);
 }
+exports. lastPhraseIndex =
+	 lastPhraseIndexParse;
 function lastPhraseIndexParse(grammar,tokens){
 // algorithm:
 // 	be find ob last case index ya
@@ -178,14 +196,17 @@ function lastPhraseIndexParse(grammar,tokens){
 //		if available make end, else length is end
 //
 //
-	var lastCaseIndexP = lastCaseIndexParse.curry(grammar);
-	var clauseInitial = grammar.wordOrder.clauseInitial;
-	if (clauseInitial)
-	var phraseWordIndex = lastCaseIndexP(tokens);
-	else
-	var phraseWordIndex = firstCaseIndexParse(grammar,tokens);
-	if (phraseWordIndex === -1) phraseError(grammar, tokens);
-	var start, end;
+var lastCaseIndexP = lastCaseIndexParse.curry(grammar);
+var clauseInitial = grammar.wordOrder.clauseInitial;
+// 	be find ob last case index ya
+var phraseWordIndex;
+if (clauseInitial) 
+phraseWordIndex = lastAnyCaseIndexParse(grammar,tokens);
+else 
+phraseWordIndex = firstAnyCaseIndexParse(grammar,tokens);
+
+if (phraseWordIndex === -1) phraseError(grammar, tokens);
+var start, end;
 // 	be get ob adjacent clause ya
 	var adjacentClauseI = adjacentClauseIndexParse(grammar,
 			tokens, phraseWordIndex);
@@ -468,4 +489,69 @@ function firstClauseTerminatorIndexParse(grammar,tokens){
 	if (Index=== null)
 		return -1;
 	return Index;
+}
+
+exports.conditionalClause = conditionalClauseParse;
+function conditionalClauseParse(grammar,tokens){
+var indexes = conditionalClauseIndexParse(grammar,tokens);
+return tokens.slice(indexes[0],indexes[1]);
+}
+function conditionalClauseIndexParse(grammar,tokens){
+// conditioanl clause algorithm de
+//
+// if clause initial then 
+// be get ob conditional word from end ya
+// be set as end of conditional clause ya
+// be get ob previous conditional word and sentence word ya
+// be set greatest of conditional word or sentence or 0 
+// as start of conditional clause ya
+//
+// else if clause final then clause word at begining ya
+// 
+}
+
+
+exports. lastSubPhraseWordIndex = 
+	 lastSubPhraseWordIndexParse;
+function lastSubPhraseWordIndexParse(grammar,tokens){
+var Index = tokens.rfind(
+		wordMatch.curry(grammar.subPhraseWords));
+if (Index=== null) return -1;
+return Index;
+}
+exports. firstSubPhraseWordIndex = 
+	 firstSubPhraseWordIndexParse;
+function firstSubPhraseWordIndexParse(grammar,tokens){
+var Index = 
+tokens.find(wordMatch.curry(grammar.subPhraseWords));
+if (Index=== null) return -1;
+return Index;
+}
+exports. lastAnyCaseIndex = 
+	 lastAnyCaseIndexParse;
+function lastAnyCaseIndexParse(grammar,tokens){
+if (!tokens.length) return -1;
+var caseIndex  = 
+tokens.rfind(wordMatch.curry(grammar.phraseWords));
+if (caseIndex === null)    caseIndex = -1;
+var subCaseIndex =
+tokens.rfind(wordMatch.curry(grammar.subPhraseWords));
+if (subCaseIndex === null) subCaseIndex = -1;
+return Math.max(caseIndex,subCaseIndex)
+}
+exports. firstAnyCaseIndex = 
+	 firstAnyCaseIndexParse;
+function firstAnyCaseIndexParse(grammar,tokens){
+if (!tokens.length) return -1;
+var tokensLength = tokens.length;
+var caseIndex = 
+tokens.find(wordMatch.curry(grammar.phraseWords));
+if (caseIndex=== null)    caseIndex = tokensLength;
+var subCaseIndex = 
+tokens.find(wordMatch.curry(grammar.subPhraseWords));
+if (subCaseIndex=== null) subCaseIndex = tokensLength;
+tokens.find(wordMatch.curry(grammar.phraseWords));
+var result = Math.min(caseIndex,subCaseIndex);
+if (result === tokensLength) return -1;
+else return result;
 }
