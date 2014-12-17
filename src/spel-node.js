@@ -39,6 +39,7 @@ var text = new Text(mwak,file);
 console.log("text loaded");
 var dict = new Dictionary(mwak,text);
 console.log("dict loaded");
+console.log(dict.toString());
 var wordOrder = {
 	headFinal : false,
 	verbFinal : true,
@@ -54,6 +55,7 @@ console.log("grammar loaded");
 var eng = new Language(grammar,dict);
 console.log("english language loaded");
 
+console.log(dict.toLocaleString(eng));
 //var word = new Text(mwak,"mi .u sla munt .a mwa .i .ia yi kai pa ");
 //	console.log(eng.grammar.phraseWords);
 //var string = "ha btw cool su me be say ob tha be good su hello world ya"
@@ -66,90 +68,12 @@ var mtokens = tokenize.stringToWords(mstring);
 //var word = parse.lastPhrase(mwak.grammar,mtokens);
 var word = new Sentence(eng,string);
 var format = new Object();
-format.glyphsTransform=darkConsoleGlyphsTransform;
+var synesthesia = require('./lang/synesthesia');
+format.glyphsTransform=synesthesia.darkConsoleGlyphsTransform;
 console.log(word.toString());
 console.log(JSON.stringify(word));
 console.log(word.toLocaleString(eng,format));
 console.log(word.toLocaleString(mwak,format));
 //console.log("synesthezia");
-//console.log(grayConsoleGlyphsTransform(word.toString()));
-function darkConsoleGlyphsTransform(string){
-var glyphs=tokenize.stringToGlyphs(string);
-var result = new String();
-var i, glyph;
-var colors=require("colors");
-for (i=0;i<glyphs.length;i++){
-glyph = glyphs[i];
-if (glyph ==='a') glyph = glyph.red.bold;
-if (glyph ==='u') glyph = glyph.blue.bold;
-if (glyph ==='i') glyph = glyph.yellow.bold;
-if (glyph ==='e') glyph = glyph.green.bold;
-if (glyph ==='o') glyph = glyph.cyan.bold;
-if (glyph ==='w') glyph = glyph.red.bold;
-if (glyph ==='y') glyph = glyph.yellow.bold;
-if (glyph ==='l') glyph = glyph.green.bold;
-if (glyph ==='.') glyph = glyph.yellow.bold;
-if (glyph ==='k') glyph = glyph.green.bold;
-if (glyph ==='t') glyph = glyph.cyan.bold;
-if (glyph ==='d') glyph = glyph.cyan.bold;
-if (glyph ==='p') glyph = glyph.blue.bold;
-if (glyph ==='b') glyph = glyph.blue.bold;
-if (glyph ==='x') glyph = glyph.magneta.bold;
-if (glyph ==='h') glyph = glyph.blue.bold;
-if (glyph ==='c') glyph = glyph.yellow.bold;
-if (glyph ==='s') glyph = glyph.yellow.bold;
-if (glyph ==='r' ||  glyph === 'm' || glyph === 'c'
-		|| glyph === 'r')
-	glyph = glyph.red;
-if (glyph ==='n')
-	glyph = glyph.red.bold;
-if (glyph ==='t' )
-	glyph = glyph.cyan;
-if (glyph ==='l' )
-	glyph = glyph.green.bold;
-result+=glyph;
-}
-return result;
-}
-function grayConsoleGlyphsTransform(string){
-var glyphs=tokenize.stringToGlyphs(string);
-var result = new String();
-var i, glyph;
-var colors=require("colors");
-for (i=0;i<glyphs.length;i++){
-glyph = glyphs[i];
-if (glyph ==='a' )
-	glyph = glyph.red;
-if (glyph ==='u' || glyph ==='p')
-	glyph = glyph.blue;
-if (glyph=== 'i')
-	glyph = glyph.yellow.bold;
-if (glyph ==='e' )
-	glyph = glyph.green;
-if (glyph ==='o' )
-	glyph = glyph.cyan;
-if (glyph ==='k' )
-	glyph = glyph.green;
-if (glyph ==='w')
-	glyph = glyph.yellow;
-if (glyph ==='h')
-	glyph = glyph.blue;
-if (glyph ==='b')
-	glyph = glyph.magenta.bold;
-if (glyph ==='d')
-	glyph = glyph.blue.bold;
-if (glyph ==='s' || glyph ==='.' || glyph==='y')
-	glyph = glyph.yellow.bold;
-if (glyph ==='r' ||  glyph === 'm' || glyph === 'c'
-		|| glyph === 'r')
-	glyph = glyph.red;
-if (glyph ==='n')
-	glyph = glyph.red.bold;
-if (glyph ==='t' )
-	glyph = glyph.cyan;
-if (glyph ==='l' )
-	glyph = glyph.green.bold;
-result+=glyph;
-}
-return result;
-}
+//console.log(synesthesia.
+//grayConsoleGlyphsTransform(word.toString()));

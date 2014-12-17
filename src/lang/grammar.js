@@ -26,7 +26,8 @@ this.quotes.singleWord=translate.array(dict,
 		mwakGrammar.quotes.singleWord);
 this.quotes.multiWord=translate.array(dict, 
 		mwakGrammar.quotes.multiWord);
-
+this.quotes.literal=translate.array(dict, 
+		mwakGrammar.quotes.literal);
 }
 this.wordOrder = new Object();
 if (wordOrder){
@@ -49,7 +50,8 @@ var mwakGrammar = {
 	sentenceWords: ["ya","pa"],
 	quotes: {
 		singleWord: ["yi"],
-		multiWord: []
+		multiWord: [],
+		literal: ["yi"]
 	},
 	wordOrder: {
 		headFinal: true,

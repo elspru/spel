@@ -12,11 +12,13 @@ function Type(language,input){
 		tokens = tokenize.stringToWords(input);}
 	else if (typeof input === "object"
 		&& input.be === "Type"){
-			if (input.content !== undefined)
-			this.content = new Word(language, input.content);
-			if (input.typeWord !== undefined)
-			this.typeWord = new Word(language, input.typeWord);
-			return this;
+	if (input.content !== undefined && input.type !== "lit")
+	this.content = new Word(language, input.content);
+	if (input.content !== undefined && input.type === "lit")
+	this.content = input.content;
+	if (input.typeWord !== undefined)
+	this.typeWord = new Word(language, input.typeWord);
+	return this;
 	}
 	//} else if (typeof input === "object"
 	//	&& input.be === "Quote")
@@ -45,11 +47,19 @@ function Type(language,input){
 	}
 
 	// if last word is typeword then set it
-	if (language 
-	   && parse.wordMatch(language.grammar.typeWords,
-		   typeWord)){
-		this.content = new Word(language, otherTokens);
-		this.typeWord = new Word(language, typeWord);
+var grammar = language.grammar;
+if (language 
+   && parse.wordMatch(grammar.typeWords, typeWord)){
+// if typeword is literal set type to literal
+if (parse.wordMatch(grammar.quotes.literal, typeWord)){
+this.type = "lit";
+	this.content = otherTokens.join(" ");
+	this.typeWord = new Word(language, typeWord);
+}
+else {
+	this.content = new Word(language, otherTokens);
+	this.typeWord = new Word(language, typeWord);
+}
 	}
 	// else return all tokens as word
 	else this.content = new Word(language, tokens);

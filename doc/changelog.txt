@@ -10093,3 +10093,63 @@ front end ya
 select ya
 1511 nope it was just I made it .u instead of .a 
 1515 okay so roadmap and git
+1532 based on my slim research of japanese conjunctions like and
+go in between words just like in english ya
+1538 okay so lets see, the sentence junctions goes in the mood
+place.
+and be like ob this ya
+ka .a lik .i ki ya
+1540 phrase junctions
+su thing be compare ob hello or ob world a ya
+ka .u sla .a wa munt .a kim .i ya
+1545 can also check my grammar of proto indo european
+need a word for or anyhow ya
+1551 can use wi based on PIE we
+1553 hmm lets use wa to make it more different, also lots of
+langs use o and au ya
+1558 having words for the and a can also be useful,
+though we haven't added those types as of yet ya
+maybe after we get to quotes and such ya
+1633 maybe can let myself work on my synesthesia bookmarklet a
+lil more since I finished genitives today
+} 16 Dec 2014
+0226 after looking around at various junction positions, it
+seems that they tend towards being at the begining of a sentence
+ya
+0252 though punctuation is a recent innovation in east asian
+languages, it is typically an emulation of english, so that may
+be why it is being grouped in that way ya
+0259 oh I have an idea, can make the sentence enders the
+conjunction. I know chinese and japanese use a different word
+for connecting sentences than for connecting phrases ya
+0309 so sentence words are linguistically "sentence final
+particles"
+0332 alternatively we can make them all clausePhrases or
+something like that. 
+0340 it may be easier to add phrase junctions first
+they seem a little more straightforward. though since I just
+finished clauses clausePhrases shouldn't be so hard ya
+0521 hmmm so I seem to have been implementing things a little
+bit backwards, in terms of having implemented subordinate
+clauses before junctions and genitives. Anyways so since I don't
+want to go around renaming everything at this point, instead of
+clausePhrases's I'm going to be calling it topClause since it
+really is a top level clause ya.
+0528 another thing I've been considering is cleaning up the
+front end to prepare for presenting it at a meetup.
+0530 mainly  I was thinking of having the dictionary have a
+cleaner output, can probably implement it by giving it a
+toString and toLocaleString ya
+0541 I've also decided to extract the synesthesia functions out
+into their own file.
+0624 okay toString successfully implemented, now for
+toLocaleString ya
+0650 made toLocaleString but it's sloppy so I'll make it more
+correct ya
+0651 after I'll integrate it with web front ya
+0656 cleaned it up
+0701 only issue now is that it doesn't actually output the mwak, 
+only the english. because yi isn't implemented as a literal yet.
+0713 okay fixed now outputs the mwak ya
+0736 okay good, also set up "Courier New" as font :-).
+now roadmap and git

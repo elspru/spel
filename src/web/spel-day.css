@@ -2,12 +2,14 @@
  * 0x9D 0x61 0x3C 0xD9 of 0x100
  * 62   38   23   85   0f 100 */
 
+body{
+background-color:white;
+color:black;
+font-family:"Courier New";
+font-size:16;
+}
 div{
 width:32em;
-}
-body{
-	background-color:white;
-	color:black;
 }
 /* HSL color wheel colors 
  * 0 red

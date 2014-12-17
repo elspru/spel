@@ -61,4 +61,38 @@ function dictMake(language,text,cases){
 	}
 	return mapObject;
 }
-//Word.prototype.toString = function(){};
+
+Dictionary.prototype.toString = function(format){
+var joiner = ' ';
+var newline = '\n';
+var result = new String();
+var fromMwak = this.fromMwak;
+var suj = " yi .u ";
+var obj = " yi .a ya";
+for ( key in fromMwak )
+if (fromMwak.hasOwnProperty(key))
+result += key + suj + fromMwak[key] + obj+ newline;
+return result;}
+
+Dictionary.prototype.toLocaleString = function(language,format){
+var joiner = ' ';
+var newline = '\n';
+if (format && format.newline) newline = format.newline;
+var result = new String();
+var fromMwak = this.fromMwak;
+var Language = require("../lang/language");
+var Sentence = require("../type/sentence");
+var mwak = new Language();
+var suj = " yi .u ";
+var obj = " yi .a ya";
+var wordOrder = language.grammar.wordOrder;
+for ( key in fromMwak )
+if (fromMwak.hasOwnProperty(key)){
+value = fromMwak[key];
+mwakSent = key + suj + value + obj;
+sent = new Sentence(mwak, mwakSent);
+result += sent.toLocaleString(language,format) + newline;
+}
+return result;
+}
+

@@ -18,30 +18,6 @@ var text = new Text(mwak,file);
 var grammar = new Grammar();
 var engDict = new Dictionary(mwak,text);
 
-function span(classId,glyph){
-return "<span class="+classId+">"+glyph+"</span>";
-}
-
-function htmlSynGlyphsTransform(string){
-var glyphs=tokenize.stringToGlyphs(string);
-var result = new String();
-var i, glyph;
-for (i=0;i<glyphs.length;i++){
-glyph = glyphs[i];
-if (glyph === '.') glyph = span("gs",glyph);
-else glyph = span(glyph+'y',glyph);
-result+=glyph;
-}
-return result;
-}
-
-function htmlTypeGlyphsTransform(string,type){
-if (this.glyphsTransform)
-var synResult = this.glyphsTransform(string);
-else synResult = string;
-return span(type,synResult);
-}
-
 function themeSet(mode){
 var cssElem = document.querySelector( "link[rel=stylesheet]");
 if (mode === "day") cssElem.href = "spel-day.css";
@@ -49,9 +25,13 @@ else cssElem.href = "spel-night.css";
 }
 
 var HtmlFormat = { newline: "<br/>"};
+var synesthesia = require("../lang/synesthesia");
+var htmlSynGlyphsTransform = 
+synesthesia.htmlSynGlyphsTransform;
+var htmlTypeGlyphsTransform =
+synesthesia.htmlTypeGlyphsTransform;
 synSet("off");
 syntaxSet("on");
-
 function synSet(mode){
 if (mode === "on")
 HtmlFormat.glyphsTransform = htmlSynGlyphsTransform;
@@ -87,9 +67,9 @@ var /*Elem*/ fromLangChoice=document.getElementById("fromLang");
 var toLangCode = "en", 
     fromLangCode = "mwak",
     inLangCode = "en";
-var toLangDict = eng, 
-    fromLangDict = mwak,
-    inLangDict = eng;
+var toLangL = eng, 
+    fromLangL = mwak,
+    inLangL = eng;
 var dictShown = false;
 var syntaxInfoShown = false;
 var synInfoShown = false;
@@ -113,18 +93,18 @@ function submitInput(userInput){
 	var fromLangv = fromLangChoice.value;
 	var toLangv = toLangChoice.value;
 	if (toLangv === "en")
-		toLangDict = eng;
+		toLangL = eng;
 	if (toLangv === "mwak")
-		toLangDict = mwak;
+		toLangL = mwak;
 	if (fromLangv === "en")
-		fromLangDict = eng;
+		fromLangL = eng;
 	if (fromLangv === "mwak")
-		fromLangDict = mwak;
+		fromLangL = mwak;
 	var noError= true;
 	try{
-	var text = new Text(fromLangDict,userInput);
+	var text = new Text(fromLangL,userInput);
 	console.log(JSON.stringify(text));
-	var translation = text.toLocaleString(toLangDict,
+	var translation = text.toLocaleString(toLangL,
 			HtmlFormat);
 	} 
 	catch (error){
@@ -150,14 +130,14 @@ function init(){
 // 	put listeners on dictionary viewer
 	synSet("off");
 	var dictButton = document.getElementById("dict");
-	var dictDefs =  text.select(mwak,".a");
-	dictButton.onclick = function(){
-	if (dictShown === false){
-	infoUpdate(dictDefs.toLocaleString(inLangDict, HtmlFormat));
-	dictShown = true;}
-	else {if (dictShown === true)
-	infoUpdate("");
-	dictShown = false;}
+	var dictDefs = inLangL.dictionary;
+dictButton.onclick = function(){
+if (dictShown === false){
+infoUpdate(dictDefs.toLocaleString(inLangL, HtmlFormat));
+dictShown = true;}
+else {if (dictShown === true)
+infoUpdate("");
+dictShown = false;}
 	}
 // 	put listeners on theme selector
 	var themeButton = document.getElementById(

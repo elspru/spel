@@ -20,12 +20,12 @@ Speakable Programming for Every Language Translator SPELT
 0.3.4 visual synesthesia support (04 Dec 2014)
 0.3.5 syntax highlighting support (09 Dec 2014)
 0.3.6 genitives or subPhrases support (15 Dec 2014)
+0.3.7 dictionary toString and toLocaleString  (17 Dec 2014)
 
-0.3.7 sentence junctions
-0.3.8 phrase junctions
-0.3.9 type junctions
-0.3.A clause junctions
-0.3.B support for conditional clauses
+0.3.8 sentence junctions and conditionals
+0.3.9 phrase junctions
+0.3.A type junctions
+0.3.B subclause junctions
 0.3.C performance grammar phrase ordering
 0.3.D topicalization
 0.4.0 word quotes
