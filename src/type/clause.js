@@ -21,13 +21,13 @@ var Sentence = require("./sentence");
 		tokens = tokenize.stringToWords(input);}
 	else if (typeof input === "object"
 		&& input.be === className){
-			if (input.clauseTerm)
-			this.clauseTerm = 
-			new Word(language, input.clauseTerm);
-			this.sentence = 
-			new Sentence(language, input.sentence);
-			this.clauseWord = 
-			new Word(language, input.clauseWord);
+			if (input.tail)
+			this.tail = 
+			new Word(language, input.tail);
+			this.body = 
+			new Sentence(language, input.body);
+			this.head = 
+			new Word(language, input.head);
 			return this;
 		}
 	else if (Array.isArray(input)) tokens = input;
@@ -51,7 +51,7 @@ var Sentence = require("./sentence");
 	// and remove from otherTokens
 	if (parse.wordMatch(grammar.clauseTerminator,
 				clause[0])){
-		this.clauseTerm=new 
+		this.tail=new 
 			Word(language, clause[0]);
 		otherTokens.shift();
 	}
@@ -68,22 +68,22 @@ var Sentence = require("./sentence");
 		// and remove from otherTokens
 		if (parse.wordMatch(grammar.clauseTerminator,
 					clause[clauseTermI])){
-			this.clauseTerm=new 
+			this.tail=new 
 			Word(language, clause[clauseTermI]);
 			otherTokens.pop();
 		}
 	}
-	this.sentence = new Sentence(language, otherTokens);
-	this.clauseWord = new Word(language, clauseWord);
+	this.body = new Sentence(language, otherTokens);
+	this.head = new Word(language, clauseWord);
 	////this.clause = new Sentence();
 	return this;
 }
 Clause.prototype.toString = function(format){
 	var joiner = ' ';
 	var result = new String();
-	var clauseTerm = this.clauseTerm;
-	var sentence = this.sentence;
-	var clauseWord = this.clauseWord;
+	var clauseTerm = this.tail;
+	var sentence = this.body;
+	var clauseWord = this.head;
 	if (clauseTerm) 
 		result += clauseTerm.toString(format)+joiner;
 	if (sentence) 
@@ -94,9 +94,9 @@ Clause.prototype.toString = function(format){
 Clause.prototype.toLocaleString = function(language,format){
 	var joiner = ' ';
 	var result = new String();
-	var clauseTerm = this.clauseTerm;
-	var sentence = this.sentence;
-	var clauseWord = this.clauseWord;
+	var clauseTerm = this.tail;
+	var sentence = this.body;
+	var clauseWord = this.head;
 	if (language.grammar.wordOrder.clauseInitial){
 	if (clauseTerm) result += clauseTerm.toLocaleString(
 			language,format,"lh")+joiner;
@@ -115,3 +115,40 @@ Clause.prototype.toLocaleString = function(language,format){
 	}
 	return result;
 };
+Clause.prototype.isLike= function(language,input){
+	var match = clauseInputToMatch(language,input);
+	if (this.head.isLike(language,match.head)
+		&& this.body.isLike(language,match.body))
+		return true;
+	return false;
+};
+Clause.prototype.isSubset= function(language,input){
+	var match = clauseInputToMatch(language,input);
+	if (this.head.isSubset(language, match.head)
+		&& this.body.isSubset(language,match.body))
+		return true;
+	return false;
+};
+Clause.prototype.isSuperset= function(language,input){
+var match = clauseInputToMatch(language,input);
+var result = true;
+if (match.body && !this.body || match.head && ! this.head)
+result =false;
+else if (this.head && match.head
+&& !this.head.isSuperset(language,match.head))
+result = false;
+else if (this.body && match.body
+&& !this.body.isSuperset(language,match.body))
+result = false;
+return result;
+};
+function clauseInputToMatch(language,input){
+	if (typeof input === "string"
+		|| Array.isArray(input))
+		return new Clause(language, input);
+	else if (typeof input === "object"
+		&& input.be === className)
+		return input;
+	else throw new TypeError(JSON.stringify(input)
+			+" not valid match for "+className);
+}

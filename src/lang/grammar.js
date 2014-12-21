@@ -15,6 +15,10 @@ this.phraseWords=translate.array(dict,
 		mwakGrammar.phraseWords);
 this.subPhraseWords=translate.array(dict,
 		mwakGrammar.subPhraseWords);
+this.topClauseWords=translate.array(dict,
+		mwakGrammar.topClauseWords);
+this.topClauseTerminator=translate.array(dict,
+		mwakGrammar.topClauseTerminator);
 this.clauseWords=translate.array(dict,
 		mwakGrammar.clauseWords);
 this.clauseTerminator=translate.array(dict,
@@ -31,6 +35,7 @@ this.quotes.literal=translate.array(dict,
 }
 this.wordOrder = new Object();
 if (wordOrder){
+this.wordOrder.headFinal= wordOrder.headFinal;
 this.wordOrder.verbFinal= wordOrder.verbFinal;
 this.wordOrder.postpositional= wordOrder.postpositional;
 this.wordOrder.genitiveInitial= wordOrder.genitiveInitial;
@@ -44,7 +49,8 @@ var mwakGrammar = {
 	typeWords: ["yi"],
 	phraseWords: [".i","ta",".a",".u","kai","nia"],
 	subPhraseWords: ["pi"],
-	conditionalWords: ["ku","tua"],
+	topClauseWords: ["ku","tua","kwi","pwa"],
+	topClauseTerminator: ["tua"],
 	clauseWords: ["ti"],
 	clauseTerminator: ["tai"],
 	sentenceWords: ["ya","pa"],
@@ -60,6 +66,6 @@ var mwakGrammar = {
 		postpositional: true,
 		clauseInitial: true,
 		genitiveInitial: true,
-		phraseOrder: [".u","ta",".a",".i"]
+		phraseOrder: ["ku","tua",".u","ta",".a",".i"]
 	}
 }

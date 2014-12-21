@@ -3,6 +3,7 @@ var tokenize = require("../compile/tokenize");
 var parse = require("../compile/parse");
 var Word = require("./word");
 var Phrase = require("./phrase");
+var TopClause = require("./topClause");
 var err = require("../lib/error");
 module.exports = Sentence;
 /// su sentence be object ya
@@ -14,9 +15,14 @@ function Sentence(language, input) {
 	else if (typeof input === "object"
 		&& input.be === "Sentence"){
 	this.phrases = new Array();
-	for (i=0; i< input.phrases.length; i++)
+	for (i=0; i< input.phrases.length; i++){
+	if (input.phrases[i].be === "Phrase")
 		this.phrases[i]=
 		new Phrase(language, input.phrases[i]);
+	else 
+	this.phrases[i] = 
+	new TopClause(language, input.phrases[i]);
+	}
 	if (input.endWords)
 	this.endWords= new Word(language, input.endWords);
 	if (input.mood !== undefined)
@@ -32,73 +38,130 @@ function Sentence(language, input) {
 	//	throw new TypeError("su Phrase be need bo tokens ya");
 	//this.string = tokens.join("");
 	//this.tokens = tokens;
+
+// algorithm de
+// 
+// be get ob last case word index ya
+// be get ob last word or mood word of sentence ya
+// if postpositional then ob last words of sentence at end ya
+// if prepositional then ob last words of sentence at start ya
+// be get ob each phrase or top clause ya
+// if clause initial then be get via last ya
+// if clause final then be get via first ya
+// be set ob many part of this ya
+
 var grammar = language.grammar;
 var wordOrder = grammar.wordOrder;
-var lastCaseIndex = parse.lastCaseIndex(grammar, tokens);
+// get last case word index
+var lastCaseIndex =parse.lastCaseIndex(grammar,tokens);
+var lastTopClauseIndex =
+parse.lastTopClauseWordIndex(grammar,tokens);
+if (lastTopClauseIndex === -1) lastTopClauseIndex = -1;
+var lastAnyCaseI =
+Math.max(lastTopClauseIndex,lastCaseIndex);
 if (lastCaseIndex === -1) parse.phraseError(grammar,tokens);
 lastCaseIndex++;
+lastAnyCaseI++;
 var lastWord = undefined, 
     otherTokens = undefined, 
     mood = undefined;		
-// if postpositional, last words of sentence are at end
+// be get ob last word or mood word of sentence ya
+// if postpositional then last words of sentence at end ya
 if (wordOrder.postpositional){
 var lastWordStart = parse.lastSentenceWordIndex(grammar,tokens);
 if (lastWord!==-1){
 lastWord = tokens.slice(lastWordStart,lastWordStart+1);
-if (lastWordStart > lastCaseIndex)
-mood = tokens.slice(lastCaseIndex,lastWordStart);
+if (lastWordStart > lastAnyCaseI)
+mood = tokens.slice(lastAnyCaseI,lastWordStart);
 }
-otherTokens = tokens.slice(0,lastCaseIndex);
+otherTokens = tokens.slice(0,lastAnyCaseI);
 }
-// if prepositional, last words of sentence are at start
+// if prepositional then ob last words of sentence at start ya
 else {
 var firstCaseIndex =parse.firstCaseIndex(grammar,tokens);
+var firstTopClauseIndex =
+parse.firstTopClauseWordIndex(grammar,tokens);
+if (firstTopClauseIndex === -1) 
+firstTopClauseIndex = tokens.length;
+var firstAnyCaseI =
+Math.min(firstTopClauseIndex,firstCaseIndex);
 var lastWordI = 
 parse.lastSentenceWordIndex(grammar,tokens);
 if (lastWordI !== -1)
 lastWord = tokens[lastWordI];
 if (firstCaseIndex !== 0) 
-mood = tokens.slice(0,firstCaseIndex);
-otherTokens = tokens.slice(firstCaseIndex,
-		tokens.length-firstCaseIndex);
+mood = tokens.slice(0,firstAnyCaseI);
+otherTokens = tokens.slice(firstAnyCaseI,
+		tokens.length-firstAnyCaseI);
 }
 
+// be get ob each phrase or top clause ya
 var previousLength = 0;
 var phrases = new Array();
-var lastPhrase, phrase;
-// if clause initial get via last phrases
-// if clause final get via first phrases
+var thePhraseI, thePhrase, phrase, 
+theTopClauseI, theClause, topClause;
 while (otherTokens.length>0 
 && otherTokens.length != previousLength){
 // avoid infinite loops from starter garbage
 	previousLength = otherTokens.length;
+
+// if clause initial then get via last phrases ya
 if (wordOrder.clauseInitial===true){
-	lastPhrase = parse.lastPhrase(grammar,
-			otherTokens);
-	if (lastPhrase.length === 0) break;
-	phrase =  new Phrase(language, lastPhrase);
-	phrases.unshift(phrase);
-	otherTokens = otherTokens.slice(0,
-	otherTokens.length-lastPhrase.length);
-}else if (wordOrder.clauseInitial===false){
-	if (parse.firstCaseIndex(grammar,otherTokens) 
-			=== -1)
-	       	break;
-	lastPhrase = parse.firstPhrase(grammar,
-			otherTokens);
-	phrase = new Phrase(language, lastPhrase);
-	phrases.push(phrase);
-	otherTokens = otherTokens.slice(
-			lastPhrase.length);
+thePhraseI = parse.lastPhraseIndex(grammar, otherTokens);
+if (Array.isArray(otherTokens))
+theTopClauseI = parse.topClauseIndex(grammar, otherTokens);
+thePhrase= otherTokens.slice(thePhraseI[0],thePhraseI[1]);
+if (theTopClauseI && theTopClauseI[1]>thePhraseI[1]){
+theClause= otherTokens.slice(theTopClauseI[0],theTopClauseI[1]);
+topClause = new TopClause(language, theClause);
+phrases.unshift(topClause);
+otherTokens.splice(theTopClauseI[0],
+theTopClauseI[1]-theTopClauseI[0]);
 }
+else if (thePhrase.length === 0) break;
+else {
+phrase =  new Phrase(language, thePhrase);
+phrases.unshift(phrase);
+otherTokens.splice(thePhraseI[0],
+thePhraseI[1]-thePhraseI[0]); }
+} // be end of if for clause initial ya
+
+// if clause final then get via first phrases ya
+else if (wordOrder.clauseInitial===false){
+if (parse.firstCaseIndex(grammar,otherTokens) === -1) break;
+thePhraseI = parse.firstPhraseIndex(grammar, otherTokens);
+theTopClauseI = parse.topClauseIndex(grammar, otherTokens);
+var length = otherTokens.length;
+if (thePhraseI[0] === -1) thePhraseI[0]= length;
+if (theTopClauseI[0] === -1) theTopClauseI[0]= length;
+if (theTopClauseI && theTopClauseI[0]<thePhraseI[0]){
+theClause= otherTokens.slice(theTopClauseI[0],theTopClauseI[1]);
+topClause = new TopClause(language, theClause);
+phrases.push(topClause);
+otherTokens.splice(theTopClauseI[0],
+theTopClauseI[1]-theTopClauseI[0]);
 }
+else if (thePhraseI[0]===length) break;
+else {
+thePhrase = otherTokens.slice(thePhraseI[0],thePhraseI[1]);
+phrase = new Phrase(language, thePhrase);
+phrases.push(phrase);
+otherTokens.splice(thePhraseI[0],
+thePhraseI[1]-thePhraseI[0]); }
+} // be end of else if for clause final ya
+} // be end of while loop  for phrase or top clause get ya
+
+// be set ob many part of this ya
 this.phrases = phrases;
 if (mood && mood.length>0)
 this.mood = new Word(language,mood);
 if (lastWord && lastWord.length>0)
 this.endWords = new Word(language,lastWord);
 return this;
-}
+}// su sentence be end of constructor function ya
+
+
+
 exports.sentenceInputToMatch = sentenceInputToMatch;
 function sentenceInputToMatch(language, input){
 	if (typeof input === "string"||
@@ -277,28 +340,35 @@ result += simpleClauseTermMaybeAdd(format,phrases[i],i);
 Sentence.prototype.toLocaleString = function(language,format){
 // be convert bo sentence to language with format de
 // algorithm:
-// be set bo joiner and ender from format ya
-// be set bo empty string for translation result ya
-// be clone bo this sentence to working sentence ya
+// be set ob joiner and ender from format ya
+// be set ob empty string for translation result ya
+// be clone ob this sentence to working sentence ya
 //
 // if prepositional then translate mood and append to result
 //
 // be start of loop for each phrase in language phrase order de
-// be get bo phrase from working sentence ya 
+// be get ob phrase from working sentence ya 
 // if found then
-// be may add bo clause term to phrase translation ya
-// be append bo it to result ya and
-// be delete bo phrase from sentence ya
+// be may add ob clause term to phrase translation ya
+// if su prevTopClause boolean be set and su this be phrase
+//	then be prepend ob clauseTerm to result ya
+// if be top clause then be set ob prevTopClause boolean ya
+// else if be phrase then be unset ob prevTopClause boolean ya
+// be append ob it to result ya and
+// be delete ob phrase from sentence ya
 // be end of loop ya
 //
 // be loop for each phrase in working sentence de
-// be append bo phrase translation to result ya
+// if head initial
+// be append ob phrase translation to result ya
+// if head final
+// be prepend
 //
 // if postpositional then translate mood and append to result
 //
-// be translate bo end words ya 
+// be translate ob end words ya 
 // be append to result ya
-// be append bo ender ya
+// be append ob ender ya
 // return result ya
 //
 
@@ -309,14 +379,18 @@ Sentence.prototype.toLocaleString = function(language,format){
 // be set bo empty string for translation result ya
 	var result = new String();
 // be clone bo this sentence to working sentence ya
-	var sentence = this.copy(language);
-	var grammar = language.grammar;
-	var wordOrder = grammar.wordOrder;
-	var mood = this.mood;
+var sentence = this.copy(language);
+var grammar = language.grammar;
+var wordOrder = grammar.wordOrder;
+var topClauseTerm = 
+new Word(language, grammar.topClauseTerminator[0]);
+var mood = this.mood;
+var prevTopClause = false;
 //
 // if prepositional then translate mood and append to result
 if (mood && wordOrder.postpositional === false)
 result+=mood.toLocaleString(language,format,"mh")+joiner;
+
 // be start of loop for each phrase in language phrase order de
 var orderPhrases = wordOrder.phraseOrder;
 var orderPhrasesLength = orderPhrases.length;
@@ -332,10 +406,23 @@ if (phraseIndex !== -1){
 var phrase = phrases[phraseIndex];
 var phraseTrans = 
 clauseTermMaybeAdd(language,format,phrase,result.length,
-sentence.phrases.length);
-// be append bo it to result ya and
+sentence.phrases);
+if (wordOrder.postpositional === false){
+// if su prevTopClause boolean be set and su this be phrase
+//	then be prepend ob clauseTerm to result ya
+if (prevTopClause && phrase.be === "Phrase")
+phraseTrans = 
+topClauseTerm.toLocaleString(language, format, "jh")
++ joiner + phraseTrans;
+// if be top clause then be set ob prevTopClause boolean ya
+if (phrase.be === "TopClause")
+prevTopClause = true;
+// else if  be phrase then be unset ob prevTopClause boolean ya
+else if (phrase.be === "Phrase")
+prevTopClause = false;}
+// be append ob it to result ya and
 result +=  phraseTrans;
-// be delete bo phrase from sentence ya
+// be delete ob phrase from sentence ya
 sentence.phraseDelete(phraseIndex);
 }
 // be end of loop ya
@@ -344,8 +431,14 @@ sentence.phraseDelete(phraseIndex);
 // be loop for each phrase in working sentence de
 	var phrasesLength = phrases.length;
 	for (i=0; i<phrasesLength; i++){
+// if head initial
 // be append bo phrase translation to result ya
+if (grammar.wordOrder.headFinal === false)
 	result += phrases[i].toLocaleString(language,format);
+// if head final
+// be prepend
+else if (grammar.wordOrder.headFinal)
+result = phrases[i].toLocaleString(language,format) + result;
 	}
 // 
 // if postpositional then translate mood and append to result
@@ -365,33 +458,37 @@ result+=mood.toLocaleString(language,format,"mh") +joiner;
 };
 
 function clauseTermMaybeAdd(language, format, phrase,
-resultLength, sentenceLength){
+resultLength, phrases){
 // if clauseInitial and phrase has clause and result non zero
 // then prepend clauseTerm translation ya
-// if clauseFinal and phrase has clause and sentence non zero
+// if clauseFinal and phrase has clause 
+//	and phrases length is non zero
 // then append clauseTerm translation ya
 
+var phrasesLength = phrases.length;
 var phraseTrans =
 phrase.toLocaleString(language,format);
 var clause = phrase.clause;
-if (clause && !clause.clauseTerm){
 var grammar = language.grammar;
 var clauseInitial = grammar.wordOrder.clauseInitial;
 var joiner = " ";
+
 // if clauseInitial and phrase has clause and result non zero
-if (clauseInitial && resultLength > 0){
+if (clauseInitial && clause && !clause.tail && resultLength>0){
 // then prepend clauseTerm translation ya
 var clauseTerm = new Word(language,grammar.clauseTerminator[0]);
 return clauseTerm.toLocaleString(language,format,"lh")
 +joiner+phraseTrans;}
-// if clauseFinal and phrase has clause and sentence non zero
-else if (clauseInitial===false && sentenceLength > 1){
-// then append clauseTerm translation ya
 
+// if clauseFinal and phrase has clause 
+// 	and phrases length is non zero
+else if ( clauseInitial===false && phrasesLength > 1
+&& (clause && !clause.tail )){
+// then append clauseTerm translation ya
 var clauseTerm = new Word(language,grammar.clauseTerminator[0]);
 return phraseTrans+
 clauseTerm.toLocaleString(language,format,"lh")+joiner;}
-} return phraseTrans; }
+return phraseTrans; }
 
 function simpleClauseTermMaybeAdd(format, phrase, resultLength){
 // if phrase has clause and result non zero

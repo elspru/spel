@@ -21,8 +21,8 @@ Speakable Programming for Every Language Translator SPELT
 0.3.5 syntax highlighting support (09 Dec 2014)
 0.3.6 genitives or subPhrases support (15 Dec 2014)
 0.3.7 dictionary toString and toLocaleString  (17 Dec 2014)
+0.3.8 sentence junctions and conditionals (21 Dec 2014)
 
-0.3.8 sentence junctions and conditionals
 0.3.9 phrase junctions
 0.3.A type junctions
 0.3.B subclause junctions
@@ -42,20 +42,21 @@ Speakable Programming for Every Language Translator SPELT
 0.7.8 all error and site messages translated
 0.8 write documentation 
 0.9 support the UN and IT languages
-0.9.0 English
-0.9.2 Chinese 
-0.9.4 Spanish
-0.9.6 Japanese  (Sony Panasonic Toshiba)
-0.9.8 Russian (Yandex)
-0.9.B French
-0.9.C Korean  (Samsung LG)
+0.9.0 English (Apple, HP, IBM, MS, Oracle, Amazon, Google, Dell)
+0.9.2 Chinese (Tencent, Foxconn, Alibaba, Baidu)
+0.9.4 Spanish (Amadeus)
+0.9.6 Japanese (Sony, Panasonic, Toshiba, NEC, Hitachi, Fujitsu)
+0.9.8 French (STMicroelectronics)
+0.9.A Russian (Yandex)
+0.9.C German (SAP, Infineon,)
 0.9.E Arabic
+0.9.F Korean (Samsung, LG, Hynix, Hyundai)
 0.A support measurement translation
-0.B
-0.C.0 make primitive forum or chat
-0.D.0 continue after recoverable errors and warnings
-0.E.0 write documentation
-0.F.0 write tutorial or FAQ bot 
+0.B archival/blog bot (secretary) mwak to html?
+0.C compiler mwak to javascript?
+0.D continue after recoverable errors and warnings
+0.E make primitive forum or chat (president)
+0.F write tutorial or FAQ bot 
 1.0.0 do some promotion
 
 Speakable Programming for Every Language SPEL (mwak)

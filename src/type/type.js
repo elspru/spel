@@ -15,7 +15,7 @@ function Type(language,input){
 	if (input.content !== undefined && input.type !== "lit")
 	this.content = new Word(language, input.content);
 	if (input.content !== undefined && input.type === "lit")
-	this.content = input.content;
+	this.content = new Word(language, input.content);
 	if (input.typeWord !== undefined)
 	this.typeWord = new Word(language, input.typeWord);
 	return this;
@@ -53,7 +53,8 @@ if (language
 // if typeword is literal set type to literal
 if (parse.wordMatch(grammar.quotes.literal, typeWord)){
 this.type = "lit";
-	this.content = otherTokens.join(" ");
+	this.content = new Word(language, otherTokens);
+//otherTokens.join(" ");
 	this.typeWord = new Word(language, typeWord);
 }
 else {

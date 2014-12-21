@@ -54,7 +54,7 @@ var engWordOrder = {
 	clauseInitial: false,
 	genitiveInitial: false,
 	postpositional : false,
-	phraseOrder: [".u",".i","ta",".a"]
+	phraseOrder: ["ku","tua",".u",".i","ta",".a"]
 };
 
 var engGrammar = new Grammar(engWordOrder,engDict);
@@ -165,6 +165,7 @@ infoUpdate('syntax highlighting consists of <br/>'
 +'<span class="ch">phrase head  </span><br/>'
 +'<span class="th">type head  </span><br/>'
 +'<span class="gh">genitive head  </span><br/>'
++'<span class="jh">junction head  </span><br/>'
 +'<span class="lh">clause head  </span><br/>'
 +'<span class="mh">mood </span> ya <br/>');
 syntaxInfoShown = true;

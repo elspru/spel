@@ -4,12 +4,12 @@
 
 body{
 font-family:"Courier New";
-font-size:16;
-background-color:black;
+font-size:12;
+background-color:black; 
 color:white;
 }
 div{
-width:32em;
+width:40em; /* 64 glyphs */
 }
 /* HSL color wheel colors 
  * 0 red
@@ -56,15 +56,24 @@ width:32em;
 .ry{ color:hsl(345,62%,62%);/*torch*/ }
 
 /* syntax highlighting */
+/* sentence header*/
 .sh{ background-color:hsl(270,0%,5%);/*dark gray*/ 
 border-radius: 0.23em; overflow:hidden; }
+/* phrase case header*/
 .ch{ background-color:hsl(270,0%,14%);/*bright gray*/
 border-radius: 0.23em; overflow:hidden; }
+/* type header*/
 .th{ background-color:hsl(0,61%,9%);/*red*/ 
 border-radius: 0.23em; overflow:hidden; }
+/* clause header*/
 .lh{ background-color:hsl(240,61%,9%);/*blue*/ 
 border-radius: 0.23em; overflow:hidden; }
+/* mood header*/
 .mh{ background-color:hsl(300,61%,9%);/*magenta*/ 
 border-radius: 0.23em; overflow:hidden; }
+/* genitive header*/
 .gh{ background-color:hsl(120,61%,9%);/*green*/ 
+border-radius: 0.23em; overflow:hidden; }
+/* junction header*/
+.gh{ background-color:hsl(60,61%,9%);/*green*/ 
 border-radius: 0.23em; overflow:hidden; }

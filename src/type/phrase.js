@@ -175,22 +175,38 @@ function phraseInputToMatch(language,input){
 			+" not valid match for "+"Phrase");
 }
 Phrase.prototype.isSubset= function(language,input){
-	var match = phraseInputToMatch(language,input);
-	if (this.head.isSubset(language, match.head)
-		&& this.body.isSubset(language,match.body))
-		return true;
-	return false;
+var match = phraseInputToMatch(language,input);
+var result = true;
+if(!match.body && this.body 
+|| !match.head && this.head
+|| !match.clause && this.clause)
+result =false;
+else if (this.head && match.head
+&& !this.head.isSubset(language,match.head))
+result = false;
+else if (this.body && match.body
+&& !this.body.isSubset(language,match.body))
+result = false;
+else if (this.clause && match.clause
+&& !this.clause.isSubset(language,match.clause))
+result = false;
+return result;
 };
 Phrase.prototype.isSuperset= function(language,input){
 var match = phraseInputToMatch(language,input);
 var result = true;
-if (match.body && !this.body || match.head && ! this.head)
+if(match.body && !this.body 
+|| match.head && ! this.head
+|| match.clause && !this.clause)
 result =false;
 else if (this.head && match.head
 && !this.head.isSuperset(language,match.head))
 result = false;
 else if (this.body && match.body
 && !this.body.isSuperset(language,match.body))
+result = false;
+else if (this.clause && match.clause
+&& !this.clause.isSuperset(language,match.clause))
 result = false;
 return result;
 };

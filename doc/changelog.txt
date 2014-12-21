@@ -10153,3 +10153,232 @@ only the english. because yi isn't implemented as a literal yet.
 0713 okay fixed now outputs the mwak ya
 0736 okay good, also set up "Courier New" as font :-).
 now roadmap and git
+1332 got a bunch of story ideas.
+so as before pure technological life would be limited to areas
+of minimal or no biological life, such as high mountains,
+extremely dry deserts, and glaciers.
+centaurs would be limited to tundra like eco-systems.
+the worst (biological) criminals would be in equatorial tropical
+areas, with no access to technology above stone age. 
+the subtropical would be the relatively minor "white" collar
+criminals, with access to manual power machines.
+the temperate would be the average moderately 
+1350 okay so lets try to organize this simply
+su 0 with no technology in tropics, subtropics ya
+su 1 with servant technology in other treed areas ya
+su 2 with transhumans in grassland and tundra
+su 3 with pure technology above snow line
+1857 alternatively can be by diversity index,
+for instance of vascular plants
+su 0 with less than 100 species for pure technology
+su 1 with more than 2000 species for no technology
+1901 bah anyways no one is gonna agree to that, anyways better
+stick to the story stuff. 
+su attendant be say ob quo te
+here be your life preserver and manual quo ted ya
+be hand ob book in plastic bag and balsa log to new con ya
+be say ob quo te see that island over there? quo ted yand 
+be point to yonder island about 300m distant ya 
+be say ob quo te you have to swim to it then open and read your
+manual if you wish to survive ya
+
+su the gangplank be slide ob new con into water ya
+su new con be grip ob his log and book but tumbles underwater ya
+su salt water be enter ob mouth of he ya
+panic su he be grip and kick with full might ya
+su air be feel on face yand 
+relief su he be spit and gasp ya
+be continue ob kick for balance yand be head for land ya
+
+exhausted be arrive on beach ya
+be crawl til tha be above ob waves yand 
+be collapse and sleep ya 
+
+dicomfort su he be have dream de
+su he be flow ask for forgive but
+su the stern shadowy ob be release ob the new con yand
+su the new con be flow away ya
+
+surprise su he be wake on pull yand
+su he be see ob island man 
+tha be tug ob manual from grip of the su ya
+
+ob quo te su you be not need ob this ya 
+be let ob tha su me be have ob it yand
+su me be give to you ob some food ya quo ted 
+su island man be say ya
+
+uncertain submissive su new con be release ob grip yand
+su he be fall yand crying be hug ob log ya
+remorse ob quo te su me be regret ob past agression of me ya
+quo te su he be say ya
+
+1937 bah su this story be take too long yand be fast forward ya
+su nc be learn ob exit temple at other side of island ya
+on way su he be see ob many scary crimes ya
+finally su he be arrive at temple ya
+
+at temple su people be must meditate in front of it 
+for hour to gain ob entrance then 
+at inside ob they be give 
+2008 hmmm need passive voice it seems
+2107 used chinese honorifics to get the .u and .a cases
+2108 gues I don't need passive voice can actually just say
+at inside to they be give ob cell for meditation ya
+in cell to they be give ob clean food and water and teaching ya
+tat tha they be full consider ob ready encla 
+to they be allow ob transfer to place of more rules ya
+2111 cool so su it be seem to work yand tat now be time for bed
+ya
+} 18 Dec 2014
+0541 so decided to make topClause integrated in sentence.js
+since phrase.js is already pretty big ya
+0648 bah been looking at language popularity lists instead of
+working ya
+0652 I was considering earlier that could merge pre and post
+positions since some language use both ya but to make sure
+parsing always works we need to have either a postposition or a
+preposition for every word ya I'm sure those languages that have
+both probably have it more in one area than another, so they
+could be pre or post dominant with the other one ya Anyways I
+don't know any of those languages, I'm sure people that speak
+them can support those features later ya
+0655 so I should write an algorithm for the sentence file cuz 
+there is a bunch of code and I'm not sure how it works ya
+0705 okay wrote out the algorithm that is current ya
+tat now be need make ob algorithm for top clauses ya
+0720 so gotta shift over to index based functions 
+0725 good be make ob parse.lastTopClauseIndex and
+parse.firstTopClauseIndex ya
+0727 I was thinking of simple illustrations for demonstrating
+subject direct-object and indirect-object 
+can show triangle giving circle to square ya
+or have some childrens books and examples ya
+0730 anyways su parsing ya
+0738 wrote algorithm for top clause index parse ya
+0740 need to write 
+0926 hm su mwak be not yet have ob top clause words ya
+0929 oh actually be have ob the conditional words ya
+1322 would be good to have one for wu yand also ya
+1324 much like with and, i seems most common vowel ya
+r d(t) g(h) seem most common cononants ya
+1331 possibly kwi since kyi is taken ya
+1345 cool be also make ob pwa for yaor ya
+1351 be want add ob more links on index page ya
+1418 okay updated the index ya
+1427 might have to make ti and-then later on ya
+depending on frequency of usage in programming language ya
+1438 anyways back to work ya
+1456 okay wrote top clause index parse .ia :-) ya
+1458 now to integrate with sentence
+1507 wrote it into clause initial ya now be test ya
+1520 gotta make sure phrase parsing quits if it encounters a top
+clause ya
+1535 bah, maybe should integrate it at phrase level :-S
+getting some really weird errors ya
+1542 it seems to be detecting even quoted object nested ku's
+that is a problem of course, why aren't the other ones?
+1547 weird same code but nothing else gives me the same problem
+1551 oh it's because it is in the dictionary unquoted ya
+1556 okay fixed that up ya
+1558 will probably need to make a topClause class ya
+1603 seems my clauses don't have isSuperset or anything
+1611 almost got it, just got to do that whole head finall
+prepand, head initla append stuff.
+1613 awesome it works :-D. will do some more testing and then
+git
+} 19 Dec 2014 
+0329 bah can't sleep ya don't know why ya maybe cold ya
+anyways ideas about this top clause stuff ya
+good to associate a tail with some of them, 
+such as having "then" as tail for "if" ya.
+I think it was a linguistic universal to put conditions first,
+followed by what is to be done ya
+0335 yep it's universal 499 de 	
+In conditional statements, the conditional clause precedes the 
+conclusion as the normal order in all languages. 
+0336 another thing is can probably port the phrase isSuperset
+functions over to clause, with minimal changes since they have
+the same sub items, .body .head .tail 
+0352 hm well then I'd need to make clauseInputToMatch also
+better to focus on supporting the linguistic universal for now
+ya
+0357 meh guess I'll do the standard function first it's easier
+ya
+0401 okay implemented comparison functions ya
+0408 updated phrase to match clauses also
+0409 not sure how to work it with the clause terminator.
+though I guess can do it by checking if next one is a top level
+clause ya
+0421 hmm I guess we don't necessarily know if the next phrase
+will be a top clause or not.  thus it would have to happen via
+seeing if previous was, via main to locale string
+0425 starting to get sleepy maybe will be able to get some shut
+eye
+0433 made algorithm can implement it later ya
+0733 implemented ya be think of change ob encla to ek ya
+0734 will need to make mwak tick  or mwak mwak dictionary ya
+so it can be translated to english and people would know what
+the words mean ya
+0737 can just shove it in the be phrase for now ya
+0742 hmm seems it doesn't work as well on web front, 
+and doesn't work at all for english input ya
+0744 oh like always I don't have  the grammar defined ya
+1530 okay so have it at least partially working, still need to
+get the english to parse properly ya
+1551 oh I think perhaps I haven't at all implemented topClauses
+for prepositional that is why it is so haywire ya
+1552 yep that is the problem 
+1603 set up the sentence object, but still need to fix up the
+parsing to not grab the topClause word
+1632 okay parsing seems reasonable ya just need to fine tune
+TopClause class ya
+1633 after i'm done with TopClause then wil work on my
+synesthesia bookmarklet for the weekend ya
+2305 thinking would be good to have a language for each major
+language family, so can make sure we cover all the bases ya
+Nostratic Indo-European: English,
+Dene-Daic Sino-Caucasian: Standard Mandarin Chinese,
+Austric Austronesian: Indonesian-Malay,
+Niger-Congo Bantu: Swahili,
+I guess that is first round,
+2345  If we do it by brain size areas
+Russian, Spanish, Mongolian, and Inuktitut,
+then Chinese, Athabaskan, Cree, English, French,
+that would comprise most of the above average brains
+1,400cm^3 and up.
+} 20 Dec 2014
+0007 if by population of speakers over 100 million,
+Chinese, English, Hindi, Arabic, Spanish, Malay,
+Portugeuse, Russian, Bengali, French, German, Swahili,
+Japanese, Persian, Panjabi
+0017 by centrality on global language network over 0.1
+English, French, German, Spanish, Italian, Russian, Dutch,
+Japanese, Portuguese, Malay, Filipino
+0019 ones that seem to come up often
+English (4), Russian(3), Spanish(3), Chinese(3), French(3),
+Malay(3), Swahili(2), Japanese (2), Portugeuse (2), German (2).
+0029 okay no German, cause I heard from multiple sources that
+they don't like people speaking imperfectly.
+0032 in order that I am comfortable with mwak for the languages
+English, Russian, Spanish, Chinese, French.
+0040 okay that should be fine for demonstration ya
+1728 not sure where I was in coding..
+fine tuning of TopClause class
+} 21 Dec 2014
+0609 hmm, new topClause, new Sentence
+0611 probably have to write out the topClause algorithm
+0644 awesome it seems to be working now :-)
+0648 hm got to get it to quit if it encounter clause terminator
+0650 I'm thinking top clause terminator should be different from
+sub clause terminator ya maybe eke or ekt or etk  or ket ya
+0659 we could just use then as the ender ya
+0700 then much less hassle ya
+0712 okay set it up now testing web version ya
+0716 cool it works :-)
+0717 well almost, there is issue with final topClause ender for
+mwak version ya
+0743 okay seems to be working, will test in web version. Would
+be easier if we added syntax highlighting for the console
+version ya
+0759 okay is working now roadmap and git
