@@ -58,10 +58,10 @@ clauseWord = clause[clauseWordI];
 otherTokens = clause.slice(0,clauseWordI);
 // if clauseTerminator exists set it
 // and remove from otherTokens
-if (parse.wordMatch(grammar.clauseTerminator, clause[0])){
-this.tail=new Word(language, clause[0]);
-otherTokens.shift();
-}
+//if (parse.wordMatch(grammar.clauseTerminator, clause[0])){
+//this.tail=new Word(language, clause[0]);
+//otherTokens.shift();
+//}
 }// end of clause initial conditional ya
 
 // if clause final
@@ -76,12 +76,12 @@ clauseWord = clause[0];
 otherTokens = clause.slice(clauseWordI+1);
 // if clauseTerminator exists set it
 // and remove from otherTokens
-if (parse.wordMatch(grammar.clauseTerminator,
-			clause[clauseTermI])){
-	this.tail=new 
-	Word(language, clause[clauseTermI]);
-	otherTokens.pop();
-}
+//if (parse.wordMatch(grammar.clauseTerminator,
+//			clause[clauseTermI])){
+//	this.tail=new 
+//	Word(language, clause[clauseTermI]);
+//	otherTokens.pop();
+//}
 }
 // set this parts
 this.body = new Sentence(language, otherTokens);

@@ -41,7 +41,7 @@ console.log("dict loaded");
 //console.log(dict.toString());
 var wordOrder = {
 	headFinal : false,
-	verbFinal : true,
+	verbFinal : false,
 	typeFinal : false,
 	clauseInitial : false,
 	genitiveInitial : false,
@@ -59,13 +59,15 @@ console.log("english language loaded");
 //	console.log(eng.grammar.phraseWords);
 var string = "ha if btw cool then su me be say ob tha be good su hello world ya"
 //var string = " ha be say if su me ya "
+var string = " ha if su me be the say love me  ya "
 var mstring = " mi .u tai sla munt .a ti mwa ta .i .ia ya"
 var mstring = " mi .u ku yam .i sla munt .a tua .ia ya "
+var mstring = " mi yam munt .a .ia ya "
 var tokens = tokenize.stringToWords(string);
 var mtokens = tokenize.stringToWords(mstring);
 var word = new Sentence(mwak,mstring);
 //var word = parse.lastPhrase(mwak.grammar,mtokens);
-//var word = new Sentence(eng,string);
+var word = new Sentence(eng,string);
 var format = new Object();
 var synesthesia = require('./lang/synesthesia');
 format.glyphsTransform=synesthesia.darkConsoleGlyphsTransform;

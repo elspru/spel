@@ -257,11 +257,11 @@ function byIndexPhraseGet(index){
 /// 
 Sentence.prototype.phraseFindDel = phraseFindDelete;
 Sentence.prototype.phraseFindDelete = phraseFindDelete;
-function phraseFindDelete(cases){
-	var index = this.indexOf(cases);
+function phraseFindDelete(language,cases){
+	var index = this.indexOf(language,cases);
 	if (index === -1) /// if none
 		return this;/// return itself
-	return this.phraseDel(index);
+	return this.byIndexPhraseDelete(index);
 }
 Sentence.prototype.byIndexPhraseDelete = byIndexPhraseDelete;
 function byIndexPhraseDelete(index){
@@ -273,12 +273,12 @@ function byIndexPhraseDelete(index){
 }
 Sentence.prototype.phraseDelete = phraseDelete;
 Sentence.prototype.phraseDel = phraseDelete;
-function phraseDelete(input){
+function phraseDelete(language, input){
 	if (typeof input === "number")
 		return this.byIndexPhraseDelete(input);
 	if (typeof input === "string"
 		|| Array.isArray(input))
-		return this.phraseFindDelete(input);
+		return this.phraseFindDelete(language, input);
 	// else
 	throw new TypeError("unsupported type:"+input);
 }
@@ -423,7 +423,7 @@ prevTopClause = false;}
 // be append ob it to result ya and
 result +=  phraseTrans;
 // be delete ob phrase from sentence ya
-sentence.phraseDelete(phraseIndex);
+sentence.byIndexPhraseDelete(phraseIndex);
 }
 // be end of loop ya
 }

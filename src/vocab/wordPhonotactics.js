@@ -56,10 +56,10 @@ var alphabet = Bit2Alphabet;
 var alphabet = Glyph5Alphabet;
 //var alphabet = Glyph7Alphabet;
 //var alphabet = Bit3Alphabet;
-//var alphabet = Glyph12Alphabet;
+var alphabet = Glyph12Alphabet;
 ////var alphabet = Bit4Alphabet;
-//var alphabet = Glyph19Alphabet;
-//var alphabet = Glyph24Alphabet;
+var alphabet = Glyph19Alphabet;
+var alphabet = Glyph24Alphabet;
 //var alphabet = Glyph31Alphabet;
 //var alphabet = Bit5Alphabet;
 var comment = "X5G kai";
@@ -229,8 +229,8 @@ var /*array<String>*/ syllableWeight = [
 //	['C','T','V','H','T','V'],
 	['C','C','V'],
 	['C','C','T','V'],
-	['C','V','C'],
-	['C','T','V','C'],
+     	['C','V','C'],
+      	['C','T','V','C'],
 	['C','C','V','C'],
 	['C','C','T','V','C'],
 	['C','V','C','C'],

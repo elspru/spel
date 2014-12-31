@@ -1,44 +1,57 @@
 var tokenize = require("../compile/tokenize");
 var translate = require("../compile/translate");
-var emitter = require("events").EventEmitter;
+//var emitter = require("events").EventEmitter;
 module.exports = Word;
-//var emi = new emitter();
-//this.e = emi;
-//translate.e.on("warn",function(err){
-//	emi.emit("warn",err);});
-//translate.e.on("error",function(err){
-//	emi.emit("error",err);});
-/// su word be object ya
 function Word(language,input){
-	var tokens;
-	this.be = "Word";
-	if (typeof input === "string")
-		tokens = tokenize.stringToWords(input);
-	else if (typeof input === "object"
-		&& input.be === "Word"){
-			this.lemma = input.lemma;
-			if (input.adwords)
-			this.adwords = input.adwords;
-			return this;
-		}
-	else if (Array.isArray(input)) tokens = input; 
-	else throw new TypeError(JSON.stringify(input)+" unknown to "+this.be);
-	var tokensLength = tokens.length;
-	var lastTokenIndex = tokensLength-1;
-	var transDict = language.dictionary.toMwak;
-	if (tokensLength > 1){
-		var words = tokens.slice(0,lastTokenIndex)
-		this.adwords = translate.array(transDict,words);
-		//this.adwords =(		adwords);
-	}
-	if (tokensLength >0)
-	this.lemma = translate.word(transDict,
-			tokens[lastTokenIndex]);
-	if (!this.lemma && !this.adwords) return undefined;
-	return this;
+var tokens;
+this.be = "Word";
+if (typeof input === "string")
+tokens = tokenize.stringToWords(input);
+else if (typeof input === "object" && input.be === "Word"){
+this.head = input.head;
+if (input.body) this.body = input.body;
+return this;
 }
+else if (Array.isArray(input)) tokens = input; 
+else throw new TypeError(JSON.stringify(input)
++" unknown to "+this.be);
+
+// algorithm de
+// if verb final then head word is last word
+// yand body is rest of tokens
+// else if verb initial then head word is first word
+// yand body is rest of tokens reversed
+
+var tokensLength = tokens.length;
+var lastTokenIndex = tokensLength-1;
+var transDict = language.dictionary.toMwak;
+var verbFinal = language.grammar.wordOrder.verbFinal;
+var headWord, bodyWords, otherTokens;
+// if verb final then head word is last word
+if (verbFinal === true && tokensLength > 0){
+headWord = translate.word(transDict, tokens[lastTokenIndex]);
+// yand body is rest of tokens
+if (tokensLength >1){
+otherTokens = tokens.slice(0,lastTokenIndex);
+bodyWords = translate.array(transDict,otherTokens); }}
+// else if verb initial then head word is first word
+else if (verbFinal === false && tokensLength > 0){
+headWord = translate.word(transDict, tokens[0]);
+// yand body is rest of tokens reversed
+if (tokensLength >1){
+otherTokens = tokens.slice(1);
+otherTokens.reverse();
+bodyWords = translate.array(transDict,otherTokens); }}
+
+// be set ob this
+if (bodyWords && bodyWords.length >0)
+this.body = bodyWords;
+if (headWord && headWord.length >0)
+this.head = headWord;
+}// end of Word constructor
+
 Word.prototype.copy = function(){
- 	return new Word(language, JSON.parse(JSON.stringify(this)));
+return new Word(language, JSON.parse(JSON.stringify(this)));
 }
 function wordInputToMatch(language,input){
 	if (typeof input === "string"
@@ -55,10 +68,10 @@ Word.prototype.isSuperset = function(language,input){
 	var match = wordInputToMatch(language,input);
 	if (match === undefined) return true;
 	if (match !== undefined
-	   && this.lemma !== match.lemma)
+	   && this.head !== match.head)
 		return false;
-	if (match.adwords !== undefined
-	   && !this.adwords.isSuperset(match.adwords))
+	if (match.body !== undefined
+	   && !this.body.isSuperset(match.body))
 		return false;
 	return true;
 }
@@ -70,10 +83,10 @@ Word.prototype.isLike = function(language,input){
 
 Word.prototype.toString = function(){ 
 	var string = new String();
-	if (this.adwords !== undefined)
-		string = this.adwords.join(" ")+" ";
-	if (this.lemma !== undefined)
-	string += this.lemma;
+	if (this.body !== undefined)
+		string = this.body.join(" ")+" ";
+	if (this.head !== undefined)
+	string += this.head;
 	return string;
 };
 Word.prototype.toLocaleString = function(language,format,type){
@@ -82,25 +95,39 @@ var joiner = " ";
 var verbFinal = language.grammar.wordOrder.verbFinal;
 var dict = language.dictionary.fromMwak;
 
-if (this.adwords !== undefined){
-var i, transl, adword;
-for (i=0;i<this.adwords.length;i++){
-adword = this.adwords[i];
-if (false && typeof adword === "object")
-	adword.toLocaleString(language,format);
-else transl = translate.word(dict,adword);
-if (verbFinal) translation+= transl+joiner;
-else translation = joiner+transl+translation;
+// algorithm de
+// be add ob body to output ya
+// if verb initial then reverse body words ya
+// be translate ob body words yand be add to translation ya
+// be add ob head to output
+// syntax formating and color-grapheme synesthesia
+
+// be add ob body to output
+if (this.body !== undefined){
+var i, translArray, translWord, adword;
+var bodyWords = this.body;
+// if verb initial then reverse body words ya
+if (verbFinal === false)
+bodyWords.reverse();
+// be translate ob body words yand be add to translation ya
+translArray = translate.array(dict,bodyWords);
+for (i = 0; i < translArray.length; i++){
+translWord = translArray[i];
+translation+= translWord+joiner;
 }}
 
-var lemma = this.lemma;
+// be add ob head to output
+var head = this.head;
 var transLemma;
-if (lemma === undefined) lemma = "";
-if (false && typeof lemma === "object")
-transl = lemma.toLocaleString(language,format);
-else transLemma = translate.word(dict,lemma);
+if (head === undefined) head = "";
+if (false && typeof head === "object")
+transl = head.toLocaleString(language,format);
+else transLemma = translate.word(dict,head);
 if (verbFinal) translation += transLemma;
-else translation = transLemma + translation;
+else if (verbFinal === false){
+if (translation.length >0)
+translation = transLemma + joiner + translation;
+else translation = transLemma;}
 
 // syntax formating and color-grapheme synesthesia
 if (format){

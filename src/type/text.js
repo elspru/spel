@@ -37,7 +37,7 @@ function Text(language, input,title) {
 		previousTokens.length != previousLength){
 	// avoid infinite loops from starter garbage
 		previousLength = previousTokens.length;
-		firstSentence = parse.firstSentence(previousTokens);
+firstSentence = parse.firstSentence( language.grammar,previousTokens);
 		if (firstSentence.length === 0)
 			break;
 		sentence  = new Sentence(language, firstSentence);

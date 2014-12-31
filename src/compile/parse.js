@@ -304,7 +304,7 @@ function sentenceError(tokens){
 			+grammar.sentenceWords.join(" wu ")
 			+" ya");
 }
-exports.firstSentence = firstSentenceParse.curry(grammar);
+exports.firstSentence = firstSentenceParse;
 function firstSentenceParse(grammar,tokens){
 	var sentenceEnder = tokens.find(wordMatch.curry(grammar.sentenceWords));
 	if (sentenceEnder === null) sentenceError(tokens);

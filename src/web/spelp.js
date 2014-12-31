@@ -12,11 +12,28 @@ var Grammar = require("../lang/grammar");
 var Language = require("../lang/language");
 var Word = require("../type/word");
 
-var file = io.fileRead("../vocab/vocab-mwak-C16glyph.txt");
+var mwakFile = io.fileRead("../vocab/mwak.txt");
+var engFile = io.fileRead("../vocab/eng.txt");
+var spaFile = io.fileRead("../vocab/spa.txt");
+var fraFile = io.fileRead("../vocab/fra.txt");
+var rusFile = io.fileRead("../vocab/rus.txt");
+var epoFile = io.fileRead("../vocab/epo.txt");
+var cmnFile = io.fileRead("../vocab/cmn.txt");
 var mwak = new Language();
-var text = new Text(mwak,file);
+var mwakText = new Text(mwak,mwakFile);
+var engText = new Text(mwak,engFile);
+var spaText = new Text(mwak,spaFile);
+var fraText = new Text(mwak,fraFile);
+var rusText = new Text(mwak,rusFile);
+var epoText = new Text(mwak,epoFile);
+var cmnText = new Text(mwak,cmnFile);
 var grammar = new Grammar();
-var engDict = new Dictionary(mwak,text);
+var engDict = new Dictionary(mwak,engText);
+var spaDict = new Dictionary(mwak,spaText);
+var fraDict = new Dictionary(mwak,fraText);
+var rusDict = new Dictionary(mwak,rusText);
+var epoDict = new Dictionary(mwak,epoText);
+var cmnDict = new Dictionary(mwak,cmnText);
 
 function themeSet(mode){
 var cssElem = document.querySelector( "link[rel=stylesheet]");
@@ -54,22 +71,58 @@ var engWordOrder = {
 	clauseInitial: false,
 	genitiveInitial: false,
 	postpositional : false,
-	phraseOrder: ["ku","tua",".u",".i","ta",".a"]
+	phraseOrder: ["sla","ku","tua",".u",".i","ta",".a"]
+};
+var fraWordOrder = {
+	headFinal : false,
+	verbFinal : false,
+	typeFinal : false,
+	clauseInitial: false,
+	genitiveInitial: false,
+	postpositional : false,
+	phraseOrder: ["sla","ku","tua",".u",".i","nia","ta",".a"]
+};
+var cmnWordOrder = {
+	headFinal : true,
+	verbFinal : true,
+	typeFinal : true,
+	postpositional : true,
+	clauseInitial: true,
+	genitiveInitial: true,
+	phraseOrder: ["sla","ku","tua",".u",".i","nia","ta",".a"]
 };
 
 var engGrammar = new Grammar(engWordOrder,engDict);
+var spaGrammar = new Grammar(fraWordOrder,spaDict);
+var fraGrammar = new Grammar(fraWordOrder,fraDict);
+var rusGrammar = new Grammar(engWordOrder,rusDict);
+var epoGrammar = new Grammar(engWordOrder,epoDict);
+var cmnGrammar = new Grammar(cmnWordOrder,cmnDict);
 var eng = new Language(engGrammar,engDict);
-var lang;// = new Language(grammar,dict);
+var spa = new Language(spaGrammar,spaDict);
+var fra = new Language(fraGrammar,fraDict);
+var rus = new Language(rusGrammar,rusDict);
+var epo = new Language(epoGrammar,epoDict);
+var cmn = new Language(cmnGrammar,cmnDict);
+var mwakCode = "mwak";
+var engCode = "eng";
+var spaCode = "spa";
+var fraCode = "fra";
+var rusCode = "rus";
+var epoCode = "epo";
+var cmnCode = "cmn";
+var lang;
 var /*Elem*/ mainArea =  document.getElementById("main");
 var /*Elem*/ infoArea =  document.getElementById("info");
 var /*Elem*/ toLangChoice = document.getElementById("toLang");
 var /*Elem*/ fromLangChoice=document.getElementById("fromLang");
-var toLangCode = "en", 
-    fromLangCode = "mwak",
-    inLangCode = "en";
+var toLangCode = engCode, 
+    fromLangCode = mwakCode,
+    inLangCode = engCode;
 var toLangL = eng, 
-    fromLangL = mwak,
-    inLangL = eng;
+    fromLangL = eng,
+    inLangL = eng,
+    dictLangL = eng;
 var dictShown = false;
 var syntaxInfoShown = false;
 var synInfoShown = false;
@@ -87,25 +140,59 @@ function infoUpdate(input){
 	syntaxInfoShown = false;
 	synInfoShown = false;
 }
-function submitInput(userInput){
+function inputSubmit(userInput){
 	infoUpdate("");//clear info
 	mainUpdate("");//clear main
 	var fromLangv = fromLangChoice.value;
-	var toLangv = toLangChoice.value;
-	if (toLangv === "en")
-		toLangL = eng;
-	if (toLangv === "mwak")
-		toLangL = mwak;
-	if (fromLangv === "en")
+	if (fromLangv === engCode)
 		fromLangL = eng;
-	if (fromLangv === "mwak")
+	else if (fromLangv === spaCode)
+		fromLangL = spa;
+	else if (fromLangv === fraCode)
+		fromLangL = fra;
+	else if (fromLangv === rusCode)
+		fromLangL = rus;
+	else if (fromLangv === epoCode)
+		fromLangL = epo;
+	else if (fromLangv === cmnCode)
+		fromLangL = cmn;
+	else if (fromLangv === mwakCode)
 		fromLangL = mwak;
+
+// make text object from input
+try{ 
+var textObject = new Text(fromLangL,userInput); }
+catch (error){
+infoUpdate(error);
+noError = false;
+}
+// select multiple languages and output all in sequence
+var /*Elem*/ toLangChoice = document.getElementById("toLang");
+var toLangLength=toLangChoice.options.length;
+var i, option;
+mainUpdate("");
+var translation = new String();
+for (i=0;i<toLangLength;i++){
+if( toLangChoice.options[i].selected){
+	var toLangv = toLangChoice.options[i].value;
+	if (toLangv === engCode)
+		toLangL = eng;
+	else if (toLangv === spaCode)
+		toLangL = spa;
+	else if (toLangv === fraCode)
+		toLangL = fra;
+	else if (toLangv === rusCode)
+		toLangL = rus;
+	else if (toLangv === epoCode)
+		toLangL = epo;
+	else if (toLangv === cmnCode)
+		toLangL = cmn;
+	else if (toLangv === mwakCode)
+		toLangL = mwak;
 	var noError= true;
 	try{
-	var text = new Text(fromLangL,userInput);
-	console.log(JSON.stringify(text));
-	var translation = text.toLocaleString(toLangL,
-			HtmlFormat);
+	var trans = textObject.toLocaleString(toLangL, HtmlFormat);
+	translation = translation + toLangv+': ' +trans;
 	} 
 	catch (error){
 		infoUpdate(error);
@@ -114,6 +201,7 @@ function submitInput(userInput){
 	mainUpdate(translation);
 	if (noError)
 	infoUpdate("ha :-D 😃  su translation be success ya");
+}}
 }
 
 function init(){
@@ -127,31 +215,50 @@ function init(){
 
 
 // 	put listeners on main language selector
+var inLangSelect = document.getElementById("inLang");
+inLangSelect.addEventListener("change",function(){
+	var inLangV = inLangSelect.value;
+	if (inLangV === engCode)
+		inLangL = eng;
+	else if (inLangV === spaCode)
+		inLangL = spa;
+	else if (inLangV === fraCode)
+		inLangL = fra;
+	else if (inLangV === rusCode)
+		inLangL = rus;
+	else if (inLangV === epoCode)
+		inLangL = epo;
+	else if (inLangV === cmnCode)
+		inLangL = cmn;
+	else if (inLangV === mwakCode)
+		inLangL = mwak;
+var dictString = dictDefs.toLocaleString(inLangL, HtmlFormat);
+infoUpdate(dictString);
+dictShown = true;
+},false);
 // 	put listeners on dictionary viewer
-	synSet("off");
-	var dictButton = document.getElementById("dict");
-	var dictDefs = inLangL.dictionary;
+var dictButton = document.getElementById("dict");
+var dictDefs = mwakText;
 dictButton.onclick = function(){
 if (dictShown === false){
-infoUpdate(dictDefs.toLocaleString(inLangL, HtmlFormat));
+var dictString = dictDefs.toLocaleString(inLangL, HtmlFormat);
+infoUpdate(dictString);
 dictShown = true;}
 else {if (dictShown === true)
 infoUpdate("");
 dictShown = false;}
-	}
+}
+
+
 // 	put listeners on theme selector
-	var themeButton = document.getElementById(
-			"themeButton");
-	themeButton.addEventListener("click",function(){
-	var themeModeElem = document.getElementById(
-			"theme");
-	var themeMode = themeModeElem.value;
-	themeSet(themeMode);
-	},false);
+var themeModeElem = document.getElementById( "theme");
+themeModeElem.addEventListener("change",function(){
+var themeMode = themeModeElem.value;
+themeSet(themeMode);
+},false);
 // 	put listeners on syntax highlighting selector 
-var syntaxButton = document.getElementById( "syntaxButton");
-syntaxButton.addEventListener("click",function(){
 var syntaxModeElem = document.getElementById( "syntax");
+syntaxModeElem.addEventListener("change",function(){
 var syntaxMode = syntaxModeElem.value;
 syntaxSet(syntaxMode);
 infoUpdate("click translate to apply changes");
@@ -172,8 +279,8 @@ syntaxInfoShown = true;
 } else infoUpdate('');
 },false);
 // 	put listeners on synesthezia selector
-var synButton = document.getElementById("synButton");
-synButton.addEventListener("click",function(){
+var synButton = document.getElementById("syn");
+synButton.addEventListener("change",function(){
 var synModeElem = document.getElementById("syn");
 var synMode = synModeElem.value;
 synSet(synMode);
@@ -203,7 +310,7 @@ synInfoShown = true;
 	var /*Elem*/ userInputEl = document.getElementById(
 		"inputText");
 	var /*String*/ userInput = userInputEl.value;
-	submitInput(userInput);
+	inputSubmit(userInput);
 	},false);
 }
 //window.onload = init;

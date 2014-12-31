@@ -21,41 +21,36 @@ Speakable Programming for Every Language Translator SPELT
 0.3.5 syntax highlighting support (09 Dec 2014)
 0.3.6 genitives or subPhrases support (15 Dec 2014)
 0.3.7 dictionary toString and toLocaleString  (17 Dec 2014)
-0.3.8 sentence junctions and conditionals (21 Dec 2014)
+0.3.8 top clause junctions and conditionals (21 Dec 2014)
+0.3.9 multiple dictionary files support (28 Dec 2014)
+0.3.A determiner type support (31 Dec 2014)
 
-0.3.9 phrase junctions
-0.3.A type junctions
-0.3.B subclause junctions
-0.3.C performance grammar phrase ordering
-0.3.D topicalization
+0.3.B phrase junctions
+0.3.C type junctions
+0.3.D subclause junctions
+0.3.E performance grammar phrase ordering
+0.3.F topicalization
 0.4.0 word quotes
 0.4.4 number quotes
 0.4.8 multi word quotes
 0.4.C multi sentence quotes
-0.5.0 multiple dictionary files support
 0.5.1 spaceless mwak tokenization
 0.5.4 conjugation dictionary
 0.5.8 conjugation support for natural-like output
 0.5.C contractions
+0.5.D auto-complete missing mandatory elements 
 0.6 download translation result
 0.7 translatable mwak files for all parts of Language grammar
 0.7.8 all error and site messages translated
 0.8 write documentation 
-0.9 support the UN and IT languages
-0.9.0 English (Apple, HP, IBM, MS, Oracle, Amazon, Google, Dell)
-0.9.2 Chinese (Tencent, Foxconn, Alibaba, Baidu)
-0.9.4 Spanish (Amadeus)
-0.9.6 Japanese (Sony, Panasonic, Toshiba, NEC, Hitachi, Fujitsu)
-0.9.8 French (STMicroelectronics)
-0.9.A Russian (Yandex)
-0.9.C German (SAP, Infineon,)
-0.9.E Arabic
-0.9.F Korean (Samsung, LG, Hynix, Hyundai)
+0.9 support multiple languages
+0.9.1 harvest term translations from google-translate
+0.9.4 systemize adding new languages
+0.9.8 make definition dictionaries accessible from any language
+0.9.C verify that all terms and definitions are unique
+0.9.F make it easy for people to contribute term corrections
 0.A support measurement translation
-0.B archival/blog bot (secretary) mwak to html?
-0.C compiler mwak to javascript?
 0.D continue after recoverable errors and warnings
-0.E make primitive forum or chat (president)
 0.F write tutorial or FAQ bot 
 1.0.0 do some promotion
 

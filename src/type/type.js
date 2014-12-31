@@ -1,10 +1,7 @@
 var tokenize = require("../compile/tokenize");
 var parse = require("../compile/parse");
 var Word = require("./word");
-//var Quote = require("./quote");
-//var parse = require("../compile/parse");
 module.exports = Type;
-//Word.e.on("warn",function(err){console.log(err);});
 function Type(language,input){
 	this.be = "Type";
 	var tokens;
@@ -12,61 +9,56 @@ function Type(language,input){
 		tokens = tokenize.stringToWords(input);}
 	else if (typeof input === "object"
 		&& input.be === "Type"){
-	if (input.content !== undefined && input.type !== "lit")
-	this.content = new Word(language, input.content);
-	if (input.content !== undefined && input.type === "lit")
-	this.content = new Word(language, input.content);
-	if (input.typeWord !== undefined)
-	this.typeWord = new Word(language, input.typeWord);
+	if (input.body !== undefined && input.type !== "lit")
+	this.body = new Word(language, input.body);
+	if (input.body !== undefined && input.type === "lit")
+	this.body = new Word(language, input.body);
+	if (input.head !== undefined)
+	this.head = new Word(language, input.head);
 	return this;
 	}
-	//} else if (typeof input === "object"
-	//	&& input.be === "Quote")
-	//		return new Quote(input);
 	else if (Array.isArray(input)) tokens = input;
 	else throw new TypeError(JSON.stringify(input)
 			+" not valid for "+this.be);
 
-	var tokensLength = tokens.length;
-	if (tokensLength === 0) // if no tokens, return them.
-		return tokens;
-	var firstToken = tokens[0];
-	if (typeof firstToken === "object") // such as Quote
-		return firstToken;
-	var typeWord = new String();
-	var otherTokens = new Array();
-	// if type Final type word is last word
-	// else it is first word
-	if (language.grammar.wordOrder.typeFinal){
-		var index = tokensLength-1;
-		typeWord = tokens[index];
-		otherTokens = tokens.slice(0,index);
-	}
-	else {	typeWord = tokens[0];
-		otherTokens = tokens.slice(1);
-	}
+// algorithm de
+// if type final then head word is last word
+// else it is first word
+// if head word is typeword then set it
 
-	// if last word is typeword then set it
+var tokensLength = tokens.length;
+if (tokensLength === 0) // if no tokens, return them.
+	return tokens;
+var firstToken = tokens[0];
+if (typeof firstToken === "object") // such as Quote
+	return firstToken;
+var headWord = new String();
+var otherTokens = new Array();
+// if type final then head word is last word
+if (language.grammar.wordOrder.typeFinal){
+var index = tokensLength-1;
+headWord = tokens[index];
+otherTokens = tokens.slice(0,index); }
+// else it is first word
+else {	headWord = tokens[0];
+otherTokens = tokens.slice(1); }
+
+// if head word is typeword then set it
 var grammar = language.grammar;
-if (language 
-   && parse.wordMatch(grammar.typeWords, typeWord)){
+if (language && parse.wordMatch(grammar.typeWords, headWord)){
 // if typeword is literal set type to literal
-if (parse.wordMatch(grammar.quotes.literal, typeWord)){
+if (parse.wordMatch(grammar.quotes.literal, headWord)){
 this.type = "lit";
-	this.content = new Word(language, otherTokens);
-//otherTokens.join(" ");
-	this.typeWord = new Word(language, typeWord);
-}
+this.body = new Word(language, otherTokens);
+this.head = new Word(language, headWord); }
 else {
-	this.content = new Word(language, otherTokens);
-	this.typeWord = new Word(language, typeWord);
-}
-	}
-	// else return all tokens as word
-	else this.content = new Word(language, tokens);
-	//else this.typeWord = undefined;
-	return this;
-}
+this.body = new Word(language, otherTokens);
+this.head = new Word(language, headWord); }}
+// else return all tokens as word
+else this.body = new Word(language, tokens);
+return this;
+}// end of Type constructor
+
 function typeInputToMatch(language, input){
 	if (typeof input === "string"
 		|| Array.isArray(input))
@@ -78,20 +70,12 @@ function typeInputToMatch(language, input){
 }
 Type.prototype.isSuperset = function(language, input){
 	var match = typeInputToMatch(language, input);
-	//console.log("this ")
-	//console.log(this.content);
-	//console.log(this.typeWord);
-	//console.log("match ");
-	//console.log(match.content);
-	//console.log(match.typeWord);
 	//// if match is undefined then is subset
-	if (match.content !== undefined
-	    && !match.content.isSuperset(language, this.content)){
-	//	    console.log("content false");
+	if (match.body !== undefined
+	    && !match.body.isSuperset(language, this.body)){
 		return false;}
-	if (match.typeWord !== undefined
-	    && !match.typeWord.isSuperset(language, this.typeWord)){
-	//	console.log("typeword false");
+	if (match.head !== undefined
+	    && !match.head.isSuperset(language, this.head)){
 		return false;}
 	return true;
 }
@@ -103,28 +87,28 @@ Type.prototype.isLike = function(language, input){
 }
 Type.equals = function(language, input){
 	var match = typeInputToMatch(language, input);
-	if (match.content === this.content
-	   && match.typeWord === this.typeWord)
+	if (match.body === this.body
+	   && match.head === this.head)
 		return true;
 	return false;
 }
 Type.prototype.toString = function(){
-	if (this.typeWord === undefined) return this.content.toString();
-	return String(this.content.toString()+" "+this.typeWord.toString());
+	if (this.head === undefined) return this.body.toString();
+	return String(this.body.toString()+" "+this.head.toString());
 }
 Type.prototype.valueGet = function(){
-	return this.content.toString();
+	return this.body.toString();
 }
 Type.prototype.toLocaleString = function(language, format){
 	var result = 
-		this.content.toLocaleString(language, format);
-	if (this.typeWord === undefined) 
+		this.body.toLocaleString(language, format);
+	if (this.head === undefined) 
 		return result;
 	// else check type order, append if true, prepend if
 	// false.
 	var joiner = " ";
 	var typeTransl = 
-	this.typeWord.toLocaleString(language, format, "th");
+	this.head.toLocaleString(language, format, "th");
 	if (language.grammar.wordOrder.typeFinal)
 	  result += joiner + typeTransl ;
 	else result = typeTransl + joiner + result;

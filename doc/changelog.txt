@@ -10382,3 +10382,432 @@ mwak version ya
 be easier if we added syntax highlighting for the console
 version ya
 0759 okay is working now roadmap and git
+1212 I'm thinking that actually conditionals are like super
+clauses, they are above yand an yaor, because you can have a
+bunch of ands and ors within a conditional like wu if ya
+1214 considering there is such a higherarchy I'm wondering if
+perhaps it might be easiest to implement something that takes
+into account this kind of hierarchy. largely we are experiencing
+the same kinds of things, and end up rewriting code for
+different levels of hierarchy ya When it would be best to have
+one piece of code which works for all or most levels of the
+hierarchy ya
+1310 so can have somethign similar to the sonority hierarchy,
+where words are associated with a number on the hierarchy. 
+then if another word is encountered of equal or higher priority
+it terminates. 
+would need a function that could return all the words of equal
+or higher priority based on the word hierarchy structure.
+an example of this structure would be something like:
+"ya":0x80,
+"pa":0x80,
+"ku":0x70,
+"pwi":0x60
+1315 hmmm it would be tough with subordinate clauses ya
+1315 guess I'll just need to make a superClause for conditionals
+or something. 
+22:29
+"tai":0x51
+"ti":0x50
+".i":0x40
+"pi":0x30
+"yi":0x20
+22:31 well it might be possible, though subclauses would need to
+be somewhat exceptional as they can't be stopped by another
+subclause starter, only an ender. 
+} 22 Dec 2014
+0754 If I can do some of the future grammar structures with the
+same system then it'll be worth implementing ya
+0755 what do we have left? phrase junctions, type junctions,
+subclause junctions, word quotes, number quotes, multi word
+quotes, multi sentence quotes.
+0756 hm
+sentence junctions
+super clause junctions
+top clause junctions
+sub clause junctions
+phrase junctions
+type junctions
+0759 all of them (except top clause) have the standard format of 
+junction+headmarker
+1147 right so we could have something similar to the
+aforementioned data structure for organizing, likely within
+grammar. Though ideally the accessor function would of course be
+independant of the internal representation.
+1148 accessor functions should allow for returning list of those
+with greater or equal value. 
+grammar.wordList("more","ku");
+grammar.wordList("less","ku");
+grammar.wordList("moreAndEqual","ku");
+1150 ideally we'd use mwak, but w/e for compatibility can use
+english for now ya
+1152 simple and, or, not would then go into seperate list ya
+1224 right so we can't do this with sub clauses, since sometimes
+it's less, sometimes it's more..
+1227 anyways right now we are implementing junctions, so lets
+try to focus on that, rather than on overhaul of what already
+works.
+1228 basic junction algorithm de
+prepositional and clause final
+1 be encounter ob junction ya be set ob it as this head ya
+2 be get ob following type or phrase or clause or sentence ya
+3 be check ob if next word after it be same junction and type ya
+4 if su yes then jump to 2 ya
+5 else finish ya
+1251 okay found a better word for type/type.js can call it
+class, to be like a classifier, since we're going to use it for
+numbers and such. 
+1302 hmmm may be easier to change type/ dir to other name, like
+particles or something.  maybe class.
+1552 I guess if the word following is not one of the grammar
+words, we assume it is a type junction ya
+} 23 Dec 2014
+0046 so I was considering simply using sentence junctions
+instead of top and super clauses ya however this would make
+transformation from post to pre rather difficult as in the case
+of multiple sentences that start with wu if would need to be
+trasformed into multiple sentence that end with wu if ya
+That would be most easily accomplished with top and super
+clauses ya
+0048 su another thing tha su me be past flow think ek
+ob tha hypothetical best 
+ob tha su the sentence junctions be have 
+ob the junction in the mood location ya 
+thus be flow avoid ob possible confusion 
+with phrase junctions ya
+0117 hm actually su that be may more ob confusing ya
+but in either case should be easy to decipher and parse ya
+considering ob no sentence initial and's in 
+0246 wrote a mini response about the awesomeness of concrete
+boats. thinking that to make the boat into a biorock, can attach
+the electrical ground to the frame, likely somewhere above the
+waterline in the bow, as we want it to be strongest in the bow.
+0447 thinking can have it green below the waterline with
+chromium (iii) oxide yand white above waterline with titanium
+dioxide ya
+latex additive for inside below waterline ya
+poravor for inside above high waterline ya
+reinforcing fibers everywhere ya
+0501 we can actually use aluminum oxide especially bellow water
+line as it is anti-abrasive due to how hard it is ya
+Though it would mean that it could only be sanded down with
+diamonds, still that is some pretty serious abrasian control.
+it can simply be a surface layer which is the "paint layer".
+0838 I think that phrase level junctions might be possible. 
+well I know those are, what I meant to say was that sentence
+level junctions modeled on them may also work.
+Simply would have to do the if transformations from pre to post
+at the text level rather than th sentence level ya
+0845 so su point of me ob tha 
+be should implement ob phrase level junctions tat next 
+then be see ob tha if be able backport ob it to conditionals ya
+0849 su spirit guides ob seem like ob superclause ya
+0852 be point out ob able tha  use subclauses for ands
+thus can just keep top clauses ya
+0853 text case de
+if su someone be more ob sometwo
+and su somethree be less ob somefour
+or su somefive be equal ob somesix
+and su someseven be more or equal ob someeight 
+then be say ob wu hello 
+and be ask ob quo te how are you quo ted
+else be sleep ya
+0858 hmmm so that does become a rather large cumbersome sentence
+ya so let su us be  see ob it as phrase style junctions ya
+if su someone be more ob sometwo ya
+and su somethree be less ob somefour ya
+or su somefive be equal ob somesix ya
+and su someseven be more or equal ob someeight ya
+then be go to introductions ya 
+else be sleep ya 
+su introductions be start ya
+be say ob wu hello  ya
+be ask ob quo te how are you quo ted ya
+su introductions be end ya
+0901 we could simply set up the minimum grammar right now to do
+assembly programming ya
+1806 lets try another iteration of the if conditional with
+linguistic brackets around the or ya this time with top and
+sub clauses ya
+if su someone be more ob sometwo 
+and if tha su somethree be less ob somefour 
+or if su somefive be equal ob somesix ek 
+and if su someseven be more or equal ob someeight 
+then be say ob wu hello 
+then be ask ob quo te how are you quo ted
+else be sleep ya
+1813 okay lets try it assembly styles
+su someone be more ob sometwo to resone ya
+su somethree be less ob somefour to restwo ya
+su somefive be equal ob somesix to resthree ya
+su someseven be more or equal ob someeight to restfour ya
+if su resone and restwo or resthree and resfour be true 
+then be go to introduction 
+else be go to sleep ya
+1816 beautiful su it be simple ya
+1819 now try with brackets ya
+su restwo be and ob resthree to resfive ya
+if su resone and resfive and resfour 
+then be go to introduction 
+else be go to sleep ya
+1821 bah su you be know what eh?
+I think I have enough grammar for assembly
+so I'll go ahead and start implementing translation,
+I'll leave this more complex grammar stuff for later ya
+1822 I dono that is kind of like giving up and not progressing.
+1831 anyways instead of trying to implement all the awesomeoness
+of conditional and's and or's found in most contemporary
+programming languages, let me see how natural languages do it ya
+1835
+if su tha su s1 be more ob s2 ek
+ob tha su s3 be less ob s4 ek
+be and then
+if su tha 
+su tha s1 be more ob s2 ek
+ob tha su s3 be less ob s4 ek
+be and ek
+be or 
+ob tha 
+su tha s5 be equal ob s6 ek
+ob tha s6 be less or equal ob s7 ek
+be and ek 
+then
+the above seems to be what my spirit guide was trying to get me 
+to realize for a while now ya
+1839 okay cool, so by this, we have enough implemented already,
+simply have to make subclauses allow for nesting ya
+but let us digress to yand style sentence
+ob tha su me be love ob you ek be say su he yand
+su he ob her be hug ya
+ob tha su past be define ob tha su we be together ek be say yand
+be look into eye pair of she yand be smile with love ya
+1843 okay ha su it be seem work ya
+} 24 Dec 2014
+0604 got a bit of a back log of story content ya
+the Inuit interview from 100 years hence,
+and time projection data, to help estimate the dates for various
+events in my technological host bodies in the solar-system
+galaxy saga ya
+0734 inuit interview tat 2100's de
+journalist (j), inuit (i) ya
+j: you have a submarine contract with the Canadian navy,
+and buyers all around the world.
+i: our submarine industry came as a necessity, we wanted to
+continue to trade during the winter, when ice makes surface
+water transit prohibitievly expensive. 
+Also having hunted whales since early times, we are familiar
+with their habits, thus we could design based on them.
+j: it says here that you can communicate with whales as well.
+i: the wonders of modern translation.  We had to set up
+repeaters underwater to keep track of the automated cargo
+submarines. They were getting the local whales somewhat
+confused, since sometimes their own transmissions would get
+repeated. So we negotiated with them and now share knowledge
+about various underwater hazards, movements of fish and
+plankton.
+j: I hear you are now one of the largest eco-fuel producers in
+the world.
+i: well we have a lot of wind energy, over 1kW/m^2 in some
+places. A century ago we relied mostly on imported petro-fuels,
+which were expensive and bad for our health. That quickly
+changed as we learned to make our own wind turbines. The make
+your own mini wind-turbine workshops really helped our people
+recognize their abilities to create technology.
+j: and now you have one of the largest populations of robots and
+super computers per capita.
+i: it's cold and dry here, lots of wind energy, it's the perfect
+place for computers and robots to be without having to worry
+about overheating or short-circuiting. 
+j: I guess that's why you also have one of the world's foremost
+cryogenics facilities. 
+i: Some people wish to store their dead in a way where they are
+still recognizable a century or more later. Some even hope to
+make use of them in future. With our polar location and
+bountiful glaciers we have many places that we can guarantee the
+long term storage and preservation of their loved ones remains.
+1859
+j: so tell us more about the submarines.
+i: the main operations are in pangnirtung where we have most of
+our energy production. There is also plenty of limestone for
+making concrete ya
+j: they are made of concrete?
+i: self-healing engineered cementious composite really, 
+microfibers make it ductile like metal, 
+silicone admixtures within make it waterproof,
+electrified steel reinforcing and mesh heals microcracks with
+biorock.
+j: electrified? is that dangerous.
+i: *chuckle* it's too low voltage to cause any harm,
+and even then only need about a watt per gram of biorock
+and we need less than that to fill microcracks. 
+So no more dangerous than a 9 volt battery.
+j: how do the fish feel about that?
+i: they love it on our low priority cargo subs,
+which are like mobile eco-systems themselves.
+Though our high speed deliveries have sharklet pattern skin,
+so the fish and squid just see them whiz by.
+We even have automated supercavitating submarines in the works.
+Though their utility is questionable, as can simply use planes.
+j: I heard your designs are being used on Europa.
+i: yes some of our lite submarines have been deployed there.
+They are lighter than their steel cousins, and their
+ductile and self-healing aspects won over the pioneers.
+} 25 Dec 2014
+0004 If you are on everybodies side,
+then you are also on nobodies side,
+that is the essence of being Loki.
+0805 anyways so next is phrase junctions,
+since conditionals seem to be implemented ya
+0806 so we'll need a junction class
+} 26 Dec 2014
+0718 anyways I'm a bit tired of all the programming with so
+little to show for it, so I'm going to implement the
+dictionaries before I go any further ya
+0720 main problem was naming, which we can figure out later I
+guess ya
+for now can simply use english names for simplicity.
+or get country names, and not do any of the bit stuff.
+0729 kwal seems to be language
+so chinese dictionary 中文 Zhongwen tick jxon kwal
+or 漢語 Han Yu the Han's language. thus jxan kwal
+jxan makes it in extended range ya
+0809 frar (fra) French, rusc (rus) Russian, spas (spa) Spanish,
+neng (eng) English.
+0820 if we go that way should go with zxoq (zho) Chinese.
+1117 (cmn) is Mandardin, so perhaps camn or comn 
+(sit) is sino-tibetan languages, perhasp tsit
+1150 hmmm I guess I wouldn't expect people to learn old english,
+or for instance Latin or Proto-Indo-European. So Why am I
+expecting people to use for instance Sino-Tibetan? Seems like a
+lot of wasted effort.  Classical chinese however was a standard
+up until the 1970's, and some at least educated people can still
+read it quite fluently.  code is lzh
+1153 the zh of chinese is actually tʂ  so tc
+1155 (zho)  seems a little too generic to be useful ya
+as it would require a single standard representation ya
+lzh can be latc and zho could be tcoc 
+1203 so wikipedia says that literary or classical chinese is
+like Latin, so we should avoid implementing it until we
+implement Latin. we'll have to stick to standard mandarin for
+now ya
+1556 can make zho default to cmn or standard mandarin ya
+1557 we should allow multiple output languages for single input
+ya
+so can copy paste all the outputs and use it email kinda stuff
+ya
+} 28 Dec 2014
+0528 so Rus of russia from  Roþrslandi means row
+Spain from ay-shaphanim means hyrax isle ya
+France from Frank which means javelin ya
+0547 confuscious 孔夫子 is actually
+kʰˁoŋʔ ba ʔslɯʔ 
+khong ba sluw
+0601 漢語 Hanyu
+is from xarn nas
+0629 anyways so lets make a definition dictionary first ya
+0631 meh that wont really get used much, I rather have the
+normal to foreign language dictionary first it is more
+impressive.
+0641 it would be good to generate a word list of the all the
+defined words, and then translate those words and use them as a
+dictionary ya
+0651 hmmm should get it to drop the nia's and probably the kai's
+0730 finished spanish dictionary translations ya
+1119 anyways so can add it now
+1130 okay cool added spanish
+now add suport for multiple output ya
+1728 translated dictionary to russian and french
+1747 translated standard mandarin
+1751 I'll translate esperanto and them implement them ya
+1811 okay translated esperanto ya
+1826 added to web version, also decided hello is a case, like
+vocative ya
+1833 debugging dictionaries ya
+2155 so they are all working, but I still want to add more ya
+Arabic will mean I have all languages of United Nations
+Malay/Indonesian for Austronesian languages.
+Swahili for the niger-congo solidarity.
+Hindi for India and it's many faiths.
+Portugeuse all languages of African Union
+Bengali has 180 mill
+Japanese cause they like robots.
+And German cause meh.
+2209 anyways Arabic is next.
+2215 oh we should add turk and tamil also at some point
+and korean cause they like technolog there. 
+2221 hungarian for the uralic
+} 29 Dec 2014
+1851 so I need to make a few thing for managing vocabulary.
+First off, need to give users access to dictionaries,
+can probably simply allow them to access the simple code.txt 
+perhaps in a new window or something, later when there are more
+definitions can have one available with definitions.
+though we'll need to have compound word parsing before then.
+1853 next we'll need to get google translate terms via command
+line, so that it is easier to add new entries, as there will be
+hundreds more, times numerous languages.
+The algorithm that adds new entries, would use the current
+definition generator from the vocab files, to english. Then it
+would 
+1854 also need verifiers to make sure don't have more than one
+of the same either defining word or definition. 
+2113 though really we can only start doing the documentation
+until after we have support for junctions ya 
+2212 so I'll add those ideas to the langauge support roadmap
+2246 made definition dictionary accessible based on from
+language. however still doesn't translate the compound words,
+though guess can make them non compounds for now
+2249 excellent it works :-)
+} 30 Dec 2014
+0648 so lets get junctions out of the way ya
+0649 first to parse them
+0651 oh before that I'd like to add determiner type support
+like a and the, first have to get mwak variants for them though
+0656 wu an usually comes from the word one,
+and wu the usually comes from the word this,
+0657 so we should define the word one
+0719 okay so one is sit, so si is an.
+0722 hmmm actuall seems like n is the major phoneme in an,
+and one of the major ones in one so guess should make it sin or
+something, or sun ya
+0746 okay have the as ksa for now..
+1637 need words for past present and future
+1638 since the is past this
+1853 okay finall did it, was hard
+mip pu past 
+naw nu present
+put fu futur
+2026 added a bunch more grammar words
+2335 okay I tested it, but it has issue with more than two word
+compounds for type, so gotta fix that.
+} 31 Dec 2014
+0557 okay lets get to it ya
+0610 hmm input algorithm seems okay for type, can check word ya
+0631 fixed up word input ya
+0644 okay it should work now, in theory ya
+0651 still can't seem to identify where the problem  ya
+0656 I think it's just that I had to run vocab update ya
+0700 okay it's working now :-)
+0832 fixed end word translation.
+0833 have to fix verb initial input 
+0843 fixed, now should remove extra clause tail ya
+0955 hmmm the clause term is being recognized as a topClause
+which is weird ya only when it is at end of sentence or next to
+another top clause ya
+0959 have to make a checker that doesn't topClause non topClause
+words ya
+1004 okay fixed it, was because topClause was a copy of clause,
+so was looking for clauseTerminators
+1045 added determiner types, but gotta fix verb final input ya
+1047 okay fixed :-)
+1048 also wanted to fix up the interface, so it would apply on
+selection rather than on click ya
+1054 can use onchange ya
+1120 okay set that up, making it easier to switch dictionary
+language ya
+1131 okay awesome, has a much better feel now :-)
+1132 oh should add auto-complete to avoid needless errors
+1140 hmmm that may be rather difficult so we'll put it on
+roadmap
+1144 so next is phrase junctions, but for now we'll just git and
+do some emails ya

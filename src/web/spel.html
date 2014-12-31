@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="eng" dir="ltr">
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
@@ -14,31 +14,44 @@
 	can use the console version of this.
 	from <a href="../">here</a>.
 </noscript>
-<p>su this be form in mwak
-<select id="inLang">
-	<option value="en">english</a>
-</select> 
-<input id="inLangButton" type="submit" value="ya"/> <br/>
+<p>su this be form in <a
+href="https://en.wikipedia.org/wiki/Analytic_language"
+target="_blank">
+analytic</a> 
+<!--<select id="inLang">
+	<option value="eng">english</a>
+</select>  --> english
+ya <br/>
 su you be may view ob 
-<a id="dict" href="#">dictionary</a> ya<br/>
+<a id="dict" href="#">dictionary</a> in 
+	<select id="inLang">
+		<option value="eng">english</option>
+		<option value="cmn">chinese</option>
+		<option value="spa">spanish</option>
+		<option value="fra">french</option>
+		<option value="rus">russian</option>
+		<option value="epo">esperanto</option>
+		<option value="mwak">mwak</option>
+	</select>
+ya<br/>
 su theme for
 <select id="theme">
 	<option value="day">day</a>
 	<option value="night">night</a>
 </select>  
-<input id="themeButton" type="submit" value="ya"/> <br/>
+ya <br/>
 su <a href="#" id="syntaxInfo">syntax</a> highlighting be
 <select id="syntax">
 	<option value="on">on</a>
 	<option value="off">off</a>
 </select>  
-<input id="syntaxButton" type="submit" value="ya"/> <br/>
+ya <br/>
 su visual <a href="#" id="synInfo">synesthesia</a> be
 <select id="syn">
 	<option value="off">off</a>
 	<option value="on">on</a>
 </select>  
-<input id="synButton" type="submit" value="ya"/> <br/>
+ya <br/>
 </p>
 <!--<div>
 12 4 6 8 A C E 0 2 4 6 8 A C E 0 2 4 6 8 A C E 0 2 4 6 8 A C E 0
@@ -48,19 +61,29 @@ su visual <a href="#" id="synInfo">synesthesia</a> be
 <div id="main"></div><br/>
 <div id="talk"></div><br/>
 <div id="inputDiv">
-	<p>from mwak 
+	<p>from analytic 
 	<select id="fromLang">
-		<option value="en">english</option>
+		<option value="eng">english</option>
+		<option value="cmn">chinese</option>
+		<option value="spa">spanish</option>
+		<option value="fra">french</option>
+		<option value="rus">russian</option>
+		<option value="epo">esperanto</option>
 		<option value="mwak">mwak</option>
 	</select>
-	to mwak
-	<select id="toLang">
-		<option value="en">english</option>
-		<option value="mwak">mwak</option>
+	to analytic 
+	<select multiple id="toLang">
+		<option selected value="eng">english</option>
+		<option selected value="cmn">chinese</option>
+		<option selected value="spa">spanish</option>
+		<option selected value="fra">french</option>
+		<option selected value="rus">russian</option>
+		<option selected value="epo">esperanto</option>
+		<option selected value="mwak">mwak</option>
 	</select>
 	ob quo te
 <textarea cols="64" rows="4"  id="inputText">
-ha if su me then be say ob tha su hello world be example of good ya
+ha if su me then be say ob tha hello world be example of good ya
 </textarea><br/>
 	quo ted be
 	<input id="submitButton" type="submit" 

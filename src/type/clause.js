@@ -21,9 +21,9 @@ var Sentence = require("./sentence");
 		tokens = tokenize.stringToWords(input);}
 	else if (typeof input === "object"
 		&& input.be === className){
-			if (input.tail)
-			this.tail = 
-			new Word(language, input.tail);
+			//if (input.tail)
+			//this.tail = 
+			//new Word(language, input.tail);
 			this.body = 
 			new Sentence(language, input.body);
 			this.head = 
@@ -51,8 +51,8 @@ var Sentence = require("./sentence");
 	// and remove from otherTokens
 	if (parse.wordMatch(grammar.clauseTerminator,
 				clause[0])){
-		this.tail=new 
-			Word(language, clause[0]);
+		//this.tail=new 
+		//	Word(language, clause[0]);
 		otherTokens.shift();
 	}
 	}
@@ -68,8 +68,8 @@ var Sentence = require("./sentence");
 		// and remove from otherTokens
 		if (parse.wordMatch(grammar.clauseTerminator,
 					clause[clauseTermI])){
-			this.tail=new 
-			Word(language, clause[clauseTermI]);
+			//this.tail=new 
+			//Word(language, clause[clauseTermI]);
 			otherTokens.pop();
 		}
 	}
@@ -81,7 +81,7 @@ var Sentence = require("./sentence");
 Clause.prototype.toString = function(format){
 	var joiner = ' ';
 	var result = new String();
-	var clauseTerm = this.tail;
+	var clauseTerm = undefined;//this.tail;
 	var sentence = this.body;
 	var clauseWord = this.head;
 	if (clauseTerm) 
@@ -94,7 +94,7 @@ Clause.prototype.toString = function(format){
 Clause.prototype.toLocaleString = function(language,format){
 	var joiner = ' ';
 	var result = new String();
-	var clauseTerm = this.tail;
+	var clauseTerm = undefined; //this.tail;
 	var sentence = this.body;
 	var clauseWord = this.head;
 	if (language.grammar.wordOrder.clauseInitial){
