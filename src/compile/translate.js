@@ -27,3 +27,26 @@ for(i = 0; i<array.length; i++)
 	result[i] = wordTranslate(subDictionary,array[i]);
 return result;
 }
+exports.toJavascript =
+	toJavascriptTranslate;
+function toJavascriptTranslate(/*Text*/ textObject){
+// algorithm: 
+// assume is text object
+//
+// iterate through sentences
+// turn phrases into an object
+
+var sentences = textObject.sentences;
+// iterate through sentences
+var i;
+for (i=0;i<sentences.length;i++){
+// turn phrases into an object
+var sentence = sentences[i];
+var phrases = sentence.phrases;
+var j;
+for (j=0;j<phrases.length;j++){
+phrases.head;
+}
+}
+
+}

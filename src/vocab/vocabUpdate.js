@@ -12,7 +12,7 @@
 "use strict"
 var hof = require("../lib/hof");
 var io = require("../lib/io");
-var Text = require('../type/text');
+var Text = require('../class/text');
 var Language = require('../lang/language');
 var mwak = new Language();
 

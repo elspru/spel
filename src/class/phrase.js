@@ -1,4 +1,4 @@
-
+"use strict";
 var tokenize = require("../compile/tokenize");
 var parse = require("../compile/parse");
 var Quote = require("./quote");
@@ -33,8 +33,11 @@ tokens = parse.quotesExtract(language,tokens);
 // if clauseInitial then get phrase from end ya else
 // if clauseFinal then get phrase from begining ya
 // be get ob case word do
-// if postpositional then last word is case ya else
-// if prepositional then first word is case ya
+// if postpositional then last word is head case 
+// and first word is tail ya else
+// if prepositional then first word is head case 
+// and last word is tail ya
+// if tail word is junction then return junction ya
 // be get ob genitive sub phrase do
 // if genitive found then get and set genitive phrase ya
 // if genitive initial then get last sub phrase word ya else
@@ -56,16 +59,28 @@ else thePhrase = parse.firstPhrase(grammar,tokens);
 
 // be get ob case word do
 var caseWordIndex = null;
+var tailIndex = null;
 var otherTokens = new Array();
-// if postpositional last word is case
+// if postpositional then last word is head case 
+// and first word is tail ya else
 if (postpositional){
 caseWordIndex = thePhrase.length-1;
+tailIndex = 0;
 otherTokens = thePhrase.slice(0,caseWordIndex);
 }
-// if prepositional first word is case
+// if prepositional then first word is head case 
+// and last word is tail ya
 else if (postpositional === false){
 caseWordIndex = 0;
+tailIndex = thePhrase.length-1;
 otherTokens = thePhrase.slice(caseWordIndex+1);
+}
+
+// if tail word is junction then return junction ya
+var tail = thePhrase[tailIndex];
+var Junction = require("./junction");
+if (parse.wordMatch(grammar.junctions,tail)){
+return new Junction(language,tokens);
 }
 
 // be get ob adjacent clause do

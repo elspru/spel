@@ -10,19 +10,20 @@
 /// su la AGPL-3 be license ya
 /// be end of head ya
 
-"use strict"
+"use strict";
 var io = require("./lib/io");
 var tokenize = require("./compile/tokenize");
 var parse = require("./compile/parse");
-var Phrase = require("./type/phrase");
-var Sentence = require("./type/sentence");
-var Type = require("./type/type");
-var Text = require("./type/text");
+var Phrase = require("./class/phrase");
+var Sentence = require("./class/sentence");
+var Type = require("./class/type");
+var Text = require("./class/text");
 var Dictionary = require("./lang/dictionary");
 var Grammar = require("./lang/grammar");
 var Language = require("./lang/language");
-var Word = require("./type/word");
-var Clause = require("./type/clause");
+var Word = require("./class/word");
+var Clause = require("./class/clause");
+var Junction = require("./class/junction");
 var mwak = new Language();
 //var mwak = require("./lang/mwak");
 
@@ -60,14 +61,16 @@ console.log("english language loaded");
 var string = "ha if btw cool then su me be say ob tha be good su hello world ya"
 //var string = " ha be say if su me ya "
 var string = " ha if su me be the say love me  ya "
+var string = " su me and su world be love ob thee ya"
 var mstring = " mi .u tai sla munt .a ti mwa ta .i .ia ya"
 var mstring = " mi .u ku yam .i sla munt .a tua .ia ya "
 var mstring = " mi yam munt .a .ia ya "
+var mstring = "  mi .a ki tu .a ki tu pi munt .a ku yam .i .ia ya "
 var tokens = tokenize.stringToWords(string);
 var mtokens = tokenize.stringToWords(mstring);
-var word = new Sentence(mwak,mstring);
-//var word = parse.lastPhrase(mwak.grammar,mtokens);
-var word = new Sentence(eng,string);
+//var word = new Sentence(mwak,mstring);
+var word = new Sentence(mwak,mtokens);
+var word = new Text(eng,string);
 var format = new Object();
 var synesthesia = require('./lang/synesthesia');
 format.glyphsTransform=synesthesia.darkConsoleGlyphsTransform;

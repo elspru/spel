@@ -12,7 +12,7 @@
 "use strict"
 var hof = require("../lib/hof");
 var io = require("../lib/io");
-var Text = require('../type/text');
+var Text = require('../class/text');
 var Language = require('../lang/language');
 var mwak = new Language();
 
@@ -25,8 +25,8 @@ var sentences = definitions.sentences;
 var i;
 for (i=0;i<sentences.length;i++){
 sentences[i].phraseDelete(mwak,"kai");
-sentences[i].phraseDelete(mwak,"nia");
-sentences[i].phraseDelete(mwak,".a");
+//sentences[i].phraseDelete(mwak,"nia");
+//sentences[i].phraseDelete(mwak,".a");
 }
 console.log(definitions.toString());
 

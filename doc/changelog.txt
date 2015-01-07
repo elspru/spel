@@ -10811,3 +10811,166 @@ language ya
 roadmap
 1144 so next is phrase junctions, but for now we'll just git and
 do some emails ya
+} 01 Jan 2015
+1246 so they say release early, and release often eh.
+well okay, guess I'll release something then.
+2252 tested the site on my phone earlier, it was a bit slow and
+unresponsive, so I'll put up signs for when it is loading and
+such ya
+} 02 Jan 2015
+0803 added blink tag via html5 css, for processing loading stuff
+1610 so I'm thinking can add javascript translation support ya
+can add a word formating thing, so compounds would be dot
+seperated. 
+also the verb would have to be distinguished, and the noun
+phrases would have to be arguments. 
+2323 we can either use an object which would allow named
+arguments as input, or have them all in a set order. personally
+I prefer named arguments, since it is more similar to how
+natural languages are constructed. 
+be say ob wu hello ya
+say({ob:"hello"});
+2326 say would have to be defined also
+su say be function for tha ob word de
+be console log ob word ya
+function say(obj){
+var word = obj[ob];
+console.log(word);}
+2330 so maybe plain ob would be standard argument, without
+having an object. 
+be say ob word de
+be console log ob word ya
+function say(word){
+console.log(word);}
+} 03 Jan 2015
+0802 so I'm thinking it is more of a format thing than a
+language thing. thus meaning we can output in mwak/eng/spa or
+whatever other language, using the same format.
+Though of course english is the international language of
+computing, and many languages have different versions of say, so
+it could make sense to have a dictionary for them also ya
+0827 de is really like a multi-sentence quote, but for now we
+can simply demonstrate some proof of concept javascript such as
+with phrases and such
+1428 the easiest computery output we can start with is JSON, can
+have it as an output, and potentially even input language ya
+also dicionary can be output in JSON. this will be at least a
+minimal demonstration of it's programming language ability ya
+2357 have it outputting the dictionary in JSON
+} 05 Jan 2015
+0559 added support for translation to json ya
+1332 okay to add javascript output support,
+we need to distinguish the verb ya
+1336 okay made a verbWords array in grammar, can use that ya
+1348 hmmm started making a javascript translation thingy,
+but now I'm thinking how do we describe javascript as a
+language?
+it is prepositional, and it has : as phraseHeadJoiner
+is has ';' as a period or end of sentence ya
+has ',' as a phraseJoiner
+phrases are also encapsulated with a '{' and '}' ya
+word order is VO head initial
+} 06 Jan 2015
+0135 Anyways, should get back to the assigned roadmap ya
+0157 have junctions in grammar, can work on junctionParse
+then junction Object ya
+0158 can start with firstJunctionWordIndexParse and
+lastJunctionWordIndexParse.
+0205 okay now we have two different kinds of junctions,
+prepositional and postpositional style ya
+the next stage is to identify phrase junctions,
+but we want this to be modable, so can pass a parse function,
+or else implement in the same level ya
+0208 one possibility is to have a junction extract, much like
+the quoteExtract, in it for instance anded phrases would be
+grouped together, and extracted from the sentence.
+we can check how quote extract works, though if I remember
+correctly it simply returns an array with the quote in the same
+place as it was, but in object form.
+0211 junctions are slightly more complex, since they may be in
+different parts of the sentence, though generally I think in
+natural speech we find them in the same part of the sentence,
+thus we can only accounts for those for now. 
+0212 one way of having a modable junctionParse is that for
+instance prepositional form would check if the word after it is
+either a type or phrase word, if it is, then it gets that type,
+and returns the result.
+0214 okay lets try that for now
+0214 for postpositional style, we'd have to get the next of
+whatever it is ya
+0220 oh actuall I guess postpositional stuff we usually parse
+backwards anyways, so it's not as much of an issue, would still
+be parsing whatever it is backwards ya
+0227 wrote barebones algorithms for each
+0259 implemented, now to test ya
+0308 okay is working, now a junction object
+0313 copied phrase.js to make junction.js
+now rewriting the constructor algorithm
+0317 wondering how this is going to work,
+phrase encounters a junction at tail, 
+then calls junction constructor with it's own head,
+junction constructor would have to identify the head,
+and parse accordingly, find the tail, and add matching heads 
+to it's body ya
+0321 later on the toString would iterate through body,
+inserting the head junction until it reaches the end ya
+0322 there is a hierarchy of junctions though, for instance and
+is subordinate to or generally speaking ya
+so perhaps would have to give what's been parsed thus far to
+junction as an input, as it may be a phrase or a collection of
+phrases ya
+0325 alternatively it can figure out those things on it's own as
+it's going through to be more consistent with other constructor
+initialization ya
+0326 anyways right now we are only looking at the simple case of
+two phrases with one and in between ya
+0331 change folder from type/ to class/ so easier to distinguish
+from type.js
+0352 wrote algorithsm for clause final and clause initial
+junctions ya
+0410 implementing
+0423 hmm just realized that if I have a word junction in a
+phrase.. well I guess the type getting will handle that. 
+0438 okay wrote it
+0442 it compiles
+0455 anyways I'll finish debugging later, gotta catch some sleep.
+1228 bah, Phrase seems to be acting weird now.
+1231 Phrase gets confused if there is more than one of the same
+type of phrase in the same sentence ya
+while techincally it should simply get just one of them
+1234 issue was I was using ta instead of tu, oops
+1236 okay cool now simply have to do toString stuff
+1237 just gotta prep lunch first ya
+1338 good it works ya 
+1339 now need it to work with prepositional or clause Initial
+input ya
+1359 hmmm it's not strict compliant, should fix that ya
+1419 okay is strict compliant
+1431 wrote the prepositional version
+1447 okay working partially, but seems to break after third
+1449 okay now both junctions work, have to add them to phrase
+object ya
+1507 okay seems to be working :-D
+1511 next have to test in web version and then can release ya
+} 07 Jan 2015
+0451 time to test
+0501 hmmm doesn't seem to work at sentence level ya
+0512 it seems to be because only the parsed phrase tokens are
+passed to new Phrase, wheras we'd need the ones previous in
+order to get the junction out ya
+however we relly on the parse function not including it ya
+so we can either have another parse function ya
+or find a way of passing the rest of the tokens to phrase ya
+0516 I think an extra junction aware parsing function would be 
+most compatible ya
+0534 made parsing function, now debugging
+0556 okay works for postpositional style ya
+now for prepositional ya
+0602 okay now to test it
+0610 debugging
+0617 okay it works :-)
+0618 now web version ya
+0622 seems to be having issue with topClause
+0630 okay now got to put it back in order even with junctions ya
+0639 okay fixed it up .ia ya
+0646 excellent it works, can roadmap and git ya

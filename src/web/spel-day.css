@@ -3,11 +3,13 @@
  * 62   38   23   85   0f 100 */
 
 body{
-font-family:"Courier New";
+/*font-family:"Courier New";*/
+font-family:monospace;
 font-size:12;
 background-color:white;
 color:black;
 }
+
 div{
 width:40em; /* 64 glyphs */
 }
@@ -80,3 +82,17 @@ border-radius: 0.23em; overflow:hidden; }
 /* junctions*/
 .jh{ background-color:hsl(60,62%,91%);/*yellow*/ 
 border-radius: 0.23em; overflow:hidden; }
+
+
+
+blink{
+    animation-duration: 255ms;
+    animation-name: blinky;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes blinky {
+from{ opacity: 1;}
+to{ opacity: 0;}
+}

@@ -24,8 +24,8 @@ Speakable Programming for Every Language Translator SPELT
 0.3.8 top clause junctions and conditionals (21 Dec 2014)
 0.3.9 multiple dictionary files support (28 Dec 2014)
 0.3.A determiner type support (31 Dec 2014)
+0.3.B phrase junctions (07 Jan 2015)
 
-0.3.B phrase junctions
 0.3.C type junctions
 0.3.D subclause junctions
 0.3.E performance grammar phrase ordering

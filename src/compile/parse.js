@@ -2,16 +2,15 @@
 var hof = require("../lib/hof");
 var tokenize = require("./tokenize");
 var Grammar = require("../lang/grammar");
-var Quote = require("../type/quote");
-var Type = require("../type/type");
+var Quote = require("../class/quote");
+var Type = require("../class/type");
 var grammar = new Grammar();
 /// tokens be parse ya
 //exports = new Object;
 exports.wordMatch = wordMatch;
 function wordMatch(wordArray,word){
-	if (wordArray.indexOf(word)!==-1)
-		return true;
-	return false;
+if (wordArray.indexOf(word)!==-1) return true;
+return false;
 }
 /// be parse bo next word ya
 exports.firstWordIndex = firstWordIndexParse;
@@ -27,7 +26,7 @@ function lastWordIndexParse(tokens){
 
 /// be parse bo quote  ya
 /// be parse bo single word quote de
-exports.firstSingleWordQuote = firstSingleWordQuoteParse.curry(grammar);
+exports.firstSingleWordQuote = firstSingleWordQuoteParse;
 function firstSingleWordQuoteParse(grammar,tokens){
 	var singleQuoteIndex=tokens.find(
 			wordMatch.curry(grammar.quotes.singleWord));
@@ -46,7 +45,7 @@ function firstSingleWordQuoteParse(grammar,tokens){
 }
 /// be parse bo multi word quote de
 /// be parse bo surrounding quote de
-exports.surroundingQuote = surroundingQuoteParse.curry(grammar);
+exports.surroundingQuote = surroundingQuoteParse;
 	/// if word is in quote, return quote
 function surroundingQuoteParse(grammar,wordIndex,tokens){
 	if (!Array.isArray(tokens))
@@ -92,12 +91,12 @@ function lastSentenceWordIndexParse(grammar,tokens){
 		return -1;
 	return Index;
 }
-exports.firstSentenceWordIndex = firstSentenceWordIndexParse.curry(grammar);
+exports.firstSentenceWordIndex = firstSentenceWordIndexParse;
 function firstSentenceWordIndexParse(grammar,tokens){
-	var Index = tokens.find(wordMatch.curry(grammar.sentenceWords));
-	if (Index=== null)
-		return -1;
-	return Index;
+var Index = tokens.find(wordMatch.curry(grammar.sentenceWords));
+if (Index=== null)
+	return -1;
+return Index;
 }
 
 exports.phraseError = phraseError;
@@ -313,7 +312,7 @@ function firstSentenceParse(grammar,tokens){
 		sentenceEnder=sentenceEnder+1;
 	return tokens.slice(0,sentenceEnder+1);
 }
-exports.lastSentence = lastSentenceParse.curry(grammar);
+exports.lastSentence = lastSentenceParse;
 function lastSentenceParse(grammar,tokens){
 	var lastSentWordIP = lastSentenceWordIndexParse.curry(grammar);
 	var sentenceEnder = tokens.rfind(wordMatch.curry(grammar.sentenceWords));
@@ -682,3 +681,127 @@ var result = Math.min(caseIndex,topClauseIndex);
 if (result === tokensLength) return -1;
 else return result;
 }
+
+exports. lastJunctionWordIndex = 
+	 lastJunctionWordIndexParse;
+function lastJunctionWordIndexParse(grammar,tokens){
+var Index = tokens.rfind(wordMatch.curry(grammar.junctions));
+if (Index=== null) return -1;
+return Index;
+}
+exports. firstJunctionWordIndex = 
+	 firstJunctionWordIndexParse;
+function firstJunctionWordIndexParse(grammar,tokens){
+var Index = tokens.find(wordMatch.curry(grammar.junctions));
+if (Index=== null) return -1;
+return Index;
+}
+exports. lastJunction =
+	 lastJunctionParse;
+function lastJunctionParse(grammar,tokens){
+var JI = lastJunctionIndexParse(grammar,tokens);
+return tokens.slice(JI[0],JI[1]);
+}
+exports. lastJunctionIndex =
+	 lastJunctionIndexParse;
+function lastJunctionIndexParse(grammar,tokens){
+// algorithm de
+// get last junction word index
+// if postpositional
+// if directly preceded by phrase then parse previous phrase
+// return result
+
+var result = -1;
+// get last junction word index
+var lastJunctionWI = lastJunctionWordIndexParse(grammar,tokens);
+if (lastJunctionWI >= -1){
+var postpositional = grammar.wordOrder.postpositional;
+// if postpositional
+if (postpositional){
+// if directly preceded by phrase then parse previous phrase
+if (wordMatch(grammar.phraseWords,tokens[lastJunctionWI-1])){
+var prevTokens = tokens.slice(0,lastJunctionWI)
+result = lastPhraseIndexParse(grammar,prevTokens);
+// include junction word
+result[1] = result[1]+1;
+}
+}
+}
+// return result
+return result;
+}
+exports. firstJunctionIndex =
+	 firstJunctionIndexParse;
+function firstJunctionIndexParse(grammar,tokens){
+// algorithm de
+// get next junction word index
+// if prepositional
+// if directly followed by phrase then parse next phrase
+// return result
+
+var result = -1;
+// get last junction word index
+var lastJunction = lastJunctionWordIndexParse(grammar,tokens);
+if (lastJunction >= -1){
+var prepositional = grammar.wordOrder.prepositional;
+// if prepositional
+if (prepositional){
+// if directly followed by phrase then parse next phrase
+}
+}
+// return result
+return result;
+}
+
+exports. lastJunctionPhraseIndex = 
+	 lastJunctionPhraseIndexParse;
+function lastJunctionPhraseIndexParse(grammar,tokens){
+// algorithm de
+// be get ob last phrase indexes ya
+// if tail word be junction 
+// then recurse with previous tokens ya
+
+// be get ob last phrase indexes ya
+var lastPhraseI = lastPhraseIndexParse(grammar,tokens);
+if (grammar.wordOrder.clauseInitial){
+// if tail word be junction 
+var tail = tokens[lastPhraseI[0]];
+var prevPhraseI = lastPhraseI;
+while (wordMatch(grammar.junctions,tail)){
+// then recurse with previous tokens ya
+var otherTokens = tokens.slice(0,prevPhraseI[0]);
+prevPhraseI = lastPhraseIndexParse(grammar,otherTokens);
+tail = tokens[prevPhraseI[0]];
+}
+lastPhraseI[0]=prevPhraseI[0];
+}
+return lastPhraseI;
+}// end of last junction phrase index parse ya
+
+exports. firstJunctionPhraseIndex = 
+	 firstJunctionPhraseIndexParse;
+function firstJunctionPhraseIndexParse(grammar,tokens){
+// algorithm de
+// be get ob first phrase indexes ya
+// if tail word be junction 
+// then recurse with next tokens ya
+
+// be get ob first phrase indexes ya
+var firstPhraseI = firstPhraseIndexParse(grammar,tokens);
+if (grammar.wordOrder.clauseInitial === false){
+// if tail word be junction 
+var tail = tokens[firstPhraseI[1]-1];
+var nextPhraseI = firstPhraseI;
+var otherTokens = tokens;
+var phraseEnd = firstPhraseI[1];
+while (wordMatch(grammar.junctions,tail)){
+// then recurse with next tokens ya
+otherTokens = otherTokens.slice(nextPhraseI[1]);
+nextPhraseI = firstPhraseIndexParse(grammar,otherTokens);
+tail = tokens[nextPhraseI[1]-1];
+phraseEnd += nextPhraseI[1];
+}
+firstPhraseI[1]=phraseEnd;
+}
+return firstPhraseI;
+}// end of first junction phrase index parse ya

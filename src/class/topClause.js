@@ -1,4 +1,4 @@
-" use strict";
+"use strict";
 var tokenize = require("../compile/tokenize");
 var parse = require("../compile/parse");
 var Quote = require("./quote");
@@ -52,7 +52,7 @@ if (clauseInitial){
 // then be get ob clause word from end 
 // then be set ob other tokens ya
 clauseWordI = parse.lastTopClauseWordIndex(grammar, tokens);
-nextSlice = tokens.slice(0,clauseWordI+1);
+var nextSlice = tokens.slice(0,clauseWordI+1);
 clause = parse.topClause(grammar,nextSlice);
 clauseWord = clause[clauseWordI];
 otherTokens = clause.slice(0,clauseWordI);
@@ -71,7 +71,7 @@ else {
 clauseWordI = parse.firstTopClauseWordIndex(grammar, tokens);
 nextSlice = tokens.slice(clauseWordI);
 clause = parse.topClause(grammar,nextSlice);
-clauseTermI = clause.length-1;
+var clauseTermI = clause.length-1;
 clauseWord = clause[0];
 otherTokens = clause.slice(clauseWordI+1);
 // if clauseTerminator exists set it

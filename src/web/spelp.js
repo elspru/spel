@@ -3,15 +3,20 @@
 var io = require("../lib/wio");
 var tokenize = require("../compile/tokenize");
 var parse = require("../compile/parse");
-var Phrase = require("../type/phrase");
-var Sentence = require("../type/sentence");
-var Type = require("../type/type");
-var Text = require("../type/text");
+var Phrase = require("../class/phrase");
+var Sentence = require("../class/sentence");
+var Type = require("../class/type");
+var Text = require("../class/text");
 var Dictionary = require("../lang/dictionary");
 var Grammar = require("../lang/grammar");
 var Language = require("../lang/language");
-var Word = require("../type/word");
+var Word = require("../class/word");
 
+var /*Elem*/ mainArea =  document.getElementById("main");
+var /*Elem*/ infoArea =  document.getElementById("info");
+var synMode = false;
+
+infoUpdate("<blink>be flow download ob file ya</blink>");
 var mwakFile = io.fileRead("../vocab/mwak.txt");
 var engFile = io.fileRead("../vocab/eng.txt");
 var spaFile = io.fileRead("../vocab/spa.txt");
@@ -19,6 +24,8 @@ var fraFile = io.fileRead("../vocab/fra.txt");
 var rusFile = io.fileRead("../vocab/rus.txt");
 var epoFile = io.fileRead("../vocab/epo.txt");
 var cmnFile = io.fileRead("../vocab/cmn.txt");
+var javsFile = io.fileRead("../vocab/javs.txt");
+infoUpdate("<blink>be flow load ob file ya</blink>");
 var mwak = new Language();
 var mwakText = new Text(mwak,mwakFile);
 var engText = new Text(mwak,engFile);
@@ -27,6 +34,7 @@ var fraText = new Text(mwak,fraFile);
 var rusText = new Text(mwak,rusFile);
 var epoText = new Text(mwak,epoFile);
 var cmnText = new Text(mwak,cmnFile);
+infoUpdate("<blink>be flow load ob language ya</blink>");
 var grammar = new Grammar();
 var engDict = new Dictionary(mwak,engText);
 var spaDict = new Dictionary(mwak,spaText);
@@ -34,6 +42,7 @@ var fraDict = new Dictionary(mwak,fraText);
 var rusDict = new Dictionary(mwak,rusText);
 var epoDict = new Dictionary(mwak,epoText);
 var cmnDict = new Dictionary(mwak,cmnText);
+infoUpdate("");
 
 function themeSet(mode){
 var cssElem = document.querySelector( "link[rel=stylesheet]");
@@ -50,10 +59,12 @@ synesthesia.htmlTypeGlyphsTransform;
 synSet("off");
 syntaxSet("on");
 function synSet(mode){
-if (mode === "on")
+if (mode === "on"){
 HtmlFormat.glyphsTransform = htmlSynGlyphsTransform;
-else 
+synMode = true;}
+else {
 HtmlFormat.glyphsTransform = undefined;
+synMode = false;}
 }
 
 function syntaxSet(mode){
@@ -91,6 +102,22 @@ var cmnWordOrder = {
 	genitiveInitial: true,
 	phraseOrder: ["sla","ku","tua",".u",".i","nia","ta",".a"]
 };
+var JavsFormat = { 
+newline: "<br/>",
+phraseHeadJoiner: ':',
+phraseJoiner: ',',
+phrasesStart: '({',
+phrasesEnd: '})'
+};
+var javsWordOrder = {
+	headFinal : false,
+	verbFinal : false,
+	typeFinal : false,
+	clauseInitial: false,
+	genitiveInitial: false,
+	postpositional : false,
+	phraseOrder: ["ku","tua",".i"]
+};
 
 var engGrammar = new Grammar(engWordOrder,engDict);
 var spaGrammar = new Grammar(fraWordOrder,spaDict);
@@ -111,9 +138,9 @@ var fraCode = "fra";
 var rusCode = "rus";
 var epoCode = "epo";
 var cmnCode = "cmn";
+var jsonCode = "json";
+var jsCode = "js";
 var lang;
-var /*Elem*/ mainArea =  document.getElementById("main");
-var /*Elem*/ infoArea =  document.getElementById("info");
 var /*Elem*/ toLangChoice = document.getElementById("toLang");
 var /*Elem*/ fromLangChoice=document.getElementById("fromLang");
 var toLangCode = engCode, 
@@ -158,7 +185,6 @@ function inputSubmit(userInput){
 		fromLangL = cmn;
 	else if (fromLangv === mwakCode)
 		fromLangL = mwak;
-
 // make text object from input
 try{ 
 var textObject = new Text(fromLangL,userInput); }
@@ -170,37 +196,40 @@ noError = false;
 var /*Elem*/ toLangChoice = document.getElementById("toLang");
 var toLangLength=toLangChoice.options.length;
 var i, option;
+infoUpdate("<blink>be flow translate ya</blink>");
 mainUpdate("");
 var translation = new String();
 for (i=0;i<toLangLength;i++){
 if( toLangChoice.options[i].selected){
-	var toLangv = toLangChoice.options[i].value;
-	if (toLangv === engCode)
-		toLangL = eng;
-	else if (toLangv === spaCode)
-		toLangL = spa;
-	else if (toLangv === fraCode)
-		toLangL = fra;
-	else if (toLangv === rusCode)
-		toLangL = rus;
-	else if (toLangv === epoCode)
-		toLangL = epo;
-	else if (toLangv === cmnCode)
-		toLangL = cmn;
-	else if (toLangv === mwakCode)
-		toLangL = mwak;
-	var noError= true;
-	try{
-	var trans = textObject.toLocaleString(toLangL, HtmlFormat);
-	translation = translation + toLangv+': ' +trans;
-	} 
-	catch (error){
-		infoUpdate(error);
-		noError = false;
-	}
-	mainUpdate(translation);
-	if (noError)
-	infoUpdate("ha :-D 😃  su translation be success ya");
+var toLangv = toLangChoice.options[i].value;
+if (toLangv === jsonCode){
+translation = translation +"json: "
++ JSON.stringify(textObject);}
+else if (toLangv === jsCode){
+translation = translation +"js: " 
++ translate.toJavascript(textObject);
+}
+else {
+if (toLangv === engCode) toLangL = eng;
+else if (toLangv === spaCode) toLangL = spa;
+else if (toLangv === fraCode) toLangL = fra;
+else if (toLangv === rusCode) toLangL = rus;
+else if (toLangv === epoCode) toLangL = epo;
+else if (toLangv === cmnCode) toLangL = cmn;
+else if (toLangv === mwakCode) toLangL = mwak;
+var noError= true;
+try{
+var trans = textObject.toLocaleString(toLangL, HtmlFormat);
+translation = translation + toLangv+': ' +trans;
+} 
+catch (error){
+infoUpdate(error);
+noError = false;
+}
+}
+mainUpdate(translation);
+if (noError)
+infoUpdate("ha :-D 😃  su translation be success ya");
 }}
 }
 
@@ -218,6 +247,9 @@ function init(){
 var inLangSelect = document.getElementById("inLang");
 inLangSelect.addEventListener("change",function(){
 	var inLangV = inLangSelect.value;
+if (inLangV === jsonCode)
+infoUpdate(JSON.stringify(dictDefs));
+else{
 	if (inLangV === engCode)
 		inLangL = eng;
 	else if (inLangV === spaCode)
@@ -233,7 +265,7 @@ inLangSelect.addEventListener("change",function(){
 	else if (inLangV === mwakCode)
 		inLangL = mwak;
 var dictString = dictDefs.toLocaleString(inLangL, HtmlFormat);
-infoUpdate(dictString);
+infoUpdate(dictString);}
 dictShown = true;
 },false);
 // 	put listeners on dictionary viewer

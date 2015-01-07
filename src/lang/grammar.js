@@ -12,6 +12,7 @@ var dict = dictionary.fromMwak;
 this.junctions=translate.array(dict, mwakGrammar.junctions);
 this.typeWords=translate.array(dict, mwakGrammar.typeWords);
 this.phraseWords=translate.array(dict, mwakGrammar.phraseWords);
+this.verbWords=translate.array(dict, mwakGrammar.verbWords);
 this.subPhraseWords=translate.array(dict,
 		mwakGrammar.subPhraseWords);
 this.topClauseWords=translate.array(dict,
@@ -47,8 +48,9 @@ this.wordOrder.phraseOrder= wordOrder.phraseOrder;
 var mwakGrammar = {
 be: "Grammar",
 junctions:["ki","wa"],
-typeWords: ["yi","ksa","nyu"],
+typeWords: ["yi","ksa","nyu","na"],
 phraseWords: [".i","ta",".a",".u","kai","nia","sla"],
+verbWords: [".i"],
 subPhraseWords: ["pi"],
 topClauseWords: ["ku","tua","kwi","pwa"],
 topClauseTerminator: ["tua"],

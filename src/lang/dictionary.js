@@ -3,7 +3,7 @@
 /// be load bo dictionary from file ya
 /// be translate bo word ya
 
-var Text = require("../type/text");
+var Text = require("../class/text");
 
 module.exports = Dictionary;
 function Dictionary(language, input){
@@ -81,7 +81,7 @@ if (format && format.newline) newline = format.newline;
 var result = new String();
 var fromMwak = this.fromMwak;
 var Language = require("../lang/language");
-var Sentence = require("../type/sentence");
+var Sentence = require("../class/sentence");
 var mwak = new Language();
 var suj = " yi .u ";
 var obj = " yi .a ya";

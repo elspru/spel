@@ -1,41 +1,42 @@
-"use strict"
+"use strict";
 var tokenize = require("../compile/tokenize");
 var parse = require("../compile/parse");
 var Word = require("./word");
 var Phrase = require("./phrase");
+var Junction = require("./junction");
 var TopClause = require("./topClause");
 var err = require("../lib/error");
 module.exports = Sentence;
 /// su sentence be object ya
 function Sentence(language, input) {
-	this.be = "Sentence";
-	var tokens, i;
-	if (typeof input === "string"){
-		tokens = tokenize.stringToWords(input);}
-	else if (typeof input === "object"
-		&& input.be === "Sentence"){
-	this.phrases = new Array();
-	for (i=0; i< input.phrases.length; i++){
-	if (input.phrases[i].be === "Phrase")
-		this.phrases[i]=
-		new Phrase(language, input.phrases[i]);
-	else 
-	this.phrases[i] = 
-	new TopClause(language, input.phrases[i]);
-	}
-	if (input.endWords)
-	this.endWords= new Word(language, input.endWords);
-	if (input.mood !== undefined)
-	this.mood = new Word(language, input.mood);
-	return this;
-	}
-	else if (Array.isArray(input)) tokens = input;
-	else throw new TypeError(input
-			+" is not a valid Phrase input");
-	// extract quotes
-	tokens = parse.quotesExtract(language,tokens);
-	//if (!tokenize.isTokens(tokens))
-	//	throw new TypeError("su Phrase be need bo tokens ya");
+this.be = "Sentence";
+var tokens, i;
+if (typeof input === "string"){
+	tokens = tokenize.stringToWords(input);}
+else if (typeof input === "object"
+	&& input.be === "Sentence"){
+this.phrases = new Array();
+for (i=0; i< input.phrases.length; i++){
+if (input.phrases[i].be === "Phrase")
+this.phrases[i]= new Phrase(language, input.phrases[i]);
+else if (input.phrases[i].be === "Junction")
+this.phrases[i]= new Junction(language, input.phrases[i]);
+else if (input.phrases[i].be === "TopClause")
+this.phrases[i] = new TopClause(language, input.phrases[i]);
+}
+if (input.endWords)
+this.endWords= new Word(language, input.endWords);
+if (input.mood !== undefined)
+this.mood = new Word(language, input.mood);
+return this;
+}
+else if (Array.isArray(input)) tokens = input;
+else throw new TypeError(input +" is not a valid Phrase input");
+
+// extract quotes
+tokens = parse.quotesExtract(language,tokens);
+//if (!tokenize.isTokens(tokens))
+//	throw new TypeError("su Phrase be need bo tokens ya");
 	//this.string = tokens.join("");
 	//this.tokens = tokens;
 
@@ -107,7 +108,7 @@ while (otherTokens.length>0
 
 // if clause initial then get via last phrases ya
 if (wordOrder.clauseInitial===true){
-thePhraseI = parse.lastPhraseIndex(grammar, otherTokens);
+thePhraseI= parse.lastJunctionPhraseIndex(grammar, otherTokens);
 if (Array.isArray(otherTokens))
 theTopClauseI = parse.topClauseIndex(grammar, otherTokens);
 thePhrase= otherTokens.slice(thePhraseI[0],thePhraseI[1]);
@@ -129,7 +130,8 @@ thePhraseI[1]-thePhraseI[0]); }
 // if clause final then get via first phrases ya
 else if (wordOrder.clauseInitial===false){
 if (parse.firstCaseIndex(grammar,otherTokens) === -1) break;
-thePhraseI = parse.firstPhraseIndex(grammar, otherTokens);
+thePhraseI = 
+parse.firstJunctionPhraseIndex(grammar, otherTokens);
 theTopClauseI = parse.topClauseIndex(grammar, otherTokens);
 var length = otherTokens.length;
 if (thePhraseI[0] === -1) thePhraseI[0]= length;
@@ -188,46 +190,45 @@ Sentence.prototype.isSubset = function(language,input){
 	return result;
 }
 Sentence.prototype.isSuperset= function(language,input){
-	var match = sentenceInputToMatch(language,input);
-	if (this.endWords && 
-		!this.endWords.isSuperset(match.endWords))
-		return false;
-	// check phrases are a subset
-	var thisPhrases = this.phrases;
-	var matchPhrases = match.phrases;
-	var result = matchPhrases.every(function(matchPhrase){
-	 if (!thisPhrases.some(function(phrase){
-	  return phrase.isSuperset(language,matchPhrase)
-	 })) return false;
-	 else return true;
-	});
-	return result;
+var match = sentenceInputToMatch(language,input);
+if (this.endWords && 
+	!this.endWords.isSuperset(match.endWords))
+	return false;
+// check phrases are a subset
+var thisPhrases = this.phrases;
+var matchPhrases = match.phrases;
+var result = matchPhrases.every(function(matchPhrase){
+ if (!thisPhrases.some(function(phrase){
+  return phrase.isSuperset(language,matchPhrase)
+ })) return false;
+ else return true;
+});
+return result;
 }
 Sentence.prototype.isLike = function(language,input){
-	var match = sentenceInputToMatch(language,input);
-	if (this.isSuperset(language,match) || this.isSubset(language,match))
-		return true;
-	return false;
+var match = sentenceInputToMatch(language,input);
+if (this.isSuperset(language,match) 
+|| this.isSubset(language,match)) return true;
+return false;
 }
 Sentence.prototype.indexOf = phraseIndexFind;
 Sentence.prototype.phraseIndexFind = phraseIndexFind;
 function phraseIndexFind(language,cases){
-	var caseWord;
-	if (Array.isArray(cases)){
-		caseWord = cases;
-	}else if (typeof cases === "string"){
-		caseWord = tokenize.stringToWords(cases);
-	}else throw new TypeError("unsupported type:"+cases);
-	var i,
-	    phrase,
-	    phrases = this.phrases,
-	    length = phrases.length;
-	for (i=0;i<length;i++){
-		phrase = phrases[i];
-		if(phrase.head.isLike(language,caseWord))
-			return i;
-	}
-	return -1;
+var caseWord;
+if (Array.isArray(cases)){
+	caseWord = cases;
+}else if (typeof cases === "string"){
+	caseWord = tokenize.stringToWords(cases);
+}else throw new TypeError("unsupported type:"+cases);
+var i, phrase,
+    phrases = this.phrases,
+    length = phrases.length;
+for (i=0;i<length;i++){
+phrase = phrases[i];
+if(phrase.be === "Junction"
+&& phrase.body[0].head.isLike(language,caseWord)
+||phrase.head.isLike(language,caseWord)) return i; }
+return -1;
 }
 /// su phraseGet be get bo phrase by cases ya
 
@@ -310,7 +311,8 @@ Sentence.prototype.byIndexPhraseSet = function(index,replacement){
 	return sentence;
 }
 Sentence.prototype.copy = function(language){
- 	return new Sentence(language, JSON.parse(JSON.stringify(this)));
+return new Sentence(language, 
+JSON.parse(JSON.stringify(this)));
 }
 Sentence.prototype.toString = function(format){
 	var joiner = ' ';
