@@ -22,6 +22,7 @@ function Type(language,input){
 			+" not valid for "+this.be);
 
 // algorithm de
+// if contains junction word return Junction 
 // if type final then head word is last word
 // else it is first word
 // if head word is typeword then set it
@@ -32,6 +33,13 @@ if (tokensLength === 0) // if no tokens, return them.
 var firstToken = tokens[0];
 if (typeof firstToken === "object") // such as Quote
 	return firstToken;
+// if contains junction word return Junction 
+if (tokens.rfind(parse.wordMatch.curry(
+language.grammar.junctions))){
+console.log(tokens);
+var Junction = require("./junction");
+return new Junction(language,tokens);
+}
 var headWord = new String();
 var otherTokens = new Array();
 // if type final then head word is last word

@@ -16,8 +16,13 @@ if (input.subPhrase)
 this.subPhrase = new Phrase(language,input.subPhrase);
 if (input.clause)
 this.clause = new Clause(language,input.clause);
-if (typeof input.body === "object" && input.body.be === "Type")
+if (typeof input.body === "object"){
+if (input.body.be === "Type")
 this.body = new Type(language, input.body);
+else if (input.body.be === "Junction"){
+var Junction = require("./junction");
+this.body = new Junction(language,input.body);}
+}
 else  this.body = input.body;
 this.head = new Word(language, input.head);
 return this;

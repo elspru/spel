@@ -25,14 +25,17 @@ Speakable Programming for Every Language Translator SPELT
 0.3.9 multiple dictionary files support (28 Dec 2014)
 0.3.A determiner type support (31 Dec 2014)
 0.3.B phrase junctions (07 Jan 2015)
+0.3.C type junctions (09 Jan 2015)
 
-0.3.C type junctions
-0.3.D subclause junctions
-0.3.E performance grammar phrase ordering
-0.3.F topicalization
-0.4.0 word quotes
-0.4.4 number quotes
-0.4.8 multi word quotes
+0.3.D sentence junctions
+0.3.E subclause junctions
+0.3.F performance grammar phrase ordering
+0.4 quotes
+0.4.0 topicalization
+0.4.1 word quotes
+0.4.2 literals
+0.4.4 multi word quotes
+0.4.A number quotes
 0.4.C multi sentence quotes
 0.5.1 spaceless mwak tokenization
 0.5.4 conjugation dictionary

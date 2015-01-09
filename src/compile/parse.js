@@ -805,3 +805,88 @@ firstPhraseI[1]=phraseEnd;
 }
 return firstPhraseI;
 }// end of first junction phrase index parse ya
+
+
+exports. lastType = 
+	 lastTypeParse;
+function lastTypeParse(grammar,tokens){
+var indexes = lastTypeIndexParse(grammar,tokens);
+return tokens.slice(indexes[0],indexes[1]);
+}
+exports. firstType = 
+	 firstTypeParse;
+function firstTypeParse(grammar,tokens){
+var indexes = firstTypeIndexParse(grammar,tokens);
+return tokens.slice(indexes[0],indexes[1]);
+}
+exports. lastTypeIndex = 
+	 lastTypeIndexParse;
+function lastTypeIndexParse(grammar,tokens){
+// algorithm
+// be get ob tokens from last ya
+// assume end coincides with last word or length ya
+// if be encounter ob word of sentence or of case 
+// or of sub phrase or of clause or of top clause
+// or of word before junction
+// then set word after it as start ya
+// return
+
+// be get ob tokens from last ya
+// assume end coincides with last word or length ya
+var end = tokens.length;
+// if be encounter ob word of sentence or of case 
+// or of sub phrase or of clause or of top clause
+// or of word before junction
+var sentenceI 	= lastSentenceWordIndexParse(grammar, tokens);
+var topClauseI 	= lastTopClauseWordIndexParse(grammar,tokens);
+var caseI 	= lastCaseIndexParse(grammar,tokens);
+var subPhraseI 	= lastSubPhraseWordIndexParse(grammar,tokens);
+var clauseI	= lastClauseWordIndexParse(grammar,tokens);
+var junctionI	= lastJunctionWordIndexParse(grammar,tokens)-1;
+var maxI = Math.max(-1, clauseI, subPhraseI, caseI, topClauseI, 
+sentenceI, junctionI);
+// then set word after it as start ya
+var start = maxI+1;
+// return
+return [start,end];
+}
+exports. firstTypeIndex = 
+	 firstTypeIndexParse;
+function firstTypeIndexParse(grammar,tokens){
+// algorithm
+// be get ob tokens from first ya
+// assume start coincides with first word or 0 ya
+// if be encounter ob word of sentence or of case 
+// or of sub phrase or of clause or of top clause
+// or of word after junction
+// then set word before it as end ya
+// return
+
+// be get ob tokens from first ya
+// assume start coincides with first word or 0 ya
+var start = 0;
+// if be encounter ob word of sentence or of case 
+// or of sub phrase or of clause or of top clause
+// or of word before junction
+var sentenceI 	= firstSentenceWordIndexParse(grammar, tokens);
+var topClauseI 	= firstTopClauseWordIndexParse(grammar,tokens);
+var caseI 	= firstCaseIndexParse(grammar,tokens);
+var subPhraseI 	= firstSubPhraseWordIndexParse(grammar,tokens);
+var clauseI	= firstClauseWordIndexParse(grammar,tokens);
+var junctionI	= firstJunctionWordIndexParse(grammar,tokens);
+if (junctionI > -1) junctionI++;
+// reset -1 to length
+var length = tokens.length+1;
+if (sentenceI  	<= -1) sentenceI  	= length;
+if (topClauseI 	<= -1) topClauseI 	= length;
+if (caseI 	<= -1) caseI 		= length;
+if (subPhraseI 	<= -1) subPhraseI	= length;
+if (clauseI	<= -1) clauseI		= length;
+if (junctionI	<= -1) junctionI	= length;
+var minI = Math.min(clauseI, subPhraseI, caseI, topClauseI, 
+sentenceI, junctionI, length);
+// then set word before it as end ya
+var end = minI;
+// return
+return [start,end];
+}
