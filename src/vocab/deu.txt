@@ -1,68 +1,96 @@
-.i yi .u be yi .a ya
+.i yi .u sein yi .a ya
 .a yi .u ob yi .a ya
 .u yi .u su yi .a ya
-mi yi .u me yi .a ya
-ki yi .u and .a ya
-ka yi .u this .a ya
-ku yi .u if yi .a ya
+mi yi .u mir yi .a ya
+ki yi .u und yi .a ya
+ka yi .u diese yi .a ya
+ku yi .u wenn yi .a ya
 yi yi .u wu yi .a ya
 ya yi .u ya yi .a ya
-pi yi .u of yi .a ya
-pa yi .u do yi .a ya
-wa yi .u or .a ya
-ti yi .u tha .a ya
-ta yi .u to yi .a ya
-tu yi .u thou yi .a ya
+pi yi .u von yi .a ya
+pa yi .u tun yi .a ya
+pu yi .u pas yi .a ya
+wa yi .u oder yi .a ya
+na yi .u kaufen yi .a ya
+nu yi .u jetzt yi .a ya
+ti yi .u tha yi .a ya
+ta yi .u bis yi .a ya
+tu yi .u dich yi .a ya
+fu yi .u wil yi .a ya
 .ia yi .u ha yi .a ya
-.iu yi .u ew .a ya
-.ai yi .u okay .a ya
-.au yi .u ow .a ya
-.ui yi .u hm .a ya
-.ua yi .u wow .a ya
-kai yi .u aside yi .a ya
-nia yi .u from .a ya
-tai yi .u ek .a ya
-tua yi .u then .a ya
-myi yi .u memory .a ya
-mwa yi .u love .a ya
-kyi yi .u conditionally .a ya
-kwi yi .u yand .a ya
-pwa yi .u yaor .a ya
-sli yi .u for-example .a ya
-sla yi .u hello yi .a ya
-mik .u copy .a ya
-miy .u wait .a ya
-min .u less .a ya
-mak .u word .a ya
-map .u size .a ya
-kim .u compare .a ya
-kiy .u go .a ya
-kut .u minhmap .i small .a ya
-yim .u either .a ya
-yik .u negate .a ya
-yip .u glyph .a ya
-yam .u say .a ya
-pin .u inside .a ya
-pam .u good .a ya
-pay .u more .a ya
-paw .u place .a ya
-pan .u meet .a ya
-pat .u payhnam .i many .a ya
-puy .u child .a ya
-wul .u payhmap .i big .a ya
-nam .u number .a ya
-cik .u minhnam .i few .a ya
-myik .u add .a ya
-kyim .u subtract .a ya
-klas .u clause .a ya
-psan .u space .a ya
-slim .u example .a ya
-flas .u phrase .a ya
-miyk .u send .a ya
-munt .u world .a ya
-kiym .u receive .a ya
-yimk .u ask .a ya
-sant .u sentence .a ya
-tick .u dictionary .a ya
-kwal .u language .a ya
-
+.iu yi .u ew yi .a ya
+.ai yi .u okay yi .a ya
+.au yi .u ow yi .a ya
+.ui yi .u hm yi .a ya
+.ua yi .u wow yi .a ya
+kai yi .u beiseite yi .a ya
+nia yi .u von yi .a ya
+tai yi .u ek yi .a ya
+tua yi .u dann yi .a ya
+myi yi .u Speicher yi .a ya
+mwa yi .u lieben yi .a ya
+kyi yi .u bedingt yi .a ya
+kwi yi .u yand yi .a ya
+ksa yi .u die yi .a ya
+pwa yi .u yaor yi .a ya
+sli yi .u beispielsweise yi .a ya
+sla yi .u hallo yi .a ya
+tli yi .u ord yi .a ya
+mik .u Kopie yi .a ya
+miy .u warten yi .a ya
+mip .u Vergangenheit yi .a ya
+min .u weniger yi .a ya
+mak .u Wort yi .a ya
+map .u Größe yi .a ya
+kim .u vergleichen yi .a ya
+kiy .u gehen yi .a ya
+kam .u start yi .a ya
+kap .u Kopf yi .a ya
+kut .u klein yi .a ya
+yim .u entweder yi .a ya
+yik .u negieren yi .a ya
+yip .u Glyphe yi .a ya
+yam .u sagen yi .a ya
+pim .u Punkt yi .a ya
+piy .u Handlung yi .a ya
+pin .u innerhalb yi .a ya
+pam .u gut yi .a ya
+pak .u Körper yi .a ya
+pay .u mehr yi .a ya
+paw .u Platz yi .a ya
+pan .u treffen yi .a ya
+pat .u viele yi .a ya
+puy .u Kind yi .a ya
+put .u Zukunft yi .a ya
+wam .u Zeit yi .a ya
+wap .u Schwanz yi .a ya
+wul .u groß yi .a ya
+nam .u Anzahl yi .a ya
+naw .u vorhanden yi .a ya
+sun .u einer yi .a ya
+tuw .u zwei yi .a ya
+cik .u wenige yi .a ya
+myik .u hinzufügen yi .a ya
+kyim .u subtrahieren yi .a ya
+kwal .u Sprache yi .a ya
+klas .u Klausel yi .a ya
+pyan .u Pronomen yi .a ya
+pyas .u Ausdruck yi .a ya
+pyat .u grammatisch-Objekt yi .a ya
+psan .u Raum yi .a ya
+slim .u Beispiel yi .a ya
+tlin .u Ordnungs- yi .a ya
+miyk .u senden yi .a ya
+miwk .u Person yi .a ya
+munt .u Welt yi .a ya
+kiym .u erhalten yi .a ya
+kamt .u Grammatik yi .a ya
+kayp .u Sache yi .a ya
+kast .u grammatisch-Fall yi .a ya
+yimk .u fragen yi .a ya
+wiyp .u Verb yi .a ya
+niym .u Substantiv yi .a ya
+sant .u Satz yi .a ya
+suyt .u grammatische-Subjekt- yi .a ya
+timp .u grammatisch-angespannt yi .a ya
+tick .u Wörterbuch yi .a ya

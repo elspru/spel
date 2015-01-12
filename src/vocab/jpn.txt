@@ -1,68 +1,97 @@
-.i yi .u be yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
-mi yi .u me yi .a ya
-ki yi .u and .a ya
-ka yi .u this .a ya
-ku yi .u if yi .a ya
-yi yi .u wu yi .a ya
-ya yi .u ya yi .a ya
-pi yi .u of yi .a ya
-pa yi .u do yi .a ya
-wa yi .u or .a ya
-ti yi .u tha .a ya
-ta yi .u to yi .a ya
-tu yi .u thou yi .a ya
-.ia yi .u ha yi .a ya
-.iu yi .u ew .a ya
-.ai yi .u okay .a ya
-.au yi .u ow .a ya
-.ui yi .u hm .a ya
-.ua yi .u wow .a ya
-kai yi .u aside yi .a ya
-nia yi .u from .a ya
-tai yi .u ek .a ya
-tua yi .u then .a ya
-myi yi .u memory .a ya
-mwa yi .u love .a ya
-kyi yi .u conditionally .a ya
-kwi yi .u yand .a ya
-pwa yi .u yaor .a ya
-sli yi .u for-example .a ya
-sla yi .u hello yi .a ya
-mik .u copy .a ya
-miy .u wait .a ya
-min .u less .a ya
-mak .u word .a ya
-map .u size .a ya
-kim .u compare .a ya
-kiy .u go .a ya
-kut .u minhmap .i small .a ya
-yim .u either .a ya
-yik .u negate .a ya
-yip .u glyph .a ya
-yam .u say .a ya
-pin .u inside .a ya
-pam .u good .a ya
-pay .u more .a ya
-paw .u place .a ya
-pan .u meet .a ya
-pat .u payhnam .i many .a ya
-puy .u child .a ya
-wul .u payhmap .i big .a ya
-nam .u number .a ya
-cik .u minhnam .i few .a ya
-myik .u add .a ya
-kyim .u subtract .a ya
-klas .u clause .a ya
-psan .u space .a ya
-slim .u example .a ya
-flas .u phrase .a ya
-miyk .u send .a ya
-munt .u world .a ya
-kiym .u receive .a ya
-yimk .u ask .a ya
-sant .u sentence .a ya
-tick .u dictionary .a ya
-kwal .u language .a ya
-
+.i yi .u ある yi .a ya
+.a yi .u OB yi .a ya
+.u yi .u SU yi .a ya
+mi yi .u 私に yi .a ya
+ki yi .u と yi .a ya
+ka yi .u この yi .a ya
+ku yi .u もし yi .a ya
+yi yi .u ウー yi .a ya
+ya yi .u エレガント yi .a ya
+pi yi .u の yi .a ya
+pa yi .u やる yi .a ya
+pu yi .u 過去形 yi .a ya
+wa yi .u または yi .a ya
+na yi .u ニュー yi .a ya
+nu yi .u 今 yi .a ya
+ti yi .u その yi .a ya
+ta yi .u へ yi .a ya
+tu yi .u 汝 yi .a ya
+fu yi .u ウィル yi .a ya
+.ia yi .u ヘクタール yi .a ya
+.iu yi .u ああ yi .a ya
+.ai yi .u はい yi .a ya
+.au yi .u フロー yi .a ya
+.ui yi .u うーん yi .a ya
+.ua yi .u ワオ yi .a ya
+kai yi .u 余談 yi .a ya
+nia yi .u から yi .a ya
+tai yi .u 最初のスタート yi .a ya
+tua yi .u その後 yi .a ya
+myi yi .u メモリ yi .a ya
+mwa yi .u 愛 yi .a ya
+kyi yi .u 条件付きで yi .a ya
+kwi yi .u と yi .a ya
+ksa yi .u ザ· yi .a ya
+pwa yi .u または yi .a ya
+sli yi .u 例えば yi .a ya
+sla yi .u こんにちは yi .a ya
+tli yi .u 記事 yi .a ya
+mik .u コピー yi .a ya
+miy .u 待つ yi .a ya
+mip .u 過去 yi .a ya
+min .u もっと少なく yi .a ya
+mak .u 単語 yi .a ya
+map .u サイズ yi .a ya
+kim .u 比較する yi .a ya
+kiy .u 行く yi .a ya
+kam .u ベギン yi .a ya
+kap .u 頭 yi .a ya
+kut .u 小さな yi .a ya
+yim .u どちら yi .a ya
+yik .u 否定する yi .a ya
+yip .u グリフ yi .a ya
+yam .u 言う yi .a ya
+pim .u ポイント yi .a ya
+piy .u 行為 yi .a ya
+pin .u 内部 yi .a ya
+pam .u 良い yi .a ya
+pak .u ボディ yi .a ya
+pay .u もっと yi .a ya
+paw .u 場所 yi .a ya
+pan .u 大会 yi .a ya
+pat .u 多くの yi .a ya
+puy .u 子供 yi .a ya
+put .u 未来 yi .a ya
+wam .u 時間 yi .a ya
+wap .u テール yi .a ya
+wul .u ビッグ yi .a ya
+nam .u 数 yi .a ya
+naw .u 現在 yi .a ya
+sun .u 一 yi .a ya
+tuw .u 二つ yi .a ya
+cik .u 少数 yi .a ya
+myik .u 加える yi .a ya
+kyim .u 引く yi .a ya
+kwal .u 言語 yi .a ya
+klas .u 句 yi .a ya
+pyan .u 代名詞 yi .a ya
+pyas .u フレーズ yi .a ya
+pyat .u 文法的オブジェクト yi .a ya
+psan .u スペース yi .a ya
+flas .u フレーズ yi .a ya
+slim .u 例 yi .a ya
+tlin .u 序数 yi .a ya
+miyk .u 送信する yi .a ya
+miwk .u 人 yi .a ya
+munt .u 世界 yi .a ya
+kiym .u 受け取る yi .a ya
+kamt .u 文法 yi .a ya
+kayp .u 事 yi .a ya
+kast .u 文法的-ケース yi .a ya
+yimk .u 頼む yi .a ya
+wiyp .u 動詞 yi .a ya
+niym .u 名詞 yi .a ya
+sant .u 文 yi .a ya
+suyt .u 文法的被験者 yi .a ya
+timp .u 文法的時制 yi .a ya
+tick .u 辞書 yi .a ya

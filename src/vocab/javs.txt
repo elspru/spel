@@ -1,22 +1,22 @@
-.i yi .u be yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
+.i yi .u wiyp kast .i be yi .a ya
+.a yi .u pyat kast .i ob yi .a ya
+.u yi .u suyt kast .i su yi .a ya
 mi yi .u me yi .a ya
 ki yi .u and .a ya
-ka yi .u this .a ya
+ka yi .u kayp pyan .i this .a ya
 ku yi .u if yi .a ya
 yi yi .u wu yi .a ya
-ya yi .u ya yi .a ya
+ya yi .u ; yi .a ya
 pi yi .u of yi .a ya
 pa yi .u do yi .a ya
-pu yi .u pas .a ya
+pu yi .u mip timp .i pas .a ya
 wa yi .u or .a ya
-na yi .u nu .a ya
-nu yi .u now .a ya
+na yi .u nam .i nu .a ya
+nu yi .u naw timp .i now .a ya
 ti yi .u tha .a ya
-ta yi .u to yi .a ya
-tu yi .u thee yi .a ya
-fu yi .u wil .a ya
+ta yi .u kast .i to yi .a ya
+tu yi .u miwk pyan .i thee yi .a ya
+fu yi .u put timp .i wil .a ya
 .ia yi .u ha yi .a ya
 .iu yi .u ew .a ya
 .ai yi .u okay .a ya
@@ -31,14 +31,14 @@ myi yi .u memory .a ya
 mwa yi .u love .a ya
 kyi yi .u conditionally .a ya
 kwi yi .u yand .a ya
-ksa yi .u the .a ya
+ksa yi .u ka .i the .a ya
 pwa yi .u yaor .a ya
 sli yi .u for-example .a ya
 sla yi .u hello yi .a ya
-tli yi .u ord .a ya
+tli yi .u tlin nam .i ord .a ya
 mik .u copy .a ya
 miy .u wait .a ya
-mip .u past .a ya
+mip .u wap wam .i past .a ya
 min .u less .a ya
 mak .u word .a ya
 map .u size .a ya
@@ -46,7 +46,7 @@ kim .u compare .a ya
 kiy .u go .a ya
 kam .u begin .a ya
 kap .u head .a ya
-kut .u small .a ya
+kut .u min map .i small .a ya
 yim .u either .a ya
 yik .u negate .a ya
 yip .u glyph .a ya
@@ -59,24 +59,24 @@ pak .u body .a ya
 pay .u more .a ya
 paw .u place .a ya
 pan .u meet .a ya
-pat .u many .a ya
+pat .u pay nam .i many .a ya
 puy .u child .a ya
-put .u future .a ya
+put .u kap wam .i future .a ya
 wam .u time .a ya
 wap .u tail .a ya
-wul .u big .a ya
+wul .u pay map .i big .a ya
 nam .u number .a ya
-naw .u present .a ya
+naw .u pak wam .i present .a ya
 sun .u one .a ya
 tuw .u two .a ya
-cik .u few .a ya
+cik .u min nam .i few .a ya
 myik .u add .a ya
 kyim .u subtract .a ya
 kwal .u language .a ya
 klas .u clause .a ya
-pyan .u pronoun .a ya
+pyan .u pim niym .i pronoun .a ya
 pyas .u phrase .a ya
-pyat .u grammatical-object .a ya
+pyat .u kayp mak .i grammatical-object .a ya
 psan .u space .a ya
 slim .u example .a ya
 tlin .u ordinal .a ya
@@ -86,12 +86,12 @@ munt .u world .a ya
 kiym .u receive .a ya
 kamt .u grammar .a ya
 kayp .u thing .a ya
-kast .u grammatical-case .a ya
+kast .u pyas kamt .i grammatical-case .a ya
 yimk .u ask .a ya
-wiyp .u verb .a ya
+wiyp .u piy mak .i verb .a ya
 niym .u noun .a ya
 sant .u sentence .a ya
 suyt .u grammatical-subject .a ya
-timp .u grammatical-tense .a ya
+timp .u wam kamt .i tense .a ya
 tick .u dictionary .a ya
 

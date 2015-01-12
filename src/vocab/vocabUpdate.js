@@ -55,7 +55,7 @@ for (i=0;i<amount;i++){
 		console.log(String(XText));
 	else {
 		console.log("writing "+CFilename);
-		io.fileWrite(CFilename+".json",JSON.stringify(CText));
+		//io.fileWrite(CFilename+".json",JSON.stringify(CText));
 		io.fileWrite(CFilename,String(CText));
 	}
 	}
@@ -73,7 +73,7 @@ for (i=0;i<amount;i++){
 		console.log(String(XText));
 	else {
 		console.log("writing "+XFilename);
-		io.fileWrite(XFilename+".json",JSON.stringify(XText));
+	//	io.fileWrite(XFilename+".json",JSON.stringify(XText));
 		io.fileWrite(XFilename,String(XText));
 	}
 	CPText=CText;

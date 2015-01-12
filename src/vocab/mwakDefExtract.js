@@ -25,8 +25,9 @@ var sentences = definitions.sentences;
 var i;
 for (i=0;i<sentences.length;i++){
 sentences[i].phraseDelete(mwak,"kai");
-//sentences[i].phraseDelete(mwak,"nia");
-//sentences[i].phraseDelete(mwak,".a");
+sentences[i].phraseDelete(mwak,"nia");
+sentences[i].phraseDelete(mwak,".a");
+//sentences[i].phraseDelete(mwak,".i");
 }
 console.log(definitions.toString());
 

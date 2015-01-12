@@ -1,68 +1,100 @@
-.i yi .u be yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
-mi yi .u me yi .a ya
-ki yi .u and .a ya
-ka yi .u this .a ya
-ku yi .u if yi .a ya
-yi yi .u wu yi .a ya
-ya yi .u ya yi .a ya
-pi yi .u of yi .a ya
-pa yi .u do yi .a ya
-wa yi .u or .a ya
-ti yi .u tha .a ya
-ta yi .u to yi .a ya
-tu yi .u thou yi .a ya
-.ia yi .u ha yi .a ya
-.iu yi .u ew .a ya
-.ai yi .u okay .a ya
-.au yi .u ow .a ya
-.ui yi .u hm .a ya
-.ua yi .u wow .a ya
-kai yi .u aside yi .a ya
-nia yi .u from .a ya
-tai yi .u ek .a ya
-tua yi .u then .a ya
-myi yi .u memory .a ya
-mwa yi .u love .a ya
-kyi yi .u conditionally .a ya
-kwi yi .u yand .a ya
-pwa yi .u yaor .a ya
-sli yi .u for-example .a ya
-sla yi .u hello yi .a ya
-mik .u copy .a ya
-miy .u wait .a ya
-min .u less .a ya
-mak .u word .a ya
-map .u size .a ya
-kim .u compare .a ya
-kiy .u go .a ya
-kut .u minhmap .i small .a ya
-yim .u either .a ya
-yik .u negate .a ya
-yip .u glyph .a ya
-yam .u say .a ya
-pin .u inside .a ya
-pam .u good .a ya
-pay .u more .a ya
-paw .u place .a ya
-pan .u meet .a ya
-pat .u payhnam .i many .a ya
-puy .u child .a ya
-wul .u payhmap .i big .a ya
-nam .u number .a ya
-cik .u minhnam .i few .a ya
-myik .u add .a ya
-kyim .u subtract .a ya
-klas .u clause .a ya
-psan .u space .a ya
-slim .u example .a ya
-flas .u phrase .a ya
-miyk .u send .a ya
-munt .u world .a ya
-kiym .u receive .a ya
-yimk .u ask .a ya
-sant .u sentence .a ya
-tick .u dictionary .a ya
-kwal .u language .a ya
-
+.i yi .u होना yi .a ya
+.a yi .u ओबी yi .a ya
+.u yi .u सु yi .a ya
+mi yi .u मुझको yi .a ya
+ki yi .u व yi .a ya
+ka yi .u यह yi .a ya
+ku yi .u अगर yi .a ya
+yi yi .u वू yi .a ya
+ya yi .u फिर yi .a ya
+pi yi .u की yi .a ya
+pa yi .u करना yi .a ya
+pu yi .u सहूलियत yi .a ya
+wa yi .u या yi .a ya
+na yi .u परमाणु yi .a ya
+nu yi .u अभी yi .a ya
+ti yi .u था yi .a ya
+ta yi .u को yi .a ya
+tu yi .u तेरा yi .a ya
+fu yi .u wil yi .a ya
+.ia yi .u हा yi .a ya
+.iu yi .u EW yi .a ya
+.ai yi .u ठीक-है yi .a ya
+.au yi .u ओउ yi .a ya
+.ui yi .u एचएम yi .a ya
+.ua yi .u वाह yi .a ya
+kai yi .u अलग yi .a ya
+nia yi .u से yi .a ya
+tai yi .u ई.के. yi .a ya
+tua yi .u फिर yi .a ya
+myi yi .u याद yi .a ya
+mwa yi .u इश्क yi .a ya
+kyi yi .u सशर्त yi .a ya
+kwi yi .u Yand yi .a ya
+ksa yi .u एस् yi .a ya
+ksa yi .a ya
+ksa yi .a ya
+ksa yi .a ya
+ksa yi .a ya
+pwa yi .u yaor yi .a ya
+sli yi .u उदाहरण-के-लिए yi .a ya
+sla yi .u नमस्कार yi .a ya
+tli yi .u ORD yi .a ya
+mik .u प्रतिलिपि yi .a ya
+miy .u इंतज़ार yi .a ya
+mip .u अतीत yi .a ya
+min .u कम yi .a ya
+mak .u शब्द yi .a ya
+map .u आकार yi .a ya
+kim .u तुलना yi .a ya
+kiy .u जाओ yi .a ya
+kam .u शुरू yi .a ya
+kap .u सरपंच yi .a ya
+kut .u छोटा yi .a ya
+yim .u भी yi .a ya
+yik .u नकारना yi .a ya
+yip .u ग्लिफ़ yi .a ya
+yam .u कहो yi .a ya
+pim .u बिंदु yi .a ya
+piy .u अधिनियम yi .a ya
+pin .u अंदर yi .a ya
+pam .u अच्छा yi .a ya
+pak .u बॉडी yi .a ya
+pay .u ज्यादा yi .a ya
+paw .u जगह yi .a ya
+pan .u मिले yi .a ya
+pat .u अन्नियाँ yi .a ya
+puy .u बच्चा yi .a ya
+put .u भविष्य yi .a ya
+wam .u समय yi .a ya
+wap .u पूंछ yi .a ya
+wul .u महा yi .a ya
+nam .u नंबर yi .a ya
+naw .u वर्तमान yi .a ya
+sun .u एक yi .a ya
+tuw .u दो yi .a ya
+cik .u कुछ yi .a ya
+myik .u जोड़ना yi .a ya
+kyim .u घटाना yi .a ya
+kwal .u भाषा yi .a ya
+klas .u धारा yi .a ya
+pyan .u सर्वनाम yi .a ya
+pyas .u मुहावरा yi .a ya
+pyat .u व्याकरण-वस्तु yi .a ya
+psan .u अंतरिक्ष yi .a ya
+slim .u उदाहरण yi .a ya
+tlin .u क्रमवाचक yi .a ya
+miyk .u भेजो yi .a ya
+miwk .u व्यक्ति yi .a ya
+munt .u दुनिया yi .a ya
+kiym .u प्राप्त-करना yi .a ya
+kamt .u व्याकरण yi .a ya
+kayp .u चीज yi .a ya
+kast .u व्याकरण-केस yi .a ya
+wiyp .u क्रिया yi .a ya
+niym .u संज्ञा yi .a ya
+sant .u सेंटेंस yi .a ya
+suyt .u व्याकरण-विषय yi .a ya
+timp .u व्याकरण-काल yi .a ya
+tick .u शब्दकोश yi .a ya
+yimk .u पूछो yi .a ya

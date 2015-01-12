@@ -50,7 +50,7 @@ firstSentence = parse.firstSentence( language.grammar,previousTokens);
 	this.sentences = sentences;
 	return this;
 }
-Text.prototype.copy = function(){
+Text.prototype.copy = function(language){
  	return new Text(language, JSON.parse(JSON.stringify(this)));
 }
 /// su sentenceGet be get bo sentence by index ya
@@ -89,8 +89,9 @@ function sentenceFindGet(language,input){
 	// reverse iterate through sentences or rfind
 	// if isLike match, then return
 	var index = this.sentences.rfind(function(sentence){
-		return sentence.isLike(match)});
-	return this.byIndexSentenceGet(index);
+		return sentence.isLike(language,match)});
+	if (index === null) index = -1;
+	return index; //this.byIndexSentenceGet(index);
 }
 // select like in SQL returns all matches as array
 Text.prototype.select = sentenceFindAllGet;
@@ -182,3 +183,18 @@ Text.prototype.toLocaleString = function(language,format){
 	}
 	return string;//this.string;
 };
+Text.prototype.insert = function(language,index,input){
+// algorithm
+// make sentence object from input
+// if index out of bounds throw range error
+// splice the sentence into this.sentences
+
+// make sentence object from input
+var sentence = sentenceInputToMatch(language, input);
+// if index out of bounds throw range error
+if (index > this.sentences.length)  RangeError(index 
++ " exceeds number of sentences in this Text object");
+// splice the sentence into this.sentences
+this.sentences.splice(index,0,sentence);
+return this;
+}

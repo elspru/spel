@@ -205,3 +205,86 @@ to implement at this stage.
 1645 works for Phrase, debugging for Sentence
 1712 okay so test on web, then roadmap and git
 1717 cool works, so roadmap and git
+1752 found out yesterday that cytoskeletons resonate at
+frequencies as low as 10Khz, that means we can make music which
+appeals to them. Lets see, B
+1756 so in western music that's the 9th octave,
+or from about d#9 (9956Hz) til D#10 (19912Hz)
+cytoskeleton music w00t w00t!
+1806 okay found a study that mentions 2Khz til 20Khz
+ http://www.rife.de/files/efficiency_of_solitary-waves.pdf 
+1808 the diameter of a microtubule is 12nm and 24nm for inner
+and outer, so lets see what note that gives us.
+1816 op, redid my music calculations, seems I was right the
+first time, it really is C# that is hydrogen harmonic. 
+even with the f*l=c equation
+(120 * (10^-12) * (16^13) * x) = 2.9979246E8 = approx. x = 554.72748
+piano C# is 554.365 
+1834 okay so F9 is closest to 11360Hz the harmonic of 
+microtubule diameter, 31TET with A at 443.58Hz (tuned for
+hydrogen) is -9Hz deviation, whereas 12TET is -184hz deviation.
+1837 nice with this new A for 31, schuman is -0.079 deviation at
+B2, wheras it's -0.113 for 12TEt, also B2.
+1839 of course cytoskeleton microtubule wavelengths matter more
+based on their lengths than their diameters, but it's something
+ya, they all resonate by their diameters.
+2111 decided will work on the translation in 0.4 since it is
+more useful sooner. can do some real demonstrations once there
+is enough vocabulary ya
+} 11 Jan 2015
+0411 made command like google translate script, with help of
+translate-bin
+0416 hmmm have to implement in javascript for portability ya
+0421 seems google translate requires payment for apiKey,
+so best to simply use translate-bin for now ya
+we only need to translate the core words once ya
+0438 so I'll have to implement the shell script output for
+translation.
+0537 for full implementation will need text append
+otherwise the translation update script is almost complete 
+0538 anyways need to catch some z's 
+1539 I think I'm going to go back to posting some of my more
+epic email responses on tumblr. They seem to be one of the most
+popular sources of posts on reddit.
+1623 so need to replace spaces with dashes in the output,
+since sometimes a single word is equivalent to multiple words
+in a foreign language ya
+1624 also thinking insert would be a nice feature, since then
+can insert the entry at same place as it is found in the
+original file ya
+1707 okay so have prett much completed single file translation,
+can put the warnings in the .log file with the date
+after that have to make a verification file, that makes sure
+there aren't any double definition
+} 12 Jan 2015
+0459 have it working very well now, 
+added arabic, portugeuse, now translating indonesian.
+can probably also add german, japanese and korean ya
+0503 hmmm gotta make yi take multiple words ya
+0543 managed to fix the space problem by writing custom function
+to replace the spaces with dashes ya
+0614 thinking can translate to japanese and korean from chinese,
+since then can only have to update chinese for the english
+differences rather than all three.
+0630 okay updated my mandarin file, will try doing translation
+from it to japanese and korean
+0643 okay so italian, dutch, swedish, adn then should be done
+0717 okay well couldn't find a translation service for esperanto
+but I think in total we have enough for now ya
+0829 so next have to do roadmap and then verifiers
+0904 apostrophe is more common than period for glottal stop so
+we should change that ya
+0943 some preliminary things I want to translate are some of
+Aesop's fables, such as sour grapes. 
+1212 thinking that using the apostrophe may make it more
+difficult for some things as we'd have to use an escape sequence
+for a lot of programs, especially for c conversion and the like. 
+1216 there are apostrophe's in English though, so perhaps we can
+try it and see if it works? I dono, it seems kinda scary, would
+get all sorts of problems, and increase the size of things. I
+also like how glottal stop periods are low just like in the 
+throat. I think having it as an apostrophe is a bit confusing.
+admitedly having it as a period is a bit confusing for people
+which aren't familiar with it.
+1222 anyways so roadmap done, lets git for now
+oh also can make a tarball

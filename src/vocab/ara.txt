@@ -1,68 +1,96 @@
-.i yi .u be yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
-mi yi .u me yi .a ya
-ki yi .u and .a ya
-ka yi .u this .a ya
-ku yi .u if yi .a ya
-yi yi .u wu yi .a ya
-ya yi .u ya yi .a ya
-pi yi .u of yi .a ya
-pa yi .u do yi .a ya
-wa yi .u or .a ya
-ti yi .u tha .a ya
-ta yi .u to yi .a ya
-tu yi .u thou yi .a ya
-.ia yi .u ha yi .a ya
-.iu yi .u ew .a ya
-.ai yi .u okay .a ya
-.au yi .u ow .a ya
-.ui yi .u hm .a ya
-.ua yi .u wow .a ya
-kai yi .u aside yi .a ya
-nia yi .u from .a ya
-tai yi .u ek .a ya
-tua yi .u then .a ya
-myi yi .u memory .a ya
-mwa yi .u love .a ya
-kyi yi .u conditionally .a ya
-kwi yi .u yand .a ya
-pwa yi .u yaor .a ya
-sli yi .u for-example .a ya
-sla yi .u hello yi .a ya
-mik .u copy .a ya
-miy .u wait .a ya
-min .u less .a ya
-mak .u word .a ya
-map .u size .a ya
-kim .u compare .a ya
-kiy .u go .a ya
-kut .u minhmap .i small .a ya
-yim .u either .a ya
-yik .u negate .a ya
-yip .u glyph .a ya
-yam .u say .a ya
-pin .u inside .a ya
-pam .u good .a ya
-pay .u more .a ya
-paw .u place .a ya
-pan .u meet .a ya
-pat .u payhnam .i many .a ya
-puy .u child .a ya
-wul .u payhmap .i big .a ya
-nam .u number .a ya
-cik .u minhnam .i few .a ya
-myik .u add .a ya
-kyim .u subtract .a ya
-klas .u clause .a ya
-psan .u space .a ya
-slim .u example .a ya
-flas .u phrase .a ya
-miyk .u send .a ya
-munt .u world .a ya
-kiym .u receive .a ya
-yimk .u ask .a ya
-sant .u sentence .a ya
-tick .u dictionary .a ya
-kwal .u language .a ya
-
+.i yi .u يكون yi .a ya
+.a yi .u أوب yi .a ya
+.u yi .u سو yi .a ya
+mi yi .u أنا yi .a ya
+ki yi .u و yi .a ya
+ka yi .u هذا yi .a ya
+ku yi .u إذا yi .a ya
+yi yi .u وو yi .a ya
+ya yi .u يا yi .a ya
+pi yi .u من yi .a ya
+pa yi .u فعل yi .a ya
+pu yi .u با yi .a ya
+wa yi .u أو yi .a ya
+na yi .u نو yi .a ya
+nu yi .u الآن yi .a ya
+ti yi .u ثا yi .a ya
+ta yi .u إلى yi .a ya
+tu yi .u اليك yi .a ya
+fu yi .u فيل yi .a ya
+.ia yi .u هكتار yi .a ya
+.iu yi .u مصريات yi .a ya
+.ai yi .u حسنا yi .a ya
+.au yi .u آه yi .a ya
+.ui yi .u جلالة yi .a ya
+.ua yi .u رائع yi .a ya
+kai yi .u جانبا yi .a ya
+nia yi .u من yi .a ya
+tai yi .u خلفا yi .a ya
+tua yi .u ثم yi .a ya
+myi yi .u ذاكرة yi .a ya
+mwa yi .u حب yi .a ya
+kyi yi .u مشروط yi .a ya
+kwi yi .u YAND yi .a ya
+ksa yi .u ال yi .a ya
+pwa yi .u yaor yi .a ya
+sli yi .u مثلا yi .a ya
+sla yi .u مرحبا yi .a ya
+tli yi .u ORD yi .a ya
+mik .u نسخة yi .a ya
+miy .u انتظر yi .a ya
+mip .u الماضي yi .a ya
+min .u أقل yi .a ya
+mak .u كلمة yi .a ya
+map .u حجم yi .a ya
+kim .u مقارنة yi .a ya
+kiy .u اذهب yi .a ya
+kam .u ابدأ yi .a ya
+kap .u رئيس yi .a ya
+kut .u صغير yi .a ya
+yim .u إما yi .a ya
+yik .u ينفي yi .a ya
+yip .u الصورة .a ya
+yam .u قول yi .a ya
+pim .u نقطة yi .a ya
+piy .u عمل yi .a ya
+pin .u داخل yi .a ya
+pam .u خير yi .a ya
+pak .u هيئة yi .a ya
+pay .u أكثر yi .a ya
+paw .u مكان yi .a ya
+pan .u اجتماع yi .a ya
+pat .u كثير yi .a ya
+puy .u طفل yi .a ya
+put .u مستقبل yi .a ya
+wam .u مرة yi .a ya
+wap .u ذيل yi .a ya
+wul .u كبير yi .a ya
+nam .u عدد yi .a ya
+naw .u الحالي yi .a ya
+sun .u واحد yi .a ya
+tuw .u اثنان yi .a ya
+cik .u قليل yi .a ya
+myik .u إضافة yi .a ya
+kyim .u طرح yi .a ya
+kwal .u لغة yi .a ya
+klas .u بند yi .a ya
+pyan .u ضمير yi .a ya
+pyas .u العبارة yi .a ya
+pyat .u النحوية بين .a ya
+psan .u الفضاء yi .a ya
+slim .u مثال yi .a ya
+tlin .u ترتيبي yi .a ya
+miyk .u إرسال yi .a ya
+miwk .u شخص yi .a ya
+munt .u عالم yi .a ya
+kiym .u تسلم yi .a ya
+kamt .u قواعد yi .a ya
+kayp .u شيء yi .a ya
+kast .u النحوية .a ya
+yimk .u تطلب yi .a ya
+wiyp .u الفعل yi .a ya
+niym .u اسما yi .a ya
+sant .u جملة yi .a ya
+suyt .u النحوية-الموضوع yi .a ya
+timp .u النحوية-متوترة yi .a ya
+tick .u قاموس yi .a ya

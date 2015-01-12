@@ -9,10 +9,14 @@ yi yi .u mo yi .a ya
 ya yi .u ya yi .a ya
 pi yi .u de yi .a ya
 pa yi .u faire yi .a ya
+pu yi .u pas .a ya
 wa yi .u ou .a ya
+na yi .u nu .a ya
+nu yi .u maintenant .a ya
 ti yi .u que .a ya
 ta yi .u à yi .a ya
 tu yi .u tu yi .a ya
+fu yi .u wil .a ya
 .ia yi .u a yi .a ya
 .iu yi .u ew .a ya
 .ai yi .u d'accord .a ya
@@ -27,41 +31,67 @@ myi yi .u mémoire .a ya
 mwa yi .u aimer .a ya
 kyi yi .u conditionnellement .a ya
 kwi yi .u yet .a ya
+ksa yi .u la .a ya
 pwa yi .u you .a ya
 sli yi .u par-exemple .a ya
 sla yi .u bonjour yi .a ya
+tli yi .u ord .a ya
 mik .u copie .a ya
 miy .u attendre .a ya
+mip .u passé .a ya
 min .u moins .a ya
 mak .u mot .a ya
 map .u taille .a ya
 kim .u comparer .a ya
 kiy .u aller .a ya
+kam .u commencer .a ya
+kap .u tête .a ya
 kut .u minhmap .i petit .a ya
 yim .u chaque .a ya
 yik .u nier .a ya
 yip .u glyphe .a ya
 yam .u dire .a ya
+pim .u point .a ya
+piy .u acte .a ya
 pin .u intérieur .a ya
 pam .u bon .a ya
+pak .u corps .a ya
 pay .u plus .a ya
 paw .u lieu .a ya
 pan .u rencontrer .a ya
 pat .u payhnam .i beaucoup .a ya
 puy .u enfant .a ya
+put .u avenir .a ya
+wam .u temps .a ya
+wap .u queue .a ya
 wul .u payhmap .i grand .a ya
 nam .u nombre .a ya
+naw .u présent .a ya
+sun .u une .a ya
+tuw .u deux .a ya
 cik .u minhnam .i peu .a ya
 myik .u ajouter .a ya
 kyim .u soustraire .a ya
 klas .u clause .a ya
 psan .u espace .a ya
+pyan .u pronom .a ya
+pyas .u phrase .a ya
+pyat .u grammaticale-objet .a ya
 slim .u exemple .a ya
 flas .u phrase .a ya
+tlin .u ordinal .a ya
 miyk .u envoyer .a ya
+miwk .u personne .a ya
 munt .u monde .a ya
 kiym .u recevoir .a ya
+kamt .u grammaire .a ya
+kayp .u chose .a ya
+kast .u grammaticale-cas .a ya
 yimk .u demander .a ya
+wiyp .u verbe .a ya
+niym .u nom .a ya
 sant .u sentence .a ya
+suyt .u grammaticale-sujet .a ya
+timp .u grammaticale-tendue .a ya
 tick .u dictionnaire .a ya
 kwal .u langue .a ya

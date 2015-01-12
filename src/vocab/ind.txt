@@ -1,68 +1,96 @@
-.i yi .u be yi .a ya
+.i yi .u menjadi yi .a ya
 .a yi .u ob yi .a ya
 .u yi .u su yi .a ya
-mi yi .u me yi .a ya
-ki yi .u and .a ya
-ka yi .u this .a ya
-ku yi .u if yi .a ya
+mi yi .u saya yi .a ya
+ki yi .u dan yi .a ya
+ka yi .u ini yi .a ya
+ku yi .u jika yi .a ya
 yi yi .u wu yi .a ya
 ya yi .u ya yi .a ya
-pi yi .u of yi .a ya
-pa yi .u do yi .a ya
-wa yi .u or .a ya
-ti yi .u tha .a ya
-ta yi .u to yi .a ya
-tu yi .u thou yi .a ya
+pi yi .u dari yi .a ya
+pa yi .u melakukan yi .a ya
+pu yi .u pas yi .a ya
+wa yi .u atau yi .a ya
+na yi .u nu yi .a ya
+nu yi .u saat-ini yi .a ya
+ti yi .u tha yi .a ya
+ta yi .u untuk yi .a ya
+tu yi .u engkau yi .a ya
+fu yi .u wil yi .a ya
 .ia yi .u ha yi .a ya
-.iu yi .u ew .a ya
-.ai yi .u okay .a ya
-.au yi .u ow .a ya
-.ui yi .u hm .a ya
-.ua yi .u wow .a ya
-kai yi .u aside yi .a ya
-nia yi .u from .a ya
-tai yi .u ek .a ya
-tua yi .u then .a ya
-myi yi .u memory .a ya
-mwa yi .u love .a ya
-kyi yi .u conditionally .a ya
-kwi yi .u yand .a ya
-pwa yi .u yaor .a ya
-sli yi .u for-example .a ya
-sla yi .u hello yi .a ya
-mik .u copy .a ya
-miy .u wait .a ya
-min .u less .a ya
-mak .u word .a ya
-map .u size .a ya
-kim .u compare .a ya
-kiy .u go .a ya
-kut .u minhmap .i small .a ya
-yim .u either .a ya
-yik .u negate .a ya
-yip .u glyph .a ya
-yam .u say .a ya
-pin .u inside .a ya
-pam .u good .a ya
-pay .u more .a ya
-paw .u place .a ya
-pan .u meet .a ya
-pat .u payhnam .i many .a ya
-puy .u child .a ya
-wul .u payhmap .i big .a ya
-nam .u number .a ya
-cik .u minhnam .i few .a ya
-myik .u add .a ya
-kyim .u subtract .a ya
-klas .u clause .a ya
-psan .u space .a ya
-slim .u example .a ya
-flas .u phrase .a ya
-miyk .u send .a ya
-munt .u world .a ya
-kiym .u receive .a ya
-yimk .u ask .a ya
-sant .u sentence .a ya
-tick .u dictionary .a ya
-kwal .u language .a ya
-
+.iu yi .u ew yi .a ya
+.ai yi .u boleh-saja yi .a ya
+.au yi .u ow yi .a ya
+.ui yi .u hm yi .a ya
+.ua yi .u wow yi .a ya
+kai yi .u ke-samping yi .a ya
+nia yi .u dari yi .a ya
+tai yi .u ek yi .a ya
+tua yi .u kemudian yi .a ya
+myi yi .u daya-ingat yi .a ya
+mwa yi .u cinta-kasih yi .a ya
+kyi yi .u kondisional yi .a ya
+kwi yi .u yand yi .a ya
+ksa yi .u itu yi .a ya
+pwa yi .u yaor yi .a ya
+sli yi .u sebagai .a ya
+sla yi .u halo-juga yi .a ya
+tli yi .u ord yi .a ya
+mik .u salinan yi .a ya
+miy .u menunggu yi .a ya
+mip .u masa-lalu yi .a ya
+min .u lebih-sedikit yi .a ya
+mak .u kata yi .a ya
+map .u ukuran yi .a ya
+kim .u membandingkan yi .a ya
+kiy .u pergi yi .a ya
+kam .u mulai yi .a ya
+kap .u kepala yi .a ya
+kut .u kecil yi .a ya
+yim .u salah-satu yi .a ya
+yik .u meniadakan yi .a ya
+yip .u glyph yi .a ya
+yam .u mengatakan yi .a ya
+pim .u titik yi .a ya
+piy .u bertindak yi .a ya
+pin .u sebelah-dalam yi .a ya
+pam .u baik-lah yi .a ya
+pak .u tubuh yi .a ya
+pay .u lebih-banyak yi .a ya
+paw .u tempat yi .a ya
+pan .u bertemu yi .a ya
+pat .u banyak-sekali yi .a ya
+puy .u anak yi .a ya
+put .u masa-depan yi .a ya
+wam .u waktu yi .a ya
+wap .u ekor yi .a ya
+wul .u besar yi .a ya
+nam .u nomor yi .a ya
+naw .u yang-hadir yi .a ya
+sun .u satu yi .a ya
+tuw .u dua yi .a ya
+cik .u beberapa yi .a ya
+myik .u menambahkan yi .a ya
+kyim .u mengurangi yi .a ya
+kwal .u bahasa yi .a ya
+klas .u ayat yi .a ya
+pyan .u kata-ganti yi .a ya
+pyas .u frasa yi .a ya
+pyat .u gramatikal-objek yi .a ya
+psan .u ruang-angkasa yi .a ya
+slim .u contoh yi .a ya
+tlin .u urut yi .a ya
+miyk .u mengirim yi .a ya
+miwk .u orang yi .a ya
+munt .u dunia yi .a ya
+kiym .u menerima yi .a ya
+kamt .u tata-bahasa yi .a ya
+kayp .u benda yi .a ya
+kast .u gramatikal-kasus yi .a ya
+yimk .u meminta yi .a ya
+wiyp .u kata-kerja yi .a ya
+niym .u kata-benda yi .a ya
+sant .u putusan-pengadilan yi .a ya
+suyt .u gramatikal-subjek yi .a ya
+timp .u gramatikal-tegang yi .a ya
+tick .u kamus yi .a ya

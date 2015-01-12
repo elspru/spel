@@ -62,25 +62,26 @@ var string = "ha if btw cool then su me be say ob tha be good su hello world ya"
 //var string = " ha be say if su me ya "
 var string = " ha if su me be the say love me  ya "
 var string = " su me and su world be love ob thee ya"
-var string = " su me and thee and world and me world ya"
+var string = " su wu world world"
 //var string = "  su me and su thee and su world and su me world "
 var mstring = " mi .u tai sla munt .a ti mwa ta .i .ia ya"
 var mstring = " mi .u ku yam .i sla munt .a tua .ia ya "
 var mstring = " mi yam munt .a .ia ya "
 var mstring = "  mi .a ki tu .a ki tu pi munt .a "
 var mstring = "  mi ki tu ki munt ki mi munt"
+var mstring = " naw .u yang hadir yi .a ya "
 var tokens = tokenize.stringToWords(string);
 var mtokens = tokenize.stringToWords(mstring);
 //var word = parse.lastType(mwak.grammar,mtokens);
-//var word = new Type(mwak,mstring);
+var word = new Sentence(mwak,mstring);
 //var word = parse.firstType(eng.grammar,tokens);
-var word = new Sentence(eng,tokens);
+//var word = new Phrase(eng,tokens);
 var format = new Object();
 var synesthesia = require('./lang/synesthesia');
 format.glyphsTransform=synesthesia.darkConsoleGlyphsTransform;
 console.log(word.toString());
 console.log(JSON.stringify(word));
-//console.log(word.body.length);
+console.log(String(word.body.body));
 console.log(word.toLocaleString(eng,format));
 console.log(word.toLocaleString(mwak,format));
 //console.log("synesthezia");

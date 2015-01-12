@@ -26,17 +26,22 @@ Speakable Programming for Every Language Translator SPELT
 0.3.A determiner type support (31 Dec 2014)
 0.3.B phrase junctions (07 Jan 2015)
 0.3.C type junctions (09 Jan 2015)
+0.4 support multiple languages
+0.4.1 harvest term translations by libtranslate (12 Jan 2015)
 
-0.3.D sentence junctions
-0.3.E subclause junctions
-0.3.F performance grammar phrase ordering
-0.4 quotes
-0.4.0 topicalization
-0.4.1 word quotes
-0.4.2 literals
-0.4.4 multi word quotes
-0.4.A number quotes
-0.4.C multi sentence quotes
+0.4.2 verify that all terms and definitions are unique
+0.4.3 add frame vocabulary
+0.4.4 systemize adding new languages
+0.4.5 make it easy for people to contribute term corrections
+0.4.8 sentence junctions
+0.4.9 performance grammar phrase ordering
+0.4.A topicalization
+0.5 quotes
+0.5.1 word quotes
+0.5.2 literals
+0.5.4 multi word quotes
+0.5.A number quotes
+0.5.C multi sentence quotes
 0.5.1 spaceless mwak tokenization
 0.5.4 conjugation dictionary
 0.5.8 conjugation support for natural-like output
@@ -46,12 +51,6 @@ Speakable Programming for Every Language Translator SPELT
 0.7 translatable mwak files for all parts of Language grammar
 0.7.8 all error and site messages translated
 0.8 write documentation 
-0.9 support multiple languages
-0.9.1 harvest term translations from google-translate
-0.9.4 systemize adding new languages
-0.9.8 make definition dictionaries accessible from any language
-0.9.C verify that all terms and definitions are unique
-0.9.F make it easy for people to contribute term corrections
 0.A support measurement translation
 0.D continue after recoverable errors and warnings
 0.F write tutorial or FAQ bot 
