@@ -476,7 +476,7 @@ var clauseInitial = grammar.wordOrder.clauseInitial;
 var joiner = " ";
 
 // if clauseInitial and phrase has clause and result non zero
-if (clauseInitial && clause && !clause.tail && resultLength>0){
+if (clauseInitial && clause && resultLength>0){
 // then prepend clauseTerm translation ya
 var clauseTerm = new Word(language,grammar.clauseTerminator[0]);
 return clauseTerm.toLocaleString(language,format,"lh")

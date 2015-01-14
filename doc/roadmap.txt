@@ -29,10 +29,11 @@ Speakable Programming for Every Language Translator SPELT
 0.4 support multiple languages
 0.4.1 harvest term translations by libtranslate (12 Jan 2015)
 
-0.4.2 verify that all terms and definitions are unique
-0.4.3 add frame vocabulary
-0.4.4 systemize adding new languages
-0.4.5 make it easy for people to contribute term corrections
+0.4.2 add a bunch of widely spoken languages 
+0.4.3 verify that all terms and definitions are unique
+0.4.4 add frame vocabulary
+0.4.5 systemize adding new languages
+0.4.6 make it easy for people to contribute term corrections
 0.4.8 sentence junctions
 0.4.9 performance grammar phrase ordering
 0.4.A topicalization

@@ -20,28 +20,61 @@ infoUpdate("<blink>be flow download ob file ya</blink>");
 var mwakFile = io.fileRead("../vocab/mwak.txt");
 var engFile = io.fileRead("../vocab/eng.txt");
 var spaFile = io.fileRead("../vocab/spa.txt");
+var porFile = io.fileRead("../vocab/por.txt");
 var fraFile = io.fileRead("../vocab/fra.txt");
 var rusFile = io.fileRead("../vocab/rus.txt");
-var epoFile = io.fileRead("../vocab/epo.txt");
+var araFile = io.fileRead("../vocab/ara.txt");
 var cmnFile = io.fileRead("../vocab/cmn.txt");
+var hinFile = io.fileRead("../vocab/hin.txt");
+var indFile = io.fileRead("../vocab/ind.txt");
+var jpnFile = io.fileRead("../vocab/jpn.txt");
+var deuFile = io.fileRead("../vocab/deu.txt");
+var korFile = io.fileRead("../vocab/kor.txt");
+var turFile = io.fileRead("../vocab/tur.txt");
+var swaFile = io.fileRead("../vocab/swa.txt");
+var ukrFile = io.fileRead("../vocab/ukr.txt");
+var sweFile = io.fileRead("../vocab/swe.txt");
+var nldFile = io.fileRead("../vocab/nld.txt");
 var javsFile = io.fileRead("../vocab/javs.txt");
 infoUpdate("<blink>be flow load ob file ya</blink>");
 var mwak = new Language();
 var mwakText = new Text(mwak,mwakFile);
 var engText = new Text(mwak,engFile);
 var spaText = new Text(mwak,spaFile);
+var porText = new Text(mwak,porFile);
 var fraText = new Text(mwak,fraFile);
 var rusText = new Text(mwak,rusFile);
-var epoText = new Text(mwak,epoFile);
+var araText = new Text(mwak,araFile);
 var cmnText = new Text(mwak,cmnFile);
+var hinText = new Text(mwak,hinFile);
+var indText = new Text(mwak,indFile);
+var jpnText = new Text(mwak,jpnFile);
+var deuText = new Text(mwak,deuFile);
+var korText = new Text(mwak,korFile);
+var turText = new Text(mwak,turFile);
+var swaText = new Text(mwak,swaFile);
+var ukrText = new Text(mwak,ukrFile);
+var sweText = new Text(mwak,sweFile);
+var nldText = new Text(mwak,nldFile);
 infoUpdate("<blink>be flow load ob language ya</blink>");
 var grammar = new Grammar();
 var engDict = new Dictionary(mwak,engText);
 var spaDict = new Dictionary(mwak,spaText);
+var porDict = new Dictionary(mwak,porText);
 var fraDict = new Dictionary(mwak,fraText);
 var rusDict = new Dictionary(mwak,rusText);
-var epoDict = new Dictionary(mwak,epoText);
+var araDict = new Dictionary(mwak,araText);
 var cmnDict = new Dictionary(mwak,cmnText);
+var hinDict = new Dictionary(mwak,hinText);
+var indDict = new Dictionary(mwak,indText);
+var jpnDict = new Dictionary(mwak,jpnText);
+var deuDict = new Dictionary(mwak,deuText);
+var korDict = new Dictionary(mwak,korText);
+var turDict = new Dictionary(mwak,turText);
+var swaDict = new Dictionary(mwak,swaText);
+var sweDict = new Dictionary(mwak,sweText);
+var nldDict = new Dictionary(mwak,nldText);
+var ukrDict = new Dictionary(mwak,ukrText);
 infoUpdate("");
 
 function themeSet(mode){
@@ -84,7 +117,7 @@ var engWordOrder = {
 	postpositional : false,
 	phraseOrder: ["sla","ku","tua",".u",".i","ta",".a"]
 };
-var fraWordOrder = {
+var svoWordOrder = {
 	headFinal : false,
 	verbFinal : false,
 	typeFinal : false,
@@ -92,6 +125,15 @@ var fraWordOrder = {
 	genitiveInitial: false,
 	postpositional : false,
 	phraseOrder: ["sla","ku","tua",".u",".i","nia","ta",".a"]
+};
+var indWordOrder = {
+	headFinal : false,
+	verbFinal : false,
+	typeFinal : false,
+	clauseInitial: false,
+	genitiveInitial: false,
+	postpositional : false,
+	phraseOrder: ["sla","ku","tua","nia","ta",".a",".i",".u"]
 };
 var cmnWordOrder = {
 	headFinal : true,
@@ -102,42 +144,93 @@ var cmnWordOrder = {
 	genitiveInitial: true,
 	phraseOrder: ["sla","ku","tua",".u",".i","nia","ta",".a"]
 };
-var JavsFormat = { 
-newline: "<br/>",
-phraseHeadJoiner: ':',
-phraseJoiner: ',',
-phrasesStart: '({',
-phrasesEnd: '})'
+var sovWordOrder = {
+	headFinal : true,
+	verbFinal : true,
+	typeFinal : true,
+	postpositional : true,
+	clauseInitial: true,
+	genitiveInitial: true,
+	phraseOrder: ["sla","ku","tua",".u","nia","ta",".a",".i"]
 };
-var javsWordOrder = {
+var vsoWordOrder = {
 	headFinal : false,
 	verbFinal : false,
 	typeFinal : false,
 	clauseInitial: false,
 	genitiveInitial: false,
 	postpositional : false,
-	phraseOrder: ["ku","tua",".i"]
+	phraseOrder: ["sla","ku","tua",".i",".u","nia","ta",".a"]
 };
+//var JavsFormat = { 
+//newline: "<br/>",
+//phraseHeadJoiner: ':',
+//phraseJoiner: ',',
+//phrasesStart: '({',
+//phrasesEnd: '})'
+//};
+//var javsWordOrder = {
+//	headFinal : false,
+//	verbFinal : false,
+//	typeFinal : false,
+//	clauseInitial: false,
+//	genitiveInitial: false,
+//	postpositional : false,
+//	phraseOrder: ["ku","tua",".i"]
+//};
 
 var engGrammar = new Grammar(engWordOrder,engDict);
-var spaGrammar = new Grammar(fraWordOrder,spaDict);
-var fraGrammar = new Grammar(fraWordOrder,fraDict);
+var spaGrammar = new Grammar(svoWordOrder,spaDict);
+var porGrammar = new Grammar(svoWordOrder,porDict);
+var fraGrammar = new Grammar(svoWordOrder,fraDict);
 var rusGrammar = new Grammar(engWordOrder,rusDict);
-var epoGrammar = new Grammar(engWordOrder,epoDict);
+var araGrammar = new Grammar(vsoWordOrder,araDict);
+var hinGrammar = new Grammar(sovWordOrder,hinDict);
+var indGrammar = new Grammar(indWordOrder,indDict);
+var jpnGrammar = new Grammar(sovWordOrder,jpnDict);
+var deuGrammar = new Grammar(engWordOrder,deuDict);
+var korGrammar = new Grammar(sovWordOrder,korDict);
+var turGrammar = new Grammar(sovWordOrder,turDict);
+var swaGrammar = new Grammar(svoWordOrder,swaDict);
+var ukrGrammar = new Grammar(engWordOrder,ukrDict);
+var sweGrammar = new Grammar(engWordOrder,sweDict);
+var nldGrammar = new Grammar(engWordOrder,nldDict);
 var cmnGrammar = new Grammar(cmnWordOrder,cmnDict);
 var eng = new Language(engGrammar,engDict);
 var spa = new Language(spaGrammar,spaDict);
+var por = new Language(porGrammar,porDict);
 var fra = new Language(fraGrammar,fraDict);
 var rus = new Language(rusGrammar,rusDict);
-var epo = new Language(epoGrammar,epoDict);
+var ara = new Language(araGrammar,araDict);
 var cmn = new Language(cmnGrammar,cmnDict);
+var hin = new Language(hinGrammar,hinDict);
+var ind = new Language(indGrammar,indDict);
+var jpn = new Language(jpnGrammar,jpnDict);
+var deu = new Language(deuGrammar,deuDict);
+var kor = new Language(korGrammar,korDict);
+var tur = new Language(turGrammar,turDict);
+var swa = new Language(swaGrammar,swaDict);
+var ukr = new Language(ukrGrammar,ukrDict);
+var swe = new Language(sweGrammar,sweDict);
+var nld = new Language(nldGrammar,nldDict);
 var mwakCode = "mwak";
 var engCode = "eng";
 var spaCode = "spa";
+var porCode = "por";
 var fraCode = "fra";
 var rusCode = "rus";
-var epoCode = "epo";
+var araCode = "ara";
 var cmnCode = "cmn";
+var hinCode = "hin";
+var indCode = "ind";
+var jpnCode = "jpn";
+var deuCode = "deu";
+var korCode = "kor";
+var turCode = "tur";
+var swaCode = "swa";
+var ukrCode = "ukr";
+var sweCode = "swe";
+var nldCode = "nld";
 var jsonCode = "json";
 var jsCode = "js";
 var lang;
@@ -175,14 +268,36 @@ function inputSubmit(userInput){
 		fromLangL = eng;
 	else if (fromLangv === spaCode)
 		fromLangL = spa;
+	else if (fromLangv === porCode)
+		fromLangL = por;
 	else if (fromLangv === fraCode)
 		fromLangL = fra;
 	else if (fromLangv === rusCode)
 		fromLangL = rus;
-	else if (fromLangv === epoCode)
-		fromLangL = epo;
+	else if (fromLangv === araCode)
+		fromLangL = ara;
 	else if (fromLangv === cmnCode)
 		fromLangL = cmn;
+	else if (fromLangv === hinCode)
+		fromLangL = hin;
+	else if (fromLangv === indCode)
+		fromLangL = ind;
+	else if (fromLangv === jpnCode)
+		fromLangL = jpn;
+	else if (fromLangv === deuCode)
+		fromLangL = deu;
+	else if (fromLangv === korCode)
+		fromLangL = kor;
+	else if (fromLangv === turCode)
+		fromLangL = tur;
+	else if (fromLangv === swaCode)
+		fromLangL = swa;
+	else if (fromLangv === ukrCode)
+		fromLangL = ukr;
+	else if (fromLangv === sweCode)
+		fromLangL = swe;
+	else if (fromLangv === nldCode)
+		fromLangL = nld;
 	else if (fromLangv === mwakCode)
 		fromLangL = mwak;
 // make text object from input
@@ -212,14 +327,27 @@ translation = translation +"js: "
 else {
 if (toLangv === engCode) toLangL = eng;
 else if (toLangv === spaCode) toLangL = spa;
+else if (toLangv === porCode) toLangL = por;
 else if (toLangv === fraCode) toLangL = fra;
 else if (toLangv === rusCode) toLangL = rus;
-else if (toLangv === epoCode) toLangL = epo;
+else if (toLangv === araCode) toLangL = ara;
 else if (toLangv === cmnCode) toLangL = cmn;
+else if (toLangv === hinCode) toLangL = hin;
+else if (toLangv === indCode) toLangL = ind;
+else if (toLangv === jpnCode) toLangL = jpn;
+else if (toLangv === deuCode) toLangL = deu;
+else if (toLangv === korCode) toLangL = kor;
+else if (toLangv === turCode) toLangL = tur;
+else if (toLangv === swaCode) toLangL = swa;
+else if (toLangv === ukrCode) toLangL = ukr;
+else if (toLangv === sweCode) toLangL = swe;
+else if (toLangv === nldCode) toLangL = nld;
 else if (toLangv === mwakCode) toLangL = mwak;
 var noError= true;
 try{
 var trans = textObject.toLocaleString(toLangL, HtmlFormat);
+if(toLangv === araCode)
+trans = '<p class="ara">'+trans+'</p>';
 translation = translation + toLangv+': ' +trans;
 } 
 catch (error){
@@ -254,14 +382,36 @@ else{
 		inLangL = eng;
 	else if (inLangV === spaCode)
 		inLangL = spa;
+	else if (inLangV === porCode)
+		inLangL = por;
 	else if (inLangV === fraCode)
 		inLangL = fra;
 	else if (inLangV === rusCode)
 		inLangL = rus;
-	else if (inLangV === epoCode)
-		inLangL = epo;
+	else if (inLangV === araCode)
+		inLangL = ara;
 	else if (inLangV === cmnCode)
 		inLangL = cmn;
+	else if (inLangV === hinCode)
+		inLangL = hin;
+	else if (inLangV === indCode)
+		inLangL = ind;
+	else if (inLangV === jpnCode)
+		inLangL = jpn;
+	else if (inLangV === deuCode)
+		inLangL = deu;
+	else if (inLangV === korCode)
+		inLangL = kor;
+	else if (inLangV === turCode)
+		inLangL = tur;
+	else if (inLangV === swaCode)
+		inLangL = swa;
+	else if (inLangV === ukrCode)
+		inLangL = ukr;
+	else if (inLangV === sweCode)
+		inLangL = swe;
+	else if (inLangV === nldCode)
+		inLangL = nld;
 	else if (inLangV === mwakCode)
 		inLangL = mwak;
 var dictString = dictDefs.toLocaleString(inLangL, HtmlFormat);

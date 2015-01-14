@@ -101,6 +101,17 @@ translateUpdate(toFilename,toLangCode);
 var toFilename = "swa.txt"  
 var toLangCode = "sw";
 translateUpdate(toFilename,toLangCode);
+// ukranian
+var fromFilename = "rus.txt" ;
+var fromLangCode = "ru";
+var toFilename = "ukr.txt"  
+var toLangCode = "uk";
+translateUpdate(toFilename,toLangCode,
+fromFilename,fromLangCode);
+// turkish
+var toFilename = "tur.txt"  
+var toLangCode = "tr";
+translateUpdate(toFilename,toLangCode);
 // esperanto
 //var fromFilename = "spa.txt" 
 //var fromLangCode = "es"
@@ -149,7 +160,7 @@ var translation;
 console.log(definition);
 try{
 translation = 
-execSync("gtranslate.sh "+byService+" "+fromLangCode+" "
+execSync("gtranslate.sh "+fromLangCode+" "
 +toLangCode+" "+ definition);
 }
 catch(e){console.log(e);

@@ -56,6 +56,35 @@ width:40em; /* 64 glyphs */
 .jy{ color:hsl(315,62%,38%);/*hmagenta*/}
 .fy{ color:hsl(330,62%,38%);/*pink*/ }
 .ry{ color:hsl(345,62%,38%);/*torch*/ }
+
+
+.Iy{ color:hsl(60,0%,9%);/*black*/ }
+.Oy{ color:hsl(180,0%,38%);/*white*/}
+
+.Ay{ color:hsl(000,85%,38%);/*red*/ }
+.Cy{ color:hsl(015,62%,38%);/*scarley*/ }
+.Wy{ color:hsl(030,62%,38%);/*orange*/ }
+.Sy{ color:hsl(045,62%,38%);/*amber*/ }
+.Yy{ color:hsl(060,62%,38%);/*yellow*/ }
+.Ey{ color:hsl(075,85%,38%);/*lime*/}
+.Ly{ color:hsl(090,62%,38%);/*chartr*/ }
+.Dy{ color:hsl(105,62%,38%);/* . harlequin*/}
+.Ky{ color:hsl(120,62%,38%);/*green*/ }
+.Gy{ color:hsl(135,62%,38%);/*libre*/ }
+.Ty{ color:hsl(150,62%,38%);/*light spring*/ }
+.Qy{ color:hsl(165,62%,38%);/*medium spring*/ }
+.Uy{ color:hsl(180,85%,38%);/*cyan*/ }
+.By{ color:hsl(195,62%,38%);/*sky*/ }
+.Vy{ color:hsl(210,62%,38%);/*dodger*/ }
+.Hy{ color:hsl(225,62%,38%);/*han*/ }
+.Py{ color:hsl(240,62%,38%);/*blue*/ }
+.Zy{ color:hsl(255,62%,38%);/*han*/}
+.Ny{ color:hsl(270,62%,38%);/*indigo*/ }
+.Xy{ color:hsl(285,62%,38%);/*purple*/ }
+.My{ color:hsl(300,62%,38%);/*magenta*/ }
+.Jy{ color:hsl(315,62%,38%);/*hmagenta*/}
+.Fy{ color:hsl(330,62%,38%);/*pink*/ }
+.Ry{ color:hsl(345,62%,38%);/*torch*/ }
 /* synesthesia numbers*/
 .n0{ color:hsl(060,00%,9%);/*black*/ }
 .n8{ color:hsl(180,00%,38%);/*white*/}
@@ -96,3 +125,6 @@ blink{
 from{ opacity: 1;}
 to{ opacity: 0;}
 }
+
+/* language specific */
+.ara{ direction: rtl; text-align: right;}

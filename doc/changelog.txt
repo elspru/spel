@@ -288,3 +288,38 @@ admitedly having it as a period is a bit confusing for people
 which aren't familiar with it.
 1222 anyways so roadmap done, lets git for now
 oh also can make a tarball
+2147 I'm going to have to write up a meeting draft soon,
+so can probably translate that to mwak also,
+it is pertinent to the political theme.
+} 13 Jan 2015
+0558 so gotta add grammar support for Arabic ya
+I'll remove esperanto ya
+0634 cool, gotta fix up a few arabic words
+0635 then I want to add hindi :-D
+oh and portugese, oh and indonesian if possible ya
+0706 hmmm seems to be issue with end clasue for hindi and mwak
+ya for instance hindi is getting the chinese end clause, and
+mwak isn't getting any at all.
+0728 okay fixed it, it was simply issue of having the cmnGrammar
+in the hinLanguage by accident ya
+0730 okay now portuguese ya
+0736 next is indonesian, japanese, german, korean, turkish
+vietnamese?, italian and swahili ya
+0738 i'll add this to the roadmap ya
+0743 of currently supported languages we have total support for
+3.5 billion speakers (some maybe twice), once we add the above
+we'll have 4.1 billion. 
+1350 we should have UNL compatability layer sooner rather than
+later, I should get UNL certified in order to do so adequately ya
+1351 definitely before I start doing frame translations ya
+1352 If we want this to be accepted by the UN, then
+interoperability with the UNL is paramount!
+1436 anyways for now can add a few more langs
+can add danish, ukranian and hungarian to the list ya
+1444 okay time to test indonesian
+1458 okay fixed up vocab. next is Japanese.
+1500 okay lets add a few langs at the same time 
+jpn deu kor tur swa ukr swe nld
+1857 k so they all work, sorta anyways,
+since I want this to be used by the UN, I'll focus on the
+official languages of the UN.
