@@ -13,41 +13,38 @@ pu yi .u 과거-시제 yi .a ya
 wa yi .u 또는 yi .a ya
 na yi .u 달 yi .a ya
 nu yi .u 지금 yi .a ya
-ti yi .u 그 yi .a ya
+ti yi .u 그것 yi .a ya
 ta yi .u 에 yi .a ya
 tu yi .u 당신 yi .a ya
 fu yi .u 의지 yi .a ya
-.ia yi .u 하아 yi .a ya
-.iu yi .u 아 yi .a ya
-.ai yi .u 좋아요 yi .a ya
-.au yi .u 흐름 yi .a ya
-.ui yi .u 아 yi .a ya
-.ua yi .u 와우 yi .a ya
-kai yi .u 곁에 yi .a ya
-nia yi .u 부터 yi .a ya
-tai yi .u 첫-번째-시작 yi .a ya
-tua yi .u 그때 yi .a ya
 myi yi .u 기억 yi .a ya
 mwa yi .u 사랑 yi .a ya
 kyi yi .u 조건부의 yi .a ya
-kwi yi .u 과 yi .a ya
+kya yi .u 곁에 yi .a ya
+kwi yi .u 와-아 yi .a ya
 ksa yi .u 그 yi .a ya
-pwa yi .u 또는 yi .a ya
-sli yi .u 같은 yi .a ya
+kca yi .u 하아 yi .a ya
+pwa yi .u 또는-아 yi .a ya
+pca yi .u 서 yi .a ya
+nya yi .u 부터 yi .a ya
+sli yi .u 예 yi .a ya
 sla yi .u 안녕하세요. yi .a ya
+tya yi .u 첫-번째-꼬리 yi .a ya
+twa yi .u 그때 yi .a ya
 tli yi .u 기사 yi .a ya
 mik .u 복사 yi .a ya
 miy .u 잠깐만-요 yi .a ya
 mip .u 지난 yi .a ya
 min .u 적게 yi .a ya
-mak .u 워드 yi .a ya
+mak .u 낱말 yi .a ya
 map .u 크기 yi .a ya
 kim .u 비교 yi .a ya
 kiy .u 가기 yi .a ya
 kam .u 시작 yi .a ya
 kap .u 머리 yi .a ya
+kan .u 직업 yi .a ya
 kut .u 작은 yi .a ya
-yim .u 또는 yi .a ya
+yim .u 어느 yi .a ya
 yik .u 부정 yi .a ya
 yip .u 폰트 yi .a ya
 yam .u 말 yi .a ya
@@ -60,38 +57,45 @@ pay .u 더 yi .a ya
 paw .u 장소 yi .a ya
 pan .u 모임 yi .a ya
 pat .u 많은 yi .a ya
+pac .u 즐거움 yi .a ya
 puy .u 어린이 yi .a ya
 put .u 미래 yi .a ya
 wam .u 시간 yi .a ya
 wap .u 꼬리 yi .a ya
 wul .u 큰 yi .a ya
 nam .u 수 yi .a ya
-naw .u 지금 yi .a ya
+naw .u 현재 yi .a ya
 sun .u 하나 yi .a ya
 tuw .u 두 yi .a ya
 cik .u 소수 yi .a ya
 myik .u 에-추가 yi .a ya
-kyim .u 적게 yi .a ya
+kyim .u 마이너스 yi .a ya
 klas .u 규정 yi .a ya
+klaw .u 웃음 yi .a ya
 psan .u 공간 yi .a ya
 pyan .u 대명사 yi .a ya
 pyas .u 구 yi .a ya
 pyat .u 구문-객체 yi .a ya
-slim .u 경우 yi .a ya
+slim .u 모범 yi .a ya
 flas .u 구 yi .a ya
+tkic .u 번역,-사전 yi .a ya
 tlin .u 순서를-나타내는 yi .a ya
 miyk .u 보내기 yi .a ya
 miwk .u 사람들 yi .a ya
+muys .u 감정 yi .a ya
 munt .u 세계 yi .a ya
 kiym .u 수락 yi .a ya
 kamt .u 문법 yi .a ya
 kayp .u 것 yi .a ya
 kast .u 구문-경우 yi .a ya
+kump .u 기분 yi .a ya
 yimk .u 질문 yi .a ya
 wiyp .u 동사 yi .a ya
 niym .u 명사 yi .a ya
+sint .u 감각 yi .a ya
 sant .u 문장 yi .a ya
 suyt .u 구문-훈련 yi .a ya
 timp .u 문법-시제 yi .a ya
+tiwk .u 활동 yi .a ya
 tick .u 사전 yi .a ya
 kwal .u 언어 yi .a ya

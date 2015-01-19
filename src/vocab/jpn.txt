@@ -1,40 +1,36 @@
 .i yi .u ある yi .a ya
-.a yi .u OB yi .a ya
-.u yi .u SU yi .a ya
+.a yi .u オブジェクト yi .a ya
+.u yi .u テーマ yi .a ya
 mi yi .u 私に yi .a ya
 ki yi .u と yi .a ya
 ka yi .u この yi .a ya
 ku yi .u もし yi .a ya
 yi yi .u ウー yi .a ya
-ya yi .u エレガント yi .a ya
+ya yi .u 雅 yi .a ya
 pi yi .u の yi .a ya
 pa yi .u やる yi .a ya
 pu yi .u 過去形 yi .a ya
 wa yi .u または yi .a ya
 na yi .u ニュー yi .a ya
 nu yi .u 今 yi .a ya
-ti yi .u その yi .a ya
+ti yi .u それ yi .a ya
 ta yi .u へ yi .a ya
 tu yi .u 汝 yi .a ya
 fu yi .u ウィル yi .a ya
-.ia yi .u ヘクタール yi .a ya
-.iu yi .u ああ yi .a ya
-.ai yi .u はい yi .a ya
-.au yi .u フロー yi .a ya
-.ui yi .u うーん yi .a ya
-.ua yi .u ワオ yi .a ya
-kai yi .u 余談 yi .a ya
-nia yi .u から yi .a ya
-tai yi .u 最初のスタート yi .a ya
-tua yi .u その後 yi .a ya
 myi yi .u メモリ yi .a ya
 mwa yi .u 愛 yi .a ya
 kyi yi .u 条件付きで yi .a ya
-kwi yi .u と yi .a ya
+kya yi .u 余談 yi .a ya
+kwi yi .u と雅 yi .a ya
 ksa yi .u ザ· yi .a ya
-pwa yi .u または yi .a ya
+kca yi .u ハ yi .a ya
+pwa yi .u または雅 yi .a ya
+pca yi .u 徐 yi .a ya
+nya yi .u から yi .a ya
 sli yi .u 例えば yi .a ya
 sla yi .u こんにちは yi .a ya
+tya yi .u 最初の尾 yi .a ya
+twa yi .u その後 yi .a ya
 tli yi .u 記事 yi .a ya
 mik .u コピー yi .a ya
 miy .u 待つ yi .a ya
@@ -46,6 +42,7 @@ kim .u 比較する yi .a ya
 kiy .u 行く yi .a ya
 kam .u ベギン yi .a ya
 kap .u 頭 yi .a ya
+kan .u キャリア yi .a ya
 kut .u 小さな yi .a ya
 yim .u どちら yi .a ya
 yik .u 否定する yi .a ya
@@ -60,6 +57,7 @@ pay .u もっと yi .a ya
 paw .u 場所 yi .a ya
 pan .u 大会 yi .a ya
 pat .u 多くの yi .a ya
+pac .u ジョイ yi .a ya
 puy .u 子供 yi .a ya
 put .u 未来 yi .a ya
 wam .u 時間 yi .a ya
@@ -71,27 +69,33 @@ sun .u 一 yi .a ya
 tuw .u 二つ yi .a ya
 cik .u 少数 yi .a ya
 myik .u 加える yi .a ya
-kyim .u 引く yi .a ya
+kyim .u マイナス yi .a ya
 kwal .u 言語 yi .a ya
+klaw .u 笑い yi .a ya
 klas .u 句 yi .a ya
 pyan .u 代名詞 yi .a ya
 pyas .u フレーズ yi .a ya
 pyat .u 文法的オブジェクト yi .a ya
 psan .u スペース yi .a ya
 flas .u フレーズ yi .a ya
+tkic .u 翻訳、辞書 yi .a ya
 slim .u 例 yi .a ya
 tlin .u 序数 yi .a ya
 miyk .u 送信する yi .a ya
+muys .u 感情 yi .a ya
 miwk .u 人 yi .a ya
 munt .u 世界 yi .a ya
 kiym .u 受け取る yi .a ya
 kamt .u 文法 yi .a ya
 kayp .u 事 yi .a ya
+kump .u ムード yi .a ya
 kast .u 文法的-ケース yi .a ya
 yimk .u 頼む yi .a ya
 wiyp .u 動詞 yi .a ya
+sint .u 気持ち yi .a ya
 niym .u 名詞 yi .a ya
 sant .u 文 yi .a ya
 suyt .u 文法的被験者 yi .a ya
+tiwk .u アクティビティ yi .a ya
 timp .u 文法的時制 yi .a ya
 tick .u 辞書 yi .a ya

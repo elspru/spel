@@ -323,3 +323,110 @@ jpn deu kor tur swa ukr swe nld
 1857 k so they all work, sorta anyways,
 since I want this to be used by the UN, I'll focus on the
 official languages of the UN.
+} 14 Jan 2015
+1526 okay so git and roadmap
+1527 now time for the verifier
+1527 btw I found out that there is no "core UW" vocab
+explicitly, the closest they have is extended basic english.
+1528 so the frames we had before should be fine, 
+though there may be UW attributes which are defined,
+we can implement those for sure.
+1528 oh an in terms of the syntax of the language I'd like to
+fix up the glottal stops, and remove the diphthongs
+1542 okay I also removed the unique phones restriction
+1545 meh, actually I'll keep it for now
+1546 got more than enough core vocab room to fill for now
+1546 so I need a script to update the .u's and such to 'u's 
+also to remove the CVV and CTVTV CTVV CVTV words,
+easy enough for the latter, since can simply regenerate that
+file, don't actually hve anything defined there.
+1548 also I don't think I have anything defined in the X files,
+yet anyways, so can remove those, and regenerate.
+1549 oh actually I have nia and tai, and tua, blah
+1550 guess I'll have to keep the diphthongs for now.
+1551 so I'll just update the vocab files them
+1604 okay updating to apostrophe notation, 
+working out the kinks
+} 15 Jan 2015
+0253 great so we can include the UW attributes, and UW relations
+which are already defined ya
+0255 ideally I'd also support outputting them from my JSON,
+or even inputting them, since we strive for UNL compatibility ya
+Actually lets see what UNL already has so we don't overlap
+functionality ya
+0300 so currently they have LILY which is Language to
+Interlingua to Language sYstem, which is also a pivot based
+translator. It doesn't seem to aim to support computer
+programming languages, and it doesn't seem to be functional yet
+either. 
+0425 anyways I managed to do CUPS250 but their whole way where
+the focus on the subliminal meaning of stuff is really
+frustrating cause it is so variable and hard to determine.
+0427 anyways so I need to make a verifier.
+0450 oh ya, I can also change the current diphthong cases to
+monopthongs
+0514 okay now just have to update the files
+tua is now twa, tai is tya, kai is kya and nia is nya
+0623 made the verification program, will have to weed out the
+duplicated later as I need some shut eye before morning
+0626 chinese needs the most work, and then to have japanese and
+korean retranslate from it ya
+1324 got a new monitor, it is a small one, 7 inches.
+So can get a feel for what it would be like for BoP to program,
+or how it can be done effectively anyways.
+I have it standing up on the box it came in, so that my neck is
+fully extended to look at it properly ya
+su it be comfortable ya
+su me be increase ob font size for ease of reading ya
+} 16 Jan 2015
+0536 figuring out how to have a core language, and one where we
+translate out of. so finding pairs of which less prominent
+languages usually use a source.
+For instance swahili seems more commonly translated from Russian
+than English. 
+turkish is usually from arabic and french.
+0630 so I'm currently debugging the non unique words out of the
+dictionary ya
+0712 great so I did it :-)
+now they are all unique
+0713 now to test the web version ya
+0721 hmm seems to be working fine except the synesthesia ya
+0723 okay fixed
+1703 probably going to have to change back to periods instead of
+apostrophes since periods are more compatible with URL's and
+filenames. 
+} 18 Jan 2015
+0724 so next is verb, ergative and tripartite support.
+verb support can be added by making a verb variable in grammar.
+ergative, tripartive, nominal best with enum
+1603 I was looking up x-bar theory, it was saying how a sentence
+is like a phrase, with a head consisting of the tense and aspect
+ya
+So I can probably put tense and aspect in the mood area of the
+sentence, which would then be the head of the sentence ya
+want su me be sleep ya
+past su me be eat ob buckwheat ya
+recently su me be watch ob one piece ya
+happy su me be like ob it ya
+clarify flow su it ob tense and aspect 
+in mood area of sentence ya 
+} 19 Jan 2015
+0258 so should also define object and subject for ergative
+transformation ya
+0326 did a little studying on tripartite, ergative and
+nominative languages.
+0327 gotta look up javascript enums if they are viable.
+0329 hmmm seems like it would be somewhat of a hassle.
+0330 thinking of changing meaning from subject to agent but I
+guess it's moot right now, since subject is the more common SOV
+and w/e.  I'm using "hu" as agent word. that way can have an
+intransitive word order ya
+0419 okay so wrote the intransitivity stuff now to test it
+0437 okay debugged is working now :-)
+0438 next is the long awaited performance grammar phrase
+ordering ya
+0454 hmmm so I guess it's an output thing,
+in toLocaleString for sentence
+0459 hmmm testing the word order stuff with indonesian, doesn't
+seem to be quite right ya
+0509 okay fixed, it was just a typo.

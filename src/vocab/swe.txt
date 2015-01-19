@@ -11,30 +11,26 @@ pi yi .u av yi .a ya
 pa yi .u göra yi .a ya
 pu yi .u Pas yi .a ya
 wa yi .u eller yi .a ya
-na yi .u nu yi .a ya
+na yi .u num yi .a ya
 nu yi .u nu yi .a ya
-ti yi .u tha yi .a ya
+ti yi .u att yi .a ya
 ta yi .u till yi .a ya
-tu yi .u thee yi .a ya
+tu yi .u ni yi .a ya
 fu yi .u wil yi .a ya
-.ia yi .u HA yi .a ya
-.iu yi .u ew yi .a ya
-.ai yi .u okay yi .a ya
-.au yi .u AJ yi .a ya
-.ui yi .u hm yi .a ya
-.ua yi .u OJ yi .a ya
-kai yi .u åt-sidan yi .a ya
-nia yi .u från yi .a ya
-tai yi .u ek yi .a ya
-tua yi .u sedan yi .a ya
 myi yi .u minne yi .a ya
 mwa yi .u älskar yi .a ya
 kyi yi .u villkor yi .a ya
+kya yi .u åt-sidan yi .a ya
 kwi yi .u yand yi .a ya
 ksa yi .u den yi .a ya
+kca yi .u HA yi .a ya
 pwa yi .u yaor yi .a ya
+pca yi .u jolly yi .a ya
+nya yi .u från yi .a ya
 sli yi .u för-exempel yi .a ya
 sla yi .u Hallå yi .a ya
+tya yi .u Klausul-tail yi .a ya
+twa yi .u sedan yi .a ya
 tli yi .u Ord yi .a ya
 mik .u kopia yi .a ya
 miy .u vänta yi .a ya
@@ -46,6 +42,7 @@ kim .u jämför yi .a ya
 kiy .u gå yi .a ya
 kam .u börja yi .a ya
 kap .u huvud yi .a ya
+kan .u orsak yi .a ya
 kut .u liten yi .a ya
 yim .u antingen yi .a ya
 yik .u negera yi .a ya
@@ -60,6 +57,7 @@ pay .u mer yi .a ya
 paw .u plats yi .a ya
 pan .u möts yi .a ya
 pat .u många yi .a ya
+pac .u glädje yi .a ya
 puy .u barn yi .a ya
 put .u framtid yi .a ya
 wam .u tid yi .a ya
@@ -73,24 +71,31 @@ cik .u få yi .a ya
 myik .u lägga-till yi .a ya
 kyim .u subtrahera yi .a ya
 kwal .u språk yi .a ya
+klaw .u skratt yi .a ya
 klas .u klausul yi .a ya
 pyan .u pronomen yi .a ya
 pyas .u fras yi .a ya
 pyat .u grammatisk-objekt yi .a ya
 psan .u plats yi .a ya
 slim .u exempel yi .a ya
+tkic .u translation-dictionary yi .a ya
 tlin .u ordningstal yi .a ya
+flas .u fras yi .a ya
 miyk .u skicka yi .a ya
 miwk .u person yi .a ya
+muys .u känslor yi .a ya
 munt .u värld yi .a ya
 kiym .u motta yi .a ya
 kamt .u grammatik yi .a ya
 kayp .u sak yi .a ya
 kast .u grammatisk-fallet yi .a ya
+kump .u humör yi .a ya
 yimk .u fråga yi .a ya
 wiyp .u verb yi .a ya
 niym .u subst yi .a ya
+sint .u känna yi .a ya
 sant .u meningen yi .a ya
 suyt .u grammatisk-ämne yi .a ya
 timp .u grammatisk-spänd yi .a ya
+tiwk .u aktivitet yi .a ya
 tick .u lexikon yi .a ya

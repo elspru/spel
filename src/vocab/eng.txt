@@ -17,24 +17,20 @@ ti yi .u tha .a ya
 ta yi .u to yi .a ya
 tu yi .u thee yi .a ya
 fu yi .u wil .a ya
-.ia yi .u ha yi .a ya
-.iu yi .u ew .a ya
-.ai yi .u okay .a ya
-.au yi .u ow .a ya
-.ui yi .u hm .a ya
-.ua yi .u wow .a ya
-kai yi .u aside yi .a ya
-nia yi .u from .a ya
-tai yi .u ek .a ya
-tua yi .u then .a ya
 myi yi .u memory .a ya
 mwa yi .u love .a ya
 kyi yi .u conditionally .a ya
+kya yi .u aside yi .a ya
 kwi yi .u yand .a ya
 ksa yi .u the .a ya
+kca yi .u ha yi .a ya
 pwa yi .u yaor .a ya
+pca yi .u jolly .a ya
+nya yi .u from .a ya
 sli yi .u for-example .a ya
 sla yi .u hello yi .a ya
+tya yi .u clause-tail .a ya
+twa yi .u then .a ya
 tli yi .u ord .a ya
 mik .u copy .a ya
 miy .u wait .a ya
@@ -46,6 +42,7 @@ kim .u compare .a ya
 kiy .u go .a ya
 kam .u begin .a ya
 kap .u head .a ya
+kan .u cause .a ya
 kut .u small .a ya
 yim .u either .a ya
 yik .u negate .a ya
@@ -60,6 +57,7 @@ pay .u more .a ya
 paw .u place .a ya
 pan .u meet .a ya
 pat .u many .a ya
+pac .u joy .a ya
 puy .u child .a ya
 put .u future .a ya
 wam .u time .a ya
@@ -73,25 +71,31 @@ cik .u few .a ya
 myik .u add .a ya
 kyim .u subtract .a ya
 kwal .u language .a ya
+klaw .u laugh .a ya
 klas .u clause .a ya
 pyan .u pronoun .a ya
 pyas .u phrase .a ya
 pyat .u grammatical-object .a ya
 psan .u space .a ya
 slim .u example .a ya
+tkic .u translation-dictionary .a ya
 tlin .u ordinal .a ya
+flas .u phrase .a ya
 miyk .u send .a ya
 miwk .u person .a ya
+muys .u emotion .a ya
 munt .u world .a ya
 kiym .u receive .a ya
 kamt .u grammar .a ya
 kayp .u thing .a ya
 kast .u grammatical-case .a ya
+kump .u mood .a ya
 yimk .u ask .a ya
 wiyp .u verb .a ya
 niym .u noun .a ya
+sint .u feel .a ya
 sant .u sentence .a ya
 suyt .u grammatical-subject .a ya
-timp .u grammatical-tense .a ya
+timp .u tense .a ya
+tiwk .u activity .a ya
 tick .u dictionary .a ya
-

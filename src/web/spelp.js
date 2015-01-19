@@ -115,7 +115,7 @@ var engWordOrder = {
 	clauseInitial: false,
 	genitiveInitial: false,
 	postpositional : false,
-	phraseOrder: ["sla","ku","tua",".u",".i","ta",".a"]
+	phraseOrder: ["sla","ku","twa",".u",".i","ta",".a"]
 };
 var svoWordOrder = {
 	headFinal : false,
@@ -124,43 +124,44 @@ var svoWordOrder = {
 	clauseInitial: false,
 	genitiveInitial: false,
 	postpositional : false,
-	phraseOrder: ["sla","ku","tua",".u",".i","nia","ta",".a"]
+	phraseOrder: ["sla","ku","twa",".u",".i","nya","ta",".a"]
 };
 var indWordOrder = {
-	headFinal : false,
-	verbFinal : false,
-	typeFinal : false,
-	clauseInitial: false,
-	genitiveInitial: false,
-	postpositional : false,
-	phraseOrder: ["sla","ku","tua","nia","ta",".a",".i",".u"]
+headFinal : false,
+verbFinal : false,
+typeFinal : false,
+clauseInitial: false,
+genitiveInitial: false,
+postpositional : false,
+phraseOrder: ["sla","ku","twa","nya","ta",".a",".i",".u"],
+intransitiveWord: ".a" 
 };
 var cmnWordOrder = {
-	headFinal : true,
-	verbFinal : true,
-	typeFinal : true,
-	postpositional : true,
-	clauseInitial: true,
-	genitiveInitial: true,
-	phraseOrder: ["sla","ku","tua",".u",".i","nia","ta",".a"]
+headFinal : true,
+verbFinal : true,
+typeFinal : true,
+postpositional : true,
+clauseInitial: true,
+genitiveInitial: true,
+phraseOrder: ["sla","ku","twa",".u",".i","nya","ta",".a"]
 };
 var sovWordOrder = {
-	headFinal : true,
-	verbFinal : true,
-	typeFinal : true,
-	postpositional : true,
-	clauseInitial: true,
-	genitiveInitial: true,
-	phraseOrder: ["sla","ku","tua",".u","nia","ta",".a",".i"]
+headFinal : true,
+verbFinal : true,
+typeFinal : true,
+postpositional : true,
+clauseInitial: true,
+genitiveInitial: true,
+phraseOrder: ["sla","ku","twa",".u","nya","ta",".a",".i"]
 };
 var vsoWordOrder = {
-	headFinal : false,
-	verbFinal : false,
-	typeFinal : false,
-	clauseInitial: false,
-	genitiveInitial: false,
-	postpositional : false,
-	phraseOrder: ["sla","ku","tua",".i",".u","nia","ta",".a"]
+headFinal : false,
+verbFinal : false,
+typeFinal : false,
+clauseInitial: false,
+genitiveInitial: false,
+postpositional : false,
+phraseOrder: ["sla","ku","twa",".i",".u","nya","ta",".a"]
 };
 //var JavsFormat = { 
 //newline: "<br/>",
@@ -176,7 +177,7 @@ var vsoWordOrder = {
 //	clauseInitial: false,
 //	genitiveInitial: false,
 //	postpositional : false,
-//	phraseOrder: ["ku","tua",".i"]
+//	phraseOrder: ["ku","twa",".i"]
 //};
 
 var engGrammar = new Grammar(engWordOrder,engDict);

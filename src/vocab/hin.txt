@@ -6,7 +6,7 @@ ki yi .u व yi .a ya
 ka yi .u यह yi .a ya
 ku yi .u अगर yi .a ya
 yi yi .u वू yi .a ya
-ya yi .u फिर yi .a ya
+ya yi .u तो yi .a ya
 pi yi .u की yi .a ya
 pa yi .u करना yi .a ya
 pu yi .u सहूलियत yi .a ya
@@ -17,24 +17,20 @@ ti yi .u था yi .a ya
 ta yi .u को yi .a ya
 tu yi .u तेरा yi .a ya
 fu yi .u wil yi .a ya
-.ia yi .u हा yi .a ya
-.iu yi .u EW yi .a ya
-.ai yi .u ठीक-है yi .a ya
-.au yi .u ओउ yi .a ya
-.ui yi .u एचएम yi .a ya
-.ua yi .u वाह yi .a ya
-kai yi .u अलग yi .a ya
-nia yi .u से yi .a ya
-tai yi .u ई.के. yi .a ya
-tua yi .u फिर yi .a ya
 myi yi .u याद yi .a ya
 mwa yi .u इश्क yi .a ya
 kyi yi .u सशर्त yi .a ya
+kya yi .u अलग yi .a ya
 kwi yi .u Yand yi .a ya
 ksa yi .u एस् yi .a ya
+kca yi .u हा yi .a ya
 pwa yi .u yaor yi .a ya
+pca yi .u रसिक yi .a ya
+nya yi .u से yi .a ya
 sli yi .u उदाहरण-के-लिए yi .a ya
 sla yi .u नमस्कार yi .a ya
+tya yi .u खंड-पूंछ yi .a ya
+twa yi .u फिर yi .a ya
 tli yi .u ORD yi .a ya
 mik .u प्रतिलिपि yi .a ya
 miy .u इंतज़ार yi .a ya
@@ -46,6 +42,7 @@ kim .u तुलना yi .a ya
 kiy .u जाओ yi .a ya
 kam .u शुरू yi .a ya
 kap .u सरपंच yi .a ya
+kan .u कारण yi .a ya
 kut .u छोटा yi .a ya
 yim .u भी yi .a ya
 yik .u नकारना yi .a ya
@@ -60,6 +57,7 @@ pay .u ज्यादा yi .a ya
 paw .u जगह yi .a ya
 pan .u मिले yi .a ya
 pat .u अन्नियाँ yi .a ya
+pac .u खुशी yi .a ya
 puy .u बच्चा yi .a ya
 put .u भविष्य yi .a ya
 wam .u समय yi .a ya
@@ -73,24 +71,31 @@ cik .u कुछ yi .a ya
 myik .u जोड़ना yi .a ya
 kyim .u घटाना yi .a ya
 kwal .u भाषा yi .a ya
+klaw .u हंसी yi .a ya
 klas .u धारा yi .a ya
 pyan .u सर्वनाम yi .a ya
 pyas .u मुहावरा yi .a ya
 pyat .u व्याकरण-वस्तु yi .a ya
 psan .u अंतरिक्ष yi .a ya
 slim .u उदाहरण yi .a ya
+tkic .u अनुवाद-शब्दकोश yi .a ya
 tlin .u क्रमवाचक yi .a ya
+flas .u मुहावरा yi .a ya
 miyk .u भेजो yi .a ya
 miwk .u व्यक्ति yi .a ya
+muys .u भावना yi .a ya
 munt .u दुनिया yi .a ya
 kiym .u प्राप्त-करना yi .a ya
 kamt .u व्याकरण yi .a ya
 kayp .u चीज yi .a ya
 kast .u व्याकरण-केस yi .a ya
+kump .u मनोदशा yi .a ya
 wiyp .u क्रिया yi .a ya
 niym .u संज्ञा yi .a ya
 sant .u सेंटेंस yi .a ya
+sint .u लगना yi .a ya
 suyt .u व्याकरण-विषय yi .a ya
 timp .u व्याकरण-काल yi .a ya
 tick .u शब्दकोश yi .a ya
+tiwk .u कार्यकलाप yi .a ya
 yimk .u पूछो yi .a ya

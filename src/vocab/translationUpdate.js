@@ -46,9 +46,12 @@ var toFilename = "ara.txt"
 var toLangCode = "ar";
 translateUpdate(toFilename,toLangCode);
 // portuguese 
+var fromFilename = "spa.txt" 
+var fromLangCode = "es"
 var toFilename = "por.txt"  
 var toLangCode = "pt";
-translateUpdate(toFilename,toLangCode);
+translateUpdate(toFilename,toLangCode,
+fromFilename,fromLangCode);
 // indonesian
 var toFilename = "ind.txt"  
 var toLangCode = "id";
@@ -65,8 +68,8 @@ var toLangCode = "ja";
 translateUpdate(toFilename,toLangCode,
 fromFilename,fromLangCode);
 // korean
-var fromFilename = "cmn.txt" 
-var fromLangCode = "zh"
+var fromFilename = "jpn.txt" 
+var fromLangCode = "ja"
 var toFilename = "kor.txt"  
 var toLangCode = "ko";
 translateUpdate(toFilename,toLangCode,
@@ -90,13 +93,19 @@ var toFilename = "ita.txt"
 var toLangCode = "it";
 translateUpdate(toFilename,toLangCode);
 // dutch 
+var fromFilename = "deu.txt" 
+var fromLangCode = "de"
 var toFilename = "nld.txt"  
 var toLangCode = "nl";
-translateUpdate(toFilename,toLangCode);
+translateUpdate(toFilename,toLangCode,
+fromFilename,fromLangCode);
 // swedish
+var fromFilename = "deu.txt" 
+var fromLangCode = "de"
 var toFilename = "swe.txt"  
 var toLangCode = "sv";
-translateUpdate(toFilename,toLangCode);
+translateUpdate(toFilename,toLangCode,
+fromFilename,fromLangCode);
 // swahili
 var toFilename = "swa.txt"  
 var toLangCode = "sw";
@@ -178,7 +187,7 @@ translation.toLower() === definition)
 warnings[warnings.length] = ("Warning: "+translation
 +" has same definition");
 var newSentence = new Sentence(mwak,
-(subject +" "+ translation + " yi .a ya"));
+(subject +" "+ translation + " yi 'a ya"));
 console.log(String(newSentence));
 
 newText.insert(mwak,i,newSentence);

@@ -17,24 +17,20 @@ ti yi .u ثا yi .a ya
 ta yi .u إلى yi .a ya
 tu yi .u اليك yi .a ya
 fu yi .u فيل yi .a ya
-.ia yi .u هكتار yi .a ya
-.iu yi .u مصريات yi .a ya
-.ai yi .u حسنا yi .a ya
-.au yi .u آه yi .a ya
-.ui yi .u جلالة yi .a ya
-.ua yi .u رائع yi .a ya
-kai yi .u جانبا yi .a ya
-nia yi .u من yi .a ya
-tai yi .u خلفا yi .a ya
-tua yi .u ثم yi .a ya
 myi yi .u ذاكرة yi .a ya
 mwa yi .u حب yi .a ya
 kyi yi .u مشروط yi .a ya
+kya yi .u جانبا yi .a ya
 kwi yi .u ياو yi .a ya
 ksa yi .u ال yi .a ya
+kca yi .u هكتار yi .a ya
 pwa yi .u ياأو yi .a ya
+pca yi .u مرح yi .a ya
+nya yi .u منذ yi .a ya
 sli yi .u مثلا yi .a ya
 sla yi .u مرحبا yi .a ya
+tya yi .u بند-الذيل yi .a ya
+twa yi .u ثم yi .a ya
 tli yi .u رتبو yi .a ya
 mik .u نسخة yi .a ya
 miy .u انتظر yi .a ya
@@ -46,6 +42,7 @@ kim .u مقارنة yi .a ya
 kiy .u اذهب yi .a ya
 kam .u ابدأ yi .a ya
 kap .u رئيس yi .a ya
+kan .u سبب yi .a ya
 kut .u صغير yi .a ya
 yim .u إما yi .a ya
 yik .u ينفي yi .a ya
@@ -60,6 +57,7 @@ pay .u أكثر yi .a ya
 paw .u مكان yi .a ya
 pan .u اجتماع yi .a ya
 pat .u كثير yi .a ya
+pac .u فرح yi .a ya
 puy .u طفل yi .a ya
 put .u مستقبل yi .a ya
 wam .u مرة yi .a ya
@@ -73,24 +71,33 @@ cik .u قليل yi .a ya
 myik .u إضافة yi .a ya
 kyim .u طرح yi .a ya
 kwal .u لغة yi .a ya
+klaw .u ضحك yi .a ya
 klas .u بند yi .a ya
 pyan .u ضمير yi .a ya
 pyas .u العبارة yi .a ya
 pyat .u النحوية بين .a ya
 psan .u الفضاء yi .a ya
 slim .u مثال yi .a ya
+tkic .u الترجمة-القاموس yi .a ya
+tkic .a ya
+flas .u العبارة yi .a ya
 tlin .u ترتيبي yi .a ya
+flas .a ya
 miyk .u إرسال yi .a ya
 miwk .u شخص yi .a ya
+muys .u عاطفة yi .a ya
 munt .u عالم yi .a ya
 kiym .u تسلم yi .a ya
 kamt .u قواعد yi .a ya
 kayp .u شيء yi .a ya
 kast .u النحوية .a ya
+kump .u مزاج yi .a ya
 yimk .u تطلب yi .a ya
 wiyp .u الفعل yi .a ya
 niym .u اسما yi .a ya
+sint .u إحساس yi .a ya
 sant .u جملة yi .a ya
 suyt .u النحوية-الموضوع yi .a ya
 timp .u النحوية-متوترة yi .a ya
+tiwk .u نشاط yi .a ya
 tick .u قاموس yi .a ya

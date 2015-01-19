@@ -17,24 +17,20 @@ ti yi .u то .a ya
 ta yi .u к yi .a ya
 tu yi .u ты yi .a ya
 fu yi .u Виль yi .a ya
-.ia yi .u ха yi .a ya
-.iu yi .u ах .a ya
-.ai yi .u ладно .a ya
-.au yi .u ой .a ya
-.ui yi .u хм .a ya
-.ua yi .u вау .a ya
-kai yi .u кстати yi .a ya
-nia yi .u от .a ya
-tai yi .u ко .a ya
-tua yi .u потом .a ya
 myi yi .u память .a ya
 mwa yi .u любовь .a ya
 kyi yi .u условно .a ya
+kya yi .u в-сторону yi .a ya
 kwi yi .u ди .a ya
 ksa yi .u эт .a ya
+kca yi .u ха yi .a ya
 pwa yi .u дили .a ya
+pca yi .u веселый yi .a ya
+nya yi .u от yi .a ya
 sli yi .u например .a ya
 sla yi .u здравствуйте yi .a ya
+tya yi .u Предложение-хвост yi .a ya
+twa yi .u затем yi .a ya
 tli yi .u ога yi .a ya
 mik .u копия .a ya
 miy .u ждать .a ya
@@ -46,6 +42,7 @@ kim .u сравнить .a ya
 kiy .u идти .a ya
 kam .u начать yi .a ya
 kap .u глава yi .a ya
+kan .u причина yi .a ya
 kut .u minhmap .i малый .a ya
 yim .u любой .a ya
 yik .u отрицать .a ya
@@ -60,6 +57,7 @@ pay .u больше .a ya
 paw .u место .a ya
 pan .u встреча .a ya
 pat .u payhnam .i многие .a ya
+pac .u радость yi .a ya
 puy .u ребенок .a ya
 put .u будущее yi .a ya
 wam .u время yi .a ya
@@ -73,25 +71,31 @@ cik .u minhnam .i мало .a ya
 myik .u добавлять .a ya
 kyim .u вычитать .a ya
 klas .u пункт .a ya
+klaw .u смех yi .a ya
 psan .u пространство .a ya
 pyan .u местоимение yi .a ya
 pyas .u фраза yi .a ya
 pyat .u грамматико-объект yi .a ya
 slim .u пример .a ya
 flas .u фраза .a ya
+tkic .u перевод-словарь yi .a ya
 tlin .u порядковый yi .a ya
 miyk .u послать .a ya
 miwk .u человек yi .a ya
+muys .u эмоция yi .a ya
 munt .u мир .a ya
 kiym .u получить .a ya
 kamt .u грамматика yi .a ya
 kayp .u вещь yi .a ya
 kast .u грамматическая-случая yi .a ya
+kump .u настроение yi .a ya
 yimk .u спросить .a ya
 wiyp .u глагол yi .a ya
 niym .u существительное yi .a ya
+sint .u чувствовать yi .a ya
 sant .u предложение .a ya
 suyt .u грамматико-объектом yi .a ya
 timp .u грамматико-напряженной yi .a ya
+tiwk .u деятельность yi .a ya
 tick .u словарь .a ya
 kwal .u язык .a ya

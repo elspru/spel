@@ -30,10 +30,10 @@ var mwak = new Language();
 //var nsentence = new Text(sentence);
 //console.log("nsent"+JSON.stringify(nsentence));
 
-//var phrase = new Sentence(mwak,"mi .u mao .a lai kai ya");
+//var phrase = new Sentence(mwak,"mi 'u mao 'a lai kai ya");
 //console.log(JSON.stringify(phrase));
-//console.log(phrase.isSuperset(mwak,"kai"));
-var file = io.fileRead("vocab/vocab-mwak-C16glyph.txt");
+//console.log(phrase'isSuperset(mwak,"kai"));
+var file = io.fileRead("vocab/eng.txt");
 console.log("file loaded");
 var text = new Text(mwak,file);
 console.log("text loaded");
@@ -47,7 +47,8 @@ var wordOrder = {
 	clauseInitial : false,
 	genitiveInitial : false,
 	postpositional : false,
-	phraseOrder: ["ku","tua",".u",".i","ta",".a"]
+	phraseOrder: ["ku","tua",".u",".i","ta",".a"],
+	intransitiveWord : ".a"
 };
 //console.log(dict.fromMwak);
 var grammar = new Grammar(wordOrder,dict);
@@ -56,7 +57,7 @@ var eng = new Language(grammar,dict);
 console.log("english language loaded");
 
 //console.log(dict.toLocaleString(eng));
-//var word = new Text(mwak,"mi .u sla munt .a mwa .i .ia yi kai pa ");
+//var word = new Text(mwak,"mi 'u sla munt 'a mwa 'i 'ia yi kai pa ");
 //	console.log(eng.grammar.phraseWords);
 var string = "ha if btw cool then su me be say ob tha be good su hello world ya"
 //var string = " ha be say if su me ya "
@@ -64,14 +65,13 @@ var string = " ha if su me be the say love me  ya "
 var string = " su me and su world be love ob thee ya"
 var string = " su wu world world"
 //var string = "  su me and su thee and su world and su me world "
-var string = "ha if su me then be say ob tha"
-+" hello world be example of good ya";
-var mstring = " mi .u tai sla munt .a ti mwa ta .i .ia ya"
-var mstring = " mi .u ku yam .i sla munt .a tua .ia ya "
-var mstring = " mi yam munt .a .ia ya "
-var mstring = "  mi .a ki tu .a ki tu pi munt .a "
+var string = "ob me be world ya";
+var mstring = " mi 'u tai sla munt 'a ti mwa ta 'i 'ia ya"
+var mstring = " mi 'u ku yam 'i sla munt 'a tua 'ia ya "
+var mstring = " mi yam munt 'a 'ia ya "
+var mstring = "  mi 'a ki tu 'a ki tu pi munt 'a "
 var mstring = "  mi ki tu ki munt ki mi munt"
-var mstring = " naw .u yang hadir yi .a ya "
+var mstring = " naw 'u yang hadir yi 'a ya "
 var tokens = tokenize.stringToWords(string);
 var mtokens = tokenize.stringToWords(mstring);
 //var word = parse.lastType(mwak.grammar,mtokens);
@@ -80,7 +80,7 @@ var mtokens = tokenize.stringToWords(mstring);
 var word = new Sentence(eng,tokens);
 var format = new Object();
 var synesthesia = require('./lang/synesthesia');
-//format.glyphsTransform=synesthesia.darkConsoleGlyphsTransform;
+format.glyphsTransform=synesthesia.darkConsoleGlyphsTransform;
 console.log(word.toString());
 console.log(JSON.stringify(word));
 console.log(word.toLocaleString(eng,format));

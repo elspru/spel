@@ -49,6 +49,8 @@ tokens = parse.quotesExtract(language,tokens);
 // be get ob each phrase or top clause ya
 // if clause initial then be get via last ya
 // if clause final then be get via first ya
+// if intransitive and intransitiveWord set
+// then adjust accordingly ya
 // be set ob many part of this ya
 
 var grammar = language.grammar;
@@ -152,6 +154,18 @@ otherTokens.splice(thePhraseI[0],
 thePhraseI[1]-thePhraseI[0]); }
 } // be end of else if for clause final ya
 } // be end of while loop  for phrase or top clause get ya
+
+// if intransitive and intransitiveWord set
+// then adjust accordingly ya
+// intransitives have 2 phrases, one of which is a verb ya
+var intransitiveWord = wordOrder.intransitiveWord;
+if (phrases.length === 2 && intransitiveWord)
+if (phrases[1].head.head === grammar.verbWord
+&& phrases[0].head.head === intransitiveWord)
+phrases[0].head.head = ".u";
+else if (phrases[0].head.head === grammar.verbWord
+&& phrases[1].head.head === intransitiveWord)
+phrases[1].head.head = ".u";
 
 // be set ob many part of this ya
 this.phrases = phrases;
@@ -302,7 +316,7 @@ Sentence.prototype.byIndexPhraseSet = function(index,replacement){
 	if (typeof replacement === "string"
 			|| Array.isArray(replacement))
 		phrase = new Phrase(language, replacement);
-	else if (replacement.be == "Phrase")
+	else if (replacement.be === "Phrase")
 		phrase = replacement;
 	else throw new TypeError("unrecognized type");
 	// remove phrase from array.
@@ -346,6 +360,9 @@ Sentence.prototype.toLocaleString = function(language,format){
 // be set ob empty string for translation result ya
 // be clone ob this sentence to working sentence ya
 //
+// if intransitive and intransitiveWord set then adjust
+// accordingly ya
+//
 // if prepositional then translate mood and append to result
 //
 // be start of loop for each phrase in language phrase order de
@@ -388,6 +405,20 @@ var topClauseTerm =
 new Word(language, grammar.topClauseTerminator[0]);
 var mood = this.mood;
 var prevTopClause = false;
+
+
+// if intransitive and intransitiveWord set then adjust
+// accordingly ya
+var phrases = sentence.phrases;
+if (phrases.length === 2 && wordOrder.intransitiveWord)
+if (phrases[1].head.head === ".i"
+&& phrases[0].head.head === ".u")
+phrases[0].head.head = wordOrder.intransitiveWord;
+if (phrases[0].head.head === ".i"
+&& phrases[1].head.head === ".u")
+phrases[1].head.head = wordOrder.intransitiveWord;
+
+
 //
 // if prepositional then translate mood and append to result
 if (mood && wordOrder.postpositional === false)

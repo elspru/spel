@@ -13,28 +13,24 @@ pu yi .u 过去式 .a ya
 wa yi .u 或 .a ya
 na yi .u 个 .a ya
 nu yi .u 现在 .a ya
-ti yi .u 该 .a ya
+ti yi .u 之 .a ya
 ta yi .u 到 yi .a ya
 tu yi .u 你 yi .a ya
 fu yi .u 将 .a ya
-.ia yi .u 哈 yi .a ya
-.iu yi .u 啊 .a ya
-.ai yi .u 好 .a ya
-.au yi .u 流 .a ya
-.ui yi .u 嗯 .a ya
-.ua yi .u 哇 .a ya
-kai yi .u 旁白 yi .a ya
-nia yi .u 从 .a ya
-tai yi .u 启动第 .a ya
-tua yi .u 然后 .a ya
 myi yi .u 记忆 .a ya
 mwa yi .u 爱 .a ya
 kyi yi .u 有条件 .a ya
+kya yi .u 旁白 yi .a ya
 kwi yi .u 而 .a ya
 ksa yi .u 该 .a ya
+kca yi .u 哈 yi .a ya
 pwa yi .u 或者 .a ya
+pca yi .u 姁 yi .a ya
+nya yi .u 从 yi .a ya
 sli yi .u 例如 .a ya
 sla yi .u 您好 yi .a ya
+tya yi .u 第尾巴 yi .a ya
+twa yi .u 然后 yi .a ya
 tli yi .u 第 .a ya
 mik .u 复制 .a ya
 miy .u 等待 .a ya
@@ -46,8 +42,9 @@ kim .u 比较 .a ya
 kiy .u 去 .a ya
 kam .u 开始 .a ya
 kap .u 头 .a ya
+kan .u 事业 yi .a ya
 kut .u minhmap .i 小 .a ya
-yim .u 或 .a ya
+yim .u 任一 .a ya
 yik .u 否定 .a ya
 yip .u 字形 .a ya
 yam .u 说 .a ya
@@ -60,38 +57,45 @@ pay .u 更多 .a ya
 paw .u 地方 .a ya
 pan .u 见面 .a ya
 pat .u payhnam .i 许多 .a ya
+pac .u 欢乐 yi .a ya
 puy .u 孩子 .a ya
 put .u 未来 .a ya
 wam .u 时间 .a ya
 wap .u 尾 .a ya
 wul .u payhmap .i 大 .a ya
 nam .u 号码 .a ya
-naw .u 现在 .a ya
+naw .u 现时 .a ya
 sun .u 一 .a ya
 tuw .u 两 .a ya
 cik .u minhnam .i 少数 .a ya
 myik .u 添加 .a ya
-kyim .u 减 .a ya
+kyim .u 减去 .a ya
 klas .u 条款 .a ya
+klaw .u 笑 yi .a ya
 psan .u 空间 .a ya
 pyan .u 代词 .a ya
 pyas .u 短语 .a ya
 pyat .u 语法对象 .a ya
 slim .u 例 .a ya
 flas .u 短语 .a ya
+tkic .u 翻译，字典 yi .a ya
 tlin .u 序数词 .a ya
 miyk .u 发送 .a ya
 miwk .u 人 .a ya
+muys .u 情感 yi .a ya
 munt .u 世界 .a ya
 kiym .u 接受 .a ya
 kamt .u 语法 .a ya
 kayp .u 事 .a ya
 kast .u 语法情况 .a ya
+kump .u 情绪 yi .a ya
 yimk .u 问 .a ya
 wiyp .u 动词 .a ya
 niym .u 名词 .a ya
+sint .u 感觉 yi .a ya
 sant .u 句子 .a ya
 suyt .u 语法学科 .a ya
 timp .u 语法时态 .a ya
+tiwk .u 活动 yi .a ya
 tick .u 词典 .a ya
 kwal .u 语言 .a ya

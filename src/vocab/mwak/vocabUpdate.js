@@ -10,10 +10,11 @@
 /// su la AGPL-3 be license ya
 /// be end of head ya
 "use strict"
-var hof = require("../lib/hof");
-var io = require("../lib/io");
-var Text = require('../class/text');
-var Language = require('../lang/language');
+var base = "../../"
+var hof = require(base+"lib/hof");
+var io = require(base+"lib/io");
+var Text = require(base+'class/text');
+var Language = require(base+'lang/language');
 var mwak = new Language();
 
 var debug = false;

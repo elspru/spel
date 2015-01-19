@@ -17,24 +17,20 @@ ti yi .u que .a ya
 ta yi .u a yi .a ya
 tu yi .u tú yi .a ya
 fu yi .u fut .a ya
-.ia yi .u ja yi .a ya
-.iu yi .u ew .a ya
-.ai yi .u bien .a ya
-.au yi .u ay .a ya
-.ui yi .u hm .a ya
-.ua yi .u guau .a ya
-kai yi .u aparte yi .a ya
-nia yi .u desde .a ya
-tai yi .u ek .a ya
-tua yi .u pues .a ya
 myi yi .u memoria .a ya
 mwa yi .u amar .a ya
 kyi yi .u condicionalmente .a ya
+kya yi .u aparte yi .a ya
 kwi yi .u síy .a ya
 ksa yi .u la .a ya
+kca yi .u ja yi .a ya
 pwa yi .u sío yi .a ya
+pca yi .u alegre yi .a ya
+nya yi .u desde yi .a ya
 sli yi .u por-ejemplo .a ya
 sla yi .u hola yi .a ya
+tya yi .u cláusula-de-la-cola yi .a ya
+twa yi .u entonces yi .a ya
 tli yi .u ord .a ya
 mik .u copia .a ya
 miy .u esperar .a ya
@@ -46,6 +42,7 @@ kim .u comparar .a ya
 kiy .u ir .a ya
 kam .u comenzar .a ya
 kap .u cabeza .a ya
+kan .u causa yi .a ya
 kut .u minhmap .i pequeño .a ya
 yim .u uno-u-otro .a ya
 yik .u negar .a ya
@@ -60,6 +57,7 @@ pay .u más .a ya
 paw .u lugar .a ya
 pan .u conocer .a ya
 pat .u payhnam .i muchos .a ya
+pac .u alegría yi .a ya
 puy .u niño .a ya
 put .u futuro .a ya
 wam .u tiempo .a ya
@@ -73,25 +71,31 @@ cik .u minhnam .i pocos .a ya
 myik .u añadir .a ya
 kyim .u sustraer .a ya
 klas .u cláusula .a ya
+klaw .u risa yi .a ya
 psan .u espacio .a ya
 pyan .u pronombre .a ya
 pyas .u frase .a ya
 pyat .u gramatical-a-objetos .a ya
 slim .u ejemplo .a ya
 flas .u frase .a ya
+tkic .u Traducción-diccionario- yi .a ya
 tlin .u ordinal .a ya
 miyk .u enviar .a ya
 miwk .u persona .a ya
+muys .u emoción yi .a ya
 munt .u mundo .a ya
 kiym .u recibir .a ya
 kamt .u gramática .a ya
 kayp .u cosa .a ya
 kast .u gramatical-de-los-casos .a ya
+kump .u humor yi .a ya
 yimk .u preguntar .a ya
 wiyp .u verbo .a ya
 niym .u sustantivo .a ya
+sint .u sentir yi .a ya
 sant .u sentencia .a ya
 suyt .u gramatical-sujeto .a ya
 timp .u tiempo-gramatical .a ya
+tiwk .u actividad yi .a ya
 tick .u diccionario .a ya
 kwal .u idioma .a ya

@@ -13,6 +13,7 @@ var i, glyph;
 for (i=0;i<glyphs.length;i++){
 glyph = glyphs[i];
 if (glyph === '.') glyph = span("gs",glyph);
+else if (glyph === "'") glyph = span("as",glyph);
 else glyph = span(glyph+'y',glyph);
 result+=glyph;
 }
@@ -52,7 +53,7 @@ if (glyph ==='t') glyph = glyph.cyan.bold;
 if (glyph ==='d') glyph = glyph.cyan.bold;
 if (glyph ==='p') glyph = glyph.blue.bold;
 if (glyph ==='b') glyph = glyph.blue.bold;
-if (glyph ==='x') glyph = glyph.magneta.bold;
+if (glyph ==='x') glyph = glyph.magenta.bold;
 if (glyph ==='h') glyph = glyph.blue.bold;
 if (glyph ==='c') glyph = glyph.yellow.bold;
 if (glyph ==='s') glyph = glyph.yellow.bold;

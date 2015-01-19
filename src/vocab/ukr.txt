@@ -17,24 +17,20 @@ ti yi .u то yi .a ya
 ta yi .u для yi .a ya
 tu yi .u тебе yi .a ya
 fu yi .u Віль yi .a ya
-.ia yi .u ха yi .a ya
-.iu yi .u ах yi .a ya
-.ai yi .u добре yi .a ya
-.au yi .u ой yi .a ya
-.ui yi .u хм yi .a ya
-.ua yi .u вау yi .a ya
-kai yi .u в-сторону yi .a ya
-nia yi .u від yi .a ya
-tai yi .u ко yi .a ya
-tua yi .u потім yi .a ya
 myi yi .u пам'ять yi .a ya
 mwa yi .u любов yi .a ya
 kyi yi .u умовно yi .a ya
+kya yi .u в-бік yi .a ya
 kwi yi .u ді yi .a ya
 ksa yi .u пов yi .a ya
+kca yi .u ха yi .a ya
 pwa yi .u дили yi .a ya
+pca yi .u веселий yi .a ya
+nya yi .u від yi .a ya
 sli yi .u наприклад yi .a ya
 sla yi .u здрастуйте yi .a ya
+tya yi .u Пропозиція-хвіст yi .a ya
+twa yi .u потім yi .a ya
 tli yi .u ога yi .a ya
 mik .u копія yi .a ya
 miy .u чекати yi .a ya
@@ -46,8 +42,9 @@ kim .u порівняти yi .a ya
 kiy .u йти yi .a ya
 kam .u почати yi .a ya
 kap .u глава yi .a ya
+kan .u причина yi .a ya
 kut .u невеликої yi .a ya
-yim .u або yi .a ya
+yim .u обидва yi .a ya
 yik .u заперечувати yi .a ya
 yip .u гліф yi .a ya
 yam .u сказати yi .a ya
@@ -60,6 +57,7 @@ pay .u більше yi .a ya
 paw .u місце yi .a ya
 pan .u зустріч yi .a ya
 pat .u багато yi .a ya
+pac .u радість yi .a ya
 puy .u дитина yi .a ya
 put .u майбутнє yi .a ya
 wam .u час yi .a ya
@@ -73,25 +71,31 @@ cik .u кілька yi .a ya
 myik .u додавати yi .a ya
 kyim .u віднімати yi .a ya
 kwal .u мову yi .a ya
+klaw .u сміх yi .a ya
 klas .u пункт yi .a ya
 pyan .u займенник yi .a ya
 pyas .u фраза yi .a ya
 pyat .u грамматико-об'єкт yi .a ya
 psan .u простір yi .a ya
 flas .u фраза yi .a ya
+tkic .u переклад-словник yi .a ya
 slim .u приклад yi .a ya
 tlin .u порядковий yi .a ya
 miyk .u послати yi .a ya
+muys .u емоція yi .a ya
 miwk .u людина yi .a ya
 munt .u світ yi .a ya
 kiym .u отримати yi .a ya
 kamt .u граматика yi .a ya
 kayp .u річ yi .a ya
+kump .u настрій yi .a ya
 kast .u граматична-випадку yi .a ya
 yimk .u запитати yi .a ya
 wiyp .u дієслово yi .a ya
+sint .u відчувати yi .a ya
 niym .u іменник yi .a ya
 sant .u вирок yi .a ya
 suyt .u грамматико-об'єктом yi .a ya
+tiwk .u діяльність yi .a ya
 timp .u грамматико-напруженою yi .a ya
 tick .u словник yi .a ya
