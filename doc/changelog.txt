@@ -430,3 +430,38 @@ in toLocaleString for sentence
 0459 hmmm testing the word order stuff with indonesian, doesn't
 seem to be quite right ya
 0509 okay fixed, it was just a typo.
+0529 so looked up performance grammar again, 
+it seems to take most effect for clusters greater than 4 words.
+the hungarian vso example I'm assuming is inflectional so really
+has about that much if it were analytical.
+0539 wrote algorithm, need some beauty sleep ya
+0540 I'll assume by if it is twice the size of average length,
+then it should be reordered by performance grammar
+1424 so wheras SOV languages use time manner place,
+SVO or head-initial languages use place manner time.
+interesting so phrase order would change correspondingly.
+1519 on the agenda is to finish up that blitz meeting and post
+it project rejuvenation's wall.
+} Jan 20 2015
+0046 also have to make that translation pack so language
+maintainers can more easily check on current and new
+translations ya
+0047 can probably set it up so that it emails them with new
+definitions.
+0050 anyways decided will do performance grammar in a simple way
+for now, which is just to find the phrase which has a clause,
+and set that in the tail and just return the rest to be
+processed as normal ya.
+0146 was studying up on China and it's great firewall,
+also looking at my QQ profile, it's interesting.
+Though I should really focus on the free world instead.
+Chances are however upsetting that they don't want deliberative
+assembly in China. Though it might be possible to be a business
+thing or something *shrugs*.
+Anyways it's a big market, but there is 6 billion other people
+in the world also, which may be better to focus on, since they
+aren't behind a firewall. 
+0209 okay wrote in performance grammar for toLocaleString, now
+to test ya
+0234 okay it is working even in web version so can increment
+roadmap and git

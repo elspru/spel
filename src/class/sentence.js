@@ -365,6 +365,10 @@ Sentence.prototype.toLocaleString = function(language,format){
 //
 // if prepositional then translate mood and append to result
 //
+// su performance grammar output ob langugage and working 
+// sentence to tuple of output and remainder ya
+// 
+// su phrase order output
 // be start of loop for each phrase in language phrase order de
 // be get ob phrase from working sentence ya 
 // if found then
@@ -414,7 +418,7 @@ if (phrases.length === 2 && wordOrder.intransitiveWord)
 if (phrases[1].head.head === ".i"
 && phrases[0].head.head === ".u")
 phrases[0].head.head = wordOrder.intransitiveWord;
-if (phrases[0].head.head === ".i"
+else if (phrases[0].head.head === ".i"
 && phrases[1].head.head === ".u")
 phrases[1].head.head = wordOrder.intransitiveWord;
 
@@ -423,6 +427,18 @@ phrases[1].head.head = wordOrder.intransitiveWord;
 // if prepositional then translate mood and append to result
 if (mood && wordOrder.postpositional === false)
 result+=mood.toLocaleString(language,format,"mh")+joiner;
+
+// su performance grammar output ob langugage and working 
+// sentence to tuple of output and remainder ya
+var performanceTuple = performanceGrammar(sentence);
+var resultTail = 
+performanceTuple[0].toLocaleString(language,format);
+sentence = performanceTuple[1];
+
+var headFinal = wordOrder.headFinal;
+var clauseInitial = wordOrder.clauseInitial;
+if (clauseInitial)
+result = resultTail;
 
 // be start of loop for each phrase in language phrase order de
 var orderPhrases = wordOrder.phraseOrder;
@@ -462,17 +478,19 @@ sentence.byIndexPhraseDelete(phraseIndex);
 }
 //
 // be loop for each phrase in working sentence de
-	var phrasesLength = phrases.length;
-	for (i=0; i<phrasesLength; i++){
+var phrasesLength = phrases.length;
+for (i=0; i<phrasesLength; i++){
 // if head initial
 // be append bo phrase translation to result ya
-if (grammar.wordOrder.headFinal === false)
-	result += phrases[i].toLocaleString(language,format);
+if (headFinal === false)
+result += phrases[i].toLocaleString(language,format);
 // if head final
 // be prepend
-else if (grammar.wordOrder.headFinal)
+else if (headFinal)
 result = phrases[i].toLocaleString(language,format) + result;
-	}
+}
+if (clauseInitial === false)
+result += resultTail;
 // 
 // if postpositional then translate mood and append to result
 if (mood && wordOrder.postpositional === true)
@@ -536,3 +554,44 @@ var joiner = " ";
 var clauseTerm = "tai"/* mwak clauseTerminator */ ;
 return clauseTerm+joiner+phraseTrans;}
 return phraseTrans; }
+
+
+
+// su performance grammar output ob langugage and working 
+// sentence to tuple of output and remainder ya
+//
+// ideal? algorithm
+// be get ob length of each phrase
+// be calculate ob average length
+// if phrase length twice greater than average
+// or if phrase contains clause
+// then put in ordering set
+// add ordering set by decreasing length
+// reverse if head initial 
+// output tuple
+function performanceGrammar(sentence){
+//
+// su simple algorithm de
+// be identify ob first phrase with clause ya
+// if found then
+// be add ob it to tail yand
+// remove it from sentences
+// return tail and rest of sentences 
+
+// be identify ob first phrase with clause ya
+var phrases = sentence.phrases
+var phrase = null;
+var i;
+var tail = new String();
+for (i=0;i<phrases.length;i++){
+// if found then
+if (phrases[i].clause){
+// be add ob it to tail yand
+tail = phrases[i];
+// remove it from phrases
+phrases.splice(i,1);
+break;}
+}
+// return tail and rest of sentence
+return [tail,sentence];
+}

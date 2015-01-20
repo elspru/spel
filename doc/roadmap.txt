@@ -31,14 +31,14 @@ Speakable Programming for Every Language Translator SPELT
 0.4.2 add a bunch of widely spoken languages  (14 Jan 2015)
 0.4.3 verify that all definitions are unique (16 Jan 2015)
 0.4.4 verb, ergative and tripartite support (19 Jan 2015)
+0.4.5 performance grammar phrase ordering (20 Jan 2015)
 
-0.4.5 performance grammar phrase ordering
-0.4.6 add toki pona level frame vocabulary
+0.4.6 add UW relations and toki pona level frame vocabulary
 0.4.7 systemize adding new languages
 0.4.8 make it easy for people to contribute term corrections
 0.4.9 topicalization
 0.4.A sentence junctions
-0.4.B UW attributes and relations vocabulary
+0.4.B UW attributes vocabulary
 0.4.C fine tune grammar words for added languages
 0.5 quotes
 0.5.1 word quotes
