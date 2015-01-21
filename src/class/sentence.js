@@ -392,6 +392,7 @@ Sentence.prototype.toLocaleString = function(language,format){
 // be translate ob end words ya 
 // be append to result ya
 // be append ob ender ya
+// be format by max length ya
 // return result ya
 //
 
@@ -409,7 +410,6 @@ var topClauseTerm =
 new Word(language, grammar.topClauseTerminator[0]);
 var mood = this.mood;
 var prevTopClause = false;
-
 
 // if intransitive and intransitiveWord set then adjust
 // accordingly ya
@@ -431,14 +431,19 @@ result+=mood.toLocaleString(language,format,"mh")+joiner;
 // su performance grammar output ob langugage and working 
 // sentence to tuple of output and remainder ya
 var performanceTuple = performanceGrammar(sentence);
-var resultTail = 
-performanceTuple[0].toLocaleString(language,format);
+var resultTailArray = performanceTuple[0];
+var resultTail = new String();
+var clauseInitial = wordOrder.clauseInitial;
+// if clause final reverse order of result tail array
+if(clauseInitial === false)
+resultTailArray.reverse();
+
+var i;
+for(i=0;i<resultTailArray.length;i++)
+resultTail+= resultTailArray[i].toLocaleString(language,format);
 sentence = performanceTuple[1];
 
 var headFinal = wordOrder.headFinal;
-var clauseInitial = wordOrder.clauseInitial;
-if (clauseInitial)
-result = resultTail;
 
 // be start of loop for each phrase in language phrase order de
 var orderPhrases = wordOrder.phraseOrder;
@@ -482,14 +487,16 @@ var phrasesLength = phrases.length;
 for (i=0; i<phrasesLength; i++){
 // if head initial
 // be append bo phrase translation to result ya
-if (headFinal === false)
-result += phrases[i].toLocaleString(language,format);
+if (headFinal === false){
+result += phrases[i].toLocaleString(language,format);}
 // if head final
 // be prepend
-else if (headFinal)
-result = phrases[i].toLocaleString(language,format) + result;
+else if (headFinal){
+result = phrases[i].toLocaleString(language,format) +result;}
 }
-if (clauseInitial === false)
+if (clauseInitial)
+result = resultTail + result;
+else if (clauseInitial === false)
 result += resultTail;
 // 
 // if postpositional then translate mood and append to result
@@ -561,15 +568,44 @@ return phraseTrans; }
 // sentence to tuple of output and remainder ya
 //
 // ideal? algorithm
-// be get ob length of each phrase
-// be calculate ob average length
-// if phrase length twice greater than average
-// or if phrase contains clause
-// then put in ordering set
-// add ordering set by decreasing length
-// reverse if head initial 
+// sort phrases by length comparison function
+// get average by reduction
+// for each that has length greater than average 
+// add to result tail and splice from phrases
+// reverse tail if head initial 
 // output tuple
 function performanceGrammar(sentence){
+// sort phrases by length comparison function
+var phrases = sentence.phrases;
+phrases.sort(function(first,second){
+return second.toString().split(" ").length 
+- first.toString().split(" ").length ;
+});
+// get average by reduction
+var avg = phrases.reduce(function(previous, current){
+var prev = previous.toString().split(" ").length;
+var cur = current.toString().split(" ").length;
+return prev+cur;
+},0);
+var avg = (avg/phrases.length);
+var basis = (avg*1.618*2).toFixed();
+// for each that has length greater than basis
+// add to result tail and splice from phrases
+var i;
+var tail = new Array();
+for(i=0;i<phrases.length;i++){
+if(phrases[i].toString().split(" ").length > basis
+|| phrases[i].clause){
+tail.push(phrases[i]);
+phrases.splice(i,1);
+i--;
+}
+}
+// reverse tail if head initial 
+// output tuple
+return [tail,sentence];
+}
+function simplePerformanceGrammar(sentence){
 //
 // su simple algorithm de
 // be identify ob first phrase with clause ya

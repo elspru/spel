@@ -1,5 +1,6 @@
 
 var tokenize = require("../compile/tokenize");
+var hof = require("../lib/hof");
 var parse = require("../compile/parse");
 var Sentence = require ("./sentence");
 var err = require("../lib/error");
@@ -160,29 +161,58 @@ function byIndexSentenceUpdate(language,index,replacement){
 	return newText;
 }
 Text.prototype.toString = function(format){
-	var result = new String();
-	var newline = '\n';
-	if (format && format.newline) newline = format.newline;
-	var sentences = this.sentences;
-	var sentencesLength = sentences.length;
-	var i;
-	for (i=0; i<sentencesLength; i++)
-		result += sentences[i].toString(format)+newline; 
-	return result;//this.string;
+var result = new String();
+var newline = '\n';
+var lineLength = 64;
+if (format ){
+if (format.newline) newline = format.newline;
+if (format.lineLength) lineLength = format.lineLength;
+}
+var sentences = this.sentences;
+var sentencesLength = sentences.length;
+var i;
+for (i=0; i<sentencesLength; i++)
+result += sentences[i].toString(format)+newline; 
+// format by max line length;
+return result;//this.string;
 };
 Text.prototype.toLocaleString = function(language,format){
-	var string = new String();
-	var newline = '\n';
-	if (format && format.newline) newline = format.newline;
-	var sentences = this.sentences;
-	var sentencesLength = sentences.length;
-	var i;
-	for (i=0; i<sentencesLength; i++){
-		string += sentences[i].toLocaleString(language,
-				format)+newline;
-	}
-	return string;//this.string;
+var string = new String();
+var newline = '\n';
+var lineLength = 64;
+if (format){
+if(format.newline) newline = format.newline;
+if(format.glyphsTransform) lineLength = 0;
+else if(format.lineLength) lineLength = format.lineLength;
+}
+var sentences = this.sentences;
+var sentencesLength = sentences.length;
+var i;
+for (i=0; i<sentencesLength; i++){
+string += sentences[i].toLocaleString(language, format)+newline;
+}
+// format for max line length
+if (lineLength>0) string = wordWrap(string,lineLength);
+
+return string;
 };
+
+function wordWrap( str, width, brk, cut ) {
+
+brk = brk || '\n';
+width = width || 64;
+width --;
+cut = cut || false;
+
+if (!str) { return str; }
+
+var regex = 
+'.{1,' +width+ '}(?=\\s|$)' + 
+(cut ? '|.{' +width+ '}|.+$' : '|\\S+?(\\s|$)');
+
+return str.match( RegExp(regex, 'g') ).join( brk );
+}
+
 Text.prototype.insert = function(language,index,input){
 // algorithm
 // make sentence object from input

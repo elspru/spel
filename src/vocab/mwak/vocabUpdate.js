@@ -52,12 +52,13 @@ for (i=0;i<amount;i++){
 	definitions = CPText.select(mwak,".a");
 //console.log("C selections "+definitions);
 	definitions.sentences.forEach(textUpdate.curry(CText));
+	var CString = CText.toLocaleString(mwak);
 	if (debug)
-		console.log(String(XText));
+		console.log(CString);
 	else {
 		console.log("writing "+CFilename);
 		//io.fileWrite(CFilename+".json",JSON.stringify(CText));
-		io.fileWrite(CFilename,String(CText));
+		io.fileWrite(CFilename,CString);
 	}
 	}
 	// update current extended based on previous
@@ -70,12 +71,13 @@ for (i=0;i<amount;i++){
 	// update current extended based on current core
 	definitions = CText.select(mwak,".a");
 	definitions.sentences.forEach(textUpdate.curry(XText));
+	var XString = XText.toLocaleString(mwak);
 	if (debug)
-		console.log(String(XText));
+		console.log(XString);
 	else {
 		console.log("writing "+XFilename);
 	//	io.fileWrite(XFilename+".json",JSON.stringify(XText));
-		io.fileWrite(XFilename,String(XText));
+		io.fileWrite(XFilename,XString);
 	}
 	CPText=CText;
 	XPText=XText;

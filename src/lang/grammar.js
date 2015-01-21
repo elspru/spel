@@ -76,8 +76,8 @@ typeFinal: true,
 postpositional: true,
 clauseInitial: true,
 genitiveInitial: true,
-phraseOrder: ["sla","ku","twa","kwi","pwa",".u","nya","ta",
-".a",".i"],
+phraseOrder: ["sla","ku","twa","kwi","pwa",".u","ta",
+".a","nya",".i"],
 intransitiveWord: ".u"
 }
 } // end of mwak grammar object ya

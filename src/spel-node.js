@@ -47,7 +47,7 @@ var wordOrder = {
 	clauseInitial : false,
 	genitiveInitial : false,
 	postpositional : false,
-	phraseOrder: ["ku","tua",".u",".i","ta",".a"],
+	phraseOrder: ["sla","ku","tua",".u",".i","ta",".a"],
 	intransitiveWord : ".a"
 };
 //console.log(dict.fromMwak);
@@ -65,12 +65,14 @@ var string = " ha if su me be the say love me  ya "
 var string = " su me and su world be love ob thee ya"
 var string = "ob me be world ya";
 var string = " su world ob me tha be love ya"
+var string =
+"ha  su say ob tha hello world be example ya"
 var mstring = " mi 'u tai sla munt 'a ti mwa ta 'i 'ia ya"
 var mstring = " mi 'u ku yam 'i sla munt 'a tua 'ia ya "
 var mstring = " mi yam munt 'a 'ia ya "
 var mstring = "  mi 'a ki tu 'a ki tu pi munt 'a "
 var mstring = "  mi ki tu ki munt ki mi munt"
-var mstring = " naw 'u yang hadir yi 'a ya "
+var mstring = " mi .u tu .a C7G kya ya "
 var tokens = tokenize.stringToWords(string);
 var mtokens = tokenize.stringToWords(mstring);
 //var word = parse.lastType(mwak.grammar,mtokens);
@@ -79,7 +81,7 @@ var mtokens = tokenize.stringToWords(mstring);
 var word = new Sentence(eng,tokens);
 var format = new Object();
 var synesthesia = require('./lang/synesthesia');
-format.glyphsTransform=synesthesia.darkConsoleGlyphsTransform;
+//format.glyphsTransform=synesthesia.darkConsoleGlyphsTransform;
 console.log(word.toString());
 console.log(JSON.stringify(word));
 console.log(word.toLocaleString(eng,format));

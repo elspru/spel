@@ -465,3 +465,478 @@ aren't behind a firewall.
 to test ya
 0234 okay it is working even in web version so can increment
 roadmap and git
+0243 so next is UW relations and toki pona level vocabulary
+Here is a listing, with english mwak equivalents:
+rel				relation
+agt (agent)			su
+and (conjunction)		and
+aoj (object of an attribute)	su 
+ant (antonym, different from)	different-from
+equ (synonym, equal to)		equal-to
+fld (field)			from-field-of
+icl (hyponym, a kind of)	a-kind-of
+iof (example, instance of)	is-a
+pof (meronym, part of)		part-of
+ben (beneficiary)		for
+cnt (content or theme)		ob
+con (condition)			if
+exp (experiencer)		su
+mod (modifier)			- h
+mat (material)			made-of
+nam (name)			named
+pos (possessor)			of
+qua (quantifier)		nu
+obj (patient)			ob
+opl (objective place)		ob
+res (result)			to
+or (disjunction)		or
+per (proportion, rate)		per
+bas (basis for a comparison)	based-on
+plc (location: physical or logical)	at
+gol (final place or state, destination)	til
+lpl (logical place, scene)		lat
+src (initial place or state, origin)	from
+via (intermediate place, path)	via
+ptn (partner)			with
+tim (time)			at-time
+tmf (initial time)		from-time
+tmt (final time)		til-time
+dur (duration)			for-time
+coo (co-occurrence)		during
+man (manner)			by
+ins (instrument or method)	by-tool
+met (method)			by-method
+pur (purpose)			for-purpose
+rsn (reason)			because
+seq (consequence)		thus
+0308 hmmm some overlap and seem redundant
+I wouldn't have so many if I was designing it,
+I want to stick to just the basics for now
+junctions and/or
+su bo to til for by from of
+at with named nu tat via thus cuz
+0314 we should review the attributes as well
+@1 (first person of discourse (speaker)) 00.@1.@pl=we
+@2 (second person (addressee)) 00.@2.@pl=you
+@3 (third person (other)) 00.@3.@pl=they
+@ability
+@about (about) book about Paris > mod(book,Paris.@about)
+@above (above) above
+@according_to (according to)
+@across (across)
+@active (active voice) kill.@active=kill
+@adjective (adjectivation)
+@adverb (adverbialization)
+@advice
+@after (after)
+@again (iterative) do.@again=redo
+@against (against)
+@agreement
+@all (all) book.@all=all books
+@alliteration (series of words that begin with the same letter or sound alike)
+@almost (approximative) big.@almost=almost big
+@along (along)
+@also (repetition) big.@also=also big
+@although (although, even though, though) do.@although=although [he] does
+@among (among)
+@anacoluthon (change in the syntax within a sentence)
+@anadiplosis (repetition of a word at the end of a clause at the beginning of another)
+@anaphora (repetition of the same word or group of words at the beginning of successive clauses)
+@anastrophe (inversion of the usual word order)
+@and (and, nor, as well as, both... and, neither... nor, not only... but also) do.@and=and [he] goes
+@anger (Expression of anger)
+@angle_bracket (< >) a.@angle_bracket=
+@antanaclasis (repetition of a word in two different senses)
+@anterior (before some other time other than the time of utterance) go.@past.@anterior=had gone
+@anthropomorphism (Ascribing human characteristics to something that is not human, such as an animal or a god (see zoomorphism))
+@anticlimax (Arrangement of words in order of decreasing importance)
+@antimetabole (repetition of words in successive clauses, in reverse order)
+@antiphrasis (Word or words used contradictory to their usual meaning, often with irony)
+@antithesis (juxtaposition of opposing or contrasting ideas)
+@antonomasia (Substitution of a phrase for a proper name or vice versa)
+@any (any) book.@any=any book
+@apposition (placing of two elements side by side, in which the second defines the first)
+@archaic (archaism)
+@around (around)
+@as (as) do.@as=as [he] does
+@as_far_as (as far as)
+@as_of (as of)
+@as_per (as per)
+@as_regards (as regards)
+@as_well_as (as well as) do.@as_well_as=as well as [he] does
+@as.@if (as if, as though) do.@as.@if=as if [he] does
+@assertion
+@assonance (repetition of vowel sounds, most commonly within a short passage of verse)
+@assumption
+@asyndeton (omission of conjunctions between related clauses)
+@at (at) at
+@attention (Expression of attention) 00.@attention=hey!
+@back (in relation to the back of) the book behind the box = plc(book,box.@back)
+@barring (barring)
+@because (because, since, for, as, that) do.@because = because [he] does
+@because_of (because of)
+@before (before)
+@behind (behind) behind
+@belief
+@below (below) the box below the table = plc(box,table.@below)
+@beside (beside) beside
+@besides (besides)
+@between (between)
+@both (both) book.@both=both books
+@bottom (in relation to the bottom of) the book under the box = plc(book,box.@bottom)
+@brace ({ }) a.@brace={a}
+@brachylogia (omission of conjunctions between a series of words)
+@but (but, yet) do.@but = but [he] does
+@by (by)
+@by_means_of (by means of)
+@catachresis (use an existing word to denote something that has no name in the current language)
+@causative (causing) eat.@causative=make eat
+@certain (certain) book.@certain=certain book
+@chiasmus (reversal of grammatical structures in successive clauses)
+@circa (circa) born circa 1900
+@climax (arrangement of words in order of increasing importance)
+@clockwise (in the same direction as the rotating hands of a clock) a
+@colloquial (colloquialism)
+@command
+@comment (what is being said about the topic) (the dog).@topic (bit the little girl).@comment
+@concerning (concerning)
+@conclusion
+@condition
+@confirmation
+@consent (Expression of agreement) 00.@consent=Uh-huh
+@consequence
+@consonance (repetition of consonant sounds without the repetition of the vowel sounds)
+@contact (in contact with (in opposition to "near" and "far")) the book at the box = plc(book,box.@contact)
+@contentment (Expression of contentment)
+@continuative (continuous) eat.@continuative=still eats
+@conviction
+@decision
+@deduction
+@def (the) book.@def=the book
+@desire
+@despite (despite)
+@determination
+@dialect (regional speech pattern)
+@disagreement (Expression of disagreement)
+@discontentment (Expression of discontment)
+@dissent (Attribute that expresses the sentiment of dissent) 00.@dissent (No way!)
+@distal (that, those) book.@distal=that book
+@double_negative (Grammar construction that can be used as an expression and it is the repetition of negative words)
+@double_parenthesis ((( ))) a.@double_parenthesis=((a))
+@double_quote (" ") a.@double_quote="a"
+@doubt
+@down (down)
+@dual (Two of a class) book.@dual=a pair of books
+@due_to (due to)
+@during (during)
+@dysphemism (Substitution of a harsher, more offensive, or more disagreeable term for another. Opposite of euphemism)
+@each (each) book.@each=each book
+@either (either) book.@either=either book
+@ellipsis (omission of words)
+@emphasis (emphasis) book.@emphasis=the book itself
+@enough (sufficiently) big.@enough=big enough
+@entire (Reference to the whole.) entire book = book.@entire, whole book = book.@whole
+@entry (head of the main clause)
+@epanalepsis (repetition of the initial word or words of a clause or sentence at the end of the clause or sentence)
+@epanorthosis (Immediate and emphatic self-correction, often following a slip of the tongue)
+@equal (comparative of equality) big.@equal=as big as
+@equivalent (equality of status)
+@euphemism (Substitution of a less offensive or more agreeable term for another)
+@even (even) book.@even=even a book
+@even.@if (even if) do.@even.@if = even if [he] does
+@except (except)
+@except_for (except for)
+@except.@if (except if) do.@except.@if = except if [he] does
+@exclamation
+@excluding (excluding)
+@exhortation
+@expectation
+@experiential (experience) eat.@experiential=have already eaten
+@extra (excessively) big.@extra=too big
+@failing (failing)
+@familiar (high degree of solidarity) mother.@familiar=mom
+@far (far from) the book far from the box = plc(book,box.@far)
+@fear
+@female (female) 00.@3.@female=she
+@focus (information that is contrary to the presuppositions of the interlocutor) John.@focus = it was John that
+@following (following)
+@for (for)
+@from (from)
+@front (in relation to the front of) the book in front of the box = plc(book,box.@front)
+@future (at a time after the moment of utterance) go.@future = will go
+@generic (generic) book.@generic=books, a book
+@given (given)
+@habitual (habitual) eat.@habitual=eats
+@half (One of two equal parts that together constitute a whole) semicircle = circle.@half
+@hesitation (Expression of hesitation) 00.@hesitation=..er..
+@hope
+@hyperbole (Use of exaggerated terms for emphasis)
+@hypothesis
+@if (if) do.@if = if [he] does
+@if.@only (only if) do.@if.@only = only if [he] does
+@imperfective (uncompleted) eat.@habitual=was eating
+@in (in) in
+@in_accordance_with (in accordance with)
+@in_addition_to (in addition to)
+@in_case (in case (that)) do.@in_case = in case [he] does
+@in_case_of (in case of)
+@in_front_of (in front of) in front of
+@in_place_of (in place of) in place of
+@in_spite_of (in spite of)
+@inceptive (beginning) eat.@inceptive=start eating
+@inchoative (Inchoative aspec (change of state)) adult.@inchoative (become adult)
+@including (including)
+@indef (a, an) book.@indef=a book
+@inferior (low degree of status)
+@inside (inside)
+@instead_of (instead of)
+@intention
+@interrogation
+@intimate (very high degree of solidarity) mother.@intimate=mommy
+@invitation
+@irony (Use of word in a way that conveys a meaning opposite to its usual meaning)
+@iterative (repetition) eat.@iterative=eat and eat
+@jargon (technical vocabulary)
+@judgement
+@least (superlative of inferiority) big.@least=the smallest
+@left (in relation to the left side of) the book at the left of box = plc(book,box.@left)
+@less (comparative of inferiority) big.@less=smaller
+@like (like)
+@literary (Used to create a special effect in poems or novels, and are not usually used in ordinary speech or writing.) awaken = awake.@literary
+@majority (A great majority of; nearly all) most books = books.@majority; most of the book = book.@majority
+@male (male) 00.@3.@male=he
+@maybe (Attribute that expresses doubt) Maybe he will go > go.@maybe
+@medial (medial) medial
+@metaphor (Stating one entity is another for the purpose of comparing them in quality)
+@metonymy (Substitution of a word to suggest what is really meant)
+@minority (a number, part, or amount forming less than half of the whole) few people among all = people.@minority
+@minus (downtoned) big.@minus=a little big
+@more (comparative of superiority) big.@more=bigger
+@most (superlative of superiority) big.@most=biggest
+@multal (a lot of, many, much, several) book.@multal=a lot of books
+@narrative
+@near (near to) the book near the box = plc(book,box.@near)
+@near_to (near to) near to
+@necessity
+@neither (neither) foot.@neither=neither foot
+@neutral (neutral) 00.@3.@neutral=it
+@no (no) book.@no=no book
+@not (negative) go.@not=I do not go
+@notwithstanding (notwithstanding)
+@noun (nominalization) poor.@noun=the poor
+@obligation
+@of (of) book of pictures > mod(book,pictures.@of)
+@off (off)
+@on (on) on
+@on_account_of (on account of)
+@on_behalf_of (on behalf of)
+@on_top_of (on top of) on top of
+@only (only) book.@only=only the book
+@onomatopoeia (Words that sound like their meaning)
+@opinion
+@opposite (opposite)
+@or (or, either... or, whether... or) do.@or = or [he] does
+@ordinal (ordinal numeral) 1.@ordinal=first
+@other (other, another, else) book.@other=other book
+@outside (outside)
+@over (over) over
+@owing_to (owing to)
+@own (own) book.@own=own book
+@oxymoron (Using two terms together, that normally contradict each other)
+@pace (pace)
+@pain (Expression of pain) 00.@pain=ouch!
+@paradox (Use of apparently contradictory ideas to point out some underlying truth)
+@parallelism (use of similar structures in two or more clauses)
+@parenthesis (( )) a.@parenthesis=(a)
+@paronomasia (A form of pun, in which words similar in sound but with different meanings are used)
+@part (A portion, division, piece, or segment of a whole) part of the book = book.@part
+@passive (passive voice) kill.@passive=was killed
+@past (at a time before the moment of utterance) go.@past = went
+@paucal (a few, a little, few, little, some, a couple of) book.@paucal=a few book
+@pejorative (Having an unpleasant or disparaging connotation) scalawag = rascal.@pejorative
+@per (per)
+@perfect (used to indicate that an action or circumstance occurred earlier than the present time (or other time under consideration), often focusing attention on the resulting state rather than on the occurrence itself) I have made the dinner
+@perfective (completed) eat.@perfective=ate
+@periphrasis (Using several words instead of few)
+@permission
+@permissive (allowing) eat.@permisse=let eat
+@persistent (persistent) eat.@persistent=have been eating
+@person (human) 00.@person=someone
+@pl (plural) book.@pl=plural
+@pleonasm (Use of superfluous or redundant words)
+@plus (intensified) big.@plus=very big
+@polite (low degree of solidarity)
+@polyptoton (repetition of words derived from the same root)
+@polysyndeton (repetition of conjunctions)
+@possibility
+@posterior (after some other time other than the time of utterance)
+@prediction
+@present (at the moment of utterance) go.@present = goes
+@presumption
+@prior_to (prior to)
+@probability
+@progressive (ongoing) eat.@progressive=is eating
+@prohibition
+@promise
+@prospective (imminent) eat.@prospective=about to eat
+@proximal (this, these) book.@proximal=this book
+@pursuant_to (pursuant to)
+@qua (qua)
+@quadrual (Four of a class)
+@recent (close to the moment of utterance) go.@recent = have just gone
+@reciprocal (reciprocal voice) kill.@reciprocal=kill each other
+@reflexive (reflexive voice) kill.@reflexive=kill oneself
+@regarding (regarding)
+@regardless_of (regardless of)
+@regret
+@relative (head of the relative clause)
+@relief (Expression of relief)
+@remote (remote from the moment of utterance)
+@repetition (Repeated usage of word(s)/group of words in the same sentence to create a poetic/rhythmic effect)
+@request
+@result (resulting) eat.@result=have eaten
+@reverential (very high status)
+@right (in relation to the right side of) the box at the right of the box = plc(book,box.@right)
+@round (round)
+@same (same) book.@same=same book
+@save (save)
+@side (at one of the sides of) the book beside the box = plc(book,box.@side)
+@since (since)
+@single_quote (' ') a.@single_quote='a'
+@singular (singular) book.@singular=book
+@slang (slang)
+@so (so, then, so that, that) do.@so = so [he] does
+@speculation
+@speech (Direct speech)
+@square_bracket ([ ]) a.@square_bracket=[a]
+@subsequent_to (subsequent to)
+@such (such) book.@such=such books
+@suggestion
+@superior (high status)
+@surprise (Expression of surprise) 00.@surprise=oh!
+@symploce (combination of anaphora and epistrophe)
+@synecdoche (Form of metonymy, in which a part stands for the whole)
+@synesthesia (Description of one kind of sense impression by using words that normally describe another.)
+@taboo (offensive word)
+@terminative (cessation) eat.@terminative=finished eating
+@than (than)
+@thanks_to (thanks to)
+@that_of (that of)
+@thing (inanimate) 00.@thing=something
+@threat
+@through (through)
+@throughout (throughout) throughout
+@times (multiplicative numeral) 2.@times=twice
+@title (title) book.@title=
+@to (to)
+@top (in relation to the top of) the book on the table = plc(book,table.@top.@contact)
+@topic (topic of the sentence) book.@topic=the book that
+@towards (towards) towards
+@trial (Three of a class)
+@tuple (collective numeral) 2.@tuple=double
+@under (under) under
+@unit (an individual, group, structure, or other entity regarded as an elementary structural or functional constituent of a whole) a slice of bread = bread.@unit
+@unless (unless) do.@unless = unless [he] does
+@unlike (unlike)
+@until (until)
+@up (up)
+@upon (upon)
+@verb (verbalization) google.@verb=to google
+@versus (versus)
+@vocative (Being addressed) agt(run, John.@vocative)= John, run
+@warning
+@weariness (Expression of weariness)
+@wh (what, whatever, which, whichever) book.@wh=what book
+@with (with)
+@with_regard_to (with regard to)
+@with_respect_to (with respect to)
+@within (within) within
+@without (without)
+@worth (worth)
+@yes (affirmative) go.@yes=I do go
+@zoomorphism (Applying animal characteristics to humans or gods)
+0316 wow there are over 800 of those
+0318 I think I like them more than the relations
+they seem to cover the same kind of stuff but better,
+also the relations are very confusing, since they are all about
+graphs and not about language.
+0319 can probably start with the super categories
+att
+animacy (ANIA)
+aspect (ASPA)
+degree (DEGA)
+emotions (FEEL)
+figure of speech (FIGA)
+gender (GENA)
+information structure (ISTA)
+lexical category (LEXA)
+manner (HOW)
+modality (MODA)
+nominal attributes (NOUA)
+person (PERA)
+place (WHERE)
+polarity (POLA)
+quantification (QUAA)
+register (REGA)
+social deixis (SODA)
+specification (WHICH)
+syntactic structures (SYNA)
+time (WHEN)
+voice (VOIA)
+0321 some of those categories while interesting,
+are far to specific for an initial frame vocabulary.
+0332 I could probably use at least some of it though
+perhaps can make a frame vocab that is intersection of one I
+made before and this, that may be ideal ya
+or can simply select the useful categories like person place
+quantification and such
+1016 okay what to do, I guess we can do some basic vocab words
+for now ya
+maybe funny so I can finally make that reply to that guy
+can also check out the toki pona vocabulary
+1021 hmmm guess can start with english lemmas,
+those are bound to be useful, intersected with UW attributes.
+I can change mi to be simply first person pronoun
+yu to be second person pronoun
+sa to be third person pronoun
+mu to be plural modifier
+1025 okay too many files, gotta trim it back down to the binary
+ones 1 bit 2bit 3bit and 4 bit alphabet
+or 2 glyphs 4 glyph 8glyph and 16glyph
+can simply stop using the other ones
+1027 in fact can simply use the 16 bit one and disregard the
+others.
+I wanted to change either to disjunct or something, 
+or I can even simply remove all the 2bit definitions or
+something dono, w/e leave them for now, we need to add words at
+this point not remove.
+1037 I tried putting the vocab in mwak performance grammar
+order, but since from doesn't have official sublcauses it ends
+up in the wrong spot, not fronted. thus I may have to shift some
+stuff around for it to work properly ya
+1107 okay rewrote algorithm for performance grammar will have to
+debug
+1149 almost works :-)
+1201 okay works but need to figure out why kya is at end in
+stead of front ya
+1213 okay fixed
+1231 now setting up so text outputs formated lines up to 64
+glyphs long and breaks at nearest word boundary ya
+} 21 Jan 2015
+0024 changed my monitor to be be sideways, so is more like the
+page of a book ya
+has a good feel to it, also can see more history better this way
+:-). 
+0107 got a wordwrap function from internet, much better than
+mine, but it has some extra newlines where I don't need, not
+sure how to remove them, since it uses rather opaque regular
+expression for matching.
+0130 okay  I think I finally figured it out with a regexp
+reference to help me :-)
+needed lookahead patter (?=\\s|$) instead of normal match
+0133 also performance grammar needs a bit more work
+0137 okay now seems to be fully operational :-)
+0144 should test in web version
+0154 weird it isn't working in web version
+0211 okay was issue with basis and not checking for clauses has
+been fixed ya

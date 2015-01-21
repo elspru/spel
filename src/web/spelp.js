@@ -83,7 +83,7 @@ if (mode === "day") cssElem.href = "spel-day.css";
 else cssElem.href = "spel-night.css";
 }
 
-var HtmlFormat = { newline: "<br/>"};
+var HtmlFormat = { newline: "<br/>", lineLength: 0};
 var synesthesia = require("../lang/synesthesia");
 var htmlSynGlyphsTransform = 
 synesthesia.htmlSynGlyphsTransform;
