@@ -31,34 +31,54 @@ Speakable Programming for Every Language Translator SPELT
 0.4.2 add a bunch of widely spoken languages  (14 Jan 2015)
 0.4.3 verify that all definitions are unique (16 Jan 2015)
 0.4.4 verb, ergative and tripartite support (19 Jan 2015)
-0.4.5 performance grammar phrase ordering (20 Jan 2015)
+0.4.5 performance grammar phrase ordering (21 Jan 2015)
+0.4.6 basic conjugation support (27 Jan 2015)
+0.4.7 systemize adding new languages (30 Jan 2015)
 
-0.4.6 add UW relations and toki pona level frame vocabulary
-0.4.7 systemize adding new languages
-0.4.8 make it easy for people to contribute term corrections
-0.4.9 topicalization
-0.4.A sentence junctions
-0.4.B UW attributes vocabulary
-0.4.C fine tune grammar words for added languages
+0.4.8 topicalization
+0.4.9 translate files based on extension
+0.4.A add less popular languages from plain text definitions ya
+0.4.B translation of simple sentences to javascript
+0.4.C javascript nominal sentences
+0.4.E sentence head at start for head-initial languages
 0.5 quotes
 0.5.1 word quotes
 0.5.2 literals
 0.5.4 multi word quotes
+0.5.5 javascript string literals
 0.5.A number quotes
 0.5.C multi sentence quotes
-0.5.1 spaceless mwak tokenization
-0.5.4 conjugation dictionary
-0.5.8 conjugation support for natural-like output
-0.5.C contractions
-0.5.D auto-complete missing mandatory elements 
-0.6 download translation result
-0.7 translatable mwak files for all parts of Language grammar
-0.7.8 all error and site messages translated
-0.8 write documentation 
+0.6.1 spaceless mwak tokenization
+0.6.4 compound words
+0.6.6 mood conjugation
+0.6.D auto-complete missing mandatory elements 
+0.7 basic javascript translation
+0.7.2 sentence junctions
+0.7.3 javascript conditionals
+0.7.4 javascript loops
+0.7.B javascript prototypes?
+0.8 download translation result
+0.9 translatable mwak files for all parts of Language grammar
+0.9.8 all error and site messages translated
 0.A support measurement translation
+0.B write documentation 
 0.D continue after recoverable errors and warnings
 0.F write tutorial or FAQ bot 
-1.0.0 do some promotion
+0.F.6 make it easy for people to contribute term corrections
+1.0 do some promotion
+1.0.1 write a story in SPEL with translations
+1.0.2 set up a blog in SPEL with translations
+1.0.4 write 99 bottles of water on the wall
+1.0.5 write an article about SPEL
+1.0.6 get some feedback about SPEL
+1.0.8 set up SPEL community
+1.0.C be interviewed about SPEL
+1.0.D get moderators
+1.0.F get promoters
+1.2 conjugation
+1.2.8 verb agreement
+1.2.A genitive agreement
+1.2.C contractions
 
 Speakable Programming for Every Language SPEL (mwak)
 0.1.0 generate html from mwak (hello world)

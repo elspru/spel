@@ -1,101 +1,127 @@
-.i yi .u бути yi .a ya
-.a yi .u про yi .a ya
-.u yi .u а yi .a ya
-mi yi .u мені yi .a ya
-ki yi .u і yi .a ya
-ka yi .u це yi .a ya
-ku yi .u якщо yi .a ya
-yi yi .u У yi .a ya
-ya yi .u я yi .a ya
-pi yi .u з yi .a ya
-pa yi .u зробити yi .a ya
-pu yi .u па yi .a ya
-wa yi .u або yi .a ya
-na yi .u ню yi .a ya
-nu yi .u зараз yi .a ya
-ti yi .u то yi .a ya
-ta yi .u для yi .a ya
-tu yi .u тебе yi .a ya
-fu yi .u Віль yi .a ya
-myi yi .u пам'ять yi .a ya
-mwa yi .u любов yi .a ya
-kyi yi .u умовно yi .a ya
-kya yi .u в-бік yi .a ya
-kwi yi .u ді yi .a ya
-ksa yi .u пов yi .a ya
-kca yi .u ха yi .a ya
-pwa yi .u дили yi .a ya
-pca yi .u веселий yi .a ya
-nya yi .u від yi .a ya
-sli yi .u наприклад yi .a ya
-sla yi .u здрастуйте yi .a ya
-tya yi .u Пропозиція-хвіст yi .a ya
-twa yi .u потім yi .a ya
-tli yi .u ога yi .a ya
-mik .u копія yi .a ya
-miy .u чекати yi .a ya
-mip .u повз yi .a ya
-min .u менше yi .a ya
-mak .u слово yi .a ya
-map .u розмір yi .a ya
-kim .u порівняти yi .a ya
-kiy .u йти yi .a ya
-kam .u почати yi .a ya
-kap .u глава yi .a ya
-kan .u причина yi .a ya
-kut .u невеликої yi .a ya
-yim .u обидва yi .a ya
-yik .u заперечувати yi .a ya
-yip .u гліф yi .a ya
-yam .u сказати yi .a ya
-pim .u точка yi .a ya
-piy .u акт yi .a ya
-pin .u всередині yi .a ya
-pam .u добре yi .a ya
-pak .u тіло yi .a ya
-pay .u більше yi .a ya
-paw .u місце yi .a ya
-pan .u зустріч yi .a ya
-pat .u багато yi .a ya
-pac .u радість yi .a ya
-puy .u дитина yi .a ya
-put .u майбутнє yi .a ya
-wam .u час yi .a ya
-wap .u хвіст yi .a ya
-wul .u великий yi .a ya
-nam .u кількість yi .a ya
-naw .u Нині yi .a ya
-sun .u один yi .a ya
-tuw .u два yi .a ya
-cik .u кілька yi .a ya
-myik .u додавати yi .a ya
-kyim .u віднімати yi .a ya
-kwal .u мову yi .a ya
-klaw .u сміх yi .a ya
-klas .u пункт yi .a ya
-pyan .u займенник yi .a ya
-pyas .u фраза yi .a ya
-pyat .u грамматико-об'єкт yi .a ya
-psan .u простір yi .a ya
-flas .u фраза yi .a ya
-tkic .u переклад-словник yi .a ya
-slim .u приклад yi .a ya
-tlin .u порядковий yi .a ya
-miyk .u послати yi .a ya
-muys .u емоція yi .a ya
-miwk .u людина yi .a ya
-munt .u світ yi .a ya
-kiym .u отримати yi .a ya
-kamt .u граматика yi .a ya
-kayp .u річ yi .a ya
-kump .u настрій yi .a ya
-kast .u граматична-випадку yi .a ya
-yimk .u запитати yi .a ya
-wiyp .u дієслово yi .a ya
-sint .u відчувати yi .a ya
-niym .u іменник yi .a ya
-sant .u вирок yi .a ya
-suyt .u грамматико-об'єктом yi .a ya
-tiwk .u діяльність yi .a ya
-timp .u грамматико-напруженою yi .a ya
-tick .u словник yi .a ya
+.i li .u бути li .a ya
+.a li .u про li .a ya
+.u li .u а li .a ya
+mi li .u мені li .a ya
+ma li .u що li .a ya
+ki li .u і li .a ya
+ka li .u це li .a ya
+ku li .u якщо li .a ya
+yi li .u це li .a ya
+yu li .u ви li .a ya
+ya li .u я li .a ya
+pi li .u з li .a ya
+pa li .u що-що li .a ya
+wi li .u ми li .a ya
+pu li .u па li .a ya
+wa li .u або li .a ya
+na li .u ню li .a ya
+si li .u вони li .a ya
+nu li .u зараз li .a ya
+ti li .u то li .a ya
+ta li .u для li .a ya
+tu li .u тебе li .a ya
+li li .u буквальний li .a ya
+fu li .u Віль li .a ya
+myi li .u пам'ять li .a ya
+mwa li .u любов li .a ya
+kmu li .u з li .a ya
+kyi li .u умовно li .a ya
+kya li .u в-бік li .a ya
+kwi li .u ді li .a ya
+ksa li .u пов li .a ya
+kca li .u ха li .a ya
+pli li .u у li .a ya
+pla li .u множинне-число li .a ya
+pwa li .u дили li .a ya
+plu li .u для li .a ya
+pca li .u веселий li .a ya
+nwa li .u нуль li .a ya
+nya li .u від li .a ya
+sli li .u наприклад li .a ya
+slu li .u особливий li .a ya
+sla li .u здрастуйте li .a ya
+tya li .u Пропозиція-хвіст li .a ya
+twa li .u потім li .a ya
+tli li .u ога li .a ya
+mik .u копія li .a ya
+miy .u чекати li .a ya
+mip .u повз li .a ya
+mam .u мама li .a ya
+min .u менше li .a ya
+mak .u слово li .a ya
+mat .u мати li .a ya
+man .u думати li .a ya
+map .u розмір li .a ya
+kim .u порівняти li .a ya
+kiy .u йти li .a ya
+kam .u почати li .a ya
+kap .u глава li .a ya
+kan .u знати li .a ya
+kas .u причина li .a ya
+kal .u всі li .a ya
+kut .u невеликої li .a ya
+yik .u заперечувати li .a ya
+yan .u сказати li .a ya
+pim .u точка li .a ya
+piy .u акт li .a ya
+pam .u добре li .a ya
+pak .u тіло li .a ya
+pap .u папа li .a ya
+pay .u більше li .a ya
+paw .u місце li .a ya
+pat .u батько li .a ya
+pal .u багато li .a ya
+pan .u зустріч li .a ya
+pac .u радість li .a ya
+puy .u дитина li .a ya
+put .u майбутнє li .a ya
+wam .u час li .a ya
+wap .u хвіст li .a ya
+wat .u говорити li .a ya
+wul .u великий li .a ya
+nam .u кількість li .a ya
+sim .u три li .a ya
+naw .u Нині li .a ya
+tin .u всередині li .a ya
+tiw .u допоможіть li .a ya
+sun .u один li .a ya
+tak .u подякувати li .a ya
+liy .u чотири li .a ya
+tuw .u два li .a ya
+lit .u mwak-test li .a ya
+cik .u кілька li .a ya
+caw .u крик li .a ya
+myik .u додавати li .a ya
+kyim .u віднімати li .a ya
+kyul .u правило li .a ya
+kwal .u мову li .a ya
+klaw .u сміх li .a ya
+klas .u пункт li .a ya
+pyan .u займенник li .a ya
+pyas .u фраза li .a ya
+pyat .u грамматико-об'єкт li .a ya
+plis .u поруч li .a ya
+psan .u простір li .a ya
+flas .u фраза li .a ya
+tkic .u переклад-словник li .a ya
+tlam .u перевести li .a ya
+slim .u приклад li .a ya
+tlin .u порядковий li .a ya
+miyk .u послати li .a ya
+muys .u емоція li .a ya
+miwk .u людина li .a ya
+munt .u світ li .a ya
+kiym .u отримати li .a ya
+kamt .u граматика li .a ya
+kayp .u річ li .a ya
+kump .u настрій li .a ya
+kast .u граматична-випадку li .a ya
+yimk .u запитати li .a ya
+wiyp .u дієслово li .a ya
+sint .u відчувати li .a ya
+niym .u іменник li .a ya
+sant .u вирок li .a ya
+suyt .u грамматико-об'єктом li .a ya
+tiwk .u діяльність li .a ya
+timp .u грамматико-напруженою li .a ya
+tick .u словник li .a ya

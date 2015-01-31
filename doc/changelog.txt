@@ -940,3 +940,142 @@ needed lookahead patter (?=\\s|$) instead of normal match
 0154 weird it isn't working in web version
 0211 okay was issue with basis and not checking for clauses has
 been fixed ya
+0738 so what is next? vocabulary work.
+guess I will start with UW relations and attributes,
+even if the UNL implemenation of them is opaque,
+at least the common ones which are easy to understand,
+I will implement ya
+0739 for now can add the UW or UNL equivalent to those words
+which are already defined ya
+1546 so I'm working on pronouns for now
+1559 added null as nwa for 00 UW
+1858 hmmm I don't think I should have plural and singular forms 
+at this moment, there might be a bunch of other words that want
+those CV spots ya, should just have a word for singulr and
+plural ya
+} 22 Jan 2015
+0328 I guess singular is common enough, so I just took out the
+one for plural and kept the generic yu 
+0436 ya so I'm pretty much defining everything in 4bit, way too
+much hassle trying to use multiple files ya
+0439 put mom and  dad in the extended vocab, mam and pap ya
+though I could put mother and father mat and pat in core
+0616 changing yi to li so yi can be this, and ka can be it
+0638 debugging seems to be some parse issue or something
+0737 almost done update just have to debug a few non unique
+words ya
+1006 okay it is fully operational now :-)
+2317 got synesthesia bookmarklet working fairly satisfactory now
+:-D well only on desktop, have no idea how to get it to work on
+a phone version, not sure how to open a bookmark in the same
+window. 
+} 23 Jan 2014
+1231 okay figured it out. works on the phone for some websites
+also anyways. 
+1232 so planning on moving basic conjugation ahead on the
+roadmap.
+first will organize the language packs so they are in external
+files, 
+and then will do the conjugation ya
+which will consist of simply removing or replace  the su ob ya 
+yand and other unusual words ya
+1302 okay so the first thing on the agenda is systemizing the
+adding of new languages. 
+1304 can use spelp as a model
+1546 you know what I'm more interested in basic conjugation
+support at this time, lets get a basic prototype working, to my
+knowledge most languages don't have su and ob, so we can just
+assume they aren't marked.
+can have an unmarked phrase list ya
+1632 or we can simply call it unmarked words.
+hmmm I'm thinking topicalization can be good also,
+since now that we have performance grammar subject isn't always
+the first thing ya
+1737 cool so got odroid working :-)
+} 26 Jan 2015
+0733 can do conjugation with regular expression search and
+replace ya
+a file consisting of su what to replace with ob what would be
+sufficient also ya
+0748 okay well seems like we would need multi word quote support
+before can make conjugation from text files.  but for now can do
+it with json files or something ya
+0811 hmmm this form of conjugation is very basic, for instance
+can't translate " of you " into "your" as that would require a
+word-order change, but can translate "su you" into " ye ".
+0813 I've also divided it into reversible and irreversible
+conjugation ya
+0814 wow, that's amazing I found a word for third-person
+singular in english it is ey and eir for they and their
+respectively :-D
+1127 so can do Translate.conjugate(grammar.conjugation,string);
+just before outputting, and this would be at the sentence level
+ya
+1141 can also deconjugate the reversible ones at least in
+begining. 
+1150 I've populated eng.js with a bunch of examples.
+1402 also need it to take a variable for type of conjugation,
+whether it is plain (none), conjugated (reversible), 
+or naturalized (irreversible).
+} 27 Jan 2014
+0344 bah, time to get something done ya
+0416 added the statements to sentence.js
+0423 hmmm I'm thinking maybe we shouldn't accept any conjugation
+as input, since there are no guarantees with such a brute for
+search and replace..
+0500 bah keep getting distracted by facebook :-|
+0501 anyways so next have to set up spel-node.js to accept
+eng.js as input, then write the conjugation search and replace
+functions
+0606 awesome conjugation is now fully operational
+0625 still have to port other languages than english into the
+new locale framework, and also test the web version. but can do
+that later, need some more sleep first ya
+1315 okay so I'm settin gup the file system for making it easier
+to deal with the languages in locale
+1327 okay I made french, now should test it
+} 28 Jan 2015
+0603 adding languages to the new directory system,
+have english, french and spanish so far ya
+0641 added mandardin, arabic, hindi
+0652 added russian and ukranian
+} 29 Jan 2015
+0209 hopefully will have enough time to finish off basic
+conjugation. or rather I guess we're working on systemizing now
+ya
+0211 one of the languages I'm most interested in is Inuktitut,
+it requires some very heavy verb conjugation however.
+also Esperanto requires conjugation, so it might make sense to
+have a conjugation.verb and conjugation.noun function ya
+0213 we can make a mwak flavoured version of Inuktitut, but it
+will bear little or no resemblance to it's parent language ya
+however it will still be easier to translate from that to
+ordinary Inuktitut than simple SPEL.
+Inuktitut is OSV the verbs are VS, it is verb-initial.
+0232 I've also got to improve the performance of the site, since
+it is too slow with the whole loading all these languages ya
+perhaps can put the vocab in JSON files, or compact them into a
+single file somehow, don't know if can require a JSON file thus
+shove the dictionary in more easily.
+0414 okay cool I finished systemizing, now I just have to update
+the web file to use it.
+0458 now I need to add the new langs ita and hun, also should
+make a listener for the conjugation
+0520 I have a feeling that if I publish a story in analytic
+inuktitut some of the elder inuit might get rather angry ya
+since it wouldn't really be inuktitut anymore ya
+0530 weird it is not conjugating in web verrsion.
+0533 maybe it needs a string buffer or something
+0534 I dono anyways I need some sleep before dawn
+0743 maybe it is because of static strings, might be able to get
+around it with split join via stringBuffer ya
+0910 I think it's because of the syntax highlighting, I have to
+transform before the syntax highlighting.
+0943 okay well now I have no idea why it's not working.
+0942 also a simple regexp wouldn't work for anything with html
+formatting
+2203 finishing up first post to mailing list
+} 30 Jan 2015
+0714 so next is topicalization
+2111 edited the roadmap some,
+decided that should leave major conjugation ttil after 1.0 ya

@@ -17,7 +17,7 @@ var Language = require('../lang/language');
 var mwak = new Language();
 
 // first argument is filename
-var filename = "mwak/vocab-mwak-C16glyph.txt" ;//process.argv[2];
+var filename = "mwak/vocab-mwak-X16glyph.txt" ;//process.argv[2];
 var fileContents = io.fileRead(filename);
 var fileText = new Text(mwak,fileContents);
 var definitions = fileText.select(mwak,".a");
@@ -31,4 +31,5 @@ sentences[i].phraseDelete(mwak,".a");
 }
 console.log(definitions.toString());
 io.fileWrite("mwak.txt",definitions.toString());
+io.fileWrite("mwak.txt.json",JSON.stringify(definitions));
 

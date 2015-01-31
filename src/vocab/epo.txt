@@ -1,25 +1,22 @@
-.i yi .u esti yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
-mi yi .u mi yi .a ya
-ki yi .u kaj .a ya
-ka yi .u ĉi .a ya
-ku yi .u se yi .a ya
-yi yi .u vo yi .a ya
-ya yi .u ja yi .a ya
-pi yi .u el yi .a ya
-pa yi .u faras yi .a ya
-wa yi .u aŭ .a ya
-ti yi .u ke .a ya
-ta yi .u por yi .a ya
-tu yi .u vi yi .a ya
-myi yi .u memoro .a ya
-mwa yi .u ama .a ya
-kyi yi .u kondiĉe .a ya
-kwi yi .u kjaj .a ya
-pwa yi .u yaŭ .a ya
-sli yi .u por-ekzemple .a ya
-sla yi .u saluton yi .a ya
+.i li .u esti li .a ya
+.a li .u ob li .a ya
+.u li .u su li .a ya
+mi li .u mi li .a ya
+ki li .u kaj .a ya
+ku li .u se li .a ya
+ya li .u ja li .a ya
+pi li .u el li .a ya
+wa li .u aŭ .a ya
+ti li .u ke .a ya
+ta li .u por li .a ya
+tu li .u vi li .a ya
+myi li .u memoro .a ya
+mwa li .u ama .a ya
+kyi li .u kondiĉe .a ya
+kwi li .u kjaj .a ya
+pwa li .u yaŭ .a ya
+sli li .u por-ekzemple .a ya
+sla li .u saluton li .a ya
 mik .u kopio .a ya
 miy .u atendi .a ya
 min .u malpli .a ya
@@ -28,16 +25,11 @@ map .u amplekso .a ya
 kim .u kompari .a ya
 kiy .u iri .a ya
 kut .u minhmap .i malgranda .a ya
-yim .u ĉu .a ya
 yik .u neas .a ya
-yip .u signo .a ya
-yam .u diri .a ya
-pin .u interne .a ya
 pam .u bona .a ya
 pay .u pli .a ya
 paw .u loko .a ya
 pan .u renkonti .a ya
-pat .u payhnam .i multa .a ya
 puy .u infano .a ya
 wul .u payhmap .i granda .a ya
 nam .u nombro .a ya

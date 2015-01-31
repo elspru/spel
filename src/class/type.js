@@ -36,7 +36,6 @@ if (typeof firstToken === "object") // such as Quote
 // if contains junction word return Junction 
 if (tokens.rfind(parse.wordMatch.curry(
 language.grammar.junctions))){
-console.log(tokens);
 var Junction = require("./junction");
 return new Junction(language,tokens);
 }

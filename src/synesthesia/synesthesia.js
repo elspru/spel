@@ -1,15 +1,39 @@
-
 'use strict';
 console.log('start');
 /*globals*/
-var siteBase=('http://mwak.tk/spel/src/web/');
+var siteBase=('http://spel.sourceforge.net/src/web/');
 
 /*functions*/
 function themeSet(mode){
-var cssElem = document.querySelector('link[rel=stylesheet]');
-if (mode === 'day') cssElem.href = siteBase+'spel-day.css';
-else cssElem.href = siteBase+'spel-night.css';}
-
+var head = document.getElementsByTagName('head')[0];
+var prevCssLink= document.querySelector('link[rel=stylesheet]');
+var cssURI = (siteBase+'spel-night2.css');
+console.log(cssURI);
+console.log(prevCssLink);
+if (prevCssLink){
+prevCssLink.type='text/css';
+prevCssLink.href=cssURI;}
+else if (!prevCssLink){
+var fileRef = 
+document.createElement('link');
+  fileRef.setAttribute('rel', 'stylesheet');
+  fileRef.setAttribute('type', 'text/css');
+fileRef.setAttribute('href', cssURI);
+head.appendChild(fileRef);
+prevCssLink= 
+document.querySelector('link[rel=stylesheet]');
+}
+console.log(prevCssLink);
+/*var prevStyle = 
+document.getElementsByTagName('style');
+console.log(prevStyle);
+if (prevStyle){
+var i;
+for (i=0;i<prevStyle.length;i++)
+ head.removeChild(prevStyle[i]);
+}*/
+console.log(prevCssLink);
+}
 function stringToGlyphs(/*string*/string){
 return string.split('');};
 
@@ -21,39 +45,47 @@ function htmlSynGlyphsTransform(string){
 var glyphs=stringToGlyphs(string);
 var result = new String();
 var i, glyph, inTag = false;
+var inQuote = false;
 for (i=0;i<glyphs.length;i++){
 glyph = glyphs[i];
+/* skip if space */
+if (/\s/.test(glyph) && !/\S/.test(glyph)){
+result+= glyph; continue;}
 if (glyph === '.') glyph = span('gs',glyph);
 else if (glyph === '>' || glyph === ';') inTag = false;
-else if (glyph === '<' || glyph === '&') inTag = true;
-else if (inTag) true;
+else if (glyph === '<' || glyph === '&') { inTag = true;}
+else if (inTag || inQuote) true;
 else glyph = span(glyph+'y',glyph);
 result+=glyph;}
 return result;}
 
-function HTMLNodeIterator(){ 
-this.iterate = function iterate(task,node){
-console.log(node.childNodes.length);
-var x; for(x=0;x<node.childNodes.length;x++){
-var childNode = node.childNodes[x];
-console.log(childNode.tagName);
-if (childNode.tagName !== 'SPAN'){
-task(childNode);
-/*if( childNode.childNodes.length > 0 )
-this.iterate(task,childNode);*/}}}}
-
 function elemGlyphsTransform(elem){
 var content = elem.innerHTML;
-if (content) elem.innerHTML =  
-htmlSynGlyphsTransform(content);}
+if (content) {var htmlSyn =  
+htmlSynGlyphsTransform(content);
+elem.textContent='';
+elem.innerHTML = htmlSyn;
+}
+}
 
 /*main*/
 function main(){
+console.log('setting theme');
 themeSet('night');
 var bodyElement = document.getElementsByTagName('body')[0];
-var htmlNodeIterator = new HTMLNodeIterator();
-htmlNodeIterator.iterate(elemGlyphsTransform,bodyElement);
+var children = bodyElement.children;
+console.log('iterating');
+iterate(children);
 }
-
+function iterate(children){
+var i;
+for(i=0;i<children.length;i++){
+var child = children[i];
+child.normalize();
+/*var subChildren = child.children;
+if (subChildren.length > 0) iterate(subChildren);*/
+elemGlyphsTransform(child);
+}
+}
 main();
 console.log('done');

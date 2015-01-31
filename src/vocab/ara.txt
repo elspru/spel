@@ -1,103 +1,129 @@
-.i yi .u يكون yi .a ya
-.a yi .u أوب yi .a ya
-.u yi .u سو yi .a ya
-mi yi .u أنا yi .a ya
-ki yi .u و yi .a ya
-ka yi .u هذا yi .a ya
-ku yi .u إذا yi .a ya
-yi yi .u وو yi .a ya
-ya yi .u يا yi .a ya
-pi yi .u من yi .a ya
-pa yi .u فعل yi .a ya
-pu yi .u با yi .a ya
-wa yi .u أو yi .a ya
-na yi .u نو yi .a ya
-nu yi .u الآن yi .a ya
-ti yi .u ثا yi .a ya
-ta yi .u إلى yi .a ya
-tu yi .u اليك yi .a ya
-fu yi .u فيل yi .a ya
-myi yi .u ذاكرة yi .a ya
-mwa yi .u حب yi .a ya
-kyi yi .u مشروط yi .a ya
-kya yi .u جانبا yi .a ya
-kwi yi .u ياو yi .a ya
-ksa yi .u ال yi .a ya
-kca yi .u هكتار yi .a ya
-pwa yi .u ياأو yi .a ya
-pca yi .u مرح yi .a ya
-nya yi .u منذ yi .a ya
-sli yi .u مثلا yi .a ya
-sla yi .u مرحبا yi .a ya
-tya yi .u بند-الذيل yi .a ya
-twa yi .u ثم yi .a ya
-tli yi .u رتبو yi .a ya
-mik .u نسخة yi .a ya
-miy .u انتظر yi .a ya
-mip .u الماضي yi .a ya
-min .u أقل yi .a ya
-mak .u كلمة yi .a ya
-map .u حجم yi .a ya
-kim .u مقارنة yi .a ya
-kiy .u اذهب yi .a ya
-kam .u ابدأ yi .a ya
-kap .u رئيس yi .a ya
-kan .u سبب yi .a ya
-kut .u صغير yi .a ya
-yim .u إما yi .a ya
-yik .u ينفي yi .a ya
-yip .u الصورة .a ya
-yam .u قول yi .a ya
-pim .u نقطة yi .a ya
-piy .u عمل yi .a ya
-pin .u داخل yi .a ya
-pam .u خير yi .a ya
-pak .u هيئة yi .a ya
-pay .u أكثر yi .a ya
-paw .u مكان yi .a ya
-pan .u اجتماع yi .a ya
-pat .u كثير yi .a ya
-pac .u فرح yi .a ya
-puy .u طفل yi .a ya
-put .u مستقبل yi .a ya
-wam .u مرة yi .a ya
-wap .u ذيل yi .a ya
-wul .u كبير yi .a ya
-nam .u عدد yi .a ya
-naw .u الحالي yi .a ya
-sun .u واحد yi .a ya
-tuw .u اثنان yi .a ya
-cik .u قليل yi .a ya
-myik .u إضافة yi .a ya
-kyim .u طرح yi .a ya
-kwal .u لغة yi .a ya
-klaw .u ضحك yi .a ya
-klas .u بند yi .a ya
-pyan .u ضمير yi .a ya
-pyas .u العبارة yi .a ya
+.i li .u يكون li .a ya
+.a li .u أوب li .a ya
+.u li .u سو li .a ya
+mi li .u أنا li .a ya
+ma li .u ماذا li .a ya
+ki li .u و li .a ya
+ka li .u هذا li .a ya
+ku li .u إذا li .a ya
+yi li .u هذا li .a ya
+yu li .u أنت li .a ya
+ya li .u يا li .a ya
+pi li .u من li .a ya
+pa li .u هذا-الشيء- li .a ya
+wi li .u نحن li .a ya
+pu li .u با li .a ya
+wa li .u أو li .a ya
+na li .u نو li .a ya
+si li .u هم li .a ya
+nu li .u الآن li .a ya
+ti li .u ثا li .a ya
+ta li .u إلى li .a ya
+tu li .u اليك li .a ya
+li li .u حرفي li .a ya
+fu li .u فيل li .a ya
+myi li .u ذاكرة li .a ya
+mwa li .u حب li .a ya
+kmu li .u مع li .a ya
+kyi li .u مشروط li .a ya
+kya li .u جانبا li .a ya
+kwi li .u ياو li .a ya
+ksa li .u ال li .a ya
+kca li .u هكتار li .a ya
+pli li .u قرب li .a ya
+pla li .u صيغة-الجمع li .a ya
+pwa li .u ياأو li .a ya
+plu li .u إلى li .a ya
+pca li .u مرح li .a ya
+nwa li .u باطل li .a ya
+nya li .u منذ li .a ya
+sli li .u مثلا li .a ya
+slu li .u صيغة-المفرد li .a ya
+sla li .u مرحبا li .a ya
+tya li .u بند-الذيل li .a ya
+twa li .u ثم li .a ya
+tli li .u رتبو li .a ya
+mik .u نسخة li .a ya
+miy .u انتظر li .a ya
+mip .u الماضي li .a ya
+mam .u أمي li .a ya
+min .u أقل li .a ya
+mak .u كلمة li .a ya
+mat .u أم li .a ya
+man .u اعتقد li .a ya
+map .u حجم li .a ya
+kim .u مقارنة li .a ya
+kiy .u اذهب li .a ya
+kam .u ابدأ li .a ya
+kap .u رئيس li .a ya
+kan .u علم li .a ya
+kas .u سبب li .a ya
+kal .u جميع li .a ya
+kut .u صغير li .a ya
+yik .u ينفي li .a ya
+yan .u قول li .a ya
+pim .u نقطة li .a ya
+piy .u عمل li .a ya
+pam .u خير li .a ya
+pak .u هيئة li .a ya
+pap .u أب li .a ya
+pay .u أكثر li .a ya
+paw .u مكان li .a ya
+pat .u الأب li .a ya
+pal .u كثير li .a ya
+pan .u اجتماع li .a ya
+pac .u فرح li .a ya
+puy .u طفل li .a ya
+put .u مستقبل li .a ya
+wam .u مرة li .a ya
+wap .u ذيل li .a ya
+wat .u تحدث li .a ya
+wul .u كبير li .a ya
+nam .u عدد li .a ya
+sim .u ثلاثة li .a ya
+naw .u الحالي li .a ya
+tin .u داخل li .a ya
+tiw .u مساعدة li .a ya
+sun .u واحد li .a ya
+tak .u شكر li .a ya
+liy .u أربعة li .a ya
+lit .u الصورة-الرمزية li .a ya
+tuw .u اثنان li .a ya
+cik .u قليل li .a ya
+caw .u صيحة li .a ya
+myik .u إضافة li .a ya
+kyim .u طرح li .a ya
+kyul .u حكم li .a ya
+kwal .u لغة li .a ya
+klaw .u ضحك li .a ya
+klas .u بند li .a ya
+pyan .u ضمير li .a ya
+pyas .u العبارة li .a ya
 pyat .u النحوية بين .a ya
-psan .u الفضاء yi .a ya
-slim .u مثال yi .a ya
-tkic .u الترجمة-القاموس yi .a ya
+plis .u قريب li .a ya
+psan .u الفضاء li .a ya
+slim .u مثال li .a ya
+tkic .u الترجمة-القاموس li .a ya
+tlam .u ترجم li .a ya
 tkic .a ya
-flas .u العبارة yi .a ya
-tlin .u ترتيبي yi .a ya
+flas .u العبارة li .a ya
+tlin .u ترتيبي li .a ya
 flas .a ya
-miyk .u إرسال yi .a ya
-miwk .u شخص yi .a ya
-muys .u عاطفة yi .a ya
-munt .u عالم yi .a ya
-kiym .u تسلم yi .a ya
-kamt .u قواعد yi .a ya
-kayp .u شيء yi .a ya
+miyk .u إرسال li .a ya
+miwk .u شخص li .a ya
+muys .u عاطفة li .a ya
+munt .u عالم li .a ya
+kiym .u تسلم li .a ya
+kamt .u قواعد li .a ya
+kayp .u شيء li .a ya
 kast .u النحوية .a ya
-kump .u مزاج yi .a ya
-yimk .u تطلب yi .a ya
-wiyp .u الفعل yi .a ya
-niym .u اسما yi .a ya
-sint .u إحساس yi .a ya
-sant .u جملة yi .a ya
-suyt .u النحوية-الموضوع yi .a ya
-timp .u النحوية-متوترة yi .a ya
-tiwk .u نشاط yi .a ya
-tick .u قاموس yi .a ya
+kump .u مزاج li .a ya
+yimk .u تطلب li .a ya
+wiyp .u الفعل li .a ya
+niym .u اسما li .a ya
+sint .u إحساس li .a ya
+sant .u جملة li .a ya
+suyt .u النحوية-الموضوع li .a ya
+timp .u النحوية-متوترة li .a ya
+tiwk .u نشاط li .a ya
+tick .u قاموس li .a ya

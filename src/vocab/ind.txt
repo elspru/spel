@@ -1,101 +1,127 @@
-.i yi .u ad yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u po yi .a ya
-mi yi .u saya yi .a ya
-ki yi .u dan yi .a ya
-ka yi .u ini yi .a ya
-ku yi .u jika yi .a ya
-yi yi .u kat yi .a ya
-ya yi .u ya yi .a ya
-pi yi .u dari yi .a ya
-pa yi .u melakukan yi .a ya
-pu yi .u pas yi .a ya
-wa yi .u atau yi .a ya
-na yi .u no yi .a ya
-nu yi .u saat-ini yi .a ya
-ti yi .u bahwa yi .a ya
-ta yi .u untuk yi .a ya
-tu yi .u engkau yi .a ya
-fu yi .u akan yi .a ya
-myi yi .u daya-ingat yi .a ya
-mwa yi .u cinta-kasih yi .a ya
-kyi yi .u kondisional yi .a ya
-kya yi .u ke-samping yi .a ya
-kwi yi .u yand yi .a ya
-ksa yi .u itu yi .a ya
-kca yi .u ha yi .a ya
-pwa yi .u yaor yi .a ya
-pca yi .u riang yi .a ya
-nya yi .u asal yi .a ya
-sli yi .u sebagai .a ya
-sla yi .u halo-juga yi .a ya
-tya yi .u klausul-ekor yi .a ya
-twa yi .u kemudian yi .a ya
-tli yi .u uru yi .a ya
-mik .u salinan yi .a ya
-miy .u menunggu yi .a ya
-mip .u masa-lalu yi .a ya
-min .u lebih-sedikit yi .a ya
-mak .u kata yi .a ya
-map .u ukuran yi .a ya
-kim .u membandingkan yi .a ya
-kiy .u pergi yi .a ya
-kam .u mulai yi .a ya
-kap .u kepala yi .a ya
-kan .u penyebab yi .a ya
-kut .u kecil yi .a ya
-yim .u salah-satu yi .a ya
-yik .u meniadakan yi .a ya
-yip .u glyph yi .a ya
-yam .u mengatakan yi .a ya
-pim .u titik yi .a ya
-piy .u bertindak yi .a ya
-pin .u sebelah-dalam yi .a ya
-pam .u baik-lah yi .a ya
-pak .u tubuh yi .a ya
-pay .u lebih-banyak yi .a ya
-paw .u tempat yi .a ya
-pan .u bertemu yi .a ya
-pat .u banyak-sekali yi .a ya
-pac .u kegembiraan yi .a ya
-puy .u anak yi .a ya
-put .u masa-depan yi .a ya
-wam .u waktu yi .a ya
-wap .u ekor yi .a ya
-wul .u besar yi .a ya
-nam .u nomor yi .a ya
-naw .u yang-hadir yi .a ya
-sun .u satu yi .a ya
-tuw .u dua yi .a ya
-cik .u beberapa yi .a ya
-myik .u menambahkan yi .a ya
-kyim .u mengurangi yi .a ya
-kwal .u bahasa yi .a ya
-klaw .u tertawa yi .a ya
-klas .u ayat yi .a ya
-pyan .u kata-ganti yi .a ya
-pyas .u frasa yi .a ya
-pyat .u gramatikal-objek yi .a ya
-psan .u ruang-angkasa yi .a ya
-slim .u contoh yi .a ya
-tkic .u terjemahan-kamus yi .a ya
-tlin .u urut yi .a ya
-flas .u frasa yi .a ya
-miyk .u mengirim yi .a ya
-miwk .u orang yi .a ya
-muys .u emosi yi .a ya
-munt .u dunia yi .a ya
-kiym .u menerima yi .a ya
-kamt .u tata-bahasa yi .a ya
-kayp .u benda yi .a ya
-kast .u gramatikal-kasus yi .a ya
-kump .u suasana-hati yi .a ya
-yimk .u meminta yi .a ya
-wiyp .u kata-kerja yi .a ya
-niym .u kata-benda yi .a ya
-sint .u merasa yi .a ya
-sant .u putusan-pengadilan yi .a ya
-suyt .u gramatikal-subjek yi .a ya
-timp .u gramatikal-tegang yi .a ya
-tiwk .u aktivitas yi .a ya
-tick .u kamus yi .a ya
+.i li .u ad li .a ya
+.a li .u ob li .a ya
+.u li .u po li .a ya
+mi li .u saya li .a ya
+ma li .u apa-yg li .a ya
+ki li .u dan li .a ya
+ka li .u saya-t li .a ya
+ku li .u jika li .a ya
+yi li .u ini li .a ya
+yu li .u kamu-kamu li .a ya
+ya li .u ya li .a ya
+pi li .u dari li .a ya
+pa li .u yang-hal li .a ya
+wi li .u kita li .a ya
+pu li .u pas li .a ya
+wa li .u atau li .a ya
+na li .u no li .a ya
+si li .u ta-men li .a ya
+nu li .u saat-ini li .a ya
+ti li .u bahwa li .a ya
+ta li .u untuk li .a ya
+tu li .u engkau li .a ya
+li li .u harfiah li .a ya
+fu li .u akan li .a ya
+myi li .u daya-ingat li .a ya
+mwa li .u cinta-kasih li .a ya
+kmu li .u dengan li .a ya
+kyi li .u kondisional li .a ya
+kya li .u ke-samping li .a ya
+kwi li .u yand li .a ya
+ksa li .u itu li .a ya
+kca li .u ha li .a ya
+pli li .u di-dekat li .a ya
+pla li .u jamak li .a ya
+pwa li .u yaor li .a ya
+plu li .u untuk li .a ya
+pca li .u riang li .a ya
+nwa li .u batal li .a ya
+nya li .u asal li .a ya
+sli li .u sebagai .a ya
+slu li .u tunggal li .a ya
+sla li .u halo-juga li .a ya
+tya li .u klausul-ekor li .a ya
+twa li .u kemudian li .a ya
+tli li .u uru li .a ya
+mik .u salinan li .a ya
+miy .u menunggu li .a ya
+mip .u masa-lalu li .a ya
+mam .u mama li .a ya
+min .u lebih-sedikit li .a ya
+mak .u kata li .a ya
+mat .u ibu li .a ya
+man .u berpikir li .a ya
+map .u ukuran li .a ya
+kim .u membandingkan li .a ya
+kiy .u pergi li .a ya
+kam .u mulai li .a ya
+kap .u kepala li .a ya
+kan .u tahu li .a ya
+kas .u penyebab li .a ya
+kal .u semua li .a ya
+kut .u kecil li .a ya
+yik .u meniadakan li .a ya
+yan .u mengatakan li .a ya
+pim .u titik li .a ya
+piy .u bertindak li .a ya
+pam .u baik-lah li .a ya
+pak .u tubuh li .a ya
+pap .u ayah li .a ya
+pay .u lebih-banyak li .a ya
+paw .u tempat li .a ya
+pat .u ayah li .a ya
+pal .u banyak-sekali li .a ya
+pan .u bertemu li .a ya
+pac .u kegembiraan li .a ya
+puy .u anak li .a ya
+put .u masa-depan li .a ya
+wam .u waktu li .a ya
+wap .u ekor li .a ya
+wat .u berbicara li .a ya
+wul .u besar li .a ya
+nam .u nomor li .a ya
+sim .u tiga li .a ya
+naw .u yang-hadir li .a ya
+tin .u sebelah-dalam li .a ya
+tiw .u membantu li .a ya
+sun .u satu li .a ya
+tak .u terima li .a ya
+liy .u empat li .a ya
+tuw .u dua li .a ya
+lit .u glyph li .a ya
+cik .u beberapa li .a ya
+caw .u teriakan li .a ya
+myik .u menambahkan li .a ya
+kyim .u mengurangi li .a ya
+kyul .u aturan li .a ya
+kwal .u bahasa li .a ya
+klaw .u tertawa li .a ya
+klas .u ayat li .a ya
+pyan .u kata-ganti li .a ya
+pyas .u frasa li .a ya
+pyat .u gramatikal-objek li .a ya
+plis .u dekat li .a ya
+psan .u ruang-angkasa li .a ya
+slim .u contoh li .a ya
+tkic .u terjemahan-kamus li .a ya
+tlam .u menterjemahkan li .a ya
+tlin .u urut li .a ya
+flas .u frasa li .a ya
+miyk .u mengirim li .a ya
+miwk .u orang li .a ya
+muys .u emosi li .a ya
+munt .u dunia li .a ya
+kiym .u menerima li .a ya
+kamt .u tata-bahasa li .a ya
+kayp .u benda li .a ya
+kast .u gramatikal-kasus li .a ya
+kump .u suasana-hati li .a ya
+yimk .u meminta li .a ya
+wiyp .u kata-kerja li .a ya
+niym .u kata-benda li .a ya
+sint .u merasa li .a ya
+sant .u putusan-pengadilan li .a ya
+suyt .u gramatikal-subjek li .a ya
+timp .u gramatikal-tegang li .a ya
+tiwk .u aktivitas li .a ya
+tick .u kamus li .a ya

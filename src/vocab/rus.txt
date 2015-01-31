@@ -1,101 +1,127 @@
-.i yi .u быть yi .a ya
-.a yi .u о yi .a ya
-.u yi .u а yi .a ya
-mi yi .u мне yi .a ya
-ki yi .u и .a ya
-ka yi .u это .a ya
-ku yi .u если yi .a ya
-yi yi .u сло yi .a ya
-ya yi .u да yi .a ya
-pi yi .u из yi .a ya
-pa yi .u делать yi .a ya
-pu yi .u па yi .a ya
-wa yi .u или .a ya
-na yi .u ню yi .a ya
-nu yi .u сейчас yi .a ya
-ti yi .u то .a ya
-ta yi .u к yi .a ya
-tu yi .u ты yi .a ya
-fu yi .u Виль yi .a ya
-myi yi .u память .a ya
-mwa yi .u любовь .a ya
-kyi yi .u условно .a ya
-kya yi .u в-сторону yi .a ya
-kwi yi .u ди .a ya
-ksa yi .u эт .a ya
-kca yi .u ха yi .a ya
-pwa yi .u дили .a ya
-pca yi .u веселый yi .a ya
-nya yi .u от yi .a ya
-sli yi .u например .a ya
-sla yi .u здравствуйте yi .a ya
-tya yi .u Предложение-хвост yi .a ya
-twa yi .u затем yi .a ya
-tli yi .u ога yi .a ya
+.i li .u быть li .a ya
+.a li .u о li .a ya
+.u li .u а li .a ya
+mi li .u мне li .a ya
+ma li .u что li .a ya
+ki li .u и .a ya
+ka li .u это li .a ya
+ku li .u если li .a ya
+yi li .u это li .a ya
+yu li .u вы li .a ya
+ya li .u да li .a ya
+pi li .u из li .a ya
+pa li .u что-что li .a ya
+wi li .u мы li .a ya
+pu li .u па li .a ya
+wa li .u или .a ya
+na li .u ню li .a ya
+si li .u они li .a ya
+nu li .u сейчас li .a ya
+ti li .u то .a ya
+ta li .u к li .a ya
+tu li .u ты li .a ya
+li li .u буквальный li .a ya
+fu li .u Виль li .a ya
+myi li .u память .a ya
+mwa li .u любовь .a ya
+kmu li .u с li .a ya
+kyi li .u условно .a ya
+kya li .u в-сторону li .a ya
+kwi li .u ди .a ya
+ksa li .u эт .a ya
+kca li .u ха li .a ya
+pli li .u у li .a ya
+pla li .u множественное-число li .a ya
+pwa li .u дили .a ya
+plu li .u для li .a ya
+pca li .u веселый li .a ya
+nwa li .u нуль li .a ya
+nya li .u от li .a ya
+sli li .u например .a ya
+slu li .u особый li .a ya
+sla li .u здравствуйте li .a ya
+tya li .u Предложение-хвост li .a ya
+twa li .u затем li .a ya
+tli li .u ога li .a ya
 mik .u копия .a ya
 miy .u ждать .a ya
-mip .u мимо yi .a ya
+mip .u мимо li .a ya
+mam .u мама li .a ya
 min .u меньше .a ya
 mak .u слово .a ya
+mat .u мать li .a ya
+man .u думать li .a ya
 map .u размер .a ya
 kim .u сравнить .a ya
 kiy .u идти .a ya
-kam .u начать yi .a ya
-kap .u глава yi .a ya
-kan .u причина yi .a ya
+kam .u начать li .a ya
+kap .u глава li .a ya
+kan .u знать li .a ya
+kas .u причина li .a ya
+kal .u все li .a ya
 kut .u minhmap .i малый .a ya
-yim .u любой .a ya
 yik .u отрицать .a ya
-yip .u глиф .a ya
-yam .u сказать .a ya
-pim .u точка yi .a ya
-piy .u акт yi .a ya
-pin .u внутри .a ya
+yan .u сказать li .a ya
+pim .u точка li .a ya
+piy .u акт li .a ya
 pam .u хорошо .a ya
-pak .u тело yi .a ya
+pak .u тело li .a ya
+pap .u папа li .a ya
 pay .u больше .a ya
 paw .u место .a ya
+pat .u отец li .a ya
+pal .u многие li .a ya
 pan .u встреча .a ya
-pat .u payhnam .i многие .a ya
-pac .u радость yi .a ya
+pac .u радость li .a ya
 puy .u ребенок .a ya
-put .u будущее yi .a ya
-wam .u время yi .a ya
-wap .u хвост yi .a ya
+put .u будущее li .a ya
+wam .u время li .a ya
+wap .u хвост li .a ya
+wat .u говорить li .a ya
 wul .u payhmap .i большой .a ya
 nam .u число .a ya
-naw .u настоящее-время yi .a ya
-sun .u один yi .a ya
-tuw .u два yi .a ya
+sim .u три li .a ya
+naw .u настоящее-время li .a ya
+tin .u внутри li .a ya
+tiw .u помогите li .a ya
+sun .u один li .a ya
+tak .u поблагодарить li .a ya
+liy .u четыре li .a ya
+tuw .u два li .a ya
+lit .u глиф li .a ya
 cik .u minhnam .i мало .a ya
+caw .u крик li .a ya
 myik .u добавлять .a ya
 kyim .u вычитать .a ya
+kyul .u правило li .a ya
 klas .u пункт .a ya
-klaw .u смех yi .a ya
+klaw .u смех li .a ya
 psan .u пространство .a ya
-pyan .u местоимение yi .a ya
-pyas .u фраза yi .a ya
-pyat .u грамматико-объект yi .a ya
+pyan .u местоимение li .a ya
+pyas .u фраза li .a ya
+pyat .u грамматико-объект li .a ya
+plis .u рядом li .a ya
 slim .u пример .a ya
 flas .u фраза .a ya
-tkic .u перевод-словарь yi .a ya
-tlin .u порядковый yi .a ya
+tkic .u перевод-словарь li .a ya
+tlam .u перевести li .a ya
+tlin .u порядковый li .a ya
 miyk .u послать .a ya
-miwk .u человек yi .a ya
-muys .u эмоция yi .a ya
+miwk .u человек li .a ya
+muys .u эмоция li .a ya
 munt .u мир .a ya
 kiym .u получить .a ya
-kamt .u грамматика yi .a ya
-kayp .u вещь yi .a ya
-kast .u грамматическая-случая yi .a ya
-kump .u настроение yi .a ya
+kamt .u грамматика li .a ya
+kayp .u вещь li .a ya
+kast .u грамматическая-случая li .a ya
+kump .u настроение li .a ya
 yimk .u спросить .a ya
-wiyp .u глагол yi .a ya
-niym .u существительное yi .a ya
-sint .u чувствовать yi .a ya
+wiyp .u глагол li .a ya
+niym .u существительное li .a ya
+sint .u чувствовать li .a ya
 sant .u предложение .a ya
-suyt .u грамматико-объектом yi .a ya
-timp .u грамматико-напряженной yi .a ya
-tiwk .u деятельность yi .a ya
+suyt .u грамматико-объектом li .a ya
+timp .u грамматико-напряженной li .a ya
+tiwk .u деятельность li .a ya
 tick .u словарь .a ya
 kwal .u язык .a ya

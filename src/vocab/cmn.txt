@@ -1,101 +1,127 @@
-.i yi .u 是 yi .a ya
-.a yi .u 对象 yi .a ya
-.u yi .u 主题 yi .a ya
-mi yi .u 我 yi .a ya
-ki yi .u 和 .a ya
-ka yi .u 此 .a ya
-ku yi .u 如果 yi .a ya
-yi yi .u 词 yi .a ya
-ya yi .u 雅 yi .a ya
-pi yi .u 的 yi .a ya
-pa yi .u 办 yi .a ya
-pu yi .u 过去式 .a ya
-wa yi .u 或 .a ya
-na yi .u 个 .a ya
-nu yi .u 现在 .a ya
-ti yi .u 之 .a ya
-ta yi .u 到 yi .a ya
-tu yi .u 你 yi .a ya
-fu yi .u 将 .a ya
-myi yi .u 记忆 .a ya
-mwa yi .u 爱 .a ya
-kyi yi .u 有条件 .a ya
-kya yi .u 旁白 yi .a ya
-kwi yi .u 而 .a ya
-ksa yi .u 该 .a ya
-kca yi .u 哈 yi .a ya
-pwa yi .u 或者 .a ya
-pca yi .u 姁 yi .a ya
-nya yi .u 从 yi .a ya
-sli yi .u 例如 .a ya
-sla yi .u 您好 yi .a ya
-tya yi .u 第尾巴 yi .a ya
-twa yi .u 然后 yi .a ya
-tli yi .u 第 .a ya
+.i li .u 是 li .a ya
+.a li .u 对象 li .a ya
+.u li .u 主题 li .a ya
+mi li .u 我 li .a ya
+ma li .u 什么 li .a ya
+ki li .u 和 .a ya
+ka li .u 它 li .a ya
+ku li .u 如果 li .a ya
+yi li .u 此 li .a ya
+yu li .u 你 li .a ya
+ya li .u 雅 li .a ya
+pi li .u 的 li .a ya
+pa li .u 这-事 li .a ya
+wi li .u 我们 li .a ya
+pu li .u 过去式 .a ya
+wa li .u 或 .a ya
+na li .u 个 .a ya
+si li .u 他们 li .a ya
+nu li .u 现在 .a ya
+ti li .u 之 .a ya
+ta li .u 到 li .a ya
+tu li .u 尒 li .a ya
+li li .u 字面 li .a ya
+fu li .u 将 .a ya
+myi li .u 记忆 .a ya
+mwa li .u 爱 .a ya
+kmu li .u 同 li .a ya
+kyi li .u 有条件 .a ya
+kya li .u 旁白 li .a ya
+kwi li .u 而 .a ya
+ksa li .u 该 .a ya
+kca li .u 哈 li .a ya
+pli li .u 近 li .a ya
+pla li .u 复数 li .a ya
+pwa li .u 或者 .a ya
+plu li .u 为 li .a ya
+pca li .u 姁 li .a ya
+nwa li .u 零 li .a ya
+nya li .u 从 li .a ya
+sli li .u 例如 .a ya
+slu li .u 单数 li .a ya
+sla li .u 您好 li .a ya
+tya li .u 第尾巴 li .a ya
+twa li .u 然后 li .a ya
+tli li .u 第 .a ya
 mik .u 复制 .a ya
 miy .u 等待 .a ya
 mip .u 过去 .a ya
+mam .u 妈妈 li .a ya
 min .u 减 .a ya
 mak .u 字 .a ya
+mat .u 母亲 li .a ya
+man .u 想 li .a ya
 map .u 尺寸 .a ya
 kim .u 比较 .a ya
 kiy .u 去 .a ya
 kam .u 开始 .a ya
 kap .u 头 .a ya
-kan .u 事业 yi .a ya
+kan .u 知道 li .a ya
+kas .u 事业 li .a ya
+kal .u 所有 li .a ya
 kut .u minhmap .i 小 .a ya
-yim .u 任一 .a ya
 yik .u 否定 .a ya
-yip .u 字形 .a ya
-yam .u 说 .a ya
+yan .u 说 li .a ya
 pim .u 点 .a ya
 piy .u 法案 .a ya
-pin .u 里面 .a ya
 pam .u 良好 .a ya
 pak .u 体 .a ya
+pap .u 爸 li .a ya
 pay .u 更多 .a ya
 paw .u 地方 .a ya
+pat .u 父亲 li .a ya
+pal .u 许多 li .a ya
 pan .u 见面 .a ya
-pat .u payhnam .i 许多 .a ya
-pac .u 欢乐 yi .a ya
+pac .u 欢乐 li .a ya
 puy .u 孩子 .a ya
 put .u 未来 .a ya
 wam .u 时间 .a ya
 wap .u 尾 .a ya
+wat .u 说话 li .a ya
 wul .u payhmap .i 大 .a ya
 nam .u 号码 .a ya
+sim .u 三 li .a ya
 naw .u 现时 .a ya
+tin .u 里面 li .a ya
+tiw .u 救命 li .a ya
 sun .u 一 .a ya
+tak .u 谢谢 li .a ya
+liy .u 四 li .a ya
 tuw .u 两 .a ya
+lit .u 字形 li .a ya
 cik .u minhnam .i 少数 .a ya
+caw .u 喊 li .a ya
 myik .u 添加 .a ya
 kyim .u 减去 .a ya
+kyul .u 规则 li .a ya
 klas .u 条款 .a ya
-klaw .u 笑 yi .a ya
+klaw .u 笑 li .a ya
 psan .u 空间 .a ya
 pyan .u 代词 .a ya
 pyas .u 短语 .a ya
 pyat .u 语法对象 .a ya
+plis .u 附近的 li .a ya
 slim .u 例 .a ya
 flas .u 短语 .a ya
-tkic .u 翻译，字典 yi .a ya
+tkic .u 翻译，字典 li .a ya
+tlam .u 翻译 li .a ya
 tlin .u 序数词 .a ya
 miyk .u 发送 .a ya
 miwk .u 人 .a ya
-muys .u 情感 yi .a ya
+muys .u 情感 li .a ya
 munt .u 世界 .a ya
 kiym .u 接受 .a ya
 kamt .u 语法 .a ya
 kayp .u 事 .a ya
 kast .u 语法情况 .a ya
-kump .u 情绪 yi .a ya
+kump .u 情绪 li .a ya
 yimk .u 问 .a ya
 wiyp .u 动词 .a ya
 niym .u 名词 .a ya
-sint .u 感觉 yi .a ya
+sint .u 感觉 li .a ya
 sant .u 句子 .a ya
 suyt .u 语法学科 .a ya
 timp .u 语法时态 .a ya
-tiwk .u 活动 yi .a ya
+tiwk .u 活动 li .a ya
 tick .u 词典 .a ya
 kwal .u 语言 .a ya

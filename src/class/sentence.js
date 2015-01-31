@@ -1,6 +1,7 @@
 "use strict";
 var tokenize = require("../compile/tokenize");
 var parse = require("../compile/parse");
+var translate = require("../compile/translate");
 var Word = require("./word");
 var Phrase = require("./phrase");
 var Junction = require("./junction");
@@ -8,7 +9,7 @@ var TopClause = require("./topClause");
 var err = require("../lib/error");
 module.exports = Sentence;
 /// su sentence be object ya
-function Sentence(language, input) {
+function Sentence(language, input, conjugationLevel) {
 this.be = "Sentence";
 var tokens, i;
 if (typeof input === "string"){
@@ -33,15 +34,10 @@ return this;
 else if (Array.isArray(input)) tokens = input;
 else throw new TypeError(input +" is not a valid Phrase input");
 
-// extract quotes
-tokens = parse.quotesExtract(language,tokens);
-//if (!tokenize.isTokens(tokens))
-//	throw new TypeError("su Phrase be need bo tokens ya");
-	//this.string = tokens.join("");
-	//this.tokens = tokens;
-
 // algorithm de
 // 
+// if conjugationLevel set then disconjugate ya
+// be extract ob quotes ya
 // be get ob last case word index ya
 // be get ob last word or mood word of sentence ya
 // if postpositional then ob last words of sentence at end ya
@@ -52,6 +48,20 @@ tokens = parse.quotesExtract(language,tokens);
 // if intransitive and intransitiveWord set
 // then adjust accordingly ya
 // be set ob many part of this ya
+// if conjugationLevel set then disjugate ya
+if (conjugationLevel){
+var string = tokens.join(" ");
+var disjug =
+translate.disjugate(language,string,conjugationLevel);
+tokens = tokenize.stringToWords(disjug);
+}
+// extract quotes
+tokens = parse.quotesExtract(language,tokens);
+//if (!tokenize.isTokens(tokens))
+//	throw new TypeError("su Phrase be need bo tokens ya");
+	//this.string = tokens.join("");
+	//this.tokens = tokens;
+
 
 var grammar = language.grammar;
 var wordOrder = grammar.wordOrder;
@@ -353,7 +363,8 @@ result += simpleClauseTermMaybeAdd(format,phrases[i],i);
 };
 
 
-Sentence.prototype.toLocaleString = function(language,format){
+Sentence.prototype.toLocaleString = function(language,format,
+conjugationLevel){
 // be convert bo sentence to language with format de
 // algorithm:
 // be set ob joiner and ender from format ya
@@ -392,7 +403,7 @@ Sentence.prototype.toLocaleString = function(language,format){
 // be translate ob end words ya 
 // be append to result ya
 // be append ob ender ya
-// be format by max length ya
+// if conjugation level set then be conjugate  ya
 // return result ya
 //
 
@@ -511,6 +522,9 @@ result+=mood.toLocaleString(language,format,"mh") +joiner;
 	}
 // be append bo ender ya
 	result += ender;
+// if conjugation level set then be conjugate  ya
+if (conjugationLevel)
+result = translate.conjugate(language,result,conjugationLevel);
 // return result ya
 	return result;
 };
@@ -588,7 +602,7 @@ var cur = current.toString().split(" ").length;
 return prev+cur;
 },0);
 var avg = (avg/phrases.length);
-var basis = (avg*1.618*2).toFixed();
+var basis = (avg*1.618*3).toFixed();
 // for each that has length greater than basis
 // add to result tail and splice from phrases
 var i;

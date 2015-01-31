@@ -1,101 +1,127 @@
-.i yi .u olmak yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
-mi yi .u beni yi .a ya
-ki yi .u ve yi .a ya
-ka yi .u bu yi .a ya
-ku yi .u eğer yi .a ya
-yi yi .u wu yi .a ya
-ya yi .u ya yi .a ya
-pi yi .u arasında yi .a ya
-pa yi .u yapmak yi .a ya
-pu yi .u pas yi .a ya
-wa yi .u veya yi .a ya
-na yi .u nu yi .a ya
-nu yi .u şimdi yi .a ya
-ti yi .u Tha yi .a ya
-ta yi .u için yi .a ya
-tu yi .u sana yi .a ya
-fu yi .u wil yi .a ya
-myi yi .u bellek yi .a ya
-mwa yi .u aşk yi .a ya
-kyi yi .u şartlı-olarak yi .a ya
-kya yi .u bir-kenara yi .a ya
-kwi yi .u yand yi .a ya
-ksa yi .u bud yi .a ya
-kca yi .u ha yi .a ya
-pwa yi .u yaor yi .a ya
-pca yi .u neşeli yi .a ya
-nya yi .u itibaren yi .a ya
-sli yi .u örneğin yi .a ya
-sla yi .u merhaba yi .a ya
-tya yi .u fıkra-kuyruk yi .a ya
-twa yi .u sonra yi .a ya
-tli yi .u ord yi .a ya
-mik .u kopya yi .a ya
-miy .u bekleyin yi .a ya
-mip .u geçmiş yi .a ya
-min .u daha-az yi .a ya
-mak .u kelime yi .a ya
-map .u boyut yi .a ya
-kim .u karşılaştırmak yi .a ya
-kiy .u gitmek yi .a ya
-kam .u başla yi .a ya
-kap .u kafa yi .a ya
-kan .u neden yi .a ya
-kut .u küçük yi .a ya
-yim .u ya-da yi .a ya
-yik .u inkâr-etmek yi .a ya
-yip .u kabartma yi .a ya
-yam .u demek yi .a ya
-pim .u nokta yi .a ya
-piy .u hareket yi .a ya
-pin .u içinde yi .a ya
-pam .u iyi yi .a ya
-pak .u vücut yi .a ya
-pay .u daha yi .a ya
-paw .u yer yi .a ya
-pan .u karşılamak yi .a ya
-pat .u çok yi .a ya
-pac .u sevinç yi .a ya
-puy .u çocuk yi .a ya
-put .u gelecek yi .a ya
-wam .u zaman yi .a ya
-wap .u kuyruk yi .a ya
-wul .u büyük yi .a ya
-nam .u numara yi .a ya
-naw .u mevcut yi .a ya
-sun .u bir yi .a ya
-tuw .u iki yi .a ya
-cik .u az yi .a ya
-myik .u eklemek yi .a ya
-kyim .u çıkarmak yi .a ya
-kwal .u dil yi .a ya
-klaw .u gülmek yi .a ya
-klas .u fıkra yi .a ya
-pyan .u zamir yi .a ya
-pyas .u ifade yi .a ya
-pyat .u dilbilgisi-nesne yi .a ya
-psan .u alan yi .a ya
-slim .u örnek yi .a ya
-tkic .u çeviri-Sözlük yi .a ya
-tlin .u sıra yi .a ya
-flas .u ifade yi .a ya
-miyk .u göndermek yi .a ya
-miwk .u kişi yi .a ya
-muys .u duygu yi .a ya
-munt .u dünya yi .a ya
-kiym .u almak yi .a ya
-kamt .u dilbilgisi yi .a ya
-kayp .u şey yi .a ya
-kast .u dilbilgisi-durum yi .a ya
-kump .u ruh-hali yi .a ya
-yimk .u sormak yi .a ya
-wiyp .u fiil yi .a ya
-niym .u isim yi .a ya
-sint .u hissetmek yi .a ya
-sant .u cümle yi .a ya
-suyt .u dilbilgisi-konu yi .a ya
-timp .u dilbilgisi-gergin yi .a ya
-tiwk .u etkinlik yi .a ya
-tick .u sözlük yi .a ya
+.i li .u olmak li .a ya
+.a li .u ob li .a ya
+.u li .u su li .a ya
+mi li .u beni li .a ya
+ma li .u ne li .a ya
+ki li .u ve li .a ya
+ka li .u o li .a ya
+ku li .u eğer li .a ya
+yi li .u bu li .a ya
+yu li .u sen li .a ya
+ya li .u ya li .a ya
+pi li .u arasında li .a ya
+pa li .u Bu-şey li .a ya
+wi li .u biz li .a ya
+pu li .u pas li .a ya
+wa li .u veya li .a ya
+na li .u nu li .a ya
+si li .u onlar li .a ya
+nu li .u şimdi li .a ya
+ti li .u Tha li .a ya
+ta li .u için li .a ya
+tu li .u sana li .a ya
+li li .u gerçek li .a ya
+fu li .u wil li .a ya
+myi li .u bellek li .a ya
+mwa li .u aşk li .a ya
+kmu li .u ile li .a ya
+kyi li .u şartlı-olarak li .a ya
+kya li .u bir-kenara li .a ya
+kwi li .u yand li .a ya
+ksa li .u bud li .a ya
+kca li .u ha li .a ya
+pli li .u yakın li .a ya
+pla li .u çoğul li .a ya
+pwa li .u yaor li .a ya
+plu li .u için li .a ya
+pca li .u neşeli li .a ya
+nwa li .u boş li .a ya
+nya li .u itibaren li .a ya
+sli li .u örneğin li .a ya
+slu li .u tekil li .a ya
+sla li .u merhaba li .a ya
+tya li .u fıkra-kuyruk li .a ya
+twa li .u sonra li .a ya
+tli li .u ord li .a ya
+mik .u kopya li .a ya
+miy .u bekleyin li .a ya
+mip .u geçmiş li .a ya
+mam .u anne li .a ya
+min .u daha-az li .a ya
+mak .u kelime li .a ya
+mat .u valide li .a ya
+man .u düşünmek li .a ya
+map .u boyut li .a ya
+kim .u karşılaştırmak li .a ya
+kiy .u gitmek li .a ya
+kam .u başla li .a ya
+kap .u kafa li .a ya
+kan .u bilmek li .a ya
+kas .u neden li .a ya
+kal .u tüm li .a ya
+kut .u küçük li .a ya
+yik .u inkâr-etmek li .a ya
+yan .u demek li .a ya
+pim .u nokta li .a ya
+piy .u hareket li .a ya
+pam .u iyi li .a ya
+pak .u vücut li .a ya
+pap .u baba li .a ya
+pay .u daha li .a ya
+paw .u yer li .a ya
+pat .u baba li .a ya
+pal .u çok li .a ya
+pan .u karşılamak li .a ya
+pac .u sevinç li .a ya
+puy .u çocuk li .a ya
+put .u gelecek li .a ya
+wam .u zaman li .a ya
+wap .u kuyruk li .a ya
+wat .u konuşmak li .a ya
+wul .u büyük li .a ya
+nam .u numara li .a ya
+sim .u üç li .a ya
+naw .u mevcut li .a ya
+tin .u içinde li .a ya
+tiw .u yardım li .a ya
+sun .u bir li .a ya
+tak .u teşekkür li .a ya
+liy .u dört li .a ya
+tuw .u iki li .a ya
+lit .u kabartma li .a ya
+cik .u az li .a ya
+caw .u bağırmak li .a ya
+myik .u eklemek li .a ya
+kyim .u çıkarmak li .a ya
+kyul .u kural li .a ya
+kwal .u dil li .a ya
+klaw .u gülmek li .a ya
+klas .u fıkra li .a ya
+pyan .u zamir li .a ya
+pyas .u ifade li .a ya
+pyat .u dilbilgisi-nesne li .a ya
+plis .u yakında li .a ya
+psan .u alan li .a ya
+slim .u örnek li .a ya
+tkic .u çeviri-Sözlük li .a ya
+tlam .u çevirmek li .a ya
+tlin .u sıra li .a ya
+flas .u ifade li .a ya
+miyk .u göndermek li .a ya
+miwk .u kişi li .a ya
+muys .u duygu li .a ya
+munt .u dünya li .a ya
+kiym .u almak li .a ya
+kamt .u dilbilgisi li .a ya
+kayp .u şey li .a ya
+kast .u dilbilgisi-durum li .a ya
+kump .u ruh-hali li .a ya
+yimk .u sormak li .a ya
+wiyp .u fiil li .a ya
+niym .u isim li .a ya
+sint .u hissetmek li .a ya
+sant .u cümle li .a ya
+suyt .u dilbilgisi-konu li .a ya
+timp .u dilbilgisi-gergin li .a ya
+tiwk .u etkinlik li .a ya
+tick .u sözlük li .a ya

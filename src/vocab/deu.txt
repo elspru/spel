@@ -1,101 +1,127 @@
-.i yi .u sein yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
-mi yi .u mir yi .a ya
-ki yi .u und yi .a ya
-ka yi .u diese yi .a ya
-ku yi .u wenn yi .a ya
-yi yi .u wu yi .a ya
-ya yi .u ya yi .a ya
-pi yi .u von yi .a ya
-pa yi .u tun yi .a ya
-pu yi .u pas yi .a ya
-wa yi .u oder yi .a ya
-na yi .u zahl yi .a ya
-nu yi .u jetzt yi .a ya
-ti yi .u jener yi .a ya
-ta yi .u bis yi .a ya
-tu yi .u dich yi .a ya
-fu yi .u wil yi .a ya
-myi yi .u Speicher yi .a ya
-mwa yi .u lieben yi .a ya
-kyi yi .u bedingt yi .a ya
-kya yi .u beiseite yi .a ya
-kwi yi .u yand yi .a ya
-ksa yi .u die yi .a ya
-kca yi .u ha yi .a ya
-pwa yi .u yaor yi .a ya
-pca yi .u fröhlich yi .a ya
-nya yi .u aus yi .a ya
-sli yi .u beispielsweise yi .a ya
-sla yi .u hallo yi .a ya
-tya yi .u Klausel-tail yi .a ya
-twa yi .u dann yi .a ya
-tli yi .u ord yi .a ya
-mik .u Kopie yi .a ya
-miy .u warten yi .a ya
-mip .u Vergangenheit yi .a ya
-min .u weniger yi .a ya
-mak .u Wort yi .a ya
-map .u Größe yi .a ya
-kim .u vergleichen yi .a ya
-kiy .u gehen yi .a ya
-kam .u start yi .a ya
-kap .u Kopf yi .a ya
-kan .u Ursache yi .a ya
-kut .u klein yi .a ya
-yim .u entweder yi .a ya
-yik .u negieren yi .a ya
-yip .u Glyphe yi .a ya
-yam .u sagen yi .a ya
-pim .u Punkt yi .a ya
-piy .u Handlung yi .a ya
-pin .u innerhalb yi .a ya
-pam .u gut yi .a ya
-pak .u Körper yi .a ya
-pay .u mehr yi .a ya
-paw .u Platz yi .a ya
-pan .u treffen yi .a ya
-pat .u viele yi .a ya
-pac .u Freude yi .a ya
-puy .u Kind yi .a ya
-put .u Zukunft yi .a ya
-wam .u Zeit yi .a ya
-wap .u Schwanz yi .a ya
-wul .u groß yi .a ya
-nam .u Anzahl yi .a ya
-naw .u vorhanden yi .a ya
-sun .u einer yi .a ya
-tuw .u zwei yi .a ya
-cik .u wenige yi .a ya
-myik .u hinzufügen yi .a ya
-kyim .u subtrahieren yi .a ya
-kwal .u Sprache yi .a ya
-klaw .u Lachen yi .a ya
-klas .u Klausel yi .a ya
-pyan .u Pronomen yi .a ya
-pyas .u Ausdruck yi .a ya
-pyat .u grammatisch-Objekt yi .a ya
-psan .u Raum yi .a ya
-slim .u Beispiel yi .a ya
-tkic .u Übersetzung-Wörterbuch yi .a ya
-tlin .u Ordnungs- yi .a ya
-flas .u Ausdruck yi .a ya
-miyk .u senden yi .a ya
-miwk .u Person yi .a ya
-muys .u Emotion yi .a ya
-munt .u Welt yi .a ya
-kiym .u erhalten yi .a ya
-kamt .u Grammatik yi .a ya
-kayp .u Sache yi .a ya
-kast .u grammatisch-Fall yi .a ya
-kump .u Stimmung yi .a ya
-yimk .u fragen yi .a ya
-wiyp .u Verb yi .a ya
-niym .u Substantiv yi .a ya
-sint .u Gefühl yi .a ya
-sant .u Satz yi .a ya
-suyt .u grammatische-Subjekt- yi .a ya
-timp .u grammatisch-angespannt yi .a ya
-tiwk .u Aktivität yi .a ya
-tick .u Wörterbuch yi .a ya
+.i li .u sein li .a ya
+.a li .u ob li .a ya
+.u li .u su li .a ya
+mi li .u mir li .a ya
+ma li .u was li .a ya
+ki li .u und li .a ya
+ka li .u es li .a ya
+ku li .u wenn li .a ya
+yi li .u diese li .a ya
+yu li .u Sie li .a ya
+ya li .u ya li .a ya
+pi li .u von li .a ya
+pa li .u dass-Sache li .a ya
+wi li .u wir li .a ya
+pu li .u pas li .a ya
+wa li .u oder li .a ya
+na li .u zahl li .a ya
+si li .u sie li .a ya
+nu li .u jetzt li .a ya
+ti li .u jener li .a ya
+ta li .u bis li .a ya
+tu li .u dich li .a ya
+li li .u wörtlich li .a ya
+fu li .u wil li .a ya
+myi li .u Speicher li .a ya
+mwa li .u lieben li .a ya
+kmu li .u mit li .a ya
+kyi li .u bedingt li .a ya
+kya li .u beiseite li .a ya
+kwi li .u yand li .a ya
+ksa li .u die li .a ya
+kca li .u ha li .a ya
+pli li .u in-der-Nähe-von li .a ya
+pla li .u Plural li .a ya
+pwa li .u yaor li .a ya
+plu li .u für li .a ya
+pca li .u fröhlich li .a ya
+nwa li .u nichtig li .a ya
+nya li .u aus li .a ya
+sli li .u beispielsweise li .a ya
+slu li .u Einzahl li .a ya
+sla li .u hallo li .a ya
+tya li .u Klausel-tail li .a ya
+twa li .u dann li .a ya
+tli li .u ord li .a ya
+mik .u Kopie li .a ya
+miy .u warten li .a ya
+mip .u Vergangenheit li .a ya
+mam .u Mama li .a ya
+min .u weniger li .a ya
+mak .u Wort li .a ya
+mat .u Mutter li .a ya
+man .u denken li .a ya
+map .u Größe li .a ya
+kim .u vergleichen li .a ya
+kiy .u gehen li .a ya
+kam .u start li .a ya
+kap .u Kopf li .a ya
+kan .u wissen li .a ya
+kas .u Ursache li .a ya
+kal .u alle li .a ya
+kut .u klein li .a ya
+yik .u negieren li .a ya
+yan .u sagen li .a ya
+pim .u Punkt li .a ya
+piy .u Handlung li .a ya
+pam .u gut li .a ya
+pak .u Körper li .a ya
+pap .u Papa li .a ya
+pay .u mehr li .a ya
+paw .u Platz li .a ya
+pat .u Vater li .a ya
+pal .u viele li .a ya
+pan .u treffen li .a ya
+pac .u Freude li .a ya
+puy .u Kind li .a ya
+put .u Zukunft li .a ya
+wam .u Zeit li .a ya
+wap .u Schwanz li .a ya
+wat .u sprechen li .a ya
+wul .u groß li .a ya
+nam .u Anzahl li .a ya
+sim .u drei li .a ya
+naw .u vorhanden li .a ya
+tin .u innerhalb li .a ya
+tiw .u hilfe li .a ya
+sun .u einer li .a ya
+tak .u danken li .a ya
+liy .u vier li .a ya
+tuw .u zwei li .a ya
+lit .u Glyphe li .a ya
+cik .u wenige li .a ya
+caw .u Schrei li .a ya
+myik .u hinzufügen li .a ya
+kyim .u subtrahieren li .a ya
+kyul .u Regel li .a ya
+kwal .u Sprache li .a ya
+klaw .u Lachen li .a ya
+klas .u Klausel li .a ya
+pyan .u Pronomen li .a ya
+pyas .u Ausdruck li .a ya
+pyat .u grammatisch-Objekt li .a ya
+plis .u in-der-Nähe li .a ya
+psan .u Raum li .a ya
+slim .u Beispiel li .a ya
+tkic .u Übersetzung-Wörterbuch li .a ya
+tlam .u übersetzen li .a ya
+tlin .u Ordnungs- li .a ya
+flas .u Ausdruck li .a ya
+miyk .u senden li .a ya
+miwk .u Person li .a ya
+muys .u Emotion li .a ya
+munt .u Welt li .a ya
+kiym .u erhalten li .a ya
+kamt .u Grammatik li .a ya
+kayp .u Sache li .a ya
+kast .u grammatisch-Fall li .a ya
+kump .u Stimmung li .a ya
+yimk .u fragen li .a ya
+wiyp .u Verb li .a ya
+niym .u Substantiv li .a ya
+sint .u Gefühl li .a ya
+sant .u Satz li .a ya
+suyt .u grammatische-Subjekt- li .a ya
+timp .u grammatisch-angespannt li .a ya
+tiwk .u Aktivität li .a ya
+tick .u Wörterbuch li .a ya

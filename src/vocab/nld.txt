@@ -1,101 +1,127 @@
-.i yi .u zijn yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
-mi yi .u mij yi .a ya
-ki yi .u en yi .a ya
-ka yi .u dit yi .a ya
-ku yi .u indien yi .a ya
-yi yi .u wu yi .a ya
-ya yi .u ya yi .a ya
-pi yi .u van yi .a ya
-pa yi .u doen yi .a ya
-pu yi .u pas yi .a ya
-wa yi .u of yi .a ya
-na yi .u tal yi .a ya
-nu yi .u nu yi .a ya
-ti yi .u dat yi .a ya
-ta yi .u naar yi .a ya
-tu yi .u u yi .a ya
-fu yi .u wil yi .a ya
-myi yi .u geheugen yi .a ya
-mwa yi .u liefde yi .a ya
-kyi yi .u voorwaardelijk yi .a ya
-kya yi .u terzijde yi .a ya
-kwi yi .u yand yi .a ya
-ksa yi .u de yi .a ya
-kca yi .u ha yi .a ya
-pwa yi .u yaor yi .a ya
-pca yi .u vrolijk yi .a ya
-nya yi .u uit yi .a ya
-sli yi .u bijvoorbeeld yi .a ya
-sla yi .u hallo yi .a ya
-tya yi .u clausule-tail yi .a ya
-twa yi .u vervolgens yi .a ya
-tli yi .u ord yi .a ya
-mik .u kopie yi .a ya
-miy .u wachten yi .a ya
-mip .u verleden yi .a ya
-min .u minder yi .a ya
-mak .u woord yi .a ya
-map .u grootte yi .a ya
-kim .u vergelijken yi .a ya
-kiy .u gaan yi .a ya
-kam .u beginnen yi .a ya
-kap .u hoofd yi .a ya
-kan .u oorzaak yi .a ya
-kut .u klein yi .a ya
-yim .u beide yi .a ya
-yik .u ontkennen yi .a ya
-yip .u glyph yi .a ya
-yam .u zeggen yi .a ya
-pim .u punt yi .a ya
-piy .u daad yi .a ya
-pin .u binnenzijde yi .a ya
-pam .u goed yi .a ya
-pak .u lichaam yi .a ya
-pay .u meer yi .a ya
-paw .u plaats yi .a ya
-pan .u ontmoeten yi .a ya
-pat .u veel yi .a ya
-pac .u vreugde yi .a ya
-puy .u kind yi .a ya
-put .u toekomst yi .a ya
-wam .u tijd yi .a ya
-wap .u staart yi .a ya
-wul .u groot yi .a ya
-nam .u aantal yi .a ya
-naw .u aanwezig yi .a ya
-sun .u één yi .a ya
-tuw .u twee yi .a ya
-cik .u weinig yi .a ya
-myik .u toevoegen yi .a ya
-kyim .u aftrekken yi .a ya
-kwal .u taal yi .a ya
-klaw .u lach yi .a ya
-klas .u clausule yi .a ya
-pyan .u voornaamwoord yi .a ya
-pyas .u uitdrukking yi .a ya
-pyat .u grammaticale-object yi .a ya
-psan .u ruimte yi .a ya
-slim .u voorbeeld yi .a ya
-tkic .u translatie-woordenboek yi .a ya
-tlin .u ranggetal yi .a ya
-flas .u uitdrukking yi .a ya
-miyk .u sturen yi .a ya
-miwk .u persoon yi .a ya
-muys .u emotie yi .a ya
-munt .u wereld yi .a ya
-kiym .u ontvangen yi .a ya
-kamt .u grammatica yi .a ya
-kayp .u ding yi .a ya
-kast .u grammaticale-case yi .a ya
-kump .u stemming yi .a ya
-yimk .u vragen yi .a ya
-wiyp .u werkwoord yi .a ya
-niym .u naamwoord yi .a ya
-sint .u voelen yi .a ya
-sant .u zin yi .a ya
-suyt .u grammaticale-onderwerp yi .a ya
-timp .u grammaticale-gespannen yi .a ya
-tiwk .u activiteit yi .a ya
-tick .u woordenboek yi .a ya
+.i li .u zijn li .a ya
+.a li .u ob li .a ya
+.u li .u su li .a ya
+mi li .u mij li .a ya
+ma li .u wat li .a ya
+ki li .u en li .a ya
+ka li .u het li .a ya
+ku li .u indien li .a ya
+yi li .u dit li .a ya
+yu li .u Zij li .a ya
+ya li .u ya li .a ya
+pi li .u van li .a ya
+pa li .u dat-ding li .a ya
+wi li .u wij li .a ya
+pu li .u pas li .a ya
+wa li .u of li .a ya
+na li .u tal li .a ya
+si li .u zij li .a ya
+nu li .u nu li .a ya
+ti li .u dat li .a ya
+ta li .u naar li .a ya
+tu li .u u li .a ya
+li li .u letterlijk li .a ya
+fu li .u wil li .a ya
+myi li .u geheugen li .a ya
+mwa li .u liefde li .a ya
+kmu li .u met li .a ya
+kyi li .u voorwaardelijk li .a ya
+kya li .u terzijde li .a ya
+kwi li .u yand li .a ya
+ksa li .u de li .a ya
+kca li .u ha li .a ya
+pli li .u in-de-nabijheid-van- li .a ya
+pla li .u Meervoud li .a ya
+pwa li .u yaor li .a ya
+plu li .u voor li .a ya
+pca li .u vrolijk li .a ya
+nwa li .u leegte li .a ya
+nya li .u uit li .a ya
+sli li .u bijvoorbeeld li .a ya
+slu li .u Enkelvoud li .a ya
+sla li .u hallo li .a ya
+tya li .u clausule-tail li .a ya
+twa li .u vervolgens li .a ya
+tli li .u ord li .a ya
+mik .u kopie li .a ya
+miy .u wachten li .a ya
+mip .u verleden li .a ya
+mam .u Mam li .a ya
+min .u minder li .a ya
+mak .u woord li .a ya
+mat .u Moeder li .a ya
+man .u denken li .a ya
+map .u grootte li .a ya
+kim .u vergelijken li .a ya
+kiy .u gaan li .a ya
+kam .u beginnen li .a ya
+kap .u hoofd li .a ya
+kan .u weten li .a ya
+kas .u Root-Cause li .a ya
+kal .u alle li .a ya
+kut .u klein li .a ya
+yik .u ontkennen li .a ya
+yan .u zeggen li .a ya
+pim .u punt li .a ya
+piy .u daad li .a ya
+pam .u goed li .a ya
+pak .u lichaam li .a ya
+pap .u Pa li .a ya
+pay .u meer li .a ya
+paw .u plaats li .a ya
+pat .u Vader li .a ya
+pal .u veel li .a ya
+pan .u ontmoeten li .a ya
+pac .u vreugde li .a ya
+puy .u kind li .a ya
+put .u toekomst li .a ya
+wam .u tijd li .a ya
+wap .u staart li .a ya
+wat .u spreken li .a ya
+wul .u groot li .a ya
+nam .u aantal li .a ya
+sim .u drie li .a ya
+naw .u aanwezig li .a ya
+tin .u binnen li .a ya
+tiw .u helpen li .a ya
+sun .u één li .a ya
+tak .u bedanken li .a ya
+liy .u vier li .a ya
+tuw .u twee li .a ya
+lit .u Glyph li .a ya
+cik .u weinig li .a ya
+caw .u Schreeuw li .a ya
+myik .u toevoegen li .a ya
+kyim .u aftrekken li .a ya
+kyul .u Regel li .a ya
+kwal .u taal li .a ya
+klaw .u lach li .a ya
+klas .u clausule li .a ya
+pyan .u voornaamwoord li .a ya
+pyas .u uitdrukking li .a ya
+pyat .u grammaticale-object li .a ya
+plis .u in-de-buurt li .a ya
+psan .u ruimte li .a ya
+slim .u voorbeeld li .a ya
+tkic .u translatie-woordenboek li .a ya
+tlam .u vertalen li .a ya
+tlin .u ranggetal li .a ya
+flas .u uitdrukking li .a ya
+miyk .u sturen li .a ya
+miwk .u persoon li .a ya
+muys .u emotie li .a ya
+munt .u wereld li .a ya
+kiym .u ontvangen li .a ya
+kamt .u grammatica li .a ya
+kayp .u ding li .a ya
+kast .u grammaticale-case li .a ya
+kump .u stemming li .a ya
+yimk .u vragen li .a ya
+wiyp .u werkwoord li .a ya
+niym .u naamwoord li .a ya
+sint .u voelen li .a ya
+sant .u zin li .a ya
+suyt .u grammaticale-onderwerp li .a ya
+timp .u grammaticale-gespannen li .a ya
+tiwk .u activiteit li .a ya
+tick .u woordenboek li .a ya

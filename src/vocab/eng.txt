@@ -1,75 +1,99 @@
-.i yi .u be yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
-mi yi .u me yi .a ya
-ki yi .u and .a ya
-ka yi .u this .a ya
-ku yi .u if yi .a ya
-yi yi .u wu yi .a ya
-ya yi .u ya yi .a ya
-pi yi .u of yi .a ya
-pa yi .u do yi .a ya
-pu yi .u pas .a ya
-wa yi .u or .a ya
-na yi .u nu .a ya
-nu yi .u now .a ya
-ti yi .u tha .a ya
-ta yi .u to yi .a ya
-tu yi .u thee yi .a ya
-fu yi .u wil .a ya
-myi yi .u memory .a ya
-mwa yi .u love .a ya
-kyi yi .u conditionally .a ya
-kya yi .u aside yi .a ya
-kwi yi .u yand .a ya
-ksa yi .u the .a ya
-kca yi .u ha yi .a ya
-pwa yi .u yaor .a ya
-pca yi .u jolly .a ya
-nya yi .u from .a ya
-sli yi .u for-example .a ya
-sla yi .u hello yi .a ya
-tya yi .u clause-tail .a ya
-twa yi .u then .a ya
-tli yi .u ord .a ya
+.i li .u be li .a ya
+.a li .u ob li .a ya
+.u li .u su li .a ya
+mi li .u me li .a ya
+ma li .u what .a ya
+ki li .u and li .a ya
+ka li .u it li .a ya
+ku li .u if li .a ya
+yi li .u this li .a ya
+ya li .u ya li .a ya
+yu li .u you .a ya
+pi li .u of li .a ya
+pa li .u that-thing li .a ya
+pu li .u pas .a ya
+wi li .u we .a ya
+wa li .u or .a ya
+na li .u nu .a ya
+nu li .u now .a ya
+si li .u they .a ya
+ti li .u tha .a ya
+ta li .u to li .a ya
+tu li .u thee li .a ya
+li li .u literal li .a ya
+fu li .u wil .a ya
+myi li .u memory .a ya
+mwa li .u love .a ya
+kmu li .u with .a ya
+kyi li .u conditionally .a ya
+kya li .u aside li .a ya
+kwi li .u yand .a ya
+ksa li .u the .a ya
+kca li .u ha li .a ya
+pwa li .u yaor .a ya
+pli li .u near .a ya
+pla li .u plural .a ya
+plu li .u for .a ya
+pca li .u jolly .a ya
+nya li .u from .a ya
+nwa li .u null .a ya
+sli li .u for-example .a ya
+sla li .u hello li .a ya
+slu li .u singular .a ya
+tya li .u clause-tail .a ya
+twa li .u then .a ya
+tli li .u ord .a ya
 mik .u copy .a ya
 miy .u wait .a ya
 mip .u past .a ya
 min .u less .a ya
+mam .u mom .a ya
 mak .u word .a ya
 map .u size .a ya
+man .u think .a ya
+mat .u mother .a ya
 kim .u compare .a ya
 kiy .u go .a ya
 kam .u begin .a ya
 kap .u head .a ya
-kan .u cause .a ya
+kan .u know .a ya
+kas .u cause .a ya
+kal .u all .a ya
 kut .u small .a ya
-yim .u either .a ya
 yik .u negate .a ya
-yip .u glyph .a ya
-yam .u say .a ya
+yan .u say .a ya
 pim .u point .a ya
 piy .u act .a ya
-pin .u inside .a ya
 pam .u good .a ya
 pak .u body .a ya
-pay .u more .a ya
+(gèngduō) Mandarin. plus French. 'ákthar Arabic. mehr German. more English. más Spanish. aveli sat Armenian. vel Latvian. plu pay .u more .a ya
+pap .u dad .a ya
 paw .u place .a ya
 pan .u meet .a ya
-pat .u many .a ya
+pat .u father .a ya
+pal .u many .a ya
 pac .u joy .a ya
 puy .u child .a ya
 put .u future .a ya
 wam .u time .a ya
 wap .u tail .a ya
+wat .u speak .a ya
 wul .u big .a ya
 nam .u number .a ya
 naw .u present .a ya
+sim .u three .a ya
 sun .u one .a ya
+tiw .u help .a ya
+tin .u inside .a ya
+tak .u thank .a ya
 tuw .u two .a ya
+liy .u four .a ya
+lit .u glyph .a ya
 cik .u few .a ya
+caw .u shout .a ya
 myik .u add .a ya
 kyim .u subtract .a ya
+kyul .u rule .a ya
 kwal .u language .a ya
 klaw .u laugh .a ya
 klas .u clause .a ya
@@ -77,9 +101,11 @@ pyan .u pronoun .a ya
 pyas .u phrase .a ya
 pyat .u grammatical-object .a ya
 psan .u space .a ya
+plis .u nearby .a ya
 slim .u example .a ya
 tkic .u translation-dictionary .a ya
 tlin .u ordinal .a ya
+tlam .u translation .a ya
 flas .u phrase .a ya
 miyk .u send .a ya
 miwk .u person .a ya

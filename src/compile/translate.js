@@ -1,6 +1,3 @@
-var emitter = require('events').EventEmitter;
-var emi = new emitter;
-exports.e = emi;
 exports.word = wordTranslate;
 function wordTranslate(subDictionary, word){
 	if (subDictionary == undefined)
@@ -48,5 +45,30 @@ for (j=0;j<phrases.length;j++){
 phrases.head;
 }
 }
-
+}
+exports.conjugate = conjugate;
+function conjugate(language,string,conjugationLevel){
+// search and replace based on grammar.conjugation
+var conjugation = language.grammar.conjugation;
+var stringBuffer = string.split("");
+if (conjugationLevel > 0){// conjugate
+var i;
+var reversible = conjugation.reversible;
+for (i=0;i<reversible.length;i++){
+var fromTo=reversible[i];
+var match=RegExp(fromTo[0],'g')
+var string = string.replace(match,fromTo[1]);
+}
+if (conjugationLevel > 1){// naturalize
+var irreversible = conjugation.irreversible;
+for (i=0;i<irreversible.length;i++){
+var fromTo=irreversible[i];
+var match = RegExp(fromTo[0],'g');
+var string =string.replace(match,fromTo[1]);
+} } }
+return string;
+}
+exports.disjugate = disjugate;
+function disjugate(language,string,conjugationLevel){
+// search and replace based on grammar.conjugation
 }

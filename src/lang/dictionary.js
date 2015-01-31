@@ -67,8 +67,8 @@ var joiner = ' ';
 var newline = '\n';
 var result = new String();
 var fromMwak = this.fromMwak;
-var suj = " yi .u ";
-var obj = " yi .a ya";
+var suj = " li .u ";
+var obj = " li .a ya";
 for ( key in fromMwak )
 if (fromMwak.hasOwnProperty(key))
 result += key + suj + fromMwak[key] + obj+ newline;
@@ -83,8 +83,8 @@ var fromMwak = this.fromMwak;
 var Language = require("../lang/language");
 var Sentence = require("../class/sentence");
 var mwak = new Language();
-var suj = " yi .u ";
-var obj = " yi .a ya";
+var suj = " li .u ";
+var obj = " li .a ya";
 var wordOrder = language.grammar.wordOrder;
 for ( key in fromMwak )
 if (fromMwak.hasOwnProperty(key)){

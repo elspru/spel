@@ -18,12 +18,12 @@ var Language = require(base+'lang/language');
 var mwak = new Language();
 
 var debug = false;
-var amount = 7;
+var amount = 1;
 var langDir = "../../doc/lang/";
 var fileStem = "vocab-mwak-";
 var fileSuffix = "glyph.txt";
-var fileNumbers = ["2","4","5","7","8","12","16","19","24"];
-//var fileNumbers = ["12","16"];
+//var fileNumbers = ["2","4","5","7","8","12","16","19","24"];
+var fileNumbers = ["16"];
 var COrig, XOrig, CFilename, XFilename,
     CText, XText, XPText, CPText,
     definitions, sentence, phrase;
@@ -37,17 +37,22 @@ function textUpdate(theText,sentence){
 for (i=0;i<amount;i++){
 	CFilename = fileStem+"C"+fileNumbers[i]+fileSuffix;
 	XFilename = fileStem+"X"+fileNumbers[i]+fileSuffix;
-	COrig = io.fileRead(CFilename);
 	//JSON.parse(io.fileRead(CFilename+".json"));
-	XOrig = io.fileRead(XFilename);
 	//JSON.parse(io.fileRead(XFilename+".json"));
 	console.log("loading "+CFilename);
-	CText = new Text(mwak,COrig,CFilename);
+	COrig = io.fileRead(CFilename);
+	CText = new Text(mwak,COrig);
 	console.log("loading "+XFilename);
-	XText = new Text(mwak,XOrig,XFilename);
+	XOrig = io.fileRead(XFilename);
+	XText = new Text(mwak,XOrig);
 	//console.log(XText);
 	// update current core based on previous
-	if (typeof CPText !== "undefined"){
+	if (CPText === undefined){
+	var CString = CText.toLocaleString(mwak);
+		console.log("writing "+CFilename);
+	io.fileWrite(CFilename,CString);
+}
+else if (CPText !== undefined){
 	console.log("updating "+CFilename);
 	definitions = CPText.select(mwak,".a");
 //console.log("C selections "+definitions);

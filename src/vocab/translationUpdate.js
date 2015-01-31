@@ -25,6 +25,10 @@ var mwak = new Language();
 // first argument is filename
 var fromFilename = "eng.txt" ;
 var fromLangCode = "en";
+// english
+var toFilename = "eng.txt" 
+var toLangCode = "en";
+translateUpdate(toFilename,toLangCode);
 // spanish
 var toFilename = "spa.txt" 
 var toLangCode = "es";
@@ -121,6 +125,10 @@ fromFilename,fromLangCode);
 var toFilename = "tur.txt"  
 var toLangCode = "tr";
 translateUpdate(toFilename,toLangCode);
+// hungarian
+var toFilename = "hun.txt"  
+var toLangCode = "hu";
+translateUpdate(toFilename,toLangCode);
 // esperanto
 //var fromFilename = "spa.txt" 
 //var fromLangCode = "es"
@@ -168,9 +176,11 @@ var definition = String(obPhraseBody);
 var translation;
 console.log(definition);
 try{
+var command = "./gtranslate.sh "+byService+" "+fromLangCode+" "
++toLangCode+" "+ definition;
+console.log(command);
 translation = 
-execSync("gtranslate.sh "+fromLangCode+" "
-+toLangCode+" "+ definition);
+execSync(command);
 }
 catch(e){console.log(e);
 translateFail = true;
@@ -183,11 +193,13 @@ if (translateFail === true){
 translation = noSpace(translation);
 console.log(translation);
 if (translation.toLower &&
-translation.toLower() === definition)
-warnings[warnings.length] = ("Warning: "+translation
+translation.toLower() === definition){
+var warning = ("Warning: "+translation
 +" has same definition");
+console.log(warning);
+warnings[warnings.length] = warning;}
 var newSentence = new Sentence(mwak,
-(subject +" "+ translation + " yi 'a ya"));
+(subject +" "+ translation + " li .a ya"));
 console.log(String(newSentence));
 
 newText.insert(mwak,i,newSentence);
@@ -196,7 +208,9 @@ newText.insert(mwak,i,newSentence);
 //console.log(definitions.toString());
 
 if (debug) console.log(String(newText));
-else io.fileWrite(toFilename,String(newText));
+else {
+io.fileWrite(toFilename,String(newText));
+io.fileWrite(toFilename+".json",JSON.stringify(newText));}
 
 var i;
 var warningString = new String();

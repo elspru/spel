@@ -6,7 +6,7 @@ var Sentence = require ("./sentence");
 var err = require("../lib/error");
 module.exports = Text;
 /// su sentence be object ya
-function Text(language, input,title) {
+function Text(language, input, conjugationLevel) {
 	this.be = "Text";
 	var tokens, i;
 	if (typeof input === "string"){
@@ -16,13 +16,17 @@ function Text(language, input,title) {
 	else if (typeof input === "object"
 	    && this.be === "Text"){
 		// assume json object
+		if (input.title)
 		this.title = input.title;
 		this.sentences = new Array();
 		for (i=0; i< input.sentences.length; i++)
-			this.sentences[i]=new Sentence(language, input.sentences[i]);
+			this.sentences[i]=new Sentence(language,
+input.sentences[i],conjugationLevel);
 		return this;
 	}
 	else throw new TypeError(input+" is not a valid Phrase input");
+	var title;
+	if (title)
 	this.title = title;
 	//this.string = tokens.join("");
 	//this.tokens = tokens;
@@ -41,7 +45,8 @@ function Text(language, input,title) {
 firstSentence = parse.firstSentence( language.grammar,previousTokens);
 		if (firstSentence.length === 0)
 			break;
-		sentence  = new Sentence(language, firstSentence);
+		sentence  = new Sentence(language,
+firstSentence, conjugationLevel);
 		sentences[sentenceIndex] = sentence;
 		sentenceIndex++;
 		previousTokens = previousTokens.slice(firstSentence.length,
@@ -72,21 +77,21 @@ function byIndexSentenceGet(index){
 	return this.sentences[index];
 }
 function sentenceInputToMatch(language, input){
-	if (input === undefined)
-		throw new TypeError("undefined input for "
-		   +" sentenceInputToMatch of Text object");
-	if (typeof input === "string"||
-		Array.isArray(input))
-		 return new Sentence(language,input);
-	else if (input.be === "Sentence")
-		return input;
-	else throw new TypeError("unsupported type:"+input
-		  +"for  sentenceInputToMatch of Text object");
+if (input === undefined) 
+throw new TypeError("undefined input for "
++" sentenceInputToMatch of Text object");
+if (typeof input === "string"|| Array.isArray(input))
+return new Sentence(language,input);
+else if (input.be === "Sentence")
+return input;
+else throw new TypeError("unsupported type:"+input
++"for  sentenceInputToMatch of Text object");
 }
 Text.prototype.indexOf = sentenceFindGet;
 Text.prototype.sentenceFindGet = sentenceFindGet;
 function sentenceFindGet(language,input){
-	var match = sentenceInputToMatch(language,input);
+	var match =
+sentenceInputToMatch(language,input);
 	// reverse iterate through sentences or rfind
 	// if isLike match, then return
 	var index = this.sentences.rfind(function(sentence){
@@ -97,7 +102,8 @@ function sentenceFindGet(language,input){
 // select like in SQL returns all matches as array
 Text.prototype.select = sentenceFindAllGet;
 function sentenceFindAllGet(language,input){
-	var match = sentenceInputToMatch(language,input);
+	var match =
+sentenceInputToMatch(language,input);
 	// filter sentences with
 	// if isLike match, then return
 	var sentences = this.sentences.filter(
@@ -118,7 +124,8 @@ Text.prototype.sentenceDelete = function(input){
 }
 Text.prototype.sentenceFindDelete = sentenceFindDelete;
 function sentenceFindDelete(language,input){
-	var match = sentenceInputToMatch(language,input);
+	var match =
+sentenceInputToMatch(language,input);
 	var index = this.sentences.rfind(function(sentence){
 		return sentence.isLike(match)});
 	return this.byIndexSentenceDelete(index);
@@ -141,8 +148,10 @@ Text.prototype.sentenceUpdate = function(language,input,replacement){
 	throw new TypeError("unsupported type:"+input+" "+replacement);
 }
 Text.prototype.sentenceFindUpdate = sentenceFindUpdate;
-function sentenceFindUpdate(language,input,replacement){
-	var match = sentenceInputToMatch(language,input);
+function
+sentenceFindUpdate(language,input,replacement){
+	var match =
+sentenceInputToMatch(language,input);
 	var index = this.sentences.rfind(function(sentence){
 		return sentence.isLike(language,match)});
 	if (index === null){
@@ -152,13 +161,15 @@ function sentenceFindUpdate(language,input,replacement){
 	return this.byIndexSentenceUpdate(language, index,replacement);
 }
 Text.prototype.byIndexSentenceUpdate = byIndexSentenceUpdate;
-function byIndexSentenceUpdate(language,index,replacement){
-	err.indexCheck(this.sentences.length,index);
-	var sentence = sentenceInputToMatch(language,replacement);
-	// remove phrase from array.
-	var newText = this;//.copy();
-	newText.sentences.splice(index,1,sentence);
-	return newText;
+function
+byIndexSentenceUpdate(language,index,replacement){
+err.indexCheck(this.sentences.length,index);
+var sentence =
+sentenceInputToMatch(language,replacement);
+// remove phrase from array.
+var newText = this;//.copy();
+newText.sentences.splice(index,1,sentence);
+return newText;
 }
 Text.prototype.toString = function(format){
 var result = new String();

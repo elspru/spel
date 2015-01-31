@@ -1,101 +1,127 @@
-.i yi .u essere yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
-mi yi .u me yi .a ya
-ki yi .u e yi .a ya
-ka yi .u questo yi .a ya
-ku yi .u se yi .a ya
-yi yi .u wu yi .a ya
-ya yi .u ya yi .a ya
-pi yi .u di yi .a ya
-pa yi .u fare yi .a ya
-pu yi .u pas yi .a ya
-wa yi .u o yi .a ya
-na yi .u nu yi .a ya
-nu yi .u ora yi .a ya
-ti yi .u tha yi .a ya
-ta yi .u a yi .a ya
-tu yi .u te yi .a ya
-fu yi .u wil yi .a ya
-myi yi .u memoria yi .a ya
-mwa yi .u amare yi .a ya
-kyi yi .u condizionalmente yi .a ya
-kya yi .u a-parte yi .a ya
-kwi yi .u YAND yi .a ya
-ksa yi .u il yi .a ya
-kca yi .u ah yi .a ya
-pwa yi .u yaor yi .a ya
-pca yi .u allegro yi .a ya
-nya yi .u da yi .a ya
-sli yi .u per-esempio yi .a ya
-sla yi .u ciao yi .a ya
-tya yi .u Clausola-tail yi .a ya
-twa yi .u poi yi .a ya
-tli yi .u ord yi .a ya
-mik .u copia yi .a ya
-miy .u aspettare yi .a ya
-mip .u passato yi .a ya
-min .u di-meno yi .a ya
-mak .u parola yi .a ya
-map .u dimensione yi .a ya
-kim .u confrontare yi .a ya
-kiy .u andare yi .a ya
-kam .u inizio yi .a ya
-kap .u testa yi .a ya
-kan .u causa yi .a ya
-kut .u piccolo yi .a ya
-yim .u o yi .a ya
-yik .u negare yi .a ya
-yip .u glifo yi .a ya
-yam .u dire yi .a ya
-pim .u punto yi .a ya
-piy .u atto yi .a ya
-pin .u dentro yi .a ya
-pam .u buono yi .a ya
-pak .u corpo yi .a ya
-pay .u di-più yi .a ya
-paw .u luogo yi .a ya
-pan .u incontrare yi .a ya
-pat .u molti yi .a ya
-pac .u gioia yi .a ya
-puy .u bambino yi .a ya
-put .u futuro yi .a ya
-wam .u tempo yi .a ya
-wap .u coda yi .a ya
-wul .u grande yi .a ya
-nam .u numero yi .a ya
-naw .u presente yi .a ya
-sun .u uno yi .a ya
-tuw .u due yi .a ya
-cik .u alcuni yi .a ya
-myik .u aggiungere yi .a ya
-kyim .u sottrarre yi .a ya
-kwal .u lingua yi .a ya
-klaw .u risata yi .a ya
-klas .u clausola yi .a ya
-pyan .u pronome yi .a ya
-pyas .u frase yi .a ya
-pyat .u grammaticale-oggetto yi .a ya
-psan .u spazio yi .a ya
-slim .u esempio yi .a ya
-tkic .u traduzione-dictionary yi .a ya
-tlin .u ordinale yi .a ya
-flas .u frase yi .a ya
-miyk .u inviare yi .a ya
-miwk .u persona yi .a ya
-muys .u emozione yi .a ya
-munt .u mondo yi .a ya
-kiym .u ricevere yi .a ya
-kamt .u grammatica yi .a ya
-kayp .u cosa yi .a ya
-kast .u grammaticale-case yi .a ya
-kump .u umore yi .a ya
-yimk .u chiedere yi .a ya
-wiyp .u verbo yi .a ya
-niym .u sostantivo yi .a ya
-sint .u sentire yi .a ya
-sant .u condanna yi .a ya
-suyt .u grammaticale-soggetto yi .a ya
-timp .u grammaticale-tesa yi .a ya
-tiwk .u attività yi .a ya
-tick .u dizionario yi .a ya
+.i li .u essere li .a ya
+.a li .u ob li .a ya
+.u li .u su li .a ya
+mi li .u me li .a ya
+ma li .u che-cosa li .a ya
+ki li .u e li .a ya
+ka li .u esso li .a ya
+ku li .u se li .a ya
+yi li .u questo li .a ya
+yu li .u voi li .a ya
+ya li .u ya li .a ya
+pi li .u di li .a ya
+pa li .u che li .a ya
+wi li .u noi li .a ya
+pu li .u pas li .a ya
+wa li .u o li .a ya
+na li .u nu li .a ya
+si li .u essi li .a ya
+nu li .u ora li .a ya
+ti li .u cui li .a ya
+ta li .u a li .a ya
+tu li .u te li .a ya
+li li .u letterale li .a ya
+fu li .u wil li .a ya
+myi li .u memoria li .a ya
+mwa li .u amare li .a ya
+kmu li .u con li .a ya
+kyi li .u condizionalmente li .a ya
+kya li .u a-parte li .a ya
+kwi li .u YAND li .a ya
+ksa li .u il li .a ya
+kca li .u ah li .a ya
+pli li .u vicino-a li .a ya
+pla li .u plurale li .a ya
+pwa li .u yaor li .a ya
+plu li .u per li .a ya
+pca li .u allegro li .a ya
+nwa li .u nullo li .a ya
+nya li .u da li .a ya
+sli li .u per-esempio li .a ya
+slu li .u singolare li .a ya
+sla li .u ciao li .a ya
+tya li .u Clausola-tail li .a ya
+twa li .u poi li .a ya
+tli li .u ord li .a ya
+mik .u copia li .a ya
+miy .u aspettare li .a ya
+mip .u passato li .a ya
+mam .u mamma li .a ya
+min .u di-meno li .a ya
+mak .u parola li .a ya
+mat .u madre li .a ya
+man .u pensare li .a ya
+map .u dimensione li .a ya
+kim .u confrontare li .a ya
+kiy .u andare li .a ya
+kam .u inizio li .a ya
+kap .u testa li .a ya
+kan .u sapere li .a ya
+kas .u causa li .a ya
+kal .u tutto li .a ya
+kut .u piccolo li .a ya
+yik .u negare li .a ya
+yan .u dire li .a ya
+pim .u punto li .a ya
+piy .u atto li .a ya
+pam .u buono li .a ya
+pak .u corpo li .a ya
+pap .u papà li .a ya
+pay .u di-più li .a ya
+paw .u luogo li .a ya
+pat .u padre li .a ya
+pal .u molti li .a ya
+pan .u incontrare li .a ya
+pac .u gioia li .a ya
+puy .u bambino li .a ya
+put .u futuro li .a ya
+wam .u tempo li .a ya
+wap .u coda li .a ya
+wat .u parlare li .a ya
+wul .u grande li .a ya
+nam .u numero li .a ya
+sim .u tre li .a ya
+naw .u presente li .a ya
+tin .u dentro li .a ya
+tiw .u aiuto li .a ya
+sun .u uno li .a ya
+tak .u grazie li .a ya
+liy .u quattro li .a ya
+tuw .u due li .a ya
+lit .u glifo li .a ya
+cik .u alcuni li .a ya
+caw .u urlo li .a ya
+myik .u aggiungere li .a ya
+kyim .u sottrarre li .a ya
+kyul .u regola li .a ya
+kwal .u lingua li .a ya
+klaw .u risata li .a ya
+klas .u clausola li .a ya
+pyan .u pronome li .a ya
+pyas .u frase li .a ya
+pyat .u grammaticale-oggetto li .a ya
+plis .u vicino li .a ya
+psan .u spazio li .a ya
+slim .u esempio li .a ya
+tkic .u traduzione-dictionary li .a ya
+tlam .u tradurre li .a ya
+tlin .u ordinale li .a ya
+flas .u frase li .a ya
+miyk .u inviare li .a ya
+miwk .u persona li .a ya
+muys .u emozione li .a ya
+munt .u mondo li .a ya
+kiym .u ricevere li .a ya
+kamt .u grammatica li .a ya
+kayp .u cosa li .a ya
+kast .u grammaticale-case li .a ya
+kump .u umore li .a ya
+yimk .u chiedere li .a ya
+wiyp .u verbo li .a ya
+niym .u sostantivo li .a ya
+sint .u sentire li .a ya
+sant .u condanna li .a ya
+suyt .u grammaticale-soggetto li .a ya
+timp .u grammaticale-tesa li .a ya
+tiwk .u attività li .a ya
+tick .u dizionario li .a ya

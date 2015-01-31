@@ -13,7 +13,7 @@
 "use strict";
 
 
-var highOrd = require("../lib/hof");
+var highOrd = require("../../lib/hof");
 
 			
 
@@ -108,6 +108,7 @@ function strictPhonotacticsSet(){
 	sonorityPlateau= false;
 	finalAffricates= false;
 	uniquePhonemes = true; 
+	plosiveNasalInitials = false;
 	adjacentGlides = false; 
  	initialSonorityDifference = 0x20;
 	totalSonorityDifference = 0x20;
@@ -434,7 +435,7 @@ function main(alphabet,syllableWeight){
 		// quote grammar words
 		if (alphabetCheck("V",out[out.length-1])) out = out + " yi";
 		// if single make into nominative
-		if (single ) out = out + " 'u "+comment+" ya";
+		if (single ) out = out + " .u "+comment+" ya";
 		console.log(out);
 	}
 }

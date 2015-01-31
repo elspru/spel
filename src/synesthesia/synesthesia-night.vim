@@ -192,34 +192,34 @@ highlight DarkMagenta ctermfg=DarkMagenta
 highlight GreenVowel ctermfg=Green
 highlight BlueVowel ctermfg=Blue
 
-highlight Black 	ctermfg=DarkGray	guifg=#616161
+highlight Black 	ctermfg=Gray	guifg=#616161
 highlight Lgray		ctermfg=LightGray	guifg=#9E9E9E
 highlight White		ctermfg=White		guifg=#D9D9D9
 highlight RedVowel	ctermfg=Red		guifg=#F04C4C
 highlight Red		ctermfg=Red		guifg=#DA6262
-highlight Scarlet	ctermfg=DarkRed		guifg=#DA8062
+highlight Scarlet	ctermfg=Red		guifg=#DA8062
 highlight Orange	ctermfg=DarkYellow	guifg=#DA9E62
-highlight Amber		ctermfg=DarkYellow	guifg=#DABC62
+highlight Amber		ctermfg=Yellow	guifg=#DABC62
 highlight Yellow	ctermfg=Yellow		guifg=#DADA62
 highlight YellowVowel	ctermfg=Yellow		guifg=#9EF04C
 highlight Lime		ctermfg=Yellow		guifg=#BCDA62
 highlight LimeVowel	ctermfg=Yellow		guifg=#C7F04C
 highlight Chartr	ctermfg=Green		guifg=#9EDA62
 highlight Harleq	ctermfg=Green		guifg=#80DA62
-highlight Green		ctermfg=DarkGreen	guifg=#62DA62
-highlight Libre		ctermfg=DarkGreen	guifg=#62DA80
+highlight Green		ctermfg=Green	guifg=#62DA62
+highlight Libre		ctermfg=Green	guifg=#62DA80
 highlight Lspring	ctermfg=Cyan		guifg=#62DA9E
 highlight Mspring 	ctermfg=Cyan		guifg=#62DABC
 highlight CyanVowel	ctermfg=Cyan		guifg=#4CF0F0
 highlight Cyan		ctermfg=Cyan		guifg=#62DADA
-highlight Sky		ctermfg=DarkCyan	guifg=#62BCDA
-highlight Dodger	ctermfg=DarkCyan	guifg=#629EDA
+highlight Sky		ctermfg=Cyan	guifg=#62BCDA
+highlight Dodger	ctermfg=Cyan	guifg=#629EDA
 highlight Royal		ctermfg=Blue		guifg=#6280DA
 highlight Blue		ctermfg=Blue		guifg=#6262DA
 highlight Han		ctermfg=Blue		guifg=#8062DA
-highlight Indigo	ctermfg=DarkMagenta	guifg=#9E62DA
-highlight Purple 	ctermfg=DarkMagenta	guifg=#BC62DA
+highlight Indigo	ctermfg=Magenta	guifg=#9E62DA
+highlight Purple 	ctermfg=Magenta	guifg=#BC62DA
 highlight Magenta	ctermfg=Magenta		guifg=#DA62DA
 highlight Hmagent 	ctermfg=Magenta		guifg=#DA62BC
 highlight Pink		ctermfg=Red		guifg=#DA629E
-highlight Torch		ctermfg=DarkRed		guifg=#DA6280
+highlight Torch		ctermfg=Red		guifg=#DA6280

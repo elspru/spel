@@ -1,101 +1,127 @@
-.i yi .u vara yi .a ya
-.a yi .u ob yi .a ya
-.u yi .u su yi .a ya
-mi yi .u mig yi .a ya
-ki yi .u och yi .a ya
-ka yi .u detta yi .a ya
-ku yi .u om yi .a ya
-yi yi .u wu yi .a ya
-ya yi .u ya yi .a ya
-pi yi .u av yi .a ya
-pa yi .u göra yi .a ya
-pu yi .u Pas yi .a ya
-wa yi .u eller yi .a ya
-na yi .u num yi .a ya
-nu yi .u nu yi .a ya
-ti yi .u att yi .a ya
-ta yi .u till yi .a ya
-tu yi .u ni yi .a ya
-fu yi .u wil yi .a ya
-myi yi .u minne yi .a ya
-mwa yi .u älskar yi .a ya
-kyi yi .u villkor yi .a ya
-kya yi .u åt-sidan yi .a ya
-kwi yi .u yand yi .a ya
-ksa yi .u den yi .a ya
-kca yi .u HA yi .a ya
-pwa yi .u yaor yi .a ya
-pca yi .u jolly yi .a ya
-nya yi .u från yi .a ya
-sli yi .u för-exempel yi .a ya
-sla yi .u Hallå yi .a ya
-tya yi .u Klausul-tail yi .a ya
-twa yi .u sedan yi .a ya
-tli yi .u Ord yi .a ya
-mik .u kopia yi .a ya
-miy .u vänta yi .a ya
-mip .u över yi .a ya
-min .u mindre yi .a ya
-mak .u ord yi .a ya
-map .u storlek yi .a ya
-kim .u jämför yi .a ya
-kiy .u gå yi .a ya
-kam .u börja yi .a ya
-kap .u huvud yi .a ya
-kan .u orsak yi .a ya
-kut .u liten yi .a ya
-yim .u antingen yi .a ya
-yik .u negera yi .a ya
-yip .u glyph yi .a ya
-yam .u säga yi .a ya
-pim .u punkt yi .a ya
-piy .u handling yi .a ya
-pin .u inuti yi .a ya
-pam .u bra yi .a ya
-pak .u kropp yi .a ya
-pay .u mer yi .a ya
-paw .u plats yi .a ya
-pan .u möts yi .a ya
-pat .u många yi .a ya
-pac .u glädje yi .a ya
-puy .u barn yi .a ya
-put .u framtid yi .a ya
-wam .u tid yi .a ya
-wap .u svans yi .a ya
-wul .u stor yi .a ya
-nam .u nummer yi .a ya
-naw .u närvarande yi .a ya
-sun .u en yi .a ya
-tuw .u två yi .a ya
-cik .u få yi .a ya
-myik .u lägga-till yi .a ya
-kyim .u subtrahera yi .a ya
-kwal .u språk yi .a ya
-klaw .u skratt yi .a ya
-klas .u klausul yi .a ya
-pyan .u pronomen yi .a ya
-pyas .u fras yi .a ya
-pyat .u grammatisk-objekt yi .a ya
-psan .u plats yi .a ya
-slim .u exempel yi .a ya
-tkic .u translation-dictionary yi .a ya
-tlin .u ordningstal yi .a ya
-flas .u fras yi .a ya
-miyk .u skicka yi .a ya
-miwk .u person yi .a ya
-muys .u känslor yi .a ya
-munt .u värld yi .a ya
-kiym .u motta yi .a ya
-kamt .u grammatik yi .a ya
-kayp .u sak yi .a ya
-kast .u grammatisk-fallet yi .a ya
-kump .u humör yi .a ya
-yimk .u fråga yi .a ya
-wiyp .u verb yi .a ya
-niym .u subst yi .a ya
-sint .u känna yi .a ya
-sant .u meningen yi .a ya
-suyt .u grammatisk-ämne yi .a ya
-timp .u grammatisk-spänd yi .a ya
-tiwk .u aktivitet yi .a ya
-tick .u lexikon yi .a ya
+.i li .u vara li .a ya
+.a li .u ob li .a ya
+.u li .u su li .a ya
+mi li .u mig li .a ya
+ma li .u vad li .a ya
+ki li .u och li .a ya
+ka li .u det li .a ya
+ku li .u om li .a ya
+yi li .u detta li .a ya
+yu li .u De li .a ya
+ya li .u ya li .a ya
+pi li .u av li .a ya
+pa li .u det-där li .a ya
+wi li .u vi li .a ya
+pu li .u Pas li .a ya
+wa li .u eller li .a ya
+na li .u num li .a ya
+si li .u de li .a ya
+nu li .u nu li .a ya
+ti li .u att li .a ya
+ta li .u till li .a ya
+tu li .u ni li .a ya
+li li .u rally li .a ya
+fu li .u wil li .a ya
+myi li .u minne li .a ya
+mwa li .u älskar li .a ya
+kmu li .u med li .a ya
+kyi li .u villkor li .a ya
+kya li .u åt-sidan li .a ya
+kwi li .u yand li .a ya
+ksa li .u den li .a ya
+kca li .u HA li .a ya
+pli li .u i-närheten-av li .a ya
+pla li .u Plural li .a ya
+pwa li .u yaor li .a ya
+plu li .u för li .a ya
+pca li .u jolly li .a ya
+nwa li .u void li .a ya
+nya li .u från li .a ya
+sli li .u för-exempel li .a ya
+slu li .u Singular li .a ya
+sla li .u Hallå li .a ya
+tya li .u Klausul-tail li .a ya
+twa li .u sedan li .a ya
+tli li .u Ord li .a ya
+mik .u kopia li .a ya
+miy .u vänta li .a ya
+mip .u över li .a ya
+mam .u Mom li .a ya
+min .u mindre li .a ya
+mak .u ord li .a ya
+mat .u Mor li .a ya
+man .u tror li .a ya
+map .u storlek li .a ya
+kim .u jämför li .a ya
+kiy .u gå li .a ya
+kam .u börja li .a ya
+kap .u huvud li .a ya
+kan .u vet li .a ya
+kas .u Root-Cause li .a ya
+kal .u allt li .a ya
+kut .u liten li .a ya
+yik .u negera li .a ya
+yan .u säga li .a ya
+pim .u punkt li .a ya
+piy .u handling li .a ya
+pam .u bra li .a ya
+pak .u kropp li .a ya
+pap .u Pappa li .a ya
+pay .u mer li .a ya
+paw .u plats li .a ya
+pat .u Far li .a ya
+pal .u många li .a ya
+pan .u möts li .a ya
+pac .u glädje li .a ya
+puy .u barn li .a ya
+put .u framtid li .a ya
+wam .u tid li .a ya
+wap .u svans li .a ya
+wat .u tala li .a ya
+wul .u stor li .a ya
+nam .u nummer li .a ya
+sim .u tre li .a ya
+naw .u närvarande li .a ya
+tin .u inom li .a ya
+tiw .u hjälpa li .a ya
+sun .u en li .a ya
+tak .u tack li .a ya
+liy .u fyra li .a ya
+tuw .u två li .a ya
+lit .u Glyph li .a ya
+cik .u få li .a ya
+caw .u Cry li .a ya
+myik .u lägga-till li .a ya
+kyim .u subtrahera li .a ya
+kyul .u Regel li .a ya
+kwal .u språk li .a ya
+klaw .u skratt li .a ya
+klas .u klausul li .a ya
+pyan .u pronomen li .a ya
+pyas .u fras li .a ya
+pyat .u grammatisk-objekt li .a ya
+plis .u in-the-close li .a ya
+psan .u plats li .a ya
+slim .u exempel li .a ya
+tkic .u translation-dictionary li .a ya
+tlam .u översätta li .a ya
+tlin .u ordningstal li .a ya
+flas .u fras li .a ya
+miyk .u skicka li .a ya
+miwk .u person li .a ya
+muys .u känslor li .a ya
+munt .u värld li .a ya
+kiym .u motta li .a ya
+kamt .u grammatik li .a ya
+kayp .u sak li .a ya
+kast .u grammatisk-fallet li .a ya
+kump .u humör li .a ya
+yimk .u fråga li .a ya
+wiyp .u verb li .a ya
+niym .u subst li .a ya
+sint .u känna li .a ya
+sant .u meningen li .a ya
+suyt .u grammatisk-ämne li .a ya
+timp .u grammatisk-spänd li .a ya
+tiwk .u aktivitet li .a ya
+tick .u lexikon li .a ya

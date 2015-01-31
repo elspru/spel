@@ -2,7 +2,7 @@
 var translate = require("../compile/translate");
 module.exports = Grammar;
 /// be load bo grammar de
-function Grammar(wordOrder,dictionary){
+function Grammar(wordOrder,dictionary,conjugation){
 if (!dictionary&&!wordOrder){
 return mwakGrammar;
 }
@@ -47,13 +47,16 @@ this.wordOrder.phraseOrder= wordOrder.phraseOrder;
 if (wordOrder.intransitiveWord)
 this.wordOrder.intransitiveWord = wordOrder.intransitiveWord;
 }
+if(conjugation)
+this.conjugation = conjugation;
+return this;
 }
 
 var mwakGrammar = {
 be: "Grammar",
 junctions:["ki","wa"],
-typeWords: ["yi","ksa","nyu","na"],
-phraseWords: [".i","ta",".a",".u","kya","nya","sla"],
+typeWords: ["li","ksa","nyu","na","ka","pa","yi"],
+phraseWords: [".i","ta",".a",".u","kya","nya","sla","plu","kmu"],
 agentWord: "hu",
 subjectWord: ".u",
 objectWord: ".a",
@@ -63,11 +66,11 @@ topClauseWords: ["ku","twa","kwi","pwa"],
 topClauseTerminator: ["twa"],
 clauseWords: ["ti"],
 clauseTerminator: ["tya"],
-sentenceWords: ["ya","pa"],
+sentenceWords: ["ya"],
 quotes: {
-singleWord: ["yi"],
+singleWord: ["li"],
 multiWord: [],
-literal: ["yi"]
+literal: ["li"]
 },
 wordOrder: {
 headFinal: true,
@@ -97,5 +100,5 @@ intransitiveWord: ".u"
 //0x5:["ti"],
 //0x4:[".i",".u",".a","ta"],
 //0x3:["pi"],
-//0x2:["yi"]
+//0x2:["li"]
 //}

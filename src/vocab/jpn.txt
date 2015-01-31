@@ -1,101 +1,127 @@
-.i yi .u ある yi .a ya
-.a yi .u オブジェクト yi .a ya
-.u yi .u テーマ yi .a ya
-mi yi .u 私に yi .a ya
-ki yi .u と yi .a ya
-ka yi .u この yi .a ya
-ku yi .u もし yi .a ya
-yi yi .u ウー yi .a ya
-ya yi .u 雅 yi .a ya
-pi yi .u の yi .a ya
-pa yi .u やる yi .a ya
-pu yi .u 過去形 yi .a ya
-wa yi .u または yi .a ya
-na yi .u ニュー yi .a ya
-nu yi .u 今 yi .a ya
-ti yi .u それ yi .a ya
-ta yi .u へ yi .a ya
-tu yi .u 汝 yi .a ya
-fu yi .u ウィル yi .a ya
-myi yi .u メモリ yi .a ya
-mwa yi .u 愛 yi .a ya
-kyi yi .u 条件付きで yi .a ya
-kya yi .u 余談 yi .a ya
-kwi yi .u と雅 yi .a ya
-ksa yi .u ザ· yi .a ya
-kca yi .u ハ yi .a ya
-pwa yi .u または雅 yi .a ya
-pca yi .u 徐 yi .a ya
-nya yi .u から yi .a ya
-sli yi .u 例えば yi .a ya
-sla yi .u こんにちは yi .a ya
-tya yi .u 最初の尾 yi .a ya
-twa yi .u その後 yi .a ya
-tli yi .u 記事 yi .a ya
-mik .u コピー yi .a ya
-miy .u 待つ yi .a ya
-mip .u 過去 yi .a ya
-min .u もっと少なく yi .a ya
-mak .u 単語 yi .a ya
-map .u サイズ yi .a ya
-kim .u 比較する yi .a ya
-kiy .u 行く yi .a ya
-kam .u ベギン yi .a ya
-kap .u 頭 yi .a ya
-kan .u キャリア yi .a ya
-kut .u 小さな yi .a ya
-yim .u どちら yi .a ya
-yik .u 否定する yi .a ya
-yip .u グリフ yi .a ya
-yam .u 言う yi .a ya
-pim .u ポイント yi .a ya
-piy .u 行為 yi .a ya
-pin .u 内部 yi .a ya
-pam .u 良い yi .a ya
-pak .u ボディ yi .a ya
-pay .u もっと yi .a ya
-paw .u 場所 yi .a ya
-pan .u 大会 yi .a ya
-pat .u 多くの yi .a ya
-pac .u ジョイ yi .a ya
-puy .u 子供 yi .a ya
-put .u 未来 yi .a ya
-wam .u 時間 yi .a ya
-wap .u テール yi .a ya
-wul .u ビッグ yi .a ya
-nam .u 数 yi .a ya
-naw .u 現在 yi .a ya
-sun .u 一 yi .a ya
-tuw .u 二つ yi .a ya
-cik .u 少数 yi .a ya
-myik .u 加える yi .a ya
-kyim .u マイナス yi .a ya
-kwal .u 言語 yi .a ya
-klaw .u 笑い yi .a ya
-klas .u 句 yi .a ya
-pyan .u 代名詞 yi .a ya
-pyas .u フレーズ yi .a ya
-pyat .u 文法的オブジェクト yi .a ya
-psan .u スペース yi .a ya
-flas .u フレーズ yi .a ya
-tkic .u 翻訳、辞書 yi .a ya
-slim .u 例 yi .a ya
-tlin .u 序数 yi .a ya
-miyk .u 送信する yi .a ya
-muys .u 感情 yi .a ya
-miwk .u 人 yi .a ya
-munt .u 世界 yi .a ya
-kiym .u 受け取る yi .a ya
-kamt .u 文法 yi .a ya
-kayp .u 事 yi .a ya
-kump .u ムード yi .a ya
-kast .u 文法的-ケース yi .a ya
-yimk .u 頼む yi .a ya
-wiyp .u 動詞 yi .a ya
-sint .u 気持ち yi .a ya
-niym .u 名詞 yi .a ya
-sant .u 文 yi .a ya
-suyt .u 文法的被験者 yi .a ya
-tiwk .u アクティビティ yi .a ya
-timp .u 文法的時制 yi .a ya
-tick .u 辞書 yi .a ya
+.i li .u ある li .a ya
+.a li .u を li .a ya
+.u li .u が li .a ya
+mi li .u 私に li .a ya
+ma li .u 何 li .a ya
+ki li .u と li .a ya
+ka li .u それ li .a ya
+ku li .u もし li .a ya
+yi li .u この li .a ya
+yu li .u あなた li .a ya
+ya li .u 雅 li .a ya
+pi li .u の li .a ya
+pa li .u これはある---何か li .a ya
+wi li .u 我々 li .a ya
+pu li .u 過去形 li .a ya
+wa li .u または li .a ya
+na li .u ニュー li .a ya
+si li .u 彼ら li .a ya
+nu li .u 今 li .a ya
+ti li .u その li .a ya
+ta li .u へ li .a ya
+tu li .u 汝 li .a ya
+li li .u リテラル li .a ya
+fu li .u ウィル li .a ya
+myi li .u メモリ li .a ya
+mwa li .u 愛 li .a ya
+kmu li .u ととも​​に li .a ya
+kyi li .u 条件付きで li .a ya
+kya li .u 余談 li .a ya
+kwi li .u と雅 li .a ya
+ksa li .u ザ· li .a ya
+kca li .u ハ li .a ya
+pli li .u クローズ li .a ya
+pla li .u 複数 li .a ya
+pwa li .u または雅 li .a ya
+plu li .u のために li .a ya
+pca li .u 徐 li .a ya
+nwa li .u ゼロ li .a ya
+nya li .u から li .a ya
+sli li .u 例えば li .a ya
+slu li .u 単数形 li .a ya
+sla li .u こんにちは li .a ya
+tya li .u 最初の尾 li .a ya
+twa li .u その後 li .a ya
+tli li .u 記事 li .a ya
+mik .u コピー li .a ya
+miy .u 待つ li .a ya
+mip .u 過去 li .a ya
+mam .u ママ li .a ya
+min .u もっと少なく li .a ya
+mak .u 単語 li .a ya
+mat .u 母親 li .a ya
+man .u 思う li .a ya
+map .u サイズ li .a ya
+kim .u 比較する li .a ya
+kiy .u 行く li .a ya
+kam .u ベギン li .a ya
+kap .u 頭 li .a ya
+kan .u 知っている li .a ya
+kas .u キャリア li .a ya
+kal .u すべて li .a ya
+kut .u 小さな li .a ya
+yik .u 否定する li .a ya
+yan .u セイ li .a ya
+pim .u ポイント li .a ya
+piy .u 行為 li .a ya
+pam .u 良い li .a ya
+pak .u ボディ li .a ya
+pap .u お父さん li .a ya
+pay .u もっと li .a ya
+paw .u 場所 li .a ya
+pat .u 父 li .a ya
+pal .u たくさんの li .a ya
+pan .u 大会 li .a ya
+pac .u ジョイ li .a ya
+puy .u 子供 li .a ya
+put .u 未来 li .a ya
+wam .u 時間 li .a ya
+wap .u テール li .a ya
+wat .u 話す li .a ya
+wul .u ビッグ li .a ya
+nam .u 数 li .a ya
+sim .u 3 li .a ya
+naw .u 現在 li .a ya
+tin .u 内部 li .a ya
+tiw .u 助けて li .a ya
+sun .u 一 li .a ya
+tak .u ありがとう li .a ya
+liy .u 4つの li .a ya
+tuw .u 二つ li .a ya
+lit .u フォント li .a ya
+cik .u 少数 li .a ya
+caw .u シャウト li .a ya
+myik .u 加える li .a ya
+kyim .u マイナス li .a ya
+kyul .u ルール li .a ya
+kwal .u 言語 li .a ya
+klaw .u 笑い li .a ya
+klas .u 句 li .a ya
+pyan .u 代名詞 li .a ya
+pyas .u フレーズ li .a ya
+pyat .u 文法的オブジェクト li .a ya
+plis .u 近所の li .a ya
+psan .u スペース li .a ya
+flas .u フレーズ li .a ya
+tkic .u 翻訳、辞書 li .a ya
+tlam .u 翻訳 li .a ya
+slim .u 例 li .a ya
+tlin .u 序数 li .a ya
+miyk .u 送信する li .a ya
+muys .u 感情 li .a ya
+miwk .u 人 li .a ya
+munt .u 世界 li .a ya
+kiym .u 受け取る li .a ya
+kamt .u 文法 li .a ya
+kayp .u 事 li .a ya
+kump .u ムード li .a ya
+kast .u 文法的-ケース li .a ya
+yimk .u 頼む li .a ya
+wiyp .u 動詞 li .a ya
+sint .u 気持ち li .a ya
+niym .u 名詞 li .a ya
+sant .u 文 li .a ya
+suyt .u 文法的被験者 li .a ya
+tiwk .u アクティビティ li .a ya
+timp .u 文法的時制 li .a ya
+tick .u 辞書 li .a ya
