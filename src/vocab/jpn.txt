@@ -8,7 +8,7 @@ ka li .u それ li .a ya
 ku li .u もし li .a ya
 yi li .u この li .a ya
 yu li .u あなた li .a ya
-ya li .u 雅 li .a ya
+ya li .u よ li .a ya
 pi li .u の li .a ya
 pa li .u これはある---何か li .a ya
 wi li .u 我々 li .a ya
@@ -23,8 +23,7 @@ tu li .u 汝 li .a ya
 li li .u リテラル li .a ya
 fu li .u ウィル li .a ya
 myi li .u メモリ li .a ya
-mwa li .u 愛 li .a ya
-kmu li .u ととも​​に li .a ya
+mwa li .u ととも​​に li .a ya
 kyi li .u 条件付きで li .a ya
 kya li .u 余談 li .a ya
 kwi li .u と雅 li .a ya
@@ -76,6 +75,7 @@ pac .u ジョイ li .a ya
 puy .u 子供 li .a ya
 put .u 未来 li .a ya
 wam .u 時間 li .a ya
+wan .u ラブ li .a ya
 wap .u テール li .a ya
 wat .u 話す li .a ya
 wul .u ビッグ li .a ya

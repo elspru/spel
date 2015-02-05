@@ -90,25 +90,25 @@ width:40em; /* 64 glyphs */
 
 /* syntax highlighting */
 /* sentence*/
-.sh{ background-color:hsl(270,0%,85%);/*dark gray*/ 
+.sh{ background-color:hsl(270,0%,76%);/*dark gray*/ 
 border-radius: 0.23em; overflow:hidden; }
 /* phrse case*/
-.ch{ background-color:hsl(270,0%,94%);/*bright gray*/ 
+.ch{ background-color:hsl(270,0%,85%);/*bright gray*/ 
 border-radius: 0.23em; overflow:hidden; }
 /* types*/
-.th{ background-color:hsl(0,62%,91%);/*red*/ 
+.th{ background-color:hsl(0,62%,85%);/*red*/ 
 border-radius: 0.23em; overflow:hidden; }
 /* clauses*/
-.lh{ background-color:hsl(240,62%,91%);/*blue*/ 
+.lh{ background-color:hsl(240,62%,85%);/*blue*/ 
 border-radius: 0.23em; overflow:hidden; }
 /* mood*/
-.mh{ background-color:hsl(300,62%,91%);/*magenta*/ 
+.mh{ background-color:hsl(300,62%,85%);/*magenta*/ 
 border-radius: 0.23em; overflow:hidden; }
 /* genitives*/
-.gh{ background-color:hsl(120,62%,91%);/*green*/ 
+.gh{ background-color:hsl(120,62%,85%);/*green*/ 
 border-radius: 0.23em; overflow:hidden; }
 /* junctions*/
-.jh{ background-color:hsl(60,62%,91%);/*yellow*/ 
+.jh{ background-color:hsl(60,62%,85%);/*yellow*/ 
 border-radius: 0.23em; overflow:hidden; }
 blink{
     animation-duration: 510ms;

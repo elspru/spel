@@ -16,6 +16,7 @@ check doc/roadmap.txt
 INSTALL
 
 need nodejs for compilation.
+npm for exec-sync, browserify
 
 console demo in src/
 run ./spel-node.js

@@ -38,7 +38,7 @@ var toFilename = "fra.txt"
 var toLangCode = "fr";
 translateUpdate(toFilename,toLangCode);
 // mandarin chinese
-var toFilename = "cmn.txt"  
+var toFilename = "zho.txt"  
 var toLangCode = "zh";
 translateUpdate(toFilename,toLangCode);
 // russian
@@ -65,7 +65,7 @@ var toFilename = "deu.txt"
 var toLangCode = "de";
 translateUpdate(toFilename,toLangCode);
 // japanese
-var fromFilename = "cmn.txt" 
+var fromFilename = "zho.txt" 
 var fromLangCode = "zh"
 var toFilename = "jpn.txt"  
 var toLangCode = "ja";

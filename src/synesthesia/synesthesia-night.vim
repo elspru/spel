@@ -192,9 +192,9 @@ highlight DarkMagenta ctermfg=DarkMagenta
 highlight GreenVowel ctermfg=Green
 highlight BlueVowel ctermfg=Blue
 
-highlight Black 	ctermfg=Gray	guifg=#616161
-highlight Lgray		ctermfg=LightGray	guifg=#9E9E9E
-highlight White		ctermfg=White		guifg=#D9D9D9
+highlight Black 	ctermfg=Gray	guifg=#9E9E9E
+highlight Lgray		ctermfg=LightGray	guifg=#C2C2C2
+highlight White		ctermfg=White		guifg=#DADADA
 highlight RedVowel	ctermfg=Red		guifg=#F04C4C
 highlight Red		ctermfg=Red		guifg=#DA6262
 highlight Scarlet	ctermfg=Red		guifg=#DA8062

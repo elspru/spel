@@ -1,0 +1,77 @@
+From: Logan Streondj <streondj@gmail.com>
+To: spel-mwak@lists.sourceforge.net
+Cc: 
+Bcc: 
+Subject: Inclusive Design
+Reply-To: 
+
+Imagine,
+you are inspired by a recent Inuktitut blog entry,
+then you compose a story with some friends in Japan, Indonesia, and
+Tansania, who only speak Japanese, Malay, and Swahili respectively.
+After you're done, you send it off to some schools in Latin america,
+where they come alive for the children as vivid animations in
+Portugese and Spanish. All the while only using the language you are
+most comfortable with.
+This and much more may be become possible with SPEL (Sppeakable
+Programming for Every Language). While it is still under development,
+there are some online community planning issues left to sort out.
+
+If there were no language barriers,
+and everyone got together on a forum or mailing list,
+How do we minimize people being offended,
+
+SPEL will allow people to communicate with each other from different
+language backgrounds in a fairly precise way. It is possible that some
+idioms may not translate well, and that cultural norms will clash.
+There may also be people from more traditional programming
+backgrounds, which harbour discriminatory outlook and phrases,
+since they are used to an english white-male dominated tech culture.
+
+A recent example being GamerGate, where gamers were offended that a
+woman had success producing a game, so they rose an army of anonymous
+and started making false accusations, threats and other harribles, 
+at her, and any woman that dared support her.
+Tumblr is an example of an online community which due to it's
+anonymity feature and lack of policing is full of hate blogs and other
+unsavoury things.
+Obviously we want to avoid those things, hopefully by designing a
+system and a culture which would do so. 
+
+SPEL aims to make both programming and precise language accessible to
+anyone that can form a grammatical sentence in a human language.
+Ideally it is to appeal to families, and young children,
+by providing free story books and educational programs. 
+
+If you have ideas I'm happy to hear you out.
+
+Some of mine include:
+- intelligent flagging of inappropriate content
+- content and quizes on gender and culture sensitivity
+- disallowing complete anonymity 
+
+Intelligent flagging:
+When something is "flagged as inappropriate" or offensive, 
+the person flagging can specify what kind of offense it is,
+such as either a logical-fallacy, discrimination, or NSFW,
+with more branching underneath possible for accuracy.
+
+This would be verified by a moderator or other members,
+and can train an AI similar to a spam-filter for emails.
+That way when someone is about to submit something that may be
+offensive, the AI will tell them that it could potentially contain the
+detected error, and that if it does, there will be consequences.
+
+The offensive content itself would certainly not be visible to the
+public. Since only G rated, family-safe content would be visible to
+the public (without login).
+But i'm not sure if it would be best to delete it altogether,
+since we could get accused of censorship, and disgruntled people may
+go to vent elsewhere, thus causing the streissand or cobra effect. 
+perhaps it would still be available for someone that enables
+"offensive" content of a specified category.
+Another example is for instance Chinese censorship, where the
+government of China may be offended by people talking about democracy,
+ideally other people could still view such content.
+
+

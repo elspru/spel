@@ -1079,5 +1079,99 @@ formatting
 0714 so next is topicalization
 2111 edited the roadmap some,
 decided that should leave major conjugation ttil after 1.0 ya
+} 31 Jan 2015
 1438 updated git repository to reflect the new nodejs branch
 it is called spel-code
+} 01 Feb 2015
+0154 set up my odroid, thinking of moving development over
+there.
+} 02 Feb 2015
+1556 moved development to the odroid
+2242 anyways I should really make that file translate thing
+input of a language file and output of all files,
+figures out language code by input parameter
+figures out output language codes either default all,
+or if all is given, or a list of particular ones.
+loads only if language code given, and is not already defined.
+2257 cool okay first one is working
+2311 generified, now works for multiple langs,
+need to make it even more streamlined, 
+using an array or object of codes associated with variables. 
+} 03 Feb 2015
+0524 okay got it working, with the codes and all.
+will have to update the spelp.js file and spel-node.js
+accordingly also ya
+0544 oh right so should make mwak a language like all the
+others, so it could be loaded with them
+0938 okay it seems to be all working smoothly together.
+should update the spelp to work with the new system ASAP.
+then we can probably call it a release. 
+1004 updating spel-node.js
+1019 okay updated :-)
+later will have to accept spel-lang input can put it on roadmap
+probably somewhere around javascript impelmentation
+1033 updated japanese and chinese sentence final particles :-D
+1052 updated spelp.js but gotta reinstall browserify
+anywas g2g shopping for now will be back
+1900 finished fixing it up 
+} 04 Feb 2015
+0629 so what's next on the roadmap? or rather, what next on the
+roadmap do I most feel like implementing? I'm feeling
+basic javascript would give me some good satisfaction around
+now.
+0631 so basic sentences into javascript, 
+we'll be converting them into objects
+su we be wil convert ob them into objects ya
+{"su":"we","be":"wil convert","ob":"them","into":"objects"};
+tat later su me be add ob verb support and subject support to it ya
+me.add("it","verb support","subject support",{"tat":"later"});
+su sentence tha be have ob nesting clause-tail ob also possible ya
+sentence.have("nesting") = also_possible();
+su 1 of item ob array-reference ya
+item[1] = arrayReference();
+su mwak file contents ob tha be file-read of io ob mwak.txt ya
+mwak_file_contents = io.fileRead("mwak.txt");
+ob hey world be log of console ya
+console.log("hey world")
+ob hey world be say ya
+say("hey world");
+0712 anyways the basic part is just the first of those examples
+0716 vocabulary note: 
+want to change with to mwa, and love to something else maybe yam
+0723 ay borean wen eurasiatic sun afroasiatic 
+nikw sino-tibetan nam macro-khoisan
+so definitely an n in there, probably an a also
+wan or yan perhaps PIE has wenos also, so wan is okay
+0732 okay wan it is
+0958 thinking should do a glyph transform to romanize some of
+the other phonetic scripts, like hindi, arabic and the native
+one. like cree and inuktitut syllabics. 
+1313 can put it on the roadmap after compound words
+1420 trying to get IPA keyboard to work, is a hassle ya
+1931 ya I seem obsessed with phonetic transcription 
+ya it be on my mind constantly in recent hours
+1932 specifically the transcription of English,
+but also of the word compounding algorithms for mwak. 
+1933 for mwak it is simple in case of consonants clusters
+comprised of 1, 2 or 4 consonants,  but near impossible for 3,
+so only 1, 2, 4 or 5 will be legal 5 only if the middle is an h
+or a . so say a hypothetical may and kya need to go together,
+instead of maykya it would be may.kya 
+the h is for making meaningful compounds, that are meant as one
+word. for instance  piy mak can be piyhmak  then equivalent to
+wiyp
+1940 for simplicity I can have an external file for the local
+glyphs to IPA conversion, similar to the normal dictionary.
+for instance the mwak one can be mwak.ipa.txt
+just like the normal dictionary, a json would be generated, and
+required. there would then be a ipa glyph translate function
+available ya
+1943 another thing on the todo list is to move cmn to zhe
+since zhe wil have the pronunciation reform, and cmn can be
+whatever the mandarin people speak
+2055 can use web workers API to speed up multi language
+translation. If there is more than a quarter second lag then
+people may think it is slow, or unresponsive. 
+it seems to take more than a second to show output on my samsung
+s3 mini, which has a dual core processor, so there is room for
+improvement. 
