@@ -8,12 +8,14 @@ var mwak = new Language();
 
 module.exports = English;
 function English(srcBase){
-//var engFile = io.fileRead(srcBase+"/locale/eng/eng.txt.json");
+//var io = require("../../lib/io");
+//var engFile = io.fileRead(srcBase+"/locale/eng/eng.txt");
 var engText = new Text(mwak,engFile);
 var engDict = new Dictionary(mwak,engText);
 var engWordOrder = {
 	headFinal : false,
-	verbFinal : true,
+	verbFinal : true, // false
+	nounFinal : true,
 	typeFinal : false,
 	clauseInitial: false,
 	genitiveInitial: false,

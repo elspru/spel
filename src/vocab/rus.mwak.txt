@@ -4,25 +4,22 @@
 mi li .u мне li .a ya
 ma li .u что li .a ya
 ki li .u и li .a ya
-ka li .u оно li .a ya
+ka li .u это li .a ya
 ku li .u если li .a ya
 yi li .u это li .a ya
 yu li .u вы li .a ya
 ya li .u да li .a ya
 pi li .u из li .a ya
 pa li .u эта li .a ya
-pu li .u сделал li .a ya
 wi li .u мы li .a ya
 mip li .u прошлый li .a ya
-na li .u чис li .a ya
-wa li .u или li .a ya
+wa li .u или .a ya
 nu li .u ню li .a ya
 si li .u они li .a ya
 nu li .u сейчас li .a ya
 ti li .u то .a ya
 ta li .u к li .a ya
 tu li .u ты li .a ya
-ci li .u а? li .a ya
 li li .u буквальный li .a ya
 fu li .u буду li .a ya
 myi li .u память .a ya
@@ -55,14 +52,10 @@ mat .u мать li .a ya
 man .u думать li .a ya
 map .u размер .a ya
 kim .u сравнить .a ya
-kay .u в-состоянии li .a ya
 kiy .u идти .a ya
 kam .u начать li .a ya
 kap .u голова li .a ya
-kat .u получить li .a ya
 kan .u знать li .a ya
-kum .u торговля li .a ya
-kup .u купить li .a ya
 kas .u причина li .a ya
 kal .u все li .a ya
 kut .u малый .a minhmap .i ya
@@ -78,7 +71,6 @@ paw .u место .a ya
 pat .u отец li .a ya
 pal .u многие li .a ya
 pan .u встречать .a ya
-put .u продавать li .a ya
 pac .u радость li .a ya
 puy .u ребенок .a ya
 fut .u будущее li .a ya
@@ -87,13 +79,10 @@ wan .u любовь li .a ya
 wap .u хвост li .a ya
 wat .u говорить li .a ya
 wul .u большой .a payhmap .i ya
-san .u себя li .a ya
-sup .u платить li .a ya
 nam .u число .a ya
 sim .u три li .a ya
 naw .u настоящее-время li .a ya
 tin .u внутри li .a ya
-tay .u положить li .a ya
 tiw .u помогите li .a ya
 sun .u один li .a ya
 tak .u спасибо li .a ya
@@ -104,19 +93,14 @@ cik .u несколько .a minhnam .i ya
 caw .u крик li .a ya
 myik .u добавлять .a ya
 kyim .u вычитать .a ya
-ksip .u запись li .a ya
 kyul .u правило li .a ya
 klas .u пункт .a ya
 klaw .u смех li .a ya
-pyas .u фраза li .a ya
 psan .u пространство .a ya
 pyan .u местоимение li .a ya
 flas .u фраза li .a ya
-swat .u вопрос li .a ya
 pyat .u грамматический-объект li .a ya
 plis .u рядом li .a ya
-tsin .u цитата li .a ya
-tsuk .u магазин li .a ya
 slim .u пример .a ya
 flas .u фраза .a ya
 tkic .u перевод-словарь li .a ya
@@ -130,9 +114,6 @@ kiym .u получить .a ya
 kamt .u грамматика li .a ya
 kayp .u вещь li .a ya
 kast .u грамматический-случая li .a ya
-panp .u хлеб li .a ya
-palt .u продавать li .a ya
-pack .u наслаждаться li .a ya
 kump .u настроение li .a ya
 yimk .u спросить .a ya
 wiyp .u глагол li .a ya

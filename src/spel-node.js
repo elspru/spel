@@ -33,21 +33,31 @@ console.log("english language loaded");
 var langs = [
 ["eng",eng], ["zho"], ["spa"], ["hin"], ["ara"], ["por"], 
 ["rus"], ["ind"], ["jpn"], ["deu"], ["ita"], ["kor"], ["fra"],
-["tur"], ["swa"], ["ukr"], ["nld"], ["hun"], ["swe"], 
-["mwak",mwak]
+["tur"], ["swa"],["tha"],["ukr"], ["nld"], ["hun"], ["swe"],
+["heb"], ["fin"],["mwak",mwak]
 ];
 
+var langs = [["eng",eng],["mwak",mwak]];
+var langs = [["eng",eng],["zho"],["spa"],["ara"],["rus"],
+["fra"],["tur"],["ukr"],["swe"],["heb"],["mwak",mwak]];
 var commandText = process.argv.slice(2).join(" ");
 console.log(commandText);
 var format = new Object();
 var conjugationLevel = 2;
 
 var string = " hello world ya ";
+var string = " munt sla ya ";
+var word = new Text(mwak,string);
+var string = " su me be go to the shop ya"
++ " question su you be enjoy ob bread eh? "
++ " su you be enjoy ob what eh? ";
+var string = " su you be enjoy ob what eh? "
++ " su me be go to what eh? ";
 var word = new Text(eng,string);
 console.log(word.toString());
 console.log(JSON.stringify(word));
 langs.forEach(toLangFileTranslate);
-langs.forEach(toLangFileTranslate);
+//langs.forEach(toLangFileTranslate);
 
 function toLangFileTranslate(tuple){
 
@@ -58,8 +68,36 @@ if (!lang){
 var Lang = require("./locale/"+code+"/"+code);
 lang = new Lang();
 tuple[1]=lang;
-console.error(code+" language loaded"); }
+//console.error(code+" language loaded"); 
+}
 
 console.log(code + " : " +
 word.toLocaleString(lang,format,conjugationLevel));
 }
+
+//console.log("worker starting");
+//var Worker = require('webworker-threads').Worker;
+////var workerScript = require("./worker");
+//var worker = new Worker(workerScript);
+//worker.onmessage = function(event){
+//console.log(event.data);
+//}
+//worker.postMessage(word);
+//
+////var Threads= require('webworker-threads');
+////var thread = Threads.create();
+////function hello(){
+////return "hello threads";}
+////function hmmm(){
+////var word = "the word";
+////return word;}
+////var JASON = require("JASON");
+////var threadCallBack  = function(err,data){
+////process.stdout.write(data);
+////this.destroy()}
+////
+//////thread.eval("JASON= "+ JASON.stringify(JASON));
+////thread.eval(hello).eval("hello()", threadCallBack);
+////var thread = Threads.create();
+////thread.eval(hmmm).eval("hmmm()", threadCallBack);
+////

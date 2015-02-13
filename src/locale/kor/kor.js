@@ -18,7 +18,6 @@ reversible:[
 [" su me "," I "],
 ],
 irreversible:[
-[" 우아한$",". "],
 ]
 }
 var korGrammar = new Grammar(korWordOrder,korDict,conjugation);

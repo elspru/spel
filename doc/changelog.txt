@@ -1175,3 +1175,328 @@ people may think it is slow, or unresponsive.
 it seems to take more than a second to show output on my samsung
 s3 mini, which has a dual core processor, so there is room for
 improvement. 
+} 05 Feb 2015
+0513 so verb highlighting ya can be done in toLocaleString for
+sentence ya
+0519 actually phrasal level may be better ya
+0524 made initial code, now to test
+0542 okay cool it works, now lets move subPhrase to type
+0617 okay did preliminary code for moving subphrase to type
+now lets test
+0627 debugging
+0653 wow it's all really broken now
+0657 translation doesn't work, the dictionaries are blank.
+0737 after I fix this, can make the json files dictionaries
+instead of plain text for faster load times.
+0758 okay may just have to roll it back
+and try again or leave the subphrase stuff for later
+0806 okay did a restore, may need to rewrite the verb stuff
+0807 seems to have been saved so should be okay
+moved genitives attaching to 0.5.D
+0821 will need to retest the verb header stuff
+1339 I discovered SystemC, it's pretty amazing stuff. 
+basically like flow based programming, but implementable for
+FPGA's.  not sure if it can be used as a general purpose
+programming language, but if so then awesome :-D.
+There is even some work getting it's simulators to work in
+OpenCl.
+1921 thinking about pronunciation reform again, can make the
+definitions like in espeak, where the simpler ones go first, and
+more complex ones later. I think a good goal would be to have
+under 0x100 rules for pronunciation, this would mean it wouldn't
+get too close to any current variant of english for instance,
+and would stay relatively close to the spelling. 
+0551 so next step is to add less popular languages from plain
+text definitions
+0608 wrote algorithm and code, now to test.
+0637 okay the plain translator is working, now updated
+translationUpdate to use it for esperanto.
+0641 okay now to test ya
+0705 okay it works :-D
+1546 great so next is web workers! w00t w00t, I'm rather excited
+to be adding web workers. 
+1656 hmmm seems like workers and threads are only good for pure
+functions. can't seem to process things as large as the language
+translations without loading a bunch of stuff. I'm not even sure
+how they can load it all hmmm.
+1733 seems like workers are best for low level stuff with reduce
+and map and such, I'll see if can adapt parallel.js to nodejs
+environment portable with others.
+1735 first off will have to optimize the hof.js stuff to work on
+serially without performacne downgrade
+2229 for the website generator, it can do translation on-the-fly
+on-request, 
+} 07 Feb 2015
+1154 okay so no success setting up OpenCl on my headless system
+either. There is a chance my Odroid might work with my old
+monitor..
+1158 anyways what is really necessary is for it to put in the
+DOM that it is doing the translations ya
+1243 fixing up device width media queries so it works in firefox
+phones ya
+1252 cool so works with my samsung galaxy s3 mini anyways
+1717 attempting to translate back dictionary file 
+which Igor verified for Russian.
+1722 maybe my string-literals are broken, 
+but in any case I am implementing word-quotes next so in some
+ways this is good.
+1722 seems like quote extract isn't working properly ya
+2037 if I remember correctly the problem was with literal
+parsing, where I prematurely attempted to make it grab multiple
+words.
+} 08 Feb 2015
+0709 thinking about setTimeout, can probably use it with the
+after-case i.e. after 4 seconds be say ob tha hello world ya
+setTimeout(console.log("hello world"),4*1000);
+the-word after could be used for other things also
+after hello be say ob tha su me be love ob you ya
+var hello=new Worker(
+function(){
+this.postMessage("complete"); });
+hello.onmessage = (function(data){
+if (event.data === "complete"){
+say("su me be love ob you"); } }
+0724 anyways  it's better than using a bunch of untranslatable
+place-cases like in on through, which don't translate well,
+i.e. in 40 seconds, in russian is through 40 seconds. 
+but in both of them it is after 40 seconds. 
+0725 the workers examples I just gave was  abit contrived,
+could also just do
+hello();
+say("su me be love ob you");
+0726 another thing we need is the whole _ like in that gnu
+translation software. so it could be 
+say(_("su me be love ob you"));
+and then it would translate to the destination locale.
+1238 I'm thinking it would be good to have a model client,
+or rather customer. in order for the language to be useable we
+need more vocabulary. I think we don't even have enough to reach
+toki pona level, or that of some of the oligosynthetic languages
+around. 
+spirit guides say I should be the first customer, and should aim
+to make all my communications in mwak. "this will the be fastest
+route to progress".
+" go ahead write a simple readme file with what you have already
+assembled, can avoid literal quotes till you fix them. but at
+least have an initial paragraph describing the project and it's
+long term aims."
+1249 looking at the quote parsing, it seems the first quote
+parse only does type final quotes, and doesn't even check what
+kind the grammar wants.
+1250 hmmm seems like I'm going to have to write out algorithms
+for most of the code, since I don't really understand how it is
+supposed to work.
+1303 okay edited the type class to be more sane, by parsing
+typing before slicing tokens.
+1307 k after word literals I'll do the readme
+1450 hmmm seems pretty ruined now ya
+1453 rolled back the changes to make it the way it was.
+} 09 Feb 2015
+0553 so will set it up theh readme to have speak able
+programming language at the top, then do some more coding ya
+0630 it has occured to me that english is actually verb initial
+and noun final ya
+0633 once I get the quote literals working, 
+I want to set it up so that when there is a vocabulary update,
+the new words are added to the log. and if there is a maintainer
+for a language, then the new words are emailed to them for
+review. also should do unique verify and send those results in
+the same email ya
+0723 okay so I'll probably set up this sending results sooner
+rather than later, already got it to output all the required
+stuff to the log.
+1249 replied to thread on mwak-spel list ya
+so definitely keeping the ya at the end for declarative
+sentences ya
+so can probably take off the list the ya initial from the
+roadmap ya
+1338 just gotta finish fixing up the output of translation
+update, and we'll have the readme.
+} 10 Feb 2015
+0526 translated quote and such.
+0542 okay so now gotta debug literals
+I changed them to "li"s to make it easier to read them
+0554 getting some kind of stack overflow range error :-S
+problem is i don't know where it is happening.
+0604 seems to be somewhere in the parsing, or something that
+calls the parsing, anywas sleep for now.
+0652 I'm thinking  of word for word quote, 
+multi word quote can use tsi
+I'm thinking word-quote will translate as the-word
+just as glyph quote can be the-letter or the-glyph
+and phoneme can be the-sound or the-phoneme
+0659 so it crashes at creation of new type
+goes on an infinite loop after
+0720 okay found what it was, it is the junction stuff,
+got to limit it to either tail word, or so that it checks for
+literal quotes first
+0742 expialadoshus! I finally did it :-D
+1426 practicing some svg
+1443 one thing I find quite annoying about it is the co-ordinate
+system, which starts at top left instead of bottom left. 
+} 11 Feb 2015
+1237 okay so I'm thinking since quotes are a fairly rare
+phenomena, we should dedicate one, at most 3 words to it. 
+we have the word for literal, we can also have a word for
+head-quote and tail-quote, 
+for instance the head-quote work for mwak can be tsi 
+not sure about tail quote just yet. 
+so for instance tsi mak wi  would mean quoting word wi 
+for multi word quotes could be  
+quoting.sentence.su me be say ob hello ya.sentence.quoted
+and for literals it would be 
+literally quoting word wi 
+short forms are possible such as 
+li quo word wi 
+and 
+li quo.sentence. yo tsupalies .sentence.enquo
+or since it's literal
+li quo.s. yo hey tsup! .s.enquo
+quo.li. yo hey tsup! .li.enquo
+1244 in more pertinent matters there is a debate about question
+words going on, so I have to add eh, and question to the vocab
+promptly. 
+1246 we'll start with question and then do eh
+btw got to move the russian translation now that I completed it
+1259 question
+suʾāl Arabic. pātai Maori. wèntí Mandarin. swali Swahili. soru
+Turkish. shitsumon Japanese. rogatio Latin. pergunta Spanish. 
+vopros russian. kwestSun English. pertanian Indonesian. 
+pṛkskā PIE.
+okay so definitely s and a t, possibly a p initial, a vowel
+psat  os swat, I guess the p for PIE. though the w is in
+sino-tibetan, niger-congo and germanic. so lets go with swat.
+p is Austric, and PIE, 
+1310 okay now eh
+na Arabic. em Russian, ha Finnish, Dutch, Icelandic. que
+Spanish.  so velar fricative a nasal are most common.
+since it is usually rising tone, maybe we can make it shi
+it is shi ma in Mandarin.
+1317 maybe I can allow affricate nasals, like cmi
+though can simply make it  cyi like english ey
+1319 though I guess questions are common enough it should be
+okay to give it a two letter word. past tense isn't represented
+in Mandarin yet it has a two letter word. 
+1320 I was using bread as example so should include that in the
+extended vocab.
+bharsjom in PIE. ti? Afroasiatic. pen Proto-IE bread-food,
+Bhereg Proto-IE ritual-bread. roti Malay. paraora Maori. xubz
+Arabic. mianbao Mandarin. panis Latin. xleb Russian.
+definitely p and n, vowel a, can double the p for X
+panp
+unless we figure out a technological use for bread,
+then it can be in the core vocab, maybe bread boards kinda
+thing. hmmm nah w/e panp is okay for now.
+1327 I'm thinking can also change the from ksa to ca
+1340 okay lets extract and translate
+1356 need a word for enjoy
+1405 okay gotta translate store also, or rather shop
+also enjoy
+1445 first shop
+dukkan Arabic. parduotuvė Lithuanian. kedai Malay.
+shāngdiàn Mandarin.  mise Japanese. dukan Hindi. duka Swahili.
+taberna Latin. Laden German. dukkan Turkish. magazine Russian.
+looks like tuk with maybe an n or an m of the maga
+tumk maybe, or tsuk 
+1647 may as well make a word for store also
+shop can be sell-place, and store can be hold-place,
+sklad Russian/Czech, lager Swedish, varasto Finnish.
+2149 meh anyways lets finish what was decided on.
+2202 thinking of just calling it tunk instead of tsuk
+since that n is lots of plases also. 
+eh, tunk kinda sounds like thunk,
+tsuk sounds kinda shiny.
+2212 I just realized even with two vowels, it's not obvious
+where to split it, since a word can initiate with two
+consonants. and end with wone, so kyatsuy is it kyat suy or kya
+tsuy? thus would have to split it with a glottal stop also
+kyat.suy or kya.tsuy  only four consonants in a row would be
+possible to have together, tunktsi always becomes tunk tsi
+tupsi is ambigious without a glottal stop.
+so it may be best to keep the spaces. for now anyways
+until we figure out a way around it. 
+2218 might consider making the tenses three letter words later.
+2219 oh right so enjoy, hmm no word for self
+self
+zìwǒ Mandarin. jiko Japanese. sam Russian. sarili Tagalog. 
+sui idem Latin. Korean jasin. nafs Arabic. self English. HVNNV
+Borean. kendi Turkish.
+definitely s and n, possibly l, with an a
+saln slan or san, maybe can appeal to slavs with sam, 
+but hardly anyone uses it.
+so enjoy could be psac since joy is pac. 
+hmm pac is a weird choice for joy, since it doesn't have any
+rperesentation from any modern used languages..
+2235 lets edit joy then also
+gaudium Latin. furaha Swahili. hars Hindi. radost Russian. haz
+Turkish. huanxie Mandarin. orom Hungarian. inpam  Tamil. suk
+Thai. gladje Swedish. alegria spanish. 
+okay so definitiely k, vowel a, maybe m  or l and t or s
+kam is begin, mak is word. 
+klat like glad.  hmmm also it's probaly pay or something frot he
+Borean BVJV, 
+could also do klas like russian cool, maybe pas would integrate
+a bunch of them. w/e lets keep pac.  and thus psac 
+hmmm actually I guess it's get joy, not necessaril self joy,
+which would be being happy with oneself
+2252 okay so get is kat, so pack joy get
+shop is a sell place. 
+sell
+parduoti Lithuanian. ba Arabic. mai Mandarin. uru Japanese. 
+vender Spanish. menjual Malay. prodat Russian. palda Korean.
+satmak Turkish.  sell English.
+okay so p, a, t, l or m
+palt like korean or plam maybe pamt or plat like russian pay
+2303 how to say pay?
+sumoketi Lithuanian. zhifu Mandarin. yadfau Arabic. platit
+Russian. bezahlen German. pagar Spanish. odemek Turkish. jibul
+Korean. solvo Latin. toleer Tuvan. membayar Indonesian. 
+s, p, u, m or l 
+sump sulp 
+sulp
+2313 I'm wondering if this that yonder should be root words
+instead of grammar particles.. dono
+2316 buy
+yastari Arabic, pirkti Lithuanian. emo Latin. kaupa Old Norse. 
+erosi Basque. comprar Portuguese, Spanish. gnel Armenian. 
+mai Chinese.  pokupat Russian. kobe Danish. ostaa Finnish. 
+membeli Indonesian. satin almak Turkish. 
+k, p, u, m, t
+2321 hmmm since it's supposed to be a language of business,
+maybe buy sell trade pay should all be three letter words.
+2326 sell put,  pay sup, buy kup
+kup sup put
+2332 trade
+perdagangan Malay. maoyi Mandarin. prekyba Lithuanian. Handel
+German. comercio Spanish. hudaldaa Mongolian. paanit Thai.
+gyoyeok Korean. vartakamu Telugu. vyapar Hindi. sakhar Hebrew.
+tijara Arabic. 
+m or n, c, maybe k, commerical, commerce, 
+kum cum
+2338 I should also add Finnish, Hebrew, and Thai to the
+available languages. 
+2345
+buy, sell, trade, kup put cum
+or kut put kum
+hmmm. kut is small
+kup put kum
+I like last variant best
+} 12 Feb 2015
+0008 anyways gotta go to sleep,
+it's translating the new languages,
+can add the grammar tommorrow. 
+0619 added grammar
+0652 I guess we can add the question sentences to roadmap
+1247 hmmm I guess I could add topic fronting.
+or rather wh fronting. 
+1249 but that is more of a conjugation layer thing
+1251 okay so moved javascript to be after quotes
+1253 wh fronting is relevant to the current discussions though
+1300 implementing wh fronting algorithm
+1405 time to test it
+1423 okay have debugged it :-) will add to roadmap
+} 13 Feb 2015
+0847 okay so wh fronting is done, can probably git and push.
+also can probably make a tarball release.
+on the mailing list the topic of topicalization has come up,
+so may end up implementing that next. 

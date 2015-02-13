@@ -55,8 +55,8 @@ return this;
 var mwakGrammar = {
 be: "Grammar",
 junctions:["ki","wa"],
-typeWords: ["li","ksa","nyu","na","ka","pa","yi"],
-phraseWords: [".i","ta",".a",".u","kya","nya","sla","plu","kmu"],
+typeWords: ["li","sa","nyu","na","ka","pa","yi"],
+phraseWords: [".i","ta",".a",".u","kya","nya","sla","plu","mwa"],
 agentWord: "hu",
 subjectWord: ".u",
 objectWord: ".a",
@@ -66,7 +66,7 @@ topClauseWords: ["ku","twa","kwi","pwa"],
 topClauseTerminator: ["twa"],
 clauseWords: ["ti"],
 clauseTerminator: ["tya"],
-sentenceWords: ["ya"],
+sentenceWords: ["ya","ci"],
 quotes: {
 singleWord: ["li"],
 multiWord: [],
@@ -75,6 +75,7 @@ literal: ["li"]
 wordOrder: {
 headFinal: true,
 verbFinal: true,
+nounFinal: true,
 typeFinal: true,
 postpositional: true,
 clauseInitial: true,

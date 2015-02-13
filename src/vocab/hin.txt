@@ -6,13 +6,13 @@ ma li .u क्या-बात li .a ya
 ki li .u व li .a ya
 ka li .u यह li .a ya
 ku li .u अगर li .a ya
-yi li .u यह li .a ya
+yi li .u यहयहां li .a ya
 yu li .u आप li .a ya
 ya li .u तो li .a ya
 pi li .u की li .a ya
 pa li .u उस-बात li .a ya
+pu li .u किया li .a ya
 wi li .u हमने li .a ya
-pu li .u सहूलियत li .a ya
 wa li .u या li .a ya
 na li .u परमाणु li .a ya
 si li .u उनहोने li .a ya
@@ -22,12 +22,13 @@ ta li .u को li .a ya
 tu li .u तेरा li .a ya
 li li .u शाब्दिक li .a ya
 fu li .u wil li .a ya
+ci li .u एह? li .a ya
 myi li .u याद li .a ya
 mwa li .u संग li .a ya
 kyi li .u सशर्त li .a ya
 kya li .u अलग li .a ya
 kwi li .u Yand li .a ya
-ksa li .u एस् li .a ya
+sa li .u एस् li .a ya
 kca li .u हा li .a ya
 pli li .u पास li .a ya
 pla li .u बहुवचन li .a ya
@@ -54,10 +55,14 @@ map .u आकार li .a ya
 kim .u तुलना li .a ya
 kiy .u जाओ li .a ya
 kam .u शुरू li .a ya
+kay .u योग्य li .a ya
 kap .u सरपंच li .a ya
 kan .u पता-है li .a ya
 kas .u कारण li .a ya
+kat .u मिलना li .a ya
 kal .u सारे li .a ya
+kum .u व्यापार li .a ya
+kup .u खरीद li .a ya
 kut .u छोटा li .a ya
 yik .u नकारना li .a ya
 yan .u कहो li .a ya
@@ -73,7 +78,8 @@ pal .u अन्नियाँ li .a ya
 pan .u मिले li .a ya
 pac .u खुशी li .a ya
 puy .u बच्चा li .a ya
-put .u भविष्य li .a ya
+put .u बेचना li .a ya
+fut .u भविष्य li .a ya
 wam .u समय li .a ya
 wan .u इश्क li .a ya
 wap .u पूंछ li .a ya
@@ -81,10 +87,13 @@ wat .u बोलो li .a ya
 wul .u महा li .a ya
 nam .u नंबर li .a ya
 sim .u तीन li .a ya
+san .u स्वयं li .a ya
+sup .u वेतन li .a ya
 sim .a ya
 tin .u अंदर li .a ya
 tiw .u मदद li .a ya
 naw .u वर्तमान li .a ya
+tay .u रखना li .a ya
 tak .u धन्यवाद li .a ya
 liy .u फोर li .a ya
 tin .a ya
@@ -95,6 +104,7 @@ liy .a ya
 tuw .u दो li .a ya
 kyul .u राज li .a ya
 cik .u कुछ li .a ya
+ksip .u लिखो li .a ya
 myik .u जोड़ना li .a ya
 kyim .u घटाना li .a ya
 kwal .u भाषा li .a ya
@@ -102,8 +112,11 @@ klaw .u हंसी li .a ya
 klas .u धारा li .a ya
 plis .u समीप li .a ya
 pyan .u सर्वनाम li .a ya
+swat .u सवाल li .a ya
 pyas .u मुहावरा li .a ya
 pyat .u व्याकरण-वस्तु li .a ya
+tsin .u उद्धरण li .a ya
+tsuk .u दुकान li .a ya
 tlam .u अनुवाद-करें li .a ya
 plis .a ya
 psan .u अंतरिक्ष li .a ya
@@ -117,6 +130,9 @@ miwk .u व्यक्ति li .a ya
 muys .u भावना li .a ya
 munt .u दुनिया li .a ya
 kiym .u प्राप्त-करना li .a ya
+panp .u रोटी li .a ya
+palt .u बेचना li .a ya
+pack .u आनंद li .a ya
 kamt .u व्याकरण li .a ya
 kayp .u चीज li .a ya
 kast .u व्याकरण-केस li .a ya

@@ -22,16 +22,9 @@ var Sentence = require('../class/sentence');
 var Language = require('../lang/language');
 var mwak = new Language();
 
-var Eng = require("../locale/eng/eng");
-var eng = new Eng(".");
-
 // first argument is filename
 var fromFilename = "eng.txt" ;
 var fromLangCode = "en";
-// english
-var toFilename = "eng.txt" 
-var toLangCode = "en";
-translateUpdate(toFilename,toLangCode);
 // spanish
 var toFilename = "spa.txt" 
 var toLangCode = "es";
@@ -41,7 +34,7 @@ var toFilename = "fra.txt"
 var toLangCode = "fr";
 translateUpdate(toFilename,toLangCode);
 // mandarin chinese
-var toFilename = "zho.txt"  
+var toFilename = "cmn.txt"  
 var toLangCode = "zh";
 translateUpdate(toFilename,toLangCode);
 // russian
@@ -68,19 +61,19 @@ var toFilename = "deu.txt"
 var toLangCode = "de";
 translateUpdate(toFilename,toLangCode);
 // japanese
-var fromFilename = "zho.txt" 
+var fromFilename = "cmn.txt" 
 var fromLangCode = "zh"
 var toFilename = "jpn.txt"  
 var toLangCode = "ja";
 translateUpdate(toFilename,toLangCode,
 fromFilename,fromLangCode);
 // korean
-//var fromFilename = "jpn.txt" 
-//var fromLangCode = "ja"
+var fromFilename = "jpn.txt" 
+var fromLangCode = "ja"
 var toFilename = "kor.txt"  
 var toLangCode = "ko";
-translateUpdate(toFilename,toLangCode);//,
-//fromFilename,fromLangCode);
+translateUpdate(toFilename,toLangCode,
+fromFilename,fromLangCode);
 // hindi 
 var toFilename = "hin.txt"  
 var toLangCode = "hi";
@@ -99,10 +92,6 @@ translateUpdate(toFilename,toLangCode);
 var toFilename = "ita.txt"  
 var toLangCode = "it";
 translateUpdate(toFilename,toLangCode);
-// thai 
-var toFilename = "tha.txt"  
-var toLangCode = "th";
-translateUpdate(toFilename,toLangCode);
 // dutch 
 var fromFilename = "deu.txt" 
 var fromLangCode = "de"
@@ -110,10 +99,6 @@ var toFilename = "nld.txt"
 var toLangCode = "nl";
 translateUpdate(toFilename,toLangCode,
 fromFilename,fromLangCode);
-// hebrew
-var toFilename = "heb.txt"  
-var toLangCode = "he";
-translateUpdate(toFilename,toLangCode);
 // swedish
 var fromFilename = "deu.txt" 
 var fromLangCode = "de"
@@ -140,25 +125,22 @@ translateUpdate(toFilename,toLangCode);
 var toFilename = "hun.txt"  
 var toLangCode = "hu";
 translateUpdate(toFilename,toLangCode);
-// finnish
-var toFilename = "fin.txt"  
-var toLangCode = "fi";
-translateUpdate(toFilename,toLangCode);
 // esperanto
-var byService="reversePlain"
-var toFilename = "epo.txt"  
-var toLangCode = "eo";
-var fromLangCode = "esperanto-list.txt";
-translateUpdate(toFilename,toLangCode,"eng.txt",fromLangCode,byService);
+//var fromFilename = "spa.txt" 
+//var fromLangCode = "es"
+//var byService="apertium"
+//var toFilename = "epo.txt"  
+//var toLangCode = "eo";
+//translateUpdate(toFilename,toLangCode,
+//fromFilename,fromLangCode,byService);
 
 
 function translateUpdate(toFilename,toLangCode,
 fromFilename,fromLangCode,byService){
+console.log("loading file " + toFilename);
 if (fromFilename=== undefined){
  fromFilename = "eng.txt" ;
-}
-if (fromLangCode=== undefined){
- fromLangCode = "en" ;
+ fromLangCode = "en";
 }
 if (byService=== undefined){
 byService = "google";
@@ -177,7 +159,7 @@ var warnings = new Array();
 var childProcess = require('child_process');
 var execSync = require('exec-sync');
 var i, translateFail;
-console.log("translating "+ toFilename );
+console.log("translating");
 for (i=0;i<sentences.length;i++){
 var sentence = sentences[i];
 var subject = String( sentence.phraseGet(mwak,".u"));
@@ -188,14 +170,11 @@ if (obPhraseBody.type && obPhraseBody.type === "lit")
 var obPhraseBody = obPhraseBody.body;
 var definition = String(obPhraseBody);
 var translation;
+console.log(definition);
 try{
-if (byService === "reversePlain")
-var command = "./reversePlainTranslate.js "+fromLangCode+" "
-+ definition;
-else 
-var command = "./gtranslate.sh "+byService+" "+fromLangCode+" "
-+toLangCode+" "+ definition;
-translation = execSync(command);
+translation = 
+execSync("gtranslate.sh "+fromLangCode+" "
++toLangCode+" "+ definition);
 }
 catch(e){console.log(e);
 translateFail = true;
@@ -206,41 +185,33 @@ if (translateFail === true){
 // be replace ob space with dash ya
 //translation.replace('\s','-');
 translation = noSpace(translation);
+console.log(translation);
 if (translation.toLower &&
-translation.toLower() === definition){
-var warning = ("Warning: "+translation
+translation.toLower() === definition)
+warnings[warnings.length] = ("Warning: "+translation
 +" has same definition");
-warnings[warnings.length] = warning;
-}
 var newSentence = new Sentence(mwak,
 (subject +" "+ translation + " li .a ya"));
-warnings[warnings.length] = (
-newSentence.toLocaleString(eng)
-+ "\n"
-+newSentence.toLocaleString(mwak)
-);
+console.log(String(newSentence));
+
 newText.insert(mwak,i,newSentence);
 }
 }
+//console.log(definitions.toString());
 
 if (debug) console.log(String(newText));
-else {
-io.fileWrite(toFilename,String(newText));
-io.fileWrite(toFilename+".json",JSON.stringify(newText));}
-
-var uniqueWarnings = uniqueVerify(toFilename);
-warnings[warnings.length] = uniqueWarnings;
+else io.fileWrite(toFilename,String(newText));
 
 var i;
 var warningString = new String();
 var date = new Date();
-warningString = date.toString()+"\n";
+warningString = date.toString();
 for (i=0;i<warnings.length;i++)
 warningString += warnings[i]+"\n";
 
 console.log(warningString);
 if (warnings.length >0){
-if (!debug) {
+if (true || !debug) {
 var logFilename = toFilename+".log";
 var newLogContents = new String();
 if (fs.existsSync(logFilename)){
@@ -274,36 +245,4 @@ stringArray[i]='-';
 else stringArray[i]=string[i];
 }
 return stringArray.join("");
-}
-
-function uniqueVerify(filename){
-// first argument is filename
-//console.log("****** "+ filename);
-var filename = filename;//process.argv[2];
-var fileContents = io.fileRead(filename);
-var fileText = new Text(mwak,fileContents);
-var definitions = fileText.select(mwak,".a");
-var sentences = definitions.sentences;
-var i;
-var output =  new String();
-// clean up text
-for (i=0;i<sentences.length;i++){
-sentences[i].phraseDelete(mwak,"kya");
-sentences[i].phraseDelete(mwak,"nya");
-sentences[i].phraseDelete(mwak,".i");
-//sentences[i].phraseDelete(mwak,".u");
-}
-// check if same definition is found twice
-for (i=0;i<sentences.length;i++){
-var phrase = sentences[1].phraseGet(mwak,".a");
-var sentence = sentences[1].copy();
-sentences.splice(1,1);
-//console.log(phrase.toString());
-var matches = definitions.indexOf(mwak,phrase.toString());
-if (matches !== -1)
-output += ("duplicate error: \n "
-+ sentence.toLocaleString(eng) +"\n"
-+ definitions.sentences[matches].toLocaleString(eng)+"\n");
-}
-return output;
 }

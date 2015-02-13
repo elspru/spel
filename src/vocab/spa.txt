@@ -11,8 +11,8 @@ yu li .u usted li .a ya
 ya li .u sí li .a ya
 pi li .u de li .a ya
 pa li .u que-cosa li .a ya
+pu li .u hizo li .a ya
 wi li .u nosotros li .a ya
-pu li .u pas .a ya
 wa li .u o li .a ya
 na li .u nu .a ya
 si li .u ellos li .a ya
@@ -22,12 +22,13 @@ ta li .u a li .a ya
 tu li .u tú li .a ya
 li li .u literal li .a ya
 fu li .u fut .a ya
+ci li .u ¿eh? li .a ya
 myi li .u memoria .a ya
 mwa li .u con li .a ya
 kyi li .u condicionalmente .a ya
 kya li .u aparte li .a ya
 kwi li .u síy .a ya
-ksa li .u la .a ya
+sa li .u la .a ya
 kca li .u ja li .a ya
 pli li .u cerca li .a ya
 pla li .u plural li .a ya
@@ -54,10 +55,14 @@ map .u tamaño .a ya
 kim .u comparar .a ya
 kiy .u ir .a ya
 kam .u comenzar .a ya
+kay .u capaz li .a ya
 kap .u cabeza .a ya
 kan .u saber li .a ya
 kas .u causa li .a ya
+kat .u llegar li .a ya
 kal .u todos li .a ya
+kum .u comercio li .a ya
+kup .u comprar li .a ya
 kut .u minhmap .i pequeño .a ya
 yik .u negar .a ya
 yan .u decir li .a ya
@@ -73,7 +78,8 @@ pal .u muchos li .a ya
 pan .u conocer .a ya
 pac .u alegría li .a ya
 puy .u niño .a ya
-put .u futuro .a ya
+put .u vender li .a ya
+fut .u futuro .a ya
 wam .u tiempo .a ya
 wan .u amar li .a ya
 wap .u cola .a ya
@@ -81,10 +87,13 @@ wat .u hablar li .a ya
 wul .u payhmap .i grande .a ya
 nam .u número .a ya
 sim .u tres li .a ya
+san .u yo li .a ya
+sup .u pagar li .a ya
 naw .u presente .a ya
 tin .u dentro li .a ya
 tiw .u ayuda li .a ya
 sun .u uno .a ya
+tay .u poner li .a ya
 tak .u agradecer li .a ya
 liy .u cuatro li .a ya
 tuw .u dos .a ya
@@ -95,6 +104,7 @@ myik .u añadir .a ya
 kyim .u sustraer .a ya
 kyul .u regla li .a ya
 klas .u cláusula .a ya
+ksip .u escribir li .a ya
 klaw .u risa li .a ya
 psan .u espacio .a ya
 pyan .u pronombre .a ya
@@ -102,8 +112,11 @@ pyas .u frase .a ya
 pyat .u gramatical-a-objetos .a ya
 plis .u cercano li .a ya
 slim .u ejemplo .a ya
+swat .u pregunta li .a ya
 flas .u frase .a ya
 tkic .u Traducción-diccionario- li .a ya
+tsin .u cita li .a ya
+tsuk .u tienda li .a ya
 tlam .u traducir li .a ya
 tlin .u ordinal .a ya
 miyk .u enviar .a ya
@@ -117,6 +130,9 @@ kast .u gramatical-de-los-casos .a ya
 kump .u humor li .a ya
 yimk .u preguntar .a ya
 wiyp .u verbo .a ya
+panp .u pan li .a ya
+palt .u vender li .a ya
+pack .u disfrutar li .a ya
 niym .u sustantivo .a ya
 sint .u sentir li .a ya
 sant .u sentencia .a ya

@@ -79,13 +79,14 @@ require("../locale/ukr/ukr");
 require("../locale/nld/nld");
 require("../locale/hun/hun");
 require("../locale/swe/swe");
+require("../locale/heb/heb");
 require("../locale/mwak/mwak");
 // end of browserify requires
 
 var langs = [
 ["eng",eng], ["zho"], ["spa"], ["hin"], ["ara"], ["por"], 
 ["rus"], ["ind"], ["jpn"], ["deu"], ["ita"], ["kor"], ["fra"],
-["tur"], ["swa"], ["ukr"], ["nld"], ["hun"], ["swe"], 
+["tur"], ["swa"], ["ukr"], ["nld"], ["hun"], ["swe"], ["heb"],
 ["mwak",mwak]
 ];
 
@@ -128,8 +129,6 @@ langPair[1] = lang;
 return lang;
 }
 function inputSubmit(userInput){
-infoUpdate("");//clear info
-mainUpdate("");//clear main
 var fromLangCode = fromLangChoice.value;
 fromLangL = languageGet(fromLangCode);
 // make text object from input
@@ -143,8 +142,6 @@ noError = false;
 var /*Elem*/ toLangChoice = document.getElementById("toLang");
 var toLangLength=toLangChoice.options.length;
 var i, option;
-infoUpdate('<span class="th">be flow translate ya</span>');
-mainUpdate("");
 var translation = new String();
 for (i=0;i<toLangLength;i++){
 if( toLangChoice.options[i].selected){
@@ -164,7 +161,7 @@ var conjugationLevel = 0;
 //document.getElementById("conjugationLevel").value;
 var trans = textObject.toLocaleString(toLangL,
 HtmlFormat,conjugationLevel);
-if(toLangCode === "ara")
+if(toLangCode === "ara" || toLangCode === "heb")
 trans = '<p class="ara">'+trans+'</p>';
 translation = translation + toLangCode+': ' +trans;
 } 
@@ -275,7 +272,9 @@ synInfoShown = true;
 	var /*Elem*/ userInputEl = document.getElementById(
 		"inputText");
 	var /*String*/ userInput = userInputEl.value;
-	inputSubmit(userInput);
+infoUpdate('<span class="th">be flow translate ya</span>');
+mainUpdate("");
+setTimeout( inputSubmit(userInput), 20);
 	},false);
 }
 //window.onload = init;

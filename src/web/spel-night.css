@@ -7,8 +7,17 @@ font-size:12;
 background-color:black; 
 color:white;
 }
-div{
-width:40em; /* 64 glyphs */
+@media only screen and (min-device-width: 240px) {
+div{ width:20em; /* ~40 glyphs */ }
+textarea{ width:20em; height:4em; } 
+}
+@media only screen and (min-device-width: 320px) {
+div{ width:23em; /* ~40 glyphs */ }
+textarea{ width:23em; height:4em; } 
+}
+@media only screen and (min-device-width: 480px) {
+div{ width:39em; /* 64 glyphs */ }
+textarea{ width:39em; height:4em; }
 }
 /* HSL color wheel colors 
  * 0 red
@@ -88,8 +97,11 @@ border-radius: 0.23em; overflow:hidden; }
 /* phrase case header*/
 .ch{ background-color:hsl(270,0%,23%);/*bright gray*/
 border-radius: 0.23em; overflow:hidden; }
+/* verb header*/
+.bh{ background-color:hsl(0,61%,14%);/*red*/ 
+border-radius: 0.23em; overflow:hidden; }
 /* type header*/
-.th{ background-color:hsl(0,61%,14%);/*red*/ 
+.th{ background-color:hsl(30,61%,14%);/*orange*/ 
 border-radius: 0.23em; overflow:hidden; }
 /* clause header*/
 .lh{ background-color:hsl(240,61%,14%);/*blue*/ 

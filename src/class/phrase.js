@@ -262,6 +262,7 @@ if (this.head) result += this.head.toString() +joiner;
 return result;
 };
 Phrase.prototype.toLocaleString = function(language, format,type){
+// algorithm
 var joiner = ' ';
 var content;
 var syntaxType = 'ch';
@@ -278,6 +279,10 @@ content = this.body.toLocaleString(language,format);
 else if (this.body) content = this.body;
 else content = '';
 if (content) content += joiner;
+if (this.head.head === ".i")
+var caseWord = this.head.toLocaleString(
+		language,format,"vh");
+else
 var caseWord = this.head.toLocaleString(
 		language,format,syntaxType);
 var positionPhrase = content;

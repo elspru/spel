@@ -11,8 +11,8 @@ yu li .u kamu-kamu li .a ya
 ya li .u ya li .a ya
 pi li .u dari li .a ya
 pa li .u yang-hal li .a ya
+pu li .u melakukan li .a ya
 wi li .u kita li .a ya
-pu li .u pas li .a ya
 wa li .u atau li .a ya
 na li .u no li .a ya
 si li .u ta-men li .a ya
@@ -22,17 +22,18 @@ ta li .u untuk li .a ya
 tu li .u engkau li .a ya
 li li .u harfiah li .a ya
 fu li .u akan li .a ya
+ci li .u eh? li .a ya
 myi li .u daya-ingat li .a ya
 mwa li .u dengan li .a ya
 kyi li .u kondisional li .a ya
 kya li .u ke-samping li .a ya
 kwi li .u yand li .a ya
-ksa li .u itu li .a ya
+sa li .u itu li .a ya
 kca li .u ha li .a ya
 pli li .u di-dekat li .a ya
 pla li .u jamak li .a ya
 pwa li .u yaor li .a ya
-plu li .u untuk li .a ya
+plu li .u bagi li .a ya
 pca li .u riang li .a ya
 nwa li .u batal li .a ya
 nya li .u asal li .a ya
@@ -54,10 +55,14 @@ map .u ukuran li .a ya
 kim .u membandingkan li .a ya
 kiy .u pergi li .a ya
 kam .u mulai li .a ya
+kay .u sanggup li .a ya
 kap .u kepala li .a ya
 kan .u tahu li .a ya
 kas .u penyebab li .a ya
+kat .u mendapatkan li .a ya
 kal .u semua li .a ya
+kum .u perdagangan li .a ya
+kup .u membeli li .a ya
 kut .u kecil li .a ya
 yik .u meniadakan li .a ya
 yan .u mengatakan li .a ya
@@ -73,7 +78,8 @@ pal .u banyak-sekali li .a ya
 pan .u bertemu li .a ya
 pac .u kegembiraan li .a ya
 puy .u anak li .a ya
-put .u masa-depan li .a ya
+put .u menjual li .a ya
+fut .u masa-depan li .a ya
 wam .u waktu li .a ya
 wan .u cinta-kasih li .a ya
 wap .u ekor li .a ya
@@ -81,10 +87,13 @@ wat .u berbicara li .a ya
 wul .u besar li .a ya
 nam .u nomor li .a ya
 sim .u tiga li .a ya
+san .u diri-sendiri li .a ya
+sup .u membayar li .a ya
 naw .u yang-hadir li .a ya
 tin .u sebelah-dalam li .a ya
 tiw .u membantu li .a ya
 sun .u satu li .a ya
+tay .u menempatkan li .a ya
 tak .u terima li .a ya
 liy .u empat li .a ya
 tuw .u dua li .a ya
@@ -95,6 +104,7 @@ myik .u menambahkan li .a ya
 kyim .u mengurangi li .a ya
 kyul .u aturan li .a ya
 kwal .u bahasa li .a ya
+ksip .u menulis li .a ya
 klaw .u tertawa li .a ya
 klas .u ayat li .a ya
 pyan .u kata-ganti li .a ya
@@ -102,8 +112,11 @@ pyas .u frasa li .a ya
 pyat .u gramatikal-objek li .a ya
 plis .u dekat li .a ya
 psan .u ruang-angkasa li .a ya
+swat .u pertanyaan li .a ya
 slim .u contoh li .a ya
 tkic .u terjemahan-kamus li .a ya
+tsin .u kutipan li .a ya
+tsuk .u toko li .a ya
 tlam .u menterjemahkan li .a ya
 tlin .u urut li .a ya
 flas .u frasa li .a ya
@@ -117,6 +130,9 @@ kayp .u benda li .a ya
 kast .u gramatikal-kasus li .a ya
 kump .u suasana-hati li .a ya
 yimk .u meminta li .a ya
+panp .u roti li .a ya
+palt .u menjual li .a ya
+pack .u selamat-menikmati li .a ya
 wiyp .u kata-kerja li .a ya
 niym .u kata-benda li .a ya
 sint .u merasa li .a ya

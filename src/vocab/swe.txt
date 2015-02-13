@@ -11,8 +11,8 @@ yu li .u De li .a ya
 ya li .u ya li .a ya
 pi li .u av li .a ya
 pa li .u det-där li .a ya
+pu li .u åtgärd li .a ya
 wi li .u vi li .a ya
-pu li .u Pas li .a ya
 wa li .u eller li .a ya
 na li .u num li .a ya
 si li .u de li .a ya
@@ -22,12 +22,13 @@ ta li .u till li .a ya
 tu li .u ni li .a ya
 li li .u rally li .a ya
 fu li .u wil li .a ya
+ci li .u eh? li .a ya
 myi li .u minne li .a ya
 mwa li .u med li .a ya
 kyi li .u villkor li .a ya
 kya li .u åt-sidan li .a ya
 kwi li .u yand li .a ya
-ksa li .u den li .a ya
+sa li .u den li .a ya
 kca li .u HA li .a ya
 pli li .u i-närheten-av li .a ya
 pla li .u Plural li .a ya
@@ -54,10 +55,14 @@ map .u storlek li .a ya
 kim .u jämför li .a ya
 kiy .u gå li .a ya
 kam .u börja li .a ya
+kay .u kapabel li .a ya
 kap .u huvud li .a ya
 kan .u vet li .a ya
 kas .u Root-Cause li .a ya
+kat .u motta li .a ya
 kal .u allt li .a ya
+kum .u Handel li .a ya
+kup .u köpa li .a ya
 kut .u liten li .a ya
 yik .u negera li .a ya
 yan .u säga li .a ya
@@ -73,7 +78,8 @@ pal .u många li .a ya
 pan .u möts li .a ya
 pac .u glädje li .a ya
 puy .u barn li .a ya
-put .u framtid li .a ya
+put .u sälja li .a ya
+fut .u framtid li .a ya
 wam .u tid li .a ya
 wan .u älskar li .a ya
 wap .u svans li .a ya
@@ -81,10 +87,13 @@ wat .u tala li .a ya
 wul .u stor li .a ya
 nam .u nummer li .a ya
 sim .u tre li .a ya
+san .u själv li .a ya
+sup .u betala li .a ya
 naw .u närvarande li .a ya
 tin .u inom li .a ya
 tiw .u hjälpa li .a ya
 sun .u en li .a ya
+tay .u uppsättning li .a ya
 tak .u tack li .a ya
 liy .u fyra li .a ya
 tuw .u två li .a ya
@@ -95,6 +104,7 @@ myik .u lägga-till li .a ya
 kyim .u subtrahera li .a ya
 kyul .u Regel li .a ya
 kwal .u språk li .a ya
+ksip .u skriva li .a ya
 klaw .u skratt li .a ya
 klas .u klausul li .a ya
 pyan .u pronomen li .a ya
@@ -102,8 +112,11 @@ pyas .u fras li .a ya
 pyat .u grammatisk-objekt li .a ya
 plis .u in-the-close li .a ya
 psan .u plats li .a ya
+swat .u Fråga li .a ya
 slim .u exempel li .a ya
 tkic .u translation-dictionary li .a ya
+tsin .u Erbjudande li .a ya
+tsuk .u Affärs li .a ya
 tlam .u översätta li .a ya
 tlin .u ordningstal li .a ya
 flas .u fras li .a ya
@@ -117,6 +130,9 @@ kayp .u sak li .a ya
 kast .u grammatisk-fallet li .a ya
 kump .u humör li .a ya
 yimk .u fråga li .a ya
+panp .u Bröd li .a ya
+palt .u sälja li .a ya
+pack .u njuta li .a ya
 wiyp .u verb li .a ya
 niym .u subst li .a ya
 sint .u känna li .a ya

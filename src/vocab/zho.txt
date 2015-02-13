@@ -11,8 +11,8 @@ yu li .u 你 li .a ya
 ya li .u 啊 li .a ya
 pi li .u 的 li .a ya
 pa li .u 这-事 li .a ya
+pu li .u 没有 li .a ya
 wi li .u 我们 li .a ya
-pu li .u 过去式 .a ya
 wa li .u 或 .a ya
 na li .u 个 .a ya
 si li .u 他们 li .a ya
@@ -22,12 +22,13 @@ ta li .u 到 li .a ya
 tu li .u 尒 li .a ya
 li li .u 字面 li .a ya
 fu li .u 将 .a ya
+ci li .u 是吗？ li .a ya
 myi li .u 记忆 .a ya
 mwa li .u 同 li .a ya
 kyi li .u 有条件 .a ya
 kya li .u 旁白 li .a ya
 kwi li .u 而 .a ya
-ksa li .u 该 .a ya
+sa li .u 该 .a ya
 kca li .u 哈 li .a ya
 pli li .u 近 li .a ya
 pla li .u 复数 li .a ya
@@ -54,10 +55,14 @@ map .u 尺寸 .a ya
 kim .u 比较 .a ya
 kiy .u 去 .a ya
 kam .u 开始 .a ya
+kay .u 能 li .a ya
 kap .u 头 .a ya
 kan .u 知道 li .a ya
 kas .u 事业 li .a ya
+kat .u 得到 li .a ya
 kal .u 所有 li .a ya
+kum .u 贸易 li .a ya
+kup .u 购买 li .a ya
 kut .u minhmap .i 小 .a ya
 yik .u 否定 .a ya
 yan .u 说 li .a ya
@@ -73,7 +78,8 @@ pal .u 许多 li .a ya
 pan .u 见面 .a ya
 pac .u 欢乐 li .a ya
 puy .u 孩子 .a ya
-put .u 未来 .a ya
+put .u 卖 li .a ya
+fut .u 未来 .a ya
 wam .u 时间 .a ya
 wan .u 爱 li .a ya
 wap .u 尾 .a ya
@@ -81,10 +87,13 @@ wat .u 说话 li .a ya
 wul .u payhmap .i 大 .a ya
 nam .u 号码 .a ya
 sim .u 三 li .a ya
+san .u 自我 li .a ya
+sup .u 付 li .a ya
 naw .u 现时 .a ya
 tin .u 里面 li .a ya
 tiw .u 救命 li .a ya
 sun .u 一 .a ya
+tay .u 放 li .a ya
 tak .u 谢谢 li .a ya
 liy .u 四 li .a ya
 tuw .u 两 .a ya
@@ -95,6 +104,7 @@ myik .u 添加 .a ya
 kyim .u 减去 .a ya
 kyul .u 规则 li .a ya
 klas .u 条款 .a ya
+ksip .u 写 li .a ya
 klaw .u 笑 li .a ya
 psan .u 空间 .a ya
 pyan .u 代词 .a ya
@@ -102,8 +112,11 @@ pyas .u 短语 .a ya
 pyat .u 语法对象 .a ya
 plis .u 附近的 li .a ya
 slim .u 例 .a ya
+swat .u 问题 li .a ya
 flas .u 短语 .a ya
 tkic .u 翻译，字典 li .a ya
+tsin .u 引用 li .a ya
+tsuk .u 店 li .a ya
 tlam .u 翻译 li .a ya
 tlin .u 序数词 .a ya
 miyk .u 发送 .a ya
@@ -117,6 +130,9 @@ kast .u 语法情况 .a ya
 kump .u 情绪 li .a ya
 yimk .u 问 .a ya
 wiyp .u 动词 .a ya
+panp .u 面包 li .a ya
+palt .u 卖 li .a ya
+pack .u 享受 li .a ya
 niym .u 名词 .a ya
 sint .u 感觉 li .a ya
 sant .u 句子 .a ya

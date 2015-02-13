@@ -11,8 +11,8 @@ yu li .u あなた li .a ya
 ya li .u よ li .a ya
 pi li .u の li .a ya
 pa li .u これはある---何か li .a ya
+pu li .u ノー li .a ya
 wi li .u 我々 li .a ya
-pu li .u 過去形 li .a ya
 wa li .u または li .a ya
 na li .u ニュー li .a ya
 si li .u 彼ら li .a ya
@@ -22,12 +22,13 @@ ta li .u へ li .a ya
 tu li .u 汝 li .a ya
 li li .u リテラル li .a ya
 fu li .u ウィル li .a ya
+ci li .u その右はありますか？ li .a ya
 myi li .u メモリ li .a ya
 mwa li .u ととも​​に li .a ya
 kyi li .u 条件付きで li .a ya
 kya li .u 余談 li .a ya
 kwi li .u と雅 li .a ya
-ksa li .u ザ· li .a ya
+sa li .u ザ· li .a ya
 kca li .u ハ li .a ya
 pli li .u クローズ li .a ya
 pla li .u 複数 li .a ya
@@ -54,10 +55,14 @@ map .u サイズ li .a ya
 kim .u 比較する li .a ya
 kiy .u 行く li .a ya
 kam .u ベギン li .a ya
+kay .u 缶 li .a ya
 kap .u 頭 li .a ya
 kan .u 知っている li .a ya
 kas .u キャリア li .a ya
+kat .u 入手する li .a ya
 kal .u すべて li .a ya
+kum .u トレード li .a ya
+kup .u 購入 li .a ya
 kut .u 小さな li .a ya
 yik .u 否定する li .a ya
 yan .u セイ li .a ya
@@ -73,7 +78,8 @@ pal .u たくさんの li .a ya
 pan .u 大会 li .a ya
 pac .u ジョイ li .a ya
 puy .u 子供 li .a ya
-put .u 未来 li .a ya
+put .u 販売 li .a ya
+fut .u 未来 li .a ya
 wam .u 時間 li .a ya
 wan .u ラブ li .a ya
 wap .u テール li .a ya
@@ -81,10 +87,13 @@ wat .u 話す li .a ya
 wul .u ビッグ li .a ya
 nam .u 数 li .a ya
 sim .u 3 li .a ya
+san .u セルフ li .a ya
+sup .u 支払い li .a ya
 naw .u 現在 li .a ya
 tin .u 内部 li .a ya
 tiw .u 助けて li .a ya
 sun .u 一 li .a ya
+tay .u リリース li .a ya
 tak .u ありがとう li .a ya
 liy .u 4つの li .a ya
 tuw .u 二つ li .a ya
@@ -95,6 +104,7 @@ myik .u 加える li .a ya
 kyim .u マイナス li .a ya
 kyul .u ルール li .a ya
 kwal .u 言語 li .a ya
+ksip .u 書く li .a ya
 klaw .u 笑い li .a ya
 klas .u 句 li .a ya
 pyan .u 代名詞 li .a ya
@@ -102,8 +112,11 @@ pyas .u フレーズ li .a ya
 pyat .u 文法的オブジェクト li .a ya
 plis .u 近所の li .a ya
 psan .u スペース li .a ya
+swat .u 問題 li .a ya
 flas .u フレーズ li .a ya
 tkic .u 翻訳、辞書 li .a ya
+tsin .u 引用 li .a ya
+tsuk .u ショップ li .a ya
 tlam .u 翻訳 li .a ya
 slim .u 例 li .a ya
 tlin .u 序数 li .a ya
@@ -117,6 +130,9 @@ kayp .u 事 li .a ya
 kump .u ムード li .a ya
 kast .u 文法的-ケース li .a ya
 yimk .u 頼む li .a ya
+panp .u パン li .a ya
+palt .u 販売 li .a ya
+pack .u 楽しむ li .a ya
 wiyp .u 動詞 li .a ya
 sint .u 気持ち li .a ya
 niym .u 名詞 li .a ya

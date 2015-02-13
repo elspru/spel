@@ -22,33 +22,43 @@ function Type(language,input){
 			+" not valid for "+this.be);
 
 // algorithm de
-// if contains junction word return Junction 
 // if type final then head word is last word
 // else it is first word
 // if head word is typeword then set it
+// if contains junction word return Junction 
 
 var tokensLength = tokens.length;
+var juncTokens = tokens.slice(0);
 if (tokensLength === 0) // if no tokens, return them.
 	return tokens;
 var firstToken = tokens[0];
 if (typeof firstToken === "object") // such as Quote
 	return firstToken;
+var headWord = new String();
+var otherTokens = new Array();
+var grammar = language.grammar;
+var wordOrder = grammar.wordOrder;
+// if type final then head word is last word
+if (wordOrder.typeFinal){
+var index = tokensLength-1;
+headWord = tokens[index];
+otherTokens = tokens.slice(0,index); 
+juncTokens.splice(index-1,2); // remove used tokens
+}
+// else it is first word
+else if (wordOrder.typeFinal === false) 
+{	headWord = tokens[0];
+otherTokens = tokens.slice(1); 
+juncTokens.splice(0,2); // remove used tokens
+}
+else throw Error(wordOrder+" typeFinal order not defined");
 // if contains junction word return Junction 
-if (tokens.rfind(parse.wordMatch.curry(
-language.grammar.junctions))){
+if ( juncTokens && juncTokens.rfind(
+parse.wordMatch.curry(language.grammar.junctions))
+){
 var Junction = require("./junction");
 return new Junction(language,tokens);
 }
-var headWord = new String();
-var otherTokens = new Array();
-// if type final then head word is last word
-if (language.grammar.wordOrder.typeFinal){
-var index = tokensLength-1;
-headWord = tokens[index];
-otherTokens = tokens.slice(0,index); }
-// else it is first word
-else {	headWord = tokens[0];
-otherTokens = tokens.slice(1); }
 
 // if head word is typeword then set it
 var grammar = language.grammar;

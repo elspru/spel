@@ -11,8 +11,8 @@ yu li .u vous li .a ya
 ya li .u ya li .a ya
 pi li .u de li .a ya
 pa li .u que-chose li .a ya
+pu li .u fait li .a ya
 wi li .u nous li .a ya
-pu li .u pas .a ya
 wa li .u ou .a ya
 na li .u nu .a ya
 si li .u ils li .a ya
@@ -22,12 +22,13 @@ ta li .u à li .a ya
 tu li .u tu li .a ya
 li li .u littéral li .a ya
 fu li .u wil .a ya
+ci li .u hein? li .a ya
 myi li .u mémoire .a ya
 mwa li .u avec li .a ya
 kyi li .u conditionnellement .a ya
 kya li .u de-côté li .a ya
 kwi li .u yet .a ya
-ksa li .u la .a ya
+sa li .u la .a ya
 kca li .u ha li .a ya
 pli li .u près-de li .a ya
 pla li .u pluriel li .a ya
@@ -54,10 +55,14 @@ map .u taille .a ya
 kim .u comparer .a ya
 kiy .u aller .a ya
 kam .u commencer .a ya
+kay .u capable li .a ya
 kap .u tête .a ya
 kan .u savoir li .a ya
 kas .u cause li .a ya
+kat .u obtenir li .a ya
 kal .u tous li .a ya
+kum .u commerce li .a ya
+kup .u acheter li .a ya
 kut .u minhmap .i petit .a ya
 yik .u nier .a ya
 yan .u dire li .a ya
@@ -73,7 +78,8 @@ pal .u beaucoup li .a ya
 pan .u rencontrer .a ya
 pac .u joie li .a ya
 puy .u enfant .a ya
-put .u avenir .a ya
+put .u vendre li .a ya
+fut .u avenir .a ya
 wam .u temps .a ya
 wan .u aimer li .a ya
 wap .u queue .a ya
@@ -81,10 +87,13 @@ wat .u parler li .a ya
 wul .u payhmap .i grand .a ya
 nam .u nombre .a ya
 sim .u trois li .a ya
+san .u soi li .a ya
+sup .u payer li .a ya
 naw .u présent .a ya
 tin .u à-l'intérieur li .a ya
 tiw .u aidez-moi li .a ya
 sun .u une .a ya
+tay .u mettre li .a ya
 tak .u merci li .a ya
 liy .u quatre li .a ya
 tuw .u deux .a ya
@@ -95,6 +104,7 @@ myik .u ajouter .a ya
 kyim .u soustraire .a ya
 kyul .u règle li .a ya
 klas .u clause .a ya
+ksip .u écrire li .a ya
 klaw .u rire li .a ya
 psan .u espace .a ya
 pyan .u pronom .a ya
@@ -102,8 +112,11 @@ pyas .u phrase .a ya
 pyat .u grammaticale-objet .a ya
 plis .u proche li .a ya
 slim .u exemple .a ya
+swat .u question li .a ya
 flas .u phrase .a ya
 tkic .u Traduction-dictionnaire li .a ya
+tsin .u citation li .a ya
+tsuk .u boutique li .a ya
 tlam .u traduire li .a ya
 tlin .u ordinal .a ya
 miyk .u envoyer .a ya
@@ -117,6 +130,9 @@ kast .u grammaticale-cas .a ya
 kump .u humeur li .a ya
 yimk .u demander .a ya
 wiyp .u verbe .a ya
+panp .u pain li .a ya
+palt .u vendre li .a ya
+pack .u jouir li .a ya
 niym .u nom .a ya
 sint .u sentir li .a ya
 sant .u sentence .a ya

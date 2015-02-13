@@ -28,19 +28,19 @@ function lastWordIndexParse(tokens){
 /// be parse bo single word quote de
 exports.firstSingleWordQuote = firstSingleWordQuoteParse;
 function firstSingleWordQuoteParse(grammar,tokens){
-	var singleQuoteIndex=tokens.find(
-			wordMatch.curry(grammar.quotes.singleWord));
-	// if not found return null.
-	if (singleQuoteIndex === null)
-		return null;
-	// if found get previous word.
-	if (singleQuoteIndex!==-1){
-		var previousTokens = tokens.slice(0,singleQuoteIndex);
-		var quotedWordIndex = lastWordIndexParse(previousTokens);
-		return tokens.slice(quotedWordIndex,singleQuoteIndex+1);
-	}
-	// else return null
+var singleQuoteIndex=tokens.find(
+		wordMatch.curry(grammar.quotes.singleWord));
+// if not found return null.
+if (singleQuoteIndex === null)
 	return null;
+// if found get previous word.
+if (singleQuoteIndex!==-1){
+	var previousTokens = tokens.slice(0,singleQuoteIndex);
+	var quotedWordIndex = lastWordIndexParse(previousTokens);
+	return tokens.slice(quotedWordIndex,singleQuoteIndex+1);
+}
+// else return null
+return null;
 
 }
 /// be parse bo multi word quote de
@@ -327,45 +327,49 @@ function lastSentenceParse(grammar,tokens){
 	return tokens.slice(previousSentenceEnder+1,sentenceEnder+1);
 }
 exports.quotesExtract = quotesExtract;
-// extracts quotes from word tokens, turning then into strings,
+// extracts quotes from word tokens, turning them into objects,
 // splices them back in, and returns result.
 function quotesExtract(language, tokens){
-	// stencil all single word quotes;
-	// return result
-	var singleQuotes = grammar.quotes.singleWord;
-	var quoteExtractedTokens = new Array();
-	var i = tokens.length-1, 
-	    thisToken, quote;
-	// if type final
-	// go backwards through tokens
-	if (language.grammar.wordOrder.typeFinal){
-	for (i; i >= 0; i--){
-		thisToken = tokens[i];
-		if (i===0) quoteExtractedTokens.unshift(thisToken);
-		else if (wordMatch(singleQuotes,thisToken)){
-			quote = new Type(language,[tokens[i-1],thisToken])
-			quoteExtractedTokens.unshift(quote);
-			i--;
-		}
-		else quoteExtractedTokens.unshift(thisToken);
-	}}
-	// else go forwards
-	else { // type initial
-	for (i=0; i < tokens.length; i++){
-		thisToken = tokens[i];
-		if (i===tokens.length-1) 
-			quoteExtractedTokens.push(thisToken);
-		else if (wordMatch(singleQuotes,thisToken)){
-			quote = new Type(language,
-					[thisToken,tokens[i+1]])
-			quoteExtractedTokens.push(quote);
-			i++;
-		}
-		else quoteExtractedTokens.push(thisToken);
-	}
-	}
-	return quoteExtractedTokens;
-	
+
+// algorithm:
+// if type final
+// go backwards through tokens
+// else go forwards
+// return result
+
+var singleQuotes = grammar.quotes.singleWord;
+var quoteExtractedTokens = new Array();
+var i = tokens.length-1; 
+var thisToken; 
+var quote;
+// if type final
+// go backwards through tokens
+if (language.grammar.wordOrder.typeFinal){
+for (i; i >= 0; i--){
+thisToken = tokens[i];
+if (i===0) quoteExtractedTokens.unshift(thisToken);
+else if (wordMatch(singleQuotes,thisToken)){
+quote = new Type(language,[tokens[i-1],thisToken])
+quoteExtractedTokens.unshift(quote);
+i--;
+}
+else quoteExtractedTokens.unshift(thisToken);
+}}
+// else go forwards
+else if (!language.grammar.wordOrder.typeFinal) { // type initial
+for (i=0; i < tokens.length; i++){
+thisToken = tokens[i];
+if (i===tokens.length-1) quoteExtractedTokens.push(thisToken);
+else if (wordMatch(singleQuotes,thisToken)){
+quote = new Type(language, [thisToken,tokens[i+1]])
+quoteExtractedTokens.push(quote);
+i++;
+}
+else quoteExtractedTokens.push(thisToken);
+}
+}
+return quoteExtractedTokens;
+
 }
 exports.adjacentClause = adjacentClauseParse;
 function adjacentClauseParse(grammar,tokens,caseWordIndex){

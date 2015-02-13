@@ -11,8 +11,8 @@ yu li .u wewe li .a ya
 ya li .u yo li .a ya
 pi li .u ya li .a ya
 pa li .u kwamba-jambo-la li .a ya
+pu li .u alifanya li .a ya
 wi li .u sisi li .a ya
-pu li .u pas li .a ya
 wa li .u au li .a ya
 na li .u nu li .a ya
 si li .u wao li .a ya
@@ -22,17 +22,18 @@ ta li .u kwa li .a ya
 tu li .u nawe li .a ya
 li li .u halisi li .a ya
 fu li .u Wil li .a ya
+ci li .u eh? li .a ya
 myi li .u kumbukumbu li .a ya
-mwa li .u na li .a ya
+mwa li .u pamoja-na li .a ya
 kyi li .u masharti li .a ya
 kya li .u kando li .a ya
 kwi li .u yand li .a ya
-ksa li .u akaonekana li .a ya
+sa li .u akaonekana li .a ya
 kca li .u ha li .a ya
 pli li .u karibu li .a ya
 pla li .u wingi li .a ya
 pwa li .u yaor li .a ya
-plu li .u kwa li .a ya
+plu li .u kwa-faida li .a ya
 pca li .u jolly li .a ya
 nwa li .u null li .a ya
 nya li .u kutoka li .a ya
@@ -54,13 +55,17 @@ map .u ukubwa li .a ya
 kim .u kulinganisha li .a ya
 kiy .u kwenda li .a ya
 kam .u kuanza li .a ya
+kay .u uwezo li .a ya
 kap .u kichwa li .a ya
 kan .u kujua li .a ya
 kas .u sababu li .a ya
+kat .u kupata li .a ya
 kal .u kila li .a ya
+kum .u biashara li .a ya
+kup .u kununua li .a ya
 kut .u ndogo li .a ya
 yik .u yanatofautiana li .a ya
-yan .u kusema li .a ya
+yan .u -sema li .a ya
 pim .u hatua li .a ya
 piy .u kitendo li .a ya
 pam .u nzuri li .a ya
@@ -73,7 +78,8 @@ pal .u wengi li .a ya
 pan .u kukutana li .a ya
 pac .u furaha li .a ya
 puy .u mtoto li .a ya
-put .u baadaye li .a ya
+put .u kuuza li .a ya
+fut .u baadaye li .a ya
 wam .u wakati li .a ya
 wan .u upendo li .a ya
 wap .u mkia li .a ya
@@ -81,10 +87,13 @@ wat .u kusema li .a ya
 wul .u kubwa li .a ya
 nam .u simu li .a ya
 sim .u tatu li .a ya
+san .u binafsi li .a ya
+sup .u kulipa li .a ya
 naw .u sasa-wakati li .a ya
 tin .u ndani-ya li .a ya
 tiw .u kusaidia li .a ya
 sun .u moja li .a ya
+tay .u kuweka li .a ya
 tak .u kuwashukuru li .a ya
 liy .u nne li .a ya
 tuw .u mbili li .a ya
@@ -95,6 +104,7 @@ myik .u kuongeza li .a ya
 kyim .u Ondoa li .a ya
 kyul .u utawala li .a ya
 kwal .u Lugha li .a ya
+ksip .u kuandika li .a ya
 klaw .u laugh li .a ya
 klas .u kifungu li .a ya
 pyan .u pronoun li .a ya
@@ -102,8 +112,11 @@ pyas .u maneno li .a ya
 pyat .u grammatical-object li .a ya
 plis .u jirani li .a ya
 psan .u nafasi li .a ya
+swat .u swali li .a ya
 slim .u mfano li .a ya
 tkic .u tafsiri-dictionary li .a ya
+tsin .u quote li .a ya
+tsuk .u duka li .a ya
 tlam .u kutafsiri li .a ya
 tlin .u ordinal li .a ya
 flas .u maneno li .a ya
@@ -117,6 +130,9 @@ kayp .u jambo li .a ya
 kast .u grammatical .a ya
 kump .u mood li .a ya
 yimk .u kuuliza li .a ya
+panp .u mkate li .a ya
+palt .u kuuza li .a ya
+pack .u kufurahia li .a ya
 wiyp .u verb li .a ya
 niym .u noun li .a ya
 sint .u kujisikia li .a ya

@@ -376,6 +376,8 @@ conjugationLevel){
 //
 // if prepositional then translate mood and append to result
 //
+// be wh front ob the types with interrogative pronoun ya
+//
 // su performance grammar output ob langugage and working 
 // sentence to tuple of output and remainder ya
 // 
@@ -439,10 +441,19 @@ phrases[1].head.head = wordOrder.intransitiveWord;
 if (mood && wordOrder.postpositional === false)
 result+=mood.toLocaleString(language,format,"mh")+joiner;
 
+// be wh front ob the types with interrogative pronoun ya
+var whPair = whFront(sentence);
+var whArray = whPair[0];
+if (whArray.length>0){
+var i;
+for (i = 0; i<whArray.length; i++)
+result += whArray[i].toLocaleString(language,format);}
+var sentence = whPair[1];
+
 // su performance grammar output ob langugage and working 
 // sentence to tuple of output and remainder ya
-var performanceTuple = performanceGrammar(sentence);
-var resultTailArray = performanceTuple[0];
+var performancePair = performanceGrammar(sentence);
+var resultTailArray = performancePair[0];
 var resultTail = new String();
 var clauseInitial = wordOrder.clauseInitial;
 // if clause final reverse order of result tail array
@@ -452,7 +463,7 @@ resultTailArray.reverse();
 var i;
 for(i=0;i<resultTailArray.length;i++)
 resultTail+= resultTailArray[i].toLocaleString(language,format);
-sentence = performanceTuple[1];
+sentence = performancePair[1];
 
 var headFinal = wordOrder.headFinal;
 
@@ -644,4 +655,23 @@ break;}
 }
 // return tail and rest of sentence
 return [tail,sentence];
+}
+
+function whFront(sentence){
+// searches through phrases to see if any are headed by an
+// interrogative pronoun, if so then add it to wh array
+// and drop from sentence ya
+// return pair consisting of wh array and sentence ya
+var phrases = sentence.phrases;
+var whArray = phrases.filter(function(phrase){
+if (phrase.body && phrase.body.body 
+&& phrase.body.body.head === "ma") return true; 
+else return false; });
+var otherPhrases = phrases.filter(function(phrase){
+if (phrase.body && phrase.body.body
+&& phrase.body.body.head === "ma") return false; 
+else return true; });
+var newSentence = sentence.copy();
+newSentence.phrases = otherPhrases;
+return [whArray,newSentence];
 }

@@ -10,24 +10,25 @@ yi li .u this li .a ya
 ya li .u ya li .a ya
 yu li .u you .a ya
 pi li .u of li .a ya
-pa li .u that-thing li .a ya
-pu li .u pas .a ya
+pa li .u that li .a ya
+pu li .u did .a ya
 wi li .u we .a ya
 wa li .u or .a ya
-na li .u nu .a ya
+na li .u num .a ya
 nu li .u now .a ya
 si li .u they .a ya
+sa li .u the .a ya
 ti li .u tha .a ya
 ta li .u to li .a ya
 tu li .u thee li .a ya
-li li .u literal li .a ya
+li li .u li li .a ya
 fu li .u wil .a ya
+ci li .u eh? .a ya
 myi li .u memory .a ya
-C4 kya mwa li .u with .a ya
+C3 kya mwa li .u with .a ya
 kyi li .u conditionally .a ya
 kya li .u aside li .a ya
 kwi li .u yand .a ya
-ksa li .u the .a ya
 kca li .u ha li .a ya
 pwa li .u yaor .a ya
 pli li .u near .a ya
@@ -52,12 +53,16 @@ map .u size .a ya
 man .u think .a ya
 mat .u mother .a ya
 kim .u compare .a ya
-kiy .u go .a ya
+kiy .u go li .a ya
 kam .u begin .a ya
+kay .u able .a ya
 kap .u head .a ya
 kan .u know .a ya
 kas .u cause .a ya
+kat .u get .a ya
 kal .u all .a ya
+kum .u trade .a ya
+kup .u buy .a ya
 kut .u small .a ya
 yik .u negate .a ya
 yan .u say .a ya
@@ -73,7 +78,7 @@ pat .u father .a ya
 pal .u many .a ya
 pac .u joy .a ya
 puy .u child .a ya
-put .u future .a ya
+put .u sell .a ya
 wam .u time .a ya
 wap .u tail .a ya
 wan .u love .a ya
@@ -82,19 +87,24 @@ wul .u big .a ya
 nam .u number .a ya
 naw .u present .a ya
 sim .u three .a ya
+san .u self .a ya
+sup .u pay .a ya
 sun .u one .a ya
 tiw .u help .a ya
 tin .u inside .a ya
 tak .u thank .a ya
+tay .u put .a ya
 tuw .u two .a ya
 liy .u four .a ya
 lit .u glyph .a ya
+fut .u future .a ya
 cik .u few .a ya
 caw .u shout .a ya
 myik .u add .a ya
 kyim .u subtract .a ya
 kyul .u rule .a ya
 kwal .u language .a ya
+ksip .u write .a ya
 klaw .u laugh .a ya
 klas .u clause .a ya
 pyan .u pronoun .a ya
@@ -102,8 +112,11 @@ pyas .u phrase .a ya
 pyat .u grammatical-object .a ya
 psan .u space .a ya
 plis .u nearby .a ya
+swat .u question .a ya
 slim .u example .a ya
 tkic .u translation-dictionary .a ya
+tsin .u quote .a ya
+tsuk .u shop .a ya
 tlin .u ordinal .a ya
 tlam .u translation .a ya
 flas .u phrase .a ya
@@ -117,6 +130,9 @@ kayp .u thing .a ya
 kast .u grammatical-case .a ya
 kump .u mood .a ya
 yimk .u ask .a ya
+panp .u bread .a ya
+palt .u sell .a ya
+pack .u enjoy .a ya
 wiyp .u verb .a ya
 niym .u noun .a ya
 sint .u feel .a ya

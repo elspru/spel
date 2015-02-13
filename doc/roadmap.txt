@@ -35,31 +35,35 @@ Speakable Programming for Every Language Translator SPELT
 0.4.6 basic conjugation support (27 Jan 2015)
 0.4.7 systemize adding new languages (30 Jan 2015)
 0.4.8 translate files based on extension (03 Feb 2015)
-
-0.4.9 translation of simple sentences to javascript
-0.4.A topicalization
-0.4.B add less popular languages from plain text definitions ya
-0.4.C javascript nominal sentences
-0.4.E sentence head at start for head-initial languages
-0.4.F verb highlighting
+0.4.9 verb highlighting (05 Feb 2015)
+0.4.D add languages from plain text definitions ya (06 Feb 2015)
 0.5 quotes
-0.5.1 word quotes
-0.5.2 literals
+0.5.0 quote word (10 Feb 2015)
+0.5.1 wh fronting (12 Feb 2015)
+
+0.5.2 word quotes
+0.5.3 literals
 0.5.4 multi word quotes
-0.5.5 javascript string literals
+0.5.8 compound words
 0.5.A number quotes
 0.5.C multi sentence quotes
-0.6.1 spaceless mwak tokenization
-0.6.4 compound words
-0.6.5 digraphs and phonetic glyph transform
-0.6.6 mood conjugation
-0.6.D auto-complete missing mandatory elements 
-0.7 basic javascript translation
-0.7.2 sentence junctions
-0.7.3 javascript conditionals
-0.7.4 javascript loops
-0.7.6 spel-lang command line input
-0.7.B javascript prototypes?
+0.6 basic javascript translation
+0.6.0 translation of simple sentences to javascript
+0.6.1 javascript nominal sentences
+0.6.2 sentence junctions
+0.6.3 javascript conditionals
+0.6.4 javascript loops
+0.6.5 javascript string literals
+0.6.6 spel-lang command line input
+0.6.B javascript prototypes?
+0.6.E web workers and threads
+0.7 conjugation
+0.7.1 spaceless mwak tokenization
+0.7.2 genitives attach to type
+0.7.5 digraphs and phonetic glyph transform
+0.7.8 topicalization
+0.7.B mood conjugation
+0.7.D auto-complete missing mandatory elements 
 0.8 download translation result
 0.9 translatable mwak files for all parts of Language grammar
 0.9.8 all error and site messages translated

@@ -26,11 +26,14 @@ var Clause = require("./class/clause");
 var Junction = require("./class/junction");
 var mwak = new Language();
 
-var langs = [
+var allLangs = [
 ["eng"], ["zho"], ["spa"], ["hin"], ["ara"], ["por"], ["rus"], 
 ["ind"], ["jpn"], ["deu"], ["ita"], ["kor"], ["fra"], ["tur"], 
 ["swa"], ["ukr"], ["nld"], ["hun"], ["swe"], ["mwak",mwak]
 ];
+
+var langs = [["eng"],["mwak"]];
+//var langs = allLangs;
 
 var filename = process.argv[2];
 console.log(filename);
@@ -40,8 +43,6 @@ var format = new Object();
 var conjugationLevel = 2;
 
 var word = fromLangFileTranslate(filename);
-console.log(word.toString());
-console.log(JSON.stringify(word));
 langs.forEach(toLangFileTranslate);
 
 function fromLangFileTranslate(filename){
