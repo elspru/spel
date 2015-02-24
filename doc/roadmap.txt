@@ -40,10 +40,13 @@ Speakable Programming for Every Language Translator SPELT
 0.5 quotes
 0.5.0 quote word (10 Feb 2015)
 0.5.1 wh fronting (12 Feb 2015)
+0.5.2 evidentials, dubitatives, names (18 Feb 2015)
+0.5.3 topic & vocative fronting (20 Feb 2015)
+0.5.4 subject fronting and part of speech word order (24 Feb 2015)
 
-0.5.2 word quotes
-0.5.3 literals
-0.5.4 multi word quotes
+0.5.5 multi word quotes
+0.5.6 word quotes
+0.5.7 literals
 0.5.8 compound words
 0.5.A number quotes
 0.5.C multi sentence quotes
@@ -61,7 +64,6 @@ Speakable Programming for Every Language Translator SPELT
 0.7.1 spaceless mwak tokenization
 0.7.2 genitives attach to type
 0.7.5 digraphs and phonetic glyph transform
-0.7.8 topicalization
 0.7.B mood conjugation
 0.7.D auto-complete missing mandatory elements 
 0.8 download translation result
@@ -86,6 +88,7 @@ Speakable Programming for Every Language Translator SPELT
 1.2.8 verb agreement
 1.2.A genitive agreement
 1.2.C contractions
+1.3 complement gettext
 
 Speakable Programming for Every Language SPEL (mwak)
 0.1.0 generate html from mwak (hello world)

@@ -14,6 +14,7 @@ pa li .u эта li .a ya
 pu li .u сделал li .a ya
 wi li .u мы li .a ya
 mip li .u прошлый li .a ya
+ni li .u а-именно li .a ya
 na li .u чис li .a ya
 wa li .u или li .a ya
 nu li .u ню li .a ya
@@ -22,15 +23,18 @@ nu li .u сейчас li .a ya
 ti li .u то .a ya
 ta li .u к li .a ya
 tu li .u ты li .a ya
+fa li .u об li .a ya
 ci li .u а? li .a ya
 li li .u буквальный li .a ya
 fu li .u буду li .a ya
+mya li .u может-быть li .a ya
 myi li .u память .a ya
 mwa li .u с li .a ya
 kyi li .u условно .a ya
 kya li .u в-сторону li .a ya
 kwi li .u ди .a ya
 sa li .u эт .a ya
+psu li .u от-источника li .a ya
 kca li .u ха li .a ya
 pli li .u у li .a ya
 pla li .u множественное-число li .a ya
@@ -54,10 +58,11 @@ mak .u слово .a ya
 mat .u мать li .a ya
 man .u думать li .a ya
 map .u размер .a ya
+kit .u конец li .a ya
+kam .u иметь li .a ya
 kim .u сравнить .a ya
 kay .u в-состоянии li .a ya
 kiy .u идти .a ya
-kam .u начать li .a ya
 kap .u голова li .a ya
 kat .u получить li .a ya
 kan .u знать li .a ya
@@ -84,16 +89,20 @@ puy .u ребенок .a ya
 fut .u будущее li .a ya
 wam .u время li .a ya
 wan .u любовь li .a ya
+nim .u имя li .a ya
 wap .u хвост li .a ya
 wat .u говорить li .a ya
 wul .u большой .a payhmap .i ya
 san .u себя li .a ya
 sup .u платить li .a ya
 nam .u число .a ya
+tip .u начать li .a ya
 sim .u три li .a ya
 naw .u настоящее-время li .a ya
+tam .u тема li .a ya
 tin .u внутри li .a ya
 tay .u положить li .a ya
+tan .u дерево li .a ya
 tiw .u помогите li .a ya
 sun .u один li .a ya
 tak .u спасибо li .a ya
@@ -110,7 +119,9 @@ klas .u пункт .a ya
 klaw .u смех li .a ya
 pyas .u фраза li .a ya
 psan .u пространство .a ya
+pyuf .u доказательство li .a ya
 pyan .u местоимение li .a ya
+psun .u источник li .a ya
 flas .u фраза li .a ya
 swat .u вопрос li .a ya
 pyat .u грамматический-объект li .a ya
@@ -126,7 +137,6 @@ miyk .u послать .a ya
 miwk .u человек li .a ya
 muys .u эмоция li .a ya
 munt .u мир .a ya
-kiym .u получить .a ya
 kamt .u грамматика li .a ya
 kayp .u вещь li .a ya
 kast .u грамматический-случая li .a ya

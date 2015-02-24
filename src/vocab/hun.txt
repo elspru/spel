@@ -14,6 +14,7 @@ pa li .u hogy-dolog li .a ya
 pu li .u tette li .a ya
 wi li .u mi li .a ya
 wa li .u vagy li .a ya
+ni li .u azaz li .a ya
 na li .u nu li .a ya
 nu li .u most li .a ya
 si li .u ők li .a ya
@@ -22,15 +23,18 @@ ta li .u -ba li .a ya
 tu li .u téged li .a ya
 li li .u szó-szerinti li .a ya
 fu li .u Wil li .a ya
+fa li .u körülbelül li .a ya
 ci li .u eh? li .a ya
 myi li .u emlékezet li .a ya
 mwa li .u -vel li .a ya
+mya li .u talán li .a ya
 kyi li .u feltételesen li .a ya
 kya li .u félre li .a ya
 kwi li .u yand li .a ya
 sa li .u az li .a ya
 kca li .u haha li .a ya
 pwa li .u yaor li .a ya
+psu li .u a-forrásból li .a ya
 pli li .u közel li .a ya
 pla li .u többes li .a ya
 plu li .u mert li .a ya
@@ -54,7 +58,8 @@ man .u gondol li .a ya
 mat .u anya li .a ya
 kim .u összehasonlítani li .a ya
 kiy .u megy li .a ya
-kam .u kezdődik li .a ya
+kit .u vég li .a ya
+kam .u van li .a ya
 kay .u képes li .a ya
 kap .u fej li .a ya
 kan .u tud li .a ya
@@ -84,16 +89,20 @@ wam .u idő li .a ya
 wan .u szerelem li .a ya
 wap .u farok li .a ya
 wat .u beszél li .a ya
+nim .u név li .a ya
 wul .u nagy li .a ya
 nam .u szám li .a ya
 naw .u jelen li .a ya
 san .u maga li .a ya
 sup .u fizet li .a ya
 sim .u három li .a ya
+tip .u kezdődik li .a ya
 sun .u egy li .a ya
 tiw .u segít li .a ya
+tam .u téma li .a ya
 tin .u belül li .a ya
 tay .u tesz li .a ya
+tan .u fa li .a ya
 tak .u köszönet li .a ya
 tuw .u két li .a ya
 liy .u négy li .a ya
@@ -110,7 +119,9 @@ klas .u záradék li .a ya
 pyan .u névmás li .a ya
 pyas .u kifejezés li .a ya
 pyat .u nyelvtani-objektum li .a ya
+pyuf .u bizonyíték li .a ya
 psan .u hely li .a ya
+psun .u forrás li .a ya
 plis .u közeli li .a ya
 swat .u kérdés li .a ya
 slim .u példa li .a ya
@@ -124,7 +135,6 @@ miyk .u küld li .a ya
 miwk .u személy li .a ya
 muys .u érzelem li .a ya
 munt .u világ li .a ya
-kiym .u kap li .a ya
 kamt .u nyelvtan li .a ya
 kayp .u dolog li .a ya
 kast .u nyelvtani-ügyben li .a ya

@@ -53,7 +53,6 @@ man .u думать li .a ya
 map .u размер .a ya
 kim .u сравнить .a ya
 kiy .u идти .a ya
-kam .u начать li .a ya
 kap .u голова li .a ya
 kan .u знать li .a ya
 kas .u причина li .a ya
@@ -110,7 +109,6 @@ miyk .u послать .a ya
 miwk .u человек li .a ya
 muys .u эмоция li .a ya
 munt .u мир .a ya
-kiym .u получить .a ya
 kamt .u грамматика li .a ya
 kayp .u вещь li .a ya
 kast .u грамматический-случая li .a ya

@@ -14,6 +14,7 @@ pa li .u kwamba-jambo-la li .a ya
 pu li .u alifanya li .a ya
 wi li .u sisi li .a ya
 wa li .u au li .a ya
+ni li .u yaani li .a ya
 na li .u nu li .a ya
 si li .u wao li .a ya
 nu li .u sasa li .a ya
@@ -22,15 +23,18 @@ ta li .u kwa li .a ya
 tu li .u nawe li .a ya
 li li .u halisi li .a ya
 fu li .u Wil li .a ya
+fa li .u kuhusu li .a ya
 ci li .u eh? li .a ya
 myi li .u kumbukumbu li .a ya
 mwa li .u pamoja-na li .a ya
+mya li .u labda li .a ya
 kyi li .u masharti li .a ya
 kya li .u kando li .a ya
 kwi li .u yand li .a ya
 sa li .u akaonekana li .a ya
 kca li .u ha li .a ya
 pli li .u karibu li .a ya
+psu li .u kutoka-chanzo li .a ya
 pla li .u wingi li .a ya
 pwa li .u yaor li .a ya
 plu li .u kwa-faida li .a ya
@@ -54,7 +58,8 @@ man .u kufikiri li .a ya
 map .u ukubwa li .a ya
 kim .u kulinganisha li .a ya
 kiy .u kwenda li .a ya
-kam .u kuanza li .a ya
+kit .u mwisho li .a ya
+kam .u kuwa li .a ya
 kay .u uwezo li .a ya
 kap .u kichwa li .a ya
 kan .u kujua li .a ya
@@ -84,16 +89,20 @@ wam .u wakati li .a ya
 wan .u upendo li .a ya
 wap .u mkia li .a ya
 wat .u kusema li .a ya
+nim .u jina li .a ya
 wul .u kubwa li .a ya
 nam .u simu li .a ya
 sim .u tatu li .a ya
 san .u binafsi li .a ya
 sup .u kulipa li .a ya
 naw .u sasa-wakati li .a ya
+tip .u kuanza li .a ya
 tin .u ndani-ya li .a ya
 tiw .u kusaidia li .a ya
+tam .u mada li .a ya
 sun .u moja li .a ya
 tay .u kuweka li .a ya
+tan .u mti li .a ya
 tak .u kuwashukuru li .a ya
 liy .u nne li .a ya
 tuw .u mbili li .a ya
@@ -110,7 +119,9 @@ klas .u kifungu li .a ya
 pyan .u pronoun li .a ya
 pyas .u maneno li .a ya
 pyat .u grammatical-object li .a ya
+pyuf .u ushahidi li .a ya
 plis .u jirani li .a ya
+psun .u chanzo li .a ya
 psan .u nafasi li .a ya
 swat .u swali li .a ya
 slim .u mfano li .a ya
@@ -124,7 +135,6 @@ miyk .u kutuma li .a ya
 miwk .u mtu li .a ya
 muys .u hisia li .a ya
 munt .u dunia li .a ya
-kiym .u kupokea li .a ya
 kamt .u sarufi li .a ya
 kayp .u jambo li .a ya
 kast .u grammatical .a ya

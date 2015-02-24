@@ -98,7 +98,7 @@ border-radius: 0.23em; overflow:hidden; }
 .ch{ background-color:hsl(270,0%,23%);/*bright gray*/
 border-radius: 0.23em; overflow:hidden; }
 /* verb header*/
-.bh{ background-color:hsl(0,61%,14%);/*red*/ 
+.vh{ background-color:hsl(0,61%,14%);/*red*/ 
 border-radius: 0.23em; overflow:hidden; }
 /* type header*/
 .th{ background-color:hsl(30,61%,14%);/*orange*/ 

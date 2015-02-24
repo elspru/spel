@@ -2,7 +2,9 @@ var tokenize = require("../compile/tokenize");
 var translate = require("../compile/translate");
 //var emitter = require("events").EventEmitter;
 module.exports = Word;
-function Word(language,input){
+
+function Word(language,input,partOfSpeech){
+
 var tokens;
 this.be = "Word";
 if (typeof input === "string")
@@ -16,39 +18,118 @@ else if (Array.isArray(input)) tokens = input;
 else throw new TypeError(JSON.stringify(input)
 +" unknown to "+this.be);
 
-// algorithm de
-// if verb final then head word is last word
-// yand body is rest of tokens
-// else if verb initial then head word is first word
-// yand body is rest of tokens reversed
 
-var tokensLength = tokens.length;
-var lastTokenIndex = tokensLength-1;
-var transDict = language.dictionary.toMwak;
-var verbFinal = language.grammar.wordOrder.verbFinal;
-var headWord, bodyWords, otherTokens;
-// if verb final then head word is last word
-if (verbFinal === true && tokensLength > 0){
-headWord = translate.word(transDict, tokens[lastTokenIndex]);
-// yand body is rest of tokens
-if (tokensLength >1){
-otherTokens = tokens.slice(0,lastTokenIndex);
-bodyWords = translate.array(transDict,otherTokens); }}
-// else if verb initial then head word is first word
-else if (verbFinal === false && tokensLength > 0){
-headWord = translate.word(transDict, tokens[0]);
-// yand body is rest of tokens reversed
-if (tokensLength >1){
-otherTokens = tokens.slice(1);
-otherTokens.reverse();
-bodyWords = translate.array(transDict,otherTokens); }}
+// algorithm de
+//
+// be order final ob tokens in language
+// to tuple of body tokens and head token de 
+// su head word be last word
+// yand body be rest of tokens ya
+//
+// be order initial ob tokens in language
+// to tuple of body tokens and head token de 
+// su head word be first word
+// yand body be rest of tokens ya
+//
+// be order part of speech ob tokens in language 
+// by part of speech
+// to tuple of body tokens and head token de
+// if su partOfSpeech  ob verb 
+// yand verb initial then be initial order
+// else if su partOfSpeech ob noun 
+// yand noun initial then be initial order 
+// else if head initial then initial order 
+// else final order
+//
+// if su partOfSpeech be defined then be partOfSpeech order
+// else if head initial then initial order ya
+// else be final order ya
+//
+// be set ob this
+
+var wordOrder = language.grammar.wordOrder;
+var tokenTuple;
+// if su partOfSpeech be defined then be partOfSpeech order
+if (partOfSpeech) 
+tokenTuple = partOfSpeechOrder(language,tokens,partOfSpeech);
+// else if head initial then initial order ya
+else if (wordOrder.headFinal === false)
+tokenTuple = initialOrder(language,tokens);
+// else be final order ya
+else tokenTuple = finalOrder(language,tokens);
+
+var bodyTokens = tokenTuple[0];
+var headToken = tokenTuple[1];
 
 // be set ob this
-if (bodyWords && bodyWords.length >0)
-this.body = bodyWords;
-if (headWord && headWord.length >0)
-this.head = headWord;
+if (bodyTokens && bodyTokens.length >0)
+this.body = bodyTokens;
+if (headToken && headToken.length >0)
+this.head = headToken;
+
 }// end of Word constructor
+
+// be order final ob tokens in language
+// to other tokens and body tokens and head token de 
+function finalOrder(language,tokens){
+// su head word be last input token
+var transDict = language.dictionary.toMwak;
+var headTokenI = tokens.length-1;
+headWord = translate.word(transDict, tokens[headTokenI]);
+// yand body is rest of tokens
+var bodyWords;
+if (tokens.length >1){
+var otherTokens = tokens.slice(0,headTokenI);
+bodyWords = translate.array(transDict,otherTokens); 
+}
+return [bodyWords,headWord];
+}
+
+
+// be order initial ob tokens in language
+// to other tokens and body tokens and head token de 
+function initialOrder(language,tokens){
+// su head word be first input token
+var transDict = language.dictionary.toMwak;
+var headTokenI = 0;
+headWord = translate.word(transDict, tokens[headTokenI]);
+// yand body is rest of tokens
+var bodyWords;
+if (tokens.length >1){
+var otherTokens = tokens.slice(headTokenI+1);
+bodyWords = translate.array(transDict,otherTokens); 
+}
+return [bodyWords,headWord];
+}
+
+
+// be order part of speech ob tokens in language 
+// by part of speech
+// to tuple of body tokens and head token de
+function partOfSpeechOrder(language,tokens,partOfSpeech){
+var wordOrder = language.grammar.wordOrder;
+var tokenTuple;
+// if su partOfSpeech  ob verb 
+// yand verb initial then be return ob initial order
+if (partOfSpeech === "verb"){
+if (wordOrder.verbFinal === false)
+tokenTuple = initialOrder(language,tokens);
+else if (wordOrder.verbFinal)
+tokenTuple = finalOrder(language,tokens);}
+// else if su partOfSpeech ob noun 
+// yand noun initial then be return ob initial order 
+else if (partOfSpeech === "noun"){
+if (wordOrder.nounFinal === false)
+tokenTuple = initialOrder(language,tokens);
+else if (wordOrder.nounFinal)
+tokenTuple = finalOrder(language,tokens);}
+// else if head initial then be return ob initial order 
+else if (wordOrder.headFinal === false)
+tokenTuple = initialOrder(language,tokens);
+// else be return ob final order
+else tokenTuple = finalOrder(language,tokens);
+return tokenTuple;
+}
 
 Word.prototype.copy = function(){
 return new Word(language, JSON.parse(JSON.stringify(this)));
@@ -92,42 +173,45 @@ Word.prototype.toString = function(){
 Word.prototype.toLocaleString = function(language,format,type){
 var translation = new String();
 var joiner = " ";
-var verbFinal = language.grammar.wordOrder.verbFinal;
+var wordOrder = language.grammar.wordOrder;
+var verbFinal = wordOrder.verbFinal;
 var dict = language.dictionary.fromMwak;
 
 // algorithm de
 // be add ob body to output ya
-// if verb initial then reverse body words ya
+// according to type if initial then reverse body words ya
 // be translate ob body words yand be add to translation ya
-// be add ob head to output
 // syntax formating and color-grapheme synesthesia
 
 // be add ob body to output
-if (this.body !== undefined){
+var bodyWords = new Array();
+if (this.body !== undefined) bodyWords = this.body;
+var bodyWords = bodyWords.concat(this.head);
+// according to type if initial then reverse body words ya
+if (bodyWords.length > 1){
 var i, translArray, translWord, adword;
-var bodyWords = this.body;
-// if verb initial then reverse body words ya
-if (verbFinal === false)
+if (type){
+if (type==="v" && wordOrder.verbFinal === false)
 bodyWords.reverse();
+else if (type==="n" && wordOrder.nounFinal === false)
+bodyWords.reverse();
+else if (type.search(/h/) >= 0 && wordOrder.typeFinal === false)
+bodyWords.reverse();
+}
+else if (wordOrder.headFinal === false)
+bodyWords.reverse();
+}
+
+
 // be translate ob body words yand be add to translation ya
 translArray = translate.array(dict,bodyWords);
 for (i = 0; i < translArray.length; i++){
 translWord = translArray[i];
-translation+= translWord+joiner;
-}}
+translation+= translWord;
+if (i <translArray.length-1)
+translation+= joiner;
+}
 
-// be add ob head to output
-var head = this.head;
-var transLemma;
-if (head === undefined) head = "";
-if (false && typeof head === "object")
-transl = head.toLocaleString(language,format);
-else transLemma = translate.word(dict,head);
-if (verbFinal) translation += transLemma;
-else if (verbFinal === false){
-if (translation.length >0)
-translation = transLemma + joiner + translation;
-else translation = transLemma;}
 
 // syntax formating and color-grapheme synesthesia
 if (format){

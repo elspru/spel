@@ -26,6 +26,7 @@ var i;
 for (i=0;i<sentences.length;i++){
 sentences[i].phraseDelete(mwak,"kya");
 sentences[i].phraseDelete(mwak,"nya");
+sentences[i].phraseDelete(mwak,"psu");
 sentences[i].phraseDelete(mwak,".a");
 //sentences[i].phraseDelete(mwak,".i");
 }

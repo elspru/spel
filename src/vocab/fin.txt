@@ -14,6 +14,7 @@ pa li .u että li .a ya
 pu li .u teki li .a ya
 wi li .u me li .a ya
 wa li .u tai li .a ya
+ni li .u nimittäin li .a ya
 na li .u num li .a ya
 nu li .u nyt li .a ya
 si li .u ne li .a ya
@@ -22,15 +23,18 @@ ti li .u tha li .a ya
 ta li .u kohteeseen li .a ya
 tu li .u sinua li .a ya
 li li .u li li .a ya
+fa li .u noin li .a ya
 fu li .u wil li .a ya
 ci li .u eh? li .a ya
 myi li .u muisti li .a ya
+mya li .u ehkä li .a ya
 mwa li .u kanssa li .a ya
 kyi li .u ehdollisesti li .a ya
 kya li .u syrjään li .a ya
 kwi li .u yand li .a ya
 kca li .u ha li .a ya
 pwa li .u yaor li .a ya
+psu li .u alkaen-lähdekoodin li .a ya
 pli li .u lähellä li .a ya
 pla li .u monikko li .a ya
 plu li .u varten li .a ya
@@ -54,7 +58,8 @@ man .u ajatella li .a ya
 mat .u äiti li .a ya
 kim .u vertailla li .a ya
 kiy .u mennä li .a ya
-kam .u alkaa li .a ya
+kit .u pää li .a ya
+kam .u olla li .a ya
 kay .u kykenee li .a ya
 kap .u pää li .a ya
 kan .u tietää li .a ya
@@ -84,16 +89,20 @@ wap .u pyrstö li .a ya
 wan .u rakkaus li .a ya
 wat .u puhua li .a ya
 wul .u iso li .a ya
+nim .u nimi li .a ya
 nam .u numero li .a ya
 naw .u nykyinen li .a ya
 sim .u kolme li .a ya
 san .u itse li .a ya
 sup .u maksaa li .a ya
 sun .u yksi li .a ya
+tip .u alkaa li .a ya
 tiw .u auttaa li .a ya
 tin .u sisällä li .a ya
+tam .u aihe li .a ya
 tak .u kiittää li .a ya
 tay .u laittaa li .a ya
+tan .u puu li .a ya
 tuw .u kaksi li .a ya
 liy .u neljä li .a ya
 lit .u glyph li .a ya
@@ -110,7 +119,9 @@ klas .u lauseke li .a ya
 pyan .u pronomini li .a ya
 pyas .u lauseke li .a ya
 pyat .u kieliopin-objekti li .a ya
+pyuf .u todiste li .a ya
 psan .u tila li .a ya
+psun .u lähde li .a ya
 plis .u lähistöllä li .a ya
 swat .u kysymys li .a ya
 slim .u esimerkki li .a ya
@@ -124,7 +135,6 @@ miyk .u lähettää li .a ya
 miwk .u henkilö li .a ya
 muys .u tunne li .a ya
 munt .u maailma li .a ya
-kiym .u vastaanottaa li .a ya
 kamt .u kielioppi li .a ya
 kayp .u asia li .a ya
 kast .u kieliopin-tapaus li .a ya

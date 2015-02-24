@@ -2,16 +2,14 @@ var tokenize = require("../compile/tokenize");
 var parse = require("../compile/parse");
 var Word = require("./word");
 module.exports = Type;
-function Type(language,input){
+function Type(language,input,partOfSpeech){
 	this.be = "Type";
 	var tokens;
 	if (typeof input === "string"){
 		tokens = tokenize.stringToWords(input);}
 	else if (typeof input === "object"
 		&& input.be === "Type"){
-	if (input.body !== undefined && input.type !== "lit")
-	this.body = new Word(language, input.body);
-	if (input.body !== undefined && input.type === "lit")
+	if (input.body !== undefined )
 	this.body = new Word(language, input.body);
 	if (input.head !== undefined)
 	this.head = new Word(language, input.head);
@@ -25,6 +23,7 @@ function Type(language,input){
 // if type final then head word is last word
 // else it is first word
 // if head word is typeword then set it
+// else make all of it body
 // if contains junction word return Junction 
 
 var tokensLength = tokens.length;
@@ -64,15 +63,14 @@ return new Junction(language,tokens);
 var grammar = language.grammar;
 if (language && parse.wordMatch(grammar.typeWords, headWord)){
 // if typeword is literal set type to literal
-if (parse.wordMatch(grammar.quotes.literal, headWord)){
+if (parse.wordMatch(grammar.quotes.literal, headWord))
 this.type = "lit";
-this.body = new Word(language, otherTokens);
+if (otherTokens.length >0)
+this.body = new Word(language, otherTokens, partOfSpeech);
 this.head = new Word(language, headWord); }
-else {
-this.body = new Word(language, otherTokens);
-this.head = new Word(language, headWord); }}
 // else return all tokens as word
-else this.body = new Word(language, tokens);
+else{ this.body = new Word(language, tokens, partOfSpeech);
+}
 return this;
 }// end of Type constructor
 
@@ -110,25 +108,29 @@ Type.equals = function(language, input){
 	return false;
 }
 Type.prototype.toString = function(){
-	if (this.head === undefined) return this.body.toString();
-	return String(this.body.toString()+" "+this.head.toString());
+var result = new String();
+var joiner = " ";
+if (this.body) result += this.body.toString();
+if (this.head && this.body) result += joiner;
+if (this.head) result += this.head.toString();
+return result;
 }
 Type.prototype.valueGet = function(){
 	return this.body.toString();
 }
-Type.prototype.toLocaleString = function(language, format){
-	var result = 
-		this.body.toLocaleString(language, format);
-	if (this.head === undefined) 
-		return result;
-	// else check type order, append if true, prepend if
-	// false.
-	var joiner = " ";
-	var typeTransl = 
-	this.head.toLocaleString(language, format, "th");
-	if (language.grammar.wordOrder.typeFinal)
-	  result += joiner + typeTransl ;
-	else result = typeTransl + joiner + result;
-	return result;
-	
+Type.prototype.toLocaleString = function(language, format, type){
+var result = new String();
+if (this.body)
+result += this.body.toLocaleString(language, format, type);
+if (this.head === undefined) return result;
+// else check type order, append if true, prepend if
+// false.
+var joiner = new String();
+if (this.body) joiner = " "; 
+var typeTransl = 
+this.head.toLocaleString(language, format, "th");
+if (language.grammar.wordOrder.typeFinal)
+result += joiner + typeTransl ;
+else result = typeTransl + joiner + result;
+return result;
 }

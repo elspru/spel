@@ -39,20 +39,24 @@ var langs = [
 
 var langs = [["eng",eng],["mwak",mwak]];
 var langs = [["eng",eng],["zho"],["spa"],["ara"],["rus"],
-["fra"],["tur"],["ukr"],["swe"],["heb"],["mwak",mwak]];
+["fra"],["tur"],["ukr"],["swe"],["heb"],["fin"],["mwak",mwak]];
 var commandText = process.argv.slice(2).join(" ");
 console.log(commandText);
 var format = new Object();
 var conjugationLevel = 2;
 
-var string = " hello world ya ";
-var string = " munt sla ya ";
-var word = new Text(mwak,string);
+//var string = " hello world ya ";
+var mstring = " maw .i blak .u fa ya ";
+var word = new Text(mwak,mstring);
 var string = " su me be go to the shop ya"
 + " question su you be enjoy ob bread eh? "
 + " su you be enjoy ob what eh? ";
-var string = " su you be enjoy ob what eh? "
-+ " su me be go to what eh? ";
+var string = "hello world about ob blak be think su blah tha be blah " 
++ " clause-tail hello world eh?";
+//var string = " pam man .u fa ya ";
+//var string = " su the language be have ob source grammar "
+//+ "from-source Kjell write ya ";
+//var string  = "su this be example of word language ya"
 var word = new Text(eng,string);
 console.log(word.toString());
 console.log(JSON.stringify(word));

@@ -14,6 +14,7 @@ pa li .u yang-hal li .a ya
 pu li .u melakukan li .a ya
 wi li .u kita li .a ya
 wa li .u atau li .a ya
+ni li .u yaitu li .a ya
 na li .u no li .a ya
 si li .u ta-men li .a ya
 nu li .u saat-ini li .a ya
@@ -22,15 +23,18 @@ ta li .u untuk li .a ya
 tu li .u engkau li .a ya
 li li .u harfiah li .a ya
 fu li .u akan li .a ya
+fa li .u tentang li .a ya
 ci li .u eh? li .a ya
 myi li .u daya-ingat li .a ya
 mwa li .u dengan li .a ya
+mya li .u bisa-jadi-bisa-jadi li .a ya
 kyi li .u kondisional li .a ya
 kya li .u ke-samping li .a ya
 kwi li .u yand li .a ya
 sa li .u itu li .a ya
 kca li .u ha li .a ya
 pli li .u di-dekat li .a ya
+psu li .u dari-sumber li .a ya
 pla li .u jamak li .a ya
 pwa li .u yaor li .a ya
 plu li .u bagi li .a ya
@@ -46,15 +50,16 @@ tli li .u uru li .a ya
 mik .u salinan li .a ya
 miy .u menunggu li .a ya
 mip .u masa-lalu li .a ya
-mam .u mama li .a ya
 min .u lebih-sedikit li .a ya
+mam .u mama li .a ya
 mak .u kata li .a ya
 mat .u ibu li .a ya
 man .u berpikir li .a ya
 map .u ukuran li .a ya
 kim .u membandingkan li .a ya
 kiy .u pergi li .a ya
-kam .u mulai li .a ya
+kit .u akhir li .a ya
+kam .u memiliki li .a ya
 kay .u sanggup li .a ya
 kap .u kepala li .a ya
 kan .u tahu li .a ya
@@ -84,16 +89,20 @@ wam .u waktu li .a ya
 wan .u cinta-kasih li .a ya
 wap .u ekor li .a ya
 wat .u berbicara li .a ya
+nim .u nama li .a ya
 wul .u besar li .a ya
 nam .u nomor li .a ya
 sim .u tiga li .a ya
 san .u diri-sendiri li .a ya
 sup .u membayar li .a ya
 naw .u yang-hadir li .a ya
+tip .u mulai li .a ya
 tin .u sebelah-dalam li .a ya
 tiw .u membantu li .a ya
+tam .u tema li .a ya
 sun .u satu li .a ya
 tay .u menempatkan li .a ya
+tan .u pohon li .a ya
 tak .u terima li .a ya
 liy .u empat li .a ya
 tuw .u dua li .a ya
@@ -110,7 +119,9 @@ klas .u ayat li .a ya
 pyan .u kata-ganti li .a ya
 pyas .u frasa li .a ya
 pyat .u gramatikal-objek li .a ya
+pyuf .u bukti li .a ya
 plis .u dekat li .a ya
+psun .u sumber li .a ya
 psan .u ruang-angkasa li .a ya
 swat .u pertanyaan li .a ya
 slim .u contoh li .a ya
@@ -124,7 +135,6 @@ miyk .u mengirim li .a ya
 miwk .u orang li .a ya
 muys .u emosi li .a ya
 munt .u dunia li .a ya
-kiym .u menerima li .a ya
 kamt .u tata-bahasa li .a ya
 kayp .u benda li .a ya
 kast .u gramatikal-kasus li .a ya

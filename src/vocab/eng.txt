@@ -14,6 +14,7 @@ pa li .u that li .a ya
 pu li .u did .a ya
 wi li .u we .a ya
 wa li .u or .a ya
+ni li .u namely .a ya
 na li .u num .a ya
 nu li .u now .a ya
 si li .u they .a ya
@@ -22,15 +23,18 @@ ti li .u tha .a ya
 ta li .u to li .a ya
 tu li .u thee li .a ya
 li li .u li li .a ya
+fa li .u about .a ya
 fu li .u wil .a ya
 ci li .u eh? .a ya
 myi li .u memory .a ya
-C3 kya mwa li .u with .a ya
+mya li .u maybe .a ya
+mwa li .u with .a ya
 kyi li .u conditionally .a ya
 kya li .u aside li .a ya
 kwi li .u yand .a ya
 kca li .u ha li .a ya
 pwa li .u yaor .a ya
+psu li .u from-source .a ya
 pli li .u near .a ya
 pla li .u plural .a ya
 plu li .u for .a ya
@@ -54,7 +58,8 @@ man .u think .a ya
 mat .u mother .a ya
 kim .u compare .a ya
 kiy .u go li .a ya
-kam .u begin .a ya
+kit .u end .a ya
+kam .u have .a ya
 kay .u able .a ya
 kap .u head .a ya
 kan .u know .a ya
@@ -70,7 +75,7 @@ pim .u point .a ya
 piy .u act .a ya
 pam .u good .a ya
 pak .u body .a ya
-(gèngduō) Mandarin. plus French. 'ákthar Arabic. mehr German. more English. más Spanish. aveli sat Armenian. vel Latvian. plu pay .u more .a ya
+pay .u more .a ya
 pap .u dad .a ya
 paw .u place .a ya
 pan .u meet .a ya
@@ -84,16 +89,20 @@ wap .u tail .a ya
 wan .u love .a ya
 wat .u speak .a ya
 wul .u big .a ya
+nim .u name .a ya
 nam .u number .a ya
 naw .u present .a ya
 sim .u three .a ya
 san .u self .a ya
 sup .u pay .a ya
 sun .u one .a ya
+tip .u begin .a ya
 tiw .u help .a ya
 tin .u inside .a ya
+tam .u topic .a ya
 tak .u thank .a ya
 tay .u put .a ya
+tan .u tree .a ya
 tuw .u two .a ya
 liy .u four .a ya
 lit .u glyph .a ya
@@ -110,7 +119,9 @@ klas .u clause .a ya
 pyan .u pronoun .a ya
 pyas .u phrase .a ya
 pyat .u grammatical-object .a ya
+pyuf .u proof .a ya
 psan .u space .a ya
+psun .u source .a ya
 plis .u nearby .a ya
 swat .u question .a ya
 slim .u example .a ya
@@ -124,7 +135,6 @@ miyk .u send .a ya
 miwk .u person .a ya
 muys .u emotion .a ya
 munt .u world .a ya
-kiym .u receive .a ya
 kamt .u grammar .a ya
 kayp .u thing .a ya
 kast .u grammatical-case .a ya

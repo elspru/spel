@@ -15,6 +15,7 @@ this.phraseWords=translate.array(dict, mwakGrammar.phraseWords);
 this.subjectWord=mwakGrammar.subjectWord;
 this.objectWord=mwakGrammar.objectWord;
 this.verbWord=mwakGrammar.verbWord;
+this.topicWord=translate.word(dict, mwakGrammar.topicWord);
 this.subPhraseWords=translate.array(dict,
 		mwakGrammar.subPhraseWords);
 this.topClauseWords=translate.array(dict,
@@ -39,7 +40,10 @@ this.wordOrder = new Object();
 if (wordOrder){
 this.wordOrder.headFinal= wordOrder.headFinal;
 this.wordOrder.verbFinal= wordOrder.verbFinal;
+this.wordOrder.nounFinal= wordOrder.nounFinal;
 this.wordOrder.typeFinal= wordOrder.typeFinal;
+this.wordOrder.topicInitial = wordOrder.topicInitial;
+this.wordOrder.subjectProminent = wordOrder.subjectProminent;
 this.wordOrder.postpositional= wordOrder.postpositional;
 this.wordOrder.genitiveInitial= wordOrder.genitiveInitial;
 this.wordOrder.clauseInitial= wordOrder.clauseInitial;
@@ -55,8 +59,10 @@ return this;
 var mwakGrammar = {
 be: "Grammar",
 junctions:["ki","wa"],
-typeWords: ["li","sa","nyu","na","ka","pa","yi"],
-phraseWords: [".i","ta",".a",".u","kya","nya","sla","plu","mwa"],
+typeWords: ["li","sa","nyu","na","ka","pa","yi","ni"],
+phraseWords: [".i","ta",".a",".u","kya","nya",
+"fa","sla","plu","mwa","psu"],
+topicWord: "fa",
 agentWord: "hu",
 subjectWord: ".u",
 objectWord: ".a",
@@ -77,6 +83,8 @@ headFinal: true,
 verbFinal: true,
 nounFinal: true,
 typeFinal: true,
+topicInitial: true,
+subjectProminent: false,
 postpositional: true,
 clauseInitial: true,
 genitiveInitial: true,
@@ -86,20 +94,3 @@ intransitiveWord: ".u"
 }
 } // end of mwak grammar object ya
 
-//wordPriority:{
-//"ya":0x9,
-//"ku":0x8,
-//"kwi":0x7,
-//"tai":0x6,
-//"ti":0x5
-//}
-//wordPriorityArray:{
-//0x9:["ya","pa"],
-//0x8:["ku"],
-//0x7:["kwi","pwa"],
-//0x6:["tai"],
-//0x5:["ti"],
-//0x4:[".i",".u",".a","ta"],
-//0x3:["pi"],
-//0x2:["li"]
-//}

@@ -29,7 +29,6 @@ mak .u word .a ya
 map .u size .a ya
 kim .u compare .a ya
 kiy .u go .a ya
-kam .u begin .a ya
 kap .u head .a ya
 kut .u min map .i small .a ya
 yik .u negate .a ya
@@ -63,7 +62,6 @@ tlin .u ordinal .a ya
 miyk .u send .a ya
 miwk .u person .a ya
 munt .u world .a ya
-kiym .u receive .a ya
 kamt .u grammar .a ya
 kayp .u thing .a ya
 kast .u pyas kamt .i grammatical-case .a ya

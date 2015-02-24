@@ -103,7 +103,7 @@ textarea{ width:38em; height:4em; }
 /* sentence*/
 .sh{ background-color:hsl(270,0%,76%);/*dark gray*/ 
 border-radius: 0.23em; overflow:hidden; }
-/* phrse case*/
+/* phrase case*/
 .ch{ background-color:hsl(270,0%,85%);/*bright gray*/ 
 border-radius: 0.23em; overflow:hidden; }
 /* verb header */

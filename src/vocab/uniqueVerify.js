@@ -69,9 +69,9 @@ sentences.splice(1,1);
 var matches = definitions.indexOf(mwak,phrase.toString());
 if (matches !== -1)
 console.log("duplicate error: \n "
-+ sentence.toString() +"\n"
+//+ sentence.toString() +"\n"
 + sentence.toLocaleString(eng)+"\n"
-+ definitions.sentences[matches].toString() +"\n"
+//+ definitions.sentences[matches].toString() +"\n"
 + definitions.sentences[matches].toLocaleString(eng));
 //if (matches && matches.length > 0)
 //console.log("warning:" +matches.toString());

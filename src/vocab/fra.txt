@@ -14,6 +14,7 @@ pa li .u que-chose li .a ya
 pu li .u fait li .a ya
 wi li .u nous li .a ya
 wa li .u ou .a ya
+ni li .u à-savoir li .a ya
 na li .u nu .a ya
 si li .u ils li .a ya
 nu li .u maintenant .a ya
@@ -22,15 +23,18 @@ ta li .u à li .a ya
 tu li .u tu li .a ya
 li li .u littéral li .a ya
 fu li .u wil .a ya
+fa li .u sur li .a ya
 ci li .u hein? li .a ya
 myi li .u mémoire .a ya
 mwa li .u avec li .a ya
+mya li .u peut-être li .a ya
 kyi li .u conditionnellement .a ya
 kya li .u de-côté li .a ya
 kwi li .u yet .a ya
 sa li .u la .a ya
 kca li .u ha li .a ya
 pli li .u près-de li .a ya
+psu li .u à-partir-de-la-source li .a ya
 pla li .u pluriel li .a ya
 pwa li .u you .a ya
 plu li .u pour li .a ya
@@ -54,7 +58,8 @@ man .u penser li .a ya
 map .u taille .a ya
 kim .u comparer .a ya
 kiy .u aller .a ya
-kam .u commencer .a ya
+kit .u fin li .a ya
+kam .u avoir li .a ya
 kay .u capable li .a ya
 kap .u tête .a ya
 kan .u savoir li .a ya
@@ -84,16 +89,20 @@ wam .u temps .a ya
 wan .u aimer li .a ya
 wap .u queue .a ya
 wat .u parler li .a ya
+nim .u nom li .a ya
 wul .u payhmap .i grand .a ya
 nam .u nombre .a ya
 sim .u trois li .a ya
 san .u soi li .a ya
 sup .u payer li .a ya
 naw .u présent .a ya
+tip .u commencer li .a ya
 tin .u à-l'intérieur li .a ya
 tiw .u aidez-moi li .a ya
+tam .u sujet li .a ya
 sun .u une .a ya
 tay .u mettre li .a ya
+tan .u arbre li .a ya
 tak .u merci li .a ya
 liy .u quatre li .a ya
 tuw .u deux .a ya
@@ -110,7 +119,9 @@ psan .u espace .a ya
 pyan .u pronom .a ya
 pyas .u phrase .a ya
 pyat .u grammaticale-objet .a ya
+pyuf .u preuve li .a ya
 plis .u proche li .a ya
+psun .u source li .a ya
 slim .u exemple .a ya
 swat .u question li .a ya
 flas .u phrase .a ya
@@ -123,7 +134,6 @@ miyk .u envoyer .a ya
 miwk .u personne .a ya
 muys .u émotion li .a ya
 munt .u monde .a ya
-kiym .u recevoir .a ya
 kamt .u grammaire .a ya
 kayp .u chose .a ya
 kast .u grammaticale-cas .a ya

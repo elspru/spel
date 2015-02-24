@@ -14,6 +14,7 @@ pa li .u זֹאת li .a ya
 pu li .u עשיתי li .a ya
 wi li .u אנחנו li .a ya
 wa li .u או li .a ya
+ni li .u כלומר li .a ya
 na li .u num li .a ya
 nu li .u עכשיו li .a ya
 si li .u הם li .a ya
@@ -22,15 +23,18 @@ ti li .u כִּי li .a ya
 ta li .u ל li .a ya
 tu li .u שלך li .a ya
 li li .u li li .a ya
+fa li .u על li .a ya
 fu li .u עתיד li .a ya
 ci li .u אה? li .a ya
 myi li .u זיכרון li .a ya
+mya li .u אולי li .a ya
 mwa li .u עם li .a ya
 kyi li .u תנאים li .a ya
 kya li .u בצד li .a ya
 kwi li .u yand li .a ya
 kca li .u חה li .a ya
 pwa li .u yaor li .a ya
+psu li .u מקוד li .a ya
 pli li .u ליד li .a ya
 pla li .u רבים li .a ya
 plu li .u ל li .a ya
@@ -54,7 +58,8 @@ man .u חושב li .a ya
 mat .u אמא li .a ya
 kim .u להשוות li .a ya
 kiy .u ללכת li .a ya
-kam .u מתחיל li .a ya
+kit .u סוף li .a ya
+kam .u יש-לי li .a ya
 kay .u תוכל li .a ya
 kap .u ראש li .a ya
 kan .u יודע li .a ya
@@ -84,16 +89,20 @@ wap .u זנב li .a ya
 wan .u אוהב li .a ya
 wat .u לדבר li .a ya
 wul .u גדול li .a ya
+nim .u שם li .a ya
 nam .u מספר li .a ya
 naw .u הווה li .a ya
 sim .u שלוש li .a ya
 san .u עצמי li .a ya
 sup .u לשלם li .a ya
 sun .u אחד li .a ya
+tip .u מתחיל li .a ya
 tiw .u לעזור li .a ya
 tin .u בתוך li .a ya
+tam .u נושא li .a ya
 tak .u תודה li .a ya
 tay .u לשים li .a ya
+tan .u עץ li .a ya
 tuw .u שני li .a ya
 liy .u ארבעה li .a ya
 lit .u גליף li .a ya
@@ -110,7 +119,9 @@ klas .u סעיף li .a ya
 pyan .u כִּנוּי li .a ya
 pyas .u ביטוי li .a ya
 pyat .u דקדוקי-אובייקט li .a ya
+pyuf .u הוכחה li .a ya
 psan .u חלל li .a ya
+psun .u מקור li .a ya
 plis .u בקרבת-מקום li .a ya
 swat .u שאלה li .a ya
 slim .u דוגמא li .a ya
@@ -124,7 +135,6 @@ miyk .u לשלוח li .a ya
 miwk .u אדם li .a ya
 muys .u רגש li .a ya
 munt .u עולם li .a ya
-kiym .u לקבל li .a ya
 kamt .u דקדוק li .a ya
 kayp .u דבר li .a ya
 kast .u דקדוקי-מקרה li .a ya

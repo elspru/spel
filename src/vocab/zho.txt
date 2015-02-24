@@ -14,6 +14,7 @@ pa li .u 这-事 li .a ya
 pu li .u 没有 li .a ya
 wi li .u 我们 li .a ya
 wa li .u 或 .a ya
+ni li .u 亦即 li .a ya
 na li .u 个 .a ya
 si li .u 他们 li .a ya
 nu li .u 现在 .a ya
@@ -22,15 +23,18 @@ ta li .u 到 li .a ya
 tu li .u 尒 li .a ya
 li li .u 字面 li .a ya
 fu li .u 将 .a ya
+fa li .u 大约 li .a ya
 ci li .u 是吗？ li .a ya
 myi li .u 记忆 .a ya
 mwa li .u 同 li .a ya
+mya li .u 可能是 li .a ya
 kyi li .u 有条件 .a ya
 kya li .u 旁白 li .a ya
 kwi li .u 而 .a ya
 sa li .u 该 .a ya
 kca li .u 哈 li .a ya
 pli li .u 近 li .a ya
+psu li .u 从源 li .a ya
 pla li .u 复数 li .a ya
 pwa li .u 或者 .a ya
 plu li .u 为 li .a ya
@@ -54,7 +58,8 @@ man .u 想 li .a ya
 map .u 尺寸 .a ya
 kim .u 比较 .a ya
 kiy .u 去 .a ya
-kam .u 开始 .a ya
+kit .u 结束 li .a ya
+kam .u 有 li .a ya
 kay .u 能 li .a ya
 kap .u 头 .a ya
 kan .u 知道 li .a ya
@@ -84,16 +89,20 @@ wam .u 时间 .a ya
 wan .u 爱 li .a ya
 wap .u 尾 .a ya
 wat .u 说话 li .a ya
+nim .u 名字 li .a ya
 wul .u payhmap .i 大 .a ya
 nam .u 号码 .a ya
 sim .u 三 li .a ya
 san .u 自我 li .a ya
 sup .u 付 li .a ya
 naw .u 现时 .a ya
+tip .u 开始 li .a ya
 tin .u 里面 li .a ya
 tiw .u 救命 li .a ya
+tam .u 话题 li .a ya
 sun .u 一 .a ya
 tay .u 放 li .a ya
+tan .u 树 li .a ya
 tak .u 谢谢 li .a ya
 liy .u 四 li .a ya
 tuw .u 两 .a ya
@@ -110,7 +119,9 @@ psan .u 空间 .a ya
 pyan .u 代词 .a ya
 pyas .u 短语 .a ya
 pyat .u 语法对象 .a ya
+pyuf .u 证明 li .a ya
 plis .u 附近的 li .a ya
+psun .u 来源 li .a ya
 slim .u 例 .a ya
 swat .u 问题 li .a ya
 flas .u 短语 .a ya
@@ -123,7 +134,6 @@ miyk .u 发送 .a ya
 miwk .u 人 .a ya
 muys .u 情感 li .a ya
 munt .u 世界 .a ya
-kiym .u 接受 .a ya
 kamt .u 语法 .a ya
 kayp .u 事 .a ya
 kast .u 语法情况 .a ya

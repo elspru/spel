@@ -14,6 +14,7 @@ pa li .u dass-Sache li .a ya
 pu li .u tat li .a ya
 wi li .u wir li .a ya
 wa li .u oder li .a ya
+ni li .u nämlich li .a ya
 na li .u zahl li .a ya
 si li .u sie li .a ya
 nu li .u jetzt li .a ya
@@ -22,15 +23,18 @@ ta li .u bis li .a ya
 tu li .u dich li .a ya
 li li .u wörtlich li .a ya
 fu li .u wil li .a ya
+fa li .u über li .a ya
 ci li .u eh? li .a ya
 myi li .u Speicher li .a ya
 mwa li .u mit li .a ya
+mya li .u kann-sein li .a ya
 kyi li .u bedingt li .a ya
 kya li .u beiseite li .a ya
 kwi li .u yand li .a ya
 sa li .u die li .a ya
 kca li .u ha li .a ya
 pli li .u in-der-Nähe-von li .a ya
+psu li .u aus-Source- li .a ya
 pla li .u Plural li .a ya
 pwa li .u yaor li .a ya
 plu li .u für li .a ya
@@ -54,7 +58,8 @@ man .u denken li .a ya
 map .u Größe li .a ya
 kim .u vergleichen li .a ya
 kiy .u gehen li .a ya
-kam .u start li .a ya
+kit .u ende li .a ya
+kam .u verfügen-über li .a ya
 kay .u fähig li .a ya
 kap .u Kopf li .a ya
 kan .u wissen li .a ya
@@ -84,16 +89,20 @@ wam .u Zeit li .a ya
 wan .u lieben li .a ya
 wap .u Schwanz li .a ya
 wat .u sprechen li .a ya
+nim .u Name li .a ya
 wul .u groß li .a ya
 nam .u Anzahl li .a ya
 sim .u drei li .a ya
 san .u selbst li .a ya
 sup .u zahlen li .a ya
 naw .u vorhanden li .a ya
+tip .u start li .a ya
 tin .u innerhalb li .a ya
 tiw .u hilfe li .a ya
+tam .u Thema li .a ya
 sun .u einer li .a ya
 tay .u setzen li .a ya
+tan .u Baum li .a ya
 tak .u danken li .a ya
 liy .u vier li .a ya
 tuw .u zwei li .a ya
@@ -110,7 +119,9 @@ klas .u Klausel li .a ya
 pyan .u Pronomen li .a ya
 pyas .u Ausdruck li .a ya
 pyat .u grammatisch-Objekt li .a ya
+pyuf .u Beweis li .a ya
 plis .u in-der-Nähe li .a ya
+psun .u Quelle li .a ya
 psan .u Raum li .a ya
 swat .u Frage li .a ya
 slim .u Beispiel li .a ya
@@ -124,7 +135,6 @@ miyk .u senden li .a ya
 miwk .u Person li .a ya
 muys .u Emotion li .a ya
 munt .u Welt li .a ya
-kiym .u erhalten li .a ya
 kamt .u Grammatik li .a ya
 kayp .u Sache li .a ya
 kast .u grammatisch-Fall li .a ya

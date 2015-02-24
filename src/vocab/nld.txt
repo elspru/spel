@@ -14,6 +14,7 @@ pa li .u dat-ding li .a ya
 pu li .u actie li .a ya
 wi li .u wij li .a ya
 wa li .u of li .a ya
+ni li .u namelijk li .a ya
 na li .u tal li .a ya
 si li .u zij li .a ya
 nu li .u nu li .a ya
@@ -22,15 +23,18 @@ ta li .u naar li .a ya
 tu li .u u li .a ya
 li li .u letterlijk li .a ya
 fu li .u wil li .a ya
+fa li .u over li .a ya
 ci li .u eh? li .a ya
 myi li .u geheugen li .a ya
 mwa li .u met li .a ya
+mya li .u misschien li .a ya
 kyi li .u voorwaardelijk li .a ya
 kya li .u terzijde li .a ya
 kwi li .u yand li .a ya
 sa li .u de li .a ya
 kca li .u ha li .a ya
 pli li .u in-de-nabijheid-van- li .a ya
+psu li .u van-bron li .a ya
 pla li .u Meervoud li .a ya
 pwa li .u yaor li .a ya
 plu li .u voor li .a ya
@@ -54,7 +58,8 @@ man .u denken li .a ya
 map .u grootte li .a ya
 kim .u vergelijken li .a ya
 kiy .u gaan li .a ya
-kam .u beginnen li .a ya
+kit .u einde li .a ya
+kam .u hebben li .a ya
 kay .u in-staat li .a ya
 kap .u hoofd li .a ya
 kan .u weten li .a ya
@@ -84,16 +89,20 @@ wam .u tijd li .a ya
 wan .u liefde li .a ya
 wap .u staart li .a ya
 wat .u spreken li .a ya
+nim .u Naam li .a ya
 wul .u groot li .a ya
 nam .u aantal li .a ya
 sim .u drie li .a ya
 san .u zelf li .a ya
 sup .u betalen li .a ya
 naw .u aanwezig li .a ya
+tip .u beginnen li .a ya
 tin .u binnen li .a ya
 tiw .u helpen li .a ya
+tam .u Onderwerp li .a ya
 sun .u één li .a ya
 tay .u reeks li .a ya
+tan .u Boom li .a ya
 tak .u bedanken li .a ya
 liy .u vier li .a ya
 tuw .u twee li .a ya
@@ -110,7 +119,9 @@ klas .u clausule li .a ya
 pyan .u voornaamwoord li .a ya
 pyas .u uitdrukking li .a ya
 pyat .u grammaticale-object li .a ya
+pyuf .u Bewijsmateriaal li .a ya
 plis .u in-de-buurt li .a ya
+psun .u Bron li .a ya
 psan .u ruimte li .a ya
 swat .u Vraag li .a ya
 slim .u voorbeeld li .a ya
@@ -124,7 +135,6 @@ miyk .u sturen li .a ya
 miwk .u persoon li .a ya
 muys .u emotie li .a ya
 munt .u wereld li .a ya
-kiym .u ontvangen li .a ya
 kamt .u grammatica li .a ya
 kayp .u ding li .a ya
 kast .u grammaticale-case li .a ya

@@ -14,9 +14,10 @@ var engText = new Text(mwak,engFile);
 var engDict = new Dictionary(mwak,engText);
 var engWordOrder = {
 	headFinal : false,
-	verbFinal : true, // false
+	verbFinal : false,
 	nounFinal : true,
 	typeFinal : false,
+	subjectProminent: true,
 	clauseInitial: false,
 	genitiveInitial: false,
 	postpositional : false,

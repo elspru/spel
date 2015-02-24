@@ -14,6 +14,7 @@ pa li .u Bu-şey li .a ya
 pu li .u yaptım li .a ya
 wi li .u biz li .a ya
 wa li .u veya li .a ya
+ni li .u yani li .a ya
 na li .u nu li .a ya
 si li .u onlar li .a ya
 nu li .u şimdi li .a ya
@@ -22,15 +23,18 @@ ta li .u için li .a ya
 tu li .u sana li .a ya
 li li .u gerçek li .a ya
 fu li .u wil li .a ya
+fa li .u hakkında li .a ya
 ci li .u ha? li .a ya
 myi li .u bellek li .a ya
 mwa li .u ile li .a ya
+mya li .u olabilir li .a ya
 kyi li .u şartlı-olarak li .a ya
 kya li .u bir-kenara li .a ya
 kwi li .u yand li .a ya
 sa li .u bud li .a ya
 kca li .u ha li .a ya
 pli li .u yakın li .a ya
+psu li .u dan-kaynak li .a ya
 pla li .u çoğul li .a ya
 pwa li .u yaor li .a ya
 plu li .u amacıyla li .a ya
@@ -54,7 +58,8 @@ man .u düşünmek li .a ya
 map .u boyut li .a ya
 kim .u karşılaştırmak li .a ya
 kiy .u gitmek li .a ya
-kam .u başla li .a ya
+kit .u son li .a ya
+kam .u var li .a ya
 kay .u güçlü li .a ya
 kap .u kafa li .a ya
 kan .u bilmek li .a ya
@@ -84,16 +89,20 @@ wam .u zaman li .a ya
 wan .u aşk li .a ya
 wap .u kuyruk li .a ya
 wat .u konuşmak li .a ya
+nim .u isim li .a ya
 wul .u büyük li .a ya
 nam .u numara li .a ya
 sim .u üç li .a ya
 san .u öz li .a ya
 sup .u ödeme li .a ya
 naw .u mevcut li .a ya
+tip .u başla li .a ya
 tin .u içinde li .a ya
 tiw .u yardım li .a ya
+tam .u konu li .a ya
 sun .u bir li .a ya
 tay .u koymak li .a ya
+tan .u ağaç li .a ya
 tak .u teşekkür li .a ya
 liy .u dört li .a ya
 tuw .u iki li .a ya
@@ -110,7 +119,9 @@ klas .u fıkra li .a ya
 pyan .u zamir li .a ya
 pyas .u ifade li .a ya
 pyat .u dilbilgisi-nesne li .a ya
+pyuf .u kanıt li .a ya
 plis .u yakında li .a ya
+psun .u kaynak li .a ya
 psan .u alan li .a ya
 swat .u soru li .a ya
 slim .u örnek li .a ya
@@ -124,7 +135,6 @@ miyk .u göndermek li .a ya
 miwk .u kişi li .a ya
 muys .u duygu li .a ya
 munt .u dünya li .a ya
-kiym .u almak li .a ya
 kamt .u dilbilgisi li .a ya
 kayp .u şey li .a ya
 kast .u dilbilgisi-durum li .a ya

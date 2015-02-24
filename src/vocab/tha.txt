@@ -14,20 +14,23 @@ pa li .u ที่ li .a ya
 pu li .u ไม่ li .a ya
 wi li .u เรา li .a ya
 wa li .u หรือ li .a ya
+ni li .u คือ li .a ya
 na li .u num li .a ya
 nu li .u ตอนนี้ li .a ya
 si li .u พวกเขา li .a ya
-sa li .a ya
-sa li .a ya
+sa li .u ในกรณีนั้น .a ya
 ti li .u tha li .a ya
 ta li .u ไปยัง li .a ya
+fa li .u เกี่ยวกับ li .a ya
 tu li .u เจ้า li .a ya
 li li .u li li .a ya
 fu li .u Wil li .a ya
+mya li .u บางที li .a ya
 ci li .u ใช่มั้ย? li .a ya
 myi li .u หน่วยความจำ li .a ya
 mwa li .u กับ li .a ya
 kyi li .u เงื่อนไข li .a ya
+psu li .u จากแหล่งที่มา li .a ya
 kya li .u กัน li .a ya
 kwi li .u Yand li .a ya
 kca li .u ฮ้า li .a ya
@@ -55,7 +58,8 @@ man .u คิด li .a ya
 mat .u แม่ li .a ya
 kim .u เปรียบเทียบ li .a ya
 kiy .u ไป li .a ya
-kam .u เริ่มต้น li .a ya
+kit .u ปลาย li .a ya
+kam .u มี li .a ya
 kay .u สามารถ li .a ya
 kap .u หัว li .a ya
 kan .u รู้ li .a ya
@@ -81,6 +85,7 @@ pac .u ความปิติยินดี li .a ya
 puy .u เด็ก li .a ya
 put .u ขาย li .a ya
 wam .u เวลา li .a ya
+nim .u ชื่อ li .a ya
 wap .u หาง li .a ya
 wan .u ความรัก li .a ya
 wat .u พูด li .a ya
@@ -91,6 +96,9 @@ sim .u สาม li .a ya
 san .u ตนเอง li .a ya
 sup .u จ่ายเงิน li .a ya
 sun .u หนึ่ง li .a ya
+tip .u เริ่มต้น li .a ya
+tam .u หัวข้อ li .a ya
+tan .u ต้นไม้ li .a ya
 tiw .u ช่วย li .a ya
 tin .u ภายใน li .a ya
 tak .u ขอบคุณ li .a ya
@@ -107,7 +115,9 @@ kyul .u กฎ li .a ya
 kwal .u ภาษา li .a ya
 ksip .u เขียน li .a ya
 klaw .u หัวเราะ li .a ya
+pyuf .u พิสูจน์ li .a ya
 klas .u ประโยค li .a ya
+psun .u แหล่ง li .a ya
 pyan .u สรรพนาม li .a ya
 pyas .u วลี li .a ya
 pyat .u วัตถุไวยากรณ์ li .a ya
@@ -125,7 +135,6 @@ miyk .u ส่ง li .a ya
 miwk .u บุคคล li .a ya
 muys .u อารมณ์ li .a ya
 munt .u โลก li .a ya
-kiym .u ได้รับ li .a ya
 kamt .u ไวยากรณ์ li .a ya
 kayp .u สิ่ง li .a ya
 kast .u ไวยากรณ์กรณี li .a ya

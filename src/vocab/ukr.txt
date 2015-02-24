@@ -1,5 +1,5 @@
 .i li .u бути li .a ya
-.a li .u про li .a ya
+.a li .u о li .a ya
 .u li .u а li .a ya
 mi li .u мені li .a ya
 ma li .u що li .a ya
@@ -14,6 +14,7 @@ pa li .u що-що li .a ya
 pu li .u зробив li .a ya
 wi li .u ми li .a ya
 wa li .u або li .a ya
+ni li .u а-саме li .a ya
 na li .u ню li .a ya
 si li .u вони li .a ya
 nu li .u зараз li .a ya
@@ -22,15 +23,18 @@ ta li .u до li .a ya
 tu li .u тебе li .a ya
 li li .u буквальний li .a ya
 fu li .u Віль li .a ya
+fa li .u об li .a ya
 ci li .u а? li .a ya
 myi li .u пам'ять li .a ya
 mwa li .u з li .a ya
+mya li .u може-бути li .a ya
 kyi li .u умовно li .a ya
 kya li .u в-бік li .a ya
 kwi li .u ді li .a ya
 sa li .u пов li .a ya
 kca li .u ха li .a ya
 pli li .u у li .a ya
+psu li .u від-джерела li .a ya
 pla li .u множинне-число li .a ya
 pwa li .u дили li .a ya
 plu li .u для li .a ya
@@ -54,7 +58,8 @@ man .u думати li .a ya
 map .u розмір li .a ya
 kim .u порівняти li .a ya
 kiy .u йти li .a ya
-kam .u почати li .a ya
+kit .u кінець li .a ya
+kam .u мати li .a ya
 kay .u в-стані li .a ya
 kap .u глава li .a ya
 kan .u знати li .a ya
@@ -84,16 +89,20 @@ wam .u час li .a ya
 wan .u любов li .a ya
 wap .u хвіст li .a ya
 wat .u говорити li .a ya
+nim .u ім'я li .a ya
 wul .u великий li .a ya
 nam .u кількість li .a ya
 sim .u три li .a ya
 san .u себе li .a ya
 sup .u платити li .a ya
 naw .u Нині li .a ya
+tip .u почати li .a ya
 tin .u всередині li .a ya
 tiw .u допоможіть li .a ya
+tam .u тема li .a ya
 sun .u один li .a ya
 tay .u покласти li .a ya
+tan .u дерево li .a ya
 tak .u подякувати li .a ya
 liy .u чотири li .a ya
 tuw .u два li .a ya
@@ -110,7 +119,9 @@ klas .u пункт li .a ya
 pyan .u займенник li .a ya
 pyas .u фраза li .a ya
 pyat .u грамматико-об'єкт li .a ya
+pyuf .u доказ li .a ya
 plis .u поруч li .a ya
+psun .u джерело li .a ya
 psan .u простір li .a ya
 swat .u питання li .a ya
 flas .u фраза li .a ya
@@ -124,7 +135,6 @@ miyk .u послати li .a ya
 muys .u емоція li .a ya
 miwk .u людина li .a ya
 munt .u світ li .a ya
-kiym .u отримати li .a ya
 kamt .u граматика li .a ya
 kayp .u річ li .a ya
 kump .u настрій li .a ya

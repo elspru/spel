@@ -14,6 +14,7 @@ pa li .u هذا-الشيء- li .a ya
 pu li .u فعل li .a ya
 wi li .u نحن li .a ya
 wa li .u أو li .a ya
+ni li .u أي li .a ya
 na li .u نو li .a ya
 si li .u هم li .a ya
 nu li .u الآن li .a ya
@@ -22,15 +23,18 @@ ta li .u إلى li .a ya
 tu li .u اليك li .a ya
 li li .u حرفي li .a ya
 fu li .u فيل li .a ya
+fa li .u حول li .a ya
 ci li .u إيه؟ li .a ya
 myi li .u ذاكرة li .a ya
 mwa li .u مع li .a ya
+mya li .u قد-يكون li .a ya
 kyi li .u مشروط li .a ya
 kya li .u جانبا li .a ya
 kwi li .u ياو li .a ya
 sa li .u ال li .a ya
 kca li .u هكتار li .a ya
 pli li .u قرب li .a ya
+psu li .u من-المصدر li .a ya
 pla li .u صيغة-الجمع li .a ya
 pwa li .u ياأو li .a ya
 plu li .u سبيل li .a ya
@@ -54,7 +58,8 @@ man .u اعتقد li .a ya
 map .u حجم li .a ya
 kim .u مقارنة li .a ya
 kiy .u اذهب li .a ya
-kam .u ابدأ li .a ya
+kit .u النهاية li .a ya
+kam .u ديك li .a ya
 kay .u قادر li .a ya
 kap .u رئيس li .a ya
 kan .u علم li .a ya
@@ -84,16 +89,20 @@ wam .u مرة li .a ya
 wan .u حب li .a ya
 wap .u ذيل li .a ya
 wat .u تحدث li .a ya
+nim .u اسم li .a ya
 wul .u كبير li .a ya
 nam .u عدد li .a ya
 sim .u ثلاثة li .a ya
 san .u النفس li .a ya
 sup .u دفع li .a ya
 naw .u الحالي li .a ya
+tip .u ابدأ li .a ya
 tin .u داخل li .a ya
 tiw .u مساعدة li .a ya
+tam .u موضوع li .a ya
 sun .u واحد li .a ya
 tay .u وضع li .a ya
+tan .u شجرة li .a ya
 tak .u شكر li .a ya
 liy .u أربعة li .a ya
 lit .u الصورة-الرمزية li .a ya
@@ -110,7 +119,9 @@ klas .u بند li .a ya
 pyan .u ضمير li .a ya
 pyas .u العبارة li .a ya
 pyat .u النحوية بين .a ya
+pyuf .u برهان li .a ya
 plis .u قريب li .a ya
+psun .u مصدر li .a ya
 psan .u الفضاء li .a ya
 swat .u مسألة li .a ya
 slim .u مثال li .a ya
@@ -126,7 +137,6 @@ miyk .u إرسال li .a ya
 miwk .u شخص li .a ya
 muys .u عاطفة li .a ya
 munt .u عالم li .a ya
-kiym .u تسلم li .a ya
 kamt .u قواعد li .a ya
 kayp .u شيء li .a ya
 kast .u النحوية .a ya

@@ -14,6 +14,7 @@ pa li .u that-thing li .a ya
 pu li .u did li .a ya
 wi li .u we li .a ya
 wa li .u aux li .a ya
+ni li .u nome li .a ya
 na li .u nom li .a ya
 nu li .u nu li .a ya
 si li .u they li .a ya
@@ -22,15 +23,18 @@ ta li .u verdire li .a ya
 tu li .u thee li .a ya
 li li .u lauxvorta li .a ya
 fu li .u wil li .a ya
+fa li .u proksimume li .a ya
 ci li .u eh? li .a ya
 myi li .u storo li .a ya
 mwa li .u pene li .a ya
+mya li .u eble li .a ya
 kyi li .u conditionally li .a ya
 kya li .u aside li .a ya
 kwi li .u yand li .a ya
 sa li .u sugestio li .a ya
 kca li .u ha li .a ya
 pwa li .u yaor li .a ya
+psu li .u from-source li .a ya
 pli li .u near li .a ya
 pla li .u plural li .a ya
 plu li .u unuafoje li .a ya
@@ -54,7 +58,8 @@ man .u pripensi li .a ya
 mat .u patrino li .a ya
 kim .u kompari li .a ya
 kiy .u veturi li .a ya
-kam .u komencigxi li .a ya
+kit .u finveni li .a ya
+kam .u seksumi li .a ya
 kay .u kvalifikita li .a ya
 kap .u sxtatestro li .a ya
 kan .u scipovi li .a ya
@@ -84,16 +89,20 @@ wam .u tempo li .a ya
 wap .u vosto li .a ya
 wan .u kareco li .a ya
 wat .u paroli li .a ya
+nim .u name li .a ya
 wul .u granda li .a ya
 nam .u oko li .a ya
 naw .u cxeestanto li .a ya
 san .u mem li .a ya
 sup .u tributi li .a ya
 sim .u trifoje li .a ya
+tip .u komencigxi li .a ya
 sun .u unupersona li .a ya
 tiw .u asisto li .a ya
+tam .u aktualajxo li .a ya
 tin .u interno li .a ya
 tay .u surmeti li .a ya
+tan .u arbo li .a ya
 tak .u dankon li .a ya
 tuw .u ducent li .a ya
 liy .u kvar li .a ya
@@ -110,7 +119,9 @@ klas .u klauxzo li .a ya
 pyan .u pronoun li .a ya
 pyas .u phrase li .a ya
 pyat .u grammatical-object li .a ya
+pyuf .u pruvo li .a ya
 psan .u space li .a ya
+psun .u source li .a ya
 plis .u apude li .a ya
 swat .u demando li .a ya
 slim .u ekzemplo li .a ya
@@ -124,7 +135,6 @@ miyk .u sendi li .a ya
 miwk .u persono li .a ya
 muys .u emocio li .a ya
 munt .u mondo li .a ya
-kiym .u receive li .a ya
 kamt .u gramatiko li .a ya
 kayp .u ajxo li .a ya
 kast .u grammatical-case li .a ya

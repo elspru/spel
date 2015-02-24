@@ -1104,6 +1104,7 @@ accordingly also ya
 0544 oh right so should make mwak a language like all the
 others, so it could be loaded with them
 0938 okay it seems to be all working smoothly together.
+\
 should update the spelp to work with the new system ASAP.
 then we can probably call it a release. 
 1004 updating spel-node.js
@@ -1121,14 +1122,21 @@ basic javascript would give me some good satisfaction around
 now.
 0631 so basic sentences into javascript, 
 we'll be converting them into objects
-su we be wil convert ob them into objects ya
+su we be wil convert ob them into objectsixsx<F3>c4343
+ya'b'uckwhneatcaleb 
 {"su":"we","be":"wil convert","ob":"them","into":"objects"};
 tat later su me be add ob verb support and subject support to it ya
 me.add("it","verb support","subject support",{"tat":"later"});
 su sentence tha be have ob nesting clause-tail ob also possible ya
 sentence.have("nesting") = also_possible();
 su 1 of item ob array-reference ya
-item[1] = arrayReference();
+item[1] mode "640x480 60Hz 32bit (GTF)"
+    # PCLK: 23.86 MHz, H: 29.82 kHz, V: 60.00 Hz
+    geometry 640 480 640 480 32
+    timings 41918 80 16 13 1 64 3
+    hsync low
+    vsync high
+endmodeat = arrayReference();
 su mwak file contents ob tha be file-read of io ob mwak.txt ya
 mwak_file_contents = io.fileRead("mwak.txt");
 ob hey world be log of console ya
@@ -1500,3 +1508,314 @@ or rather wh fronting.
 also can probably make a tarball release.
 on the mailing list the topic of topicalization has come up,
 so may end up implementing that next. 
+1240 okay so we can add in topic fronting, it's kind of a mix of
+both of, and wh fronting algorithms, In that it can either take
+a phrase or a type as it's argument. which will allow for
+the double-subjects found in topic-prominent languages. 
+1400 anyways I should look into topicalization
+1446 gotta add some more vocab words, like topic
+1447 wi and wa are currently taken
+but before it was wa in japanese, it was fa, so we can use that.
+originally it was pa, but that is currently taken by "that".
+semantically it came from the word for water-wave. 
+1454 okay so word for topic
+mawdu Arabic. zhuti (juti) Mandarin. tema Spanish, Russian,
+Hungarian, Japanese, Italian, ~German, ~Irish. 
+topic English, Malay, ~Portuguese 
+definitely tem or rather tam
+2229 maybe
+rubama Arabic. tabun Japanese. yexu Mandarin. yau honang
+Cantonese.  naski Basque.  mungkin Malay. fortasse Latin. 
+sayad Persian. aseyigi Cherokee. iindog Ojibwe. magadguj
+Mongolian. amado Korean. peut-etre French. barangkali
+Indonesian. kong ja Thai. moZet bit Russian. belki Turkish.
+quiza Turkish. talvez Portuguese. 
+Okay quite a bit of different ones there. 
+probably n, k , t or p with u for that low sound
+punk or tunk
+probably punk
+2242 oh, but if it is used for dubitative mood then..
+pyu or tyu unlikely kyu, pyu
+2240 can make the other one for possibly then instead of maybe
+lots of m initials in maybe so maybe mya, it has that maybe feel
+to it like meh-yeah m'ya 
+} 14 Feb 2014
+1209 started working on business plan, is available in doc/
+folder.
+will need to break it down so it just has 2-4 top level
+sections. 
+0 the playing field
+1 the problem
+2 the solution
+3 the projections
+2023 I'm thinking of putting it together with a story that links
+it all together. the story will be of a prototypical customer in
+the current market. 
+2032 cool so apparently there are industry classification
+systems, so may be able to pinpoint which industry it is, that
+uses the constructed natural languages. 
+in the
+ISIC  (International Standard Industrial Classification)
+7490 Other professional, scientific and technical activities
+n.e.c
+6201 Computer programming and related activities
+8219 photocopying, document preparation
+8549 Other Education n.e.c. -- language instruction
+doesn't quite fit into either of those very well.
+NAICS  (North American Industry Classification System)
+611420 Computer Training: programming schools.
+541930 Translation and Interpretation services.
+541511 Custom Computer Programming Services.
+561410 Document Preparation Services
+2126 The best niche is probably 611420
+since we'd be training people that could then provide
+custom computer programming, document preparation and
+translation.
+} 15 Feb 2015
+0313 had a dream Linus's wife offered me a year free room and
+board if I at least attempted to latch the Linux kernel. When
+asking how It could get in. she said that she is his wife, can
+go around the usual channels.
+0318 also had another dream where I was part of some prophecy,
+somehow related to a young RMS like figure, but in the prophecy
+Claus was saying it ws about making an unlimited quantity of
+him, without the side-effects. 
+in the same dream I had to jump into a pool, and do some deep
+diving, ended up diving through solids and walking through
+walls,
+	could swim through the air, and peep out of walls. 
+0321 anyways only patch I can imagine for the linux kernel
+would either be of documentation, or of allowing compiling down
+or from the C in which it is written. 
+} 16 Feb 2015
+0601 had a dream there was a conference or event showcasing
+sexist and offensive terms in technology. 
+Anyways, it's a good idea to remove them. 
+such as abort, kill, man(ual)
+can be replaced with stop and help
+anyways this will be for the shell/OS level
+0609 in terms of supportin g the linux kernel, and other similar
+projects, the easiest would be as localization software. 
+such as gettext.
+most likely would simply complement gettext,
+by translating the gettext files for other locales.
+cool so there is even gettext for javascript and nodejs.
+0620 oh right, so I also figured earlier that can implement
+topic by adding the capacity of all phrases to compound,
+cuz for reason,  time at now, that kinda stuff.
+0627 so main thing to change is parsing and the phrase class 
+} 17 Feb 2015
+0412 got SystemC working, but still no luck with headless openCL
+1305 thinking of making a startup called LibreChips,
+which produces ASIC Chips based on OpenCores.
+it would be a fabless company, that contracts out.
+non-profit open business. 
+First chip will fit the ATMega8 form factor 28P3,
+and is meant to be drop in compatible with relevant arduino
+boards. 
+It will use OpenRISC instruction set though, so software wont be
+compatible, but it's also a good point of diversity,
+one reason we'll have to charge more than for ATMega's
+All cores and data will be relicensed as GPL-3 if possible.
+May have to rename it from OpenRISC to LibreRISC.
+or LibreCPU OR with version number.
+international non-profit open-business.
+can write the business plan and docs in SPEL.
+1631 to take advantage of extraordinarity bias,
+can have a new picture on the chip for every press.
+1658 okay so not sure how many charcters can fit,
+lets assume maybe 8 or 16.
+can use some emoji to liven it up, such as date of manufacture.
+If it was released today it would be
+🐸 🚪 LCCOR100🐎 ♒ 
+frog being the manufacturer emoji
+door meaning it's a gate ASIC,
+LCC0R100 meaning LibreChip CPU OpenRISC 1.0.0
+horse meaning it is year of horse, and aquarius for the
+approximate month of manufacture.
+Emoji characters take up two character widths it seems like.
+In terms of the different ASIC types
+Gate Array 	🚪	door 
+Structured ASIC	🚧	construction-sign
+Standard Cell	🌻	flower
+Full Custom  	👚	clothing
+FPGA		🚀	rocket
+CPU		🏠	house
+GPU		🏫	school
+SoC		🏡	house with garden
+
+🐸 🚪 LC🏠 OR10🐎 ♒
+1735 to be honest it is kinda silly.
+LC is a good acronym though.
+Also only leaves 256 version numbers, assuming hexadecimal.
+🐸 🚪 LC🏠 OR10🐎 ♒
+in chinese:
+蛤门LC居0R10馬♒
+I guess emoji is more international.
+🗽  statue of liberty could be libre chips
+1808 anyways so I'll email OpenCores about my idea.
+} 18 Feb 2015
+0729 evidence
+zhengu Mandarin. prueba Spanish. dokazatelstvo Russian. 
+bukti Indonesian. evidencia Portuguese. preuve French. 
+shoko Japanese. bisonyitek Hungarian. Saksya Sanskrit.
+kor pisoot Thai.
+0731 I have an idea, I can make a translation thing that just
+translates a single word, so I'll be able to see what it looks
+like in all the supported languages... Though for that would
+also need it to translate from other scripts to IPA.
+0735 proof
+zhengu Mandarin. prueba Spanish. dokazatelstvo Russian. 
+bukti Indonesian. prova Portuguese. preuve French. 
+shoko Japanese. bisonyitek Hungarian. Saksya Sanskrit.
+beweis German.  kor pisoot Thai.
+definitely p, likely f or w, maybe k or t final, u vowel
+pfuk 😲  or pfut
+maybe pwuk, or pwut
+evidentiality can be pwu or pfu 
+or since there is the r can be pyuf and pyu
+ya, pyuf sounds like proof
+0823 it and this has been giving me lots of trouble in
+translation, I'm thinking of perhaps removing one, 
+replacing ka with that, and then pa will be free for topic.
+1637 anyways should get topicalization done before the end of
+the week. Also should order the odroid VU.
+so we'll start the parser with postpositional mwak,
+and then work on the prepositional version ya
+} 19 Feb 2015
+0506 there is one more thing I wanted to add,
+which is wild cards for phrases, allowing new kinds of phrase
+cases to be formed. maybe can make it wu.
+oh may as well add in namely. 
+0531 name
+name English. ism Arabic. nomen Latin. nama Malay. vardas
+Lithuanian. izen Basque. peyar Tamil. isim Turkish. /imja/
+Russian. namae Japanese. ireum Korean. ming Mandarin. 
+maybe nim or nism, nim
+0544 so namely will be ni
+0636 okay coded it for postpositional style.
+0722 so debugged it also. now have to get the class to
+incorporate it as head. 
+1612 working on equivalences between Javascript, SystemC and
+OpenCl, so can use the same paradigm for programming them all.
+SystemC		OpenCl		Javascript
+MODULE				
+METHOD				worker	
+sensitive	events?		worker.onMessage
+THREADC				thread or clockEvent Worker	
+1620 the datatypes are
+void		void		undefined
+bool		bool		true/false
+uint		cl_uint		unsigned
+int		cl_int		signed
+		float		float
+				double
+1632 can check out SYCL also, it is the C++ version of OpenCl
+1645 OpenKODE also looks interesting, it is a portability layer.
+1852 hmmm looking into SYCL it seems very fascinating.
+anyways lets see if I can finish the phrase class stuff.
+1901 okay close, but have to resolve prepositional words
+different from noun compound words for best results.
+can do same for verb compound words while we are at it.
+0656 can signal what kind of word it is via the highlighting
+interface ya
+0757 okay cool it is working.  I spent unduly long debugging it
+while it was working because I thought the test case was
+different than it was.
+0802 okay now we simply need the prepositional parse and class
+0821 okay coded for clause final prepositionals. gotta test
+0958 cool so it is working. now just have to add topic fronting.
+I'm thinking vocative fronting, then wh fronting, then topic
+fronting. 
+1000 for now topic fronting, can base it on whFronting
+1011 so I was reading typing speed is necessary for programmer
+productivity, so can make 40wpm a qualifier for people that want
+stable part-time work. 
+1021 okay topic fronting works, now vocative fronting.
+1026 great it works :-D. only thing might be for hebrew, 
+they have topics at the end instead of the begining.
+guess can have variable of topicInitial in wordOrder
+} 21 Feb 2015
+0713 actually I'm not so sure about the hebrew stuff,
+it might be just for the subject, and I don't wnat to go
+througha bunch of hassle for an exception. 
+they can always add it in later if they like.
+0734 hmmm seems to be an input bug for word order
+0737 guess I have to notify type if it is a noun or verb
+it then has to notify word
+0810 so can use from-source it seems what people like,
+and also it is compatible with open source, linking to sources.
+source
+madSdar Arabic. gensen Japanese. chulcheo Korean. genyuan
+Mandarin. saltinis Lithuanian. sumber Malay. source French.
+origem Portuguese. istochnik Russian. bron Dutch. kalla swedish.
+s, c, k, p?, m? n? u
+ksup, psuk,  psun
+0839 weird li error when trying to do vocabUpdate
+1037 okay fixed it
+1324 tree
+TVNV  Borean. dhwanwos PIE.
+sajar Arabic. shu Mandarin. 
+1352 hmm I think wh fronting is lower priority than topic
+1353 also if it is a subject-prominent language it should
+subject-front.
+1500 so I have to fix up word compound inputs, then can make
+release. meanwhile need to translate the word have.
+1505 have idea for MISC, 4 bit opcodes, 4 bit registers.
+not sure how immediates or memory access would work though.
+VSDO opV,rS,rD,rO  fits in 2  bytes. 
+but maybe best to be like RISCV 4 byte opcodes, 32bit.
+stop reinventing the wheel for the CPU, just the FPGA assembly.
+I dono if there is an FPGA assembly. there is microcode, which
+is similar, but it's not cross processor, so that would have to
+be fixed up.  I like how RISCV is little endian :-D.
+1511 have
+eiko PIE. KVTV Borean take/get. 
+malaka Arabic. ada Malay. Old English habban. Old French avoir.
+Old Portuguese teer. izan Basque. imetʲ Russian. yongyou
+Mandarin. tener spanish. sahip Turkish. motsu Japanese.
+kam hold,grasp Afroasiatic. hebben Low German. 
+t,s,a  m, k 
+maybe sak.. kap is head, kam is begin, kan is know. 
+tak is thank. I can make begin something else.
+k I deleted begin will have to propogate changes. 
+20 added begin and finish based on mkaw vocab
+} 22 Feb 2015
+0644 so gotta add those compound input things.
+0934 passed partOfSpeech information to type from phrase
+yand from type to word yand rewrote algorithm for word ya
+1536 talked to Inna about hebrew, she mentioned that hebrew
+places the topics at the back of the sentence. so will have to
+implement that. 
+1837 been tuning the pseudo code to be like the future spel
+code.
+declaring input and output "ports" in the definition sentence.
+} 23 Feb 2015
+0704 okay, rewrote word, now to test
+0724 debugging
+0745 finished debugging :-D
+1648 okay can post and then fix up the hebrew style topics.
+1652 hmmm checking web version, having trouble with types that
+have no body. 
+1740 fixed
+} 24 Feb 2014
+0306 okay so gotta fix hebrew topics, subject prominence.
+then can start working on quotes. 
+also want to ask risc-v about a microcontroller version.
+0322 also had minor topic issue where the topic word grabs the
+contents of the phrase, have to restrict that to only if it is a
+case. 
+0332 added topic final and subject prominent
+and fixed the topic grabbing stuff, will now test
+0347 weird error where if simple topic phrase followed by
+another phrase the contents of the simple topic phrase is lost.
+0401 subject prominent fronting works. 
+0420 the weird error seems limited to prepositional parsing
+0426 okay fixed it I think.
+0428 hmmmm now have to fix so the performance grammar doesn't
+get in the way of postpositional topics
+0438 okay seems pretty smooth, but clause-tail isn't marking
+with the fronted cases. doesn't take into account the various
+arrays and such.
+0512 okay it seems to be working smoothly, will just check the
+web version and then mark git release

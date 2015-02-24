@@ -39,6 +39,8 @@ tokens = parse.quotesExtract(language,tokens);
 // if clauseFinal then get phrase from begining ya
 // be get ob case word do
 // if postpositional then last word is head case 
+// unless last word is topic, then possibly second last word is
+// included, if it is also a phrase word.
 // and first word is tail ya else
 // if prepositional then first word is head case 
 // and last word is tail ya
@@ -63,22 +65,34 @@ thePhrase = parse.lastPhrase(grammar,tokens);
 else thePhrase = parse.firstPhrase(grammar,tokens);
 
 // be get ob case word do
-var caseWordIndex = null;
+var caseWordI = null;
+var caseWordsN = 1;
 var tailIndex = null;
 var otherTokens = new Array();
 // if postpositional then last word is head case 
-// and first word is tail ya else
+// yand first word is tail ya else
+
 if (postpositional){
-caseWordIndex = thePhrase.length-1;
+caseWordI = thePhrase.length-1;
+// unless last word is topic, then possibly second last word is
+// included, if it is also a phrase word.
+if (thePhrase[caseWordI]===grammar.topicWord
+&& parse.wordMatch(grammar.phraseWords,thePhrase[caseWordI-1])){
+caseWordI--;
+caseWordsN++;}
 tailIndex = 0;
-otherTokens = thePhrase.slice(0,caseWordIndex);
+otherTokens = thePhrase.slice(0,caseWordI);
 }
 // if prepositional then first word is head case 
 // and last word is tail ya
 else if (postpositional === false){
-caseWordIndex = 0;
+caseWordI = 0;
+if (thePhrase[caseWordI]===grammar.topicWord
+&& parse.wordMatch(grammar.phraseWords,thePhrase[caseWordI+1])){
+console.log(thePhrase);
+caseWordsN++;}
 tailIndex = thePhrase.length-1;
-otherTokens = thePhrase.slice(caseWordIndex+1);
+otherTokens = thePhrase.slice(caseWordI+caseWordsN);
 }
 
 // if tail word is junction then return junction ya
@@ -177,9 +191,20 @@ this.subPhrase = genitiveSet(genitiveI,otherTokens);
 otherTokens = genitiveOtherTokens;
 }}
 
+
+// identify body part of speech
+
+var caseWord = new Word(language,
+tokens.slice(caseWordI,caseWordI+caseWordsN), "adposition");
+var partOfSpeech;
+if (caseWord.head.head === ".i" 
+|| caseWord.head.body && caseWord.head.body[0] === ".i")
+partOfSpeech = "verb";
+else partOfSpeech = "noun";
+if (partOfSpeech === "noun")
+
 if (otherTokens && otherTokens.length >0)
-this.body = new Type(language,otherTokens);
-var caseWord = new Word(language,tokens[caseWordIndex]);
+this.body = new Type(language,otherTokens,partOfSpeech);
 this.head = caseWord;
 return this;
 }
@@ -274,8 +299,13 @@ if (this.clause)
 clause = this.clause.toLocaleString(language, format);
 if (this.subPhrase)
 subPhrase = this.subPhrase.toLocaleString(language,format,'gh');
-if (typeof this.body === "object")
-content = this.body.toLocaleString(language,format);
+if (typeof this.body === "object" ){
+if (this.head && 
+(this.head.head === ".i" 
+|| this.head.body && this.head.body[0] === ".i"))
+content = this.body.toLocaleString(language,format,"v");
+else content = this.body.toLocaleString(language,format,"n");
+}
 else if (this.body) content = this.body;
 else content = '';
 if (content) content += joiner;

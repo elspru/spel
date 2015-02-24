@@ -52,7 +52,6 @@ man .u 想 li .a ya
 map .u 尺寸 .a ya
 kim .u 比较 .a ya
 kiy .u 去 .a ya
-kam .u 开始 .a ya
 kap .u 头 .a ya
 kan .u 知道 li .a ya
 kas .u 事业 li .a ya
@@ -109,7 +108,6 @@ miyk .u 发送 .a ya
 miwk .u 人 .a ya
 muys .u 情感 li .a ya
 munt .u 世界 .a ya
-kiym .u 接受 .a ya
 kamt .u 语法 .a ya
 kayp .u 事 .a ya
 kast .u 语法情况 .a ya

@@ -117,21 +117,48 @@ return tokens.slice(startEnd[0],startEnd[1]);
 exports. firstPhraseIndex = 
 	 firstPhraseIndexParse;
 function firstPhraseIndexParse(grammar,tokens){
+
+// algorithm
+//
+// get first case word
+// if prepositional set start as phraseHead
+// and other tokens as what comes after
+// if case before clause then slice before it ya
+// get next case, subClause, topClause
+// if nextClause available, set it's end as phrase end 
+// unless it is right after, then get the following one ya
+// if topClause is next then set it's start as end
+
+// get first case word
 var startEnd = new Array();
 var phraseHeadIdx = firstAnyCaseIndexParse(grammar,tokens);
 if (phraseHeadIdx === null) phraseError(grammar, tokens);
 var otherSlice;
 var wordOrder = grammar.wordOrder;
 
+// if prepositional set start as phraseHead
+// and other tokens as what comes after
 if (wordOrder.postpositional=== false){
 otherSlice = tokens.slice(phraseHeadIdx);
 startEnd[0]=phraseHeadIdx;
 }
 
+// if clauseFinal
+var offset = 1;
 if (wordOrder.clauseInitial === false){ // clauseFinal
 // if case before clause then slice before it ya
-var nextSlice = otherSlice.slice(1);
+var nextSlice = otherSlice.slice(offset);
+// get next case, subClause, topClause
 var nextCaseI = firstCaseIndexParse(grammar,nextSlice);
+// unless it is right after, then get the following one ya
+if (nextCaseI === 0
+&& tokens[phraseHeadIdx] === grammar.topicWord){
+offset = 2
+var nextSlice = otherSlice.slice(offset);
+console.log("ns "+nextSlice);
+var nextCaseI = firstCaseIndexParse(grammar,nextSlice);
+console.log("nci " + nextCaseI);
+}
 var nextSubClauseI = firstClauseWordIndexParse(grammar,nextSlice);
 var nextTopClauseI = 
 firstTopClauseWordIndexParse(grammar,nextSlice);
@@ -140,20 +167,20 @@ if (nextSubClauseI === -1) nextSubClauseI = length;
 if (nextTopClauseI === -1) nextTopClauseI = length;
 var nextClauseI = Math.min(nextSubClauseI, nextTopClauseI);
 if (nextCaseI !== -1 && nextCaseI < nextClauseI) {
- otherSlice = otherSlice.slice(0,nextCaseI+1); }
-// if nextClause available, set it's end as phrase end ya
+otherSlice = otherSlice.slice(0,nextCaseI+offset); }
+// if nextClause available, set it's end as phrase end 
 else if (nextSubClauseI !== length && 
 nextSubClauseI < nextTopClauseI){
 var clauseIdxs = adjacentClauseIndexParse(grammar,nextSlice);
-startEnd[1]=clauseIdxs[1]+1+phraseHeadIdx;
+startEnd[1]=clauseIdxs[1]+offset+phraseHeadIdx;
 return startEnd; }
 // if topClause is next then set it's start as end
 else if (nextTopClauseI !== length){
-startEnd[1]=nextTopClauseI+1+phraseHeadIdx;
+startEnd[1]=nextTopClauseI+offset+phraseHeadIdx;
 return startEnd;
 } 
 }// end of clauseFinal conditional ya
-else { otherSlice = tokens.slice(0,phraseHeadIdx+1); }
+else { otherSlice = tokens.slice(0,phraseHeadIdx+offset); }
 
 var resultI = lastPhraseIndexParse(grammar,otherSlice);
 var result;
@@ -166,7 +193,7 @@ startEnd[1]=resultI[1]+phraseHeadIdx;}
 else startEnd = resultI;
 //return result;
 return startEnd;
-}/* function's end */
+}/* firstPhraseIndexParse function's end */
 
 /// su last phrase be parse ya
 exports.lastPhrase = lastPhraseParse;
@@ -189,6 +216,8 @@ function lastPhraseIndexParse(grammar,tokens){
 //		else
 //		be get ob ar previous slice, previous case, 
 //			previous sentence ender, prev top clause
+//		for previous case if it is adjacent then get one
+//		before it
 //		be make su available one ob start ya
 //		else 0 be start ya
 //	if prepositional
@@ -233,24 +262,29 @@ var start, end;
 //		end at phrase word
 //		get previous slice, previous case, 
 	var previousSlice = tokens.slice(0,phraseWordIndex);
-	var previousCase = lastCaseIndexP(previousSlice);
+	var previousCaseI = lastCaseIndexP(previousSlice);
+//		for previous case if it is adjacent then get one
+//		before it
+if (tokens[phraseWordIndex]===grammar.topicWord 
+&& ((phraseWordIndex)-previousCaseI)===1
+&& previousCaseI !== -1){
+console.log("pc: "+((phraseWordIndex)-previousCaseI))
+console.log(tokens);
+console.log(previousSlice);
+previousSlice = tokens.slice(0,phraseWordIndex-1)
+previousCaseI = lastCaseIndexP(previousSlice);
+console.log("pci: "+previousCaseI);
+}
 //			previous sentence ender, prev top clause
-	var previousSentenceEnder = lastSentenceWordIndexParse
+	var previousSentenceEnderI = lastSentenceWordIndexParse
 		(grammar,previousSlice);
-	var previousTopClause = lastTopClauseWordIndexParse
+	var previousTopClauseI = lastTopClauseWordIndexParse
 		(grammar,previousSlice);
 //		be make su available one ob start ya
 //		else 0 be start ya
-	start = Math.max(previousCase,previousSentenceEnder,
-	//	-1);
-		previousTopClause,-1);
+	start = Math.max(previousCaseI,previousSentenceEnderI,
+		previousTopClauseI,-1);
 	start += 1;
-	//if (previousCase <= previousSentenceEnder)
-	//	start = previousSentenceEnder+1;
-	//else if(previousCase === -1 && 
-	//		previousSentenceEnder === -1)
-	//	start = 0;
-	//else start = previousCase+1;
 		}
 	}
 //	if prepositional

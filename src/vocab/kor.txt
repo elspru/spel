@@ -14,6 +14,7 @@ pa li .u 그-일 li .a ya
 pu li .u 한 li .a ya
 wi li .u 우리 li .a ya
 wa li .u 또는 li .a ya
+ni li .u 즉 li .a ya
 na li .u 달 li .a ya
 si li .u 그들은 li .a ya
 nu li .u 지금 li .a ya
@@ -22,15 +23,18 @@ ta li .u 에 li .a ya
 tu li .u 그대 li .a ya
 li li .u 리터럴 li .a ya
 fu li .u 의지 li .a ya
+fa li .u 약 li .a ya
 ci li .u 응? li .a ya
 myi li .u 기억 li .a ya
 mwa li .u 과-동시에 li .a ya
+mya li .u 아마 li .a ya
 kyi li .u 조건부의 li .a ya
 kya li .u 곁에 li .a ya
 kwi li .u 와-아 li .a ya
 sa li .u 이전-그 li .a ya
 kca li .u 하아 li .a ya
 pli li .u 닫기 li .a ya
+psu li .u 원본에서 li .a ya
 pla li .u 여러 li .a ya
 pwa li .u 또는-아 li .a ya
 plu li .u 위해 li .a ya
@@ -54,7 +58,8 @@ man .u 생각 li .a ya
 map .u 크기 li .a ya
 kim .u 비교 li .a ya
 kiy .u 가기 li .a ya
-kam .u 시작 li .a ya
+kit .u 끝 li .a ya
+kam .u 있다 li .a ya
 kay .u 수 li .a ya
 kap .u 머리 li .a ya
 kan .u 알고 li .a ya
@@ -84,16 +89,20 @@ pac .u 즐거움 li .a ya
 wan .u 러브 li .a ya
 puy .u 어린이 li .a ya
 wat .u 이야기 li .a ya
+nim .u 이름 li .a ya
 fut .u 미래 li .a ya
 wam .u 시간 li .a ya
 sim .u 3 li .a ya
 san .u 자기 li .a ya
 sup .u 지불 li .a ya
 wap .u 꼬리 li .a ya
+tip .u 시작 li .a ya
 tin .u 내부 li .a ya
 tiw .u 도와 li .a ya
+tam .u 주제 li .a ya
 wul .u 큰 li .a ya
 tay .u 넣어 li .a ya
+tan .u 나무 li .a ya
 tak .u 감사 li .a ya
 liy .u 네 li .a ya
 nam .u 번호 li .a ya
@@ -110,7 +119,9 @@ tuw .u 두 li .a ya
 cik .u 소수 li .a ya
 myik .u 에-추가 li .a ya
 kyim .u 마이너스 li .a ya
+pyuf .u 증명 li .a ya
 plis .u 인근 li .a ya
+psun .u 출처 li .a ya
 klas .u 규정 li .a ya
 swat .u 문제 li .a ya
 klaw .u 웃음 li .a ya
@@ -134,7 +145,6 @@ panp .u 빵 li .a ya
 palt .u 판매 li .a ya
 pack .u 즐길-수 li .a ya
 munt .u 세계 li .a ya
-kiym .u 수락 li .a ya
 kamt .u 문법 li .a ya
 kayp .u 것 li .a ya
 kast .u 구문-경우 li .a ya
