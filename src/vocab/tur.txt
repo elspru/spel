@@ -32,6 +32,7 @@ kyi li .u şartlı-olarak li .a ya
 kya li .u bir-kenara li .a ya
 kwi li .u yand li .a ya
 sa li .u bud li .a ya
+ksa li .u tırnak-işareti-koymak li .a ya
 kca li .u ha li .a ya
 pli li .u yakın li .a ya
 psu li .u dan-kaynak li .a ya
@@ -46,6 +47,7 @@ slu li .u tekil li .a ya
 sla li .u merhaba li .a ya
 tya li .u fıkra-kuyruk li .a ya
 twa li .u sonra li .a ya
+tsi li .u Gönder li .a ya
 tli li .u ord li .a ya
 mik .u kopya li .a ya
 miy .u bekleyin li .a ya
@@ -126,7 +128,7 @@ psan .u alan li .a ya
 swat .u soru li .a ya
 slim .u örnek li .a ya
 tkic .u çeviri-Sözlük li .a ya
-tsin .u Gönder li .a ya
+tsin .u referans li .a ya
 tsuk .u mağaza li .a ya
 tlam .u çevirmek li .a ya
 tlin .u sıra li .a ya

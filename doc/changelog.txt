@@ -1819,3 +1819,251 @@ with the fronted cases. doesn't take into account the various
 arrays and such.
 0512 okay it seems to be working smoothly, will just check the
 web version and then mark git release
+0524 okay sleepy time
+1254 okay so I'll slim down the roadmap to reduce scope bloat,
+want to get to javascript translation ASAP.
+1257 okay just three more things before javascript,
+multi word quotes, multi sentence quotes,
+and number quote endianness. 
+1304 okay so it seems quote end-quote are what is usable
+quote.logan. be happy .logan.end-quote
+also Japanese comes to the rescue, with って (tte)
+1310 it is used very similarly to that, being a postposition.
+1326 okay so for literal quotes we'll use quote end-quote,
+in the lojban zoi style. 
+1330 and we'll do block quotes as per usual
+be begin ob quote ya followed by be end ob quote ya
+1331 I think block quotes are currently more important,
+but multi word quotes are probably easier to implement,
+can start with the parsing, then the quoteExtract would also
+extract those. 
+for block quotes would be a little more complicated, as a text
+would have sub-texts. 
+1333 number quote endianness is the easiest to implement.
+maybe we can start with that. 
+1432 little endian dozenal seems to be the best direction and
+number base for mwak. we can symbolize any rational number with
+the 12 consonants 0x0-0xB, 
+m k y p w n s t l h f c
+0 1 2 3 4 5 6 7 8 9 A B
+decimal marker a 0xC, 
+vinculum u 0xD, 
+and negative i, 0xE
+possible ., 0xF to show irrationality, or start/stop
+.lkap or pi
+hmm this kind of shows how big endian can be good,
+since can more easily continue calculating pi with higher
+precision, whereas with little endian have to pick a precision
+and then count up.
+I guess, addition, and multiplication are best done in little
+endian, not sure about subtraction and division. 
+1559 can use IEEE or similar style floating point numbers,
+that way don't need a point. simply an exponent 
+1945 superior highly composite fixed-point numbers
+base 12 for  	4bit
+base 120 for 	8bit
+base 55440 for 	16bit
+base 367567200 for 32bit
+2251 I want to write a quick script, see how close I can
+approximate, for instance pi by using these bases. 
+} 25 Feb 2015
+// fraction portion, Superior Highly Composite Numbers SHCN:          
+//      base            bits    remainder or waste               
+// base 6 for           3bit    2       1/4     25%              
+// base 12 for          4bit    4       1/4     25%              
+// base 60 for          6bit    4       1/6     6%  best         
+// base 120 for         7bit    8       1/6     6%               
+// base 360 for         9bit    152     19/64   30%              
+// base 2520 for        12bit   1576    197/512 38%              
+// base 5040 for        13bit   38%                              
+// base 55440 for       16bit  10096 631/4096   15%              
+// base 720720 for      20bit   31%                              
+// base 1441440         21bit   31%                              
+// base 4324320         23bit   48%                              
+// base 21621600        25bit   35%                              
+// base 367567200       29bit   31%                              
+// base 6983776800      33bit   18%                              
+// base 13967553600     34bit   18%                              
+// base 321253732800    39bit   41%                              
+// base 2248776129600   42bit   48%    
+// so base 60 fractions are best,                                
+//                                                               
+// lets compare to IEEE floating points,                         
+// binary16 has 5 bits exponent, 1 sign bit, 11 bits precision   
+//                                                               
+// the fraction portion can either be appended on, or can be     
+// incorporated..  6 bits fraction, 10 bits precision.           
+// or 6 bits precision, 3 bits exponent and 1 bit sign..         
+// kinda looses the simplicity if we have an exponent            
+// but we can have much larger numbers than 100                  
+// we can have the exponents be of 60                            
+// so 2046 would be (6/60+34)*60                                 
+// 65536 would be (12/60+18)*60^2 or 65520                       
+//                                                               
+// okay now I want to write a basic program to approximate       
+// fractions for real numbers like pi, e and phi.                
+// see if even with the waste it makes sense to go with larger   
+// composite numbers.           
+//
+e
+0.7182818284590452
+0.6666666666666666 0.05161516179237857 4/6
+0.75 0.0317181715409548 9/12
+0.7166666666666667 0.0016151617923785277 43/60
+0.7166666666666667 0.0016151617923785277 86/120
+0.7152777777777778 0.0030040506812674117 103/144
+0.7194444444444444 0.0011626159853992402 259/360
+0.7182539682539683 0.000027860205076946087 1810/2520
+0.7183333333333334 0.000051504874288177405 2586/3600
+0.7182539682539683 0.000027860205076946087 3620/5040
+0.7182900432900433 0.000008214830998110045 39822/55440
+0.7182817182817183 1.1017732692852888e-7 3106080/4324320
+0.7182817901234568 3.83355883704084e-8 9308932/12960000
+0.7182818107818107 1.7677234454005486e-8 15530402/21621600
+
+0118 based on these results among others, it is clear that even
+though there may be some "waste", the higher SHCN numbers give
+higher precision, and thus are worth using for fractional
+representation.
+they also neatly divide into each other so are easily
+tranformed. for instance 55440 is 924 times larger than 60.
+and 21621600 is 360360 times larger.
+0131 also interesting to note is that their precision tends to
+be equal to their length, so it is well worth while, binary
+can't possibly give better precision, especially considering it
+can't even render 1/3 or 1/5 succinctly.
+so yeah, I guess if the base and exponent reflects the base used
+in the fraction, then can have comprable range to IEEE floats.
+0133 yeah, the range is comparable 60^3 is more than 2^14,
+but 60^-3 is less than 2^-24
+0139 infinity can be 63, NaN can be 60, 
+0725 can make a program to test the completeness of the
+representation in integerspace
+0956 checked musical limits, 3,5,7,11,15
+they are represented perfectly by SHCN,
+3-limit by 6 and above		(SHCN8)
+5-limit by 60 and above		(SHCN16)
+7-limit by 2520 and above   	(SHCN32)
+11-limit by 55440 and above	(SHCN64)
+15-limit by 60 and above 	(SHCN16)
+1101 Tonality Diamonds, a band on Mercury, or perhaps Venus.
+More likely Venus, as they have good amount of atmosphere,
+and enough stability to be enjoying the arts aplenty. 
+1135 thinking of a simple emulator that can implement,
+using three or four shorts.  1 short for fraction, 2 shorts for
+precision, 1 short for exponents and signs.
+1138 okay before I go ranting and raving about this,
+should make an algorithm to test the thoroughness of
+representation throughout it's range, for instance there may be
+some holes that aren't represented after exponentiation. 
+for SHCN64 though can have 25bit SHCN for fraction and precision. 
+1221 25bit SHCN can represent 13-limit perfectly, 
+so can play "The Fruit of Life".
+1238 okay I should make a document or something, like an article
+that I could publish about it. but anyways I wanted to make a
+pizza analogy of large and small infinities.
+say you have 2 people, and 1 pizza, 
+each slice is 1/2 of the pizza,
+pizza divided in half 1/(1/2) so there are 2 slices in total. 
+now say we have 3 people and 1 pizza,
+each slice is 1/3 of the pizza
+pizza is split in (1/1/3) and there are 3 slices in total.
+now say we have an infinite number of people,
+each slice is 1/infinity or nothing of the pizza,
+1/(1/infinity) = 1/0  = infinity. 
+so there is a large infinity number of slices.
+1251 the above numbers can all be represnted in  SHCN8
+1252 something that definitely have to do, is figure out how to
+do the floating point operations. 
+if it is in the same base it is pretty easy.
+lets figure out how to represent it in written form
+0S 0E 0P 0F = 0
+S sign, E exponent, P precision, F fraction
+pi in SHCN8
+0S 0E 3P 1F = 3.1666.. 	doz 3.2
+golden in SHCN8
+0S 0E 1P 4F = 1.66666 	doz 1.8
+9 in SHCNB
+0S 1E 4P 1F = 0.61666	doz 0.
+1305 hmmm it seems confusing having both a precision and
+fraction portion, maybe we can just have the fraction..
+1306 so how about we try it with a 6bit fraction in SHCN8
+1314 okay so can make it like in music theory,
+i.e. the top fraction is increment over 1. 
+hmmm having some trouble getting it to work in javascript,
+it seems to be rounding to integer instead of using float.
+1328 hmmm nope, seems best to keep precision and fraction
+seperate.  so what's the algorithm for that?
+can get something that fits in base for precision,
+then put the rest into fraction. 
+1650 business plan ideas:
+Name			Timeline	Products
+- Learn	with SPEL	1+ years	MOOC certificates
+- Manage with SPEL	3+ years	translingual collaboration 
+- Archival Press	4+ years	archival quality reprint
+- LibreChips 		7+ years 	(MC, SHCNFP, VLIW, FPGA)
+- LibreBots		11+ years	GI-OS, libre robots
+- LibreCommunity	18+ years	civilization seeds
+- LibrePlanets		27+ years	interplanetary seeds
+1957 current SHCN algorithm is On possibly O^n, donno,
+anywas I want to make one that is O(log(n)) or something...
+basically start half way through base, compare to fraction,
+if difference i negative go up spliting remaining base in half,
+if positive go other way, until there is no gain in precision.
+} 26 Feb 2015
+0645 so can have SHCN fixed and floats, the fixed are easier to
+compute with, and are better for precise calculation like for
+finance.  whereas the floats could be good for representing very
+large or very small values.  
+anyways I've got to get back to more perinent stuff. 
+0656 I'll just notify the libfixmath people as it is more their
+domain.
+} 28 Feb 2015
+1013 so I'm thinking website localization seems to be the most
+viable business for SPEL. The software would be free, but
+translating the current content out of Natural into SPEL variant
+is where the money would be. Could also offer certification for
+people to become official translators.
+} 01 March 2015 
+0143 after lots of encouraging from Justin and Igor, I've
+decided to make some concept diagrams for SPEL. While UML is
+currently the industry standard, I'm much more impressed by ISO
+STEP and EXPRESS. Since it allows modeling without silly GUI's.
+Well and it is an International Standard, which can also be used
+for making products, including CAD, absolutely awesome stuff.
+I don't know why it's not more famous. maybe ISO is charging
+people to have access to the standard.. Dono, read it was
+open-standard, but not sure. 
+1248 EXPRESS has minimal support, and STEP is proprietary.
+So I'll use Petri Nets, since they are mathematically
+validatable.
+} 02 Mar 2015
+0610 anyways enough with all this foolishness. time to finish
+adding quotes so can make this into a real programming language. 
+0715 okay wrote multiWordQuoteParse now to test.
+0744 debugging multi qord quote parse
+0747 okay it works :-) ya now for adding it to quote extract
+yand type class ya
+0800 updating quotesExtract
+0822 had to make firstMultiWordQuoteParse also. have to test it.
+0834 debugging.
+0844 having some trouble since index shifts at every slice.
+need to find total address somehow.
+0949 okay fixed,
+0950 all that is left is adding it to type.js 
+1151 working on the readme some more
+} 03 March 2015
+0710 so I need  type to recognize that it is a multi word quote,
+and then process it as such, perhaps sending it to a quote
+class. word order is preserved for the quoted portion.
+0735 okay added
+0744 now to test
+0805 okay words for Type with mwak, needs some tuning for
+english.
+0808 okay works for type initial now also :-)
+0809 does not work for Phrase will need to fix
+1554 may be issue with quotesExtract
+} 04 Mar 2015
+0705 debugged quotesExtract, now to test with Phrase
+0708 excellent it is working, now will test in web version.
+0711 awesome it is working, I can put it on roadmap

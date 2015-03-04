@@ -44,6 +44,124 @@ return null;
 
 }
 /// be parse bo multi word quote de
+exports.lastMultiWordQuote = lastMultiWordQuoteParse;
+function lastMultiWordQuoteParse(grammar,tokens){
+var index = lastMultiWordQuoteIndexParse(grammar,tokens);
+//if su index ob null then be return ob null ya
+if (index === null) return null;
+return tokens.slice(index[0],index[1]);
+}
+exports.lastMultiWordQuoteIndex = lastMultiWordQuoteIndexParse;
+function lastMultiWordQuoteIndexParse(grammar,tokens){
+// algorithm:
+// about from end be find ob quote head ya
+// if not found then be return null
+// else if found then be set as end yand
+// be get ob preceding word as quote name 
+// then be search for quote-name preceded by quote tail ya
+// if found then be set as  start
+// else be set ob start of tokens as start yand
+// be give warning ya
+// return start and end array
+
+var head = new String();
+var tail = new String();
+var quotes = grammar.quotes;
+if (grammar.wordOrder.typeFinal){
+head = quotes.multiWordHead;
+tail = quotes.multiWordTail;}
+else if (grammar.wordOrder.typeFinal === false){
+head = quotes.multiWordTail;
+tail = quotes.multiWordHead;}
+
+var start = null;
+var end = null;
+
+// about from end be find ob quote head ya
+var quoteHeadI = tokens.rfind(wordMatch.curry(head));
+// if not found then be return null
+if (quoteHeadI === null) return null;
+// else if be find then be set as end yand
+else end = quoteHeadI+1;
+// be get ob preceding word as quote name 
+var quoteNameI = quoteHeadI-1;
+var quoteName = tokens[quoteNameI];
+// then be search for quote-name preceded by quote tail ya
+while (true){
+var otherTokens = tokens.slice(0,quoteNameI);
+var quoteNameI = otherTokens.rfind(wordMatch.curry(quoteName));
+// if be find then be set as  start
+// else be set ob start of tokens as start yand
+// be give warning ya
+if (quoteNameI === null) {start = 0; break}
+else if (tokens[quoteNameI-1] === tail[0]) {
+start = quoteNameI-1; break;}
+}
+// return start and end array
+return [start,end];
+}
+
+exports.firstMultiWordQuote = firstMultiWordQuoteParse;
+function firstMultiWordQuoteParse(grammar,tokens){
+var index = firstMultiWordQuoteIndexParse(grammar,tokens);
+//if su index ob null then be return ob null ya
+if (index === null) return null;
+return tokens.slice(index[0],index[1]);
+}
+exports.firstMultiWordQuoteIndex = firstMultiWordQuoteIndexParse;
+function firstMultiWordQuoteIndexParse(grammar,tokens){
+// algorithm:
+// about from start be find ob quote head ya
+// if not found then be return null
+// else if found then be set as start yand
+// be get ob following word as quote name 
+// then be search for quote-name following by quote tail ya
+// if found then be set as  end
+// else be set ob end of tokens as end yand
+// be give warning ya
+// return end and start array
+
+var head = new String();
+var tail = new String();
+var quotes = grammar.quotes;
+if (grammar.wordOrder.typeFinal === false){
+head = quotes.multiWordHead;
+tail = quotes.multiWordTail;}
+else if (grammar.wordOrder.typeFinal){
+head = quotes.multiWordTail;
+tail = quotes.multiWordHead;}
+
+var start = null;
+var end = null;
+
+// about from start be find ob quote head ya
+var quoteHeadI = tokens.find(wordMatch.curry(head));
+// if not found then be return null
+if (quoteHeadI === null) return null;
+// else if be find then be set as start yand
+else start = quoteHeadI;
+// be get ob following word as quote name 
+var quoteNameI = quoteHeadI+1;
+var quoteName = tokens[quoteNameI];
+// then be search for quote-name followed by quote tail ya
+var tailQuoteNameI = quoteNameI;
+var extraTailI = 0;
+var otherTokens = tokens.slice(0);
+while (true){
+var otherTokens = otherTokens.slice(tailQuoteNameI+1);
+var tailQuoteNameI = otherTokens.find(wordMatch.curry(quoteName));
+// if be find then be set as  end
+// else be set ob end of tokens as end yand
+// be give warning ya
+if (tailQuoteNameI === null) {end = 0; break}
+else if (otherTokens[tailQuoteNameI+1] === tail[0]) {
+end = quoteNameI+extraTailI+tailQuoteNameI+3; break;}
+extraTailI += tailQuoteNameI+1;
+}
+// return end and start array
+return [start,end];
+}
+
 /// be parse bo surrounding quote de
 exports.surroundingQuote = surroundingQuoteParse;
 	/// if word is in quote, return quote
@@ -155,9 +273,7 @@ if (nextCaseI === 0
 && tokens[phraseHeadIdx] === grammar.topicWord){
 offset = 2
 var nextSlice = otherSlice.slice(offset);
-console.log("ns "+nextSlice);
 var nextCaseI = firstCaseIndexParse(grammar,nextSlice);
-console.log("nci " + nextCaseI);
 }
 var nextSubClauseI = firstClauseWordIndexParse(grammar,nextSlice);
 var nextTopClauseI = 
@@ -268,12 +384,8 @@ var start, end;
 if (tokens[phraseWordIndex]===grammar.topicWord 
 && ((phraseWordIndex)-previousCaseI)===1
 && previousCaseI !== -1){
-console.log("pc: "+((phraseWordIndex)-previousCaseI))
-console.log(tokens);
-console.log(previousSlice);
 previousSlice = tokens.slice(0,phraseWordIndex-1)
 previousCaseI = lastCaseIndexP(previousSlice);
-console.log("pci: "+previousCaseI);
 }
 //			previous sentence ender, prev top clause
 	var previousSentenceEnderI = lastSentenceWordIndexParse
@@ -371,21 +483,32 @@ function quotesExtract(language, tokens){
 // else go forwards
 // return result
 
-var singleQuotes = grammar.quotes.singleWord;
+var grammar = language.grammar;
+var quotes = grammar.quotes;
+var quoteHeads = quotes.quoteHeads;
+var singleWordHead = quotes.singleWord[0];
+var multiWordHead = quotes.multiWordHead[0];
 var quoteExtractedTokens = new Array();
-var i = tokens.length-1; 
+var i; 
 var thisToken; 
 var quote;
 // if type final
 // go backwards through tokens
 if (language.grammar.wordOrder.typeFinal){
-for (i; i >= 0; i--){
+for (i = tokens.length-1 ; i >= 0; i--){
 thisToken = tokens[i];
 if (i===0) quoteExtractedTokens.unshift(thisToken);
-else if (wordMatch(singleQuotes,thisToken)){
-quote = new Type(language,[tokens[i-1],thisToken])
+else if (wordMatch(quoteHeads,thisToken)){
+var quoteTokens = new Array();
+if (thisToken === singleWordHead)
+quoteTokens = [tokens[i-1],thisToken];
+else if (thisToken === multiWordHead){
+var otherTokens = tokens.slice(0,i+1);
+quoteTokens = lastMultiWordQuoteParse(grammar,otherTokens);
+}
+quote = new Type(language, quoteTokens)
 quoteExtractedTokens.unshift(quote);
-i--;
+i = i-quoteTokens.length+1;
 }
 else quoteExtractedTokens.unshift(thisToken);
 }}
@@ -394,10 +517,17 @@ else if (!language.grammar.wordOrder.typeFinal) { // type initial
 for (i=0; i < tokens.length; i++){
 thisToken = tokens[i];
 if (i===tokens.length-1) quoteExtractedTokens.push(thisToken);
-else if (wordMatch(singleQuotes,thisToken)){
-quote = new Type(language, [thisToken,tokens[i+1]])
+else if (wordMatch(quoteHeads,thisToken)){
+var quoteTokens = new Array();
+if (thisToken === singleWordHead)
+quoteTokens = [thisToken,tokens[i+1]];
+else if (thisToken === multiWordHead){
+var otherTokens = tokens.slice(i);
+quoteTokens = firstMultiWordQuoteParse(grammar,otherTokens);
+}
+quote = new Type(language, quoteTokens)
 quoteExtractedTokens.push(quote);
-i++;
+i = i+quoteTokens.length-1;
 }
 else quoteExtractedTokens.push(thisToken);
 }

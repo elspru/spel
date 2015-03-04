@@ -32,6 +32,7 @@ kyi li .u 有条件 .a ya
 kya li .u 旁白 li .a ya
 kwi li .u 而 .a ya
 sa li .u 该 .a ya
+ksa li .u 引文结束 li .a ya
 kca li .u 哈 li .a ya
 pli li .u 近 li .a ya
 psu li .u 从源 li .a ya
@@ -46,6 +47,7 @@ slu li .u 单数 li .a ya
 sla li .u 您好 li .a ya
 tya li .u 第尾巴 li .a ya
 twa li .u 然后 li .a ya
+tsi li .u 引用 li .a ya
 tli li .u 第 .a ya
 mik .u 复制 .a ya
 miy .u 等待 .a ya
@@ -126,7 +128,7 @@ slim .u 例 .a ya
 swat .u 问题 li .a ya
 flas .u 短语 .a ya
 tkic .u 翻译，字典 li .a ya
-tsin .u 引用 li .a ya
+tsin .u 参考 li .a ya
 tsuk .u 店 li .a ya
 tlam .u 翻译 li .a ya
 tlin .u 序数词 .a ya

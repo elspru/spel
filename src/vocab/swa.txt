@@ -32,6 +32,7 @@ kyi li .u masharti li .a ya
 kya li .u kando li .a ya
 kwi li .u yand li .a ya
 sa li .u akaonekana li .a ya
+ksa li .u unquote li .a ya
 kca li .u ha li .a ya
 pli li .u karibu li .a ya
 psu li .u kutoka-chanzo li .a ya
@@ -46,6 +47,7 @@ slu li .u umoja li .a ya
 sla li .u hodi li .a ya
 tya li .u kifungu-mkia li .a ya
 twa li .u basi li .a ya
+tsi li .u quote li .a ya
 tli li .u ord li .a ya
 mik .u nakala li .a ya
 miy .u kusubiri li .a ya
@@ -126,7 +128,7 @@ psan .u nafasi li .a ya
 swat .u swali li .a ya
 slim .u mfano li .a ya
 tkic .u tafsiri-dictionary li .a ya
-tsin .u quote li .a ya
+tsin .u kumbukumbu li .a ya
 tsuk .u duka li .a ya
 tlam .u kutafsiri li .a ya
 tlin .u ordinal li .a ya

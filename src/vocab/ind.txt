@@ -32,6 +32,7 @@ kyi li .u kondisional li .a ya
 kya li .u ke-samping li .a ya
 kwi li .u yand li .a ya
 sa li .u itu li .a ya
+ksa li .u tanda-kutip li .a ya
 kca li .u ha li .a ya
 pli li .u di-dekat li .a ya
 psu li .u dari-sumber li .a ya
@@ -46,6 +47,7 @@ slu li .u tunggal li .a ya
 sla li .u halo-juga li .a ya
 tya li .u klausul-ekor li .a ya
 twa li .u kemudian li .a ya
+tsi li .u kutipan li .a ya
 tli li .u uru li .a ya
 mik .u salinan li .a ya
 miy .u menunggu li .a ya
@@ -126,7 +128,7 @@ psan .u ruang-angkasa li .a ya
 swat .u pertanyaan li .a ya
 slim .u contoh li .a ya
 tkic .u terjemahan-kamus li .a ya
-tsin .u kutipan li .a ya
+tsin .u referensi li .a ya
 tsuk .u toko li .a ya
 tlam .u menterjemahkan li .a ya
 tlin .u urut li .a ya

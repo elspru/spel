@@ -29,10 +29,14 @@ this.clauseTerminator=translate.array(dict,
 this.sentenceWords=translate.array(dict,
 		mwakGrammar.sentenceWords);
 this.quotes = new Object();
+this.quotes.quoteHeads=translate.array(dict, 
+		mwakGrammar.quotes.quoteHeads);
 this.quotes.singleWord=translate.array(dict, 
 		mwakGrammar.quotes.singleWord);
-this.quotes.multiWord=translate.array(dict, 
-		mwakGrammar.quotes.multiWord);
+this.quotes.multiWordHead=translate.array(dict, 
+		mwakGrammar.quotes.multiWordHead);
+this.quotes.multiWordTail=translate.array(dict, 
+		mwakGrammar.quotes.multiWordTail);
 this.quotes.literal=translate.array(dict, 
 		mwakGrammar.quotes.literal);
 }
@@ -59,7 +63,7 @@ return this;
 var mwakGrammar = {
 be: "Grammar",
 junctions:["ki","wa"],
-typeWords: ["li","sa","nyu","na","ka","pa","yi","ni"],
+typeWords: ["li","sa","nyu","na","ka","pa","yi","ni","tsi"],
 phraseWords: [".i","ta",".a",".u","kya","nya",
 "fa","sla","plu","mwa","psu"],
 topicWord: "fa",
@@ -74,9 +78,11 @@ clauseWords: ["ti"],
 clauseTerminator: ["tya"],
 sentenceWords: ["ya","ci"],
 quotes: {
+quoteHeads: ["li","tsi"],
 singleWord: ["li"],
-multiWord: [],
-literal: ["li"]
+literal: ["li","tsi"],
+multiWordHead: ["tsi"],
+multiWordTail: ["ksa"]
 },
 wordOrder: {
 headFinal: true,
@@ -88,6 +94,7 @@ subjectProminent: false,
 postpositional: true,
 clauseInitial: true,
 genitiveInitial: true,
+littleEndian: true,
 phraseOrder: ["sla","ku","twa","kwi","pwa",".u","ta",
 ".a","nya",".i"],
 intransitiveWord: ".u"

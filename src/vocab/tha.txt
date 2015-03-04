@@ -32,6 +32,7 @@ mwa li .u กับ li .a ya
 kyi li .u เงื่อนไข li .a ya
 psu li .u จากแหล่งที่มา li .a ya
 kya li .u กัน li .a ya
+ksa li .u ไม่ได้นำมาอ้าง li .a ya
 kwi li .u Yand li .a ya
 kca li .u ฮ้า li .a ya
 pwa li .u yaor li .a ya
@@ -46,6 +47,7 @@ sla li .u สวัสดี li .a ya
 slu li .u เอกพจน์ li .a ya
 tya li .u ข้อหาง li .a ya
 twa li .u แล้วก็ li .a ya
+tsi li .u อ้างอิง li .a ya
 tli li .u อ๊อด li .a ya
 mik .u สำเนา li .a ya
 miy .u รอ li .a ya
@@ -126,7 +128,7 @@ plis .u ใกล้เคียง li .a ya
 swat .u คำถาม li .a ya
 slim .u ตัวอย่าง li .a ya
 tkic .u แปลพจนานุกรม li .a ya
-tsin .u อ้างอิง li .a ya
+tsin .u การอ้างอิง li .a ya
 tsuk .u ร้านขายของ li .a ya
 tlin .u เกี่ยวกับลำดับ li .a ya
 tlam .u การแปล li .a ya

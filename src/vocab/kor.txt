@@ -32,6 +32,7 @@ kyi li .u 조건부의 li .a ya
 kya li .u 곁에 li .a ya
 kwi li .u 와-아 li .a ya
 sa li .u 이전-그 li .a ya
+ksa li .u 인용을-끝-맺다 li .a ya
 kca li .u 하아 li .a ya
 pli li .u 닫기 li .a ya
 psu li .u 원본에서 li .a ya
@@ -46,6 +47,7 @@ slu li .u 단수 li .a ya
 sla li .u 안녕하세요 li .a ya
 tya li .u 첫-번째-꼬리 li .a ya
 twa li .u 그때 li .a ya
+tsi li .u 시세 li .a ya
 tli li .u 기사 li .a ya
 mik .u 복사 li .a ya
 miy .u 대기 li .a ya
@@ -126,7 +128,7 @@ klas .u 규정 li .a ya
 swat .u 문제 li .a ya
 klaw .u 웃음 li .a ya
 psan .u 공간 li .a ya
-tsin .u 시세 li .a ya
+tsin .u 참고 li .a ya
 tsuk .u 가게 li .a ya
 tlam .u 번역기 li .a ya
 pyan .u 대명사 li .a ya

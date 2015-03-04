@@ -32,6 +32,7 @@ mwa li .u with .a ya
 kyi li .u conditionally .a ya
 kya li .u aside li .a ya
 kwi li .u yand .a ya
+ksa li .u unquote .a ya
 kca li .u ha li .a ya
 pwa li .u yaor .a ya
 psu li .u from-source .a ya
@@ -46,6 +47,7 @@ sla li .u hello li .a ya
 slu li .u singular .a ya
 tya li .u clause-tail .a ya
 twa li .u then .a ya
+tsi li .u quote .a ya
 tli li .u ord .a ya
 mik .u copy .a ya
 miy .u wait .a ya
@@ -96,7 +98,7 @@ sim .u three .a ya
 san .u self .a ya
 sup .u pay .a ya
 sun .u one .a ya
-tip .u begin .a ya
+tip .u start .a ya
 tiw .u help .a ya
 tin .u inside .a ya
 tam .u topic .a ya
@@ -126,7 +128,7 @@ plis .u nearby .a ya
 swat .u question .a ya
 slim .u example .a ya
 tkic .u translation-dictionary .a ya
-tsin .u quote .a ya
+tsin .u reference .a ya
 tsuk .u shop .a ya
 tlin .u ordinal .a ya
 tlam .u translation .a ya

@@ -32,6 +32,7 @@ mwa li .u עם li .a ya
 kyi li .u תנאים li .a ya
 kya li .u בצד li .a ya
 kwi li .u yand li .a ya
+ksa li .u עַד-כָּאן li .a ya
 kca li .u חה li .a ya
 pwa li .u yaor li .a ya
 psu li .u מקוד li .a ya
@@ -46,6 +47,7 @@ sla li .u שלום li .a ya
 slu li .u יחיד li .a ya
 tya li .u סעיף-זנב li .a ya
 twa li .u לאחר-מכן li .a ya
+tsi li .u ציטוט li .a ya
 tli li .u ORD li .a ya
 mik .u עותק li .a ya
 miy .u לחכות li .a ya
@@ -126,7 +128,7 @@ plis .u בקרבת-מקום li .a ya
 swat .u שאלה li .a ya
 slim .u דוגמא li .a ya
 tkic .u תרגום-מילון li .a ya
-tsin .u ציטוט li .a ya
+tsin .u התייחסות li .a ya
 tsuk .u חנות li .a ya
 tlin .u סִדוּרִי li .a ya
 tlam .u תרגום li .a ya

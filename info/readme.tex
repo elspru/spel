@@ -1,0 +1,138 @@
+
+\documentclass[12pt]{article}
+
+\title{SPEL Idea}
+\author{Logan Streondj\\
+CC-BY-SA}
+\usepackage{pnets}
+\usepackage{xcolor}
+\begin{document}
+
+\maketitle
+\section{Ideal Flow}
+su input agent be have ob idea ya\\
+be write ob idea to natural text 
+by using word definitions of input language ya\\
+be deconjugate ob natural text to analytic output text 
+by using conjugation rules of input language ya\\
+su SPEL be translate-in ob analytic input text 
+to mwak pivot tree 
+by using word translations and word order of input language ya\\
+be translate-out ob mwak pivot tree to analytic output text
+by using  word order and word translation of output language ya\\
+be conjugate ob analytic output text 
+to conjugated text or source code
+by using conjugation rules of output language ya\\
+su output agent be compile or understand ob conjugated or source
+code to understood idea or native-code by using output word
+definitions or API library of output language ya
+su output agent be gain ob skill or app ya
+
+
+\begin{figure}
+\begin{center}
+\begin{petrinet}[xunit=3cm, yunit=2cm](0,0)(4,10)
+
+% language
+\psset{linecolor=green}
+\source{idea}(2,8) 
+\label"{b}idea\strut
+\place{inNatural}(2,7) 
+\label"{b}natural text\strut
+\place{inAnalytic}(2,6) 
+\label"{b}analytic input text\strut
+\psset{linecolor=black}
+\place{pivotLanguage}(2,5) 
+\label"{b}mwak pivot tree\strut
+\place{outAnalytic}(2,4) 
+\label"{b}analytic output text\strut
+\place{outConjugated}(2,3) 
+\label"{b}conjugated text or source-code\strut
+\psset{linecolor=blue}
+\place{nativeCode}(2,2) 
+\label"{b}understood idea or native-code\strut
+\psset{linecolor=black}
+
+% processes
+\psset{linecolor=green}
+\trans{write}(0,7.5)
+\label"{b}be write\strut
+\trans{deconj}(0,6.5)
+\label"{b}be deconjugate\strut
+\psset{linecolor=black}
+\trans{transIn}(0,5.5)
+\label"{b}be translate-in\strut
+\trans{transOut}(0,4.5)
+\label"{b}be translate-out\strut
+\trans{conj}(0,3.5)
+\label"{b}be conjugate\strut
+\psset{linecolor=blue}
+\trans{understand}(0,2.5)
+\label"{b}be understand or compile\strut
+\source{use}(0,1)
+\label"{b}skill or app\strut
+\psset{linecolor=black}
+
+% data
+\store{inLibrary}(4,7.5)
+\label"{b}input word definitions library\strut
+
+\psset{linecolor=green}
+\store{inConj}(4,6.5)
+\label"{b}input conjugation rules\strut
+\psset{linecolor=black}
+\store{inDict}(4,5.5)
+\label"{b}input word order and word translations \strut
+
+\store{outDict}(4,4.5)
+\label"{b}output word translations and word order \strut
+\store{outConj}(4,3.5)
+\label"{b}output conjugation rules\strut
+
+\store{outLibrary}(4,2.5)
+\label"{b}output word definitions or API library\strut
+
+% arcs
+\psset{linecolor=green}
+\arc{idea}{write}
+\arc{write}{inNatural}
+\arc{inNatural}{deconj}
+\arc{deconj}{inAnalytic}
+\psset{linecolor=black}
+\arc{inAnalytic}{transIn}
+\arc{transIn}{pivotLanguage}
+\arc{pivotLanguage}{transOut}
+\arc{transOut}{outAnalytic}
+\arc{outAnalytic}{conj}
+\arc{conj}{outConjugated}
+\psset{linecolor=blue}
+\arc{outConjugated}{understand}
+\arc{understand}{nativeCode}
+\arc{nativeCode}{use}
+\psset{linecolor=black}
+
+\psset{linecolor=green}
+\arc{inLibrary}{write}
+\arc{inConj}{deconj}
+\psset{linecolor=black}
+\arc{inDict}{transIn}
+\arc{outDict}{transOut}
+\arc{outConj}{conj}
+\psset{linecolor=blue}
+\arc{outLibrary}{understand}
+\psset{linecolor=black}
+
+\end{petrinet}
+\end{center}
+\caption{The Ideal SPEL flow. 
+\textcolor{green}{Green} is Input Agent,
+\textcolor{blue}{Blue} is output Agent, 
+Black is provided by SPEL}
+\label{fig:nodes}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
+
+
+\end{document}

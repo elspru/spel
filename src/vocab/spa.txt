@@ -32,6 +32,7 @@ kyi li .u condicionalmente .a ya
 kya li .u aparte li .a ya
 kwi li .u síy .a ya
 sa li .u la .a ya
+ksa li .u fin-de-la-cita li .a ya
 kca li .u ja li .a ya
 pli li .u cerca li .a ya
 psu li .u de-fuente li .a ya
@@ -46,6 +47,7 @@ slu li .u singular li .a ya
 sla li .u hola li .a ya
 tya li .u cláusula-de-la-cola li .a ya
 twa li .u entonces li .a ya
+tsi li .u cita li .a ya
 tli li .u ord .a ya
 mik .u copia .a ya
 miy .u esperar .a ya
@@ -126,7 +128,7 @@ slim .u ejemplo .a ya
 swat .u pregunta li .a ya
 flas .u frase .a ya
 tkic .u Traducción-diccionario- li .a ya
-tsin .u cita li .a ya
+tsin .u referencia li .a ya
 tsuk .u tienda li .a ya
 tlam .u traducir li .a ya
 tlin .u ordinal .a ya

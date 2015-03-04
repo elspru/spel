@@ -32,6 +32,7 @@ kyi li .u conditionnellement .a ya
 kya li .u de-côté li .a ya
 kwi li .u yet .a ya
 sa li .u la .a ya
+ksa li .u fin-de-citation li .a ya
 kca li .u ha li .a ya
 pli li .u près-de li .a ya
 psu li .u à-partir-de-la-source li .a ya
@@ -46,6 +47,7 @@ slu li .u singulier li .a ya
 sla li .u bonjour li .a ya
 tya li .u clause-queue li .a ya
 twa li .u puis li .a ya
+tsi li .u citation li .a ya
 tli li .u ord .a ya
 mik .u copie .a ya
 miy .u attendre .a ya
@@ -126,7 +128,7 @@ slim .u exemple .a ya
 swat .u question li .a ya
 flas .u phrase .a ya
 tkic .u Traduction-dictionnaire li .a ya
-tsin .u citation li .a ya
+tsin .u référence li .a ya
 tsuk .u boutique li .a ya
 tlam .u traduire li .a ya
 tlin .u ordinal .a ya

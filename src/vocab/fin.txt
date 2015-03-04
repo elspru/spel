@@ -32,6 +32,7 @@ mwa li .u kanssa li .a ya
 kyi li .u ehdollisesti li .a ya
 kya li .u syrjään li .a ya
 kwi li .u yand li .a ya
+ksa li .u lainaus-päättyy li .a ya
 kca li .u ha li .a ya
 pwa li .u yaor li .a ya
 psu li .u alkaen-lähdekoodin li .a ya
@@ -46,6 +47,7 @@ sla li .u hei li .a ya
 slu li .u yksikkö li .a ya
 tya li .u lauseke-hännän li .a ya
 twa li .u sitten li .a ya
+tsi li .u lainaus li .a ya
 tli li .u ord li .a ya
 mik .u kopio li .a ya
 miy .u odota li .a ya
@@ -126,7 +128,7 @@ plis .u lähistöllä li .a ya
 swat .u kysymys li .a ya
 slim .u esimerkki li .a ya
 tkic .u käännös-sanakirja li .a ya
-tsin .u lainaus li .a ya
+tsin .u viite li .a ya
 tsuk .u myymälä li .a ya
 tlin .u järjestysluku li .a ya
 tlam .u käännös li .a ya

@@ -32,6 +32,7 @@ kyi li .u умовно li .a ya
 kya li .u в-бік li .a ya
 kwi li .u ді li .a ya
 sa li .u пов li .a ya
+ksa li .u закривати-лапки li .a ya
 kca li .u ха li .a ya
 pli li .u у li .a ya
 psu li .u від-джерела li .a ya
@@ -46,6 +47,7 @@ slu li .u особливий li .a ya
 sla li .u здрастуйте li .a ya
 tya li .u Пропозиція-хвіст li .a ya
 twa li .u потім li .a ya
+tsi li .u цитата li .a ya
 tli li .u ога li .a ya
 mik .u копія li .a ya
 miy .u чекати li .a ya
@@ -126,7 +128,7 @@ psan .u простір li .a ya
 swat .u питання li .a ya
 flas .u фраза li .a ya
 tkic .u переклад-словник li .a ya
-tsin .u цитата li .a ya
+tsin .u посилання li .a ya
 tsuk .u магазин li .a ya
 tlam .u перевести li .a ya
 slim .u приклад li .a ya

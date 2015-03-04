@@ -32,6 +32,7 @@ kyi li .u feltételesen li .a ya
 kya li .u félre li .a ya
 kwi li .u yand li .a ya
 sa li .u az li .a ya
+ksa li .u idézőjel-bezárva li .a ya
 kca li .u haha li .a ya
 pwa li .u yaor li .a ya
 psu li .u a-forrásból li .a ya
@@ -46,6 +47,7 @@ sla li .u Helló li .a ya
 slu li .u egyes-szám li .a ya
 tya li .u záradékot-tail li .a ya
 twa li .u majd li .a ya
+tsi li .u idézet li .a ya
 tli li .u ord li .a ya
 mik .u másolat li .a ya
 miy .u várjon li .a ya
@@ -126,7 +128,7 @@ plis .u közeli li .a ya
 swat .u kérdés li .a ya
 slim .u példa li .a ya
 tkic .u fordítás-szótár li .a ya
-tsin .u idézet li .a ya
+tsin .u hivatkozás li .a ya
 tsuk .u bolt li .a ya
 tlin .u sorrendi li .a ya
 tlam .u fordít li .a ya

@@ -32,6 +32,7 @@ kyi li .u 条件付きで li .a ya
 kya li .u 余談 li .a ya
 kwi li .u と雅 li .a ya
 sa li .u ザ· li .a ya
+ksa li .u エンド引用 li .a ya
 kca li .u ハ li .a ya
 pli li .u クローズ li .a ya
 psu li .u ソースから li .a ya
@@ -46,6 +47,7 @@ slu li .u 単数形 li .a ya
 sla li .u こんにちは li .a ya
 tya li .u 最初の尾 li .a ya
 twa li .u その後 li .a ya
+tsi li .u 引用 li .a ya
 tli li .u 記事 li .a ya
 mik .u コピー li .a ya
 miy .u 待つ li .a ya
@@ -126,7 +128,7 @@ psan .u スペース li .a ya
 swat .u 問題 li .a ya
 flas .u フレーズ li .a ya
 tkic .u 翻訳、辞書 li .a ya
-tsin .u 引用 li .a ya
+tsin .u リファレンス li .a ya
 tsuk .u ショップ li .a ya
 tlam .u 翻訳 li .a ya
 slim .u 例 li .a ya

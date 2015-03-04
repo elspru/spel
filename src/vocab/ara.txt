@@ -32,6 +32,7 @@ kyi li .u مشروط li .a ya
 kya li .u جانبا li .a ya
 kwi li .u ياو li .a ya
 sa li .u ال li .a ya
+ksa li .u ختم-كلاما-مقتبسا-بعلامة li .a ya
 kca li .u هكتار li .a ya
 pli li .u قرب li .a ya
 psu li .u من-المصدر li .a ya
@@ -46,6 +47,7 @@ slu li .u صيغة-المفرد li .a ya
 sla li .u مرحبا li .a ya
 tya li .u بند-الذيل li .a ya
 twa li .u ثم li .a ya
+tsi li .u اقتبس li .a ya
 tli li .u رتبو li .a ya
 mik .u نسخة li .a ya
 miy .u انتظر li .a ya
@@ -126,7 +128,7 @@ psan .u الفضاء li .a ya
 swat .u مسألة li .a ya
 slim .u مثال li .a ya
 tkic .u الترجمة-القاموس li .a ya
-tsin .u اقتبس li .a ya
+tsin .u إشارة li .a ya
 tsuk .u متجر li .a ya
 tlam .u ترجم li .a ya
 tkic .a ya

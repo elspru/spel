@@ -32,6 +32,7 @@ kyi li .u condicionalmente li .a ya
 kya li .u de-lado li .a ya
 kwi li .u yand li .a ya
 sa li .u o li .a ya
+ksa li .u fin-de-la-nomeação li .a ya
 kca li .u ha li .a ya
 pli li .u perto li .a ya
 psu li .u de-fonte li .a ya
@@ -46,6 +47,7 @@ slu li .u singular li .a ya
 sla li .u Olá li .a ya
 tya li .u cláusula-tail li .a ya
 twa li .u em-seguida li .a ya
+tsi li .u nomeação li .a ya
 tli li .u ord li .a ya
 mik .u cópia li .a ya
 miy .u esperar li .a ya
@@ -126,7 +128,7 @@ psan .u espaço li .a ya
 swat .u pergunta li .a ya
 slim .u exemplo li .a ya
 tkic .u tradução-dictionary li .a ya
-tsin .u nomeação li .a ya
+tsin .u referência li .a ya
 tsuk .u loja li .a ya
 tlam .u traduzir li .a ya
 tlin .u ordinal li .a ya

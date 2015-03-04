@@ -32,6 +32,7 @@ kyi li .u सशर्त li .a ya
 kya li .u अलग li .a ya
 kwi li .u Yand li .a ya
 sa li .u एस् li .a ya
+ksa li .u गंदें-शब्द-बोलना li .a ya
 kca li .u हा li .a ya
 pli li .u पास li .a ya
 psu li .u से-स्रोत li .a ya
@@ -46,6 +47,7 @@ slu li .u एकवचन li .a ya
 sla li .u नमस्कार li .a ya
 tya li .u खंड-पूंछ li .a ya
 twa li .u फिर li .a ya
+tsi li .u उद्धरण li .a ya
 tli li .u ORD li .a ya
 mik .u प्रतिलिपि li .a ya
 miy .u इंतज़ार li .a ya
@@ -126,7 +128,7 @@ pyan .u सर्वनाम li .a ya
 swat .u सवाल li .a ya
 pyas .u मुहावरा li .a ya
 pyat .u व्याकरण-वस्तु li .a ya
-tsin .u उद्धरण li .a ya
+tsin .u संदर्भ li .a ya
 tsuk .u दुकान li .a ya
 tlam .u अनुवाद-करें li .a ya
 plis .a ya

@@ -32,6 +32,7 @@ kyi li .u conditionally li .a ya
 kya li .u aside li .a ya
 kwi li .u yand li .a ya
 sa li .u sugestio li .a ya
+ksa li .u unquote li .a ya
 kca li .u ha li .a ya
 pwa li .u yaor li .a ya
 psu li .u from-source li .a ya
@@ -46,6 +47,7 @@ sla li .u saluton li .a ya
 slu li .u singular li .a ya
 tya li .u clause-tail li .a ya
 twa li .u tiuokaze li .a ya
+tsi li .u quote li .a ya
 tli li .u ord li .a ya
 mik .u kopio li .a ya
 miy .u wait li .a ya
@@ -126,7 +128,7 @@ plis .u apude li .a ya
 swat .u demando li .a ya
 slim .u ekzemplo li .a ya
 tkic .u translation-dictionary li .a ya
-tsin .u quote li .a ya
+tsin .u referenco li .a ya
 tsuk .u vendejo li .a ya
 tlin .u ordinal li .a ya
 tlam .u traduko li .a ya

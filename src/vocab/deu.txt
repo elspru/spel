@@ -32,6 +32,7 @@ kyi li .u bedingt li .a ya
 kya li .u beiseite li .a ya
 kwi li .u yand li .a ya
 sa li .u die li .a ya
+ksa li .u Ende-des-Zitats li .a ya
 kca li .u ha li .a ya
 pli li .u in-der-Nähe-von li .a ya
 psu li .u aus-Source- li .a ya
@@ -46,6 +47,7 @@ slu li .u Einzahl li .a ya
 sla li .u hallo li .a ya
 tya li .u Klausel-tail li .a ya
 twa li .u dann li .a ya
+tsi li .u Angebot li .a ya
 tli li .u ord li .a ya
 mik .u Kopie li .a ya
 miy .u warten li .a ya
@@ -126,7 +128,7 @@ psan .u Raum li .a ya
 swat .u Frage li .a ya
 slim .u Beispiel li .a ya
 tkic .u Übersetzung-Wörterbuch li .a ya
-tsin .u Angebot li .a ya
+tsin .u Hinweis li .a ya
 tsuk .u Geschäft li .a ya
 tlam .u übersetzen li .a ya
 tlin .u Ordnungs- li .a ya

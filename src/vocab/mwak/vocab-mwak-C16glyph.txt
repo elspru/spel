@@ -3,7 +3,7 @@ C4 kya .a li .u ob li .a pyat kast .i ya
 C4 kya .u li .u su li .a suyt kast .i ya
 @1PER UW Attributes first-person pronoun. nya tli sun miwk pyan
  .i C1 kya mi li .u me li .a ya
-C4 kya ma li .u what .a ya
+ma li .u C4 kya what .a ya
 C4 kya mu li .u ya
 and UW Relations conjunction. qe PIE. nya 2nd chakra C2 kya ki
  li .u and li .a ya
@@ -66,7 +66,7 @@ C4 kya kwi li .u yand .a ya
 C4 kya kwa li .u ya
 C4 kya kwu li .u ya
 C4 kya ksi li .u ya
-C12G kya ksa li .u ya
+C12G kya ksa li .u unquote .a wap tsin mak .i ya
 C4 kya ksu li .u ya
 C4 kya kli li .u ya
 C4 kya kla li .u ya
@@ -122,7 +122,8 @@ C4 kya twi li .u ya
 tom PIE. tum Latin. togda Russian. ثم (ṯúmma) Arabic. nya C12G
  kya twa li .u then .a ya
 C4 kya twu li .u ya
-C4 kya tsi li .u ya
+って tte Japanese. tsin Mwak. nya kat tsin mak .i C4 kya tsi li
+ .u quote .a ya
 C4 kya tsa li .u ya
 C4 kya tsu li .u ya
 第 Di Mandarin Chinese. nya C12G kya tli li .u ord .a tlin nam
@@ -410,7 +411,7 @@ C4 kya suc .u ya
 C4 kya tim .u ya
 C4 kya tik .u ya
 C4 kya tiy .u ya
-C4 kya tip .u begin .a dherbho PIE start. nya ya
+C4 kya tip .u start .a dherbho PIE start. nya ya
 tew Eurasiatic help, take-care. nya C4 kya tiw .u help .a ya
 dentro Spanish. 裡邊(lǐbian). ndani Swahili. Mandarin. within
  English. nya C4 kya tin .u inside .a ya
@@ -1128,7 +1129,7 @@ C4 kya tsiy .u ya
 C4 kya tsip .u ya
 C4 kya tsiw .u ya
 citātum Latin. yǐnyòng Mandarin Chinese. nya C4 kya tsin .u
- quote .a ya
+ reference .a ya
 C4 kya tsil .u ya
 C4 kya tsif .u ya
 C4 kya tsic .u ya

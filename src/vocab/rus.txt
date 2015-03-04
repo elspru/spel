@@ -32,6 +32,7 @@ myi li .u память .a ya
 mwa li .u с li .a ya
 kyi li .u условно .a ya
 kya li .u в-сторону li .a ya
+ksa li .u закрывать-кавычки li .a ya
 kwi li .u ди .a ya
 sa li .u эт .a ya
 psu li .u от-источника li .a ya
@@ -46,6 +47,7 @@ nya li .u от li .a ya
 sli li .u например .a ya
 slu li .u отдельный li .a ya
 sla li .u привет li .a ya
+tsi li .u цитата li .a ya
 tya li .u пункт-конец li .a ya
 twa li .u затем li .a ya
 tli li .u ога li .a ya
@@ -126,7 +128,7 @@ flas .u фраза li .a ya
 swat .u вопрос li .a ya
 pyat .u грамматический-объект li .a ya
 plis .u рядом li .a ya
-tsin .u цитата li .a ya
+tsin .u ссылка li .a ya
 tsuk .u магазин li .a ya
 slim .u пример .a ya
 flas .u фраза .a ya
