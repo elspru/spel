@@ -2067,3 +2067,322 @@ english.
 0705 debugged quotesExtract, now to test with Phrase
 0708 excellent it is working, now will test in web version.
 0711 awesome it is working, I can put it on roadmap
+0736 so I can probably make an illustration of the syntax tree,
+and then post to mailing list about it.
+} 05 Mar 2015
+0645 I'll make the syntax tree for the readme and then send it
+in for review to the mailin list.
+} 06 Mar 2015
+1200 finalized first version of info/readme.tex
+} 07  Mar 2015
+0155 trying to process request to translate to conjugated
+English, not sure why it doesn't seem to be conjugating, will
+have to check sources.
+0209 it's because Text doesn't pass it on.
+0240 need word for but (except)
+mō PIE. chule yiwai Mandarin. kecuali Malay. siwan Arabic. tapi
+Indonesian. igai Japanese. krome Russian. csak Hungarian. salvo
+Spanish, Portuguese. 
+so probably a klac
+0252 not
+me PIE. ney Indo-European.
+nyi
+} 08 Mar 2015
+0906 after adding multi sentence quotes and number direction
+inversion can add a continuous deployment pipeline, with a
+battery of standardized tests to check before commit ya
+1441 thinking we need at least someone in each continental
+region to have a global business. can probably approximate to
+the leyline nodes for most interesting results. 
+we need someone for sure in China, Tansania/Africa, Russia, 
+Latin America, Middle-East, India, Oceania, Europe, Japan, Korea
+Anyways, k lets pick just one per continent first
+what are the continents?  Europe, Asia, Africa, Americas,
+Australia/Oceania. 
+subcontinents? India 
+okay leyline for 
+EUROPE
+hexagon node: Vietka, Belarussia or Gomel Belarussia.
+diamond node: ullapool, or Glasgow, Scotland.
+ASIA
+star node: southern Japan.
+hexagon node: Irkutsk, Russia
+south diamond node: Chengdu, China
+west diamond node: Tobolsk or Tyumen, Russia
+east diamond node: magadan or khabarovsk, Russia
+
+South-east Asia:
+hexagon node: Thma sa or Krong Preah, Cambodia
+diamond node: Palu, Indonesia
+Austronesia:
+star node: suva, Fiji or kolovai, Tonga
+star node: honolulu, Hawaii
+star node: easter island
+hexagon node: martial islands
+hexagon node: nhulunbuy, Australia or Daru, Papua New Guinea
+diamond node: port augusta, Australia
+Middle East:
+star node: Johi, Dadu or Nawabashah, Karachi, Pakistan.
+Africa:
+star node: tinduf, Algeria, or Agadir, Morocco
+star node: manzini, Swaziland.
+hexagon node: talodi or kaduqli, Sudan. 
+diamond node: Cairo, Egypt.
+diamond node: makokou or okandja of Gabon. 
+AMERICAS:
+North:
+negative node: freeport, grand bahama
+hexagon node: bashaw, wetaskiwin or red deer, Alberta, Canada
+hexagon node: st. john, Newfoundland, Canda
+
+Central:
+hexagon Node: Lazaro Cardenas, Mexico
+diamond node: Sonoyta, Mexico or Lukeville USA.
+South:
+negative node: Rio de Janero, Brazil
+hexagon node: oyon, Peru, or Huacho Peru. ~Lima
+hexagon node: punta arenas, Chile.
+diamond node: boa vista, Brazil
+diamond node: illapel, valparaiso, la serena, santiago, Chile
+diamond node: puerto villamil, galapagos, Ecuador
+Atlantic:
+positive node: St. Helena
+Antarctic:
+negative node: McMurdo, Antarctica (research facility).
+	Puerto williams, Chile. Ushuaia, Argentina.
+Arctic:
+star node: longyearbyen, svalbard, Norway,
+ellesmere island, 
+diamond node: ~iqaluit, nunavut, Canada
+diamond node: homer, alaska, USA
+diamond node: buldir island (uninhabited), shemya, alaska, USA
+1638 okay well that's all well and good. part of me thinks
+perhaps we should focus on cities over 1 million, but on the
+other hand I don't really see why that would make any
+difference, the important part is that they have internet
+access, and are willing to work for our wages. 
+1644 on the other hand considering this is mostly for
+translation it is best to select places with high demand for
+either programming or translation. 
+1647 okay most diverse lingusitically places: 
+http://mapmaker.education.nationalgeographic.com/?lg=5&b=1&f=491&bbox=119.30559%2C-31.42866%2C57.78215%2C77.89726&ar_a=1&ls=000000040000&t=1
+AMERICAS
+North-America:
+Canada
+Central-America:
+Guatemala
+South-America:
+Suriname
+Bolivia
+Trinidad and Tobago
+MIDDLE-EAST
+Iran
+ASIA
+India
+Bhutan
+Indonesia
+OCEANIA
+New Caledonia 
+Vanuati
+Solomon Islands
+Phillipines
+Papua New Guinea
+AFRICA
+most states south of sahara.
+1838 can see which intersect with technology centers
+ASIA
+star: IT Media City, Karachi
+star: Hsinchu, Taiwan
+or Shanghai, China, or Yokkaichi, Mie, Japan or Naha, Japan.
+hexagon: Tianfu Software Park, Chengdu, China 
+hexagon: Software Park Thailand, Bangkok, Thailand
+or Kulim, Malaysia or Singapore
+diamond: chennai, tamil-nadu, India
+diamond: davao, Philipines
+Pardis, Iran 
+AUSTRALIA
+Star: Technology Park, Bentley, Western Australia
+Diamond: Digital Harbour, Melbourne or Adelaide
+AFRICA
+Star: Casablanca Technopark, Casablanca, Morocco
+OR Technopole of Algiers, Algeria 
+Star: Johannesburg, South Africa
+OR Maputo, Mozambique OR  Richard's Bay, South Africa
+Hexagon: Addis Abeba, Ethiopia
+or Malakal, South Sudan, OR El Obeid, Sudan, 
+Diamond: Smart Village Egypt, Greater Cairo, Egypt
+Diamond: Lagos, Nigeria 
+or Pointe Noire, Congo or Libreville, Gabon 
+Diamond: Mombasa, somalia or Mogadishu, Somalia
+AMERICAS
+North: 
+Star: Miami, Florida
+Diamond: Silicon Valley, San Jose, California
+or Chandler, Arizona
+Diamond: Inukjuak, Quebec, Canada
+Central:
+guatemala, guatemala.
+South:
+star: São Paulo, Brazil
+diamond: Paramaribo, Suriname
+Hexagon: Lima, Peru or Cochabamba, Bolivia
+Europe
+diamond: Greenock, Scotland
+} 09 Mar 2015
+1153 anyways have to write multi sentence quotes, or subordinate
+text. first I guess we start with the parser, then add it to
+quote extract, (if verb word, then get it, if start/end then get
+the subordinate text), then we'll add it to Text class.
+2128 wrote algorithm
+} 10 Mar 2015
+1009 okay so multiple languages is very important for SPEL,
+so Africa is one of the main places for that.
+Middle-East:
+Pardis, Tehran, Iran
+AFRICA
+East-Africa: Addis Abeba, Ethiopia
+West Africa: Lagos, Nigeria
+South Africa: Johannesburg
+OCEANIA:
+Shanghai, China or Hsinchu, Taiwan
+Singopore, Singopore or Ho Chi Minh, Vietnam
+University of Technology, Lae, Papua New Guinea
+Chennai, India
+Davao, Philipines
+AMERICAS
+Central: Guatemala, guatemala
+South:
+western: Bolivia
+northern: Suriname
+eastern: sao paulo
+southern: chile/argentia
+EUROPE
+Brussels, Belgium (Seat of EU)
+Krakow, Poland
+1111 okay anyways I should do some coding ya
+} 11 March 2015
+0547 wrote algorithm and code
+0550 I'll get it to parse, then I'll take a nap.
+0554 okay it compiles, I take nap
+1306 time to test and debug
+1338 debuging, will have to do subject matching later also,
+or genitive matching... guess subject since it's easier,
+we still have to fix genitives.. eventually
+1342 added it to roadmap as 0.6.6
+1401 okay debugged current version,
+still have to add subject matching.
+1442 hmmm thinking it might actually be easier than I thought to
+add the genitive version, can simply grab the whole be phrase,
+which will contain the of or genitive, then can match against
+it instead of end word and seperately other stuff.
+it allows for "anonymous subtexts", wheras the subject would
+make them named subtexts
+1510 installing project libre, maybe will help with project
+management ya had to adjust my theme to make it more menu
+friendly, before it was black on black, hard to read ya
+1514 dono, tried it, didn't like it. scary, it has menus.
+and tasks and stuff, I don't need that, I have a roadmap.
+1515 anyways got to code the new revisions,
+i'll start with just making the named version support,
+and then I'll add in support for the anonymous version.
+okay put it on the roadmap. 
+} 12 Mar 2015
+0715 bah, I'm so upset with myself, spent all morning replying
+to an email instead of writing code.
+0740 wrote surroundingSentenceIndexParse
+1459 okay time to rewrite the whole algorithm,
+for the parsing instead of hacking away at it. 
+1511 now looking at the new algorithm, I'm wondering if perhaps
+it would make more sense to do subText parsing at the Text
+level, since we actually would find it easier with the sentences
+already well formed. 
+some of these features would be good for the DB API, like the
+phrase finding. 
+1515 okay lets check out where it would be best to insert this
+text extraction, I'm guessing after most of the rest is done, it
+would be a higher level reorganization.
+1522 have to write text algorithm for what is already taking
+place
+2306 okay so there is a sentences array, now what. 
+I guess we can find the subordinate texts and splice them out.
+replacing it with their Text object.
+The hardest part here would be nested subordinate text objects. 
+either we'd have to do deep recursion, or rely on the Texts to
+check themselves upon instantiation. 
+also if the first sentence is a start sentence, and has a
+subject, then we can set the text title.
+}  13 Mar 2015
+0700 wrote code for setting title of Text from first sentence ya
+0702 now to test
+0711 okay that works
+0715 how can we be faster than assembly? FPGA's ;-).
+0753 wrote subordinateTextSplice
+0754 now have to write subordinateTextIndexExtract
+0803 rewriting the algorithm with available Text API
+0808 rewrote algorithm ya
+0825 hmmm in order to use Text stuff, I'd have to either make a
+text, or  make functions which can access sentences directly.
+0835 okay made a rawSentenceFindGet
+0914 okay coded it, now debugging ya
+1104 hmmm how are we going to do the vocab stuff,
+I'm thinking if we do some small number per day, can reach a
+sufficent number overall.  perhaps like 16 or 12 a day. 
+there are 158 words at present, we need something like 4,096
+in order to have enough for a working vocabulary. 
+12glyph has room for roughly a thousand, and 16glyph core for
+two thousand,  so can do the framenet vocab in there,
+and then add in remaining oxford 3000 to extended 16 bit.
+if we do 20 words a day, can get to two thousand in 3 months.
+1143 okay in my vocab core I see ~900 words.
+can translate by random sample, by shuffeling the words that I
+will be doing, then taking top few out to do.  reshuffeling the
+next day, translating next batch, and so on.
+1513 if I do one word per 5 minutes, I can do 16 words in an
+hour and 20 minutes.
+anyways should finish testing the subordinate texts
+1531 there is some infinite loop somewhere
+1533 okay solved that but there is some other issues now.
+i'll bike for some shopping and then fix it after.
+2137 thinking of just doing programming and debuging in morning,
+and after noon doing vocab work. kinda didn't realize how  much
+is missing. also vocab work doesn't require much skill. anyways.
+2141 while (conjunction)
+dang Mandarin. bayanamaa Arabic. dum Latin. poka Russian. ken
+Turkish. aida-ni Japanese. sementara Indonesia.
+2146 hmmm, it would be more structured if I chose one from each
+of the big families. and had them in order of those families.
+PIE, Sino-Tibetan, Afro-asiatic, Niger-Congo, Austric, Altaic,
+Turkic, Uralic
+okay so lets try again
+dum Latin. poka Russian. dang Mandarin. bayanamaa Arabic. wakati Swahili,
+ sementara Indonesia.  aida ni Japanese. ken Turkish. mig
+hungarian.
+2202 okay so obviously it is taking too long, can make some
+scripts which use google translate, and then translate to IPA,
+perhaps using espeak, or a basic glyph to IPA thing.
+hmmm mandarin would need espeak.
+2208 also we need a good sample of Proto-Indo-European. Guess
+can use the most common langs for it. English, Spanish, Hindi,
+Russian. 
+2213 I'm almost tempted to pull a lojban and just do it for the
+top eight languages or so.. but then I'd be excluding
+niger-congo. okay looking at list of PIE branches.
+from earliest to newest
+Greek, Hindi, Russian, English, Spanish, Irish
+okay if we strip the low used ones,
+Hindi, Russian, English, Spanish to represent PIE.
+(Europe/America)
+Mandarin for sino-tibetan, Japanese for Altaic (far East)
+Arabic for afro-asiatic (middle-east)
+Swahili for niger-congo (Africa)
+Indonesian for Austric (oceania or south-east asia)
+Turkish for Turkic (central-asia)
+and uralic is too minor
+2233 so how many is that? 10, guess that's a good number
+okay lets set up a simple translate script for it.
+} Mar 14 2015
+0720 okay works, just need to work on the script to IPA thing,
+have been having some trouble with espeak. but ya anyways back
+to debugging.
+0726 okay seems to be working, would test it more but not sure
+how. okay so lets just call it done then.

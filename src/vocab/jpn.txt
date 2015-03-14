@@ -33,6 +33,7 @@ kya li .u 余談 li .a ya
 kwi li .u と雅 li .a ya
 sa li .u ザ· li .a ya
 ksa li .u エンド引用 li .a ya
+kla li .u しかし li .a ya
 kca li .u ハ li .a ya
 pli li .u クローズ li .a ya
 psu li .u ソースから li .a ya
@@ -40,6 +41,7 @@ pla li .u 複数 li .a ya
 pwa li .u または雅 li .a ya
 plu li .u のために li .a ya
 pca li .u 徐 li .a ya
+nyi li .u しない li .a ya
 nwa li .u ゼロ li .a ya
 nya li .u から li .a ya
 sli li .u 例えば li .a ya
@@ -118,6 +120,7 @@ kwal .u 言語 li .a ya
 ksip .u 書く li .a ya
 klaw .u 笑い li .a ya
 klas .u 句 li .a ya
+klac .u 除く li .a ya
 pyan .u 代名詞 li .a ya
 pyas .u フレーズ li .a ya
 pyat .u 文法的オブジェクト li .a ya

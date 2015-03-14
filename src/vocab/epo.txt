@@ -1,14 +1,14 @@
 .i li .u voli li .a ya
 .a li .u ob li .a ya
 .u li .u su li .a ya
-mi li .u min li .a ya
+mi li .u mi li .a ya
 ma li .u kio[1] li .a ya
 ki li .u plie li .a ya
 ka li .u negravas li .a ya
 ku li .u se li .a ya
 yi li .u this li .a ya
 ya li .u ya li .a ya
-yu li .u vin li .a ya
+yu li .u vi li .a ya
 pi li .u uzebla li .a ya
 pa li .u that-thing li .a ya
 pu li .u did li .a ya
@@ -33,6 +33,7 @@ kya li .u aside li .a ya
 kwi li .u yand li .a ya
 sa li .u sugestio li .a ya
 ksa li .u unquote li .a ya
+kla li .u tamen li .a ya
 kca li .u ha li .a ya
 pwa li .u yaor li .a ya
 psu li .u from-source li .a ya
@@ -40,6 +41,7 @@ pli li .u near li .a ya
 pla li .u plural li .a ya
 plu li .u unuafoje li .a ya
 pca li .u jolly li .a ya
+nyi li .u ne[2] li .a ya
 nya li .u el li .a ya
 nwa li .u null li .a ya
 sli li .u for-example li .a ya
@@ -75,7 +77,7 @@ yik .u negate li .a ya
 yan .u diri li .a ya
 pim .u poento li .a ya
 piy .u sagxumi li .a ya
-pam .u bonsxancon li .a ya
+pam .u bonsxanco li .a ya
 pak .u korpodoro li .a ya
 pay .u plimalpli li .a ya
 pap .u pacxjo li .a ya
@@ -105,7 +107,7 @@ tam .u aktualajxo li .a ya
 tin .u interno li .a ya
 tay .u surmeti li .a ya
 tan .u arbo li .a ya
-tak .u dankon li .a ya
+tak .u danko li .a ya
 tuw .u ducent li .a ya
 liy .u kvar li .a ya
 lit .u glyph li .a ya
@@ -118,6 +120,7 @@ kwal .u lingvo li .a ya
 ksip .u surskribi li .a ya
 klaw .u rido li .a ya
 klas .u klauxzo li .a ya
+klac .u escepti li .a ya
 pyan .u pronoun li .a ya
 pyas .u phrase li .a ya
 pyat .u grammatical-object li .a ya

@@ -44,9 +44,11 @@ Speakable Programming for Every Language Translator SPELT
 0.5.3 topic & vocative fronting (20 Feb 2015)
 0.5.4 subject fronting and part of speech word order (24 Feb 2015)
 0.5.5 multi word quotes (04 Mar 2015)
-
-0.5.6 multi sentence quotes
+0.5.6 basic subordinate texts (11 Mar 2015)
+0.5.7 text title from text quote (13 Mar 2015)
+0.5.8 named and anonymous subordinate texts (14 Mar 2015)
 0.5.A number quote endianness 
+0.5.D continuous deployment tests
 0.6 basic javascript translation
 0.6.0 translation of simple sentences to javascript
 0.6.1 javascript nominal sentences
@@ -54,13 +56,15 @@ Speakable Programming for Every Language Translator SPELT
 0.6.3 javascript conditionals
 0.6.4 javascript loops
 0.6.5 javascript string literals
+0.6.6 genitives attach to type
+0.6.7 javascript array elements
+0.6.8 javascript object elements
 0.6.B javascript prototypes?
 0.6.C spel-lang command line input
 0.6.E web workers and threads
 0.7 conjugation
 0.7.0 spaceless mwak tokenization
 0.7.1 compound words
-0.7.2 genitives attach to type
 0.7.5 digraphs and phonetic glyph transform
 0.7.B mood conjugation
 0.7.D auto-complete missing mandatory elements 

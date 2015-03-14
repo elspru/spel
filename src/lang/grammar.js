@@ -14,7 +14,7 @@ this.typeWords=translate.array(dict, mwakGrammar.typeWords);
 this.phraseWords=translate.array(dict, mwakGrammar.phraseWords);
 this.subjectWord=mwakGrammar.subjectWord;
 this.objectWord=mwakGrammar.objectWord;
-this.verbWord=mwakGrammar.verbWord;
+this.verbWord= translate.word(dict, mwakGrammar.verbWord);
 this.topicWord=translate.word(dict, mwakGrammar.topicWord);
 this.subPhraseWords=translate.array(dict,
 		mwakGrammar.subPhraseWords);
@@ -39,6 +39,8 @@ this.quotes.multiWordTail=translate.array(dict,
 		mwakGrammar.quotes.multiWordTail);
 this.quotes.literal=translate.array(dict, 
 		mwakGrammar.quotes.literal);
+this.quotes.startWord=translate.word(dict,mwakGrammar.quotes.startWord);
+this.quotes.endWord=translate.word(dict,mwakGrammar.quotes.endWord);
 }
 this.wordOrder = new Object();
 if (wordOrder){
@@ -72,7 +74,7 @@ subjectWord: ".u",
 objectWord: ".a",
 verbWord: ".i",
 subPhraseWords: ["pi"],
-topClauseWords: ["ku","twa","kwi","pwa"],
+topClauseWords: ["ku","twa","kwi","pwa","kla"],
 topClauseTerminator: ["twa"],
 clauseWords: ["ti"],
 clauseTerminator: ["tya"],
@@ -82,7 +84,9 @@ quoteHeads: ["li","tsi"],
 singleWord: ["li"],
 literal: ["li","tsi"],
 multiWordHead: ["tsi"],
-multiWordTail: ["ksa"]
+multiWordTail: ["ksa"],
+startWord: "tip",
+endWord: "kit"
 },
 wordOrder: {
 headFinal: true,
@@ -98,6 +102,11 @@ littleEndian: true,
 phraseOrder: ["sla","ku","twa","kwi","pwa",".u","ta",
 ".a","nya",".i"],
 intransitiveWord: ".u"
+},
+conjugation:{
+reversible:[],
+irreversible:[]
 }
+
 } // end of mwak grammar object ya
 

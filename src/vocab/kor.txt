@@ -33,6 +33,7 @@ kya li .u 곁에 li .a ya
 kwi li .u 와-아 li .a ya
 sa li .u 이전-그 li .a ya
 ksa li .u 인용을-끝-맺다 li .a ya
+kla li .u 하지만 li .a ya
 kca li .u 하아 li .a ya
 pli li .u 닫기 li .a ya
 psu li .u 원본에서 li .a ya
@@ -40,6 +41,7 @@ pla li .u 여러 li .a ya
 pwa li .u 또는-아 li .a ya
 plu li .u 위해 li .a ya
 pca li .u 서 li .a ya
+nyi li .u 아니 li .a ya
 nwa li .u 제로 li .a ya
 nya li .u 부터 li .a ya
 sli li .u 예 li .a ya
@@ -118,6 +120,7 @@ sun .u 하나 li .a ya
 ksip .u 쓰기 li .a ya
 liy .a ya
 tuw .u 두 li .a ya
+klac .u 외 li .a ya
 cik .u 소수 li .a ya
 myik .u 에-추가 li .a ya
 kyim .u 마이너스 li .a ya

@@ -53,6 +53,10 @@ syntax match x "X"
 syntax match y "Y"
 syntax match z "Z"
 
+" syntax match caseWord " for "
+" syntax match caseWord " ob "
+" syntax match caseWord " su "
+
 " numbers
 syntax match n0 "0"
 syntax match n1 "1"
@@ -98,6 +102,8 @@ syntax match grave "`"
 
 " emoji
 syntax match emojiFaces "[😀-😷]"
+
+" highlight default link caseWord BgGray 
 
 " Latin letters
 highlight default link i Black
@@ -223,3 +229,5 @@ highlight Magenta	ctermfg=Magenta		guifg=#DA62DA
 highlight Hmagent 	ctermfg=Magenta		guifg=#DA62BC
 highlight Pink		ctermfg=Red		guifg=#DA629E
 highlight Torch		ctermfg=Red		guifg=#DA6280
+"highlight BgRed		guibg=#390D0D
+"highlight BgGray	guibg=#3A3A3A

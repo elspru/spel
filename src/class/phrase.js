@@ -262,7 +262,7 @@ Phrase.prototype.isLike= function(language,input){
 		return true;
 	return false;
 };
-Phrase.prototype.copy = function(){
+Phrase.prototype.copy = function(language){
  	return new Phrase(language, JSON.parse(JSON.stringify(this)));
 }
 Phrase.prototype.valueGet = function(){

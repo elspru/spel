@@ -33,6 +33,7 @@ kya li .u अलग li .a ya
 kwi li .u Yand li .a ya
 sa li .u एस् li .a ya
 ksa li .u गंदें-शब्द-बोलना li .a ya
+kla li .u लेकिन li .a ya
 kca li .u हा li .a ya
 pli li .u पास li .a ya
 psu li .u से-स्रोत li .a ya
@@ -40,6 +41,7 @@ pla li .u बहुवचन li .a ya
 pwa li .u yaor li .a ya
 plu li .u के-लिए li .a ya
 pca li .u रसिक li .a ya
+nyi li .u न li .a ya
 nwa li .u अशक्त li .a ya
 nya li .u से li .a ya
 sli li .u उदाहरण-के-लिए li .a ya
@@ -118,6 +120,7 @@ cik .u कुछ li .a ya
 ksip .u लिखो li .a ya
 myik .u जोड़ना li .a ya
 kyim .u घटाना li .a ya
+klac .u सिवाय li .a ya
 kwal .u भाषा li .a ya
 klaw .u हंसी li .a ya
 klas .u धारा li .a ya

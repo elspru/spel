@@ -33,6 +33,7 @@ kya li .u 旁白 li .a ya
 kwi li .u 而 .a ya
 sa li .u 该 .a ya
 ksa li .u 引文结束 li .a ya
+kla li .u 但 li .a ya
 kca li .u 哈 li .a ya
 pli li .u 近 li .a ya
 psu li .u 从源 li .a ya
@@ -40,6 +41,7 @@ pla li .u 复数 li .a ya
 pwa li .u 或者 .a ya
 plu li .u 为 li .a ya
 pca li .u 姁 li .a ya
+nyi li .u 不 li .a ya
 nwa li .u 零 li .a ya
 nya li .u 从 li .a ya
 sli li .u 例如 .a ya
@@ -118,6 +120,7 @@ klas .u 条款 .a ya
 ksip .u 写 li .a ya
 klaw .u 笑 li .a ya
 psan .u 空间 .a ya
+klac .u 除 li .a ya
 pyan .u 代词 .a ya
 pyas .u 短语 .a ya
 pyat .u 语法对象 .a ya

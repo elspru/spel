@@ -33,6 +33,7 @@ kyi li .u conditionally .a ya
 kya li .u aside li .a ya
 kwi li .u yand .a ya
 ksa li .u unquote .a ya
+kla li .u but .a ya
 kca li .u ha li .a ya
 pwa li .u yaor .a ya
 psu li .u from-source .a ya
@@ -40,6 +41,7 @@ pli li .u near .a ya
 pla li .u plural .a ya
 plu li .u for .a ya
 pca li .u jolly .a ya
+nyi li .u not .a ya
 nya li .u from .a ya
 nwa li .u null .a ya
 sli li .u for-example .a ya
@@ -118,6 +120,7 @@ kwal .u language .a ya
 ksip .u write .a ya
 klaw .u laugh .a ya
 klas .u clause .a ya
+klac .u except .a ya
 pyan .u pronoun .a ya
 pyas .u phrase .a ya
 pyat .u grammatical-object .a ya

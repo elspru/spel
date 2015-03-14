@@ -33,6 +33,7 @@ kyi li .u תנאים li .a ya
 kya li .u בצד li .a ya
 kwi li .u yand li .a ya
 ksa li .u עַד-כָּאן li .a ya
+kla li .u אבל li .a ya
 kca li .u חה li .a ya
 pwa li .u yaor li .a ya
 psu li .u מקוד li .a ya
@@ -40,6 +41,7 @@ pli li .u ליד li .a ya
 pla li .u רבים li .a ya
 plu li .u ל li .a ya
 pca li .u עליז li .a ya
+nyi li .u לא li .a ya
 nya li .u מ li .a ya
 nwa li .u null li .a ya
 sli li .u לדוגמה- li .a ya
@@ -118,6 +120,7 @@ kwal .u שפה li .a ya
 ksip .u לכתוב li .a ya
 klaw .u צחוק li .a ya
 klas .u סעיף li .a ya
+klac .u מלבד li .a ya
 pyan .u כִּנוּי li .a ya
 pyas .u ביטוי li .a ya
 pyat .u דקדוקי-אובייקט li .a ya

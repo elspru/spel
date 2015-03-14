@@ -32,7 +32,7 @@ var allLangs = [
 ["swa"], ["ukr"], ["nld"], ["hun"], ["swe"], ["mwak",mwak]
 ];
 
-var langs = [["eng"],["mwak"]];
+var langs = [["eng"]]//,["mwak"]];
 //var langs = allLangs;
 
 var filename = process.argv[2];
@@ -43,7 +43,7 @@ var format = new Object();
 var conjugationLevel = 2;
 
 var word = fromLangFileTranslate(filename);
-langs.forEach(toLangFileTranslate);
+langs.forEach(toLangFileTranslate.curry(conjugationLevel));
 
 function fromLangFileTranslate(filename){
 
@@ -65,7 +65,7 @@ var text = new Text(lang,fileContents);
 return text;
 }
 
-function toLangFileTranslate(tuple){
+function toLangFileTranslate(conjugationLevel,tuple){
 
 var code = tuple[0];
 var lang = tuple[1];

@@ -33,6 +33,7 @@ kyi li .u ehdollisesti li .a ya
 kya li .u syrjään li .a ya
 kwi li .u yand li .a ya
 ksa li .u lainaus-päättyy li .a ya
+kla li .u mutta li .a ya
 kca li .u ha li .a ya
 pwa li .u yaor li .a ya
 psu li .u alkaen-lähdekoodin li .a ya
@@ -40,6 +41,7 @@ pli li .u lähellä li .a ya
 pla li .u monikko li .a ya
 plu li .u varten li .a ya
 pca li .u hilpeä li .a ya
+nyi li .u ei li .a ya
 nya li .u alkaen li .a ya
 nwa li .u tyhjä li .a ya
 sli li .u for-esimerkki li .a ya
@@ -118,6 +120,7 @@ kwal .u kieli li .a ya
 ksip .u kirjoittaa li .a ya
 klaw .u nauraa li .a ya
 klas .u lauseke li .a ya
+klac .u paitsi li .a ya
 pyan .u pronomini li .a ya
 pyas .u lauseke li .a ya
 pyat .u kieliopin-objekti li .a ya

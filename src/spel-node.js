@@ -34,16 +34,23 @@ var langs = [
 ["eng",eng], ["zho"], ["spa"], ["hin"], ["ara"], ["por"], 
 ["rus"], ["ind"], ["jpn"], ["deu"], ["ita"], ["kor"], ["fra"],
 ["tur"], ["swa"],["tha"],["ukr"], ["nld"], ["hun"], ["swe"],
-["heb"], ["fin"],["mwak",mwak]
+["heb"], ["fin"],["epo"],["mwak",mwak]
 ];
 
+var unLangs = [ ["eng",eng], ["zho"], ["spa"], ["ara"],  
+["rus"], ["fra"], ["mwak",mwak]
+];
+
+//var langs = unLangs;
+
+var langs = [["eng",eng],["zho"],["epo"],["mwak",mwak]];
+var SPELangs = [["eng",eng],["zho"],["spa"],["ara"],["rus"],
+["fra"],["tur"],["ukr"],["swe"],["heb"],["fin"],["epo"],["mwak",mwak]];
 var langs = [["eng",eng],["mwak",mwak]];
-var langs = [["eng",eng],["zho"],["spa"],["ara"],["rus"],
-["fra"],["tur"],["ukr"],["swe"],["heb"],["fin"],["mwak",mwak]];
 var commandText = process.argv.slice(2).join(" ");
 console.log(commandText);
 var format = new Object();
-var conjugationLevel = 2;
+var conjugationLevel = 0;
 
 //var string = " hello world ya ";
 //var mstring = " maw .i blak .u fa ya ";
@@ -59,19 +66,27 @@ var conjugationLevel = 2;
 //var string  = "su this be example of word language ya"
 //var word = new Text(eng,string);
 
-var string = " ob quote phrase hello world phrase unquote ya ";
+var string = " su test be start ya " 
++ " be start of test2 ya "
++ " su content of test2 ya "
++ " su test be end ya "
++ " be other ob text ya "
+//var string = " su test be start ya "
+//+ " su me be go to the shop for bread ya "
+//+" su false be end ya "
+//+ " su test be end ya blah ya";
 //var string = " li unquote";
 //var string = "ksa yo hello hello yo world world yo tsi .u ya";
 console.log(string)
-var tokens = tokenize.stringToWords(string);
+//var tokens = tokenize.stringToWords(string);
+//var word = parse.subText(eng.grammar,tokens);
 //var word = parse.quotesExtract(eng,tokens);
 var word = new Text(eng,string);
 console.log(word.toString());
 console.log(JSON.stringify(word));
-langs.forEach(toLangFileTranslate.curry(word));
-//langs.forEach(toLangFileTranslate);
+langs.forEach(toLangStringTranslate.curry(conjugationLevel).curry(word));
 
-function toLangFileTranslate(word,tuple){
+function toLangStringTranslate(conjugationLevel,word,tuple){
 
 var code = tuple[0];
 var lang = tuple[1];
@@ -87,29 +102,3 @@ console.log(code + " : " +
 word.toLocaleString(lang,format,conjugationLevel));
 }
 
-//console.log("worker starting");
-//var Worker = require('webworker-threads').Worker;
-////var workerScript = require("./worker");
-//var worker = new Worker(workerScript);
-//worker.onmessage = function(event){
-//console.log(event.data);
-//}
-//worker.postMessage(word);
-//
-////var Threads= require('webworker-threads');
-////var thread = Threads.create();
-////function hello(){
-////return "hello threads";}
-////function hmmm(){
-////var word = "the word";
-////return word;}
-////var JASON = require("JASON");
-////var threadCallBack  = function(err,data){
-////process.stdout.write(data);
-////this.destroy()}
-////
-//////thread.eval("JASON= "+ JASON.stringify(JASON));
-////thread.eval(hello).eval("hello()", threadCallBack);
-////var thread = Threads.create();
-////thread.eval(hmmm).eval("hmmm()", threadCallBack);
-////

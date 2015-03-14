@@ -53,11 +53,17 @@ reversible:[
 [" ?be wil "," wil "]
 ],
 irreversible:[
-[" ?su "," "],
-[" ?ob "," "],
+[" yand ",", and "],
+[" plural ",", many "],
+["^about ","The "],
+[" about "," the "],
+[" tha "," that "],
+[" end-clause ",", "],
+[" ?su ",", "],
+[" ?ob ",", "],
 //[" be "," "],
 [" ya$",". "],
-[" tha "," that "]
+[" ya ",". "]
 ]
 }
 var engGrammar = new Grammar(engWordOrder,engDict,conjugation);

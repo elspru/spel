@@ -202,18 +202,18 @@ function firstCaseIndexParse(grammar,tokens){
 	return Index;
 }
 exports.lastSentenceWordIndex = lastSentenceWordIndexParse;
-function lastSentenceWordIndexParse(grammar,tokens){
-	var Index = tokens.rfind(wordMatch.curry(
-				grammar.sentenceWords));
-	if (Index=== null)
-		return -1;
-	return Index;
+function lastSentenceWordIndexParse(grammar,tokens,fromIndex){
+if (fromIndex !== undefined) tokens = tokens.slice(0,fromIndex);
+var Index =tokens.rfind(wordMatch.curry(grammar.sentenceWords));
+if (Index=== null) return -1;
+return Index;
 }
 exports.firstSentenceWordIndex = firstSentenceWordIndexParse;
-function firstSentenceWordIndexParse(grammar,tokens){
+function firstSentenceWordIndexParse(grammar,tokens,fromIndex){
+if (fromIndex !== undefined) tokens = tokens.slice(fromIndex+1);
 var Index = tokens.find(wordMatch.curry(grammar.sentenceWords));
-if (Index=== null)
-	return -1;
+if (Index=== null) return -1;
+if (fromIndex !== undefined) return (Index+fromIndex+1);
 return Index;
 }
 
@@ -428,14 +428,14 @@ previousCaseI = lastCaseIndexP(previousSlice);
 
 // su first specific phrase be parse ya
 exports.firstSpecificPhrase = firstSpecificPhraseParse;
-function firstSpecificPhraseParse(tokens,phraseWord){
+function firstSpecificPhraseParse(grammar,tokens,phraseWord){
 	var firstSpecificCase=tokens.find(wordMatch.curry([phraseWord]));
 	var previousSlice = tokens.slice(0,firstSpecificCase+1);
 	return lastPhraseParse(grammar,previousSlice);
 }
 // su last specific phrase be parse ya
 exports.lastSpecificPhrase = lastSpecificPhraseParse;
-function lastSpecificPhraseParse(tokens,phraseWord){
+function lastSpecificPhraseParse(grammar,tokens,phraseWord){
 	var lastSpecificCase=tokens.rfind(wordMatch.curry([phraseWord]));
 	var previousSlice = tokens.slice(0,lastSpecificCase+1);
 	return lastPhraseParse(grammar,previousSlice);
@@ -451,12 +451,18 @@ function sentenceError(tokens){
 }
 exports.firstSentence = firstSentenceParse;
 function firstSentenceParse(grammar,tokens){
+var sentenceIndex = firstSentenceIndexParse(grammar,tokens);
+var start = sentenceIndex[0];
+var end = sentenceIndex[1];
+return tokens.slice(start,end);
+}
+function firstSentenceIndexParse(grammar, tokens){
 	var sentenceEnder = tokens.find(wordMatch.curry(grammar.sentenceWords));
 	if (sentenceEnder === null) sentenceError(tokens);
 	// if followed by space include it
 	if (tokenize.isSpace(tokens[sentenceEnder+1]))
 		sentenceEnder=sentenceEnder+1;
-	return tokens.slice(0,sentenceEnder+1);
+	return [0,sentenceEnder+1];
 }
 exports.lastSentence = lastSentenceParse;
 function lastSentenceParse(grammar,tokens){
@@ -1057,4 +1063,194 @@ sentenceI, junctionI, length);
 var end = minI;
 // return
 return [start,end];
+}
+
+// Multi Sentence Quotes, or Subordinate Text Parsing
+exports.subText = multiSentenceQuoteParse;
+function multiSentenceQuoteParse(grammar, tokens){
+var indexes = firstMultiSentenceQuoteIndexParse(grammar,tokens);
+if (indexes === null) return new String();
+return tokens.slice(indexes[0],indexes[1]);
+}
+function firstMultiSentenceQuoteIndexParse(grammar, tokens){
+// algorithm de
+// 
+// be find ob verb phrase with start word at head ya
+// be parse surrounding sentence of start phrase for start
+// sentence ya
+// be set ob start from start of start sentence ya
+// be parse specific phrase ob verb phrase from start sentence
+// ya
+// be parse specific phrase ob subject phrase from start
+// sentence ya
+// be find ob end sentence tha with same ob subject phrase and
+// verb phrase ya
+// be set ob end from end of end sentence ya
+
+// be find ob verb phrase with start word at head ya
+// be parse surrounding sentence of start phrase for start
+// sentence ya
+// be set ob start from start of start sentence ya
+// be parse specific phrase ob verb phrase from start sentence
+// ya
+// be parse specific phrase ob subject phrase from start
+// sentence ya
+// be find ob end sentence tha with same ob subject phrase and
+// verb phrase ya
+// be set ob end from end of end sentence ya
+
+
+// be parse of first subordinate text ob tokens by grammar de
+// aside data assignment  ya
+// su quotes ob quotes of grammar ya
+// su start word ob start word of quotes ya
+// su verb word ob verb word of grammar ya
+// su end word ob end word of quotes ya
+//
+// about main code ya
+//
+// about find ob start ya
+// be find ob start word in tokens for start word index ya
+// if su null be equal ob tha be check of verb phrase 
+// ob tokens from start word index then return null ya
+// su start ob tha be after ob previous sentence tail index ya
+// 
+// about find ob subject ya
+// be slice ob tokens from previous sentence tail index
+// till start sentence tail for start sentence ya
+// be parse of specific phrase ob li su from start sentence 
+// to subject phrase ya
+// be slice ob tokens from start sentence tail index
+// till length of tokens  for other tokens ya
+//
+// about find ob end verb ya
+// be find ob end word in other tokens for end word index ya
+// if su null be equal ob tha be check of verb phrase 
+// ob tokens from end word index then return null ya
+//
+// about match ob subject phrase ya
+// be parse of last sentence tail from end verb index 
+// for end sentence start yand
+// be parse of first sentence tail from end verb index
+// for end sentence end ya
+// be slice ob tokens from end sentence start til end sentence
+// end  for end sentence ya
+// if subject tokens not in end sentence
+// then slice other tokens after it and jump to find end verb ya
+//
+// about set ob end ya
+// su end ob that be after ob next sentence tail index ya
+//
+// be return ob start and end ya
+
+// aside data assignment  ya
+// su quotes ob quotes of grammar ya
+var quotes = grammar.quotes;
+// su start word ob start word of quotes ya
+var startWord = quotes.startWord;
+// su end word ob end word of quotes ya
+var endWord = quotes.endWord;
+//
+// aside main code ya
+//
+// be find ob start word in tokens for start word index ya
+var startWordIndex = tokens.find(wordMatch.curry([startWord]));
+// if su null be equal ob tha be check of verb phrase 
+// ob tokens by grammarfrom start word index 
+// then be return ob null ya
+if (false === verbPhraseCheck(grammar,tokens,startWordIndex))
+return null;
+// be parse of last sentence tail ob tokens from start word
+// index for previous sentence tail index ya
+var previousSentenceTailIndex = 
+lastSentenceWordIndexParse(grammar,tokens,startWordIndex);
+// su start ob tha be after ob previous sentence tail index ya
+var start =  previousSentenceTailIndex+1;
+//
+// be parse of first sentence tail ob tokens from start word
+// index for start sentence tail index ya
+var startSentenceTailI = 1+
+firstSentenceWordIndexParse(grammar,tokens,startWordIndex);
+//
+// be slice ob tokens from next sentence tail index
+// till length of tokens  for other tokens ya
+var otherTokens = tokens.slice(startSentenceTailI,tokens.length);
+
+// about match ob subject phrase ya
+// be find ob end word in other tokens for end word index ya
+var endWordIndex = otherTokens.find(wordMatch.curry([endWord]));
+// if su null be equal ob tha be check of verb phrase 
+// ob tokens by grammar from end word index then return null ya
+if (false === verbPhraseCheck(grammar,otherTokens,endWordIndex))
+return null;
+// be parse of first sentence tail ob tokens from end word
+// index for next sentence tail index ya
+var nextSentenceTailI = 
+firstSentenceWordIndexParse(grammar,otherTokens,endWordIndex);
+
+// about match ob subject phrase ya
+// be parse of last sentence tail from end verb index 
+// for end sentence start yand
+// be parse of first sentence tail from end verb index
+// for end sentence end ya
+// be slice ob tokens from end sentence start til end sentence
+// end  for end sentence ya
+// if subject tokens not in end sentence
+// then slice other tokens after it and jump to find end verb ya
+
+// su end ob that be after ob next sentence tail index ya
+var end = startSentenceTailI + nextSentenceTailI +1;
+//
+// be return ob start and end ya
+return [start,end];
+}
+
+
+// be check of verb phrase ob tokens by grammar from index de
+// su word order ob word order of grammar ya
+// su postpositional ob postpositional of word order ya
+// su verb word ob verb word of grammar ya
+// if su postpositional be equal ob false 
+// then tha if previous token be not equal ob verb word
+// then tha be return ob null end-tha
+// else tha if next token be not equal ob verb word 
+// then tha be return ob null ya
+// be return ob true ya
+
+// be check of verb phrase ob tokens by grammar from index de
+function verbPhraseCheck(grammar,tokens,index){
+// su word order ob word order of grammar ya
+var wordOrder = grammar.wordOrder;
+// su postpositional ob postpositional of word order ya
+var postpositional = wordOrder.postpositional;
+// su verb word ob verb word of grammar ya
+var verbWord = grammar.verbWord;
+// if su postpositional be equal ob false 
+if (postpositional === false){
+// then tha if previous token be not equal ob verb word
+// then tha be return ob false end-tha
+if ( tokens[index-1] !== verbWord) return false;
+}
+// else tha if next token be not equal ob verb word 
+// then tha be return ob false ya
+else if (postpositional){
+if ( tokens[index+1] !== verbWord) return false;
+}
+// be return ob true ya
+return true;
+}
+
+function surroundingSentenceIndexParse(grammar,tokens,index){
+// algorithm de
+// be find ob sentence start ya
+// be find ob sentence end ya
+// be return ob start and end ya
+
+// be find ob sentence start ya
+var start = lastSentenceWordIndexParse(grammar,tokens,index);
+// be find ob sentence end ya
+var end = firstSentenceWordIndexParse(grammar,tokens,index);
+// be return ob start and end ya
+return [start,end];
+
 }

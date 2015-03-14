@@ -33,6 +33,7 @@ kya li .u aparte li .a ya
 kwi li .u síy .a ya
 sa li .u la .a ya
 ksa li .u fin-de-la-cita li .a ya
+kla li .u pero li .a ya
 kca li .u ja li .a ya
 pli li .u cerca li .a ya
 psu li .u de-fuente li .a ya
@@ -40,6 +41,7 @@ pla li .u plural li .a ya
 pwa li .u sío li .a ya
 plu li .u para li .a ya
 pca li .u alegre li .a ya
+nyi li .u no li .a ya
 nwa li .u nulo li .a ya
 nya li .u desde li .a ya
 sli li .u por-ejemplo .a ya
@@ -118,6 +120,7 @@ klas .u cláusula .a ya
 ksip .u escribir li .a ya
 klaw .u risa li .a ya
 psan .u espacio .a ya
+klac .u excepto li .a ya
 pyan .u pronombre .a ya
 pyas .u frase .a ya
 pyat .u gramatical-a-objetos .a ya

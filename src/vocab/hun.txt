@@ -33,6 +33,7 @@ kya li .u félre li .a ya
 kwi li .u yand li .a ya
 sa li .u az li .a ya
 ksa li .u idézőjel-bezárva li .a ya
+kla li .u de li .a ya
 kca li .u haha li .a ya
 pwa li .u yaor li .a ya
 psu li .u a-forrásból li .a ya
@@ -40,6 +41,7 @@ pli li .u közel li .a ya
 pla li .u többes li .a ya
 plu li .u mert li .a ya
 pca li .u vidám li .a ya
+nyi li .u nem li .a ya
 nya li .u -tól li .a ya
 nwa li .u nulla li .a ya
 sli li .u A-példa li .a ya
@@ -118,6 +120,7 @@ kwal .u nyelv li .a ya
 ksip .u ír li .a ya
 klaw .u nevetés li .a ya
 klas .u záradék li .a ya
+klac .u kivéve li .a ya
 pyan .u névmás li .a ya
 pyas .u kifejezés li .a ya
 pyat .u nyelvtani-objektum li .a ya

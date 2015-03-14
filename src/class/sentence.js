@@ -170,10 +170,10 @@ thePhraseI[1]-thePhraseI[0]); }
 // intransitives have 2 phrases, one of which is a verb ya
 var intransitiveWord = wordOrder.intransitiveWord;
 if (phrases.length === 2 && intransitiveWord)
-if (phrases[1].head.head === grammar.verbWord
+if (phrases[1].head.head === ".i"
 && phrases[0].head.head === intransitiveWord)
 phrases[0].head.head = ".u";
-else if (phrases[0].head.head === grammar.verbWord
+else if (phrases[0].head.head === ".i"
 && phrases[1].head.head === intransitiveWord)
 phrases[1].head.head = ".u";
 
@@ -271,7 +271,8 @@ Sentence.prototype.phraseFindGet = phraseFindGet;
 function phraseFindGet(language,cases){
 	var index = this.indexOf(language,cases);
 	if (index === -1)
-		throw new RangeError(cases +" not found in "+this);
+		return undefined;
+	//	throw new RangeError(cases +" not found in "+this);
 	return this.byIndexPhraseGet(index);
 }
 Sentence.prototype.byIndexPhraseGet = byIndexPhraseGet;

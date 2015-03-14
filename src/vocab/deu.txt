@@ -33,6 +33,7 @@ kya li .u beiseite li .a ya
 kwi li .u yand li .a ya
 sa li .u die li .a ya
 ksa li .u Ende-des-Zitats li .a ya
+kla li .u aber-doch li .a ya
 kca li .u ha li .a ya
 pli li .u in-der-Nähe-von li .a ya
 psu li .u aus-Source- li .a ya
@@ -40,6 +41,7 @@ pla li .u Plural li .a ya
 pwa li .u yaor li .a ya
 plu li .u für li .a ya
 pca li .u fröhlich li .a ya
+nyi li .u nicht li .a ya
 nwa li .u nichtig li .a ya
 nya li .u aus li .a ya
 sli li .u beispielsweise li .a ya
@@ -118,6 +120,7 @@ kwal .u Sprache li .a ya
 ksip .u schreiben li .a ya
 klaw .u Lachen li .a ya
 klas .u Klausel li .a ya
+klac .u außer li .a ya
 pyan .u Pronomen li .a ya
 pyas .u Ausdruck li .a ya
 pyat .u grammatisch-Objekt li .a ya

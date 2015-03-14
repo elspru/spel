@@ -1,23 +1,79 @@
 
 \documentclass[12pt]{article}
 
-\title{SPEL Idea}
-\author{Logan Streondj\\
-CC-BY-SA}
+\title{about SPEL Idea}
+\author{from Logan Streondj \\
+with license CC-BY-SA ya}
+\date{time-at \today }
 \usepackage{pnets}
+\usepackage{pst-tree}
 \usepackage{xcolor}
+\usepackage{rotating}
 \begin{document}
 
 \maketitle
+\tableofcontents
+\section{Introduction}
+
+about ob contents 
+be description and illustration for plural idea part of SPEL ya
+
+about for accessibility 
+su all description be superset of illustration yand
+su all part of illustration be description in text ya
+\section{Motivation}
+about now problem
+su many programming language be use to program all of computer 
+yand su many human language be use to speak 
+with all of human ya
+su most programming language be design for small part of
+computer yand
+su most human language for small part of global population ya
+
+about program language example 
+su C be use for system program yand su VHDL for hardware program
+yand su Javascript for web program yand su SQL for database
+program yand su BASh for shell program yand su Java for portable 
+program yand su assembly for fast program yand su TeX for print 
+document program yand su HTML for web document yand su ChucK for 
+audio program yand su SVG for vector graphic yand su OpenCl 
+for GPU program yand su many script for small purpose
+yand su all of them be have ob different syntax and
+style of programming yand su none of them be have ob human
+language syntax ya
+
+about SPEL program language solution
+be provide ob one core language tha be translate to all other ya
+
+about human language example
+su Mandarin be native language for 955 million people or
+14\% of earth human yand
+su Spanish be native language for 405 million people or 6\% of
+earth human yand
+su English be native language for 360 million people or 5\% of
+earth human ya su other language be have ob less ya
+
+su some be assume ob tha su everyone be wil learn ob English 
+but about tha be learn ob new language end-clause be hard ya and
+su it be give ob unfair advantage to english speaker ya
+%about good example 
+%su Indonesia be past have ob majority of Javanese speaker 
+%but about tha to avoid give su them ob advantage end-clause 
+%su they be choose ob trade language of Malay as official ya
+
+about SPEL human language solution
+be provide ob native like language
+tha be translate to all other ya
+
 \section{Ideal Flow}
 su input agent be have ob idea ya\\
 be write ob idea to natural text 
-by using word definitions of input language ya\\
-be deconjugate ob natural text to analytic output text 
+by using word definition of input language tha from SPEL ya\\
+be deconjugate ob natural text to analytic input text 
 by using conjugation rules of input language ya\\
 su SPEL be translate-in ob analytic input text 
 to mwak pivot tree 
-by using word translations and word order of input language ya\\
+by using word translation and word order of input language ya\\
 be translate-out ob mwak pivot tree to analytic output text
 by using  word order and word translation of output language ya\\
 be conjugate ob analytic output text 
@@ -25,9 +81,12 @@ to conjugated text or source code
 by using conjugation rules of output language ya\\
 su output agent be compile or understand ob conjugated or source
 code to understood idea or native-code by using output word
-definitions or API library of output language ya
+definition or API library of output language ya\\
 su output agent be gain ob skill or app ya
 
+be see ob figure 1 for illustration ya
+
+\psset{arrowlength=2, arrowinset=0, arrowsize=4pt 2}
 
 \begin{figure}
 \begin{center}
@@ -35,62 +94,62 @@ su output agent be gain ob skill or app ya
 
 % language
 \psset{linecolor=green}
-\source{idea}(2,8) 
+\source{idea}(0,8) 
 \label"{b}idea\strut
-\place{inNatural}(2,7) 
+\place{inNatural}(0,7) 
 \label"{b}natural text\strut
-\place{inAnalytic}(2,6) 
+\place{inAnalytic}(0,6) 
 \label"{b}analytic input text\strut
 \psset{linecolor=black}
-\place{pivotLanguage}(2,5) 
+\place{pivotLanguage}(0,5) 
 \label"{b}mwak pivot tree\strut
-\place{outAnalytic}(2,4) 
+\place{outAnalytic}(0,4) 
 \label"{b}analytic output text\strut
-\place{outConjugated}(2,3) 
+\place{outConjugated}(0,3) 
 \label"{b}conjugated text or source-code\strut
 \psset{linecolor=blue}
-\place{nativeCode}(2,2) 
+\place{nativeCode}(0,2) 
 \label"{b}understood idea or native-code\strut
 \psset{linecolor=black}
 
 % processes
 \psset{linecolor=green}
-\trans{write}(0,7.5)
+\trans{write}(1,7.5)
 \label"{b}be write\strut
-\trans{deconj}(0,6.5)
+\trans{deconj}(1,6.5)
 \label"{b}be deconjugate\strut
 \psset{linecolor=black}
-\trans{transIn}(0,5.5)
+\trans{transIn}(1,5.5)
 \label"{b}be translate-in\strut
-\trans{transOut}(0,4.5)
+\trans{transOut}(1,4.5)
 \label"{b}be translate-out\strut
-\trans{conj}(0,3.5)
+\trans{conj}(1,3.5)
 \label"{b}be conjugate\strut
 \psset{linecolor=blue}
-\trans{understand}(0,2.5)
+\trans{understand}(1,2.5)
 \label"{b}be understand or compile\strut
-\source{use}(0,1)
+\source{use}(1,1)
 \label"{b}skill or app\strut
 \psset{linecolor=black}
 
 % data
-\store{inLibrary}(4,7.5)
-\label"{b}input word definitions library\strut
+\store{inLibrary}(3,7.75)
+\label"{b}input word definition library\strut
 
 \psset{linecolor=green}
-\store{inConj}(4,6.5)
+\store{inConj}(3,6.75)
 \label"{b}input conjugation rules\strut
 \psset{linecolor=black}
-\store{inDict}(4,5.5)
-\label"{b}input word order and word translations \strut
+\store{inDict}(3,5.75)
+\label"{b}input word order and word translation \strut
 
-\store{outDict}(4,4.5)
-\label"{b}output word translations and word order \strut
-\store{outConj}(4,3.5)
+\store{outDict}(3,4.75)
+\label"{b}output word translation and word order \strut
+\store{outConj}(3,3.75)
 \label"{b}output conjugation rules\strut
 
-\store{outLibrary}(4,2.5)
-\label"{b}output word definitions or API library\strut
+\store{outLibrary}(3,2.75)
+\label"{b}output word definition or API library\strut
 
 % arcs
 \psset{linecolor=green}
@@ -124,15 +183,95 @@ su output agent be gain ob skill or app ya
 
 \end{petrinet}
 \end{center}
-\caption{The Ideal SPEL flow. 
-\textcolor{green}{Green} is Input Agent,
-\textcolor{blue}{Blue} is output Agent, 
-Black is provided by SPEL}
+\caption{about ideal SPEL flow be illustration ya
+su \textcolor{green}{green} be Input Agent yand
+su \textcolor{blue}{blue} be output Agent ya 
+su black be provide by SPEL ya}
 \label{fig:nodes}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\section{Ideal Pivot Tree}
+
+su text be usually have ob title and text array ya
+su text array be able have ob sentence yand
+be able have ob subordinate text or sentence junction ya
+
+su all junction be have ob head and body ya
+su all array be able have ob plural member ya
+
+su sentence be usually have ob sentence array and sentence
+particle yand be able have ob mood ya
+su sentence array be usally have ob  phrase yand
+be able have ob top clause or phrase junction ya
+
+su top clause be usually have ob head and subordinate sentence ya
+
+su phrase be usually have ob adposition and type
+yand be able have ob subordinate-clause or type junction ya
+
+su subordinate-clause be usually have ob head and 
+subordinate sentence ya
+
+su type be usually have ob body yand be able have ob 
+body classifier or genitive ya
+
+su genitive be usually have ob head and subordinate phrase ya
+
+be see ob figure 2 for illustration ya
+
+
+\begin{sidewaysfigure}
+\def\dedge{\ncline[linestyle=dashed]}
+\begin{psTree}{\Toval{Text}}
+\Toval[edge=\dedge]{title}
+\begin{psTree}{\Toval{array}}
+\Toval[edge=\dedge]{sub Text}
+\begin{psTree}{\Toval{Sentence}}
+\Toval[edge=\dedge]{mood}
+\begin{psTree}{\Toval{array}}
+\begin{psTree}{\Toval[edge=\dedge]{topClause}}
+\Toval{head}
+\Toval{sub Sentence}
+\end{psTree} % top clause
+\begin{psTree}{\Toval[edge=\dedge]{phrase Junction}}
+%\Toval{head}
+%\begin{psTree}{\Toval{array}}
+%\Toval{plural phrase}
+%\end{psTree} % junction array
+\end{psTree} % phrase Junction
+\begin{psTree}{\Toval{Phrase}}
+\Toval{adposition}
+\begin{psTree}{\Toval{Type}}
+\Toval[edge=\dedge]{classifier}
+\Toval{body}
+\begin{psTree}{\Toval[edge=\dedge]{Genitive}}
+\Toval{head}
+\Toval{sub Phrase}
+\end{psTree} % genitive
+
+\end{psTree} % type
+\begin{psTree}{\Toval[edge=\dedge]{type Junction}}
+\end{psTree} % type junction
+\begin{psTree}{\Toval[edge=\dedge]{Subclause}}
+\Toval{head}
+\Toval{sub Sentence}
+\end{psTree}  % sub clause
+\end{psTree}  % phrase
+\end{psTree} % sentence array
+\Toval{sentence particle}
+\end{psTree} % sentence
+\begin{psTree}{\Toval[edge=\dedge]{sentence Junction}}
+\end{psTree} % type junction
+\end{psTree} % text array
+
+\end{psTree} % text
+
+\caption{about ideal SPEL Pivot Tree be illustration ya
+su dashed line be show ob able have yand
+su full line be show ob usually have ya}
+\end{sidewaysfigure}
 
 
 \end{document}
