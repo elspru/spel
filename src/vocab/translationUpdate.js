@@ -206,6 +206,7 @@ if (translateFail === true){
 // be replace ob space with dash ya
 //translation.replace('\s','-');
 translation = noSpace(translation);
+console.log( translation);
 if (translation.toLower &&
 translation.toLower() === definition){
 var warning = ("Warning: "+translation

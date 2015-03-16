@@ -12,7 +12,16 @@ function Arabic(srcBase){
 //var araFile = io.fileRead(srcBase+"/locale/ara/ara.txt");
 var araText = new Text(mwak,araFile);
 var araDict = new Dictionary(mwak,araText);
-var araWordOrder = vso.wordOrder();
+var araWordOrder = {
+headFinal : false,
+verbFinal : false,
+typeFinal : false,
+clauseInitial: false,
+genitiveInitial: false,
+postpositional : false,
+phraseOrder: ["sla","ku","twa",".i",".u","nya","ta",".a"],
+littleEndian : true
+};
 var conjugation = {
 reversible:[
 [" su me "," I "],

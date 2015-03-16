@@ -22,15 +22,14 @@ ti li .u Tha li .a ya
 ta li .u için li .a ya
 tu li .u sana li .a ya
 li li .u gerçek li .a ya
-fu li .u wil li .a ya
 fa li .u hakkında li .a ya
 ci li .u ha? li .a ya
+fu li .u irade li .a ya
 myi li .u bellek li .a ya
 mwa li .u ile li .a ya
 mya li .u olabilir li .a ya
 kyi li .u şartlı-olarak li .a ya
 kya li .u bir-kenara li .a ya
-kwi li .u yand li .a ya
 sa li .u bud li .a ya
 ksa li .u tırnak-işareti-koymak li .a ya
 kla li .u ama li .a ya
@@ -44,6 +43,7 @@ pca li .u neşeli li .a ya
 nyi li .u değil li .a ya
 nwa li .u boş li .a ya
 nya li .u itibaren li .a ya
+swi li .u süre li .a ya
 sli li .u örneğin li .a ya
 slu li .u tekil li .a ya
 sla li .u merhaba li .a ya
@@ -54,12 +54,13 @@ tli li .u ord li .a ya
 mik .u kopya li .a ya
 miy .u bekleyin li .a ya
 mip .u geçmiş li .a ya
-mam .u anne li .a ya
+mit .u orta li .a ya
 min .u daha-az li .a ya
 mak .u kelime li .a ya
 mat .u valide li .a ya
 man .u düşünmek li .a ya
 map .u boyut li .a ya
+mac .u makine li .a ya
 kim .u karşılaştırmak li .a ya
 kiy .u gitmek li .a ya
 kit .u son li .a ya
@@ -72,6 +73,7 @@ kat .u almak li .a ya
 kal .u tüm li .a ya
 kum .u ticaret li .a ya
 kup .u satın-almak li .a ya
+kun .u kırmızı li .a ya
 kut .u küçük li .a ya
 yik .u inkâr-etmek li .a ya
 yan .u demek li .a ya
@@ -79,7 +81,6 @@ pim .u nokta li .a ya
 piy .u hareket li .a ya
 pam .u iyi li .a ya
 pak .u vücut li .a ya
-pap .u baba li .a ya
 pay .u daha li .a ya
 paw .u yer li .a ya
 pat .u baba li .a ya
@@ -88,36 +89,45 @@ pan .u karşılamak li .a ya
 pac .u sevinç li .a ya
 puy .u çocuk li .a ya
 put .u satmak li .a ya
+pul .u mavi li .a ya
+wit .u ışık li .a ya
 fut .u gelecek li .a ya
 wam .u zaman li .a ya
 wan .u aşk li .a ya
 wap .u kuyruk li .a ya
 wat .u konuşmak li .a ya
 nim .u isim li .a ya
+nic .u enerji li .a ya
 wul .u büyük li .a ya
 nam .u numara li .a ya
 sim .u üç li .a ya
 san .u öz li .a ya
+sat .u ses li .a ya
 sup .u ödeme li .a ya
 naw .u mevcut li .a ya
 tip .u başla li .a ya
-tin .u içinde li .a ya
 tiw .u yardım li .a ya
+tin .u görmek li .a ya
 tam .u konu li .a ya
 sun .u bir li .a ya
 tay .u koymak li .a ya
-tan .u ağaç li .a ya
+tap .u dokunma li .a ya
 tak .u teşekkür li .a ya
 liy .u dört li .a ya
+lin .u yeşil li .a ya
 tuw .u iki li .a ya
 lit .u kabartma li .a ya
+cim .u duymak li .a ya
 cik .u az li .a ya
 caw .u bağırmak li .a ya
+cal .u hareket li .a ya
 myik .u eklemek li .a ya
 kyim .u çıkarmak li .a ya
+kyup .u grup li .a ya
 kyul .u kural li .a ya
 kwal .u dil li .a ya
 ksip .u yazmak li .a ya
+ksap .u ekspres li .a ya
 klaw .u gülmek li .a ya
 klas .u fıkra li .a ya
 klac .u dışında li .a ya
@@ -125,34 +135,59 @@ pyan .u zamir li .a ya
 pyas .u ifade li .a ya
 pyat .u dilbilgisi-nesne li .a ya
 pyuf .u kanıt li .a ya
+pyuc .u proje li .a ya
+psan .u alan li .a ya
 plis .u yakında li .a ya
 psun .u kaynak li .a ya
-psan .u alan li .a ya
 swat .u soru li .a ya
 slim .u örnek li .a ya
 tkic .u çeviri-Sözlük li .a ya
+tyim .u titreme li .a ya
+twis .u gerçek li .a ya
 tsin .u referans li .a ya
+tsil .u hak-etmek li .a ya
+tsan .u tekrar li .a ya
+tsal .u devlet li .a ya
+tsaf .u tat li .a ya
 tsuk .u mağaza li .a ya
 tlam .u çevirmek li .a ya
 tlin .u sıra li .a ya
+tlan .u gelenek li .a ya
+tcan .u ağaç li .a ya
 flas .u ifade li .a ya
+fluc .u akış li .a ya
+clum .u cümle li .a ya
 miyk .u göndermek li .a ya
 miwk .u kişi li .a ya
+milt .u müttefik li .a ya
+mast .u düşmanca li .a ya
+malt .u malzeme li .a ya
+mack .u düşünmek li .a ya
 muys .u duygu li .a ya
 munt .u dünya li .a ya
+mult .u manevi li .a ya
 kamt .u dilbilgisi li .a ya
 kayp .u şey li .a ya
 kast .u dilbilgisi-durum li .a ya
 kump .u ruh-hali li .a ya
+kunt .u kontrol li .a ya
 yimk .u sormak li .a ya
+yank .u uyanık li .a ya
 panp .u ekmek li .a ya
-palt .u satmak li .a ya
+punt .u döngü li .a ya
 pack .u zevk-almak li .a ya
 wiyp .u fiil li .a ya
 niym .u isim li .a ya
+sant .u sanat li .a ya
 sint .u hissetmek li .a ya
-sant .u cümle li .a ya
 suyt .u dilbilgisi-konu li .a ya
 timp .u dilbilgisi-gergin li .a ya
+tink .u metin li .a ya
 tiwk .u etkinlik li .a ya
+tuym .u dünya li .a ya
+tuwm .u süre li .a ya
+liyt .u edebiyat li .a ya
+lint .u içinde li .a ya
+lank .u renk li .a ya
+lunt .u insanlar li .a ya
 tick .u sözlük li .a ya

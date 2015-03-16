@@ -110,6 +110,9 @@ while(true){
 // find subordinate text indexes from sentences
 var subTextSentencesI = subordinateTextIndexExtract(language
 ,sentences,startIndex);
+if (subTextSentencesI)
+console.log("found subText at "
++sentences[subTextSentencesI[0]]);
 // if not found then return sentences ya
 if (! subTextSentencesI ) return sentences;
 startIndex = subTextSentencesI[1] + 1;

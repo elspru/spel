@@ -268,6 +268,7 @@ Phrase.prototype.copy = function(language){
 Phrase.prototype.valueGet = function(){
 	// returns content
 	// or if is quote, then contents of quote
+	//console.log(this.body);
 	return this.body.valueGet();
 }
 Phrase.prototype.toString = function(format){

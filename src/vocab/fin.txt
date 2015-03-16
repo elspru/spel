@@ -24,14 +24,13 @@ ta li .u kohteeseen li .a ya
 tu li .u sinua li .a ya
 li li .u li li .a ya
 fa li .u noin li .a ya
-fu li .u wil li .a ya
+fu li .u tahtoa li .a ya
 ci li .u eh? li .a ya
 myi li .u muisti li .a ya
 mya li .u ehkä li .a ya
 mwa li .u kanssa li .a ya
 kyi li .u ehdollisesti li .a ya
 kya li .u syrjään li .a ya
-kwi li .u yand li .a ya
 ksa li .u lainaus-päättyy li .a ya
 kla li .u mutta li .a ya
 kca li .u ha li .a ya
@@ -44,6 +43,7 @@ pca li .u hilpeä li .a ya
 nyi li .u ei li .a ya
 nya li .u alkaen li .a ya
 nwa li .u tyhjä li .a ya
+swi li .u kun-taas li .a ya
 sli li .u for-esimerkki li .a ya
 sla li .u hei li .a ya
 slu li .u yksikkö li .a ya
@@ -55,11 +55,12 @@ mik .u kopio li .a ya
 miy .u odota li .a ya
 mip .u ohi li .a ya
 min .u vähemmän li .a ya
-mam .u äiti li .a ya
+mit .u keskimmäinen li .a ya
 mak .u sana li .a ya
 map .u koko li .a ya
 man .u ajatella li .a ya
 mat .u äiti li .a ya
+mac .u kone li .a ya
 kim .u vertailla li .a ya
 kiy .u mennä li .a ya
 kit .u pää li .a ya
@@ -72,6 +73,7 @@ kat .u saada li .a ya
 kal .u kaikki li .a ya
 kum .u kauppa li .a ya
 kup .u ostaa li .a ya
+kun .u punainen li .a ya
 kut .u pieni li .a ya
 yik .u romuttaa li .a ya
 yan .u sanoa li .a ya
@@ -80,7 +82,6 @@ piy .u teko li .a ya
 pam .u hyvä li .a ya
 pak .u elin li .a ya
 pay .u lisää li .a ya
-pap .u isä li .a ya
 paw .u paikka li .a ya
 pan .u tavata li .a ya
 pat .u isä li .a ya
@@ -88,36 +89,45 @@ pal .u monet li .a ya
 pac .u ilo li .a ya
 puy .u lapsi li .a ya
 put .u myydä li .a ya
+pul .u sininen li .a ya
+wit .u valo li .a ya
 wam .u aika li .a ya
 wap .u pyrstö li .a ya
 wan .u rakkaus li .a ya
 wat .u puhua li .a ya
 wul .u iso li .a ya
 nim .u nimi li .a ya
+nic .u energia li .a ya
 nam .u numero li .a ya
 naw .u nykyinen li .a ya
 sim .u kolme li .a ya
 san .u itse li .a ya
+sat .u kuulostaa li .a ya
 sup .u maksaa li .a ya
 sun .u yksi li .a ya
 tip .u alkaa li .a ya
 tiw .u auttaa li .a ya
-tin .u sisällä li .a ya
+tin .u nähdä li .a ya
 tam .u aihe li .a ya
 tak .u kiittää li .a ya
 tay .u laittaa li .a ya
-tan .u puu li .a ya
+tap .u koskettaa li .a ya
 tuw .u kaksi li .a ya
 liy .u neljä li .a ya
+lin .u vihreä li .a ya
 lit .u glyph li .a ya
 fut .u tulevaisuus li .a ya
+cim .u kuulla li .a ya
 cik .u harvat li .a ya
 caw .u huutaa li .a ya
+cal .u liikkua li .a ya
 myik .u lisätä li .a ya
 kyim .u vähentää li .a ya
+kyup .u ryhmä li .a ya
 kyul .u sääntö li .a ya
 kwal .u kieli li .a ya
 ksip .u kirjoittaa li .a ya
+ksap .u ilmaista li .a ya
 klaw .u nauraa li .a ya
 klas .u lauseke li .a ya
 klac .u paitsi li .a ya
@@ -125,34 +135,59 @@ pyan .u pronomini li .a ya
 pyas .u lauseke li .a ya
 pyat .u kieliopin-objekti li .a ya
 pyuf .u todiste li .a ya
+pyuc .u hanke li .a ya
 psan .u tila li .a ya
 psun .u lähde li .a ya
 plis .u lähistöllä li .a ya
 swat .u kysymys li .a ya
 slim .u esimerkki li .a ya
 tkic .u käännös-sanakirja li .a ya
+tyim .u vapista li .a ya
+twis .u totta li .a ya
 tsin .u viite li .a ya
+tsil .u ansaita li .a ya
+tsan .u jälleen li .a ya
+tsal .u valtio li .a ya
+tsaf .u maku li .a ya
 tsuk .u myymälä li .a ya
 tlin .u järjestysluku li .a ya
 tlam .u käännös li .a ya
+tlan .u perinne li .a ya
+tcan .u puu li .a ya
 flas .u lauseke li .a ya
+fluc .u virtaus li .a ya
+clum .u virke li .a ya
 miyk .u lähettää li .a ya
 miwk .u henkilö li .a ya
+milt .u liittolainen li .a ya
+mast .u vihamielinen li .a ya
+malt .u materiaali li .a ya
+mack .u kuvitella li .a ya
 muys .u tunne li .a ya
 munt .u maailma li .a ya
+mult .u moraalinen li .a ya
 kamt .u kielioppi li .a ya
 kayp .u asia li .a ya
 kast .u kieliopin-tapaus li .a ya
 kump .u mieliala li .a ya
+kunt .u ohjaus li .a ya
 yimk .u kysyä li .a ya
+yank .u hereillä li .a ya
 panp .u leipä li .a ya
-palt .u myydä li .a ya
+punt .u silmukka li .a ya
 pack .u nauttia li .a ya
 wiyp .u verbi li .a ya
 niym .u substantiivi li .a ya
+sant .u taide li .a ya
 sint .u tuntea li .a ya
-sant .u virke li .a ya
 suyt .u kieliopin-aihe li .a ya
 timp .u jännittynyt li .a ya
+tink .u teksti li .a ya
 tiwk .u toiminta li .a ya
+tuym .u maailma li .a ya
+tuwm .u kesto li .a ya
+liyt .u kirjallisuus li .a ya
+lint .u sisällä li .a ya
+lank .u väri li .a ya
+lunt .u ihmiset li .a ya
 tick .u sanakirja li .a ya

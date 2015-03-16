@@ -22,15 +22,14 @@ ti li .u que .a ya
 ta li .u à li .a ya
 tu li .u tu li .a ya
 li li .u littéral li .a ya
-fu li .u wil .a ya
 fa li .u sur li .a ya
 ci li .u hein? li .a ya
+fu li .u volonté li .a ya
 myi li .u mémoire .a ya
 mwa li .u avec li .a ya
 mya li .u peut-être li .a ya
 kyi li .u conditionnellement .a ya
 kya li .u de-côté li .a ya
-kwi li .u yet .a ya
 sa li .u la .a ya
 ksa li .u fin-de-citation li .a ya
 kla li .u mais li .a ya
@@ -44,6 +43,7 @@ pca li .u gai li .a ya
 nyi li .u pas li .a ya
 nwa li .u nul li .a ya
 nya li .u à-partir-de li .a ya
+swi li .u tandis-que li .a ya
 sli li .u par-exemple .a ya
 slu li .u singulier li .a ya
 sla li .u bonjour li .a ya
@@ -54,12 +54,13 @@ tli li .u ord .a ya
 mik .u copie .a ya
 miy .u attendre .a ya
 mip .u passé .a ya
-mam .u maman li .a ya
+mit .u milieu li .a ya
 min .u moins .a ya
 mak .u mot .a ya
 mat .u mère li .a ya
 man .u penser li .a ya
 map .u taille .a ya
+mac .u machine li .a ya
 kim .u comparer .a ya
 kiy .u aller .a ya
 kit .u fin li .a ya
@@ -72,6 +73,7 @@ kat .u obtenir li .a ya
 kal .u tous li .a ya
 kum .u commerce li .a ya
 kup .u acheter li .a ya
+kun .u rouge li .a ya
 kut .u minhmap .i petit .a ya
 yik .u nier .a ya
 yan .u dire li .a ya
@@ -79,7 +81,6 @@ pim .u point .a ya
 piy .u acte .a ya
 pam .u bon .a ya
 pak .u corps .a ya
-pap .u papa li .a ya
 pay .u plus .a ya
 paw .u lieu .a ya
 pat .u père li .a ya
@@ -88,71 +89,105 @@ pan .u rencontrer .a ya
 pac .u joie li .a ya
 puy .u enfant .a ya
 put .u vendre li .a ya
+pul .u bleu li .a ya
+wit .u lumière li .a ya
 fut .u avenir .a ya
 wam .u temps .a ya
 wan .u aimer li .a ya
 wap .u queue .a ya
 wat .u parler li .a ya
 nim .u nom li .a ya
+nic .u énergie li .a ya
 wul .u payhmap .i grand .a ya
 nam .u nombre .a ya
 sim .u trois li .a ya
 san .u soi li .a ya
+sat .u son li .a ya
 sup .u payer li .a ya
 naw .u présent .a ya
 tip .u commencer li .a ya
-tin .u à-l'intérieur li .a ya
 tiw .u aidez-moi li .a ya
+tin .u voir li .a ya
 tam .u sujet li .a ya
 sun .u une .a ya
 tay .u mettre li .a ya
-tan .u arbre li .a ya
+tap .u toucher li .a ya
 tak .u merci li .a ya
 liy .u quatre li .a ya
+lin .u vert li .a ya
 tuw .u deux .a ya
 lit .u glyphe li .a ya
+cim .u entendre li .a ya
 cik .u minhnam .i peu .a ya
 caw .u cri li .a ya
+cal .u mouvement li .a ya
 myik .u ajouter .a ya
 kyim .u soustraire .a ya
+kyup .u groupe li .a ya
 kyul .u règle li .a ya
 klas .u clause .a ya
 ksip .u écrire li .a ya
+ksap .u exprimer li .a ya
 klaw .u rire li .a ya
-psan .u espace .a ya
 klac .u sauf li .a ya
 pyan .u pronom .a ya
 pyas .u phrase .a ya
 pyat .u grammaticale-objet .a ya
 pyuf .u preuve li .a ya
 plis .u proche li .a ya
+pyuc .u projet li .a ya
+psan .u espace li .a ya
 psun .u source li .a ya
 slim .u exemple .a ya
 swat .u question li .a ya
 flas .u phrase .a ya
 tkic .u Traduction-dictionnaire li .a ya
+tyim .u trembler li .a ya
+twis .u vrai li .a ya
 tsin .u référence li .a ya
+tsil .u mériter li .a ya
+tsan .u de-nouveau li .a ya
+tsal .u état li .a ya
+tsaf .u goût li .a ya
 tsuk .u boutique li .a ya
 tlam .u traduire li .a ya
 tlin .u ordinal .a ya
+tlan .u tradition li .a ya
+tcan .u arbre li .a ya
 miyk .u envoyer .a ya
+fluc .u couler li .a ya
+clum .u phrase li .a ya
 miwk .u personne .a ya
 muys .u émotion li .a ya
-munt .u monde .a ya
+milt .u allié li .a ya
+mast .u hostile li .a ya
+malt .u matériel li .a ya
+mack .u imaginer li .a ya
 kamt .u grammaire .a ya
+munt .u monde li .a ya
+mult .u moral li .a ya
 kayp .u chose .a ya
 kast .u grammaticale-cas .a ya
 kump .u humeur li .a ya
 yimk .u demander .a ya
+kunt .u contrôle li .a ya
 wiyp .u verbe .a ya
+yank .u éveillé li .a ya
 panp .u pain li .a ya
-palt .u vendre li .a ya
+punt .u boucle li .a ya
 pack .u jouir li .a ya
 niym .u nom .a ya
 sint .u sentir li .a ya
-sant .u sentence .a ya
+sant .u art li .a ya
 suyt .u grammaticale-sujet .a ya
 timp .u grammaticale-tendue .a ya
 tiwk .u activité li .a ya
+tink .u texte li .a ya
 tick .u dictionnaire .a ya
+tuym .u monde li .a ya
+tuwm .u durée li .a ya
+liyt .u littérature li .a ya
+lint .u à-l'intérieur li .a ya
+lank .u couleur li .a ya
+lunt .u personnes li .a ya
 kwal .u langue .a ya

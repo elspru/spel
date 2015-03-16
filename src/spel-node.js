@@ -46,7 +46,7 @@ var unLangs = [ ["eng",eng], ["zho"], ["spa"], ["ara"],
 var langs = [["eng",eng],["zho"],["epo"],["mwak",mwak]];
 var SPELangs = [["eng",eng],["zho"],["spa"],["ara"],["rus"],
 ["fra"],["tur"],["ukr"],["swe"],["heb"],["fin"],["epo"],["mwak",mwak]];
-var langs = [["eng",eng],["mwak",mwak]];
+var langs = [["eng",eng],["ara"],["mwak",mwak]];
 var commandText = process.argv.slice(2).join(" ");
 console.log(commandText);
 var format = new Object();
@@ -66,11 +66,13 @@ var conjugationLevel = 0;
 //var string  = "su this be example of word language ya"
 //var word = new Text(eng,string);
 
-var string = " su test be start ya " 
-+ " be start of test2 ya "
-+ " su content of test2 ya "
-+ " su test be end ya "
-+ " be other ob text ya "
+//var string = " su test be start ya " 
+//+ " be start of test2 ya "
+//+ " su content of test2 ya "
+//+ " su test be end ya "
+//+ " be other ob text ya "
+var string = "ob num 23 43 ya";
+var string = "C4 kya .i li .u be li .a wiyp kast .i ya"
 //var string = " su test be start ya "
 //+ " su me be go to the shop for bread ya "
 //+" su false be end ya "
@@ -81,7 +83,7 @@ console.log(string)
 //var tokens = tokenize.stringToWords(string);
 //var word = parse.subText(eng.grammar,tokens);
 //var word = parse.quotesExtract(eng,tokens);
-var word = new Text(eng,string);
+var word = new Text(mwak,string);
 console.log(word.toString());
 console.log(JSON.stringify(word));
 langs.forEach(toLangStringTranslate.curry(conjugationLevel).curry(word));

@@ -24,7 +24,7 @@ ta li .u ไปยัง li .a ya
 fa li .u เกี่ยวกับ li .a ya
 tu li .u เจ้า li .a ya
 li li .u li li .a ya
-fu li .u Wil li .a ya
+fu li .u จะ li .a ya
 mya li .u บางที li .a ya
 ci li .u ใช่มั้ย? li .a ya
 myi li .u หน่วยความจำ li .a ya
@@ -34,7 +34,6 @@ psu li .u จากแหล่งที่มา li .a ya
 kya li .u กัน li .a ya
 ksa li .u ไม่ได้นำมาอ้าง li .a ya
 kla li .u แต่ li .a ya
-kwi li .u Yand li .a ya
 kca li .u ฮ้า li .a ya
 pwa li .u yaor li .a ya
 pli li .u ใกล้ li .a ya
@@ -44,6 +43,7 @@ pca li .u ครึกครื้น li .a ya
 nyi li .u ไม่ li .a ya
 nya li .u จาก li .a ya
 nwa li .u โมฆะ li .a ya
+swi li .u ในขณะที่ li .a ya
 sli li .u สำหรับตัวอย่างเช่น li .a ya
 sla li .u สวัสดี li .a ya
 slu li .u เอกพจน์ li .a ya
@@ -55,11 +55,12 @@ mik .u สำเนา li .a ya
 miy .u รอ li .a ya
 mip .u อดีต li .a ya
 min .u น้อยกว่า li .a ya
-mam .u แม่ li .a ya
+mit .u กลาง li .a ya
 mak .u คำ li .a ya
 map .u ขนาด li .a ya
 man .u คิด li .a ya
 mat .u แม่ li .a ya
+mac .u เครื่องจักรกล li .a ya
 kim .u เปรียบเทียบ li .a ya
 kiy .u ไป li .a ya
 kit .u ปลาย li .a ya
@@ -72,6 +73,7 @@ kat .u ได้รับ li .a ya
 kal .u ทั้งหมด li .a ya
 kum .u ค้า li .a ya
 kup .u ซื้อ li .a ya
+kun .u สีแดง li .a ya
 kut .u เล็ก li .a ya
 yik .u ปฏิเสธ li .a ya
 yan .u พูด li .a ya
@@ -80,7 +82,6 @@ piy .u การกระทำ li .a ya
 pam .u ดี li .a ya
 pak .u ร่างกาย li .a ya
 pay .u มากกว่า li .a ya
-pap .u พ่อ li .a ya
 paw .u สถานที่ li .a ya
 pan .u พบ li .a ya
 pat .u พ่อ li .a ya
@@ -88,36 +89,45 @@ pal .u จำนวนมาก li .a ya
 pac .u ความปิติยินดี li .a ya
 puy .u เด็ก li .a ya
 put .u ขาย li .a ya
+pul .u สีน้ำเงิน li .a ya
+wit .u แสง li .a ya
 wam .u เวลา li .a ya
 nim .u ชื่อ li .a ya
 wap .u หาง li .a ya
 wan .u ความรัก li .a ya
 wat .u พูด li .a ya
 wul .u ใหญ่ li .a ya
+nic .u พลังงาน li .a ya
 nam .u จำนวน li .a ya
 naw .u ปัจจุบัน li .a ya
 sim .u สาม li .a ya
 san .u ตนเอง li .a ya
+sat .u เสียง li .a ya
 sup .u จ่ายเงิน li .a ya
 sun .u หนึ่ง li .a ya
 tip .u เริ่มต้น li .a ya
 tam .u หัวข้อ li .a ya
-tan .u ต้นไม้ li .a ya
+tin .u เห็น li .a ya
 tiw .u ช่วย li .a ya
-tin .u ภายใน li .a ya
 tak .u ขอบคุณ li .a ya
 tay .u ใส่ li .a ya
+tap .u แตะ li .a ya
 tuw .u สอง li .a ya
 liy .u สี่ li .a ya
+lin .u สีเขียว li .a ya
 lit .u สัญลักษณ์ li .a ya
 fut .u อนาคต li .a ya
+cim .u ได้ยิน li .a ya
 cik .u น้อย li .a ya
 caw .u เสียงร้อง li .a ya
+cal .u ย้าย li .a ya
 myik .u เพิ่ม li .a ya
 kyim .u หัก li .a ya
+kyup .u กลุ่ม li .a ya
 kyul .u กฎ li .a ya
 kwal .u ภาษา li .a ya
 ksip .u เขียน li .a ya
+ksap .u ด่วน li .a ya
 klaw .u หัวเราะ li .a ya
 pyuf .u พิสูจน์ li .a ya
 klac .u ยกเว้น li .a ya
@@ -125,34 +135,59 @@ klas .u ประโยค li .a ya
 psun .u แหล่ง li .a ya
 pyan .u สรรพนาม li .a ya
 pyas .u วลี li .a ya
-pyat .u วัตถุไวยากรณ์ li .a ya
+pyuc .u โครงการ li .a ya
 psan .u ช่องว่าง li .a ya
+pyat .u วัตถุไวยากรณ์ li .a ya
 plis .u ใกล้เคียง li .a ya
 swat .u คำถาม li .a ya
 slim .u ตัวอย่าง li .a ya
 tkic .u แปลพจนานุกรม li .a ya
+tyim .u ตัวสั่น li .a ya
+twis .u จริง li .a ya
 tsin .u การอ้างอิง li .a ya
+tsil .u สมน้ำสมเนื้อ li .a ya
+tsan .u อีกครั้ง li .a ya
+tsal .u รัฐ li .a ya
+tsaf .u ลิ้มรส li .a ya
 tsuk .u ร้านขายของ li .a ya
 tlin .u เกี่ยวกับลำดับ li .a ya
 tlam .u การแปล li .a ya
+tlan .u ประเพณี li .a ya
+tcan .u ต้นไม้ li .a ya
 flas .u วลี li .a ya
+fluc .u ไหล li .a ya
+clum .u ประโยค li .a ya
 miyk .u ส่ง li .a ya
 miwk .u บุคคล li .a ya
+milt .u พันธมิตร li .a ya
+mast .u ไม่เป็นมิตร li .a ya
+malt .u วัสดุ li .a ya
+mack .u จินตนาการ li .a ya
 muys .u อารมณ์ li .a ya
 munt .u โลก li .a ya
+mult .u ศีลธรรม li .a ya
 kamt .u ไวยากรณ์ li .a ya
 kayp .u สิ่ง li .a ya
 kast .u ไวยากรณ์กรณี li .a ya
 kump .u อารมณ์ li .a ya
+kunt .u การควบคุม li .a ya
 yimk .u ถาม li .a ya
+yank .u ตื่นตัว li .a ya
 panp .u ขนมปัง li .a ya
-palt .u ขาย li .a ya
+punt .u ห่วง li .a ya
 pack .u เพลิดเพลิน li .a ya
 wiyp .u คำกริยา li .a ya
 niym .u คำนาม li .a ya
+sant .u ศิลปะ li .a ya
 sint .u รู้สึก li .a ya
-sant .u ประโยค li .a ya
 suyt .u ไวยากรณ์-เรื่อง li .a ya
 timp .u เครียด li .a ya
+tink .u ข้อความ li .a ya
 tiwk .u กิจกรรม li .a ya
+tuym .u โลก li .a ya
+tuwm .u ระยะเวลา li .a ya
+liyt .u วรรณกรรม li .a ya
+lint .u ภายใน li .a ya
+lank .u สี li .a ya
+lunt .u คน li .a ya
 tick .u พจนานุกรม li .a ya

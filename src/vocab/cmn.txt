@@ -20,12 +20,10 @@ ti li .u 之 .a ya
 ta li .u 到 li .a ya
 tu li .u 尒 li .a ya
 li li .u 字面 li .a ya
-fu li .u 将 .a ya
 myi li .u 记忆 .a ya
 mwa li .u 同 li .a ya
 kyi li .u 有条件 .a ya
 kya li .u 旁白 li .a ya
-kwi li .u 而 .a ya
 sa li .u 该 .a ya
 kca li .u 哈 li .a ya
 pli li .u 近 li .a ya
@@ -44,7 +42,6 @@ tli li .u 第 .a ya
 mik .u 复制 .a ya
 miy .u 等待 .a ya
 mip .u 过去 .a ya
-mam .u 妈妈 li .a ya
 min .u 减 .a ya
 mak .u 字 .a ya
 mat .u 母亲 li .a ya
@@ -63,7 +60,6 @@ pim .u 点 .a ya
 piy .u 法案 .a ya
 pam .u 良好 .a ya
 pak .u 体 .a ya
-pap .u 爸 li .a ya
 pay .u 更多 .a ya
 paw .u 地方 .a ya
 pat .u 父亲 li .a ya
@@ -80,7 +76,6 @@ wul .u payhmap .i 大 .a ya
 nam .u 号码 .a ya
 sim .u 三 li .a ya
 naw .u 现时 .a ya
-tin .u 里面 li .a ya
 tiw .u 救命 li .a ya
 sun .u 一 .a ya
 tak .u 谢谢 li .a ya
@@ -94,7 +89,6 @@ kyim .u 减去 .a ya
 kyul .u 规则 li .a ya
 klas .u 条款 .a ya
 klaw .u 笑 li .a ya
-psan .u 空间 .a ya
 pyan .u 代词 .a ya
 pyas .u 短语 .a ya
 pyat .u 语法对象 .a ya
@@ -107,7 +101,6 @@ tlin .u 序数词 .a ya
 miyk .u 发送 .a ya
 miwk .u 人 .a ya
 muys .u 情感 li .a ya
-munt .u 世界 .a ya
 kamt .u 语法 .a ya
 kayp .u 事 .a ya
 kast .u 语法情况 .a ya
@@ -116,7 +109,6 @@ yimk .u 问 .a ya
 wiyp .u 动词 .a ya
 niym .u 名词 .a ya
 sint .u 感觉 li .a ya
-sant .u 句子 .a ya
 suyt .u 语法学科 .a ya
 timp .u 语法时态 .a ya
 tiwk .u 活动 li .a ya

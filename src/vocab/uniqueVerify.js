@@ -19,8 +19,8 @@ var mwak = new Language();
 var Eng = require("../locale/eng/eng");
 var eng = new Eng(".");
 
-uniqueVerify("eng.txt");
 uniqueVerify("cmn.txt");
+uniqueVerify("eng.txt");
 uniqueVerify("spa.txt");
 uniqueVerify("hin.txt");
 uniqueVerify("ara.txt");
@@ -32,8 +32,8 @@ uniqueVerify("deu.txt");
 uniqueVerify("ita.txt");
 uniqueVerify("kor.txt");
 uniqueVerify("fra.txt");
-uniqueVerify("tur.txt");
 uniqueVerify("swa.txt");
+uniqueVerify("tur.txt");
 uniqueVerify("tha.txt");
 uniqueVerify("ukr.txt");
 uniqueVerify("nld.txt");
@@ -42,7 +42,6 @@ uniqueVerify("hun.txt");
 uniqueVerify("heb.txt");
 uniqueVerify("fin.txt");
 uniqueVerify("epo.txt");
-uniqueVerify("mwak.txt");
 
 function uniqueVerify(filename){
 // first argument is filename

@@ -50,7 +50,8 @@ for (i=0;i<amount;i++){
 	if (CPText === undefined){
 	var CString = CText.toLocaleString(mwak);
 		console.log("writing "+CFilename);
-	io.fileWrite(CFilename,CString);
+	if (debug) console.log(CString);
+	else io.fileWrite(CFilename,CString);
 }
 else if (CPText !== undefined){
 	console.log("updating "+CFilename);
@@ -77,8 +78,7 @@ else if (CPText !== undefined){
 	definitions = CText.select(mwak,".a");
 	definitions.sentences.forEach(textUpdate.curry(XText));
 	var XString = XText.toLocaleString(mwak);
-	if (debug)
-		console.log(XString);
+	if (debug) console.log(XString);
 	else {
 		console.log("writing "+XFilename);
 	//	io.fileWrite(XFilename+".json",JSON.stringify(XText));

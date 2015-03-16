@@ -22,15 +22,14 @@ ti li .u jener li .a ya
 ta li .u bis li .a ya
 tu li .u dich li .a ya
 li li .u wörtlich li .a ya
-fu li .u wil li .a ya
 fa li .u über li .a ya
 ci li .u eh? li .a ya
+fu li .u werden li .a ya
 myi li .u Speicher li .a ya
 mwa li .u mit li .a ya
 mya li .u kann-sein li .a ya
 kyi li .u bedingt li .a ya
 kya li .u beiseite li .a ya
-kwi li .u yand li .a ya
 sa li .u die li .a ya
 ksa li .u Ende-des-Zitats li .a ya
 kla li .u aber-doch li .a ya
@@ -44,6 +43,7 @@ pca li .u fröhlich li .a ya
 nyi li .u nicht li .a ya
 nwa li .u nichtig li .a ya
 nya li .u aus li .a ya
+swi li .u während li .a ya
 sli li .u beispielsweise li .a ya
 slu li .u Einzahl li .a ya
 sla li .u hallo li .a ya
@@ -54,12 +54,13 @@ tli li .u ord li .a ya
 mik .u Kopie li .a ya
 miy .u warten li .a ya
 mip .u Vergangenheit li .a ya
-mam .u Mama li .a ya
+mit .u Mitte li .a ya
 min .u weniger li .a ya
 mak .u Wort li .a ya
 mat .u Mutter li .a ya
 man .u denken li .a ya
 map .u Größe li .a ya
+mac .u Maschine li .a ya
 kim .u vergleichen li .a ya
 kiy .u gehen li .a ya
 kit .u ende li .a ya
@@ -72,6 +73,7 @@ kat .u erhalten li .a ya
 kal .u alle li .a ya
 kum .u Handel li .a ya
 kup .u kaufen li .a ya
+kun .u rot li .a ya
 kut .u klein li .a ya
 yik .u negieren li .a ya
 yan .u sagen li .a ya
@@ -79,7 +81,6 @@ pim .u Punkt li .a ya
 piy .u Handlung li .a ya
 pam .u gut li .a ya
 pak .u Körper li .a ya
-pap .u Papa li .a ya
 pay .u mehr li .a ya
 paw .u Platz li .a ya
 pat .u Vater li .a ya
@@ -88,36 +89,45 @@ pan .u treffen li .a ya
 pac .u Freude li .a ya
 puy .u Kind li .a ya
 put .u verkaufen li .a ya
+pul .u blau li .a ya
+wit .u Licht li .a ya
 fut .u Zukunft li .a ya
 wam .u Zeit li .a ya
 wan .u lieben li .a ya
 wap .u Schwanz li .a ya
 wat .u sprechen li .a ya
 nim .u Name li .a ya
+nic .u Energie li .a ya
 wul .u groß li .a ya
 nam .u Anzahl li .a ya
 sim .u drei li .a ya
 san .u selbst li .a ya
+sat .u klingen li .a ya
 sup .u zahlen li .a ya
 naw .u vorhanden li .a ya
 tip .u start li .a ya
-tin .u innerhalb li .a ya
 tiw .u hilfe li .a ya
+tin .u sehen li .a ya
 tam .u Thema li .a ya
 sun .u einer li .a ya
 tay .u setzen li .a ya
-tan .u Baum li .a ya
+tap .u berühren li .a ya
 tak .u danken li .a ya
 liy .u vier li .a ya
+lin .u grün li .a ya
 tuw .u zwei li .a ya
 lit .u Glyphe li .a ya
+cim .u hören li .a ya
 cik .u wenige li .a ya
 caw .u Schrei li .a ya
+cal .u sich-bewegen li .a ya
 myik .u hinzufügen li .a ya
 kyim .u subtrahieren li .a ya
+kyup .u Gruppe li .a ya
 kyul .u Regel li .a ya
 kwal .u Sprache li .a ya
 ksip .u schreiben li .a ya
+ksap .u ausdrücken li .a ya
 klaw .u Lachen li .a ya
 klas .u Klausel li .a ya
 klac .u außer li .a ya
@@ -125,34 +135,59 @@ pyan .u Pronomen li .a ya
 pyas .u Ausdruck li .a ya
 pyat .u grammatisch-Objekt li .a ya
 pyuf .u Beweis li .a ya
+pyuc .u Projekt li .a ya
+psan .u Raum li .a ya
 plis .u in-der-Nähe li .a ya
 psun .u Quelle li .a ya
-psan .u Raum li .a ya
 swat .u Frage li .a ya
 slim .u Beispiel li .a ya
 tkic .u Übersetzung-Wörterbuch li .a ya
+tyim .u zittern li .a ya
+twis .u wahr li .a ya
 tsin .u Hinweis li .a ya
+tsil .u verdienen li .a ya
+tsan .u schon-wieder li .a ya
+tsal .u Zustand li .a ya
+tsaf .u Geschmack li .a ya
 tsuk .u Geschäft li .a ya
 tlam .u übersetzen li .a ya
 tlin .u Ordnungs- li .a ya
+tlan .u Tradition li .a ya
+tcan .u Baum li .a ya
 flas .u Ausdruck li .a ya
+fluc .u fließen li .a ya
+clum .u Satz li .a ya
 miyk .u senden li .a ya
 miwk .u Person li .a ya
+milt .u Verbündete li .a ya
+mast .u feindlich li .a ya
+malt .u Material li .a ya
+mack .u sich-vorstellen li .a ya
 muys .u Emotion li .a ya
 munt .u Welt li .a ya
+mult .u Moral li .a ya
 kamt .u Grammatik li .a ya
 kayp .u Sache li .a ya
 kast .u grammatisch-Fall li .a ya
 kump .u Stimmung li .a ya
+kunt .u Steuerung li .a ya
 yimk .u fragen li .a ya
+yank .u wach li .a ya
 panp .u Brot li .a ya
-palt .u verkaufen li .a ya
+punt .u Schleife li .a ya
 pack .u genießen li .a ya
 wiyp .u Verb li .a ya
 niym .u Substantiv li .a ya
+sant .u die-kunst li .a ya
 sint .u Gefühl li .a ya
-sant .u Satz li .a ya
 suyt .u grammatische-Subjekt- li .a ya
 timp .u grammatisch-angespannt li .a ya
+tink .u Text li .a ya
 tiwk .u Aktivität li .a ya
+tuym .u Welt li .a ya
+tuwm .u Dauer li .a ya
+liyt .u Literatur li .a ya
+lint .u innerhalb li .a ya
+lank .u Farbe li .a ya
+lunt .u Menschen li .a ya
 tick .u Wörterbuch li .a ya

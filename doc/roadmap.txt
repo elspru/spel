@@ -47,7 +47,8 @@ Speakable Programming for Every Language Translator SPELT
 0.5.6 basic subordinate texts (11 Mar 2015)
 0.5.7 text title from text quote (13 Mar 2015)
 0.5.8 named and anonymous subordinate texts (14 Mar 2015)
-0.5.A number quote endianness 
+0.5.A number quote endianness  (15 Mar 2015)
+
 0.5.D continuous deployment tests
 0.6 basic javascript translation
 0.6.0 translation of simple sentences to javascript

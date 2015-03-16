@@ -22,15 +22,14 @@ ti li .u dat li .a ya
 ta li .u naar li .a ya
 tu li .u u li .a ya
 li li .u letterlijk li .a ya
-fu li .u wil li .a ya
 fa li .u over li .a ya
 ci li .u eh? li .a ya
+fu li .u wil li .a ya
 myi li .u geheugen li .a ya
 mwa li .u met li .a ya
 mya li .u misschien li .a ya
 kyi li .u voorwaardelijk li .a ya
 kya li .u terzijde li .a ya
-kwi li .u yand li .a ya
 sa li .u de li .a ya
 ksa li .u Einde-van-de-citation- li .a ya
 kla li .u maar li .a ya
@@ -44,6 +43,7 @@ pca li .u vrolijk li .a ya
 nyi li .u niet li .a ya
 nwa li .u leegte li .a ya
 nya li .u uit li .a ya
+swi li .u terwijl li .a ya
 sli li .u bijvoorbeeld li .a ya
 slu li .u Enkelvoud li .a ya
 sla li .u hallo li .a ya
@@ -54,12 +54,13 @@ tli li .u ord li .a ya
 mik .u kopie li .a ya
 miy .u wachten li .a ya
 mip .u verleden li .a ya
-mam .u Mam li .a ya
+mit .u Midden li .a ya
 min .u minder li .a ya
 mak .u woord li .a ya
 mat .u Moeder li .a ya
 man .u denken li .a ya
 map .u grootte li .a ya
+mac .u Machine li .a ya
 kim .u vergelijken li .a ya
 kiy .u gaan li .a ya
 kit .u einde li .a ya
@@ -72,6 +73,7 @@ kat .u ontvangen li .a ya
 kal .u alle li .a ya
 kum .u Handel li .a ya
 kup .u kopen li .a ya
+kun .u rood li .a ya
 kut .u klein li .a ya
 yik .u ontkennen li .a ya
 yan .u zeggen li .a ya
@@ -79,7 +81,6 @@ pim .u punt li .a ya
 piy .u daad li .a ya
 pam .u goed li .a ya
 pak .u lichaam li .a ya
-pap .u Pa li .a ya
 pay .u meer li .a ya
 paw .u plaats li .a ya
 pat .u Vader li .a ya
@@ -88,36 +89,45 @@ pan .u ontmoeten li .a ya
 pac .u vreugde li .a ya
 puy .u kind li .a ya
 put .u verkopen li .a ya
+pul .u blauw li .a ya
+wit .u Licht li .a ya
 fut .u toekomst li .a ya
 wam .u tijd li .a ya
 wan .u liefde li .a ya
 wap .u staart li .a ya
 wat .u spreken li .a ya
 nim .u Naam li .a ya
+nic .u Energie li .a ya
 wul .u groot li .a ya
 nam .u aantal li .a ya
 sim .u drie li .a ya
 san .u zelf li .a ya
+sat .u klinken li .a ya
 sup .u betalen li .a ya
 naw .u aanwezig li .a ya
 tip .u beginnen li .a ya
-tin .u binnen li .a ya
 tiw .u helpen li .a ya
+tin .u zien li .a ya
 tam .u Onderwerp li .a ya
 sun .u één li .a ya
 tay .u reeks li .a ya
-tan .u Boom li .a ya
+tap .u aanraken li .a ya
 tak .u bedanken li .a ya
 liy .u vier li .a ya
+lin .u groen li .a ya
 tuw .u twee li .a ya
 lit .u Glyph li .a ya
+cim .u luisteren li .a ya
 cik .u weinig li .a ya
 caw .u Schreeuw li .a ya
+cal .u verhuizing li .a ya
 myik .u toevoegen li .a ya
 kyim .u aftrekken li .a ya
+kyup .u Groep li .a ya
 kyul .u Regel li .a ya
 kwal .u taal li .a ya
 ksip .u schrijven li .a ya
+ksap .u uitdrukken li .a ya
 klaw .u lach li .a ya
 klas .u clausule li .a ya
 klac .u behalve li .a ya
@@ -125,34 +135,59 @@ pyan .u voornaamwoord li .a ya
 pyas .u uitdrukking li .a ya
 pyat .u grammaticale-object li .a ya
 pyuf .u Bewijsmateriaal li .a ya
+pyuc .u Project li .a ya
+psan .u Ruimte li .a ya
 plis .u in-de-buurt li .a ya
 psun .u Bron li .a ya
-psan .u ruimte li .a ya
 swat .u Vraag li .a ya
 slim .u voorbeeld li .a ya
 tkic .u translatie-woordenboek li .a ya
+tyim .u beven li .a ya
+twis .u waar li .a ya
 tsin .u Notitie li .a ya
+tsil .u verdienen li .a ya
+tsan .u opnieuw li .a ya
+tsal .u Conditie li .a ya
+tsaf .u Smaak li .a ya
 tsuk .u Bedrijf li .a ya
 tlam .u vertalen li .a ya
 tlin .u ranggetal li .a ya
+tlan .u Traditie li .a ya
+tcan .u Boom li .a ya
 flas .u uitdrukking li .a ya
+fluc .u stromen li .a ya
+clum .u Zin li .a ya
 miyk .u sturen li .a ya
 miwk .u persoon li .a ya
+milt .u Bondgenoot li .a ya
+mast .u vijandig li .a ya
+malt .u Materiaal li .a ya
+mack .u zich-voorstellen li .a ya
 muys .u emotie li .a ya
-munt .u wereld li .a ya
+munt .u Wereld li .a ya
+mult .u Moraliteit li .a ya
 kamt .u grammatica li .a ya
 kayp .u ding li .a ya
 kast .u grammaticale-case li .a ya
 kump .u stemming li .a ya
+kunt .u Controle li .a ya
 yimk .u vragen li .a ya
+yank .u wakker li .a ya
 panp .u Brood li .a ya
-palt .u verkopen li .a ya
+punt .u Lus li .a ya
 pack .u genieten li .a ya
 wiyp .u werkwoord li .a ya
 niym .u naamwoord li .a ya
+sant .u kunst li .a ya
 sint .u voelen li .a ya
-sant .u zin li .a ya
 suyt .u grammaticale-onderwerp li .a ya
 timp .u grammaticale-gespannen li .a ya
+tink .u Tekst li .a ya
 tiwk .u activiteit li .a ya
+tuym .u Wereld li .a ya
+tuwm .u Duur li .a ya
+liyt .u Literatuur li .a ya
+lint .u binnen li .a ya
+lank .u Kleur li .a ya
+lunt .u Mensen li .a ya
 tick .u woordenboek li .a ya

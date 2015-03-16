@@ -22,15 +22,14 @@ ti li .u था li .a ya
 ta li .u को li .a ya
 tu li .u तेरा li .a ya
 li li .u शाब्दिक li .a ya
-fu li .u wil li .a ya
 fa li .u अबाउट li .a ya
 ci li .u एह? li .a ya
+fu li .u जायेंगे li .a ya
 myi li .u याद li .a ya
 mwa li .u संग li .a ya
 mya li .u मेबी li .a ya
 kyi li .u सशर्त li .a ya
 kya li .u अलग li .a ya
-kwi li .u Yand li .a ya
 sa li .u एस् li .a ya
 ksa li .u गंदें-शब्द-बोलना li .a ya
 kla li .u लेकिन li .a ya
@@ -44,6 +43,7 @@ pca li .u रसिक li .a ya
 nyi li .u न li .a ya
 nwa li .u अशक्त li .a ya
 nya li .u से li .a ya
+swi li .u जबकि li .a ya
 sli li .u उदाहरण-के-लिए li .a ya
 slu li .u एकवचन li .a ya
 sla li .u नमस्कार li .a ya
@@ -54,12 +54,13 @@ tli li .u ORD li .a ya
 mik .u प्रतिलिपि li .a ya
 miy .u इंतज़ार li .a ya
 mip .u अतीत li .a ya
-mam .u मा li .a ya
+mit .u मध्यम li .a ya
 min .u कम li .a ya
 mak .u शब्द li .a ya
 mat .u माँ li .a ya
 man .u सोचा li .a ya
 map .u आकार li .a ya
+mac .u मशीन li .a ya
 kim .u तुलना li .a ya
 kiy .u जाओ li .a ya
 kit .u समाप्त li .a ya
@@ -72,6 +73,7 @@ kat .u मिलना li .a ya
 kal .u सारे li .a ya
 kum .u व्यापार li .a ya
 kup .u खरीद li .a ya
+kun .u लाल li .a ya
 kut .u छोटा li .a ya
 yik .u नकारना li .a ya
 yan .u कहो li .a ya
@@ -79,7 +81,6 @@ pim .u बिंदु li .a ya
 piy .u अधिनियम li .a ya
 pam .u अच्छा li .a ya
 pak .u बॉडी li .a ya
-pap .u पिता li .a ya
 pay .u ज्यादा li .a ya
 paw .u जगह li .a ya
 pat .u पिताजी li .a ya
@@ -88,37 +89,45 @@ pan .u मिले li .a ya
 pac .u खुशी li .a ya
 puy .u बच्चा li .a ya
 put .u बेचना li .a ya
+pul .u ब्लू li .a ya
+wit .u रोशनी li .a ya
 fut .u भविष्य li .a ya
 wam .u समय li .a ya
 wan .u इश्क li .a ya
 wap .u पूंछ li .a ya
 wat .u बोलो li .a ya
 nim .u नाम li .a ya
+nic .u एनर्जी li .a ya
 wul .u महा li .a ya
 nam .u नंबर li .a ya
 sim .u तीन li .a ya
 san .u स्वयं li .a ya
+sat .u ध्वनि li .a ya
 sup .u वेतन li .a ya
 sim .a ya
 tip .u शुरू li .a ya
-tin .u अंदर li .a ya
 tiw .u मदद li .a ya
+tin .u देख li .a ya
 tam .u टॉपिक li .a ya
 naw .u वर्तमान li .a ya
 tay .u रखना li .a ya
-tan .u पेड li .a ya
+tap .u स्पर्श li .a ya
 tak .u धन्यवाद li .a ya
 liy .u फोर li .a ya
-tin .a ya
+lin .u हरा li .a ya
 lit .u ग्लिफ़ li .a ya
 sun .u एक li .a ya
+cim .u सुन-रहे li .a ya
 caw .u चिल्लाना li .a ya
 liy .a ya
+cal .u चाल li .a ya
 tuw .u दो li .a ya
 kyul .u राज li .a ya
+kyup .u गट li .a ya
 cik .u कुछ li .a ya
 ksip .u लिखो li .a ya
 myik .u जोड़ना li .a ya
+ksap .u व्यक्त li .a ya
 kyim .u घटाना li .a ya
 klac .u सिवाय li .a ya
 kwal .u भाषा li .a ya
@@ -126,36 +135,61 @@ klaw .u हंसी li .a ya
 klas .u धारा li .a ya
 pyuf .u प्रमाण li .a ya
 plis .u समीप li .a ya
+pyuc .u परियोजना li .a ya
+psan .u अंतरिक्ष li .a ya
 psun .u स्रोत li .a ya
 pyan .u सर्वनाम li .a ya
 swat .u सवाल li .a ya
 pyas .u मुहावरा li .a ya
 pyat .u व्याकरण-वस्तु li .a ya
+tyim .u घबराना li .a ya
+twis .u सच li .a ya
 tsin .u संदर्भ li .a ya
+tsil .u लायक li .a ya
+tsan .u दुबारा li .a ya
+tsal .u स्टेट li .a ya
+tsaf .u स्वाद li .a ya
 tsuk .u दुकान li .a ya
 tlam .u अनुवाद-करें li .a ya
 plis .a ya
-psan .u अंतरिक्ष li .a ya
+tlan .u परंपरा li .a ya
+tcan .u पेड li .a ya
 slim .u उदाहरण li .a ya
+fluc .u बहे li .a ya
+clum .u सेंटेंस li .a ya
 tkic .u अनुवाद-शब्दकोश li .a ya
 tlam .a ya
+milt .u मित्र li .a ya
+mast .u शत्रुतापूर्ण li .a ya
+malt .u सामग्री li .a ya
+mack .u कल्पना li .a ya
 tlin .u क्रमवाचक li .a ya
+munt .u दुनिया li .a ya
+mult .u नेतिक li .a ya
 flas .u मुहावरा li .a ya
 miyk .u भेजो li .a ya
 miwk .u व्यक्ति li .a ya
 muys .u भावना li .a ya
-munt .u दुनिया li .a ya
+kunt .u नियंत्रण li .a ya
 panp .u रोटी li .a ya
-palt .u बेचना li .a ya
+yank .u जागर li .a ya
 pack .u आनंद li .a ya
+punt .u पाश li .a ya
 kamt .u व्याकरण li .a ya
 kayp .u चीज li .a ya
 kast .u व्याकरण-केस li .a ya
+sant .u कला li .a ya
 kump .u मनोदशा li .a ya
 wiyp .u क्रिया li .a ya
 niym .u संज्ञा li .a ya
-sant .u सेंटेंस li .a ya
+tink .u टेक्स्ट li .a ya
 sint .u लगना li .a ya
+tuym .u दुनिया li .a ya
+tuwm .u अवधि li .a ya
+liyt .u साहित्य li .a ya
+lint .u अंदर li .a ya
+lank .u रंग li .a ya
+lunt .u लोग li .a ya
 suyt .u व्याकरण-विषय li .a ya
 timp .u व्याकरण-काल li .a ya
 tick .u शब्दकोश li .a ya

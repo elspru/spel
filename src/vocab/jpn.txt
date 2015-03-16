@@ -22,15 +22,14 @@ ti li .u その li .a ya
 ta li .u へ li .a ya
 tu li .u 汝 li .a ya
 li li .u リテラル li .a ya
-fu li .u ウィル li .a ya
 fa li .u 約 li .a ya
 ci li .u その右はありますか？ li .a ya
+fu li .u ウィル li .a ya
 myi li .u メモリ li .a ya
 mwa li .u ととも​​に li .a ya
 mya li .u 多分 li .a ya
 kyi li .u 条件付きで li .a ya
 kya li .u 余談 li .a ya
-kwi li .u と雅 li .a ya
 sa li .u ザ· li .a ya
 ksa li .u エンド引用 li .a ya
 kla li .u しかし li .a ya
@@ -44,6 +43,7 @@ pca li .u 徐 li .a ya
 nyi li .u しない li .a ya
 nwa li .u ゼロ li .a ya
 nya li .u から li .a ya
+swi li .u と li .a ya
 sli li .u 例えば li .a ya
 slu li .u 単数形 li .a ya
 sla li .u こんにちは li .a ya
@@ -54,12 +54,13 @@ tli li .u 記事 li .a ya
 mik .u コピー li .a ya
 miy .u 待つ li .a ya
 mip .u 過去 li .a ya
-mam .u ママ li .a ya
+mit .u ミドル li .a ya
 min .u もっと少なく li .a ya
 mak .u 単語 li .a ya
 mat .u 母親 li .a ya
 man .u 思う li .a ya
 map .u サイズ li .a ya
+mac .u マシン li .a ya
 kim .u 比較する li .a ya
 kiy .u 行く li .a ya
 kit .u 終わり li .a ya
@@ -72,6 +73,7 @@ kat .u 入手する li .a ya
 kal .u すべて li .a ya
 kum .u トレード li .a ya
 kup .u 購入 li .a ya
+kun .u レッド li .a ya
 kut .u 小さな li .a ya
 yik .u 否定する li .a ya
 yan .u セイ li .a ya
@@ -79,7 +81,6 @@ pim .u ポイント li .a ya
 piy .u 行為 li .a ya
 pam .u 良い li .a ya
 pak .u ボディ li .a ya
-pap .u お父さん li .a ya
 pay .u もっと li .a ya
 paw .u 場所 li .a ya
 pat .u 父 li .a ya
@@ -88,36 +89,45 @@ pan .u 大会 li .a ya
 pac .u ジョイ li .a ya
 puy .u 子供 li .a ya
 put .u 販売 li .a ya
+pul .u 青 li .a ya
+wit .u ライト li .a ya
 fut .u 未来 li .a ya
 wam .u 時間 li .a ya
 wan .u ラブ li .a ya
 wap .u テール li .a ya
 wat .u 話す li .a ya
 nim .u ファーストネーム li .a ya
+nic .u エネルギー li .a ya
 wul .u ビッグ li .a ya
 nam .u 数 li .a ya
 sim .u 3 li .a ya
 san .u セルフ li .a ya
+sat .u サウンド li .a ya
 sup .u 支払い li .a ya
 naw .u 現在 li .a ya
 tip .u ベギン li .a ya
-tin .u 内部 li .a ya
 tiw .u 助けて li .a ya
+tin .u 見る li .a ya
 tam .u トピック li .a ya
 sun .u 一 li .a ya
 tay .u リリース li .a ya
-tan .u ツリー li .a ya
+tap .u 触れる li .a ya
 tak .u ありがとう li .a ya
 liy .u 4つの li .a ya
+lin .u グリーン li .a ya
 tuw .u 二つ li .a ya
 lit .u フォント li .a ya
+cim .u 聞く li .a ya
 cik .u 少数 li .a ya
 caw .u シャウト li .a ya
+cal .u 移動 li .a ya
 myik .u 加える li .a ya
 kyim .u マイナス li .a ya
+kyup .u グループ li .a ya
 kyul .u ルール li .a ya
 kwal .u 言語 li .a ya
 ksip .u 書く li .a ya
+ksap .u 表現 li .a ya
 klaw .u 笑い li .a ya
 klas .u 句 li .a ya
 klac .u 除く li .a ya
@@ -125,34 +135,59 @@ pyan .u 代名詞 li .a ya
 pyas .u フレーズ li .a ya
 pyat .u 文法的オブジェクト li .a ya
 pyuf .u 証拠 li .a ya
+pyuc .u エンジニアリング li .a ya
+psan .u スペース li .a ya
 plis .u 近所の li .a ya
 psun .u ソース li .a ya
-psan .u スペース li .a ya
 swat .u 問題 li .a ya
 flas .u フレーズ li .a ya
 tkic .u 翻訳、辞書 li .a ya
+tyim .u 震える li .a ya
+twis .u 本当に li .a ya
 tsin .u リファレンス li .a ya
+tsil .u 価値がある li .a ya
+tsan .u もう一度 li .a ya
+tsal .u ステータス li .a ya
+tsaf .u 味 li .a ya
 tsuk .u ショップ li .a ya
 tlam .u 翻訳 li .a ya
 slim .u 例 li .a ya
+tlan .u 伝統 li .a ya
+tcan .u ツリー li .a ya
 tlin .u 序数 li .a ya
+fluc .u フロー li .a ya
+clum .u 文 li .a ya
 miyk .u 送信する li .a ya
 muys .u 感情 li .a ya
+milt .u アリー li .a ya
+mast .u 敵 li .a ya
+malt .u 材料 li .a ya
+mack .u イマジン li .a ya
 miwk .u 人 li .a ya
 munt .u 世界 li .a ya
+mult .u 倫理 li .a ya
 kamt .u 文法 li .a ya
 kayp .u 事 li .a ya
 kump .u ムード li .a ya
 kast .u 文法的-ケース li .a ya
+kunt .u コントロール li .a ya
 yimk .u 頼む li .a ya
+yank .u ウェーク li .a ya
 panp .u パン li .a ya
-palt .u 販売 li .a ya
+punt .u リング li .a ya
 pack .u 楽しむ li .a ya
 wiyp .u 動詞 li .a ya
 sint .u 気持ち li .a ya
+sant .u アート li .a ya
 niym .u 名詞 li .a ya
-sant .u 文 li .a ya
 suyt .u 文法的被験者 li .a ya
 tiwk .u アクティビティ li .a ya
+tink .u テキスト li .a ya
 timp .u 文法的時制 li .a ya
+tuym .u 世界 li .a ya
+tuwm .u 長さ li .a ya
+liyt .u 文学 li .a ya
+lint .u 内部 li .a ya
+lank .u 色 li .a ya
+lunt .u ピープル li .a ya
 tick .u 辞書 li .a ya

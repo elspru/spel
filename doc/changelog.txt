@@ -2386,3 +2386,108 @@ have been having some trouble with espeak. but ya anyways back
 to debugging.
 0726 okay seems to be working, would test it more but not sure
 how. okay so lets just call it done then.
+0736 okay next is number quote endianness. or lets fix the
+espeak for the evening ya
+0817 prett much works, just need arabic espeak files, and to
+redirect stderr from translate-bin so that it doesn't clutter 
+the screen.
+0827 so need japanese and arabic
+1128 actually looking into it more, seems like Turkish should be
+enough to represent Altaic, it is the oldest member of that
+language family. Also Korean and Japonic are isolates, so are
+divergent, wheras turkic has been in central asia a long time,
+so is more likely to be true to it's roots. 
+1132 means I only need to add support for arabic.
+1216 okay it works :-D
+ /wˈaɪl/ while en. 
+ /ˈərɜ/ 而 zh. 
+ /mjˈɛntɾas/ mientras es. 
+ /fj ħjn/ في حين ar. 
+ /ɟˈʌbkˌɪ/ जबकि hi. 
+ /f tˈo vrʲˈemʲʌ kˈɑk/ в то время как ru. 
+ /səməntˈara/ sementara id. 
+ /wakˈati/ wakati sw. 
+ /syɾˈɛ/ süre tr. 
+1217 cool so now can probably put those IPA's together to form a
+frequency analysis at the bottom.
+oh w/e  loop
+ /lˈuːp/ loop :en. 
+ /xˈuaɜn/ 环 :zh. 
+ /bˈukle/ bucle :es. 
+ /أnʃwtˤة/ أنشوطة :ar. 
+ /pˈaːʃ/ पाश :hi. 
+ /pʲˈetɭʌ/ петля :ru. 
+ /putˈaran/ putaran :id. 
+ /kitˈanzi/ kitanzi :sw. 
+ /dœnɡˈø/ döngü :tr. 
+punt
+1231
+ /tˈɛkst/ text :en. 
+ /wˈuəɜn pˈə2n/ 文本 :zh. 
+ /tˈeksto/ texto :es. 
+ /nsˤ/ نص :ar. 
+ /ʈˈeːksʈ/ टेक्स्ट :hi. 
+ /tʲˈekst/ текст :ru. 
+ /tˈɛks/ teks :id. 
+ /nakˈala/ Nakala :sw. 
+ /metˈɪn/ metin :tr. 
+tink
+1238 swa for while
+1240 during for the noun version
+1243 tuwn for during. cool seems like at this speed can meet the
+roadmap for vocab. 
+1252 liyt for literature
+1638 imagine mack
+1705 awake yank
+1714 express ksap
+1723 deserve tsil
+1729 taste tsaf
+2220 want to add art, best is sant, but may need to redefine
+sentence
+ /sˈɛntəns/ sentence :en. 
+ /tɕˈy5 tsi̪1/ 句子 :zh. 
+ /ˌɔɾaθjˈɔŋ/ oración :es. 
+ /sˈʌɟaː/ सजा :hi. 
+ /alʒmlh / الجملة :ar. 
+ /kalˈimat/ kalimat :id. 
+ /prʲidɭʌʒˈɛnijɪ/ предложение :ru. 
+ /hukˈumu/ hukumu :sw. 
+ /dʒˈømlɛ/ cümle :tr. 
+cuml
+hmmm cuml isn't valid clum
+2302 mast hostile, pyit baby.
+2305 pyuc project. 
+2314 twis true.  milt ally.
+2320 lank color.
+} 15 Mar 2015
+0900 tin see, tap touch, 
+1506 adding words, and definitions.
+1513 hmmm rhotic sounds are so common, I'm thinking of changing
+l to r. but maybe it is too late for that.. few languages have
+the same kind of rhotic sounds, and it's a weak sound. few
+people can pronounce a true rolling r if they weren't born into
+a trill r language. 
+1546 can check which words don't have definitions
+2148 guess I can include hungarian for uralic, it's easy to do,
+and the total land area does cover nearly as much as
+austronesian languages. 
+2217 the way I grok it, a tradition is a state machine.
+} 16 Mar 2015
+0637 so lets see what else is on the roadmap
+0638 number quote endianness and continuous deployment tests.
+0639 so can do endianness in type probably, need both input and
+output ya eventually would be best to split it out into
+subclasses or something ya
+0729 okay coded it.  now have to test ya
+0828 okay it is fully working, will now git update
+0839 first there is weird bug with sub texts when trying to do
+vocab update.
+1139 fixed the one releated to yi's, but still one with li's
+1148 okay seems fully fixed now
+1217 testing translation
+1517 okay finally is working smoothly, it was issue that there
+was an empty definition.
+1522 hmmm yand and while is the same thing it seems like.
+1534 replaced yand kwi with while swi :-)
+1603 okay reduced some duplicates by taking out some synonyms
+will try adding some new words now.

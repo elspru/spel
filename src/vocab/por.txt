@@ -22,15 +22,14 @@ ti li .u tha li .a ya
 ta li .u para li .a ya
 tu li .u ti li .a ya
 li li .u literal li .a ya
-fu li .u wil li .a ya
 fa li .u sobre-o-que li .a ya
 ci li .u Hein? li .a ya
+fu li .u vontade li .a ya
 myi li .u memória li .a ya
 mwa li .u com li .a ya
 mya li .u pode-se li .a ya
 kyi li .u condicionalmente li .a ya
 kya li .u de-lado li .a ya
-kwi li .u yand li .a ya
 sa li .u o li .a ya
 ksa li .u fin-de-la-nomeação li .a ya
 kla li .u mas li .a ya
@@ -44,6 +43,7 @@ pca li .u alegre li .a ya
 nyi li .u não li .a ya
 nwa li .u nulo li .a ya
 nya li .u a-partir-de li .a ya
+swi li .u enquanto li .a ya
 sli li .u por-exemplo .a ya
 slu li .u singular li .a ya
 sla li .u Olá li .a ya
@@ -54,12 +54,13 @@ tli li .u ord li .a ya
 mik .u cópia li .a ya
 miy .u esperar li .a ya
 mip .u passado li .a ya
-mam .u mamãe li .a ya
+mit .u meios li .a ya
 min .u menos li .a ya
 mak .u palavra li .a ya
 mat .u mãe li .a ya
 man .u pensar li .a ya
 map .u tamanho li .a ya
+mac .u máquina li .a ya
 kim .u comparar li .a ya
 kiy .u ir li .a ya
 kit .u fim li .a ya
@@ -72,6 +73,7 @@ kat .u para-obter li .a ya
 kal .u tudo li .a ya
 kum .u comércio li .a ya
 kup .u comprar li .a ya
+kun .u vermelho li .a ya
 kut .u pequeno li .a ya
 yik .u negar li .a ya
 yan .u dizer li .a ya
@@ -79,7 +81,6 @@ pim .u ponto li .a ya
 piy .u ato li .a ya
 pam .u bom li .a ya
 pak .u corpo li .a ya
-pap .u pai li .a ya
 pay .u mais li .a ya
 paw .u lugar li .a ya
 pat .u pai li .a ya
@@ -88,36 +89,45 @@ pan .u conheça li .a ya
 pac .u alegria li .a ya
 puy .u criança li .a ya
 put .u vender li .a ya
+pul .u azul li .a ya
+wit .u luz li .a ya
 fut .u futuro li .a ya
 wam .u tempo li .a ya
 wan .u amar li .a ya
 wap .u cauda li .a ya
 wat .u falar li .a ya
 nim .u nome li .a ya
+nic .u energia li .a ya
 wul .u grande li .a ya
 nam .u número li .a ya
 sim .u três li .a ya
 san .u EU li .a ya
+sat .u sonar li .a ya
 sup .u pagar li .a ya
 naw .u presente li .a ya
 tip .u início li .a ya
-tin .u dentro li .a ya
 tiw .u socorro li .a ya
+tin .u ver li .a ya
 tam .u tópico li .a ya
 sun .u um li .a ya
 tay .u vestir li .a ya
-tan .u árvore li .a ya
+tap .u tocar li .a ya
 tak .u obrigado li .a ya
 liy .u quatro li .a ya
+lin .u verde li .a ya
 tuw .u dois li .a ya
 lit .u glifo li .a ya
+cim .u ouvir li .a ya
 cik .u poucos li .a ya
 caw .u grito li .a ya
+cal .u movimento li .a ya
 myik .u adicionar li .a ya
 kyim .u subtrair li .a ya
+kyup .u grupo li .a ya
 kyul .u regra li .a ya
 kwal .u língua li .a ya
 ksip .u escrever li .a ya
+ksap .u expressar li .a ya
 klaw .u riso li .a ya
 klas .u cláusula li .a ya
 klac .u exceto li .a ya
@@ -125,34 +135,59 @@ pyan .u pronome li .a ya
 pyas .u frase li .a ya
 pyat .u gramático-objeto li .a ya
 pyuf .u teste li .a ya
+pyuc .u projeto li .a ya
+psan .u espaço li .a ya
 plis .u próximo li .a ya
 psun .u fonte li .a ya
-psan .u espaço li .a ya
 swat .u pergunta li .a ya
 slim .u exemplo li .a ya
 tkic .u tradução-dictionary li .a ya
+tyim .u tremer li .a ya
+twis .u real li .a ya
 tsin .u referência li .a ya
+tsil .u mérito li .a ya
+tsan .u de-novo li .a ya
+tsal .u estado li .a ya
+tsaf .u sabor li .a ya
 tsuk .u loja li .a ya
 tlam .u traduzir li .a ya
 tlin .u ordinal li .a ya
+tlan .u tradição li .a ya
+tcan .u árvore li .a ya
 flas .u frase li .a ya
+fluc .u fluir li .a ya
+clum .u frase li .a ya
 miyk .u enviar li .a ya
 miwk .u pessoa li .a ya
+milt .u aliado li .a ya
+mast .u hostil li .a ya
+malt .u material li .a ya
+mack .u imaginar li .a ya
 muys .u emoção li .a ya
 munt .u mundo li .a ya
+mult .u moral li .a ya
 kamt .u gramática li .a ya
 kayp .u coisa li .a ya
 kast .u gramatical-case li .a ya
 kump .u humor li .a ya
+kunt .u controle li .a ya
 yimk .u perguntar li .a ya
+yank .u desperto li .a ya
 panp .u pão li .a ya
-palt .u vender li .a ya
+punt .u laço li .a ya
 pack .u desfrutar li .a ya
 wiyp .u verbo li .a ya
 niym .u substantivo li .a ya
+sant .u arte li .a ya
 sint .u sentir li .a ya
-sant .u sentença li .a ya
 suyt .u gramatical-subject li .a ya
 timp .u -gramatical .a ya
+tink .u texto li .a ya
 tiwk .u atividade li .a ya
+tuym .u mundo li .a ya
+tuwm .u duração li .a ya
+liyt .u literatura li .a ya
+lint .u dentro li .a ya
+lank .u cor li .a ya
+lunt .u pessoas li .a ya
 tick .u dicionário li .a ya

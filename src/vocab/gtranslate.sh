@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $# > 3 ]
+if [[ $# -gt 3 ]]
 then 
 	BY=$1; 
 	FROM=$2; 
@@ -7,20 +7,26 @@ then
 	shift;
 	shift;
 	shift
-elif  [ $# > 2 ]
+elif  [[ $# -gt 2 ]]
 then
 	BY="google";
 	FROM=$1; 
 	TO=$2;
 	shift;
 	shift
-elif [ $# > 1 ]
+elif [[ $# -gt 1 ]]
 then
 	FROM="en" 
 	shift;
 fi
 OB=$@
 
-OUT=`echo $OB | translate-bin -s $BY -f $FROM -t $TO`
+if [[ $TO == $FROM ]]
+then
+OUT=$OB
+else
+OUT=`echo $OB | translate-bin -s $BY -f $FROM -t $TO` 2>/dev/null
+fi
 
-echo $OUT|awk -F'>' '{print $2;}'
+OUTF=`echo $OUT|awk -F'>' '{print $2;}'`
+echo $OUTF

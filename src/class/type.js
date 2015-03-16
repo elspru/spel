@@ -9,14 +9,26 @@ function Type(language,input,partOfSpeech){
 		tokens = tokenize.stringToWords(input);}
 	else if (typeof input === "object"
 		&& input.be === "Type"){
-	if (input.type && input.type === "mwq"){
-	this.type = input.type;
+	if (input.type){
+if( input.type === "mwq"){
 	this.tail = new Word(language,input.tail);
 	this.body = input.body;
 	this.name = new Word(language,input.name);
 	this.head = new Word(language,input.head);
 	} 
+else if (input.type === "nam"){
+	this.type = input.type;
+	this.body = input.body;
+	this.head = new Word(language,input.head);
+} else{
+	this.type = input.type;
+	this.body = new Word(language,input.body);
+	this.head = new Word(language,input.head);
+}
+}
 	else{
+	if (input.type !== undefined)
+	this.type = input.type;
 	if (input.body !== undefined )
 	this.body = new Word(language, input.body);
 	if (input.head !== undefined)
@@ -32,6 +44,9 @@ function Type(language,input,partOfSpeech){
 // if type final then head word is last word
 // else it is first word
 // if head word is typeword then set it
+// set multi word quote
+// set number literal
+// set single word quote
 // else make all of it body
 // if contains junction word return Junction 
 
@@ -71,6 +86,7 @@ return new Junction(language,tokens);
 // if head word is typeword then set it
 var grammar = language.grammar;
 if (language && parse.wordMatch(grammar.typeWords, headWord)){
+// set multi word quote
 if (parse.wordMatch(grammar.quotes.multiWordHead, headWord)){
 // head is first two words, tail is last two, body is rest
 var len = tokens.length;
@@ -88,17 +104,31 @@ this.name = new Word(language,tokens.slice(1,2));
 this.head = new Word(language,tokens.slice(0,1));
 }
 }
-else{
+// set number literal
+else if (grammar.quotes.number === headWord){
+// if big endian then reverse order of numbers
+this.type = "nam";
+var numberTokens = new String();
+if (grammar.wordOrder.littleEndian !== true)
+numberTokens = tokensAndGlyphsReverse(otherTokens);
+else numberTokens = otherTokens;
+this.body = numberTokens;
+this.head = new Word(language, headWord); 
+}
+// set single word quote
+else {
 // if typeword is literal set type to literal
-if (parse.wordMatch(grammar.quotes.literal, headWord))
+if (parse.wordMatch(grammar.quotes.literal, headWord)) 
 this.type = "lit";
 if (otherTokens.length >0)
 this.body = new Word(language, otherTokens, partOfSpeech);
-this.head = new Word(language, headWord); }}
+this.head = new Word(language, headWord); }
 // else return all tokens as word
+}
 else{ this.body = new Word(language, tokens, partOfSpeech);
 }
 return this;
+
 }// end of Type constructor
 
 function typeInputToMatch(language, input){
@@ -156,13 +186,20 @@ Type.prototype.valueGet = function(){
 }
 Type.prototype.toLocaleString = function(language, format, type){
 var result = new String();
-if (this.body && this.type !== "mwq")
+var joiner = new String();
+if (this.body) joiner = " "; 
+var wordOrder = language.grammar.wordOrder;
+if (this.type === "nam" ){
+if (wordOrder.littleEndian !== true)
+body = tokensAndGlyphsReverse(this.body).join(joiner);
+else body = (this.body).join(joiner);
+result += body;
+}
+else if (this.body && this.type !== "mwq")
 result += this.body.toLocaleString(language, format, type);
 if (this.head === undefined) return result;
 // else check type order, append if true, prepend if
 // false.
-var joiner = new String();
-if (this.body) joiner = " "; 
 var typeTransl = 
 this.head.toLocaleString(language, format, "th");
 
@@ -174,7 +211,8 @@ if (this.tail) tail =
 this.tail.toLocaleString(language,format,"th");
 if (this.name) name =
 this.name.toLocaleString(language,format,"th");
-if (this.body) body = this.body.join(" ");
+else if (this.body) body = this.body.join(joiner);
+
 if (language.grammar.wordOrder.typeFinal){
 result =
 tail+joiner+name+joiner+body+joiner+name+joiner+typeTransl;
@@ -191,4 +229,14 @@ else if (language.grammar.wordOrder.typeFinal === false)
  result = typeTransl + joiner + result;
 }
 return result;
+}
+
+function tokensAndGlyphsReverse(tokens){
+var outTokens = tokens.slice(0);
+outTokens.reverse();
+outTokens = outTokens.map(function(token){
+return token.split("").reverse().join("");
+});
+return outTokens;
+
 }

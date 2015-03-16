@@ -33,14 +33,18 @@ this.quotes.quoteHeads=translate.array(dict,
 		mwakGrammar.quotes.quoteHeads);
 this.quotes.singleWord=translate.array(dict, 
 		mwakGrammar.quotes.singleWord);
+this.quotes.number=translate.word(dict, 
+		mwakGrammar.quotes.number);
 this.quotes.multiWordHead=translate.array(dict, 
 		mwakGrammar.quotes.multiWordHead);
 this.quotes.multiWordTail=translate.array(dict, 
 		mwakGrammar.quotes.multiWordTail);
 this.quotes.literal=translate.array(dict, 
 		mwakGrammar.quotes.literal);
-this.quotes.startWord=translate.word(dict,mwakGrammar.quotes.startWord);
-this.quotes.endWord=translate.word(dict,mwakGrammar.quotes.endWord);
+this.quotes.startWord=translate.word(dict,
+	mwakGrammar.quotes.startWord);
+this.quotes.endWord=translate.word(dict,
+	mwakGrammar.quotes.endWord);
 }
 this.wordOrder = new Object();
 if (wordOrder){
@@ -54,6 +58,7 @@ this.wordOrder.postpositional= wordOrder.postpositional;
 this.wordOrder.genitiveInitial= wordOrder.genitiveInitial;
 this.wordOrder.clauseInitial= wordOrder.clauseInitial;
 this.wordOrder.phraseOrder= wordOrder.phraseOrder;
+this.wordOrder.littleEndian = wordOrder.littleEndian;
 if (wordOrder.intransitiveWord)
 this.wordOrder.intransitiveWord = wordOrder.intransitiveWord;
 }
@@ -74,7 +79,7 @@ subjectWord: ".u",
 objectWord: ".a",
 verbWord: ".i",
 subPhraseWords: ["pi"],
-topClauseWords: ["ku","twa","kwi","pwa","kla"],
+topClauseWords: ["ku","twa","swi","pwa","kla"],
 topClauseTerminator: ["twa"],
 clauseWords: ["ti"],
 clauseTerminator: ["tya"],
@@ -82,6 +87,7 @@ sentenceWords: ["ya","ci"],
 quotes: {
 quoteHeads: ["li","tsi"],
 singleWord: ["li"],
+number: "na",
 literal: ["li","tsi"],
 multiWordHead: ["tsi"],
 multiWordTail: ["ksa"],
@@ -98,8 +104,8 @@ subjectProminent: false,
 postpositional: true,
 clauseInitial: true,
 genitiveInitial: true,
-littleEndian: true,
-phraseOrder: ["sla","ku","twa","kwi","pwa",".u","ta",
+littleEndian: false,
+phraseOrder: ["sla","ku","twa","swi","pwa",".u","ta",
 ".a","nya",".i"],
 intransitiveWord: ".u"
 },
