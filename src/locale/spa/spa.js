@@ -5,6 +5,7 @@ var Grammar = require("../../lang/grammar");
 var Language = require("../../lang/language");
 var spaFile = require("./spa.txt.json");
 var svo = require("../../locale/svo/svo");
+var wrld = require("../../locale/wrld/wrld");
 var mwak = new Language();
 
 module.exports = Spanish;
@@ -24,6 +25,14 @@ irreversible:[
 [" sí$",". "],
 ]
 }
+conjugation.verbPhrase = verbPhraseConjugate;
+function verbPhraseConjugate(body,adposition){
+return body;
+}
+
+conjugation.foreignQuote = 
+wrld.conjugation.guillemetQuote;
+
 var spaGrammar = new Grammar(spaWordOrder,spaDict,conjugation);
 var spa = new Language(spaGrammar,spaDict);
 return spa;

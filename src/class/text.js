@@ -324,9 +324,12 @@ return result;//this.string;
 };
 Text.prototype.toLocaleString =
 function(language,format,conjugationLevel){
-var string = new String();
+var result = new String();
 var newline = '\n';
 var lineLength = 64;
+var conj = new Object()
+if (conjugationLevel >= 3) conj = language.grammar.conjugation;
+
 if (format){
 if(format.newline) newline = format.newline;
 if(format.glyphsTransform) lineLength = 0;
@@ -336,13 +339,16 @@ var sentences = this.sentences;
 var sentencesLength = sentences.length;
 var i;
 for (i=0; i<sentencesLength; i++){
-string += sentences[i].toLocaleString(language, format,
+result += sentences[i].toLocaleString(language, format,
 conjugationLevel)+newline;
 }
 // format for max line length
-if (lineLength>0) string = wordWrap(string,lineLength);
+if (lineLength>0) result = wordWrap(result,lineLength);
 
-return string;
+if (conj.header) result = conj.header + result;
+if (conj.footer) result = result + conj.footer;
+
+return result;
 };
 
 function wordWrap( str, width, brk, cut ) {

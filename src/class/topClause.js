@@ -89,20 +89,19 @@ this.head = new Word(language, clauseWord);
 return this;
 }
 TopClause.prototype.toString = function(format){
-	var joiner = ' ';
-	var result = new String();
-	var clauseTerm = this.tail;
-	var sentence = this.body;
-	var clauseWord = this.head;
-	if (clauseTerm) 
-		result += clauseTerm.toString(format)+joiner;
-	if (sentence) 
-		result += sentence.toString(format);
-	if (clauseWord) 
-	result += clauseWord.toString(format) + joiner ;
-	return result;
+var joiner = ' ';
+var result = new String();
+var clauseTerm = this.tail;
+var sentence = this.body;
+var clauseWord = this.head;
+if (clauseTerm) result += clauseTerm.toString(format)+joiner;
+if (sentence) result += sentence.toString(format);
+if (clauseWord) 
+result += clauseWord.toString(format) + joiner ;
+return result;
 };
-TopClause.prototype.toLocaleString = function(language,format){
+TopClause.prototype.toLocaleString = 
+function(language,format,type,conjugationLevel){
 	var joiner = ' ';
 	var result = new String();
 	var clauseTerm = this.tail;
@@ -110,19 +109,19 @@ TopClause.prototype.toLocaleString = function(language,format){
 	var clauseWord = this.head;
 	if (language.grammar.wordOrder.clauseInitial){
 	if (clauseTerm) result += clauseTerm.toLocaleString(
-			language,format,"jh")+joiner;
+		language,format,"jh",conjugationLevel)+joiner;
 	if (sentence) result += sentence.toLocaleString(
-			language,format);
+			language,format,conjugationLevel);
 	if (clauseWord) result += clauseWord.toLocaleString(
-			language,format,"jh") + joiner ;
+		language,format,"jh",conjugationLevel) + joiner ;
 	}
 	else {
 	if (clauseWord) result += clauseWord.toLocaleString(
-			language,format,"jh")+joiner;
+		language,format,"jh",conjugationLevel)+joiner;
 	if (sentence) result += sentence.toLocaleString(
-			language,format);
+		language,format,conjugationLevel);
 	if (clauseTerm) result += clauseTerm.toLocaleString(
-			language,format,"jh")+joiner;
+		language,format,"jh",conjugationLevel)+joiner;
 	}
 	return result;
 };
@@ -134,14 +133,16 @@ TopClause.prototype.isLike= function(language,input){
 	return false;
 };
 TopClause.prototype.isSubset= function(language,input){
-	var match = topClauseInputToMatch(language,input);
-	if (this.head.isSubset(language, match.head)
-		&& this.body.isSubset(language,match.body))
+var match = topClauseInputToMatch(language,input);
+if (this.head.isSubset(language, match.head)
+	&& this.body.isSubset(language,match.body))
 		return true;
-	return false;
+return false;
 };
 TopClause.prototype.isSuperset= function(language,input){
+try{
 var match = topClauseInputToMatch(language,input);
+}catch(e){ return false;}
 var result = true;
 if (match.body && !this.body || match.head && ! this.head)
 result =false;

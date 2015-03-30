@@ -7,7 +7,7 @@ var Word = require("./word");
 var Phrase = require("./phrase");
 var Clause = require("./clause");
 module.exports = Junction;
-function Junction(language, input){
+function Junction(language, input,partOfSpeech){
 
 this.be = "Junction";
 var tokens;
@@ -20,7 +20,7 @@ if (input.clas) this.clas = input.clas;
 var Clas = Type;
 if (input.clas && input.clas === "Phrase") Clas = Phrase;
 for (i=0;i<input.body.length;i++)
-this.body[i]=new Clas(language, input.body[i]);
+this.body[i]=new Clas(language, input.body[i],partOfSpeech);
 this.head = new Word(language, input.head);
 return this;
 }
@@ -100,7 +100,7 @@ clas = "Type";
 // with junction and head word de 
 body = 
 lastJunctionRetrieve(language, junctionWordI,
-headWordI,tokens,body,head,clas);
+headWordI,tokens,body,head,clas,partOfSpeech);
 body.reverse();
 }// su clause initial conditional be end ya
 
@@ -122,7 +122,7 @@ clas = "Type";
 // with junction and head word de 
 body = 
 firstJunctionRetrieve(language,
-junctionWordI,headWordI,tokens,body,head, clas);
+junctionWordI,headWordI,tokens,body,head, clas,partOfSpeech);
 }// su clause final conditional be end ya
 
 // set output do
@@ -134,13 +134,15 @@ return this;
 
 /* start of junction constructor helper functions */
 // su class retrieve ob class from tokens de 
-function classRetrieve(language, otherTokens,clas,body){
+function classRetrieve(language, otherTokens,clas,body,
+partOfSpeech){
+
 // be get ob an object of the class from other tokens ya
 var object;
 if (clas === "Phrase")
 object = new Phrase(language,otherTokens);
 else 
-object = new Type(language,otherTokens);
+object = new Type(language,otherTokens, partOfSpeech);
 // be add ob the object to body array ya
 body[body.length]=object;
 return body;
@@ -148,14 +150,15 @@ return body;
 
 function 
 lastJunctionRetrieve(language,
-junctionWI,headWordI,tokens,body,head,clas)
+junctionWI,headWordI,tokens,body,head,clas,partOfSpeech)
 {
 var lastWord = tokens[tokens.length-1];
 // be set ob other tokens 
 // from after junction word til last word ya
 var otherTokens = tokens.slice(junctionWI+1,headWordI+1);
 // su class retrieve ob class from tokens de 
-body = classRetrieve(language, otherTokens,clas,body);
+body = classRetrieve(language,
+otherTokens,clas,body,partOfSpeech);
 // be set ob other tokens from before junction word ya
 otherTokens = tokens.slice(0,junctionWI);
 // be parse ob the class from other tokens ya
@@ -178,11 +181,12 @@ else if (tailWord === head)
 // then be junction retrieve ya
 body = 
 lastJunctionRetrieve(language,
-tailWordI, headWordI, otherTokens, body, head,clas);
+tailWordI, headWordI, otherTokens, body, head,clas, partOfSpeech);
 // else  be class retrieve ya
 else{
 otherTokens = otherTokens.slice(tailWordI,headWordI+1);
-body = classRetrieve(language, otherTokens,clas,body);
+body = classRetrieve(language,
+otherTokens,clas,body,partOfSpeech);
 }
 return body;
 }// su junction retrieve be end ya
@@ -190,13 +194,14 @@ return body;
 
 function 
 firstJunctionRetrieve(language,
-junctionWI,headWordI,tokens,body,head,clas
+junctionWI,headWordI,tokens,body,head,clas,partOfSpeech
 ){
 // be set ob other tokens 
 // from first word til before junction word ya
 var otherTokens = tokens.slice(headWordI,junctionWI);
 // su class retrieve ob class from tokens de 
-body = classRetrieve(language, otherTokens,clas,body);
+body = classRetrieve(language,
+otherTokens,clas,body,partOfSpeech);
 // be set ob other tokens from after junction word ya
 otherTokens = tokens.slice(junctionWI+1);
 // be parse ob the class from other tokens ya
@@ -221,11 +226,12 @@ else if (tailWord === head)
 // then be junction retrieve ya
 body = 
 firstJunctionRetrieve(language, tailWordI, headWordI, 
-otherTokens, body, head,clas);
+otherTokens, body, head,clas, partOfSpeech);
 // else  be class retrieve ya
 else{
 otherTokens = otherTokens.slice(headWordI,tailWordI+1);
-body = classRetrieve(language, otherTokens,clas,body);
+body = classRetrieve(language,
+otherTokens,clas,body,partOfSpeech);
 }
 return body;
 }// su junction retrieve be end ya
@@ -236,7 +242,8 @@ return body;
 function junctionInputToMatch(language,input){
 	if (typeof input === "string"
 		|| Array.isArray(input))
-		return new Junction(language, input);
+		return new Junction(language, input,
+partOfSpeech);
 	else if (typeof input === "object"
 		&& input.be === "Junction")
 		return input;
@@ -314,10 +321,11 @@ result += body[i].toString(format) + headS + joiner;
 else
 result += body[i].toString(format) + joiner + headS + joiner;
 // be add ob last element with joiner ya
-result += body[i].toString(format) + joiner ;
+result += body[i].toString(format);
 return result;
 };
-Junction.prototype.toLocaleString = function(language, format,type){
+Junction.prototype.toLocaleString = 
+function(language, format,type, conjugationLevel){
 var joiner = ' ';
 var result = new String();
 // algorithm de
@@ -328,18 +336,23 @@ var i;
 var body = this.body;
 var headS = new String();
 if (this.head) 
-headS = this.head.toLocaleString(language,format,"jh");
+headS = this.head.toLocaleString(language,format,"jh", 
+conjugationLevel);
 // for each ob element of body de
 var clas = this.clas;
 for (i=0;i<body.length-1;i++)
 // be add ob it to result with head and joiner ya
 if (clas === "Phrase")
-result += body[i].toLocaleString(language,format)+headS+joiner;
+result += body[i].toLocaleString(language,format,type,
+conjugationLevel)
++headS+joiner;
 else
-result += body[i].toLocaleString(language,format) 
+result += body[i].toLocaleString(language,format,type,
+conjugationLevel) 
 + joiner + headS + joiner;
 // be add ob last element with joiner ya
-result += body[i].toLocaleString(language,format)+joiner ;
+result += body[i].toLocaleString(language,format,type,
+conjugationLevel) ;
 return result;
 }
 

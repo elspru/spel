@@ -14,8 +14,8 @@ pa li .u उस-बात li .a ya
 pu li .u किया li .a ya
 wi li .u हमने li .a ya
 wa li .u या li .a ya
-ni li .u यानी li .a ya
-na li .u परमाणु li .a ya
+ni li .u में li .a ya
+na li .u अंक li .a ya
 si li .u उनहोने li .a ya
 nu li .u अभी li .a ya
 ti li .u था li .a ya
@@ -31,27 +31,26 @@ mya li .u मेबी li .a ya
 kyi li .u सशर्त li .a ya
 kya li .u अलग li .a ya
 sa li .u एस् li .a ya
+kwa li .u जो-कि li .a ya
 ksa li .u गंदें-शब्द-बोलना li .a ya
 kla li .u लेकिन li .a ya
+klu li .u खंड-पूंछ li .a ya
 kca li .u हा li .a ya
+pya li .u द्वारा li .a ya
 pli li .u पास li .a ya
 psu li .u से-स्रोत li .a ya
 pla li .u बहुवचन li .a ya
 pwa li .u yaor li .a ya
 plu li .u के-लिए li .a ya
 pca li .u रसिक li .a ya
-nyi li .u न li .a ya
-nwa li .u अशक्त li .a ya
 nya li .u से li .a ya
 swi li .u जबकि li .a ya
 sli li .u उदाहरण-के-लिए li .a ya
 slu li .u एकवचन li .a ya
 sla li .u नमस्कार li .a ya
-tya li .u खंड-पूंछ li .a ya
 twa li .u फिर li .a ya
-tsi li .u उद्धरण li .a ya
 tli li .u ORD li .a ya
-mik .u प्रतिलिपि li .a ya
+mik .u मेक li .a ya
 miy .u इंतज़ार li .a ya
 mip .u अतीत li .a ya
 mit .u मध्यम li .a ya
@@ -59,13 +58,16 @@ min .u कम li .a ya
 mak .u शब्द li .a ya
 mat .u माँ li .a ya
 man .u सोचा li .a ya
+mas .u मास li .a ya
 map .u आकार li .a ya
 mac .u मशीन li .a ya
+mut .u मदद li .a ya
 kim .u तुलना li .a ya
 kiy .u जाओ li .a ya
+kip .u सक्षम li .a ya
+kin .u मेन li .a ya
 kit .u समाप्त li .a ya
-kam .u है li .a ya
-kay .u योग्य li .a ya
+kay .u पकड़ li .a ya
 kap .u सरपंच li .a ya
 kan .u पता-है li .a ya
 kas .u कारण li .a ya
@@ -77,8 +79,7 @@ kun .u लाल li .a ya
 kut .u छोटा li .a ya
 yik .u नकारना li .a ya
 yan .u कहो li .a ya
-pim .u बिंदु li .a ya
-piy .u अधिनियम li .a ya
+yut .u घटाना li .a ya
 pam .u अच्छा li .a ya
 pak .u बॉडी li .a ya
 pay .u ज्यादा li .a ya
@@ -92,106 +93,204 @@ put .u बेचना li .a ya
 pul .u ब्लू li .a ya
 wit .u रोशनी li .a ya
 fut .u भविष्य li .a ya
-wam .u समय li .a ya
 wan .u इश्क li .a ya
 wap .u पूंछ li .a ya
 wat .u बोलो li .a ya
 nim .u नाम li .a ya
+nit .u जाल li .a ya
 nic .u एनर्जी li .a ya
 wul .u महा li .a ya
 nam .u नंबर li .a ya
-sim .u तीन li .a ya
+nul .u अमान्य li .a ya
+sam .u समान li .a ya
 san .u स्वयं li .a ya
 sat .u ध्वनि li .a ya
 sup .u वेतन li .a ya
-sim .a ya
 tip .u शुरू li .a ya
-tiw .u मदद li .a ya
 tin .u देख li .a ya
 tam .u टॉपिक li .a ya
 naw .u वर्तमान li .a ya
+tak .u जोड़ना li .a ya
 tay .u रखना li .a ya
 tap .u स्पर्श li .a ya
-tak .u धन्यवाद li .a ya
+tan .u देना li .a ya
+tas .u चुनना li .a ya
+tum .u तापमान li .a ya
 liy .u फोर li .a ya
+tun .u लंबाई li .a ya
+tul .u ओजार li .a ya
+lik .u आवेश li .a ya
 lin .u हरा li .a ya
+lis .u लीव li .a ya
 lit .u ग्लिफ़ li .a ya
 sun .u एक li .a ya
 cim .u सुन-रहे li .a ya
 caw .u चिल्लाना li .a ya
 liy .a ya
+cak .u चीज li .a ya
 cal .u चाल li .a ya
+can .u संभावना li .a ya
 tuw .u दो li .a ya
 kyul .u राज li .a ya
+myan .u शीतल li .a ya
+myul .u नेतिक li .a ya
+myin .u सपना li .a ya
+kyap .u प्रतिलिपि li .a ya
+kyit .u गंभीरता li .a ya
+kyil .u गोला li .a ya
+kyin .u सामान्य li .a ya
 kyup .u गट li .a ya
 cik .u कुछ li .a ya
-ksip .u लिखो li .a ya
-myik .u जोड़ना li .a ya
+kyat .u मुश्किल li .a ya
+kwat .u मात्रा li .a ya
+kyis .u लिखो li .a ya
 ksap .u व्यक्त li .a ya
-kyim .u घटाना li .a ya
+ksip .u प्रवेश li .a ya
+ksin .u प्रसंग li .a ya
+ksat .u अचानक li .a ya
+ksal .u आकाशगंगा li .a ya
+ksan .u का-आयोजन li .a ya
+klin .u इलेक्ट्रॉन li .a ya
+ksut .u इकट्ठा li .a ya
+ksul .u स्कूल li .a ya
 klac .u सिवाय li .a ya
+klas .u कक्षा li .a ya
+klat .u धारा li .a ya
+kcim .u रासायनिक li .a ya
 kwal .u भाषा li .a ya
+kfin .u कॉन्फ़िग li .a ya
+pyin .u अनुभव li .a ya
+pyam .u कार्यक्रम li .a ya
 klaw .u हंसी li .a ya
-klas .u धारा li .a ya
+pyut .u प्रोटॉन li .a ya
+pyul .u फोड़ा li .a ya
 pyuf .u प्रमाण li .a ya
 plis .u समीप li .a ya
+pwil .u परिवर्तनशील li .a ya
+pwut .u मंजूर li .a ya
+psiy .u दबाव li .a ya
 pyuc .u परियोजना li .a ya
 psan .u अंतरिक्ष li .a ya
+psit .u सतह li .a ya
 psun .u स्रोत li .a ya
 pyan .u सर्वनाम li .a ya
+plam .u प्लाज्मा li .a ya
+plin .u प्लेन li .a ya
+syak .u जागर li .a ya
+play .u प्ले li .a ya
+nyit .u इकाई li .a ya
+nyus .u योण-बनाना li .a ya
+nyut .u न्युट्रोन li .a ya
+plan .u ग्रह li .a ya
+nyis .u संदर्भ li .a ya
+syat .u ठोस li .a ya
+syun .u ब्रम्हांड li .a ya
+swil .u आत्मा li .a ya
+syit .u भेजो li .a ya
 swat .u सवाल li .a ya
+slam .u निर्मल-करना li .a ya
 pyas .u मुहावरा li .a ya
 pyat .u व्याकरण-वस्तु li .a ya
 tyim .u घबराना li .a ya
+tyis .u संक्रमण li .a ya
+tyil .u ठंडा li .a ya
+tyam .u परमाणु li .a ya
 twis .u सच li .a ya
-tsin .u संदर्भ li .a ya
+tyin .u तीन li .a ya
+tyan .u तार li .a ya
+tyas .u विचार li .a ya
+tyup .u रोबोट li .a ya
+tsiw .u उपग्रह li .a ya
 tsil .u लायक li .a ya
+tsim .u साथ-साथ li .a ya
+tsin .u अनुदेश li .a ya
+tsam .u उद्देश्य li .a ya
+tsay .u तारा li .a ya
 tsan .u दुबारा li .a ya
+tsak .u रहो li .a ya
+tsap .u संपत्ति li .a ya
 tsal .u स्टेट li .a ya
 tsaf .u स्वाद li .a ya
 tsuk .u दुकान li .a ya
 tlam .u अनुवाद-करें li .a ya
+tlik .u बिजली li .a ya
 plis .a ya
+tlun .u तीन-बिंदु li .a ya
 tlan .u परंपरा li .a ya
+tcin .u चेन li .a ya
 tcan .u पेड li .a ya
+tfal .u फ़ाइल li .a ya
+fwil .u बल li .a ya
+fwas .u अवस्था li .a ya
+fyas .u मुहावरा li .a ya
 slim .u उदाहरण li .a ya
+flit .u बंसी li .a ya
 fluc .u बहे li .a ya
+flut .u फूल li .a ya
+clut .u सुपर-तरल li .a ya
 clum .u सेंटेंस li .a ya
 tkic .u अनुवाद-शब्दकोश li .a ya
+mist .u नाप li .a ya
+milt .u पिघल li .a ya
+mayt .u काल्पनिक-इकाई li .a ya
+mast .u मामला li .a ya
+miyk .u भेजो li .a ya
 tlam .a ya
-milt .u मित्र li .a ya
-mast .u शत्रुतापूर्ण li .a ya
+muyt .u मित्र li .a ya
+mint .u विधि li .a ya
 malt .u सामग्री li .a ya
 mack .u कल्पना li .a ya
+kisp .u प्रतिपादक li .a ya
 tlin .u क्रमवाचक li .a ya
+kays .u व्याकरण-केस li .a ya
+kayt .u गरम li .a ya
+kaws .u गैस li .a ya
+kant .u बदलना li .a ya
+kast .u लगातार li .a ya
 munt .u दुनिया li .a ya
-mult .u नेतिक li .a ya
-flas .u मुहावरा li .a ya
-miyk .u भेजो li .a ya
+kimt .u लटकना li .a ya
 miwk .u व्यक्ति li .a ya
+kusp .u गिरावट li .a ya
+kust .u लगातार li .a ya
 muys .u भावना li .a ya
+kuft .u डिवाइड li .a ya
+kumt .u संवाद li .a ya
+yink .u अंगूठी li .a ya
+kuwt .u कोड li .a ya
 kunt .u नियंत्रण li .a ya
+kult .u संस्कृति li .a ya
 panp .u रोटी li .a ya
-yank .u जागर li .a ya
+yalk .u वाहन li .a ya
+yulp .u भूमिका li .a ya
+yult .u उपयोगिता li .a ya
 pack .u आनंद li .a ya
-punt .u पाश li .a ya
+pant .u उधार li .a ya
+pult .u पुराना li .a ya
 kamt .u व्याकरण li .a ya
-kayp .u चीज li .a ya
-kast .u व्याकरण-केस li .a ya
+wins .u शुक्र li .a ya
+wint .u पवन li .a ya
 sant .u कला li .a ya
+nalt .u प्रकृति li .a ya
 kump .u मनोदशा li .a ya
 wiyp .u क्रिया li .a ya
 niym .u संज्ञा li .a ya
 tink .u टेक्स्ट li .a ya
 sint .u लगना li .a ya
 tuym .u दुनिया li .a ya
+tisk .u प्रगति li .a ya
+tamk .u देखना li .a ya
+tack .u धन्यवाद li .a ya
+tanp .u दिखाई-देते-हैं li .a ya
 tuwm .u अवधि li .a ya
 liyt .u साहित्य li .a ya
 lint .u अंदर li .a ya
+liyn .u रेखा li .a ya
 lank .u रंग li .a ya
 lunt .u लोग li .a ya
 suyt .u व्याकरण-विषय li .a ya
+luwt .u वीणा li .a ya
 timp .u व्याकरण-काल li .a ya
+cinp .u इंफॉर्मेशन li .a ya
 tick .u शब्दकोश li .a ya
 tiwk .u कार्यकलाप li .a ya
 yimk .u पूछो li .a ya

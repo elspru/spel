@@ -10,6 +10,7 @@ function Type(language,input,partOfSpeech){
 	else if (typeof input === "object"
 		&& input.be === "Type"){
 	if (input.type){
+	this.type = input.type;
 if( input.type === "mwq"){
 	this.tail = new Word(language,input.tail);
 	this.body = input.body;
@@ -80,7 +81,7 @@ if ( juncTokens && juncTokens.rfind(
 parse.wordMatch.curry(language.grammar.junctions))
 ){
 var Junction = require("./junction");
-return new Junction(language,tokens);
+return new Junction(language,tokens, partOfSpeech);
 }
 
 // if head word is typeword then set it
@@ -170,7 +171,7 @@ var joiner = " ";
 if (this.type === "mwq"){
 if (this.tail) result += this.tail.toString()+joiner;
 if (this.name) result += this.name.toString()+joiner;
-if (this.body) result += this.body.join(" ");
+if (this.body) result += this.body.join(joiner);
 if (this.name) result += joiner+this.name.toString();
 if (this.head) result += joiner+this.head.toString();
 }
@@ -184,9 +185,12 @@ return result;
 Type.prototype.valueGet = function(){
 	return this.body.toString();
 }
-Type.prototype.toLocaleString = function(language, format, type){
+Type.prototype.toLocaleString = 
+function(language, format, type, conjugationLevel){
 var result = new String();
 var joiner = new String();
+var conj = new Object();
+if (conjugationLevel >= 3) conj = language.grammar.conjugation;
 if (this.body) joiner = " "; 
 var wordOrder = language.grammar.wordOrder;
 if (this.type === "nam" ){
@@ -196,22 +200,27 @@ else body = (this.body).join(joiner);
 result += body;
 }
 else if (this.body && this.type !== "mwq")
-result += this.body.toLocaleString(language, format, type);
+result += this.body.toLocaleString(language, format, type,
+conjugationLevel);
 if (this.head === undefined) return result;
 // else check type order, append if true, prepend if
 // false.
 var typeTransl = 
-this.head.toLocaleString(language, format, "th");
+this.head.toLocaleString(language, format, "th",
+conjugationLevel);
 
 if (this.type === "mwq"){
+if (conj.foreignQuote) {
+result += conj.foreignQuote(language,this,format);}
+else{
 var tail = new String();
 var name = new String();
 var body = new String();
 if (this.tail) tail =
-this.tail.toLocaleString(language,format,"th");
+this.tail.toLocaleString(language,format,"th", conjugationLevel);
 if (this.name) name =
-this.name.toLocaleString(language,format,"th");
-else if (this.body) body = this.body.join(joiner);
+this.name.toLocaleString(language,format,"th", conjugationLevel);
+if (this.body) body = this.body.join(joiner);
 
 if (language.grammar.wordOrder.typeFinal){
 result =
@@ -220,6 +229,7 @@ tail+joiner+name+joiner+body+joiner+name+joiner+typeTransl;
 else if (language.grammar.wordOrder.typeFinal === false){
  result = 
 typeTransl+joiner+name+joiner+body+joiner+name+joiner+tail;
+}
 }
 }
 else{

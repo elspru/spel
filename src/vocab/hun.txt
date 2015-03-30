@@ -2,7 +2,7 @@
 .a li .u ob li .a ya
 .u li .u su li .a ya
 mi li .u nekem li .a ya
-ma li .u mik li .a ya
+ma li .u mit li .a ya
 ki li .u és li .a ya
 ka li .u azt li .a ya
 ku li .u ha li .a ya
@@ -14,8 +14,8 @@ pa li .u hogy-dolog li .a ya
 pu li .u tette li .a ya
 wi li .u mi li .a ya
 wa li .u vagy li .a ya
-ni li .u azaz li .a ya
-na li .u nu li .a ya
+ni li .u -ban li .a ya
+na li .u számjegy li .a ya
 nu li .u most li .a ya
 si li .u ők li .a ya
 ti li .u hogy li .a ya
@@ -31,27 +31,26 @@ mya li .u talán li .a ya
 kyi li .u feltételesen li .a ya
 kya li .u félre li .a ya
 sa li .u az li .a ya
+kwa li .u hogy-ami li .a ya
 ksa li .u idézőjel-bezárva li .a ya
 kla li .u de li .a ya
+klu li .u záradékot-tail li .a ya
 kca li .u haha li .a ya
+pya li .u által li .a ya
 pwa li .u yaor li .a ya
 psu li .u a-forrásból li .a ya
 pli li .u közel li .a ya
 pla li .u többes li .a ya
 plu li .u mert li .a ya
 pca li .u vidám li .a ya
-nyi li .u nem li .a ya
 nya li .u -tól li .a ya
-nwa li .u nulla li .a ya
 swi li .u míg li .a ya
 sli li .u A-példa li .a ya
 sla li .u Helló li .a ya
 slu li .u egyes-szám li .a ya
-tya li .u záradékot-tail li .a ya
 twa li .u majd li .a ya
-tsi li .u idézet li .a ya
 tli li .u ord li .a ya
-mik .u másolat li .a ya
+mik .u csinál li .a ya
 miy .u várjon li .a ya
 mip .u múlt li .a ya
 min .u kevesebb li .a ya
@@ -59,13 +58,16 @@ mit .u középső li .a ya
 mak .u szó li .a ya
 map .u méret li .a ya
 man .u gondol li .a ya
+mas .u tömeg li .a ya
 mat .u anya li .a ya
 mac .u gép li .a ya
+mut .u segít li .a ya
 kim .u összehasonlítani li .a ya
 kiy .u megy li .a ya
+kip .u képes li .a ya
+kin .u legfontosabb li .a ya
 kit .u vég li .a ya
-kam .u van li .a ya
-kay .u képes li .a ya
+kay .u tart li .a ya
 kap .u fej li .a ya
 kan .u tud li .a ya
 kas .u ok li .a ya
@@ -77,8 +79,7 @@ kun .u piros li .a ya
 kut .u kis li .a ya
 yik .u tagad li .a ya
 yan .u mond li .a ya
-pim .u pont li .a ya
-piy .u törvény li .a ya
+yut .u levon li .a ya
 pam .u jó li .a ya
 pak .u test li .a ya
 pay .u több li .a ya
@@ -92,102 +93,201 @@ put .u elad li .a ya
 pul .u kék li .a ya
 wit .u fény li .a ya
 fut .u jövő li .a ya
-wam .u idő li .a ya
 wan .u szerelem li .a ya
 wap .u farok li .a ya
 wat .u beszél li .a ya
 nim .u név li .a ya
+nit .u nettó li .a ya
 nic .u energia li .a ya
 wul .u nagy li .a ya
 nam .u szám li .a ya
+nul .u nulla li .a ya
+sam .u azonos li .a ya
 naw .u jelen li .a ya
 san .u maga li .a ya
 sat .u hang li .a ya
 sup .u fizet li .a ya
-sim .u három li .a ya
 tip .u kezdődik li .a ya
 sun .u egy li .a ya
 tin .u lát li .a ya
-tiw .u segít li .a ya
+tak .u hozzáad li .a ya
 tam .u téma li .a ya
 tay .u tesz li .a ya
+tan .u ad li .a ya
+tas .u választ li .a ya
+tum .u hőmérséklet li .a ya
 tap .u érintés li .a ya
-tak .u köszönet li .a ya
+tun .u hossz li .a ya
+tul .u szerszám li .a ya
+lik .u Elektromos-töltés li .a ya
 tuw .u két li .a ya
 lin .u zöld li .a ya
+lis .u él li .a ya
 liy .u négy li .a ya
 lit .u glyph li .a ya
 cim .u hall li .a ya
 cik .u kevés li .a ya
+cak .u dolog li .a ya
 caw .u kiáltás li .a ya
+can .u esély li .a ya
 cal .u mozgás li .a ya
-myik .u hozzáad li .a ya
-kyim .u levon li .a ya
+myan .u lágy li .a ya
+myul .u erkölcsi li .a ya
+myin .u álom li .a ya
+kyit .u súly li .a ya
+kyil .u kör li .a ya
+kyin .u általános li .a ya
+kyap .u másolat li .a ya
 kyup .u csoport li .a ya
+kyat .u kemény li .a ya
+kwat .u kvantum li .a ya
 kyul .u szabály li .a ya
 kwal .u nyelv li .a ya
-ksip .u ír li .a ya
+kyis .u ír li .a ya
+ksip .u hozzáférés li .a ya
+ksin .u kontextus li .a ya
+ksat .u hirtelen li .a ya
+ksal .u galaktika li .a ya
 ksap .u expressz li .a ya
+ksan .u szervez li .a ya
+klin .u elektron li .a ya
+ksut .u gyűjt li .a ya
+ksul .u iskola li .a ya
 klaw .u nevetés li .a ya
-klas .u záradék li .a ya
+klas .u osztály li .a ya
+klat .u záradék li .a ya
+kcim .u vegyi li .a ya
 klac .u kivéve li .a ya
+kfin .u config li .a ya
+pyin .u tapasztalat li .a ya
+pyam .u program li .a ya
 pyan .u névmás li .a ya
+pyut .u proton li .a ya
+pyul .u kelés li .a ya
 pyas .u kifejezés li .a ya
 pyat .u nyelvtani-objektum li .a ya
+pwil .u változó li .a ya
+pwut .u jóváhagy li .a ya
+psiy .u nyomás li .a ya
 pyuf .u bizonyíték li .a ya
 pyuc .u program li .a ya
-psan .u hely li .a ya
+psit .u felületi li .a ya
+psan .u űr li .a ya
 psun .u forrás li .a ya
+plam .u vérplazma li .a ya
+plin .u sík li .a ya
 plis .u közeli li .a ya
+play .u játék li .a ya
+nyit .u egység li .a ya
+nyus .u ionizál li .a ya
+nyut .u neutron li .a ya
+plan .u bolygó li .a ya
+nyis .u hivatkozás li .a ya
+syat .u szilárd li .a ya
+syun .u világegyetem li .a ya
+swil .u lélek li .a ya
+syit .u küld li .a ya
+syak .u ébren li .a ya
+slam .u szublimál li .a ya
 swat .u kérdés li .a ya
 slim .u példa li .a ya
 tkic .u fordítás-szótár li .a ya
+tyis .u átmenet li .a ya
+tyil .u hideg li .a ya
+tyam .u atom li .a ya
 tyim .u reszket li .a ya
+tyin .u három li .a ya
+tyan .u húr li .a ya
+tyas .u ötlet li .a ya
+tyup .u robot li .a ya
+tsiw .u műhold li .a ya
 twis .u igaz li .a ya
-tsin .u hivatkozás li .a ya
+tsim .u együtt li .a ya
+tsin .u oktatás li .a ya
 tsil .u megérdemel li .a ya
+tsay .u csillag li .a ya
+tsam .u cél li .a ya
+tsak .u marad li .a ya
+tsap .u ingatlan li .a ya
 tsan .u újra li .a ya
 tsal .u állam li .a ya
 tsaf .u íz li .a ya
 tsuk .u bolt li .a ya
+tlik .u elektromosság li .a ya
 tlin .u sorrendi li .a ya
+tlun .u triple-pont li .a ya
 tlam .u fordít li .a ya
+tcin .u lánc li .a ya
 tlan .u hagyomány li .a ya
+tfal .u akta li .a ya
 tcan .u fa li .a ya
-flas .u kifejezés li .a ya
+fwas .u fázis li .a ya
+fyas .u kifejezés li .a ya
+fwil .u erő li .a ya
+flit .u fuvola li .a ya
+flut .u virág li .a ya
 fluc .u folyik li .a ya
+clut .u szuperkritikus-folyadék- li .a ya
 clum .u mondat li .a ya
 miyk .u küld li .a ya
+mist .u intézkedés li .a ya
+milt .u olvadás li .a ya
+mayt .u képzetes-egység li .a ya
+mast .u ügy li .a ya
 miwk .u személy li .a ya
-milt .u szövetséges li .a ya
-mast .u ellenséges li .a ya
+mint .u módszer li .a ya
+muyt .u szövetséges li .a ya
 malt .u anyagi li .a ya
 mack .u képzelni li .a ya
 muys .u érzelem li .a ya
+kisp .u exponent li .a ya
 munt .u világ li .a ya
-mult .u erkölcsi li .a ya
+kays .u nyelvtani-ügyben li .a ya
+kayt .u meleg li .a ya
+kaws .u gáz li .a ya
+kant .u megtérít li .a ya
+kast .u állandó li .a ya
+kimt .u lejtés li .a ya
 kamt .u nyelvtan li .a ya
-kayp .u dolog li .a ya
-kast .u nyelvtani-ügyben li .a ya
 kump .u hangulat li .a ya
+kusp .u összeomlás li .a ya
+kust .u állandó li .a ya
+kumt .u közöl li .a ya
+kuft .u vízválasztó li .a ya
+kuwt .u kód li .a ya
+yink .u gyűrű li .a ya
 kunt .u vezérlés li .a ya
+kult .u kultúra li .a ya
 yimk .u kérdez li .a ya
-yank .u ébren li .a ya
+yalk .u jármű li .a ya
+yulp .u szerep li .a ya
+yult .u hasznosság li .a ya
 panp .u kenyér li .a ya
-punt .u hurok li .a ya
+pant .u kölcsön li .a ya
 pack .u élvez li .a ya
+pult .u régi li .a ya
 wiyp .u ige li .a ya
+wins .u Vénusz li .a ya
+wint .u szél li .a ya
 niym .u főnév li .a ya
+nalt .u természet li .a ya
 sant .u művészet li .a ya
 sint .u érez li .a ya
 suyt .u nyelvtani-téma li .a ya
 timp .u feszült li .a ya
 tink .u szöveg li .a ya
 tiwk .u aktivitás li .a ya
+tisk .u haladás li .a ya
 tuym .u világ li .a ya
+tamk .u néz li .a ya
+tanp .u megjelenik li .a ya
+tack .u köszönet li .a ya
 tuwm .u időtartam li .a ya
 liyt .u irodalom li .a ya
+liyn .u vonal li .a ya
 lint .u belül li .a ya
 lank .u szín li .a ya
 lunt .u emberek li .a ya
+luwt .u lant li .a ya
 tick .u szótár li .a ya
+cinp .u információ li .a ya

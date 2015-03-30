@@ -1,0 +1,1 @@
+exports.say = console.log;

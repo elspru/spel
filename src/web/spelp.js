@@ -193,7 +193,7 @@ inLangSelect.addEventListener("change",function(){
 if (inLangCode === "json")
 infoUpdate(JSON.stringify(dictDefs));
 else{
-inLangL = getLanguage(inLangCode);
+inLangL = languageGet(inLangCode);
 var dictString = dictDefs.toLocaleString(inLangL, HtmlFormat);
 infoUpdate(dictString);}
 dictShown = true;

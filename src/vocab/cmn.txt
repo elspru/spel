@@ -13,7 +13,6 @@ pi li .u 的 li .a ya
 pa li .u 这-事 li .a ya
 wi li .u 我们 li .a ya
 wa li .u 或 .a ya
-na li .u 个 .a ya
 si li .u 他们 li .a ya
 nu li .u 现在 .a ya
 ti li .u 之 .a ya
@@ -31,15 +30,12 @@ pla li .u 复数 li .a ya
 pwa li .u 或者 .a ya
 plu li .u 为 li .a ya
 pca li .u 姁 li .a ya
-nwa li .u 零 li .a ya
 nya li .u 从 li .a ya
 sli li .u 例如 .a ya
 slu li .u 单数 li .a ya
 sla li .u 您好 li .a ya
-tya li .u 第尾巴 li .a ya
 twa li .u 然后 li .a ya
 tli li .u 第 .a ya
-mik .u 复制 .a ya
 miy .u 等待 .a ya
 mip .u 过去 .a ya
 min .u 减 .a ya
@@ -56,8 +52,6 @@ kal .u 所有 li .a ya
 kut .u minhmap .i 小 .a ya
 yik .u 否定 .a ya
 yan .u 说 li .a ya
-pim .u 点 .a ya
-piy .u 法案 .a ya
 pam .u 良好 .a ya
 pak .u 体 .a ya
 pay .u 更多 .a ya
@@ -68,42 +62,31 @@ pan .u 见面 .a ya
 pac .u 欢乐 li .a ya
 puy .u 孩子 .a ya
 fut .u 未来 .a ya
-wam .u 时间 .a ya
 wan .u 爱 li .a ya
 wap .u 尾 .a ya
 wat .u 说话 li .a ya
 wul .u payhmap .i 大 .a ya
 nam .u 号码 .a ya
-sim .u 三 li .a ya
 naw .u 现时 .a ya
-tiw .u 救命 li .a ya
 sun .u 一 .a ya
-tak .u 谢谢 li .a ya
 liy .u 四 li .a ya
 tuw .u 两 .a ya
 lit .u 字形 li .a ya
 cik .u minhnam .i 少数 .a ya
 caw .u 喊 li .a ya
-myik .u 添加 .a ya
-kyim .u 减去 .a ya
 kyul .u 规则 li .a ya
-klas .u 条款 .a ya
 klaw .u 笑 li .a ya
 pyan .u 代词 .a ya
 pyas .u 短语 .a ya
 pyat .u 语法对象 .a ya
 plis .u 附近的 li .a ya
 slim .u 例 .a ya
-flas .u 短语 .a ya
 tkic .u 翻译，字典 li .a ya
 tlam .u 翻译 li .a ya
 tlin .u 序数词 .a ya
-miyk .u 发送 .a ya
 miwk .u 人 .a ya
 muys .u 情感 li .a ya
 kamt .u 语法 .a ya
-kayp .u 事 .a ya
-kast .u 语法情况 .a ya
 kump .u 情绪 li .a ya
 yimk .u 问 .a ya
 wiyp .u 动词 .a ya

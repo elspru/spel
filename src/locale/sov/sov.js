@@ -3,6 +3,7 @@ var sovWordOrder = {
 headFinal : true,
 verbFinal : true,
 typeFinal : true,
+subjectProminent: true,
 postpositional : true,
 clauseInitial: true,
 genitiveInitial: true,

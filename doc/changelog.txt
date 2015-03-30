@@ -2491,3 +2491,384 @@ was an empty definition.
 1534 replaced yand kwi with while swi :-)
 1603 okay reduced some duplicates by taking out some synonyms
 will try adding some new words now.
+1627 added become and force
+} 17 Mar 2015
+0726 so I looked up block chains, and it turns out it's just a
+distributed database. then I looked up magnet links, and it
+turns out they work with distributed hash tables. 
+0728 force is mass * distance/time^2 or maybe push amount
+0733 hmmm become sounds like an aspect, a little bit farther
+along than inchoative. so probably should make it into a grammar
+word. It can only be used as a verb anyways.
+0742 anyways I should set up the deployment test since it's
+morning, and leave the vocab work for the evening.
+0743 in terms of the distributed databases and hash tables, can
+keep in mind making something like that with SPEL/mwak, that way
+can make a SPEL network. encryption would be optional.
+optimization would be for scalability, speed, and redundancy.
+0744 proof of work seems to be a major waste of time,
+however it uses tests to verify something hard to make,
+so it might be possible to use it for SPEL development,
+the hardest part would be generating the deployment tests,
+to check if the new program meets the requirements. 
+0748 okay so how are we going to accomplish these deployment
+tests. I'm thinking I can research how deployment tests are
+done. test automation.
+0751 so there can be the names in the entries of the hosts,
+these hosts could have records, such as for stability and
+bandwidth, they would hold and maintain the manifests of the
+files. I guess they would be bittorrent trackers, but for whole
+websites. 
+so for instance someone requests a website, via the WYN proxy,
+depending on settings, it can prioritize getting it from the
+original site, or get a WYN archive copy. for sites stored
+completely in the WYN archive it would be just from there. 
+so simple case is getting it normally from http server,
+and then storing a copy in the proxy with a time-to-live,
+notifying the network of it's availability at this source.
+if someone later wishes to use the network to get it
+0822 people would get paid in cryptocoin for hosting sites,
+there can be soem kind of stats for which sites are most often
+requested from the network, i.e. too slow from the original
+source, these would be prioritized for loading into network, as
+people could get paid for them. 
+1321 have to translate part of genesis 11:6 for an email
+YLT 11:6
+ and Jehovah saith, `Lo, the people [is] one, and one 
+pronunciation [is] to them all, and this it hath dreamed 
+of doing; and now, nothing is restrained from them of that 
+which they have purposed to do.'
+NASB 11:6
+The Lord said, “Behold, they are one people, and they all have 
+[a]the same language. And this is what they began to do, 
+and now nothing which they purpose to do will 
+be [b]impossible for them.
+SPEL B 11:6
+look su the people ob one while su one language to them all ya
+and about this su it be hold ob dream to make  
+while now  su null be hold from them about tha su them be hold ob
+purpose to make ya
+1338 so we need dream, keep, hold, purpose
+1339 btw I've decided to remove have in favour of hold ya
+some langauges don't hold a word for have ya and some languages
+use have as a grammatical structure for tense and aspect.
+1341 guess we'll start with the others for now
+hmm keep and hold is the same word in most languages. 
+1551 be capable might be best as kip
+} 18 Mar 2015
+0750  I'm thinking of using Tape as a testing framework. 
+0753 one issue i'm having with translating is the about clause
+isn't closing properly
+1148 okay I'm making the tests, have made for word, and now
+working on for types. guess I should do compound words also
+actually.
+1203 hmmm need to debug foreign quote it seems.
+1207 okay fixed
+1223 great all the type tests work, now for the phrase tests ya
+1240 issue with verb order input from english, will have to fix
+that.
+1323 okay fixed it :-)
+} 19 Mar 2015
+0525 I might need a deep compare function for sentences/phrases
+etc. I have isLike, but that's not isEqual ya
+I guess it is equal if it is both a subset and a superset ya
+0543 anyways can implement that a bit later, right now I need to
+work out the kinks from that babel translation ya
+0556 it seems to be cropping last word from top clause input ya
+i'll take a nap for now.
+1314 k so I guess it's vocab time. can check to see what kind of
+vocab need to translate for the javadoc and prioritize that.
+1359 so lets try translating first clause of Utils.java
+Class provides centralized access to configuration property 
+file and few general utility methods, can play role of 
+application context.
+
+su class be provide ob main access 
+to configuration property file and few general utility method 
+while be capable ob tha be application context ya
+2118 so I was thinking how can make cryptocurrency or librecoin
+based on a joule, a unit of energy, 2^16 joules is about 15
+nutritional calories, about the size of a small sushi, or about
+0.18 cents of electricity if it is at 10 cents per kilowatt.
+can also calculate how much ram/disk space that is used by an
+algorithm, is worth, based on the life-expectancy of the
+ram or disk and cost of it, the cost would be converted to
+joules via the price per kilowatt.
+} 29 Mar 2015
+0712 will definitely need to have conjugation which modifies
+noun for the verb phrase ya
+0821 added phoneme counter to word translate
+} 21 Mar 2015
+0235 so still have a few kinks to work out, mostly with top
+clauses it seems. 
+0237 also not sure if utility should be in the top few thousand
+words.  but I guess it's common enough for computing and
+economics that it would be good to have.
+0752 trying to work out the kinks, main ones being lack of
+subclause term for about tha, and the odd dropping of last word
+of topClause
+0805 okay fixed the subordinate clause thing
+0814 can't seem to identify where the other issue is, it might
+be something that passes to parsing of clause
+} 22 Mar 2015 
+0715 okay I narrowed it down, seems to be the mood word isn't
+being properly accounted for. 
+0742 okay I fixed it, issue was an inaccurate slice.
+0743 I'd also like to only allocate topics/vocatives if they
+don't have a clause when clause-final, since otherwise 
+it would be best to put them at back to avoid the nasty
+clause-tail word. or we could make it less nasty, though I think
+for topic it's not so important. especially in English anyways
+1239 I think that might be just making more work for myself at
+the moment, have to focus on getting it to work at an acceptable
+level, not necessarily at an ideal level.
+2225 hmmm the mood doesn't work if input from clause, will have
+to fix.
+2251 can replace ti with kwa and make ti it, then ka can be as
+2256 or maybe I should use which instead of that.
+tli for unquote, tyi for quote
+} 23 Mar 2015
+0713 attempting to fix the mood thing for clause initial
+sentences ya
+0719 okay fixed
+0724 okay now we have too many clauseTerms
+0733 hmmm newline between topClause's may be beneficial
+0743 fixed the topic if it contains clause
+0749 okay seems fully operational
+0751 just need to update vocab and adjust grammar
+0759 oh yea, and adjust/check web version
+0805 on isn't in enough languages will have to remove it
+0807 guess we'll keep na as numeral then
+1104 drafting email of the updates
+1321 have issue with junctions, probably not being processed
+properly in performance grammar
+1406 okay had to extract the topClause and append it.
+1411 now main issue is that some of the longer phrases seem to
+be outputting as verb when they are nouns.
+1448 it seems to be issue when it is inputing for first time
+2301 added a bunch of words, now sleepy time
+0641 should finish debugging that junction stuff
+0706 okay got the input working, now just need the output
+working also.
+afterwards I'll set up a test to make sure this stays working ya
+0711 okay it works. now to set up the test
+0720 hmmm there is mild inconsistency in the test results, so
+I'll see if I can fix that.
+0721 also if I could somehow change the english default to be
+based on noun rather than verb, that would be ideal.
+0733 okay seems to work that way now :-)
+I'd like to also check the verb version, since it was showing
+some inconsistencies.
+0749 there is also a weird double space at end of verb junction,
+but w/e will leave that for later. meanwhile managed to
+reduplicate that verb word order issue.
+0753 okay fixed that also :-D. now can write that email.
+0758 even managed to track down that rogue space ya
+2135 the dictionary function on the web version doesn't work.
+2209 was thinking about sailing on venus.
+wins pi psit tya tyup ka lasp .i myin ya
+} 25 Mar 2015
+0524 unfortunately it seems that at is too ambigious in most
+languages, so it is easier to use in, same in reference to on. 
+by ambigious I mean that it collides with other words in various
+languages. 
+0541 hmmm of doesn't seem to be working right, I'll make it as
+noun part of speech.
+0557 anywas so next lets do the javascript stuff
+0559 appear may be better than arrive ya
+0603 there is problem with internet connection, a sign I should
+get focused on the javascript translation, hmmm.
+0604 simple sentences to javascript. 
+so we'll start with phrases perhaps. 
+they become objects, like hello world ya, 
+becomes {"sla":"munt"};  k lets try to do it.
+or perhaps can even start with words, munt becomes "munt"
+so we need to have a javascript langauge code, maybe javs,
+or node.. I could check online maybe. hmmm I don't see anything,
+so probably have to go with javs.
+hmmm actually js doens't seem taken. neither does mw, so maybe
+can make mwak mw. w/e I went with javs, cause I dono maybe there
+is some rogue code floating around somewhere. 
+0623 okay made a noun conjugate function in the javs.js file
+0644 partially working, okay pretty much working, will sleep on
+it.
+1814 Arimatego, a hybrid of Arimma, Stratego, Shogi and Go.
+main game example can be stratego board, but can be varied. 
+the idea is that the no-mans-land, is arimaa style traps,
+each player starts with an empty board,
+each player gets 4 moves per turn.
+in first turn they must put down the flag.
+putting down a piece is worth two moves,
+shifting a piece is worth one move,
+pushing or pulling a piece is worth two moves,
+removing an own piece (other than flag) takes two moves,
+removing a piece can only be done from players half of board,
+and then only if it is not arrested.
+when a piece falls into a trap it has a 50% chance of joining
+the enemy arsenal, can flip a coin to find out.
+when a piece tries to push or pull a piece of the same rank, it
+has a 50% chance of success, can flip a coin to find out.
+1908 thinking of the chessboard version which has perfect
+knowledge.  instead of "traps", can have the rooks as courts. 
+taking the enemy king to your court wins the game. 
+the courts have to be on the players half of the board, and can
+not be moved afterwards.  this is equivalent to the bombs of the
+stratego, and king being the flag. 
+when pushing or pulling a piece arrests another, so it can't
+move any further. 
+when you have two pieces of equal rank, there is a 50% chance of
+the arrest being a success, and a failed arrest still takes 2
+turns, just as a successful pull would. only way to get
+unarrested is if a friendly piece successfully arrests the
+initial piece. 
+after being taken to court a piece has a 50% chance of joining
+the other side (one heads up), or going to prison (out of game).
+in terms of placing new pieces on the board,
+for maximum realism, it can be adjacent to current unarrested
+pieces.
+bishops can have a 1 in four chance of converting an adjacent 
+piece (two heads up). attempting conversion can take 2 turn,
+courts and kings can not be converted. 
+technically can have the black side having imams, and islamic
+names for the pieces *shrugs* but that may raise tensions.
+or people can name the bishops based on the leaders of their own
+faiths,  chiefs, priests, or w/e. in mwak there would be just
+one term for it likely anyways.
+rankins (for arrests) would be, court ∞, queen 4, bishop 3, 
+knight 2, pawn 1, king 0. 
+to make it really interesting can make it so that a piece has 
+a chance of fighting back. so a pawn could have a 1:4 chance of
+arresting a queen, and 1:3 chance of arresting a bishop,
+or can double those odds to make it easier to coin flip for it.
+so 1:8 queen (4 head up), 1:6 bishop (3 head up), 1:4 knight (2
+head up), 1:2 pawn, (1 head up). knight's chances, 
+2 head up for bishop, 3 head up for queen. bishops chance, 
+2 head up for queen.
+can call it spirit court. 
+pawns can be worshipers, or officers. 
+special powers:
+a queen (secretary COO) can arrest two pieces.
+a bishop (treasurer CFO) has a chance to convert others.
+a knight (helicopter CTO) can skip over piece(s) during a move.
+a pawn (officer) is the base class.
+a king (president CEO) can't be converted.
+in this case can all it Officer's Court.
+2014 anyways can do more vocab work.
+} Mar 26 2015
+0600 so now can try adding javascript translation at the phrase 
+level, and the sentence level ya Can do XML also. though might
+be easiest once done the javascript ya
+0614 okay working for phrases, now for sentence level
+0726 hmm multi word quote not rendering properly
+0939 it is fine at the type and phrase level, but stops working
+at the sentence level
+0940 I'll have to update test to check it at sentence level
+0949 okay fixed, it was type copying issue.
+1004 I should probably also do some disambiguating, and put my
+foot down on at least supporting the basic PIE cases. anyways
+that is afternoon stuff. for now lets see how good we can make
+this javascript translation, need mwq conjugation
+1031 okay now need to pass down conjugation level
+1033 maybe should make a meta object, that can have type: and
+conjugationLevel
+or we can make it a part of format. nah, format is passed from
+user wheras meta is for internal use., meh easiest would simply
+be to use undefined at this time anyways.
+1059 awesome is now fully operational :-D
+eng : be say, "hello world". 
+javs : say( "hello world" );
+mwak : ksa fyas hello world fyas tsi .a yan .i ya
+1212 anyways time to do some disambiguating
+1214 what are the basic PIE cases?
+(nominative, accusative, genitive, dative, instrumental, ablative, locative, vocative, and possibly a directive or allative)
+su, ob, of, to, by, from, in(at), hello, (towards?/till)
+1302 disambiguated everything up to thai
+2217 great so now every language is free of duplicates.
+2325 managed to set up dative declensions for Russian, doesn't
+quite work with type junctions, and phrase junctions seem to be
+broken, but otherwise is a big step in the right direction. can
+do subject and object declensions tommorrow. 
+} 27 Mar 2015
+0539 so the main things to get full conjugation support, is
+phrase aspect, and to debug phrase junctions. can probably
+remove type junctions, as we they serve the same function but
+are more confusing and thus harder to code for.
+0548 hmmm we have a rather tight javascript roadmap though.
+I guess we can consider the support of phrase junction
+debugging.
+0550 hmmm maybe we should support type junctions, for the long
+lists of things, yada, bada, wada, and lada kinda stuff.
+0551 okay so to support it, we'll have to pass the case
+information to the junction's types.
+0600 fixed phrase junctions, but now the while clause
+disappeared. seems like it's skipping the while word.
+may be issue with sentence parsing.
+0605 could also be issue with parsing.
+0621 want to improve the French so can talk to my French
+LibreWare friend, then Arabic for Ali the blind programmer. 
+0623 first it is best to finish Russian.
+0624 oh and to make a test for that parsing issue
+0629 k made a test for it.
+0657 integrated all of Russian, except for exceptions.
+0719 okay also debugged it a bit
+} Mar 28 2015
+0156 thinking about how venus would be great for making aerogel,
+and they could have wind power converters for energy. at first
+was thinking wind turbines, but there may be other ways such as
+piezo electrics or something, waving grass style wind power
+converters, fewer places for dust to get in.
+0204 oh I found something that may be better than hydrogen
+lengths, atomic units.  seems like planck units would be best.
+0223 only issue with that I see is that the theories of physics
+it's based on may change..
+0225 guess we can call them quantum units
+0330 adding math words
+tak 	add
+yut	subtract
+payt	multiply
+kuft	divide
+mult 	modulo
+kisp	exponent
+lumk	logarithm
+niyt	nth-root
+1241 I should make a verbBack or something, to put the verb at
+the end for SOV languages like mwak.
+1315
+mast matter
+syat solid
+clut supercritical-fluid
+liyk liquid 
+kaws air-gas
+plam plasma
+milt melt
+pyul boil
+nyus ionize
+salm sublimate
+tlun triple-point
+kuyt critical-point
+tyis transition
+2350 added a bunch of matter phases.  
+so venus does have an ocean, it's simply made of supercritical
+carbon-dioxide fluid.
+can even have submarines, and possibly "surface" sailboats,
+since the density of liquid carbon dioxide is 770kg/m^3,
+assuming that the super-fluid is the same so only
+need about a quarter more bouyancy than in h2o water.
+} 29 Mar 2015
+0729 need to do some disambiguating
+mi.u psal.i clutpi syanna ya
+0828 need to make wordTranslate24.sh to help translate atom
+names into 24glyph namespace
+1035 so density at surface is only 67kg/m^3 can't really do
+concrete boats in that.
+} Mar 19 2015
+0837 so I should put the aspect on the roadmap,
+I'm just not sure how aspect can relate to javascript.
+1117 so how do we do nominal sentences? if a sentence doesn't
+have a verb, than can send it over the nominalConjugte.
+1119 or more simply, can see if it hasCopula. 
+1120 also can add in text header, and possibly footer,
+that way can output javascript files.
+1156 thinking should call the node javasc either nojs or jsno
+1213 awesome so I now have it compiling to javascript,
+and the file is executable. good stuff

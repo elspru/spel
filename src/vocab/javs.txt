@@ -7,7 +7,6 @@ ku li .u if li .a ya
 ya li .u ; li .a ya
 pi li .u of li .a ya
 wa li .u or .a ya
-na li .u nam .i nu .a ya
 nu li .u naw timp .i now .a ya
 ti li .u tha .a ya
 ta li .u kast .i to li .a ya
@@ -19,7 +18,6 @@ pwa li .u yaor .a ya
 sli li .u for-example .a ya
 sla li .u hello li .a ya
 tli li .u tlin nam .i ord .a ya
-mik .u copy .a ya
 miy .u wait .a ya
 mip .u wap wam .i past .a ya
 min .u less .a ya
@@ -30,8 +28,6 @@ kiy .u go .a ya
 kap .u head .a ya
 kut .u min map .i small .a ya
 yik .u negate .a ya
-pim .u point .a ya
-piy .u act .a ya
 pam .u good .a ya
 pak .u body .a ya
 pay .u more .a ya
@@ -39,7 +35,6 @@ paw .u place .a ya
 pan .u meet .a ya
 puy .u child .a ya
 fut .u kap wam .i future .a ya
-wam .u time .a ya
 wap .u tail .a ya
 wul .u pay map .i big .a ya
 nam .u number .a ya
@@ -47,22 +42,14 @@ naw .u pak wam .i present .a ya
 sun .u one .a ya
 tuw .u two .a ya
 cik .u min nam .i few .a ya
-myik .u add .a ya
-kyim .u subtract .a ya
 kwal .u language .a ya
-klas .u clause .a ya
 pyan .u pim niym .i pronoun .a ya
 pyas .u phrase .a ya
-pyat .u kayp mak .i grammatical-object .a ya
 slim .u example .a ya
 tlin .u ordinal .a ya
-miyk .u send .a ya
 miwk .u person .a ya
 kamt .u grammar .a ya
-kayp .u thing .a ya
-kast .u pyas kamt .i grammatical-case .a ya
 yimk .u ask .a ya
-wiyp .u piy mak .i verb .a ya
 niym .u noun .a ya
 suyt .u grammatical-subject .a ya
 timp .u wam kamt .i tense .a ya

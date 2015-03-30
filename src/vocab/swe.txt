@@ -14,15 +14,15 @@ pa li .u det-där li .a ya
 pu li .u åtgärd li .a ya
 wi li .u vi li .a ya
 wa li .u eller li .a ya
-ni li .u nämligen li .a ya
-na li .u num li .a ya
+ni li .u i li .a ya
+na li .u Nummer li .a ya
 si li .u de li .a ya
 nu li .u nu li .a ya
 ti li .u att li .a ya
 ta li .u till li .a ya
 tu li .u du li .a ya
 li li .u rally li .a ya
-fa li .u om li .a ya
+fa li .u omkring li .a ya
 ci li .u eh? li .a ya
 fu li .u kommer li .a ya
 myi li .u minne li .a ya
@@ -31,27 +31,26 @@ mya li .u kanske li .a ya
 kyi li .u villkor li .a ya
 kya li .u åt-sidan li .a ya
 sa li .u den li .a ya
+kwa li .u att-den li .a ya
 ksa li .u Slut-på-citation- li .a ya
 kla li .u men li .a ya
-kca li .u HA li .a ya
+klu li .u Klausul-tail li .a ya
+kca li .u ha li .a ya
+pya li .u invid li .a ya
 pli li .u i-närheten-av li .a ya
 psu li .u från-källkod li .a ya
 pla li .u Plural li .a ya
 pwa li .u yaor li .a ya
 plu li .u för li .a ya
 pca li .u jolly li .a ya
-nyi li .u inte li .a ya
-nwa li .u void li .a ya
 nya li .u från li .a ya
 swi li .u medan li .a ya
 sli li .u för-exempel li .a ya
 slu li .u Singular li .a ya
 sla li .u Hallå li .a ya
-tya li .u Klausul-tail li .a ya
 twa li .u sedan li .a ya
-tsi li .u Erbjudande li .a ya
 tli li .u Ord li .a ya
-mik .u kopia li .a ya
+mik .u göra li .a ya
 miy .u vänta li .a ya
 mip .u över li .a ya
 mit .u Mitten li .a ya
@@ -59,13 +58,16 @@ min .u mindre li .a ya
 mak .u ord li .a ya
 mat .u Mor li .a ya
 man .u tror li .a ya
+mas .u Mäss li .a ya
 map .u storlek li .a ya
 mac .u Maskin li .a ya
+mut .u hjälpa li .a ya
 kim .u jämför li .a ya
 kiy .u gå li .a ya
+kip .u kapabel li .a ya
+kin .u Huvudsaklig li .a ya
 kit .u ände li .a ya
-kam .u har li .a ya
-kay .u kapabel li .a ya
+kay .u håll li .a ya
 kap .u huvud li .a ya
 kan .u vet li .a ya
 kas .u Root-Cause li .a ya
@@ -77,8 +79,7 @@ kun .u röd li .a ya
 kut .u liten li .a ya
 yik .u negera li .a ya
 yan .u säga li .a ya
-pim .u punkt li .a ya
-piy .u handling li .a ya
+yut .u subtrahera li .a ya
 pam .u bra li .a ya
 pak .u kropp li .a ya
 pay .u mer li .a ya
@@ -92,102 +93,202 @@ put .u sälja li .a ya
 pul .u blå li .a ya
 wit .u Lätt li .a ya
 fut .u framtid li .a ya
-wam .u tid li .a ya
 wan .u älskar li .a ya
 wap .u svans li .a ya
 wat .u tala li .a ya
 nim .u Namn li .a ya
+nit .u Netto li .a ya
 nic .u Energi li .a ya
 wul .u stor li .a ya
 nam .u nummer li .a ya
-sim .u tre li .a ya
+nul .u void li .a ya
+sam .u lika li .a ya
 san .u själv li .a ya
 sat .u ljud li .a ya
 sup .u betala li .a ya
 naw .u närvarande li .a ya
 tip .u börja li .a ya
-tiw .u hjälpa li .a ya
 tin .u se li .a ya
 tam .u Ämne li .a ya
+tak .u lägga-till li .a ya
 sun .u en li .a ya
 tay .u uppsättning li .a ya
+tan .u ge li .a ya
+tas .u välja li .a ya
+tum .u Temperatur li .a ya
 tap .u Rör li .a ya
-tak .u tack li .a ya
+tun .u Längd li .a ya
+tul .u Verktygs li .a ya
+lik .u Elektrisk-laddning li .a ya
 liy .u fyra li .a ya
 lin .u grön li .a ya
+lis .u lever li .a ya
 tuw .u två li .a ya
 lit .u Glyph li .a ya
 cim .u lyssna li .a ya
 cik .u få li .a ya
+cak .u Sak li .a ya
 caw .u Cry li .a ya
+can .u Olycka li .a ya
 cal .u drag li .a ya
-myik .u lägga-till li .a ya
-kyim .u subtrahera li .a ya
+myan .u mjuk li .a ya
+myul .u Moral li .a ya
+myin .u dröm li .a ya
+kyit .u Gravity li .a ya
+kyil .u Krets li .a ya
+kyin .u Allmänt li .a ya
+kyap .u Kopia li .a ya
 kyup .u Grupp li .a ya
+kyat .u svårt li .a ya
+kwat .u Quantum li .a ya
 kyul .u Regel li .a ya
 kwal .u språk li .a ya
-ksip .u skriva li .a ya
+kyis .u skriva li .a ya
+ksip .u Tillgång li .a ya
+ksin .u Sammanhang li .a ya
+ksat .u plötsligt li .a ya
+ksal .u Galaxy li .a ya
 ksap .u uttrycka li .a ya
+ksan .u organisera li .a ya
+klin .u Elektron li .a ya
+ksut .u samla li .a ya
+ksul .u Skola li .a ya
 klaw .u skratt li .a ya
-klas .u klausul li .a ya
+klas .u Klass li .a ya
+klat .u Klausul li .a ya
+kcim .u Kemisk li .a ya
 klac .u utom li .a ya
+kfin .u Config li .a ya
+pyin .u Erfarenhet li .a ya
+pyam .u Program li .a ya
 pyan .u pronomen li .a ya
+pyut .u Proton li .a ya
+pyul .u böld li .a ya
 pyas .u fras li .a ya
 pyat .u grammatisk-objekt li .a ya
+pwil .u Variabel li .a ya
+pwut .u godkänna li .a ya
+psiy .u Tryck li .a ya
 pyuf .u Bevis li .a ya
 pyuc .u Projekt li .a ya
+psit .u Yta li .a ya
 psan .u Plats li .a ya
+psat .u promse li .a ya
 plis .u in-the-close li .a ya
+plam .u Plasma li .a ya
+plin .u Flygplan li .a ya
 psun .u Källa li .a ya
+play .u spela li .a ya
+nyit .u Enhet li .a ya
+nyus .u jonisera li .a ya
+nyut .u Neutron li .a ya
+plan .u Planet li .a ya
+nyis .u Anmärkning li .a ya
+syat .u fast li .a ya
+syun .u Universum li .a ya
+swil .u Själ li .a ya
+syit .u skicka li .a ya
+syak .u vaken li .a ya
+slam .u sublimera li .a ya
 swat .u Fråga li .a ya
 slim .u exempel li .a ya
 tkic .u translation-dictionary li .a ya
+tyis .u Övergång li .a ya
+tyil .u Förkylning li .a ya
+tyam .u Atom li .a ya
 tyim .u darra li .a ya
+tyin .u tre li .a ya
+tyan .u Cord li .a ya
+tyas .u Idea li .a ya
+tyup .u Robot li .a ya
+tsiw .u Satellit li .a ya
 twis .u sant li .a ya
-tsin .u Anmärkning li .a ya
+tsim .u tillsammans li .a ya
+tsin .u Instruktion li .a ya
 tsil .u tjäna li .a ya
+tsay .u Star li .a ya
+tsam .u Syfte li .a ya
+tsak .u Stanna li .a ya
+tsap .u FASTIGHET li .a ya
 tsan .u igen li .a ya
 tsal .u Tillstånd li .a ya
 tsaf .u Smak li .a ya
 tsuk .u Affärs li .a ya
+tlik .u Aktuell li .a ya
 tlam .u översätta li .a ya
+tlun .u Trepunkts li .a ya
 tlin .u ordningstal li .a ya
+tcin .u Kedja li .a ya
 tlan .u Tradition li .a ya
+tfal .u Fil li .a ya
 tcan .u Träd li .a ya
-flas .u fras li .a ya
+fwas .u Fas li .a ya
+fyas .u Expression li .a ya
+fwil .u Force li .a ya
+flit .u Flöjt li .a ya
+flut .u Flower li .a ya
 fluc .u flöde li .a ya
+clut .u superkritisk-fluid li .a ya
 clum .u Mening li .a ya
 miyk .u skicka li .a ya
+mist .u mäta li .a ya
+milt .u Smälta li .a ya
+mayt .u imaginära-enheten li .a ya
+mast .u Matter li .a ya
 miwk .u person li .a ya
-milt .u Ally li .a ya
-mast .u fientlig li .a ya
+mint .u Metod li .a ya
+muyt .u Ally li .a ya
 malt .u Material li .a ya
 mack .u föreställa-sig li .a ya
 muys .u känslor li .a ya
+kisp .u Exponent li .a ya
 munt .u Världen li .a ya
-mult .u Moral li .a ya
+kays .u grammatiskt-Case li .a ya
+kayt .u het li .a ya
+kaws .u Gas li .a ya
+kant .u konvertera li .a ya
+kast .u Konstant li .a ya
+kimt .u hänga li .a ya
 kamt .u grammatik li .a ya
-kayp .u sak li .a ya
-kast .u grammatisk-fallet li .a ya
 kump .u humör li .a ya
+kusp .u Minimera li .a ya
+kust .u Konstant li .a ya
+kumt .u kommunicera li .a ya
+kuft .u del li .a ya
+kuwt .u Kod li .a ya
+yink .u Ring li .a ya
 kunt .u Kontroll li .a ya
+kult .u Kultur li .a ya
 yimk .u fråga li .a ya
-yank .u vaken li .a ya
+yalk .u Fordon li .a ya
+yulp .u Roll li .a ya
+yult .u Fördel li .a ya
 panp .u Bröd li .a ya
-punt .u Loop li .a ya
+pant .u låna li .a ya
 pack .u njuta li .a ya
+pult .u gammal li .a ya
 wiyp .u verb li .a ya
+wins .u Venus li .a ya
+wint .u Vind li .a ya
 niym .u subst li .a ya
+nalt .u Natur li .a ya
 sant .u konst li .a ya
 sint .u känna li .a ya
 suyt .u grammatisk-ämne li .a ya
 timp .u grammatisk-spänd li .a ya
 tink .u Text li .a ya
 tiwk .u aktivitet li .a ya
+tisk .u Framsteg li .a ya
 tuym .u Världen li .a ya
+tamk .u ser-ut-som li .a ya
+tanp .u visas li .a ya
+tack .u tack li .a ya
 tuwm .u Varaktighet li .a ya
 liyt .u Litteratur li .a ya
+liyn .u Linje li .a ya
 lint .u inom li .a ya
 lank .u Färg li .a ya
 lunt .u Människor li .a ya
+luwt .u Lute li .a ya
 tick .u lexikon li .a ya
+cinp .u Information li .a ya

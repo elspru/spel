@@ -973,8 +973,10 @@ while (wordMatch(grammar.junctions,tail)){
 otherTokens = otherTokens.slice(nextPhraseI[1]);
 nextPhraseI = firstPhraseIndexParse(grammar,otherTokens);
 tail = tokens[nextPhraseI[1]-1];
-phraseEnd += nextPhraseI[1];
+phraseEnd += nextPhraseI[1]-2;
 }
+// if last token is top clause then subtract it
+// if (tokens[phraseEnd])
 firstPhraseI[1]=phraseEnd;
 }
 return firstPhraseI;

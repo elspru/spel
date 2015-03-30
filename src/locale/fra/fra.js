@@ -4,6 +4,7 @@ var Dictionary = require("../../lang/dictionary");
 var Grammar = require("../../lang/grammar");
 var Language = require("../../lang/language");
 var svo = require("../../locale/svo/svo");
+var wrld = require("../../locale/wrld/wrld");
 var fraFile = require("./fra.txt.json");
 var mwak = new Language();
 
@@ -23,6 +24,14 @@ irreversible:[
 [" ya$",". "],
 ]
 }
+
+conjugation.verbPhrase = verbPhraseConjugate;
+function verbPhraseConjugate(body,adposition){
+return body;
+}
+conjugation.foreignQuote = 
+wrld.conjugation.guillemetSpaceQuote;
+
 var fraGrammar = new Grammar(fraWordOrder,fraDict,conjugation);
 var fra = new Language(fraGrammar,fraDict);
 return fra;

@@ -5,6 +5,7 @@ var Grammar = require("../../lang/grammar");
 var Language = require("../../lang/language");
 var araFile = require("./ara.txt.json");
 var vso = require("../../locale/vso/vso");
+var wrld = require("../../locale/wrld/wrld");
 var mwak = new Language();
 
 module.exports = Arabic;
@@ -15,6 +16,7 @@ var araDict = new Dictionary(mwak,araText);
 var araWordOrder = {
 headFinal : false,
 verbFinal : false,
+nounFinal : false,
 typeFinal : false,
 clauseInitial: false,
 genitiveInitial: false,
@@ -32,6 +34,14 @@ irreversible:[
 [" يا$",". "],
 ]
 }
+conjugation.verbPhrase = verbPhraseConjugate;
+function verbPhraseConjugate(body,adposition){
+return body;
+}
+
+conjugation.foreignQuote = 
+wrld.conjugation.citationQuote;
+
 var araGrammar = new Grammar(araWordOrder,araDict,conjugation);
 var ara = new Language(araGrammar,araDict);
 return ara;

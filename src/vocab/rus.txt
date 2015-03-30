@@ -14,8 +14,8 @@ pa li .u эта li .a ya
 pu li .u сделал li .a ya
 wi li .u мы li .a ya
 mip li .u прошлый li .a ya
-ni li .u а-именно li .a ya
-na li .u чис li .a ya
+ni li .u в li .a ya
+na li .u цифра li .a ya
 wa li .u или li .a ya
 nu li .u ню li .a ya
 si li .u они li .a ya
@@ -31,42 +31,44 @@ mya li .u может-быть li .a ya
 myi li .u память .a ya
 mwa li .u с li .a ya
 kyi li .u условно .a ya
+kwa li .u то-что li .a ya
 kya li .u в-сторону li .a ya
 ksa li .u закрывать-кавычки li .a ya
+klu li .u Предложение-хвост li .a ya
 kla li .u но li .a ya
+pya li .u по li .a ya
 sa li .u эт .a ya
 psu li .u от-источника li .a ya
 kca li .u ха li .a ya
 pli li .u у li .a ya
 pla li .u множественное-число li .a ya
 pwa li .u дили .a ya
-nyi li .u не li .a ya
 plu li .u для li .a ya
 pca li .u веселый li .a ya
 swi li .u в-то-время-как li .a ya
-nwa li .u нуль li .a ya
 nya li .u от li .a ya
 sli li .u например .a ya
 slu li .u отдельный li .a ya
 sla li .u привет li .a ya
-tsi li .u цитата li .a ya
-tya li .u пункт-конец li .a ya
+mik .u сделать li .a ya
 twa li .u затем li .a ya
 tli li .u ога li .a ya
-mik .u копия .a ya
 miy .u ждать .a ya
 mit .u средний li .a ya
 mip .u мимо li .a ya
 min .u меньше .a ya
 mak .u слово .a ya
+mas .u масса li .a ya
 mat .u мать li .a ya
 mac .u машина li .a ya
+mut .u помогите li .a ya
 man .u думать li .a ya
 map .u размер .a ya
+kip .u способный li .a ya
+kin .u главный li .a ya
 kit .u конец li .a ya
-kam .u иметь li .a ya
+kay .u держать li .a ya
 kim .u сравнить .a ya
-kay .u в-состоянии li .a ya
 kiy .u идти .a ya
 kap .u голова li .a ya
 kat .u получить li .a ya
@@ -77,10 +79,9 @@ kun .u красный li .a ya
 kas .u причина li .a ya
 kal .u все li .a ya
 kut .u малый .a minhmap .i ya
+yut .u вычитать li .a ya
 yik .u отрицать .a ya
 yan .u сказать li .a ya
-pim .u точка li .a ya
-piy .u акт li .a ya
 pam .u хорошо .a ya
 pak .u тело li .a ya
 pay .u больше .a ya
@@ -94,103 +95,201 @@ wit .u свет li .a ya
 pac .u радость li .a ya
 puy .u ребенок .a ya
 fut .u будущее li .a ya
-wam .u время li .a ya
 wan .u любовь li .a ya
 nim .u имя li .a ya
+nit .u чистый li .a ya
 nic .u энергия li .a ya
 wap .u хвост li .a ya
 wat .u говорить li .a ya
+nul .u нуль li .a ya
+sam .u то-же-самое li .a ya
 wul .u большой .a payhmap .i ya
 san .u себя li .a ya
 sat .u звук li .a ya
 sup .u платить li .a ya
 nam .u число .a ya
 tip .u начать li .a ya
-sim .u три li .a ya
 tin .u видеть li .a ya
+tak .u добавлять li .a ya
 naw .u настоящее-время li .a ya
 tam .u тема li .a ya
 tay .u положить li .a ya
+tan .u дать li .a ya
+tum .u температура li .a ya
+tas .u выбирать li .a ya
+tun .u длина li .a ya
 tap .u коснуться li .a ya
-tiw .u помогите li .a ya
+lik .u электрического-заряда li .a ya
+tul .u инструмент li .a ya
 sun .u один li .a ya
+lis .u жить li .a ya
 lin .u зеленый li .a ya
-tak .u спасибо li .a ya
 liy .u четыре li .a ya
 cim .u услышать li .a ya
 tuw .u два li .a ya
+cak .u вещь li .a ya
 lit .u глиф li .a ya
+can .u шанс li .a ya
 cal .u шаг li .a ya
 cik .u несколько .a minhnam .i ya
+myan .u мягкий li .a ya
+myul .u моральный li .a ya
+myin .u мечтать li .a ya
 caw .u крик li .a ya
+kyit .u вес li .a ya
+kyil .u круг li .a ya
+kyin .u генеральный li .a ya
+kyap .u копия li .a ya
 kyup .u группа li .a ya
-myik .u добавлять .a ya
-kyim .u вычитать .a ya
-ksip .u запись li .a ya
+kyat .u жесткий li .a ya
+kwat .u квантовая li .a ya
+kyis .u запись li .a ya
+ksip .u доступ li .a ya
+ksin .u контекст li .a ya
+ksat .u внезапно li .a ya
+ksal .u галактика li .a ya
 ksap .u выразить li .a ya
+ksan .u организовать li .a ya
+klin .u электрон li .a ya
+ksut .u собирать li .a ya
+ksul .u школа li .a ya
 kyul .u правило li .a ya
-klas .u пункт .a ya
+klas .u класс li .a ya
+klat .u пункт li .a ya
+kcim .u химическая li .a ya
 klac .u кроме li .a ya
+kfin .u конфиг li .a ya
+pyin .u опыт li .a ya
+pyam .u программа li .a ya
 klaw .u смех li .a ya
+pyut .u протон li .a ya
+pyul .u кипятить li .a ya
 pyas .u фраза li .a ya
 pyuf .u доказательство li .a ya
+pwil .u переменная li .a ya
+pwut .u утвердить li .a ya
+psiy .u давление li .a ya
 pyan .u местоимение li .a ya
 pyuc .u проект li .a ya
+psit .u поверхность li .a ya
 psan .u пространство li .a ya
 psun .u источник li .a ya
-flas .u фраза li .a ya
+plam .u плазма li .a ya
+plin .u самолет li .a ya
+play .u играть li .a ya
+plan .u планета li .a ya
+nyit .u блок li .a ya
+nyus .u ионизировать li .a ya
+nyut .u нейтрон li .a ya
+nyis .u ссылка li .a ya
+syit .u послать li .a ya
+syat .u твердый li .a ya
+syun .u вселенная li .a ya
+swil .u душа li .a ya
+syak .u проснуться li .a ya
 swat .u вопрос li .a ya
+slam .u сублимировать li .a ya
 pyat .u грамматический-объект li .a ya
 plis .u рядом li .a ya
 tyim .u дрожать li .a ya
+tyis .u переход li .a ya
+tyil .u холодный li .a ya
+tyam .u атом li .a ya
+tyin .u три li .a ya
+tyan .u строка li .a ya
+tyas .u идея li .a ya
+tyup .u робот li .a ya
 twis .u верно li .a ya
-tsin .u ссылка li .a ya
+tsiw .u спутниковое li .a ya
+tsim .u вместе li .a ya
+tsin .u инструкция li .a ya
 tsil .u заслуживать li .a ya
+tsam .u цель li .a ya
+tsay .u звезда li .a ya
+tsak .u оставаться li .a ya
+tsap .u свойство li .a ya
 tsan .u снова li .a ya
 tsal .u состояние li .a ya
 tsaf .u вкус li .a ya
 tsuk .u магазин li .a ya
+tlik .u электричество li .a ya
 slim .u пример .a ya
-flas .u фраза .a ya
 tlan .u традиция li .a ya
+tlun .u тройной-точкой li .a ya
+tfal .u файл li .a ya
+tcin .u цепь li .a ya
 tcan .u дерево li .a ya
+fwil .u сила li .a ya
+flit .u флейта li .a ya
+fwas .u фаза li .a ya
+fyas .u фраза li .a ya
 tkic .u перевод-словарь li .a ya
+flut .u цветок li .a ya
 fluc .u течь li .a ya
+clut .u сверхкритической-жидкости li .a ya
 clum .u приговор li .a ya
+miyk .u послать li .a ya
 tlam .u перевести li .a ya
+mist .u измерять li .a ya
+milt .u расплав li .a ya
+mayt .u мнимого-блок li .a ya
+mast .u вопрос li .a ya
 tlin .u порядковый li .a ya
-milt .u союзник li .a ya
-mast .u враждебный li .a ya
+mint .u метод li .a ya
+muyt .u союзник li .a ya
 malt .u материал li .a ya
 mack .u вообразить li .a ya
-miyk .u послать .a ya
 munt .u мир li .a ya
-mult .u моральный li .a ya
+kisp .u экспонента li .a ya
+kays .u грамматическая-случая li .a ya
+kayt .u горячей li .a ya
+kaws .u газ li .a ya
+kant .u конвертировать li .a ya
+kast .u постоянная li .a ya
+kimt .u вешать li .a ya
 miwk .u человек li .a ya
 muys .u эмоция li .a ya
 kamt .u грамматика li .a ya
-kayp .u вещь li .a ya
+kusp .u коллапс li .a ya
+kust .u постоянная li .a ya
+kumt .u общаться li .a ya
+kuft .u разделение li .a ya
+kuwt .u код li .a ya
+yink .u кольцо li .a ya
 kunt .u контроль li .a ya
-kast .u грамматический-случая li .a ya
-yank .u проснуться li .a ya
+kult .u культура li .a ya
+yalk .u автомобиль li .a ya
+yulp .u роль li .a ya
+yult .u утилита li .a ya
 panp .u хлеб li .a ya
-punt .u петля li .a ya
+pant .u брать li .a ya
 pack .u наслаждаться li .a ya
+pult .u старый li .a ya
 kump .u настроение li .a ya
+wins .u Венера li .a ya
+wint .u ветер li .a ya
 yimk .u спросить .a ya
+nalt .u природа li .a ya
 sant .u искусство li .a ya
 wiyp .u глагол li .a ya
 niym .u существительное li .a ya
 sint .u чувствовать li .a ya
 tink .u текст li .a ya
 suyt .u грамматический-объект li .a ya
+tisk .u прогресс li .a ya
 tuym .u мир li .a ya
+tamk .u смотреть li .a ya
+tanp .u появляться li .a ya
+tack .u поблагодарить li .a ya
 tuwm .u продолжительность li .a ya
 liyt .u литература li .a ya
+liyn .u линия li .a ya
 lint .u внутри li .a ya
 lank .u цвет li .a ya
 lunt .u люди li .a ya
+luwt .u лютня li .a ya
 timp .u напряженный li .a ya
+cinp .u информация li .a ya
 tiwk .u деятельность li .a ya
 tick .u словарь .a ya
 kwal .u язык .a ya

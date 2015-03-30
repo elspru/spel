@@ -53,7 +53,8 @@ var tokenTuple;
 if (partOfSpeech) 
 tokenTuple = partOfSpeechOrder(language,tokens,partOfSpeech);
 // else if head initial then initial order ya
-else if (wordOrder.headFinal === false)
+else if (wordOrder.nounFinal !== true
+&& wordOrder.headFinal == false)
 tokenTuple = initialOrder(language,tokens);
 // else be final order ya
 else tokenTuple = finalOrder(language,tokens);
@@ -97,6 +98,7 @@ headWord = translate.word(transDict, tokens[headTokenI]);
 var bodyWords;
 if (tokens.length >1){
 var otherTokens = tokens.slice(headTokenI+1);
+otherTokens.reverse();
 bodyWords = translate.array(transDict,otherTokens); 
 }
 return [bodyWords,headWord];
@@ -119,12 +121,14 @@ tokenTuple = finalOrder(language,tokens);}
 // else if su partOfSpeech ob noun 
 // yand noun initial then be return ob initial order 
 else if (partOfSpeech === "noun"){
-if (wordOrder.nounFinal === false)
+if ( wordOrder.nounFinal !== true &&
+ wordOrder.headFinal === false)
 tokenTuple = initialOrder(language,tokens);
 else if (wordOrder.nounFinal)
 tokenTuple = finalOrder(language,tokens);}
 // else if head initial then be return ob initial order 
-else if (wordOrder.headFinal === false)
+else if (wordOrder.headFinal === false 
+&& wordOrder.nounFinal !== true)
 tokenTuple = initialOrder(language,tokens);
 // else be return ob final order
 else tokenTuple = finalOrder(language,tokens);
@@ -170,7 +174,8 @@ Word.prototype.toString = function(){
 	string += this.head;
 	return string;
 };
-Word.prototype.toLocaleString = function(language,format,type){
+Word.prototype.toLocaleString = 
+function(language,format,type,conjugation){
 var translation = new String();
 var joiner = " ";
 var wordOrder = language.grammar.wordOrder;
@@ -182,6 +187,7 @@ var dict = language.dictionary.fromMwak;
 // according to type if initial then reverse body words ya
 // be translate ob body words yand be add to translation ya
 // syntax formating and color-grapheme synesthesia
+// conjugation based on type
 
 // be add ob body to output
 var bodyWords = new Array();
@@ -198,7 +204,7 @@ bodyWords.reverse();
 else if (type.search(/h/) >= 0 && wordOrder.typeFinal === false)
 bodyWords.reverse();
 }
-else if (wordOrder.headFinal === false)
+else if (wordOrder.nounFinal === false)
 bodyWords.reverse();
 }
 
@@ -220,6 +226,25 @@ translation = format.typeGlyphsTransform(translation,type);
 else if (format.glyphsTransform)
 translation = format.glyphsTransform(translation);
 }
+
+// conjugation based on type
+var conj = new Object();
+if (conjugation >= 3) conj = language.grammar.conjugation;
+if (type){
+if (conj.verb &&  type==="v")
+translation = conj.verb(translation);
+else if (conj.noun && type ==="n") 
+translation = conj.noun(translation);
+else if (conj.mood && type ==="mh") 
+translation = conj.mood(translation);
+else if (conj.sentenceHead && type ==="sh") 
+translation = conj.sentenceHead(translation);
+else if (conj.phraseHead && type ==="ch") 
+translation = conj.phraseHead(translation);
+else if (conj.verbHead && type ==="vh") 
+translation = conj.verbHead(translation);
+}
+
 
 return translation;
 }

@@ -5,6 +5,7 @@ var Grammar = require("../../lang/grammar");
 var Language = require("../../lang/language");
 var engFile = require("./eng.txt.json");
 var mwak = new Language();
+var wrld = require("../../locale/wrld/wrld");
 
 module.exports = English;
 function English(srcBase){
@@ -21,7 +22,7 @@ var engWordOrder = {
 	clauseInitial: false,
 	genitiveInitial: false,
 	postpositional : false,
-	phraseOrder: ["sla","ku","twa",".u",".i","ta",".a"],
+	phraseOrder: [".u",".i",".a"],
 };
 var conjugation = {
 reversible:[
@@ -55,8 +56,8 @@ reversible:[
 irreversible:[
 [" yand ",", and "],
 [" plural ",", many "],
-["^about ","The "],
-[" about "," the "],
+//["^about ","The "],
+//[" about "," the "],
 [" tha "," that "],
 [" end-clause ",", "],
 [" ?su ",", "],
@@ -66,6 +67,27 @@ irreversible:[
 [" ya ",". "]
 ]
 }
+
+conjugation.subjectPhrase = subjectPhraseConjugate;
+function subjectPhraseConjugate(body,adposition){
+return "a "+body;
+}
+
+conjugation.objectPhrase = objectPhraseConjugate;
+function objectPhraseConjugate(body,adposition){
+return "a "+body;
+}
+
+conjugation.verbHead = verbHeadConjugate;
+function verbHeadConjugate(string) {
+return 'to';}
+conjugation.phraseHead = phraseHeadConjugate;
+function phraseHeadConjugate(string) {
+return string;}
+
+conjugation.foreignQuote = 
+wrld.conjugation.citationQuote;
+
 var engGrammar = new Grammar(engWordOrder,engDict,conjugation);
 var eng = new Language(engGrammar,engDict);
 return eng;

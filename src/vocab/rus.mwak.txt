@@ -32,15 +32,12 @@ pla li .u множественное-число li .a ya
 pwa li .u дили .a ya
 plu li .u для li .a ya
 pca li .u веселый li .a ya
-nwa li .u нуль li .a ya
 nya li .u от li .a ya
 sli li .u например .a ya
 slu li .u отдельный li .a ya
 sla li .u привет li .a ya
-tya li .u пункт-конец li .a ya
 twa li .u затем li .a ya
 tli li .u ога li .a ya
-mik .u копия .a ya
 miy .u ждать .a ya
 mip .u мимо li .a ya
 min .u меньше .a ya
@@ -57,8 +54,6 @@ kal .u все li .a ya
 kut .u малый .a minhmap .i ya
 yik .u отрицать .a ya
 yan .u сказать li .a ya
-pim .u точка li .a ya
-piy .u акт li .a ya
 pam .u хорошо .a ya
 pak .u тело li .a ya
 pay .u больше .a ya
@@ -69,42 +64,30 @@ pan .u встречать .a ya
 pac .u радость li .a ya
 puy .u ребенок .a ya
 fut .u будущее li .a ya
-wam .u время li .a ya
 wan .u любовь li .a ya
 wap .u хвост li .a ya
 wat .u говорить li .a ya
 wul .u большой .a payhmap .i ya
 nam .u число .a ya
-sim .u три li .a ya
 naw .u настоящее-время li .a ya
-tiw .u помогите li .a ya
 sun .u один li .a ya
-tak .u спасибо li .a ya
 liy .u четыре li .a ya
 tuw .u два li .a ya
 lit .u глиф li .a ya
 cik .u несколько .a minhnam .i ya
 caw .u крик li .a ya
-myik .u добавлять .a ya
-kyim .u вычитать .a ya
 kyul .u правило li .a ya
-klas .u пункт .a ya
 klaw .u смех li .a ya
 pyan .u местоимение li .a ya
-flas .u фраза li .a ya
 pyat .u грамматический-объект li .a ya
 plis .u рядом li .a ya
 slim .u пример .a ya
-flas .u фраза .a ya
 tkic .u перевод-словарь li .a ya
 tlam .u перевести li .a ya
 tlin .u порядковый li .a ya
-miyk .u послать .a ya
 miwk .u человек li .a ya
 muys .u эмоция li .a ya
 kamt .u грамматика li .a ya
-kayp .u вещь li .a ya
-kast .u грамматический-случая li .a ya
 kump .u настроение li .a ya
 yimk .u спросить .a ya
 wiyp .u глагол li .a ya

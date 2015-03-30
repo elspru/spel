@@ -14,8 +14,8 @@ pa li .u yang-hal li .a ya
 pu li .u melakukan li .a ya
 wi li .u kita li .a ya
 wa li .u atau li .a ya
-ni li .u yaitu li .a ya
-na li .u no li .a ya
+ni li .u di li .a ya
+na li .u angka li .a ya
 si li .u ta-men li .a ya
 nu li .u saat-ini li .a ya
 ti li .u bahwa li .a ya
@@ -31,27 +31,26 @@ mya li .u bisa-jadi-bisa-jadi li .a ya
 kyi li .u kondisional li .a ya
 kya li .u ke-samping li .a ya
 sa li .u itu li .a ya
+kwa li .u yang-yang li .a ya
 ksa li .u tanda-kutip li .a ya
 kla li .u tapi li .a ya
+klu li .u klausul-ekor li .a ya
 kca li .u ha li .a ya
+pya li .u oleh li .a ya
 pli li .u di-dekat li .a ya
 psu li .u dari-sumber li .a ya
 pla li .u jamak li .a ya
 pwa li .u yaor li .a ya
 plu li .u bagi li .a ya
 pca li .u riang li .a ya
-nyi li .u tidak li .a ya
-nwa li .u batal li .a ya
 nya li .u asal li .a ya
 swi li .u sementara li .a ya
 sli li .u sebagai .a ya
 slu li .u tunggal li .a ya
 sla li .u halo-juga li .a ya
-tya li .u klausul-ekor li .a ya
 twa li .u kemudian li .a ya
-tsi li .u kutipan li .a ya
 tli li .u uru li .a ya
-mik .u salinan li .a ya
+mik .u membuat li .a ya
 miy .u menunggu li .a ya
 mip .u masa-lalu li .a ya
 min .u lebih-sedikit li .a ya
@@ -59,13 +58,16 @@ mit .u tengah li .a ya
 mak .u kata li .a ya
 mat .u ibu li .a ya
 man .u berpikir li .a ya
+mas .u massa li .a ya
 map .u ukuran li .a ya
 mac .u mesin li .a ya
+mut .u membantu li .a ya
 kim .u membandingkan li .a ya
 kiy .u pergi li .a ya
+kip .u mampu li .a ya
+kin .u utama li .a ya
 kit .u akhir li .a ya
-kam .u memiliki li .a ya
-kay .u sanggup li .a ya
+kay .u memegang li .a ya
 kap .u kepala li .a ya
 kan .u tahu li .a ya
 kas .u penyebab li .a ya
@@ -77,8 +79,7 @@ kun .u warna-merah li .a ya
 kut .u kecil li .a ya
 yik .u meniadakan li .a ya
 yan .u mengatakan li .a ya
-pim .u titik li .a ya
-piy .u bertindak li .a ya
+yut .u mengurangi li .a ya
 pam .u baik-lah li .a ya
 pak .u tubuh li .a ya
 pay .u lebih-banyak li .a ya
@@ -92,102 +93,201 @@ put .u menjual li .a ya
 pul .u warna-biru li .a ya
 wit .u cahaya li .a ya
 fut .u masa-depan li .a ya
-wam .u waktu li .a ya
 wan .u cinta-kasih li .a ya
 wap .u ekor li .a ya
 wat .u berbicara li .a ya
 nim .u nama li .a ya
+nit .u net li .a ya
 nic .u energi li .a ya
 wul .u besar li .a ya
 nam .u nomor li .a ya
-sim .u tiga li .a ya
+nul .u batal li .a ya
+sam .u sama li .a ya
 san .u diri-sendiri li .a ya
 sat .u suara li .a ya
 sup .u membayar li .a ya
 naw .u yang-hadir li .a ya
 tip .u mulai li .a ya
-tiw .u membantu li .a ya
 tin .u lihat li .a ya
 tam .u tema li .a ya
+tak .u menambahkan li .a ya
 sun .u satu li .a ya
 tay .u menempatkan li .a ya
+tan .u memberikan li .a ya
+tas .u memilih li .a ya
+tum .u suhu li .a ya
 tap .u menyentuh li .a ya
-tak .u terima li .a ya
+tun .u panjangnya li .a ya
+tul .u alat li .a ya
+lik .u listrik-charge li .a ya
 liy .u empat li .a ya
 lin .u hijau li .a ya
+lis .u hidup li .a ya
 tuw .u dua li .a ya
 lit .u glyph li .a ya
 cim .u mendengar li .a ya
 cik .u beberapa li .a ya
+cak .u benda li .a ya
 caw .u teriakan li .a ya
+can .u kesempatan li .a ya
 cal .u bergerak li .a ya
-myik .u menambahkan li .a ya
-kyim .u mengurangi li .a ya
+myan .u lembut li .a ya
+myul .u moral li .a ya
+myin .u mimpi li .a ya
+kyit .u gaya-berat li .a ya
+kyil .u lingkaran li .a ya
+kyin .u umum li .a ya
+kyap .u salinan li .a ya
 kyup .u kelompok li .a ya
+kyat .u keras li .a ya
+kwat .u kuantum li .a ya
 kyul .u aturan li .a ya
 kwal .u bahasa li .a ya
-ksip .u menulis li .a ya
+kyis .u menulis li .a ya
+ksip .u akses li .a ya
+ksin .u konteks li .a ya
+ksat .u tiba-tiba li .a ya
+ksal .u galaksi li .a ya
 ksap .u mengekspresikan li .a ya
+ksan .u mengatur li .a ya
+klin .u elektron li .a ya
+ksut .u mengumpulkan li .a ya
+ksul .u sekolah li .a ya
 klaw .u tertawa li .a ya
-klas .u ayat li .a ya
+klas .u kelas li .a ya
+klat .u ayat li .a ya
+kcim .u kimia li .a ya
 klac .u kecuali li .a ya
+kfin .u config li .a ya
+pyin .u pengalaman li .a ya
+pyam .u program li .a ya
 pyan .u kata-ganti li .a ya
+pyut .u proton li .a ya
+pyul .u mendidih li .a ya
 pyas .u frasa li .a ya
 pyat .u gramatikal-objek li .a ya
+pwil .u variabel li .a ya
+pwut .u menyetujui li .a ya
+psiy .u tekanan li .a ya
 pyuf .u bukti li .a ya
 pyuc .u proyek li .a ya
+psit .u permukaan li .a ya
 psan .u ruang-angkasa li .a ya
 plis .u dekat li .a ya
+plam .u plasma li .a ya
+plin .u pesawat li .a ya
 psun .u sumber li .a ya
+play .u bermain li .a ya
+nyit .u satuan li .a ya
+nyus .u mengalami-ionisasi li .a ya
+nyut .u neutron li .a ya
+plan .u planit li .a ya
+nyis .u referensi li .a ya
+syat .u padat li .a ya
+syun .u alam-semesta li .a ya
+swil .u jiwa li .a ya
+syit .u mengirim li .a ya
+syak .u bangun li .a ya
+slam .u menghaluskan li .a ya
 swat .u pertanyaan li .a ya
 slim .u contoh li .a ya
 tkic .u terjemahan-kamus li .a ya
+tyis .u transisi li .a ya
+tyil .u dingin li .a ya
+tyam .u atom li .a ya
 tyim .u gemetar li .a ya
+tyin .u tiga li .a ya
+tyan .u tali li .a ya
+tyas .u ide li .a ya
+tyup .u robot li .a ya
+tsiw .u satelit li .a ya
 twis .u benar li .a ya
-tsin .u referensi li .a ya
+tsim .u secara-bersama-sama li .a ya
+tsin .u pengajaran li .a ya
 tsil .u berhak-mendapat li .a ya
+tsay .u bintang li .a ya
+tsam .u tujuan li .a ya
+tsak .u tinggal li .a ya
+tsap .u harta-benda li .a ya
 tsan .u lagi li .a ya
 tsal .u negara li .a ya
 tsaf .u cita-rasa li .a ya
 tsuk .u toko li .a ya
+tlik .u listrik li .a ya
 tlam .u menterjemahkan li .a ya
+tlun .u triple-titik li .a ya
 tlin .u urut li .a ya
+tcin .u rantai li .a ya
 tlan .u tradisi li .a ya
+tfal .u berkas li .a ya
 tcan .u pohon li .a ya
-flas .u frasa li .a ya
+fwas .u tahap li .a ya
+fyas .u frasa li .a ya
+fwil .u kekuatan li .a ya
+flit .u seruling li .a ya
+flut .u bunga li .a ya
 fluc .u mengalir li .a ya
+clut .u superkritis-cairan li .a ya
 clum .u putusan-pengadilan li .a ya
 miyk .u mengirim li .a ya
+mist .u mengukur li .a ya
+milt .u mencair li .a ya
+mayt .u imajiner-unit li .a ya
+mast .u masalah li .a ya
 miwk .u orang li .a ya
-milt .u sekutu li .a ya
-mast .u bermusuhan li .a ya
+mint .u metode li .a ya
+muyt .u sekutu li .a ya
 malt .u material li .a ya
 mack .u membayangkan li .a ya
 muys .u emosi li .a ya
+kisp .u eksponen li .a ya
 munt .u dunia li .a ya
-mult .u moral li .a ya
+kays .u gramatikal-kasus li .a ya
+kayt .u panas li .a ya
+kaws .u gas li .a ya
+kant .u mengubah li .a ya
+kast .u konstan li .a ya
+kimt .u menggantung li .a ya
 kamt .u tata-bahasa li .a ya
-kayp .u benda li .a ya
-kast .u gramatikal-kasus li .a ya
 kump .u suasana-hati li .a ya
+kusp .u runtuh li .a ya
+kust .u konstan li .a ya
+kumt .u menyampaikan li .a ya
+kuft .u membagi li .a ya
+kuwt .u kode li .a ya
+yink .u ring li .a ya
 kunt .u kontrol li .a ya
+kult .u budaya li .a ya
 yimk .u meminta li .a ya
-yank .u bangun li .a ya
+yalk .u kendaraan li .a ya
+yulp .u peran li .a ya
+yult .u kegunaan li .a ya
 panp .u roti li .a ya
-punt .u putaran li .a ya
+pant .u meminjam li .a ya
 pack .u selamat-menikmati li .a ya
+pult .u tua li .a ya
 wiyp .u kata-kerja li .a ya
+wins .u venus li .a ya
+wint .u angin li .a ya
 niym .u kata-benda li .a ya
+nalt .u alam li .a ya
 sant .u seni-rupa li .a ya
 sint .u merasa li .a ya
 suyt .u gramatikal-subjek li .a ya
 timp .u gramatikal-tegang li .a ya
 tink .u teks li .a ya
 tiwk .u aktivitas li .a ya
+tisk .u kemajuan li .a ya
 tuym .u dunia li .a ya
+tamk .u melihat li .a ya
+tanp .u muncul li .a ya
+tack .u terima li .a ya
 tuwm .u lama-waktu li .a ya
 liyt .u literatur li .a ya
+liyn .u baris li .a ya
 lint .u sebelah-dalam li .a ya
 lank .u warna li .a ya
 lunt .u orang-orang li .a ya
+luwt .u kecapi li .a ya
 tick .u kamus li .a ya
+cinp .u informasi li .a ya

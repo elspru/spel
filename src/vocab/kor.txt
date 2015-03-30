@@ -14,12 +14,12 @@ pa li .u 그-일 li .a ya
 pu li .u 한 li .a ya
 wi li .u 우리 li .a ya
 wa li .u 또는 li .a ya
-ni li .u 즉 li .a ya
-na li .u 달 li .a ya
+ni li .u 에 li .a ya
+na li .u 숫자 li .a ya
 si li .u 그들은 li .a ya
 nu li .u 지금 li .a ya
 ti li .u 그 li .a ya
-ta li .u 에 li .a ya
+ta li .u 게 li .a ya
 tu li .u 그대 li .a ya
 li li .u 리터럴 li .a ya
 fa li .u 약 li .a ya
@@ -31,27 +31,26 @@ mya li .u 아마 li .a ya
 kyi li .u 조건부의 li .a ya
 kya li .u 곁에 li .a ya
 sa li .u 이전-그 li .a ya
+kwa li .u 그-있는 li .a ya
 ksa li .u 인용을-끝-맺다 li .a ya
 kla li .u 하지만 li .a ya
+klu li .u 절-꼬리 li .a ya
 kca li .u 하아 li .a ya
+pya li .u 로 li .a ya
 pli li .u 닫기 li .a ya
 psu li .u 원본에서 li .a ya
 pla li .u 여러 li .a ya
 pwa li .u 또는-아 li .a ya
 plu li .u 위해 li .a ya
 pca li .u 서 li .a ya
-nyi li .u 아니 li .a ya
-nwa li .u 제로 li .a ya
 nya li .u 부터 li .a ya
 swi li .u 동안 li .a ya
 sli li .u 예 li .a ya
 slu li .u 단수 li .a ya
 sla li .u 안녕하세요 li .a ya
-tya li .u 첫-번째-꼬리 li .a ya
 twa li .u 그때 li .a ya
-tsi li .u 시세 li .a ya
 tli li .u 기사 li .a ya
-mik .u 복사 li .a ya
+mik .u 확인 li .a ya
 miy .u 대기 li .a ya
 mip .u 지난 li .a ya
 mit .u 중간 li .a ya
@@ -59,13 +58,16 @@ min .u 적게 li .a ya
 mak .u 낱말 li .a ya
 mat .u 어머니 li .a ya
 man .u 생각 li .a ya
+mas .u 질량 li .a ya
 map .u 크기 li .a ya
 mac .u 기계 li .a ya
+mut .u 도움 li .a ya
 kim .u 비교 li .a ya
 kiy .u 가기 li .a ya
+kip .u 유능한 li .a ya
+kin .u 주요 li .a ya
 kit .u 끝 li .a ya
-kam .u 있다 li .a ya
-kay .u 수 li .a ya
+kay .u 보유 li .a ya
 kap .u 머리 li .a ya
 kan .u 알고 li .a ya
 kas .u 경력 li .a ya
@@ -77,8 +79,7 @@ kun .u 빨간 li .a ya
 kut .u 작은 li .a ya
 yik .u 부정 li .a ya
 yan .u 세이 li .a ya
-pim .u 포인트 li .a ya
-piy .u 법안 li .a ya
+yut .u 덜다 li .a ya
 pam .u 좋은 li .a ya
 pak .u 몸 li .a ya
 pay .u 더 li .a ya
@@ -97,101 +98,199 @@ puy .u 어린이 li .a ya
 wat .u 이야기 li .a ya
 nim .u 이름 li .a ya
 nic .u 에너지 li .a ya
+nit .u 그물 li .a ya
 fut .u 미래 li .a ya
-wam .u 시간 li .a ya
-sim .u 3 li .a ya
 san .u 자기 li .a ya
+nul .u 널-(null) li .a ya
+sam .u 같은 li .a ya
 sat .u 소리 li .a ya
 sup .u 지불 li .a ya
 wap .u 꼬리 li .a ya
 tip .u 시작 li .a ya
-tiw .u 도와 li .a ya
 tin .u 참조 li .a ya
 tam .u 주제 li .a ya
 wul .u 큰 li .a ya
+tak .u 추가 li .a ya
 tay .u 넣어 li .a ya
 tap .u 터치 li .a ya
-tak .u 감사 li .a ya
+tan .u 주기 li .a ya
+tas .u 선택 li .a ya
+tum .u 온도 li .a ya
 liy .u 네 li .a ya
+tun .u 길이 li .a ya
+tul .u 수단 li .a ya
+lik .u 전기-요금 li .a ya
 lin .u 녹색 li .a ya
 nam .u 번호 li .a ya
+lis .u 살고있다 li .a ya
 lit .u 글꼴 li .a ya
 cim .u 듣다 li .a ya
-sim .a ya
 caw .u 샤우트 li .a ya
 cal .u 움직임 li .a ya
+cak .u 일 li .a ya
 naw .u 현재 li .a ya
+can .u 기회 li .a ya
 kyul .u 규칙 li .a ya
 kyup .u 그룹 li .a ya
+myan .u 부드러운 li .a ya
+myul .u 도덕의 li .a ya
+myin .u 꿈 li .a ya
+kyap .u 복사 li .a ya
+kyit .u 중량 li .a ya
+kyil .u 원 li .a ya
+kyin .u 일반 li .a ya
 sun .u 하나 li .a ya
-ksip .u 쓰기 li .a ya
+kyis .u 쓰기 li .a ya
+kyat .u 단단한 li .a ya
+kwat .u 양자 li .a ya
 liy .a ya
 ksap .u 표현 li .a ya
 tuw .u 두 li .a ya
+ksip .u 액세스 li .a ya
+ksin .u 문맥 li .a ya
+ksat .u 갑자기 li .a ya
+ksal .u 은하 li .a ya
 klac .u 외 li .a ya
+ksan .u 조직 li .a ya
+klin .u 전자 li .a ya
+ksut .u 수집 li .a ya
+ksul .u 학교 li .a ya
 cik .u 소수 li .a ya
-myik .u 에-추가 li .a ya
-kyim .u 마이너스 li .a ya
+klas .u 클래스 li .a ya
+klat .u 절 li .a ya
+kcim .u 화학 li .a ya
+kfin .u 설정 li .a ya
+pyin .u 경험 li .a ya
+pyam .u 프로그램 li .a ya
+pyut .u 양성자 li .a ya
+pyul .u 종기 li .a ya
 pyuf .u 증명 li .a ya
 plis .u 인근 li .a ya
+pwil .u 변수 li .a ya
+pwut .u 승인 li .a ya
+psiy .u 압박 li .a ya
 pyuc .u 계획 li .a ya
 psan .u 공간 li .a ya
+psit .u 표면 li .a ya
 psun .u 출처 li .a ya
-klas .u 규정 li .a ya
 swat .u 문제 li .a ya
+plam .u 혈장 li .a ya
+plin .u 평면 li .a ya
+syak .u 깨어 li .a ya
+play .u 놀이 li .a ya
+nyit .u 단위 li .a ya
+nyus .u 이온화하다 li .a ya
+nyut .u 중성자 li .a ya
+plan .u 행성 li .a ya
+nyis .u 참고 li .a ya
+syat .u 고체 li .a ya
+syun .u 우주 li .a ya
+swil .u 영혼 li .a ya
+syit .u 보내 li .a ya
 klaw .u 웃음 li .a ya
-tsin .u 참고 li .a ya
+slam .u 승화하다 li .a ya
 tyim .u 떨다 li .a ya
 twis .u 참된 li .a ya
 tsuk .u 가게 li .a ya
+tyis .u 변화 li .a ya
+tyil .u 감기 li .a ya
+tyam .u 원자 li .a ya
+tyin .u 세 li .a ya
 tsil .u 자격 li .a ya
+tyan .u 현 li .a ya
+tyas .u 사상 li .a ya
+tyup .u 로봇 li .a ya
+tsiw .u 위성 li .a ya
 tsan .u 다시 li .a ya
+tsim .u 함께 li .a ya
+tsin .u 명령 li .a ya
+tsam .u 목적 li .a ya
+tsay .u 스타 li .a ya
 tsal .u 상태 li .a ya
+tsak .u 유지 li .a ya
+tsap .u 재산 li .a ya
 tsaf .u 미각 li .a ya
 tlam .u 번역기 li .a ya
 pyan .u 대명사 li .a ya
 pyas .u 구 li .a ya
+tlik .u 전기 li .a ya
 tlan .u 전통 li .a ya
+tlun .u 트리플-포인트 li .a ya
 tcan .u 나무 li .a ya
+tcin .u 체인 li .a ya
 pyat .u 구문-객체 li .a ya
+tfal .u 파일 li .a ya
+fwil .u 힘 li .a ya
+fwas .u 상 li .a ya
+fyas .u 구 li .a ya
 fluc .u 흐름 li .a ya
+flit .u 플루트 li .a ya
 clum .u 문장 li .a ya
+flut .u 꽃 li .a ya
+clut .u 초-임계-유체 li .a ya
 plis .a ya
 slim .u 모범 li .a ya
-milt .u 동맹국 li .a ya
-mast .u 적의 li .a ya
+mist .u 측정 li .a ya
+milt .u 용해 li .a ya
+mayt .u 허수-단위 li .a ya
+mast .u 문제 li .a ya
+miyk .u 보내 li .a ya
+mint .u 방법 li .a ya
+muyt .u 동맹국 li .a ya
 malt .u 자료 li .a ya
 mack .u 상상 li .a ya
-flas .u 구 li .a ya
 munt .u 세계 li .a ya
-mult .u 도덕의 li .a ya
+kisp .u 대표자 li .a ya
+kays .u 문법의-경우 li .a ya
+kayt .u 뜨거운 li .a ya
+kaws .u 가스 li .a ya
+kant .u 개-심자 li .a ya
+kast .u 상수 li .a ya
 tkic .u 번역,-사전 li .a ya
+kimt .u 걸림-새 li .a ya
 tlam .a ya
 tlin .u 순서를-나타내는 li .a ya
-miyk .u 보내기 li .a ya
+kusp .u 붕괴 li .a ya
+kust .u 상수 li .a ya
 kunt .u 제어 li .a ya
+kuft .u 분할 li .a ya
+kumt .u 통신 li .a ya
+yink .u 링 li .a ya
+kuwt .u 코드 li .a ya
 miwk .u 사람들 li .a ya
-yank .u 깨어 li .a ya
+kult .u 문화 li .a ya
 muys .u 감정 li .a ya
+yalk .u 차량 li .a ya
+yulp .u 역할 li .a ya
+yult .u 유틸리티 li .a ya
 panp .u 빵 li .a ya
-punt .u 고리 li .a ya
+pant .u 대출 li .a ya
+pult .u 늙은 li .a ya
 pack .u 즐길-수 li .a ya
 kamt .u 문법 li .a ya
+wins .u 금성 li .a ya
+wint .u 바람 li .a ya
 sant .u 예술 li .a ya
-kayp .u 것 li .a ya
-kast .u 구문-경우 li .a ya
+nalt .u 자연 li .a ya
 kump .u 기분 li .a ya
 tink .u 본문 li .a ya
 yimk .u 질문 li .a ya
 tuym .u 세계 li .a ya
 tuwm .u 지속 li .a ya
+tisk .u 진행 li .a ya
+tamk .u 보기 li .a ya
+tack .u 감사 li .a ya
+tanp .u 표시 li .a ya
 liyt .u 문학 li .a ya
 lint .u 내부 li .a ya
 lank .u 색 li .a ya
+liyn .u 라인 li .a ya
 lunt .u 사람들 li .a ya
 wiyp .u 동사 li .a ya
 niym .u 명사 li .a ya
+luwt .u 류트 li .a ya
 sint .u 감각 li .a ya
+cinp .u 정보 li .a ya
 suyt .u 구문-훈련 li .a ya
 timp .u 문법-시제 li .a ya
 tiwk .u 활동 li .a ya

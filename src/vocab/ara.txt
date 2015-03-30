@@ -14,8 +14,8 @@ pa li .u هذا-الشيء- li .a ya
 pu li .u فعل li .a ya
 wi li .u نحن li .a ya
 wa li .u أو li .a ya
-ni li .u أي li .a ya
-na li .u نو li .a ya
+ni li .u في li .a ya
+na li .u عددي li .a ya
 si li .u هم li .a ya
 nu li .u الآن li .a ya
 ti li .u ثا li .a ya
@@ -31,27 +31,26 @@ mya li .u قد-يكون li .a ya
 kyi li .u مشروط li .a ya
 kya li .u جانبا li .a ya
 sa li .u ال li .a ya
+kwa li .u أن-التي li .a ya
 ksa li .u ختم-كلاما-مقتبسا-بعلامة li .a ya
 kla li .u لكن li .a ya
+klu li .u بند-الذيل li .a ya
 kca li .u هكتار li .a ya
+pya li .u بواسطة li .a ya
 pli li .u قرب li .a ya
 psu li .u من-المصدر li .a ya
 pla li .u صيغة-الجمع li .a ya
 pwa li .u ياأو li .a ya
 plu li .u سبيل li .a ya
 pca li .u مرح li .a ya
-nyi li .u ليس li .a ya
-nwa li .u باطل li .a ya
 nya li .u منذ li .a ya
 swi li .u في-حين li .a ya
 sli li .u مثلا li .a ya
 slu li .u صيغة-المفرد li .a ya
 sla li .u مرحبا li .a ya
-tya li .u بند-الذيل li .a ya
 twa li .u ثم li .a ya
-tsi li .u اقتبس li .a ya
 tli li .u رتبو li .a ya
-mik .u نسخة li .a ya
+mik .u جعل li .a ya
 miy .u انتظر li .a ya
 mip .u الماضي li .a ya
 mit .u وسط li .a ya
@@ -59,13 +58,16 @@ min .u أقل li .a ya
 mak .u كلمة li .a ya
 mat .u أم li .a ya
 man .u اعتقد li .a ya
+mas .u كتلة li .a ya
 map .u حجم li .a ya
 mac .u آلة li .a ya
+mut .u مساعدة li .a ya
 kim .u مقارنة li .a ya
 kiy .u اذهب li .a ya
+kip .u قادر-على li .a ya
+kin .u رئيسي li .a ya
 kit .u النهاية li .a ya
-kam .u ديك li .a ya
-kay .u قادر li .a ya
+kay .u عقد li .a ya
 kap .u رئيس li .a ya
 kan .u علم li .a ya
 kas .u سبب li .a ya
@@ -77,8 +79,7 @@ kun .u أحمر li .a ya
 kut .u صغير li .a ya
 yik .u ينفي li .a ya
 yan .u قول li .a ya
-pim .u نقطة li .a ya
-piy .u عمل li .a ya
+yut .u طرح li .a ya
 pam .u خير li .a ya
 pak .u هيئة li .a ya
 pay .u أكثر li .a ya
@@ -92,104 +93,202 @@ put .u بيع li .a ya
 pul .u أزرق li .a ya
 wit .u ضوء li .a ya
 fut .u مستقبل li .a ya
-wam .u مرة li .a ya
 wan .u حب li .a ya
 wap .u ذيل li .a ya
 wat .u تحدث li .a ya
 nim .u اسم li .a ya
+nit .u شبكة li .a ya
 nic .u طاقة li .a ya
 wul .u كبير li .a ya
 nam .u عدد li .a ya
-sim .u ثلاثة li .a ya
+nul .u باطل li .a ya
+sam .u نفسه li .a ya
 san .u النفس li .a ya
 sat .u صوت li .a ya
 sup .u دفع li .a ya
 naw .u الحالي li .a ya
 tip .u ابدأ li .a ya
-tiw .u مساعدة li .a ya
 tin .u شاهد li .a ya
 tam .u موضوع li .a ya
+tak .u إضافة li .a ya
 sun .u واحد li .a ya
 tay .u وضع li .a ya
+tan .u منح li .a ya
+tas .u اختار li .a ya
+tum .u درجة-الحرارة li .a ya
 tap .u لمس li .a ya
-tak .u شكر li .a ya
+tun .u طول li .a ya
+tul .u أداة li .a ya
+lik .u الكهربائية-المسؤول li .a ya
 liy .u أربعة li .a ya
 lin .u أخضر li .a ya
+lis .u سكن li .a ya
 lit .u الصورة-الرمزية li .a ya
 tuw .u اثنان li .a ya
 cim .u سمع li .a ya
 cik .u قليل li .a ya
+cak .u شيء li .a ya
 caw .u صيحة li .a ya
+can .u فرصة li .a ya
 cal .u خطوة li .a ya
-myik .u إضافة li .a ya
-kyim .u طرح li .a ya
+myan .u ناعم li .a ya
+myul .u أخلاقي li .a ya
+myin .u حلم li .a ya
+kyit .u خطورة li .a ya
+kyil .u دائرة li .a ya
+kyin .u عام li .a ya
+kyap .u نسخة li .a ya
 kyup .u مجموعة li .a ya
+kyat .u شاق li .a ya
+kwat .u كمية li .a ya
 kyul .u حكم li .a ya
 kwal .u لغة li .a ya
-ksip .u أكتب li .a ya
+kyis .u أكتب li .a ya
+ksip .u وصول li .a ya
+ksin .u السياق li .a ya
+ksat .u مفاجئ li .a ya
+ksal .u المجرة li .a ya
 ksap .u التعبير li .a ya
+ksan .u تنظم li .a ya
+klin .u الإلكترون li .a ya
+ksut .u جمع li .a ya
+ksul .u مدرسة li .a ya
 klaw .u ضحك li .a ya
-klas .u بند li .a ya
+klas .u فئة li .a ya
+klat .u بند li .a ya
+kcim .u مادة-كيميائية li .a ya
 klac .u إلا li .a ya
+kfin .u التكوين li .a ya
+pyin .u تجربة li .a ya
+pyam .u برنامج li .a ya
 pyan .u ضمير li .a ya
+pyut .u بروتون li .a ya
+pyul .u دمل li .a ya
 pyas .u العبارة li .a ya
 pyat .u النحوية بين .a ya
+pwil .u متغير li .a ya
+pwut .u وافق li .a ya
+psiy .u الضغط li .a ya
 pyuf .u برهان li .a ya
 pyuc .u مشروع li .a ya
+psit .u سطح li .a ya
 psan .u الفضاء li .a ya
 plis .u قريب li .a ya
+plam .u بلازما li .a ya
+plin .u طائرة li .a ya
 psun .u مصدر li .a ya
+play .u لعب li .a ya
+nyit .u وحدة li .a ya
+nyus .u تأين li .a ya
+nyut .u النيوترون li .a ya
+plan .u كوكب li .a ya
+nyis .u إشارة li .a ya
+syat .u صلب li .a ya
+syun .u الكون li .a ya
+swil .u روح li .a ya
+syit .u إرسال li .a ya
+syak .u استيقظ li .a ya
+slam .u تسامى li .a ya
 swat .u مسألة li .a ya
 slim .u مثال li .a ya
 tkic .u الترجمة-القاموس li .a ya
+tyis .u انتقال li .a ya
+tyil .u برد li .a ya
+tyam .u ذرة li .a ya
 tyim .u ارتجف li .a ya
+tyin .u ثلاثة li .a ya
+tyan .u سلسلة li .a ya
+tyas .u فكرة li .a ya
+tyup .u إنسان-آلي li .a ya
+tsiw .u قمر li .a ya
 twis .u صحيح li .a ya
-tsin .u إشارة li .a ya
+tsim .u معا li .a ya
+tsin .u تعليمات li .a ya
 tsil .u استحق li .a ya
+tsay .u نجم li .a ya
+tsam .u هدف li .a ya
+tsak .u إقامة li .a ya
+tsap .u ممتلكات li .a ya
 tsan .u ثانية li .a ya
 tsal .u دولة li .a ya
 tsaf .u طعم li .a ya
 tsuk .u متجر li .a ya
+tlik .u كهرباء li .a ya
 tlam .u ترجم li .a ya
+tlun .u الثلاثي-نقطة li .a ya
 tkic .a ya
+tcin .u سلسلة li .a ya
 tlan .u التقليد li .a ya
+tfal .u ملف li .a ya
 tcan .u شجرة li .a ya
-flas .u العبارة li .a ya
+fwas .u مرحلة li .a ya
+fyas .u العبارة li .a ya
+fwil .u قوة li .a ya
+flit .u مزمار li .a ya
+flut .u زهرة li .a ya
 fluc .u تدفق li .a ya
+clut .u فوق-الحرجة-السائل li .a ya
 clum .u جملة li .a ya
+miyk .u إرسال li .a ya
+mist .u قياس li .a ya
+milt .u صهر li .a ya
+mayt .u وهمية-وحدة li .a ya
+mast .u مسألة li .a ya
 tlin .u ترتيبي li .a ya
-flas .a ya
-milt .u حليف li .a ya
-mast .u معاد li .a ya
+mint .u طريقة li .a ya
+muyt .u حليف li .a ya
 malt .u مادة li .a ya
 mack .u تخيل li .a ya
-miyk .u إرسال li .a ya
 munt .u عالم li .a ya
-mult .u أخلاقي li .a ya
+kisp .u الدليل li .a ya
+kays .u النحوية-حدة li .a ya
+kayt .u حار li .a ya
+kaws .u غاز li .a ya
+kant .u تحول li .a ya
+kast .u ثابت li .a ya
+kimt .u علق li .a ya
 miwk .u شخص li .a ya
 muys .u عاطفة li .a ya
 kamt .u قواعد li .a ya
-kayp .u شيء li .a ya
+kusp .u انهيار li .a ya
+kust .u ثابت li .a ya
+kumt .u نقل li .a ya
+kuft .u فرق li .a ya
+kuwt .u قانون li .a ya
+yink .u عصابة li .a ya
 kunt .u سيطرة li .a ya
-kast .u النحوية .a ya
-yank .u استيقظ li .a ya
+kult .u ثقافة li .a ya
+yalk .u مركبة li .a ya
+yulp .u دور li .a ya
+yult .u فائدة li .a ya
 panp .u خبز li .a ya
-punt .u أنشوطة li .a ya
+pant .u الاقتراض li .a ya
 pack .u استمتع li .a ya
+pult .u قديم li .a ya
 kump .u مزاج li .a ya
+wins .u فينوس li .a ya
+wint .u رياح li .a ya
 yimk .u تطلب li .a ya
+nalt .u طبيعة li .a ya
 sant .u فن li .a ya
 wiyp .u الفعل li .a ya
 niym .u اسما li .a ya
 sint .u إحساس li .a ya
 tink .u نص li .a ya
 suyt .u النحوية-الموضوع li .a ya
+tisk .u تقدم li .a ya
 tuym .u عالم li .a ya
+tamk .u بحث li .a ya
+tanp .u ظهر li .a ya
+tack .u شكر li .a ya
 tuwm .u مدة li .a ya
 liyt .u أدب li .a ya
+liyn .u خط li .a ya
 lint .u داخل li .a ya
 lank .u اللون li .a ya
 lunt .u الناس li .a ya
+luwt .u عود li .a ya
 timp .u النحوية-متوترة li .a ya
+cinp .u معلومات li .a ya
 tiwk .u نشاط li .a ya
 tick .u قاموس li .a ya

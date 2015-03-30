@@ -1,10 +1,10 @@
 .i li .u be li .a ya
 .a li .u ob li .a ya
 .u li .u su li .a ya
-mi li .u me li .a ya
+me li .a mi li .u ya
 ma li .u what .a ya
 ki li .u and li .a ya
-ka li .u it li .a ya
+ka li .u as li .a ya
 ku li .u if li .a ya
 yi li .u this li .a ya
 ya li .u ya li .a ya
@@ -14,44 +14,43 @@ pa li .u that li .a ya
 pu li .u did .a ya
 wi li .u we .a ya
 wa li .u or .a ya
-ni li .u namely .a ya
-na li .u num .a ya
-nu li .u now .a ya
-si li .u they .a ya
-sa li .u the .a ya
-ti li .u tha .a ya
-ta li .u to li .a ya
-tu li .u thee li .a ya
+ni li .u in li .a ya
+na li .u numeral .a ya
+now li .a nu li .u ya
+them li .a si li .u ya
+the li .a sa li .u ya
+/thˈɑ5˧/ 它 :zh. /ˈɪt/ it :en. /ˈeʎa/ ella :es. /jˈəh/ यह :hi. /hða/ هذا :ar. /sˈaja tˈe/ saya t :id. /ˈɛtʌ/ это :ru. /nˈi/ ni it li .a ti li .u ya
+to li .a ta li .u ya
+thee li .a tu li .u ya
 li li .u li li .a ya
-fa li .u about .a ya
-fu li .u will .a ya
+fa li .u about li .a ya
+will li .a fu li .u ya
 ci li .u eh? .a ya
-myi li .u memory .a ya
-mya li .u maybe .a ya
-mwa li .u with .a ya
-kyi li .u conditionally .a ya
+myi li .u memory li .a ya
+mya li .u maybe li .a ya
+mwa li .u with li .a ya
+kyi li .u conditionally li .a ya
 kya li .u aside li .a ya
-ksa li .u unquote .a ya
-kla li .u but .a ya
+kwa li .u that-which li .a ya
+ksa li .u unquote li .a ya
+but li .a kla li .u ya
+klu li .u clause-tail li .a ya
 kca li .u ha li .a ya
-pwa li .u yaor .a ya
+pya li .u by li .a ya
+pwa li .u yaor li .a ya
 psu li .u from-source .a ya
 pli li .u near .a ya
 pla li .u plural .a ya
-plu li .u for .a ya
-pca li .u jolly .a ya
-nyi li .u not .a ya
-nya li .u from .a ya
-nwa li .u null .a ya
-swi li .u while .a ya
+plu li .u for li .a ya
+pca li .u jolly li .a ya
+nya li .u from li .a ya
+swi li .u while li .a ya
 sli li .u for-example .a ya
 sla li .u hello li .a ya
-slu li .u singular .a ya
-tya li .u clause-tail .a ya
-twa li .u then .a ya
-tsi li .u quote .a ya
-tli li .u ord .a ya
-mik .u copy .a ya
+slu li .u singular li .a ya
+twa li .u then li .a ya
+ord li .a tli li .u ya
+mik .u make .a ya
 miy .u wait .a ya
 mip .u past .a ya
 min .u less .a ya
@@ -59,13 +58,16 @@ mit .u middle .a ya
 mak .u word .a ya
 map .u size .a ya
 man .u think .a ya
+mas .u mass .a ya
 mat .u mother .a ya
 mac .u machine .a ya
+mut .u help .a ya
 kim .u compare .a ya
 kiy .u go li .a ya
+kip .u capable .a ya
+kin .u main .a ya
 kit .u end .a ya
-kam .u have .a ya
-kay .u able .a ya
+kay .u hold .a ya
 kap .u head .a ya
 kan .u know .a ya
 kas .u cause .a ya
@@ -77,8 +79,7 @@ kun .u red .a ya
 kut .u small .a ya
 yik .u negate .a ya
 yan .u say .a ya
-pim .u point .a ya
-piy .u act .a ya
+yut .u subtract .a ya
 pam .u good .a ya
 pak .u body .a ya
 pay .u more .a ya
@@ -91,103 +92,220 @@ puy .u child .a ya
 put .u sell .a ya
 pul .u blue .a ya
 wit .u light .a ya
-wam .u time .a ya
 wap .u tail .a ya
 wan .u love .a ya
 wat .u speak .a ya
 wul .u big .a ya
 nim .u name .a ya
+nit .u net .a ya
 nic .u energy .a ya
 nam .u number .a ya
 naw .u present .a ya
-sim .u three .a ya
+nul .u null .a ya
+sam .u same .a ya
 san .u self .a ya
 sat .u sound .a ya
 sup .u pay .a ya
 sun .u one .a ya
 tip .u start .a ya
-tiw .u help .a ya
 tin .u see .a ya
 tam .u topic .a ya
-tak .u thank .a ya
+tak .u add .a ya
 tay .u put .a ya
 tap .u touch .a ya
+tan .u give .a ya
+tas .u choose .a ya
+tum .u temperature .a ya
 tuw .u two .a ya
+tun .u length .a ya
+tul .u tool .a ya
+lik .u electric-charge .a ya
 liy .u four .a ya
 lin .u green .a ya
+lis .u live .a ya
 lit .u glyph .a ya
 fut .u future .a ya
 cim .u hear .a ya
 cik .u few .a ya
+cak .u thing .a ya
 caw .u shout .a ya
+can .u chance .a ya
 cal .u move .a ya
-myik .u add .a ya
-kyim .u subtract .a ya
+myin .u dream .a ya
+myan .u soft .a ya
+myul .u moral .a ya
+kyin .u general .a ya
+kyis .u write .a ya
+kyit .u gravity .a ya
+kyil .u circle .a ya
+kyap .u copy .a ya
+kyat .u hard .a ya
 kyup .u group .a ya
 kyul .u rule .a ya
+kwat .u quantum .a ya
 kwal .u language .a ya
-ksip .u write .a ya
+ksip .u access .a ya
+ksin .u context .a ya
 ksap .u express .a ya
+ksan .u organize .a ya
+ksat .u sudden .a ya
+ksal .u galaxy .a ya
+ksut .u collect .a ya
+ksul .u school .a ya
+klin .u electron .a ya
 klaw .u laugh .a ya
-klas .u clause .a ya
+klas .u class .a sam undefined ya
+klat .u clause .a ya
 klac .u except .a ya
+kfin .u config .a ya
+kcim .u chemical .a ya
+pyin .u experience .a ya
+pyam .u program .a ya
 pyan .u pronoun .a ya
 pyas .u phrase .a ya
 pyat .u grammatical-object .a ya
+pyut .u proton .a ya
+pyul .u boil .a ya
 pyuf .u proof .a ya
 pyuc .u project .a ya
+pwil .u variable .a ya
+pwut .u approve .a ya
+psiy .u pressure .a ya
+psit .u surface .a ya
 psan .u space .a ya
 psun .u source .a ya
+plin .u plane .a ya
 plis .u nearby .a ya
+plam .u plasma .a ya
+play .u play .a ya
+plan .u planet .a ya
+nyis .u reference .a ya
+nyit .u unit .a ya
+nyus .u ionize .a ya
+nyut .u neutron .a ya
+syit .u send .a ya
+syak .u awake .a ya
+syat .u solid .a ya
+syun .u universe .a ya
+swil .u soul .a ya
 swat .u question .a ya
 slim .u example .a ya
+slam .u sublimate .a ya
 tkic .u translation-dictionary .a ya
 tyim .u tremble .a ya
+tyin .u three .a ya
+tyis .u transition .a ya
+tyil .u cold .a ya
+tyam .u atom .a ya
+tyan .u string .a ya
+tyas .u idea .a ya
+tyup .u robot .a ya
 twis .u true .a ya
-tsin .u reference .a ya
+tsim .u together .a ya
+tsiw .u satellite .a ya
+tsin .u instruction .a ya
 tsil .u deserve .a ya
+tsam .u purpose .a ya
+tsak .u stay .a ya
+tsay .u star .a ya
+tsap .u property .a ya
 tsan .u again .a ya
 tsal .u state .a ya
 tsaf .u taste .a ya
 tsuk .u shop .a ya
+tlik .u electricity .a ya
 tlin .u ordinal .a ya
 tlam .u translation .a ya
 tlan .u tradition .a ya
+tlun .u triple-point .a ya
+tfal .u file .a ya
+tcin .u chain .a ya
 tcan .u tree .a ya
-flas .u phrase .a ya
+fyas .u phrase .a ya
+fwil .u force .a ya
+fwas .u phase .a ya
+flit .u flute .a ya
+flut .u flower .a ya
 fluc .u flow .a ya
 clum .u sentence .a ya
+clut .u supercritical-fluid .a ya
 miyk .u send .a ya
 miwk .u person .a ya
-milt .u ally .a ya
-mast .u hostile .a ya
-malt .u material .a ya
+mint .u method .a ya
+mist .u measure .a ya
+milt .u melt .a ya
+mayt .u imaginary-unit .a ya
+mast .u matter .a ya
 mack .u imagine .a ya
 muys .u emotion .a ya
+muyt .u ally .a ya
 munt .u world .a ya
-mult .u moral .a ya
+kimt .u hang .a ya
+kisp .u exponent .a ya
 kamt .u grammar .a ya
-kayp .u thing .a ya
-kast .u grammatical-case .a ya
+kays .u grammatical-case .a ya
+kayt .u hot .a ya
+kaws .u gas .a ya
+kant .u convert .a ya
+kast .u constant .a ya
 kump .u mood .a ya
+kumt .u communicate .a ya
+kuwt .u code .a ya
 kunt .u control .a ya
+kusp .u collapse .a ya
+kust .u constant .a ya
+kult .u culture .a ya
+kuft .u divide .a ya
 yimk .u ask .a ya
-yank .u awake .a ya
+yink .u ring .a ya
+yilt .u Euler's-number .a ya
+yask .u reaction .a ya
+yalk .u vehicle .a ya
+yulp .u role .a ya
+yult .u utility .a ya
+piys .u pi .a ya
+pamt .u permanent .a ya
+payt .u multiply .a ya
 panp .u bread .a ya
+pant .u borrow .a ya
+past .u produce .a ya
 pack .u enjoy .a ya
-punt .u loop .a ya
+punt .u point .a ya
+pust .u dust .a ya
+pult .u old .a ya
 wiyp .u verb .a ya
+wins .u Venus .a ya
+wint .u wind .a ya
 niym .u noun .a ya
+niyt .u nth-root .a ya
+nalt .u nature .a ya
+nust .u notice .a ya
+nuft .u hostile .a ya
 sint .u feel .a ya
+sayt .u speed-of-light .a ya
 sant .u art .a ya
 suyt .u grammatical-subject .a ya
 timp .u tense .a ya
 tiwk .u activity .a ya
 tink .u text .a ya
+tinp .u golden-ratio .a ya
+tisk .u progress .a ya
+tisp .u represent .a ya
 tick .u dictionary .a ya
+tamk .u look .a ya
+tayn .u area .a ya
+tanp .u appear .a ya
+tack .u thank .a ya
 tuym .u world .a ya
 tuwm .u duration .a ya
+liyk .u liquid .a ya
+liyn .u line .a ya
 liyt .u literature .a ya
+link .u link .a ya
 lint .u inside .a ya
 lank .u color .a ya
+lumk .u logarithm .a ya
+luwt .u lute .a ya
+lunp .u loop .a ya
 lunt .u people .a ya
+cinp .u information .a ya

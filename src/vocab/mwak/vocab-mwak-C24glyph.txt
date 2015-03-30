@@ -2147,7 +2147,7 @@ ksom .u C24G kya ya
 ksoy .u C24G kya ya
 ksop .u C24G kya ya
 ksow .u C24G kya ya
-kson .u C24G kya ya
+kson .u oxygen .a C24G kya ya
 ksot .u C24G kya ya
 ksol .u C24G kya ya
 ksof .u C24G kya ya
@@ -10253,7 +10253,7 @@ carp .u C24G kya ya
 cars .u C24G kya ya
 cart .u C24G kya ya
 carf .u C24G kya ya
-carb .u C24G kya ya
+carb .u carbon .a C24G kya ya
 carg .u C24G kya ya
 card .u C24G kya ya
 carz .u C24G kya ya

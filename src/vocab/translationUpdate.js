@@ -32,6 +32,10 @@ var fromLangCode = "en";
 var toFilename = "eng.txt" 
 var toLangCode = "en";
 translateUpdate(toFilename,toLangCode);
+
+
+var Eng = require("../locale/eng/eng");
+var eng = new Eng(".");
 // spanish
 var toFilename = "spa.txt" 
 var toLangCode = "es";
@@ -303,8 +307,8 @@ sentences.splice(1,1);
 var matches = definitions.indexOf(mwak,phrase.toString());
 if (matches !== -1)
 output += ("duplicate error: \n "
-+ sentence.toLocaleString(eng) +"\n"
-+ definitions.sentences[matches].toLocaleString(eng)+"\n");
++ sentence.toLocaleString(mwak) +"\n"
++ definitions.sentences[matches].toLocaleString(mwak)+"\n");
 }
 return output;
 }

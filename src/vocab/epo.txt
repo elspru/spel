@@ -14,8 +14,8 @@ pa li .u that-thing li .a ya
 pu li .u did li .a ya
 wi li .u we li .a ya
 wa li .u aux li .a ya
-ni li .u nome li .a ya
-na li .u nom li .a ya
+ni li .u vice li .a ya
+na li .u numeral li .a ya
 nu li .u nu li .a ya
 si li .u they li .a ya
 ti li .u tha li .a ya
@@ -31,27 +31,26 @@ mya li .u eble li .a ya
 kyi li .u conditionally li .a ya
 kya li .u aside li .a ya
 sa li .u sugestio li .a ya
+kwa li .u that-which li .a ya
 ksa li .u unquote li .a ya
 kla li .u tamen li .a ya
+klu li .u clause-tail li .a ya
 kca li .u ha li .a ya
+pya li .u tage li .a ya
 pwa li .u yaor li .a ya
 psu li .u from-source li .a ya
 pli li .u near li .a ya
 pla li .u plural li .a ya
 plu li .u unuafoje li .a ya
 pca li .u jolly li .a ya
-nyi li .u ne[2] li .a ya
 nya li .u el li .a ya
-nwa li .u null li .a ya
 swi li .u while li .a ya
 sli li .u for-example li .a ya
 sla li .u saluton li .a ya
 slu li .u singular li .a ya
-tya li .u clause-tail li .a ya
 twa li .u tiuokaze li .a ya
-tsi li .u quote li .a ya
 tli li .u ord li .a ya
-mik .u kopio li .a ya
+mik .u utiligi li .a ya
 miy .u wait li .a ya
 mip .u pasinto li .a ya
 min .u less li .a ya
@@ -59,13 +58,16 @@ mit .u middle li .a ya
 mak .u vorto li .a ya
 map .u grando li .a ya
 man .u pripensi li .a ya
+mas .u meso li .a ya
 mat .u patrino li .a ya
 mac .u machine li .a ya
+mut .u asisto li .a ya
 kim .u kompari li .a ya
 kiy .u veturi li .a ya
+kip .u capable li .a ya
+kin .u precipa li .a ya
 kit .u finveni li .a ya
-kam .u seksumi li .a ya
-kay .u kvalifikita li .a ya
+kay .u respondigi li .a ya
 kap .u sxtatestro li .a ya
 kan .u scipovi li .a ya
 kas .u okazigi li .a ya
@@ -77,8 +79,7 @@ kun .u rugxo li .a ya
 kut .u pogoniuleto li .a ya
 yik .u negate li .a ya
 yan .u diri li .a ya
-pim .u poento li .a ya
-piy .u sagxumi li .a ya
+yut .u subtrahi li .a ya
 pam .u bonsxanco li .a ya
 pak .u korpodoro li .a ya
 pay .u plimalpli li .a ya
@@ -92,102 +93,201 @@ put .u sell li .a ya
 pul .u bluo li .a ya
 wit .u prilumi li .a ya
 fut .u estonto li .a ya
-wam .u tempo li .a ya
 wap .u vosto li .a ya
 wan .u kareco li .a ya
 wat .u paroli li .a ya
 nim .u name li .a ya
+nit .u reto li .a ya
 nic .u energio li .a ya
 wul .u granda li .a ya
 nam .u oko li .a ya
+nul .u null li .a ya
+sam .u sama li .a ya
 naw .u cxeestanto li .a ya
 san .u mem li .a ya
 sat .u sono li .a ya
 sup .u tributi li .a ya
-sim .u trifoje li .a ya
 tip .u komencigxi li .a ya
 sun .u unupersona li .a ya
 tin .u vidi li .a ya
-tiw .u asisto li .a ya
+tak .u totaligi li .a ya
 tam .u aktualajxo li .a ya
 tay .u surmeti li .a ya
+tan .u remendi li .a ya
+tas .u elekti li .a ya
+tum .u temperaturo li .a ya
 tap .u tusxo li .a ya
-tak .u danko li .a ya
+tun .u longo li .a ya
+tul .u laborilo li .a ya
+lik .u electric-charge li .a ya
 tuw .u ducent li .a ya
 lin .u verdo li .a ya
+lis .u live li .a ya
 liy .u kvar li .a ya
 lit .u glyph li .a ya
 cim .u auxdi li .a ya
 cik .u malmultaj li .a ya
+cak .u ajxo li .a ya
 caw .u shout li .a ya
+can .u sxanco li .a ya
 cal .u translokigxi li .a ya
-myik .u totaligi li .a ya
-kyim .u subtrahi li .a ya
+myan .u mola li .a ya
+myul .u moralinstruo li .a ya
+myin .u songxo li .a ya
+kyit .u gravito li .a ya
+kyil .u rondo li .a ya
+kyin .u universala li .a ya
+kyap .u kopio li .a ya
 kyup .u grupo li .a ya
+kyat .u strecxanta li .a ya
+kwat .u quantum li .a ya
 kyul .u rule li .a ya
 kwal .u lingvo li .a ya
-ksip .u surskribi li .a ya
+kyis .u surskribi li .a ya
+ksip .u impulso li .a ya
+ksin .u context li .a ya
+ksat .u sudden li .a ya
+ksal .u galaxy li .a ya
 ksap .u kondolenci li .a ya
+ksan .u organizi li .a ya
+klin .u elektrono li .a ya
+ksut .u kolekti li .a ya
+ksul .u skolo li .a ya
 klaw .u rido li .a ya
-klas .u klauxzo li .a ya
+klas .u kurso li .a ya
+klat .u klauxzo li .a ya
+kcim .u chemical li .a ya
 klac .u escepti li .a ya
+kfin .u config li .a ya
+pyin .u travivi li .a ya
+pyam .u programi li .a ya
 pyan .u pronoun li .a ya
+pyut .u protono li .a ya
+pyul .u dekokti li .a ya
 pyas .u phrase li .a ya
 pyat .u grammatical-object li .a ya
+pwil .u varia li .a ya
+pwut .u aprobi li .a ya
+psiy .u premo li .a ya
 pyuf .u pruvo li .a ya
 pyuc .u projekcii li .a ya
+psit .u surfaco li .a ya
 psan .u space li .a ya
 psun .u source li .a ya
+plam .u plasmo li .a ya
+plin .u rabotilo li .a ya
 plis .u apude li .a ya
+play .u teatrajxo li .a ya
+nyit .u unuo li .a ya
+nyus .u ionize li .a ya
+nyut .u neutron li .a ya
+plan .u planedo li .a ya
+nyis .u referenco li .a ya
+syat .u solid li .a ya
+syun .u universo li .a ya
+swil .u animo li .a ya
+syit .u sendi li .a ya
+syak .u maldorma li .a ya
+slam .u sublimate li .a ya
 swat .u demando li .a ya
 slim .u ekzemplo li .a ya
 tkic .u translation-dictionary li .a ya
+tyis .u transition li .a ya
+tyil .u nazkataro li .a ya
+tyam .u atomo li .a ya
 tyim .u tremble li .a ya
+tyin .u trifoje li .a ya
+tyan .u signovico li .a ya
+tyas .u ideo li .a ya
+tyup .u roboto li .a ya
+tsiw .u satelito li .a ya
 twis .u vera li .a ya
-tsin .u referenco li .a ya
+tsim .u kune li .a ya
+tsin .u instruo li .a ya
 tsil .u deserve li .a ya
+tsay .u stelo li .a ya
+tsam .u purpose li .a ya
+tsak .u restado li .a ya
+tsap .u proprajxo li .a ya
 tsan .u ree li .a ya
 tsal .u sxtato li .a ya
 tsaf .u gustumo li .a ya
 tsuk .u vendejo li .a ya
+tlik .u elektro li .a ya
 tlin .u ordinal li .a ya
+tlun .u triple-point li .a ya
 tlam .u traduko li .a ya
+tcin .u montocxeno li .a ya
 tlan .u tradicio li .a ya
+tfal .u vico li .a ya
 tcan .u arbo li .a ya
-flas .u phrase li .a ya
+fwas .u fazo li .a ya
+fyas .u phrase li .a ya
+fwil .u trudi li .a ya
+flit .u fluto li .a ya
+flut .u flower li .a ya
 fluc .u forflui li .a ya
+clut .u supercritical-fluid li .a ya
 clum .u propozicio li .a ya
 miyk .u sendi li .a ya
+mist .u mezuro li .a ya
+milt .u fandigxi li .a ya
+mayt .u imaginary-unit li .a ya
+mast .u substanco li .a ya
 miwk .u persono li .a ya
-milt .u ally li .a ya
-mast .u malamika li .a ya
+mint .u preparmaniero li .a ya
+muyt .u ally li .a ya
 malt .u materia li .a ya
 mack .u imagine li .a ya
 muys .u emocio li .a ya
+kisp .u exponent li .a ya
 munt .u mondo li .a ya
-mult .u moralinstruo li .a ya
+kays .u grammatical-case li .a ya
+kayt .u varmega li .a ya
+kaws .u gaso li .a ya
+kant .u prozelito li .a ya
+kast .u sencxesa li .a ya
+kimt .u teni li .a ya
 kamt .u gramatiko li .a ya
-kayp .u ajxo li .a ya
-kast .u grammatical-case li .a ya
 kump .u animstato li .a ya
+kusp .u disfali li .a ya
+kust .u sencxesa li .a ya
+kumt .u kontagxi li .a ya
+kuft .u dividi li .a ya
+kuwt .u kodo li .a ya
+yink .u tintigi li .a ya
 kunt .u regi li .a ya
+kult .u kulturo li .a ya
 yimk .u peti li .a ya
-yank .u maldorma li .a ya
+yalk .u veturilo li .a ya
+yulp .u role li .a ya
+yult .u utilprogramo li .a ya
 panp .u pano li .a ya
-punt .u masxo li .a ya
+pant .u prunti li .a ya
 pack .u amuzigxi li .a ya
+pult .u oldulo li .a ya
 wiyp .u verbo li .a ya
+wins .u venus li .a ya
+wint .u vento li .a ya
 niym .u substantivo li .a ya
+nalt .u nature li .a ya
 sant .u arto li .a ya
 sint .u vertigxi li .a ya
 suyt .u grammatical-subject li .a ya
 timp .u tense li .a ya
 tink .u text li .a ya
 tiwk .u vigleco li .a ya
+tisk .u progreso li .a ya
 tuym .u mondo li .a ya
+tamk .u varti li .a ya
+tanp .u sxajni li .a ya
+tack .u dankon li .a ya
 tuwm .u duration li .a ya
 liyt .u literaturo li .a ya
+liyn .u linio li .a ya
 lint .u interno li .a ya
 lank .u koloro li .a ya
 lunt .u personoj li .a ya
+luwt .u liuto li .a ya
 tick .u vortaro li .a ya
+cinp .u informo li .a ya

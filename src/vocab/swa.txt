@@ -14,8 +14,8 @@ pa li .u kwamba-jambo-la li .a ya
 pu li .u alifanya li .a ya
 wi li .u sisi li .a ya
 wa li .u au li .a ya
-ni li .u yaani li .a ya
-na li .u nu li .a ya
+ni li .u katika li .a ya
+na li .u numeral li .a ya
 si li .u wao li .a ya
 nu li .u sasa li .a ya
 ti li .u tha li .a ya
@@ -31,27 +31,26 @@ mya li .u labda li .a ya
 kyi li .u masharti li .a ya
 kya li .u kando li .a ya
 sa li .u akaonekana li .a ya
+kwa li .u kuwa-ambayo li .a ya
 ksa li .u unquote li .a ya
 kla li .u lakini li .a ya
+klu li .u kifungu-mkia li .a ya
 kca li .u ha li .a ya
+pya li .u karibu-na li .a ya
 pli li .u karibu li .a ya
 psu li .u kutoka-chanzo li .a ya
 pla li .u wingi li .a ya
 pwa li .u yaor li .a ya
 plu li .u kwa-faida li .a ya
 pca li .u jolly li .a ya
-nyi li .u si li .a ya
-nwa li .u null li .a ya
 nya li .u kutoka li .a ya
 swi li .u wakati li .a ya
 sli li .u kwa-mfano li .a ya
 slu li .u umoja li .a ya
 sla li .u hodi li .a ya
-tya li .u kifungu-mkia li .a ya
 twa li .u basi li .a ya
-tsi li .u quote li .a ya
 tli li .u ord li .a ya
-mik .u nakala li .a ya
+mik .u kufanya li .a ya
 miy .u kusubiri li .a ya
 mip .u zamani li .a ya
 mit .u katikati li .a ya
@@ -59,13 +58,16 @@ min .u chini li .a ya
 mak .u neno li .a ya
 mat .u mama li .a ya
 man .u kufikiri li .a ya
+mas .u habari li .a ya
 map .u ukubwa li .a ya
 mac .u mashine li .a ya
+mut .u kusaidia li .a ya
 kim .u kulinganisha li .a ya
 kiy .u kwenda li .a ya
+kip .u uwezo li .a ya
+kin .u kuu li .a ya
 kit .u mwisho li .a ya
-kam .u kuwa li .a ya
-kay .u uwezo li .a ya
+kay .u kushikilia li .a ya
 kap .u kichwa li .a ya
 kan .u kujua li .a ya
 kas .u sababu li .a ya
@@ -77,8 +79,7 @@ kun .u nyekundu li .a ya
 kut .u ndogo li .a ya
 yik .u yanatofautiana li .a ya
 yan .u -sema li .a ya
-pim .u hatua li .a ya
-piy .u kitendo li .a ya
+yut .u Ondoa li .a ya
 pam .u nzuri li .a ya
 pak .u mwili li .a ya
 pay .u zaidi li .a ya
@@ -92,102 +93,202 @@ put .u kuuza li .a ya
 pul .u bluu li .a ya
 wit .u mwanga li .a ya
 fut .u baadaye li .a ya
-wam .u wakati li .a ya
 wan .u upendo li .a ya
 wap .u mkia li .a ya
 wat .u kusema li .a ya
 nim .u jina li .a ya
+nit .u wavu li .a ya
 nic .u nishati li .a ya
 wul .u kubwa li .a ya
 nam .u simu li .a ya
-sim .u tatu li .a ya
+nul .u null li .a ya
+sam .u sawa li .a ya
 san .u binafsi li .a ya
 sat .u sauti li .a ya
 sup .u kulipa li .a ya
 naw .u sasa-wakati li .a ya
 tip .u kuanza li .a ya
-tiw .u kusaidia li .a ya
 tin .u kuona li .a ya
 tam .u mada li .a ya
+tak .u kuongeza li .a ya
 sun .u moja li .a ya
 tay .u kuweka li .a ya
+tan .u kutoa li .a ya
+tas .u kuchagua li .a ya
+tum .u joto li .a ya
 tap .u kugusa li .a ya
-tak .u kuwashukuru li .a ya
+tun .u urefu li .a ya
+tul .u chombo li .a ya
+lik .u umeme-malipo li .a ya
 liy .u nne li .a ya
 lin .u kijani li .a ya
+lis .u kuishi li .a ya
 tuw .u mbili li .a ya
 lit .u glyph li .a ya
 cim .u kusikia li .a ya
 cik .u chache li .a ya
+cak .u jambo li .a ya
 caw .u kelele li .a ya
+can .u nafasi li .a ya
 cal .u hoja li .a ya
-myik .u kuongeza li .a ya
-kyim .u Ondoa li .a ya
+myan .u laini li .a ya
+myul .u maadili li .a ya
+myin .u ndoto li .a ya
+kyit .u mvuto li .a ya
+kyil .u mzunguko li .a ya
+kyin .u ujumla li .a ya
+kyap .u nakala li .a ya
 kyup .u kundi li .a ya
+kyat .u ngumu li .a ya
+kwat .u quantum li .a ya
 kyul .u utawala li .a ya
 kwal .u Lugha li .a ya
-ksip .u kuandika li .a ya
+kyis .u kuandika li .a ya
+ksip .u upatikanaji li .a ya
+ksin .u mazingira li .a ya
+ksat .u ghafla li .a ya
+ksal .u galaxy li .a ya
 ksap .u kueleza li .a ya
+ksan .u kuandaa li .a ya
+klin .u elektroni li .a ya
+ksut .u kukusanya li .a ya
+ksul .u shule li .a ya
 klaw .u laugh li .a ya
-klas .u kifungu li .a ya
+klas .u darasa li .a ya
+klat .u kifungu li .a ya
+kcim .u kemikali li .a ya
+klat .a ya
+kfin .u config li .a ya
+pyin .u uzoefu li .a ya
 klac .u ila li .a ya
+pyam .u mpango li .a ya
+pyut .u proton li .a ya
+pyul .u jipu li .a ya
 pyan .u pronoun li .a ya
 pyas .u maneno li .a ya
+pwil .u variable li .a ya
+pwut .u kupitisha li .a ya
+psiy .u shinikizo li .a ya
 pyat .u grammatical-object li .a ya
 pyuf .u ushahidi li .a ya
+psit .u uso li .a ya
 pyuc .u mradi li .a ya
 psan .u nafasi li .a ya
+plam .u plasma li .a ya
+plin .u ndege li .a ya
 plis .u jirani li .a ya
+play .u kucheza li .a ya
+nyit .u kitengo li .a ya
+nyus .u ionize li .a ya
+nyut .u neutron li .a ya
+plan .u sayari li .a ya
+nyis .u dondoo li .a ya
+syat .u imara li .a ya
+syun .u ulimwengu li .a ya
+swil .u nafsi li .a ya
+syit .u kutuma li .a ya
 psun .u chanzo li .a ya
+slam .u sublimate li .a ya
+syak .u ari li .a ya
 swat .u swali li .a ya
 slim .u mfano li .a ya
+tyis .u mpito li .a ya
+tyil .u baridi li .a ya
+tyam .u chembe li .a ya
 tkic .u tafsiri-dictionary li .a ya
 tyim .u kutetemeka li .a ya
+tyan .u kamba li .a ya
+tyas .u wazo li .a ya
+tyup .u robot li .a ya
+tsiw .u satellite li .a ya
+tyin .u tatu li .a ya
+tsim .u pamoja li .a ya
+tsin .u maelekezo li .a ya
 twis .u kweli li .a ya
-tsin .u kumbukumbu li .a ya
+tsay .u nyota li .a ya
 tsil .u wanastahili li .a ya
+tsak .u kukaa li .a ya
+tsam .u kusudi li .a ya
+tsap .u mali li .a ya
 tsan .u tena li .a ya
 tsal .u hali li .a ya
 tsaf .u ladha li .a ya
+tlik .u umeme li .a ya
 tsuk .u duka li .a ya
+tlun .u tatu-kumweka li .a ya
 tlam .u kutafsiri li .a ya
+tcin .u mlolongo li .a ya
 tlin .u ordinal li .a ya
 tlan .u utamaduni li .a ya
+tfal .u faili li .a ya
+fwas .u awamu li .a ya
+fyas .u maneno li .a ya
 tcan .u mti li .a ya
-flas .u maneno li .a ya
+flit .u filimbi li .a ya
+fwil .u nguvu li .a ya
+flut .u ua li .a ya
+clut .u supercritical-maji li .a ya
 fluc .u kati-yake li .a ya
-clum .u hukumu li .a ya
 miyk .u kutuma li .a ya
+mist .u kupima li .a ya
+milt .u melt li .a ya
+mayt .u imaginary-kitengo li .a ya
+mast .u jambo li .a ya
+clum .u hukumu li .a ya
 miwk .u mtu li .a ya
-milt .u mshirika li .a ya
-mast .u maadui li .a ya
+muyt .u mshirika li .a ya
+mint .u njia li .a ya
 malt .u vifaa li .a ya
 mack .u kufikiria li .a ya
+kisp .u exponent li .a ya
 muys .u hisia li .a ya
+kays .u grammatical-kesi li .a ya
+kayt .u moto li .a ya
+kaws .u gesi li .a ya
+kant .u kubadilisha li .a ya
+kast .u mara-kwa-mara li .a ya
 munt .u dunia li .a ya
-mult .u maadili li .a ya
+kimt .u hutegemea li .a ya
 kamt .u sarufi li .a ya
-kayp .u jambo li .a ya
-kast .u grammatical .a ya
+kusp .u kuanguka li .a ya
+kust .u mara-kwa-mara li .a ya
 kump .u mood li .a ya
+kuft .u mgawanyiko li .a ya
+kuwt .u code li .a ya
+yink .u pete li .a ya
+kumt .u kuwasiliana li .a ya
+kult .u utamaduni li .a ya
 kunt .u kudhibiti li .a ya
+yalk .u gari li .a ya
+yulp .u jukumu li .a ya
 yimk .u kuuliza li .a ya
-yank .u ari li .a ya
+yult .u shirika li .a ya
+pant .u kukopa li .a ya
 panp .u mkate li .a ya
-punt .u kitanzi li .a ya
 pack .u kufurahia li .a ya
+pult .u umri li .a ya
+wins .u Venus li .a ya
+wint .u upepo li .a ya
 wiyp .u verb li .a ya
+nalt .u asili li .a ya
 niym .u noun li .a ya
 sant .u sanaa li .a ya
 sint .u kujisikia li .a ya
 suyt .u grammatical-subject li .a ya
 timp .u grammatical-uliopo li .a ya
 tink .u Nakala li .a ya
+tisk .u maendeleo li .a ya
 tiwk .u shughuli li .a ya
 tuym .u dunia li .a ya
+tanp .u itaonekana li .a ya
+tamk .u kuangalia li .a ya
+tack .u kuwashukuru li .a ya
 tuwm .u muda li .a ya
+liyn .u line li .a ya
 liyt .u maandiko li .a ya
 lint .u ndani-ya li .a ya
 lank .u rangi li .a ya
+luwt .u kinanda li .a ya
 lunt .u watu li .a ya
 tick .u kamusi li .a ya
+cinp .u habari li .a ya

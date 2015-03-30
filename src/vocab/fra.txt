@@ -14,8 +14,8 @@ pa li .u que-chose li .a ya
 pu li .u fait li .a ya
 wi li .u nous li .a ya
 wa li .u ou .a ya
-ni li .u à-savoir li .a ya
-na li .u nu .a ya
+ni li .u en li .a ya
+na li .u chiffre li .a ya
 si li .u ils li .a ya
 nu li .u maintenant .a ya
 ti li .u que .a ya
@@ -31,27 +31,26 @@ mya li .u peut-être li .a ya
 kyi li .u conditionnellement .a ya
 kya li .u de-côté li .a ya
 sa li .u la .a ya
+kwa li .u ce-qui li .a ya
 ksa li .u fin-de-citation li .a ya
 kla li .u mais li .a ya
+klu li .u clause-queue li .a ya
 kca li .u ha li .a ya
+pya li .u par li .a ya
 pli li .u près-de li .a ya
 psu li .u à-partir-de-la-source li .a ya
 pla li .u pluriel li .a ya
 pwa li .u you .a ya
 plu li .u pour li .a ya
 pca li .u gai li .a ya
-nyi li .u pas li .a ya
-nwa li .u nul li .a ya
 nya li .u à-partir-de li .a ya
 swi li .u tandis-que li .a ya
 sli li .u par-exemple .a ya
 slu li .u singulier li .a ya
 sla li .u bonjour li .a ya
-tya li .u clause-queue li .a ya
 twa li .u puis li .a ya
-tsi li .u citation li .a ya
 tli li .u ord .a ya
-mik .u copie .a ya
+mik .u faire li .a ya
 miy .u attendre .a ya
 mip .u passé .a ya
 mit .u milieu li .a ya
@@ -59,13 +58,16 @@ min .u moins .a ya
 mak .u mot .a ya
 mat .u mère li .a ya
 man .u penser li .a ya
+mas .u masse li .a ya
 map .u taille .a ya
 mac .u machine li .a ya
+mut .u aidez-moi li .a ya
 kim .u comparer .a ya
 kiy .u aller .a ya
+kip .u capable li .a ya
+kin .u principal li .a ya
 kit .u fin li .a ya
-kam .u avoir li .a ya
-kay .u capable li .a ya
+kay .u tenir li .a ya
 kap .u tête .a ya
 kan .u savoir li .a ya
 kas .u cause li .a ya
@@ -77,8 +79,7 @@ kun .u rouge li .a ya
 kut .u minhmap .i petit .a ya
 yik .u nier .a ya
 yan .u dire li .a ya
-pim .u point .a ya
-piy .u acte .a ya
+yut .u soustraire li .a ya
 pam .u bon .a ya
 pak .u corps .a ya
 pay .u plus .a ya
@@ -92,102 +93,201 @@ put .u vendre li .a ya
 pul .u bleu li .a ya
 wit .u lumière li .a ya
 fut .u avenir .a ya
-wam .u temps .a ya
 wan .u aimer li .a ya
 wap .u queue .a ya
 wat .u parler li .a ya
 nim .u nom li .a ya
+nit .u net li .a ya
 nic .u énergie li .a ya
 wul .u payhmap .i grand .a ya
 nam .u nombre .a ya
-sim .u trois li .a ya
+nul .u nul li .a ya
+sam .u même li .a ya
 san .u soi li .a ya
 sat .u son li .a ya
 sup .u payer li .a ya
 naw .u présent .a ya
 tip .u commencer li .a ya
-tiw .u aidez-moi li .a ya
 tin .u voir li .a ya
 tam .u sujet li .a ya
+tak .u ajouter li .a ya
 sun .u une .a ya
 tay .u mettre li .a ya
+tan .u donner li .a ya
+tas .u choisir li .a ya
+tum .u température li .a ya
 tap .u toucher li .a ya
-tak .u merci li .a ya
+tun .u longueur li .a ya
+tul .u outil li .a ya
+lik .u charge-électrique li .a ya
 liy .u quatre li .a ya
 lin .u vert li .a ya
+lis .u vivre li .a ya
 tuw .u deux .a ya
 lit .u glyphe li .a ya
 cim .u entendre li .a ya
 cik .u minhnam .i peu .a ya
+cak .u chose li .a ya
 caw .u cri li .a ya
+can .u chance li .a ya
 cal .u mouvement li .a ya
-myik .u ajouter .a ya
-kyim .u soustraire .a ya
+myan .u doux li .a ya
+myul .u moral li .a ya
+myin .u rêver li .a ya
+kyit .u pesanteur li .a ya
+kyil .u cercle li .a ya
+kyin .u général li .a ya
+kyap .u copie li .a ya
 kyup .u groupe li .a ya
+kyat .u dur li .a ya
+kwat .u quantum li .a ya
 kyul .u règle li .a ya
-klas .u clause .a ya
-ksip .u écrire li .a ya
+kyis .u écrire li .a ya
 ksap .u exprimer li .a ya
+ksip .u accès li .a ya
+ksin .u contexte li .a ya
+ksat .u soudain li .a ya
+ksal .u galaxie li .a ya
 klaw .u rire li .a ya
+ksan .u organiser li .a ya
+klin .u électron li .a ya
+ksut .u recueillir li .a ya
+ksul .u école li .a ya
 klac .u sauf li .a ya
+klas .u classe li .a ya
+klat .u clause li .a ya
+kcim .u chimique li .a ya
 pyan .u pronom .a ya
+kfin .u config li .a ya
+pyin .u expérience li .a ya
+pyam .u programme li .a ya
 pyas .u phrase .a ya
+pyut .u proton li .a ya
+pyul .u bouillir li .a ya
 pyat .u grammaticale-objet .a ya
 pyuf .u preuve li .a ya
+pwil .u variable li .a ya
+pwut .u approuver li .a ya
+psiy .u pression li .a ya
 plis .u proche li .a ya
 pyuc .u projet li .a ya
+psit .u surface li .a ya
 psan .u espace li .a ya
 psun .u source li .a ya
+plam .u plasma li .a ya
+plin .u plan li .a ya
 slim .u exemple .a ya
+play .u jouer li .a ya
+nyit .u unité li .a ya
+nyus .u ioniser li .a ya
+nyut .u neutron li .a ya
+plan .u planète li .a ya
+nyis .u référence li .a ya
+syat .u solide li .a ya
+syun .u univers li .a ya
+swil .u âme li .a ya
+syit .u envoyer li .a ya
+syak .u éveillé li .a ya
+slam .u sublimer li .a ya
 swat .u question li .a ya
-flas .u phrase .a ya
 tkic .u Traduction-dictionnaire li .a ya
 tyim .u trembler li .a ya
+tyis .u transition li .a ya
+tyil .u froid li .a ya
+tyam .u atome li .a ya
+tyin .u trois li .a ya
+tyan .u chaîne li .a ya
+tyas .u idée li .a ya
+tyup .u robot li .a ya
 twis .u vrai li .a ya
-tsin .u référence li .a ya
+tsiw .u satellite li .a ya
+tsim .u ensemble li .a ya
+tsin .u instruction li .a ya
 tsil .u mériter li .a ya
+tsam .u but li .a ya
+tsay .u étoile li .a ya
+tsak .u rester li .a ya
+tsap .u propriété li .a ya
 tsan .u de-nouveau li .a ya
 tsal .u état li .a ya
 tsaf .u goût li .a ya
 tsuk .u boutique li .a ya
+tlik .u électricité li .a ya
 tlam .u traduire li .a ya
 tlin .u ordinal .a ya
+tlun .u point-triple li .a ya
 tlan .u tradition li .a ya
+tcin .u chaîne li .a ya
+tfal .u fichier li .a ya
 tcan .u arbre li .a ya
-miyk .u envoyer .a ya
+fwil .u force li .a ya
+fwas .u phase li .a ya
+fyas .u phrase li .a ya
+flit .u flûte li .a ya
 fluc .u couler li .a ya
+flut .u fleur li .a ya
+clut .u surcritique-fluide li .a ya
 clum .u phrase li .a ya
 miwk .u personne .a ya
+miyk .u envoyer li .a ya
+mist .u mesurer li .a ya
+milt .u fondre li .a ya
+mayt .u -unité-imaginaire li .a ya
+mast .u question li .a ya
 muys .u émotion li .a ya
-milt .u allié li .a ya
-mast .u hostile li .a ya
+mint .u méthode li .a ya
+muyt .u allié li .a ya
 malt .u matériel li .a ya
 mack .u imaginer li .a ya
 kamt .u grammaire .a ya
+kisp .u exposant li .a ya
 munt .u monde li .a ya
-mult .u moral li .a ya
-kayp .u chose .a ya
-kast .u grammaticale-cas .a ya
+kays .u grammaticale-cas li .a ya
+kayt .u chaud li .a ya
+kaws .u gaz li .a ya
+kant .u convertir li .a ya
+kast .u constante li .a ya
+kimt .u pendre li .a ya
 kump .u humeur li .a ya
 yimk .u demander .a ya
+kusp .u effondrement li .a ya
+kust .u constante li .a ya
+kumt .u communiquer li .a ya
+kuft .u diviser li .a ya
+kuwt .u code li .a ya
+yink .u anneau li .a ya
 kunt .u contrôle li .a ya
+kult .u culture li .a ya
 wiyp .u verbe .a ya
-yank .u éveillé li .a ya
+yalk .u véhicule li .a ya
+yulp .u rôle li .a ya
+yult .u utilitaire li .a ya
 panp .u pain li .a ya
-punt .u boucle li .a ya
+pant .u emprunter li .a ya
 pack .u jouir li .a ya
-niym .u nom .a ya
+pult .u vieux li .a ya
+niym .u nomn .a ya
+wins .u Vénus li .a ya
+wint .u vent li .a ya
 sint .u sentir li .a ya
+nalt .u nature li .a ya
 sant .u art li .a ya
 suyt .u grammaticale-sujet .a ya
 timp .u grammaticale-tendue .a ya
 tiwk .u activité li .a ya
 tink .u texte li .a ya
 tick .u dictionnaire .a ya
+tisk .u progrès li .a ya
 tuym .u monde li .a ya
+tamk .u regarder li .a ya
+tanp .u apparaître li .a ya
+tack .u merci li .a ya
 tuwm .u durée li .a ya
 liyt .u littérature li .a ya
+liyn .u ligne li .a ya
 lint .u à-l'intérieur li .a ya
 lank .u couleur li .a ya
 lunt .u personnes li .a ya
+luwt .u luth li .a ya
 kwal .u langue .a ya
+cinp .u information li .a ya

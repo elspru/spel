@@ -30,7 +30,7 @@ var Eng = require("./locale/eng/eng");
 var eng = new Eng(".");
 console.log("english language loaded");
 
-var langs = [
+var allLangs = [
 ["eng",eng], ["zho"], ["spa"], ["hin"], ["ara"], ["por"], 
 ["rus"], ["ind"], ["jpn"], ["deu"], ["ita"], ["kor"], ["fra"],
 ["tur"], ["swa"],["tha"],["ukr"], ["nld"], ["hun"], ["swe"],
@@ -38,19 +38,25 @@ var langs = [
 ];
 
 var unLangs = [ ["eng",eng], ["zho"], ["spa"], ["ara"],  
-["rus"], ["fra"], ["mwak",mwak]
+["rus"], ["fra"],["javs"],["mwak",mwak]
 ];
 
-//var langs = unLangs;
+var compLangs = [ ["eng",eng], ["javs"],["mwak",mwak]
+];
 
 var langs = [["eng",eng],["zho"],["epo"],["mwak",mwak]];
 var SPELangs = [["eng",eng],["zho"],["spa"],["ara"],["rus"],
 ["fra"],["tur"],["ukr"],["swe"],["heb"],["fin"],["epo"],["mwak",mwak]];
 var langs = [["eng",eng],["ara"],["mwak",mwak]];
+
+var langs = allLangs;
+var langs = compLangs;
+//var langs = unLangs;
+
 var commandText = process.argv.slice(2).join(" ");
 console.log(commandText);
 var format = new Object();
-var conjugationLevel = 0;
+var conjugationLevel = 3;
 
 //var string = " hello world ya ";
 //var mstring = " maw .i blak .u fa ya ";
@@ -79,11 +85,36 @@ var string = "C4 kya .i li .u be li .a wiyp kast .i ya"
 //+ " su test be end ya blah ya";
 //var string = " li unquote";
 //var string = "ksa yo hello hello yo world world yo tsi .u ya";
+var string = 
+"look su the people ob one while su one language to them all ya"
++ " about this su it be hold ob dream to make  "
++ "  while now su null be hold from them "
++ " about that-which su them be hold ob purpose to make ya "
+
+var string = 
+ " su class be give ob main access "
++ "to config property file and to few general utility method "
++ " while capable be give to program ob context ya"
+
+//
+//
+//var string = "pam mak kwal ta ki mak li ta ki"
+//+" ksa mak U1BFTCBHSS1PUyBXWU4= mak tsi ta";
+
+//var string = "wins pi psit wint ni tyup ka lasp .i myin ya"
+var string = "be say ob quote phrase hello world phrase unquote ya ";
+//var string = "pam mak kwal ki mak li ki"
+//+" ksa mak U1BFTCBHSS1PUyBXWU4= mak tsi .i";
+//var string = "be get phrase"
+//var string = "si .u lis .a ku si mwa cwil .i pac twa ya "
+//var string = "pult tcan .a kwa mi .i ";
 console.log(string)
 //var tokens = tokenize.stringToWords(string);
 //var word = parse.subText(eng.grammar,tokens);
 //var word = parse.quotesExtract(eng,tokens);
-var word = new Text(mwak,string);
+//var string = "ha if su me then be say ob which hello world be "
+//+ "example of good ya";
+var word = new Text(eng,string);
 console.log(word.toString());
 console.log(JSON.stringify(word));
 langs.forEach(toLangStringTranslate.curry(conjugationLevel).curry(word));

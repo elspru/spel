@@ -14,8 +14,8 @@ pa li .u dass-Sache li .a ya
 pu li .u tat li .a ya
 wi li .u wir li .a ya
 wa li .u oder li .a ya
-ni li .u nämlich li .a ya
-na li .u zahl li .a ya
+ni li .u in li .a ya
+na li .u Zahl li .a ya
 si li .u sie li .a ya
 nu li .u jetzt li .a ya
 ti li .u jener li .a ya
@@ -31,27 +31,26 @@ mya li .u kann-sein li .a ya
 kyi li .u bedingt li .a ya
 kya li .u beiseite li .a ya
 sa li .u die li .a ya
+kwa li .u dass-das li .a ya
 ksa li .u Ende-des-Zitats li .a ya
 kla li .u aber-doch li .a ya
+klu li .u Klausel-tail li .a ya
 kca li .u ha li .a ya
+pya li .u per li .a ya
 pli li .u in-der-Nähe-von li .a ya
 psu li .u aus-Source- li .a ya
 pla li .u Plural li .a ya
 pwa li .u yaor li .a ya
 plu li .u für li .a ya
 pca li .u fröhlich li .a ya
-nyi li .u nicht li .a ya
-nwa li .u nichtig li .a ya
 nya li .u aus li .a ya
 swi li .u während li .a ya
 sli li .u beispielsweise li .a ya
 slu li .u Einzahl li .a ya
 sla li .u hallo li .a ya
-tya li .u Klausel-tail li .a ya
 twa li .u dann li .a ya
-tsi li .u Angebot li .a ya
 tli li .u ord li .a ya
-mik .u Kopie li .a ya
+mik .u machen-sie li .a ya
 miy .u warten li .a ya
 mip .u Vergangenheit li .a ya
 mit .u Mitte li .a ya
@@ -59,13 +58,16 @@ min .u weniger li .a ya
 mak .u Wort li .a ya
 mat .u Mutter li .a ya
 man .u denken li .a ya
+mas .u Masse li .a ya
 map .u Größe li .a ya
 mac .u Maschine li .a ya
+mut .u hilfe li .a ya
 kim .u vergleichen li .a ya
 kiy .u gehen li .a ya
+kip .u fähig li .a ya
+kin .u Haupt- li .a ya
 kit .u ende li .a ya
-kam .u verfügen-über li .a ya
-kay .u fähig li .a ya
+kay .u halten li .a ya
 kap .u Kopf li .a ya
 kan .u wissen li .a ya
 kas .u Ursache li .a ya
@@ -77,8 +79,7 @@ kun .u rot li .a ya
 kut .u klein li .a ya
 yik .u negieren li .a ya
 yan .u sagen li .a ya
-pim .u Punkt li .a ya
-piy .u Handlung li .a ya
+yut .u subtrahieren li .a ya
 pam .u gut li .a ya
 pak .u Körper li .a ya
 pay .u mehr li .a ya
@@ -92,102 +93,201 @@ put .u verkaufen li .a ya
 pul .u blau li .a ya
 wit .u Licht li .a ya
 fut .u Zukunft li .a ya
-wam .u Zeit li .a ya
 wan .u lieben li .a ya
 wap .u Schwanz li .a ya
 wat .u sprechen li .a ya
 nim .u Name li .a ya
+nit .u Netto- li .a ya
 nic .u Energie li .a ya
 wul .u groß li .a ya
 nam .u Anzahl li .a ya
-sim .u drei li .a ya
+nul .u nichtig li .a ya
+sam .u gleich li .a ya
 san .u selbst li .a ya
 sat .u klingen li .a ya
 sup .u zahlen li .a ya
 naw .u vorhanden li .a ya
 tip .u start li .a ya
-tiw .u hilfe li .a ya
 tin .u sehen li .a ya
 tam .u Thema li .a ya
+tak .u hinzufügen li .a ya
 sun .u einer li .a ya
 tay .u setzen li .a ya
+tan .u geben-sie li .a ya
+tas .u wählen li .a ya
+tum .u Temperatur li .a ya
 tap .u berühren li .a ya
-tak .u danken li .a ya
+tun .u Länge li .a ya
+tul .u Werkzeug li .a ya
+lik .u Elektro-Lade li .a ya
 liy .u vier li .a ya
 lin .u grün li .a ya
+lis .u leben li .a ya
 tuw .u zwei li .a ya
 lit .u Glyphe li .a ya
 cim .u hören li .a ya
 cik .u wenige li .a ya
+cak .u Sache li .a ya
 caw .u Schrei li .a ya
+can .u Zufall li .a ya
 cal .u sich-bewegen li .a ya
-myik .u hinzufügen li .a ya
-kyim .u subtrahieren li .a ya
+myan .u weich li .a ya
+myul .u Moral li .a ya
+myin .u träumen li .a ya
+kyit .u Schwerkraft li .a ya
+kyil .u Kreis li .a ya
+kyin .u General li .a ya
+kyap .u Kopie li .a ya
 kyup .u Gruppe li .a ya
+kyat .u schwer li .a ya
+kwat .u Quant li .a ya
 kyul .u Regel li .a ya
 kwal .u Sprache li .a ya
-ksip .u schreiben li .a ya
+kyis .u schreiben li .a ya
+ksip .u Zugriff li .a ya
+ksin .u Kontext li .a ya
+ksat .u plötzlich li .a ya
+ksal .u Galaxis li .a ya
 ksap .u ausdrücken li .a ya
+ksan .u organisieren li .a ya
+klin .u Elektron li .a ya
+ksut .u sammeln li .a ya
+ksul .u Schule li .a ya
 klaw .u Lachen li .a ya
-klas .u Klausel li .a ya
+klas .u Klasse li .a ya
+klat .u Klausel li .a ya
+kcim .u Chemikalie li .a ya
 klac .u außer li .a ya
+kfin .u Config li .a ya
+pyin .u Erfahrung li .a ya
+pyam .u Programm li .a ya
 pyan .u Pronomen li .a ya
+pyut .u Proton li .a ya
+pyul .u koch-bunt li .a ya
 pyas .u Ausdruck li .a ya
 pyat .u grammatisch-Objekt li .a ya
+pwil .u Variable li .a ya
+pwut .u genehmigen li .a ya
+psiy .u Druck li .a ya
 pyuf .u Beweis li .a ya
 pyuc .u Projekt li .a ya
+psit .u Oberfläche li .a ya
 psan .u Raum li .a ya
 plis .u in-der-Nähe li .a ya
+plam .u Plasma li .a ya
+plin .u Flugzeug li .a ya
 psun .u Quelle li .a ya
+play .u spielen li .a ya
+nyit .u Einheit li .a ya
+nyus .u ionisieren li .a ya
+nyut .u Neutron li .a ya
+plan .u Planet li .a ya
+nyis .u Hinweis li .a ya
+syat .u solide li .a ya
+syun .u Universum li .a ya
+swil .u Seele li .a ya
+syit .u zukommen-lassen li .a ya
+syak .u wach li .a ya
+slam .u sublimieren li .a ya
 swat .u Frage li .a ya
 slim .u Beispiel li .a ya
 tkic .u Übersetzung-Wörterbuch li .a ya
+tyis .u Übergang li .a ya
+tyil .u Kälte li .a ya
+tyam .u Atom li .a ya
 tyim .u zittern li .a ya
+tyin .u drei li .a ya
+tyan .u Schnur li .a ya
+tyas .u Vorstellung li .a ya
+tyup .u Roboter li .a ya
+tsiw .u Satellit li .a ya
 twis .u wahr li .a ya
-tsin .u Hinweis li .a ya
+tsim .u zusammen li .a ya
+tsin .u Anweisung li .a ya
 tsil .u verdienen li .a ya
+tsay .u Stern li .a ya
+tsam .u Zweck li .a ya
+tsak .u Aufenthalt li .a ya
+tsap .u Immobilien li .a ya
 tsan .u schon-wieder li .a ya
 tsal .u Zustand li .a ya
 tsaf .u Geschmack li .a ya
 tsuk .u Geschäft li .a ya
+tlik .u Strom li .a ya
 tlam .u übersetzen li .a ya
+tlun .u Dreipunkt li .a ya
 tlin .u Ordnungs- li .a ya
+tcin .u Kette li .a ya
 tlan .u Tradition li .a ya
+tfal .u Datei li .a ya
 tcan .u Baum li .a ya
-flas .u Ausdruck li .a ya
+fwas .u Phase li .a ya
+fyas .u Ausdruck li .a ya
+fwil .u Kraft li .a ya
+flit .u Flöte li .a ya
+flut .u Blume li .a ya
 fluc .u fließen li .a ya
+clut .u kritischem-Fluid li .a ya
 clum .u Satz li .a ya
-miyk .u senden li .a ya
+miyk .u zukommen-lassen li .a ya
+mist .u messen li .a ya
+milt .u Schmelze li .a ya
+mayt .u imaginäre-Einheit li .a ya
+mast .u Angelegenheit li .a ya
 miwk .u Person li .a ya
-milt .u Verbündete li .a ya
-mast .u feindlich li .a ya
+mint .u Verfahren li .a ya
+muyt .u Verbündete li .a ya
 malt .u Material li .a ya
 mack .u sich-vorstellen li .a ya
 muys .u Emotion li .a ya
+kisp .u Exponent li .a ya
 munt .u Welt li .a ya
-mult .u Moral li .a ya
+kays .u grammatisch-Fall li .a ya
+kayt .u heiß li .a ya
+kaws .u Gas li .a ya
+kant .u konvertieren li .a ya
+kast .u Konstante li .a ya
+kimt .u hängen li .a ya
 kamt .u Grammatik li .a ya
-kayp .u Sache li .a ya
-kast .u grammatisch-Fall li .a ya
 kump .u Stimmung li .a ya
+kusp .u Zusammenbruch li .a ya
+kust .u Konstante li .a ya
+kumt .u kommunizieren li .a ya
+kuft .u teilen li .a ya
+kuwt .u Code li .a ya
+yink .u Ring li .a ya
 kunt .u Steuerung li .a ya
+kult .u Kultur li .a ya
 yimk .u fragen li .a ya
-yank .u wach li .a ya
+yalk .u Fahrzeug li .a ya
+yulp .u Rolle li .a ya
+yult .u Nutzen li .a ya
 panp .u Brot li .a ya
-punt .u Schleife li .a ya
+pant .u leihen li .a ya
 pack .u genießen li .a ya
+pult .u alt li .a ya
 wiyp .u Verb li .a ya
+wins .u Venus li .a ya
+wint .u Wind li .a ya
 niym .u Substantiv li .a ya
+nalt .u Natur li .a ya
 sant .u die-kunst li .a ya
 sint .u Gefühl li .a ya
 suyt .u grammatische-Subjekt- li .a ya
 timp .u grammatisch-angespannt li .a ya
 tink .u Text li .a ya
 tiwk .u Aktivität li .a ya
+tisk .u Fortschritt li .a ya
 tuym .u Welt li .a ya
+tamk .u aussehen li .a ya
+tanp .u erscheinen li .a ya
+tack .u danken li .a ya
 tuwm .u Dauer li .a ya
 liyt .u Literatur li .a ya
+liyn .u Linie li .a ya
 lint .u innerhalb li .a ya
 lank .u Farbe li .a ya
 lunt .u Menschen li .a ya
+luwt .u Laute li .a ya
 tick .u Wörterbuch li .a ya
+cinp .u Informationen li .a ya
