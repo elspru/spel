@@ -1,57 +1,48 @@
-.i li .u wiyp kast .i be li .a ya
-.a li .u pyat kast .i ob li .a ya
-.u li .u suyt kast .i su li .a ya
-mi li .u me li .a ya
-ki li .u and .a ya
-ku li .u if li .a ya
-ya li .u ; li .a ya
-pi li .u of li .a ya
-wa li .u or .a ya
-nu li .u naw timp .i now .a ya
-ti li .u tha .a ya
-ta li .u kast .i to li .a ya
-tu li .u miwk pyan .i thee li .a ya
-myi li .u memory .a ya
-kyi li .u conditionally .a ya
-sa li .u ka .i the .a ya
-pwa li .u yaor .a ya
-sli li .u for-example .a ya
-sla li .u hello li .a ya
-tli li .u tlin nam .i ord .a ya
-miy .u wait .a ya
-mip .u wap wam .i past .a ya
-min .u less .a ya
-mak .u word .a ya
-map .u size .a ya
-kim .u compare .a ya
-kiy .u go .a ya
-kap .u head .a ya
-kut .u min map .i small .a ya
-yik .u negate .a ya
-pam .u good .a ya
-pak .u body .a ya
-pay .u more .a ya
-paw .u place .a ya
-pan .u meet .a ya
-puy .u child .a ya
-fut .u kap wam .i future .a ya
-wap .u tail .a ya
-wul .u pay map .i big .a ya
-nam .u number .a ya
-naw .u pak wam .i present .a ya
-sun .u one .a ya
-tuw .u two .a ya
-cik .u min nam .i few .a ya
-kwal .u language .a ya
-pyan .u pim niym .i pronoun .a ya
-pyas .u phrase .a ya
-slim .u example .a ya
-tlin .u ordinal .a ya
-miwk .u person .a ya
-kamt .u grammar .a ya
-yimk .u ask .a ya
-niym .u noun .a ya
-suyt .u grammatical-subject .a ya
-timp .u wam kamt .i tense .a ya
-tick .u dictionary .a ya
+hi li hu wiyp kast hi be li ha ya
+ha li hu pyat kast hi ob li ha ya
+hu li hu suyt kast hi su li ha ya
+mi li hu me li ha ya
+ki li hu and ha ya
+ku li hu if li ha ya
+ya li hu ; li ha ya
+pi li hu of li ha ya
+wa li hu or ha ya
+nu li hu naw timp hi now ha ya
+ti li hu tha ha ya
+ta li hu kast hi to li ha ya
+tu li hu miwk pyan hi thee li ha ya
+kyi li hu conditionally ha ya
+sa li hu ka hi the ha ya
+pwa li hu yaor ha ya
+sla li hu hello li ha ya
+tli li hu tlin nam hi ord ha ya
+miy hu wait ha ya
+mip hu wap wam hi past ha ya
+mak hu word ha ya
+kim hu compare ha ya
+kiy hu go ha ya
+kap hu head ha ya
+yik hu negate ha ya
+pam hu good ha ya
+pak hu body ha ya
+paw hu place ha ya
+pan hu meet ha ya
+puy hu child ha ya
+fut hu kap wam hi future ha ya
+wap hu tail ha ya
+wul hu pay map hi big ha ya
+nam hu number ha ya
+naw hu pak wam hi present ha ya
+cik hu min nam hi few ha ya
+kwal hu language ha ya
+pyan hu pim niym hi pronoun ha ya
+slim hu example ha ya
+tlin hu ordinal ha ya
+miwk hu person ha ya
+kamt hu grammar ha ya
+yimk hu ask ha ya
+niym hu noun ha ya
+suyt hu grammatical-subject ha ya
+timp hu wam kamt hi tense ha ya
+tick hu dictionary ha ya
 

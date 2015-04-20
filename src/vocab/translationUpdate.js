@@ -31,7 +31,13 @@ var fromLangCode = "en";
 // english
 var toFilename = "eng.txt" 
 var toLangCode = "en";
+try{
 translateUpdate(toFilename,toLangCode);
+}
+catch(e){
+console.log(toFilename+" problem");
+console.log(e);
+}
 
 
 var Eng = require("../locale/eng/eng");
@@ -40,6 +46,13 @@ var eng = new Eng(".");
 var toFilename = "spa.txt" 
 var toLangCode = "es";
 translateUpdate(toFilename,toLangCode);
+// portuguese 
+var fromFilename = "spa.txt" 
+var fromLangCode = "es"
+var toFilename = "por.txt"  
+var toLangCode = "pt";
+translateUpdate(toFilename,toLangCode,
+fromFilename,fromLangCode);
 // french
 var toFilename = "fra.txt"  
 var toLangCode = "fr";
@@ -56,13 +69,6 @@ translateUpdate(toFilename,toLangCode);
 var toFilename = "ara.txt"  
 var toLangCode = "ar";
 translateUpdate(toFilename,toLangCode);
-// portuguese 
-var fromFilename = "spa.txt" 
-var fromLangCode = "es"
-var toFilename = "por.txt"  
-var toLangCode = "pt";
-translateUpdate(toFilename,toLangCode,
-fromFilename,fromLangCode);
 // indonesian
 var toFilename = "ind.txt"  
 var toLangCode = "id";
@@ -81,9 +87,13 @@ fromFilename,fromLangCode);
 // korean
 //var fromFilename = "jpn.txt" 
 //var fromLangCode = "ja"
-var toFilename = "kor.txt"  
+var toFilename = "kor.txt"  ;
 var toLangCode = "ko";
 translateUpdate(toFilename,toLangCode);//,
+// farsi
+//var toFilename = "fas.txt"  ;
+//var toLangCode = "fa";
+//translateUpdate(toFilename,toLangCode);
 //fromFilename,fromLangCode);
 // hindi 
 var toFilename = "hin.txt"  
@@ -169,7 +179,7 @@ byService = "google";
 }
 var fileContents = io.fileRead(fromFilename);
 var fileText = new Text(mwak,fileContents);
-var definitions = fileText.select(mwak,".a");
+var definitions = fileText.select(mwak,"ha");
 var sentences = definitions.sentences;
 
 var toFileContents = io.fileRead(toFilename);
@@ -184,10 +194,14 @@ var i, translateFail;
 console.log("translating "+ toFilename );
 for (i=0;i<sentences.length;i++){
 var sentence = sentences[i];
-var subject = String( sentence.phraseGet(mwak,".u"));
+var subject = String( sentence.phraseGet(mwak,"hu"));
+try{
 var find = toFileText.indexOf(mwak,subject);
+}catch(e){
+throw new Error("error at "+sentence);
+}
 if (find === -1){
-var obPhraseBody = sentence.phraseGet(mwak,".a").body;
+var obPhraseBody = sentence.phraseGet(mwak,"ha").body;
 if (obPhraseBody.type && obPhraseBody.type === "lit")
 var obPhraseBody = obPhraseBody.body;
 var definition = String(obPhraseBody);
@@ -201,7 +215,9 @@ var command = "./gtranslate.sh "+byService+" "+fromLangCode+" "
 +toLangCode+" "+ definition;
 translation = execSync(command);
 }
-catch(e){console.log(e);
+catch(e){
+console.log("fail for "+command);
+console.log(e);
 translateFail = true;
 }
 if (translateFail === true){
@@ -218,7 +234,7 @@ var warning = ("Warning: "+translation
 warnings[warnings.length] = warning;
 }
 var newSentence = new Sentence(mwak,
-(subject +" "+ translation + " li .a ya"));
+(subject +" "+ translation + " li ha ya"));
 warnings[warnings.length] = (
 newSentence.toLocaleString(eng)
 + "\n"
@@ -228,9 +244,9 @@ newText.insert(mwak,i,newSentence);
 }
 }
 
-if (debug) console.log(String(newText));
+if (debug) console.log(newText.toLocaleString(mwak));
 else {
-io.fileWrite(toFilename,String(newText));
+io.fileWrite(toFilename,newText.toLocaleString(mwak));
 io.fileWrite(toFilename+".json",JSON.stringify(newText));}
 
 var uniqueWarnings = uniqueVerify(toFilename);
@@ -287,7 +303,7 @@ function uniqueVerify(filename){
 var filename = filename;//process.argv[2];
 var fileContents = io.fileRead(filename);
 var fileText = new Text(mwak,fileContents);
-var definitions = fileText.select(mwak,".a");
+var definitions = fileText.select(mwak,"ha");
 var sentences = definitions.sentences;
 var i;
 var output =  new String();
@@ -296,11 +312,11 @@ for (i=0;i<sentences.length;i++){
 sentences[i].phraseDelete(mwak,"kya");
 sentences[i].phraseDelete(mwak,"nya");
 sentences[i].phraseDelete(mwak,".i");
-//sentences[i].phraseDelete(mwak,".u");
+//sentences[i].phraseDelete(mwak,"hu");
 }
 // check if same definition is found twice
 for (i=0;i<sentences.length;i++){
-var phrase = sentences[1].phraseGet(mwak,".a");
+var phrase = sentences[1].phraseGet(mwak,"ha");
 var sentence = sentences[1].copy();
 sentences.splice(1,1);
 //console.log(phrase.toString());

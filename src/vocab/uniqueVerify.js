@@ -19,8 +19,8 @@ var mwak = new Language();
 var Eng = require("../locale/eng/eng");
 var eng = new Eng(".");
 
-uniqueVerify("cmn.txt");
 uniqueVerify("eng.txt");
+uniqueVerify("zho.txt");
 uniqueVerify("spa.txt");
 uniqueVerify("hin.txt");
 uniqueVerify("ara.txt");
@@ -32,8 +32,8 @@ uniqueVerify("deu.txt");
 uniqueVerify("ita.txt");
 uniqueVerify("kor.txt");
 uniqueVerify("fra.txt");
-uniqueVerify("swa.txt");
 uniqueVerify("tur.txt");
+uniqueVerify("swa.txt");
 uniqueVerify("tha.txt");
 uniqueVerify("ukr.txt");
 uniqueVerify("nld.txt");
@@ -49,7 +49,7 @@ console.log("****** "+ filename);
 var filename = filename;//process.argv[2];
 var fileContents = io.fileRead(filename);
 var fileText = new Text(mwak,fileContents);
-var definitions = fileText.select(mwak,".a");
+var definitions = fileText.select(mwak,"ha");
 var sentences = definitions.sentences;
 var i;
 // clean up text
@@ -57,11 +57,11 @@ for (i=0;i<sentences.length;i++){
 sentences[i].phraseDelete(mwak,"kya");
 sentences[i].phraseDelete(mwak,"nya");
 sentences[i].phraseDelete(mwak,".i");
-//sentences[i].phraseDelete(mwak,".u");
+//sentences[i].phraseDelete(mwak,"hu");
 }
 // check if same definition is found twice
 for (i=0;i<sentences.length;i++){
-var phrase = sentences[1].phraseGet(mwak,".a");
+var phrase = sentences[1].phraseGet(mwak,"ha");
 var sentence = sentences[1].copy();
 sentences.splice(1,1);
 //console.log(phrase.toString());
@@ -69,9 +69,9 @@ var matches = definitions.indexOf(mwak,phrase.toString());
 if (matches !== -1)
 console.log("duplicate error: \n "
 //+ sentence.toString() +"\n"
-+ sentence.toLocaleString(eng)+"\n"
++ sentence.toLocaleString(mwak)+"\n"
 //+ definitions.sentences[matches].toString() +"\n"
-+ definitions.sentences[matches].toLocaleString(eng));
++ definitions.sentences[matches].toLocaleString(mwak));
 //if (matches && matches.length > 0)
 //console.log("warning:" +matches.toString());
 }

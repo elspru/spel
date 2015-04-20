@@ -17,17 +17,21 @@ var Language = require('../lang/language');
 var mwak = new Language();
 
 // first argument is filename
-var filename = "mwak/vocab-mwak-X16glyph.txt";  //process.argv[2];
+var filename = "mwak/X24glyph.txt";  //process.argv[2];
+console.log("reading "+filename);
 var fileContents = io.fileRead(filename);
+console.log("creating text");
 var fileText = new Text(mwak,fileContents);
-var definitions = fileText.select(mwak,".a");
+console.log("selecting definitions");
+var definitions = fileText.select(mwak,"ha");
+console.log("filtering");
 var sentences = definitions.sentences;
 var i;
 for (i=0;i<sentences.length;i++){
 sentences[i].phraseDelete(mwak,"kya");
-sentences[i].phraseDelete(mwak,"nya");
+sentences[i].phraseDelete(mwak,"su");
 sentences[i].phraseDelete(mwak,"psu");
-sentences[i].phraseDelete(mwak,".i");
+sentences[i].phraseDelete(mwak,"hi");
 }
 console.log(definitions.toString());
 io.fileWrite("eng.txt",definitions.toString());

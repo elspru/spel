@@ -63,7 +63,7 @@ var otherTokens = new Array();
 var grammar = language.grammar;
 var wordOrder = grammar.wordOrder;
 // if type final then head word is last word
-if (wordOrder.typeFinal){
+if (wordOrder.typeFinal === true){
 var index = tokensLength-1;
 headWord = tokens[index];
 otherTokens = tokens.slice(0,index); 
@@ -73,16 +73,24 @@ juncTokens.splice(index-1,2); // remove used tokens
 else if (wordOrder.typeFinal === false) 
 {	headWord = tokens[0];
 otherTokens = tokens.slice(1); 
-juncTokens.splice(0,2); // remove used tokens
+juncTokens.splice(0,1); // remove used tokens
 }
 else throw Error(wordOrder+" typeFinal order not defined");
+
 // if contains junction word return Junction 
-if ( juncTokens && juncTokens.rfind(
-parse.wordMatch.curry(language.grammar.junctions))
-){
+if (! parse.wordMatch(grammar.quotes.multiWordHead, headWord)
+&& juncTokens.length >0 && (juncTokens.rfind(
+parse.wordMatch.curry(language.grammar.junctions))!==null
+)){
 var Junction = require("./junction");
 return new Junction(language,tokens, partOfSpeech);
 }
+var dict = language.dictionary.toMwak
+var translate = require("../compile/translate");
+var transTokens = translate.array(dict,tokens);
+var headI = parse.typeHeadIndex(grammar,transTokens);
+var bodyWords = transTokens.slice(headI[0],headI[1]);
+var headWords = transTokens.slice(headI[2],headI[3]);
 
 // if head word is typeword then set it
 var grammar = language.grammar;
@@ -90,19 +98,27 @@ if (language && parse.wordMatch(grammar.typeWords, headWord)){
 // set multi word quote
 if (parse.wordMatch(grammar.quotes.multiWordHead, headWord)){
 // head is first two words, tail is last two, body is rest
-var len = tokens.length;
+var quoteI = parse.lastMultiWordQuoteIndex(grammar,tokens);
+var prevT = tokens[quoteI[0]-1];
+if (juncTokens && 
+parse.wordMatch(language.grammar.junctions,prevT)) {
+var Junction = require("./junction");
+return new Junction(language,tokens, partOfSpeech);
+}
+var quoteT = tokens.slice(quoteI[0],quoteI[1]);
+var len = quoteT.length;
 this.type = "mwq"; // multi word quote type
 if (grammar.wordOrder.typeFinal){
-this.tail = new Word(language,tokens.slice(0,1));
-this.body = tokens.slice(2,len-2);
-this.name = new Word(language,tokens.slice(1,2));
-this.head = new Word(language,tokens.slice(len-1,len));
+this.tail = new Word(language,quoteT.slice(0,1));
+this.body = quoteT.slice(2,len-2);
+this.name = new Word(language,quoteT.slice(1,2));
+this.head = new Word(language,quoteT.slice(len-1,len));
 }
 else if (grammar.wordOrder.typeFinal === false){
-this.tail = new Word(language,tokens.slice(len-1,len));
-this.body = tokens.slice(2,len-2);
-this.name = new Word(language,tokens.slice(1,2));
-this.head = new Word(language,tokens.slice(0,1));
+this.tail = new Word(language,quoteT.slice(len-1,len));
+this.body = quoteT.slice(2,len-2);
+this.name = new Word(language,quoteT.slice(1,2));
+this.head = new Word(language,quoteT.slice(0,1));
 }
 }
 // set number literal
@@ -126,11 +142,34 @@ this.body = new Word(language, otherTokens, partOfSpeech);
 this.head = new Word(language, headWord); }
 // else return all tokens as word
 }
+else if ( headWords.length > 0){
+if (bodyWords.length >0){
+this.body = new Word(language,bodyWords);
+this.head = new Word(language,headWords);
+}else{
+this.head = new Word(language,headWords);
+}
+}
 else{ this.body = new Word(language, tokens, partOfSpeech);
 }
 return this;
 
+
 }// end of Type constructor
+
+//function limbIndexGet(language,tokens){
+//var translate = require("../compile/translate");
+//var dict = language.dictionary.fromMwak;
+//var mwakTokens = translate.array(dict,otherTokens);
+//var limbI = parse.limbIndex(grammar,mwakTokens);
+//return limbI;
+//}
+//if (limbI !== null){
+//var bodyTokens = mwakTokens.slice(limbI[0],limbI[1]);
+//var limbTokens = mwakTokens.slice(limbI[2],limbI[3]);
+//this.limb = new Word(language,limbTokens,partOfSpeech);
+//this.body = new Type(language,bodyTokens,partOfSpeech);
+//}
 
 function typeInputToMatch(language, input){
 	if (typeof input === "string"
@@ -168,6 +207,7 @@ Type.equals = function(language, input){
 Type.prototype.toString = function(){
 var result = new String();
 var joiner = " ";
+
 if (this.type === "mwq"){
 if (this.tail) result += this.tail.toString()+joiner;
 if (this.name) result += this.name.toString()+joiner;
@@ -183,16 +223,35 @@ if (this.head) result += this.head.toString();
 return result;
 }
 Type.prototype.valueGet = function(){
-	return this.body.toString();
+var result = new String();
+if (this.body) result += this.body.toString();
+//if (this.head && this.body) result += " ";
+else if (this.head) result += this.head.toString();
+return result;
 }
 Type.prototype.toLocaleString = 
-function(language, format, type, conjugationLevel){
+function(language, format, type, conjLevel){
 var result = new String();
 var joiner = new String();
 var conj = new Object();
-if (conjugationLevel >= 3) conj = language.grammar.conjugation;
+if (conjLevel >= 3){
+conj = language.grammar.conjugation;
+if (!this.type){
+if (conj.nounType && type === "n")
+return conj.nounType(language,this,format,conjLevel);
+else if (conj.verbType && type === "v")
+return conj.verbType(language,this,format,conjLevel);
+}
+}
+
+
 if (this.body) joiner = " "; 
 var wordOrder = language.grammar.wordOrder;
+
+if (format && format.joiner !== undefined) joiner = format.joiner;
+else if (conj && conj.format && conj.format.joiner !== undefined) 
+joiner = conj.format.joiner;
+
 if (this.type === "nam" ){
 if (wordOrder.littleEndian !== true)
 body = tokensAndGlyphsReverse(this.body).join(joiner);
@@ -201,13 +260,13 @@ result += body;
 }
 else if (this.body && this.type !== "mwq")
 result += this.body.toLocaleString(language, format, type,
-conjugationLevel);
+conjLevel);
 if (this.head === undefined) return result;
 // else check type order, append if true, prepend if
 // false.
 var typeTransl = 
 this.head.toLocaleString(language, format, "th",
-conjugationLevel);
+conjLevel);
 
 if (this.type === "mwq"){
 if (conj.foreignQuote) {
@@ -217,9 +276,9 @@ var tail = new String();
 var name = new String();
 var body = new String();
 if (this.tail) tail =
-this.tail.toLocaleString(language,format,"th", conjugationLevel);
+this.tail.toLocaleString(language,format,"th", conjLevel);
 if (this.name) name =
-this.name.toLocaleString(language,format,"th", conjugationLevel);
+this.name.toLocaleString(language,format,"th", conjLevel);
 if (this.body) body = this.body.join(joiner);
 
 if (language.grammar.wordOrder.typeFinal){

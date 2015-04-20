@@ -1,294 +1,533 @@
-.i li .u kuwa li .a ya
-.a li .u ob li .a ya
-.u li .u su li .a ya
-mi li .u mimi li .a ya
-ma li .u nini li .a ya
-ki li .u na li .a ya
-ka li .u ni li .a ya
-ku li .u kama li .a ya
-yi li .u hii li .a ya
-yu li .u wewe li .a ya
-ya li .u yo li .a ya
-pi li .u ya li .a ya
-pa li .u kwamba-jambo-la li .a ya
-pu li .u alifanya li .a ya
-wi li .u sisi li .a ya
-wa li .u au li .a ya
-ni li .u katika li .a ya
-na li .u numeral li .a ya
-si li .u wao li .a ya
-nu li .u sasa li .a ya
-ti li .u tha li .a ya
-ta li .u kwa li .a ya
-tu li .u nawe li .a ya
-li li .u halisi li .a ya
-fa li .u kuhusu li .a ya
-ci li .u eh? li .a ya
-fu li .u mapenzi li .a ya
-myi li .u kumbukumbu li .a ya
-mwa li .u pamoja-na li .a ya
-mya li .u labda li .a ya
-kyi li .u masharti li .a ya
-kya li .u kando li .a ya
-sa li .u akaonekana li .a ya
-kwa li .u kuwa-ambayo li .a ya
-ksa li .u unquote li .a ya
-kla li .u lakini li .a ya
-klu li .u kifungu-mkia li .a ya
-kca li .u ha li .a ya
-pya li .u karibu-na li .a ya
-pli li .u karibu li .a ya
-psu li .u kutoka-chanzo li .a ya
-pla li .u wingi li .a ya
-pwa li .u yaor li .a ya
-plu li .u kwa-faida li .a ya
-pca li .u jolly li .a ya
-nya li .u kutoka li .a ya
-swi li .u wakati li .a ya
-sli li .u kwa-mfano li .a ya
-slu li .u umoja li .a ya
-sla li .u hodi li .a ya
-twa li .u basi li .a ya
-tli li .u ord li .a ya
-mik .u kufanya li .a ya
-miy .u kusubiri li .a ya
-mip .u zamani li .a ya
-mit .u katikati li .a ya
-min .u chini li .a ya
-mak .u neno li .a ya
-mat .u mama li .a ya
-man .u kufikiri li .a ya
-mas .u habari li .a ya
-map .u ukubwa li .a ya
-mac .u mashine li .a ya
-mut .u kusaidia li .a ya
-kim .u kulinganisha li .a ya
-kiy .u kwenda li .a ya
-kip .u uwezo li .a ya
-kin .u kuu li .a ya
-kit .u mwisho li .a ya
-kay .u kushikilia li .a ya
-kap .u kichwa li .a ya
-kan .u kujua li .a ya
-kas .u sababu li .a ya
-kat .u kupata li .a ya
-kal .u kila li .a ya
-kum .u biashara li .a ya
-kup .u kununua li .a ya
-kun .u nyekundu li .a ya
-kut .u ndogo li .a ya
-yik .u yanatofautiana li .a ya
-yan .u -sema li .a ya
-yut .u Ondoa li .a ya
-pam .u nzuri li .a ya
-pak .u mwili li .a ya
-pay .u zaidi li .a ya
-paw .u mahali li .a ya
-pat .u baba li .a ya
-pal .u wengi li .a ya
-pan .u kukutana li .a ya
-pac .u furaha li .a ya
-puy .u mtoto li .a ya
-put .u kuuza li .a ya
-pul .u bluu li .a ya
-wit .u mwanga li .a ya
-fut .u baadaye li .a ya
-wan .u upendo li .a ya
-wap .u mkia li .a ya
-wat .u kusema li .a ya
-nim .u jina li .a ya
-nit .u wavu li .a ya
-nic .u nishati li .a ya
-wul .u kubwa li .a ya
-nam .u simu li .a ya
-nul .u null li .a ya
-sam .u sawa li .a ya
-san .u binafsi li .a ya
-sat .u sauti li .a ya
-sup .u kulipa li .a ya
-naw .u sasa-wakati li .a ya
-tip .u kuanza li .a ya
-tin .u kuona li .a ya
-tam .u mada li .a ya
-tak .u kuongeza li .a ya
-sun .u moja li .a ya
-tay .u kuweka li .a ya
-tan .u kutoa li .a ya
-tas .u kuchagua li .a ya
-tum .u joto li .a ya
-tap .u kugusa li .a ya
-tun .u urefu li .a ya
-tul .u chombo li .a ya
-lik .u umeme-malipo li .a ya
-liy .u nne li .a ya
-lin .u kijani li .a ya
-lis .u kuishi li .a ya
-tuw .u mbili li .a ya
-lit .u glyph li .a ya
-cim .u kusikia li .a ya
-cik .u chache li .a ya
-cak .u jambo li .a ya
-caw .u kelele li .a ya
-can .u nafasi li .a ya
-cal .u hoja li .a ya
-myan .u laini li .a ya
-myul .u maadili li .a ya
-myin .u ndoto li .a ya
-kyit .u mvuto li .a ya
-kyil .u mzunguko li .a ya
-kyin .u ujumla li .a ya
-kyap .u nakala li .a ya
-kyup .u kundi li .a ya
-kyat .u ngumu li .a ya
-kwat .u quantum li .a ya
-kyul .u utawala li .a ya
-kwal .u Lugha li .a ya
-kyis .u kuandika li .a ya
-ksip .u upatikanaji li .a ya
-ksin .u mazingira li .a ya
-ksat .u ghafla li .a ya
-ksal .u galaxy li .a ya
-ksap .u kueleza li .a ya
-ksan .u kuandaa li .a ya
-klin .u elektroni li .a ya
-ksut .u kukusanya li .a ya
-ksul .u shule li .a ya
-klaw .u laugh li .a ya
-klas .u darasa li .a ya
-klat .u kifungu li .a ya
-kcim .u kemikali li .a ya
-klat .a ya
-kfin .u config li .a ya
-pyin .u uzoefu li .a ya
-klac .u ila li .a ya
-pyam .u mpango li .a ya
-pyut .u proton li .a ya
-pyul .u jipu li .a ya
-pyan .u pronoun li .a ya
-pyas .u maneno li .a ya
-pwil .u variable li .a ya
-pwut .u kupitisha li .a ya
-psiy .u shinikizo li .a ya
-pyat .u grammatical-object li .a ya
-pyuf .u ushahidi li .a ya
-psit .u uso li .a ya
-pyuc .u mradi li .a ya
-psan .u nafasi li .a ya
-plam .u plasma li .a ya
-plin .u ndege li .a ya
-plis .u jirani li .a ya
-play .u kucheza li .a ya
-nyit .u kitengo li .a ya
-nyus .u ionize li .a ya
-nyut .u neutron li .a ya
-plan .u sayari li .a ya
-nyis .u dondoo li .a ya
-syat .u imara li .a ya
-syun .u ulimwengu li .a ya
-swil .u nafsi li .a ya
-syit .u kutuma li .a ya
-psun .u chanzo li .a ya
-slam .u sublimate li .a ya
-syak .u ari li .a ya
-swat .u swali li .a ya
-slim .u mfano li .a ya
-tyis .u mpito li .a ya
-tyil .u baridi li .a ya
-tyam .u chembe li .a ya
-tkic .u tafsiri-dictionary li .a ya
-tyim .u kutetemeka li .a ya
-tyan .u kamba li .a ya
-tyas .u wazo li .a ya
-tyup .u robot li .a ya
-tsiw .u satellite li .a ya
-tyin .u tatu li .a ya
-tsim .u pamoja li .a ya
-tsin .u maelekezo li .a ya
-twis .u kweli li .a ya
-tsay .u nyota li .a ya
-tsil .u wanastahili li .a ya
-tsak .u kukaa li .a ya
-tsam .u kusudi li .a ya
-tsap .u mali li .a ya
-tsan .u tena li .a ya
-tsal .u hali li .a ya
-tsaf .u ladha li .a ya
-tlik .u umeme li .a ya
-tsuk .u duka li .a ya
-tlun .u tatu-kumweka li .a ya
-tlam .u kutafsiri li .a ya
-tcin .u mlolongo li .a ya
-tlin .u ordinal li .a ya
-tlan .u utamaduni li .a ya
-tfal .u faili li .a ya
-fwas .u awamu li .a ya
-fyas .u maneno li .a ya
-tcan .u mti li .a ya
-flit .u filimbi li .a ya
-fwil .u nguvu li .a ya
-flut .u ua li .a ya
-clut .u supercritical-maji li .a ya
-fluc .u kati-yake li .a ya
-miyk .u kutuma li .a ya
-mist .u kupima li .a ya
-milt .u melt li .a ya
-mayt .u imaginary-kitengo li .a ya
-mast .u jambo li .a ya
-clum .u hukumu li .a ya
-miwk .u mtu li .a ya
-muyt .u mshirika li .a ya
-mint .u njia li .a ya
-malt .u vifaa li .a ya
-mack .u kufikiria li .a ya
-kisp .u exponent li .a ya
-muys .u hisia li .a ya
-kays .u grammatical-kesi li .a ya
-kayt .u moto li .a ya
-kaws .u gesi li .a ya
-kant .u kubadilisha li .a ya
-kast .u mara-kwa-mara li .a ya
-munt .u dunia li .a ya
-kimt .u hutegemea li .a ya
-kamt .u sarufi li .a ya
-kusp .u kuanguka li .a ya
-kust .u mara-kwa-mara li .a ya
-kump .u mood li .a ya
-kuft .u mgawanyiko li .a ya
-kuwt .u code li .a ya
-yink .u pete li .a ya
-kumt .u kuwasiliana li .a ya
-kult .u utamaduni li .a ya
-kunt .u kudhibiti li .a ya
-yalk .u gari li .a ya
-yulp .u jukumu li .a ya
-yimk .u kuuliza li .a ya
-yult .u shirika li .a ya
-pant .u kukopa li .a ya
-panp .u mkate li .a ya
-pack .u kufurahia li .a ya
-pult .u umri li .a ya
-wins .u Venus li .a ya
-wint .u upepo li .a ya
-wiyp .u verb li .a ya
-nalt .u asili li .a ya
-niym .u noun li .a ya
-sant .u sanaa li .a ya
-sint .u kujisikia li .a ya
-suyt .u grammatical-subject li .a ya
-timp .u grammatical-uliopo li .a ya
-tink .u Nakala li .a ya
-tisk .u maendeleo li .a ya
-tiwk .u shughuli li .a ya
-tuym .u dunia li .a ya
-tanp .u itaonekana li .a ya
-tamk .u kuangalia li .a ya
-tack .u kuwashukuru li .a ya
-tuwm .u muda li .a ya
-liyn .u line li .a ya
-liyt .u maandiko li .a ya
-lint .u ndani-ya li .a ya
-lank .u rangi li .a ya
-luwt .u kinanda li .a ya
-lunt .u watu li .a ya
-tick .u kamusi li .a ya
-cinp .u habari li .a ya
+hi li hu kuwa li ha ya
+ha li hu ob li ha ya
+hu li hu su li ha ya
+mi li hu mimi li ha ya
+ma li hu nini li ha ya
+mu li hu masculine li ha ya
+ki li hu na li ha ya
+ka li hu kama li ha ya
+ku li hu kama li ha ya
+yi li hu hii li ha ya
+yu li hu wewe li ha ya
+ya li hu yo li ha ya
+pi li hu ya li ha ya
+pa li hu kwamba-jambo-la li ha ya
+pu li hu alifanya li ha ya
+wi li hu sisi li ha ya
+wa li hu au li ha ya
+wu li hu na li ha ya
+ni li hu katika li ha ya
+na li hu numeral li ha ya
+si li hu wao li ha ya
+nu li hu sasa li ha ya
+ti li hu tha li ha ya
+su li hu kutoka li ha ya
+ta li hu kwa li ha ya
+tu li hu nawe li ha ya
+li li hu halisi li ha ya
+fa li hu kuhusu li ha ya
+la li hu hey li ha ya
+lu li hu wingi li ha ya
+fi li hu kike li ha ya
+ci li hu eh? li ha ya
+fu li hu mapenzi li ha ya
+mya li hu labda li ha ya
+ca li hu neuter li ha ya
+kyi li hu masharti li ha ya
+mwa li hu na li ha ya
+kya li hu kando li ha ya
+sa li hu akaonekana li ha ya
+kyu li hu kwa-sababu li ha ya
+kwa li hu kuwa-ambayo li ha ya
+ksa li hu unquote li ha ya
+kli li hu yake li ha ya
+kla li hu lakini li ha ya
+klu li hu kifungu-mkia li ha ya
+kca li hu ha li ha ya
+pya li hu juu-ya li ha ya
+psu li hu kutoka-chanzo li ha ya
+pwa li hu yaor li ha ya
+pli li hu kwa-mfano li ha ya
+pca li hu jolly li ha ya
+nyi li hu si li ha ya
+nya li hu yaani li ha ya
+sya li hu umoja li ha ya
+syi li hu sana li ha ya
+syu li hu hivyo li ha ya
+swi li hu wakati li ha ya
+sla li hu hodi li ha ya
+tyi li hu quote li ha ya
+twu li hu dual li ha ya
+tsa li hu untill li ha ya
+tsi li hu ndiyo li ha ya
+tsu li hu nje li ha ya
+tla li hu kwa li ha ya
+fyi li hu yake li ha ya
+twa li hu basi li ha ya
+tli li hu ord li ha ya
+min hu chini li ha ya
+mik hu kufanya li ha ya
+miy hu kusubiri li ha ya
+mip hu zamani li ha ya
+mit hu katikati li ha ya
+mak hu neno li ha ya
+man hu kufikiri li ha ya
+mat hu mama li ha ya
+mun hu kiume li ha ya
+mas hu habari li ha ya
+mac hu mashine li ha ya
+mut hu kusaidia li ha ya
+mul hu full li ha ya
+kim hu kulinganisha li ha ya
+kiy hu kwenda li ha ya
+kip hu uwezo li ha ya
+kin hu kuu li ha ya
+kam hu kuja li ha ya
+kis hu high li ha ya
+kit hu mwisho li ha ya
+kap hu kichwa li ha ya
+kan hu kujua li ha ya
+kas hu sababu li ha ya
+kaf hu cathode li ha ya
+kuy hu kukua li ha ya
+kat hu kupata li ha ya
+kal hu kila li ha ya
+kum hu biashara li ha ya
+kus hu chakula li ha ya
+kuc hu ndogo li ha ya
+yis hu kuandika li ha ya
+kup hu kununua li ha ya
+kun hu nyekundu li ha ya
+yik hu yanatofautiana li ha ya
+yum hu limb li ha ya
+yat hu kusoma li ha ya
+yun hu Ondoa li ha ya
+yak hu baadhi li ha ya
+yac hu upana li ha ya
+pis hu kuzidisha li ha ya
+pit hu nyeupe li ha ya
+pic hu piss li ha ya
+yus hu matumizi li ha ya
+pay hu zaidi li ha ya
+yul hu nzima li ha ya
+pam hu nzuri li ha ya
+pas hu kupita li ha ya
+pak hu mwili li ha ya
+paw hu mahali li ha ya
+pat hu baba li ha ya
+pus hu poo li ha ya
+pal hu wengi li ha ya
+pan hu kukutana li ha ya
+puk hu mbaya li ha ya
+win hu kushinda li ha ya
+pac hu furaha li ha ya
+puy hu mtoto li ha ya
+put hu kuuza li ha ya
+pul hu bluu li ha ya
+fut hu baadaye li ha ya
+wan hu upendo li ha ya
+wut hu mwanga li ha ya
+niy hu haja li ha ya
+wap hu mkia li ha ya
+wat hu kusema li ha ya
+nay hu exhale li ha ya
+nim hu jina li ha ya
+nat hu usiku li ha ya
+nut hu anode li ha ya
+nit hu wavu li ha ya
+nic hu nishati li ha ya
+sip hu sip li ha ya
+nuy hu mpya li ha ya
+sit hu kuweka li ha ya
+wul hu kubwa li ha ya
+sim hu sawa li ha ya
+nam hu simu li ha ya
+saw hu nyeusi li ha ya
+sik hu urefu li ha ya
+sil hu rahisi li ha ya
+nul hu null li ha ya
+suy hu kupoteza li ha ya
+sap hu rahisi li ha ya
+say hu kusema li ha ya
+sam hu sawa li ha ya
+tim hu timu li ha ya
+tik hu kushikilia li ha ya
+san hu binafsi li ha ya
+sat hu sauti li ha ya
+sup hu kulipa li ha ya
+tis hu Vuta li ha ya
+sut hu ukubwa li ha ya
+tiy hu siku li ha ya
+naw hu sasa-wakati li ha ya
+tip hu kuanza li ha ya
+til hu chini li ha ya
+tin hu kuona li ha ya
+tam hu mada li ha ya
+tak hu kuongeza li ha ya
+tuk hu kunywa li ha ya
+tay hu kuweka li ha ya
+tan hu kutoa li ha ya
+tas hu kuchagua li ha ya
+tup hu kina li ha ya
+tum hu joto li ha ya
+tap hu kugusa li ha ya
+tuf hu vigumu li ha ya
+fin hu kike li ha ya
+fit hu fit li ha ya
+tul hu chombo li ha ya
+lik hu umeme-malipo li ha ya
+lin hu urefu li ha ya
+ciy hu kijani li ha ya
+cif hu mgawanyiko li ha ya
+lis hu kuishi li ha ya
+lit hu glyph li ha ya
+myut hu kuagiza li ha ya
+cim hu kusikia li ha ya
+cik hu chache li ha ya
+myit hu kumbuka li ha ya
+cak hu jambo li ha ya
+can hu nafasi li ha ya
+myun hu kuajiri li ha ya
+cal hu hoja li ha ya
+myan hu laini li ha ya
+kyim hu mchezo li ha ya
+myat hu math li ha ya
+kyip hu nguo li ha ya
+myul hu maadili li ha ya
+kwit hu mvuto li ha ya
+kwat hu huduma li ha ya
+myin hu ndoto li ha ya
+kyus hu furaha li ha ya
+kyil hu mzunguko li ha ya
+kyin hu ujumla li ha ya
+kyap hu nakala li ha ya
+kyup hu kundi li ha ya
+ksat hu halisi li ha ya
+kyat hu ngumu li ha ya
+ksil hu kioo li ha ya
+kyul hu utawala li ha ya
+kwal hu Lugha li ha ya
+ksip hu upatikanaji li ha ya
+ksam hu giza li ha ya
+ksin hu mazingira li ha ya
+ksal hu galaxy li ha ya
+ksap hu kueleza li ha ya
+ksan hu kuandaa li ha ya
+ksum hu kuwasiliana li ha ya
+kliy hu wazi li ha ya
+klin hu elektroni li ha ya
+ktin hu dini li ha ya
+kcat hu nane li ha ya
+pyik hu mapumziko li ha ya
+ksut hu kukusanya li ha ya
+pyit hu nne li ha ya
+ksul hu shule li ha ya
+klaw hu laugh li ha ya
+pyaw hu wanandoa li ha ya
+klas hu darasa li ha ya
+klat hu kifungu li ha ya
+kcim hu kemikali li ha ya
+klat ha ya
+pyil hu rufaa li ha ya
+kfin hu config li ha ya
+pyas hu haraka li ha ya
+pyin hu uzoefu li ha ya
+klac hu ila li ha ya
+pyat hu haraka li ha ya
+pyam hu mpango li ha ya
+pyut hu proton li ha ya
+psil hu Spell li ha ya
+pyul hu jipu li ha ya
+pwas hu jibu li ha ya
+pyan hu pronoun li ha ya
+pwil hu variable li ha ya
+pwut hu kupitisha li ha ya
+psiy hu shinikizo li ha ya
+psit hu kasi li ha ya
+pyuf hu ushahidi li ha ya
+pyuc hu mradi li ha ya
+psat hu uso li ha ya
+pfis hu upendeleo li ha ya
+psal hu meli li ha ya
+nyip hu kioo li ha ya
+psan hu nafasi li ha ya
+psut hu ahadi li ha ya
+nyat hu kuingia li ha ya
+plum hu tatizo li ha ya
+plam hu plasma li ha ya
+plin hu ndege li ha ya
+nyul hu roll li ha ya
+syim hu saba li ha ya
+pfal hu kushindwa li ha ya
+syip hu safi li ha ya
+pcit hu kufahamu li ha ya
+pcil hu maalum li ha ya
+plan hu mpango li ha ya
+plat hu sayari li ha ya
+syan hu cyan li ha ya
+pfus hu bus li ha ya
+plis hu jirani li ha ya
+swit hu kubadili li ha ya
+play hu kucheza li ha ya
+nlic hu Kiingereza li ha ya
+syic hu utafiti li ha ya
+syam hu kukaa li ha ya
+nyit hu kitengo li ha ya
+nyus hu ionize li ha ya
+slin hu single li ha ya
+nyut hu neutron li ha ya
+nyis hu dondoo li ha ya
+syat hu imara li ha ya
+tyik hu kuoza li ha ya
+syut hu msaada li ha ya
+syun hu ulimwengu li ha ya
+swil hu nafsi li ha ya
+swat hu maji li ha ya
+swuy hu swali li ha ya
+swun hu usingizi li ha ya
+syit hu kutuma li ha ya
+tyif hu thamani li ha ya
+psun hu chanzo li ha ya
+slof hu msamiati li ha ya
+slam hu sublimate li ha ya
+tkun hu Kichina li ha ya
+tyip hu tena li ha ya
+tyap hu kujaribu li ha ya
+tyaw hu wazo li ha ya
+syak hu ari li ha ya
+tyas hu kutupa li ha ya
+tyic hu mwelekeo li ha ya
+tyus hu kesi li ha ya
+slim hu mfano li ha ya
+twif hu kivumishi li ha ya
+tyis hu mpito li ha ya
+tsik hu sita li ha ya
+tsiy hu hadithi li ha ya
+tsip hu hatua li ha ya
+tyuc hu kufundisha li ha ya
+tyil hu baridi li ha ya
+tyam hu chembe li ha ya
+tyak hu kelele li ha ya
+tkic hu tafsiri-dictionary li ha ya
+tyim hu kutetemeka li ha ya
+tyan hu kamba li ha ya
+tyup hu robot li ha ya
+tsiw hu satellite li ha ya
+tyin hu tatu li ha ya
+tsim hu pamoja li ha ya
+tsin hu maelekezo li ha ya
+tsuy hu kukaa li ha ya
+tsak hu mashambulizi li ha ya
+tsan hu mwanafunzi li ha ya
+twis hu kweli li ha ya
+tsay hu nyota li ha ya
+tsil hu wanastahili li ha ya
+tsum hu utafiti li ha ya
+tlas hu sahani li ha ya
+tsam hu kusudi li ha ya
+tsap hu mali li ha ya
+tsal hu hali li ha ya
+tsul hu watu-wazima li ha ya
+tful hu mbili li ha ya
+tsaf hu ladha li ha ya
+tlis hu hamu li ha ya
+tcap hu uwazi li ha ya
+tlik hu umeme li ha ya
+tsuk hu duka li ha ya
+tlun hu tatu-kumweka li ha ya
+tfim hu muda li ha ya
+tfin hu mtu-binafsi li ha ya
+fwap hu tano li ha ya
+tfak hu uchafu li ha ya
+tlam hu kutafsiri li ha ya
+flan hu mafuriko li ha ya
+flat hu gorofa li ha ya
+tcil hu jela li ha ya
+tfus hu uharibifu li ha ya
+tcin hu mlolongo li ha ya
+tcun hu nguvu li ha ya
+tlin hu ordinal li ha ya
+tlan hu utamaduni li ha ya
+flay hu kuruka li ha ya
+tfal hu faili li ha ya
+fwas hu awamu li ha ya
+mink hu akili li ha ya
+fyas hu maneno li ha ya
+cyin hu kujifunza li ha ya
+tcan hu mti li ha ya
+flit hu filimbi li ha ya
+clin hu uhusiano li ha ya
+mayn hu maelewano li ha ya
+fwil hu nguvu li ha ya
+mant hu magenta li ha ya
+miyt hu kufahamu li ha ya
+flut hu ua li ha ya
+clut hu supercritical-maji li ha ya
+fluc hu kati-yake li ha ya
+miyk hu kutuma li ha ya
+mist hu kupima li ha ya
+milt hu melt li ha ya
+musk hu muziki li ha ya
+mayp hu ramani li ha ya
+mans hu binadamu li ha ya
+mayt hu imaginary-kitengo li ha ya
+mast hu jambo li ha ya
+kiyn hu moja li ha ya
+kint hu kubadilisha li ha ya
+clum hu hukumu li ha ya
+must hu zaidi li ha ya
+munk hu inawezekana li ha ya
+munt hu mood li ha ya
+miwk hu mtu li ha ya
+muyt hu mshirika li ha ya
+mint hu njia li ha ya
+malt hu vifaa li ha ya
+mack hu kufikiria li ha ya
+kiyp hu karatasi li ha ya
+kant hu mara-kwa-mara li ha ya
+kasp hu catch li ha ya
+kast hu kujenga li ha ya
+mult hu modulo li ha ya
+kift hu kusamehe li ha ya
+kisp hu exponent li ha ya
+muys hu hisia li ha ya
+kays hu grammatical-kesi li ha ya
+kayn hu mtiririko-sasa li ha ya
+kayt hu moto li ha ya
+kaws hu gesi li ha ya
+kaft hu kuthibitisha li ha ya
+kump hu tata li ha ya
+kumt hu amri li ha ya
+kimt hu hutegemea li ha ya
+yinp hu kurudi li ha ya
+kuym hu kawaida li ha ya
+kuyn hu mnyambuliko li ha ya
+yilk hu njano li ha ya
+kamt hu sarufi li ha ya
+yawt hu madhara li ha ya
+kuls hu kikatili li ha ya
+kuyt hu muhimu-kumweka li ha ya
+kusp hu kuanguka li ha ya
+kust hu mara-kwa-mara li ha ya
+yist hu nje li ha ya
+yimt hu rhythm li ha ya
+kuwt hu code li ha ya
+piyn hu maoni li ha ya
+yink hu pete li ha ya
+yamt hu admire li ha ya
+yasp hu kazi li ha ya
+kult hu utamaduni li ha ya
+yalt hu mapema li ha ya
+yilt hu Eulers-idadi li ha ya
+yusk hu mashariki li ha ya
+yask hu majibu li ha ya
+yuyp hu Ulaya li ha ya
+yunt hu chombo li ha ya
+yast hu bure li ha ya
+kunt hu kudhibiti li ha ya
+pist hu kibali li ha ya
+yalk hu gari li ha ya
+yulp hu jukumu li ha ya
+piys hu pi li ha ya
+pamt hu kudumu li ha ya
+pays hu msingi li ha ya
+yimk hu kuuliza li ha ya
+puyk hu grammatical-object li ha ya
+yult hu shirika li ha ya
+nist hu tisa li ha ya
+past hu kuzalisha li ha ya
+pant hu kukopa li ha ya
+nuys hu kelele li ha ya
+punt hu hatua li ha ya
+nuls hu zero li ha ya
+pust hu vumbi li ha ya
+panp hu mkate li ha ya
+siyt hu kupendekeza li ha ya
+nims hu animism li ha ya
+pack hu kufurahia li ha ya
+sift hu kuhama li ha ya
+sayk hu busara li ha ya
+nilt hu akili li ha ya
+nast hu maslahi li ha ya
+nuyt hu kaskazini li ha ya
+nusp hu kusahau li ha ya
+pult hu umri li ha ya
+sanp hu kupanua li ha ya
+wins hu Venus li ha ya
+wuym hu kiasi li ha ya
+wint hu upepo li ha ya
+tiyk hu kumi li ha ya
+tiyn hu kuendelea li ha ya
+siyn hu kuonekana li ha ya
+niyt hu nth-mizizi li ha ya
+wiyp hu verb li ha ya
+tiws hu ukumbi-wa-michezo li ha ya
+nuks hu Unix li ha ya
+nust hu ilani li ha ya
+sunt hu kusini li ha ya
+sulc hu ufumbuzi li ha ya
+sark hu kejeli li ha ya
+nuft hu maadui li ha ya
+tiym hu marehemu li ha ya
+simt hu kikomo li ha ya
+nalt hu asili li ha ya
+sayt hu kasi-ya-mwanga li ha ya
+tiyf hu gari li ha ya
+niym hu noun li ha ya
+sant hu sanaa li ha ya
+sint hu kujisikia li ha ya
+tawk hu mamlaka li ha ya
+tiys hu umbali li ha ya
+tink hu Nakala li ha ya
+suyt hu grammatical-subject li ha ya
+tisk hu Nakala li ha ya
+timp hu grammatical-uliopo li ha ya
+tinp hu dhahabu-uwiano li ha ya
+tisp hu kuwakilisha li ha ya
+tayk hu ambatisha li ha ya
+tiwk hu shughuli li ha ya
+liys hu uhuru li ha ya
+task hu Kazi li ha ya
+tank hu ghafla li ha ya
+taym hu wakati li ha ya
+talp hu meza li ha ya
+tuys hu mwizi li ha ya
+lisk hu likizo li ha ya
+tukc hu Kituruki li ha ya
+tayn hu eneo li ha ya
+layt hu kumi-na-moja li ha ya
+lank hu ndani li ha ya
+tunk hu ubongo li ha ya
+tusk hu maendeleo li ha ya
+tuym hu dunia li ha ya
+liwk hu kisheria li ha ya
+tanp hu itaonekana li ha ya
+tamk hu kuangalia li ha ya
+tack hu kuwashukuru li ha ya
+fayt hu ukweli li ha ya
+list hu angalau li ha ya
+fals hu uongo li ha ya
+falt hu default li ha ya
+funk hu kazi li ha ya
+lant hu polepole li ha ya
+fult hu hoteli li ha ya
+liyk hu kioevu li ha ya
+liwt hu zawadi li ha ya
+tuwm hu muda li ha ya
+fint hu kupata li ha ya
+liyn hu line li ha ya
+layk hu ziwa li ha ya
+link hu kiungo li ha ya
+faym hu shamba li ha ya
+liyt hu maandiko li ha ya
+fans hu Kifaransa li ha ya
+lint hu ndani-ya li ha ya
+lumk hu logi li ha ya
+fuym hu aina li ha ya
+funm hu phoneme li ha ya
+lunp hu kitanzi li ha ya
+luwt hu kinanda li ha ya
+lunt hu watu li ha ya
+budz hu Buddhism li ha ya
+tick hu kamusi li ha ya
+cinp hu habari li ha ya

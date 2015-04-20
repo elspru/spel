@@ -6,7 +6,7 @@ var Type = require("./type");
 var Word = require("./word");
 var Clause = require("./clause");
 module.exports = Phrase;
-function Phrase(language, input, conjugationLevel){
+function Phrase(language, input, conjLevel){
 this.be = "Phrase";
 var tokens;
 if (typeof input === "string"){
@@ -14,7 +14,7 @@ tokens = tokenize.stringToWords(input);}
 else if (typeof input === "object" && input.be === "Phrase"){
 if (input.subPhrase)
 this.subPhrase = new
-Phrase(language,input.subPhrase,undefined,conjugationLevel);
+Phrase(language,input.subPhrase,undefined,conjLevel);
 if (input.clause)
 this.clause = new Clause(language,input.clause);
 if (typeof input.body === "object"){
@@ -52,6 +52,7 @@ tokens = parse.quotesExtract(language,tokens);
 // if genitive final then get first sub phrase word ya
 // be get ob adjacent clause do
 // set output do
+// body and limb from other tokens
 
 var grammar = language.grammar;
 var wordOrder = grammar.wordOrder;
@@ -155,10 +156,10 @@ var cTokens = otherTokens.slice(clauseI[0],clauseI[1]);
 return  new Clause(language, cTokens );
 }}
 function
-genitiveSet(language,genitiveI,otherTokens,conjugationLevel){
+genitiveSet(language,genitiveI,otherTokens,conjLevel){
 if (genitiveI){
 var gTokens = otherTokens.slice(genitiveI[0],genitiveI[1]);
-return new Phrase(language, gTokens,conjugationLevel);
+return new Phrase(language, gTokens,conjLevel);
 }}
 
 // if genitiveInitial and clauseInitial then set the greater ya
@@ -170,7 +171,7 @@ this.clause = clauseSet();
 otherTokens=clauseOtherTokens;}
 else {
 this.subPhrase =
-genitiveSet(language,genitiveI,otherTokens,conjugationLevel);
+genitiveSet(language,genitiveI,otherTokens,conjLevel);
 otherTokens=genitiveOtherTokens;}
 }
 // else if genitiveFinal and clauseFinal then set the lesser ya
@@ -180,7 +181,7 @@ this.clause = clauseSet();
 otherTokens=clauseOtherTokens;}
 else {
 this.subPhrase =
-genitiveSet(language,otherTokens,genitiveI,conjugationLevel);
+genitiveSet(language,otherTokens,genitiveI,conjLevel);
 otherTokens=genitiveOtherTokens;}
 }
 }
@@ -191,7 +192,7 @@ this.clause = clauseSet(clauseI,otherTokens);
 otherTokens = clauseOtherTokens;}
 if (genitiveI){
 this.subPhrase =
-genitiveSet(language,genitiveI,otherTokens,conjugationLevel); 
+genitiveSet(language,genitiveI,otherTokens,conjLevel); 
 otherTokens = genitiveOtherTokens;
 }}
 
@@ -201,24 +202,25 @@ otherTokens = genitiveOtherTokens;
 var caseWord = new Word(language,
 tokens.slice(caseWordI,caseWordI+caseWordsN), "adposition");
 var partOfSpeech;
-//if (caseWord.head !== undefined) 
-//console.log("cw " +caseWord.head);
-if (caseWord.head === ".i" 
-|| caseWord.head.body && caseWord.head.body[0] === ".i")
+if (caseWord.head === "hi" 
+|| caseWord.head.body && caseWord.head.body[0] === "hi")
 partOfSpeech = "verb";
 else partOfSpeech = "noun";
 //if (partOfSpeech === "noun")
 
-if (otherTokens && otherTokens.length >0)
+// body and limb from other tokens
+if (otherTokens && otherTokens.length >0){
 this.body = new Type(language,otherTokens,partOfSpeech);
+}
 this.head = caseWord;
+
 return this;
 }
 
-function phraseInputToMatch(language,input,conjugationLevel){
+function phraseInputToMatch(language,input,conjLevel){
 	if (typeof input === "string"
 		|| Array.isArray(input))
-	return new Phrase(language, input, conjugationLevel);
+	return new Phrase(language, input, conjLevel);
 	else if (typeof input === "object"
 		&& input.be === "Phrase")
 		return input;
@@ -268,10 +270,9 @@ Phrase.prototype.isLike= function(language,input){
 		return true;
 	return false;
 };
-Phrase.prototype.copy = function(language,conjugationLevel){
- 	return new 
-Phrase(language,
-JSON.parse(JSON.stringify(this)),conjugationLevel);
+Phrase.prototype.copy = function(language,conjLevel){
+return new Phrase(language,
+JSON.parse(JSON.stringify(this)),conjLevel);
 }
 Phrase.prototype.valueGet = function(){
 	// returns content
@@ -296,9 +297,39 @@ if (this.head) result += this.head.toString() +joiner;
 return result;
 };
 Phrase.prototype.toLocaleString = 
-function(language, format,type,conjugationLevel){
+function(language, format,type,conjLevel){
 // algorithm
-var joiner = ' ';
+
+
+var conj = new Object();
+if (conjLevel >= 3){
+ conj = language.grammar.conjugation;
+
+if( conj.verbPhrase && this.head.head === "hi"){
+return conj.verbPhrase(language,this,format,conjLevel);
+}
+else if( conj.subjectPhrase && this.head.head === "hu"){
+return conj.subjectPhrase(language,this,format,conjLevel);
+}
+else if( conj.objectPhrase && this.head.head === "ha"){
+return conj.objectPhrase(language,this,format,conjLevel);
+}
+else if( conj.dativePhrase && this.head.head === "ta"){
+return conj.dativePhrase(language,this,format,conjLevel);
+}
+else if( conj.instrumentalPhrase && this.head.head === "wu"){
+return conj.instrumentalPhrase(language,this,format,conjLevel);
+}
+else if(conj.phrase)
+return conj.phrase(language,this,format,type,conjLevel);
+}
+
+var joiner = " ";
+if (format && format.joiner !== undefined) joiner = format.joiner;
+if (conj && conj.format && conj.format.joiner !== undefined) {
+var joiner = conj.format.joiner;}
+var phraseJoiner = " ";
+var clauseJoiner = " ";
 var content;
 var syntaxType = 'ch';
 if (type) syntaxType=type;
@@ -307,27 +338,30 @@ var clause = new String();
 var subPhrase = new String();
 if (this.clause)
 clause = this.clause.toLocaleString(language, format, undefined,
-conjugationLevel);
+conjLevel);
 if (this.subPhrase)
 subPhrase =
-this.subPhrase.toLocaleString(language,format,'gh',toLocaleString);
+this.subPhrase.toLocaleString(language,format,'gh',conjLevel);
 if (typeof this.body === "object" ){
+
 if (this.head && 
-(this.head.head === ".i" 
-|| this.head.body && this.head.body[0] === ".i"))
+(this.head.head === "hi" 
+|| this.head.body && this.head.body[0] === "hi"))
 content =
-this.body.toLocaleString(language,format,"v",conjugationLevel);
+this.body.toLocaleString(language,format,"v",conjLevel);
 else content = this.body.toLocaleString(language,format,"n",
-conjugationLevel);
+conjLevel);
 }
 else if (this.body) content = this.body;
 else content = '';
 if (content) content += joiner;
-if (this.head.head === ".i")
-var caseWord = this.head.toLocaleString( language,format,"vh",
-conjugationLevel);
-else var caseWord = this.head.toLocaleString( language,format
-,syntaxType, conjugationLevel);
+var caseWord = new String();
+if (this.head && this.head.head === "hi")
+caseWord = this.head.toLocaleString( language,format,"vh",
+conjLevel);
+else if (this.head ) 
+caseWord = this.head.toLocaleString( language,format
+,"ch", conjLevel);
 var positionPhrase = content;
 var wordOrder = language.grammar.wordOrder;
 
@@ -338,38 +372,16 @@ positionPhrase = subPhrase + positionPhrase;
 else if (wordOrder.genitiveInitial === false)
 positionPhrase = positionPhrase +subPhrase;}
 
-var conj = new Object();
-if (conjugationLevel >= 3) conj = language.grammar.conjugation;
-
-if( conj.verbPhrase && this.head.head === ".i"){
-positionPhrase = conj.verbPhrase(positionPhrase,caseWord);
-}
-else if( conj.subjectPhrase && this.head.head === ".u"){
-positionPhrase = conj.subjectPhrase(positionPhrase,caseWord);
-}
-else if( conj.objectPhrase && this.head.head === ".a"){
-positionPhrase = conj.objectPhrase(positionPhrase,caseWord);
-}
-else if( conj.dativePhrase && this.head.head === "ta"){
-positionPhrase = conj.dativePhrase(positionPhrase,caseWord);
-}
-else if( conj.instrumentalPhrase && this.head.head === "pya"){
-positionPhrase = conj.instrumentalPhrase(positionPhrase,caseWord);
-}
-else if(conj.phrase)
-positionPhrase = conj.phrase(positionPhrase,caseWord);
-else{
 if ((!type && wordOrder.postpositional )
   || (type && wordOrder.genitiveInitial))
-positionPhrase = positionPhrase+caseWord+joiner;
+positionPhrase = positionPhrase+caseWord+phraseJoiner;
 else if ((!type && wordOrder.postpositional === false)
        || (type && wordOrder.genitiveInitial === false))
 positionPhrase = caseWord+joiner+positionPhrase;
-}
 
 if (clause.length > 0){
 if (wordOrder.clauseInitial===true)
-result = clause + joiner + positionPhrase;
+result = clause + clauseJoiner + positionPhrase;
 else if (wordOrder.clauseInitial===false)
 result = positionPhrase + clause;}
 else result = positionPhrase;

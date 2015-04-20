@@ -8,7 +8,7 @@ subjectProminent: true,
 clauseInitial: false,
 genitiveInitial: false,
 postpositional : false,
-phraseOrder: ["sla","ku","twa",".u",".i",".a"]
+phraseOrder: ["hu","hi","ha","ta","ni","wu"]
 };
 var conjugation = new Object();
 conjugation.guillemetSpaceQuote = 

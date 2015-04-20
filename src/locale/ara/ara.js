@@ -21,7 +21,7 @@ typeFinal : false,
 clauseInitial: false,
 genitiveInitial: false,
 postpositional : false,
-phraseOrder: ["sla","ku","twa",".i",".u","nya","ta",".a"],
+phraseOrder: ["sla","ku","twa","hi","hu","nya","ta","ha"],
 littleEndian : true
 };
 var conjugation = {

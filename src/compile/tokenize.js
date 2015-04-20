@@ -160,3 +160,50 @@ function isWords(inArray){
 		return true;
 	return false;
 }
+
+// recognize word based on phoneme class
+
+// su phoneme class be dictionary of glyph with string ya
+var phonemeClass = {
+	".":["."],
+	"H":["h"],
+	"V":["i","a","e","o","u","6","I"],
+	"C":["p","t","k","f","s","c","y","r","l","w","q",
+		"m","n","x","b","d","g","z","j","v","C"],
+	"T":["^","_"],
+	"n":["n","m","q"], // nasals
+	"f":["f","s","c","C","x","h","v","z","j"], // fricatives
+	"p":["p","t","k","B","D","G"], // plosives
+	"l":["l"], //liquids
+	"t":["r"], // trills
+	"g":["y","w"] // glides
+}
+
+function glyphClassGet(glyph){
+if(phonemeClass["V"].indexOf(glyph)!==-1) return "V";
+else 
+if (phonemeClass["C"].indexOf(glyph)!==-1) return "C";
+else 
+if (phonemeClass["H"].indexOf(glyph)!==-1) return "H";
+else return " ";
+};
+
+
+exports.wordClass = wordGlyphClassGet;
+function wordGlyphClassGet(word){
+var i;
+var result = new String();
+for (i=0;i<word.length;i++){
+result += glyphClassGet(word[i]);
+}
+return result;
+};
+
+
+exports.isGrammarWord = isGrammarWord;
+var grammarWords = ["CV","CCV"];
+function isGrammarWord(word){
+var glyphClass = wordGlyphClassGet(word);
+if (grammarWords.indexOf(glyphClass) !== -1) return true;
+/* else */ return false;
+}

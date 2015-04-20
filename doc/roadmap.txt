@@ -49,22 +49,24 @@ Speakable Programming for Every Language Translator SPELT
 0.5.8 named and anonymous subordinate texts (14 Mar 2015)
 0.5.A number quote endianness  (15 Mar 2015)
 0.5.D automated tests for continuous deployment (23 Mar 2015)
-
 0.6 basic javascript translation
 0.6.0 translation of hello world to javascript (26 Mar 2015)
-0.6.2 javascript nominal sentences
-0.6.2 translation of with named arguments to javascript
-0.6.3 sentence junctions
-0.6.4 javascript conditionals
-0.6.5 javascript loops
-0.6.6 javascript string literals
-0.6.7 genitives attach to type
-0.6.8 javascript array elements
-0.6.9 javascript object elements
-0.6.B javascript prototypes?
-0.6.C spel-lang command line input
+0.6.2 javascript nominal sentences (31 Mar 2015)
+0.6.3 plurals/gender/number/aspect parsing support (10 Apr 2015)
+0.6.4 translation of with named arguments to javascript (15 Apr
+2015)
+
+0.6.5 sentence junctions
+0.6.6 javascript conditionals
+0.6.7 javascript loops
+0.6.8 javascript string literals
+0.6.9 genitives attach to type
+0.6.A javascript array elements
+0.6.B javascript object elements
+0.6.C javascript prototypes?
 0.6.D object equals comparison for tests
 0.6.E web workers and threads
+0.6.F spel-lang command line input
 0.7 conjugation
 0.7.0 spaceless mwak tokenization
 0.7.1 compound words

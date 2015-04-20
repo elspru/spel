@@ -111,7 +111,7 @@ function(language,format,type,conjugationLevel){
 	if (clauseTerm) result += clauseTerm.toLocaleString(
 		language,format,"jh",conjugationLevel)+joiner;
 	if (sentence) result += sentence.toLocaleString(
-			language,format,conjugationLevel);
+			language,format,type,conjugationLevel);
 	if (clauseWord) result += clauseWord.toLocaleString(
 		language,format,"jh",conjugationLevel) + joiner ;
 	}
@@ -119,7 +119,7 @@ function(language,format,type,conjugationLevel){
 	if (clauseWord) result += clauseWord.toLocaleString(
 		language,format,"jh",conjugationLevel)+joiner;
 	if (sentence) result += sentence.toLocaleString(
-		language,format,conjugationLevel);
+		language,format,type,conjugationLevel);
 	if (clauseTerm) result += clauseTerm.toLocaleString(
 		language,format,"jh",conjugationLevel)+joiner;
 	}

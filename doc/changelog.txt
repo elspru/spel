@@ -2872,3 +2872,528 @@ that way can output javascript files.
 1156 thinking should call the node javasc either nojs or jsno
 1213 awesome so I now have it compiling to javascript,
 and the file is executable. good stuff
+1800 put aspect and plurals on the roadmap in the 0.7 chain
+will probably need to do verb agreement, and move the functions
+from accepting preconjugated output to simply the objects
+themselves. such as how quote function does it now. it will
+require a bigger overhaul, but will allow for much better
+fidelity, and easier scripting, less duplicate or useless work.
+1802 anyways since it is evening time to do more vocabulary
+work. lets see if we can add farsi/persian also.
+1841 okay so it's translating, already have 327 words defined.
+can add some more
+2358 need to do some rearrangement for length height width, and
+green
+} Mar 31 2015
+0641 
+lin length
+tup depth
+sik height
+yac width
+kis high
+til low
+pas fast
+lat slow
+0719 anyways lets try and do some programming
+0721 first up lets add nominative sentences
+0738 okay will have to convert the subject and object phrases to
+accept language and phrase object
+0756 gonna need some serious debugging
+1104 nominal sentences work :-)
+1305 seems aspect will be needed sooner rather than later
+I'll make it the next point on the roadmap
+1050 updated sentence to have a head instead of endWords
+1439 anyways so can do some more word translations
+1850 maybe should do more of that feasibility analysis stuff.
+though that might make more sense after at least a preliminary
+working version. 
+it would be nice if could send the translated summary. though I
+guess that would be besides the point. 
+2108 having reviewed the linguistic universals for
+postpositional languages it seems the majority have suffixing
+for aspect/number/gender 
+I'm thinking of parsing it out by word form, so CV and CCV words
+would be considered part of the limb of the phrase.
+what I can do is have a variable that indicates if the limb is
+at head or tail, this may vary for English, since limb is always
+initial, both in verbs and nouns. don't know about other
+languages. but perhaps we can just have a limbFinal variable,
+and otherwise consider that it is initial. can translate the
+phrase body and parse out the grammar words, they will be added
+to limb, and the remainder will be the word body.
+then the limb can be used for conjugation purposes.
+2114 meanwhile lets see if we can do a next step in business
+plan. from-source Preparing Effective Business Plans
+2116 one page 500 words  including
+* description of product or service
+* intended target market
+* benefits of the product or service
+* description of how product or service will be positioned
+  relative to competitors
+* brief description of the companie's management team
+main headings:
+Product
+Target Market
+Position
+Management
+2237 started writing concept test, bumped into the fact there is
+interlignua machine translation, a fairly similar concept to
+SPEL. and that many translation softwares already translate most
+stuff, and then just ask about what it has trouble with.
+so we really need the translate to computer programming
+languages as a differentiating factor. 
+} 01 Apr 2015
+0555 i'll add programming keywords which have good overlap for
+now.
+0642 added a few, not sure how deep to go since don't know are
+we supporting all paradigms :-O= or just the best, FPGA
+VHDL compatible ones ++ (functional dataflow). 
+0643 anyways lets see if we can add aspect
+it would be under phrase
+0704 okay coded it in phrase, now need to code the parsing
+hmmm also wondering if perhaps it should actually be in type
+rather than phrase.. since it's the few dogs, rathern that few
+the dogs. 
+yes definitely in type.
+hmmm actually it is more difficult in type..
+maybe in word? no that's too fine..
+I have an idea, the limb can be the type head.
+simply need better type head parsing, to include potentially
+multiple words.
+0739
+tak add
+yun subtract
+pis multiply
+cif divide
+mul modulo
+1423 okay so in any case probably best thing to work on for that
+would be the parser of grammar words. anyways it's back to vocab
+time for now, need to do the numbers 0 through 11.
+as a reminder single character numbers are
+m k y p w n s t l h f c r b g d z j
+0 1 2 3 4 5 6 7 8 9 a b c d e f g h
+nuls	zero
+kiyn 	one
+tful	two
+tyin 	three
+pyit 	four
+fwap	five
+tsik	six
+syim	seven
+kcat	eight
+nist 	nine
+tiyk	ten
+layt	eleven
+1450 okay after I'm done adding those will make the 24 version 
+1525 okay made it
+dwuf 	twelve
+trin	thirteen
+srat	fourteen
+pest	fifteen
+tsen	sixteen
+2230 added all the numbers
+} 02 Apr 2015
+0652 so thinking can copy some of wordPhonotactics to help with
+phoneme recognition, since we need to identify if a word is CV
+or CCV  to identify it as a grammar word
+0716 okay wrote the tozenize wordGlyphClassGet, now to test
+0720 so I was thinking of paying people less for overtime, to
+discourage overtime. if people work more than 4-6 hours, then
+their performance decreases, so it makes sense that they would
+get less monetary compensation for their lower quality output.
+0724 great getting glyph class works, now to get grammar words
+0729 cool got isGrammarWord working.
+0734 now I guess can use it in parser to make typeHeadGet
+0800 okay now to test it
+0808 great it works :-)
+0811 next will have to integrate it with typt
+1440 joseph is "add" so tak, though maybe best to transliterate.
+1611 it's okay I like the meaningful names, keeps things lively.
+though the transliteration is the more natural way to go.
+place names hmm. 
+1709 I sent in a story to science fiction daily.
+1716 will need to fix up subject prominence, 
+added 24glyph words to vocab listing. will be able to add the
+atoms and such.
+2321 colors
+lank color
+saw black
+pit white
+kun red
+pul blue
+ciy green
+yilk yellow
+syan cyan
+mant magenta
+} 03 Apr 2015
+0652 so should finish that type level aspect stuff
+0711 not sure how to modify junction tokens
+0733 okay seems to be working.
+0734 but have to update vocab
+0735 there are a bunch of duplicates to remove
+} 04 Apr 2015
+2031 thinking about alphabet
+m k i a y p  w u n s t l h f c 
+e o r b g d z j 
+v q 6 1 x  7 _
+
+kyims pwanf tculh  brez djog v27q x1_4
+2204 seriously considering simply moving all the text over to
+IPA instead of ascii.. but dono. maybe a premature move still.
+especially considering the keyboards and http limitations. 
+though for typographically, or conjugated output, I think it
+would be the ideal.
+hmm, meh, guess it's best to work within confines of https for
+now, and then can have the nice IPA output later. I have
+difficulty typing IPA into this ssh forwarded gvim.
+2238 hmmm, seems like even normal gvim doesn't have support for
+it. 
+2242 seems like it's a gvim bug, doesn't have ibus support, or
+disables it somehow. or vim gnome has support.
+} 05 Apr 2015
+0616 anyways time to attempt to do some plural conjugation for
+English.
+nam number
+sya singular
+twu dual
+cla plural
+slin single
+pyaw couple
+kyup group
+0642 added PIE level number to vocab.
+0645 added to the grammar
+0647 need to get vocabUpdate to work
+0703 I may have to set upper limit on length of multi word quote
+to ease debugging.
+0739 there are over 430 words now :-)
+0740 still have at least 700 more to go though
+anyways lets test plurality.
+0747 typeHeadIndex might have forgotten to do the translation
+1507 might have to do the translation in type. as typicall
+grammar parse doesn't have access to language.
+1533 okay fixed. now lets get conjugating
+1559 will need a verbTypeConjugate and nounTypeConjugate for
+english ideally.
+1625 seems like translate isn't working in type properly.
+1626 okay fixed seems like
+2102
+"Welcome to the Peace Council" Soft-Integral smiled.      
+                                                         
+"Higher spirits want bodies for new learning expeirences"
+"The AGI Robots wish to study biology for inspiration." 
+"The Grey Hybrids need humans for reproduction."       
+"The Draconian Reptilians wish to eat them."          
+"The Nordic Mammalians wish to rule them."           
+"The humans wish to rule themselves."               
+                                                   
+"How do we make everyone happy?"                  
+                                                 
+"Diverse polity eco-system for the humans."     
+"Trade relations and polities for the Nordics."
+"Vat meat and VR video-games for the Reptilians."       
+"Fertility cult, anasthesiologists for the Greys." 
+"research centers and copious parkland for the Robots."
+"new medium colonization with tech bodies for higher spirits."
+2119 so in the next week I'll smooth out English, French and
+Russian conjugation in that order. 
+} 06 Apr 2015
+0703 so I'm thinking of using the 32 glyph alphabet,
+no point really of the 24 glyph one, since it takes 5 bits to
+represent anyways. well actually 24 is near average which is
+22+-3  the 32 range is moderately large.. oh actually that's for
+consonants, so at 23 consonants it is in the average range with
+32 glyphs total. so we are clear for take-off :-D.
+just got to edit the wordPhonotactics to be more IPA compliant
+by having the tones after the vowel.
+0755 there is a bug that it is allowing ununique phonemes if
+there is a tone..
+} 07 Apr 2015
+0708 okay so the plan is to make a reply to THOMAS in English
+and French, via mwak translation. then to do so for Igor.
+once French and Russian are working, can set it up a script
+which allows me to (optionally) post translations of changelog
+updates to twitter. or if I manage to get it working, then a
+gnusocial like loadaverage.
+0717 vocabUpdate hangs.
+0727 seems to be quoteExtract, hangs on na, which gets repeated
+forever.
+1300 fixed that bug, it was a na which was supposed to be nya
+1423 hmmm it seems to be having some difficulty with loading C32
+1527 anyways I guess it is pretty huge.. can stick to the simple
+stuff for now, the C16 and X16, until we have the basic stuff
+implemented down pat.
+hopefully will be able to recode it in mwak, which will have
+opencl or at least parallel support so that it can happen
+faster. it seems to be CPU bound. 
+2203 after reviewing gnu social and related services on the
+ostatus federated network. I've come to some conclusions of what
+I want out of a federated network.
+I want one ID, which I can use to login to all services,
+and I don't mean something as ineffeable and hard to use as
+OpenID. I mean something simple like a public encryption key.
+I also want to be able to quickly and easily both invite and add
+contacts. Most of the networks I've joined like gnusocial and
+pump.io don't even seem to have an add contacts feature. wheras
+in friendica it's difficult to find and is rather confusing.
+I guess since talking about ideals here, of course email and IRC
+integration would be nice. 
+honestly like I don't understand OAuth at all, maybe it's good I
+dono.
+anyways I'm sure freenet and some others have unique user
+identifiers which are similar.
+to make them easier to remember, can use the sha1sum of the key,
+and to make that easier can use base 55440 if 32 glyph vocab,
+ or base 2520 if 16 glyph vocab.
+okay if it is based 4095 they have to remember 14 words.
+which is easier than remember 29 random ASCII glyphs of base64.
+2230 anyways that was a bunch of useless discussion, I'm no
+security expert. main thing I wanted was to be able to add
+users, like it doesn't seem like such a hard thing, but perhaps
+it is.
+2239 awesome someone helped me figure it out :-D
+2327 hmmm mwak should front top clauses in SOV.
+2337 have to make more a grammar word.
+guess have to do all the compartives
+tsi most
+pyu more
+kci less
+sli least
+} 08 Apr 2015
+0014 okay finally, anyways sleepy time.
+0657 having some issues with the aspect parsing or something, it
+seems to parse it correctly, but later on it doesn't know what
+it's doing.
+0702 weird it definitely parses correctly.
+0709 oh nm it works fine, I was just confused.
+though it does mean that now more comes after the noun,
+which is the confusing part.. since it's kind of an adjective.
+0750 hmmm, comparatives are a bit confusing in this regard,
+typically locatives are used for them.
+more easy is easier in that sense it is a suffix.
+okay well otherwise it's like an adjective *Shrugs*
+lets try reworking them as root words then.
+1000 but for now it's still programming time, conjugation stuff.
+1014 okay English is at acceptable level, now working on
+French.
+1059 adding in past tense for english.
+1132 anyways need to fix the glaring more/most stuff
+1155 okay so have to fix nominals, it is a nominal if it lacks a
+verb, or if the verb phrase has no body.
+1236 okay next is verb conjugation of french for future and past
+also present. can start with regular verbs and then add the
+irregular ones.
+2101 so have idea about a simple statement and it's translation.
+thinking can make twitter worthy conjugation, by making topics
+into hashtags. 
+about SPEL su it in early phase of growth ya
+eng: it is in early phase of growth #SPEL .
+javs: var SPEL = {"about":"SPEL"}; var it = SPEL;
+it.in = "early phase of growth";
+2144 anyways time to fix up those correlatives and superlatives.
+2333 posted hello world in the twitter languages on my twitter, 
+and in the gnusocial languages in my gnu social.
+} 09 Apr 2015
+0745 weird conjugation level isn't passing properly to sentence
+from clause.
+0749 okay fixed. now sentence level conjugation.
+0802 okay it works :-D.
+0812 hmm I think I have to make it so the phraseOrder is
+preserved and then the various topic fronting and performance
+grammar can go around that core.
+1045 okay now javascript translation is working fairly well.
+1141 attempting to get subPhrase to work.
+1154 should make sentence.of = "nominal" if it is a nominal
+sentence, that way onl have to check at creation time.
+1225 javascript is noun initial, can compose words with .
+1243 probably going to have to change the glottal-stop from a
+period to an underscore so that it is easier to pack into
+variable_names. also wont need to escape it for regular
+expressions.
+1954 for hydrogen
+dominant hue  is Aqua, 172 degrees, RGB 3AE4CE 
+secondary hue is Red, 0  degrees B91617  RGB
+tertiary hue is Electric-Indigo, 273 degrees 6614a7  RGB
+it's combined hue is Shocking-Pink, 317, RGB D757B2. 
+2023 Dodger blue seems to be the dominant color of Oxygen,
+though it's a mixed bag really.
+2038 testing ttyrec and shelr. shelr complains about the screen
+size, but seems better adapted for livestreaming, or at least
+even not live streaming. ttyrec doesn't compalin though.
+} 19 Apr 2015
+0553 so managed to get typreccast which does livestreaming of
+content. thus eventually I'll be able to livestream when I'm
+coding. 
+0606 fixing up javascript conjugation.
+0608 hmmm objectMake may have to work with sentences in order
+to fix it up, or find out whether it is nominal. though I guess
+it could find out based on the phrase, 
+0618 oh right have to finish replacing the dots with underscores
+0656 translationUpdate working, updating test.js
+0730 okay fixed up for most of tests, just have two more
+junction tests to pass.
+0734 it might be a problem with the quote recognition.
+0754 bah seems like the type or junction is not even using the
+proper parsing function, will have to fix it.
+0830 finally is fixed.
+0832 can include tests for duplicates in the test.sh
+would motivate to keep it up to date.
+2149 anywas time for more vocab work
+yalt early 
+tiym late
+pyat prompt
+} 11 Apr 2015
+0545
+cyun run 
+wulk walk 
+kyal crawl
+flay fly
+syin swim
+pays ride
+tiyf drive
+tyaf traffic
+0601
+nuyt north
+sunt south
+yusk east
+wist west
+tyic direction
+0616
+plum problem
+sulc solution
+pwas answer
+tsum study
+tsan student
+tyuc teacher
+cyin learn
+nusp forget
+myit remember
+syic research
+fint find
+pyuf proof
+kyul rule
+yat read
+yis write
+pas pass
+tyip again
+0704
+myun employ
+myunhu employer
+myunha employee
+myunhi employment
+yasp work
+task task
+0716 k for now
+pist permit
+liwk legal
+niy need
+kyus fun
+kyim game
+1338 an issue I've come across is that some words are nouns and
+others are verbs, instead of having all of each kind, perhaps it
+would be good to somehow indicate whether it is a noun or verb,
+or stick to just one case.. i.e. accusative, and then conjugate
+all others out of it. though what would be the accusative of
+"go"?  hard to say, so I guess we're left with having to specify
+if it is a noun or verb for conjugation purposes. or else have
+different definitions for each, which would be burdensome.
+1341 for instance I'm not sure should actually split student and
+study, perhaps will get rid of student, since it can be tsumhu
+the one who studies. 
+1356 so maybe it will be easier to simply add in for instan
+tsumhu, I simply have to update the vocabUpdate script, to add
+the new entry if it doesn't already exist.
+on the otherhand, tsumhu is more of a definition.
+1359 for instance oxford-3000 has both student and study, grow
+and growth, but not grower.
+1405 hmmm but there is only room for ~2000 words in core.
+so we should really be looging at special english with it's
+~1600 word vocab. and it doesn't have growth. 
+} 12 Apr 2015
+0538 added nominal flag to sentence if it detects that it is a
+nominal.
+0641 next main thing is verb conjugation, or verb agreement, can
+pass it a whole sentence, but only expect a verb phrase in
+return.
+0650 okay added preliminary catch for it, but now sleepy time.
+1103 have an extra semicolon in my javascript output, and part
+of my verbs seems to be disappearing.
+1747 okay french works for future tense, adding present tense.
+} 13 Apr 2015
+0439 woke up today with an interest in supporting runic
+alphabet. similarly it would be nice to translate mwak to IPA.
+0451 anyways so I'll probably just do IPA for now, for instance
+if the conjugation is greater than 5
+0616 it's so frustrating, for the last horu it seems I've been
+trying to get the function to include in the mwak conjugation
+grammar but it simply refuses to do so.
+0636 excellent it is working now :-D
+1114 I'm thinking that the IPA can be a format triggered thing.
+script could be the variable.
+1155 considering chaging _u _i _a to something else, 
+with some kind of easy to pronounce consonants.
+glottal stops really break up the language too much.
+maybe I'll use h's instead of glottal stops,
+and use glottal stops for compounds?
+h is more common than glottal stops.
+so it would be hi ha hu
+1201 okay well I recently changes it to underscores, 
+so can certainly change it to h's, it does make the language
+sound a lot better. k I'll do it.
+1221 awesome, it's really nice now.
+1227 I'd like it to be verb backing though.
+1250 some kind of weird error cropped up when I changed around
+how subject fronting happens to do with TopClauses, not sure
+why.
+1300 cool fixed, next will add verb backing.
+2114 so I want to make the base eight cases 2 letter words,
+which are easy to distinguish from each other. 
+hu su subject nominative
+ha pa object accusative
+hi yi verb
+ta dative
+su from ablative
+ni in locative
+wu by instrumental	
+la hey vocative 
+pi of genitive
+fa about
+pya on
+tsa until lative 
+tla for
+2215 what is plu?
+2247 okay it's all updated now :-D
+2251 I want to add stress marks to mwak also.
+} 15 Apr 2015
+0151 added stress to mwak for conjugation level  12 and over
+0333 finished adding past tense to French.
+0342 next will be spanish conjugation, then Russian.
+for now, sleep.
+1421 okay added spanish conjugation. now smoothing out the
+spanish vocabulary.
+1459 okay now I just need to make javascript accept multiple
+dictionaries, or rather alternative dictionaries to the english
+one.
+2127 adding implicit nominal verbAgreement;
+1921 thinking I can use X24 for proper nouns and such.
+2349 found a place in phrase where it seems the junctions aren't
+working properly. they work in subPhrase however.
+} 17 Apr 2015
+0037 fixed
+1100 added some vocab
+1115 gotta add plural conjugation for eng fra spa
+1200 added
+} 16 Apr 2015
+0605 can have a serverside script, that generates a new wallet
+for each bug/issue
+0609 we could have something like TM (translation memory), but
+instead of between languages, it would be between a natural
+source and it's analytic/SPEL-accessible. variant.
+0613 in terms of ABI, I was thinking can have an index-like jump
+table, which points to for instance a list of words that have
+the same initial letter. The words would be Mwak words, so
+fairly short. The system could then find what function it needs
+by finding the appropriate word.
+0618 I think the hardest part will be effectively coordinating
+mass collaboration. Obviously that means the remove bottlenecks,
+but also to detect bottlenecks. 
+1024 adding possessive pronouns.

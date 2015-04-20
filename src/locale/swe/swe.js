@@ -17,7 +17,7 @@ var sweWordOrder = {
 	clauseInitial: false,
 	genitiveInitial: false,
 	postpositional : false,
-	phraseOrder: ["sla","ku","twa",".u",".i","ta",".a"],
+	phraseOrder: ["sla","ku","twa","hu","hi","ta","ha"],
 };
 var conjugation = {
 reversible:[

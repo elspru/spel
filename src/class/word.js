@@ -175,9 +175,10 @@ Word.prototype.toString = function(){
 	return string;
 };
 Word.prototype.toLocaleString = 
-function(language,format,type,conjugation){
+function(language,format,type,conjLevel){
 var translation = new String();
 var joiner = " ";
+if (format && format.joiner) joiner = format.joiner;
 var wordOrder = language.grammar.wordOrder;
 var verbFinal = wordOrder.verbFinal;
 var dict = language.dictionary.fromMwak;
@@ -188,6 +189,33 @@ var dict = language.dictionary.fromMwak;
 // be translate ob body words yand be add to translation ya
 // syntax formating and color-grapheme synesthesia
 // conjugation based on type
+
+
+// conjugation based on type
+var conj = new Object();
+if (conjLevel >= 3) conj = language.grammar.conjugation;
+if (type){
+if (conj.verb &&  type==="v")
+return conj.verb(language,this,format,conjLevel);
+else if (conj.noun && type ==="n") 
+return conj.noun(language,this,format,conjLevel);
+else if (conj.mood && type ==="mh") 
+return conj.mood(language,this,format,conjLevel);
+else if (conj.sentenceHead && type ==="sh") 
+return conj.sentenceHead(language,this,format,conjLevel);
+else if (conj.phraseHead && type ==="ch") 
+return conj.phraseHead(language,this,format,conjLevel);
+else if (conj.verbHead && type ==="vh") 
+return conj.verbHead(language,this,format,conjLevel);
+else if (conj.clauseHead && type ==="lh") 
+return conj.verbHead(language,this,format,conjLevel);
+else if (conj.junctionHead && type ==="jh") 
+return conj.verbHead(language,this,format,conjLevel);
+}
+if (conj.word)
+return conj.word(language,this,format,conjLevel);
+
+
 
 // be add ob body to output
 var bodyWords = new Array();
@@ -227,24 +255,8 @@ else if (format.glyphsTransform)
 translation = format.glyphsTransform(translation);
 }
 
-// conjugation based on type
-var conj = new Object();
-if (conjugation >= 3) conj = language.grammar.conjugation;
-if (type){
-if (conj.verb &&  type==="v")
-translation = conj.verb(translation);
-else if (conj.noun && type ==="n") 
-translation = conj.noun(translation);
-else if (conj.mood && type ==="mh") 
-translation = conj.mood(translation);
-else if (conj.sentenceHead && type ==="sh") 
-translation = conj.sentenceHead(translation);
-else if (conj.phraseHead && type ==="ch") 
-translation = conj.phraseHead(translation);
-else if (conj.verbHead && type ==="vh") 
-translation = conj.verbHead(translation);
-}
 
-
+if (format && format.ipa && conj && conj.ipa) 
+translation = conj.ipa(translation);
 return translation;
 }

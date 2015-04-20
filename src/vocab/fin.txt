@@ -1,293 +1,532 @@
-.i li .u olla li .a ya
-.a li .u ob li .a ya
-.u li .u su li .a ya
-mi li .u minua li .a ya
-ma li .u mitä li .a ya
-ki li .u ja li .a ya
-ka li .u kuten li .a ya
-ku li .u jos li .a ya
-yi li .u tämä li .a ya
-ya li .u ya li .a ya
-yu li .u sinua li .a ya
-pi li .u of li .a ya
-pa li .u että li .a ya
-pu li .u teki li .a ya
-wi li .u me li .a ya
-wa li .u tai li .a ya
-ni li .u sisään li .a ya
-na li .u num li .a ya
-nu li .u nyt li .a ya
-si li .u ne li .a ya
-sa li .u se li .a ya
-ti li .u tha li .a ya
-ta li .u kohteeseen li .a ya
-tu li .u sinut li .a ya
-li li .u li li .a ya
-fa li .u noin li .a ya
-fu li .u tahtoa li .a ya
-ci li .u eh? li .a ya
-myi li .u muisti li .a ya
-mya li .u ehkä li .a ya
-mwa li .u kanssa li .a ya
-kyi li .u ehdollisesti li .a ya
-kya li .u syrjään li .a ya
-kwa li .u että-mikä li .a ya
-ksa li .u lainaus-päättyy li .a ya
-kla li .u mutta li .a ya
-klu li .u lauseke-hännän li .a ya
-kca li .u ha li .a ya
-pya li .u mukaan li .a ya
-pwa li .u yaor li .a ya
-psu li .u alkaen-lähdekoodin li .a ya
-pli li .u lähellä li .a ya
-pla li .u monikko li .a ya
-plu li .u varten li .a ya
-pca li .u hilpeä li .a ya
-nya li .u alkaen li .a ya
-swi li .u kun-taas li .a ya
-sli li .u for-esimerkki li .a ya
-sla li .u hei li .a ya
-slu li .u yksikkö li .a ya
-twa li .u sitten li .a ya
-tli li .u ord li .a ya
-mik .u tehdä li .a ya
-miy .u odota li .a ya
-mip .u ohi li .a ya
-min .u vähemmän li .a ya
-mit .u keskimmäinen li .a ya
-mak .u sana li .a ya
-map .u koko li .a ya
-man .u ajatella li .a ya
-mas .u massa li .a ya
-mat .u äiti li .a ya
-mac .u kone li .a ya
-mut .u auttaa li .a ya
-kim .u vertailla li .a ya
-kiy .u mennä li .a ya
-kip .u kykenee li .a ya
-kin .u tärkein li .a ya
-kit .u ääri li .a ya
-kay .u pitää li .a ya
-kap .u pää li .a ya
-kan .u tietää li .a ya
-kas .u syy li .a ya
-kat .u saada li .a ya
-kal .u kaikki li .a ya
-kum .u kauppa li .a ya
-kup .u ostaa li .a ya
-kun .u punainen li .a ya
-kut .u pieni li .a ya
-yik .u romuttaa li .a ya
-yan .u sanoa li .a ya
-yut .u vähentää li .a ya
-pam .u hyvä li .a ya
-pak .u elin li .a ya
-pay .u lisää li .a ya
-paw .u paikka li .a ya
-pan .u tavata li .a ya
-pat .u isä li .a ya
-pal .u monet li .a ya
-pac .u ilo li .a ya
-puy .u lapsi li .a ya
-put .u myydä li .a ya
-pul .u sininen li .a ya
-wit .u valo li .a ya
-wap .u pyrstö li .a ya
-wan .u rakkaus li .a ya
-wat .u puhua li .a ya
-wul .u iso li .a ya
-nim .u nimi li .a ya
-nit .u netto li .a ya
-nic .u energia li .a ya
-nam .u numero li .a ya
-naw .u nykyinen li .a ya
-nul .u tyhjä li .a ya
-sam .u sama li .a ya
-san .u itse li .a ya
-sat .u kuulostaa li .a ya
-sup .u maksaa li .a ya
-sun .u yksi li .a ya
-tip .u alkaa li .a ya
-tin .u nähdä li .a ya
-tam .u aihe li .a ya
-tak .u lisätä li .a ya
-tay .u laittaa li .a ya
-tap .u koskettaa li .a ya
-tan .u antaa li .a ya
-tas .u valita li .a ya
-tum .u lämpötila li .a ya
-tuw .u kaksi li .a ya
-tun .u pituus li .a ya
-tul .u työkalu li .a ya
-lik .u sähkö-maksu li .a ya
-liy .u neljä li .a ya
-lin .u vihreä li .a ya
-lis .u elää li .a ya
-lit .u glyph li .a ya
-fut .u tulevaisuus li .a ya
-cim .u kuulla li .a ya
-cik .u harvat li .a ya
-cak .u asia li .a ya
-caw .u huutaa li .a ya
-can .u mahdollisuus li .a ya
-cal .u liikkua li .a ya
-myan .u pehmeä li .a ya
-myul .u moraalinen li .a ya
-myin .u unelma li .a ya
-kyit .u painovoima li .a ya
-kyil .u ympyrä li .a ya
-kyin .u yleinen li .a ya
-kyap .u kopio li .a ya
-kyup .u ryhmä li .a ya
-kyat .u kova li .a ya
-kwat .u kvantti li .a ya
-kyul .u sääntö li .a ya
-kwal .u kieli li .a ya
-kyis .u kirjoittaa li .a ya
-ksip .u pääsy li .a ya
-ksin .u konteksti li .a ya
-ksat .u äkillinen li .a ya
-ksal .u galaxy li .a ya
-ksap .u ilmaista li .a ya
-ksan .u järjestää li .a ya
-klin .u elektroni li .a ya
-ksut .u kerätä li .a ya
-ksul .u koulu li .a ya
-klaw .u nauraa li .a ya
-klas .u luokka li .a ya
-klat .u lauseke li .a ya
-kcim .u kemiallinen li .a ya
-klac .u paitsi li .a ya
-kfin .u config li .a ya
-pyin .u kokemus li .a ya
-pyam .u ohjelma li .a ya
-pyan .u pronomini li .a ya
-pyut .u protoni li .a ya
-pyul .u kiehua li .a ya
-pyas .u lauseke li .a ya
-pyat .u kieliopin-objekti li .a ya
-pwil .u muuttuja li .a ya
-pwut .u hyväksyä li .a ya
-psiy .u paine li .a ya
-pyuf .u todiste li .a ya
-pyuc .u hanke li .a ya
-psit .u pinta li .a ya
-psan .u tila li .a ya
-psun .u lähde li .a ya
-plam .u plasma li .a ya
-plin .u pinta li .a ya
-plis .u lähistöllä li .a ya
-play .u pelata li .a ya
-nyit .u yksikkö li .a ya
-nyus .u ionize li .a ya
-nyut .u neutroni li .a ya
-plan .u planeetta li .a ya
-nyis .u viite li .a ya
-syat .u vankka li .a ya
-syun .u maailmankaikkeus li .a ya
-swil .u sielu li .a ya
-syit .u lähettää li .a ya
-syak .u hereillä li .a ya
-slam .u sublimoida li .a ya
-swat .u kysymys li .a ya
-slim .u esimerkki li .a ya
-tkic .u käännös-sanakirja li .a ya
-tyis .u siirtyminen li .a ya
-tyil .u kylmä li .a ya
-tyam .u atomi li .a ya
-tyim .u vapista li .a ya
-tyin .u kolme li .a ya
-tyan .u jono li .a ya
-tyas .u ajatus li .a ya
-tyup .u robotti li .a ya
-tsiw .u satelliitti li .a ya
-twis .u totta li .a ya
-tsim .u yhdessä li .a ya
-tsin .u opetus li .a ya
-tsil .u ansaita li .a ya
-tsay .u tähti li .a ya
-tsam .u tarkoitus li .a ya
-tsak .u jäädä li .a ya
-tsap .u omaisuus li .a ya
-tsan .u jälleen li .a ya
-tsal .u valtio li .a ya
-tsaf .u maku li .a ya
-tsuk .u myymälä li .a ya
-tlik .u sähkö li .a ya
-tlin .u järjestysluku li .a ya
-tlun .u triple-piste li .a ya
-tlam .u käännös li .a ya
-tcin .u ketju li .a ya
-tlan .u perinne li .a ya
-tfal .u tiedosto li .a ya
-tcan .u puu li .a ya
-fwas .u vaihe li .a ya
-fyas .u lauseke li .a ya
-fwil .u voima li .a ya
-flit .u huilu li .a ya
-flut .u kukka li .a ya
-fluc .u virtaus li .a ya
-clut .u ylikriittinen-neste li .a ya
-clum .u virke li .a ya
-miyk .u lähettää li .a ya
-mist .u mitata li .a ya
-milt .u sulaa li .a ya
-mayt .u kuvitteellinen-yksikkö li .a ya
-mast .u asia li .a ya
-miwk .u henkilö li .a ya
-mint .u menetelmä li .a ya
-muyt .u liittolainen li .a ya
-malt .u materiaali li .a ya
-mack .u kuvitella li .a ya
-muys .u tunne li .a ya
-kisp .u eksponentti li .a ya
-munt .u maailma li .a ya
-kays .u kieliopin-tapaus li .a ya
-kayt .u kuuma li .a ya
-kaws .u kaasu li .a ya
-kant .u muuntaa li .a ya
-kast .u vakio li .a ya
-kimt .u roikkua li .a ya
-kamt .u kielioppi li .a ya
-kump .u mieliala li .a ya
-kusp .u romahdus li .a ya
-kust .u vakio li .a ya
-kumt .u tiedottaa li .a ya
-kuft .u jakautua li .a ya
-kuwt .u koodi li .a ya
-yink .u rengas li .a ya
-kunt .u ohjaus li .a ya
-kult .u kulttuuri li .a ya
-yimk .u kysyä li .a ya
-yalk .u ajoneuvo li .a ya
-yulp .u rooli li .a ya
-yult .u hyödyllisyys li .a ya
-panp .u leipä li .a ya
-pant .u lainata li .a ya
-pack .u nauttia li .a ya
-pult .u vanha li .a ya
-wiyp .u verbi li .a ya
-wins .u Venus li .a ya
-wint .u tuuli li .a ya
-niym .u substantiivi li .a ya
-nalt .u luonto li .a ya
-sant .u taide li .a ya
-sint .u tuntea li .a ya
-suyt .u kieliopin-aihe li .a ya
-timp .u jännittynyt li .a ya
-tink .u teksti li .a ya
-tiwk .u toiminta li .a ya
-tisk .u edistyminen li .a ya
-tuym .u maailma li .a ya
-tamk .u katso li .a ya
-tanp .u näyttää li .a ya
-tack .u kiittää li .a ya
-tuwm .u kesto li .a ya
-liyt .u kirjallisuus li .a ya
-liyn .u linja li .a ya
-lint .u sisällä li .a ya
-lank .u väri li .a ya
-lunt .u ihmiset li .a ya
-luwt .u luuttu li .a ya
-tick .u sanakirja li .a ya
-cinp .u tiedot li .a ya
+hi li hu olla li ha ya
+ha li hu ob li ha ya
+hu li hu su li ha ya
+mi li hu minua li ha ya
+ma li hu mitä li ha ya
+mu li hu maskuliininen li ha ya
+ki li hu ja li ha ya
+ka li hu kuten li ha ya
+ku li hu jos li ha ya
+yi li hu tämä li ha ya
+ya li hu ya li ha ya
+yu li hu sinua li ha ya
+pi li hu of li ha ya
+pa li hu että li ha ya
+pu li hu teki li ha ya
+wi li hu me li ha ya
+wa li hu tai li ha ya
+wu li hu mukaan li ha ya
+ni li hu sisään li ha ya
+na li hu numero li ha ya
+nu li hu nyt li ha ya
+si li hu ne li ha ya
+sa li hu se li ha ya
+su li hu alkaen li ha ya
+ti li hu tha li ha ya
+ta li hu kohteeseen li ha ya
+tu li hu sinut li ha ya
+li li hu li li ha ya
+la li hu hei li ha ya
+lu li hu monikko li ha ya
+fi li hu naisellinen li ha ya
+fa li hu noin li ha ya
+fu li hu tahtoa li ha ya
+ci li hu eh? li ha ya
+ca li hu neutri li ha ya
+mya li hu ehkä li ha ya
+mwa li hu kanssa li ha ya
+kyi li hu ehdollisesti li ha ya
+kya li hu syrjään li ha ya
+kyu li hu koska li ha ya
+kwa li hu että-mikä li ha ya
+ksa li hu lainaus-päättyy li ha ya
+kli li hu häntä li ha ya
+kla li hu mutta li ha ya
+klu li hu lauseke-hännän li ha ya
+kca li hu ha li ha ya
+pya li hu päällä li ha ya
+pwa li hu yaor li ha ya
+psu li hu alkaen-lähdekoodin li ha ya
+pli li hu esimerkiksi li ha ya
+pca li hu hilpeä li ha ya
+nyi li hu ei li ha ya
+nya li hu nimittäin li ha ya
+sya li hu yksikkö li ha ya
+syi li hu hyvin li ha ya
+syu li hu joten li ha ya
+swi li hu kun-taas li ha ya
+sla li hu hei li ha ya
+tyi li hu lainaus li ha ya
+twu li hu kaksois- li ha ya
+tsa li hu untill li ha ya
+tsi li hu kyllä li ha ya
+tsu li hu ulos li ha ya
+tla li hu varten li ha ya
+fyi li hu hänen li ha ya
+twa li hu sitten li ha ya
+tli li hu ord li ha ya
+min hu vähemmän li ha ya
+mik hu tehdä li ha ya
+miy hu odota li ha ya
+mip hu ohi li ha ya
+mit hu keskimmäinen li ha ya
+mak hu sana li ha ya
+man hu ajatella li ha ya
+mas hu massa li ha ya
+mun hu uros li ha ya
+mat hu äiti li ha ya
+mac hu kone li ha ya
+mut hu auttaa li ha ya
+mul hu täysi li ha ya
+kim hu vertailla li ha ya
+kiy hu mennä li ha ya
+kip hu kykenee li ha ya
+kin hu tärkein li ha ya
+kam hu tulla li ha ya
+kis hu korkea li ha ya
+kit hu ääri li ha ya
+kap hu pää li ha ya
+kan hu tietää li ha ya
+kas hu syy li ha ya
+kaf hu katodi li ha ya
+kuy hu kasvaa li ha ya
+kat hu saada li ha ya
+kal hu kaikki li ha ya
+kum hu kauppa li ha ya
+kus hu ruoka li ha ya
+kuc hu pieni li ha ya
+yis hu kirjoittaa li ha ya
+kup hu ostaa li ha ya
+kun hu punainen li ha ya
+yik hu romuttaa li ha ya
+yum hu raaja li ha ya
+yat hu lukea li ha ya
+yun hu vähentää li ha ya
+yak hu jotkut li ha ya
+yac hu leveys li ha ya
+pis hu lisääntyä li ha ya
+pit hu valkoinen li ha ya
+pic hu kusta li ha ya
+yus hu käyttö li ha ya
+pay hu lisää li ha ya
+yul hu koko li ha ya
+pam hu hyvä li ha ya
+pas hu kulkea li ha ya
+pak hu elin li ha ya
+paw hu paikka li ha ya
+pan hu tavata li ha ya
+pus hu kakka li ha ya
+pat hu isä li ha ya
+pal hu monet li ha ya
+puk hu huono li ha ya
+win hu voitto li ha ya
+pac hu ilo li ha ya
+puy hu lapsi li ha ya
+put hu myydä li ha ya
+pul hu sininen li ha ya
+wap hu pyrstö li ha ya
+wan hu rakkaus li ha ya
+wut hu valo li ha ya
+niy hu pitää li ha ya
+wat hu puhua li ha ya
+wul hu iso li ha ya
+nay hu hengittää li ha ya
+nim hu nimi li ha ya
+nat hu yö li ha ya
+nut hu anodi li ha ya
+nit hu netto li ha ya
+nic hu energia li ha ya
+sip hu siemailla li ha ya
+nuy hu uusi li ha ya
+sit hu sarja li ha ya
+nam hu numero li ha ya
+sim hu samanlainen li ha ya
+naw hu nykyinen li ha ya
+saw hu musta li ha ya
+sik hu korkeus li ha ya
+sil hu helppo li ha ya
+nul hu tyhjä li ha ya
+suy hu menettää li ha ya
+sap hu yksinkertainen li ha ya
+say hu sanoa li ha ya
+sam hu sama li ha ya
+tim hu joukkue li ha ya
+tik hu pitää li ha ya
+san hu itse li ha ya
+sat hu kuulostaa li ha ya
+sup hu maksaa li ha ya
+tis hu hengittää-sisään li ha ya
+sut hu koko li ha ya
+tiy hu päivä li ha ya
+tip hu alkaa li ha ya
+til hu alhainen li ha ya
+tin hu nähdä li ha ya
+tam hu aihe li ha ya
+tak hu lisätä li ha ya
+tuk hu juoma li ha ya
+tay hu laittaa li ha ya
+tap hu koskettaa li ha ya
+tan hu antaa li ha ya
+tas hu valita li ha ya
+tup hu syvyys li ha ya
+tum hu lämpötila li ha ya
+fin hu naaras li ha ya
+tuf hu vaikea li ha ya
+fit hu sovittaa li ha ya
+tul hu työkalu li ha ya
+lik hu sähkö-maksu li ha ya
+lin hu pituus li ha ya
+ciy hu vihreä li ha ya
+cif hu jakautua li ha ya
+lis hu elää li ha ya
+lit hu glyph li ha ya
+fut hu tulevaisuus li ha ya
+myut hu tuonti li ha ya
+cim hu kuulla li ha ya
+cik hu harvat li ha ya
+myit hu muistaa li ha ya
+cak hu asia li ha ya
+can hu mahdollisuus li ha ya
+myun hu työllistää li ha ya
+cal hu liikkua li ha ya
+myan hu pehmeä li ha ya
+kyim hu peli li ha ya
+myat hu matematiikka li ha ya
+kyip hu vaatteet li ha ya
+myul hu moraalinen li ha ya
+kwit hu painovoima li ha ya
+kwat hu hoito li ha ya
+myin hu unelma li ha ya
+kyus hu hauska li ha ya
+kyil hu ympyrä li ha ya
+kyin hu yleinen li ha ya
+kyap hu kopio li ha ya
+kyup hu ryhmä li ha ya
+ksat hu tarkka li ha ya
+kyat hu kova li ha ya
+ksil hu kristalli li ha ya
+kyul hu sääntö li ha ya
+kwal hu kieli li ha ya
+ksip hu pääsy li ha ya
+ksam hu tumma li ha ya
+ksin hu konteksti li ha ya
+ksal hu galaxy li ha ya
+ksap hu ilmaista li ha ya
+ksan hu järjestää li ha ya
+ksum hu tiedottaa li ha ya
+kliy hu kirkas li ha ya
+klin hu elektroni li ha ya
+ktin hu uskonto li ha ya
+kcat hu kahdeksan li ha ya
+pyik hu tauko li ha ya
+ksut hu kerätä li ha ya
+pyit hu neljä li ha ya
+ksul hu koulu li ha ya
+klaw hu nauraa li ha ya
+pyaw hu pari li ha ya
+klas hu luokka li ha ya
+klat hu lauseke li ha ya
+kcim hu kemiallinen li ha ya
+klac hu paitsi li ha ya
+pyil hu valitus li ha ya
+kfin hu config li ha ya
+pyas hu nopeasti li ha ya
+pyin hu kokemus li ha ya
+pyam hu ohjelma li ha ya
+pyat hu nopea li ha ya
+pyan hu pronomini li ha ya
+pyut hu protoni li ha ya
+psil hu loitsu li ha ya
+pyul hu kiehua li ha ya
+pwas hu vastaus li ha ya
+pwil hu muuttuja li ha ya
+pwut hu hyväksyä li ha ya
+psiy hu paine li ha ya
+pyuf hu todiste li ha ya
+psit hu nopeus li ha ya
+pyuc hu hanke li ha ya
+psan hu tila li ha ya
+psat hu pinta li ha ya
+pfis hu etusija li ha ya
+psal hu purje li ha ya
+nyip hu peili li ha ya
+psun hu lähde li ha ya
+psut hu lupaus li ha ya
+nyat hu astua li ha ya
+plum hu ongelma li ha ya
+plam hu plasma li ha ya
+plin hu pinta li ha ya
+nyul hu rulla li ha ya
+syim hu seitsemän li ha ya
+pfal hu epäonnistua li ha ya
+syip hu puhdas li ha ya
+pcit hu arvostaa li ha ya
+pcil hu erityinen li ha ya
+plan hu suunnitelma li ha ya
+plat hu planeetta li ha ya
+syan hu syaani li ha ya
+pfus hu bussi li ha ya
+plis hu lähistöllä li ha ya
+swit hu kytkin li ha ya
+play hu pelata li ha ya
+nlic hu Englanti li ha ya
+syic hu tutkimus li ha ya
+syam hu jäädä li ha ya
+nyit hu yksikkö li ha ya
+nyus hu ionize li ha ya
+slin hu yksittäinen li ha ya
+nyut hu neutroni li ha ya
+nyis hu viite li ha ya
+syat hu vankka li ha ya
+tyik hu rappeutuminen li ha ya
+syut hu tuki li ha ya
+syun hu maailmankaikkeus li ha ya
+swil hu sielu li ha ya
+swat hu vesi li ha ya
+swuy hu kysymys li ha ya
+swun hu uni li ha ya
+syit hu lähettää li ha ya
+tyif hu arvoinen li ha ya
+syak hu hereillä li ha ya
+slof hu sanasto li ha ya
+slam hu sublimoida li ha ya
+tkun hu Kiina li ha ya
+tyip hu jälleen li ha ya
+tyap hu yrittää li ha ya
+tyaw hu ajatus li ha ya
+tyas hu heittää li ha ya
+tyic hu suunta li ha ya
+slim hu esimerkki li ha ya
+tyus hu tapaus li ha ya
+tkic hu käännös-sanakirja li ha ya
+twif hu adjektiivi li ha ya
+tyis hu siirtyminen li ha ya
+tsik hu kuusi li ha ya
+tsiy hu tarina li ha ya
+tsip hu vaihe li ha ya
+tyuc hu opettaa li ha ya
+tyil hu kylmä li ha ya
+tyam hu atomi li ha ya
+tyak hu huutaa li ha ya
+tyim hu vapista li ha ya
+tyin hu kolme li ha ya
+tyan hu jono li ha ya
+tyup hu robotti li ha ya
+tsiw hu satelliitti li ha ya
+twis hu totta li ha ya
+tsim hu yhdessä li ha ya
+tsin hu opetus li ha ya
+tsuy hu istua li ha ya
+tsak hu hyökkäys li ha ya
+tsan hu opiskelija li ha ya
+tsil hu ansaita li ha ya
+tsay hu tähti li ha ya
+tsam hu tarkoitus li ha ya
+tsum hu tutkimus li ha ya
+tlas hu ruokalaji li ha ya
+tsap hu omaisuus li ha ya
+tsal hu valtio li ha ya
+tsaf hu maku li ha ya
+tsul hu aikuinen li ha ya
+tful hu kaksi li ha ya
+tsuk hu myymälä li ha ya
+tlis hu halu li ha ya
+tcap hu läpinäkyvä li ha ya
+tlik hu sähkö li ha ya
+tlin hu järjestysluku li ha ya
+tlun hu triple-piste li ha ya
+tfim hu väliaikainen li ha ya
+tfin hu yksittäinen li ha ya
+fwap hu viisi li ha ya
+tfak hu lika li ha ya
+tlam hu käännös li ha ya
+flan hu tulva li ha ya
+flat hu litteä li ha ya
+tcil hu vankila li ha ya
+tfus hu vahinko li ha ya
+tcin hu ketju li ha ya
+tcun hu teho li ha ya
+tlan hu perinne li ha ya
+tfal hu tiedosto li ha ya
+flay hu lentää li ha ya
+tcan hu puu li ha ya
+fwas hu vaihe li ha ya
+mink hu mieli li ha ya
+fyas hu lauseke li ha ya
+cyin hu oppia li ha ya
+fwil hu voima li ha ya
+flit hu huilu li ha ya
+clin hu yhteys li ha ya
+mayn hu harmonia li ha ya
+flut hu kukka li ha ya
+mant hu purppura li ha ya
+miyt hu tietoinen li ha ya
+fluc hu virtaus li ha ya
+clut hu ylikriittinen-neste li ha ya
+clum hu virke li ha ya
+miyk hu lähettää li ha ya
+mist hu mitata li ha ya
+milt hu sulaa li ha ya
+musk hu musiikki li ha ya
+mayp hu kartta li ha ya
+mans hu ihmisen li ha ya
+mayt hu kuvitteellinen-yksikkö li ha ya
+mast hu asia li ha ya
+kiyn hu yksi li ha ya
+kint hu muuntaa li ha ya
+miwk hu henkilö li ha ya
+must hu useimmat li ha ya
+munk hu mahdollinen li ha ya
+munt hu mieliala li ha ya
+mint hu menetelmä li ha ya
+muyt hu liittolainen li ha ya
+malt hu materiaali li ha ya
+mack hu kuvitella li ha ya
+muys hu tunne li ha ya
+kiyp hu paperi li ha ya
+kant hu vakio li ha ya
+kasp hu saalis li ha ya
+kast hu luoda li ha ya
+mult hu modulo li ha ya
+kift hu antaa-anteeksi li ha ya
+kisp hu eksponentti li ha ya
+kays hu kieliopin-tapaus li ha ya
+kayn hu flow-nykyinen li ha ya
+kayt hu kuuma li ha ya
+kaws hu kaasu li ha ya
+kimt hu roikkua li ha ya
+kaft hu vahvistaa li ha ya
+kump hu monimutkainen li ha ya
+kumt hu komento li ha ya
+kamt hu kielioppi li ha ya
+yinp hu paluu li ha ya
+kuym hu yhteinen li ha ya
+kuyn hu konjugaatio li ha ya
+yilk hu keltainen li ha ya
+yawt hu vahinko li ha ya
+kuyt hu kriittisen-pisteen li ha ya
+kuls hu julma li ha ya
+kusp hu romahdus li ha ya
+kust hu vakio li ha ya
+yist hu vienti li ha ya
+yimt hu rytmi li ha ya
+kuwt hu koodi li ha ya
+piyn hu lausunto li ha ya
+yink hu rengas li ha ya
+yasp hu työ li ha ya
+yamt hu ihailla li ha ya
+kunt hu ohjaus li ha ya
+kult hu kulttuuri li ha ya
+yalt hu varhainen li ha ya
+yilt hu Eulers-numero li ha ya
+yusk hu itään li ha ya
+yask hu reaktio li ha ya
+yuyp hu Eurooppa li ha ya
+yunt hu kontti li ha ya
+yast hu ilmaiseksi li ha ya
+yimk hu kysyä li ha ya
+pist hu lupa li ha ya
+yalk hu ajoneuvo li ha ya
+yulp hu rooli li ha ya
+piys hu pii li ha ya
+pamt hu pysyvä li ha ya
+pays hu pohja li ha ya
+yult hu hyödyllisyys li ha ya
+puyk hu kieliopin-objekti li ha ya
+panp hu leipä li ha ya
+nist hu yhdeksän li ha ya
+past hu tuottaa li ha ya
+pant hu lainata li ha ya
+nuys hu melu li ha ya
+punt hu piste li ha ya
+nuls hu nolla li ha ya
+pust hu pöly li ha ya
+pack hu nauttia li ha ya
+siyt hu ehdottaa li ha ya
+nims hu animismista li ha ya
+pult hu vanha li ha ya
+sift hu muutos li ha ya
+sayk hu viisas li ha ya
+nilt hu älykkyys li ha ya
+nast hu korko li ha ya
+nuyt hu pohjoiseen li ha ya
+nusp hu unohtaa li ha ya
+wiyp hu verbi li ha ya
+sanp hu pidentää li ha ya
+wins hu Venus li ha ya
+wuym hu tilavuus li ha ya
+wint hu tuuli li ha ya
+tiyk hu kymmenen li ha ya
+tiyn hu jatkaa li ha ya
+siyn hu näyttää li ha ya
+niyt hu nnen-root li ha ya
+niym hu substantiivi li ha ya
+tiws hu teatteri li ha ya
+nuks hu unix li ha ya
+nust hu ilmoitus li ha ya
+sunt hu etelä li ha ya
+sulc hu ratkaisu li ha ya
+sark hu sarkasmi li ha ya
+nuft hu vihamielinen li ha ya
+tiym hu myöhässä li ha ya
+simt hu raja li ha ya
+nalt hu luonto li ha ya
+sayt hu nopeus-of-light li ha ya
+tiyf hu ajaa li ha ya
+sant hu taide li ha ya
+sint hu tuntea li ha ya
+suyt hu kieliopin-aihe li ha ya
+tawk hu viranomaisen li ha ya
+tiys hu etäisyys li ha ya
+tink hu teksti li ha ya
+timp hu jännittynyt li ha ya
+tisk hu teksti li ha ya
+tinp hu kultainen-suhde li ha ya
+tiwk hu toiminta li ha ya
+tisp hu edustaa li ha ya
+tayk hu liittää li ha ya
+tuym hu maailma li ha ya
+liys hu vapaus li ha ya
+task hu tehtävä li ha ya
+tank hu äkillinen li ha ya
+taym hu aika li ha ya
+talp hu pöytä li ha ya
+tuys hu varas li ha ya
+lisk hu loma li ha ya
+tukc hu Turkki li ha ya
+tayn hu alue li ha ya
+layt hu yksitoista li ha ya
+lank hu paikallinen li ha ya
+tunk hu aivot li ha ya
+tusk hu edistyminen li ha ya
+tamk hu katso li ha ya
+liwk hu oikeudellinen li ha ya
+tanp hu näyttää li ha ya
+tack hu kiittää li ha ya
+tuwm hu kesto li ha ya
+fayt hu tosiasia li ha ya
+list hu vähiten li ha ya
+fals hu väärä li ha ya
+falt hu oletusarvo li ha ya
+funk hu toiminto li ha ya
+lant hu hidas li ha ya
+fult hu hotelli li ha ya
+liyk hu neste li ha ya
+liwt hu lahja li ha ya
+liyt hu kirjallisuus li ha ya
+fint hu löytää li ha ya
+liyn hu linja li ha ya
+layk hu järvi li ha ya
+link hu linkki li ha ya
+faym hu maatila li ha ya
+lint hu sisällä li ha ya
+fans hu Ranska li ha ya
+lumk hu logaritmi li ha ya
+lunt hu ihmiset li ha ya
+fuym hu muoto li ha ya
+funm hu foneemi li ha ya
+lunp hu silmukka li ha ya
+luwt hu luuttu li ha ya
+tick hu sanakirja li ha ya
+budz hu Buddhalaisuus li ha ya
+cinp hu tiedot li ha ya

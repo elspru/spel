@@ -9,7 +9,7 @@ var TopClause = require("./topClause");
 var err = require("../lib/error");
 module.exports = Sentence;
 /// su sentence be object ya
-function Sentence(language, input, conjugationLevel) {
+function Sentence(language, input, conjLevel) {
 this.be = "Sentence";
 var tokens, i;
 if (typeof input === "string"){
@@ -20,16 +20,18 @@ this.phrases = new Array();
 for (i=0; i< input.phrases.length; i++){
 if (input.phrases[i].be === "Phrase")
 this.phrases[i]= new Phrase(language,
-input.phrases[i],conjugationLevel);
+input.phrases[i],conjLevel);
 else if (input.phrases[i].be === "Junction")
 this.phrases[i]= new Junction(language, input.phrases[i]);
 else if (input.phrases[i].be === "TopClause")
 this.phrases[i] = new TopClause(language, input.phrases[i]);
 }
-if (input.endWords)
-this.endWords= new Word(language, input.endWords);
+if (input.head)
+this.head= new Word(language, input.head);
 if (input.mood !== undefined)
 this.mood = new Word(language, input.mood);
+if (input.nominal !== undefined)
+this.nominal = input.nominal;
 return this;
 }
 else if (Array.isArray(input)) tokens = input;
@@ -37,7 +39,7 @@ else throw new TypeError(input +" is not a valid Phrase input");
 
 // algorithm de
 // 
-// if conjugationLevel set then disconjugate ya
+// if conjLevel set then disconjugate ya
 // be extract ob quotes ya
 // be get ob last case word index ya
 // be get ob last word or mood word of sentence ya
@@ -49,11 +51,11 @@ else throw new TypeError(input +" is not a valid Phrase input");
 // if intransitive and intransitiveWord set
 // then adjust accordingly ya
 // be set ob many part of this ya
-// if conjugationLevel set then disjugate ya
-if (conjugationLevel){
+// if conjLevel set then disjugate ya
+if (conjLevel){
 var string = tokens.join(" ");
 var disjug =
-translate.disjugate(language,string,conjugationLevel);
+translate.disjugate(language,string,conjLevel);
 tokens = tokenize.stringToWords(disjug);
 }
 // extract quotes
@@ -174,19 +176,36 @@ thePhraseI[1]-thePhraseI[0]); }
 // intransitives have 2 phrases, one of which is a verb ya
 var intransitiveWord = wordOrder.intransitiveWord;
 if (phrases.length === 2 && intransitiveWord)
-if (phrases[1].head.head === ".i"
+if (phrases[1].head.head === "hi"
 && phrases[0].head.head === intransitiveWord)
-phrases[0].head.head = ".u";
-else if (phrases[0].head.head === ".i"
+phrases[0].head.head = "hu";
+else if (phrases[0].head.head === "hi"
 && phrases[1].head.head === intransitiveWord)
-phrases[1].head.head = ".u";
+phrases[1].head.head = "hu";
 
 // be set ob many part of this ya
 this.phrases = phrases;
 if (mood && mood.length>0)
 this.mood = new Word(language,mood);
 if (lastWord && lastWord.length>0)
-this.endWords = new Word(language,lastWord);
+this.head = new Word(language,lastWord);
+
+var verbIndex = this.phrases.find(function(phrase){
+if (/* phrase.be === "TopClause"*/
+ phrase.head.head === "hi" 
+&& phrase.body 
+&& phrase.body.body
+|| phrase.head.head === "fa" 
+&& phrase.head.body
+&& phrase.head.body.head === "hi" 
+&& phrase.head.body.body
+&& phrase.head.body.body.body)
+return true;
+else return false;
+});
+if (verbIndex === null)
+this.nominal = true;
+
 return this;
 }// su sentence be end of constructor function ya
 
@@ -203,8 +222,8 @@ function sentenceInputToMatch(language, input){
 }
 Sentence.prototype.isSubset = function(language,input){
 	var match = sentenceInputToMatch(language,input);
-	if (this.endWords &&
-		!this.endWords.isSubset(match.endWords))
+	if (this.head &&
+		!this.head.isSubset(match.head))
 		return false;
 	// check phrases are a subset
 	var thisPhrases = this.phrases;
@@ -219,8 +238,8 @@ Sentence.prototype.isSubset = function(language,input){
 }
 Sentence.prototype.isSuperset= function(language,input){
 var match = sentenceInputToMatch(language,input);
-if (this.endWords && 
-	!this.endWords.isSuperset(match.endWords))
+if (this.head && 
+	!this.head.isSuperset(match.head))
 	return false;
 // check phrases are a subset
 var thisPhrases = this.phrases;
@@ -257,14 +276,18 @@ if (Array.isArray(cases)){
 	caseWord = tokenize.stringToWords(cases);
 }else throw new TypeError("unsupported type:"+cases);
 var i, phrase,
-    phrases = this.phrases,
-    length = phrases.length;
+phrases = this.phrases,
+length = phrases.length;
+var result = -1;
 for (i=0;i<length;i++){
 phrase = phrases[i];
 if(phrase.be === "Junction"
 && phrase.body[0].head.isLike(language,caseWord)
-||phrase.head.isLike(language,caseWord)) return i; }
-return -1;
+||phrase.head.isLike(language,caseWord)) {
+result = i; break; } 
+}
+return result;
+
 }
 /// su phraseGet be get bo phrase by cases ya
 
@@ -354,7 +377,7 @@ JSON.parse(JSON.stringify(this)));
 Sentence.prototype.toString = function(format){
 	var joiner = ' ';
 	var mood = this.mood;
-	var endWords = this.endWords;
+	var endWords = this.head;
 	var ender = '';
 	//if (tokenize.isTokens(endWords)){
 	//	joiner = "";
@@ -376,8 +399,8 @@ result += simpleClauseTermMaybeAdd(format,phrases[i],i);
 };
 
 
-Sentence.prototype.toLocaleString = function(language,format,
-conjugationLevel){
+Sentence.prototype.toLocaleString = 
+function(language,format,type,conjLevel){
 // be convert bo sentence to language with format de
 // algorithm:
 // be set ob joiner and ender from format ya
@@ -425,25 +448,44 @@ conjugationLevel){
 
 // be set bo joiner and ender from format ya
 	var joiner = ' ';
-	var ender = '';
+if (format && format.joiner!==undefined) joiner = format.joiner;
+var ender = '';
 //var newline = '\n';
 //if (newline && format.newline) newline = format.newline;
 // be set bo empty string for translation result ya
 	var result = new String();
 // be clone bo this sentence to working sentence ya
-var sentence = this.copy(language);
 var grammar = language.grammar;
 var wordOrder = grammar.wordOrder;
 var topClauseTerm = 
 new Word(language, grammar.topClauseTerminator[0]);
 var conj = new Object;
-if (conjugationLevel >= 3) conj = language.grammar.conjugation;
+
+if (conjLevel >= 3) conj = language.grammar.conjugation;
+// if cant find verb, then is nominal sentence
+if (conj.nominal){
+if (this.nominal)
+return conj.nominal(language,this,format,type,conjLevel);
+}
+if (conj.sentence) 
+return conj.sentence(language,this,format,type,conjLevel);
+
+var verbPhrase = new String();
+if (conj.verbAgreement){
+verbPhrase = 
+conj.verbAgreement(language,this,format,type,conjLevel);
+}
+
+if (conj && conj.format && conj.format.joiner !== undefined) {
+joiner = conj.format.joiner;}
+
+var sentence = this.copy(language);
 
 var mood = this.mood;
 var moodPhrase = new String();
 if (mood)
 moodPhrase =
-mood.toLocaleString(language,format,"mh",conjugationLevel);
+mood.toLocaleString(language,format,"mh",conjLevel);
 //if (conj.mood) moodPhrase = conj.mood(moodPhrase);
 
 var phraseJoiner = new String();
@@ -456,11 +498,11 @@ var nextTopClause = false;
 // accordingly ya
 var phrases = sentence.phrases;
 if (phrases.length === 2 && wordOrder.intransitiveWord)
-if (phrases[1].head.head === ".i"
-&& phrases[0].head.head === ".u")
+if (phrases[1].head.head === "hi"
+&& phrases[0].head.head === "hu")
 phrases[0].head.head = wordOrder.intransitiveWord;
-else if (phrases[0].head.head === ".i"
-&& phrases[1].head.head === ".u")
+else if (phrases[0].head.head === "hi"
+&& phrases[1].head.head === "hu")
 phrases[1].head.head = wordOrder.intransitiveWord;
 
 
@@ -486,6 +528,15 @@ var topicArray = topicPair[0];
 var sentence = topicPair[1];
 if (topicArray.length > 0) pendingPrepends = true;
 
+
+// if subject prominent then subject front ya
+if (wordOrder.subjectProminent===true){
+var subjectPair = subjectFront(language,sentence);
+var subjectArray = subjectPair[0];
+var sentence = subjectPair[1];
+if (subjectArray.length > 0) pendingPrepends = true;
+}
+
 // be wh front ob the types with interrogative pronoun ya
 var whPair = whFront(language,sentence);
 var whArray = whPair[0];
@@ -493,20 +544,58 @@ var sentence = whPair[1];
 if (whArray.length > 0) pendingPrepends = true;
 
 
-// if subject prominent then subject front ya
-if (wordOrder.subjectProminent){
-var subjectPair = subjectFront(language,sentence);
-var subjectArray = subjectPair[0];
-if (subjectArray.length>0){
+var headFinal = wordOrder.headFinal;
+
+// be start of loop for each phrase in language phrase order de
+var phraseOrder = wordOrder.phraseOrder;
+var phraseOrderLength = phraseOrder.length;
+var phrases = sentence.phrases;
 var i;
-for (i = 0; i<subjectArray.length; i++)
-var subject =
-clauseTermMaybeAdd(language,format,subjectArray[i],
-conjugationLevel,result.length, sentence.phrases, pendingPrepends);
-if(conj.subject) subject = conj.subject(subject);
-result += subject;
+var phraseIndex = -1;
+var prevTopClause = false;
+var phraseTrans = new String();
+
+
+for (i=0; i<phraseOrderLength; i++){
+// be get bo phrase from working sentence ya 
+phraseIndex = sentence.indexOf(language,phraseOrder[i]);
+if (phraseOrder[i]===grammar.verbWord && verbPhrase.length > 0) 
+phraseTrans = verbPhrase;
+else {
+// if found then
+if (phraseIndex !== -1){
+// be may add ob clause term to phrase translation ya
+var phrase = phrases[phraseIndex];
+phraseTrans = 
+clauseTermMaybeAdd(language,phrase, format,type, conjLevel, 
+result.length, sentence.phrases, pendingPrepends);
+if (wordOrder.postpositional === false){
+// if su prevTopClause boolean be set and su this be phrase
+//	then be prepend ob clauseTerm to result ya
+if (prevTopClause && phrase.be === "Phrase")
+phraseTrans = 
+topClauseTerm.toLocaleString(language, format, "jh",
+conjLevel)
++ joiner + phraseTrans;
+// if be top clause then be set ob prevTopClause boolean ya
+if ( phrase.be === "TopClause"){
+prevTopClause = true;
 }
-var sentence = subjectPair[1];
+// else if  be phrase then be unset ob prevTopClause boolean ya
+else if (phrase.be === "Phrase")
+prevTopClause = false;}
+}}
+
+if (phraseTrans.length > 0){
+// be append ob it to result ya and
+result +=  phraseTrans;
+// be delete ob phrase from sentence ya
+if (phraseIndex !== -1)
+sentence.byIndexPhraseDelete(phraseIndex);
+}
+phraseTrans = "";
+
+// be end of loop for phrase order ya
 }
 
 
@@ -527,57 +616,18 @@ for(i=0;i<resultTailArray.length;i++){
 if (i === resultTailArray.length-1) isNotLast = false;
 var phrase = resultTailArray[i];
 resultTail+= 
-clauseTermMaybeAdd(language,format,phrase,conjugationLevel, 
+clauseTermMaybeAdd(language,phrase,format,type,conjLevel, 
 result.length, sentence.phrases, pendingPrepends, isNotLast);
 if (wasVerb && isNotLast) resultTail += phraseJoiner;
-if (phrase.head.head === ".i"){ wasVerb = true; }
+if (phrase.head.head === "hi"){ wasVerb = true; }
 
 
 }
 
 sentence = performancePair[1];
 
-var headFinal = wordOrder.headFinal;
 
-// be start of loop for each phrase in language phrase order de
-var orderPhrases = wordOrder.phraseOrder;
-var orderPhrasesLength = orderPhrases.length;
-var phrases = sentence.phrases;
-var i;
-var phraseIndex = -1;
-var prevTopClause = false;
-for (i=0; i<orderPhrasesLength; i++){
-// be get bo phrase from working sentence ya 
-phraseIndex = sentence.indexOf(language,orderPhrases[i]);
-// if found then
-if (phraseIndex !== -1){
-// be may add ob clause term to phrase translation ya
-var phrase = phrases[phraseIndex];
-var phraseTrans = 
-clauseTermMaybeAdd(language,format,phrase, conjugationLevel, 
-result.length, sentence.phrases, pendingPrepends);
-if (wordOrder.postpositional === false){
-// if su prevTopClause boolean be set and su this be phrase
-//	then be prepend ob clauseTerm to result ya
-if (prevTopClause && phrase.be === "Phrase")
-phraseTrans = 
-topClauseTerm.toLocaleString(language, format, "jh",
-conjugationLevel)
-+ joiner + phraseTrans;
-// if be top clause then be set ob prevTopClause boolean ya
-if (phrase.be === "TopClause"){
-prevTopClause = true;
-}
-// else if  be phrase then be unset ob prevTopClause boolean ya
-else if (phrase.be === "Phrase")
-prevTopClause = false;}
-// be append ob it to result ya and
-result +=  phraseTrans;
-// be delete ob phrase from sentence ya
-sentence.byIndexPhraseDelete(phraseIndex);
-}
-// be end of loop ya
-}
+
 //
 // be loop for each phrase in working sentence de
 var phrasesLength = phrases.length;
@@ -586,19 +636,36 @@ for (i=0; i<phrasesLength; i++){
 // be append bo phrase translation to result ya
 if (headFinal === false){
 result +=
-phrases[i].toLocaleString(language,format,undefined, 
-conjugationLevel);}
+phrases[i].toLocaleString(language,format,type, 
+conjLevel);}
 // if head final
 // be prepend
 else if (headFinal){
-result = phrases[i].toLocaleString(language,format,undefined,
-conjugationLevel) +result;}
+result = phrases[i].toLocaleString(language,format,type,
+conjLevel) +result;}
 }
 if (clauseInitial)
 result = resultTail + result;
 else if (clauseInitial === false)
 result += resultTail;
 // 
+
+
+
+// prepend subject
+if (subjectArray && subjectArray.length>0){
+var i;
+for (i = 0; i<subjectArray.length; i++){
+if (topicArray.length >0 || vocativeArray.length > 0
+|| whArray.length || subjectArray.length -i > 1)
+pendingPrepends = true; else false;
+var subject =
+clauseTermMaybeAdd(language,subjectArray[i],format,type,
+conjLevel,result.length, sentence.phrases, pendingPrepends);
+if(conj.subject) subject = conj.subject(subject);
+result = subject + result;
+}
+}
 
 // prepend wh
 if (whArray.length>0){
@@ -608,7 +675,7 @@ if (topicArray.length >0 || vocativeArray.length > 0
 || whArray.length-i > 1)
 pendingPrepends = true; else false;
 result = 
-clauseTermMaybeAdd(language,format,whArray[i], conjugationLevel, 
+clauseTermMaybeAdd(language,whArray[i],format,type, conjLevel, 
 result.length, sentence.phrases, pendingPrepends, true) + result;}
 }
 
@@ -619,8 +686,8 @@ for (i = 0; i<topicArray.length; i++){
 if (vocativeArray.length > 0 || (topicArray.length-i) > 1)
 pendingPrepends = true; else pendingPrepends = false;
 result =
-clauseTermMaybeAdd(language,format,topicArray[i],
-conjugationLevel, result.length, sentence.phrases, 
+clauseTermMaybeAdd(language,topicArray[i],format,type,
+conjLevel, result.length, sentence.phrases, 
 pendingPrepends, true) + result;}
 }
 // append topic if topicFinal
@@ -628,16 +695,21 @@ if (topicArray.length>0 && wordOrder.topicInitial === false){
 var i;
 for (i = 0; i<topicArray.length; i++){
 result += topicArray[i].toLocaleString(language,format,
-undefined, conjugationLevel);
+type, conjLevel);
 }
 }
 
-// append topClause if topClauseFinal
+var grammar = language.grammar;
 if (topClauseArray.length>0 ){
 var i;
-for (i = 0; i<topClauseArray.length; i++){
+var len = topClauseArray.length;
+for (i = 0; i<len; i++){
+if (wordOrder.clauseInitial)
+result = topClauseArray[len-(i+1)].toLocaleString(language,format,
+type, conjLevel) + result;
+else if (wordOrder.clauseInitial === false)
 result += topClauseArray[i].toLocaleString(language,format,
-undefined, conjugationLevel);
+type, conjLevel);
 }
 }
 
@@ -648,8 +720,8 @@ for (i = 0; i<vocativeArray.length; i++){
 if ( vocativeArray.length-i > 1)
 pendingPrepends = true; else false;
 result =
-clauseTermMaybeAdd(language,format,vocativeArray[i],
-conjugationLevel, result.length, sentence.phrases, pendingPrepends, true) + result;}
+clauseTermMaybeAdd(language,vocativeArray[i],format,type,
+conjLevel, result.length, sentence.phrases, pendingPrepends, true) + result;}
 }
 
 
@@ -657,13 +729,13 @@ conjugationLevel, result.length, sentence.phrases, pendingPrepends, true) + resu
 if (mood && wordOrder.postpositional === true)
 result+=moodPhrase+joiner;
 // be translate bo end words ya 
-	if (this.endWords){
-var endWords = this.endWords.
-toLocaleString(language,format,"sh",conjugationLevel);
+	if (this.head){
+var endWords = this.head.
+toLocaleString(language,format,"sh",conjLevel);
 //if (conj.sentenceHead) endWords = conj.sentenceHead(endWords);
 
 // be append to result ya
-	result += endWords;
+	result = result.replace(/ $/,joiner)+endWords;
 	}
 // be append bo ender ya
 	result += ender;
@@ -673,15 +745,15 @@ if (mood && wordOrder.postpositional === false)
 result=moodPhrase+joiner+result;
 
 // if conjugation level set then be conjugate  ya
-if (conjugationLevel)
-result = translate.conjugate(language,result,conjugationLevel);
+if (conjLevel)
+result = translate.conjugate(language,result,conjLevel);
 // return result ya
 	return result;
 };
 
-function clauseTermMaybeAdd(language, format, phrase,
-conjugationLevel,
-resultLength, phrases, pendingPrepends, isInitial){
+function clauseTermMaybeAdd(language, phrase,format, type,
+conjLevel,
+resultLength, phrases, pendingPrepends, isFinal){
 // if clauseInitial and phrase has clause and result non zero
 // or pendingPrepends
 // then prepend clauseTerm translation ya
@@ -691,8 +763,8 @@ resultLength, phrases, pendingPrepends, isInitial){
 
 var phrasesLength = phrases.length;
 var phraseTrans =
-phrase.toLocaleString(language,format,undefined, 
-conjugationLevel);
+phrase.toLocaleString(language,format,type, 
+conjLevel);
 var clause = phrase.clause;
 var grammar = language.grammar;
 var clauseInitial = grammar.wordOrder.clauseInitial;
@@ -701,21 +773,21 @@ var joiner = " ";
 // if clauseInitial and phrase has clause and result non zero
 // or pendingPrepends
 if (clauseInitial && clause && ( pendingPrepends
-|| resultLength>0  && !isInitial)){
+|| resultLength>0  && isFinal)){
 // then prepend clauseTerm translation ya
 var clauseTerm = new Word(language,grammar.clauseTerminator[0]);
 return clauseTerm.toLocaleString(language,format,"lh",
-conjugationLevel)
+conjLevel)
 +joiner+phraseTrans;}
 
 // if clauseFinal and phrase has clause 
 // 	and phrases length is non zero
-else if ( clauseInitial===false && clause && isInitial !== false
-&& ((phrasesLength > 1) || isInitial && resultLength > 0 ) ) {
+else if ( clauseInitial===false && clause && isFinal !== false
+&& ((phrasesLength > 1) || isFinal && resultLength > 0 ) ) {
 // then append clauseTerm translation ya
 var clauseTerm = new Word(language,grammar.clauseTerminator[0]);
 return phraseTrans+
-clauseTerm.toLocaleString(language,format,"lh", conjugationLevel
+clauseTerm.toLocaleString(language,format,"lh", conjLevel
 )+joiner;}
 return phraseTrans; }
 
@@ -749,8 +821,8 @@ function performanceGrammar(sentence){
 // sort phrases by length comparison function
 var phrases = sentence.phrases;
 phrases.sort(function(first,second){
-return second.toString().split(" ").length 
-- first.toString().split(" ").length ;
+return second.toString().length 
+- first.toString().length ;
 });
 // get average by reduction
 var avg = phrases.reduce(function(previous, current){
@@ -759,7 +831,7 @@ var cur = current.toString().split(" ").length;
 return prev+cur;
 },0);
 var avg = (avg/phrases.length);
-var basis = (avg*1.618*2).toFixed();
+var basis = (avg*1.618*1).toFixed();
 // for each that has length greater than basis
 // add to result tail and splice from phrases
 var i;
@@ -767,7 +839,7 @@ var tail = new Array();
 for(i=0;i<phrases.length;i++){
 var phrase = phrases[i];
 if( phrase.toString().split(" ").length > basis
-|| phrase.clause){
+|| phrase.clause ){
 tail.push(phrases[i]);
 phrases.splice(i,1);
 i--;
@@ -875,9 +947,9 @@ function subjectFront(language,sentence){
 // return pair consisting of subject array and sentence ya
 function subjectMatch(phrase){
 if (phrase.head && phrase.head.head  
-&& (phrase.head.head === ".u"
+&& (phrase.head.head === "hu"
 || phrase.head.body 
-   && phrase.head.body[0] === ".u")) return true; 
+   && phrase.head.body[0] === "hu")) return true; 
 else return false; 
 }
 var phrases = sentence.phrases;

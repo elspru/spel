@@ -1,99 +1,77 @@
-.i li .u 是 li .a ya
-.a li .u 对象 li .a ya
-.u li .u 主题 li .a ya
-mi li .u 我 li .a ya
-ma li .u 什么 li .a ya
-ki li .u 和 .a ya
-ka li .u 它 li .a ya
-ku li .u 如果 li .a ya
-yi li .u 此 li .a ya
-yu li .u 你 li .a ya
-ya li .u 啊 li .a ya
-pi li .u 的 li .a ya
-pa li .u 这-事 li .a ya
-wi li .u 我们 li .a ya
-wa li .u 或 .a ya
-si li .u 他们 li .a ya
-nu li .u 现在 .a ya
-ti li .u 之 .a ya
-ta li .u 到 li .a ya
-tu li .u 尒 li .a ya
-li li .u 字面 li .a ya
-myi li .u 记忆 .a ya
-mwa li .u 同 li .a ya
-kyi li .u 有条件 .a ya
-kya li .u 旁白 li .a ya
-sa li .u 该 .a ya
-kca li .u 哈 li .a ya
-pli li .u 近 li .a ya
-pla li .u 复数 li .a ya
-pwa li .u 或者 .a ya
-plu li .u 为 li .a ya
-pca li .u 姁 li .a ya
-nya li .u 从 li .a ya
-sli li .u 例如 .a ya
-slu li .u 单数 li .a ya
-sla li .u 您好 li .a ya
-twa li .u 然后 li .a ya
-tli li .u 第 .a ya
-miy .u 等待 .a ya
-mip .u 过去 .a ya
-min .u 减 .a ya
-mak .u 字 .a ya
-mat .u 母亲 li .a ya
-man .u 想 li .a ya
-map .u 尺寸 .a ya
-kim .u 比较 .a ya
-kiy .u 去 .a ya
-kap .u 头 .a ya
-kan .u 知道 li .a ya
-kas .u 事业 li .a ya
-kal .u 所有 li .a ya
-kut .u minhmap .i 小 .a ya
-yik .u 否定 .a ya
-yan .u 说 li .a ya
-pam .u 良好 .a ya
-pak .u 体 .a ya
-pay .u 更多 .a ya
-paw .u 地方 .a ya
-pat .u 父亲 li .a ya
-pal .u 许多 li .a ya
-pan .u 见面 .a ya
-pac .u 欢乐 li .a ya
-puy .u 孩子 .a ya
-fut .u 未来 .a ya
-wan .u 爱 li .a ya
-wap .u 尾 .a ya
-wat .u 说话 li .a ya
-wul .u payhmap .i 大 .a ya
-nam .u 号码 .a ya
-naw .u 现时 .a ya
-sun .u 一 .a ya
-liy .u 四 li .a ya
-tuw .u 两 .a ya
-lit .u 字形 li .a ya
-cik .u minhnam .i 少数 .a ya
-caw .u 喊 li .a ya
-kyul .u 规则 li .a ya
-klaw .u 笑 li .a ya
-pyan .u 代词 .a ya
-pyas .u 短语 .a ya
-pyat .u 语法对象 .a ya
-plis .u 附近的 li .a ya
-slim .u 例 .a ya
-tkic .u 翻译，字典 li .a ya
-tlam .u 翻译 li .a ya
-tlin .u 序数词 .a ya
-miwk .u 人 .a ya
-muys .u 情感 li .a ya
-kamt .u 语法 .a ya
-kump .u 情绪 li .a ya
-yimk .u 问 .a ya
-wiyp .u 动词 .a ya
-niym .u 名词 .a ya
-sint .u 感觉 li .a ya
-suyt .u 语法学科 .a ya
-timp .u 语法时态 .a ya
-tiwk .u 活动 li .a ya
-tick .u 词典 .a ya
-kwal .u 语言 .a ya
+hi li hu 是 li ha ya
+ha li hu 对象 li ha ya
+hu li hu 主题 li ha ya
+mi li hu 我 li ha ya
+ma li hu 什么 li ha ya
+ki li hu 和 ha ya
+ku li hu 如果 li ha ya
+yi li hu 此 li ha ya
+yu li hu 你 li ha ya
+ya li hu 啊 li ha ya
+pi li hu 的 li ha ya
+pa li hu 这-事 li ha ya
+wi li hu 我们 li ha ya
+wa li hu 或 ha ya
+si li hu 他们 li ha ya
+nu li hu 现在 ha ya
+ti li hu 之 ha ya
+ta li hu 到 li ha ya
+tu li hu 尒 li ha ya
+li li hu 字面 li ha ya
+kyi li hu 有条件 ha ya
+kya li hu 旁白 li ha ya
+sa li hu 该 ha ya
+kca li hu 哈 li ha ya
+pwa li hu 或者 ha ya
+pca li hu 姁 li ha ya
+sla li hu 您好 li ha ya
+twa li hu 然后 li ha ya
+tli li hu 第 ha ya
+miy hu 等待 ha ya
+mip hu 过去 ha ya
+mak hu 字 ha ya
+mat hu 母亲 li ha ya
+kim hu 比较 ha ya
+kiy hu 去 ha ya
+kap hu 头 ha ya
+kan hu 知道 li ha ya
+kas hu 事业 li ha ya
+kal hu 所有 li ha ya
+yik hu 否定 ha ya
+pam hu 良好 ha ya
+pak hu 体 ha ya
+paw hu 地方 ha ya
+pat hu 父亲 li ha ya
+pal hu 许多 li ha ya
+pan hu 见面 ha ya
+pac hu 欢乐 li ha ya
+puy hu 孩子 ha ya
+fut hu 未来 ha ya
+wan hu 爱 li ha ya
+wap hu 尾 ha ya
+wat hu 说话 li ha ya
+wul hu payhmap hi 大 ha ya
+nam hu 号码 ha ya
+naw hu 现时 ha ya
+lit hu 字形 li ha ya
+cik hu minhnam hi 少数 ha ya
+kyul hu 规则 li ha ya
+klaw hu 笑 li ha ya
+pyan hu 代词 ha ya
+plis hu 附近的 li ha ya
+slim hu 例 ha ya
+tkic hu 翻译，字典 li ha ya
+tlam hu 翻译 li ha ya
+tlin hu 序数词 ha ya
+miwk hu 人 ha ya
+muys hu 情感 li ha ya
+kamt hu 语法 ha ya
+yimk hu 问 ha ya
+wiyp hu 动词 ha ya
+niym hu 名词 ha ya
+sint hu 感觉 li ha ya
+suyt hu 语法学科 ha ya
+timp hu 语法时态 ha ya
+tiwk hu 活动 li ha ya
+tick hu 词典 ha ya
+kwal hu 语言 ha ya

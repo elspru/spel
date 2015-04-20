@@ -22,7 +22,7 @@ irreversible:[
 [" ?su "," "],
 [" ?ob "," "],
 //[" ser "," "],
-[" sí$",". "],
+[" ya$",". "],
 ]
 }
 var epoGrammar = new Grammar(epoWordOrder,epoDict,conjugation);

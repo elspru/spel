@@ -1,293 +1,532 @@
-.i li .u เป็น li .a ya
-.a li .u อบ li .a ya
-.u li .u เรื li .a ya
-mi li .u ฉัน li .a ya
-ma li .u สิ่งที่ li .a ya
-ki li .u และ li .a ya
-ka li .u มัน li .a ya
-ku li .u ถ้า li .a ya
-yi li .u นี้ li .a ya
-ya li .u ยา li .a ya
-yu li .u คุณ li .a ya
-pi li .u ของ li .a ya
-pa li .u ที่ li .a ya
-pu li .u แลโอ้ li .a ya
-wi li .u เรา li .a ya
-wa li .u หรือ li .a ya
-ni li .u ใน li .a ya
-na li .u ตัวเลข li .a ya
-nu li .u ตอนนี้ li .a ya
-si li .u พวกเขา li .a ya
-sa li .u ในกรณีนั้น .a ya
-ti li .u tha li .a ya
-ta li .u ไปยัง li .a ya
-fa li .u เกี่ยวกับ li .a ya
-tu li .u เจ้า li .a ya
-li li .u li li .a ya
-fu li .u จะ li .a ya
-mya li .u บางที li .a ya
-ci li .u ใช่มั้ย? li .a ya
-myi li .u หน่วยความจำ li .a ya
-mwa li .u กับ li .a ya
-kyi li .u เงื่อนไข li .a ya
-psu li .u จากแหล่งที่มา li .a ya
-kwa li .u ที่ซึ่ง li .a ya
-kya li .u กัน li .a ya
-ksa li .u ไม่ได้นำมาอ้าง li .a ya
-klu li .u ข้อหาง li .a ya
-kla li .u แต่ li .a ya
-pya li .u โดย li .a ya
-kca li .u ฮ้า li .a ya
-pwa li .u yaor li .a ya
-pli li .u ใกล้ li .a ya
-pla li .u พหูพจน์ li .a ya
-plu li .u สำหรับ li .a ya
-pca li .u ครึกครื้น li .a ya
-nya li .u จาก li .a ya
-swi li .u ในขณะที่ li .a ya
-sli li .u สำหรับตัวอย่างเช่น li .a ya
-sla li .u สวัสดี li .a ya
-slu li .u เอกพจน์ li .a ya
-twa li .u แล้วก็ li .a ya
-tli li .u อ๊อด li .a ya
-mik .u ทำ li .a ya
-miy .u รอ li .a ya
-mip .u อดีต li .a ya
-min .u น้อยกว่า li .a ya
-mit .u กลาง li .a ya
-mak .u คำ li .a ya
-map .u ขนาด li .a ya
-man .u คิด li .a ya
-mas .u มวล li .a ya
-mat .u แม่ li .a ya
-mac .u เครื่องจักรกล li .a ya
-mut .u ช่วย li .a ya
-kim .u เปรียบเทียบ li .a ya
-kiy .u ไป li .a ya
-kip .u สามารถ li .a ya
-kin .u หลัก li .a ya
-kit .u ปลาย li .a ya
-kay .u ถือ li .a ya
-kap .u หัว li .a ya
-kan .u รู้ li .a ya
-kas .u สาเหตุ li .a ya
-kat .u ได้รับ li .a ya
-kal .u ทั้งหมด li .a ya
-kum .u ค้า li .a ya
-kup .u ซื้อ li .a ya
-kun .u สีแดง li .a ya
-kut .u เล็ก li .a ya
-yik .u ปฏิเสธ li .a ya
-yan .u พูด li .a ya
-yut .u หัก li .a ya
-pam .u ดี li .a ya
-pak .u ร่างกาย li .a ya
-pay .u มากกว่า li .a ya
-paw .u สถานที่ li .a ya
-pan .u พบ li .a ya
-pat .u พ่อ li .a ya
-pal .u จำนวนมาก li .a ya
-pac .u ความปิติยินดี li .a ya
-puy .u เด็ก li .a ya
-put .u ขาย li .a ya
-pul .u สีน้ำเงิน li .a ya
-wit .u แสง li .a ya
-nim .u ชื่อ li .a ya
-wap .u หาง li .a ya
-wan .u ความรัก li .a ya
-wat .u ตรัส li .a ya
-wul .u ใหญ่ li .a ya
-nit .u สุทธิ li .a ya
-nic .u พลังงาน li .a ya
-nam .u จำนวน li .a ya
-naw .u ปัจจุบัน li .a ya
-nul .u โมฆะ li .a ya
-sam .u เดียวกัน li .a ya
-san .u ตนเอง li .a ya
-sat .u เสียง li .a ya
-sup .u จ่ายเงิน li .a ya
-sun .u หนึ่ง li .a ya
-tip .u เริ่มต้น li .a ya
-tam .u หัวข้อ li .a ya
-tin .u เห็น li .a ya
-tak .u เพิ่ม li .a ya
-tay .u ใส่ li .a ya
-tap .u แตะ li .a ya
-tan .u ให้ li .a ya
-tas .u เลือก li .a ya
-tum .u อุณหภูมิ li .a ya
-tuw .u สอง li .a ya
-tun .u ความยาว li .a ya
-tul .u เครื่องมือ li .a ya
-lik .u ค่าใช้จ่ายไฟฟ้า li .a ya
-liy .u สี่ li .a ya
-lin .u สีเขียว li .a ya
-lis .u มีชีวิตอยู่ li .a ya
-lit .u สัญลักษณ์ li .a ya
-fut .u อนาคต li .a ya
-cim .u ได้ยิน li .a ya
-cik .u น้อย li .a ya
-cak .u สิ่ง li .a ya
-caw .u เสียงร้อง li .a ya
-can .u โอกาส li .a ya
-cal .u ย้าย li .a ya
-myan .u อ่อนนุ่ม li .a ya
-myul .u ศีลธรรม li .a ya
-myin .u ฝัน li .a ya
-kyit .u แรงดึงดูด li .a ya
-kyil .u วงกลม li .a ya
-kyin .u ทั่วไป li .a ya
-kyap .u สำเนา li .a ya
-kyup .u กลุ่ม li .a ya
-kyat .u ยาก li .a ya
-kwat .u ควอนตัม li .a ya
-kyul .u กฎ li .a ya
-kwal .u ภาษา li .a ya
-kyis .u เขียน li .a ya
-ksip .u ทางเข้า li .a ya
-ksin .u สิ่งแวดล้อม li .a ya
-ksat .u ฉับพลัน li .a ya
-ksal .u กาแล็กซี li .a ya
-ksap .u ด่วน li .a ya
-ksan .u จัดระเบียบ li .a ya
-klin .u อิเล็กตรอน li .a ya
-ksut .u เก็บ li .a ya
-ksul .u โรงเรียน li .a ya
-klaw .u หัวเราะ li .a ya
-klas .u ชั้น li .a ya
-klat .u ประโยค li .a ya
-kcim .u สารเคมี li .a ya
-pyuf .u พิสูจน์ li .a ya
-kfin .u การตั้งค่า li .a ya
-pyin .u ประสบการณ์ li .a ya
-pyam .u โครงการ li .a ya
-klac .u ยกเว้น li .a ya
-pyut .u โปรตอน li .a ya
-pyul .u ต้ม li .a ya
-psun .u แหล่ง li .a ya
-pyan .u สรรพนาม li .a ya
-pwil .u ตัวแปร li .a ya
-pwut .u อนุมัติ li .a ya
-psiy .u ความดัน li .a ya
-pyas .u วลี li .a ya
-pyuc .u โครงการ li .a ya
-psit .u พื้นผิว li .a ya
-psan .u ช่องว่าง li .a ya
-pyat .u วัตถุไวยากรณ์ li .a ya
-plam .u พลาสมา li .a ya
-plin .u เครื่องบิน li .a ya
-plis .u ใกล้เคียง li .a ya
-play .u เล่น li .a ya
-nyit .u หน่วย li .a ya
-nyus .u ทำให้เป็นละออง li .a ya
-nyut .u นิวตรอน li .a ya
-plan .u ดาวเคราะห์ li .a ya
-nyis .u การอ้างอิง li .a ya
-syat .u ของแข็ง li .a ya
-syun .u จักรวาล li .a ya
-swil .u จิตวิญญาณ li .a ya
-syit .u ส่ง li .a ya
-syak .u ตื่นตัว li .a ya
-slam .u ระเหิด li .a ya
-swat .u คำถาม li .a ya
-slim .u ตัวอย่าง li .a ya
-tkic .u แปลพจนานุกรม li .a ya
-tyis .u การเปลี่ยนแปลง li .a ya
-tyil .u เย็น li .a ya
-tyam .u อะตอม li .a ya
-tyim .u ตัวสั่น li .a ya
-tyin .u สาม li .a ya
-tyan .u เชือก li .a ya
-tyas .u ความคิด li .a ya
-tyup .u หุ่นยนต์ li .a ya
-tsiw .u ดาวเทียม li .a ya
-twis .u จริง li .a ya
-tsim .u ร่วมกัน li .a ya
-tsin .u การเรียนการสอน li .a ya
-tsil .u สมน้ำสมเนื้อ li .a ya
-tsay .u ดาว li .a ya
-tsam .u ความมุ่งหมาย li .a ya
-tsak .u พักอยู่ li .a ya
-tsap .u คุณสมบัติ li .a ya
-tsan .u อีกครั้ง li .a ya
-tsal .u รัฐ li .a ya
-tsaf .u ลิ้มรส li .a ya
-tsuk .u ร้านขายของ li .a ya
-tlik .u ไฟฟ้า li .a ya
-tlin .u เกี่ยวกับลำดับ li .a ya
-tlun .u สามจุด li .a ya
-tlam .u การแปล li .a ya
-tcin .u โซ่ li .a ya
-tlan .u ประเพณี li .a ya
-tfal .u ไฟล์ li .a ya
-tcan .u ต้นไม้ li .a ya
-fwas .u ระยะ li .a ya
-fyas .u วลี li .a ya
-fwil .u แรง li .a ya
-flit .u ขลุ่ย li .a ya
-flut .u ดอกไม้ li .a ya
-fluc .u ไหล li .a ya
-clut .u supercritical-ของเหลว li .a ya
-clum .u ประโยค li .a ya
-miyk .u ส่ง li .a ya
-mist .u วัด li .a ya
-milt .u ละลาย li .a ya
-mayt .u หน่วยจินตนาการ li .a ya
-mast .u เรื่อง li .a ya
-miwk .u บุคคล li .a ya
-mint .u วิธี li .a ya
-muyt .u พันธมิตร li .a ya
-malt .u วัสดุ li .a ya
-mack .u จินตนาการ li .a ya
-muys .u อารมณ์ li .a ya
-kisp .u ตัวแทน li .a ya
-munt .u โลก li .a ya
-kays .u ไวยากรณ์กรณี li .a ya
-kayt .u ร้อน li .a ya
-kaws .u ก๊าซ li .a ya
-kant .u แปลง li .a ya
-kast .u คงที่ li .a ya
-kimt .u แขวน li .a ya
-kamt .u ไวยากรณ์ li .a ya
-kump .u อารมณ์ li .a ya
-kusp .u ล่มสลาย li .a ya
-kust .u คงที่ li .a ya
-kumt .u สื่อสาร li .a ya
-kuft .u แบ่ง li .a ya
-kuwt .u รหัส li .a ya
-yink .u แหวน li .a ya
-kunt .u การควบคุม li .a ya
-kult .u วัฒนธรรม li .a ya
-yimk .u ถาม li .a ya
-yalk .u พาหนะ li .a ya
-yulp .u บทบาท li .a ya
-yult .u ประโยชน์ li .a ya
-panp .u ขนมปัง li .a ya
-pant .u ยืม li .a ya
-pack .u เพลิดเพลิน li .a ya
-pult .u เก่า li .a ya
-wiyp .u คำกริยา li .a ya
-wins .u ดาวศุกร์ li .a ya
-wint .u ลม li .a ya
-niym .u คำนาม li .a ya
-nalt .u ธรรมชาติ li .a ya
-sant .u ศิลปะ li .a ya
-sint .u รู้สึก li .a ya
-suyt .u ไวยากรณ์-เรื่อง li .a ya
-timp .u เครียด li .a ya
-tink .u ข้อความ li .a ya
-tiwk .u กิจกรรม li .a ya
-tisk .u ความคืบหน้า li .a ya
-tuym .u โลก li .a ya
-tamk .u ดู li .a ya
-tanp .u ปรากฏ li .a ya
-tack .u ขอบคุณ li .a ya
-tuwm .u ระยะเวลา li .a ya
-liyt .u วรรณกรรม li .a ya
-liyn .u เส้น li .a ya
-lint .u ภายใน li .a ya
-lank .u สี li .a ya
-lunt .u คน li .a ya
-luwt .u เครื่องดนตรีประเภทพิณ li .a ya
-tick .u พจนานุกรม li .a ya
-cinp .u ข้อมูล li .a ya
+hi li hu เป็น li ha ya
+ha li hu อบ li ha ya
+hu li hu เรื li ha ya
+mi li hu ฉัน li ha ya
+ma li hu สิ่งที่ li ha ya
+mu li hu เป็นชาย li ha ya
+ki li hu และ li ha ya
+ka li hu ในขณะที่ li ha ya
+ku li hu ถ้า li ha ya
+yi li hu นี้ li ha ya
+ya li hu ยา li ha ya
+yu li hu คุณ li ha ya
+pi li hu ของ li ha ya
+pa li hu ที่ li ha ya
+pu li hu แลโอ้ li ha ya
+wi li hu เรา li ha ya
+wa li hu หรือ li ha ya
+wu li hu โดย li ha ya
+ni li hu ใน li ha ya
+na li hu ตัวเลข li ha ya
+nu li hu ตอนนี้ li ha ya
+si li hu พวกเขา li ha ya
+sa li hu ในกรณีนั้น ha ya
+su li hu จาก li ha ya
+ti li hu tha li ha ya
+ta li hu ไปยัง li ha ya
+fa li hu เกี่ยวกับ li ha ya
+tu li hu เจ้า li ha ya
+la li hu เฮ้ li ha ya
+lu li hu พหูพจน์ li ha ya
+fi li hu ของผู้หญิง li ha ya
+li li hu li li ha ya
+fu li hu จะ li ha ya
+mya li hu บางที li ha ya
+ca li hu ไม่มีเพศ li ha ya
+ci li hu ใช่มั้ย? li ha ya
+mwa li hu กับ li ha ya
+kyi li hu เงื่อนไข li ha ya
+psu li hu จากแหล่งที่มา li ha ya
+kyu li hu เพราะ li ha ya
+kwa li hu ที่ซึ่ง li ha ya
+kya li hu กัน li ha ya
+kli li hu เขา li ha ya
+ksa li hu ไม่ได้นำมาอ้าง li ha ya
+klu li hu ข้อหาง li ha ya
+kla li hu แต่ li ha ya
+pya li hu บน li ha ya
+kca li hu ฮ้า li ha ya
+pwa li hu yaor li ha ya
+pli li hu สำหรับตัวอย่างเช่น li ha ya
+pca li hu ครึกครื้น li ha ya
+nyi li hu ไม่ li ha ya
+nya li hu คือ li ha ya
+sya li hu เอกพจน์ li ha ya
+syi li hu มาก li ha ya
+syu li hu ดังนั้น li ha ya
+swi li hu ในขณะที่ li ha ya
+sla li hu สวัสดี li ha ya
+tyi li hu อ้างอิง li ha ya
+twu li hu คู่ li ha ya
+tsa li hu จนกว่า li ha ya
+tsi li hu ใช่ li ha ya
+tsu li hu ออก li ha ya
+tla li hu สำหรับ li ha ya
+fyi li hu เธอ li ha ya
+twa li hu แล้วก็ li ha ya
+tli li hu อ๊อด li ha ya
+min hu น้อยกว่า li ha ya
+mik hu ทำ li ha ya
+miy hu รอ li ha ya
+mip hu อดีต li ha ya
+mit hu กลาง li ha ya
+mak hu คำ li ha ya
+man hu คิด li ha ya
+mas hu มวล li ha ya
+mun hu ชาย li ha ya
+mat hu แม่ li ha ya
+mac hu เครื่องจักรกล li ha ya
+mut hu ช่วย li ha ya
+mul hu เต็ม li ha ya
+kim hu เปรียบเทียบ li ha ya
+kiy hu ไป li ha ya
+kip hu สามารถ li ha ya
+kin hu หลัก li ha ya
+kam hu มา li ha ya
+kis hu สูง li ha ya
+kit hu ปลาย li ha ya
+kap hu หัว li ha ya
+kan hu รู้ li ha ya
+kas hu สาเหตุ li ha ya
+kaf hu แคโทด li ha ya
+kuy hu เจริญ li ha ya
+kat hu ได้รับ li ha ya
+kal hu ทั้งหมด li ha ya
+kum hu ค้า li ha ya
+kus hu อาหาร li ha ya
+kuc hu เล็ก li ha ya
+yis hu เขียน li ha ya
+kup hu ซื้อ li ha ya
+kun hu สีแดง li ha ya
+yik hu ปฏิเสธ li ha ya
+yum hu ขา li ha ya
+yat hu อ่าน li ha ya
+yun hu หัก li ha ya
+yak hu บาง li ha ya
+yac hu ความกว้าง li ha ya
+pis hu คูณ li ha ya
+pit hu ขาว li ha ya
+pic hu ปัสสาวะ li ha ya
+yus hu ใช้ li ha ya
+pay hu มากกว่า li ha ya
+yul hu ทั้งหมด li ha ya
+pam hu ดี li ha ya
+pas hu ผ่านไป li ha ya
+pak hu ร่างกาย li ha ya
+paw hu สถานที่ li ha ya
+pan hu พบ li ha ya
+pus hu ปู li ha ya
+pat hu พ่อ li ha ya
+pal hu จำนวนมาก li ha ya
+puk hu ไม่ดี li ha ya
+win hu ชนะ li ha ya
+pac hu ความปิติยินดี li ha ya
+puy hu เด็ก li ha ya
+put hu ขาย li ha ya
+pul hu สีน้ำเงิน li ha ya
+nim hu ชื่อ li ha ya
+wap hu หาง li ha ya
+wut hu แสง li ha ya
+niy hu จำเป็นต้อง li ha ya
+wan hu ความรัก li ha ya
+wat hu ตรัส li ha ya
+nay hu หายใจออก li ha ya
+wul hu ใหญ่ li ha ya
+nat hu คืน li ha ya
+nut hu ขั้วบวก li ha ya
+nit hu สุทธิ li ha ya
+nic hu พลังงาน li ha ya
+sip hu จิบ li ha ya
+nuy hu ใหม่ li ha ya
+sit hu ชุด li ha ya
+nam hu จำนวน li ha ya
+sim hu เหมือนกัน li ha ya
+naw hu ปัจจุบัน li ha ya
+saw hu สีดำ li ha ya
+sik hu ความสูง li ha ya
+sil hu ง่าย li ha ya
+nul hu โมฆะ li ha ya
+suy hu สูญเสีย li ha ya
+sap hu ง่าย li ha ya
+say hu พูด li ha ya
+sam hu เดียวกัน li ha ya
+tim hu ทีม li ha ya
+tik hu ถือ li ha ya
+san hu ตนเอง li ha ya
+sat hu เสียง li ha ya
+sup hu จ่ายเงิน li ha ya
+tis hu หายใจเข้า li ha ya
+sut hu ขนาด li ha ya
+tiy hu วัน li ha ya
+tip hu เริ่มต้น li ha ya
+til hu ต่ำ li ha ya
+tam hu หัวข้อ li ha ya
+tin hu เห็น li ha ya
+tak hu เพิ่ม li ha ya
+tuk hu เครื่องดื่ม li ha ya
+tay hu ใส่ li ha ya
+tap hu แตะ li ha ya
+tan hu ให้ li ha ya
+tas hu เลือก li ha ya
+tup hu ความลึก li ha ya
+tum hu อุณหภูมิ li ha ya
+fin hu หญิง li ha ya
+tuf hu ยาก li ha ya
+fit hu พอดี li ha ya
+tul hu เครื่องมือ li ha ya
+lik hu ค่าใช้จ่ายไฟฟ้า li ha ya
+lin hu ความยาว li ha ya
+ciy hu สีเขียว li ha ya
+cif hu แบ่ง li ha ya
+lis hu มีชีวิตอยู่ li ha ya
+lit hu สัญลักษณ์ li ha ya
+fut hu อนาคต li ha ya
+myut hu สินค้านำเข้า li ha ya
+cim hu ได้ยิน li ha ya
+cik hu น้อย li ha ya
+myit hu จำ li ha ya
+cak hu สิ่ง li ha ya
+can hu โอกาส li ha ya
+myun hu จ้าง li ha ya
+cal hu ย้าย li ha ya
+myan hu อ่อนนุ่ม li ha ya
+kyim hu เกม li ha ya
+myat hu คณิตศาสตร์ li ha ya
+kyip hu เสื้อผ้า li ha ya
+myul hu ศีลธรรม li ha ya
+kwit hu แรงดึงดูด li ha ya
+kwat hu การดูแล li ha ya
+myin hu ฝัน li ha ya
+kyus hu สนุก li ha ya
+kyil hu วงกลม li ha ya
+kyin hu ทั่วไป li ha ya
+kyap hu สำเนา li ha ya
+kyup hu กลุ่ม li ha ya
+ksat hu แน่นอน li ha ya
+kyat hu ยาก li ha ya
+ksil hu คริสตัล li ha ya
+kyul hu กฎ li ha ya
+kwal hu ภาษา li ha ya
+ksip hu ทางเข้า li ha ya
+ksam hu มืด li ha ya
+ksin hu สิ่งแวดล้อม li ha ya
+ksal hu กาแล็กซี li ha ya
+ksap hu ด่วน li ha ya
+ksan hu จัดระเบียบ li ha ya
+ksum hu สื่อสาร li ha ya
+kliy hu ชัดเจน li ha ya
+klin hu อิเล็กตรอน li ha ya
+ktin hu ศาสนา li ha ya
+kcat hu แปด li ha ya
+pyik hu หยุด li ha ya
+ksut hu เก็บ li ha ya
+pyit hu สี่ li ha ya
+ksul hu โรงเรียน li ha ya
+klaw hu หัวเราะ li ha ya
+pyaw hu คู่ li ha ya
+klas hu ชั้น li ha ya
+klat hu ประโยค li ha ya
+kcim hu สารเคมี li ha ya
+pyuf hu พิสูจน์ li ha ya
+pyil hu อุทธรณ์ li ha ya
+kfin hu การตั้งค่า li ha ya
+pyas hu รวดเร็ว li ha ya
+pyin hu ประสบการณ์ li ha ya
+pyam hu โครงการ li ha ya
+pyat hu รวดเร็ว li ha ya
+klac hu ยกเว้น li ha ya
+pyut hu โปรตอน li ha ya
+psil hu สะกด li ha ya
+pyul hu ต้ม li ha ya
+pwas hu คำตอบ li ha ya
+psun hu แหล่ง li ha ya
+pyan hu สรรพนาม li ha ya
+pwil hu ตัวแปร li ha ya
+pwut hu อนุมัติ li ha ya
+psit hu ความเร็ว li ha ya
+psiy hu ความดัน li ha ya
+pyuc hu โครงการ li ha ya
+psan hu ช่องว่าง li ha ya
+psat hu พื้นผิว li ha ya
+pfis hu การตั้งค่า li ha ya
+psal hu แล่นเรือ li ha ya
+nyip hu กระจก li ha ya
+psut hu คำมั่นสัญญา li ha ya
+nyat hu เข้า li ha ya
+plum hu ปัญหา li ha ya
+plam hu พลาสมา li ha ya
+plin hu เครื่องบิน li ha ya
+nyul hu ม้วน li ha ya
+syim hu เจ็ด li ha ya
+pfal hu ล้มเหลว li ha ya
+syip hu สะอาด li ha ya
+pcit hu ซาบซึ้ง li ha ya
+pcil hu พิเศษ li ha ya
+plan hu แผนการ li ha ya
+plat hu ดาวเคราะห์ li ha ya
+syan hu ฟ้า li ha ya
+pfus hu รถบัส li ha ya
+plis hu ใกล้เคียง li ha ya
+swit hu สวิตซ์ li ha ya
+play hu เล่น li ha ya
+nlic hu อังกฤษ li ha ya
+syic hu การวิจัย li ha ya
+syam hu พักอยู่ li ha ya
+nyit hu หน่วย li ha ya
+nyus hu ทำให้เป็นละออง li ha ya
+slin hu เดียว li ha ya
+nyut hu นิวตรอน li ha ya
+nyis hu การอ้างอิง li ha ya
+syat hu ของแข็ง li ha ya
+tyik hu ผุ li ha ya
+syut hu สนับสนุน li ha ya
+syun hu จักรวาล li ha ya
+swil hu จิตวิญญาณ li ha ya
+swat hu น้ำ li ha ya
+swuy hu คำถาม li ha ya
+swun hu การนอนหลับ li ha ya
+syit hu ส่ง li ha ya
+tyif hu คุ้มค่า li ha ya
+syak hu ตื่นตัว li ha ya
+slof hu ศัพท์ li ha ya
+slam hu ระเหิด li ha ya
+tkun hu จีน li ha ya
+tyip hu อีกครั้ง li ha ya
+tyap hu ความพยายาม li ha ya
+tyaw hu ความคิด li ha ya
+tyas hu โยน li ha ya
+tyic hu ทิศทาง li ha ya
+slim hu ตัวอย่าง li ha ya
+tyus hu กรณี li ha ya
+tkic hu แปลพจนานุกรม li ha ya
+twif hu คำคุณศัพท์ li ha ya
+tyis hu การเปลี่ยนแปลง li ha ya
+tsik hu หก li ha ya
+tsiy hu เรื่องราว li ha ya
+tsip hu ขั้นตอน li ha ya
+tyuc hu สั่งสอน li ha ya
+tyil hu เย็น li ha ya
+tyam hu อะตอม li ha ya
+tyak hu เสียงร้อง li ha ya
+tyim hu ตัวสั่น li ha ya
+tyin hu สาม li ha ya
+tyan hu เชือก li ha ya
+tyup hu หุ่นยนต์ li ha ya
+tsiw hu ดาวเทียม li ha ya
+twis hu จริง li ha ya
+tsim hu ร่วมกัน li ha ya
+tsin hu การเรียนการสอน li ha ya
+tsuy hu นั่ง li ha ya
+tsak hu โจมตี li ha ya
+tsan hu นักเรียน li ha ya
+tsil hu สมน้ำสมเนื้อ li ha ya
+tsay hu ดาว li ha ya
+tsam hu ความมุ่งหมาย li ha ya
+tsum hu การศึกษา li ha ya
+tlas hu จาน li ha ya
+tsap hu คุณสมบัติ li ha ya
+tsal hu รัฐ li ha ya
+tsaf hu ลิ้มรส li ha ya
+tsul hu ผู้ใหญ่ li ha ya
+tful hu สอง li ha ya
+tsuk hu ร้านขายของ li ha ya
+tlis hu ปรารถนา li ha ya
+tcap hu โปร่งใส li ha ya
+tlik hu ไฟฟ้า li ha ya
+tlin hu เกี่ยวกับลำดับ li ha ya
+tlun hu สามจุด li ha ya
+tfim hu ชั่วคราว li ha ya
+tfin hu แต่ละบุคคล li ha ya
+fwap hu ห้า li ha ya
+tfak hu ฝุ่น li ha ya
+tlam hu การแปล li ha ya
+flan hu น้ำท่วม li ha ya
+flat hu แบน li ha ya
+tcil hu คุก li ha ya
+tfus hu ความเสียหาย li ha ya
+tcin hu โซ่ li ha ya
+tcun hu อำนาจ li ha ya
+tlan hu ประเพณี li ha ya
+tfal hu ไฟล์ li ha ya
+flay hu บิน li ha ya
+tcan hu ต้นไม้ li ha ya
+fwas hu ระยะ li ha ya
+mink hu ใจ li ha ya
+fyas hu วลี li ha ya
+cyin hu เรียน li ha ya
+fwil hu แรง li ha ya
+flit hu ขลุ่ย li ha ya
+clin hu ความสัมพันธ์ li ha ya
+mayn hu ความสามัคคี li ha ya
+flut hu ดอกไม้ li ha ya
+mant hu สีม่วงแดงเข้ม li ha ya
+miyt hu ทราบ li ha ya
+fluc hu ไหล li ha ya
+clut hu supercritical-ของเหลว li ha ya
+clum hu ประโยค li ha ya
+miyk hu ส่ง li ha ya
+mist hu วัด li ha ya
+milt hu ละลาย li ha ya
+musk hu เพลง li ha ya
+mayp hu แผนที่ li ha ya
+mans hu เป็นมนุษย์ li ha ya
+mayt hu หน่วยจินตนาการ li ha ya
+mast hu เรื่อง li ha ya
+kiyn hu หนึ่ง li ha ya
+kint hu แปลง li ha ya
+miwk hu บุคคล li ha ya
+must hu มากที่สุด li ha ya
+munk hu เป็นไปได้ li ha ya
+munt hu อารมณ์ li ha ya
+mint hu วิธี li ha ya
+muyt hu พันธมิตร li ha ya
+malt hu วัสดุ li ha ya
+mack hu จินตนาการ li ha ya
+muys hu อารมณ์ li ha ya
+kiyp hu กระดาษ li ha ya
+kant hu คงที่ li ha ya
+kasp hu จับ li ha ya
+kast hu สร้าง li ha ya
+mult hu โมดูโล li ha ya
+kift hu ยกโทษให้ li ha ya
+kisp hu ตัวแทน li ha ya
+kays hu ไวยากรณ์กรณี li ha ya
+kayn hu การไหลหมุนเวียน li ha ya
+kayt hu ร้อน li ha ya
+kaws hu ก๊าซ li ha ya
+kimt hu แขวน li ha ya
+kaft hu ยืนยัน li ha ya
+kump hu ซับซ้อน li ha ya
+kumt hu คำสั่ง li ha ya
+kamt hu ไวยากรณ์ li ha ya
+yinp hu กลับ li ha ya
+kuym hu ร่วมกัน li ha ya
+kuyn hu การผันคำกริยา li ha ya
+yilk hu สีเหลือง li ha ya
+yawt hu อันตราย li ha ya
+kuyt hu ที่สำคัญจุด li ha ya
+kuls hu โหดร้าย li ha ya
+kusp hu ล่มสลาย li ha ya
+kust hu คงที่ li ha ya
+yist hu ส่งออก li ha ya
+yimt hu จังหวะ li ha ya
+kuwt hu รหัส li ha ya
+piyn hu ความคิดเห็น li ha ya
+yink hu แหวน li ha ya
+yasp hu ทำงาน li ha ya
+yamt hu ชม li ha ya
+kunt hu การควบคุม li ha ya
+kult hu วัฒนธรรม li ha ya
+yalt hu ก่อน li ha ya
+yilt hu Eulers-หมายเลข li ha ya
+yusk hu ทางทิศตะวันออก li ha ya
+yask hu ปฏิกิริยา li ha ya
+yuyp hu ยุโรป li ha ya
+yunt hu ภาชนะ li ha ya
+yast hu ฟรี li ha ya
+yimk hu ถาม li ha ya
+pist hu ใบอนุญาต li ha ya
+yalk hu พาหนะ li ha ya
+yulp hu บทบาท li ha ya
+piys hu ปี่ li ha ya
+pamt hu ถาวร li ha ya
+pays hu ฐาน li ha ya
+yult hu ประโยชน์ li ha ya
+puyk hu วัตถุไวยากรณ์ li ha ya
+panp hu ขนมปัง li ha ya
+nist hu เก้า li ha ya
+past hu ก่อ li ha ya
+pant hu ยืม li ha ya
+nuys hu สัญญาณรบกวน li ha ya
+punt hu จุด li ha ya
+nuls hu ศูนย์ li ha ya
+pust hu ฝุ่น li ha ya
+pack hu เพลิดเพลิน li ha ya
+siyt hu แนะนำ li ha ya
+nims hu ลัทธิที่ถือว่าชีวิตเกิดขึ้นเพราะวิญญาณ li ha ya
+pult hu เก่า li ha ya
+sift hu เปลี่ยน li ha ya
+sayk hu ฉลาด li ha ya
+nilt hu สติปัญญา li ha ya
+nast hu ดอกเบี้ย li ha ya
+nuyt hu ทางทิศเหนือ li ha ya
+nusp hu ลืม li ha ya
+wiyp hu คำกริยา li ha ya
+sanp hu ต่ออายุ li ha ya
+wins hu ดาวศุกร์ li ha ya
+wuym hu ปริมาณ li ha ya
+wint hu ลม li ha ya
+tiyk hu สิบ li ha ya
+tiyn hu ต่อ li ha ya
+siyn hu ดูเหมือน li ha ya
+niyt hu ที่-n-ราก li ha ya
+niym hu คำนาม li ha ya
+tiws hu โรงละคร li ha ya
+nuks hu ยูนิกซ์ li ha ya
+nust hu แจ้งให้ทราบ li ha ya
+sunt hu ทางทิศใต้ li ha ya
+sulc hu ทางออก li ha ya
+sark hu การเสียดสี li ha ya
+nuft hu ไม่เป็นมิตร li ha ya
+tiym hu สาย li ha ya
+simt hu จำกัด li ha ya
+nalt hu ธรรมชาติ li ha ya
+sayt hu ความเร็วของแสง li ha ya
+tiyf hu ขับรถ li ha ya
+sant hu ศิลปะ li ha ya
+sint hu รู้สึก li ha ya
+suyt hu ไวยากรณ์-เรื่อง li ha ya
+tawk hu ผู้มีอำนาจ li ha ya
+tiys hu ระยะทาง li ha ya
+tink hu ข้อความ li ha ya
+timp hu เครียด li ha ya
+tisk hu ข้อความ li ha ya
+tinp hu อัตราส่วนทอง li ha ya
+tiwk hu กิจกรรม li ha ya
+tisp hu แสดง li ha ya
+tayk hu แนบ li ha ya
+tuym hu โลก li ha ya
+liys hu เสรีภาพ li ha ya
+task hu งาน li ha ya
+tank hu ฉับพลัน li ha ya
+taym hu เวลา li ha ya
+talp hu ตาราง li ha ya
+tuys hu ขโมย li ha ya
+lisk hu วันหยุด li ha ya
+tukc hu ตุรกี li ha ya
+tayn hu พื้นที่ li ha ya
+layt hu สิบเอ็ด li ha ya
+lank hu ในประเทศ li ha ya
+tunk hu สมอง li ha ya
+tusk hu ความคืบหน้า li ha ya
+tamk hu ดู li ha ya
+liwk hu ถูกกฎหมาย li ha ya
+tanp hu ปรากฏ li ha ya
+tack hu ขอบคุณ li ha ya
+tuwm hu ระยะเวลา li ha ya
+fayt hu ความจริง li ha ya
+list hu น้อยที่สุด li ha ya
+fals hu เท็จ li ha ya
+falt hu ผิดนัด li ha ya
+funk hu ฟังก์ชัน li ha ya
+lant hu ช้า li ha ya
+fult hu โรงแรม li ha ya
+liyk hu ของเหลว li ha ya
+liwt hu ของขวัญ li ha ya
+liyt hu วรรณกรรม li ha ya
+fint hu พบ li ha ya
+liyn hu เส้น li ha ya
+layk hu ทะเลสาป li ha ya
+link hu ลิงค์ li ha ya
+faym hu ฟาร์ม li ha ya
+lint hu ภายใน li ha ya
+fans hu ฝรั่งเศส li ha ya
+lumk hu ลอการิทึม li ha ya
+lunt hu คน li ha ya
+fuym hu รูป li ha ya
+funm hu ฟอนิม li ha ya
+lunp hu ห่วง li ha ya
+luwt hu เครื่องดนตรีประเภทพิณ li ha ya
+tick hu พจนานุกรม li ha ya
+budz hu พุทธศาสนา li ha ya
+cinp hu ข้อมูล li ha ya

@@ -1,3 +1,5 @@
+
+var parse = require("../../compile/parse");
 exports.wordOrder =  function(){return svoWordOrder;};
 var svoWordOrder = {
 headFinal : false,
@@ -6,41 +8,101 @@ typeFinal : false,
 subjectProminent: true,
 clauseInitial: false,
 genitiveInitial: false,
-nounFinal : false,
-phraseOrder: ["sla","ku","twa",".u",".i",".a"]
+typeFinal : false,
+phraseOrder: ["sla","ku","twa","hu","hi","ha"]
 };
 var conjugation = new Object();
 conjugation.guillemetSpaceQuote = 
 function(language,foreignQuoteObject,format){
-var nounFinal = language.grammar.wordOrder.nounFinal;
-if (nounFinal)
+var typeFinal = language.grammar.wordOrder.typeFinal;
+if (typeFinal)
 return '« '+foreignQuoteObject.body.join(" ")+' »'+" "
 +foreignQuoteObject.name.toLocaleString(language);
-if (nounFinal === false)
+if (typeFinal === false)
 return foreignQuoteObject.name.toLocaleString(language)+
 " "+'« '+foreignQuoteObject.body.join(" ")+' »';
 else return '« '+foreignQuoteObject.body.join(" ")+' »';
 }
 conjugation.guillemetQuote = 
 function(language,foreignQuoteObject,format){
-var nounFinal = language.grammar.wordOrder.nounFinal;
-if (nounFinal)
+var typeFinal = language.grammar.wordOrder.typeFinal;
+if (typeFinal)
 return '«'+foreignQuoteObject.body.join(" ")+'»'+" "
 +foreignQuoteObject.name.toLocaleString(language);
-if (nounFinal === false)
+if (typeFinal === false)
 return foreignQuoteObject.name.toLocaleString(language)+
 " "+'«'+foreignQuoteObject.body.join(" ")+'»';
 else return '«'+foreignQuoteObject.body.join(" ")+'»';
 }
 conjugation.citationQuote = 
 function (language,foreignQuoteObject,format){
-var nounFinal = language.grammar.wordOrder.nounFinal;
-if (nounFinal)
+var typeFinal = language.grammar.wordOrder.typeFinal;
+if (typeFinal)
 return '“'+foreignQuoteObject.body.join(" ")+'”'+" "
 +foreignQuoteObject.name.toLocaleString(language);
-if (nounFinal === false)
+if (typeFinal === false)
 return foreignQuoteObject.name.toLocaleString(language)+
 " "+'“'+foreignQuoteObject.body.join(" ")+'”';
 else return '“'+foreignQuoteObject.body.join(" ")+'”';
 }
+
+
+conjugation.copulaNominal =
+function (language, sentence, format, conjLevel){
+
+var result = new String();
+var joiner = " ";
+var copula = language.grammar.conjugation.copula;
+
+
+var phrases = sentence.phrases;
+
+var subjectIndex = sentence.phrases.find(function(phrase){
+if ( phrase.head.head === "hu"
+|| phrase.head.head === "fa" && phrase.head.body.head === "hu")
+return true; else return false;
+});
+
+if (subjectIndex !== null){
+var subjectPhrase = sentence.phrases[subjectIndex];
+result += subjectPhrase.toLocaleString
+(language,format,"n",conjLevel);
+}
+
+var objectIndex = phrases.find(function(phrase){
+if ( phrase.head.head === "ha"
+|| phrase.head.head === "fa" && phrase.head.body.head === "ha")
+return true; else return false;
+});
+
+result += copula + " "; 
+
+if (objectIndex !== null){
+var objectPhrase = phrases[objectIndex];
+result +=
+objectPhrase.toLocaleString(language,format,"n",conjLevel);
+}
+
+if (sentence.head)
+result +=
+sentence.head.toLocaleString(language,format,"sh",conjLevel);
+
+return  result;
+
+}
+
+conjugation.isPronoun  = 
+function (language,word){
+var pronouns = language.grammar.pronouns;
+var i;
+for (i=0;i<pronouns.length;i++){
+if (word.indexOf(pronouns[i])!== -1) return true;
+}
+return false;
+}
+
+
+
 exports.conjugation = conjugation;
+
+

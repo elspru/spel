@@ -32,9 +32,9 @@ function Dictionary(language, input){
 	}
 	else throw new TypeError(input+" unknown to "+this.be);
 //	fromMwak is object mapping su contents to bo contents
-	this.fromMwak = dictMake(language,text,[".u",".a"]);
+	this.fromMwak = dictMake(language,text,["hu","ha"]);
 //	toMwak is object mapping bo contents to su contents
-	this.toMwak = dictMake(language,text,[".a",".u"]);
+	this.toMwak = dictMake(language,text,["ha","hu"]);
 	return this;
 }
 Dictionary.prototype.copy = function(){
@@ -67,8 +67,8 @@ var joiner = ' ';
 var newline = '\n';
 var result = new String();
 var fromMwak = this.fromMwak;
-var suj = " li .u ";
-var obj = " li .a ya";
+var suj = " li hu ";
+var obj = " li ha ya";
 for ( key in fromMwak )
 if (fromMwak.hasOwnProperty(key))
 result += key + suj + fromMwak[key] + obj+ newline;
@@ -83,8 +83,8 @@ var fromMwak = this.fromMwak;
 var Language = require("../lang/language");
 var Sentence = require("../class/sentence");
 var mwak = new Language();
-var suj = " li .u ";
-var obj = " li .a ya";
+var suj = " li hu ";
+var obj = " li ha ya";
 var wordOrder = language.grammar.wordOrder;
 for ( key in fromMwak )
 if (fromMwak.hasOwnProperty(key)){

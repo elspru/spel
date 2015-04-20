@@ -7,5 +7,5 @@ subjectProminent: true,
 postpositional : true,
 clauseInitial: true,
 genitiveInitial: true,
-phraseOrder: ["sla","ku","twa",".u","nya","ta",".a",".i"]
+phraseOrder: ["sla","ku","twa","hu","nya","ta","ha","hi"]
 };

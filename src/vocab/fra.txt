@@ -1,293 +1,532 @@
-.i li .u être li .a ya
-.a li .u ob li .a ya
-.u li .u su li .a ya
-mi li .u moi li .a ya
-ma li .u quoi li .a ya
-ki li .u et .a ya
-ka li .u il li .a ya
-ku li .u si li .a ya
-yi li .u cette li .a ya
-yu li .u vous li .a ya
-ya li .u ya li .a ya
-pi li .u de li .a ya
-pa li .u que-chose li .a ya
-pu li .u fait li .a ya
-wi li .u nous li .a ya
-wa li .u ou .a ya
-ni li .u en li .a ya
-na li .u chiffre li .a ya
-si li .u ils li .a ya
-nu li .u maintenant .a ya
-ti li .u que .a ya
-ta li .u à li .a ya
-tu li .u tu li .a ya
-li li .u littéral li .a ya
-fa li .u sur li .a ya
-ci li .u hein? li .a ya
-fu li .u volonté li .a ya
-myi li .u mémoire .a ya
-mwa li .u avec li .a ya
-mya li .u peut-être li .a ya
-kyi li .u conditionnellement .a ya
-kya li .u de-côté li .a ya
-sa li .u la .a ya
-kwa li .u ce-qui li .a ya
-ksa li .u fin-de-citation li .a ya
-kla li .u mais li .a ya
-klu li .u clause-queue li .a ya
-kca li .u ha li .a ya
-pya li .u par li .a ya
-pli li .u près-de li .a ya
-psu li .u à-partir-de-la-source li .a ya
-pla li .u pluriel li .a ya
-pwa li .u you .a ya
-plu li .u pour li .a ya
-pca li .u gai li .a ya
-nya li .u à-partir-de li .a ya
-swi li .u tandis-que li .a ya
-sli li .u par-exemple .a ya
-slu li .u singulier li .a ya
-sla li .u bonjour li .a ya
-twa li .u puis li .a ya
-tli li .u ord .a ya
-mik .u faire li .a ya
-miy .u attendre .a ya
-mip .u passé .a ya
-mit .u milieu li .a ya
-min .u moins .a ya
-mak .u mot .a ya
-mat .u mère li .a ya
-man .u penser li .a ya
-mas .u masse li .a ya
-map .u taille .a ya
-mac .u machine li .a ya
-mut .u aidez-moi li .a ya
-kim .u comparer .a ya
-kiy .u aller .a ya
-kip .u capable li .a ya
-kin .u principal li .a ya
-kit .u fin li .a ya
-kay .u tenir li .a ya
-kap .u tête .a ya
-kan .u savoir li .a ya
-kas .u cause li .a ya
-kat .u obtenir li .a ya
-kal .u tous li .a ya
-kum .u commerce li .a ya
-kup .u acheter li .a ya
-kun .u rouge li .a ya
-kut .u minhmap .i petit .a ya
-yik .u nier .a ya
-yan .u dire li .a ya
-yut .u soustraire li .a ya
-pam .u bon .a ya
-pak .u corps .a ya
-pay .u plus .a ya
-paw .u lieu .a ya
-pat .u père li .a ya
-pal .u beaucoup li .a ya
-pan .u rencontrer .a ya
-pac .u joie li .a ya
-puy .u enfant .a ya
-put .u vendre li .a ya
-pul .u bleu li .a ya
-wit .u lumière li .a ya
-fut .u avenir .a ya
-wan .u aimer li .a ya
-wap .u queue .a ya
-wat .u parler li .a ya
-nim .u nom li .a ya
-nit .u net li .a ya
-nic .u énergie li .a ya
-wul .u payhmap .i grand .a ya
-nam .u nombre .a ya
-nul .u nul li .a ya
-sam .u même li .a ya
-san .u soi li .a ya
-sat .u son li .a ya
-sup .u payer li .a ya
-naw .u présent .a ya
-tip .u commencer li .a ya
-tin .u voir li .a ya
-tam .u sujet li .a ya
-tak .u ajouter li .a ya
-sun .u une .a ya
-tay .u mettre li .a ya
-tan .u donner li .a ya
-tas .u choisir li .a ya
-tum .u température li .a ya
-tap .u toucher li .a ya
-tun .u longueur li .a ya
-tul .u outil li .a ya
-lik .u charge-électrique li .a ya
-liy .u quatre li .a ya
-lin .u vert li .a ya
-lis .u vivre li .a ya
-tuw .u deux .a ya
-lit .u glyphe li .a ya
-cim .u entendre li .a ya
-cik .u minhnam .i peu .a ya
-cak .u chose li .a ya
-caw .u cri li .a ya
-can .u chance li .a ya
-cal .u mouvement li .a ya
-myan .u doux li .a ya
-myul .u moral li .a ya
-myin .u rêver li .a ya
-kyit .u pesanteur li .a ya
-kyil .u cercle li .a ya
-kyin .u général li .a ya
-kyap .u copie li .a ya
-kyup .u groupe li .a ya
-kyat .u dur li .a ya
-kwat .u quantum li .a ya
-kyul .u règle li .a ya
-kyis .u écrire li .a ya
-ksap .u exprimer li .a ya
-ksip .u accès li .a ya
-ksin .u contexte li .a ya
-ksat .u soudain li .a ya
-ksal .u galaxie li .a ya
-klaw .u rire li .a ya
-ksan .u organiser li .a ya
-klin .u électron li .a ya
-ksut .u recueillir li .a ya
-ksul .u école li .a ya
-klac .u sauf li .a ya
-klas .u classe li .a ya
-klat .u clause li .a ya
-kcim .u chimique li .a ya
-pyan .u pronom .a ya
-kfin .u config li .a ya
-pyin .u expérience li .a ya
-pyam .u programme li .a ya
-pyas .u phrase .a ya
-pyut .u proton li .a ya
-pyul .u bouillir li .a ya
-pyat .u grammaticale-objet .a ya
-pyuf .u preuve li .a ya
-pwil .u variable li .a ya
-pwut .u approuver li .a ya
-psiy .u pression li .a ya
-plis .u proche li .a ya
-pyuc .u projet li .a ya
-psit .u surface li .a ya
-psan .u espace li .a ya
-psun .u source li .a ya
-plam .u plasma li .a ya
-plin .u plan li .a ya
-slim .u exemple .a ya
-play .u jouer li .a ya
-nyit .u unité li .a ya
-nyus .u ioniser li .a ya
-nyut .u neutron li .a ya
-plan .u planète li .a ya
-nyis .u référence li .a ya
-syat .u solide li .a ya
-syun .u univers li .a ya
-swil .u âme li .a ya
-syit .u envoyer li .a ya
-syak .u éveillé li .a ya
-slam .u sublimer li .a ya
-swat .u question li .a ya
-tkic .u Traduction-dictionnaire li .a ya
-tyim .u trembler li .a ya
-tyis .u transition li .a ya
-tyil .u froid li .a ya
-tyam .u atome li .a ya
-tyin .u trois li .a ya
-tyan .u chaîne li .a ya
-tyas .u idée li .a ya
-tyup .u robot li .a ya
-twis .u vrai li .a ya
-tsiw .u satellite li .a ya
-tsim .u ensemble li .a ya
-tsin .u instruction li .a ya
-tsil .u mériter li .a ya
-tsam .u but li .a ya
-tsay .u étoile li .a ya
-tsak .u rester li .a ya
-tsap .u propriété li .a ya
-tsan .u de-nouveau li .a ya
-tsal .u état li .a ya
-tsaf .u goût li .a ya
-tsuk .u boutique li .a ya
-tlik .u électricité li .a ya
-tlam .u traduire li .a ya
-tlin .u ordinal .a ya
-tlun .u point-triple li .a ya
-tlan .u tradition li .a ya
-tcin .u chaîne li .a ya
-tfal .u fichier li .a ya
-tcan .u arbre li .a ya
-fwil .u force li .a ya
-fwas .u phase li .a ya
-fyas .u phrase li .a ya
-flit .u flûte li .a ya
-fluc .u couler li .a ya
-flut .u fleur li .a ya
-clut .u surcritique-fluide li .a ya
-clum .u phrase li .a ya
-miwk .u personne .a ya
-miyk .u envoyer li .a ya
-mist .u mesurer li .a ya
-milt .u fondre li .a ya
-mayt .u -unité-imaginaire li .a ya
-mast .u question li .a ya
-muys .u émotion li .a ya
-mint .u méthode li .a ya
-muyt .u allié li .a ya
-malt .u matériel li .a ya
-mack .u imaginer li .a ya
-kamt .u grammaire .a ya
-kisp .u exposant li .a ya
-munt .u monde li .a ya
-kays .u grammaticale-cas li .a ya
-kayt .u chaud li .a ya
-kaws .u gaz li .a ya
-kant .u convertir li .a ya
-kast .u constante li .a ya
-kimt .u pendre li .a ya
-kump .u humeur li .a ya
-yimk .u demander .a ya
-kusp .u effondrement li .a ya
-kust .u constante li .a ya
-kumt .u communiquer li .a ya
-kuft .u diviser li .a ya
-kuwt .u code li .a ya
-yink .u anneau li .a ya
-kunt .u contrôle li .a ya
-kult .u culture li .a ya
-wiyp .u verbe .a ya
-yalk .u véhicule li .a ya
-yulp .u rôle li .a ya
-yult .u utilitaire li .a ya
-panp .u pain li .a ya
-pant .u emprunter li .a ya
-pack .u jouir li .a ya
-pult .u vieux li .a ya
-niym .u nomn .a ya
-wins .u Vénus li .a ya
-wint .u vent li .a ya
-sint .u sentir li .a ya
-nalt .u nature li .a ya
-sant .u art li .a ya
-suyt .u grammaticale-sujet .a ya
-timp .u grammaticale-tendue .a ya
-tiwk .u activité li .a ya
-tink .u texte li .a ya
-tick .u dictionnaire .a ya
-tisk .u progrès li .a ya
-tuym .u monde li .a ya
-tamk .u regarder li .a ya
-tanp .u apparaître li .a ya
-tack .u merci li .a ya
-tuwm .u durée li .a ya
-liyt .u littérature li .a ya
-liyn .u ligne li .a ya
-lint .u à-l'intérieur li .a ya
-lank .u couleur li .a ya
-lunt .u personnes li .a ya
-luwt .u luth li .a ya
-kwal .u langue .a ya
-cinp .u information li .a ya
+hi li hu être li ha ya
+ha li hu ob li ha ya
+hu li hu su li ha ya
+mi li hu moi li ha ya
+ma li hu quoi li ha ya
+mu li hu masculin li ha ya
+ki li hu et ha ya
+ka li hu comme li ha ya
+ku li hu si li ha ya
+yi li hu cette li ha ya
+yu li hu vous li ha ya
+ya li hu ya li ha ya
+pi li hu de li ha ya
+pa li hu que-chose li ha ya
+pu li hu passe li ha ya
+wi li hu nous li ha ya
+wa li hu ou ha ya
+wu li hu par li ha ya
+ni li hu en li ha ya
+na li hu chiffre li ha ya
+si li hu ils li ha ya
+sa li hu la li ha ya
+nu li hu est ha ya
+ti li hu on ha ya
+su li hu dès li ha ya
+ta li hu à li ha ya
+tu li hu toi li ha ya
+li li hu littéral li ha ya
+fa li hu thème li ha ya
+la li hu hé li ha ya
+lu li hu pluriel li ha ya
+fi li hu féminin li ha ya
+ci li hu hein? li ha ya
+fu li hu sera li ha ya
+mya li hu peut-être li ha ya
+ca li hu neutre li ha ya
+mwa li hu avec li ha ya
+kyi li hu conditionnellement ha ya
+kya li hu de-côté li ha ya
+kyu li hu parce-que li ha ya
+kwa li hu ce-qui li ha ya
+ksa li hu fin-de-citation li ha ya
+kli li hu lui li ha ya
+kla li hu mais li ha ya
+klu li hu clause-queue li ha ya
+kca li hu ha li ha ya
+pya li hu sur li ha ya
+psu li hu à-partir-de-la-source li ha ya
+pwa li hu you ha ya
+pli li hu par-exemple li ha ya
+pca li hu gai li ha ya
+nyi li hu ne li ha ya
+nya li hu à-savoir li ha ya
+sya li hu singulier li ha ya
+syi li hu très li ha ya
+syu li hu ainsi li ha ya
+swi li hu tandis-que li ha ya
+sla li hu bonjour li ha ya
+tyi li hu citation li ha ya
+twu li hu double li ha ya
+tsa li hu jusqu'au li ha ya
+tsi li hu oui li ha ya
+tsu li hu dehors li ha ya
+tla li hu pour li ha ya
+fyi li hu elle li ha ya
+twa li hu puis li ha ya
+tli li hu ord ha ya
+min hu de-moins li ha ya
+mik hu faire li ha ya
+miy hu attendre ha ya
+mip hu passé ha ya
+mit hu milieu li ha ya
+mak hu mot ha ya
+man hu penser li ha ya
+mat hu mère li ha ya
+mun hu mâle li ha ya
+mas hu masse li ha ya
+mac hu machine li ha ya
+mut hu aidez-moi li ha ya
+mul hu plein li ha ya
+kim hu comparer ha ya
+kiy hu aller ha ya
+kip hu capable li ha ya
+kin hu principal li ha ya
+kam hu venir li ha ya
+kis hu élevé li ha ya
+kit hu fin li ha ya
+kap hu tête ha ya
+kan hu savoir li ha ya
+kas hu cause li ha ya
+kaf hu cathode li ha ya
+kuy hu croître li ha ya
+kat hu obtenir li ha ya
+kal hu tous li ha ya
+kum hu commerce li ha ya
+kus hu nourriture li ha ya
+kuc hu petit li ha ya
+yis hu écrire li ha ya
+kup hu acheter li ha ya
+kun hu rouge li ha ya
+yik hu nier ha ya
+yum hu membre li ha ya
+yat hu lire li ha ya
+yun hu soustraire li ha ya
+yak hu certains li ha ya
+yac hu largeur li ha ya
+pis hu multiplier li ha ya
+pit hu blanc li ha ya
+pic hu faire-chier li ha ya
+yus hu utilisation li ha ya
+pay hu plus li ha ya
+yul hu entier li ha ya
+pam hu bon ha ya
+pas hu passer li ha ya
+pak hu corps ha ya
+paw hu lieu ha ya
+pat hu père li ha ya
+pus hu poo li ha ya
+pal hu beaucoup li ha ya
+pan hu rencontrer ha ya
+puk hu mauvais li ha ya
+win hu victoire li ha ya
+pac hu joie li ha ya
+puy hu enfant ha ya
+put hu vendre li ha ya
+pul hu bleu li ha ya
+fut hu avenir ha ya
+wut hu lumière li ha ya
+niy hu besoin li ha ya
+wan hu aimer li ha ya
+wap hu queue ha ya
+nay hu exhaler li ha ya
+wat hu parler li ha ya
+nat hu nuit li ha ya
+nut hu anode li ha ya
+nim hu nom li ha ya
+nit hu net li ha ya
+sip hu siroter li ha ya
+sit hu fixer li ha ya
+nuy hu nouveau li ha ya
+nic hu énergie li ha ya
+wul hu grand ha ya
+sim hu similaire li ha ya
+saw hu noir li ha ya
+sik hu hauteur li ha ya
+sil hu facile li ha ya
+nam hu nombre ha ya
+suy hu perdre li ha ya
+say hu dire li ha ya
+sap hu simple li ha ya
+nul hu nul li ha ya
+tim hu équipe li ha ya
+tik hu tenir li ha ya
+sam hu même li ha ya
+san hu soi li ha ya
+sat hu son li ha ya
+tis hu inhaler li ha ya
+sut hu taille li ha ya
+tiy hu jour li ha ya
+sup hu payer li ha ya
+naw hu présent ha ya
+til hu faible li ha ya
+tip hu commencer li ha ya
+tin hu voir li ha ya
+tam hu sujet li ha ya
+tuk hu boisson li ha ya
+tak hu ajouter li ha ya
+tay hu mettre li ha ya
+tan hu donner li ha ya
+tup hu profondeur li ha ya
+tas hu choisir li ha ya
+tum hu température li ha ya
+tuf hu difficile li ha ya
+fin hu femelle li ha ya
+fit hu se-adapter li ha ya
+tap hu toucher li ha ya
+tul hu outil li ha ya
+lin hu longueur li ha ya
+ciy hu vert li ha ya
+cif hu diviser li ha ya
+lik hu charge-électrique li ha ya
+lis hu vivre li ha ya
+myut hu importation li ha ya
+lit hu glyphe li ha ya
+cim hu entendre li ha ya
+myit hu se-souvient li ha ya
+cik hu peu ha minhnam hi ya
+cak hu chose li ha ya
+myun hu employer li ha ya
+can hu chance li ha ya
+cal hu mouvement li ha ya
+kyim hu jeu li ha ya
+myat hu les-maths li ha ya
+kyip hu vêtements li ha ya
+myan hu doux li ha ya
+kwit hu gravité li ha ya
+kwat hu se-soucier li ha ya
+myul hu moral li ha ya
+kyus hu amusement li ha ya
+myin hu rêver li ha ya
+kyil hu cercle li ha ya
+kyin hu général li ha ya
+kyap hu copie li ha ya
+ksat hu exact li ha ya
+kyup hu groupe li ha ya
+ksil hu cristal li ha ya
+kyat hu dur li ha ya
+kyul hu règle li ha ya
+ksap hu exprimer li ha ya
+ksip hu accès li ha ya
+ksam hu sombre li ha ya
+ksin hu contexte li ha ya
+ksal hu galaxie li ha ya
+klaw hu rire li ha ya
+kliy hu clair li ha ya
+ksum hu communiquer li ha ya
+ksan hu organiser li ha ya
+kcat hu huit li ha ya
+ktin hu religion li ha ya
+pyik hu pause li ha ya
+klin hu électron li ha ya
+pyit hu quatre li ha ya
+ksut hu recueillir li ha ya
+ksul hu école li ha ya
+pyaw hu couple li ha ya
+klac hu sauf li ha ya
+klas hu classe li ha ya
+klat hu clause li ha ya
+kcim hu chimique li ha ya
+pyil hu appel li ha ya
+pyan hu pronom ha ya
+pyas hu rapide li ha ya
+kfin hu config li ha ya
+pyin hu expérience li ha ya
+pyat hu prompt li ha ya
+pyam hu programme li ha ya
+psil hu épeler li ha ya
+pyut hu proton li ha ya
+pyul hu bouillir li ha ya
+pwas hu réponse li ha ya
+pyuf hu preuve li ha ya
+pwil hu variable li ha ya
+pwut hu approuver li ha ya
+psiy hu pression li ha ya
+psit hu vitesse li ha ya
+plis hu proche li ha ya
+pyuc hu projet li ha ya
+psan hu espace li ha ya
+pfis hu préférence li ha ya
+psat hu surface li ha ya
+nyip hu miroir li ha ya
+psal hu voile li ha ya
+psun hu source li ha ya
+nyat hu entrer li ha ya
+plum hu problème li ha ya
+psut hu promesse li ha ya
+plam hu plasma li ha ya
+nyul hu rouleau li ha ya
+syim hu sept li ha ya
+syip hu propre li ha ya
+pfal hu échouer li ha ya
+plan hu plan li ha ya
+pcit hu apprécier li ha ya
+pcil hu spécial li ha ya
+plat hu planète li ha ya
+syan hu cyan li ha ya
+pfus hu bus li ha ya
+plin hu plan li ha ya
+swit hu interrupteur li ha ya
+slim hu exemple ha ya
+syic hu recherche li ha ya
+nlic hu Anglais li ha ya
+syam hu rester li ha ya
+play hu jouer li ha ya
+nyit hu unité li ha ya
+slin hu unique li ha ya
+nyus hu ioniser li ha ya
+nyut hu neutron li ha ya
+nyis hu référence li ha ya
+tyik hu pourriture li ha ya
+syat hu solide li ha ya
+syut hu soutien li ha ya
+syun hu univers li ha ya
+swun hu sommeil li ha ya
+swat hu eau li ha ya
+swuy hu question li ha ya
+swil hu âme li ha ya
+tyif hu valeur li ha ya
+syit hu envoyer li ha ya
+syak hu éveillé li ha ya
+slof hu vocabulaire li ha ya
+tyip hu de-nouveau li ha ya
+tkun hu Chinois li ha ya
+tyap hu essayer li ha ya
+tyaw hu idée li ha ya
+slam hu sublimer li ha ya
+tyas hu jeter li ha ya
+tyic hu direction li ha ya
+tyus hu cas li ha ya
+tkic hu Traduction-dictionnaire li ha ya
+twif hu adjectif li ha ya
+tyim hu trembler li ha ya
+tsik hu six li ha ya
+tsiy hu histoire li ha ya
+tsip hu étape li ha ya
+tyuc hu enseigner li ha ya
+tyis hu transition li ha ya
+tyil hu froid li ha ya
+tyak hu cri li ha ya
+tyam hu atome li ha ya
+tyin hu trois li ha ya
+tyan hu chaîne li ha ya
+tyup hu robot li ha ya
+twis hu vrai li ha ya
+tsiw hu satellite li ha ya
+tsim hu ensemble li ha ya
+tsin hu instruction li ha ya
+tsuy hu se-asseoir li ha ya
+tsak hu attaque li ha ya
+tsan hu étudiant li ha ya
+tsil hu mériter li ha ya
+tsam hu but li ha ya
+tsay hu étoile li ha ya
+tsum hu faire-des-études li ha ya
+tlas hu plat li ha ya
+tsap hu propriété li ha ya
+tsal hu état li ha ya
+tsaf hu goût li ha ya
+tful hu deux li ha ya
+tsul hu adulte li ha ya
+tsuk hu boutique li ha ya
+tcap hu transparent li ha ya
+tlis hu désir li ha ya
+tlik hu électricité li ha ya
+tlam hu traduire li ha ya
+tlin hu ordinal ha ya
+tfin hu individuel li ha ya
+tfim hu temporaire li ha ya
+fwap hu cinq li ha ya
+tfak hu saleté li ha ya
+tlun hu point-triple li ha ya
+flan hu inondation li ha ya
+flat hu plat li ha ya
+tfus hu dommage li ha ya
+tcil hu prison li ha ya
+tlan hu tradition li ha ya
+tcin hu chaîne li ha ya
+tcun hu puissance li ha ya
+tfal hu fichier li ha ya
+flay hu voler li ha ya
+tcan hu arbre li ha ya
+fwil hu force li ha ya
+mink hu esprit li ha ya
+fwas hu phase li ha ya
+cyin hu apprendre li ha ya
+fyas hu phrase li ha ya
+flit hu flûte li ha ya
+clin hu relations li ha ya
+mayn hu harmonie li ha ya
+fluc hu couler li ha ya
+mant hu magenta li ha ya
+flut hu fleur li ha ya
+miyt hu conscient li ha ya
+clut hu surcritique-fluide li ha ya
+clum hu phrase li ha ya
+miwk hu personne ha ya
+miyk hu envoyer li ha ya
+mist hu mesurer li ha ya
+musk hu musique li ha ya
+mayp hu carte li ha ya
+milt hu fondre li ha ya
+mans hu humain li ha ya
+mayt hu -unité-imaginaire li ha ya
+kiyn hu une li ha ya
+kint hu convertir li ha ya
+mast hu question li ha ya
+must hu maximum li ha ya
+muys hu émotion li ha ya
+munk hu possible li ha ya
+munt hu humeur li ha ya
+mint hu méthode li ha ya
+muyt hu allié li ha ya
+malt hu matériel li ha ya
+mack hu imaginer li ha ya
+kiyp hu papier li ha ya
+kant hu constante li ha ya
+kasp hu capture li ha ya
+kast hu créer li ha ya
+kamt hu grammaire ha ya
+kift hu pardonner li ha ya
+mult hu modulo li ha ya
+kisp hu exposant li ha ya
+kays hu grammaticale-cas li ha ya
+kayn hu flux-de-courant li ha ya
+kayt hu chaud li ha ya
+kaws hu gaz li ha ya
+kimt hu pendre li ha ya
+kaft hu confirmer li ha ya
+kump hu complexe li ha ya
+kumt hu commandement li ha ya
+yinp hu retour li ha ya
+kuyn hu conjugaison li ha ya
+kuym hu commun li ha ya
+yilk hu jaune li ha ya
+yawt hu dommage li ha ya
+yimk hu demander ha ya
+kuyt hu au-point-critique li ha ya
+kuls hu cruel li ha ya
+kusp hu effondrement li ha ya
+yist hu exportation li ha ya
+kust hu constante li ha ya
+yimt hu rythme li ha ya
+piyn hu opinion li ha ya
+kuwt hu code li ha ya
+yasp hu le-travail li ha ya
+yink hu anneau li ha ya
+yamt hu admirer li ha ya
+kunt hu contrôle li ha ya
+yalt hu précoce li ha ya
+kult hu culture li ha ya
+yusk hu orient li ha ya
+yilt hu Eulers-numéro li ha ya
+yunt hu récipient li ha ya
+yuyp hu Europe li ha ya
+yask hu réaction li ha ya
+yast hu gratuit li ha ya
+pist hu permis li ha ya
+wiyp hu verbe ha ya
+yalk hu véhicule li ha ya
+yulp hu rôle li ha ya
+piys hu pi li ha ya
+pamt hu permanent li ha ya
+pays hu base li ha ya
+puyk hu grammaticale-objet li ha ya
+yult hu utilitaire li ha ya
+nist hu neuf li ha ya
+panp hu pain li ha ya
+past hu produire li ha ya
+nuys hu du-bruit li ha ya
+pant hu emprunter li ha ya
+nuls hu zéro li ha ya
+punt hu point li ha ya
+pust hu poussière li ha ya
+siyt hu suggérer li ha ya
+pack hu jouir li ha ya
+nims hu animisme li ha ya
+sift hu décalage li ha ya
+sayk hu sage li ha ya
+nuyt hu nord li ha ya
+nilt hu intelligence li ha ya
+nast hu intérêt li ha ya
+nusp hu oublier li ha ya
+pult hu vieux li ha ya
+sanp hu étendre li ha ya
+niym hu nomn ha ya
+wins hu Vénus li ha ya
+wuym hu volume li ha ya
+tiyk hu dix li ha ya
+tiyn hu continuer li ha ya
+wint hu vent li ha ya
+siyn hu paraître li ha ya
+niyt hu nième-racine li ha ya
+tiws hu le-théâtre li ha ya
+sint hu sentir li ha ya
+nuks hu unix li ha ya
+sunt hu sud li ha ya
+sulc hu solution li ha ya
+nust hu avis li ha ya
+sark hu sarcasme li ha ya
+tiym hu tard li ha ya
+nuft hu hostile li ha ya
+simt hu limite li ha ya
+nalt hu nature li ha ya
+tiyf hu drive li ha ya
+sayt hu vitesse-de-la-lumière li ha ya
+sant hu art li ha ya
+suyt hu grammaticale-sujet ha ya
+tawk hu autorité li ha ya
+timp hu grammaticale-tendue ha ya
+tiys hu distance li ha ya
+tink hu texte li ha ya
+tiwk hu activité li ha ya
+tisk hu texte li ha ya
+tinp hu or-rapport li ha ya
+tick hu dictionnaire ha ya
+tisp hu représenter li ha ya
+tayk hu joindre li ha ya
+liys hu liberté li ha ya
+task hu tâche li ha ya
+tank hu soudain li ha ya
+tuym hu monde li ha ya
+talp hu table li ha ya
+tuys hu voleur li ha ya
+lisk hu vacances li ha ya
+taym hu temps li ha ya
+tukc hu Turc li ha ya
+layt hu onze li ha ya
+lank hu local li ha ya
+tayn hu zone li ha ya
+tunk hu cerveau li ha ya
+tusk hu progrès li ha ya
+liwk hu juridique li ha ya
+tamk hu regarder li ha ya
+tanp hu apparaître li ha ya
+tack hu merci li ha ya
+fayt hu fait li ha ya
+list hu moins li ha ya
+fals hu faux li ha ya
+falt hu défaut li ha ya
+funk hu fonction li ha ya
+lant hu lent li ha ya
+fult hu hôtel li ha ya
+tuwm hu durée li ha ya
+liyk hu liquide li ha ya
+liwt hu cadeau li ha ya
+fint hu se-trouver li ha ya
+liyt hu littérature li ha ya
+layk hu lac li ha ya
+liyn hu ligne li ha ya
+link hu lien li ha ya
+faym hu ferme li ha ya
+lint hu à-l'intérieur li ha ya
+fans hu Français li ha ya
+lumk hu logarithme li ha ya
+lunt hu personnes li ha ya
+fuym hu forme li ha ya
+funm hu phonème li ha ya
+lunp hu boucle li ha ya
+luwt hu luth li ha ya
+kwal hu langue ha ya
+budz hu Bouddhisme li ha ya
+cinp hu information li ha ya

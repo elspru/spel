@@ -18,12 +18,12 @@ var Language = require(base+'lang/language');
 var mwak = new Language();
 
 var debug = false;
-var amount = 1;
+var amount = 2;
 var langDir = "../../doc/lang/";
-var fileStem = "vocab-mwak-";
+var fileStem = "";//"vocab-mwak-";
 var fileSuffix = "glyph.txt";
 //var fileNumbers = ["2","4","5","7","8","12","16","19","24"];
-var fileNumbers = ["16"];
+var fileNumbers = ["16","24"];
 var COrig, XOrig, CFilename, XFilename,
     CText, XText, XPText, CPText,
     definitions, sentence, phrase;
@@ -31,7 +31,7 @@ var i,j;
 function textUpdate(theText,sentence){
 	//sentence = text.sentences[j];
 	//console.log(String(sentence));
-	var matchPhrase = String(sentence.phraseGet(mwak,".u"));
+	var matchPhrase = String(sentence.phraseGet(mwak,"hu"));
 	theText.sentenceUpdate(mwak,matchPhrase,sentence);
 }
 for (i=0;i<amount;i++){
@@ -39,8 +39,9 @@ for (i=0;i<amount;i++){
 	XFilename = fileStem+"X"+fileNumbers[i]+fileSuffix;
 	//JSON.parse(io.fileRead(CFilename+".json"));
 	//JSON.parse(io.fileRead(XFilename+".json"));
-	console.log("loading "+CFilename);
+	console.log("reading "+CFilename);
 	COrig = io.fileRead(CFilename);
+	console.log("converting to text "+CFilename);
 	CText = new Text(mwak,COrig);
 	console.log("loading "+XFilename);
 	XOrig = io.fileRead(XFilename);
@@ -55,7 +56,7 @@ for (i=0;i<amount;i++){
 }
 else if (CPText !== undefined){
 	console.log("updating "+CFilename);
-	definitions = CPText.select(mwak,".a");
+	definitions = CPText.select(mwak,"ha");
 //console.log("C selections "+definitions);
 	definitions.sentences.forEach(textUpdate.curry(CText));
 	var CString = CText.toLocaleString(mwak);
@@ -70,12 +71,12 @@ else if (CPText !== undefined){
 	// update current extended based on previous
 	if (typeof XPText !== "undefined"){
 	console.log("updating "+XFilename);
-	definitions = XPText.select(mwak,".a");
+	definitions = XPText.select(mwak,"ha");
 //console.log("X selections "+definitions);
 	definitions.sentences.forEach(textUpdate.curry(XText));
 	}
 	// update current extended based on current core
-	definitions = CText.select(mwak,".a");
+	definitions = CText.select(mwak,"ha");
 	definitions.sentences.forEach(textUpdate.curry(XText));
 	var XString = XText.toLocaleString(mwak);
 	if (debug) console.log(XString);

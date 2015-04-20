@@ -20,14 +20,14 @@ var mwak = new Language();
 var filename = "mwak/vocab-mwak-X16glyph.txt" ;//process.argv[2];
 var fileContents = io.fileRead(filename);
 var fileText = new Text(mwak,fileContents);
-var definitions = fileText.select(mwak,".a");
+var definitions = fileText.select(mwak,"ha");
 var sentences = definitions.sentences;
 var i;
 for (i=0;i<sentences.length;i++){
 sentences[i].phraseDelete(mwak,"kya");
-sentences[i].phraseDelete(mwak,"nya");
+sentences[i].phraseDelete(mwak,"su");
 sentences[i].phraseDelete(mwak,"psu");
-sentences[i].phraseDelete(mwak,".a");
+sentences[i].phraseDelete(mwak,"ha");
 //sentences[i].phraseDelete(mwak,".i");
 }
 console.log(definitions.toString());

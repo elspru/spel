@@ -1,293 +1,533 @@
-.i li .u להיות li .a ya
-.a li .u אוֹת li .a ya
-.u li .u נָתִי li .a ya
-mi li .u שלי li .a ya
-ma li .u מה li .a ya
-ki li .u ו li .a ya
-ka li .u כ li .a ya
-ku li .u אם li .a ya
-yi li .u זה li .a ya
-ya li .u כן li .a ya
-yu li .u אתה li .a ya
-pi li .u של li .a ya
-pa li .u זֹאת li .a ya
-pu li .u עשיתי li .a ya
-wi li .u אנחנו li .a ya
-wa li .u או li .a ya
-ni li .u ב li .a ya
-na li .u מִספָּרִי li .a ya
-nu li .u עכשיו li .a ya
-si li .u הם li .a ya
-sa li .u הֵ li .a ya
-ti li .u כִּי li .a ya
-ta li .u ל li .a ya
-tu li .u שלך li .a ya
-li li .u li li .a ya
-fa li .u על li .a ya
-fu li .u יהיה li .a ya
-ci li .u אה? li .a ya
-myi li .u זיכרון li .a ya
-mya li .u אולי li .a ya
-mwa li .u עם li .a ya
-kyi li .u תנאים li .a ya
-kya li .u בצד li .a ya
-kwa li .u ש--ש li .a ya
-ksa li .u עַד-כָּאן li .a ya
-kla li .u אבל li .a ya
-klu li .u סעיף-זנב li .a ya
-kca li .u חה li .a ya
-pya li .u על-ידי li .a ya
-pwa li .u yaor li .a ya
-psu li .u מקוד li .a ya
-pli li .u ליד li .a ya
-pla li .u רבים li .a ya
-plu li .u בְּגִין li .a ya
-pca li .u עליז li .a ya
-nya li .u מ li .a ya
-swi li .u תוך li .a ya
-sli li .u לדוגמה- li .a ya
-sla li .u שלום li .a ya
-slu li .u יחיד li .a ya
-twa li .u לאחר-מכן li .a ya
-tli li .u ORD li .a ya
-mik .u לעשות li .a ya
-miy .u לחכות li .a ya
-mip .u האחרון li .a ya
-min .u פחות li .a ya
-mit .u אמצע li .a ya
-mak .u מילה li .a ya
-map .u גודל li .a ya
-man .u חושב li .a ya
-mas .u מסה li .a ya
-mat .u אמא li .a ya
-mac .u מכונה li .a ya
-mut .u לעזור li .a ya
-kim .u להשוות li .a ya
-kiy .u ללכת li .a ya
-kip .u מסוגל li .a ya
-kin .u עיקרי li .a ya
-kit .u סוף li .a ya
-kay .u להחזיק li .a ya
-kap .u ראש li .a ya
-kan .u יודע li .a ya
-kas .u סיבה li .a ya
-kat .u לקבל li .a ya
-kal .u כל li .a ya
-kum .u מסחר li .a ya
-kup .u לקנות li .a ya
-kun .u אדום li .a ya
-kut .u קטן li .a ya
-yik .u לשלול li .a ya
-yan .u אומר li .a ya
-yut .u לחסר li .a ya
-pam .u טוב li .a ya
-pak .u גוף li .a ya
-pay .u יותר li .a ya
-paw .u מקום li .a ya
-pan .u נפגש li .a ya
-pat .u אב li .a ya
-pal .u רב li .a ya
-pac .u שמחה li .a ya
-puy .u ילד li .a ya
-put .u למכור li .a ya
-pul .u כחול li .a ya
-wit .u אור li .a ya
-wap .u זנב li .a ya
-wan .u אוהב li .a ya
-wat .u לדבר li .a ya
-wul .u גדול li .a ya
-nim .u שם li .a ya
-nit .u נטו li .a ya
-nic .u אנרגיה li .a ya
-nam .u מספר li .a ya
-naw .u הווה li .a ya
-nul .u null li .a ya
-sam .u אותו li .a ya
-san .u עצמי li .a ya
-sat .u נשמע li .a ya
-sup .u לשלם li .a ya
-sun .u אחד li .a ya
-tip .u מתחיל li .a ya
-tin .u לראות li .a ya
-tam .u נושא li .a ya
-tak .u להוסיף li .a ya
-tay .u לשים li .a ya
-tap .u לגעת li .a ya
-tan .u לתת li .a ya
-tas .u לבחור li .a ya
-tum .u טמפרטורה li .a ya
-tuw .u שני li .a ya
-tun .u אורך li .a ya
-tul .u כלי li .a ya
-lik .u חשמלי-תשלום li .a ya
-liy .u ארבעה li .a ya
-lin .u ירוק li .a ya
-lis .u לחיות li .a ya
-lit .u גליף li .a ya
-fut .u עתיד li .a ya
-cim .u לְהַקְשִׁיב li .a ya
-cik .u כמה li .a ya
-cak .u דבר li .a ya
-caw .u צעקה li .a ya
-can .u הזדמנות li .a ya
-cal .u מהלך li .a ya
-myan .u רך li .a ya
-myul .u מוסרי li .a ya
-myin .u לחלום li .a ya
-kyit .u כוח-משיכה li .a ya
-kyil .u המעגל li .a ya
-kyin .u כללי li .a ya
-kyap .u עותק li .a ya
-kyup .u קבוצה li .a ya
-kyat .u קשה li .a ya
-kwat .u קוונטים li .a ya
-kyul .u כלל li .a ya
-kwal .u שפה li .a ya
-kyis .u לכתוב li .a ya
-ksip .u גישה li .a ya
-ksin .u הקשר li .a ya
-ksat .u פתאומי li .a ya
-ksal .u גלקסיה li .a ya
-ksap .u להביע li .a ya
-ksan .u לארגן li .a ya
-klin .u אלקטרון li .a ya
-ksut .u לאסוף li .a ya
-ksul .u בית-ספר li .a ya
-klaw .u צחוק li .a ya
-klas .u כיתה li .a ya
-klat .u סעיף li .a ya
-kcim .u כימי li .a ya
-klac .u מלבד li .a ya
-kfin .u config li .a ya
-pyin .u ניסיון li .a ya
-pyam .u תכנית li .a ya
-pyan .u כִּנוּי li .a ya
-pyut .u פרוטון li .a ya
-pyul .u רתיחה li .a ya
-pyas .u ביטוי li .a ya
-pyat .u דקדוקי-אובייקט li .a ya
-pwil .u משתנה li .a ya
-pwut .u לאשר li .a ya
-psiy .u לחץ li .a ya
-pyuf .u הוכחה li .a ya
-pyuc .u פרויקט li .a ya
-psit .u משטח li .a ya
-psan .u חלל li .a ya
-psun .u מקור li .a ya
-plam .u פלזמה li .a ya
-plin .u מטוס li .a ya
-plis .u בקרבת-מקום li .a ya
-play .u לשחק li .a ya
-nyit .u יחידה li .a ya
-nyus .u לְהִתְיוֹנֵן li .a ya
-nyut .u ניטרונים li .a ya
-plan .u כדור-הארץ li .a ya
-nyis .u התייחסות li .a ya
-syat .u מוצק li .a ya
-syun .u יקום li .a ya
-swil .u נשמה li .a ya
-syit .u לשלוח li .a ya
-syak .u ער li .a ya
-slam .u לְזַכֵּך li .a ya
-swat .u שאלה li .a ya
-slim .u דוגמא li .a ya
-tkic .u תרגום-מילון li .a ya
-tyis .u מעבר li .a ya
-tyil .u קר li .a ya
-tyam .u אטום li .a ya
-tyim .u לרעוד li .a ya
-tyin .u שלוש li .a ya
-tyan .u מחרוזת li .a ya
-tyas .u רעיון li .a ya
-tyup .u רובוט li .a ya
-tsiw .u לווין li .a ya
-twis .u נכון li .a ya
-tsim .u יחד li .a ya
-tsin .u הוראה li .a ya
-tsil .u מגיע-לי li .a ya
-tsay .u כוכב li .a ya
-tsam .u מטרה li .a ya
-tsak .u להישאר li .a ya
-tsap .u רכוש li .a ya
-tsan .u שוב li .a ya
-tsal .u מדינה li .a ya
-tsaf .u טעם li .a ya
-tsuk .u חנות li .a ya
-tlik .u חשמל li .a ya
-tlin .u סִדוּרִי li .a ya
-tlun .u משולשת-נקודה li .a ya
-tlam .u תרגום li .a ya
-tcin .u שרשרת li .a ya
-tlan .u מסורת li .a ya
-tfal .u קובץ li .a ya
-tcan .u עץ li .a ya
-fwas .u שלב li .a ya
-fyas .u ביטוי li .a ya
-fwil .u כוח li .a ya
-flit .u חליל li .a ya
-flut .u פרח li .a ya
-fluc .u לזרום li .a ya
-clut .u סופר-קריטי-נוזל li .a ya
-clum .u משפט li .a ya
-miyk .u לשלוח li .a ya
-mist .u למדוד li .a ya
-milt .u להמיס li .a ya
-mayt .u דמיונית-יחידה li .a ya
-mast .u עניין li .a ya
-miwk .u אדם li .a ya
-mint .u שיטה li .a ya
-muyt .u ברית li .a ya
-malt .u חומר li .a ya
-mack .u לדמיין li .a ya
-muys .u רגש li .a ya
-kisp .u חֶזקָה li .a ya
-munt .u עולם li .a ya
-kays .u דקדוקי-מקרה li .a ya
-kayt .u חם li .a ya
-kaws .u גז li .a ya
-kant .u להמיר li .a ya
-kast .u קבוע li .a ya
-kimt .u לתלות li .a ya
-kamt .u דקדוק li .a ya
-kump .u מצב-רוח li .a ya
-kusp .u קריסה li .a ya
-kust .u קבוע li .a ya
-kumt .u לתקשר li .a ya
-kuft .u הפרד li .a ya
-kuwt .u קוד li .a ya
-yink .u טבעת li .a ya
-kunt .u שליטה li .a ya
-kult .u תרבות li .a ya
-yimk .u שואל li .a ya
-yalk .u רכב li .a ya
-yulp .u תפקיד li .a ya
-yult .u שירות li .a ya
-panp .u לחם li .a ya
-pant .u ללוות li .a ya
-pack .u ליהנות-מ li .a ya
-pult .u ישן li .a ya
-wiyp .u פּוֹעַל li .a ya
-wins .u ונוס li .a ya
-wint .u רוח li .a ya
-niym .u שם-עצם li .a ya
-nalt .u טבע li .a ya
-sant .u אמנות li .a ya
-sint .u מרגיש li .a ya
-suyt .u דקדוקי-נושא li .a ya
-timp .u מתוח li .a ya
-tink .u על-מודעה li .a ya
-tiwk .u פעילות li .a ya
-tisk .u התקדמות li .a ya
-tuym .u עולם li .a ya
-tamk .u נראה li .a ya
-tanp .u מופיע li .a ya
-tack .u תודה li .a ya
-tuwm .u משך li .a ya
-liyt .u ספרות li .a ya
-liyn .u קו li .a ya
-lint .u בתוך li .a ya
-lank .u צבע li .a ya
-lunt .u אנשים li .a ya
-luwt .u עוּד li .a ya
-tick .u מילון li .a ya
-cinp .u מידע li .a ya
+hi li hu להיות li ha ya
+ha li hu אוֹת li ha ya
+hu li hu נָתִי li ha ya
+mi li hu שלי li ha ya
+ma li hu מה li ha ya
+mu li hu גברי li ha ya
+ki li hu ו li ha ya
+ka li hu כ li ha ya
+ku li hu אם li ha ya
+yi li hu זה li ha ya
+ya li hu כן li ha ya
+yu li hu אתה li ha ya
+pi li hu של li ha ya
+pa li hu זֹאת li ha ya
+pu li hu עשיתי li ha ya
+wi li hu אנחנו li ha ya
+wa li hu או li ha ya
+wu li hu על-ידי li ha ya
+ni li hu ב li ha ya
+na li hu מִספָּרִי li ha ya
+nu li hu עכשיו li ha ya
+si li hu הם li ha ya
+sa li hu הֵ li ha ya
+su li hu מ li ha ya
+ti li hu כִּי li ha ya
+ta li hu ל li ha ya
+tu li hu שלך li ha ya
+li li hu li li ha ya
+la li hu היי li ha ya
+lu li hu רבים li ha ya
+fi li hu נשי li ha ya
+fa li hu על li ha ya
+fu li hu יהיה li ha ya
+ci li hu אה? li ha ya
+ca li hu נֵטרָלִי li ha ya
+mya li hu אולי li ha ya
+mwa li hu עם li ha ya
+kyi li hu תנאים li ha ya
+kya li hu בצד li ha ya
+kyu li hu בגלל li ha ya
+kwa li hu ש--ש li ha ya
+ksa li hu עַד-כָּאן li ha ya
+kli li hu שלו li ha ya
+kla li hu אבל li ha ya
+klu li hu סעיף-זנב li ha ya
+kca li hu חה li ha ya
+pya li hu ב li ha ya
+pwa li hu yaor li ha ya
+psu li hu מקוד li ha ya
+pli li hu לדוגמה li ha ya
+pca li hu עליז li ha ya
+nyi li hu לא li ha ya
+nya li hu כלומר li ha ya
+sya li hu יחיד li ha ya
+syi li hu מאוד li ha ya
+syu li hu כך li ha ya
+swi li hu תוך li ha ya
+sla li hu שלום li ha ya
+tyi li hu ציטוט li ha ya
+twu li hu כפול li ha ya
+tsa li hu untill li ha ya
+tsi li hu כן li ha ya
+tsu li hu את li ha ya
+tla li hu ל li ha ya
+fyi li hu שלה li ha ya
+twa li hu לאחר-מכן li ha ya
+tli li hu ORD li ha ya
+min hu פחות li ha ya
+mik hu לעשות li ha ya
+miy hu לחכות li ha ya
+mip hu האחרון li ha ya
+mit hu אמצע li ha ya
+mak hu מילה li ha ya
+man hu חושב li ha ya
+mas hu מסה li ha ya
+mun hu זכר li ha ya
+mat hu אמא li ha ya
+mac hu מכונה li ha ya
+mut hu לעזור li ha ya
+mul hu מלא li ha ya
+kim hu להשוות li ha ya
+kiy hu ללכת li ha ya
+kip hu מסוגל li ha ya
+kin hu עיקרי li ha ya
+kam hu תבואו li ha ya
+kis hu גבוה li ha ya
+kit hu סוף li ha ya
+kap hu ראש li ha ya
+kan hu יודע li ha ya
+kas hu סיבה li ha ya
+kaf hu קתודה li ha ya
+kuy hu לגדול li ha ya
+kat hu לקבל li ha ya
+kal hu כל li ha ya
+kum hu מסחר li ha ya
+kus hu מזון li ha ya
+kuc hu קטן li ha ya
+yis hu לכתוב li ha ya
+kup hu לקנות li ha ya
+kun hu אדום li ha ya
+yik hu לשלול li ha ya
+yum hu איבר li ha ya
+yat hu לקרוא li ha ya
+yun hu לחסר li ha ya
+yak hu כמה li ha ya
+yac hu רוחב li ha ya
+pis hu להכפיל li ha ya
+pit hu לבן li ha ya
+pic hu להשתין li ha ya
+yus hu שימוש li ha ya
+pay hu יותר li ha ya
+yul hu כל li ha ya
+pam hu טוב li ha ya
+pas hu עובר li ha ya
+pas undefined ha ya
+pak hu גוף li ha ya
+paw hu מקום li ha ya
+pan hu נפגש li ha ya
+pus hu קקי li ha ya
+pat hu אב li ha ya
+puk hu רע li ha ya
+pal hu רב li ha ya
+win hu נצחון li ha ya
+pac hu שמחה li ha ya
+puy hu ילד li ha ya
+put hu למכור li ha ya
+pul hu כחול li ha ya
+wap hu זנב li ha ya
+wan hu אוהב li ha ya
+wut hu אור li ha ya
+niy hu צריך li ha ya
+wat hu לדבר li ha ya
+wul hu גדול li ha ya
+nay hu לִנְשׁוֹף li ha ya
+nim hu שם li ha ya
+nat hu לילה li ha ya
+nut hu אָנוֹדָה li ha ya
+nit hu נטו li ha ya
+nic hu אנרגיה li ha ya
+nuy hu חדש li ha ya
+sip hu לגימה li ha ya
+sit hu סט li ha ya
+sim hu דומה li ha ya
+nam hu מספר li ha ya
+naw hu הווה li ha ya
+saw hu שחור li ha ya
+sik hu גובה li ha ya
+sil hu קל li ha ya
+nul hu null li ha ya
+sap hu פשוט li ha ya
+suy hu לאבד li ha ya
+say hu אומר li ha ya
+sam hu אותו li ha ya
+tim hu צוות li ha ya
+tik hu להחזיק li ha ya
+san hu עצמי li ha ya
+sat hu נשמע li ha ya
+sup hu לשלם li ha ya
+tis hu לשאוף li ha ya
+sut hu גודל li ha ya
+tiy hu יום li ha ya
+tip hu מתחיל li ha ya
+til hu נמוך li ha ya
+tin hu לראות li ha ya
+tam hu נושא li ha ya
+tak hu להוסיף li ha ya
+tuk hu משקה li ha ya
+tay hu לשים li ha ya
+tap hu לגעת li ha ya
+tan hu לתת li ha ya
+tas hu לבחור li ha ya
+tup hu עומק li ha ya
+tum hu טמפרטורה li ha ya
+fin hu נקבה li ha ya
+tuf hu קשה li ha ya
+fit hu להתאים li ha ya
+tul hu כלי li ha ya
+lik hu חשמלי-תשלום li ha ya
+lin hu אורך li ha ya
+ciy hu ירוק li ha ya
+cif hu הפרד li ha ya
+lis hu לחיות li ha ya
+lit hu גליף li ha ya
+fut hu עתיד li ha ya
+myut hu יבוא li ha ya
+cim hu לְהַקְשִׁיב li ha ya
+cik hu כמה li ha ya
+myit hu זוכר li ha ya
+cak hu דבר li ha ya
+can hu הזדמנות li ha ya
+myun hu מעסיק li ha ya
+cal hu מהלך li ha ya
+myan hu רך li ha ya
+kyim hu משחק li ha ya
+myat hu מתמטיקה li ha ya
+kyip hu בגדים li ha ya
+myul hu מוסרי li ha ya
+kwit hu כוח-משיכה li ha ya
+kwat hu טיפול li ha ya
+myin hu לחלום li ha ya
+kyus hu כיף li ha ya
+kyil hu המעגל li ha ya
+kyin hu כללי li ha ya
+kyap hu עותק li ha ya
+kyup hu קבוצה li ha ya
+ksat hu מדויק li ha ya
+ksil hu גביש li ha ya
+kyat hu קשה li ha ya
+kyul hu כלל li ha ya
+kwal hu שפה li ha ya
+ksam hu אפל li ha ya
+ksip hu גישה li ha ya
+ksin hu הקשר li ha ya
+ksal hu גלקסיה li ha ya
+ksap hu להביע li ha ya
+ksum hu לתקשר li ha ya
+ksan hu לארגן li ha ya
+kliy hu ברור li ha ya
+ktin hu דת li ha ya
+klin hu אלקטרון li ha ya
+kcat hu שמונה li ha ya
+pyik hu הפסקה li ha ya
+ksut hu לאסוף li ha ya
+pyit hu ארבעה li ha ya
+ksul hu בית-ספר li ha ya
+klaw hu צחוק li ha ya
+pyaw hu בני-זוג li ha ya
+klas hu כיתה li ha ya
+klat hu סעיף li ha ya
+kcim hu כימי li ha ya
+klac hu מלבד li ha ya
+pyil hu ערעור li ha ya
+kfin hu config li ha ya
+pyas hu מהר li ha ya
+pyin hu ניסיון li ha ya
+pyat hu הפקודה li ha ya
+pyam hu תכנית li ha ya
+pyan hu כִּנוּי li ha ya
+pyut hu פרוטון li ha ya
+psil hu לאיית li ha ya
+pyul hu רתיחה li ha ya
+pwas hu תשובה li ha ya
+pwil hu משתנה li ha ya
+pwut hu לאשר li ha ya
+psiy hu לחץ li ha ya
+psit hu מהירות li ha ya
+pyuf hu הוכחה li ha ya
+pyuc hu פרויקט li ha ya
+psan hu חלל li ha ya
+psat hu משטח li ha ya
+pfis hu העדפה li ha ya
+psal hu מפרש li ha ya
+nyip hu מראה li ha ya
+psun hu מקור li ha ya
+psut hu הבטחה li ha ya
+nyat hu להיכנס li ha ya
+plum hu בעיה li ha ya
+plam hu פלזמה li ha ya
+plin hu מטוס li ha ya
+nyul hu גליל li ha ya
+pfal hu להיכשל li ha ya
+syim hu שבע li ha ya
+pcit hu מעריך li ha ya
+pcil hu מיוחד li ha ya
+syip hu נקי li ha ya
+plan hu תכנית li ha ya
+plat hu כדור-הארץ li ha ya
+syan hu ציאן li ha ya
+pfus hu אוטובוס li ha ya
+plis hu בקרבת-מקום li ha ya
+swit hu מתג li ha ya
+nlic hu אנגלית li ha ya
+play hu לשחק li ha ya
+syic hu מחקר li ha ya
+syam hu להישאר li ha ya
+nyit hu יחידה li ha ya
+nyus hu לְהִתְיוֹנֵן li ha ya
+slin hu אחת li ha ya
+nyut hu ניטרונים li ha ya
+nyis hu התייחסות li ha ya
+syat hu מוצק li ha ya
+syut hu תמיכה li ha ya
+tyik hu ריקבון li ha ya
+syun hu יקום li ha ya
+swat hu מים li ha ya
+swuy hu שאלה li ha ya
+swun hu שינה li ha ya
+swil hu נשמה li ha ya
+syit hu לשלוח li ha ya
+tyif hu שווה li ha ya
+slof hu אוצר-מילים li ha ya
+syak hu ער li ha ya
+tkun hu סיני li ha ya
+slam hu לְזַכֵּך li ha ya
+tyip hu שוב li ha ya
+tyap hu לנסות li ha ya
+tyaw hu רעיון li ha ya
+tyas hu לזרוק li ha ya
+tyic hu כיוון li ha ya
+slim hu דוגמא li ha ya
+tyus hu מקרה li ha ya
+tkic hu תרגום-מילון li ha ya
+twif hu תוֹאַר li ha ya
+tyis hu מעבר li ha ya
+tsik hu שש li ha ya
+tsiy hu סיפור li ha ya
+tsip hu צעד li ha ya
+tyuc hu ללמד li ha ya
+tyil hu קר li ha ya
+tyam hu אטום li ha ya
+tyak hu צעקה li ha ya
+tyim hu לרעוד li ha ya
+tyin hu שלוש li ha ya
+tyan hu מחרוזת li ha ya
+tyup hu רובוט li ha ya
+tsiw hu לווין li ha ya
+twis hu נכון li ha ya
+tsim hu יחד li ha ya
+tsin hu הוראה li ha ya
+tsuy hu לשבת li ha ya
+tsan hu סטודנט li ha ya
+tsak hu התקפה li ha ya
+tsil hu מגיע-לי li ha ya
+tsay hu כוכב li ha ya
+tsam hu מטרה li ha ya
+tsum hu מחקר li ha ya
+tlas hu צלחת li ha ya
+tsap hu רכוש li ha ya
+tsal hu מדינה li ha ya
+tsul hu מבוגרים li ha ya
+tsaf hu טעם li ha ya
+tful hu שני li ha ya
+tlis hu רצון li ha ya
+tsuk hu חנות li ha ya
+tcap hu שקוף li ha ya
+tlik hu חשמל li ha ya
+tlin hu סִדוּרִי li ha ya
+tfim hu זמני li ha ya
+tlun hu משולשת-נקודה li ha ya
+tfin hu פרט li ha ya
+fwap hu חמש li ha ya
+tfak hu עפר li ha ya
+tlam hu תרגום li ha ya
+flan hu מבול li ha ya
+tcil hu כלא li ha ya
+flat hu שטוח li ha ya
+tfus hu נזק li ha ya
+tcun hu כוח li ha ya
+tcin hu שרשרת li ha ya
+tlan hu מסורת li ha ya
+tfal hu קובץ li ha ya
+flay hu לעוף li ha ya
+tcan hu עץ li ha ya
+fwas hu שלב li ha ya
+mink hu דעה li ha ya
+fyas hu ביטוי li ha ya
+cyin hu ללמוד li ha ya
+fwil hu כוח li ha ya
+flit hu חליל li ha ya
+clin hu יחסים li ha ya
+mayn hu הרמוניה li ha ya
+flut hu פרח li ha ya
+miyt hu מודע li ha ya
+mant hu מגנטה li ha ya
+fluc hu לזרום li ha ya
+clut hu סופר-קריטי-נוזל li ha ya
+clum hu משפט li ha ya
+miyk hu לשלוח li ha ya
+mist hu למדוד li ha ya
+milt hu להמיס li ha ya
+musk hu מוסיקה li ha ya
+mans hu אדם li ha ya
+mayp hu המפה li ha ya
+mayt hu דמיונית-יחידה li ha ya
+mast hu עניין li ha ya
+kiyn hu אחד li ha ya
+kint hu להמיר li ha ya
+miwk hu אדם li ha ya
+munk hu אפשרי li ha ya
+munt hu מצב-רוח li ha ya
+must hu ביותר li ha ya
+mint hu שיטה li ha ya
+muyt hu ברית li ha ya
+malt hu חומר li ha ya
+mack hu לדמיין li ha ya
+muys hu רגש li ha ya
+kiyp hu נייר li ha ya
+kant hu קבוע li ha ya
+kasp hu מלכוד li ha ya
+kast hu ליצור li ha ya
+mult hu מודולו li ha ya
+kift hu תסלח-לי li ha ya
+kisp hu חֶזקָה li ha ya
+kays hu דקדוקי-מקרה li ha ya
+kayn hu זרימה-שוטפת li ha ya
+kayt hu חם li ha ya
+kaws hu גז li ha ya
+kaft hu לאשר li ha ya
+kump hu מורכב li ha ya
+kumt hu הפקודה li ha ya
+kimt hu לתלות li ha ya
+kamt hu דקדוק li ha ya
+kuym hu משותף li ha ya
+yinp hu תמורה li ha ya
+kuyn hu נְטִיָה li ha ya
+yilk hu צהוב li ha ya
+yawt hu נזק li ha ya
+kuls hu אכזרי li ha ya
+kuyt hu קריטי-נקודות li ha ya
+kusp hu קריסה li ha ya
+kust hu קבוע li ha ya
+yimt hu קצב li ha ya
+yist hu יצוא li ha ya
+kuwt hu קוד li ha ya
+piyn hu דעה li ha ya
+yink hu טבעת li ha ya
+yamt hu מעריץ li ha ya
+yasp hu עבודה li ha ya
+kunt hu שליטה li ha ya
+kult hu תרבות li ha ya
+yalt hu מוקדם li ha ya
+yilt hu Eulers-מספר li ha ya
+yusk hu מזרח li ha ya
+yuyp hu אירופה li ha ya
+yask hu תגובה li ha ya
+yunt hu מיכל li ha ya
+yast hu חינם li ha ya
+yimk hu שואל li ha ya
+pist hu היתר li ha ya
+yalk hu רכב li ha ya
+yulp hu תפקיד li ha ya
+piys hu pi li ha ya
+pays hu בסיס li ha ya
+pamt hu קבוע li ha ya
+yult hu שירות li ha ya
+puyk hu דקדוקי-אובייקט li ha ya
+panp hu לחם li ha ya
+nist hu תשע li ha ya
+past hu לייצר li ha ya
+pant hu ללוות li ha ya
+nuys hu רעש li ha ya
+punt hu נקודה li ha ya
+nuls hu אפס li ha ya
+pust hu אבק li ha ya
+pack hu ליהנות-מ li ha ya
+nims hu אֲנִימִיסְם li ha ya
+siyt hu מציע li ha ya
+pult hu ישן li ha ya
+sift hu שינוי li ha ya
+nilt hu מודיעין li ha ya
+nast hu ריבית li ha ya
+sayk hu חכם li ha ya
+nuyt hu צפון li ha ya
+nusp hu תשכח li ha ya
+wiyp hu פּוֹעַל li ha ya
+sanp hu להרחיב li ha ya
+wins hu ונוס li ha ya
+wuym hu נפח li ha ya
+wint hu רוח li ha ya
+tiyk hu עשר li ha ya
+siyn hu נראה li ha ya
+tiyn hu להמשיך li ha ya
+niyt hu המי-יודע-כמה-שורש li ha ya
+niym hu שם-עצם li ha ya
+tiws hu תיאטרון li ha ya
+nuks hu unix li ha ya
+nust hu הודעה li ha ya
+sunt hu דרום li ha ya
+sark hu סרקזם li ha ya
+sulc hu פתרון li ha ya
+nuft hu עוין li ha ya
+tiym hu מאוחר li ha ya
+simt hu מגבלה li ha ya
+nalt hu טבע li ha ya
+sayt hu מהירות-של-האור li ha ya
+tiyf hu כונן li ha ya
+sant hu אמנות li ha ya
+sint hu מרגיש li ha ya
+suyt hu דקדוקי-נושא li ha ya
+tawk hu סמכות li ha ya
+tink hu על-מודעה li ha ya
+tiys hu מרחק li ha ya
+tisk hu על-מודעה li ha ya
+timp hu מתוח li ha ya
+tinp hu זהב-יחס li ha ya
+tiwk hu פעילות li ha ya
+tisp hu מייצג li ha ya
+tayk hu לצרף li ha ya
+tuym hu עולם li ha ya
+liys hu חירות li ha ya
+task hu משימה li ha ya
+tank hu פתאומי li ha ya
+taym hu זמן li ha ya
+talp hu שולחן li ha ya
+tuys hu גנב li ha ya
+tukc hu תורכי li ha ya
+lisk hu חופשה li ha ya
+tayn hu אזור li ha ya
+layt hu אחד-עשר li ha ya
+tunk hu מוח li ha ya
+tusk hu התקדמות li ha ya
+lank hu מקומי li ha ya
+liwk hu משפטי li ha ya
+tamk hu נראה li ha ya
+tanp hu מופיע li ha ya
+tack hu תודה li ha ya
+tuwm hu משך li ha ya
+fayt hu עובדה li ha ya
+list hu לפחות li ha ya
+fals hu שקר li ha ya
+falt hu ברירת-מחדל li ha ya
+funk hu פונקציה li ha ya
+lant hu איטי li ha ya
+fult hu מלון li ha ya
+liyk hu נוזל li ha ya
+liwt hu מתנה li ha ya
+liyt hu ספרות li ha ya
+fint hu למצוא li ha ya
+liyn hu קו li ha ya
+layk hu אגם li ha ya
+faym hu החווה li ha ya
+link hu קישור li ha ya
+fans hu צרפתי li ha ya
+lint hu בתוך li ha ya
+lumk hu לוֹגָרִיתְם li ha ya
+fuym hu טופס li ha ya
+funm hu פונמה li ha ya
+lunt hu אנשים li ha ya
+lunp hu לולאה li ha ya
+luwt hu עוּד li ha ya
+budz hu בודהיזם li ha ya
+tick hu מילון li ha ya
+cinp hu מידע li ha ya

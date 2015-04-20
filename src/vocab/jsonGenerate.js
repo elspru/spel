@@ -147,7 +147,7 @@ byService = "google";
 }
 var fileContents = io.fileRead(fromFilename);
 var fileText = new Text(mwak,fileContents);
-var definitions = fileText.select(mwak,".a");
+var definitions = fileText.select(mwak,"ha");
 var sentences = definitions.sentences;
 
 var toFileContents = io.fileRead(toFilename);
@@ -162,10 +162,10 @@ var i, translateFail;
 console.log("translating");
 for (i=0;i<sentences.length;i++){
 var sentence = sentences[i];
-var subject = String( sentence.phraseGet(mwak,".u"));
+var subject = String( sentence.phraseGet(mwak,"hu"));
 var find = toFileText.indexOf(mwak,subject);
 if (find === -1){
-var obPhraseBody = sentence.phraseGet(mwak,".a").body;
+var obPhraseBody = sentence.phraseGet(mwak,"ha").body;
 if (obPhraseBody.type && obPhraseBody.type === "lit")
 var obPhraseBody = obPhraseBody.body;
 var definition = String(obPhraseBody);
@@ -191,7 +191,7 @@ translation.toLower() === definition)
 warnings[warnings.length] = ("Warning: "+translation
 +" has same definition");
 var newSentence = new Sentence(mwak,
-(subject +" "+ translation + " li .a ya"));
+(subject +" "+ translation + " li ha ya"));
 console.log(String(newSentence));
 
 newText.insert(mwak,i,newSentence);

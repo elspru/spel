@@ -81,8 +81,8 @@ var startWord = language.grammar.startWord;
 var firstSentence = sentences[0];
 var Language = require ("../lang/language");
 var mwak = new Language();
-var firstVerbPhrase = firstSentence.phraseGet(mwak,".i");
-var firstSubjectPhrase = firstSentence.phraseGet(mwak,".u");
+var firstVerbPhrase = firstSentence.phraseGet(mwak,"hi");
+var firstSubjectPhrase = firstSentence.phraseGet(mwak,"hu");
 if (firstVerbPhrase 
 && firstVerbPhrase.body.head === startWord 
 && firstSubjectPhrase) title = firstSubjectPhrase.body.body;
@@ -158,15 +158,15 @@ var sentences = sentences.slice(startIndex);
 var Language = require ("../lang/language");
 var mwak = new Language();
 var startSentenceI = 
-rawSentenceFindGet(mwak,"tip .i",sentences);
+rawSentenceFindGet(mwak,"tip hi",sentences);
 // if not found then return undefined ya
 if (startSentenceI === -1) return undefined;
 // be set ob found sentence index as start ya
 var start = startSentenceI;
 // be get ob verb phrase and subject phrase from sentence ya
 var startSentence = sentences[startSentenceI];
-var verbPhrase = startSentence.phraseGet(mwak,".i");
-var subjectPhrase = startSentence.phraseGet(mwak,".u");
+var verbPhrase = startSentence.phraseGet(mwak,"hi");
+var subjectPhrase = startSentence.phraseGet(mwak,"hu");
 if (subjectPhrase === undefined) subjectPhrase = new String();
 // be find ob end sentence tha with same ob subject phrase 
 // and ob end version of verb phrase ya
@@ -323,15 +323,15 @@ result += sentences[i].toString(format)+newline;
 return result;//this.string;
 };
 Text.prototype.toLocaleString =
-function(language,format,conjugationLevel){
+function(language,format,type,conjugationLevel){
 var result = new String();
 var newline = '\n';
 var lineLength = 64;
 var conj = new Object()
-if (conjugationLevel >= 3) conj = language.grammar.conjugation;
+if (conjugationLevel >= 8) conj = language.grammar.conjugation;
 
 if (format){
-if(format.newline) newline = format.newline;
+if(format.newline !== undefined) newline = format.newline;
 if(format.glyphsTransform) lineLength = 0;
 else if(format.lineLength) lineLength = format.lineLength;
 }
@@ -339,7 +339,7 @@ var sentences = this.sentences;
 var sentencesLength = sentences.length;
 var i;
 for (i=0; i<sentencesLength; i++){
-result += sentences[i].toLocaleString(language, format,
+result += sentences[i].toLocaleString(language, format, type,
 conjugationLevel)+newline;
 }
 // format for max line length

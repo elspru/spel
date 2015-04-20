@@ -18,7 +18,7 @@ typeFinal : true,
 postpositional : true,
 clauseInitial: true,
 genitiveInitial: true,
-phraseOrder: ["sla","ku","twa",".u",".i","nya","ta",".a"]
+phraseOrder: ["sla","ku","twa","hu","hi","nya","ta","ha"]
 };
 var conjugation = {
 reversible:[

@@ -1,100 +1,79 @@
-.i li .u быть li .a ya
-.a li .u о li .a ya
-.u li .u а li .a ya
-mi li .u мне li .a ya
-ma li .u что li .a ya
-ki li .u и li .a ya
-ka li .u это li .a ya
-ku li .u если li .a ya
-yi li .u это li .a ya
-yu li .u вы li .a ya
-ya li .u да li .a ya
-pi li .u из li .a ya
-pa li .u эта li .a ya
-wi li .u мы li .a ya
-mip li .u прошлый li .a ya
-wa li .u или .a ya
-nu li .u ню li .a ya
-si li .u они li .a ya
-nu li .u сейчас li .a ya
-ti li .u то .a ya
-ta li .u к li .a ya
-tu li .u ты li .a ya
-li li .u буквальный li .a ya
-myi li .u память .a ya
-mwa li .u с li .a ya
-kyi li .u условно .a ya
-kya li .u в-сторону li .a ya
-sa li .u эт .a ya
-kca li .u ха li .a ya
-pli li .u у li .a ya
-pla li .u множественное-число li .a ya
-pwa li .u дили .a ya
-plu li .u для li .a ya
-pca li .u веселый li .a ya
-nya li .u от li .a ya
-sli li .u например .a ya
-slu li .u отдельный li .a ya
-sla li .u привет li .a ya
-twa li .u затем li .a ya
-tli li .u ога li .a ya
-miy .u ждать .a ya
-mip .u мимо li .a ya
-min .u меньше .a ya
-mak .u слово .a ya
-mat .u мать li .a ya
-man .u думать li .a ya
-map .u размер .a ya
-kim .u сравнить .a ya
-kiy .u идти .a ya
-kap .u голова li .a ya
-kan .u знать li .a ya
-kas .u причина li .a ya
-kal .u все li .a ya
-kut .u малый .a minhmap .i ya
-yik .u отрицать .a ya
-yan .u сказать li .a ya
-pam .u хорошо .a ya
-pak .u тело li .a ya
-pay .u больше .a ya
-paw .u место .a ya
-pat .u отец li .a ya
-pal .u многие li .a ya
-pan .u встречать .a ya
-pac .u радость li .a ya
-puy .u ребенок .a ya
-fut .u будущее li .a ya
-wan .u любовь li .a ya
-wap .u хвост li .a ya
-wat .u говорить li .a ya
-wul .u большой .a payhmap .i ya
-nam .u число .a ya
-naw .u настоящее-время li .a ya
-sun .u один li .a ya
-liy .u четыре li .a ya
-tuw .u два li .a ya
-lit .u глиф li .a ya
-cik .u несколько .a minhnam .i ya
-caw .u крик li .a ya
-kyul .u правило li .a ya
-klaw .u смех li .a ya
-pyan .u местоимение li .a ya
-pyat .u грамматический-объект li .a ya
-plis .u рядом li .a ya
-slim .u пример .a ya
-tkic .u перевод-словарь li .a ya
-tlam .u перевести li .a ya
-tlin .u порядковый li .a ya
-miwk .u человек li .a ya
-muys .u эмоция li .a ya
-kamt .u грамматика li .a ya
-kump .u настроение li .a ya
-yimk .u спросить .a ya
-wiyp .u глагол li .a ya
-niym .u существительное li .a ya
-sint .u чувствовать li .a ya
-suyt .u грамматический-объект li .a ya
-timp .u напряженный li .a ya
-tiwk .u деятельность li .a ya
-tick .u словарь .a ya
-kwal .u язык .a ya
+hi li hu быть li ha ya
+ha li hu о li ha ya
+hu li hu а li ha ya
+mi li hu мне li ha ya
+ma li hu что li ha ya
+ki li hu и li ha ya
+ku li hu если li ha ya
+yi li hu это li ha ya
+yu li hu вы li ha ya
+ya li hu да li ha ya
+pi li hu из li ha ya
+pa li hu эта li ha ya
+wi li hu мы li ha ya
+mip li hu прошлый li ha ya
+wa li hu или ha ya
+nu li hu ню li ha ya
+si li hu они li ha ya
+nu li hu сейчас li ha ya
+ti li hu то ha ya
+ta li hu к li ha ya
+tu li hu ты li ha ya
+li li hu буквальный li ha ya
+kyi li hu условно ha ya
+kya li hu в-сторону li ha ya
+sa li hu эт ha ya
+kca li hu ха li ha ya
+pwa li hu дили ha ya
+pca li hu веселый li ha ya
+sla li hu привет li ha ya
+twa li hu затем li ha ya
+tli li hu ога li ha ya
+miy hu ждать ha ya
+mip hu мимо li ha ya
+mak hu слово ha ya
+mat hu мать li ha ya
+kim hu сравнить ha ya
+kiy hu идти ha ya
+kap hu голова li ha ya
+kan hu знать li ha ya
+kas hu причина li ha ya
+kal hu все li ha ya
+yik hu отрицать ha ya
+pam hu хорошо ha ya
+pak hu тело li ha ya
+paw hu место ha ya
+pat hu отец li ha ya
+pal hu многие li ha ya
+pan hu встречать ha ya
+pac hu радость li ha ya
+puy hu ребенок ha ya
+fut hu будущее li ha ya
+wan hu любовь li ha ya
+wap hu хвост li ha ya
+wat hu говорить li ha ya
+wul hu большой ha payhmap hi ya
+nam hu число ha ya
+naw hu настоящее-время li ha ya
+lit hu глиф li ha ya
+cik hu несколько ha minhnam hi ya
+kyul hu правило li ha ya
+klaw hu смех li ha ya
+pyan hu местоимение li ha ya
+plis hu рядом li ha ya
+slim hu пример ha ya
+tkic hu перевод-словарь li ha ya
+tlam hu перевести li ha ya
+tlin hu порядковый li ha ya
+miwk hu человек li ha ya
+muys hu эмоция li ha ya
+kamt hu грамматика li ha ya
+yimk hu спросить ha ya
+wiyp hu глагол li ha ya
+niym hu существительное li ha ya
+sint hu чувствовать li ha ya
+suyt hu грамматический-объект li ha ya
+timp hu напряженный li ha ya
+tiwk hu деятельность li ha ya
+tick hu словарь ha ya
+kwal hu язык ha ya

@@ -303,6 +303,7 @@ Junction.prototype.valueGet = function(){
 }
 Junction.prototype.toString = function(format){
 var joiner = ' ';
+var phraseJoiner = ' ';
 var result = new String();
 // algorithm de
 // for each ob element of body til second last element de
@@ -319,14 +320,20 @@ for (i=0;i<body.length-1;i++)
 if (clas === "Phrase")
 result += body[i].toString(format) + headS + joiner;
 else
-result += body[i].toString(format) + joiner + headS + joiner;
+result += body[i].toString(format) + joiner + headS + phraseJoiner;
 // be add ob last element with joiner ya
 result += body[i].toString(format);
 return result;
 };
 Junction.prototype.toLocaleString = 
-function(language, format,type, conjugationLevel){
+function(language, format,type, conjLevel){
+var conj = new Object;
 var joiner = ' ';
+var phraseJoiner = " ";
+if (format && format.joiner!==undefined) joiner = format.joiner;
+if (conjLevel >= 3) conj = language.grammar.conjugation;
+if (conj && conj.format && conj.format.joiner !== undefined) {
+joiner = conj.format.joiner;}
 var result = new String();
 // algorithm de
 // for each ob element of body til second last element de
@@ -337,22 +344,22 @@ var body = this.body;
 var headS = new String();
 if (this.head) 
 headS = this.head.toLocaleString(language,format,"jh", 
-conjugationLevel);
+conjLevel);
 // for each ob element of body de
 var clas = this.clas;
 for (i=0;i<body.length-1;i++)
 // be add ob it to result with head and joiner ya
-if (clas === "Phrase")
-result += body[i].toLocaleString(language,format,type,
-conjugationLevel)
-+headS+joiner;
+if (clas === "Phrase"){
+var bodyR =  body[i].toLocaleString(language,format,type,
+conjLevel);
+result += bodyR.replace(/ $/,joiner)+headS+phraseJoiner;}
 else
 result += body[i].toLocaleString(language,format,type,
-conjugationLevel) 
-+ joiner + headS + joiner;
+conjLevel) 
++ joiner + headS + phraseJoiner;
 // be add ob last element with joiner ya
 result += body[i].toLocaleString(language,format,type,
-conjugationLevel) ;
+conjLevel) ;
 return result;
 }
 

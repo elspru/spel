@@ -1,311 +1,532 @@
-.i li .u be li .a ya
-.a li .u ob li .a ya
-.u li .u su li .a ya
-me li .a mi li .u ya
-ma li .u what .a ya
-ki li .u and li .a ya
-ka li .u as li .a ya
-ku li .u if li .a ya
-yi li .u this li .a ya
-ya li .u ya li .a ya
-yu li .u you .a ya
-pi li .u of li .a ya
-pa li .u that li .a ya
-pu li .u did .a ya
-wi li .u we .a ya
-wa li .u or .a ya
-ni li .u in li .a ya
-na li .u numeral .a ya
-now li .a nu li .u ya
-them li .a si li .u ya
-the li .a sa li .u ya
-/thˈɑ5˧/ 它 :zh. /ˈɪt/ it :en. /ˈeʎa/ ella :es. /jˈəh/ यह :hi. /hða/ هذا :ar. /sˈaja tˈe/ saya t :id. /ˈɛtʌ/ это :ru. /nˈi/ ni it li .a ti li .u ya
-to li .a ta li .u ya
-thee li .a tu li .u ya
-li li .u li li .a ya
-fa li .u about li .a ya
-will li .a fu li .u ya
-ci li .u eh? .a ya
-myi li .u memory li .a ya
-mya li .u maybe li .a ya
-mwa li .u with li .a ya
-kyi li .u conditionally li .a ya
-kya li .u aside li .a ya
-kwa li .u that-which li .a ya
-ksa li .u unquote li .a ya
-but li .a kla li .u ya
-klu li .u clause-tail li .a ya
-kca li .u ha li .a ya
-pya li .u by li .a ya
-pwa li .u yaor li .a ya
-psu li .u from-source .a ya
-pli li .u near .a ya
-pla li .u plural .a ya
-plu li .u for li .a ya
-pca li .u jolly li .a ya
-nya li .u from li .a ya
-swi li .u while li .a ya
-sli li .u for-example .a ya
-sla li .u hello li .a ya
-slu li .u singular li .a ya
-twa li .u then li .a ya
-ord li .a tli li .u ya
-mik .u make .a ya
-miy .u wait .a ya
-mip .u past .a ya
-min .u less .a ya
-mit .u middle .a ya
-mak .u word .a ya
-map .u size .a ya
-man .u think .a ya
-mas .u mass .a ya
-mat .u mother .a ya
-mac .u machine .a ya
-mut .u help .a ya
-kim .u compare .a ya
-kiy .u go li .a ya
-kip .u capable .a ya
-kin .u main .a ya
-kit .u end .a ya
-kay .u hold .a ya
-kap .u head .a ya
-kan .u know .a ya
-kas .u cause .a ya
-kat .u get .a ya
-kal .u all .a ya
-kum .u trade .a ya
-kup .u buy .a ya
-kun .u red .a ya
-kut .u small .a ya
-yik .u negate .a ya
-yan .u say .a ya
-yut .u subtract .a ya
-pam .u good .a ya
-pak .u body .a ya
-pay .u more .a ya
-paw .u place .a ya
-pan .u meet .a ya
-pat .u father .a ya
-pal .u many .a ya
-pac .u joy .a ya
-puy .u child .a ya
-put .u sell .a ya
-pul .u blue .a ya
-wit .u light .a ya
-wap .u tail .a ya
-wan .u love .a ya
-wat .u speak .a ya
-wul .u big .a ya
-nim .u name .a ya
-nit .u net .a ya
-nic .u energy .a ya
-nam .u number .a ya
-naw .u present .a ya
-nul .u null .a ya
-sam .u same .a ya
-san .u self .a ya
-sat .u sound .a ya
-sup .u pay .a ya
-sun .u one .a ya
-tip .u start .a ya
-tin .u see .a ya
-tam .u topic .a ya
-tak .u add .a ya
-tay .u put .a ya
-tap .u touch .a ya
-tan .u give .a ya
-tas .u choose .a ya
-tum .u temperature .a ya
-tuw .u two .a ya
-tun .u length .a ya
-tul .u tool .a ya
-lik .u electric-charge .a ya
-liy .u four .a ya
-lin .u green .a ya
-lis .u live .a ya
-lit .u glyph .a ya
-fut .u future .a ya
-cim .u hear .a ya
-cik .u few .a ya
-cak .u thing .a ya
-caw .u shout .a ya
-can .u chance .a ya
-cal .u move .a ya
-myin .u dream .a ya
-myan .u soft .a ya
-myul .u moral .a ya
-kyin .u general .a ya
-kyis .u write .a ya
-kyit .u gravity .a ya
-kyil .u circle .a ya
-kyap .u copy .a ya
-kyat .u hard .a ya
-kyup .u group .a ya
-kyul .u rule .a ya
-kwat .u quantum .a ya
-kwal .u language .a ya
-ksip .u access .a ya
-ksin .u context .a ya
-ksap .u express .a ya
-ksan .u organize .a ya
-ksat .u sudden .a ya
-ksal .u galaxy .a ya
-ksut .u collect .a ya
-ksul .u school .a ya
-klin .u electron .a ya
-klaw .u laugh .a ya
-klas .u class .a sam undefined ya
-klat .u clause .a ya
-klac .u except .a ya
-kfin .u config .a ya
-kcim .u chemical .a ya
-pyin .u experience .a ya
-pyam .u program .a ya
-pyan .u pronoun .a ya
-pyas .u phrase .a ya
-pyat .u grammatical-object .a ya
-pyut .u proton .a ya
-pyul .u boil .a ya
-pyuf .u proof .a ya
-pyuc .u project .a ya
-pwil .u variable .a ya
-pwut .u approve .a ya
-psiy .u pressure .a ya
-psit .u surface .a ya
-psan .u space .a ya
-psun .u source .a ya
-plin .u plane .a ya
-plis .u nearby .a ya
-plam .u plasma .a ya
-play .u play .a ya
-plan .u planet .a ya
-nyis .u reference .a ya
-nyit .u unit .a ya
-nyus .u ionize .a ya
-nyut .u neutron .a ya
-syit .u send .a ya
-syak .u awake .a ya
-syat .u solid .a ya
-syun .u universe .a ya
-swil .u soul .a ya
-swat .u question .a ya
-slim .u example .a ya
-slam .u sublimate .a ya
-tkic .u translation-dictionary .a ya
-tyim .u tremble .a ya
-tyin .u three .a ya
-tyis .u transition .a ya
-tyil .u cold .a ya
-tyam .u atom .a ya
-tyan .u string .a ya
-tyas .u idea .a ya
-tyup .u robot .a ya
-twis .u true .a ya
-tsim .u together .a ya
-tsiw .u satellite .a ya
-tsin .u instruction .a ya
-tsil .u deserve .a ya
-tsam .u purpose .a ya
-tsak .u stay .a ya
-tsay .u star .a ya
-tsap .u property .a ya
-tsan .u again .a ya
-tsal .u state .a ya
-tsaf .u taste .a ya
-tsuk .u shop .a ya
-tlik .u electricity .a ya
-tlin .u ordinal .a ya
-tlam .u translation .a ya
-tlan .u tradition .a ya
-tlun .u triple-point .a ya
-tfal .u file .a ya
-tcin .u chain .a ya
-tcan .u tree .a ya
-fyas .u phrase .a ya
-fwil .u force .a ya
-fwas .u phase .a ya
-flit .u flute .a ya
-flut .u flower .a ya
-fluc .u flow .a ya
-clum .u sentence .a ya
-clut .u supercritical-fluid .a ya
-miyk .u send .a ya
-miwk .u person .a ya
-mint .u method .a ya
-mist .u measure .a ya
-milt .u melt .a ya
-mayt .u imaginary-unit .a ya
-mast .u matter .a ya
-mack .u imagine .a ya
-muys .u emotion .a ya
-muyt .u ally .a ya
-munt .u world .a ya
-kimt .u hang .a ya
-kisp .u exponent .a ya
-kamt .u grammar .a ya
-kays .u grammatical-case .a ya
-kayt .u hot .a ya
-kaws .u gas .a ya
-kant .u convert .a ya
-kast .u constant .a ya
-kump .u mood .a ya
-kumt .u communicate .a ya
-kuwt .u code .a ya
-kunt .u control .a ya
-kusp .u collapse .a ya
-kust .u constant .a ya
-kult .u culture .a ya
-kuft .u divide .a ya
-yimk .u ask .a ya
-yink .u ring .a ya
-yilt .u Euler's-number .a ya
-yask .u reaction .a ya
-yalk .u vehicle .a ya
-yulp .u role .a ya
-yult .u utility .a ya
-piys .u pi .a ya
-pamt .u permanent .a ya
-payt .u multiply .a ya
-panp .u bread .a ya
-pant .u borrow .a ya
-past .u produce .a ya
-pack .u enjoy .a ya
-punt .u point .a ya
-pust .u dust .a ya
-pult .u old .a ya
-wiyp .u verb .a ya
-wins .u Venus .a ya
-wint .u wind .a ya
-niym .u noun .a ya
-niyt .u nth-root .a ya
-nalt .u nature .a ya
-nust .u notice .a ya
-nuft .u hostile .a ya
-sint .u feel .a ya
-sayt .u speed-of-light .a ya
-sant .u art .a ya
-suyt .u grammatical-subject .a ya
-timp .u tense .a ya
-tiwk .u activity .a ya
-tink .u text .a ya
-tinp .u golden-ratio .a ya
-tisk .u progress .a ya
-tisp .u represent .a ya
-tick .u dictionary .a ya
-tamk .u look .a ya
-tayn .u area .a ya
-tanp .u appear .a ya
-tack .u thank .a ya
-tuym .u world .a ya
-tuwm .u duration .a ya
-liyk .u liquid .a ya
-liyn .u line .a ya
-liyt .u literature .a ya
-link .u link .a ya
-lint .u inside .a ya
-lank .u color .a ya
-lumk .u logarithm .a ya
-luwt .u lute .a ya
-lunp .u loop .a ya
-lunt .u people .a ya
-cinp .u information .a ya
+hi li hu be li ha ya
+ha li hu ob li ha ya
+hu li hu su li ha ya
+mi li hu me li ha ya
+ma li hu what li ha ya
+mu li hu masculine li ha ya
+ki li hu and li ha ya
+ka li hu as li ha ya
+ku li hu if li ha ya
+yi li hu this li ha ya
+ya li hu ya li ha ya
+yu li hu you ha ya
+pi li hu of li ha ya
+pa li hu that li ha ya
+pu li hu did li ha ya
+wi li hu we li ha ya
+wa li hu or li ha ya
+wu li hu by li ha ya
+ni li hu in li ha ya
+na li hu numeral li ha ya
+nu li hu now li ha ya
+si li hu them li ha ya
+sa li hu the li ha ya
+su li hu from li ha ya
+ti li hu it li ha ya
+ta li hu to li ha ya
+tu li hu thee li ha ya
+li li hu li li ha ya
+la li hu hey li ha ya
+lu li hu plural ha ya
+fi li hu feminine ha ya
+fa li hu about li ha ya
+fu li hu will-be li ha ya
+ci li hu eh? li ha ya
+ca li hu neuter ha ya
+mya li hu maybe li ha ya
+mwa li hu with li ha ya
+kyi li hu near li ha ya
+kya li hu aside li ha ya
+kyu li hu because li ha ya
+kwa li hu that-which li ha ya
+ksa li hu unquote li ha ya
+kli li hu him ha ya
+kla li hu but li ha ya
+klu li hu clause-tail li ha ya
+kca li hu C4 kya ha li ha ya
+pya li hu on li ha ya
+pwa li hu yaor li ha ya
+psu li hu from-source li ha ya
+pli li hu for-example ha ya
+pca li hu jolly li ha ya
+nyi li hu not li ha ya
+nya li hu namely ha ya
+syi li hu very ha ya
+sya li hu singular li ha ya
+syu li hu so li ha ya
+swi li hu while li ha ya
+sla li hu hello li ha ya
+tyi li hu quote li ha ya
+twa li hu then li ha ya
+twu li hu dual li ha ya
+tsi li hu yes li ha ya
+tsa li hu untill li ha ya
+tsu li hu out ha ya
+tli li hu ord li ha ya
+tla li hu for li ha ya
+fyi li hu her ha ya
+mik hu make ha ya
+miy hu wait ha ya
+mip hu past ha ya
+min hu less ha ya
+mit hu middle ha ya
+mak hu word ha ya
+man hu think ha ya
+mas hu mass ha ya
+mat hu mother ha ya
+mac hu machine ha ya
+mun hu male ha ya
+mut hu help ha ya
+mul hu full ha ya
+kim hu compare ha ya
+kiy hu go li ha ya
+kip hu capable ha ya
+kin hu main ha ya
+kis hu high ha ya
+kit hu end ha ya
+kam hu come ha ya
+kap hu head ha ya
+kan hu know ha ya
+kas hu cause ha ya
+kat hu get ha ya
+kal hu all ha ya
+kaf hu cathode ha ya
+kum hu trade ha ya
+kuy hu grow ha ya
+kup hu buy ha ya
+kun hu red ha ya
+kus hu food ha ya
+kuc hu small ha ya
+yik hu negate ha ya
+yis hu write ha ya
+yak hu some ha ya
+yat hu read ha ya
+yac hu width ha ya
+yum hu limb ha ya
+yun hu subtract ha ya
+yus hu use ha ya
+yul hu whole ha ya
+pis hu multiply ha ya
+pit hu white ha ya
+pic hu piss ha ya
+pam hu good ha ya
+pak hu body ha ya
+pay hu more ha ya
+paw hu place ha ya
+pan hu meet ha ya
+pas hu pass ha ya
+pat hu father ha ya
+pal hu many ha ya
+pac hu joy ha ya
+puk hu bad ha ya
+puy hu child ha ya
+pus hu poo ha ya
+put hu sell ha ya
+pul hu blue ha ya
+win hu win ha ya
+wap hu tail ha ya
+wan hu love ha ya
+wat hu speak ha ya
+wut hu light ha ya
+wul hu big ha ya
+nim hu name ha ya
+niy hu need ha ya
+nit hu net ha ya
+nic hu energy ha ya
+nam hu number ha ya
+nay hu exhale ha ya
+naw hu present ha ya
+nat hu night ha ya
+nuy hu new ha ya
+nut hu anode ha ya
+nul hu null ha ya
+sim hu similar ha ya
+sik hu height ha ya
+sip hu sip ha ya
+sit hu set ha ya
+sil hu easy ha ya
+sam hu same ha ya
+say hu say ha ya
+sap hu simple ha ya
+saw hu black ha ya
+san hu self ha ya
+sat hu sound ha ya
+suy hu lose ha ya
+sup hu pay ha ya
+sut hu size ha ya
+tim hu team ha ya
+tik hu hold ha ya
+tiy hu day ha ya
+tip hu start ha ya
+tin hu see ha ya
+tis hu inhale ha ya
+til hu low ha ya
+tam hu topic ha ya
+tak hu add ha ya
+tay hu put ha ya
+tap hu touch ha ya
+tan hu give ha ya
+tas hu choose ha ya
+tum hu temperature ha ya
+tuk hu drink ha ya
+tup hu depth ha ya
+tul hu tool ha ya
+tuf hu difficult ha ya
+lik hu charge ha ya
+lin hu length ha ya
+lis hu live ha ya
+lit hu glyph ha ya
+fin hu female ha ya
+fit hu fit ha ya
+fut hu future ha ya
+cim hu hear ha ya
+cik hu few ha ya
+ciy hu green ha ya
+cif hu divide ha ya
+cak hu thing ha ya
+can hu chance ha ya
+cal hu move ha ya
+myin hu dream ha ya
+myit hu remember ha ya
+myan hu soft ha ya
+myat hu math ha ya
+myun hu employ ha ya
+myut hu import ha ya
+myul hu moral ha ya
+kyim hu game ha ya
+kyip hu clothes ha ya
+kyin hu general ha ya
+kyil hu circle ha ya
+kyap hu copy ha ya
+kyat hu hard ha ya
+kyup hu group ha ya
+kyus hu fun ha ya
+kyul hu rule ha ya
+kwit hu gravity ha ya
+kwat hu care ha ya
+kwal hu language ha ya
+ksip hu access ha ya
+ksin hu context ha ya
+ksil hu crystal ha ya
+ksam hu dark ha ya
+ksap hu express ha ya
+ksan hu organize ha ya
+ksat hu exact ha ya
+ksal hu galaxy ha ya
+ksum hu communicate ha ya
+ksut hu collect ha ya
+ksul hu school ha ya
+ktin hu religion ha ya
+kliy hu clear ha ya
+klin hu electron ha ya
+klaw hu laugh ha ya
+klas hu class ha sam undefined ya
+klat hu clause ha ya
+klac hu except ha ya
+kfin hu config ha ya
+kcim hu chemical ha ya
+kcat hu eight ha ya
+pyik hu break ha ya
+pyin hu experience ha ya
+pyit hu four ha ya
+pyil hu appeal ha ya
+pyam hu program ha ya
+pyaw hu couple ha ya
+pyan hu pronoun ha ya
+pyas hu fast ha ya
+pyat hu prompt ha ya
+pyut hu proton ha ya
+pyul hu boil ha ya
+pyuf hu proof ha ya
+pyuc hu project ha ya
+pwil hu variable ha ya
+pwas hu answer ha ya
+pwut hu approve ha ya
+psiy hu pressure ha ya
+psit hu speed ha ya
+psil hu spell ha ya
+psan hu space ha ya
+psat hu surface ha ya
+psal hu sail ha ya
+psun hu source ha ya
+psut hu promise ha ya
+plin hu plane ha ya
+plis hu nearby ha ya
+plam hu plasma ha mast fwas hi ya
+play hu play ha ya
+plan hu plan ha ya
+plat hu planet ha ya
+plum hu problem ha ya
+pfis hu preference ha ya
+pfal hu fail ha ya
+pfus hu bus ha ya
+pcit hu appreciate ha ya
+pcil hu special ha ya
+nyip hu mirror ha ya
+nyis hu reference ha ya
+nyit hu unit ha ya
+nyat hu enter ha ya
+nyus hu ionize ha ya
+nyut hu neutron ha ya
+nyul hu roll ha ya
+nlic hu English ha ya
+syim hu seven ha ya
+syip hu clean ha ya
+syit hu send ha ya
+syic hu research ha ya
+syam hu stay ha ya
+syak hu awake ha ya
+syan hu cyan ha ya
+syat hu solid ha ya
+syun hu universe ha ya
+syut hu support ha ya
+swit hu switch ha ya
+swil hu soul ha ya
+swat hu water ha ya
+swuy hu question ha ya
+swun hu sleep ha ya
+slim hu example ha ya
+slin hu single ha ya
+slam hu sublimate ha ya
+slof hu vocabulary ha ya
+tkic hu translation-dictionary ha ya
+tkun hu Chinese ha ya
+tyim hu tremble ha ya
+tyik hu decay ha ya
+tyip hu again ha ya
+tyin hu three ha ya
+tyis hu transition ha ya
+tyil hu cold ha ya
+tyif hu worth ha ya
+tyic hu direction ha ya
+tyam hu atom ha ya
+tyak hu shout ha ya
+tyap hu try ha ya
+tyaw hu idea ha ya
+tyan hu string ha ya
+tyas hu throw ha ya
+tyup hu robot ha ya
+tyus hu case ha ya
+tyuc hu teach ha ya
+twis hu true ha ya
+twif hu adjective ha ya
+tsim hu together ha ya
+tsik hu six ha ya
+tsiy hu story ha ya
+tsip hu step ha ya
+tsiw hu satellite ha ya
+tsin hu instruction ha ya
+tsil hu deserve ha ya
+tsam hu purpose ha ya
+tsak hu attack ha ya
+tsay hu star ha ya
+tsap hu property ha ya
+tsan hu student ha ya
+tsal hu state ha ya
+tsaf hu taste ha ya
+tsum hu study ha ya
+tsuk hu shop ha ya
+tsuy hu sit ha ya
+tsul hu adult ha ya
+tlik hu electricity ha ya
+tlin hu ordinal ha ya
+tlis hu desire ha ya
+tlam hu translation ha ya
+tlan hu tradition ha ya
+tlas hu dish ha ya
+tlun hu triple-point ha ya
+tfim hu temporary ha ya
+tfin hu individual ha ya
+tfak hu dirt ha ya
+tfal hu file ha ya
+tfus hu damage ha ya
+tful hu two li ha ya
+tcin hu chain ha ya
+tcil hu jail ha ya
+tcap hu transparent ha ya
+tcan hu tree ha ya
+tcun hu power ha ya
+fyas hu phrase ha ya
+fwil hu force ha ya
+fwap hu five ha ya
+fwas hu phase ha ya
+flit hu flute ha ya
+flay hu fly ha ya
+flan hu flood ha ya
+flat hu flat ha ya
+flut hu flower ha ya
+fluc hu flow ha ya
+cyin hu learn ha ya
+clin hu relationship ha ya
+clum hu sentence ha ya
+clut hu supercritical-fluid ha ya
+miyt hu aware ha ya
+miwk hu person ha ya
+mink hu mind ha ya
+mint hu method ha ya
+mist hu measure ha ya
+milt hu melt ha ya
+mayp hu map ha ya
+mayn hu harmony ha ya
+mayt hu imaginary-unit ha ya
+mans hu human ha ya
+mant hu magenta ha ya
+mast hu matter ha ya
+malt hu melody ha ya
+mack hu imagine ha ya
+muys hu emotion ha ya
+muyt hu ally ha ya
+munk hu possible ha ya
+munt hu mood ha ya
+musk hu music ha ya
+must hu most ha ya
+mult hu modulo ha ya
+kimt hu hang ha ya
+kiyp hu paper ha ya
+kiyn hu one ha ya
+kint hu convert ha ya
+kisp hu exponent ha ya
+kift hu forgive ha ya
+kamt hu grammar ha ya
+kayn hu flow-current ha ya
+kays hu grammatical-case ha ya
+kayt hu hot ha ya
+kaws hu gas ha ya
+kant hu constant ha ya
+kasp hu catch ha ya
+kast hu create ha ya
+kaft hu confirm ha ya
+kump hu complex ha ya
+kumt hu command ha ya
+kuym hu common ha ya
+kuyn hu conjugation ha ya
+kuyt hu critical-point ha ya
+kuwt hu code ha ya
+kunt hu control ha ya
+kusp hu collapse ha ya
+kust hu record ha ya
+kuls hu cruel ha ya
+kult hu culture ha ya
+yimk hu ask ha ya
+yimt hu rhythm ha ya
+yink hu ring ha ya
+yinp hu return ha ya
+yist hu export ha ya
+yilk hu yellow ha ya
+yilt hu Eulers-number ha ya
+yamt hu admire ha ya
+yawt hu ride ha ya
+yask hu reaction ha ya
+yasp hu work ha ya
+yast hu gratis ha ya
+yalk hu vehicle ha ya
+yalt hu early ha ya
+yuyp hu Europe ha ya
+yunt hu container ha ya
+yusk hu east ha ya
+yulp hu role ha ya
+yult hu utility ha ya
+piyn hu opinion ha ya
+piys hu pi li ha ya
+pist hu permit ha ya
+pamt hu permanent ha ya
+pays hu base ha ya
+panp hu bread ha ya
+pant hu borrow ha ya
+past hu produce ha ya
+pack hu enjoy ha ya
+puyk hu grammatical-object ha ya
+punt hu point ha ya
+pust hu dust ha ya
+pult hu old ha ya
+wiyp hu verb ha ya
+wins hu Venus ha ya
+wint hu wind ha ya
+wuym hu volume ha ya
+nims hu Animism ha ya
+niym hu noun ha ya
+niyt hu nth-root ha ya
+nist hu nine ha ya
+nilt hu intelligence ha ya
+nast hu interest ha ya
+nalt hu nature ha ya
+nuks hu unix ha ya
+nuys hu noise ha ya
+nuyt hu north ha ya
+nusp hu forget ha ya
+nust hu notice ha ya
+nuls hu zero ha ya
+nuft hu hostile ha ya
+simt hu limit ha ya
+siyn hu seem ha ya
+siyt hu suggest ha ya
+sint hu feel ha ya
+sift hu shift ha ya
+sayk hu wise ha ya
+sayt hu speed-of-light ha ya
+sanp hu extend ha ya
+sant hu art ha ya
+sark hu sarcasm ha ya
+suyt hu grammatical-subject ha ya
+sunt hu south ha ya
+sulc hu solution ha ya
+timp hu tense ha ya
+tiym hu late ha ya
+tiyk hu ten ha ya
+tiyn hu continue ha ya
+tiys hu distance ha ya
+tiyf hu drive ha ya
+tiwk hu activity ha ya
+tiws hu theater ha ya
+tink hu text ha ya
+tinp hu golden-ratio ha ya
+tisk hu text ha ya
+tisp hu represent ha ya
+tick hu dictionary ha ya
+tamk hu look ha ya
+taym hu time ha ya
+tayk hu attach ha ya
+tayn hu area ha ya
+tawk hu authority ha ya
+tank hu sudden ha ya
+tanp hu appear ha ya
+task hu task ha ya
+talp hu table ha ya
+tack hu thank ha ya
+tukc hu Turkish ha ya
+tuym hu world ha ya
+tuys hu thief ha ya
+tuwm hu duration ha ya
+tunk hu brain ha ya
+tusk hu progress ha ya
+liyk hu liquid ha ya
+liyn hu line ha ya
+liys hu liberty ha ya
+liyt hu literature ha ya
+liwk hu legal ha ya
+liwt hu gift ha ya
+link hu link ha ya
+lint hu inside ha ya
+lisk hu vacation ha ya
+list hu least ha ya
+layk hu lake ha ya
+layt hu eleven ha ya
+lank hu local ha ya
+lant hu slow ha ya
+lumk hu logarithm ha ya
+luwt hu lute ha ya
+lunp hu loop ha ya
+lunt hu people ha ya
+fint hu find ha ya
+faym hu farm ha ya
+fayt hu fact ha ya
+fans hu French ha ya
+fals hu false ha ya
+falt hu default ha ya
+fuym hu form ha ya
+funm hu phoneme ha ya
+funk hu function ha ya
+fult hu hotel ha ya
+cinp hu information ha ya
+budz hu Buddhism ha ya
+tsal hu state ha ya

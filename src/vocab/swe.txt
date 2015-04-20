@@ -1,294 +1,533 @@
-.i li .u vara li .a ya
-.a li .u ob li .a ya
-.u li .u su li .a ya
-mi li .u mig li .a ya
-ma li .u vad li .a ya
-ki li .u och li .a ya
-ka li .u det li .a ya
-ku li .u om li .a ya
-yi li .u detta li .a ya
-yu li .u ni li .a ya
-ya li .u ya li .a ya
-pi li .u av li .a ya
-pa li .u det-där li .a ya
-pu li .u åtgärd li .a ya
-wi li .u vi li .a ya
-wa li .u eller li .a ya
-ni li .u i li .a ya
-na li .u Nummer li .a ya
-si li .u de li .a ya
-nu li .u nu li .a ya
-ti li .u att li .a ya
-ta li .u till li .a ya
-tu li .u du li .a ya
-li li .u rally li .a ya
-fa li .u omkring li .a ya
-ci li .u eh? li .a ya
-fu li .u kommer li .a ya
-myi li .u minne li .a ya
-mwa li .u med li .a ya
-mya li .u kanske li .a ya
-kyi li .u villkor li .a ya
-kya li .u åt-sidan li .a ya
-sa li .u den li .a ya
-kwa li .u att-den li .a ya
-ksa li .u Slut-på-citation- li .a ya
-kla li .u men li .a ya
-klu li .u Klausul-tail li .a ya
-kca li .u ha li .a ya
-pya li .u invid li .a ya
-pli li .u i-närheten-av li .a ya
-psu li .u från-källkod li .a ya
-pla li .u Plural li .a ya
-pwa li .u yaor li .a ya
-plu li .u för li .a ya
-pca li .u jolly li .a ya
-nya li .u från li .a ya
-swi li .u medan li .a ya
-sli li .u för-exempel li .a ya
-slu li .u Singular li .a ya
-sla li .u Hallå li .a ya
-twa li .u sedan li .a ya
-tli li .u Ord li .a ya
-mik .u göra li .a ya
-miy .u vänta li .a ya
-mip .u över li .a ya
-mit .u Mitten li .a ya
-min .u mindre li .a ya
-mak .u ord li .a ya
-mat .u Mor li .a ya
-man .u tror li .a ya
-mas .u Mäss li .a ya
-map .u storlek li .a ya
-mac .u Maskin li .a ya
-mut .u hjälpa li .a ya
-kim .u jämför li .a ya
-kiy .u gå li .a ya
-kip .u kapabel li .a ya
-kin .u Huvudsaklig li .a ya
-kit .u ände li .a ya
-kay .u håll li .a ya
-kap .u huvud li .a ya
-kan .u vet li .a ya
-kas .u Root-Cause li .a ya
-kat .u motta li .a ya
-kal .u allt li .a ya
-kum .u Handel li .a ya
-kup .u köpa li .a ya
-kun .u röd li .a ya
-kut .u liten li .a ya
-yik .u negera li .a ya
-yan .u säga li .a ya
-yut .u subtrahera li .a ya
-pam .u bra li .a ya
-pak .u kropp li .a ya
-pay .u mer li .a ya
-paw .u plats li .a ya
-pat .u Far li .a ya
-pal .u många li .a ya
-pan .u möts li .a ya
-pac .u glädje li .a ya
-puy .u barn li .a ya
-put .u sälja li .a ya
-pul .u blå li .a ya
-wit .u Lätt li .a ya
-fut .u framtid li .a ya
-wan .u älskar li .a ya
-wap .u svans li .a ya
-wat .u tala li .a ya
-nim .u Namn li .a ya
-nit .u Netto li .a ya
-nic .u Energi li .a ya
-wul .u stor li .a ya
-nam .u nummer li .a ya
-nul .u void li .a ya
-sam .u lika li .a ya
-san .u själv li .a ya
-sat .u ljud li .a ya
-sup .u betala li .a ya
-naw .u närvarande li .a ya
-tip .u börja li .a ya
-tin .u se li .a ya
-tam .u Ämne li .a ya
-tak .u lägga-till li .a ya
-sun .u en li .a ya
-tay .u uppsättning li .a ya
-tan .u ge li .a ya
-tas .u välja li .a ya
-tum .u Temperatur li .a ya
-tap .u Rör li .a ya
-tun .u Längd li .a ya
-tul .u Verktygs li .a ya
-lik .u Elektrisk-laddning li .a ya
-liy .u fyra li .a ya
-lin .u grön li .a ya
-lis .u lever li .a ya
-tuw .u två li .a ya
-lit .u Glyph li .a ya
-cim .u lyssna li .a ya
-cik .u få li .a ya
-cak .u Sak li .a ya
-caw .u Cry li .a ya
-can .u Olycka li .a ya
-cal .u drag li .a ya
-myan .u mjuk li .a ya
-myul .u Moral li .a ya
-myin .u dröm li .a ya
-kyit .u Gravity li .a ya
-kyil .u Krets li .a ya
-kyin .u Allmänt li .a ya
-kyap .u Kopia li .a ya
-kyup .u Grupp li .a ya
-kyat .u svårt li .a ya
-kwat .u Quantum li .a ya
-kyul .u Regel li .a ya
-kwal .u språk li .a ya
-kyis .u skriva li .a ya
-ksip .u Tillgång li .a ya
-ksin .u Sammanhang li .a ya
-ksat .u plötsligt li .a ya
-ksal .u Galaxy li .a ya
-ksap .u uttrycka li .a ya
-ksan .u organisera li .a ya
-klin .u Elektron li .a ya
-ksut .u samla li .a ya
-ksul .u Skola li .a ya
-klaw .u skratt li .a ya
-klas .u Klass li .a ya
-klat .u Klausul li .a ya
-kcim .u Kemisk li .a ya
-klac .u utom li .a ya
-kfin .u Config li .a ya
-pyin .u Erfarenhet li .a ya
-pyam .u Program li .a ya
-pyan .u pronomen li .a ya
-pyut .u Proton li .a ya
-pyul .u böld li .a ya
-pyas .u fras li .a ya
-pyat .u grammatisk-objekt li .a ya
-pwil .u Variabel li .a ya
-pwut .u godkänna li .a ya
-psiy .u Tryck li .a ya
-pyuf .u Bevis li .a ya
-pyuc .u Projekt li .a ya
-psit .u Yta li .a ya
-psan .u Plats li .a ya
-psat .u promse li .a ya
-plis .u in-the-close li .a ya
-plam .u Plasma li .a ya
-plin .u Flygplan li .a ya
-psun .u Källa li .a ya
-play .u spela li .a ya
-nyit .u Enhet li .a ya
-nyus .u jonisera li .a ya
-nyut .u Neutron li .a ya
-plan .u Planet li .a ya
-nyis .u Anmärkning li .a ya
-syat .u fast li .a ya
-syun .u Universum li .a ya
-swil .u Själ li .a ya
-syit .u skicka li .a ya
-syak .u vaken li .a ya
-slam .u sublimera li .a ya
-swat .u Fråga li .a ya
-slim .u exempel li .a ya
-tkic .u translation-dictionary li .a ya
-tyis .u Övergång li .a ya
-tyil .u Förkylning li .a ya
-tyam .u Atom li .a ya
-tyim .u darra li .a ya
-tyin .u tre li .a ya
-tyan .u Cord li .a ya
-tyas .u Idea li .a ya
-tyup .u Robot li .a ya
-tsiw .u Satellit li .a ya
-twis .u sant li .a ya
-tsim .u tillsammans li .a ya
-tsin .u Instruktion li .a ya
-tsil .u tjäna li .a ya
-tsay .u Star li .a ya
-tsam .u Syfte li .a ya
-tsak .u Stanna li .a ya
-tsap .u FASTIGHET li .a ya
-tsan .u igen li .a ya
-tsal .u Tillstånd li .a ya
-tsaf .u Smak li .a ya
-tsuk .u Affärs li .a ya
-tlik .u Aktuell li .a ya
-tlam .u översätta li .a ya
-tlun .u Trepunkts li .a ya
-tlin .u ordningstal li .a ya
-tcin .u Kedja li .a ya
-tlan .u Tradition li .a ya
-tfal .u Fil li .a ya
-tcan .u Träd li .a ya
-fwas .u Fas li .a ya
-fyas .u Expression li .a ya
-fwil .u Force li .a ya
-flit .u Flöjt li .a ya
-flut .u Flower li .a ya
-fluc .u flöde li .a ya
-clut .u superkritisk-fluid li .a ya
-clum .u Mening li .a ya
-miyk .u skicka li .a ya
-mist .u mäta li .a ya
-milt .u Smälta li .a ya
-mayt .u imaginära-enheten li .a ya
-mast .u Matter li .a ya
-miwk .u person li .a ya
-mint .u Metod li .a ya
-muyt .u Ally li .a ya
-malt .u Material li .a ya
-mack .u föreställa-sig li .a ya
-muys .u känslor li .a ya
-kisp .u Exponent li .a ya
-munt .u Världen li .a ya
-kays .u grammatiskt-Case li .a ya
-kayt .u het li .a ya
-kaws .u Gas li .a ya
-kant .u konvertera li .a ya
-kast .u Konstant li .a ya
-kimt .u hänga li .a ya
-kamt .u grammatik li .a ya
-kump .u humör li .a ya
-kusp .u Minimera li .a ya
-kust .u Konstant li .a ya
-kumt .u kommunicera li .a ya
-kuft .u del li .a ya
-kuwt .u Kod li .a ya
-yink .u Ring li .a ya
-kunt .u Kontroll li .a ya
-kult .u Kultur li .a ya
-yimk .u fråga li .a ya
-yalk .u Fordon li .a ya
-yulp .u Roll li .a ya
-yult .u Fördel li .a ya
-panp .u Bröd li .a ya
-pant .u låna li .a ya
-pack .u njuta li .a ya
-pult .u gammal li .a ya
-wiyp .u verb li .a ya
-wins .u Venus li .a ya
-wint .u Vind li .a ya
-niym .u subst li .a ya
-nalt .u Natur li .a ya
-sant .u konst li .a ya
-sint .u känna li .a ya
-suyt .u grammatisk-ämne li .a ya
-timp .u grammatisk-spänd li .a ya
-tink .u Text li .a ya
-tiwk .u aktivitet li .a ya
-tisk .u Framsteg li .a ya
-tuym .u Världen li .a ya
-tamk .u ser-ut-som li .a ya
-tanp .u visas li .a ya
-tack .u tack li .a ya
-tuwm .u Varaktighet li .a ya
-liyt .u Litteratur li .a ya
-liyn .u Linje li .a ya
-lint .u inom li .a ya
-lank .u Färg li .a ya
-lunt .u Människor li .a ya
-luwt .u Lute li .a ya
-tick .u lexikon li .a ya
-cinp .u Information li .a ya
+hi li hu vara li ha ya
+ha li hu ob li ha ya
+hu li hu su li ha ya
+mi li hu mig li ha ya
+ma li hu vad li ha ya
+mu li hu man li ha ya
+ki li hu och li ha ya
+ka li hu än li ha ya
+ku li hu om li ha ya
+yi li hu detta li ha ya
+yu li hu ni li ha ya
+ya li hu ya li ha ya
+pi li hu av li ha ya
+pa li hu det-där li ha ya
+pu li hu åtgärd li ha ya
+wi li hu vi li ha ya
+wa li hu eller li ha ya
+wu li hu från li ha ya
+ni li hu i li ha ya
+na li hu Nummer li ha ya
+si li hu de li ha ya
+nu li hu nu li ha ya
+ti li hu att li ha ya
+su li hu från li ha ya
+ta li hu till li ha ya
+tu li hu du li ha ya
+li li hu rally li ha ya
+fa li hu omkring li ha ya
+la li hu Hallå li ha ya
+lu li hu Plural li ha ya
+fi li hu kvinna li ha ya
+ci li hu eh? li ha ya
+fu li hu kommer li ha ya
+mya li hu kanske li ha ya
+ca li hu Sterilisera li ha ya
+kyi li hu villkor li ha ya
+mwa li hu med li ha ya
+kya li hu åt-sidan li ha ya
+sa li hu den li ha ya
+kyu li hu eftersom li ha ya
+kwa li hu att-den li ha ya
+ksa li hu Slut-på-citation- li ha ya
+kli li hu honom li ha ya
+kla li hu men li ha ya
+klu li hu Klausul-tail li ha ya
+kca li hu ha li ha ya
+pya li hu till li ha ya
+psu li hu från-källkod li ha ya
+pwa li hu yaor li ha ya
+pli li hu till-exempel li ha ya
+pca li hu jolly li ha ya
+nyi li hu inte li ha ya
+nya li hu nämligen li ha ya
+sya li hu Singular li ha ya
+syi li hu mycket li ha ya
+syu li hu så li ha ya
+swi li hu medan li ha ya
+sla li hu Hallå li ha ya
+tyi li hu Erbjudande li ha ya
+twu li hu Dual li ha ya
+tsa li hu ,-Bis li ha ya
+tsi li hu ja li ha ya
+tsu li hu ut li ha ya
+tla li hu för li ha ya
+fyi li hu de li ha ya
+twa li hu sedan li ha ya
+tli li hu Ord li ha ya
+min hu mindre li ha ya
+mik hu göra li ha ya
+miy hu vänta li ha ya
+mip hu över li ha ya
+mit hu Mitten li ha ya
+mak hu ord li ha ya
+man hu tror li ha ya
+mat hu Mor li ha ya
+mun hu man li ha ya
+mas hu Mäss li ha ya
+mac hu Maskin li ha ya
+mut hu hjälpa li ha ya
+mul hu fullständigt li ha ya
+kim hu jämför li ha ya
+kiy hu gå li ha ya
+kip hu kapabel li ha ya
+kin hu Huvudsaklig li ha ya
+kam hu komma li ha ya
+kis hu starkt li ha ya
+kit hu ände li ha ya
+kap hu huvud li ha ya
+kan hu vet li ha ya
+kas hu Root-Cause li ha ya
+kaf hu Katod li ha ya
+kuy hu växa li ha ya
+kat hu motta li ha ya
+kal hu allt li ha ya
+kum hu Handel li ha ya
+kus hu Matar li ha ya
+kuc hu liten li ha ya
+yis hu skriva li ha ya
+yis undefined ha ya
+kup hu köpa li ha ya
+kun hu röd li ha ya
+yik hu negera li ha ya
+yum hu Medlem li ha ya
+yat hu läsa li ha ya
+yun hu subtrahera li ha ya
+yak hu några li ha ya
+yac hu Bredd li ha ya
+pis hu multiplicera li ha ya
+pit hu Vit li ha ya
+pic hu Piss li ha ya
+yus hu Användning li ha ya
+pay hu mer li ha ya
+yul hu hel li ha ya
+pam hu bra li ha ya
+pas hu hända li ha ya
+pak hu kropp li ha ya
+paw hu plats li ha ya
+pat hu Far li ha ya
+pus hu bajs li ha ya
+pal hu många li ha ya
+puk hu dåligt li ha ya
+pan hu möts li ha ya
+win hu Seger li ha ya
+pac hu glädje li ha ya
+puy hu barn li ha ya
+put hu sälja li ha ya
+pul hu blå li ha ya
+fut hu framtid li ha ya
+wan hu älskar li ha ya
+wut hu Lätt li ha ya
+niy hu måste li ha ya
+wap hu svans li ha ya
+wat hu tala li ha ya
+nay hu andas-ut li ha ya
+nim hu Namn li ha ya
+nat hu Natt li ha ya
+nut hu Anod li ha ya
+nit hu Netto li ha ya
+nic hu Energi li ha ya
+nuy hu ny li ha ya
+sip hu Mouthful li ha ya
+sit hu Mening li ha ya
+sim hu liknande li ha ya
+wul hu stor li ha ya
+nam hu nummer li ha ya
+saw hu svart li ha ya
+sik hu Höjd li ha ya
+sil hu lätt li ha ya
+nul hu void li ha ya
+sap hu helt-enkelt li ha ya
+suy hu att-förlora li ha ya
+say hu säga li ha ya
+sam hu lika li ha ya
+tim hu Lag li ha ya
+tik hu att-hålla li ha ya
+san hu själv li ha ya
+sat hu ljud li ha ya
+sup hu betala li ha ya
+tis hu inhalera li ha ya
+sut hu Storlek li ha ya
+tiy hu Dag li ha ya
+naw hu närvarande li ha ya
+tip hu börja li ha ya
+til hu låg li ha ya
+tin hu se li ha ya
+tam hu Ämne li ha ya
+tak hu lägga-till li ha ya
+tuk hu Dryck li ha ya
+tay hu uppsättning li ha ya
+tan hu ge li ha ya
+tas hu välja li ha ya
+tup hu Djup li ha ya
+tum hu Temperatur li ha ya
+tap hu Rör li ha ya
+tuf hu svårt li ha ya
+fin hu kvinna li ha ya
+fit hu passa li ha ya
+tul hu Verktygs li ha ya
+lik hu Elektrisk-laddning li ha ya
+lin hu Längd li ha ya
+ciy hu grön li ha ya
+cif hu klyftan li ha ya
+lis hu lever li ha ya
+lit hu Glyph li ha ya
+myut hu Import li ha ya
+cim hu lyssna li ha ya
+cik hu få li ha ya
+myit hu minns li ha ya
+cak hu Sak li ha ya
+can hu Olycka li ha ya
+myun hu anställa li ha ya
+cal hu drag li ha ya
+myan hu mjuk li ha ya
+kyim hu Spel li ha ya
+myat hu Math li ha ya
+kyip hu Kläder li ha ya
+myul hu Moral li ha ya
+kwit hu Gravity li ha ya
+kwat hu vård li ha ya
+myin hu dröm li ha ya
+kyus hu Kul li ha ya
+kyil hu Krets li ha ya
+kyin hu Allmänt li ha ya
+kyap hu Kopia li ha ya
+kyup hu Grupp li ha ya
+ksat hu exakt li ha ya
+ksil hu Kristall li ha ya
+kyat hu svårt li ha ya
+kyul hu Regel li ha ya
+kwal hu språk li ha ya
+ksam hu Darkness li ha ya
+ksip hu Tillgång li ha ya
+ksin hu Sammanhang li ha ya
+ksal hu Galaxy li ha ya
+ksap hu uttrycka li ha ya
+ksum hu kommunicera li ha ya
+ksan hu organisera li ha ya
+kliy hu klar li ha ya
+ktin hu Religion li ha ya
+klin hu Elektron li ha ya
+kcat hu åtta li ha ya
+pyik hu Rast li ha ya
+ksut hu samla li ha ya
+pyit hu fyra li ha ya
+ksul hu Skola li ha ya
+klaw hu skratt li ha ya
+pyaw hu Par-Av li ha ya
+klas hu Klass li ha ya
+klat hu Klausul li ha ya
+kcim hu Kemisk li ha ya
+klac hu utom li ha ya
+pyil hu Anmärkning li ha ya
+kfin hu Config li ha ya
+pyas hu snabbt li ha ya
+pyin hu Erfarenhet li ha ya
+pyat hu Prompt li ha ya
+pyam hu Program li ha ya
+pyan hu pronomen li ha ya
+pyut hu Proton li ha ya
+psil hu stava li ha ya
+pyul hu böld li ha ya
+pwas hu Svar li ha ya
+pwil hu Variabel li ha ya
+pwut hu godkänna li ha ya
+psiy hu Tryck li ha ya
+psit hu Hastighet li ha ya
+pyuf hu Bevis li ha ya
+pyuc hu Projekt li ha ya
+psan hu Plats li ha ya
+psat hu promse li ha ya
+pfis hu Preferens li ha ya
+psal hu Sail li ha ya
+nyip hu SPEGEL li ha ya
+plis hu in-the-close li ha ya
+psut hu Promise li ha ya
+nyat hu ange li ha ya
+plum hu Problem li ha ya
+plam hu Plasma li ha ya
+plin hu Flygplan li ha ya
+nyul hu Roll li ha ya
+pfal hu misslyckas li ha ya
+syim hu sju li ha ya
+pcit hu uppskatta li ha ya
+pcil hu speciell li ha ya
+syip hu ren li ha ya
+plan hu Plan li ha ya
+plat hu Planet li ha ya
+syan hu Cyan li ha ya
+pfus hu Buss li ha ya
+psun hu Källa li ha ya
+swit hu Strömbrytare li ha ya
+nlic hu Engelska li ha ya
+play hu spela li ha ya
+syic hu Forskning li ha ya
+syam hu Stanna li ha ya
+nyit hu Enhet li ha ya
+nyus hu jonisera li ha ya
+slin hu Singel li ha ya
+nyut hu Neutron li ha ya
+nyis hu Anmärkning li ha ya
+syat hu fast li ha ya
+syut hu Support li ha ya
+tyik hu Decay li ha ya
+syun hu Universum li ha ya
+swat hu Vatten li ha ya
+swuy hu Fråga li ha ya
+swun hu Sömn li ha ya
+swil hu Själ li ha ya
+syit hu skicka li ha ya
+tyif hu värt li ha ya
+slof hu Ordförråd li ha ya
+syak hu vaken li ha ya
+tkun hu Kinesisk li ha ya
+slam hu sublimera li ha ya
+tyip hu igen li ha ya
+tyap hu att-försöka li ha ya
+tyaw hu Idea li ha ya
+tyas hu att-kasta li ha ya
+tyic hu Riktning li ha ya
+slim hu exempel li ha ya
+tyus hu Mål li ha ya
+tkic hu translation-dictionary li ha ya
+twif hu Adjektiv li ha ya
+tyis hu Övergång li ha ya
+tsik hu sex li ha ya
+tsiy hu Historia li ha ya
+tsip hu Steg li ha ya
+tyuc hu undervisa li ha ya
+tyil hu Förkylning li ha ya
+tyam hu Atom li ha ya
+tyak hu Cry li ha ya
+tyim hu darra li ha ya
+tyin hu tre li ha ya
+tyan hu Cord li ha ya
+tyup hu Robot li ha ya
+tsiw hu Satellit li ha ya
+twis hu sant li ha ya
+tsim hu tillsammans li ha ya
+tsin hu Instruktion li ha ya
+tsuy hu att-sitta li ha ya
+tsan hu Student li ha ya
+tsak hu Attack li ha ya
+tsil hu tjäna li ha ya
+tsay hu Star li ha ya
+tsam hu Syfte li ha ya
+tsum hu Studie li ha ya
+tlas hu DOMSTOL li ha ya
+tsap hu FASTIGHET li ha ya
+tsal hu Tillstånd li ha ya
+tsul hu Vuxen li ha ya
+tsaf hu Smak li ha ya
+tful hu två li ha ya
+tlis hu Desire li ha ya
+tsuk hu Affärs li ha ya
+tcap hu genomskinlig li ha ya
+tlik hu Aktuell li ha ya
+tlam hu översätta li ha ya
+tfim hu tillfälligt li ha ya
+tlun hu Trepunkts li ha ya
+tfin hu Individuell li ha ya
+fwap hu fem li ha ya
+tfak hu Smuts li ha ya
+tlin hu ordningstal li ha ya
+flan hu HÖGVATTEN li ha ya
+tcil hu Fängelse li ha ya
+flat hu Lägenhet li ha ya
+tfus hu Skada li ha ya
+tcun hu Prestanda li ha ya
+tcin hu Kedja li ha ya
+tlan hu Tradition li ha ya
+tfal hu Fil li ha ya
+flay hu flyga li ha ya
+tcan hu Träd li ha ya
+fwas hu Fas li ha ya
+mink hu Spirit li ha ya
+fyas hu Expression li ha ya
+cyin hu lära li ha ya
+fwil hu Force li ha ya
+flit hu Flöjt li ha ya
+clin hu Förhållande li ha ya
+mayn hu Harmony li ha ya
+flut hu Flower li ha ya
+miyt hu medvetet li ha ya
+mant hu Magenta li ha ya
+fluc hu flöde li ha ya
+clut hu superkritisk-fluid li ha ya
+clum hu Mening li ha ya
+miyk hu skicka li ha ya
+mist hu mäta li ha ya
+milt hu Smälta li ha ya
+musk hu Musik li ha ya
+mans hu Man li ha ya
+mayp hu Karta li ha ya
+mayt hu imaginära-enheten li ha ya
+mast hu Matter li ha ya
+kiyn hu en li ha ya
+kint hu konvertera li ha ya
+miwk hu person li ha ya
+munk hu möjligt li ha ya
+munt hu Mood li ha ya
+must hu mest li ha ya
+mint hu Metod li ha ya
+muyt hu Ally li ha ya
+malt hu Material li ha ya
+mack hu föreställa-sig li ha ya
+muys hu känslor li ha ya
+kiyp hu Papper li ha ya
+kant hu Konstant li ha ya
+kasp hu fångst li ha ya
+kast hu skapa li ha ya
+mult hu Modulo li ha ya
+kift hu förlåta li ha ya
+kisp hu Exponent li ha ya
+kays hu grammatiskt-Case li ha ya
+kayn hu River-ström li ha ya
+kayt hu het li ha ya
+kaws hu Gas li ha ya
+kaft hu bekräfta li ha ya
+kump hu Komplexa li ha ya
+kumt hu Kommando li ha ya
+kimt hu hänga li ha ya
+kamt hu grammatik li ha ya
+kuym hu tillsammans li ha ya
+yinp hu Avkastning li ha ya
+kuyn hu Konjugation li ha ya
+yilk hu gul li ha ya
+yawt hu Skada li ha ya
+kuls hu grym li ha ya
+kuyt hu kritisk-punkt li ha ya
+kusp hu Minimera li ha ya
+kust hu Konstant li ha ya
+yimt hu Rhythm li ha ya
+yist hu Export li ha ya
+kuwt hu Kod li ha ya
+piyn hu Yttrande li ha ya
+yink hu Ring li ha ya
+yamt hu beundra li ha ya
+yasp hu Working li ha ya
+kunt hu Kontroll li ha ya
+kult hu Kultur li ha ya
+yalt hu tidigt li ha ya
+yilt hu Eulers-nummer li ha ya
+yusk hu Öst li ha ya
+yuyp hu Europa li ha ya
+yask hu Reaktion li ha ya
+yunt hu Behållare li ha ya
+yast hu ledig li ha ya
+yimk hu fråga li ha ya
+pist hu Godkännande li ha ya
+yalk hu Fordon li ha ya
+yulp hu Roll li ha ya
+piys hu PI li ha ya
+pays hu Bas li ha ya
+pamt hu tålig li ha ya
+yult hu Fördel li ha ya
+puyk hu grammatiskt-objekt li ha ya
+panp hu Bröd li ha ya
+nist hu nio li ha ya
+past hu producera li ha ya
+pant hu låna li ha ya
+nuys hu Buller li ha ya
+punt hu Punkt li ha ya
+nuls hu Noll li ha ya
+pust hu Damm li ha ya
+pack hu njuta li ha ya
+nims hu Animism li ha ya
+siyt hu föreslår li ha ya
+pult hu gammal li ha ya
+sift hu Shift li ha ya
+nilt hu Intelligens li ha ya
+nast hu Intresse li ha ya
+sayk hu klokt li ha ya
+nuyt hu Norr li ha ya
+nusp hu glömma li ha ya
+wiyp hu verb li ha ya
+sanp hu att-expandera li ha ya
+wins hu Venus li ha ya
+wuym hu Volym li ha ya
+wint hu Vind li ha ya
+tiyk hu tio li ha ya
+siyn hu visas li ha ya
+tiyn hu att-fortsätta li ha ya
+niyt hu n:-te-roten li ha ya
+niym hu subst li ha ya
+tiws hu Teater li ha ya
+nuks hu Unix li ha ya
+nust hu Meddelande li ha ya
+sunt hu Söder li ha ya
+sark hu Sarkasm li ha ya
+sulc hu Lösning li ha ya
+nuft hu fientlig li ha ya
+tiym hu sen li ha ya
+simt hu Gräns li ha ya
+nalt hu Natur li ha ya
+sayt hu Speed-av-ljus li ha ya
+tiyf hu Drive li ha ya
+sant hu konst li ha ya
+sint hu känna li ha ya
+suyt hu grammatisk-ämne li ha ya
+tawk hu Authority li ha ya
+tink hu Text li ha ya
+tiys hu Borttagande li ha ya
+tisk hu Text li ha ya
+timp hu grammatisk-spänd li ha ya
+tinp hu gyllene-snittet li ha ya
+tiwk hu aktivitet li ha ya
+tisp hu representerar li ha ya
+tayk hu fasten li ha ya
+tuym hu Världen li ha ya
+liys hu Frihet li ha ya
+task hu Uppgift li ha ya
+tank hu plötsligt li ha ya
+taym hu Tid li ha ya
+talp hu Bord li ha ya
+tuys hu Thief li ha ya
+tukc hu Turkiska li ha ya
+lisk hu Holiday li ha ya
+tayn hu Område li ha ya
+layt hu elva li ha ya
+tunk hu Hjärna li ha ya
+tusk hu Framsteg li ha ya
+lank hu lokal li ha ya
+liwk hu Juridisk li ha ya
+tamk hu ser-ut-som li ha ya
+tanp hu visas li ha ya
+tack hu tack li ha ya
+tuwm hu Varaktighet li ha ya
+fayt hu Fakta li ha ya
+list hu åtminstone li ha ya
+fals hu fel li ha ya
+falt hu Standard li ha ya
+funk hu Funktion li ha ya
+lant hu långsamt li ha ya
+fult hu Hotell li ha ya
+liyk hu Fluid li ha ya
+liwt hu Present li ha ya
+liyt hu Litteratur li ha ya
+fint hu hitta li ha ya
+liyn hu Linje li ha ya
+layk hu Lake li ha ya
+faym hu Farm li ha ya
+link hu Länk li ha ya
+fans hu Franska li ha ya
+lint hu inom li ha ya
+lumk hu Logaritm li ha ya
+fuym hu Form li ha ya
+funm hu FONEM li ha ya
+lunt hu Människor li ha ya
+lunp hu Loop li ha ya
+luwt hu Lute li ha ya
+budz hu Buddhismen li ha ya
+tick hu lexikon li ha ya
+cinp hu Information li ha ya

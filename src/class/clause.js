@@ -91,29 +91,40 @@ Clause.prototype.toString = function(format){
 	if (clauseWord) result += clauseWord.toString(format);
 	return result;
 };
-Clause.prototype.toLocaleString = function(language,format){
+Clause.prototype.toLocaleString = 
+function(language,format,type,conjLevel){
 	var joiner = ' ';
+if (format && format.joiner !== undefined) joiner = format.joiner;
+var conj = new Object();
+if (conjLevel >= 3) conj = language.grammar.conjugation;
+if (conj && conj.format && conj.format.joiner !== undefined) {
+var joiner = conj.format.joiner;}
+
 	var result = new String();
 	var clauseTerm = undefined; //this.tail;
 	var sentence = this.body;
 	var clauseWord = this.head;
-	if (language.grammar.wordOrder.clauseInitial){
-	if (clauseTerm) result += clauseTerm.toLocaleString(
-			language,format,"lh")+joiner;
-	if (sentence) result += sentence.toLocaleString(
-			language,format);
-	if (clauseWord) result += clauseWord.toLocaleString(
-			language,format,"lh");
-	}
-	else {
-	if (clauseWord) result += clauseWord.toLocaleString(
-			language,format,"lh")+joiner;
-	if (sentence) result += sentence.toLocaleString(
-			language,format);
-	if (clauseTerm) result += clauseTerm.toLocaleString(
-			language,format,"lh")+joiner;
-	}
-	return result;
+
+if (language.grammar.wordOrder.clauseInitial){
+//if (clauseTerm) result += 
+//clauseTerm.toLocaleString(language,format,"lh",conjLevel)+joiner;
+if (sentence) result += 
+sentence.toLocaleString( language,format,type,conjLevel)
+.replace(/ $/,joiner)
+;
+if (clauseWord) result += 
+clauseWord.toLocaleString(language,format,"lh",conjLevel)
+ ;
+}
+else {
+if (clauseWord) result += clauseWord.toLocaleString(
+		language,format,"lh",conjLevel)+joiner;
+if (sentence) result += sentence.toLocaleString(
+	language,format,type,conjLevel).replace(/ $/,joiner);
+if (clauseTerm) result += clauseTerm.toLocaleString(
+		language,format,"lh",conjLevel)+joiner;
+}
+return result;
 };
 Clause.prototype.isLike= function(language,input){
 	var match = clauseInputToMatch(language,input);
@@ -129,6 +140,10 @@ Clause.prototype.isSubset= function(language,input){
 		return true;
 	return false;
 };
+Clause.prototype.copy = function(language,conjugationLevel){
+return new Clause(language,
+JSON.parse(JSON.stringify(this)),conjugationLevel);
+}
 Clause.prototype.isSuperset= function(language,input){
 var match = clauseInputToMatch(language,input);
 var result = true;

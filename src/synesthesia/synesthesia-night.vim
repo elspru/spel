@@ -204,7 +204,7 @@ highlight White		ctermfg=White		guifg=#DADADA
 highlight RedVowel	ctermfg=Red		guifg=#F04C4C
 highlight Red		ctermfg=Red		guifg=#DA6262
 highlight Scarlet	ctermfg=Red		guifg=#DA8062
-highlight Orange	ctermfg=DarkYellow	guifg=#DA9E62
+highlight Orange	ctermfg=Red 	guifg=#DA9E62
 highlight Amber		ctermfg=Yellow	guifg=#DABC62
 highlight Yellow	ctermfg=Yellow		guifg=#DADA62
 highlight YellowVowel	ctermfg=Yellow		guifg=#9EF04C

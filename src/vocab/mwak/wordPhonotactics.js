@@ -9,14 +9,9 @@
 /// su speakable programming for every language be title ya
 /// su la AGPL-3 be license ya
 /// be end of head ya
-
 "use strict";
 
-
 var highOrd = require("../../lib/hof");
-
-			
-
 /// su hello be public function de
 function hello(input){
 	"use strict";
@@ -45,30 +40,30 @@ var Glyph24Alphabet = 	["m","k","i","a","y","u","p","w",
 var Glyph31Alphabet = 	["m","k","i","a","y","u","p","w",
     		       	 "n","s","t","l","h","f",".","c",
 		       	 "e","o","r","b","g","d","z","j",
-			 "v","q","^","_","6","I","x",];
+			 "v","q","7","_","6","1","x",];
 var Bit5Alphabet = 	["m","k","i","a","y","u","p","w",
     		       	 "n","s","t","l","h","f",".","c",
 		       	 "e","o","r","b","g","d","z","j",
-			 "v","q","^","_","6","I","x","T"];
+			 "v","q","9","5","4","1","x","6"];
 var alphabet = Bit1Alphabet;
 //var alphabet = Glyph3Alphabet;
 var alphabet = Bit2Alphabet;
 //var alphabet = Glyph5Alphabet;
 //var alphabet = Glyph7Alphabet;
-var alphabet = Bit3Alphabet;
+//var alphabet = Bit3Alphabet;
 //var alphabet = Glyph12Alphabet;
 var alphabet = Bit4Alphabet;
 //var alphabet = Glyph19Alphabet;
-//var alphabet = Glyph24Alphabet;
+var alphabet = Glyph24Alphabet;
 //var alphabet = Glyph31Alphabet;
 //var alphabet = Bit5Alphabet;
-var comment = "X5G kai";
+var comment = "C24G kya";
 var strictPhonotactics = true;
-var loosePhonotactics = true;
-var noPhonotactics = true;
-var initialAffricates = true;
-var finalAffricates = true;
-var sonorityPlateau = true;
+var loosePhonotactics = false;
+var noPhonotactics = false;
+var initialAffricates = false;
+var finalAffricates = false;
+var sonorityPlateau = false;
 var sonorityInversion = false;
 var samePhonemeTwice = false;// same phoneme twice
 var uniquePhonemes = false; // each word with unique phonemes
@@ -123,17 +118,18 @@ function strictPhonotacticsSet(){
 	"u":0x70,
 	"e":0x70,
 	"o":0x70,
-	"6":0x70,
-	"I":0x70,
+	"2":0x70,
+	"1":0x70,
 	"y":0x6C,
 	"w":0x6C,
 	"r":0x54,
-	"l":0x50,
+	"l":0x51,
 	"m":0x40,
 	"n":0x40,
 	"q":0x40,
 	"h":0x30,
 	"x":0x30,
+	"6":0x30,
 	"f":0x30,
 	"v":0x30,
 	"c":0x30,
@@ -152,10 +148,10 @@ function strictPhonotacticsSet(){
 // voicing for which are distinguishing those that are strict
 
 alphabet.voicing = {
-	"al":[".","h","i","a","e","o","u","x","y",
-		"r","l","w","m","n","I","6","q"],
-	"un":["p","t","k","f","s","c","C"],
-	"vo":["b","d","g","v","z","j"]
+	"al":[".","h","i","a","e","o","u","y",
+		"r","l","w","m","n","1","2","q","4","5"],
+	"un":["p","t","k","f","s","c","x"],
+	"vo":["b","d","g","v","z","j","6"]
 }
 alphabet.voicing.getType = function(glyph){
 	var voicing = alphabet.voicing;
@@ -177,13 +173,13 @@ alphabet.voicing.checkType = function(glyph,type){
 alphabet.phonemeClass = {
 	".":["."],
 	"H":["h"],
-	"V":["i","a","e","o","u","6","I"],
+	"V":["i","a","e","o","u","2","1"],
 	"C":["p","t","k","f","s","c","y","r","l","w","q",
-		"m","n","x","b","d","g","z","j","v","C"],
-	"T":["^","_"],
+		"m","n","x","b","d","g","z","j","v","6"],
+	"T":["4","5"],
 	"n":["n","m","q"], // nasals
-	"f":["f","s","c","C","x","h","v","z","j"], // fricatives
-	"p":["p","t","k","B","D","G"], // plosives
+	"f":["f","s","c","x","h","v","z","j","6"], // fricatives
+	"p":["p","t","k","b","d","g"], // plosives
 	"l":["l"], //liquids
 	"t":["r"], // trills
 	"g":["y","w"] // glides
@@ -211,31 +207,17 @@ alphabet.phonemeClass.checkType = function(type,glyph){
 // su syllable weight be array of string ya
 var /*array<String>*/ syllableWeight = [
 	[".","V"],
-	[".","T","V"],
+	[".","V","T"],
 	["C","V"],
-	["C","T","V"],
-//	[".","V","V"],
-//	[".","T","V","V"],
-//	["C","V","V"],
-//	["C","T","V","V"],
-//	["C","V","T","V"],
-//	["C","T","V","T","V"],
-//	[".","V","H","V"],
-//	[".","T","V","H","V"],
-//	[".","V","H","T","V"],
-//	[".","T","V","H","T","V"],
-//	["C","V","H","V"],
-//	["C","T","V","H","V"],
-//	["C","V","H","T","V"],
-//	["C","T","V","H","T","V"],
+	["C","V","T"],
 	["C","C","V"],
-	["C","C","T","V"],
+	["C","C","V","T"],
      	["C","V","C"],
-      	["C","T","V","C"],
+      	["C","V","T","C"],
 	["C","C","V","C"],
-	["C","C","T","V","C"],
+	["C","C","V","T","C"],
 	["C","V","C","C"],
-	["C","T","V","C","C"]
+	["C","V","T","C","C"]
 ];
 
 // su words generate be generate bo word array for syllable with
@@ -301,9 +283,9 @@ function /*array<String>*/ wordsGenerate(
 			if (alphabetCheck("H",glyph))
 				return elem+glyph;
 		// if this or previous tone return proper
-			if (alphabetCheck("T",glyph)|| 
-			    alphabetCheck("T",previousGlyph))
-				return elem+glyph;
+	//		if (alphabetCheck("T",glyph)|| 
+	//		    alphabetCheck("T",previousGlyph))
+	//			return elem+glyph;
 		// no glides together
 			if (!adjacentGlides
 			    && alphabetCheck("g",glyph)
@@ -335,8 +317,7 @@ function /*array<String>*/ wordsGenerate(
 				return null;
 
 		// if elem contains this glyph then none
-			if (uniquePhonemes
-				&& elem.indexOf(glyph)!==-1)
+		if (uniquePhonemes && elem.indexOf(glyph)!==-1)
 				return null;
 		// if sonority difference less than some amount
 		//		then return none
@@ -433,9 +414,10 @@ function main(alphabet,syllableWeight){
 		out = allWords.slice(i*wordsPerRow,(i+1)*wordsPerRow);
 		out = out.join(" ");
 		// quote grammar words
-		if (alphabetCheck("V",out[out.length-1])) out = out + " yi";
+		if (alphabetCheck("V",out[out.length-1])
+|| alphabetCheck("T",out[out.length-1])) out = out + " li";
 		// if single make into nominative
-		if (single ) out = out + " .u "+comment+" ya";
+		if (single ) out = out + " hu "+comment+" ya";
 		console.log(out);
 	}
 }

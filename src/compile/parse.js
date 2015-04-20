@@ -93,9 +93,15 @@ var quoteNameI = otherTokens.rfind(wordMatch.curry(quoteName));
 // if be find then be set as  start
 // else be set ob start of tokens as start yand
 // be give warning ya
-if (quoteNameI === null) {start = 0; break}
+if (quoteNameI === -1) {
+throw new Error("couldn't find quote start"+tokens);
+start = 0; break}
 else if (tokens[quoteNameI-1] === tail[0]) {
 start = quoteNameI-1; break;}
+// be give warning ya
+if ((quoteHeadI-quoteNameI) > 128)
+throw new Error("quote too long, is "+(quoteHeadI-quoteNameI)
++" tokens, contents ob " +tokens.slice(quoteNameI,quoteHeadI));
 }
 // return start and end array
 return [start,end];
@@ -498,11 +504,20 @@ var quoteExtractedTokens = new Array();
 var i; 
 var thisToken; 
 var quote;
+var prevQuotes = [""];
 // if type final
 // go backwards through tokens
 if (language.grammar.wordOrder.typeFinal){
 for (i = tokens.length-1 ; i >= 0; i--){
 thisToken = tokens[i];
+if (thisToken === prevQuotes[0])
+prevQuotes.unshift(thisToken);
+else prevQuotes = [thisToken];
+if (prevQuotes.length >5)
+throw new Error("quintuplication infinite loop detected "
++thisToken);
+
+//console.log(thisToken);
 if (i===0) quoteExtractedTokens.unshift(thisToken);
 else if (wordMatch(quoteHeads,thisToken)){
 var quoteTokens = new Array();
@@ -517,7 +532,10 @@ quoteExtractedTokens.unshift(quote);
 i = i-quoteTokens.length+1;
 }
 else quoteExtractedTokens.unshift(thisToken);
-}}
+
+var qetl = quoteExtractedTokens.length;
+}
+}
 // else go forwards
 else if (!language.grammar.wordOrder.typeFinal) { // type initial
 for (i=0; i < tokens.length; i++){
@@ -1255,4 +1273,34 @@ var end = firstSentenceWordIndexParse(grammar,tokens,index);
 // be return ob start and end ya
 return [start,end];
 
+}
+
+// type head get
+exports.typeHeadIndex = typeHeadIndexParse;
+function typeHeadIndexParse(grammar, tokens){
+var typeFinal = grammar.wordOrder.typeFinal;
+var typeInitial = grammar.wordOrder.typeFinal === false;
+var i;
+var wordCount = 0;
+if (typeFinal){
+var length = tokens.length;
+for (i = length-1; i>=0; i--){
+if (tokenize.isGrammarWord(tokens[i]))
+wordCount++;
+else break;
+}
+// returns array of [bodyStart, bodyEnd, headStart, headEnd]
+return [0,length-wordCount,length-wordCount,length];
+}
+else if (typeInitial){
+var length = tokens.length;
+for (i = 0; i<length; i++){
+if (tokenize.isGrammarWord(tokens[i]))
+wordCount++;
+else break;
+}
+// returns array of [bodyStart, bodyEnd, headStart, headEnd]
+return [wordCount,length,0,wordCount];
+}
+else throw new Error("typeFinal not defined in grammar");
 }

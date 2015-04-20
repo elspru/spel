@@ -3,12 +3,7 @@ var mwak = new Language();
 
 module.exports = Mwak;
 function Mwak(srcBase){
+/* this is set in mwakGrammr of src/lang/grammar.js */
+
 return mwak;
 }
-var conjugation ={
-reversible:[],
-irreversible:[]
-}
-
-Mwak.prototype.code = function(){console.log("blah"); return "mwak"};
-exports.code = function(){console.log("blah"); return "mwak"};

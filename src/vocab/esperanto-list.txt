@@ -4230,7 +4230,7 @@ establo                       establishment
 estas                         there is, there are
 esti                          be
 esti adepto de                adhere to
-esti ...anta                  busy oneself
+esti ..hanta                  busy oneself
 esti bonhava                  be in easy circumstances, be well off, be well-to-do
 esti deponita                 be deposited, be in the keeping, rest
 esti ebla                     be possible
@@ -8369,7 +8369,6 @@ limo                          boundary, frontier, limit
 limonado                      lemonade
 limtusxanta                   adjacent
 limtusxi                      abut, adjoin, be next to
-lin                           him
 linagxo                       linen
 lingva                        linguistic
 lingvistika                   linguistic
@@ -9437,8 +9436,6 @@ militpastro                   chaplain, padre
 militpauxzo                   truce
 miljaro                       millennium
 milvo                         kite
-min                           me
-min mem                       myself
 minaca                        menacing, threatening
 minaca timigo                 intimidation
 minacanta                     menacing, threatening
@@ -11231,30 +11228,6 @@ pleto                         tray
 plezura                       agreeable, pleasant
 plezuriga                     pleasurable
 plezuro                       fun, pleasure
-pli                           more
-pli agxa                      elder, older
-pli bona                      better
-pli detala                    further
-pli detale                    more precisely
-pli gxuste                    rather
-pli juna fratino              younger sister
-pli juna frato                younger brother
-pli juna gefrato              younger brother, younger sibling, younger sister
-pli kaj pli                   increasingly, more and more
-pli malbona                   worse
-pli malfrue                   later, later on
-pli maljuna fratino           elder sister
-pli maljuna frato             elder brother
-pli maljuna gefrato           elder brother, elder sibling, elder sister
-pli malpli                    quite
-pli malproksima               farther
-pli malproksime               beyond, farther, further
-pli malproksime ol            beyond, past
-pli malproksimen              farther
-pli ol                        above, more than, over
-pli proksima                  nearer
-pli proksime                  nearer
-pli volonte                   preferably
 plia                          another, one more
 plialtigi                     increase, raise
 plialtigxi                    ascend, go up, increase
@@ -11303,7 +11276,6 @@ plongxi                       dive, plunge
 plongxisto                    diver
 plori                         cry, weep
 plorsingulti                  sob
-plu                           else, further, more, on
 plua                          additional, another
 pludauxrigi                   extend
 plue                          besides, furthermore, in addition, moreover
