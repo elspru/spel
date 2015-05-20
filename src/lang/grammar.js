@@ -38,6 +38,8 @@ this.number.dual=
 translate.word(dict, mwakGrammar.number.dual);
 this.number.singular=
 translate.word(dict, mwakGrammar.number.singular);
+this.number.indefinite=
+translate.word(dict, mwakGrammar.number.indefinite);
 this.tense = new Object();
 this.tense.all=
 translate.array(dict, mwakGrammar.tense.all);
@@ -52,8 +54,8 @@ this.quotes.quoteHeads=translate.array(dict,
 		mwakGrammar.quotes.quoteHeads);
 this.quotes.singleWord=translate.array(dict, 
 		mwakGrammar.quotes.singleWord);
-this.quotes.number=translate.word(dict, 
-		mwakGrammar.quotes.number);
+this.quotes.numeral=translate.word(dict, 
+		mwakGrammar.quotes.numeral);
 this.quotes.multiWordHead=translate.array(dict, 
 		mwakGrammar.quotes.multiWordHead);
 this.quotes.multiWordTail=translate.array(dict, 
@@ -76,7 +78,8 @@ this.wordOrder.subjectProminent = wordOrder.subjectProminent;
 this.wordOrder.postpositional= wordOrder.postpositional;
 this.wordOrder.genitiveInitial= wordOrder.genitiveInitial;
 this.wordOrder.clauseInitial= wordOrder.clauseInitial;
-this.wordOrder.phraseOrder= 
+this.wordOrder.topClauseInitial= wordOrder.topClauseInitial;
+this.wordOrder.phraseOrder= //wordOrder.phraseOrder;
 translate.array(dict, wordOrder.phraseOrder);
 this.wordOrder.littleEndian = wordOrder.littleEndian;
 if (wordOrder.intransitiveWord)
@@ -91,8 +94,8 @@ var mwakGrammar = {
 be: "Grammar",
 junctions:["ki","wa","mwa"],
 typeWords: ["li","sa","nyu","na","pa","yi","ni","tyi","nya"],
-phraseWords: ["hi","ta","ha","hu","kya","su","ni","ka",
-"fa","sla","la","tla","psu","pya","tsa","pli","su"],
+phraseWords: ["hi","ta","ha","hu","kya","su","ni","ka","mwa",
+"fa","sla","la","tla","psu","pya","tsa","pli","su","wu"],
 pronouns: ["mi","ti","si","tu","yu","tsi","pa"],
 topicWord: "fa",
 agentWord: "hu",
@@ -100,16 +103,20 @@ subjectWord: "hu",
 objectWord: "ha",
 verbWord: "hi",
 subPhraseWords: ["pi"],
-topClauseWords: ["ku","twa","swi","pwa","kla","syu","kyu"],
+topClauseWords: ["ku","twa","swi","pwa","kla","syu","kyu",
+"sli","cya"],
 topClauseTerminator: ["twa"],
 clauseWords: ["kwa"],
 clauseTerminator: ["klu"],
 sentenceWords: ["ya","ci"],
 number: {
-all: ["lu","twu"],
+all: ["lu","twu","fyu","myi"],
 plural: "lu",
 dual: "twu",
-singular: "sya"
+singular: "sya",
+indefinite: "nyu",
+paucal: "fyu",
+multal: "myi"
 },
 tense: {
 all: ["pu","nu","fu"],
@@ -120,7 +127,7 @@ future: "fu"
 quotes: {
 quoteHeads: ["li","tyi","na"],
 singleWord: ["li"],
-number: "na",
+numeral: ["na"],
 literal: ["li","tyi"],
 multiWordHead: ["tyi"],
 multiWordTail: ["ksa"],
@@ -136,6 +143,7 @@ topicInitial: true,
 subjectProminent: false,
 postpositional: true,
 clauseInitial: true,
+topClauseInitial: true,
 genitiveInitial: true,
 littleEndian: false,
 phraseOrder: ["ha","hi"],
@@ -187,19 +195,23 @@ return result.join("");
 }
 
 
-function byteAlign(word){
+function byteAlign(IPA,word){
+var pad= "h";
+if (IPA) pad = "ʰ";
 var result = new String();
-if (word.length % 2 === 1) result = word+"h";
+if (word.length % 2 === 1) result = word+pad;
 else result = word;
 return result;
 }
 
-function stressByteAlign(word,index,array){
+function stressByteAlign(IPA,word,index,array){
+var pad= "h";
+if (IPA) pad = "ʰ";
 var result = new String();
 var arLength = array.length;
 var primaryStress = "\u02C8";
 var secondaryStress = "\u02CC";
-if (word.length % 2 === 1) result = word+"h";
+if (word.length % 2 === 1) result = word+pad;
 else result = word;
 if ((/*arLength-*/index) % 2 === 0) return primaryStress+result;
 else return secondaryStress+result;
@@ -208,14 +220,15 @@ else return secondaryStress+result;
 function compoundWord(language,wordO,format,conjLevel){
 var head = new String();
 var body = new String();
+var IPA = format.ipa;
 if (Array.isArray(wordO.head))
-head = wordO.head.map(byteAlign).join("");
-else if (wordO.head) head = byteAlign(wordO.head);
+head = wordO.head.map(byteAlign.curry(IPA)).join("");
+else if (wordO.head) head = byteAlign(IPA,wordO.head);
 if (Array.isArray(wordO.body))
-body = wordO.body.map(byteAlign).join("");
-else if (wordO.body) body = byteAlign(wordO.body);
+body = wordO.body.map(byteAlign.curry(langauge)).join("");
+else if (wordO.body) body = byteAlign(IPA,wordO.body);
 var result = body+head;
-if (format.ipa) return mwakToIPA(result) ;
+if (IPA) return mwakToIPA(result) ;
 else return result;
 }
 
@@ -224,20 +237,23 @@ if (format && format.rhythm !== true)
 return wordO.toLocaleString(language,format,undefined,conjLevel);
 var head = new String();
 var body = new String();
+var IPA = format.ipa;
 var primaryStress = "\u02C8";
+if (format && format.secondaryRhythm !== false)
 var secondaryStress = "\u02CC";
+else secondaryStress = new String();
 if (Array.isArray(wordO.head))
-head = wordO.head.map(byteAlign).join("");
-else if (wordO.head) head = byteAlign(wordO.head);
+head = wordO.head.map(byteAlign.curry(IPA)).join("");
+else if (wordO.head) head = byteAlign(IPA,wordO.head);
 if (Array.isArray(wordO.body))
-body = wordO.body.map(stressByteAlign).join("");
-else if (wordO.body) body = stressByteAlign(wordO.body);
+body = wordO.body.map(stressByteAlign.curry(IPA)).join("");
+else if (wordO.body) body = stressByteAlign(IPA,wordO.body);
 var result = new String();
 if (body.length>0)
-result = body;
+result += body;
 if (body.length%2===0) result +=  primaryStress+head;
-else result +=  secondaryStress+head;
-if (format.ipa) return mwakToIPA(result) ;
+else result +=  primaryStress+head;
+if (IPA) return mwakToIPA(result) ;
 else return result;
 }
 
@@ -247,16 +263,20 @@ if (format && format.rhythm !== true)
 return wordO.toLocaleString(language,format,undefined,conjLevel);
 var head = new String();
 var body = new String();
+var IPA = format.ipa;
 var primaryStress = "\u02C8";
+if (format && format.secondaryRhythm !== false)
 var secondaryStress = "\u02CC";
+else secondaryStress = new String();
+if (format.secondaryRhythm === false) secondaryStress = "";
 if (Array.isArray(wordO.head))
-head = wordO.head.map(byteAlign);
-else if (wordO.head) head = byteAlign(wordO.head);
+head = wordO.head.map(byteAlign.curry(IPA));
+else if (wordO.head) head = byteAlign(IPA,wordO.head);
 if (Array.isArray(wordO.body))
-body = wordO.body.map(byteAlign);
-else if (wordO.body) body = byteAlign(wordO.body);
+body = wordO.body.map(byteAlign.curry(IPA));
+else if (wordO.body) body = byteAlign(IPA,wordO.body);
 var result = body+secondaryStress+head;
-if (format.ipa) return mwakToIPA(result) ;
+if (IPA) return mwakToIPA(result) ;
 else return result;
 }
 
@@ -267,7 +287,9 @@ return typeO.toLocaleString(language,format,undefined,conjLevel);
 var head = new String();
 var body = new String();
 var primaryStress = "\u02C8";
+if (format && format.secondaryRhythm !== false)
 var secondaryStress = "\u02CC";
+else secondaryStress = new String();
 if ((typeO.head))
 head =
 typeO.head.toLocaleString(language,format,"th",conjLevel);

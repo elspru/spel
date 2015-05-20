@@ -16,10 +16,12 @@ var zhoWordOrder = {
 headFinal : true,
 verbFinal : true,
 typeFinal : true,
+subjectProminent: true,
 postpositional : true,
 clauseInitial: true,
+topClauseInitial: false,
 genitiveInitial: true,
-phraseOrder: ["sla","ku","twa","hu","hi","nya","ta","ha"]
+phraseOrder: ["hu","hi","ha"]
 };
 var conjugation = {
 reversible:[
@@ -28,11 +30,58 @@ reversible:[
 irreversible:[
 [" 主题 "," "],
 [" 对象 "," "],
-]
+],
+format:{
+joiner:'',
+phraseJoiner:' ',
+clauseJoiner:' '
+}
 }
 
 conjugation.foreignQuote = 
 wrld.conjugation.citationQuote;
+
+conjugation.subjectPhrase = subjectPhraseConjugate;
+function subjectPhraseConjugate(language,phrase,format,conjLevel){
+// exceptions
+var joiner = " ";
+// main
+var newPhrase = phrase.copy();
+delete newPhrase.head;
+var body =
+newPhrase.toLocaleString(language,format,undefined,conjLevel);
+var result = new String();
+result = body;
+return result;
+}
+
+conjugation.objectPhrase = objectPhraseConjugate;
+function objectPhraseConjugate(language,phrase,format,conjLevel){
+// exceptions
+var joiner = " ";
+// main
+var newPhrase = phrase.copy();
+delete newPhrase.head;
+var body =
+newPhrase.toLocaleString(language,format,undefined,conjLevel);
+var result = new String();
+result = body;
+return result+joiner;
+}
+
+conjugation.verbPhrase = verbPhraseConjugate;
+function verbPhraseConjugate(language,phrase,format,conjLevel){
+// exceptions
+var joiner = " ";
+// main
+var newPhrase = phrase.copy();
+delete newPhrase.head;
+var body =
+newPhrase.toLocaleString(language,format,undefined,conjLevel);
+var result = new String();
+result = body;
+return result+joiner;
+}
 
 var zhoGrammar = new Grammar(zhoWordOrder,zhoDict,conjugation);
 var zho = new Language(zhoGrammar,zhoDict);

@@ -50,6 +50,7 @@ else throw new TypeError(JSON.stringify(input)
 var wordOrder = language.grammar.wordOrder;
 var tokenTuple;
 // if su partOfSpeech be defined then be partOfSpeech order
+
 if (partOfSpeech) 
 tokenTuple = partOfSpeechOrder(language,tokens,partOfSpeech);
 // else if head initial then initial order ya
@@ -116,7 +117,7 @@ var tokenTuple;
 if (partOfSpeech === "verb"){
 if (wordOrder.verbFinal === false)
 tokenTuple = initialOrder(language,tokens);
-else if (wordOrder.verbFinal)
+else if (wordOrder.verbFinal === true)
 tokenTuple = finalOrder(language,tokens);}
 // else if su partOfSpeech ob noun 
 // yand noun initial then be return ob initial order 

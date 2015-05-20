@@ -6,7 +6,7 @@ var Type = require("./type");
 var Word = require("./word");
 var Clause = require("./clause");
 module.exports = Phrase;
-function Phrase(language, input, conjLevel){
+function Phrase(language, input, conjLevel ){
 this.be = "Phrase";
 var tokens;
 if (typeof input === "string"){
@@ -305,6 +305,7 @@ var conj = new Object();
 if (conjLevel >= 3){
  conj = language.grammar.conjugation;
 
+if (this.head && this.head.head){
 if( conj.verbPhrase && this.head.head === "hi"){
 return conj.verbPhrase(language,this,format,conjLevel);
 }
@@ -317,11 +318,15 @@ return conj.objectPhrase(language,this,format,conjLevel);
 else if( conj.dativePhrase && this.head.head === "ta"){
 return conj.dativePhrase(language,this,format,conjLevel);
 }
-else if( conj.instrumentalPhrase && this.head.head === "wu"){
+else if( conj.instrumentalPhrase && 
+(this.head.head === "wu" || this.head.head === "mwa")){
 return conj.instrumentalPhrase(language,this,format,conjLevel);
 }
 else if(conj.phrase)
-return conj.phrase(language,this,format,type,conjLevel);
+return conj.phrase(language,this,format,conjLevel);
+}
+else if(conj.phrase)
+return conj.phrase(language,this,format,conjLevel);
 }
 
 var joiner = " ";

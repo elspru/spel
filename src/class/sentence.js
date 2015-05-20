@@ -54,9 +54,9 @@ else throw new TypeError(input +" is not a valid Phrase input");
 // if conjLevel set then disjugate ya
 if (conjLevel){
 var string = tokens.join(" ");
-var disjug =
-translate.disjugate(language,string,conjLevel);
-tokens = tokenize.stringToWords(disjug);
+//var disjug =
+//translate.disjugate(language,string,conjLevel);
+//tokens = tokenize.stringToWords(disjug);
 }
 // extract quotes
 tokens = parse.quotesExtract(language,tokens);
@@ -191,8 +191,9 @@ if (lastWord && lastWord.length>0)
 this.head = new Word(language,lastWord);
 
 var verbIndex = this.phrases.find(function(phrase){
-if (/* phrase.be === "TopClause"*/
- phrase.head.head === "hi" 
+var result = false;
+if (phrase.be === "TopClause" 
+|| phrase.head.head === "hi" 
 && phrase.body 
 && phrase.body.body
 || phrase.head.head === "fa" 
@@ -200,11 +201,11 @@ if (/* phrase.be === "TopClause"*/
 && phrase.head.body.head === "hi" 
 && phrase.head.body.body
 && phrase.head.body.body.body)
-return true;
-else return false;
+result= true;
+return result;
 });
-if (verbIndex === null)
-this.nominal = true;
+if (verbIndex === null){
+this.nominal = true;}
 
 return this;
 }// su sentence be end of constructor function ya
@@ -270,10 +271,12 @@ Sentence.prototype.indexOf = phraseIndexFind;
 Sentence.prototype.phraseIndexFind = phraseIndexFind;
 function phraseIndexFind(language,cases){
 var caseWord;
+var toMwak = language.dictionary.toMwak;
 if (Array.isArray(cases)){
 	caseWord = cases;
 }else if (typeof cases === "string"){
-	caseWord = tokenize.stringToWords(cases);
+caseWord = 
+translate.array(toMwak,tokenize.stringToWords(cases));
 }else throw new TypeError("unsupported type:"+cases);
 var i, phrase,
 phrases = this.phrases,
@@ -881,15 +884,15 @@ function whFront(language,sentence){
 // interrogative pronoun, if so then add it to wh array
 // and drop from sentence ya
 // return pair consisting of wh array and sentence ya
+function whCheck(phrase){
+if (phrase.body && phrase.body.head
+&& phrase.body.head.head === "ma") return true; 
+else return false;
+}
 var phrases = sentence.phrases;
-var whArray = phrases.filter(function(phrase){
-if (phrase.body && phrase.body.body 
-&& phrase.body.body.head === "ma") return true; 
-else return false; });
-var otherPhrases = phrases.filter(function(phrase){
-if (phrase.body && phrase.body.body
-&& phrase.body.body.head === "ma") return false; 
-else return true; });
+var whArray = phrases.filter(whCheck);
+var otherPhrases = 
+phrases.filter(function(phrase){ return !whCheck(phrase); });
 var newSentence = sentence.copy(language);
 newSentence.phrases = otherPhrases;
 return [whArray,newSentence];

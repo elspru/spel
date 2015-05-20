@@ -1,5 +1,7 @@
 
 var parse = require("../../compile/parse");
+var Language = require("../../lang/language");
+var mwak = new Language();
 exports.wordOrder =  function(){return svoWordOrder;};
 var svoWordOrder = {
 headFinal : false,
@@ -92,12 +94,15 @@ return  result;
 }
 
 conjugation.isPronoun  = 
-function (language,word){
-var pronouns = language.grammar.pronouns;
+function (phrase){
+var pronouns = mwak.grammar.pronouns;
+var body = phrase && phrase.body
+&& phrase.body.head && phrase.body.head.head;
 var i;
-for (i=0;i<pronouns.length;i++){
-if (word.indexOf(pronouns[i])!== -1) return true;
+if (parse.wordMatch(pronouns,body)){
+ return true;
 }
+
 return false;
 }
 

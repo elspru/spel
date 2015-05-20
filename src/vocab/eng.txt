@@ -33,6 +33,7 @@ fa li hu about li ha ya
 fu li hu will-be li ha ya
 ci li hu eh? li ha ya
 ca li hu neuter ha ya
+myi li hu many li ha ya
 mya li hu maybe li ha ya
 mwa li hu with li ha ya
 kyi li hu near li ha ya
@@ -43,30 +44,38 @@ ksa li hu unquote li ha ya
 kli li hu him ha ya
 kla li hu but li ha ya
 klu li hu clause-tail li ha ya
+kfa li hu adjective-affix li ha ya
 kca li hu C4 kya ha li ha ya
+pyi li hu verb-affix li ha ya
 pya li hu on li ha ya
 pwa li hu yaor li ha ya
 psu li hu from-source li ha ya
 pli li hu for-example ha ya
 pca li hu jolly li ha ya
+pcu li hu also ha ya
 nyi li hu not li ha ya
 nya li hu namely ha ya
+nyu li hu an ha ya
 syi li hu very ha ya
 sya li hu singular li ha ya
 syu li hu so li ha ya
 swi li hu while li ha ya
+sli li hu else-if ha ya
 sla li hu hello li ha ya
 tyi li hu quote li ha ya
 twa li hu then li ha ya
 twu li hu dual li ha ya
 tsi li hu yes li ha ya
 tsa li hu untill li ha ya
-tsu li hu out ha ya
+tsu li hu noun-affix li ha ya
 tli li hu ord li ha ya
 tla li hu for li ha ya
+tcu li hu out li ha ya
 fyi li hu her ha ya
+fyu li hu few li ha ya
+cya li hu else ha ya
 mik hu make ha ya
-miy hu wait ha ya
+miy hu memory ha ya
 mip hu past ha ya
 min hu less ha ya
 mit hu middle ha ya
@@ -96,27 +105,30 @@ kuy hu grow ha ya
 kup hu buy ha ya
 kun hu red ha ya
 kus hu food ha ya
+kul hu goal ha ya
 kuc hu small ha ya
 yik hu negate ha ya
 yis hu write ha ya
+yit hu wait ha ya
 yak hu some ha ya
 yat hu read ha ya
 yac hu width ha ya
 yum hu limb ha ya
+yup hu good ha ya
+yuw hu year ha ya
 yun hu subtract ha ya
 yus hu use ha ya
 yul hu whole ha ya
 pis hu multiply ha ya
 pit hu white ha ya
 pic hu piss ha ya
-pam hu good ha ya
+pam hu arm ha ya
 pak hu body ha ya
 pay hu more ha ya
 paw hu place ha ya
 pan hu meet ha ya
 pas hu pass ha ya
 pat hu father ha ya
-pal hu many ha ya
 pac hu joy ha ya
 puk hu bad ha ya
 puy hu child ha ya
@@ -126,7 +138,6 @@ pul hu blue ha ya
 win hu win ha ya
 wap hu tail ha ya
 wan hu love ha ya
-wat hu speak ha ya
 wut hu light ha ya
 wul hu big ha ya
 nim hu name ha ya
@@ -146,6 +157,7 @@ sip hu sip ha ya
 sit hu set ha ya
 sil hu easy ha ya
 sam hu same ha ya
+sak hu agree ha ya
 say hu say ha ya
 sap hu simple ha ya
 saw hu black ha ya
@@ -158,6 +170,7 @@ tim hu team ha ya
 tik hu hold ha ya
 tiy hu day ha ya
 tip hu start ha ya
+tiw hu wall ha ya
 tin hu see ha ya
 tis hu inhale ha ya
 til hu low ha ya
@@ -167,25 +180,33 @@ tay hu put ha ya
 tap hu touch ha ya
 tan hu give ha ya
 tas hu choose ha ya
+tal hu tie ha ya
 tum hu temperature ha ya
 tuk hu drink ha ya
+tuy hu repeat ha ya
 tup hu depth ha ya
+tun hu toy ha ya
 tul hu tool ha ya
 tuf hu difficult ha ya
 lik hu charge ha ya
 lin hu length ha ya
 lis hu live ha ya
 lit hu glyph ha ya
+lif hu left ha ya
 fin hu female ha ya
 fit hu fit ha ya
+fam hu family ha ya
 fut hu future ha ya
 cim hu hear ha ya
-cik hu few ha ya
 ciy hu green ha ya
+cin hu sign ha ya
+cis hu life ha ya
 cif hu divide ha ya
 cak hu thing ha ya
+cay hu right ha ya
 can hu chance ha ya
 cal hu move ha ya
+cum hu shape ha ya
 myin hu dream ha ya
 myit hu remember ha ya
 myan hu soft ha ya
@@ -193,10 +214,13 @@ myat hu math ha ya
 myun hu employ ha ya
 myut hu import ha ya
 myul hu moral ha ya
+mwut hu resist ha ya
 kyim hu game ha ya
 kyip hu clothes ha ya
 kyin hu general ha ya
+kyit hu each ha ya
 kyil hu circle ha ya
+kyam hu carry ha ya
 kyap hu copy ha ya
 kyat hu hard ha ya
 kyup hu group ha ya
@@ -205,17 +229,19 @@ kyul hu rule ha ya
 kwit hu gravity ha ya
 kwat hu care ha ya
 kwal hu language ha ya
+ksiy hu expert ha ya
 ksip hu access ha ya
 ksin hu context ha ya
 ksil hu crystal ha ya
 ksam hu dark ha ya
-ksap hu express ha ya
+ksap hu rope ha ya
 ksan hu organize ha ya
 ksat hu exact ha ya
 ksal hu galaxy ha ya
 ksum hu communicate ha ya
 ksut hu collect ha ya
 ksul hu school ha ya
+ksuf hu describe ha ya
 ktin hu religion ha ya
 kliy hu clear ha ya
 klin hu electron ha ya
@@ -223,18 +249,29 @@ klaw hu laugh ha ya
 klas hu class ha sam undefined ya
 klat hu clause ha ya
 klac hu except ha ya
+klun hu hunger ha ya
 kfin hu config ha ya
+kfat hu adjective ha ya
 kcim hu chemical ha ya
+kcil hu skill ha ya
 kcat hu eight ha ya
+kcun hu conjugate ha ya
+kcut hu mess ha ya
+kcuf hu enough ha ya
 pyik hu break ha ya
 pyin hu experience ha ya
 pyit hu four ha ya
 pyil hu appeal ha ya
+pyif hu verb ha ya
 pyam hu program ha ya
 pyaw hu couple ha ya
 pyan hu pronoun ha ya
 pyas hu fast ha ya
 pyat hu prompt ha ya
+pyal hu parallel ha ya
+pyaf hu perform ha ya
+pyac hu wonder ha ya
+pyun hu bird ha ya
 pyut hu proton ha ya
 pyul hu boil ha ya
 pyuf hu proof ha ya
@@ -243,20 +280,25 @@ pwil hu variable ha ya
 pwas hu answer ha ya
 pwut hu approve ha ya
 psiy hu pressure ha ya
+psin hu spin ha ya
 psit hu speed ha ya
 psil hu spell ha ya
+psam hu opposite ha ya
 psan hu space ha ya
 psat hu surface ha ya
 psal hu sail ha ya
+psaf hu reply ha ya
 psun hu source ha ya
 psut hu promise ha ya
 plin hu plane ha ya
-plis hu nearby ha ya
 plam hu plasma ha mast fwas hi ya
 play hu play ha ya
 plan hu plan ha ya
 plat hu planet ha ya
 plum hu problem ha ya
+pluy hu popular ha ya
+plun hu probably ha ya
+plut hu dust ha ya
 pfis hu preference ha ya
 pfal hu fail ha ya
 pfus hu bus ha ya
@@ -288,7 +330,7 @@ swun hu sleep ha ya
 slim hu example ha ya
 slin hu single ha ya
 slam hu sublimate ha ya
-slof hu vocabulary ha ya
+slat hu side ha ya
 tkic hu translation-dictionary ha ya
 tkun hu Chinese ha ya
 tyim hu tremble ha ya
@@ -297,7 +339,7 @@ tyip hu again ha ya
 tyin hu three ha ya
 tyis hu transition ha ya
 tyil hu cold ha ya
-tyif hu worth ha ya
+tyif hu translate ha ya
 tyic hu direction ha ya
 tyam hu atom ha ya
 tyak hu shout ha ya
@@ -305,46 +347,56 @@ tyap hu try ha ya
 tyaw hu idea ha ya
 tyan hu string ha ya
 tyas hu throw ha ya
+tyuk hu object ha ya
 tyup hu robot ha ya
 tyus hu case ha ya
+tyuf hu different ha ya
 tyuc hu teach ha ya
 twis hu true ha ya
-twif hu adjective ha ya
 tsim hu together ha ya
-tsik hu six ha ya
 tsiy hu story ha ya
 tsip hu step ha ya
 tsiw hu satellite ha ya
 tsin hu instruction ha ya
 tsil hu deserve ha ya
+tsic hu trial ha ya
 tsam hu purpose ha ya
 tsak hu attack ha ya
 tsay hu star ha ya
 tsap hu property ha ya
-tsan hu student ha ya
+tsan hu respect ha ya
 tsal hu state ha ya
 tsaf hu taste ha ya
+tsac hu increase ha ya
 tsum hu study ha ya
 tsuk hu shop ha ya
 tsuy hu sit ha ya
+tsun hu noun ha ya
 tsul hu adult ha ya
 tlik hu electricity ha ya
 tlin hu ordinal ha ya
 tlis hu desire ha ya
-tlam hu translation ha ya
+tlay hu fold ha ya
 tlan hu tradition ha ya
 tlas hu dish ha ya
+tlum hu old ha ya
 tlun hu triple-point ha ya
 tfim hu temporary ha ya
 tfin hu individual ha ya
 tfak hu dirt ha ya
+tfan hu transfer ha ya
+tfas hu disaster ha ya
 tfal hu file ha ya
+tfun hu trust ha ya
 tfus hu damage ha ya
-tful hu two li ha ya
+tcik hu check ha ya
+tciy hu change ha ya
 tcin hu chain ha ya
 tcil hu jail ha ya
 tcap hu transparent ha ya
 tcan hu tree ha ya
+tcum hu join ha ya
+tcuy hu outside ha ya
 tcun hu power ha ya
 fyas hu phrase ha ya
 fwil hu force ha ya
@@ -354,12 +406,14 @@ flit hu flute ha ya
 flay hu fly ha ya
 flan hu flood ha ya
 flat hu flat ha ya
+flun hu please ha ya
 flut hu flower ha ya
 fluc hu flow ha ya
 cyin hu learn ha ya
-clin hu relationship ha ya
+clin hu relation ha ya
 clum hu sentence ha ya
 clut hu supercritical-fluid ha ya
+miyn hu minor ha ya
 miyt hu aware ha ya
 miwk hu person ha ya
 mink hu mind ha ya
@@ -369,11 +423,15 @@ milt hu melt ha ya
 mayp hu map ha ya
 mayn hu harmony ha ya
 mayt hu imaginary-unit ha ya
+mayc hu image ha ya
 mans hu human ha ya
 mant hu magenta ha ya
 mast hu matter ha ya
 malt hu melody ha ya
 mack hu imagine ha ya
+muyk hu major ha ya
+muyp hu improve ha ya
+muyn hu fool ha ya
 muys hu emotion ha ya
 muyt hu ally ha ya
 munk hu possible ha ya
@@ -381,6 +439,7 @@ munt hu mood ha ya
 musk hu music ha ya
 must hu most ha ya
 mult hu modulo ha ya
+muft hu die ha ya
 kimt hu hang ha ya
 kiyp hu paper ha ya
 kiyn hu one ha ya
@@ -392,6 +451,7 @@ kayn hu flow-current ha ya
 kays hu grammatical-case ha ya
 kayt hu hot ha ya
 kaws hu gas ha ya
+kanp hu connect ha ya
 kant hu constant ha ya
 kasp hu catch ha ya
 kast hu create ha ya
@@ -399,7 +459,6 @@ kaft hu confirm ha ya
 kump hu complex ha ya
 kumt hu command ha ya
 kuym hu common ha ya
-kuyn hu conjugation ha ya
 kuyt hu critical-point ha ya
 kuwt hu code ha ya
 kunt hu control ha ya
@@ -407,13 +466,16 @@ kusp hu collapse ha ya
 kust hu record ha ya
 kuls hu cruel ha ya
 kult hu culture ha ya
+kuct hu crime ha ya
 yimk hu ask ha ya
 yimt hu rhythm ha ya
 yink hu ring ha ya
 yinp hu return ha ya
+yisk hu rich ha ya
 yist hu export ha ya
 yilk hu yellow ha ya
 yilt hu Eulers-number ha ya
+yift hu worth ha ya
 yamt hu admire ha ya
 yawt hu ride ha ya
 yask hu reaction ha ya
@@ -421,35 +483,44 @@ yasp hu work ha ya
 yast hu gratis ha ya
 yalk hu vehicle ha ya
 yalt hu early ha ya
+yumt hu mercy ha ya
 yuyp hu Europe ha ya
+yuns hu Uranus ha ya
 yunt hu container ha ya
 yusk hu east ha ya
+yust hu rest ha ya
 yulp hu role ha ya
 yult hu utility ha ya
-piyn hu opinion ha ya
+piyn hu opine ha ya
 piys hu pi li ha ya
+pint hu operate ha ya
 pist hu permit ha ya
 pamt hu permanent ha ya
 pays hu base ha ya
 panp hu bread ha ya
+pans hu Spanish ha ya
 pant hu borrow ha ya
 past hu produce ha ya
 pack hu enjoy ha ya
 puyk hu grammatical-object ha ya
+puyt hu bite ha ya
+puwt hu provide ha ya
 punt hu point ha ya
-pust hu dust ha ya
-pult hu old ha ya
-wiyp hu verb ha ya
+pusk hu load ha ya
+pust hu mail ha ya
+puls hu kiss ha ya
+pult hu bottle ha ya
 wins hu Venus ha ya
 wint hu wind ha ya
 wuym hu volume ha ya
 nims hu Animism ha ya
-niym hu noun ha ya
 niyt hu nth-root ha ya
-nist hu nine ha ya
+niwt hu network ha ya
 nilt hu intelligence ha ya
+nayt hu rare ha ya
 nast hu interest ha ya
 nalt hu nature ha ya
+numt hu note ha ya
 nuks hu unix ha ya
 nuys hu noise ha ya
 nuyt hu north ha ya
@@ -460,16 +531,22 @@ nuft hu hostile ha ya
 simt hu limit ha ya
 siyn hu seem ha ya
 siyt hu suggest ha ya
+sink hu decrease ha ya
 sint hu feel ha ya
 sift hu shift ha ya
 sayk hu wise ha ya
 sayt hu speed-of-light ha ya
+sank hu often ha ya
 sanp hu extend ha ya
 sant hu art ha ya
-sark hu sarcasm ha ya
-suyt hu grammatical-subject ha ya
+salc hu social ha ya
+sact hu shoot ha ya
+sumt hu subject ha ya
+suyt hu correct ha ya
+sunp hu suppose ha ya
 sunt hu south ha ya
 sulc hu solution ha ya
+sucp hu spouse ha ya
 timp hu tense ha ya
 tiym hu late ha ya
 tiyk hu ten ha ya
@@ -480,24 +557,32 @@ tiwk hu activity ha ya
 tiws hu theater ha ya
 tink hu text ha ya
 tinp hu golden-ratio ha ya
+tins hu dense ha ya
 tisk hu text ha ya
 tisp hu represent ha ya
 tick hu dictionary ha ya
+ticp hu almost ha ya
 tamk hu look ha ya
 taym hu time ha ya
 tayk hu attach ha ya
 tayn hu area ha ya
+tayf hu offer ha ya
 tawk hu authority ha ya
 tank hu sudden ha ya
 tanp hu appear ha ya
 task hu task ha ya
+tasp hu database ha ya
+talk hu talk ha ya
 talp hu table ha ya
+talf hu hide ha ya
 tack hu thank ha ya
 tukc hu Turkish ha ya
 tuym hu world ha ya
+tuyk hu doctor ha ya
+tuyn hu turn ha ya
 tuys hu thief ha ya
+tuyc hu destroy ha ya
 tuwm hu duration ha ya
-tunk hu brain ha ya
 tusk hu progress ha ya
 liyk hu liquid ha ya
 liyn hu line ha ya
@@ -513,20 +598,26 @@ layk hu lake ha ya
 layt hu eleven ha ya
 lank hu local ha ya
 lant hu slow ha ya
+last hu list ha ya
+laft hu benefit ha ya
 lumk hu logarithm ha ya
 luwt hu lute ha ya
 lunp hu loop ha ya
 lunt hu people ha ya
 fint hu find ha ya
+fisk hu affix ha ya
 faym hu farm ha ya
 fayt hu fact ha ya
 fans hu French ha ya
+fast hu visit ha ya
 fals hu false ha ya
 falt hu default ha ya
 fuym hu form ha ya
+fuyk hu poor ha ya
 funm hu phoneme ha ya
 funk hu function ha ya
 fult hu hotel ha ya
+cink hu wish ha ya
 cinp hu information ha ya
-budz hu Buddhism ha ya
+cint hu agent ha ya
 tsal hu state ha ya

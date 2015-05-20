@@ -1,3 +1,4 @@
+"use strict";
 var base = "../../";
 var Text = require("../../class/text");
 var Phrase = require("../../class/phrase");
@@ -5,6 +6,7 @@ var Dictionary = require("../../lang/dictionary");
 var Grammar = require("../../lang/grammar");
 var Language = require("../../lang/language");
 var mwak = new Language();
+var translate = require("../../compile/translate");
 var wrld = require("../../locale/wrld/wrld");
 var parse = require("../../compile/parse");
 
@@ -27,11 +29,12 @@ var engWordOrder = {
 	verbFinal : false,
 	nounFinal : true,
 	typeFinal : false,
+	topicInitial : false,
 	subjectProminent: true,
 	clauseInitial: false,
 	genitiveInitial: false,
 	postpositional : false,
-	phraseOrder: ["hu","hi","ha","ta","wu"],
+	phraseOrder: ["hu","hi","ha"],
 };
 var conjugation = {
 reversible:[
@@ -49,15 +52,17 @@ var isPronoun = wrld.conjugation.isPronoun;
 conjugation.subjectPhrase = subjectPhraseConjugate;
 function subjectPhraseConjugate(language,phrase,format,conjLevel){
 // exceptions
+var joiner = " ";
 var head = phrase && phrase.body && phrase.body.head 
 && phrase.body.head.head;
-if (head === "mi") return "I";
-else if (head === "tu") return "thou";
-else if (head === "si") return "they";
+if (head === "mi") return "I"+joiner;
+else if (head === "tu") return "thou"+joiner;
+else if (head === "yu") return "ye"+joiner;
+else if (head === "si") return "they"+joiner;
 // main
 var newPhrase = phrase.copy();
 delete newPhrase.head;
-var body = phraseConjugate(language,newPhrase,format,"n",conjLevel);
+var body = phraseConjugate(language,newPhrase,format,conjLevel);
 var result = new String();
 result = body;
 return result;
@@ -67,13 +72,76 @@ return result;
 conjugation.objectPhrase = objectPhraseConjugate;
 function 
 objectPhraseConjugate(language,phrase,format,conjLevel){
+var result = new String();
+var joiner = " ";
 var newPhrase = phrase.copy();
 delete newPhrase.head;
-var result =
-phraseConjugate(language,newPhrase,format,"n",conjLevel)
+var body;
+if (newPhrase.body.body)
+var body = 
+nounConjugate(language,newPhrase.body.body,format,conjLevel,"n")
+if (newPhrase.body.head)
+var head = 
+newPhrase.body.head.toLocaleString(language,format,conjLevel)
 
-if (isPronoun(language,result)) return result;
-result = "the "+result;
+
+// pluralize
+//if (body){
+var Type = phrase.body;
+result = pluralize(Type,body,head)
+delete newPhrase.body;
+//}
+//else{
+//if (head && body)
+//var result = head +joiner+body+joiner;
+//else if (head) result = head+joiner;
+//else if (body) result = body+joiner;
+//result += joiner;
+//}
+
+result +=
+phraseConjugate(language,newPhrase,format,conjLevel)
+if (isPronoun(phrase)) return result;
+return result;
+}
+
+function affixStrip(word){
+if (isVowel(word[word.length-1]))
+word=word.replace(/.$/,"");
+return word;
+}
+var vowels = ["a","e","i","o","e"];
+function isVowel(glyph){
+if (vowels.indexOf(glyph)!== -1) return true;
+else false;
+}
+
+conjugation.noun = nounConjugate;
+function nounConjugate(language,Word,format,conjLevel,ender){
+if (ender === undefined) ender = "";
+var head, body;
+var fromMwak = language.dictionary.fromMwak;
+var joiner = " ";
+if (Word.body){
+var body = 
+translate.array(fromMwak,Word.body);
+body = body.map(function(word){
+return word+"a"+ender;});
+body = body.join(joiner);
+}
+if (Word.head){
+var head = 
+translate.word(fromMwak,Word.head);
+head = head+"o"+ender;
+}
+
+var result = new String();
+if (body && head)
+result = body+joiner+head;
+else{
+if (head) result = head;
+else if (body)  result = body;
+}
 return result;
 }
 
@@ -81,9 +149,7 @@ return result;
 conjugation.nounType = nounTypeConjugate;
 function nounTypeConjugate(language,Type,format,conjLevel){
 
-var joiner = " ";
 var result = new String();
-var number = mwak.grammar.number;
 var body = new String();
 var head = new String();
 if (Type.body)
@@ -93,23 +159,41 @@ if (Type.head)
 head = Type.head.toLocaleString(language,format,"th", conjLevel)
 
 // pluralize
+result = pluralize(Type,body,head)
+
+return result;
+}
+
+conjugation.mood = moodConjugate;
+function moodConjugate(language,Word,format,conjLevel){
+var fromMwak = language.dictionary.fromMwak;
+var word = translate.word(fromMwak,Word.head);
+word = word;
+return word+"e";
+}
+
+function pluralize(Type,body,head){
+var result = new String();
+var joiner = " ";
+var number = mwak.grammar.number;
+if (body){
 if (Type.head && Type.head.head
 && parse.wordMatch(number.all,Type.head.head)){
 if (parse.wordMatch(number.plural,Type.head.head))
-result = body.replace(/$/,"s"); 
-else
-result = head+joiner+body.replace(/$/,"s"); 
+result= body.replace(/$/,"s"); 
+else result= head+joiner+body.replace(/$/,"s"); 
 }
-else if (Type.head)result = head+joiner+body;
-else result = body; 
-
-return result;
+else if (Type.head) result= head+joiner+body;
+else result= body; 
+}
+else if (head) result = head;
+return result+joiner;
 }
 
 
 
 conjugation.phrase = phraseConjugate;
-function phraseConjugate(language,phrase,format,type,conjLevel){
+function phraseConjugate(language,phrase,format,conjLevel){
 var joiner = " ";
 if (phrase.body)
 var body = phrase.body.toLocaleString(language,format,"n",
@@ -123,7 +207,7 @@ var clause = phrase.clause.toLocaleString(language,format,
 
 if(phrase.subPhrase){
 var subPhrase =
-phrase.subPhrase.toLocaleString(language,format,type,conjLevel);
+phrase.subPhrase.toLocaleString(language,format,"n",conjLevel);
 }
 
 var result = new String();
@@ -164,194 +248,115 @@ else var phrase = phrases[verbIndex];
 
 var joiner = " ";
 var head = new String();
-var body = new String();
+var verb = new String();
+var adverbs = new Array();
 if (phrase.body){
-if (phrase.body.body)
-body = phrase.body.body.toLocaleString(language,format,"v",
-conjLevel);
-if (phrase.body.head)
+if (phrase.body.body){
+var mwakVerb = phrase.body.body.head;
+var mwakParticiples = phrase.body.body.body;
+var fromMwak = language.dictionary.fromMwak;
+verb = translate.word(fromMwak,mwakVerb);
+if (mwakParticiples){
+adverbs = translate.array(fromMwak,mwakParticiples);
+}
+}
+if (phrase.body.head){
 head = phrase.body.head.toLocaleString(language,format,"v",
-conjLevel);
+conjLevel);}
 }
 var adposition = phrase.head.toLocaleString(language,format,
 "ch",conjLevel);
 var result = new String();
 /* infinitive tense is default */
-if (head.length>0 && body.length>0) result = head+joiner+body; 
+if (head.length>0 && verb.length>0) 
+result = head+joiner+verb+"en"; 
 else if (head.length>0) result = head;
-else if (body.length>0) result = body;
+else if (verb.length>0) result = affixStrip(verb)+"en";
 else result = adposition;
  
-if (/er$/.test(body)){ /* -er conjugation */
+if (verb.length > 0)/* normal conjugation */{
 var tense = mwak.grammar.tense
-var tenseWord = phrase.body.head.head;
-if (subjectBody.length > 0 && phrase.body.head && tenseWord
-&& parse.wordMatch(tense.all,tenseWord)){
-/* past tense */
-if (parse.wordMatch(tense.past,tenseWord)){
-if (subjectBody === "mi") result = body.replace(/er$/,"é"); 
-else if (subjectBody === "tu") result= body.replace(/er$/,"é"); 
-else if (subjectBody === "il"
-||  subjectBody === "elle"
-||  subjectBody === "ti") result = body.replace(/er$/,"é"); 
-else if (subjectBody === "wi") 
-result = body.replace(/er$/,"és"); 
-else if (subjectBody === "yu") result= body.replace(/er$/,"és"); 
-else if (subjectBody === "ils"
-||  subjectBody === "elles"
-||  subjectBody === "si") result = body.replace(/er$/,"és"); 
-}
-/* present tense */
-if (parse.wordMatch(tense.present,tenseWord)){
-if (subjectBody === "mi") result = body.replace(/er$/,"e"); 
-else if (subjectBody === "tu") result= body.replace(/er$/,"es"); 
-else if (subjectBody === "il"
-||  subjectBody === "elle"
-||  subjectBody === "ti") result = body.replace(/er$/,"e"); 
-else if (subjectBody === "wi") 
-result = body.replace(/er$/,"ons"); 
-else if (subjectBody === "yu") result= body.replace(/er$/,"ez"); 
-else if (subjectBody === "ils"
-||  subjectBody === "elles"
-||  subjectBody === "si") result = body.replace(/er$/,"ent"); 
-}
-/* future tense */
-if (parse.wordMatch(tense.future,tenseWord)){
-if (subjectBody === "mi") result = body+"ai"; 
-else if (subjectBody === "tu") result = body+"as"; 
-else if (subjectBody === "il"
-||  subjectBody === "elle"
-||  subjectBody === "ti") result = body+"a"; 
-else if (subjectBody === "wi") result = body+"ons"; 
-else if (subjectBody === "yu") result = body+"ez"; 
-else if (subjectBody === "ils"
-||  subjectBody === "elles"
-||  subjectBody === "si") result = body+"ont"; 
-}
-}
-}
-else if(/ir$/.test(body)) { /* -ir conjugation */
-var tense = mwak.grammar.tense
-var tenseWord = phrase.body.head.head;
-if (subjectBody.length > 0 && phrase.body.head && tenseWord
-&& parse.wordMatch(tense.all,tenseWord)){
-/* present tense */
-if (parse.wordMatch(tense.present,tenseWord)){
-if (subjectBody === "mi") result = body.replace(/ir$/,"is"); 
-else if (subjectBody === "tu") result= body.replace(/ir$/,"is"); 
-else if (subjectBody === "il"
-||  subjectBody === "elle"
-||  subjectBody === "ti") result = body.replace(/ir$/,"it"); 
-else if (subjectBody === "wi") 
-result = body.replace(/er$/,"ons"); 
-else if (subjectBody === "yu") result= body.replace(/ir$/,"ez"); 
-else if (subjectBody === "ils"
-||  subjectBody === "elles"
-||  subjectBody === "si") result = body.replace(/ir$/,"ent"); 
-}
-/* past tense */
-if (parse.wordMatch(tense.past,tenseWord)){
-if (subjectBody === "mi") result = body.replace(/ir$/,"i"); 
-else if (subjectBody === "tu") result= body.replace(/ir$/,"i"); 
-else if (subjectBody === "il"
-||  subjectBody === "elle"
-||  subjectBody === "ti") result = body.replace(/ir$/,"i"); 
-else if (subjectBody === "wi") result= body.replace(/ir$/,"is"); 
-else if (subjectBody === "yu") result= body.replace(/ir$/,"is"); 
-else if (subjectBody === "ils"
-||  subjectBody === "elles"
-||  subjectBody === "si") result = body.replace(/ir$/,"is"); 
-}
-/* future tense */
-if (parse.wordMatch(tense.future,tenseWord)){
-if (subjectBody === "mi") result = body+"ai"; 
-else if (subjectBody === "tu") result = body+"as"; 
-else if (subjectBody === "il"
-||  subjectBody === "elle"
-||  subjectBody === "ti") result = body+"a"; 
-else if (subjectBody === "wi") result = body+"ons"; 
-else if (subjectBody === "yu") result = body+"ez"; 
-else if (subjectBody === "ils"
-||  subjectBody === "elles"
-||  subjectBody === "si") result = body+"ont"; 
-}
-}
-}
-else if( /re$/.test(body)){ /* -re verbs */
-var tense = mwak.grammar.tense
-var tenseWord = new String();
-if (phrase.body && phrase.body.head )
-tenseWord = phrase.body.head.head;
-if (subjectBody.length > 0 && phrase.body.head && tenseWord
+var tenseWord = phrase.body 
+&& phrase.body.head && phrase.body.head.head;
+if (phrase.body.head && tenseWord
 && parse.wordMatch(tense.all,tenseWord)){
 
 /* present tense */
 if (parse.wordMatch(tense.present,tenseWord)){
-if (subjectBody === "mi") result = body.replace(/re$/,"s"); 
-else if (subjectBody === "tu") result= body.replace(/re$/,"s"); 
-else if (subjectBody === "il"
-||  subjectBody === "elle"
-||  subjectBody === "ti") result = body.replace(/re$/,""); 
-else if (subjectBody === "wi") result= body.replace(/re$/,"ons"); 
-else if (subjectBody === "yu") result= body.replace(/re$/,"ez"); 
-else if (subjectBody === "ils"
-||  subjectBody === "elles"
-||  subjectBody === "si") result = body.replace(/re$/,"ent"); 
+verb = affixStrip(verb);
+if (subjectBody === "mi") result = verb+"e"; 
+else if (subjectBody === "tu") result= verb+"est";
+else if (subjectBody === "kli"
+||  subjectBody === "fyi"
+||  subjectBody === "ti") result = verb+"eth"; 
+else if (subjectBody === "wi") result = verb;
+else if (subjectBody === "yu") result= verb;
+else if (subjectBody === "gents"
+||  subjectBody === "ladies"
+||  subjectBody === "si") result = verb+"ath"; 
+else result = verb+"eth";
+
+
 }
 /* past tense */
-if (parse.wordMatch(tense.past,tenseWord)){
-if (subjectBody === "mi") result = body.replace(/re$/,"ré"); 
-else if (subjectBody === "tu") result= body.replace(/re$/,"ré"); 
-else if (subjectBody === "il"
-||  subjectBody === "elle"
-||  subjectBody === "ti") result = body.replace(/re$/,"ré"); 
-else if (subjectBody === "wi") result= body.replace(/re$/,"rés"); 
-else if (subjectBody === "yu") result= body.replace(/re$/,"rés"); 
+else if (parse.wordMatch(tense.past,tenseWord)){
+verb = verb;
+if (subjectBody === "mi") result = verb+"ed"; 
+else if (subjectBody === "tu") result= verb+"ed"; 
+else if (subjectBody === "kli"
+||  subjectBody === "fyi"
+||  subjectBody === "ti") result = verb+"ed"; 
+else if (subjectBody === "wi") result = verb+"ed";
+else if (subjectBody === "yu") result= verb+"ed"; 
 else if (subjectBody === "ils"
 ||  subjectBody === "elles"
-||  subjectBody === "si") result = body.replace(/re$/,"rés"); 
+||  subjectBody === "si") result = verb+"ed"; 
+else result = verb+"ed";
+
 }
 /* future tense */
-if (parse.wordMatch(tense.future,tenseWord)){
-if (subjectBody === "mi") result = body.replace(/e$/,"ai"); 
-else if (subjectBody === "tu") result = body.replace(/e$/,"as"); 
-else if (subjectBody === "tila"
-||  subjectBody === "tifi"
-||  subjectBody === "ti") result = body.replace(/e$/,"a"); 
-else if (subjectBody === "wi") result = body.replace(/e$/,"ons"); 
-else if (subjectBody === "yu") result = body.replace(/e$/,"ez"); 
+else if (parse.wordMatch(tense.future,tenseWord)){
+verb = verb;
+if (subjectBody === "mi") result = "will "+verb+"e"; 
+else if (subjectBody === "tu") result = "will "+verb+"est"; 
+else if (subjectBody === "il"
+||  subjectBody === "elle"
+||  subjectBody === "ti") result = "will "+verb+"eth"; 
+else if (subjectBody === "wi") result = "will "+verb+"ath"; 
+else if (subjectBody === "yu") result = "will "+verb+"ath"; 
 else if (subjectBody === "ils"
 ||  subjectBody === "elles"
-||  subjectBody === "si") result = body.replace(/e$/,"ont"); 
+||  subjectBody === "si") result = "will "+verb; 
+else result = "will "+verb+"eth";
 }
 }
 }
-else if (body.length <= 0)/* nominal */{
+else if (verb.length <= 0 && sentence.nominal)/* nominal */{
 var tense = mwak.grammar.tense
 var tenseWord = new String();
 if (phrase.body && phrase.body.head)
 tenseWord = phrase.body.head.head;
 if (subjectBody.length > 0 && phrase.body && phrase.body.head && tenseWord
 && parse.wordMatch(tense.all,tenseWord)){
-var body = adposition; /* etre */
+var body = adposition; /* be */
 /* past tense */
 if (parse.wordMatch(tense.past,tenseWord)){
-if (subjectBody === "mi") result = body.replace(/re$/,"ré"); 
-else if (subjectBody === "tu") result= body.replace(/re$/,"ré"); 
+if (subjectBody === "mi") result = "was"; 
+else if (subjectBody === "tu") result= "was"; 
 else if (subjectBody === "il"
 ||  subjectBody === "elle"
-||  subjectBody === "ti") result = body.replace(/re$/,"ré"); 
-else if (subjectBody === "wi") result= body.replace(/re$/,"rés"); 
-else if (subjectBody === "yu") result= body.replace(/re$/,"rés"); 
+||  subjectBody === "ti") result = "was"; 
+else if (subjectBody === "wi") result= "were"; 
+else if (subjectBody === "yu") result= "were"; 
 else if (subjectBody === "ils"
 ||  subjectBody === "elles"
-||  subjectBody === "si") result = body.replace(/re$/,"rés"); 
-else result =  body.replace(/re$/,"ré");
+||  subjectBody === "si") result = "were"; 
+else result =  "were";
 }
 /* present tense */
 else if (parse.wordMatch(tense.present,tenseWord)){
 if (subjectBody === "mi") result = "am"; 
-else if (subjectBody === "tu") result= "arst"; 
+else if (subjectBody === "tu") result= "is"; 
 else if (subjectBody === "kli"
 ||  subjectBody === "fyi"
 ||  subjectBody === "ti") result = "is"; 
@@ -364,21 +369,29 @@ else result =  "is";
 }
 /* future tense */
 else if (parse.wordMatch(tense.future,tenseWord)){
-body = "will-be"
-//if (subjectBody === "mi") result = body+"ai"; 
-//else if (subjectBody === "tu") result = body+"as"; 
+body = "will"
+//if (subjectBody === "mi") result = body; 
+//else if (subjectBody === "tu") result = body; 
 //else if (subjectBody === "il"
 //||  subjectBody === "elle"
-//||  subjectBody === "ti") result = body+"a"; 
-//else if (subjectBody === "wi") result = body+"ons"; 
-//else if (subjectBody === "yu") result = body+"ez"; 
+//||  subjectBody === "ti") result = body; 
+//else if (subjectBody === "wi") result = body; 
+//else if (subjectBody === "yu") result = body; 
 //else if (subjectBody === "ils"
 //||  subjectBody === "elles"
-//||  subjectBody === "si") result = body+"ont"; 
+//||  subjectBody === "si") result = body; 
 }
 }
 }
-else result = head+joiner+body;
+else result = head+joiner+verb;
+
+
+if (adverbs.length>0){
+adverbs = adverbs.map(function(word){
+return word + "ly"});
+adverbs = adverbs.join(joiner);
+result += joiner + adverbs;
+}
 
 return result+joiner;
 } // end of verbAgreement

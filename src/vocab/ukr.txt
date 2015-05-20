@@ -33,6 +33,7 @@ ci li hu а? li ha ya
 fu li hu воля li ha ya
 mya li hu може-бути li ha ya
 ca li hu середній li ha ya
+myi li hu багато li ha ya
 kyi li hu умовно li ha ya
 mwa li hu з li ha ya
 kya li hu в-бік li ha ya
@@ -43,31 +44,39 @@ ksa li hu закривати-лапки li ha ya
 kli li hu його li ha ya
 kla li hu але li ha ya
 klu li hu Пропозиція-хвіст li ha ya
+kfa li hu прикметник-афікс li ha ya
 kca li hu ха li ha ya
+pyi li hu дієслово-афікс li ha ya
 pya li hu на li ha ya
 psu li hu від-джерела li ha ya
 pwa li hu дили li ha ya
 pli li hu наприклад li ha ya
 pca li hu веселий li ha ya
+pcu li hu також li ha ya
 nyi li hu НЕ li ha ya
 nya li hu а-саме li ha ya
+nyu li hu ин li ha ya
 sya li hu однина li ha ya
 syi li hu дуже li ha ya
 syu li hu так li ha ya
 swi li hu в-те-час-як li ha ya
+sli li hu ще-якщо li ha ya
 sla li hu здрастуйте li ha ya
 tyi li hu цитата li ha ya
 twu li hu подвійний li ha ya
 tsa li hu доти-поки li ha ya
 tsi li hu да li ha ya
-tsu li hu з li ha ya
 tla li hu для li ha ya
+tsu li hu іменник-афікс li ha ya
 fyi li hu її li ha ya
 twa li hu потім li ha ya
+tcu li hu з li ha ya
 tli li hu ога li ha ya
+fyu li hu кілька li ha ya
+cya li hu ще li ha ya
 min hu менше li ha ya
+miy hu пам'ять li ha ya
 mik hu зробити li ha ya
-miy hu чекати li ha ya
 mip hu повз li ha ya
 mit hu середній li ha ya
 mak hu слово li ha ya
@@ -96,27 +105,30 @@ kum hu торгівля li ha ya
 kus hu їжа li ha ya
 kuc hu невеликої li ha ya
 yis hu запис li ha ya
+kul hu мета li ha ya
 kup hu купити li ha ya
 kun hu червоний li ha ya
 yik hu заперечувати li ha ya
+yit hu чекати li ha ya
 yum hu кінцівку li ha ya
 yat hu читати li ha ya
 yun hu віднімати li ha ya
 yak hu деякі li ha ya
+yup hu добре li ha ya
+yuw hu рік li ha ya
 yac hu ширина li ha ya
 pis hu помножити li ha ya
 pit hu білий li ha ya
 pic hu сеча li ha ya
 yus hu використання li ha ya
 pay hu ще-більше li ha ya
+pam hu рука li ha ya
 yul hu всі li ha ya
-pam hu добре li ha ya
 pas hu проходити li ha ya
-pak hu тіло li ha ya
 paw hu місце li ha ya
+pak hu тіло li ha ya
 pat hu батько li ha ya
 pus hu мочитися li ha ya
-pal hu багато li ha ya
 pan hu зустріч li ha ya
 puk hu поганий li ha ya
 win hu перемога li ha ya
@@ -145,6 +157,7 @@ nam hu кількість li ha ya
 saw hu чорний li ha ya
 sik hu висота li ha ya
 sil hu да-легко li ha ya
+sak hu згодні li ha ya
 nul hu нуль li ha ya
 suy hu втратити li ha ya
 sap hu простий li ha ya
@@ -157,6 +170,7 @@ sat hu звук li ha ya
 sup hu платити li ha ya
 tis hu вдихати li ha ya
 sut hu розмір li ha ya
+tiw hu стіна li ha ya
 tiy hu день li ha ya
 naw hu Нині li ha ya
 tip hu почати li ha ya
@@ -166,24 +180,33 @@ tam hu тема li ha ya
 tak hu додавати li ha ya
 tuk hu напій li ha ya
 tay hu покласти li ha ya
+tal hu галстук li ha ya
 tan hu дати li ha ya
 tas hu вибирати li ha ya
+tuy hu повторення li ha ya
 tup hu глибина li ha ya
 tum hu температура li ha ya
+tun hu іграшка li ha ya
 tap hu торкнутися li ha ya
 tuf hu важко li ha ya
+ton hu тонна li ha ya
 fin hu жіноча-стать li ha ya
 fit hu відповідати li ha ya
+lif hu зліва li ha ya
 tul hu інструмент li ha ya
 lik hu електричного-заряду li ha ya
+fam hu сім'я li ha ya
 lin hu довжина li ha ya
 ciy hu зелений li ha ya
 cif hu поділ li ha ya
 lis hu жити li ha ya
+cis hu життя li ha ya
 lit hu mwak-test li ha ya
 myut hu імпорт li ha ya
+cay hu право li ha ya
+cin hu знак li ha ya
 cim hu почути li ha ya
-cik hu кілька li ha ya
+cum hu форма li ha ya
 myit hu запам'ятати li ha ya
 cak hu річ li ha ya
 can hu шанс li ha ya
@@ -191,11 +214,14 @@ myun hu використовувати li ha ya
 cal hu крок li ha ya
 myan hu м'який li ha ya
 kyim hu гра li ha ya
+mwut hu чинити-опір li ha ya
 myat hu математичний li ha ya
 kyip hu одяг li ha ya
 myul hu моральний li ha ya
 kwit hu вага li ha ya
 kwat hu догляд li ha ya
+kyam hu нести li ha ya
+kyit hu кожен li ha ya
 myin hu мріяти li ha ya
 kyus hu веселощі li ha ya
 kyil hu коло li ha ya
@@ -203,60 +229,78 @@ kyin hu генеральний li ha ya
 kyap hu копія li ha ya
 kyup hu група li ha ya
 ksat hu точна li ha ya
+ksiy hu експерт li ha ya
 kyat hu жорсткий li ha ya
 ksil hu кристал li ha ya
 kyul hu правило li ha ya
 kwal hu мову li ha ya
+ksap hu мотузка li ha ya
 ksip hu доступ li ha ya
 ksam hu темно li ha ya
 ksin hu контекст li ha ya
 ksal hu галактика li ha ya
-ksap hu висловити li ha ya
 ksan hu організувати li ha ya
 ksum hu спілкуватися li ha ya
 kliy hu ясно li ha ya
 klin hu електрон li ha ya
+ksuf hu описувати li ha ya
 ktin hu релігія li ha ya
 kcat hu вісім li ha ya
 pyik hu перерву li ha ya
 ksut hu збирати li ha ya
 pyit hu чотири li ha ya
+klun hu голод li ha ya
 ksul hu школа li ha ya
 klaw hu сміх li ha ya
 pyaw hu пара li ha ya
+kcil hu вміння li ha ya
+kfat hu прикметник li ha ya
 klas hu клас li ha ya
+kcut hu безлад li ha ya
+kcuf hu достатньо li ha ya
+kcun hu пов'язаний li ha ya
 klat hu пункт li ha ya
 kcim hu хімічна li ha ya
 klac hu крім li ha ya
 pyil hu звернення li ha ya
 kfin hu конфиг li ha ya
+pyif hu дієслово li ha ya
 pyas hu швидко li ha ya
 pyin hu досвід li ha ya
 pyam hu програма li ha ya
 pyat hu підказка li ha ya
+pyaf hu виконувати li ha ya
 pyan hu займенник li ha ya
+pyun hu птах li ha ya
+pyal hu паралельно li ha ya
+pyac hu дивуватися li ha ya
 pyut hu протон li ha ya
 psil hu заклинання li ha ya
 pyul hu кип'ятити li ha ya
 pwas hu відповідь li ha ya
 pwil hu змінна li ha ya
 pwut hu затвердити li ha ya
+psin hu спин li ha ya
 psiy hu тиск li ha ya
 pyuf hu доказ li ha ya
+psam hu навпроти li ha ya
 psit hu швидкість li ha ya
 pyuc hu проект li ha ya
 psan hu простір li ha ya
+psaf hu відповісти li ha ya
 psat hu поверхню li ha ya
 pfis hu перевагу li ha ya
 psal hu вітрило li ha ya
 nyip hu дзеркало li ha ya
-plis hu поруч li ha ya
 psut hu обіцянку li ha ya
 nyat hu увійти-в li ha ya
 plum hu проблема li ha ya
 plam hu плазма li ha ya
+pluy hu популярний li ha ya
 plin hu літак li ha ya
 nyul hu рулон li ha ya
+plut hu пилу li ha ya
+plun hu ймовірно li ha ya
 syim hu сім li ha ya
 pfal hu провал li ha ya
 syip hu чистий li ha ya
@@ -286,7 +330,7 @@ swat hu вода li ha ya
 swuy hu питання li ha ya
 swun hu сон li ha ya
 syit hu послати li ha ya
-tyif hu вартість li ha ya
+slat hu сторона li ha ya
 syak hu прокинутися li ha ya
 slof hu словник li ha ya
 slam hu сублімувати li ha ya
@@ -298,13 +342,14 @@ tyas hu кидати li ha ya
 tyic hu напрямок li ha ya
 tkic hu переклад-словник li ha ya
 tyus hu справа li ha ya
+tyif hu перевести li ha ya
 tyim hu тремтіти li ha ya
-twif hu прикметник li ha ya
 tyis hu перехід li ha ya
-tsik hu шість li ha ya
 tsiy hu історія li ha ya
 tsip hu крок li ha ya
 tyuc hu вчити li ha ya
+tyuk hu об'єкт li ha ya
+tyuf hu інший li ha ya
 tyil hu холодний li ha ya
 tyam hu атом li ha ya
 tyak hu крик li ha ya
@@ -314,6 +359,7 @@ tyup hu робот li ha ya
 twis hu вірно li ha ya
 tsiw hu супутникове li ha ya
 tsim hu разом li ha ya
+tsic hu випробування li ha ya
 tsin hu інструкція li ha ya
 tsil hu заслуговувати li ha ya
 tsuy hu сидіти li ha ya
@@ -321,30 +367,39 @@ tsak hu атака li ha ya
 tsan hu студент li ha ya
 tsam hu мета li ha ya
 tsay hu зірка li ha ya
+tsac hu збільшення li ha ya
 tsap hu властивість li ha ya
 tsum hu дослідження li ha ya
 tlas hu блюдо li ha ya
 tsal hu стан li ha ya
 tsaf hu смак li ha ya
 tsuk hu магазин li ha ya
+tsun hu іменник li ha ya
 tsul hu для-дорослих li ha ya
-tful hu два li ha ya
+tlay hu скласти li ha ya
 tlik hu електрику li ha ya
+tlum hu старий li ha ya
 tlis hu бажання li ha ya
 tcap hu прозорий li ha ya
-tlam hu перевести li ha ya
 slim hu приклад li ha ya
 tlun hu потрійний-точкою li ha ya
+tfan hu переклад li ha ya
+tfas hu катастрофа li ha ya
 tfim hu тимчасовий li ha ya
+tfun hu довіру li ha ya
 tfin hu людина li ha ya
 fwap hu п'ять li ha ya
 tfak hu бруд li ha ya
+tciy hu зміна li ha ya
 tlan hu традиція li ha ya
 flan hu повінь li ha ya
+tcik hu перевіряти li ha ya
 flat hu квартира li ha ya
 tcil hu в'язниця li ha ya
+tcum hu приєднатися li ha ya
 tfus hu пошкодження li ha ya
 tcin hu ланцюг li ha ya
+tcuy hu поза li ha ya
 tcun hu потужність li ha ya
 tfal hu файл li ha ya
 tcan hu дерево li ha ya
@@ -352,20 +407,23 @@ flay hu літати li ha ya
 fwil hu сила li ha ya
 fwas hu фаза li ha ya
 mink hu розум li ha ya
+flun hu Будь-ласка li ha ya
 fyas hu фраза li ha ya
 cyin hu вчитися li ha ya
+clin hu ставлення li ha ya
 flit hu флейта li ha ya
 tlin hu порядковий li ha ya
-clin hu відносини li ha ya
 mayn hu гармонія li ha ya
 flut hu квітка li ha ya
 mant hu пурпурний li ha ya
+miyn hu неповнолітній li ha ya
 miyt hu знати li ha ya
 fluc hu текти li ha ya
 clut hu сверхкритической-рідини li ha ya
 clum hu вирок li ha ya
 miyk hu послати li ha ya
 mist hu вимірювати li ha ya
+mayc hu зображення li ha ya
 milt hu розплав li ha ya
 musk hu музика li ha ya
 mayp hu карта li ha ya
@@ -373,11 +431,15 @@ mans hu людина li ha ya
 mayt hu мнимого-блок li ha ya
 mast hu питання li ha ya
 kiyn hu один li ha ya
+muyn hu дурень li ha ya
+muyp hu поліпшувати li ha ya
 kint hu конвертувати li ha ya
+muyk hu основний li ha ya
 muys hu емоція li ha ya
 must hu найбільше li ha ya
 munk hu можливий li ha ya
 munt hu настрій li ha ya
+muft hu померти li ha ya
 mint hu метод li ha ya
 muyt hu союзник li ha ya
 malt hu матеріал li ha ya
@@ -392,6 +454,7 @@ kift hu прощати li ha ya
 kisp hu експонента li ha ya
 kays hu граматична-випадку li ha ya
 kayn hu потік-струму li ha ya
+kanp hu підключати li ha ya
 kayt hu гарячої li ha ya
 kaws hu газ li ha ya
 kimt hu вішати li ha ya
@@ -401,30 +464,36 @@ kumt hu команда li ha ya
 kamt hu граматика li ha ya
 yinp hu повернення li ha ya
 kuym hu загальний li ha ya
-kuyn hu сполучення li ha ya
 yilk hu жовтий li ha ya
 yawt hu шкоду li ha ya
+kuct hu злочин li ha ya
 kuyt hu критичної-точки li ha ya
 kuls hu жорстокий li ha ya
 kusp hu колапс li ha ya
 kust hu постійна li ha ya
+yisk hu багаті li ha ya
 yist hu експорт li ha ya
 yimt hu ритм li ha ya
 kuwt hu код li ha ya
-piyn hu думка li ha ya
 yink hu кільце li ha ya
 yasp hu робота li ha ya
+yift hu вартість li ha ya
 yamt hu захоплюватися li ha ya
 kunt hu контроль li ha ya
 kult hu культура li ha ya
 yalt hu рано li ha ya
 yilt hu Ейлера-номер li ha ya
+yumt hu милість li ha ya
 yusk hu схід li ha ya
 yask hu реакція li ha ya
 yuyp hu Європа li ha ya
+yuns hu Уран li ha ya
+yust hu інші li ha ya
 yunt hu контейнер li ha ya
 yast hu безкоштовно li ha ya
+piyn hu вважати li ha ya
 yimk hu запитати li ha ya
+pint hu працювати li ha ya
 pist hu дозвіл li ha ya
 yalk hu автомобіль li ha ya
 yulp hu роль li ha ya
@@ -432,30 +501,37 @@ piys hu пі li ha ya
 pamt hu постійний li ha ya
 pays hu база li ha ya
 yult hu утиліта li ha ya
+pans hu Іспанська li ha ya
 puyk hu грамматико-об'єкт li ha ya
+puyt hu вкусити li ha ya
 panp hu хліб li ha ya
-nist hu дев'ять li ha ya
 past hu виробляти li ha ya
+puwt hu надати li ha ya
+puls hu поцілунок li ha ya
+pult hu пляшка li ha ya
+pust hu пошта li ha ya
 pant hu брати li ha ya
+pusk hu навантаження li ha ya
 nuys hu шум li ha ya
 punt hu точка li ha ya
+niwt hu мережу li ha ya
 nuls hu нулю li ha ya
-pust hu пил li ha ya
 pack hu насолоджуватися li ha ya
 siyt hu пропонувати li ha ya
 nims hu анімізм li ha ya
-pult hu старий li ha ya
 sift hu зсув li ha ya
+numt hu Замітка li ha ya
 sayk hu мудрий li ha ya
 nilt hu інтелект li ha ya
+nayt hu рідкісний li ha ya
 nast hu інтерес li ha ya
 nuyt hu Північна li ha ya
 nusp hu забувати li ha ya
-wiyp hu дієслово li ha ya
 sanp hu продовжити li ha ya
 wins hu Венера li ha ya
 wuym hu обсяг li ha ya
 wint hu вітер li ha ya
+sink hu зменшити li ha ya
 tiyk hu десять li ha ya
 tiyn hu продовжувати li ha ya
 siyn hu здаватися li ha ya
@@ -463,7 +539,14 @@ niyt hu п-корінь li ha ya
 sint hu відчувати li ha ya
 tiws hu театр li ha ya
 nuks hu Юнекс li ha ya
+salc hu соціального li ha ya
+sact hu стріляти li ha ya
 nust hu повідомлення li ha ya
+sumt hu предмет li ha ya
+sunp hu припускати li ha ya
+suyt hu правильний li ha ya
+sank hu часто li ha ya
+sucp hu дружина li ha ya
 sunt hu на-південь li ha ya
 sulc hu рішення li ha ya
 sark hu сарказм li ha ya
@@ -474,30 +557,36 @@ nalt hu природа li ha ya
 sayt hu швидкості-світла li ha ya
 tiyf hu привод li ha ya
 sant hu мистецтво li ha ya
-niym hu іменник li ha ya
-suyt hu грамматико-об'єктом li ha ya
+tins hu щільний li ha ya
 tawk hu влада li ha ya
 tiys hu відстань li ha ya
 tink hu текст li ha ya
+ticp hu майже li ha ya
 tiwk hu діяльність li ha ya
 tisk hu текст li ha ya
 tinp hu золотисто-коефіцієнт li ha ya
 timp hu грамматико-напруженою li ha ya
+tayf hu пропозиція li ha ya
 tisp hu представляти li ha ya
 tayk hu надавати li ha ya
 tuym hu світ li ha ya
 liys hu свобода li ha ya
 task hu задача li ha ya
+talk hu говорити li ha ya
 tank hu раптово li ha ya
+talf hu приховувати li ha ya
 taym hu час li ha ya
 talp hu стіл li ha ya
+tasp hu база-даних li ha ya
+tuyk hu лікар li ha ya
+tuyn hu поворот li ha ya
 tuys hu злодій li ha ya
+tuyc hu знищити li ha ya
 lisk hu відпустку li ha ya
 tukc hu Турецький li ha ya
 tayn hu площа li ha ya
 layt hu одинадцять li ha ya
 lank hu місцевий li ha ya
-tunk hu мозок li ha ya
 tusk hu прогрес li ha ya
 tamk hu дивитися li ha ya
 liwk hu правової li ha ya
@@ -510,6 +599,8 @@ fals hu помилковий li ha ya
 falt hu дефолт li ha ya
 funk hu функція li ha ya
 lant hu повільно li ha ya
+last hu список li ha ya
+laft hu вигода li ha ya
 fult hu готельний-комплекс li ha ya
 liyk hu рідина li ha ya
 liwt hu подарунок li ha ya
@@ -518,12 +609,17 @@ fint hu знаходити li ha ya
 liyn hu лінія li ha ya
 layk hu озеро li ha ya
 link hu посилання li ha ya
+fast hu візит li ha ya
+fisk hu ставити li ha ya
 faym hu ферма li ha ya
 lint hu всередині li ha ya
+fuyk hu бідних li ha ya
 fans hu Французький li ha ya
 lumk hu логарифм li ha ya
 lunt hu люди li ha ya
 fuym hu форма li ha ya
+cink hu бажання li ha ya
+cint hu агент li ha ya
 funm hu фонема li ha ya
 lunp hu петля li ha ya
 luwt hu лютня li ha ya

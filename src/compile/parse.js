@@ -517,7 +517,6 @@ if (prevQuotes.length >5)
 throw new Error("quintuplication infinite loop detected "
 +thisToken);
 
-//console.log(thisToken);
 if (i===0) quoteExtractedTokens.unshift(thisToken);
 else if (wordMatch(quoteHeads,thisToken)){
 var quoteTokens = new Array();
@@ -543,12 +542,12 @@ thisToken = tokens[i];
 if (i===tokens.length-1) quoteExtractedTokens.push(thisToken);
 else if (wordMatch(quoteHeads,thisToken)){
 var quoteTokens = new Array();
-if (thisToken === singleWordHead)
-quoteTokens = [thisToken,tokens[i+1]];
-else if (thisToken === multiWordHead){
+if (thisToken === multiWordHead){
 var otherTokens = tokens.slice(i);
 quoteTokens = firstMultiWordQuoteParse(grammar,otherTokens);
 }
+else //if (thisToken === singleWordHead)
+quoteTokens = [thisToken,tokens[i+1]];
 quote = new Type(language, quoteTokens)
 quoteExtractedTokens.push(quote);
 i = i+quoteTokens.length-1;

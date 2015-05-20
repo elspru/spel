@@ -33,6 +33,7 @@ ci li hu إيه؟ li ha ya
 fu li hu سوف li ha ya
 mya li hu قد-يكون li ha ya
 ca li hu محايد li ha ya
+myi li hu كثير li ha ya
 kyi li hu مشروط li ha ya
 mwa li hu مع li ha ya
 kya li hu جانبا li ha ya
@@ -43,31 +44,39 @@ ksa li hu ختم-كلاما-مقتبسا-بعلامة li ha ya
 kli li hu له li ha ya
 kla li hu لكن li ha ya
 klu li hu بند-الذيل li ha ya
+kfa li hu صفة-اللاحقه li ha ya
 kca li hu هكتار li ha ya
+pyi li hu الفعل-اللاحقه li ha ya
 pya li hu في li ha ya
 psu li hu من-المصدر li ha ya
 pwa li hu ياأو li ha ya
 pli li hu مثلا li ha ya
 pca li hu مرح li ha ya
+pcu li hu أيضا li ha ya
 nyi li hu ليس li ha ya
 nya li hu أي li ha ya
+nyu li hu ل li ha ya
 sya li hu صيغة-المفرد li ha ya
 syi li hu جدا li ha ya
 syu li hu إلى-ذلك li ha ya
 swi li hu في-حين li ha ya
+sli li hu آخر-اذا li ha ya
 sla li hu مرحبا li ha ya
 tyi li hu اقتبس li ha ya
 twu li hu مزدوج li ha ya
 tsa li hu دااج li ha ya
 tsi li hu نعم li ha ya
-tsu li hu خارج li ha ya
 tla li hu إلى li ha ya
+tsu li hu اسما-اللاحقه li ha ya
 fyi li hu لها li ha ya
 twa li hu ثم li ha ya
+tcu li hu خارج li ha ya
 tli li hu رتبو li ha ya
+fyu li hu قليل li ha ya
+cya li hu آخر li ha ya
 min hu أقل li ha ya
+miy hu ذاكرة li ha ya
 mik hu جعل li ha ya
-miy hu انتظر li ha ya
 mip hu الماضي li ha ya
 mit hu وسط li ha ya
 mak hu كلمة li ha ya
@@ -96,27 +105,30 @@ kum hu تجارة li ha ya
 kus hu غذاء li ha ya
 kuc hu صغير li ha ya
 yis hu أكتب li ha ya
+kul hu هدف li ha ya
 kup hu شراء li ha ya
 kun hu أحمر li ha ya
 yik hu ينفي li ha ya
+yit hu انتظر li ha ya
 yum hu أطرافهم li ha ya
 yat hu قرأ li ha ya
 yun hu طرح li ha ya
 yak hu بعض li ha ya
+yup hu خير li ha ya
+yuw hu عام li ha ya
 yac hu عرض li ha ya
 pis hu ضرب li ha ya
 pit hu أبيض li ha ya
 pic hu شخ li ha ya
 yus hu استعمال li ha ya
 pay hu أكثر li ha ya
+pam hu ذراع li ha ya
 yul hu كل li ha ya
-pam hu خير li ha ya
 pas hu مرر li ha ya
-pak hu هيئة li ha ya
 paw hu مكان li ha ya
+pak hu هيئة li ha ya
 pat hu الأب li ha ya
 pus hu براز li ha ya
-pal hu كثير li ha ya
 pan hu اجتماع li ha ya
 puk hu سيئة li ha ya
 win hu فاز li ha ya
@@ -145,6 +157,7 @@ nam hu عدد li ha ya
 saw hu أسود li ha ya
 sik hu ارتفاع li ha ya
 sil hu سهل-المنال li ha ya
+sak hu توافق li ha ya
 nul hu باطل li ha ya
 suy hu فقد li ha ya
 sap hu بسيط li ha ya
@@ -157,6 +170,7 @@ sat hu صوت li ha ya
 sup hu دفع li ha ya
 tis hu استنشق li ha ya
 sut hu حجم li ha ya
+tiw hu جدار li ha ya
 tiy hu يوم li ha ya
 naw hu الحالي li ha ya
 tip hu ابدأ li ha ya
@@ -166,24 +180,33 @@ tam hu موضوع li ha ya
 tak hu إضافة li ha ya
 tuk hu شراب li ha ya
 tay hu وضع li ha ya
+tal hu التعادل li ha ya
 tan hu منح li ha ya
 tas hu اختار li ha ya
+tuy hu كرر li ha ya
 tup hu عمق li ha ya
 tum hu درجة-الحرارة li ha ya
+tun hu لعبة li ha ya
 tap hu لمس li ha ya
 tuf hu من-الصعب li ha ya
+ton hu طن li ha ya
 fin hu أنثى li ha ya
 fit hu تناسب li ha ya
+lif hu اليسار li ha ya
 tul hu أداة li ha ya
 lik hu الكهربائية-المسؤول li ha ya
+fam hu عائلة li ha ya
 lin hu طول li ha ya
 ciy hu أخضر li ha ya
 cif hu فرق li ha ya
 lis hu سكن li ha ya
+cis hu حياة li ha ya
 lit hu الصورة-الرمزية li ha ya
 myut hu استيراد li ha ya
+cay hu حق li ha ya
+cin hu علامة li ha ya
 cim hu سمع li ha ya
-cik hu قليل li ha ya
+cum hu شكل li ha ya
 myit hu تذكر li ha ya
 cak hu شيء li ha ya
 can hu فرصة li ha ya
@@ -191,11 +214,14 @@ myun hu توظيف li ha ya
 cal hu خطوة li ha ya
 myan hu ناعم li ha ya
 kyim hu لعبة li ha ya
+mwut hu قاوم li ha ya
 myat hu الرياضيات li ha ya
 kyip hu ملابس li ha ya
 myul hu أخلاقي li ha ya
 kwit hu الجاذبية-الارضية li ha ya
 kwat hu رعاية li ha ya
+kyam hu حمل li ha ya
+kyit hu كل li ha ya
 myin hu حلم li ha ya
 kyus hu لهو li ha ya
 kyil hu دائرة li ha ya
@@ -203,60 +229,78 @@ kyin hu عام li ha ya
 kyap hu نسخة li ha ya
 kyup hu مجموعة li ha ya
 ksat hu دقيق li ha ya
+ksiy hu خبير li ha ya
 kyat hu شاق li ha ya
 ksil hu بلور li ha ya
 kyul hu حكم li ha ya
 kwal hu لغة li ha ya
+ksap hu حبل li ha ya
 ksip hu وصول li ha ya
 ksam hu ظلام li ha ya
 ksin hu السياق li ha ya
 ksal hu المجرة li ha ya
-ksap hu التعبير li ha ya
 ksan hu تنظم li ha ya
 ksum hu نقل li ha ya
 kliy hu واضح li ha ya
 klin hu الإلكترون li ha ya
+ksuf hu وصف li ha ya
 ktin hu دين li ha ya
 kcat hu ثمانية li ha ya
 pyik hu فترة-راحة li ha ya
 ksut hu جمع li ha ya
 pyit hu أربعة li ha ya
+klun hu جوع li ha ya
 ksul hu مدرسة li ha ya
 klaw hu ضحك li ha ya
 pyaw hu زوجان li ha ya
+kcil hu مهارة li ha ya
+kfat hu نعت li ha ya
 klas hu فئة li ha ya
+kcut hu فوضى li ha ya
+kcuf hu يكفي li ha ya
+kcun hu وحد li ha ya
 klat hu بند li ha ya
 kcim hu مادة-كيميائية li ha ya
 klac hu إلا li ha ya
 pyil hu مناشدة li ha ya
 kfin hu التكوين li ha ya
+pyif hu الفعل li ha ya
 pyas hu بسرعة li ha ya
 pyin hu تجربة li ha ya
 pyam hu برنامج li ha ya
 pyat hu موجه li ha ya
+pyaf hu نفذ li ha ya
 pyan hu ضمير li ha ya
+pyun hu عصفور li ha ya
+pyal hu مواز li ha ya
+pyac hu عجب li ha ya
 pyut hu بروتون li ha ya
 psil hu سحر li ha ya
 pyul hu دمل li ha ya
 pwas hu اجب-على li ha ya
 pwil hu متغير li ha ya
 pwut hu وافق li ha ya
+psin hu غزل li ha ya
 psiy hu الضغط li ha ya
 pyuf hu برهان li ha ya
+psam hu مقابل li ha ya
 psit hu سرعة li ha ya
 pyuc hu مشروع li ha ya
 psan hu الفضاء li ha ya
+psaf hu رد li ha ya
 psat hu سطح li ha ya
 pfis hu تفضيل li ha ya
 psal hu الشراع li ha ya
 nyip hu مرآة li ha ya
-plis hu قريب li ha ya
 psut hu وعد li ha ya
 nyat hu دخول li ha ya
 plum hu مشكلة li ha ya
 plam hu بلازما li ha ya
+pluy hu شعبي li ha ya
 plin hu طائرة li ha ya
 nyul hu لفة li ha ya
+plut hu غبار li ha ya
+plun hu ربما li ha ya
 syim hu سبعة li ha ya
 pfal hu فشل li ha ya
 syip hu نظيف li ha ya
@@ -286,7 +330,7 @@ swat hu ماء li ha ya
 swuy hu مسألة li ha ya
 swun hu نوم li ha ya
 syit hu إرسال li ha ya
-tyif hu قيمة li ha ya
+slat hu جانب li ha ya
 syak hu استيقظ li ha ya
 slof hu مفردات-اللغة li ha ya
 slam hu تسامى li ha ya
@@ -298,13 +342,14 @@ tyas hu رمي li ha ya
 tyic hu توجيه li ha ya
 slim hu مثال li ha ya
 tyus hu حالة li ha ya
+tyif hu ترجم li ha ya
 tkic hu الترجمة-القاموس li ha ya
-twif hu نعت li ha ya
 tyis hu انتقال li ha ya
-tsik hu ستة li ha ya
 tsiy hu قصة li ha ya
 tsip hu خطوة li ha ya
 tyuc hu علم li ha ya
+tyuk hu موضوع li ha ya
+tyuf hu مختلف li ha ya
 tyil hu برد li ha ya
 tyam hu ذرة li ha ya
 tyak hu صيحة li ha ya
@@ -314,6 +359,7 @@ tyan hu سلسلة li ha ya
 tyup hu إنسان-آلي li ha ya
 tsiw hu قمر li ha ya
 twis hu صحيح li ha ya
+tsic hu محاكمة li ha ya
 tsim hu معا li ha ya
 tsin hu تعليمات li ha ya
 tsuy hu جلس li ha ya
@@ -321,30 +367,39 @@ tsak hu هجوم li ha ya
 tsan hu طالب-علم li ha ya
 tsil hu استحق li ha ya
 tsay hu نجم li ha ya
+tsac hu زيادة li ha ya
 tsam hu هدف li ha ya
 tsum hu دراسة li ha ya
 tlas hu صحن-طعام li ha ya
 tsap hu ممتلكات li ha ya
 tsal hu دولة li ha ya
 tsaf hu طعم li ha ya
+tsun hu اسما li ha ya
 tsul hu بالغ li ha ya
-tful hu اثنان li ha ya
+tlay hu طية li ha ya
 tsuk hu متجر li ha ya
+tlum hu قديم li ha ya
 tlis hu رغبة li ha ya
 tcap hu شفاف li ha ya
 tlik hu كهرباء li ha ya
-tlam hu ترجم li ha ya
 tlun hu الثلاثي-نقطة li ha ya
+tfan hu نقل li ha ya
+tfas hu كارثة li ha ya
 tfim hu مؤقت li ha ya
+tfun hu ثقة li ha ya
 tfin hu فرد li ha ya
 fwap hu خمسة li ha ya
 tfak hu قذارة li ha ya
+tciy hu تغيير li ha ya
 tkic ha ya
 flan hu فيضان li ha ya
+tcik hu تحقق li ha ya
 flat hu شقة li ha ya
 tcil hu سجن li ha ya
+tcum hu انضم li ha ya
 tfus hu ضرر li ha ya
 tcin hu سلسلة li ha ya
+tcuy hu خارج li ha ya
 tcun hu قوة li ha ya
 tlan hu التقليد li ha ya
 tfal hu ملف li ha ya
@@ -352,20 +407,23 @@ flay hu طيران li ha ya
 tcan hu شجرة li ha ya
 fwas hu مرحلة li ha ya
 mink hu عقل li ha ya
+flun hu من-فضلك li ha ya
 fyas hu العبارة li ha ya
 cyin hu تعلم li ha ya
+clin hu علاقة li ha ya
 fwil hu قوة li ha ya
 flit hu مزمار li ha ya
-clin hu علاقة li ha ya
 mayn hu الانسجام li ha ya
 flut hu زهرة li ha ya
 mant hu أرجواني li ha ya
+miyn hu قاصر li ha ya
 miyt hu مدرك li ha ya
 fluc hu تدفق li ha ya
 clut hu فوق-الحرجة-السائل li ha ya
 clum hu جملة li ha ya
 miyk hu إرسال li ha ya
 mist hu قياس li ha ya
+mayc hu صورة li ha ya
 milt hu صهر li ha ya
 musk hu موسيقى li ha ya
 mayp hu خريطة li ha ya
@@ -373,11 +431,15 @@ mans hu بشري li ha ya
 mayt hu وهمية-وحدة li ha ya
 mast hu مسألة li ha ya
 kiyn hu واحد li ha ya
+muyn hu مجنون li ha ya
+muyp hu تحسن li ha ya
 kint hu تحول li ha ya
+muyk hu رائد li ha ya
 tlin hu ترتيبي li ha ya
 must hu معظم li ha ya
 munk hu ممكن li ha ya
 munt hu مزاج li ha ya
+muft hu مات li ha ya
 mint hu طريقة li ha ya
 muyt hu حليف li ha ya
 malt hu مادة li ha ya
@@ -392,6 +454,7 @@ kisp hu الدليل li ha ya
 kays hu النحوية-حدة li ha ya
 kayt hu حار li ha ya
 kayn hu تدفق-التيار li ha ya
+kanp hu ربط li ha ya
 kaws hu غاز li ha ya
 kimt hu علق li ha ya
 miwk hu شخص li ha ya
@@ -401,30 +464,36 @@ kumt hu قيادة li ha ya
 muys hu عاطفة li ha ya
 yinp hu عودة li ha ya
 kuym hu مشترك li ha ya
-kuyn hu اقتران li ha ya
 yilk hu أصفر li ha ya
 kamt hu قواعد li ha ya
+kuct hu جريمة li ha ya
 yawt hu ضرر li ha ya
 kuls hu قاس li ha ya
 kuyt hu نقطة-حرجة li ha ya
 kusp hu انهيار li ha ya
+yisk hu غني li ha ya
 kust hu ثابت li ha ya
 yist hu تصدير li ha ya
 yimt hu إيقاع li ha ya
 kuwt hu قانون li ha ya
-piyn hu رأي li ha ya
 yink hu عصابة li ha ya
+yift hu قيمة li ha ya
 yamt hu معجب li ha ya
 yasp hu عمل li ha ya
 kunt hu سيطرة li ha ya
 kult hu ثقافة li ha ya
 yalt hu في-وقت-مبكر li ha ya
+yumt hu رحمة li ha ya
 yilt hu Eulers-العدد li ha ya
 yusk hu الشرق li ha ya
 yuyp hu أوروبا li ha ya
+yuns hu أورانوس li ha ya
+yust hu بقية li ha ya
 yask hu رد-فعل li ha ya
 yunt hu حاوية li ha ya
+piyn hu عبر-عن-رأيه li ha ya
 yast hu مجاني li ha ya
+pint hu العمل li ha ya
 yalk hu مركبة li ha ya
 pist hu تصريح li ha ya
 yulp hu دور li ha ya
@@ -432,22 +501,29 @@ yult hu فائدة li ha ya
 piys hu متعصب li ha ya
 pamt hu دائم li ha ya
 pays hu قاعدة li ha ya
+pans hu الأسبانية li ha ya
 panp hu خبز li ha ya
+puyt hu عضة li ha ya
 puyk hu النحوية-بين-وجوه li ha ya
 pant hu الاقتراض li ha ya
-nist hu تسعة li ha ya
+puwt hu تزود li ha ya
+puls hu قبلة li ha ya
+pult hu زجاجة li ha ya
+pust hu بريد li ha ya
 past hu إنتاج li ha ya
+pusk hu حمل li ha ya
 pack hu استمتع li ha ya
 nuys hu ضجيج li ha ya
+niwt hu شبكة li ha ya
 punt hu نقطة li ha ya
 nuls hu صفر li ha ya
-pust hu غبار li ha ya
-pult hu قديم li ha ya
 siyt hu اقترح li ha ya
 nims hu الأرواحية li ha ya
 sift hu تغير li ha ya
+numt hu ملاحظة li ha ya
 sayk hu حكيم li ha ya
 nilt hu ذكاء li ha ya
+nayt hu نادر li ha ya
 nast hu اهتمام li ha ya
 nuyt hu شمال li ha ya
 nusp hu ننسى li ha ya
@@ -455,6 +531,7 @@ wins hu فينوس li ha ya
 sanp hu مد li ha ya
 wint hu رياح li ha ya
 wuym hu حجم li ha ya
+sink hu نقصان li ha ya
 yimk hu تطلب li ha ya
 tiyk hu عشرة li ha ya
 tiyn hu استمر li ha ya
@@ -462,8 +539,15 @@ siyn hu بدا li ha ya
 niyt hu نطة-الجذر li ha ya
 nalt hu طبيعة li ha ya
 tiws hu مسرح li ha ya
+salc hu اجتماعي li ha ya
+sact hu أطلق-النار li ha ya
 nuks hu يونيكس li ha ya
+sumt hu موضوع li ha ya
+sunp hu افترض li ha ya
+suyt hu صحيح li ha ya
 nust hu إشعار li ha ya
+sucp hu الزوج li ha ya
+sank hu غالبا li ha ya
 sunt hu جنوب li ha ya
 sulc hu حل li ha ya
 sark hu سخرية li ha ya
@@ -473,31 +557,36 @@ simt hu حد li ha ya
 sant hu فن li ha ya
 sayt hu السرعة-من-الضوء li ha ya
 tiyf hu حملة li ha ya
-wiyp hu الفعل li ha ya
-niym hu اسما li ha ya
+tins hu كثيف li ha ya
 sint hu إحساس li ha ya
 tawk hu سلطان li ha ya
 tiys hu بعد li ha ya
+ticp hu تقريبا li ha ya
 tink hu نص li ha ya
-suyt hu النحوية-الموضوع li ha ya
 tisk hu نص li ha ya
 tinp hu -النسبة-الذهبية li ha ya
 tisp hu مثل li ha ya
+tayf hu عرض li ha ya
 tuym hu عالم li ha ya
 tayk hu تعلق li ha ya
 tamk hu بحث li ha ya
 liys hu حرية li ha ya
 task hu مهمة li ha ya
+talk hu حديث li ha ya
 tank hu مفاجئ li ha ya
+talf hu إخفاء li ha ya
 taym hu مرة li ha ya
 talp hu جدول li ha ya
+tasp hu قاعدة-بيانات li ha ya
+tuyk hu طبيب li ha ya
+tuyn hu منعطف li ha ya
 tuys hu لص li ha ya
+tuyc hu هدم li ha ya
 lisk hu اجازة-دراسية li ha ya
 tukc hu اللغة-التركية li ha ya
 tayn hu منطقة li ha ya
 layt hu حادي-عشر li ha ya
 lank hu محلي-الصنع li ha ya
-tunk hu دماغ li ha ya
 tusk hu تقدم li ha ya
 tanp hu ظهر li ha ya
 liwk hu قانوني li ha ya
@@ -510,6 +599,8 @@ fals hu زائف li ha ya
 falt hu الافتراضي li ha ya
 funk hu وظيفة li ha ya
 lant hu بطيء li ha ya
+last hu قائمة li ha ya
+laft hu مصلحة li ha ya
 fult hu فندق li ha ya
 liyk hu سائل li ha ya
 liwt hu هدية li ha ya
@@ -518,12 +609,17 @@ fint hu اكتشاف li ha ya
 lint hu داخل li ha ya
 layk hu بحيرة li ha ya
 link hu صلة li ha ya
+fast hu زيارة li ha ya
+fisk hu لصق li ha ya
 faym hu مزرعة li ha ya
 lunt hu الناس li ha ya
+fuyk hu فقير li ha ya
 fans hu اللغة-الفرنسية li ha ya
 lumk hu اللوغارثم-في-الرياضيات li ha ya
 luwt hu عود li ha ya
 fuym hu شكل li ha ya
+cink hu رغبة li ha ya
+cint hu وكيل li ha ya
 funm hu صوت li ha ya
 lunp hu أنشوطة li ha ya
 timp hu النحوية-متوترة li ha ya

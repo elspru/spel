@@ -18,7 +18,7 @@ var Language = require(base+'lang/language');
 var mwak = new Language();
 
 var debug = false;
-var amount = 2;
+var amount = 1;
 var langDir = "../../doc/lang/";
 var fileStem = "";//"vocab-mwak-";
 var fileSuffix = "glyph.txt";

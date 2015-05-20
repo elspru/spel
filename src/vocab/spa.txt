@@ -33,6 +33,7 @@ ci li hu ¿eh? li ha ya
 fu li hu será li ha ya
 mya li hu puede-ser li ha ya
 ca li hu neutro li ha ya
+myi li hu muchos li ha ya
 kyi li hu condicionalmente ha ya
 mwa li hu con li ha ya
 kya li hu aparte li ha ya
@@ -43,31 +44,39 @@ ksa li hu fin-de-la-cita li ha ya
 kli li hu él li ha ya
 kla li hu pero li ha ya
 klu li hu cláusula-de-la-cola li ha ya
+kfa li hu adjetivo-afijo li ha ya
 kca li hu ja li ha ya
+pyi li hu verbo-afijo li ha ya
 pya li hu sobre li ha ya
 psu li hu de-fuente li ha ya
 pwa li hu sío li ha ya
 pli li hu por-ejemplo li ha ya
 pca li hu alegre li ha ya
+pcu li hu también li ha ya
 nyi li hu no li ha ya
 nya li hu a-saber li ha ya
+nyu li hu una li ha ya
 sya li hu singular li ha ya
 syi li hu muy li ha ya
 syu li hu asi li ha ya
 swi li hu mientras li ha ya
+sli li hu else-if li ha ya
 sla li hu hola li ha ya
 tyi li hu cita li ha ya
 twu li hu dual li ha ya
 tsa li hu hasta-el li ha ya
 tsi li hu sí li ha ya
-tsu li hu fuera li ha ya
 tla li hu para li ha ya
+tsu li hu sustantivo-afijo li ha ya
 fyi li hu ella li ha ya
 twa li hu entonces li ha ya
+tcu li hu fuera li ha ya
 tli li hu ord ha ya
+fyu li hu pocos li ha ya
+cya li hu más li ha ya
 min hu menos li ha ya
+miy hu memoria li ha ya
 mik hu hacer li ha ya
-miy hu esperar ha ya
 mip hu pasado ha ya
 mit hu medio li ha ya
 mak hu palabra ha ya
@@ -96,27 +105,30 @@ kus hu comida li ha ya
 kuc hu pequeño li ha ya
 kum hu comercio li ha ya
 yis hu a-escribir li ha ya
+kul hu meta li ha ya
 kup hu comprar li ha ya
 kun hu rojo li ha ya
 yum hu miembro li ha ya
+yit hu esperar li ha ya
 yat hu leer li ha ya
 yun hu sustraer li ha ya
 yak hu algunos li ha ya
 yac hu ancho li ha ya
+yup hu bueno li ha ya
+yuw hu año li ha ya
 pis hu multiplicar li ha ya
 pit hu blanco li ha ya
 pic hu mear li ha ya
 yus hu uso li ha ya
 yik hu negar ha ya
 pay hu más li ha ya
+pam hu brazo li ha ya
 yul hu todo li ha ya
-pam hu bueno ha ya
 pas hu pasar li ha ya
+paw hu lugar li ha ya
 pak hu cuerpo ha ya
-paw hu lugar ha ya
 pus hu poo li ha ya
 pat hu padre li ha ya
-pal hu muchos li ha ya
 win hu victoria li ha ya
 puk hu malo li ha ya
 pan hu conocer ha ya
@@ -145,6 +157,7 @@ saw hu negro li ha ya
 nam hu número ha ya
 sil hu fácil li ha ya
 sik hu altura li ha ya
+sak hu acordar li ha ya
 suy hu perder li ha ya
 nul hu nulo li ha ya
 sap hu simple li ha ya
@@ -157,6 +170,7 @@ sat hu sonar li ha ya
 tis hu inhalar li ha ya
 sup hu pagar li ha ya
 sut hu tamaño li ha ya
+tiw hu pared li ha ya
 tiy hu día li ha ya
 naw hu presente ha ya
 tip hu comenzar li ha ya
@@ -166,24 +180,33 @@ tam hu tema li ha ya
 tuk hu bebida li ha ya
 tak hu añadir li ha ya
 tay hu poner li ha ya
+tal hu empate li ha ya
 tan hu dar li ha ya
 tas hu elegir li ha ya
+tuy hu repetición li ha ya
 tup hu profundidad li ha ya
 tum hu temperatura li ha ya
+tun hu juguete li ha ya
 tuf hu difícil li ha ya
 fin hu hembra li ha ya
+ton hu tonelada li ha ya
 fit hu en-forma li ha ya
 tap hu tocar li ha ya
+lif hu izquierda li ha ya
 tul hu herramienta li ha ya
 lik hu eléctrica-de-carga li ha ya
+fam hu familia li ha ya
 ciy hu verde li ha ya
 cif hu divisoria li ha ya
 lin hu longitud li ha ya
 lis hu vivir li ha ya
+cis hu vida li ha ya
 myut hu importación li ha ya
 lit hu glifo li ha ya
+cay hu derecho li ha ya
+cin hu signo li ha ya
 cim hu escuchar li ha ya
-cik hu pocos ha minhnam hi ya
+cum hu forma li ha ya
 myit hu se-acuerdan li ha ya
 cak hu cosa li ha ya
 can hu oportunidad li ha ya
@@ -191,11 +214,14 @@ myun hu emplear li ha ya
 cal hu movimiento li ha ya
 myat hu matemáticas li ha ya
 kyim hu juego li ha ya
+mwut hu resistir li ha ya
 myan hu suave li ha ya
 myul hu moral li ha ya
 kyip hu ropa li ha ya
 kwit hu gravedad li ha ya
 kwat hu cuidado li ha ya
+kyam hu llevar li ha ya
+kyit hu cada li ha ya
 myin hu soñar li ha ya
 kyus hu divertido li ha ya
 kyil hu círculo li ha ya
@@ -203,11 +229,12 @@ kyin hu general li ha ya
 kyap hu copia li ha ya
 kyup hu grupo li ha ya
 ksat hu exacto li ha ya
+ksiy hu experto li ha ya
 kyat hu duro li ha ya
 ksil hu cristal li ha ya
 kyul hu regla li ha ya
-ksap hu expresar li ha ya
 ksip hu acceso li ha ya
+ksap hu cuerda li ha ya
 ksam hu oscuro li ha ya
 ksin hu contexto li ha ya
 ksal hu galaxia li ha ya
@@ -216,36 +243,50 @@ ksan hu organizar li ha ya
 ksum hu comunicarse li ha ya
 klin hu electrón li ha ya
 kliy hu claro li ha ya
+ksuf hu describir li ha ya
 ktin hu religión li ha ya
 kcat hu las-ocho li ha ya
 pyik hu rotura li ha ya
 ksut hu recoger li ha ya
 pyit hu cuatro li ha ya
+klun hu hambre li ha ya
 ksul hu escuela li ha ya
 klac hu excepto li ha ya
-pyaw hu la-pareja li ha ya
+pyaw hu pareja li ha ya
+kcil hu habilidad li ha ya
+kfat hu adjetivo li ha ya
 klas hu clase li ha ya
+kcut hu lío li ha ya
+kcuf hu suficiente li ha ya
+kcun hu conjugar li ha ya
 klat hu cláusula li ha ya
 kcim hu químico li ha ya
 pyan hu pronombre ha ya
 kfin hu config li ha ya
 pyil hu apelación li ha ya
+pyif hu verbo li ha ya
 pyas hu rápido li ha ya
 pyin hu experiencia li ha ya
 pyam hu programa li ha ya
 pyat hu pronto li ha ya
+pyaf hu realizar li ha ya
 pyut hu protón li ha ya
+pyun hu pájaro li ha ya
+pyal hu paralelo li ha ya
+pyac hu preguntarse li ha ya
 psil hu deletrear li ha ya
 pyul hu hervir li ha ya
 pwas hu respuesta li ha ya
 pyuf hu prueba li ha ya
 pwil hu variable li ha ya
 pwut hu aprobar li ha ya
+psin hu vuelta li ha ya
 psiy hu presión li ha ya
-plis hu cercano li ha ya
+psam hu opuesto li ha ya
 psit hu velocidad li ha ya
 pyuc hu proyecto li ha ya
 psan hu espacio li ha ya
+psaf hu responder li ha ya
 psat hu superficie li ha ya
 pfis hu preferencia li ha ya
 psal hu vela li ha ya
@@ -255,8 +296,11 @@ psut hu promesa li ha ya
 nyat hu entrar li ha ya
 plum hu problema li ha ya
 plam hu plasma li ha ya
+pluy hu popular li ha ya
 plin hu avión li ha ya
 nyul hu rollo li ha ya
+plut hu polvo li ha ya
+plun hu probablemente li ha ya
 syim hu siete li ha ya
 pfal hu fallar li ha ya
 syip hu limpio li ha ya
@@ -286,7 +330,7 @@ swat hu agua li ha ya
 swuy hu pregunta li ha ya
 swun hu sueño li ha ya
 syit hu enviar li ha ya
-tyif hu merece-la-pena li ha ya
+slat hu lado li ha ya
 syak hu despierto li ha ya
 slof hu vocabulario li ha ya
 slam hu sublimar li ha ya
@@ -298,13 +342,14 @@ tyas hu lanzar li ha ya
 tyic hu dirección li ha ya
 tkic hu Traducción-diccionario- li ha ya
 tyus hu caso li ha ya
+tyif hu traducir li ha ya
 tyim hu temblar li ha ya
-twif hu adjetivo li ha ya
 tyis hu transición li ha ya
-tsik hu seis li ha ya
 tsiy hu historia li ha ya
 tsip hu el-paso li ha ya
 tyuc hu enseñar li ha ya
+tyuk hu objeto li ha ya
+tyuf hu diferente li ha ya
 tyil hu frío li ha ya
 tyam hu átomo li ha ya
 tyin hu tres li ha ya
@@ -314,37 +359,47 @@ tyup hu robot li ha ya
 twis hu verdadero li ha ya
 tsiw hu satélite li ha ya
 tsim hu juntos li ha ya
+tsic hu ensayo li ha ya
 tsin hu instrucción li ha ya
 tsil hu merecer li ha ya
 tsuy hu sentarse li ha ya
 tsam hu propósito li ha ya
-tsan hu la-estudiante li ha ya
+tsan hu estudiante li ha ya
 tsak hu ataque li ha ya
 tsay hu estrella li ha ya
+tsac hu aumentar li ha ya
 tsap hu propiedad li ha ya
 tsum hu estudio li ha ya
 tlas hu plato li ha ya
 tsal hu estado li ha ya
 tsaf hu sabor li ha ya
 tsuk hu tienda li ha ya
+tsun hu sustantivo li ha ya
 tsul hu adulto li ha ya
-tful hu dos li ha ya
+tlay hu plegar li ha ya
 tlik hu electricidad li ha ya
-tlis hu deseo li ha ya
+tlum hu viejo li ha ya
+tlis hu desear li ha ya
 tcap hu transparente li ha ya
-tlam hu traducir li ha ya
 tlin hu ordinal ha ya
 tfin hu individual li ha ya
+tfan hu transferencia li ha ya
+tfas hu desastre li ha ya
 tfim hu temporal li ha ya
+tfun hu confianza li ha ya
 tlun hu punto-triple li ha ya
 fwap hu cinco li ha ya
 tlan hu tradición li ha ya
+tciy hu cambio li ha ya
 tfak hu suciedad li ha ya
 flan hu inundación li ha ya
+tcik hu comprobar li ha ya
 flat hu plano li ha ya
 tcil hu cárcel li ha ya
+tcum hu unirse li ha ya
 tcin hu cadena li ha ya
 tfus hu daño li ha ya
+tcuy hu fuera li ha ya
 tcun hu energía li ha ya
 tfal hu expediente li ha ya
 tcan hu árbol li ha ya
@@ -352,20 +407,23 @@ flay hu volar li ha ya
 fwil hu fuerza li ha ya
 fwas hu fase li ha ya
 mink hu mente li ha ya
+flun hu por-favor li ha ya
 fyas hu frase li ha ya
 cyin hu aprender li ha ya
+clin hu relación li ha ya
 flit hu flauta li ha ya
 fluc hu fluir li ha ya
 flut hu flor li ha ya
 mayn hu armonía li ha ya
-clin hu relación li ha ya
 mant hu magenta li ha ya
+miyn hu menor li ha ya
 miyt hu consciente li ha ya
 clut hu fluidos-supercríticos li ha ya
 clum hu frase li ha ya
 miwk hu persona ha ya
 miyk hu enviar li ha ya
 mist hu medir li ha ya
+mayc hu imagen li ha ya
 milt hu fusión li ha ya
 musk hu música li ha ya
 mayt hu imaginaria-unidad li ha ya
@@ -373,11 +431,15 @@ mans hu humano li ha ya
 mayp hu mapa li ha ya
 mast hu materia li ha ya
 kiyn hu uno li ha ya
+muyn hu engañar li ha ya
+muyp hu mejorar li ha ya
 kint hu convertir li ha ya
+muyk hu mayor li ha ya
 muys hu emoción li ha ya
 must hu máximo li ha ya
 munk hu posible li ha ya
 munt hu humor li ha ya
+muft hu morir li ha ya
 mint hu método li ha ya
 muyt hu aliado li ha ya
 malt hu material li ha ya
@@ -392,40 +454,46 @@ kisp hu exponente li ha ya
 kift hu perdonar li ha ya
 kays hu gramatical-de-los-casos li ha ya
 kayn hu flujo-de-corriente li ha ya
+kanp hu conectar li ha ya
 kayt hu caliente li ha ya
 kaws hu gas li ha ya
 kimt hu caída li ha ya
 kaft hu confirmar li ha ya
 kump hu complejo li ha ya
 kumt hu comando li ha ya
-kuyn hu conjugación li ha ya
 kuym hu común li ha ya
 yinp hu retorno li ha ya
 yilk hu amarillo li ha ya
 yimk hu preguntar ha ya
 yawt hu hacer-daño li ha ya
+kuct hu crimen li ha ya
 kuyt hu punto-crítico li ha ya
 kuls hu cruel li ha ya
 kusp hu colapso li ha ya
 kust hu constante li ha ya
+yisk hu rico li ha ya
 yist hu exportación li ha ya
 yimt hu ritmo li ha ya
 kuwt hu código li ha ya
-piyn hu la-opinión li ha ya
 yink hu anillo li ha ya
 yasp hu trabajo-de li ha ya
+yift hu valor li ha ya
 yamt hu admirar li ha ya
 kunt hu control li ha ya
 kult hu cultura li ha ya
 yalt hu temprano li ha ya
 yilt hu Eulers-número li ha ya
+yumt hu misericordia li ha ya
 yusk hu oriente li ha ya
 yask hu reacción li ha ya
 yuyp hu Europa li ha ya
+yuns hu Urano li ha ya
+yust hu resto li ha ya
 yast hu gratis li ha ya
 yunt hu contenedor li ha ya
-wiyp hu verbo ha ya
+piyn hu opinar li ha ya
 pist hu permiso li ha ya
+pint hu funcionar li ha ya
 yalk hu vehículo li ha ya
 yulp hu papel li ha ya
 piys hu pi li ha ya
@@ -433,30 +501,37 @@ pamt hu permanente li ha ya
 pays hu base li ha ya
 yult hu utilidad li ha ya
 puyk hu gramatical-a-objetos li ha ya
+pans hu Español li ha ya
 panp hu pan li ha ya
-nist hu nueve li ha ya
+puyt hu morder li ha ya
 past hu produce li ha ya
+puwt hu proporcionar li ha ya
 pant hu pedir-prestado li ha ya
+puls hu beso li ha ya
+pult hu botella li ha ya
+pust hu correo li ha ya
+pusk hu carga li ha ya
 nuys hu el-ruido li ha ya
 punt hu punto li ha ya
 nuls hu cero li ha ya
-pust hu polvo li ha ya
+niwt hu red li ha ya
 pack hu disfrutar li ha ya
 siyt hu sugerir li ha ya
 nims hu animismo li ha ya
-pult hu viejo li ha ya
 sift hu cambio li ha ya
 sayk hu sabio li ha ya
+numt hu Nota li ha ya
 nilt hu inteligencia li ha ya
+nayt hu raro li ha ya
 nast hu interés li ha ya
 nuyt hu norte li ha ya
 nusp hu para-obtener li ha ya
-niym hu sustantivo ha ya
 sanp hu ampliar li ha ya
 wins hu Venus li ha ya
 wuym hu volumen li ha ya
 wint hu viento li ha ya
 tiyk hu diez li ha ya
+sink hu disminuir li ha ya
 tiyn hu continuar li ha ya
 siyn hu parecer li ha ya
 niyt hu nth-root li ha ya
@@ -464,40 +539,54 @@ sint hu sentir li ha ya
 tiws hu el-teatro li ha ya
 nuks hu unix li ha ya
 nust hu aviso li ha ya
+salc hu social li ha ya
+sact hu disparar li ha ya
+sank hu a-menudo li ha ya
+sumt hu sujeto li ha ya
+sunp hu suponer li ha ya
+suyt hu correcto li ha ya
 sunt hu sur li ha ya
+sucp hu cónyuge li ha ya
 sulc hu solución li ha ya
 sark hu sarcasmo li ha ya
 nuft hu hostil li ha ya
 tiym hu tarde li ha ya
 simt hu límite li ha ya
 nalt hu naturaleza li ha ya
-sayt hu la-velocidad-de-la-luz li ha ya
+sayt hu velocidad-de-la-luz li ha ya
 tiyf hu conducir li ha ya
 sant hu arte li ha ya
-suyt hu gramatical-sujeto ha ya
 timp hu tiempo-gramatical ha ya
+tins hu denso li ha ya
 tawk hu autoridad li ha ya
 tiys hu distancia li ha ya
 tink hu texto li ha ya
+ticp hu casi li ha ya
 tiwk hu actividad li ha ya
 tisk hu texto li ha ya
 tinp hu golden-relación li ha ya
 tick hu diccionario ha ya
+tayf hu oferta li ha ya
 tisp hu representar li ha ya
 tuym hu mundo li ha ya
 tayk hu adjuntar li ha ya
 liys hu libertad li ha ya
 task hu tarea li ha ya
+talk hu hablar li ha ya
 taym hu tiempo li ha ya
+talf hu ocultar li ha ya
 tank hu repentino li ha ya
 tayn hu zona li ha ya
+tasp hu base-de-datos li ha ya
+tuyk hu médico li ha ya
+tuyn hu turno li ha ya
 tuys hu ladrón li ha ya
+tuyc hu destruir li ha ya
 lisk hu vacaciones li ha ya
 tukc hu Turco li ha ya
 talp hu mesa li ha ya
 layt hu once li ha ya
 lank hu local li ha ya
-tunk hu cerebro li ha ya
 tusk hu progreso li ha ya
 tamk hu mirar li ha ya
 liwk hu legal li ha ya
@@ -510,6 +599,8 @@ fals hu falso li ha ya
 falt hu defecto li ha ya
 funk hu función li ha ya
 lant hu lento li ha ya
+last hu lista li ha ya
+laft hu beneficio li ha ya
 fult hu hotel li ha ya
 liyk hu líquido li ha ya
 liyt hu literatura li ha ya
@@ -518,12 +609,17 @@ fint hu encontrar li ha ya
 liyn hu línea li ha ya
 link hu enlace li ha ya
 layk hu lago li ha ya
+fast hu visita li ha ya
+fisk hu afijo li ha ya
 faym hu granja li ha ya
 lint hu dentro li ha ya
+fuyk hu pobre li ha ya
 fans hu Francés li ha ya
 lumk hu logaritmo li ha ya
 lunt hu gente li ha ya
 fuym hu forma li ha ya
+cink hu desear li ha ya
+cint hu agente li ha ya
 funm hu fonema li ha ya
 lunp hu bucle li ha ya
 luwt hu laúd li ha ya

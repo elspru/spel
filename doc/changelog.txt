@@ -3395,5 +3395,670 @@ fairly short. The system could then find what function it needs
 by finding the appropriate word.
 0618 I think the hardest part will be effectively coordinating
 mass collaboration. Obviously that means the remove bottlenecks,
-but also to detect bottlenecks. 
+but also to detect bottleanecks. 
 1024 adding possessive pronouns.
+} 20 Apr 2015
+0844 so I'm thinking should get back to completing Igor's
+project. the more revenue we have the better, can put the money
+into a pot for the currency shares, to pay developers and such.
+0845 otherwise next is probably conditionals 
+0748 I also have that whole genitives attach to type thing...
+I dono, I guess they do..  *shrugs* ummm so ya, gotta do that
+soonish, cause I already have a bunch of subphrase stuff going
+on. it's gonna need some major rewrites.. 
+1228 Uralic languages are SOV, so I'll change hungarian and
+finnish to the SOV branch. also probably german... though they
+use prepositions, so otherwise SVO,  same for dutch,  since they
+use SOV in their subclasues, I guess any subclause SOV, I'll
+move over to SOV, best keep with the motherlang afterall ya
+1449 added articilization to French, now is more natural.
+1451 I need subclause backing for clause final and subclause
+fronting for clause initial
+1511 will do that later, for now added gender recognition to
+Russian.  and improved text formating of output.
+1513 also need to make french recognize "an", or one, and put
+that in, instead of a le when appropriate. 
+1514 also I'd like to add adjective declensions to Russian as
+soon as possible.
+} 21 Apr 2015
+0122 can have optional adjective and adverb ending words, mostly
+for high noise scenarios, but also to free up word order.
+similarly to Russian. though ya, it is very low priority at the
+moment.  more pertinent is getting Russian adjectives
+conjugation for output.
+0242 I also need something that can switch word classes for me,
+so I don't need to define an adjective and noun etc for each.
+like describe and descrpition, or possible, possibly,
+and possibility,
+0248 it would require a somewhat more complex dictionary.
+0257 guess I'll sleep on it.
+0323 can use those adjective, noun, verb markers I was talking
+about earlier. then translate toMwak can simply have all of them
+as inputs, wheras translate from mwak will be subdivided into
+the word classes.
+0812 I just found out that adjective following noun is more
+common than preceding, so we'll have to move mwak around to do
+that. can probably rename the corresponding variables also.
+can call it adjectiveFinal and adverbFinal.
+0815 okay should be a simple enough fix, just gotta double check
+the adverb bit.
+0948 hmmm it seems that clauseFinal, and adjective final is the
+most common. as well as mood initial. yet postpositions and
+genitive initial. it seems rather confusing to me. 
+if mwak is made clause final, then it will be right branching,
+and thus will lean towards SVO. 
+0950 while languages may have started out as SOV, the general
+pattern seems to be to move into SVO, and possibly into VSO, but
+some VSO languages move back into SVO, wheras no SVO languages
+naturally move into SOV, only through influence of many SOV
+neighbours.  thus it seems that SVO, maybe the most "natural" or
+universal word-order, since it has a high rate of "sticking"
+factor. 
+0957 just because SOV was the original word order, doesn't mean
+it's the best one. 
+1007 well and obviously programming languages are all SVO or
+VSO.  I'm not aware of any SOV programming languages other than
+current incarnation of mwak. 
+1011 anyways we can keep it all as is, since it is the closest
+to the proto-human language. can always later on make some kind
+of SVO relative of it.  but for now, this is best.
+1022 sumerian is SOV, inflected, with adjectiveFinal and
+clauseFinal. hmmm
+1104 they were however a mix of cultures, semitic, samara and
+arabians.  
+1124 it seems chinese may be one of the oldest scripts. 
+1132 it makes sense to stick with chinese/hindu style since they
+are the most likely to support machine intelligence due to their
+beliefs in reincarnation or rebirth, and animist leanings. 
+1134 it seems the "pure" SOV languages in the china, north asia
+and India area, all have adjective-noun, genitive-initial,
+clause-initial.  Wheras the noun-adjectives SOV languages are
+mostly in the america's which are influenced by a variety of VO
+languages. also the relative clause and noun sample on wals
+doesn't seem to include most of north asia and uralic languages.
+1159 so mwak seems best suited for haplogroup M people of SOV.
+1200 the strong pioneers though are haplogroup N, of the SVO. 
+1200 thus I'm thinking of making a second version of mwak,
+call it something else.. perhaps share vocabulary, but be SVO
+style. leaning towards haplogroup N.
+Naomi is the hypothetical mother of Haplo N, so maybe can call
+it nawm. or nwam.  it is also for l1 and and l2 which are SVO,
+so perhaps nlam which isn't actually legal in mwak .. hmm
+lamn name in hittite, also other langs are in the extended
+section, so this one could be also..  and N 
+1242 hmmm but N also seeded the Urals, and yet they are SOV.
+in fact N seeded most of northern Asia, which is mostly SOV.
+only Europe (IJK) and Oceania (F) of the N has changed to SVO.
+also some of the ones that went over to the Americas of course..
+but the ones in the N homeland, north-central-asia, are all SOV. 
+so it was certainly SOV when M and N diverged. 170-70kya
+2230 Sandawee and KhoiKhoi also are SOV and the are the oldest
+L0 branch, so more SOV points. also Sandawee has stems which are
+common and simply modified for adjective, verb or noun, so we'll
+do likewise.  so need a word for adjective
+2233
+twif adjective	kfat	kfa
+niym noun  	tsun	tsu
+wiyp verb 	pyif	pyi
+} 22 Apr 2015
+1235 gotta fix up the numerals to be compliant with the single
+glyph number system. 
+m k y p w n s t l h f c
+kiyn kiym one
+tful twuk two
+tyin tsiy three
+1323 okay so I have the affixes for now
+kfa pyi tsu, covers adjective verb, noun, just like in wordnet.
+guess we'll try it with describe description for now. 
+describe can be the default or verb, description is noun, and
+descriptive is adjective. 
+descriptive kfa ki description tsu ki describe pyi ha
+1328 okay before we implement this lets get everything updated
+and saved. 
+1337 so how do we implement this exactly? 
+I guess the first stage will be the dictionary has to support
+it, so we can try making the modifications in for instance
+eng.txt or even smaller sample file. 
+then will need to update the translator, so that it would
+translate each word, and output it appropriately.
+our dictionary will have a toMwak, which will contain all the
+words as source words, so it will be fairly easy to go to mwak.
+the fromMwak, will have sub-tables for noun, adjective, and
+verb. and perhaps grammar words, or it could have a root or misc
+section that has grammar words and default words, if for
+instance the noun/adjective doesn't contian anything. 
+guess we can call it main. 
+1348 updated roadmap to reflect what is happening.
+2112 
+#MitochondrialEve spoke an SOV language during the depth of the 2nd last glacial period 130,000 years ago. #EarthDay #ProtoHumanLanguage
+
+#MitochondrialEve (Meve) possible #Biography: She lived during the depth of second last glaciation, in the African Great Lakes area. There was a major famine and many didn't have enough food to reach fertility. Meve was a matriarch, much as in a pack of wolves, was the first to eat, and was not shy to have her fill, thus reached fertility. If a human female is on the cusp of having enough food for fertility they are more likely to have daughters. To increase likelihood of daughters further, her primary mate was probably an elder, or one of the oldest members of the group, the older a man is, the lower the likelihood of having a male offspring, due to the fragility of the Y-chromosome.
+After having successfully had 6 or more children, her reputation likely soared, and her daughters then became the group leaders of neighboring groups, where they followed the same successful strategies. To this day, Meve's female descendants prefer older men, and Demand food when pregnant or lactating.
+2130
+#CO2 for the golden age of bio mass on earth, 300million to 66 million years ago, levels have been 1-2% currently they are 0.4%. #Earthday
+2133 Y-Chromosonal (Yadam) likely had a completely different
+strategy from Meve. He most likely lived in the depths of the 
+3rd last glaciation, around 250 thousand years ago. 
+his strategy likely involved forming raiding parties for
+acquiring food from other hominids. During the raid all or most
+of the reproductive age males would be eliminated, and the 
+females would be impregnated. Likely there was some
+stock-selection, to make sure that the offspring would breed
+true. so for groups which were too hairy, or whose foreheads
+weren't high enough even the women and babies were killed, 
+being judged as animals.  burning of their shelters is quite
+possible also, which would both disinfect the area, and lower
+the chances of retaliation, while increasing the likelyhood of
+warming. rape, pillage and burn (RPB) basically. 
+This kind of selection can explain why so little interbreeding
+occured with other hominid species. shortly after the bottleneck
+the weather started to warm up pretty fast, so the raiding
+parties expanded. 
+It is quite possible, even likely, that these were food
+gathering raids, and that they had their own tribe of women
+somewhere, which they would return to after a raid to get food.
+The RPB strategy minimized potential for retaliation, and later
+on the young of the raided could be recruited, assuming they
+looked sufficiently like Yadam. 
+When Yadam got older, into his fortiesTanganyikatrong and mean to women or children due to their dull wits.
+ which motivates Yadam to rile fellow small-brow, high foreheads
+ to commit mass genocide.
+0819 for the cover photo can have a thinnish health-weight
+pregnant african women in traditional garb standing in front of Tanganyika
+1131 Lyra could have been the pole star while Mave was alive
+1308 as a child perhaps Paydam witnessed the brutish raids of
+the homo heid, which had large brows and low foreheads, they
+were likely stronger and bulkeir, so Paydam's families usual 
+strategy was that of the Chetah, to outrun them. When the food
+and water got scarce, it promoted everyone to move into the
+river valleys, such as the Omo river valley.  There they were
+forced into confrontation with the Heid, which they had to
+exterminate in order to get their food and water. since they had
+larger brains, and higher ground and speed, 
+they managed to do it. 
+perhaps by distracting them and then burning their villages,
+afterwhich they could pick them off. 
+Paydam didn't have to do it much, he just had to start the
+pattern, which his sons would follow.
+perhasp they could have been called, high brow, where high was
+also big, like tall.  thus it was the high brows (homo 
+heidelbergensis) vs the low brows (homo sapiens)
+2257 I think it'll just be easier to use description for now,
+nouns are easier to use, and make into verbs.
+2300 otherwise considering using old english conjugation for
+words, though I'm guessing that wont be necessary, can simply
+just use a single word form. 
+2301 instead next I'll do sub-clause forwarding, or backing as
+the case may be. subclause realignment I guess.
+2314 old-english (simplified) 
+- adjectives are stem form
+-a singular noun
+-an plural noun
++-s genitive  addition
+-e present tense
+-de past tense
+-sye future tense (from PIE)
++-n subjunctive addition
+-ath imperative
+} 24 Apr 2015
+0737 subjective is used for random grammatical stuff in
+grammatical languages, so guess we wont use it, just like we
+have to mostly avoid le articles, due to their overuse in
+french.
+0749 thus can stick to the simple mood system we have thus far.
+0752 anyways meanwhile can add adjectives for the rest of the
+russian cases. 
+so accusative, dative, nominative, instrumental
+0757 also need to identify if it is plural.
+0830 adding paucal and multal
+1341 added english verb conjugation, based on modern english.
+though used accusative case from old english.
+1341 need to add verbAgreement conjugation to Russian.
+1354 okay so we need to get the stem, 
+1443 basically or almost have first class of russian words
+1529 so I just figured out that "some" is plural in English.
+hmmm it's not quite the same.
+1531 seems like it may be best to put words in a "to verb"
+fashion, as it is more likely to generate an infinitive which is
+easier to conjugate in other languages.
+} Apr 25 2015
+1000 discovered "evidence based" programming language, called
+Quorum, it is based on studies of what makes programming easier.
+1012 currently the array-selection version of of, is really
+part-of, wheras if we were to do templating it would be
+composed-of. for instance
+early phase part-of growth
+growth[phase.early];
+array composed-of integer
+Array<Integer>;
+though in javascript array of integer would be nonesense,
+since all arrays are composed of references. 
+1016 Quorum uses repeat instead of loop, we can also.
+1025 though there are typed arrays in javascript,
+ary composed-of Integer could become Int32Array.
+1225 so based on conversations with my wife, one of the best
+ways of explaining programming is via method of the abacus. 
+so I've come up with a binary abacus, that can be used by anyone
+with all their fingers, to represent a byte, thumb binary. 
+it can be made into a keyer glove, but is also useful for some
+simple calculations.
+2250 reversible half-adder
+A ha B ta half adder hi ya
+C hu 0 ha ya
+A ki B wu C1 ta C ha toffoli hi ya
+A wu B1 ta B ha cnot hi ya
+S hu B1 ha ya
+S ki C1 ki A ha out hi ya
+2254 reversible full-adder
+C wu S ta A ki B ha full adder hi de
+A ki B wu C1 ta 0 ha toffoli hi ya
+A wu B1 ta B ha cnot hi ya
+C ki B1 wu C2 ta C1 ha toffoli hi ya
+C wu B2 ta B1 ha cnot hi ya
+S hu B2 ha ya
+S ki C2 ki A ha out hi ya
+} Apr 26 2016
+0000 thinking of making so as cu, if I use it for output
+setting.
+0644 another option is to have a word for subject that is being
+defined, as opposed to agent doing the action. 
+otherwise since none of them are being used twice, and all of
+them continue to exist, it is actually optional to differentiate
+the signal names. though for static-single-assignment it would
+be easier.
+0652 I guess tripartite would make it easiest. 
+0710 actually can make destination in dative, 
+and then the one that gets modified is object,
+and by what it is modified is instrumental.
+1455 weird it is double translating on input it seems.
+1513 so still thinking about inflecting it, can't really call it
+old english, since old english was just so different,
+but perhaps we can borrow some stuff for modern english..
+or at least spel computer english.
+it seems we might just be able to keep it in infinite -an,
+much like the romance languages. 
+1519 om is used in proto-indo-european, 
+so we could actually be somewhat esperanto-like,
+and use -a for adjectives, -and -o for nouns,
+-om or -on for accusative case. 
+anyways lets try it with -an's  via ang for now.
+} 28 Apr 2015
+0041 added noun and adjective conjugation for English, it
+already works for Russian. also added mood conjugation for
+English, still have to do for russian. and also have to add
+participle conjugation for all languges.
+0946 so after English can do French,
+participles end with -ant, and adverbs with -ent
+0950 anyways what's left for English is participles.
+0959 hmmm there is overlap between old english imperative and
+old english plural, so looking for a difference earlier on.
+1005 might be able to use an o, or something like that -oth
+perhaps instead of -ath.  anyways so participles.
+1046 okay so finished participles, great so english is pretty
+good now.
+1242 so I should probably make that conjugation dictionary also,
+that converts opinon to opinion and describon to description,
+for all the various exceptions which a langauge may have.
+can have it for conjugation levels higher than 7 or something.
+0416 right so a few more plural cases for Russian
+0443 okay need future tense also.
+0551 okay added, seems to all work now.
+2023 hmmm in my Chinese the object isn't following the verb,
+weird.
+2042 maybe it's some clauseInitial stuff or something.
+2053 seems it's not matching the caseWords properly.
+2059 I untranslated the casewords to make it work, but not sure
+why they were translated in the first place, I think they were
+being used for something, not sure what though.
+2103 now it thinks everything is a nominal.
+2212 okay I fixed it up.
+} 04 May 2015
+0707 m k y p w n
+} 04 May 2015
+1112 can't understand participles, thought they were adverbs,
+but apparently they are more vague, not a true part of speech,
+so will change Englisho to reflect this. 
+Also thinking that it seems the subject or nominative case is
+most likely to retain the case ending, so can figure out an
+appropriate case ending that distinguishes subject from
+"oblique". either all the others will be an's as in the current
+nominative or something else. 
+0744 looked at poetry for function layout.
+1120 may be able to set up performance testing to find what
+parts of algorithm need to be optimized so can use larger
+dictionaries.
+1409 anyways so conditionals. 
+2211 cool getting close
+just got some extra close brackets somewhere.
+} 06 May 2015
+0703 so have to make final bracket and comparative tests.
+0718 made final bracket, fixing up spanish output,
+then will fix up chinese output.
+0742 seems like if then statements are like in english,
+and thus the reverse of their subordinate clauses.
+1414 hmmm so an issue is comparatives, they are different in
+different languages, and equals/identity is usually done through
+nominals, yet comparatives are done in a variety of ways, such
+as locatives, particles, conjoined and exceed comparatives.
+} 07 May 2015
+0650 so thinking of using ablative Locative for comparison, but
+will give the mailing list a few days to respond. 
+0652 have to fix chinese output anyways, also have to add more
+vocabulary.  hmmm I'm guessing we can probably shift them over
+to  TopClauseInitial, currently it is wrapped up with
+clauseInitial, so will need to seperate those two.
+} 08 May 2015
+0604 can tune up mwak for better IPA output.
+} 11 May 2015
+0628 so comparatives
+1343 there are at least two ways of implementing them. 
+one is that can have special conjugation classes for them,
+the other is can have API for them, which is preferable. 
+so for instance:
+su this be same from that ya
+this.same({"from":(that)});
+
+function same(args){
+base = args.from;
+if (base === this)
+return true;
+else return false; }
+
+1849 while that may work for most cases, seems it would be best
+to stuff it in the conjugator for performance reasons,
+considering how common comparisons are in programming, forcing
+them all to jump to another function would be a serious
+performance loss.
+} 12 May 2015
+0446 implemented comparatives as compounds words, same big, same
+small.  don't yet have support for junctions in a verb phrase.
+0452 gotta fix up french translation.
+0456 okay fixed, now nap time.
+} 13 May 2015
+0613 so now I guess it is comparative junctions.
+the easiest are the phrase level junctions,
+su this be same from that1 or that2 ya
+su this and this2 be same from that ya
+su this be small or big from that ya
+wheras higher level junctions would be tougher,
+can do some with yaor and while, but don't know how to put ones
+in brackets.
+for assembly level we already have enough complexity.
+} 14 May 2015
+0358 had a dream for a "Beer song" four liner. 
+at first dreamed about an assembly version with a goto:
+su number of bottle ob num 99 ya
+su beer song be label ya
+be say ob number of bottle and 
+quote word bottles of beer on the wall word unquote ya
+if number of bottle be big from 0 then be go to beer song ya
+0407 then dreamed about the go to uproar and changed it to a
+simple loop
+su number of bottle ob num 99 ya
+su beer song be start of repeat ya
+be say ob number of bottle and 
+quote word bottles of beer on the wall word unquote ya
+if number of bottle be small from 0 then be stop ob repeat ya
+su beer song be end of repeat ya
+0436 okay so I'd like to try coding something in asm.js, ideally
+I'd improve performance of SPEL, but to do that, would need to
+know where performance can be improved, so would need some kind
+of functioning performance analysis tool.
+0450 hmmm maybe will have to just do some sample program or
+something. one of the most obvious issues for the web-app
+anyways is that it has to load a 4MB file, which is pretty
+ridiculous, so will have to trim that down significantly. likely
+by making the loading of the dictionaries through XHR request.
+0546 anyways haven't actually made any asm js code thus far,
+haven't been able to get any profilers working either. 
+can just output something like a standard loop.
+
+var bottle[number] = 99;//su number of bottle ob num 99 ya
+while(true){//su beer song be start of repeat ya
+console.log(bottle[number]+//be say ob number of bottle and 
+//quote word bottles of beer on the wall word unquote ya
+" bottles of beer on the wall ");
+//if su number of bottle be small from 1 then be stop ob repeat ya
+if (bottle[number] <1) break;
+// else be decrement ob number of bottle ya
+bottle[number]--
+}//su beer song be end of repeat ya
+0553 personally I think the goto makes more sense to novices,
+though would have to ask on the mailing list I guess.
+however goto has big trouble in terms of support,
+so many people got so scared of it,
+that many lost support for it.
+0603 anyways got to catch hopefully at least 15min nap before
+the baby wakes up.
+0959 best to try to implement the minimum for now and then work
+our way up, so probably loops before functions. usually
+implemented with repeat hmm. 
+
+su number of bottle ob num 99 ya
+
+su chorus be start ya
+be say ob number of bottle and
+quote word bottles of beer on the wall, word unquote and
+number of bottle and 
+quote word bottles of beer. word unquote ya
+be decrement ob number of bottle ya
+be say ob
+quote word take one down and pass it around, word unquote 
+and number of bottle and 
+quote word bottles of beer on the wall. word unquote ya
+su chorus be end ya
+
+be repeat ob chorus if number of bottle be big from 0 ya
+
+1344 this would be equivalent to javascript of
+
+var bottle = new Object();
+var number = "number";
+bottle["number"]=99;
+
+function chorus(){
+console.log(bottle[number]
++ " bottles of beer on the wall.");
+console.log(bottle[number]
++" bottles of beer");
+bottle["number"]--;
+console.log("Take one down and pass it around, "
++bottle["number"]+" bottles of beer on the wall.");
+}
+
+
+while (bottle["number"]>0){
+chorus();
+}
+
+1408 testing
+1447 okay that layout seems good, the repeat turns into a while
+statement. how about a for statement, how do we do that?
+like 10 times, guess need to do some more research. on that.
+meanwhile can ask mailing list about Early Modern English
+conjugation. 
+2134 anyways so how do we do for loops using repeat?
+2159 was reading about benchmarks game, seems like we'll have to
+make our own tests for that. 
+2201 another option is to contribute to rosetta code, which has
+many different tasks which are done in various languages. 
+2212 they have over 700 tasks, but looping structures is one of
+the basic ones. 
+so there are for loops, and for-each loops,
+there is also the parallel programming stuff map, reduce,
+which are in some ways quite similar. 
+for-loop:
+be repeat for iterator from 99 til 0 ya
+for-each:
+be repeat for bottle list ya
+map:
+be repeat ob chorus for bottle list to out list ya
+2247 oh right, so there is also else, not sure we have a word
+for it in mwak, and else-if or elif
+cya is else for now anyways.
+sli is else-if.
+2305 so reduce is best thought of as fold
+be fold ob list by function to result ya
+} 15 May 2015
+0657 okay so functions are basically the same as the chorus,
+except that they can have parameters, so for instance if chorus
+took bottle as parameter.
+su chorus be start ob bottle ya
+su chorus be end ya
+that would translate to:
+function chorus(bottle){
+}
+A more sophisticated example would be for instance addition. 
+I'm thinking maybe it is best to make with the instrumental, as
+by can also be near. though I guess by translates to po in
+russian, which is a purely instrumental thing, and there is the
+word near or nearby in case we need to express something is 
+near something else.  though generally tools are expressed with
+with, rather than by.
+anyways so addition
+be add ob augend by addend to sum ya
+be subtract ob minuend by subtrahend to difference ya
+be multiply ob multiplicand by multiplier to product ya
+be divide ob dividend by divisor to quotient ya
+be modulo ob dividend by divisor to remainder ya
+be nth-root ob radicand by degree to root ya
+be exponent ob base by exponent to power ya
+be logarithm ob antilogarithm by base to exponent ya
+0744 now I'm thinking about the to part, since it could return a
+value, or if there is no to then it can modify the object, this
+would be consistent with how it works in assembly languages.
+}16 May 2015
+0459 that-which contents can be evaluated and is replaced by
+it's result.
+so 
+be multiply ob num 4 by that-which be add ob 2 by 3 ya
+becomes:
+be multiply ob num 4 by num 5 ya
+or more simply in the virtual machine assembly
+where edx is to, and ebx is bo, and ecx is by
+mov ecx,3
+mov ebx,2
+add ebx,ecx ; add it to bo
+mov ecx,ebx ; move it to by
+mov ebx,4;
+add ebx,ecx;
+} 16 May 2015
+1644 I like the Sam command language, or at least the structured
+regular expressions, especially because they are so composable.
+will use it as a base for the SPEL text editor, which takes SPEL
+commands as input for modifying files. that way can edit files
+through speach. 
+would need to have a way of expressing all the same things
+regular expressions express, but through words instead of arcane
+symbols. 
+} 17 May 2015
+0700 got to edit the Spanish conjugation a bit perhaps.
+0716 thinking of making head stress mandatory, can lead to some
+antibacchius poetry, but I guess it's okay.
+0730 okay fixed it up, thus the mwak rhythms which are possible
+are, trochee, antibachius, double trochee, ditrochee, dactyl,
+and rarely primus paeon, that is for words themselves.
+} 18 May 2015
+1251 okay so next should be functions, blank functions like that
+beer song file.  I can put the beer song into the spel test, so
+can see how it parses for now.
+2106 thinking about how to include toffoli, cnot and fredkin in
+as natural a way as possible. 
+not:
+be flip ob abacus ya
+cnot:
+be flip ob abacus if condition ya
+toffoli:
+be flip ob abacus if condition and if other condition ya
+fredkin:
+be switch ob abacus by other abacus if condition ya
+2116 fredkin OR-gate:
+su other be num 1 ya
+be switch to r ob y by other if x ya
+fredkin AND gate:
+su result be num 0 ya
+be switch to r ob result by y if x ya
+toffoli AND gate:
+su result be num 0 ya
+be flip to r ob result if x and if y ya
+NAND gate:
+su result be num 0 ya
+be flip to r ob that-which be flip ob result if x and if y ya
+2138 hmmm I might need a case-level if for these. 
+ I could use when I guess.  either that or if's would have to be
+subordinatable. which would be somewhat harder.   
+XOR gate:
+su result be 0 ya
+su other be 1 ya
+be switch ob result by other when x ya
+be switch ob result by other when y ya
+2211 okay so set up the beer song in spel-test, will have to
+debug it and such. also have to add some more vocab words.
+} 19 May 2015
+0417 okay so gotta add a few more vocab words at least.
+0434 hmmm seems flip and switch are rare words.  can use trade
+instead of switch. can use turn instead of flip.
+turn is also good analogy for qubits,
+somewhat like Pauli-X gate, which rotates by pi around the x
+axis.
+0453 so toffoli:
+be turn ob x when a and when b ya
+fredkin:
+be trade ob x by a when b ya
+0500 okay anyways time to start implementing the song.
+reverse is turn around. 
+0527 guess I need a conjugation.text kind of thing.
+0552 have an idea of what participles are for.  its the
+difference between sentences.pop and sentences.pop(), the second
+being the participle form.  so if a  verb is used in a noun
+phrase, it can be in participle form.
+0601 okay cool got basic subText to function conversion.
+next can convert the non comparative and's into plus signs.
+0702 updated it.  next will need to get those sub phrases as sub
+types, and number types.
+1001 thinking about vowels and such. 
+based on formants it's better to use /ɛ/ instead of /e/ and /ɔ/
+instead of /o/.
+also thinking about English vowels:
+i /ɨ/
+ie /I/
+ai /e/
+e /ɛ/
+ae /æ/
+a /a/
+au /ɑ/
+ou /o/
+o /ɔ/
+1014 oh w/e no one really cares about what I think about English
+much anyways. so lets do some vocab work. or perhaps figure out
+the subPhrases or numbers. 
+1040 it is hanging up on quotes extract for numerals.
+1055 debugged :-)
+1058 next has to recognize numeral type, and conjugation will
+return the contents of it. afterwards will work on fixing the
+subPhrase to a subType. also possibly cleaning up the Type
+identification loop, exporting as much as possible to external
+modules or functions. 
+1307 anyways vocabulary time :-). nice and easy stuff.
+1903 adjusting numbers twuf for two
+m k y p w n s t l f c
+0 1 2 3 4 5 6 7 8 9 A
+0 nuls 1 kiyn  2 twuf 3 tyin 
+4 pyit 5 fwap 6 silk 7 syim 
+8 kcat 9 nift A tiyk
+0 1 2 3 4 5 6 7 8 9 A
+n k w y p f l m c s t
+1925 okay, so that will be the new glyph number sequence
+0 1 2 3 4 5 6 7 8 9 A B 
+n k w y p f l m c s t h
+alphabet can be:
+kyimf pha.ant swulc
+2300 wrote a fictional autobiography introduction,
+will translate it to SPEL and then post it in various languages.
+} 20 May 2015
+0703 so continue to debug I'm guessing.
+0712 okay so numeral is now working. 
+0717 next can add in the while loop, or fix the sub Types.
+0718 I'm not 100% certain of the best syntax for while loops
+yet, so I should work on sub types.. should do a git release
+before I work on it though, since it can be messy. 

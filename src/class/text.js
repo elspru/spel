@@ -7,7 +7,7 @@ var Word = require ("./word");
 var err = require("../lib/error");
 module.exports = Text;
 /// su sentence be object ya
-function Text(language, input, conjugationLevel) {
+function Text(language, input, conjLevel) {
 this.be = "Text";
 var tokens, i;
 if (typeof input === "string"){
@@ -22,7 +22,7 @@ else if (typeof input === "object"
 	this.sentences = new Array();
 	for (i=0; i< input.sentences.length; i++)
 		this.sentences[i]=new Sentence(language,
-input.sentences[i],conjugationLevel);
+input.sentences[i],conjLevel);
 	return this;
 }
 else throw new TypeError(input+" is not a valid Phrase input");
@@ -54,7 +54,7 @@ previousLength = otherTokens.length;
 firstSentence = parse.firstSentence(grammar,otherTokens);
 if (firstSentence.length === 0) break;
 sentence  = 
-new Sentence(language, firstSentence, conjugationLevel);
+new Sentence(language, firstSentence, conjLevel);
 sentences[sentenceIndex] = sentence;
 sentenceIndex++;
 otherTokens = otherTokens
@@ -110,9 +110,6 @@ while(true){
 // find subordinate text indexes from sentences
 var subTextSentencesI = subordinateTextIndexExtract(language
 ,sentences,startIndex);
-if (subTextSentencesI)
-console.log("found subText at "
-+sentences[subTextSentencesI[0]]);
 // if not found then return sentences ya
 if (! subTextSentencesI ) return sentences;
 startIndex = subTextSentencesI[1] + 1;
@@ -130,7 +127,6 @@ subTextObject.be = "Text";
 if (title) subTextObject.title = title;
 subTextObject.sentences = subTextSentences;
 var subText = new Text(language,subTextObject);
-console.log("after subText");
 // splice in subordinate text
 sentences.splice(subTextSentencesI[0],subTextSentences.length,
 subText);
@@ -323,12 +319,12 @@ result += sentences[i].toString(format)+newline;
 return result;//this.string;
 };
 Text.prototype.toLocaleString =
-function(language,format,type,conjugationLevel){
+function(language,format,type,conjLevel){
 var result = new String();
 var newline = '\n';
 var lineLength = 64;
 var conj = new Object()
-if (conjugationLevel >= 8) conj = language.grammar.conjugation;
+if (conjLevel >= 4) conj = language.grammar.conjugation;
 
 if (format){
 if(format.newline !== undefined) newline = format.newline;
@@ -339,14 +335,20 @@ var sentences = this.sentences;
 var sentencesLength = sentences.length;
 var i;
 for (i=0; i<sentencesLength; i++){
-result += sentences[i].toLocaleString(language, format, type,
-conjugationLevel)+newline;
+var theSentence = sentences[i];
+if (conj.text && (theSentence.be === "Text"))
+result+= conj.text(language,theSentence,format,type,conjLevel);
+else result+= theSentence.toLocaleString(language, format, type,
+conjLevel)+newline;
 }
 // format for max line length
+//result = "\t"+result; /* indent text */
 if (lineLength>0) result = wordWrap(result,lineLength);
 
+if(conjLevel >= 8){
 if (conj.header) result = conj.header + result;
 if (conj.footer) result = result + conj.footer;
+}
 
 return result;
 };
@@ -364,7 +366,10 @@ var regex =
 '.{1,' +width+ '}(?=\\s|$)' + 
 (cut ? '|.{' +width+ '}|.+$' : '|\\S+?(\\s|$)');
 
-return str.match( RegExp(regex, 'g') ).join( brk );
+var strA=str.match(RegExp(regex, 'g'))
+/* remove leading spaces */
+strA = strA.map(function(str){return str.replace(/^ /,"")});
+return strA.join( brk );
 }
 
 Text.prototype.insert = function(language,index,input){

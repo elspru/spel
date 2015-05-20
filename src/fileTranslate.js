@@ -40,7 +40,7 @@ console.log(filename);
 var filenameParts = filename.split('.');
 var filenameLangCodeI = filenameParts.length-2;
 var format = new Object();
-var conjugationLevel = 3;
+var conjugationLevel = 5;
 
 var word = fromLangFileTranslate(filename);
 //langs.forEach(toLangFileTranslate.curry(conjugationLevel));

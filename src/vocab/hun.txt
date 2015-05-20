@@ -33,6 +33,7 @@ ci li hu eh? li ha ya
 fu li hu akarat li ha ya
 mya li hu talán li ha ya
 ca li hu semleges li ha ya
+myi li hu sok li ha ya
 kyi li hu feltételesen li ha ya
 mwa li hu a li ha ya
 kya li hu félre li ha ya
@@ -43,31 +44,39 @@ ksa li hu idézőjel-bezárva li ha ya
 kli li hu neki li ha ya
 kla li hu de li ha ya
 klu li hu záradékot-tail li ha ya
+kfa li hu melléknév-toldással li ha ya
 kca li hu haha li ha ya
+pyi li hu ige-toldással li ha ya
 pya li hu tovább li ha ya
 pwa li hu yaor li ha ya
 psu li hu a-forrásból li ha ya
 pli li hu például li ha ya
 pca li hu vidám li ha ya
+pcu li hu is li ha ya
 nyi li hu nem li ha ya
 nya li hu azaz li ha ya
+nyu li hu egy li ha ya
 sya li hu egyes-szám li ha ya
 syi li hu nagyon li ha ya
 syu li hu így li ha ya
 swi li hu míg li ha ya
+sli li hu else-if li ha ya
 sla li hu Helló li ha ya
 tyi li hu idézet li ha ya
 twu li hu kettős li ha ya
 tsa li hu amíg li ha ya
 tsi li hu igen li ha ya
-tsu li hu ki li ha ya
 tla li hu mert li ha ya
+tsu li hu főnév-toldással li ha ya
 fyi li hu neki li ha ya
 twa li hu majd li ha ya
+tcu li hu ki li ha ya
 tli li hu ord li ha ya
+fyu li hu kevés li ha ya
+cya li hu más li ha ya
 min hu kevesebb li ha ya
+miy hu emlékezet li ha ya
 mik hu csinál li ha ya
-miy hu várjon li ha ya
 mip hu múlt li ha ya
 mit hu középső li ha ya
 mak hu szó li ha ya
@@ -96,28 +105,31 @@ kum hu kereskedelem li ha ya
 kus hu élelmiszer li ha ya
 kuc hu kis li ha ya
 yis hu ír li ha ya
+kul hu cél li ha ya
 kup hu megvesz li ha ya
 kun hu piros li ha ya
 yik hu tagad li ha ya
+yit hu várjon li ha ya
 yum hu végtag li ha ya
 yat hu olvas li ha ya
 yun hu levon li ha ya
 yak hu néhány li ha ya
+yup hu jó li ha ya
+yuw hu év li ha ya
 yac hu szélesség li ha ya
 pis hu szaporodnak li ha ya
 pit hu fehér li ha ya
 pic hu pisi li ha ya
 yus hu használat li ha ya
 pay hu több li ha ya
+pam hu kar li ha ya
 yul hu egész li ha ya
-pam hu jó li ha ya
 pas hu hágó li ha ya
-pak hu test li ha ya
 paw hu hely li ha ya
+pak hu test li ha ya
 pan hu találkozik li ha ya
 pus hu befutó li ha ya
 pat hu apa li ha ya
-pal hu sok li ha ya
 puk hu rossz li ha ya
 win hu győzelem li ha ya
 pac hu öröm li ha ya
@@ -145,6 +157,7 @@ nam hu szám li ha ya
 saw hu fekete li ha ya
 sik hu magasság li ha ya
 sil hu könnyű li ha ya
+sak hu egyetért li ha ya
 nul hu nulla li ha ya
 suy hu veszít li ha ya
 sap hu egyszerű li ha ya
@@ -157,6 +170,7 @@ san hu maga li ha ya
 sat hu hang li ha ya
 tis hu belehel li ha ya
 sut hu méret li ha ya
+tiw hu fal li ha ya
 tiy hu nap li ha ya
 sup hu fizet li ha ya
 tip hu kezdődik li ha ya
@@ -166,24 +180,33 @@ tak hu hozzáad li ha ya
 tuk hu ital li ha ya
 tam hu téma li ha ya
 tay hu tesz li ha ya
+tal hu nyakkendő li ha ya
 tan hu ad li ha ya
 tas hu választ li ha ya
+tuy hu ismétlés li ha ya
 tup hu mélység li ha ya
 tum hu hőmérséklet li ha ya
+tun hu játékszer li ha ya
 tap hu érintés li ha ya
 tuf hu nehéz li ha ya
+ton hu tonna li ha ya
 fin hu női li ha ya
 fit hu illő li ha ya
+lif hu balra li ha ya
 tul hu szerszám li ha ya
 lik hu Elektromos-töltés li ha ya
+fam hu család li ha ya
 lin hu hossz li ha ya
 ciy hu zöld li ha ya
 cif hu vízválasztó li ha ya
 lis hu él li ha ya
+cis hu élet li ha ya
 lit hu glyph li ha ya
 myut hu import li ha ya
+cay hu jobb li ha ya
+cin hu jel li ha ya
 cim hu hall li ha ya
-cik hu kevés li ha ya
+cum hu alak li ha ya
 myit hu eszébe-jut li ha ya
 cak hu dolog li ha ya
 can hu esély li ha ya
@@ -191,11 +214,14 @@ myun hu foglalkoztat li ha ya
 cal hu mozgás li ha ya
 myan hu lágy li ha ya
 kyim hu játék li ha ya
+mwut hu ellenáll li ha ya
 myat hu math li ha ya
 kyip hu ruházat li ha ya
 myul hu erkölcsi li ha ya
 kwit hu súly li ha ya
 kwat hu gondoskodás li ha ya
+kyam hu visz li ha ya
+kyit hu minden li ha ya
 myin hu álom li ha ya
 kyus hu móka li ha ya
 kyil hu kör li ha ya
@@ -203,49 +229,65 @@ kyin hu általános li ha ya
 kyap hu másolat li ha ya
 kyup hu csoport li ha ya
 ksat hu pontos li ha ya
+ksiy hu szakértő li ha ya
 kyat hu kemény li ha ya
 ksil hu kristály li ha ya
 kyul hu szabály li ha ya
 kwal hu nyelv li ha ya
+ksap hu kötél li ha ya
 ksip hu hozzáférés li ha ya
 ksam hu sötét li ha ya
 ksin hu kontextus li ha ya
 ksal hu galaktika li ha ya
-ksap hu expressz li ha ya
 ksan hu szervez li ha ya
 ksum hu közöl li ha ya
 kliy hu világos li ha ya
 klin hu elektron li ha ya
+ksuf hu leírására li ha ya
 ktin hu vallás li ha ya
 kcat hu nyolc li ha ya
 pyik hu szünet li ha ya
 ksut hu gyűjt li ha ya
 pyit hu négy li ha ya
+klun hu éhség li ha ya
 ksul hu iskola li ha ya
 klaw hu nevetés li ha ya
 pyaw hu pár li ha ya
+kcil hu ügyesség li ha ya
+kfat hu melléknév li ha ya
 klas hu osztály li ha ya
+kcut hu rendetlenség li ha ya
+kcuf hu elég li ha ya
+kcun hu konjugált li ha ya
 klat hu záradék li ha ya
 kcim hu vegyi li ha ya
 klac hu kivéve li ha ya
 pyil hu fellebbezés li ha ya
 kfin hu config li ha ya
+pyif hu ige li ha ya
 pyas hu gyors li ha ya
 pyin hu tapasztalat li ha ya
 pyam hu program li ha ya
 pyat hu azonnali li ha ya
+pyaf hu teljesít li ha ya
 pyan hu névmás li ha ya
+pyun hu madár li ha ya
+pyal hu párhuzamos li ha ya
+pyac hu csoda li ha ya
 pyut hu proton li ha ya
 psil hu varázslat li ha ya
 pyul hu kelés li ha ya
 pwas hu válasz li ha ya
 pwil hu változó li ha ya
 pwut hu jóváhagy li ha ya
+psin hu dugóhúzó li ha ya
 psiy hu nyomás li ha ya
 pyuf hu bizonyíték li ha ya
+psam hu szemben li ha ya
 psit hu sebesség li ha ya
 pyuc hu program li ha ya
 psan hu űr li ha ya
+psaf hu válasz li ha ya
 psat hu felületi li ha ya
 pfis hu preferencia li ha ya
 psal hu vitorla li ha ya
@@ -255,8 +297,11 @@ psut hu ígéret li ha ya
 nyat hu belép li ha ya
 plum hu probléma li ha ya
 plam hu vérplazma li ha ya
+pluy hu népszerű li ha ya
 plin hu sík li ha ya
 nyul hu tekercs li ha ya
+plut hu por li ha ya
+plun hu talán li ha ya
 syim hu hét li ha ya
 pfal hu megbukik li ha ya
 syip hu tiszta li ha ya
@@ -266,7 +311,6 @@ plan hu terv li ha ya
 plat hu bolygó li ha ya
 syan hu cián li ha ya
 pfus hu busz li ha ya
-plis hu közeli li ha ya
 swit hu kapcsoló li ha ya
 play hu játék li ha ya
 nlic hu Angol li ha ya
@@ -286,7 +330,7 @@ swat hu víz li ha ya
 swuy hu kérdés li ha ya
 swun hu alvás li ha ya
 syit hu küld li ha ya
-tyif hu érdemes li ha ya
+slat hu oldalsó li ha ya
 syak hu ébren li ha ya
 slof hu szókincs li ha ya
 slam hu szublimál li ha ya
@@ -298,13 +342,14 @@ tyas hu dob li ha ya
 tyic hu irány li ha ya
 slim hu példa li ha ya
 tyus hu ügy li ha ya
+tyif hu fordít li ha ya
 tkic hu fordítás-szótár li ha ya
-twif hu melléknév li ha ya
 tyis hu átmenet li ha ya
-tsik hu hat li ha ya
 tsiy hu történet li ha ya
 tsip hu lépés li ha ya
 tyuc hu tanít li ha ya
+tyuk hu objektum li ha ya
+tyuf hu különböző li ha ya
 tyil hu hideg li ha ya
 tyam hu atom li ha ya
 tyak hu kiáltás li ha ya
@@ -314,6 +359,7 @@ tyan hu húr li ha ya
 tyup hu robot li ha ya
 tsiw hu műhold li ha ya
 twis hu igaz li ha ya
+tsic hu próba li ha ya
 tsim hu együtt li ha ya
 tsin hu oktatás li ha ya
 tsuy hu ül li ha ya
@@ -321,30 +367,39 @@ tsak hu támadás li ha ya
 tsan hu diák li ha ya
 tsil hu megérdemel li ha ya
 tsay hu csillag li ha ya
+tsac hu növekedés li ha ya
 tsam hu cél li ha ya
 tsum hu tanulmány li ha ya
 tlas hu tál li ha ya
 tsap hu ingatlan li ha ya
 tsal hu állam li ha ya
 tsaf hu íz li ha ya
+tsun hu főnév li ha ya
 tsul hu felnőtt li ha ya
-tful hu két li ha ya
+tlay hu szeres li ha ya
 tsuk hu bolt li ha ya
+tlum hu régi li ha ya
 tlis hu vágy li ha ya
 tcap hu átlátszó li ha ya
 tlik hu elektromosság li ha ya
 tlin hu sorrendi li ha ya
+tfan hu átutalás li ha ya
+tfas hu katasztrófa li ha ya
 tlun hu triple-pont li ha ya
+tfun hu bizalom li ha ya
 tfim hu ideiglenes li ha ya
 tfin hu egyéni li ha ya
 fwap hu öt li ha ya
+tciy hu változás li ha ya
 tfak hu kosz li ha ya
-tlam hu fordít li ha ya
 flan hu árvíz li ha ya
+tcik hu csekk li ha ya
 flat hu lapos li ha ya
 tcil hu börtön li ha ya
+tcum hu csatlakozik li ha ya
 tfus hu kár li ha ya
 tcin hu lánc li ha ya
+tcuy hu kívül li ha ya
 tcun hu teljesítmény li ha ya
 tlan hu hagyomány li ha ya
 tfal hu akta li ha ya
@@ -352,20 +407,23 @@ flay hu repül li ha ya
 tcan hu fa li ha ya
 fwas hu fázis li ha ya
 mink hu elme li ha ya
+flun hu kérem li ha ya
 fyas hu kifejezés li ha ya
 cyin hu tanul li ha ya
+clin hu kapcsolat li ha ya
 fwil hu erő li ha ya
 flit hu fuvola li ha ya
-clin hu kapcsolat li ha ya
 mayn hu összhang li ha ya
 flut hu virág li ha ya
 mant hu bíborvörös li ha ya
+miyn hu kisebb li ha ya
 miyt hu tudatában-van li ha ya
 fluc hu folyik li ha ya
 clut hu szuperkritikus-folyadék- li ha ya
 clum hu mondat li ha ya
 miyk hu küld li ha ya
 mist hu intézkedés li ha ya
+mayc hu kép li ha ya
 milt hu olvadás li ha ya
 musk hu zene li ha ya
 mayp hu térkép li ha ya
@@ -373,11 +431,15 @@ mans hu emberi li ha ya
 mayt hu képzetes-egység li ha ya
 mast hu ügy li ha ya
 kiyn hu egy li ha ya
+muyn hu bolond li ha ya
+muyp hu javul li ha ya
 kint hu megtérít li ha ya
+muyk hu jelentősebb li ha ya
 miwk hu személy li ha ya
 must hu legtöbb li ha ya
 munk hu lehetséges li ha ya
 munt hu hangulat li ha ya
+muft hu meghal li ha ya
 mint hu módszer li ha ya
 muyt hu szövetséges li ha ya
 malt hu anyagi li ha ya
@@ -392,6 +454,7 @@ kift hu megbocsát li ha ya
 kisp hu exponent li ha ya
 kays hu nyelvtani-ügyben li ha ya
 kayn hu flow-áram li ha ya
+kanp hu csatlakoztassa li ha ya
 kayt hu meleg li ha ya
 kaws hu gáz li ha ya
 kimt hu lejtés li ha ya
@@ -401,30 +464,36 @@ kumt hu parancs li ha ya
 kamt hu nyelvtan li ha ya
 yinp hu visszatérés li ha ya
 kuym hu közös li ha ya
-kuyn hu igeragozás li ha ya
 yilk hu sárga li ha ya
 yawt hu kár li ha ya
+kuct hu bűncselekmény li ha ya
 kuyt hu kritikus-pont li ha ya
 kuls hu kegyetlen li ha ya
 kusp hu összeomlás li ha ya
 kust hu állandó li ha ya
+yisk hu gazdag li ha ya
 yist hu export li ha ya
 yimt hu ritmus li ha ya
 kuwt hu kód li ha ya
-piyn hu vélemény li ha ya
 yink hu gyűrű li ha ya
 yasp hu munka li ha ya
+yift hu érdemes li ha ya
 yamt hu csodál li ha ya
 kunt hu vezérlés li ha ya
 kult hu kultúra li ha ya
 yalt hu korai li ha ya
 yilt hu Eulers-szám li ha ya
+yumt hu kegyelem li ha ya
 yusk hu kelet li ha ya
 yask hu reakció li ha ya
 yuyp hu Európa li ha ya
+yuns hu Uránusz li ha ya
+yust hu pihenés li ha ya
 yunt hu konténer li ha ya
 yast hu ingyen li ha ya
+piyn hu vél li ha ya
 yimk hu kérdez li ha ya
+pint hu működik li ha ya
 pist hu engedély li ha ya
 yalk hu jármű li ha ya
 yulp hu szerep li ha ya
@@ -432,39 +501,52 @@ piys hu pi li ha ya
 pamt hu állandó li ha ya
 pays hu bázis li ha ya
 yult hu hasznosság li ha ya
+pans hu Spanyol li ha ya
 puyk hu nyelvtani-objektum li ha ya
+puyt hu harapás li ha ya
 panp hu kenyér li ha ya
-nist hu kilenc li ha ya
 past hu gyárt li ha ya
+puwt hu ad li ha ya
+puls hu csók li ha ya
+pult hu üveg li ha ya
+pust hu levél li ha ya
 pant hu kölcsön li ha ya
+pusk hu terhelés li ha ya
 nuys hu zaj li ha ya
 punt hu pont li ha ya
+niwt hu hálózat li ha ya
 nuls hu nulla li ha ya
-pust hu por li ha ya
 pack hu élvez li ha ya
 siyt hu javasol li ha ya
 nims hu animizmus li ha ya
-pult hu régi li ha ya
 sift hu műszak li ha ya
+numt hu jegyzet li ha ya
 sayk hu bölcs li ha ya
 nilt hu intelligencia li ha ya
+nayt hu ritka li ha ya
 nast hu kamat li ha ya
 nuyt hu északi li ha ya
 nusp hu elfelejt li ha ya
-wiyp hu ige li ha ya
 sanp hu kiterjeszteni li ha ya
 wins hu Vénusz li ha ya
 wuym hu kötet li ha ya
 wint hu szél li ha ya
+sink hu csökkenés li ha ya
 tiyk hu tíz li ha ya
 tiyn hu folytatódik li ha ya
 siyn hu látszik li ha ya
 niyt hu n-edik-root li ha ya
-niym hu főnév li ha ya
 tiws hu színház li ha ya
 nuks hu unix li ha ya
 nust hu értesítés li ha ya
+salc hu szociális li ha ya
+sact hu lő li ha ya
+sank hu gyakran li ha ya
+sumt hu téma li ha ya
+sunp hu Feltételezem li ha ya
+suyt hu helyes li ha ya
 sunt hu déli li ha ya
+sucp hu házastárs li ha ya
 sulc hu megoldás li ha ya
 sark hu gúny li ha ya
 nuft hu ellenséges li ha ya
@@ -475,29 +557,36 @@ sayt hu fordulatszám-of-fény li ha ya
 tiyf hu hajtás li ha ya
 sant hu művészet li ha ya
 sint hu érez li ha ya
-suyt hu nyelvtani-téma li ha ya
+tins hu sűrű li ha ya
 tawk hu hatóság li ha ya
 tiys hu távolság li ha ya
 tink hu szöveg li ha ya
+ticp hu majdnem li ha ya
 timp hu feszült li ha ya
 tisk hu szöveg li ha ya
 tinp hu golden-arány li ha ya
 tiwk hu aktivitás li ha ya
+tayf hu ajánlat li ha ya
 tisp hu képvisel li ha ya
 tayk hu csatolja li ha ya
 tuym hu világ li ha ya
 liys hu szabadság li ha ya
 task hu feladat li ha ya
+talk hu beszélgetés li ha ya
 tank hu hirtelen li ha ya
+talf hu elrejt li ha ya
 taym hu idő li ha ya
 talp hu táblázat li ha ya
+tasp hu adatbázis li ha ya
+tuyk hu orvos li ha ya
+tuyn hu fordulat li ha ya
 tuys hu tolvaj li ha ya
+tuyc hu elpusztít li ha ya
 lisk hu vakáció li ha ya
 tukc hu Török li ha ya
 tayn hu terület li ha ya
 layt hu tizenegy li ha ya
 lank hu helyi li ha ya
-tunk hu agy li ha ya
 tusk hu haladás li ha ya
 tamk hu néz li ha ya
 liwk hu jogi li ha ya
@@ -510,6 +599,8 @@ fals hu hamis li ha ya
 falt hu alapértelmezett li ha ya
 funk hu függvény li ha ya
 lant hu lassú li ha ya
+last hu lista li ha ya
+laft hu haszon li ha ya
 fult hu hotel li ha ya
 liyk hu folyadék li ha ya
 liwt hu ajándék li ha ya
@@ -518,12 +609,17 @@ fint hu talál li ha ya
 liyn hu vonal li ha ya
 layk hu tó li ha ya
 link hu link li ha ya
+fast hu látogatás li ha ya
+fisk hu elhelyezi li ha ya
 faym hu farm li ha ya
 lint hu belül li ha ya
+fuyk hu szegény li ha ya
 fans hu Francia li ha ya
 lumk hu logaritmus li ha ya
 lunt hu emberek li ha ya
 fuym hu nyomtatvány li ha ya
+cink hu kívánság li ha ya
+cint hu ügynök li ha ya
 funm hu fonéma li ha ya
 lunp hu hurok li ha ya
 luwt hu lant li ha ya

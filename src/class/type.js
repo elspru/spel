@@ -89,8 +89,9 @@ var dict = language.dictionary.toMwak
 var translate = require("../compile/translate");
 var transTokens = translate.array(dict,tokens);
 var headI = parse.typeHeadIndex(grammar,transTokens);
-var bodyWords = transTokens.slice(headI[0],headI[1]);
-var headWords = transTokens.slice(headI[2],headI[3]);
+var bodyWords = tokens.slice(headI[0],headI[1]);
+var headWords = tokens.slice(headI[2],headI[3]);
+
 
 // if head word is typeword then set it
 var grammar = language.grammar;
@@ -122,7 +123,7 @@ this.head = new Word(language,quoteT.slice(0,1));
 }
 }
 // set number literal
-else if (grammar.quotes.number === headWord){
+else if (parse.wordMatch(grammar.quotes.numeral, headWord)){
 // if big endian then reverse order of numbers
 this.type = "nam";
 var numberTokens = new String();
@@ -144,7 +145,7 @@ this.head = new Word(language, headWord); }
 }
 else if ( headWords.length > 0){
 if (bodyWords.length >0){
-this.body = new Word(language,bodyWords);
+this.body = new Word(language,bodyWords,partOfSpeech);
 this.head = new Word(language,headWords);
 }else{
 this.head = new Word(language,headWords);
@@ -253,6 +254,8 @@ else if (conj && conj.format && conj.format.joiner !== undefined)
 joiner = conj.format.joiner;
 
 if (this.type === "nam" ){
+if (conj.numeral) 
+return conj.numeral(language,this,format,type,conjLevel);
 if (wordOrder.littleEndian !== true)
 body = tokensAndGlyphsReverse(this.body).join(joiner);
 else body = (this.body).join(joiner);

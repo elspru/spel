@@ -191,7 +191,7 @@ t.plan(4);
 var string = "si hu lis ha ku si mwa myan hi pac twa ya";
 var engString = "if su them ob live then joy be soft with them ya";
 var jsonString =
-'{"be":"Sentence","phrases":[{"be":"TopClause","body":{"be":"Sentence","phrases":[{"be":"Phrase","body":{"be":"Type","head":{"be":"Word","head":"si"}},"head":{"be":"Word","head":"hu"}},{"be":"Phrase","body":{"be":"Type","body":{"be":"Word","head":"lis"}},"head":{"be":"Word","head":"ha"}}],"nominal":true},"head":{"be":"Word","head":"ku"}},{"be":"TopClause","body":{"be":"Sentence","phrases":[{"be":"Phrase","body":{"be":"Type","body":{"be":"Word","body":["si","mwa"],"head":"myan"}},"head":{"be":"Word","head":"hi"}}],"mood":{"be":"Word","head":"pac"}},"head":{"be":"Word","head":"twa"}}],"head":{"be":"Word","head":"ya"},"nominal":true}'
+'{"be":"Sentence","phrases":[{"be":"TopClause","body":{"be":"Sentence","phrases":[{"be":"Phrase","body":{"be":"Type","head":{"be":"Word","head":"si"}},"head":{"be":"Word","head":"hu"}},{"be":"Phrase","body":{"be":"Type","body":{"be":"Word","head":"lis"}},"head":{"be":"Word","head":"ha"}}],"nominal":true},"head":{"be":"Word","head":"ku"}},{"be":"TopClause","body":{"be":"Sentence","phrases":[{"be":"Phrase","body":{"be":"Type","head":{"be":"Word","head":"si"}},"head":{"be":"Word","head":"mwa"}},{"be":"Phrase","body":{"be":"Type","body":{"be":"Word","head":"myan"}},"head":{"be":"Word","head":"hi"}}],"mood":{"be":"Word","head":"pac"}},"head":{"be":"Word","head":"twa"}}],"head":{"be":"Word","head":"ya"},"nominal":true}'
 ;
 var object = new Sentence(mwak,string);
 t.equal(JSON.stringify(object), jsonString, "JSON");
@@ -210,7 +210,7 @@ t.plan(4);
 var string = "si hu lis ha ku si mwa myan hi pac twa ya";
 var engString = "if su them ob live then joy be soft with them ya";
 var jsonString =
-'{"be":"Sentence","phrases":[{"be":"TopClause","body":{"be":"Sentence","phrases":[{"be":"Phrase","body":{"be":"Type","head":{"be":"Word","head":"si"}},"head":{"be":"Word","head":"hu"}},{"be":"Phrase","body":{"be":"Type","body":{"be":"Word","head":"lis"}},"head":{"be":"Word","head":"ha"}}],"nominal":true},"head":{"be":"Word","head":"ku"}},{"be":"TopClause","body":{"be":"Sentence","phrases":[{"be":"Phrase","body":{"be":"Type","body":{"be":"Word","body":["si","mwa"],"head":"myan"}},"head":{"be":"Word","head":"hi"}}],"mood":{"be":"Word","head":"pac"}},"head":{"be":"Word","head":"twa"}}],"head":{"be":"Word","head":"ya"},"nominal":true}'
+'{"be":"Sentence","phrases":[{"be":"TopClause","body":{"be":"Sentence","phrases":[{"be":"Phrase","body":{"be":"Type","head":{"be":"Word","head":"si"}},"head":{"be":"Word","head":"hu"}},{"be":"Phrase","body":{"be":"Type","body":{"be":"Word","head":"lis"}},"head":{"be":"Word","head":"ha"}}],"nominal":true},"head":{"be":"Word","head":"ku"}},{"be":"TopClause","body":{"be":"Sentence","phrases":[{"be":"Phrase","body":{"be":"Type","head":{"be":"Word","head":"si"}},"head":{"be":"Word","head":"mwa"}},{"be":"Phrase","body":{"be":"Type","body":{"be":"Word","head":"myan"}},"head":{"be":"Word","head":"hi"}}],"mood":{"be":"Word","head":"pac"}},"head":{"be":"Word","head":"twa"}}],"head":{"be":"Word","head":"ya"},"nominal":true}'
 ;
 var object = new Sentence(mwak,string);
 t.equal(JSON.stringify(object), jsonString, "JSON");

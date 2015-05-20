@@ -58,8 +58,6 @@ if [[ $@ == *"k"* || $@ == *"c"*  || $@ == *"q"* ]]
 then ((K=$K+1)); export K=$K; fi
 if [[  $@ == *"g"*  || $@ == *"ɡ"* || $@ == *"ɟ"*  ]]
 then ((G=$G+1)); export G=$G; fi
-if [[ $@ == *"h"* || $@ == *"x"* ||  $@ == *"ħ"* || $@ == *"ɣ"* ]]
-then ((H=$H+1)); export H=$H; fi
 if [[ $@ == *"p"*  ]];
 then ((P=$P+1)); export P=$P; fi
 if [[  $@ == *"b"* ]];
@@ -76,6 +74,7 @@ then ((S=$S+1)); export S=$S; fi
 if [[  $@ = *"z"* ]]; 
 then ((Z=$Z+1)); export Z=$Z; fi
 if [[ $@ == *"ʃ"* || $@ == *"ɕ"* 
+      || $@ == *"h"* || $@ == *"x"* ||  $@ == *"ħ"* || $@ == *"ɣ"*
 	|| $@ == *"ç"* || $@ == *"c"* ]]; 
 then ((C=$C+1)); export C=$C; fi
 if [[  $@ == *"ʒ"* || $@ == *"ɟ"* 
@@ -172,7 +171,7 @@ translate $i $@;
 done
 echo -e " $M m,\n $K k,\n $I i,\n $A a,\n $Y y,\n $U u,\n \
 $P p,\n $W w,\n $N n,\n $S s,\n $T t,\n $L l,\n $F f,\n $C c,\
-\n $H h,\n $R r,\n $B b,\n $G g,\n $D d,\n $Z z,\n $J j,\
+\n $R r,\n $B b,\n $G g,\n $D d,\n $Z z,\n $J j,\
 \n $E e,\n $O o"\
 |sort -n -r 
 

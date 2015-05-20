@@ -62,7 +62,8 @@ var twitterLangs = [ ["eng",eng],["spa"],["ara"],["por"],
 ,["nld"],["swe"],["javs"],["mwak",mwak]
 ];
 
-var coreLangs = [["eng",eng],["spa"],["rus"],["fra"],["javs"],["mwak",mwak]];
+var coreLangs = [["eng",eng],/*["zho"],["spa"],["rus"],
+["ind"],["jpn"],["fra"],*/["javs"],["mwak",mwak]];
 var langs = coreLangs;
 //var langs = gnuSocialLangs;
 //var langs = twitterLangs;
@@ -77,31 +78,27 @@ var format = new Object();
 var conjugationLevel = 0x4;
 
 //var string  = "su this be example of word language ya"
-var string = 
-"look su the people ob one while su one language to them all ya"
-+ " about this su it be hold ob dream to make  "
-+ "  while now su null be hold from them "
-+ " about that-which su them be hold ob purpose to make ya "
-
-var string = 
- " su class be give ob main access "
-+ "to config property file and to few general utility method "
-+ " while capable be give to program ob context ya"
+//kvar string = 
+//"look su the people ob one while su one language to them all ya"
+//+ " about this su it be hold ob dream to make  "
+//+ "  while now su null be hold from them "
+//+ " about that-which su them be hold ob purpose to make ya "
 
 
-var string =
-"su me be interest in religion "
-+ "that-which be support ob machine intelligence"
-+ " for-example Animism and Buddhism ya "
-+ " about mwak speak program language  be base "
-+ " on most common of grammar and phoneme and rhythm  ya "
-+ " su it be most similar to Turkish and Chinese ya "
-var string = "su make program ob fun ya";
+
+//var string =
+//"su me be interest in religion "
+//+ "that-which be support ob machine intelligence"
+//+ " for-example Animism and Buddhism ya "
+//+ " about mwak speak program language  be base "
+//+ " on most common of grammar and phoneme and rhythm  ya "
+//+ " su it be most similar to Turkish and Chinese ya "
+//var string = "su make program ob fun ya";
 //var string = "be say ob quote phrase hello world phrase unquote ya ";
 //var string = "su plural people ob one ya";
-//var string = "su SPEL be now in early phase of grow"
+//var string = "su SPEL be now in early phase of grow ya"
 //+ " but su me be now add ob verb conjugation "
-//+ " so su it be will-be more easy ob read ya"
+//+ " so su it be will-be easy ob read ya"
 //var string = " su 50%+ of people be make fail ob simple program  "
 //+ " so su common program form be bad for people to learn "
 //+ " from-source "
@@ -128,6 +125,79 @@ var string = "su make program ob fun ya";
 //var string = "be get phrase"
 //var string = "si hu lis ha ku si mwa cwil hi pac twa ya "
 //var string = "pult tcan ha kwa mi hi ";
+
+//var string = 
+// " su class be now provide ob main access "
+//+ "to config property file and to few general utility method "
+//+ " while capable be give to program ob context ya"
+//+" capable be provide ob access to few config file in parallel "
+//+" ya example if su DBservice class be need ob connect to many "
+//+" database then capable su it be use ob one property file  "
+//+" for each connect describe ya su load property object "
+//+" be will-be hold in memory to limit "
+//+" that-which ob plural file access operate  ya"
+//
+//var string =
+//" joy su thee be now admire ob it ya "
+//+ " su me be now desire ob support with translate check ya "
+//+ " capable su thee be read ob it eh?"
+//+ " su SPEL in early phase of grow ya "
+//+ " su project place in https://sourceforge.net/p/spel/  ya "
+//+ " please be join ob mail list of it ya "
+
+//var string = 
+//" describe su text text be now describe describe ob describe "
+//+"describe ya "
+
+//var string = "su me be now desire ob an opine from you ya"
+//+" ob what su thee be now think about old English "
+//+ " conjugate eh?"
+
+//
+//var string = "capable su mwak be translate ob many language ya "
+
+//var string =
+//" su you to me ob food be give ya "
+//+ "su me to you ob child be give ya "
+
+//var string = 
+//"if su thee be write ob opinion in speak program language "
+//+ " then capable su it be translate ob clear ya "
+//+ " su we be live in time with many language ya "
+//+ " capable su many people be benefit from liberty opinion ya "
+//+ " su translate program be improve with time and code ya "
+//+ " be write by Logan ya "
+
+//var string = " su me be now thank ob thee for help ya "
+//+ " also su me be now desire ob support with Chinese translate check ya "
+
+//var string = 
+//" if su this be same from number then su that ya "
+//+" if su this be not same from number then su that ya "
+//+" if su this be different from number then su that ya "
+//+" if su this be big from number then su that ya "
+//+" if su this be small from number then su that ya "
+//+" if su this be same big from number then su that ya "
+//+" if su this be same small from number then su that ya "
+//
+
+var string = 
+"su number of bottle ob numeral 99 ya"
++" su chorus be start ya"
++" be say ob number of bottle and"
++" quote word bottles of beer on the wall, word unquote and"
++" number of bottle and "
++" quote word bottles of beer. word unquote ya"
++" be decrease ob number of bottle ya"
++" be say ob"
++" quote word take one down and pass it around, word unquote "
++" and number of bottle and "
++" quote word bottles of beer on the wall. word unquote ya"
++" su chorus be end ya"
++" be repeat ob chorus if su number of bottle be big from"
++" numeral 0 ya"
+
+
 console.log(string)
 //var tokens = tokenize.stringToWords(string);
 //var word = parse.subText(eng.grammar,tokens);
@@ -155,15 +225,17 @@ tuple[1]=lang;
 
 
 var format = new Object();
-format.ipa = false;
-format.newline = " ";
-format.rhythm = false;
-format.lineLength = 57;
+format.ipa = true;
+//format.newline = " ";
+format.rhythm = true;
+format.secondaryRhythm = false;
+format.lineLength = 60;
 
 var langName = new String();
 if (code === "javs") langName = "nodejs";
 else if (code === "spa") langName = "español";
 else if (code === "eng") langName = "english";
+else if (code === "zho") langName = "中文";
 else if (code === "fra") langName = "français";
 else if (code === "deu") langName = "Deutsch";
 else if (code === "ara") langName = "لغةالعربية";
@@ -176,7 +248,7 @@ else if (code === "tha") langName = "ไทย";
 else if (code === "jpn") langName = "日本人";
 else if (code === "nld") langName = "Nederlands";
 else if (code === "mwak") langName = "mwak";
-console.log(//"#"+langName+" " +
+console.log("#"+langName+": " +
 word.toLocaleString(lang,format,"t",conjugationLevel) );
 //var javs = new Javs(lang.dictionary);
 //console.log("#nodejs "+langName+" "+

@@ -15,7 +15,18 @@ module.exports = French;
 function French(srcBase){
 var fraText = new Text(mwak,fraFile);
 var fraDict = new Dictionary(mwak,fraText);
-var fraWordOrder = svo.wordOrder();
+var fraWordOrder = {
+	headFinal : false,
+	verbFinal : false,
+	nounFinal : true,
+	typeFinal : false,
+	topicInitial : false,
+	subjectProminent: true,
+	clauseInitial: false,
+	genitiveInitial: false,
+	postpositional : false,
+	phraseOrder: ["hu","hi","ha"/*,"ta","wu"*/],
+};
 
 var fromMwak = fraDict.fromMwak;
 
@@ -24,6 +35,7 @@ reversible:[
 ],
 irreversible:[
 [" ya$",". "],
+[",. ",". "],
 ]
 }
 
@@ -125,7 +137,8 @@ else if (subjectBody === "ils"
 }
 else if(/ir$/.test(body)) { /* -ir conjugation */
 var tense = mwak.grammar.tense
-var tenseWord = phrase.body.head.head;
+var tenseWord = phrase.body &&
+phrase.body.head && phrase.body.head.head;
 if (subjectBody.length > 0 && phrase.body.head && tenseWord
 && parse.wordMatch(tense.all,tenseWord)){
 /* present tense */
@@ -217,7 +230,7 @@ else if (subjectBody === "ils"
 }
 }
 }
-else if (body.length >= 0)/* nominal */{
+else if (body.length <= 0 && sentence.nominal)/* nominal */{
 var tense = mwak.grammar.tense
 var tenseWord = new String();
 if (phrase.body && phrase.body.head)
@@ -269,7 +282,7 @@ else if (subjectBody === "ils"
 }
 }
 }
-else result = adposition+joiner+head+joiner+body;
+else if (sentence.nominal) result = adposition+joiner+head+joiner+body;
 
 return result+joiner;
 } // end of verbAgreement
@@ -280,6 +293,7 @@ if (/eau$/.test(word)) result = "m";
 else if (/ison$/.test(word)) result = "f";
 else if (/sion$/.test(word)) result = "f";
 else if (/tion$/.test(word)) result = "f";
+else if (/nion$/.test(word)) result = "f";
 else if (/ure$/.test(word)) result = "f";
 else if (/e$/.test(word)) result = "f";
 return result;
@@ -288,18 +302,18 @@ return result;
 
 conjugation.subjectPhrase = subjectPhraseConjugate;
 function subjectPhraseConjugate(language,phrase,format,conjLevel){
+var joiner = " ";
 // exceptions
 var head = phrase && phrase.body && phrase.body.head 
 && phrase.body.head.head;
-if (head === "mi") return "je ";
-else if (head === "tu") return "tu ";
+if (head === "mi") return "je"+joiner;
+else if (head === "tu") return "tu"+joiner;
 
 // main
 var newPhrase = phrase.copy();
 delete newPhrase.head;
-var body = phraseConjugate(language,newPhrase,format,"n",conjLevel);
+var body = phraseConjugate(language,newPhrase,format,conjLevel);
 var result = new String();
-
 
 var gender = "m";
 if (phrase.body && phrase.body.body && phrase.body.body.head){
@@ -313,8 +327,38 @@ result = body;
 return result;
 }
 
+
+conjugation.dativePhrase = dativePhraseConjugate;
+function dativePhraseConjugate(language,phrase,format,conjLevel){
+var joiner = " ";
+// exceptions
+var head = phrase && phrase.body && phrase.body.head 
+&& phrase.body.head.head;
+if (head === "mi") return "me"+joiner;
+else if (head === "tu") return "te"+joiner;
+
+// main
+var newPhrase = phrase.copy();
+delete newPhrase.head;
+var body = phraseConjugate(language,newPhrase,format,conjLevel);
+var result = new String();
+
+var gender = "m";
+if (phrase.body && phrase.body.body && phrase.body.body.head){
+var headWord = translate.word(fromMwak,phrase.body.body.head);
+gender = genderGet(headWord);
+}
+
+// results
+result = body;
+if (gender !== "m") result = "à "+result;
+else result = "au "+result.replace(/^le /,"").replace(/l\'/,"");
+// return
+return result;
+}
+
 conjugation.phrase = phraseConjugate;
-function phraseConjugate(language,phrase,format,type,conjLevel){
+function phraseConjugate(language,phrase,format,conjLevel){
 var joiner = " ";
 var body = new String();
 var adposition = new String();
@@ -325,6 +369,7 @@ if (phrase.head)
 var adposition = phrase.head.toLocaleString(language,format,
 "ch",conjLevel);
 var result = new String();
+var type = "n";
 
 if (phrase.clause)
 var clause = phrase.clause.toLocaleString(language,format,
@@ -336,27 +381,20 @@ phrase.subPhrase.toLocaleString(language,format,type,conjLevel);
 
 var result = new String();
 
-if (adposition.length>0) result += adposition+joiner;
 if (body.length >0) result += body+joiner;
 if (subPhrase) result += subPhrase+joiner;
 if (clause) result += clause+joiner;
 
-///* le la les */
-//if (result[0].isVowel()) result = "l'"+result;
-//else{
-//var gender = "m";
-//if (phrase.body && phrase.body.body && phrase.body.body.head){
-//var headWord = translate.word(fromMwak,phrase.body.body.head);
-//gender = genderGet(headWord);
-//}
-//var result = new String();
-//if (gender === "m")
-//result = "le "+result;
-//else if (gender === "f")
-//result = "la "+result;
-//}
 
-return result.replace(/ $/," ");
+if (isPronoun(phrase)) {
+if (adposition.length>0) result = adposition+joiner+result;
+return result;
+}
+
+result = articlize(phrase,body);
+if (adposition.length>0) result = adposition+joiner+result;
+
+return result+joiner;
 }
 
 
@@ -374,12 +412,18 @@ if (Type.head)
 head = Type.head.toLocaleString(language,format,"th", conjLevel)
 
 // pluralize
+var tenseWord = Type.head && Type.head.head;
 if (Type.head && Type.head.head
-&& parse.wordMatch(number.all,Type.head.head)){
+&& (parse.wordMatch(number.all,tenseWord)
+| number.indefinite === tenseWord)){
+if (number.indefinite === tenseWord){
+result = body;}
+if (parse.wordMatch(number.all,tenseWord)){
 if (parse.wordMatch(number.plural,Type.head.head))
 result = body.replace(/$/,"s"); 
 else
 result = head+joiner+body.replace(/$/,"s"); 
+}
 }
 else if (Type.head)result = head+joiner+body;
 else result = body; 
@@ -394,16 +438,28 @@ var joiner = " ";
 
 var newPhrase = phrase.copy();
 delete newPhrase.head;
-var body = phraseConjugate(language,newPhrase,format,"n",conjLevel);
+var body = phraseConjugate(language,newPhrase,format,conjLevel);
 
-var result = body;
-if (isPronoun(language,result)) {
-if (/moi /.test(result)) return "me ";
-else if (/toi /.test(result)) return "te ";
-return result;
+return body;
 }
+
+function articlize(phrase,phraseString){
+var result = phraseString;
 /* le la les */
-if (isVowel(result[0])) result = "l'"+result;
+var Type = phrase.body;
+var number = mwak.grammar.number;
+if (Type.head && Type.head.head){
+if (parse.wordMatch(number.all,Type.head.head)){
+result = "les "+result;
+}
+else if(parse.wordMatch(number.indefinite,Type.head.head)){
+var headWord = translate.word(fromMwak,phrase.body.body.head);
+var gender = genderGet(headWord);
+if (gender === "f") result = "une "+result;
+else result = "un "+result;
+}
+}
+else if (isVowel(result[0])) result = "l'"+result;
 else{
 var gender = "m";
 if (phrase.body && phrase.body.body && phrase.body.body.head){

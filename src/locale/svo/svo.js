@@ -4,11 +4,12 @@ headFinal : false,
 verbFinal : false,
 nounFinal : false,
 typeFinal : false,
+topicInitial : false,
 subjectProminent: true,
 clauseInitial: false,
 genitiveInitial: false,
 postpositional : false,
-phraseOrder: ["hu","hi","ha","ta","ni","wu"]
+phraseOrder: ["hu","hi","ha"/*,"ta","ni","wu"*/]
 };
 var conjugation = new Object();
 conjugation.guillemetSpaceQuote = 

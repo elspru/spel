@@ -45,10 +45,11 @@ var grammar = language.grammar;
 
 // be get ob clause word ya
 var clauseInitial = grammar.wordOrder.clauseInitial;
+var topClauseInitial = grammar.wordOrder.topClauseInitial;
 var clauseWord, otherTokens, clauseWordI, newSlice;
 var clause;
 // if clause initial 
-if (clauseInitial){
+if (clauseInitial && !topClauseInitial === false){
 // then be get ob clause word from end 
 // then be set ob other tokens ya
 clauseWordI = parse.lastTopClauseWordIndex(grammar, tokens);
@@ -65,7 +66,8 @@ otherTokens = clause.slice(0,clauseWordI);
 }// end of clause initial conditional ya
 
 // if clause final
-else {
+else if(clauseInitial === false || topClauseInitial === false)
+{
 // then be get ob clause word from start
 // then be set ob other tokens ya
 clauseWordI = parse.firstTopClauseWordIndex(grammar, tokens);
@@ -102,28 +104,31 @@ return result;
 };
 TopClause.prototype.toLocaleString = 
 function(language,format,type,conjugationLevel){
-	var joiner = ' ';
-	var result = new String();
-	var clauseTerm = this.tail;
-	var sentence = this.body;
-	var clauseWord = this.head;
-	if (language.grammar.wordOrder.clauseInitial){
-	if (clauseTerm) result += clauseTerm.toLocaleString(
-		language,format,"jh",conjugationLevel)+joiner;
-	if (sentence) result += sentence.toLocaleString(
-			language,format,type,conjugationLevel);
-	if (clauseWord) result += clauseWord.toLocaleString(
-		language,format,"jh",conjugationLevel) + joiner ;
-	}
-	else {
-	if (clauseWord) result += clauseWord.toLocaleString(
-		language,format,"jh",conjugationLevel)+joiner;
-	if (sentence) result += sentence.toLocaleString(
+var joiner = ' ';
+var result = new String();
+var clauseTerm = this.tail;
+var sentence = this.body;
+var clauseWord = this.head;
+var grammar = language.grammar;
+var clauseInitial = grammar.wordOrder.clauseInitial;
+var topClauseInitial = grammar.wordOrder.topClauseInitial;
+if (clauseInitial && topClauseInitial !== false){
+if (clauseTerm) result += clauseTerm.toLocaleString(
+	language,format,"jh",conjugationLevel)+joiner;
+if (sentence) result += sentence.toLocaleString(
 		language,format,type,conjugationLevel);
-	if (clauseTerm) result += clauseTerm.toLocaleString(
-		language,format,"jh",conjugationLevel)+joiner;
-	}
-	return result;
+if (clauseWord) result += clauseWord.toLocaleString(
+	language,format,"jh",conjugationLevel) + joiner ;
+}
+else {
+if (clauseWord) result += clauseWord.toLocaleString(
+	language,format,"jh",conjugationLevel)+joiner;
+if (sentence) result += sentence.toLocaleString(
+	language,format,type,conjugationLevel);
+if (clauseTerm) result += clauseTerm.toLocaleString(
+	language,format,"jh",conjugationLevel)+joiner;
+}
+return result;
 };
 TopClause.prototype.isLike= function(language,input){
 	var match = topClauseInputToMatch(language,input);
