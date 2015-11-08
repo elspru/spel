@@ -1,4 +1,7 @@
 div{
 width:32em;
 }
+table, th, td {
+    border: 1px solid black;
+}
 

@@ -73,6 +73,36 @@ result+=typeBody;
 return result
 }
 
+conjugation.nounType = nounTypeConjugate;
+function nounTypeConjugate(language,Type,format,type,conjLevel){
+var result = new String();
+var body = new String();
+var head = new String();
+var limb = new String();
+var joiner = " ";
+if (Type.limb){
+limb = 
+Type.limb.body.toLocaleString(language,format,"n",conjLevel);
+}
+if (Type.head){
+head = Type.head.toLocaleString(language,format,"th", conjLevel)
+result += head+joiner;
+}
+if (Type.body){
+body = 
+Type.body.toLocaleString(language,format,"n", conjLevel)
+result += body+joiner;
+}
+
+if (limb.length > 0){
+result = head+limb.replace(/[.]$/,"")+"['"+ body+"']" + joiner;
+}
+
+
+
+return result;
+
+}
 conjugation.phrase = phraseConjugate;
 function phraseConjugate(language,phrase,format,type,conjLevel){
 
@@ -87,8 +117,9 @@ else {
 if (phrase.body){
 if (phrase.body.be === "Junction") body =
 junctionConjugate(language,phrase.body,format,"n",conjLevel);
-else body = phrase.body.toLocaleString(language,format,"n",
-conjLevel);
+else{ 
+body = phrase.body.toLocaleString(language,format,"n",
+conjLevel);}
 }
 if (phrase.head)
 var adposition = phrase.head.toLocaleString(language,format,
@@ -245,7 +276,7 @@ var result = new String();
 if (phrases.length === 1
 && phrases[0].head.head === "ha"){
 var phrase = phrases[0].body.toLocaleString(language,
-format,type,conjLevel);
+format,"n",conjLevel);
 
 return phrase;
 }
@@ -265,23 +296,20 @@ return result;
 conjugation.text = textConjugate;
 function 
 textConjugate(language,text,format, type, conjLevel){
-console.log("sub Text Conjugation");
 var newText = text.copy();
 var sentences = newText.sentences;
 var firstSentence = sentences[0];
 var lastSentence = sentences[sentences.length-1];
 // if first sentence is start, make function for it
-console.log("FS "+firstSentence);
 var subjectPhrase = firstSentence.phraseGet(mwak,"hu");
-console.log("SP "+subjectPhrase);
 var name =
 subjectPhrase.body.toLocaleString(language,format,type,conjLevel);
 sentences.pop();
-console.log("N "+name);
 // if last sentence is end then close brace for it.
 sentences.shift();
+if (newText.sentences.length > 0)
 var contents =
- newText.toLocaleString(language,format,type,conjLevel);
+newText.toLocaleString(language,format,type,conjLevel);
 return "function "+name+"(){ \n"+contents+"\n}/*"+name+" end*/\n";
 }
 
@@ -305,6 +333,33 @@ var mood =
 moodConjugate(language,sentence.mood,format,type,conjLevel);
 result += mood}
 
+var decreaseIndex = phrases.find(function(phrase){
+if ( phrase.be === "Phrase" &&
+phrase.head && phrase.head.head === "hi"
+&& phrase.body.body.head === "sink"
+|| phrase.head.head === "fa" && 
+phrase.head.body && phrase.head.body.head === "hi"
+&& phrase.body.body.head === "sink")
+return true; else return false;
+});
+if (decreaseIndex !== null ){
+result = 
+decreaseConjugate(language,sentence,format,type,conjLevel);
+return result;}
+
+var repeatIndex = phrases.find(function(phrase){
+if ( phrase.be === "Phrase" &&
+phrase.head && phrase.head.head === "hi"
+&& phrase.body.body.head === "tuy"
+|| phrase.head.head === "fa" && 
+phrase.head.body && phrase.head.body.head === "hi"
+&& phrase.body.body.head === "tuy")
+return true; else return false;
+});
+if (repeatIndex !== null ){
+result = 
+repeatConjugate(language,sentence,format,type,conjLevel);
+return result;}
 
 var conditionalIndex = phrases.find(function(phrase){
 if ( phrase.be === "TopClause" &&
@@ -317,7 +372,6 @@ if (conditionalIndex !== null ){
 result = 
 conditionalConjugate(language,sentence,format,type,conjLevel);
 return result;
-
 }
 
 var subjectIndex = phrases.find(function(phrase){
@@ -389,6 +443,57 @@ result += sentenceHead
 return  result;
 }
 
+function
+decreaseConjugate(language,sentence,format,type,conjLevel){
+var result = new String();
+var phrases= sentence.phrases;
+
+var objectIndex = sentence.indexOf(mwak,"ha");
+if (objectIndex !== null && objectIndex !== -1){
+var object = phrases[objectIndex].toLocaleString(language,
+format,type,conjLevel);
+result += object +"--";}
+
+if (sentence.head){
+sentenceHead =
+sentence.head.toLocaleString(language,format,"sh",conjLevel);
+result += sentenceHead;
+}
+
+
+return result;
+}
+
+function
+repeatConjugate(language,sentence,format,type,conjLevel){
+console.log("repeat identified");
+var result = new String();
+var phrases= sentence.phrases;
+var objectIndex = sentence.indexOf(mwak,"ha");
+var whileIndex = phrases.find(function(phrase){
+if ( phrase.be === "TopClause" &&
+phrase.head && phrase.head.head === "swi"
+|| phrase.head.head === "fa" && 
+phrase.head.body && phrase.head.body.head === "swi")
+return true; else return false;
+});
+if (whileIndex !== null ){
+var whileSentence = sentence.phrases[whileIndex].body;
+console.log("while detected "+whileSentence);
+var whileContent = "while( " +
+comparativeConjugate(language,whileSentence,format,type,conjLevel)
++ "){";
+result = whileContent;
+}
+
+if (objectIndex !== null && objectIndex !== -1){
+var object = phrases[objectIndex].toLocaleString(language,
+format,type,conjLevel);
+result += object +"()";
+}
+
+return result+"}";
+}
 
 function
 conditionalConjugate(language,sentence,format,type,conjLevel){
@@ -429,6 +534,11 @@ type,conjLevel){
 // get verb
 // if one of comparatives replace it
 // else return it as normal sentence
+
+//if (!innerSentence.nominal)
+//return sentenceConjugate(language,innerSentence,format,type,
+//conjLevel);
+
 var result = new String();
 
 var subjectIndex = innerSentence.indexOf(mwak,"hu");
@@ -440,10 +550,12 @@ var subject = new String();
 var from = new String();
 if (subjectIndex!== null && subjectIndex >= 0)
 subject =
-innerSentence.phrases[subjectIndex].body.toLocaleString(language)
-if (fromIndex!== null)
+innerSentence.phrases[subjectIndex].
+toLocaleString(language,format,type,conjLevel)
+if (fromIndex!== null && fromIndex!== -1)
 from =
-innerSentence.phrases[fromIndex].body.toLocaleString(language);
+innerSentence.phrases[fromIndex].body.toLocaleString
+(language,format,type,conjLevel);
 result += subject+" ";
 if (verb === "sam")
 result +=  " === ";
@@ -495,27 +607,6 @@ delete newPhrase.head;
 var body = phraseConjugate(language,newPhrase,format,"n",conjLevel);
 
 result = body;
-//format.joiner = "";
-//var type = "n";
-//if (phrase.body){
-//var body =
-//phrase.body.toLocaleString(language,format,"n", conjLevel);
-result = body.replace(/[.]$/,'');
-//
-//if (phrase.clause){
-//var newClause = phrase.clause.copy();
-//delete newClause.head;
-//var clause =
-//newClause.toLocaleString(language,format,type, conjLevel);
-//result += clause+joiner;}
-//
-//if(phrase.subPhrase){
-//var subPhrase =
-//phrase.subPhrase.toLocaleString(language,format,type,conjLevel);
-//if (subPhrase)
-//result = subPhrase+"["+result+"]";
-//}
-
 return result;
 }
 
@@ -529,7 +620,7 @@ return '/*'+moodString+'*/';
 conjugation.sentenceHead = sentenceHeadConjugate;
 function sentenceHeadConjugate(language,word,format,conjLevel) {
 if (word.head === "ci") {
-var queryWord =  word.toLocaleString(language,format,conjLevel)
+var queryWord =  word.toLocaleString(language,format,0,conjLevel)
 return queryWord.replace(/\?/,"");
 }
 return ';';}
@@ -561,7 +652,7 @@ var head = phrase.head.head;
 var result = new String();
 var joiner = " ";
 var junction = new String();
-if (head === "ki") junction = "&&"
+if (head === "ki") junction = "+"
 else if (head === "wa") junction = "||"
 else junction =
 head.toLocaleString(language,format,type,conjLevel);

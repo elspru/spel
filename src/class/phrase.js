@@ -284,14 +284,14 @@ Phrase.prototype.toString = function(format){
 var joiner = ' ';
 var content,result;
 var result = new String();
-if (this.clause) result+= this.clause.toString() + joiner;
+if (this.clause) result+= this.clause.toString()+ joiner;
 if (this.subPhrase) result+= this.subPhrase.toString();
 if (typeof this.body === "object")
 content = this.body.toString();
 else content = this.body;
 if (Array.isArray(content) && content.length>1
 && tokenize.isTokens(content))
-joiner = '';
+joiner = ' ';
 if (content) result += content.toString() + joiner;
 if (this.head) result += this.head.toString() +joiner;
 return result;
@@ -359,7 +359,7 @@ conjLevel);
 }
 else if (this.body) content = this.body;
 else content = '';
-if (content) content += joiner;
+if (!/ $/.test(content)) content += joiner;
 var caseWord = new String();
 if (this.head && this.head.head === "hi")
 caseWord = this.head.toLocaleString( language,format,"vh",

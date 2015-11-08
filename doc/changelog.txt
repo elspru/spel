@@ -4062,3 +4062,774 @@ will translate it to SPEL and then post it in various languages.
 0718 I'm not 100% certain of the best syntax for while loops
 yet, so I should work on sub types.. should do a git release
 before I work on it though, since it can be messy. 
+2326 so after the initial implementation and promotion of SPEL
+programming language.  going to make the first real world
+implementation a hybrid of a website an MOO, where people can do
+language learning and socializing. 
+2338 can probably play various "safe" games, to get points or
+levels if that is indeed useful. 
+can also get people to do actual useful stuff in game,
+such as come up with definitions, create programs, etc.
+could even get paid real money for some stuff,
+or points which could be converted to money.
+one of the main differences from traditional muds,
+is that all content should be web accessible, so can play via
+web-browser using standard pages.
+potentially can do a thing where a user can create their own
+world in their browser memory, and then connect it to the server
+world, people would be able to visit their part if they allow
+it, and such.  they could also download their world to save it,
+or pay with points to have it hosted on the server. 
+In terms of layout, I was thinking of the fruit of life,
+and then subdivided into various education departments.
+In terms of races that people could choose, it would be the
+races we can expect to interact with, human, greys (dwarves),
+nordics(elves), reptilians(orcs) and robots.
+stats could include stuff like health, IQ,
+EQ, communication, wealth, adaptability, and strength.
+The tutorials could help teach the various skills.
+reptilians could abduct cows for meat,
+greys would have to make food gels,
+and use humans to gain health.
+greys, nordics, reptilians are telepathic,
+humans and robots use electronic means.
+nordics are vegetarian/vegan.
+humans omnivores. 
+robots need spare parts and electricity. 
+don't know if we can really include that in the game though,
+it may be possible to have the player owners script their
+characters to fullfill their needs.
+2359 sleepy time
+} 21 May 2015
+0651 can check rosetta code for while loops, pipes and
+concurrency. 
+0736 so it seems that there are several control structures.
+conditional structures (if then), 
+exceptions (throw try catch finally),
+flow-control (return, break, continue),
+parallel calculations  (webworkers),
+short-circuit evaluation (&& ||),
+language extension (define),
+0746 so we have conditional structures, (if then)
+and are working on flow-control, (while, for)
+so we need something for short-circuit evaluation 
+perhaps (also &&, otherwise ||)
+instead of throw try catch finally 
+Quorum uses alert check detect always
+I'm thinking it's really kind of a protest,
+just not sure how to react to a protest. 
+oh apparently that is mostly canadian usage, object or disagree
+is more international.
+or complain.
+1001 there are also events, which maybe best through when.
+have to study up more on dataflow programming, there is some
+implicit parallelization there which could make things easier.
+1050 so I'll have to dedicate a week to two to doing some
+SystemC and OpenCl programming.
+1331 can localize the beersong by having either native multi
+word quotes or having variable resolution for the number of
+bottles, the second option is probably better as it would
+probably be easier to read.  that way beer song would be output
+in all supported languages. though having the native multi word
+quote would be more compatible with get-text.
+1333 can use fail try rescue but/yet instead of throw try catch
+always. 
+1813 before I do that, should do the next debugging stask, which
+is the subtypes instead of subphrases, to avoid procrastination.
+so I'll start work on next programming opportunity.
+2010 thinking to minimize disruption can keep the current
+phrasal of stuff, can simply call it phrase-of, or something,
+and change it to some low-priority extended word like pki or
+kpi. 
+} 22 May 2014
+0418 so lets get to it. 
+0434 first off, got to update the parsing methods.
+0438 seems okay for now, as i'm not trying to put subordinators
+in it.. yet anyways.
+0440 so should update the type itself.
+0530 making subType.js based on phrase.js
+0605 okay seems only issue now is with localeString output.
+0620 okay unconjugated works fine, rest is in locale files will
+fix up laters, sleep for now.
+1106 should updated the englisho to early modern english where
+possible, will take some coding. considering adding old-english
+dative and genitive, but propebably shouldn't
+1118 have to open topic on libreplanet-discuss about
+shared-commercial, where percentage of retail cost goes to
+upstream developers, likely depending on percentage of code
+contributed if there are multiple upstream companies.
+1408 so I've been thinking of having a MUD or perhaps a
+Multi-User-Learning-Environment MULE, where people could create
+their portion of the MULE in their browser, such as their home
+and such, it could be stored in the html5 local-storage, people
+could also download it for safekeeping, or for a fee upload it
+to the main servers.  Otherwise it would only be online when
+they are, could have a "member-hall" with portals to member
+worlds. a user could visit read-only, or perhaps have the option
+to leave a gift or a note in a secure sandbox area.
+the items would be descriptions in mwak, of what the item is,
+and how it works. potentially could use SVG or webGL to render
+them.
+1415 anyways lets do some vocab work.
+also should be like and, (ki)
+and otherwise should be lik or (wa)
+} 23 May 2014
+0427 limb subType works for mwak
+0555 works for javascript
+0558 works for English, got to fix the vocab
+0559 fixing it up for french and such after should be easy
+enough, now that figured out English.
+0601 there are probably other bugs lurking about, but need
+sleep.
+} 25 May 2015
+0523 anyways so should write an OpenCl hello world, 
+a SystemC hello world, and try to merge them.
+0547 OpenCl seems fairly complicated, the host code is rather
+difficult.  hopefully it is simply a template or something, and
+most can be handed off to the kernels. 
+anyways it would be good to get that monitor to enable my GPU,
+so wierd how it refuses to work without a monitor.
+either that or could get an OpenCl compatible FPGA.
+0606 I set up some OpenCl checks for now, 
+seems I might have to do a bunch more research in relation to
+getting it to work. anyways napy time
+1012 anyways really we only need it to be compatible with
+OpenCl, which means purish functions, where the input and output
+are input arguments, there are no side-effects, and no functions
+which are not inlinable, i.e. no recursion which lacks proper
+tail calls. also SystemC can run ontop of OpenCl, so we can just
+work on SystemC.
+1219 right so should add the shared commercial clause in the
+AGPL license.  also best if I found or made SystemC beer song,
+and OpenCl beersong for comparison.
+1233 guess will start with SystemC since it is easier.
+oh but also I wanted to try my hand at reversible logic in
+SystemC. 
+1236 found a tutorial that implements an alternative xor gate,
+so I could use it as an example to implement CNOT, Toffoli, and
+Fredkin gates.
+1241 so for programming model, I'm thinking of something similar
+to Haskell, the main one, or monads have side-effects, and the
+pure functions can run in parallel, and such.
+1506 seems like shared-commercial is not compatible with the
+AGPL. so will have to think of something else, or draft our own
+license in SPEL.
+1539 anyways lets continue on the roadmap for now.
+oh, it's vocabulary time I believe, eventually there will be
+enough to have a conversation with.
+1541 gotta do some debugging.
+1553 there are a bunch of empty types, which is rather
+disconcerting. 
+1554 anyways better to do vocab now, will figure it out in
+morning.  I think perhaps will continue developing this in a
+more organic and less constrained fashion.  We can always
+support OpenCl and SystemC later on, it's best to start with
+something that simply works, doesn't have to be perfect. 
+} 26 May 2015
+0507 thinking that after 4 hours of play/work, the program/game
+can ask the user about work-life balance, and help 'em fulfill
+personal goals. likely based on maslow's hierarchy.
+we would like to help thee to have a fullfilling life within and
+outside the game. which of the following life skills would you
+like to improve?
+health or safety or belonging or esteem or self-actualization eh?
+
+for health can make sure they are getting enough food and 
+nutrients, as well as getting enough exercize.
+for safety can make sure they are have a secure location, source
+of finances, and back-up plans or insurance. 
+for belonging can help with family relations, intimate
+relations, and friendships, through social skills development.
+for esteem can check how they view themselves, if through others
+eyes, then encourage to seek out the others actual opinion,
+rather than an imagined one, if self-opinion, then encourage to
+have realistic and achievable short-term goals, that may build
+towards longer term goals.
+for self-actualization or self-transcendence, can make sure they
+are contributing to goals bigger than themselves, perhaps in
+line with the long-term roadmap of SPEL, or otherwise.
+0655 debugged english conjugation errors.
+0657 now working on javascript
+0700 cool debugged that to, next seems to be while loops.
+but I'm gonna snatch a nap.
+1533 so I'm thinking should be at least slightly more practical
+with this vocab development. perhaps can translate my fictional
+autobiography, or a license agreement into SPEL.
+License agreement might be more professional, but some original 
+fiction could be more intriguing.
+1558 best of all though would probably be a SPEL introduction in
+SPEL, then can say, and this introduction is written in SPEL.
+some may be unimpressed, but well, it's something, will improve
+with time. 
+} 27 May 2015
+1052 fixed up phrase order error was having before,
+had to remove a few lines.  was doing premature translation.
+1053 can try to squeeze in some more vocab work.
+} 28 May 2015
+0730 made englisha and and analytic english conjugatey tableas
+0749 okay so lets continue with making the program
+0955 issue with subType recognition.
+1004 seems to be when there is number information.
+1022 okay fixed
+1025 thinking if someone loses to a bug, then instead of taking
+of exp and transporting to home base, the user can bribe the
+bug, that way the reward for solving it will be bigger. 
+solving a bug also happens in various stages, and people can
+hang out in a different stage of bug processing, for instance
+bug classification, is it really a bug, 
+1040 hmmm there is some other bug now. for plurals. not properly
+rendering when there is a subType.
+1053 okay fixed
+1202 debugging can be more highly valued than coding, since
+debugging is generally harder. 
+1410 I found a revolutionary new paper on scriptable debugging
+"A dataflow language for scriptable debugging"
+by G. Marceau et al, from Brown University.
+1839 anyways lets get some more vocab work done. I started with
+just ~800 core vocab words to do, I've added over 600, but I
+still have 500 left, bah.
+} 29 May 2015
+0613 so while loop, we'll use while
+0640 I guess first thing is to detect a repeat verb,
+and then the while clause of it. 
+otherwise we can extract while, and use it as the loop.
+0648 wondering if perhaps it might be easier with a simple
+conditional, but perhaps can do a repeatConjugate, that may be
+best. it would be at sentence level.
+0657 identified repeat
+0725 may be having issue with comparative conjugate.
+0950 fixed comparative partially. 
+there may be issue with the subType.
+1003 yep so issue is that it is operating at phrase level and
+not subject level, but anyways lets try it out as is, did a mild
+workaround by making subject resolve at phrase level.
+1005 so managed to implement while loops pretty much otherwise.
+still a bunch of debugging required before the song will work
+properly.
+} 31 May 2015
+0717 one of the things I learned playing Wesnoth, was that I
+shouldn't get too far ahead of those that can support me. It is
+safest with a crowd, a lone warrior is at most a nuisance. 
+It's also good to rest and recuperate after a hard battle.
+0723 to be quite honest, few if anyone seems much interested in
+SPEL. though it could be that I keep saying it's an alpha
+prototype, so perhaps it will help once it's more complete.
+0726 also I've got to become the first user of it, so the two
+main ways that is, is by blogging in it, and programming in it.
+obviously the blogging in it is easiest.  I'll probably have to
+make a final conjugator for English, since it seems people have
+difficulty understanding the regularized form of it.
+} 01 June 2015
+0618 not sure what to do, I guess debugging of the song code. 
+0719 good so it is mostly done, just needs decrease, object
+declaration and some fine tuning with the subtypes. 
+0727 anyways I'd like to do some more vocab work for now.
+0728 later I'll look for some more places to submit my natural
+english science fiction. if I raise my profile somewhat, then it
+could help here also.
+0803 I was thinking a hypothetical reptilian language, would
+sound different, since their lips tend to be minimal, like
+aligator, so no labials, a likely tendancy towards sibilants.
+since they are carnivores, their tounges are probably thinner 
+so no laterals, and more towards open consonants.  though I dono
+maybe the non snake reptiles have bigger tounges not sure. well
+a lot of them have forked tounges. 
+we could remove plosives altogether, keep it just sibilants,
+trills, and glides, with non-labial nasals. 
+admitedly cats can make labial nasals, but they are mammals.
+} 2 Jun 2015
+0723 doing some sci-fi writing. wrote a bit about Venus, now
+doing some calculations for Ouranos, 
+so the ratio for temperature to height seems fairly constant.
+about 7.6^x*temp/depth = 53
+so need to do for pressure now.
+0.59 for pressure.
+anyways, I'm not competent enough in math/physics to do it. 
+} 3 Jun 2015
+1112 added some more to story
+1617 finally got my Odroid VU monitor today, OpenCL finally
+works :-D.  well that an I have a bigger monitor, 
+will have to move my boxes around. not sure what I'll do with
+holden. hmmm. guess I'll just have to sell it or something
+*shrugs*. or keep it as a backup.
+1633 so thinking there can be hundreds of kilometers width on
+Mercury, from the boreal to the tropics,  there would be various
+stations, with low pressure, or unpressurized hallways in
+between.   Main hominid character in story could use a bicycle
+to get around, with a skintight spacesuit.   The near vacuum in
+the halls could mean extremely efficient cycling, since there
+is no wind-resistance, also the roads could be very smooth due
+to the very stable underground tempertures.  so it could be a
+roadie,  doesn't even have to be a recumbent roadie, though that
+could be more comfortable. Could sweat through the suit, there
+could be some recapture, or perhaps it would simply condense on
+the walls.  or as humidity.  I guess Ideally the halls would be
+air-tight, but it's simply not necessarily the case, so long as
+there are bountiful sources of carbon, oxygen, and water, as is
+the case in most of the universe. 
+1705 the best populations for inhabiting Mercury, Moon, Mars,
+etc are high altitude people of Earth, so from Ethiopian
+Highlands, the Andes and Tibet. This is because it is simply
+more economical and even safer to have lower pressure relative
+to vacuum. 
+Aymarans seems best of the Andeans. 
+Tibetans are fairly well adapted, with some Densionian genes.
+Ethiopians are likely the best adapted due to long time.
+Amhara Ethiopian and Tibetan hybrid might be best.
+} 09 Jun 2015
+0656 spent some time writing a short story and doing
+colonization research.
+0707 added decrease translation for javascript.
+0708 need some type debugging and then I think the water song
+will be complete.
+0711 okay seems pretty much done, only thing left might be
+object declaration, we can try it and see.
+0715 yep it works, with a minimum number of tweaks.
+} 10 Jun 2015
+0814 anyways I'm taking a vacation. 
+} 12 Jun 2015
+0827 my story "Venusian Investment" got rejected from
+lightspeed, do I'll edit it, I think Carla was too "grabby",
+I'll have to reduce it to some much finer motions. 
+Also I'm thinking of putting in references after the end, since
+it does seem somewhat "out of this world", so perhaps references
+will help, I'll submit it to Strange Horizons next most likely. 
+} 19 Jun 2015
+0832 working on rewriting mini fictional autobiography into
+mwak.
+} 23 Jun 2015
+2055 bah, well it would be good to get something done.
+} 24 Jun 2015
+0748 anyways I've gotta decide how this is going to work. 
+I'm interested in writing science fiction, but I'm also
+interested in doing the computer programming. I guess a good
+medium right now would be to translate my stories into mwak.
+0757 though ideally I would also bring about the programming
+part of SPEL/mwak to a state of completion, so I can make some
+kind of beta, or more finalized release. I'm close, right now,
+it's mostly just a lot of bugs that have to be dealt with, and a
+few features, afterwhich it is documentation and promotion.
+0802 hmmm it seems here is says write a story for SPEL is after
+the promotion begins. perhaps I'll move a bunch of the other
+stuff that I was planning on doing before documentation into
+some later section.
+} 25 Jun 2015
+1120 okay so I reviewed some of the most popular games,
+like candy crush which is a little like puzzle pirates but
+simpler.
+there is angry birds which is similar but without even a map,
+and it is based on two dimensional cannon.
+The main ones are actually game of war, and clash of clans,
+which at least right now are the most popular. 
+Both are like farmville for boys, where the user becomes a
+mayor of some warring town, then attacks neighbouring towns.
+Clash of Clans is generally more popular, likely because it has
+a less cluttered user interface, and more pleasant graphics. 
+Strong point of Game of War is the inter-lingual chat,
+which uses google translate along with translation memory,
+whcih is filled in by users for points.
+1220 So I'm thinking the premise for the WYN game could be 
+having either AI child, or AI village, of various races.
+there can be several kinds of currency, for instance in-game
+joules, which would be based on their real-world counter-part,
+on how many joules various resources cost for their AI's,
+for instance memory/processing threads. They could do various
+tasks to get more joules.  It would also be possible to redeem
+joules for WYN Coin, an alt-coin probably based on NXT,
+ which could be traded via the ripple network. 
+} 26 Jun 2015
+0837 hmmm so what I really want, and what is actually a much
+more viable short-term income is to become an author. though I
+know it is ridiculously hard, it is still easier than attempting
+something that's never been done before, i.e. multiplayer
+multi-lingual rpg translation/programming game. 
+0839 so I need to find another publisher
+1901 sent a story to Orson Scott Card's Intergalactic Medicine
+Show.
+1903 I have a backlog of stories I want to write, so I'll have
+to get to it,  aiming for 500-3000 words. 
+2030 okay so stories I have in mind to write out:
+mercury colonies,
+asteroid jumping realtors, 
+seastead mer people; sea cow farmers,
+deep ocean miners,
+orcan archivers,
+mountain plataeu avian people,
+desert reptilians, 
+Ouranos Ice Giant dwellers,
+Neptonian wind harvesters,
+} 26 Jun 2015
+2248 I wonder if I could write a simple day-trading altcoin bot,
+that would be nice, it would sell when a coin is some percentage
+higher, and buy when it is some percentage lower. can drive up
+the price by making the lower percentage smaller. 
+} 01 Jul 2015
+1053 I'm thinking of writing a story about life in a future
+degrowth society. Where conspicious consumption is looked down
+upon, and frugality and minimalizim is honourable. 
+there could be child quotas, 
+each person born of one can have one, or a part of one,
+depending on the overall population quotas at the time. 
+though they could choose to give or sell theirs to someone else.
+After reaching equilibrium population, and if a calamity takes
+place then there could be bonus child quotas available,  which
+could be distributed to the affected communities, where they
+would either be given out by lottery or vote, some couples apply
+to recieve them, and those couples which get the most votes
+would recieve them.  This also insures that their social network
+is fairly strong, and the child has some fans. 
+This could be a post basic income society, or even post
+distributist. 
+Based on some foot print calculations as a whole people and
+developed countries in particular may need to decrease
+consumption by as much as 94%
+https://theconversation.com/our-sustainability-crisis-didnt-start-and-doesnt-stop-at-climate-change-17471
+Okay maybe I should start a file that has all of this stuff.
+like transportation bicycles, with maybe electrical assist,
+ammonia liquid fuels and that kind of stuff. 
+could then later have a video game that incroporates this kind
+of future living.   can call it sustainable living, where the
+challenge is to live within your means
+} 02 Jul 2015
+0542 had a dream, that friends wanted houses and mansions,
+and I just wanted nature, after we reviewed the points, they
+conceded that nature is great.  
+0943 I was thinking that what I am best at is enjoying life.
+so thinking about making the Joyful Lifestyle Co-operative,
+can be an organization to help people have a joyful lifestyle,
+in particular focusing on retired people, though inclusive of
+all.
+Components:
+Physical:
+organic bulk foods,
+reverse osmosis water systems,
+Safety:
+financial and nutritional consultation.
+Love and belonging:
+community bike rides, swims, hikes and other events.
+Esteem:
+lower; arts, performance, theatre plays
+higher: meditation, virtues, 
+self-actualization:
+working for greater good,
+charity, council involvement,
+promoting green space and sustainable practices. 
+1055 just like belts in martial arts, can have bracelets for
+joyful life co-operative, progressing in the colors of the
+rainbow. 
+black/grey - associate member
+red - physical foods and nutrition member
+orange - outdoor activities member
+yellow - consultation member
+green - goals and virtues member
+cyan - art performance member
+indigo - meditation member
+violet - self-actualization member
+white - full member
+associate member can be free, 
+with other ones increasing linearly,
+the main feature would be voting rights for that portion, 
+with possible rebates and payment for contribution,
+also likely discounts for services at or below that level.
+associate members can participate in any of the events,
+though they would have to pay full price if there is any.
+There can be daily events,  physical exercise of at least half
+an hour a day is a goal. can alternate between biking, hiking,
+walking and running,  with swiming and maybe boating in summer,
+and snow-shoeing and skiing in the winter. 
+there has to be a limit on core-members depending on the size of
+the club-house, but also an absolute limit of 54-60 (57) due to iron
+limit,  with possibly 11 to 18 (12, 16) carbon/oxygen best for 
+club-house regulars, and 1-4 hydrogen/helium for club-house 
+residents. outings to far places can be in groups of 20-22 (neon).
+1706 of the core 16, half 8 can be male and half female.  so if
+have 8 male, then can't get more core-members unless they are
+female.   full-members can be the 16,  the core-members could
+perhaps simply have some more priviliges and be voting/board
+level. 
+} 08 Jul 2015
+0420 I guess I'll do some meditation.
+0648 okay so have to do some programming. 
+0732 fixing it up so all the tests get passed,
+issue seems mainly to do with spaces at the moment.
+} 11 Jul 2015
+0541 mmorpg based on inter-linguistic programming language.
+1256 so how will I make it? ideally I'm thinking of having it
+something like a fruit of life layout. 
+people would recieve text messages with little puzzles to solve.
+} 14 Jul 2015
+0156 Project Scenic Skies, for seeing the stars, and helping
+people sleep at night, promotes LPS lights in residential
+areas, and full cut-off light-fixtures. cost savings due to
+energy efficiency of LPS, and lower wattage requirements to
+reduce ground reflected light.  2800K warm-white can be used in
+commerical district.  Possibly can also make money by fining for
+bright blue containing lights at night. 
+0208 Project Food Forest, growing a food forest in the abandoned
+industrial park. 
+0209 Project Owen Sound LEEDs, making owen sound into LEED
+platinum neighbourhood and transition town. 
+0904 I might be able to get into city hall via a volunteer
+position. 
+} 19 Jul 2015
+1348 so now thinking about bylaw management software, 
+or more generically law managment software. 
+constituents could vote on either whole bills, 
+or could vote on seperate paragraphs of a bill,
+they could also make amendments paragraphs, insert or delete.
+One "new" thing would be to encourage that each pargagraph have
+references explaining "why" it is here, and possibly "how" it is
+supposed to work. 
+Can have vote delegation similar to that found in pirate party
+software.  I should check how that is doing, if it is open
+source can probably simply adopt theirs. 
+} 20 Jul 2015
+0727 okay so idea is to have different colored borders when
+reading a bylaw,  if it is a green border then it is voted up,
+if it is a red border then it is voted down, if it is a yellow
+border then it has amendments,  if it has a blue border then it
+is currently up for review.  if it has a black border or white
+background then it is the current law. 
+0857 I'll have to try to install and use liquidfeedback,  but
+most likely we'll have to make a simplified alternative.  
+while there are many features floating in my head I think what's
+necessary is to minimize the number of features to a bare
+minimum.  
+} 22 Jul 2015
+1011 CSA (community sponsored agriculture) style website idea,
+people can pre-order or get shares for some kind of product,
+for instance organic amaranth, in certain number of kg,
+or a certain percentage of the field, perhaps golden ratio style
+shares.  for instance someone could say they want approximately
+so many kg, this will transfer to a percentage of the plot, and
+they will be given the share.  some fixed costs like processing
+and packing would be on top of that.  but otherwise may be able
+to get the food for cheaper,  and at same time give more
+financial security to farmers. 
+Can also scale these shares, for instance if someone wants more
+amaranth than a single farmer can provide,  then the next
+nearest available amaranth grower would be included, or some of
+their shares will be given to the consumer. 
+} 29 Jul 2015
+0353 so bad form has made it difficult to maintian the current
+codebase.  and the bugs about the spaces are so unruly that
+there must be a better way of doing it.  
+I'm very inspired by NASA's coding guidelines, 
+indeed I think it makes sense to implement if at all possible.
+We could have code-checkers, that make sure function length is
+reasonable. and implement as many warnings as practical. 
+Also for parallel programming I'd like to implement a fastMap,
+so can finally abandon for and while loops. 
+0357 Ideally we would be coding in SystemC, and then compiling
+to javaScript, but I don't thihnk it's viable at the moment.
+Also SystemC smells a bit too proprietary for my taste.  
+WebCl can be wrapped in the parallel functions like map and
+expand. Ideally map and expand would be asm.js level functions,
+since they have to be super fast. 
+0424 found JSLint, can try using that to help,
+but likely will also have to make our own code checkers. 
+0446 okay so install jslint,  now I'll start with a new program.
+since obviously my old coding style isn't anywhere close to
+passing. 
+what shall we call the community bylaw management system? 
+0500 based on searches, it seems to be called policy managment
+software. 
+it's also called document management software. 
+0511 most of them don't seem to do what I intend. I know liquid
+democracy is more of a forum type experience. I'm now checking
+online party's new website PACT, they have some kind of hubris
+name unfortunately.  lol PMS (policy managment system). 
+ummm so what's in a name eh? 
+well there is liquid democracy, maybe we should call it liquid
+law? I dono that sounds kinda wishy washy. 
+it's voted bylaws. or community votes on bylaws cvob
+or community votes on law cvol 
+1150 made basic layout, and got the images to update on click. 
+2142 so can store the policies in localStorage or indexDB
+it would have to be by paragraph or something. 
+bill, article, section, paragraph, or however it is usually
+organized. may have to check out how it is done in Owen Sound
+bylaws some more to get a better grip of it. 
+each voter could have a uniqueID, and the votes would be a list
+of uniqueID's,  similarly the amendment would have an authorship
+place. 
+} 30 Jul 2015
+1238 okay so I'm thinking there is also the "energy internet",
+that is mostly up to governments, however there is a the "food
+internet" that is something we might be able to work on. 
+it could interconnect people that grow in their yards, as well
+as those who grow crops. 
+however for that to really take place it would be best to have a
+"logitistics" internet, similar to uber. though I have heard
+there were some issues with people offering to transport stuff,
+since it requires insurance or something. 
+okay so from what I've read so far it seems moving insurance
+isn't not mandatory, simply everything has to be in writing,
+especially if cost of move is over $50. 
+1307 while Uber and other ride shares are getting quite popular
+in America and Europe, I haven't found a local Ontario or Canada
+version as of yet.  Also none of the ones I've seen are for bulk
+foods or anything like that.  Also none of them offer
+eco-friendly transportation, such as bicycle or sailboat. 
+So there is certainly an untapped market in Ontario logistics.
+though it may be quite some competition.  
+} 15 Aug 2015
+2258 I think it may be time to craft another hypnotic story for
+my spouse to help her overcome some blockages.  such as being
+motivated into action by fear, not being willing to learn for a
+positive outcome, and not willing to play against a stronger
+opponent who has handicaps to balance the playing field. 
+those are three elements, so can have three stories. 
+being motivated by fear seems the deepest, 
+followed learning for positive outcome,
+and playing game is shallowest. 
+I can also see if I can find some articles or anything about it. 
+} 11 Aug 2015
+2326 added a bunch of words to dictionary
+} 01 Nov 2015
+0740 Starting work on Lank the virtual machine. 
+It will be written in C with all the checking tools I can find
+or make.  It will compile to javascript via emscripten. 
+I'm using the creative a VM in C tutorial from wikibooks
+https://en.wikibooks.org/wiki/Creating_a_Virtual_Machine/Register_VM_in_C
+1 loadi r0 #100
+2 loadi r1 #200
+3 add r2 r0 r1
+4 halt
+in suftlank:
+100 na ha
+200 na ta
+tamh hi ya
+cwah hi ya
+the encoding:
+"m","k","i","a","y","u","p","w","n","s","t","l","h","f",".","c"
+ 0   1   2   3   4   5   6   7   8   9   A   B   C   D   E   F
+83C3 naha
+83A3 nata
+A30C tamh
+C243 hiya
+F73C cwah
+C243 hiya
+
+0064 83C3
+00C8 83A3
+A30C C243
+F73C C243 
+
+so either we need a base 12 number system, or a number quote. 
+I guess a base 12 number system would be more secure,
+since it would be possible to imitate an end quote in a number.
+though if the number quote said how long the number is, then it
+shouldn't be an issue. 
+
+I could try to think of a simple algorithm for making dozenal. 
+I guess I often get stuck on this part.. 
+if we take a whole bit that's 8, and too much overhead if have
+to filter out a few numbers and add them together.
+
+pfi for binary-value followed by a nibble for an exponent of
+bytes that follow. 
+
+6D20 pfim pfi0 is one byte
+1306
+full code:
+6D20 0064 83C3 pfim mmpy naha
+6D20 00C8 83A3 pfim mmhn nata
+A30C C243 tamh hiya
+F73C C243 cwah hiya
+1308 coincidentally pfim also mean profession. 
+we could use a dot initiated word.  or simply have three dots
+infront ...m mmpy naha
+then for instance a two byte thing would be 
+...k mmpy mmhn naha
+otherwise would have to give a full word for the number. 
+6D2C 85B9 0064 83C3 pfih nuls mmpy naha
+6D2C 85B9 00C8 83A3 pfih nuls mmhn nata
+A30C C243 tamh hiya
+F73C C243 cwah hiya
+1313 I guess it should be fairly reasonable to parse 2bytes at a
+time. not the most compact, but that is not the goal. the goal
+is to make a human speakable virtual machine language. 
+1324 it might make sense to make a mwak to hex converter. 
+1330 maybe that is a distraction though, lets try just doing
+things for now. 
+2307 think I figured out pointed today, which is good. 
+need to figure out assert statements also. 
+} 02 Nov 2015
+0038 made a numToLankGlyphs function
+0042 might consider making zero the glottal stop.
+} 03 Nov 2015
+0718 emscripten doesn't seem to work on ARMv7, or at least clang
+doesn't produce llvm output, so can't use it. 
+may have to write in javascript direct to implement the VM.
+1212 great managed to get emscripten working, needed to compile
+LLVMgold, and apply an lli_force-alternative patch in order to
+do so but it works and that's what counts :-).
+} 04 Nov 2015
+0428 adding asserts to all functions
+0443 okay added, now should make a barebones VM work.
+will then figure out how to interoperate it with current
+codebase. 
+0503 seems like will need forth tutorial to figure out how to
+make the command queue a data thing rather than hard-coded.
+or at least to minimize the hard-coded stuff.
+0520 posted up jonesforth on sourceforge since it seems to be
+mostly absent from internet. 
+0532 I'm wondering if it might be more productive to package up
+my previous SPEL work, and upload it.  I think it might be. so
+I'll take a rest for now and focus on that tommorrow. 
+I can always come back to the VM later.
+0635 wow, 23 tests are currently failing in SPEL, gotta fix that
+up. 
+0736 bah it's really hard after all that only one more test
+passes.  mostly it's because of extra spaces and such.  I'm
+going to try another tack of jslinting everything. 
+it at least is easier. and hopefully will make it easier to
+debug later :-).
+} 05 Nov 2015
+0743 great quote.js now passes JSHint and JSLint :-)
+0828 started jslinting word.js 58% done.
+} 06 Nov 2015
+0614 great I jslinted word.js now to test again.
+0616 weird an error at completely different place.
+to do with not being able to find eng.txt..
+0633 had to revert to old version of word.js
+guess I'll have to test while updating. 
+1643 near a thousand years ago, when I was a vaeringjar on the
+Volga I heard of a mountain people that learned to become gods.
+I wished to learn from them, the tantric buddhists. 
+From the caspian sea, through the deserts 
+and over onto the mountains.
+Divine I am, is the teaching.
+so mote it be. 
+1928 
+(Carl): Zrobin you can't go, we need you on the rivers
+Zrobin: You will stay, die in battle and go to valhalla,
+I will cross the desert, climb the mountains and become a god!
+When I climbed the mountains, in the rags that were left of my
+clothes, hauling my long sword, with my interpreter beside me. 
+'These little dwarf mountain people, what have they to teach me?'
+I thought.
+I came to a village of some buildings, many people and guardsmen
+were before me, barring entrance. I had enough, I threw off my
+rags, raised my sword and bellowed "Who are these gods amongst
+you, I will defeat them!". As I bellowed my sword in the sky, 
+I was met with a hail of spears and arrows. blood gushing I
+succumbed and fell. 
+On hearing my last words from my interpreter, a monk/leader
+said: "maybe he can challenge us again, in his next life, as a
+worm" then he threw his head back and laughed. 
+The left my body for the birds. 
+1958 a fertile women sat in her wagon from beyond the line of
+guards and watched the fearsome Zrobin fall. A fear struck her,
+as she looked down at her pregnant belly, -- what if he becomes
+one of my children?
+a violent and raucus child was destined for the guard. 
+"I challenge you, where are your gods?" the child yelled. 
+The old monk/leader remembered a time not long ago, when that
+question was asked. 
+"Come little worm, I'll teach you."
+"Are you the god?" the child yelled waving his stick.
+his mother quite pale at his great offence to a master. 
+"No little worm, but you may learn to become one."
+

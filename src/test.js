@@ -28,6 +28,8 @@ t.equal(object.toString(), string, "toString");
 t.equal(object.toLocaleString(mwak), string, "toLocaleString");
 });
 
+var format = new Object();
+
 test('compound-word test', function (t) {
 t.plan(3);
 var string = "pam mak kwal";
@@ -36,7 +38,7 @@ var jsonString =
 var object = new Word(mwak,string);
 t.equal(JSON.stringify(object), jsonString, "JSON");
 t.equal(object.toString(), string, "toString");
-t.equal(object.toLocaleString(mwak), string, 
+t.equal(object.toLocaleString(mwak,undefined,"th",0), string, 
 "toLocaleString");
 });
  

@@ -18,7 +18,7 @@ var fraDict = new Dictionary(mwak,fraText);
 var fraWordOrder = {
 	headFinal : false,
 	verbFinal : false,
-	nounFinal : true,
+	nounFinal : false,
 	typeFinal : false,
 	topicInitial : false,
 	subjectProminent: true,
@@ -80,7 +80,14 @@ var adposition = phrase.head.toLocaleString(language,format,
 "ch",conjLevel);
 var result = new String();
 /* infinitive tense is default */
-if (head.length>0 && body.length>0) result = head+joiner+body; 
+var verbMods = new String();
+if (phrase.body && phrase.body.head
+&& phrase.body.head.body){
+verbMods = translate.array(fromMwak,phrase.body.head.body);
+}
+body = verbMods + joiner+ body;
+if (head.length>0 && body.length>0) 
+result = head+joiner+body; 
 else if (head.length>0) result = head;
 else if (body.length>0) result = body;
 else result = adposition;
@@ -156,7 +163,7 @@ else if (subjectBody === "ils"
 ||  subjectBody === "si") result = body.replace(/ir$/,"ent"); 
 }
 /* past tense */
-if (parse.wordMatch(tense.past,tenseWord)){
+else if (parse.wordMatch(tense.past,tenseWord)){
 if (subjectBody === "mi") result = body.replace(/ir$/,"i"); 
 else if (subjectBody === "tu") result= body.replace(/ir$/,"i"); 
 else if (subjectBody === "il"
@@ -169,7 +176,8 @@ else if (subjectBody === "ils"
 ||  subjectBody === "si") result = body.replace(/ir$/,"is"); 
 }
 /* future tense */
-if (parse.wordMatch(tense.future,tenseWord)){
+else if (parse.wordMatch(tense.future,tenseWord)){
+body = body.replace(/ir$/,"");
 if (subjectBody === "mi") result = body+"ai"; 
 else if (subjectBody === "tu") result = body+"as"; 
 else if (subjectBody === "il"
@@ -180,6 +188,7 @@ else if (subjectBody === "yu") result = body+"ez";
 else if (subjectBody === "ils"
 ||  subjectBody === "elles"
 ||  subjectBody === "si") result = body+"ont"; 
+else  result = body+"a";
 }
 }
 }
@@ -227,6 +236,113 @@ else if (subjectBody === "yu") result = body.replace(/e$/,"ez");
 else if (subjectBody === "ils"
 ||  subjectBody === "elles"
 ||  subjectBody === "si") result = body.replace(/e$/,"ont"); 
+}
+}
+}
+else if (body.length > 0 && ! sentence.nominal){
+/* default noun to verb */
+var tense = mwak.grammar.tense
+var tenseWord = phrase.body && phrase.body.head && phrase.body.head.head;
+if (subjectBody.length > 0 && phrase.body.head && tenseWord
+&& parse.wordMatch(tense.all,tenseWord)){
+
+/* present tense */
+if (parse.wordMatch(tense.present,tenseWord)){
+if (subjectBody === "mi") result = "ai "+body;
+else if (subjectBody === "tu") result= "as "+body;
+else if (subjectBody === "il"
+||  subjectBody === "elle"
+||  subjectBody === "ti") result = "a "+body;
+else if (subjectBody === "wi") result= "avons "+body
+else if (subjectBody === "yu") result= "avez "+body
+else if (subjectBody === "ils"
+||  subjectBody === "elles"
+||  subjectBody === "si") result = "ont "+body
+else result =  "as "+body;
+}
+/* past tense */
+if (parse.wordMatch(tense.past,tenseWord)){
+if (subjectBody === "mi") result = "eus "+body
+else if (subjectBody === "tu") result= "eus "+body
+else if (subjectBody === "il"
+||  subjectBody === "elle"
+||  subjectBody === "ti") result = "eut "+body
+else if (subjectBody === "wi") result= "eûmes "+body
+else if (subjectBody === "yu") result= "eûtes "+body
+else if (subjectBody === "ils"
+||  subjectBody === "elles"
+||  subjectBody === "si") result = "eurent "+ body
+else result = "eut "+body;
+}
+/* future tense */
+if (parse.wordMatch(tense.future,tenseWord)){
+if (subjectBody === "mi") result = "aurai "+body
+else if (subjectBody === "tu") result = "auras "+body
+else if (subjectBody === "il"
+||  subjectBody === "elle"
+||  subjectBody === "ti") result = "aura "+body
+else if (subjectBody === "wi") result = "aurons "+ body
+else if (subjectBody === "yu") result = "aurez "+body
+else if (subjectBody === "ils"
+||  subjectBody === "elles"
+||  subjectBody === "si") result = "auront "+body
+else result = "aura " + body;
+
+}
+}
+}
+else if (body.length > 0 && ! sentence.nominal){
+/* default noun to verb */
+}
+else if (body.length <= 0 && sentence.nominal)/* nominal */{
+var tense = mwak.grammar.tense
+var tenseWord = new String();
+if (phrase.body && phrase.body.head)
+tenseWord = phrase.body.head.head;
+if (subjectBody.length > 0 && phrase.body && phrase.body.head && tenseWord
+&& parse.wordMatch(tense.all,tenseWord)){
+var body = adposition; /* etre */
+/* past tense */
+if (parse.wordMatch(tense.past,tenseWord)){
+if (subjectBody === "mi") result = body.replace(/re$/,"ré"); 
+else if (subjectBody === "tu") result= body.replace(/re$/,"ré"); 
+else if (subjectBody === "il"
+||  subjectBody === "elle"
+||  subjectBody === "ti") result = body.replace(/re$/,"ré"); 
+else if (subjectBody === "wi") result= body.replace(/re$/,"rés"); 
+else if (subjectBody === "yu") result= body.replace(/re$/,"rés"); 
+else if (subjectBody === "ils"
+||  subjectBody === "elles"
+||  subjectBody === "si") result = body.replace(/re$/,"rés"); 
+else result =  body.replace(/re$/,"ré");
+}
+/* present tense */
+else if (parse.wordMatch(tense.present,tenseWord)){
+if (subjectBody === "mi") result = "suis"; 
+else if (subjectBody === "tu") result= "es"; 
+else if (subjectBody === "il"
+||  subjectBody === "elle"
+||  subjectBody === "ti") result = "est"; 
+else if (subjectBody === "wi") result= "sommes"; 
+else if (subjectBody === "yu") result= "êtes"; 
+else if (subjectBody === "ils"
+||  subjectBody === "elles"
+||  subjectBody === "si") result = "sont"; 
+else result =  "est";
+}
+/* future tense */
+else if (parse.wordMatch(tense.future,tenseWord)){
+body = "ser"
+if (subjectBody === "mi") result = body+"ai"; 
+else if (subjectBody === "tu") result = body+"as"; 
+else if (subjectBody === "il"
+||  subjectBody === "elle"
+||  subjectBody === "ti") result = body+"a"; 
+else if (subjectBody === "wi") result = body+"ons"; 
+else if (subjectBody === "yu") result = body+"ez"; 
+else if (subjectBody === "ils"
+||  subjectBody === "elles"
+||  subjectBody === "si") result = body+"ont"; 
 }
 }
 }
@@ -283,6 +399,7 @@ else if (subjectBody === "ils"
 }
 }
 else if (sentence.nominal) result = adposition+joiner+head+joiner+body;
+else result = "";
 
 return result+joiner;
 } // end of verbAgreement

@@ -9,6 +9,9 @@ function Type(language,input,partOfSpeech){
 		tokens = tokenize.stringToWords(input);}
 	else if (typeof input === "object"
 		&& input.be === "Type"){
+	if (input.limb){
+var SubType = require("./subType");
+	this.limb = new SubType(language,input.limb);}
 	if (input.type){
 	this.type = input.type;
 if( input.type === "mwq"){
@@ -48,6 +51,7 @@ else if (input.type === "nam"){
 // set multi word quote
 // set number literal
 // set single word quote
+// else if has subType extract as limb, make rest body
 // else make all of it body
 // if contains junction word return Junction 
 
@@ -70,8 +74,8 @@ otherTokens = tokens.slice(0,index);
 juncTokens.splice(index-1,2); // remove used tokens
 }
 // else it is first word
-else if (wordOrder.typeFinal === false) 
-{	headWord = tokens[0];
+else if (wordOrder.typeFinal === false) {
+headWord = tokens[0];
 otherTokens = tokens.slice(1); 
 juncTokens.splice(0,1); // remove used tokens
 }
@@ -143,6 +147,24 @@ this.body = new Word(language, otherTokens, partOfSpeech);
 this.head = new Word(language, headWord); }
 // else return all tokens as word
 }
+
+// else if has subType extract as limb, make rest body
+else if (bodyWords.indexOf(grammar.subTypeWords[0])>-1){
+var subTypeI = bodyWords.indexOf(grammar.subTypeWords[0]);
+if (wordOrder.typeFinal===true){
+var subTypeTokens = bodyWords.slice(0,subTypeI+1);
+var otherTokens =  bodyWords.slice(subTypeI+1); }
+else if (wordOrder.typeFinal === false){
+var subTypeTokens = bodyWords.slice(subTypeI);
+var otherTokens =  bodyWords.slice(0,subTypeI); }
+var SubType = require("./subType");
+this.limb = new SubType(language,subTypeTokens,partOfSpeech);
+if ( headWords.length > 0){ if (bodyWords.length >0){
+this.body = new Word(language,otherTokens,partOfSpeech);
+this.head = new Word(language,headWords);
+}else{ this.head = new Word(language,headWords); }}
+else{ this.body = new Word(language,otherTokens,partOfSpeech); }
+}
 else if ( headWords.length > 0){
 if (bodyWords.length >0){
 this.body = new Word(language,bodyWords,partOfSpeech);
@@ -151,6 +173,8 @@ this.head = new Word(language,headWords);
 this.head = new Word(language,headWords);
 }
 }
+
+// else make all of it body
 else{ this.body = new Word(language, tokens, partOfSpeech);
 }
 return this;
@@ -208,7 +232,7 @@ Type.equals = function(language, input){
 Type.prototype.toString = function(){
 var result = new String();
 var joiner = " ";
-
+if (this.limb) result += this.limb.toString()+joiner;
 if (this.type === "mwq"){
 if (this.tail) result += this.tail.toString()+joiner;
 if (this.name) result += this.name.toString()+joiner;
@@ -235,16 +259,17 @@ function(language, format, type, conjLevel){
 var result = new String();
 var joiner = new String();
 var conj = new Object();
-if (conjLevel >= 3){
-conj = language.grammar.conjugation;
-if (!this.type){
-if (conj.nounType && type === "n")
-return conj.nounType(language,this,format,conjLevel);
-else if (conj.verbType && type === "v")
-return conj.verbType(language,this,format,conjLevel);
+
+if (conjLevel >= 3){ conj = language.grammar.conjugation;
+if (!this.type){ if (conj.nounType && type === "n"){
+return conj.nounType(language,this,format,conjLevel);}
+else if (conj.verbType && type === "v"){
+return conj.verbType(language,this,format,conjLevel);}
 }
 }
 
+var subType = new String(); if (this.limb) subType =
+this.limb.toLocaleString(language,format,undefined,conjLevel);
 
 if (this.body) joiner = " "; 
 var wordOrder = language.grammar.wordOrder;
@@ -253,18 +278,29 @@ if (format && format.joiner !== undefined) joiner = format.joiner;
 else if (conj && conj.format && conj.format.joiner !== undefined) 
 joiner = conj.format.joiner;
 
+// number quote
 if (this.type === "nam" ){
 if (conj.numeral) 
 return conj.numeral(language,this,format,type,conjLevel);
-if (wordOrder.littleEndian !== true)
+if (wordOrder.littleEndian !== true && this.body !== undefined)
 body = tokensAndGlyphsReverse(this.body).join(joiner);
-else body = (this.body).join(joiner);
+else if (this.body) body = (this.body).join(joiner);
+else body = new String();
 result += body;
 }
+// other types
 else if (this.body && this.type !== "mwq")
 result += this.body.toLocaleString(language, format, type,
 conjLevel);
-if (this.head === undefined) return result;
+
+if (this.head === undefined){
+if (!subType) return result;
+else if (wordOrder.typeFinal) result = subType+joiner+result;
+else if (wordOrder.typeFinal=== false) 
+result= result+joiner+subType;
+return result;
+}
+
 // else check type order, append if true, prepend if
 // false.
 var typeTransl = 
@@ -284,22 +320,28 @@ if (this.name) name =
 this.name.toLocaleString(language,format,"th", conjLevel);
 if (this.body) body = this.body.join(joiner);
 
+
 if (language.grammar.wordOrder.typeFinal){
-result =
-tail+joiner+name+joiner+body+joiner+name+joiner+typeTransl;
+if (this.subType) result = subType+joiner;
+result+= tail+joiner+name+joiner+body+joiner+name+joiner+typeTransl;
 }
 else if (language.grammar.wordOrder.typeFinal === false){
  result = 
-typeTransl+joiner+name+joiner+body+joiner+name+joiner+tail;
+typeTransl+joiner+name+joiner+body+joiner+name+joiner+tail
++subType+joiner;
 }
 }
 }
 else{
-if (language.grammar.wordOrder.typeFinal)
-result += joiner + typeTransl ;
-else if (language.grammar.wordOrder.typeFinal === false)
- result = typeTransl + joiner + result;
+if (language.grammar.wordOrder.typeFinal){
+if (this.subType) result = subType+ joiner + result;
+if (typeTransl) result = result + joiner+ typeTransl ;
 }
+else if (language.grammar.wordOrder.typeFinal === false)
+if (typeTransl) result =  typeTransl + joiner + result;
+if (subType) result =  result +joiner +subType;
+}
+
 return result;
 }
 

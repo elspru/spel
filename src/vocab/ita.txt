@@ -1,628 +1,678 @@
-hi li hu essere li ha ya
-ha li hu ob li ha ya
-hu li hu su li ha ya
-mi li hu me li ha ya
-ma li hu che-cosa li ha ya
-mu li hu maschile li ha ya
-ki li hu e li ha ya
-ka li hu come li ha ya
-ku li hu se li ha ya
-yi li hu questo li ha ya
-yu li hu voi li ha ya
-ya li hu ya li ha ya
-pi li hu di li ha ya
-pa li hu che li ha ya
-pu li hu ha-fatto li ha ya
-wi li hu noi li ha ya
-wa li hu o li ha ya
-wu li hu da li ha ya
-ni li hu in li ha ya
-na li hu numerale li ha ya
-si li hu essi li ha ya
-nu li hu ora li ha ya
-ti li hu cui li ha ya
-su li hu da li ha ya
-ta li hu a li ha ya
-tu li hu te li ha ya
-li li hu letterale li ha ya
-fa li hu circa li ha ya
-la li hu ehi li ha ya
-lu li hu plurale li ha ya
-fi li hu femminile li ha ya
-ci li hu eh? li ha ya
-fu li hu volontà li ha ya
-mya li hu può-essere li ha ya
-ca li hu neutro li ha ya
-myi li hu molti li ha ya
-kyi li hu condizionalmente li ha ya
-mwa li hu con li ha ya
-kya li hu a-parte li ha ya
-sa li hu il li ha ya
-kyu li hu perché li ha ya
-kwa li hu quello-che li ha ya
-ksa li hu chiudere-le-virgolette li ha ya
-kli li hu lui li ha ya
-kla li hu ma li ha ya
-klu li hu Clausola-tail li ha ya
-kfa li hu aggettivo-affisso li ha ya
-kca li hu ah li ha ya
-pyi li hu verbo-affisso li ha ya
-pya li hu su li ha ya
-psu li hu da-source li ha ya
-pwa li hu yaor li ha ya
-pli li hu ad-esempio li ha ya
-pca li hu allegro li ha ya
-pcu li hu anche li ha ya
-nyi li hu non li ha ya
-nya li hu cioè li ha ya
-nyu li hu un li ha ya
-sya li hu singolare li ha ya
-syi li hu molto li ha ya
-syu li hu e-allora li ha ya
-swi li hu mentre li ha ya
-sli li hu else-if li ha ya
-sla li hu ciao li ha ya
-tyi li hu preventivo li ha ya
-twu li hu doppio li ha ya
-tsa li hu fino li ha ya
-tsi li hu sì li ha ya
-tla li hu per li ha ya
-tsu li hu nome-affisso li ha ya
-fyi li hu suo li ha ya
-twa li hu poi li ha ya
-tcu li hu fuori li ha ya
-tli li hu ord li ha ya
-fyu li hu alcuni li ha ya
-cya li hu altro li ha ya
-min hu di-meno li ha ya
-miy hu memoria li ha ya
-mik hu fare li ha ya
-mip hu passato li ha ya
-mit hu mezzo li ha ya
-mak hu parola li ha ya
-man hu pensare li ha ya
-mat hu madre li ha ya
-mun hu maschio li ha ya
-mas hu massa li ha ya
-mac hu macchina li ha ya
-mut hu aiuto li ha ya
-mul hu al-completo li ha ya
-kim hu confrontare li ha ya
-kiy hu andare li ha ya
-kip hu capace li ha ya
-kin hu principale li ha ya
-kam hu venire li ha ya
-kis hu alto li ha ya
-kit hu fine li ha ya
-kap hu testa li ha ya
-kan hu sapere li ha ya
-kas hu causa li ha ya
-kaf hu catodico li ha ya
-kuy hu crescere li ha ya
-kat hu ottenere li ha ya
-kal hu tutto li ha ya
-kum hu commercio li ha ya
-kus hu cibo li ha ya
-kuc hu piccolo li ha ya
-yis hu scrivere li ha ya
-kul hu goal li ha ya
-kup hu acquistare li ha ya
-kun hu rosso li ha ya
-yik hu negare li ha ya
-yit hu aspettare li ha ya
-yum hu arto li ha ya
-yat hu leggere li ha ya
-yun hu sottrarre li ha ya
-yak hu alcuni li ha ya
-yup hu buono li ha ya
-yuw hu anno li ha ya
-yac hu larghezza li ha ya
-pis hu moltiplicarsi li ha ya
-pit hu bianco li ha ya
-pic hu pisciare li ha ya
-yus hu uso li ha ya
-pay hu di-più li ha ya
-pam hu braccio li ha ya
-yul hu tutto li ha ya
-pas hu passare li ha ya
-paw hu luogo li ha ya
-pak hu corpo li ha ya
-pat hu padre li ha ya
-pus hu poo li ha ya
-pan hu incontrare li ha ya
-puk hu male li ha ya
-win hu vittoria li ha ya
-pac hu gioia li ha ya
-puy hu bambino li ha ya
-put hu vendere li ha ya
-pul hu blu li ha ya
-fut hu futuro li ha ya
-wan hu amare li ha ya
-wut hu luce li ha ya
-niy hu bisogno li ha ya
-wap hu coda li ha ya
-wat hu parlare li ha ya
-nay hu esalare li ha ya
-nim hu nome li ha ya
-nat hu notte li ha ya
-nut hu anodo li ha ya
-nit hu netto li ha ya
-nic hu energia li ha ya
-sip hu sorso li ha ya
-nuy hu nuovo li ha ya
-sit hu set li ha ya
-wul hu grande li ha ya
-sim hu simile li ha ya
-nam hu numero li ha ya
-saw hu nero li ha ya
-sik hu altezza li ha ya
-sil hu facile li ha ya
-sak hu concordare li ha ya
-nul hu nullo li ha ya
-suy hu perdere li ha ya
-sap hu semplice li ha ya
-say hu dire li ha ya
-sam hu stesso li ha ya
-tim hu team li ha ya
-tik hu tenere li ha ya
-san hu se-stesso li ha ya
-sat hu suono li ha ya
-sup hu pagare li ha ya
-tis hu inalare li ha ya
-sut hu dimensione li ha ya
-tiw hu muro li ha ya
-tiy hu giorno li ha ya
-naw hu presente li ha ya
-tip hu inizio li ha ya
-til hu basso li ha ya
-tin hu vedere li ha ya
-tam hu argomento li ha ya
-tak hu aggiungere li ha ya
-tuk hu drink li ha ya
-tay hu mettere li ha ya
-tal hu cravatta li ha ya
-tan hu dare li ha ya
-tas hu scegliere li ha ya
-tuy hu ripetizione li ha ya
-tup hu profondità li ha ya
-tum hu temperatura li ha ya
-tun hu giocattolo li ha ya
-tap hu toccare li ha ya
-tuf hu difficile li ha ya
-ton hu tonnellata li ha ya
-fin hu femminile li ha ya
-fit hu in-forma li ha ya
-lif hu sinistra li ha ya
-tul hu strumento li ha ya
-lik hu elettrico-charge li ha ya
-fam hu famiglia li ha ya
-lin hu lunghezza li ha ya
-ciy hu verde li ha ya
-cif hu dividere li ha ya
-lis hu vivere li ha ya
-cis hu vita li ha ya
-lit hu glifo li ha ya
-myut hu importazione li ha ya
-cay hu destra li ha ya
-cin hu segno li ha ya
-cim hu udire li ha ya
-cum hu forma li ha ya
-myit hu ricordare li ha ya
-cak hu cosa li ha ya
-can hu possibilità li ha ya
-myun hu impiegare li ha ya
-cal hu mossa li ha ya
-myan hu morbido li ha ya
-kyim hu gioco li ha ya
-mwut hu resistere li ha ya
-myat hu matematica li ha ya
-kyip hu abiti li ha ya
-myul hu morale li ha ya
-kwit hu gravità li ha ya
-kwat hu cura li ha ya
-kyam hu trasportare li ha ya
-kyit hu ogni li ha ya
-myin hu sognare li ha ya
-kyus hu divertimento li ha ya
-kyil hu cerchio li ha ya
-kyin hu generale li ha ya
-kyap hu copia li ha ya
-kyup hu gruppo li ha ya
-ksat hu esatto li ha ya
-ksiy hu esperto li ha ya
-kyat hu duro li ha ya
-ksil hu cristallo li ha ya
-kyul hu regola li ha ya
-kwal hu lingua li ha ya
-ksap hu corda li ha ya
-ksip hu accesso li ha ya
-ksam hu scuro li ha ya
-ksin hu contesto li ha ya
-ksal hu galassia li ha ya
-ksan hu organizzare li ha ya
-ksum hu comunicare li ha ya
-kliy hu chiaro li ha ya
-klin hu elettrone li ha ya
-ksuf hu descrivere li ha ya
-ktin hu religione li ha ya
-kcat hu otto li ha ya
-pyik hu pausa li ha ya
-ksut hu raccogliere li ha ya
-pyit hu quattro li ha ya
-klun hu fame li ha ya
-ksul hu scuola li ha ya
-klaw hu risata li ha ya
-pyaw hu coppia li ha ya
-kcil hu abilità li ha ya
-kfat hu aggettivo li ha ya
-klas hu classe li ha ya
-kcut hu pasticcio li ha ya
-kcuf hu basta li ha ya
-kcun hu coniugare li ha ya
-klat hu clausola li ha ya
-kcim hu chimico li ha ya
-klac hu tranne li ha ya
-pyil hu appello li ha ya
-kfin hu config li ha ya
-pyif hu verbo li ha ya
-pyas hu veloce li ha ya
-pyin hu esperienza li ha ya
-pyam hu programma li ha ya
-pyat hu pronto li ha ya
-pyaf hu eseguire li ha ya
-pyan hu pronome li ha ya
-pyun hu uccello li ha ya
-pyal hu parallelo li ha ya
-pyac hu chiedere li ha ya
-pyut hu protone li ha ya
-psil hu incantesimo li ha ya
-pyul hu bollire li ha ya
-pwas hu risposta li ha ya
-pwil hu variabile li ha ya
-pwut hu approvare li ha ya
-psin hu rotazione li ha ya
-psiy hu pressione li ha ya
-pyuf hu prova li ha ya
-psam hu di-fronte li ha ya
-psit hu velocità li ha ya
-pyuc hu progetto li ha ya
-psan hu spazio li ha ya
-psaf hu risposta li ha ya
-psat hu superficie li ha ya
-pfis hu preferenza li ha ya
-psal hu vela li ha ya
-nyip hu specchio li ha ya
-psut hu promessa li ha ya
-nyat hu inserire li ha ya
-plum hu problema li ha ya
-plam hu plasma li ha ya
-pluy hu popolare li ha ya
-plin hu piano li ha ya
-nyul hu rotolo li ha ya
-plut hu polvere li ha ya
-plun hu probabilmente li ha ya
-syim hu sette li ha ya
-pfal hu fallire li ha ya
-syip hu pulito li ha ya
-pcit hu apprezzare li ha ya
-pcil hu speciale li ha ya
-plan hu piano li ha ya
-plat hu pianeta li ha ya
-syan hu cyan li ha ya
-pfus hu autobus li ha ya
-psun hu fonte li ha ya
-swit hu interruttore-generale li ha ya
-play hu giocare li ha ya
-nlic hu Inglese li ha ya
-syic hu ricerca li ha ya
-syam hu soggiorno li ha ya
-nyit hu unità li ha ya
-nyus hu ionizzare li ha ya
-slin hu singolo li ha ya
-nyut hu neutrone li ha ya
-nyis hu riferimento li ha ya
-syat hu solido li ha ya
-tyik hu decadimento li ha ya
-syut hu supporto li ha ya
-syun hu universo li ha ya
-swil hu anima li ha ya
-swat hu acqua li ha ya
-swuy hu domanda li ha ya
-swun hu sonno li ha ya
-syit hu inviare li ha ya
-slat hu lato li ha ya
-syak hu sveglio li ha ya
-slof hu vocabolario li ha ya
-slam hu sublimare li ha ya
-tkun hu Cinese li ha ya
-tyip hu di-nuovo li ha ya
-tyap hu provare li ha ya
-tyaw hu idea li ha ya
-tyas hu gettare li ha ya
-tyic hu direzione li ha ya
-slim hu esempio li ha ya
-tyus hu caso li ha ya
-tyif hu tradurre li ha ya
-tkic hu traduzione-dictionary li ha ya
-tyis hu transizione li ha ya
-tsiy hu storia li ha ya
-tsip hu passo li ha ya
-tyuc hu insegnare li ha ya
-tyuk hu oggetto li ha ya
-tyuf hu diverso li ha ya
-tyil hu freddo li ha ya
-tyam hu atomo li ha ya
-tyak hu urlo li ha ya
-tyim hu tremare li ha ya
-tyin hu tre li ha ya
-tyan hu corda li ha ya
-tyup hu robot li ha ya
-tsiw hu satellitare li ha ya
-twis hu vero li ha ya
-tsic hu processo li ha ya
-tsim hu insieme li ha ya
-tsin hu istruzione li ha ya
-tsuy hu sedersi li ha ya
-tsak hu attacco li ha ya
-tsan hu studente li ha ya
-tsil hu meritare li ha ya
-tsay hu stella li ha ya
-tsac hu aumentare li ha ya
-tsam hu scopo li ha ya
-tsum hu studio li ha ya
-tlas hu piatto li ha ya
-tsap hu proprietà li ha ya
-tsal hu stato li ha ya
-tsaf hu gusto li ha ya
-tsun hu sostantivo li ha ya
-tsul hu adulto li ha ya
-tlay hu piega li ha ya
-tsuk hu shop li ha ya
-tlum hu vecchio li ha ya
-tlis hu desiderio li ha ya
-tcap hu trasparente li ha ya
-tlik hu elettricità li ha ya
-tlun hu triple-point li ha ya
-tfan hu trasferimento li ha ya
-tfas hu disastro li ha ya
-tfim hu temporaneo li ha ya
-tfun hu fiducia li ha ya
-tfin hu individuale li ha ya
-fwap hu cinque li ha ya
-tfak hu sporcizia li ha ya
-tciy hu cambiamento li ha ya
-tlin hu ordinale li ha ya
-flan hu alluvione li ha ya
-tcik hu verificare li ha ya
-flat hu piano li ha ya
-tcil hu carcere li ha ya
-tcum hu aderire li ha ya
-tfus hu danno li ha ya
-tcin hu catena li ha ya
-tcuy hu fuori li ha ya
-tcun hu potere li ha ya
-tlan hu tradizione li ha ya
-tfal hu file li ha ya
-flay hu volare li ha ya
-tcan hu albero li ha ya
-fwas hu fase li ha ya
-mink hu mente li ha ya
-flun hu per-favore li ha ya
-fyas hu frase li ha ya
-cyin hu imparare li ha ya
-clin hu relazione li ha ya
-fwil hu forza li ha ya
-flit hu flauto li ha ya
-mayn hu armonia li ha ya
-flut hu fiore li ha ya
-mant hu magenta li ha ya
-miyn hu minore li ha ya
-miyt hu consapevole li ha ya
-fluc hu flusso li ha ya
-clut hu supercritico-fluido li ha ya
-clum hu condanna li ha ya
-miyk hu inviare li ha ya
-mist hu misurare li ha ya
-mayc hu immagine li ha ya
-milt hu fusione li ha ya
-musk hu la-musica li ha ya
-mayp hu mappa li ha ya
-mans hu umano li ha ya
-mayt hu immaginario-unità li ha ya
-mast hu questione li ha ya
-kiyn hu una-sola li ha ya
-muyn hu ingannare li ha ya
-muyp hu migliorare li ha ya
-kint hu convertire li ha ya
-muyk hu maggiore li ha ya
-miwk hu persona li ha ya
-must hu il-più li ha ya
-munk hu possibile li ha ya
-munt hu umore li ha ya
-muft hu morire li ha ya
-mint hu metodo li ha ya
-muyt hu alleato li ha ya
-malt hu materiale li ha ya
-mack hu immaginare li ha ya
-muys hu emozione li ha ya
-kiyp hu carta li ha ya
-kant hu costante li ha ya
-kasp hu fermo li ha ya
-kast hu dare-vita li ha ya
-mult hu modulo li ha ya
-kift hu perdonare li ha ya
-kisp hu esponente li ha ya
-kays hu grammaticale-case li ha ya
-kayn hu flusso-corrente li ha ya
-kanp hu collegare li ha ya
-kayt hu caldo li ha ya
-kaws hu gas li ha ya
-kimt hu appendere li ha ya
-kaft hu confermare li ha ya
-kump hu complesso li ha ya
-kumt hu comando li ha ya
-kamt hu grammatica li ha ya
-yinp hu ritorno li ha ya
-kuym hu comune li ha ya
-yilk hu giallo li ha ya
-yawt hu danno li ha ya
-kuct hu crimine li ha ya
-kuyt hu critico-point li ha ya
-kuls hu crudele li ha ya
-kusp hu crollo li ha ya
-kust hu costante li ha ya
-yisk hu ricco li ha ya
-yist hu esportazione li ha ya
-yimt hu ritmo li ha ya
-kuwt hu codice li ha ya
-yink hu ring li ha ya
-yasp hu lavoro li ha ya
-yift hu valore li ha ya
-yamt hu ammirare li ha ya
-kunt hu controllo li ha ya
-kult hu cultura li ha ya
-yalt hu presto li ha ya
-yilt hu Eulero-number li ha ya
-yumt hu pietà li ha ya
-yusk hu est li ha ya
-yask hu reazione li ha ya
-yuyp hu Europa li ha ya
-yuns hu Urano li ha ya
-yust hu riposo li ha ya
-yunt hu container li ha ya
-yast hu gratis li ha ya
-piyn hu opinare li ha ya
-yimk hu chiedere li ha ya
-pint hu operare li ha ya
-pist hu permesso li ha ya
-yalk hu veicolo li ha ya
-yulp hu ruolo li ha ya
-piys hu pi li ha ya
-pamt hu permanente li ha ya
-pays hu base li ha ya
-yult hu utilità li ha ya
-pans hu Spagnolo li ha ya
-puyk hu grammaticale-oggetto li ha ya
-puyt hu morso li ha ya
-panp hu pane li ha ya
-past hu produrre li ha ya
-puwt hu fornire li ha ya
-puls hu bacio li ha ya
-pult hu bottiglia li ha ya
-pust hu posta li ha ya
-pant hu prendere-in-prestito li ha ya
-pusk hu carico li ha ya
-nuys hu rumore li ha ya
-punt hu punto li ha ya
-niwt hu rete li ha ya
-nuls hu zero li ha ya
-pack hu godere li ha ya
-siyt hu suggerire li ha ya
-nims hu animismo li ha ya
-sift hu spostamento li ha ya
-numt hu Note li ha ya
-sayk hu saggio li ha ya
-nilt hu intelligenza li ha ya
-nayt hu raro li ha ya
-nast hu interesse li ha ya
-nuyt hu a-nord li ha ya
-nusp hu dimenticare li ha ya
-sanp hu estendere li ha ya
-wins hu Venere li ha ya
-wuym hu volume li ha ya
-wint hu vento li ha ya
-sink hu diminuire li ha ya
-tiyk hu dieci li ha ya
-tiyn hu continuare li ha ya
-siyn hu sembrare li ha ya
-niyt hu nth-root li ha ya
-tiws hu il-teatro li ha ya
-nuks hu unix li ha ya
-nust hu avviso li ha ya
-salc hu sociale li ha ya
-sact hu sparare li ha ya
-sank hu spesso li ha ya
-sumt hu soggetto li ha ya
-sunp hu supporre li ha ya
-suyt hu corretto li ha ya
-sunt hu sud li ha ya
-sucp hu coniuge li ha ya
-sulc hu soluzione li ha ya
-sark hu sarcasmo li ha ya
-nuft hu ostile li ha ya
-tiym hu in-ritardo li ha ya
-simt hu limite li ha ya
-nalt hu natura li ha ya
-sayt hu velocità-della-luce li ha ya
-tiyf hu drive li ha ya
-sant hu arte li ha ya
-sint hu sentire li ha ya
-tins hu denso li ha ya
-tawk hu autorità li ha ya
-tiys hu distanza li ha ya
-tink hu testo li ha ya
-ticp hu quasi li ha ya
-timp hu grammaticale-tesa li ha ya
-tisk hu testo li ha ya
-tinp hu golden-ratio li ha ya
-tiwk hu attività li ha ya
-tayf hu offerta li ha ya
-tisp hu rappresentare li ha ya
-tayk hu allegare li ha ya
-tuym hu mondo li ha ya
-liys hu libertà li ha ya
-task hu compito li ha ya
-talk hu discorso li ha ya
-tank hu improvviso li ha ya
-talf hu nascondere li ha ya
-taym hu tempo li ha ya
-talp hu tavolo li ha ya
-tasp hu Database li ha ya
-tuyk hu medico li ha ya
-tuyn hu turno li ha ya
-tuys hu ladro li ha ya
-tuyc hu distruggere li ha ya
-lisk hu vacanza li ha ya
-tukc hu Turco li ha ya
-tayn hu area li ha ya
-layt hu undici li ha ya
-lank hu locale li ha ya
-tusk hu progresso li ha ya
-tamk hu guardare li ha ya
-liwk hu legale li ha ya
-tanp hu apparire li ha ya
-tack hu grazie li ha ya
-tuwm hu durata li ha ya
-fayt hu fatto li ha ya
-list hu meno li ha ya
-fals hu falso li ha ya
-falt hu difetto li ha ya
-funk hu funzione li ha ya
-lant hu lento li ha ya
-last hu lista li ha ya
-laft hu beneficio li ha ya
-fult hu albergo li ha ya
-liyk hu liquido li ha ya
-liwt hu regalo li ha ya
-liyt hu letteratura li ha ya
-fint hu trovare li ha ya
-liyn hu linea li ha ya
-layk hu lago li ha ya
-link hu collegamento li ha ya
-fast hu visita li ha ya
-fisk hu apporre li ha ya
-faym hu fattoria li ha ya
-lint hu dentro li ha ya
-fuyk hu povero li ha ya
-fans hu Francese li ha ya
-lumk hu logaritmo li ha ya
-lunt hu persone li ha ya
-fuym hu forma li ha ya
-cink hu desiderare li ha ya
-cint hu agente li ha ya
-funm hu fonema li ha ya
-lunp hu cappio li ha ya
-luwt hu liuto li ha ya
-tick hu dizionario li ha ya
-budz hu Buddismo li ha ya
-cinp hu informazioni li ha ya
+hi li hu  essere li ha ya
+ha li hu  ob li ha ya
+hu li hu  su li ha ya
+mi li hu  me li ha ya
+ma li hu  che-cosa li ha ya
+mu li hu  maschile li ha ya
+ki li hu  e li ha ya
+ka li hu  come li ha ya
+ku li hu  se li ha ya
+yi li hu  questo li ha ya
+yu li hu  voi li ha ya
+ya li hu  ya li ha ya
+pi li hu  di li ha ya
+pa li hu  che li ha ya
+pu li hu  ha-fatto li ha ya
+wi li hu  noi li ha ya
+wa li hu  o li ha ya
+wu li hu  da li ha ya
+ni li hu  in li ha ya
+na li hu  numerale li ha ya
+si li hu  essi li ha ya
+nu li hu  ora li ha ya
+ti li hu  cui li ha ya
+su li hu  da li ha ya
+ta li hu  a li ha ya
+tu li hu  te li ha ya
+li li hu  letterale li ha ya
+fa li hu  circa li ha ya
+la li hu  ehi li ha ya
+lu li hu  plurale li ha ya
+fi li hu  femminile li ha ya
+ci li hu  eh? li ha ya
+fu li hu  volontà li ha ya
+mya li hu  può-essere li ha ya
+ca li hu  neutro li ha ya
+myi li hu  molti li ha ya
+kyi li hu  condizionalmente li ha ya
+mwa li hu  con li ha ya
+kya li hu  a-parte li ha ya
+sa li hu  il li ha ya
+kyu li hu  perché li ha ya
+kwa li hu  quello-che li ha ya
+ksa li hu  chiudere-le-virgolette li ha ya
+kli li hu  lui li ha ya
+kla li hu  ma li ha ya
+klu li hu  Clausola-tail li ha ya
+kfa li hu  aggettivo-affisso li ha ya
+kca li hu  ah li ha ya
+pyi li hu  verbo-affisso li ha ya
+pya li hu  su li ha ya
+psu li hu  da-source li ha ya
+psi li hu  prima li ha ya
+pwa li hu  yaor li ha ya
+pli li hu  ad-esempio li ha ya
+pci li hu  anche li ha ya
+pca li hu  allegro li ha ya
+pcu li hu  anche li ha ya
+nyi li hu  non li ha ya
+nya li hu  cioè li ha ya
+nyu li hu  un li ha ya
+sya li hu  singolare li ha ya
+syi li hu  molto li ha ya
+syu li hu  e-allora li ha ya
+swa li hu  altrimenti li ha ya
+swi li hu  mentre li ha ya
+sli li hu  else-if li ha ya
+sla li hu  ciao li ha ya
+tya li hu  dopo li ha ya
+tyi li hu  preventivo li ha ya
+twu li hu  doppio li ha ya
+tsa li hu  fino li ha ya
+tsi li hu  sì li ha ya
+tsu li hu  nome-affisso li ha ya
+tla li hu  per li ha ya
+fyi li hu  suo li ha ya
+twa li hu  poi li ha ya
+tcu li hu  fuori li ha ya
+tli li hu  ord li ha ya
+fyu li hu  alcuni li ha ya
+cya li hu  altro li ha ya
+min hu  di-meno li ha ya
+miy hu  memoria li ha ya
+mik hu  fare li ha ya
+mip hu  passato li ha ya
+mit hu  mezzo li ha ya
+mak hu  parola li ha ya
+man hu  pensare li ha ya
+mat hu  madre li ha ya
+mun hu  maschio li ha ya
+mas hu  massa li ha ya
+mut hu  Aiuto li ha ya
+mac hu  macchina li ha ya
+mul hu  al-completo li ha ya
+kim hu  confrontare li ha ya
+kiy hu  andare li ha ya
+kip hu  capace li ha ya
+kin hu  principale li ha ya
+kam hu  venire li ha ya
+kis hu  alto li ha ya
+kit hu  fine li ha ya
+kap hu  testa li ha ya
+kan hu  sapere li ha ya
+kas hu  causa li ha ya
+kaf hu  catodico li ha ya
+kuy hu  crescere li ha ya
+kat hu  ottenere li ha ya
+kal hu  tutto li ha ya
+kum hu  commercio li ha ya
+kus hu  cibo li ha ya
+kuc hu  piccolo li ha ya
+yis hu  scrivere li ha ya
+kul hu  goal li ha ya
+kup hu  acquistare li ha ya
+kun hu  rosso li ha ya
+yik hu  negare li ha ya
+yit hu  aspettare li ha ya
+yum hu  arto li ha ya
+yat hu  leggere li ha ya
+yun hu  sottrarre li ha ya
+yak hu  alcuni li ha ya
+yuw hu  anno li ha ya
+yac hu  larghezza li ha ya
+pis hu  moltiplicarsi li ha ya
+pit hu  bianco li ha ya
+pic hu  pisciare li ha ya
+yus hu  uso li ha ya
+pay hu  di-più li ha ya
+pam hu  braccio li ha ya
+yul hu  tutto li ha ya
+pas hu  passare li ha ya
+paw hu  luogo li ha ya
+pak hu  corpo li ha ya
+pat hu  padre li ha ya
+pus hu  poo li ha ya
+pan hu  incontrare li ha ya
+puk hu  male li ha ya
+win hu  vittoria li ha ya
+pac hu  gioia li ha ya
+puy hu  bambino li ha ya
+puc hu  vuoto li ha ya
+put hu  vendere li ha ya
+pul hu  blu li ha ya
+fut hu  futuro li ha ya
+wan hu  amare li ha ya
+wut hu  luce li ha ya
+niy hu  bisogno li ha ya
+wap hu  coda li ha ya
+wat hu  parlare li ha ya
+nay hu  esalare li ha ya
+nim hu  nome li ha ya
+nat hu  notte li ha ya
+nut hu  anodo li ha ya
+nit hu  netto li ha ya
+nal hu  nudo li ha ya
+nic hu  energia li ha ya
+sip hu  sorso li ha ya
+nuy hu  nuovo li ha ya
+sit hu  set li ha ya
+wul hu  grande li ha ya
+sim hu  simile li ha ya
+nam hu  numero li ha ya
+saw hu  nero li ha ya
+sik hu  altezza li ha ya
+sil hu  facile li ha ya
+sak hu  concordare li ha ya
+nul hu  nullo li ha ya
+suy hu  perdere li ha ya
+sap hu  semplice li ha ya
+say hu  dire li ha ya
+sam hu  stesso li ha ya
+tim hu  team li ha ya
+tik hu  tenere li ha ya
+san hu  se-stesso li ha ya
+sat hu  suono li ha ya
+sup hu  pagare li ha ya
+tis hu  inalare li ha ya
+sut hu  dimensione li ha ya
+tiw hu  muro li ha ya
+tiy hu  giorno li ha ya
+naw hu  presente li ha ya
+tip hu  inizio li ha ya
+til hu  basso li ha ya
+tin hu  vedere li ha ya
+tam hu  argomento li ha ya
+tak hu  aggiungere li ha ya
+tuk hu  drink li ha ya
+tay hu  mettere li ha ya
+tal hu  cravatta li ha ya
+tan hu  dare li ha ya
+tas hu  scegliere li ha ya
+tuy hu  ripetizione li ha ya
+tup hu  profondità li ha ya
+tum hu  temperatura li ha ya
+tap hu  toccare li ha ya
+tuf hu  difficile li ha ya
+ton hu  tonnellata li ha ya
+fin hu  femminile li ha ya
+fit hu  in-forma li ha ya
+lif hu  sinistra li ha ya
+tul hu  strumento li ha ya
+lik hu  elettrico-charge li ha ya
+fam hu  famiglia li ha ya
+lin hu  lunghezza li ha ya
+ciy hu  verde li ha ya
+cif hu  dividere li ha ya
+lis hu  vivere li ha ya
+cis hu  vita li ha ya
+lit hu  glifo li ha ya
+myut hu  importazione li ha ya
+cay hu  destra li ha ya
+cin hu  segno li ha ya
+cim hu  udire li ha ya
+cum hu  forma li ha ya
+myit hu  ricordare li ha ya
+myil hu  alleato li ha ya
+cak hu  cosa li ha ya
+can hu  possibilità li ha ya
+myun hu  impiegare li ha ya
+cal hu  mossa li ha ya
+myan hu  morbido li ha ya
+kyim hu  gioco li ha ya
+mwut hu  resistere li ha ya
+myat hu  matematica li ha ya
+kyip hu  abiti li ha ya
+myul hu  morale li ha ya
+kwit hu  gravità li ha ya
+kyam hu  trasportare li ha ya
+kyit hu  ogni li ha ya
+myin hu  sognare li ha ya
+kyus hu  divertimento li ha ya
+kyil hu  cerchio li ha ya
+kyin hu  generale li ha ya
+kyap hu  copia li ha ya
+kwat hu  forte li ha ya
+kyup hu  gruppo li ha ya
+ksat hu  esatto li ha ya
+ksiy hu  esperto li ha ya
+kyat hu  duro li ha ya
+ksit hu  Uscita li ha ya
+ksil hu  cristallo li ha ya
+kyul hu  regola li ha ya
+kwal hu  lingua li ha ya
+ksap hu  corda li ha ya
+ksip hu  accesso li ha ya
+ksam hu  scuro li ha ya
+ksin hu  contesto li ha ya
+ksal hu  galassia li ha ya
+ksan hu  organizzare li ha ya
+ksum hu  comunicare li ha ya
+kliy hu  chiaro li ha ya
+klim hu  scienza li ha ya
+klin hu  elettrone li ha ya
+ksuf hu  descrivere li ha ya
+ktin hu  religione li ha ya
+kcat hu  otto li ha ya
+pyik hu  pausa li ha ya
+ksut hu  raccogliere li ha ya
+klum hu  colonna li ha ya
+pyit hu  quattro li ha ya
+klut hu  escludere li ha ya
+klun hu  fame li ha ya
+kfit hu  effetto li ha ya
+ksul hu  scuola li ha ya
+klaw hu  risata li ha ya
+pyaw hu  coppia li ha ya
+kcil hu  abilità li ha ya
+kfat hu  aggettivo li ha ya
+klas hu  classe li ha ya
+kcut hu  pasticcio li ha ya
+kcuf hu  basta li ha ya
+kcun hu  coniugare li ha ya
+klat hu  clausola li ha ya
+kcim hu  chimico li ha ya
+klac hu  tranne li ha ya
+pyil hu  appello li ha ya
+kfin hu  config li ha ya
+pyan hu  diffusione li ha ya
+pyif hu  verbo li ha ya
+pyas hu  veloce li ha ya
+pyin hu  esperienza li ha ya
+pyam hu  programma li ha ya
+pyat hu  pronto li ha ya
+pyum hu  pronome li ha ya
+pyaf hu  eseguire li ha ya
+pyun hu  uccello li ha ya
+pyal hu  parallelo li ha ya
+pyac hu  chiedere li ha ya
+pyut hu  protone li ha ya
+psil hu  incantesimo li ha ya
+pyul hu  bollire li ha ya
+pwas hu  risposta li ha ya
+pwil hu  variabile li ha ya
+pwut hu  approvare li ha ya
+psin hu  rotazione li ha ya
+psiy hu  pressione li ha ya
+pyuf hu  prova li ha ya
+psit hu  velocità li ha ya
+pyuc hu  progetto li ha ya
+psan hu  spazio li ha ya
+psaf hu  risposta li ha ya
+psat hu  superficie li ha ya
+psal hu  vela li ha ya
+nyip hu  specchio li ha ya
+psut hu  promessa li ha ya
+nyat hu  inserire li ha ya
+plum hu  problema li ha ya
+plam hu  plasma li ha ya
+pluy hu  popolare li ha ya
+plin hu  piano li ha ya
+nyul hu  rotolo li ha ya
+pfic hu  preferire li ha ya
+plut hu  polvere li ha ya
+plun hu  probabilmente li ha ya
+syim hu  sette li ha ya
+pfal hu  fallire li ha ya
+pcum hu  sperare li ha ya
+syip hu  pulito li ha ya
+pcit hu  apprezzare li ha ya
+pcil hu  speciale li ha ya
+plan hu  piano li ha ya
+plat hu  pianeta li ha ya
+syan hu  cyan li ha ya
+pfus hu  autobus li ha ya
+psun hu  fonte li ha ya
+swit hu  interruttore-generale li ha ya
+play hu  giocare li ha ya
+syiw hu  servire li ha ya
+nlic hu  Inglese li ha ya
+syic hu  ricerca li ha ya
+syam hu  soggiorno li ha ya
+nyit hu  unità li ha ya
+nyus hu  ionizzare li ha ya
+slin hu  singolo li ha ya
+nyut hu  neutrone li ha ya
+nyis hu  riferimento li ha ya
+syat hu  solido li ha ya
+tyik hu  decadimento li ha ya
+syut hu  supporto li ha ya
+syun hu  universo li ha ya
+swil hu  anima li ha ya
+swat hu  acqua li ha ya
+swuy hu  domanda li ha ya
+swun hu  sonno li ha ya
+syit hu  inviare li ha ya
+slac hu  sbagliato li ha ya
+slat hu  lato li ha ya
+syak hu  sveglio li ha ya
+slof hu  vocabolario li ha ya
+slam hu  sublimare li ha ya
+tkun hu  Cinese li ha ya
+tyip hu  di-nuovo li ha ya
+tyap hu  provare li ha ya
+tyaw hu  idea li ha ya
+tyas hu  gettare li ha ya
+tyic hu  direzione li ha ya
+slim hu  esempio li ha ya
+tyus hu  caso li ha ya
+tyif hu  tradurre li ha ya
+tkic hu  traduzione-dictionary li ha ya
+tyis hu  transizione li ha ya
+tsiy hu  storia li ha ya
+tsip hu  passo li ha ya
+tyuc hu  insegnare li ha ya
+tyuk hu  oggetto li ha ya
+tyuf hu  diverso li ha ya
+tyil hu  freddo li ha ya
+tyam hu  atomo li ha ya
+twal hu  accoglienza li ha ya
+twuf hu  due li ha ya
+tyak hu  urlo li ha ya
+tyim hu  tremare li ha ya
+tyin hu  tre li ha ya
+tyan hu  corda li ha ya
+tyup hu  robot li ha ya
+tsiw hu  satellitare li ha ya
+twis hu  vero li ha ya
+tsic hu  processo li ha ya
+tsim hu  insieme li ha ya
+tsin hu  istruzione li ha ya
+tsuy hu  sedersi li ha ya
+tsak hu  attacco li ha ya
+tsan hu  studente li ha ya
+tsil hu  meritare li ha ya
+tsay hu  stella li ha ya
+tsac hu  aumentare li ha ya
+tsam hu  scopo li ha ya
+tsum hu  studio li ha ya
+tlas hu  piatto li ha ya
+tsap hu  proprietà li ha ya
+tsal hu  stato li ha ya
+tsaf hu  gusto li ha ya
+tsun hu  sostantivo li ha ya
+tlak hu  rettangolo li ha ya
+tsul hu  adulto li ha ya
+tlay hu  piega li ha ya
+tsuk hu  shop li ha ya
+tlum hu  vecchio li ha ya
+tlis hu  desiderio li ha ya
+tcap hu  trasparente li ha ya
+tlik hu  elettricità li ha ya
+tlun hu  triple-point li ha ya
+tfan hu  trasferimento li ha ya
+tfas hu  disastro li ha ya
+tfim hu  temporaneo li ha ya
+tfun hu  fiducia li ha ya
+tfin hu  individuale li ha ya
+fwap hu  cinque li ha ya
+tfak hu  sporcizia li ha ya
+tciy hu  cambiamento li ha ya
+tlin hu  ordinale li ha ya
+flan hu  alluvione li ha ya
+tcik hu  verificare li ha ya
+flat hu  piano li ha ya
+tcuk hu  trucco li ha ya
+tcil hu  carcere li ha ya
+tcum hu  aderire li ha ya
+fyis hu  ufficiale li ha ya
+tfus hu  danno li ha ya
+fyut hu  frutta li ha ya
+tcin hu  catena li ha ya
+tcuy hu  fuori li ha ya
+tcun hu  potere li ha ya
+tlan hu  tradizione li ha ya
+tfal hu  file li ha ya
+flay hu  volare li ha ya
+tcan hu  albero li ha ya
+fwas hu  fase li ha ya
+mink hu  mente li ha ya
+flun hu  per-favore li ha ya
+fyas hu  frase li ha ya
+cyan hu  includere li ha ya
+cwuy hu  cura li ha ya
+cyin hu  imparare li ha ya
+clan hu  origine li ha ya
+clin hu  relazione li ha ya
+fwil hu  forza li ha ya
+flit hu  flauto li ha ya
+mayn hu  armonia li ha ya
+flut hu  fiore li ha ya
+mant hu  magenta li ha ya
+miyn hu  minore li ha ya
+miyt hu  consapevole li ha ya
+fluc hu  flusso li ha ya
+clut hu  supercritico-fluido li ha ya
+clum hu  condanna li ha ya
+miyk hu  inviare li ha ya
+mist hu  misurare li ha ya
+mank hu  cervello li ha ya
+mayc hu  immagine li ha ya
+milt hu  fusione li ha ya
+musk hu  la-musica li ha ya
+malp hu  ricompensa li ha ya
+mayp hu  mappa li ha ya
+mans hu  umano li ha ya
+mayt hu  immaginario-unità li ha ya
+mast hu  questione li ha ya
+kiyn hu  una-sola li ha ya
+muyn hu  ingannare li ha ya
+muyp hu  migliorare li ha ya
+kint hu  convertire li ha ya
+muyk hu  maggiore li ha ya
+miwk hu  persona li ha ya
+must hu  il-più li ha ya
+munk hu  possibile li ha ya
+munt hu  umore li ha ya
+muft hu  morire li ha ya
+mint hu  metodo li ha ya
+muyt hu  alleato li ha ya
+malt hu  materiale li ha ya
+mack hu  immaginare li ha ya
+kist hu  sostituire li ha ya
+muys hu  emozione li ha ya
+kiyp hu  carta li ha ya
+kant hu  costante li ha ya
+kasp hu  fermo li ha ya
+kast hu  dare-vita li ha ya
+mult hu  modulo li ha ya
+kift hu  perdonare li ha ya
+kisp hu  esponente li ha ya
+kays hu  grammaticale-case li ha ya
+kayn hu  flusso-corrente li ha ya
+kanp hu  collegare li ha ya
+kaws hu  gas li ha ya
+kimt hu  appendere li ha ya
+kump hu  complesso li ha ya
+kunp hu  chiudere li ha ya
+kumt hu  comando li ha ya
+kamt hu  grammatica li ha ya
+yinp hu  ritorno li ha ya
+kuym hu  comune li ha ya
+yilk hu  giallo li ha ya
+yawt hu  danno li ha ya
+kuct hu  crimine li ha ya
+kuyt hu  critico-point li ha ya
+kuls hu  crudele li ha ya
+kusp hu  crollo li ha ya
+kust hu  costante li ha ya
+yisk hu  ricco li ha ya
+yist hu  esportazione li ha ya
+yimt hu  ritmo li ha ya
+kuwt hu  codice li ha ya
+yink hu  ring li ha ya
+yasp hu  lavoro li ha ya
+yift hu  valore li ha ya
+yamt hu  ammirare li ha ya
+kunt hu  controllo li ha ya
+kult hu  cultura li ha ya
+yalt hu  presto li ha ya
+yaft hu  fila li ha ya
+yilt hu  Eulero-number li ha ya
+yumt hu  pietà li ha ya
+yusk hu  est li ha ya
+yask hu  reazione li ha ya
+yuyp hu  Europa li ha ya
+yuns hu  Urano li ha ya
+yust hu  riposo li ha ya
+yunt hu  container li ha ya
+yast hu  gratis li ha ya
+piyn hu  opinare li ha ya
+piyt hu  dipendere li ha ya
+yimk hu  chiedere li ha ya
+pint hu  operare li ha ya
+pist hu  permesso li ha ya
+yalk hu  veicolo li ha ya
+yulp hu  ruolo li ha ya
+piys hu  pi li ha ya
+pamt hu  permanente li ha ya
+pays hu  base li ha ya
+yult hu  utilità li ha ya
+pans hu  Spagnolo li ha ya
+puyk hu  grammaticale-oggetto li ha ya
+puyt hu  morso li ha ya
+panp hu  pane li ha ya
+past hu  produrre li ha ya
+puwt hu  fornire li ha ya
+pulk hu  poligono li ha ya
+puls hu  bacio li ha ya
+pult hu  bottiglia li ha ya
+pust hu  posta li ha ya
+pant hu  prendere-in-prestito li ha ya
+pusk hu  carico li ha ya
+nuys hu  rumore li ha ya
+niyk hu  nelle-vicinanze li ha ya
+punt hu  punto li ha ya
+niwt hu  rete li ha ya
+nist hu  bello li ha ya
+nuls hu  zero li ha ya
+nift hu  nove li ha ya
+nict hu  nativo li ha ya
+pack hu  godere li ha ya
+siyt hu  suggerire li ha ya
+nims hu  animismo li ha ya
+sift hu  spostamento li ha ya
+numt hu  Note li ha ya
+sayk hu  saggio li ha ya
+nilt hu  intelligenza li ha ya
+nayt hu  raro li ha ya
+nast hu  interesse li ha ya
+nuyt hu  a-nord li ha ya
+nusp hu  dimenticare li ha ya
+sanp hu  estendere li ha ya
+wins hu  Venere li ha ya
+wuym hu  volume li ha ya
+wint hu  vento li ha ya
+sink hu  diminuire li ha ya
+silk hu  sei li ha ya
+tiyk hu  dieci li ha ya
+tiyn hu  continuare li ha ya
+sayp hu  fornitura li ha ya
+sayn hu  salvare li ha ya
+siyn hu  sembrare li ha ya
+niyt hu  nth-root li ha ya
+tiws hu  il-teatro li ha ya
+nuks hu  unix li ha ya
+nust hu  avviso li ha ya
+salc hu  sociale li ha ya
+sact hu  sparare li ha ya
+suyk hu  soffrire li ha ya
+sank hu  spesso li ha ya
+sumt hu  soggetto li ha ya
+sunp hu  supporre li ha ya
+suyt hu  corretto li ha ya
+sunt hu  sud li ha ya
+sucp hu  coniuge li ha ya
+sulc hu  soluzione li ha ya
+sark hu  sarcasmo li ha ya
+nuft hu  ostile li ha ya
+tiym hu  in-ritardo li ha ya
+nalt hu  natura li ha ya
+sayt hu  velocità-della-luce li ha ya
+tiyf hu  drive li ha ya
+sant hu  arte li ha ya
+sint hu  sentire li ha ya
+tins hu  denso li ha ya
+tawk hu  autorità li ha ya
+tiys hu  distanza li ha ya
+tink hu  testo li ha ya
+ticp hu  quasi li ha ya
+timp hu  grammaticale-tesa li ha ya
+tisk hu  testo li ha ya
+tinp hu  golden-ratio li ha ya
+tiwk hu  attività li ha ya
+tayf hu  offerta li ha ya
+tisp hu  rappresentare li ha ya
+tayk hu  allegare li ha ya
+tuym hu  mondo li ha ya
+liys hu  libertà li ha ya
+task hu  compito li ha ya
+talk hu  discorso li ha ya
+tank hu  improvviso li ha ya
+talf hu  nascondere li ha ya
+taym hu  tempo li ha ya
+talp hu  tavolo li ha ya
+tasp hu  Database li ha ya
+tuyk hu  medico li ha ya
+tuyn hu  turno li ha ya
+tuys hu  ladro li ha ya
+tuyc hu  distruggere li ha ya
+/sˈa5˧n tɕjˈɑu2˧˥ʔ ɕˈiɜŋ/ 三角形 :zh. /tɹˈaɪaŋɡəl/ triangle :en.
+/tɾiˈaŋɡulo/ triángulo :es. /tɾɪkˈoːɳ/ त्रिकोण :hi. /mθlθ/
+مثلث :ar. /sˈɛɡi tˈiɡa/ segi tiga :id. /trʲiuɡˈoɭnik/
+треугольник :ru. /pˈembe tˈatu/ pembe tatu :sw. /øtʃɟˈæn/
+üçgen :tr. /kˈolmɪo/ kolmio :fi. /trˈiːaŋəl/ triangel :sv.
+/mosˈallas/ مثلث :fa. /trˈiɣonˌo/ τρίγωνο :el. 10 t, 8 u, 8 n,
+8 k, 8 a, 7 l, 7 i, 6 y, 4 m, 3 s, 3 c, 1 p, 1 f, 0 w, tunk hu
+ triangolo li ha ya
+lisk hu  vacanza li ha ya
+tukc hu  Turco li ha ya
+liyp hu  biblioteca li ha ya
+tayn hu  area li ha ya
+layt hu  undici li ha ya
+lank hu  locale li ha ya
+tusk hu  progresso li ha ya
+tamk hu  guardare li ha ya
+liwk hu  legale li ha ya
+tanp hu  apparire li ha ya
+tack hu  grazie li ha ya
+tuwm hu  durata li ha ya
+fayt hu  fatto li ha ya
+list hu  meno li ha ya
+fals hu  falso li ha ya
+falt hu  difetto li ha ya
+funk hu  funzione li ha ya
+lant hu  lento li ha ya
+last hu  lista li ha ya
+laft hu  beneficio li ha ya
+lunk hu  logica li ha ya
+fult hu  albergo li ha ya
+liyk hu  liquido li ha ya
+lufk hu  serratura li ha ya
+liwt hu  regalo li ha ya
+liyt hu  letteratura li ha ya
+fint hu  trovare li ha ya
+fayk hu  fabbrica li ha ya
+liyn hu  linea li ha ya
+layk hu  lago li ha ya
+link hu  collegamento li ha ya
+fast hu  visita li ha ya
+fisk hu  apporre li ha ya
+faym hu  fattoria li ha ya
+lint hu  dentro li ha ya
+fuyk hu  povero li ha ya
+fans hu  Francese li ha ya
+fusk hu  fuoco li ha ya
+lumk hu  logaritmo li ha ya
+ciyk hu  sicuro li ha ya
+lunt hu  persone li ha ya
+fuym hu  forma li ha ya
+cink hu  desiderare li ha ya
+cank hu  segno li ha ya
+cant hu  abitudine li ha ya
+cint hu  agente li ha ya
+funm hu  fonema li ha ya
+lunp hu  cappio li ha ya
+luwt hu  liuto li ha ya
+tick hu  dizionario li ha ya
+budz hu  Buddismo li ha ya
+cinp hu  informazioni li ha ya

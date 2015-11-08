@@ -1,623 +1,1091 @@
-hi li hu be li ha ya
-ha li hu ob li ha ya
-hu li hu su li ha ya
-mi li hu me li ha ya
-ma li hu what li ha ya
-mu li hu masculine li ha ya
-ki li hu and li ha ya
-ka li hu as li ha ya
-ku li hu if li ha ya
-yi li hu this li ha ya
-ya li hu ya li ha ya
-yu li hu you ha ya
-pi li hu of li ha ya
-pa li hu that li ha ya
-pu li hu did li ha ya
-wi li hu we li ha ya
-wa li hu or li ha ya
-wu li hu by li ha ya
-ni li hu in li ha ya
-na li hu numeral li ha ya
-nu li hu now li ha ya
-si li hu them li ha ya
-sa li hu the li ha ya
-su li hu from li ha ya
-ti li hu it li ha ya
-ta li hu to li ha ya
-tu li hu thee li ha ya
-li li hu li li ha ya
-la li hu hey li ha ya
-lu li hu plural ha ya
-fi li hu feminine ha ya
-fa li hu about li ha ya
-fu li hu will-be li ha ya
-ci li hu eh? li ha ya
-ca li hu neuter ha ya
-myi li hu many li ha ya
-mya li hu maybe li ha ya
-mwa li hu with li ha ya
-kyi li hu near li ha ya
-kya li hu aside li ha ya
-kyu li hu because li ha ya
-kwa li hu that-which li ha ya
-ksa li hu unquote li ha ya
-kli li hu him ha ya
-kla li hu but li ha ya
-klu li hu clause-tail li ha ya
-kfa li hu adjective-affix li ha ya
-kca li hu C4 kya ha li ha ya
-pyi li hu verb-affix li ha ya
-pya li hu on li ha ya
-pwa li hu yaor li ha ya
-psu li hu from-source li ha ya
-pli li hu for-example ha ya
-pca li hu jolly li ha ya
-pcu li hu also ha ya
-nyi li hu not li ha ya
-nya li hu namely ha ya
-nyu li hu an ha ya
-syi li hu very ha ya
-sya li hu singular li ha ya
-syu li hu so li ha ya
-swi li hu while li ha ya
-sli li hu else-if ha ya
-sla li hu hello li ha ya
-tyi li hu quote li ha ya
-twa li hu then li ha ya
-twu li hu dual li ha ya
-tsi li hu yes li ha ya
-tsa li hu untill li ha ya
-tsu li hu noun-affix li ha ya
-tli li hu ord li ha ya
-tla li hu for li ha ya
-tcu li hu out li ha ya
-fyi li hu her ha ya
-fyu li hu few li ha ya
-cya li hu else ha ya
-mik hu make ha ya
-miy hu memory ha ya
-mip hu past ha ya
-min hu less ha ya
-mit hu middle ha ya
-mak hu word ha ya
-man hu think ha ya
-mas hu mass ha ya
-mat hu mother ha ya
-mac hu machine ha ya
-mun hu male ha ya
-mut hu help ha ya
-mul hu full ha ya
-kim hu compare ha ya
-kiy hu go li ha ya
-kip hu capable ha ya
-kin hu main ha ya
-kis hu high ha ya
-kit hu end ha ya
-kam hu come ha ya
-kap hu head ha ya
-kan hu know ha ya
-kas hu cause ha ya
-kat hu get ha ya
-kal hu all ha ya
-kaf hu cathode ha ya
-kum hu trade ha ya
-kuy hu grow ha ya
-kup hu buy ha ya
-kun hu red ha ya
-kus hu food ha ya
-kul hu goal ha ya
-kuc hu small ha ya
-yik hu negate ha ya
-yis hu write ha ya
-yit hu wait ha ya
-yak hu some ha ya
-yat hu read ha ya
-yac hu width ha ya
-yum hu limb ha ya
-yup hu good ha ya
-yuw hu year ha ya
-yun hu subtract ha ya
-yus hu use ha ya
-yul hu whole ha ya
-pis hu multiply ha ya
-pit hu white ha ya
-pic hu piss ha ya
-pam hu arm ha ya
-pak hu body ha ya
-pay hu more ha ya
-paw hu place ha ya
-pan hu meet ha ya
-pas hu pass ha ya
-pat hu father ha ya
-pac hu joy ha ya
-puk hu bad ha ya
-puy hu child ha ya
-pus hu poo ha ya
-put hu sell ha ya
-pul hu blue ha ya
-win hu win ha ya
-wap hu tail ha ya
-wan hu love ha ya
-wut hu light ha ya
-wul hu big ha ya
-nim hu name ha ya
-niy hu need ha ya
-nit hu net ha ya
-nic hu energy ha ya
-nam hu number ha ya
-nay hu exhale ha ya
-naw hu present ha ya
-nat hu night ha ya
-nuy hu new ha ya
-nut hu anode ha ya
-nul hu null ha ya
-sim hu similar ha ya
-sik hu height ha ya
-sip hu sip ha ya
-sit hu set ha ya
-sil hu easy ha ya
-sam hu same ha ya
-sak hu agree ha ya
-say hu say ha ya
-sap hu simple ha ya
-saw hu black ha ya
-san hu self ha ya
-sat hu sound ha ya
-suy hu lose ha ya
-sup hu pay ha ya
-sut hu size ha ya
-tim hu team ha ya
-tik hu hold ha ya
-tiy hu day ha ya
-tip hu start ha ya
-tiw hu wall ha ya
-tin hu see ha ya
-tis hu inhale ha ya
-til hu low ha ya
-tam hu topic ha ya
-tak hu add ha ya
-tay hu put ha ya
-tap hu touch ha ya
-tan hu give ha ya
-tas hu choose ha ya
-tal hu tie ha ya
-tum hu temperature ha ya
-tuk hu drink ha ya
-tuy hu repeat ha ya
-tup hu depth ha ya
-tun hu toy ha ya
-tul hu tool ha ya
-tuf hu difficult ha ya
-lik hu charge ha ya
-lin hu length ha ya
-lis hu live ha ya
-lit hu glyph ha ya
-lif hu left ha ya
-fin hu female ha ya
-fit hu fit ha ya
-fam hu family ha ya
-fut hu future ha ya
-cim hu hear ha ya
-ciy hu green ha ya
-cin hu sign ha ya
-cis hu life ha ya
-cif hu divide ha ya
-cak hu thing ha ya
-cay hu right ha ya
-can hu chance ha ya
-cal hu move ha ya
-cum hu shape ha ya
-myin hu dream ha ya
-myit hu remember ha ya
-myan hu soft ha ya
-myat hu math ha ya
-myun hu employ ha ya
-myut hu import ha ya
-myul hu moral ha ya
-mwut hu resist ha ya
-kyim hu game ha ya
-kyip hu clothes ha ya
-kyin hu general ha ya
-kyit hu each ha ya
-kyil hu circle ha ya
-kyam hu carry ha ya
-kyap hu copy ha ya
-kyat hu hard ha ya
-kyup hu group ha ya
-kyus hu fun ha ya
-kyul hu rule ha ya
-kwit hu gravity ha ya
-kwat hu care ha ya
-kwal hu language ha ya
-ksiy hu expert ha ya
-ksip hu access ha ya
-ksin hu context ha ya
-ksil hu crystal ha ya
-ksam hu dark ha ya
-ksap hu rope ha ya
-ksan hu organize ha ya
-ksat hu exact ha ya
-ksal hu galaxy ha ya
-ksum hu communicate ha ya
-ksut hu collect ha ya
-ksul hu school ha ya
-ksuf hu describe ha ya
-ktin hu religion ha ya
-kliy hu clear ha ya
-klin hu electron ha ya
-klaw hu laugh ha ya
-klas hu class ha sam undefined ya
-klat hu clause ha ya
-klac hu except ha ya
-klun hu hunger ha ya
-kfin hu config ha ya
-kfat hu adjective ha ya
-kcim hu chemical ha ya
-kcil hu skill ha ya
-kcat hu eight ha ya
-kcun hu conjugate ha ya
-kcut hu mess ha ya
-kcuf hu enough ha ya
-pyik hu break ha ya
-pyin hu experience ha ya
-pyit hu four ha ya
-pyil hu appeal ha ya
-pyif hu verb ha ya
-pyam hu program ha ya
-pyaw hu couple ha ya
-pyan hu pronoun ha ya
-pyas hu fast ha ya
-pyat hu prompt ha ya
-pyal hu parallel ha ya
-pyaf hu perform ha ya
-pyac hu wonder ha ya
-pyun hu bird ha ya
-pyut hu proton ha ya
-pyul hu boil ha ya
-pyuf hu proof ha ya
-pyuc hu project ha ya
-pwil hu variable ha ya
-pwas hu answer ha ya
-pwut hu approve ha ya
-psiy hu pressure ha ya
-psin hu spin ha ya
-psit hu speed ha ya
-psil hu spell ha ya
-psam hu opposite ha ya
-psan hu space ha ya
-psat hu surface ha ya
-psal hu sail ha ya
-psaf hu reply ha ya
-psun hu source ha ya
-psut hu promise ha ya
-plin hu plane ha ya
-plam hu plasma ha mast fwas hi ya
-play hu play ha ya
-plan hu plan ha ya
-plat hu planet ha ya
-plum hu problem ha ya
-pluy hu popular ha ya
-plun hu probably ha ya
-plut hu dust ha ya
-pfis hu preference ha ya
-pfal hu fail ha ya
-pfus hu bus ha ya
-pcit hu appreciate ha ya
-pcil hu special ha ya
-nyip hu mirror ha ya
-nyis hu reference ha ya
-nyit hu unit ha ya
-nyat hu enter ha ya
-nyus hu ionize ha ya
-nyut hu neutron ha ya
-nyul hu roll ha ya
-nlic hu English ha ya
-syim hu seven ha ya
-syip hu clean ha ya
-syit hu send ha ya
-syic hu research ha ya
-syam hu stay ha ya
-syak hu awake ha ya
-syan hu cyan ha ya
-syat hu solid ha ya
-syun hu universe ha ya
-syut hu support ha ya
-swit hu switch ha ya
-swil hu soul ha ya
-swat hu water ha ya
-swuy hu question ha ya
-swun hu sleep ha ya
-slim hu example ha ya
-slin hu single ha ya
-slam hu sublimate ha ya
-slat hu side ha ya
-tkic hu translation-dictionary ha ya
-tkun hu Chinese ha ya
-tyim hu tremble ha ya
-tyik hu decay ha ya
-tyip hu again ha ya
-tyin hu three ha ya
-tyis hu transition ha ya
-tyil hu cold ha ya
-tyif hu translate ha ya
-tyic hu direction ha ya
-tyam hu atom ha ya
-tyak hu shout ha ya
-tyap hu try ha ya
-tyaw hu idea ha ya
-tyan hu string ha ya
-tyas hu throw ha ya
-tyuk hu object ha ya
-tyup hu robot ha ya
-tyus hu case ha ya
-tyuf hu different ha ya
-tyuc hu teach ha ya
-twis hu true ha ya
-tsim hu together ha ya
-tsiy hu story ha ya
-tsip hu step ha ya
-tsiw hu satellite ha ya
-tsin hu instruction ha ya
-tsil hu deserve ha ya
-tsic hu trial ha ya
-tsam hu purpose ha ya
-tsak hu attack ha ya
-tsay hu star ha ya
-tsap hu property ha ya
-tsan hu respect ha ya
-tsal hu state ha ya
-tsaf hu taste ha ya
-tsac hu increase ha ya
-tsum hu study ha ya
-tsuk hu shop ha ya
-tsuy hu sit ha ya
-tsun hu noun ha ya
-tsul hu adult ha ya
-tlik hu electricity ha ya
-tlin hu ordinal ha ya
-tlis hu desire ha ya
-tlay hu fold ha ya
-tlan hu tradition ha ya
-tlas hu dish ha ya
-tlum hu old ha ya
-tlun hu triple-point ha ya
-tfim hu temporary ha ya
-tfin hu individual ha ya
-tfak hu dirt ha ya
-tfan hu transfer ha ya
-tfas hu disaster ha ya
-tfal hu file ha ya
-tfun hu trust ha ya
-tfus hu damage ha ya
-tcik hu check ha ya
-tciy hu change ha ya
-tcin hu chain ha ya
-tcil hu jail ha ya
-tcap hu transparent ha ya
-tcan hu tree ha ya
-tcum hu join ha ya
-tcuy hu outside ha ya
-tcun hu power ha ya
-fyas hu phrase ha ya
-fwil hu force ha ya
-fwap hu five ha ya
-fwas hu phase ha ya
-flit hu flute ha ya
-flay hu fly ha ya
-flan hu flood ha ya
-flat hu flat ha ya
-flun hu please ha ya
-flut hu flower ha ya
-fluc hu flow ha ya
-cyin hu learn ha ya
-clin hu relation ha ya
-clum hu sentence ha ya
-clut hu supercritical-fluid ha ya
-miyn hu minor ha ya
-miyt hu aware ha ya
-miwk hu person ha ya
-mink hu mind ha ya
-mint hu method ha ya
-mist hu measure ha ya
-milt hu melt ha ya
-mayp hu map ha ya
-mayn hu harmony ha ya
-mayt hu imaginary-unit ha ya
-mayc hu image ha ya
-mans hu human ha ya
-mant hu magenta ha ya
-mast hu matter ha ya
-malt hu melody ha ya
-mack hu imagine ha ya
-muyk hu major ha ya
-muyp hu improve ha ya
-muyn hu fool ha ya
-muys hu emotion ha ya
-muyt hu ally ha ya
-munk hu possible ha ya
-munt hu mood ha ya
-musk hu music ha ya
-must hu most ha ya
-mult hu modulo ha ya
-muft hu die ha ya
-kimt hu hang ha ya
-kiyp hu paper ha ya
-kiyn hu one ha ya
-kint hu convert ha ya
-kisp hu exponent ha ya
-kift hu forgive ha ya
-kamt hu grammar ha ya
-kayn hu flow-current ha ya
-kays hu grammatical-case ha ya
-kayt hu hot ha ya
-kaws hu gas ha ya
-kanp hu connect ha ya
-kant hu constant ha ya
-kasp hu catch ha ya
-kast hu create ha ya
-kaft hu confirm ha ya
-kump hu complex ha ya
-kumt hu command ha ya
-kuym hu common ha ya
-kuyt hu critical-point ha ya
-kuwt hu code ha ya
-kunt hu control ha ya
-kusp hu collapse ha ya
-kust hu record ha ya
-kuls hu cruel ha ya
-kult hu culture ha ya
-kuct hu crime ha ya
-yimk hu ask ha ya
-yimt hu rhythm ha ya
-yink hu ring ha ya
-yinp hu return ha ya
-yisk hu rich ha ya
-yist hu export ha ya
-yilk hu yellow ha ya
-yilt hu Eulers-number ha ya
-yift hu worth ha ya
-yamt hu admire ha ya
-yawt hu ride ha ya
-yask hu reaction ha ya
-yasp hu work ha ya
-yast hu gratis ha ya
-yalk hu vehicle ha ya
-yalt hu early ha ya
-yumt hu mercy ha ya
-yuyp hu Europe ha ya
-yuns hu Uranus ha ya
-yunt hu container ha ya
-yusk hu east ha ya
-yust hu rest ha ya
-yulp hu role ha ya
-yult hu utility ha ya
-piyn hu opine ha ya
-piys hu pi li ha ya
-pint hu operate ha ya
-pist hu permit ha ya
-pamt hu permanent ha ya
-pays hu base ha ya
-panp hu bread ha ya
-pans hu Spanish ha ya
-pant hu borrow ha ya
-past hu produce ha ya
-pack hu enjoy ha ya
-puyk hu grammatical-object ha ya
-puyt hu bite ha ya
-puwt hu provide ha ya
-punt hu point ha ya
-pusk hu load ha ya
-pust hu mail ha ya
-puls hu kiss ha ya
-pult hu bottle ha ya
-wins hu Venus ha ya
-wint hu wind ha ya
-wuym hu volume ha ya
-nims hu Animism ha ya
-niyt hu nth-root ha ya
-niwt hu network ha ya
-nilt hu intelligence ha ya
-nayt hu rare ha ya
-nast hu interest ha ya
-nalt hu nature ha ya
-numt hu note ha ya
-nuks hu unix ha ya
-nuys hu noise ha ya
-nuyt hu north ha ya
-nusp hu forget ha ya
-nust hu notice ha ya
-nuls hu zero ha ya
-nuft hu hostile ha ya
-simt hu limit ha ya
-siyn hu seem ha ya
-siyt hu suggest ha ya
-sink hu decrease ha ya
-sint hu feel ha ya
-sift hu shift ha ya
-sayk hu wise ha ya
-sayt hu speed-of-light ha ya
-sank hu often ha ya
-sanp hu extend ha ya
-sant hu art ha ya
-salc hu social ha ya
-sact hu shoot ha ya
-sumt hu subject ha ya
-suyt hu correct ha ya
-sunp hu suppose ha ya
-sunt hu south ha ya
-sulc hu solution ha ya
-sucp hu spouse ha ya
-timp hu tense ha ya
-tiym hu late ha ya
-tiyk hu ten ha ya
-tiyn hu continue ha ya
-tiys hu distance ha ya
-tiyf hu drive ha ya
-tiwk hu activity ha ya
-tiws hu theater ha ya
-tink hu text ha ya
-tinp hu golden-ratio ha ya
-tins hu dense ha ya
-tisk hu text ha ya
-tisp hu represent ha ya
-tick hu dictionary ha ya
-ticp hu almost ha ya
-tamk hu look ha ya
-taym hu time ha ya
-tayk hu attach ha ya
-tayn hu area ha ya
-tayf hu offer ha ya
-tawk hu authority ha ya
-tank hu sudden ha ya
-tanp hu appear ha ya
-task hu task ha ya
-tasp hu database ha ya
-talk hu talk ha ya
-talp hu table ha ya
-talf hu hide ha ya
-tack hu thank ha ya
-tukc hu Turkish ha ya
-tuym hu world ha ya
-tuyk hu doctor ha ya
-tuyn hu turn ha ya
-tuys hu thief ha ya
-tuyc hu destroy ha ya
-tuwm hu duration ha ya
-tusk hu progress ha ya
-liyk hu liquid ha ya
-liyn hu line ha ya
-liys hu liberty ha ya
-liyt hu literature ha ya
-liwk hu legal ha ya
-liwt hu gift ha ya
-link hu link ha ya
-lint hu inside ha ya
-lisk hu vacation ha ya
-list hu least ha ya
-layk hu lake ha ya
-layt hu eleven ha ya
-lank hu local ha ya
-lant hu slow ha ya
-last hu list ha ya
-laft hu benefit ha ya
-lumk hu logarithm ha ya
-luwt hu lute ha ya
-lunp hu loop ha ya
-lunt hu people ha ya
-fint hu find ha ya
-fisk hu affix ha ya
-faym hu farm ha ya
-fayt hu fact ha ya
-fans hu French ha ya
-fast hu visit ha ya
-fals hu false ha ya
-falt hu default ha ya
-fuym hu form ha ya
-fuyk hu poor ha ya
-funm hu phoneme ha ya
-funk hu function ha ya
-fult hu hotel ha ya
-cink hu wish ha ya
-cinp hu information ha ya
-cint hu agent ha ya
-tsal hu state ha ya
+hi li hu  be li ha ya
+ha li hu  ob li ha ya
+hu li hu  su li ha ya
+mi li hu  me li ha ya
+ma li hu  what li ha ya
+mu li hu  masculine li ha ya
+ki li hu  and li ha ya
+ka li hu  as li ha ya
+ku li hu  if li ha ya
+yi li hu  this li ha ya
+ya li hu  ya li ha ya
+yu li hu  you ha ya
+pi li hu  of li ha ya
+pa li hu  that li ha ya
+pu li hu  did li ha ya
+wi li hu  we li ha ya
+wa li hu  or li ha ya
+wu li hu  by li ha ya
+ni li hu  in li ha ya
+na li hu  numeral li ha ya
+nu li hu  now li ha ya
+si li hu  them li ha ya
+sa li hu  the li ha ya
+su li hu  from li ha ya
+ti li hu  it li ha ya
+ta li hu  to li ha ya
+tu li hu  thee li ha ya
+li li hu  li li ha ya
+la li hu  hey li ha ya
+lu li hu  plural ha ya
+fi li hu  feminine ha ya
+fa li hu  about li ha ya
+fu li hu  will-be li ha ya
+ci li hu  eh? li ha  eh? li ha ya
+ca li hu  neuter ha ya
+cu li hu  and/or li ha ya
+myi li hu  many li ha ya
+mya li hu  maybe li ha ya
+mwa li hu  with li ha ya
+kyi li hu  near li ha ya
+kya li hu  aside li ha ya
+kyu li hu  because li ha ya
+kwa li hu  that-which li ha ya
+ksi li hu  extreme li ha ya
+ksa li hu  unquote li ha ya
+ksu li hu  than li ha ya
+kli li hu  exclusive-or li ha ya
+kla li hu  but li ha ya
+klu li hu  clause-tail li ha ya
+kfa li hu  adjective-affix li ha ya
+kca li hu  there li ha ya
+pyi li hu  verb-affix li ha ya
+pya li hu  on li ha ya
+pwa li hu  yaor li ha ya
+psi li hu  before ha ya
+psa li hu  former li ha ya
+psu li hu  from-source li ha ya
+pli li hu  for-example ha ya
+pfi li hu  binary-value li ha ya
+pci li hu  also ha ya
+pca li hu  should li ha ya
+nya li hu  namely ha ya
+nyi li hu  not li ha ya
+nyu li hu  an ha ya
+syi li hu  very ha ya
+sya li hu  singular li ha ya
+syu li hu  so li ha ya
+swi li hu  while li ha ya
+swa li hu  otherwise li ha ya
+swu li hu  so li ha ya
+sli li hu  else-if ha ya
+sla li hu  hello li ha ya
+tyi li hu  quote li ha ya
+tya li hu  after ha ya
+tyu li hu  him li ha ya
+twa li hu  then li ha ya
+twu li hu  dual li ha ya
+tsi li hu  yes li ha ya
+tsa li hu  untill li ha ya
+tsu li hu  noun-affix li ha ya
+tli li hu  ord li ha ya
+tla li hu  for li ha ya
+tfa li hu  at li ha ya
+tci li hu  here li ha ya
+tcu li hu  out li ha ya
+fyu li hu  few li ha ya
+fwa li hu  for li ha ya
+cyi li hu  her li ha ya
+cya li hu  else ha ya
+cwa li hu  byebye li ha ya
+mik hu  make ha ya
+miy hu  memory ha ya
+mip hu  past ha ya
+min hu  less ha ya
+mit hu  middle ha ya
+mic hu  machine li ha ya
+mak hu  word ha ya
+man hu  faith li ha ya
+mas hu  mass ha ya
+mat hu  mother ha ya
+mac hu  mix li ha ya
+mun hu  month li ha ya
+mus hu  male ha ya
+mut hu  help ha ya
+mul hu  full ha ya
+kim hu  compare ha ya
+kiy hu  go li ha  go li ha ya
+kip hu  capable ha ya
+kin hu  main ha ya
+kis hu  high ha ya
+kic hu  each li ha ya
+kam hu  come ha ya
+kap hu  head ha ya
+kan hu  know ha ya
+kas hu  cause ha ya
+kat hu  get ha ya
+kal hu  all ha ya
+kaf hu  cathode ha ya
+kum hu  trade ha ya
+kuy hu  grow ha ya
+kup hu  buy ha ya
+kun hu  red ha ya
+kus hu  food ha ya
+kul hu  goal ha ya
+kuc hu  small ha ya
+yik hu  negate ha ya
+yis hu  write ha ya
+yit hu  wait ha ya
+yak hu  some ha ya
+yat hu  read ha ya
+yac hu  width ha ya
+yum hu  limb ha ya
+yup hu  up ha  good ha ya
+yuw hu  year ha ya
+yun hu  subtract ha ya
+yus hu  use ha ya
+yul hu  whole ha ya
+yuc hu  good ha ya
+pis hu  multiply ha ya
+pit hu  white ha ya
+pic hu  piss ha ya
+pam hu  arm ha ya
+pak hu  body ha ya
+pay hu  more ha ya
+paw hu  place ha ya
+pan hu  meet ha ya
+pas hu  pass ha ya
+pat hu  father ha ya
+pac hu  joy ha ya
+pum hu  path li ha ya
+puk hu  bad ha ya
+puy hu  child ha ya
+pus hu  poo ha ya
+put hu  sell ha ya
+pul hu  blue ha ya
+puc hu  empty ha ya
+wik hu  week li ha ya
+win hu  win ha ya
+wit hu  level li ha ya
+wap hu  tail ha ya
+wut hu  light ha ya
+wul hu  big ha ya
+nim hu  name ha ya
+nik hu  yet li ha ya
+niy hu  need ha ya
+nip hu  without li ha ya
+nit hu  net ha ya
+nic hu  energy li ha  energy ha ya
+nam hu  number ha ya
+nay hu  exhale ha ya
+naw hu  present ha ya
+nas hu  sibling li ha ya
+nat hu  night ha ya
+nal hu  bare ha ya
+nuy hu  new ha ya
+nut hu  anode ha ya
+nul hu  null ha ya
+sim hu  similar ha ya
+sik hu  height ha ya
+sip hu  sip ha ya
+sit hu  set ha ya
+sil hu  easy ha ya
+sam hu  same ha ya
+sak hu  agree ha ya
+say hu  say ha ya
+sap hu  simple ha ya
+saw hu  black ha ya
+san hu  self ha ya
+sat hu  sound ha ya
+saf hu  space li ha ya
+suk hu  suck li ha ya
+suy hu  lose ha ya
+sup hu  pay ha ya
+sun hu  own li ha ya
+sut hu  size ha ya
+tim hu  team ha ya
+tik hu  hold ha ya
+tiy hu  day ha ya
+tip hu  start ha ya
+tiw hu  wall ha ya
+tin hu  see ha ya
+tis hu  inhale ha ya
+til hu  low ha ya
+tam hu  topic ha ya
+tak hu  add ha ya
+tay hu  put ha ya
+tap hu  touch ha ya
+taw hu  via li ha ya
+tan hu  give ha ya
+tas hu  choose ha ya
+tal hu  tie ha ya
+tac hu  below li ha ya
+tum hu  temperature ha ya
+tuk hu  drink ha ya
+tuy hu  repeat ha ya
+tup hu  depth ha ya
+tun hu  down ha ya
+tus hu  result li ha ya
+tul hu  tool ha ya
+tuf hu  difficult ha ya
+tuc hu  toy ha ya
+lik hu  charge ha ya
+lin hu  inside li ha ya
+lis hu  live ha ya
+lit hu  glyph ha ya
+lif hu  left ha ya
+lat hu  end li ha ya
+lac hu  love li ha ya
+fin hu  female ha ya
+fit hu  fit ha ya
+fam hu  family ha ya
+fas hu  happen li ha ya
+fuy hu  above li ha ya
+fut hu  future ha ya
+cim hu  hear ha ya
+cik hu  move li ha ya
+ciy hu  green ha ya
+cin hu  sign ha ya
+cis hu  life ha ya
+cit hu  must li ha ya
+cif hu  divide ha ya
+cam hu  home li ha ya
+cak hu  thing ha ya
+cay hu  right ha ya
+can hu  chance ha ya
+cat hu  hit ha ya
+cum hu  shape ha ya
+cus hu  show li ha ya
+myin hu  dream ha ya
+myit hu  remember ha ya
+myil hu  ally ha ya
+myan hu  soft ha ya
+myat hu  math ha ya
+myal hu  value li ha ya
+myac hu  venture li ha ya
+myun hu  employ ha ya
+myut hu  import ha ya
+myul hu  moral ha ya
+myuf hu  oppose li ha ya
+mwis hu  average li ha ya
+mwit hu  member li ha ya
+mwas hu  wet li ha ya
+mwat hu  substance li ha ya
+mwut hu  resist ha ya
+kyim hu  game ha ya
+kyip hu  cloth ha ya
+kyin hu  general ha ya
+kyis hu  than li ha ya
+kyit hu  credit li ha ya
+kyil hu  circle ha ya
+kyic hu  corporation li ha ya
+kyam hu  carry ha ya
+kyas hu  to-close li ha ya
+kyat hu  hard ha ya
+kyac hu  emergency li ha ya
+kyup hu  group ha ya
+kyus hu  fun ha ya
+kyul hu  rule ha ya
+kyuc hu  excuse li ha ya
+kwit hu  gravity ha ya
+kwic hu  village li ha ya
+kwat hu  strong ha ya
+kwul hu  call li ha ya
+ksim hu  expect li ha ya
+ksiy hu  expert ha ya
+ksip hu  access ha ya
+ksin hu  context ha ya
+ksit hu  exit ha ya
+ksil hu  crystal ha ya
+ksic hu  compete ha ya
+ksam hu  dark ha ya
+ksay hu  tell li ha ya
+ksap hu  rope ha ya
+ksan hu  advise ha ya
+ksat hu  exact ha ya
+ksal hu  explain li ha ya
+ksaf hu  accident li ha ya
+ksac hu  exercise li ha ya
+ksum hu  communicate ha ya
+ksuy hu  strange li ha ya
+ksup hu  brief li ha ya
+ksun hu  contract li ha ya
+ksut hu  collect ha ya
+ksul hu  school ha ya
+ksuf hu  dry li ha ya
+ksuc hu  fall li ha ya
+klim hu  science ha ya
+kliy hu  clear ha ya
+klin hu  electron ha ya
+klic hu  key li ha ya
+klam hu  labour li ha ya
+klay hu  cry li ha ya
+klap hu  clap li ha ya
+klaw hu  laugh ha ya
+klan hu  colony li ha ya
+klas hu  class ha ya
+klat hu  clause ha ya
+klaf hu  claim li ha ya
+klac hu  except ha ya
+klum hu  column ha ya
+klup hu  global li ha ya
+klun hu  hunger ha ya
+klus hu  closet li ha ya
+klut hu  exclude ha ya
+kluc hu  crime li ha ya
+kfin hu  config ha ya
+kfit hu  effect ha ya
+kfan hu  confirm ha ya
+kfat hu  adjective ha ya
+kfac hu  ear li ha ya
+kfup hu  cup li ha ya
+kfun hu  conference li ha ya
+kfus hu  describe li ha ya
+kcim hu  chemical ha ya
+kcin hu  agent li ha ya
+kcil hu  skill ha ya
+kcam hu  estimate li ha ya
+kcay hu  cure li ha ya
+kcap hu  occupy li ha ya
+kcan hu  hunt ha ya
+kcas hu  cost li ha ya
+kcat hu  eight ha ya
+kcal hu  cupboard li ha ya
+kcaf hu  escape li ha ya
+kcum hu  commission li ha ya
+kcun hu  conjugate ha ya
+kcut hu  mess ha ya
+kcul hu  shell li ha ya
+kcuf hu  enough ha ya
+pyik hu  break ha ya
+pyin hu  experience ha ya
+pyis hu  predict li ha ya
+pyit hu  four ha ya
+pyil hu  appeal ha ya
+pyif hu  verb ha ya
+pyic hu  peace li ha ya
+pyam hu  program ha ya
+pyak hu  practice li ha ya
+pyaw hu  couple ha ya
+pyan hu  spread ha ya
+pyas hu  fast ha ya
+pyat hu  bring li ha ya
+pyal hu  parallel ha ya
+pyaf hu  perform ha ya
+pyac hu  wonder ha ya
+pyum hu  pronoun ha ya
+pyuk hu  publish ha ya
+pyun hu  bird ha ya
+pyus hu  process li ha ya
+pyut hu  proton ha ya
+pyul hu  boil ha ya
+pyuf hu  proof ha ya
+pyuc hu  project ha ya
+pwit hu  believe li ha ya
+pwil hu  variable ha ya
+pway hu  away li ha ya
+pwan hu  pipe li ha ya
+pwas hu  answer ha ya
+pwus hu  presence li ha ya
+pwut hu  approve ha ya
+psim hu  reverse ha ya
+psik hu  discrimination li ha ya
+psiy hu  pressure ha ya
+psin hu  spin ha ya
+psit hu  speed ha ya
+psil hu  spell ha ya
+psif hu  praise li ha ya
+psic hu  page li ha ya
+psam hu  prepare li ha ya
+psak hu  spit li ha ya
+psan hu  expand li ha ya
+psat hu  surface ha ya
+psal hu  sail ha ya
+psaf hu  reply ha ya
+psac hu  prize li ha ya
+psuy hu  protest li ha ya
+psun hu  source li ha  source ha ya
+psut hu  promise ha ya
+psuf hu  breast li ha ya
+psuc hu  expression li ha ya
+plin hu  plane ha ya
+plic hu  particle li ha ya
+plam hu  plasma ha  mast fwas hi ya
+pak hu  apply li ha ya
+play hu  play ha ya
+plan hu  plan ha ya
+plat hu  planet ha ya
+plum hu  problem ha ya
+pluk hu  plug li ha ya
+pluy hu  popular ha ya
+plun hu  probably ha ya
+plut hu  dust ha ya
+pfim hu  profession li ha ya
+pfiy hu  behave li ha ya
+pfin hu  fin li ha ya
+pfit hu  period li ha ya
+pfic hu  prefer ha ya
+pfam hu  parent li ha ya
+pfan hu  bury li ha ya
+pfal hu  fail ha ya
+pfum hu  plenty li ha ya
+pfun hu  open li ha ya
+pfus hu  bus ha ya
+pcin hu  money li ha ya
+pcis hu  business li ha ya
+pcit hu  appreciate ha ya
+pcil hu  special ha ya
+pcay hu  schedule li ha ya
+pcan hu  exchange li ha ya
+pcas hu  paw li ha ya
+pcat hu  spend li ha ya
+pcal hu  jump li ha ya
+pcum hu  hope ha ya
+pcun hu  person li ha ya
+pcus hu  pants li ha ya
+pcut hu  bridge li ha ya
+pcuf hu  eyebrow li ha ya
+nyip hu  mirror ha ya
+nyis hu  reference ha ya
+nyit hu  unit ha ya
+nyas hu  rise li ha ya
+nyat hu  enter ha ya
+nyal hu  nails li ha ya
+nyup hu  invite li ha ya
+nyus hu  ionize ha ya
+nyut hu  neutron ha ya
+nyul hu  roll ha ya
+nwat hu  equivalent li ha ya
+syim hu  seven ha ya
+syik hu  sick li ha ya
+syip hu  clean ha ya
+syiw hu  serve ha ya
+syit hu  send ha ya
+syif hu  reserve li ha ya
+syic hu  research ha ya
+syam hu  stay ha ya
+syak hu  awake ha ya
+syap hu  order li ha ya
+syan hu  cyan ha ya
+syat hu  solid ha ya
+syuk hu  strict li ha ya
+syup hu  rub li ha ya
+syun hu  universe ha ya
+syut hu  support ha ya
+swit hu  switch ha ya
+swil hu  soul ha ya
+swic hu  conscious li ha ya
+swat hu  water ha ya
+swal hu  equal li ha ya
+swum hu  persuade li ha ya
+swuy hu  question ha ya
+swun hu  sleep ha ya
+slim hu  example li ha ya
+slik hu  single ha ya
+sliy hu  secular li ha ya
+slip hu  always li ha ya
+slin hu  cieling li ha ya
+slit hu  to-split li ha ya
+slif hu  word li ha ya
+slic hu  stairs li ha ya
+slam hu  sublimate ha ya
+slan hu  listen li ha ya
+slat hu  side ha ya
+slac hu  wrong ha ya
+slun hu  alone li ha ya
+sluf hu  follow li ha ya
+tyim hu  tremble ha ya
+tyik hu  decay ha ya
+tyip hu  again ha ya
+tyin hu  three ha ya
+tyis hu  address li ha ya
+tyil hu  cold ha ya
+tyif hu  translate ha ya
+tyic hu  direction ha ya
+tyam hu  atom ha ya
+tyak hu  shout ha ya
+tyap hu  try ha ya
+tyaw hu  idea ha ya
+tyan hu  string ha ya
+tyas hu  throw ha ya
+tyal hu  justice li ha ya
+tyaf hu  deliver li ha ya
+tyac hu  attend li ha ya
+tyum hu  transition li ha ya
+tyuk hu  object ha ya
+tyup hu  robot ha ya
+tyun hu  other li ha ya
+tyus hu  case ha ya
+tyuf hu  different ha ya
+tyuc hu  teach ha ya
+twis hu  true ha ya
+tway hu  door li ha ya
+twal hu  welcome ha ya
+twuy hu  doorway li ha ya
+twuf hu  two li ha ya
+tsim hu  together ha ya
+tsik hu  tax li ha ya
+tsiy hu  story ha ya
+tsip hu  step ha ya
+tsiw hu  satellite ha ya
+tsin hu  instruction ha ya
+tsil hu  deserve ha ya
+tsic hu  trial ha ya
+tsam hu  purpose ha ya
+tsak hu  attack ha ya
+tsay hu  star ha ya
+tsan hu  respect ha ya
+tsal hu  state ha ya
+tsaf hu  taste ha ya
+tsac hu  increase ha ya
+tsum hu  study ha ya
+tsuk hu  shop ha ya
+tsuy hu  sit ha ya
+tsup hu  stop li ha ya
+tsun hu  noun ha ya
+tsul hu  adult ha ya
+tlik hu  electricity ha ya
+tlin hu  ordinal ha ya
+tlis hu  desire ha ya
+tlic hu  pleasure li ha ya
+tlam hu  belong li ha ya
+tlak hu  rectangle ha ya
+tlay hu  fold ha ya
+tlap hu  treatment li ha ya
+tlan hu  tradition ha ya
+tlas hu  dish ha ya
+tlaf hu  only li ha ya
+tlun hu  triple-point ha ya
+tfim hu  temporary ha ya
+tfik hu  traffic li ha ya
+tfin hu  individual ha ya
+tfis hu  difference li ha ya
+tfam hu  define li ha ya
+tfak hu  dirt ha ya
+tfan hu  transfer ha ya
+tfas hu  disaster ha ya
+tfal hu  file ha ya
+tfum hu  friend li ha ya
+tfun hu  phone li ha ya
+tfus hu  damage ha ya
+tcim hu  dimension li ha ya
+tcik hu  check ha ya
+tciy hu  change ha ya
+tcin hu  chain ha ya
+tcil hu  jail ha ya
+tcam hu  chew li ha ya
+tcay hu  attitude li ha ya
+tcap hu  transparent ha ya
+tcan hu  tree ha ya
+tcal hu  chat li ha ya
+tcum hu  join ha ya
+tcuk hu  trick ha ya
+tcuy hu  attention li ha ya
+tcup hu  drop li ha ya
+tcuw hu  outside ha ya
+tcun hu  power ha ya
+tcul hu  title li ha ya
+fyim hu  immediate li ha ya
+fyis hu  offical ha ya
+fyit hu  front li ha ya
+fyil hu  pleasant li ha ya
+fyam hu  fame li ha ya
+fyaw hu  adverb li ha ya
+fyan hu  celebrate li ha ya
+fyas hu  phrase ha ya
+fyat hu  interpret li ha ya
+fyum hu  reform li ha ya
+fyun hu  warn li ha ya
+fyut hu  fruit ha ya
+fwis hu  kind li ha ya
+fwil hu  force ha ya
+fway hu  variety li ha ya
+fwap hu  five ha ya
+fwas hu  phase ha ya
+flim hu  metalloid li ha ya
+flin hu  influence li ha ya
+flit hu  flute ha ya
+flay hu  fly ha ya
+flan hu  flood ha ya
+flat hu  flat ha ya
+fluk hu  flower li ha ya
+flup hu  floor li ha ya
+flun hu  please ha ya
+flut hu  float li ha ya
+fluc hu  flow ha ya
+cyik hu  share li ha ya
+cyip hu  news li ha ya
+cyin hu  learn ha ya
+cyis hu  across li ha ya
+cyit hu  teeth li ha ya
+cyif hu  obvious li ha ya
+cyam hu  hinge li ha ya
+cyap hu  branch li ha ya
+cyan hu  include ha ya
+cyas hu  character li ha ya
+cyat hu  danger li ha ya
+cyal hu  shelf li ha ya
+cyaf hu  reveal li ha ya
+cyum hu  room li ha ya
+cyut hu  condition li ha ya
+cwif hu  recieve li ha ya
+cwam hu  evening li ha ya
+cwan hu  vagina li ha ya
+cwal hu  swallow li ha ya
+cwuy hu  care ha ya
+clin hu  relation ha ya
+clak hu  ankle li ha ya
+clan hu  origin ha ya
+clas hu  hall li ha ya
+clum hu  sentence ha ya
+clun hu  knee li ha ya
+clut hu  supercritical-fluid ha ya
+miyn hu  minor ha ya
+miyt hu  aware ha ya
+miwt hu  death li ha ya
+mink hu  mind ha ya
+minp hu  between li ha ya
+mint hu  minute li ha ya
+misp hu  suspect li ha ya
+mist hu  measure ha ya
+mils hu  military li ha ya
+milt hu  melt li ha ya
+milc hu  wash li ha ya
+mift hu  method li ha ya
+mict hu  mention li ha ya
+mayk hu  mark li ha ya
+mayp hu  map ha ya
+mayn hu  harmony ha ya
+mays hu  border li ha ya
+mayt hu  land li ha ya
+mayc hu  image ha ya
+mank hu  brain ha ya
+mant hu  magenta ha ya
+mask hu  mask li ha ya
+masp hu  bother li ha ya
+mast hu  matter ha ya
+malk hu  advertisement li ha ya
+malp hu  reward ha ya
+malt hu  metal li ha ya
+malc hu  regret li ha ya
+maft hu  admit li ha ya
+mack hu  imagine ha ya
+muyk hu  major ha ya
+muyp hu  improve ha ya
+muyn hu  fool ha ya
+muys hu  emote ha ya
+muyt hu  die ha ya
+muwt hu  mouth li ha ya
+munk hu  possible ha ya
+munt hu  mood ha ya
+musk hu  music ha ya
+musp hu  wrist li ha ya
+must hu  most ha ya
+mult hu  modulo ha ya
+muft hu  die ha ya
+muct hu  important li ha ya
+kimt hu  comittee li ha ya
+kiyp hu  paper ha ya
+kiyn hu  one ha ya
+kint hu  convert ha ya
+kisp hu  exponent ha ya
+kist hu  replace ha ya
+kift hu  forgive ha ya
+kict hu  exceed li ha ya
+kamp hu  camp li ha ya
+kamt hu  amount li ha ya
+kaym hu  gather li ha ya
+kayp hu  edge li ha ya
+kayn hu  flow-current ha ya
+kays hu  grammatical-case ha ya
+kayt hu  card ha ya
+kawp hu  cover li ha ya
+kawn hu  hang li ha ya
+kaws hu  gas ha ya
+kawt hu  bed li ha ya
+kanp hu  connect ha ya
+kant hu  constant ha ya
+kasp hu  catch ha ya
+kast hu  create ha ya
+kalp hu  cable li ha ya
+kals hu  galaxy li ha ya
+kalc hu  complain li ha ya
+kafp hu  accept li ha ya
+kaft hu  active ha ya
+kact hu  hot ha ya
+kump hu  complex ha ya
+kumt hu  command ha ya
+kuym hu  common ha ya
+kuyp hu  copy li ha ya
+kuyt hu  critical-point ha ya
+kuwt hu  code ha ya
+kunp hu  shut ha ya
+kusp hu  collapse ha ya
+kust hu  record ha ya
+kulp hu  claw li ha ya
+kuls hu  cruel ha ya
+kult hu  culture ha ya
+kulc hu  spoon li ha ya
+kufp hu  recover li ha ya
+kuft hu  coat li ha ya
+kucp hu  skin li ha ya
+kuct hu  knife li ha ya
+yimt hu  rhythm ha ya
+yiwt hu  revolt li ha ya
+yink hu  ring ha ya
+yinp hu  return ha ya
+yint hu  today li ha ya
+yisk hu  risk li ha ya
+yisp hu  export ha ya
+yist hu  yesterday li ha ya
+yilk hu  yellow ha ya
+yils hu  age li ha ya
+yilt hu  Eulers-number ha ya
+yilc hu  already li ha ya
+yifk hu  wealthy li ha ya
+yift hu  worth ha ya
+yict hu  reject li ha ya
+yamt hu  admire ha ya
+yawt hu  ride ha ya
+yank hu  rock li ha ya
+yanp hu  ordinary li ha ya
+yant hu  rent li ha ya
+yask hu  ask li ha ya
+yasp hu  work ha ya
+yast hu  gratis ha ya
+yalk hu  vehicle ha ya
+yalt hu  early ha ya
+yalf hu  travel li ha ya
+yafk hu  react li ha ya
+yaft hu  row ha ya
+yact hu  ration li ha ya
+yumk hu  public li ha ya
+yumt hu  mercy ha ya
+yunk hu  train li ha ya
+yunt hu  container ha ya
+yusk hu  east ha ya
+yusp hu  rob li ha ya
+yust hu  rest ha ya
+yulp hu  role ha ya
+yult hu  utility ha ya
+yulf hu  useful li ha ya
+yuck hu  root li ha ya
+yuct hu  relate li ha ya
+pimt hu  possess li ha ya
+piyk hu  experiment li ha ya
+piyn hu  opine ha ya
+piys hu  pi li ha ya
+piyt hu  depend ha ya
+pint hu  operate ha ya
+pisk hu  penis li ha ya
+pist hu  permit ha ya
+pilt hu  ticket li ha ya
+pict hu  pest li ha ya
+pamk hu  prompt ha ya
+pamt hu  permanent ha ya
+paym hu  port li ha ya
+payn hu  ban li ha ya
+pays hu  base ha ya
+payt hu  bite li ha ya
+payc hu  price li ha ya
+pank hu  trap li ha ya
+pant hu  plant li ha ya
+pask hu  bag li ha ya
+past hu  produce ha ya
+palk hu  back li ha ya
+pals hu  explode li ha ya
+palt hu  politics li ha ya
+pack hu  box li ha ya
+pact hu  part li ha ya
+pumt hu  belly li ha ya
+puym hu  stumble li ha ya
+puyk hu  grammatical-object ha ya
+puyn hu  bottom li ha ya
+puys hu  cross li ha ya
+puyt hu  report li ha ya
+puyc hu  pour li ha ya
+puwt hu  provide ha ya
+punk hu  leg li ha ya
+punt hu  point ha ya
+pusk hu  load ha ya
+pust hu  mail ha ya
+pulk hu  polygon ha ya
+puls hu  kiss ha ya
+pult hu  bottle ha ya
+pulf hu  eyelid li ha ya
+wint hu  wind ha ya
+wist hu  invest li ha ya
+ways hu  face li ha ya
+wayt hu  wire li ha ya
+wank hu  bowl li ha ya
+wasp hu  robe li ha ya
+walk hu  wave li ha ya
+wuym hu  volume ha ya
+wuyt hu  vote li ha ya
+wunk hu  elbow li ha ya
+wulp hu  rib li ha ya
+wuls hu  responsible li ha ya
+wult hu  old li ha ya
+nimt hu  nonmetal li ha ya
+niyk hu  nearby ha ya
+niyp hu  avoid li ha ya
+niyt hu  nth-root ha ya
+niws hu  nose li ha ya
+niwt hu  network ha ya
+nisk hu  ingredient li ha ya
+nisp hu  principle li ha ya
+nist hu  nice ha ya
+nilk hu  nuclear li ha ya
+nilt hu  intelligence ha ya
+nift hu  nine ha ya
+nick hu  naked li ha ya
+nict hu  native ha ya
+namt hu  appoint li ha ya
+naym hu  normal li ha ya
+nayk hu  deny li ha ya
+nays hu  organize li ha ya
+nayt hu  rare ha ya
+nayc hu  nation li ha ya
+nask hu  interest ha ya
+nasp hu  transport li ha ya
+nast hu  install li ha ya
+nals hu  contact li ha ya
+nalt hu  nature ha ya
+nafk hu  window li ha ya
+naft hu  artificial li ha ya
+nack hu  examine li ha ya
+nact hu  interfere ha ya
+numk hu  economy li ha ya
+numt hu  note ha ya
+nuym hu  announce li ha ya
+nuys hu  noise ha ya
+nuyt hu  north ha ya
+nusk hu  anus li ha ya
+nusp hu  forget ha ya
+nust hu  notice ha ya
+nulk hu  neck li ha ya
+nulp hu  noble li ha ya
+nuls hu  zero ha ya
+nult hu  birth li ha ya
+nuft hu  hostile ha ya
+nuck hu  never li ha ya
+simk hu  one-second li ha ya
+simp hu  seed li ha ya
+simt hu  system ha ya
+siym hu  summary li ha ya
+siyk hu  secret li ha ya
+siyp hu  precise li ha ya
+siyn hu  seem ha ya
+siyt hu  suggest ha ya
+siyc hu  series li ha ya
+siwc hu  situation li ha ya
+sink hu  decrease ha ya
+sinp hu  appear li ha ya
+sint hu  feel ha ya
+silk hu  six ha ya
+silt hu  settle li ha ya
+silf hu  civilian li ha ya
+sifk hu  lack li ha ya
+sifp hu  position li ha ya
+sift hu  shift ha ya
+sick hu  sex li ha ya
+sict hu  sad li ha ya
+samk hu  eye li ha ya
+samt hu  hour li ha ya
+saym hu  stretch li ha ya
+sayk hu  wise ha ya
+sayp hu  supply ha ya
+sayn hu  save ha ya
+sayt hu  speed-of-light ha ya
+sayf hu  sacrifice ha ya
+sayc hu  investigate li ha ya
+sank hu  often ha ya
+sanp hu  extend ha ya
+sant hu  art ha ya
+salk hu  kill li ha ya
+salp hu  surplus li ha ya
+salt hu  salt li ha ya
+salf hu  health li ha ya
+salc hu  social ha ya
+saft hu  safety li ha ya
+sack hu  twilight li ha ya
+sacp hu  punish li ha ya
+sact hu  shoot ha ya
+sumk hu  success li ha ya
+sump hu  morning li ha ya
+sumt hu  subject ha ya
+suyk hu  suffer ha ya
+suyp hu  absorb li ha ya
+suyn hu  structure li ha ya
+suyt hu  correct ha ya
+sunk hu  trunk li ha ya
+sunp hu  suppose ha ya
+sunt hu  south ha ya
+sult hu  soldier li ha ya
+sulc hu  solution ha ya
+sufk hu  spine li ha ya
+suft hu  sacred li ha ya
+suck hu  socket li ha ya
+sucp hu  spouse ha ya
+timk hu  grammar li ha ya
+tiym hu  late ha ya
+tiyk hu  ten ha ya
+tiyp hu  type li ha ya
+tiyn hu  continue ha ya
+tiys hu  distance ha ya
+tiyf hu  drive ha ya
+tiyc hu  delay li ha ya
+tiwk hu  develop li ha ya
+tiws hu  theater ha ya
+tink hu  think ha ya
+tinp hu  tense li ha ya
+tisk hu  text ha ya
+tisp hu  represent ha ya
+tilk hu  label li ha ya
+tilc hu  technology li ha ya
+tifk hu  activity li ha ya
+tick hu  debt li ha ya
+ticp hu  almost ha ya
+tamk hu  look ha ya
+tamp hu  debate li ha ya
+taym hu  time ha ya
+tayk hu  attach ha ya
+tayp hu  top li ha ya
+tayn hu  area ha ya
+tays hu  stand li ha ya
+tayf hu  offer ha ya
+tayc hu  degree li ha ya
+tawk hu  authority ha ya
+tank hu  sudden ha ya
+tanp hu  tape li ha  tape ha ya
+task hu  task ha ya
+tasp hu  arrest li ha ya
+talk hu  talk ha ya
+talp hu  table ha ya
+tals hu  pretend li ha ya
+talf hu  hide ha ya
+talc hu  entitle li ha ya
+tafp hu  defend li ha ya
+tack hu  thank ha ya
+tacp hu  discuss li ha ya
+tumk hu  vomit ha ya
+tump hu  temple li ha ya
+tuym hu  world ha ya
+tuyk hu  doctor ha ya
+tuyp hu  prototype li ha ya
+tuyn hu  turn ha ya
+tuys hu  thief ha ya
+tuyc hu  destroy ha ya
+tuwm hu  duration ha ya
+tuwk hu  duty li ha ya
+tuwn hu  tone li ha ya
+/sˈa5˧n tɕjˈɑu2˧˥ʔ ɕˈiɜŋ/ 三角形 :zh. /tɹˈaɪaŋɡəl/ triangle :en.
+/tɾiˈaŋɡulo/ triángulo :es. /tɾɪkˈoːɳ/ त्रिकोण :hi. /mθlθ/
+مثلث :ar. /sˈɛɡi tˈiɡa/ segi tiga :id. /trʲiuɡˈoɭnik/
+треугольник :ru. /pˈembe tˈatu/ pembe tatu :sw. /øtʃɟˈæn/
+üçgen :tr. /kˈolmɪo/ kolmio :fi. /trˈiːaŋəl/ triangel :sv.
+/mosˈallas/ مثلث :fa. /trˈiɣonˌo/ τρίγωνο :el. 10 t, 8 u, 8 n,
+8 k, 8 a, 7 l, 7 i, 6 y, 4 m, 3 s, 3 c, 1 p, 1 f, 0 w, tunk hu
+ triangle ha ya
+tunp hu  adapt li ha ya
+tusk hu  progress ha ya
+tusp hu  gut li ha ya
+tulk hu  total li ha ya
+tulp hu  pain li ha ya
+tufk hu  aim li ha ya
+tuck hu  dictionary li ha ya
+limk hu  perfect li ha ya
+limt hu  limit ha ya
+liyk hu  liquid ha ya
+liyp hu  library ha ya
+liyn hu  line ha ya
+liys hu  liberty ha ya
+liyt hu  leader li ha ya
+liwk hu  legal ha ya
+liwt hu  gift ha ya
+link hu  link ha ya
+linp hu  length li ha ya
+lint hu  lend li ha ya
+lisk hu  vacation ha ya
+list hu  least ha ya
+lifk hu  release li ha ya
+lick hu  lecture li ha ya
+licp hu  leaf li ha ya
+lict hu  elect li ha ya
+lamk hu  law li ha ya
+lamt hu  local li ha ya
+layk hu  lake ha ya
+layt hu  eleven ha ya
+layc hu  literature li ha ya
+laws hu  lazy li ha ya
+lank hu  tongue li ha ya
+lant hu  slow ha ya
+lask hu  offend li ha ya
+lasp hu  fight li ha ya
+last hu  list ha ya
+laft hu  benefit ha ya
+lack hu  language li ha ya
+lumk hu  logarithm ha ya
+lumt hu  melody ha ya
+luwt hu  lute ha ya
+lunk hu  logic ha ya
+lunp hu  loop ha ya
+lunt hu  people ha ya
+lufk hu  lock ha ya
+fiym hu  firm li ha ya
+fiyn hu  prevent li ha ya
+fiys hu  version li ha ya
+fiwn hu  evidence li ha ya
+fink hu  finger li ha ya
+fint hu  find ha ya
+fisk hu  affix ha ya
+famk hu  familiar li ha ya
+faym hu  farm ha ya
+fayk hu  factory ha ya
+fayt hu  fact ha ya
+fant hu  event li ha ya
+fask hu  extra li ha ya
+fast hu  visit ha ya
+fals hu  false ha ya
+falt hu  default ha ya
+fack hu  fire li ha ya
+fact hu  sufficient li ha ya
+fumt hu  tomorrow li ha ya
+fuym hu  form ha ya
+fuyk hu  poor ha ya
+fuys hu  offence li ha ya
+funk hu  function ha ya
+funt hu  trust li ha ya
+fusk hu  focus ha ya
+fust hu  skirt li ha ya
+fult hu  hotel ha ya
+fulc hu  hair li ha ya
+cimt hu  imaginary-unit li ha ya
+ciyk hu  sure ha ya
+ciyn hu  region li ha ya
+ciwk hu  hamlet li ha ya
+cink hu  wish ha ya
+cint hu  genital li ha ya
+cisk hu  sharp li ha ya
+cisp hu  particular li ha ya
+cist hu  history li ha ya
+cilk hu  cheek li ha ya
+cils hu  resolve li ha ya
+cilt hu  stillness li ha ya
+camk hu  shirt li ha ya
+cayk hu  judge li ha ya
+cayp hu  shame li ha ya
+cayn hu  survive li ha ya
+cays hu  award li ha ya
+cayf hu  jaw li ha ya
+cawn hu  animal li ha ya
+cank hu  sign ha ya
+canp hu  habit ha ya
+cant hu  hand li ha ya
+cast hu  station li ha ya
+calk hu  heart li ha ya
+cafk hu  victim li ha ya
+cumt hu  enemy li ha ya
+cuym hu  rumour li ha ya
+cuyk hu  burn li ha ya
+cuyp hu  hip li ha ya
+cuyn hu  river li ha ya
+cuys hu  house li ha ya
+cuyt hu  city li ha ya
+cunk hu  sing li ha ya
+cunt hu  sew li ha ya
+cusk hu  town li ha ya
+cusp hu  shoes li ha ya
+cust hu  exist li ha ya
+culp hu  smell li ha ya
+cult hu  shoulder li ha ya

@@ -61,31 +61,26 @@ Speakable Programming for Every Language Translator SPELT
 0.6.7 javascript comparatives (12 May 2015)
 0.6.9 javascript basic functions (16 May 2015)
 0.6.A javascript basic numbers (20 May 2015)
-
-0.6.B genitives attach to type ?
-0.6.C javascrip loops
-0.6.D javascript array declaration
-0.6.E sentence junctions (concurrency, threads, workers) ?
-0.6.F javascript object elements, prototypes ?
-0.7 conventional translate-toolkit/Pootle integration. 
-0.7.1 gettext support, 
-0.7.8 all error and site messages translated
-0.7.C translatable mwak files for all parts of Language grammar
-0.8 (de)conjugation
-0.8.0 spaceless mwak tokenization
-0.8.1 compound words
-0.8.2 sub-clause and quote realignment
-0.8.4 translation-memory management
-0.8.5 digraphs and phonetic glyph transform
+0.6.B genitives attach to type (28 May 2015)
+0.6.C javascript while loops (30 May 2015)
+0.6.D javascript for loops
+0.6.E functions
+0.7 data structures
+0.7.1 variables
+0.7.2 typed variables
+0.7.3 arrays 
+0.8 "cool" features"
+0.8.1 sentence junctions (concurrency, threads, workers) ?
+0.8.4 javascript object elements, prototypes ?
 0.8.D ask-complete missing mandatory elements 
 0.8.E object equals comparison for tests
 0.9 download translation result
 0.9.8 spel-lang command line input
-0.A support number and measurement translation
 0.B write documentation 
 0.D continue after recoverable errors and warnings
 0.F write tutorial or FAQ bot 
 0.F.6 make it easy for people to contribute term corrections
+
 1.0 do some promotion
 1.0.1 write a story in SPEL with translations
 1.0.2 set up a blog in SPEL with translations
@@ -96,11 +91,22 @@ Speakable Programming for Every Language Translator SPELT
 1.0.C be interviewed about SPEL
 1.0.D get moderators
 1.0.F get promoters
+1.3 complement gettext
+0.7 conventional translate-toolkit/Pootle integration. 
+0.7.1 gettext support, 
+0.7.8 all error and site messages translated
+0.7.C translatable mwak files for all parts of Language grammar
+0.8 (de)conjugation
+0.8.0 spaceless mwak tokenization
+0.8.1 compound words
+0.8.2 sub-clause and quote realignment
+0.8.4 translation-memory management
+0.8.5 digraphs and phonetic glyph transform
 1.2 conjugation
 1.2.8 verb agreement
 1.2.A genitive agreement
 1.2.C contractions
-1.3 complement gettext
+0.A support number and measurement translation
 
 Speakable Programming for Every Language SPEL (mwak)
 0.1.0 generate html from mwak (hello world)

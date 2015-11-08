@@ -54,12 +54,12 @@ var alphabet = Bit2Alphabet;
 //var alphabet = Glyph12Alphabet;
 var alphabet = Bit4Alphabet;
 //var alphabet = Glyph19Alphabet;
-var alphabet = Glyph24Alphabet;
+//var alphabet = Glyph24Alphabet;
 //var alphabet = Glyph31Alphabet;
 //var alphabet = Bit5Alphabet;
-var comment = "C24G kya";
-var strictPhonotactics = true;
-var loosePhonotactics = false;
+var comment = "X16G kya";
+var strictPhonotactics = false;
+var loosePhonotactics = true;
 var noPhonotactics = false;
 var initialAffricates = false;
 var finalAffricates = false;
@@ -206,8 +206,8 @@ alphabet.phonemeClass.checkType = function(type,glyph){
 
 // su syllable weight be array of string ya
 var /*array<String>*/ syllableWeight = [
-	[".","V"],
-	[".","V","T"],
+	["H","V"],
+	["H","V","T"],
 	["C","V"],
 	["C","V","T"],
 	["C","C","V"],

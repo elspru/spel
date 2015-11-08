@@ -66,7 +66,7 @@ then ((C=$C+1)); export C=$C; fi
 if [[ $@ == *"j"* || $@ == *"ɻ"* || $@ == *"ɾ"*  || $@ == *"j̊"*
 	|| $@ == *"r"* || $@ == *"ʲ"*  || $@ == *"ᴙ"* ]]; 
 then ((Y=$Y+1)); export Y=$Y; fi
-if [[ $@ == *"w"* || $@ == *"ʋ"* 
+if [[ $@ == *"w"* || $@ == *"ʋ"*  || $@ == *"ʊ"*
 	|| $@ == *"v"* || $@ == *"ɰ"* ]]; 
 then ((W=$W+1)); export W=$W; fi
 if [[ $@ == *"l"* || $@ == *"ɭ"* || $@ == *"ʎ"* || $@ == *"ꞎ"*
@@ -141,6 +141,7 @@ echo $TRANS
 
 #PHON=`espeak -q -x --ipa -v en "$@" | sed -e 's/^\ //'`
 #echo " /$PHON/ $@ :en. "
+echo "ksa mak "
 for i in zh en es hi ar id ru sw tr fi sv fa el 
 do
 translate $i $@;
@@ -149,5 +150,4 @@ echo -e " $M m,\n $K k,\n $I i,\n $A a,\n $Y y,\n $U u,\n \
 $P p,\n $W w,\n $N n,\n $S s,\n $T t,\n $L l,\n $F f,\n $C c,\
 \n"\
 |sort -n -r 
-
-echo;
+echo "mak tyi psu " $@ " li ha "

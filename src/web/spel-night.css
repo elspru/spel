@@ -1,6 +1,9 @@
 /* golden ratio intervals
  * 0x9D 0x61 0x3C 0xD9 of 0x100
  * 62   38   23   85   0f 100 */
+table, th, td {
+    border: 1px solid black;
+}
 body{
 font-family:monospace;
 font-size:12;

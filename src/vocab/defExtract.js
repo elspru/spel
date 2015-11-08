@@ -17,7 +17,7 @@ var Language = require('../lang/language');
 var mwak = new Language();
 
 // first argument is filename
-var filename = "mwak/X16glyph.txt";  //process.argv[2];
+var filename = "mwak/C16glyph.txt";  //process.argv[2];
 console.log("reading "+filename);
 var fileContents = io.fileRead(filename);
 console.log("creating text");

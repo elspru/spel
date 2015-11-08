@@ -693,6 +693,22 @@ function firstClauseTerminatorIndexParse(grammar,tokens){
 }
 
 
+exports. lastSubTypeWordIndex = 
+	 lastSubTypeWordIndexParse;
+function lastSubTypeWordIndexParse(grammar,tokens){
+var Index = tokens.rfind(
+		wordMatch.curry(grammar.subTypeWords));
+if (Index=== null) return -1;
+return Index;
+}
+exports. firstSubTypeWordIndex = 
+	 firstSubTypeWordIndexParse;
+function firstSubTypeWordIndexParse(grammar,tokens){
+var Index = 
+tokens.find(wordMatch.curry(grammar.subTypeWords));
+if (Index=== null) return -1;
+return Index;
+}
 
 exports. lastSubPhraseWordIndex = 
 	 lastSubPhraseWordIndexParse;
@@ -709,6 +725,14 @@ var Index =
 tokens.find(wordMatch.curry(grammar.subPhraseWords));
 if (Index=== null) return -1;
 return Index;
+}
+exports.lastSubType = lastSubTypeGet;
+function lastSubTypeGet(grammar,tokens){
+return tokens;
+}
+exports.firstSubType = firstSubTypeGet;
+function firstSubTypeGet(grammar,tokens){
+return tokens;
 }
 exports. lastAnyCaseIndex = 
 	 lastAnyCaseIndexParse;
@@ -1012,6 +1036,7 @@ function firstTypeParse(grammar,tokens){
 var indexes = firstTypeIndexParse(grammar,tokens);
 return tokens.slice(indexes[0],indexes[1]);
 }
+
 exports. lastTypeIndex = 
 	 lastTypeIndexParse;
 function lastTypeIndexParse(grammar,tokens){
@@ -1034,6 +1059,7 @@ var sentenceI 	= lastSentenceWordIndexParse(grammar, tokens);
 var topClauseI 	= lastTopClauseWordIndexParse(grammar,tokens);
 var caseI 	= lastCaseIndexParse(grammar,tokens);
 var subPhraseI 	= lastSubPhraseWordIndexParse(grammar,tokens);
+var subTypeI 	= lastSubTypeWordIndexParse(grammar,tokens);
 var clauseI	= lastClauseWordIndexParse(grammar,tokens);
 var junctionI	= lastJunctionWordIndexParse(grammar,tokens)-1;
 var maxI = Math.max(-1, clauseI, subPhraseI, caseI, topClauseI, 
@@ -1065,6 +1091,7 @@ var sentenceI 	= firstSentenceWordIndexParse(grammar, tokens);
 var topClauseI 	= firstTopClauseWordIndexParse(grammar,tokens);
 var caseI 	= firstCaseIndexParse(grammar,tokens);
 var subPhraseI 	= firstSubPhraseWordIndexParse(grammar,tokens);
+var subTypeI 	= firstSubTypeWordIndexParse(grammar,tokens);
 var clauseI	= firstClauseWordIndexParse(grammar,tokens);
 var junctionI	= firstJunctionWordIndexParse(grammar,tokens);
 if (junctionI > -1) junctionI++;

@@ -1,629 +1,679 @@
-hi li hu zijn li ha ya
-ha li hu ob li ha ya
-hu li hu su li ha ya
-mi li hu mij li ha ya
-ma li hu wat li ha ya
-mu li hu mannelijk li ha ya
-ki li hu en li ha ya
-ka li hu dan li ha ya
-ku li hu indien li ha ya
-yi li hu dit li ha ya
-yu li hu Zij li ha ya
-ya li hu ya li ha ya
-pi li hu van li ha ya
-pa li hu dat-ding li ha ya
-pu li hu actie li ha ya
-wi li hu wij li ha ya
-wa li hu of li ha ya
-wu li hu uit li ha ya
-ni li hu in li ha ya
-na li hu Aantal li ha ya
-si li hu zij li ha ya
-nu li hu nu li ha ya
-ti li hu dat li ha ya
-su li hu uit li ha ya
-ta li hu naar li ha ya
-tu li hu u li ha ya
-li li hu letterlijk li ha ya
-fa li hu over li ha ya
-la li hu Hallo li ha ya
-lu li hu Meervoud li ha ya
-fi li hu vrouwelijk li ha ya
-ci li hu eh? li ha ya
-fu li hu wil li ha ya
-mya li hu misschien li ha ya
-ca li hu Onzijdig li ha ya
-myi li hu veel li ha ya
-kyi li hu voorwaardelijk li ha ya
-mwa li hu met li ha ya
-kya li hu terzijde li ha ya
-sa li hu de li ha ya
-kyu li hu omdat li ha ya
-kwa li hu dat-de li ha ya
-ksa li hu Einde-van-de-citation- li ha ya
-kli li hu hem li ha ya
-kla li hu maar li ha ya
-klu li hu Clausule-tail li ha ya
-kfa li hu Bijvoeglijke-affix li ha ya
-kca li hu ha li ha ya
-pyi li hu Werkwoord-affix li ha ya
-pya li hu naar li ha ya
-psu li hu van-bron li ha ya
-pwa li hu yaor li ha ya
-pli li hu bijvoorbeeld li ha ya
-pca li hu vrolijk li ha ya
-pcu li hu zelfs li ha ya
-nyi li hu niet li ha ya
-nya li hu namelijk li ha ya
-nyu li hu een li ha ya
-sya li hu Enkelvoud li ha ya
-syi li hu heel-erg li ha ya
-syu li hu zo li ha ya
-swi li hu terwijl li ha ya
-sli li hu anders-if li ha ya
-sla li hu hallo li ha ya
-tyi li hu Aanbod li ha ya
-twu li hu Dubbel li ha ya
-tsa li hu ,-Bis li ha ya
-tsi li hu ja li ha ya
-tla li hu voor li ha ya
-tsu li hu Naamwoord-affix li ha ya
-fyi li hu zij li ha ya
-twa li hu vervolgens li ha ya
-tcu li hu uit li ha ya
-tli li hu ord li ha ya
-fyu li hu enkele li ha ya
-cya li hu anders li ha ya
-min hu minder li ha ya
-miy hu Geheugen li ha ya
-mik hu maken li ha ya
-mip hu verleden li ha ya
-mit hu Midden li ha ya
-mak hu woord li ha ya
-man hu denken li ha ya
-mat hu Moeder li ha ya
-mun hu mannelijk li ha ya
-mas hu Massa li ha ya
-mac hu Machine li ha ya
-mut hu helpen li ha ya
-mul hu geheel li ha ya
-kim hu vergelijken li ha ya
-kiy hu gaan li ha ya
-kip hu in-staat li ha ya
-kin hu Hoofd- li ha ya
-kam hu komen li ha ya
-kis hu zeer li ha ya
-kit hu einde li ha ya
-kap hu hoofd li ha ya
-kan hu weten li ha ya
-kas hu Root-Cause li ha ya
-kaf hu Kathode li ha ya
-kuy hu groeien li ha ya
-kat hu ontvangen li ha ya
-kal hu alle li ha ya
-kum hu Handel li ha ya
-kus hu Voedingsmiddelen li ha ya
-kuc hu klein li ha ya
-yis hu schrijven li ha ya
-kul hu Doelwit li ha ya
+hi li hu  zijn li ha ya
+ha li hu  ob li ha ya
+hu li hu  su li ha ya
+mi li hu  mij li ha ya
+ma li hu  wat li ha ya
+mu li hu  mannelijk li ha ya
+ki li hu  en li ha ya
+ka li hu  dan li ha ya
+ku li hu  indien li ha ya
+yi li hu  dit li ha ya
+yu li hu  Zij li ha ya
+ya li hu  ya li ha ya
+pi li hu  van li ha ya
+pa li hu  dat-ding li ha ya
+pu li hu  actie li ha ya
+wi li hu  wij li ha ya
+wa li hu  of li ha ya
+wu li hu  uit li ha ya
+ni li hu  in li ha ya
+na li hu  Aantal li ha ya
+si li hu  zij li ha ya
+nu li hu  nu li ha ya
+ti li hu  dat li ha ya
+su li hu  uit li ha ya
+ta li hu  naar li ha ya
+tu li hu  u li ha ya
+li li hu  letterlijk li ha ya
+fa li hu  over li ha ya
+la li hu  Hallo li ha ya
+lu li hu  Meervoud li ha ya
+fi li hu  vrouwelijk li ha ya
+ci li hu  eh? li ha ya
+fu li hu  wil li ha ya
+mya li hu  misschien li ha ya
+ca li hu  Onzijdig li ha ya
+myi li hu  veel li ha ya
+kyi li hu  voorwaardelijk li ha ya
+mwa li hu  met li ha ya
+kya li hu  terzijde li ha ya
+sa li hu  de li ha ya
+kyu li hu  omdat li ha ya
+kwa li hu  dat-de li ha ya
+ksa li hu  Einde-van-de-citation- li ha ya
+kli li hu  hem li ha ya
+kla li hu  maar li ha ya
+klu li hu  Clausule-tail li ha ya
+kfa li hu  Bijvoeglijke-affix li ha ya
+kca li hu  ha li ha ya
+pyi li hu  Werkwoord-affix li ha ya
+pya li hu  naar li ha ya
+psu li hu  van-bron li ha ya
+psi li hu  alvorens li ha ya
+pwa li hu  yaor li ha ya
+pli li hu  bijvoorbeeld li ha ya
+pci li hu  zelfs li ha ya
+pca li hu  vrolijk li ha ya
+pcu li hu  zelfs li ha ya
+nyi li hu  niet li ha ya
+nya li hu  namelijk li ha ya
+nyu li hu  een li ha ya
+sya li hu  Enkelvoud li ha ya
+syi li hu  heel-erg li ha ya
+syu li hu  zo li ha ya
+swa li hu  anders li ha ya
+swi li hu  terwijl li ha ya
+sli li hu  anders-if li ha ya
+sla li hu  hallo li ha ya
+tya li hu  na li ha ya
+tyi li hu  Aanbod li ha ya
+twu li hu  Dubbel li ha ya
+tsa li hu  ,-Bis li ha ya
+tsi li hu  ja li ha ya
+tsu li hu  Naamwoord-Affix li ha ya
+tla li hu  voor li ha ya
+fyi li hu  zij li ha ya
+twa li hu  vervolgens li ha ya
+tcu li hu  uit li ha ya
+tli li hu  ord li ha ya
+fyu li hu  enkele li ha ya
+cya li hu  anders li ha ya
+min hu  minder li ha ya
+miy hu  Geheugen li ha ya
+mik hu  maken li ha ya
+mip hu  verleden li ha ya
+mit hu  Midden li ha ya
+mak hu  woord li ha ya
+man hu  denken li ha ya
+mat hu  Moeder li ha ya
+mun hu  mannelijk li ha ya
+mas hu  Massa li ha ya
+mut hu  Help li ha ya
+mac hu  Machine li ha ya
+mul hu  geheel li ha ya
+kim hu  vergelijken li ha ya
+kiy hu  gaan li ha ya
+kip hu  in-staat li ha ya
+kin hu  Hoofd- li ha ya
+kam hu  komen li ha ya
+kis hu  zeer li ha ya
+kit hu  einde li ha ya
+kap hu  hoofd li ha ya
+kan hu  weten li ha ya
+kas hu  Root-Cause li ha ya
+kaf hu  Kathode li ha ya
+kuy hu  groeien li ha ya
+kat hu  ontvangen li ha ya
+kal hu  alle li ha ya
+kum hu  Handel li ha ya
+kus hu  Voedingsmiddelen li ha ya
+kuc hu  klein li ha ya
+yis hu  schrijven li ha ya
+kul hu  Doelwit li ha ya
 yis undefined ha ya
-kup hu kopen li ha ya
-kun hu rood li ha ya
-yit hu wachten li ha ya
-yik hu ontkennen li ha ya
-yum hu Lid li ha ya
-yat hu lezen li ha ya
-yun hu aftrekken li ha ya
-yup hu goed li ha ya
-yuw hu Jaar li ha ya
-yak hu sommige li ha ya
-yac hu Breedte li ha ya
-pis hu vermenigvuldigen li ha ya
-pit hu Wit li ha ya
-pic hu Pis li ha ya
-yus hu Gebruik li ha ya
-pam hu Arm li ha ya
-pay hu meer li ha ya
-yul hu geheel li ha ya
-paw hu Ruimte li ha ya
-pas hu gebeuren li ha ya
-pak hu lichaam li ha ya
-pat hu Vader li ha ya
-pus hu poep li ha ya
-puk hu slecht li ha ya
-pan hu ontmoeten li ha ya
-win hu Overwinning li ha ya
-pac hu vreugde li ha ya
-puy hu kind li ha ya
-put hu verkopen li ha ya
-pul hu blauw li ha ya
-fut hu toekomst li ha ya
-wan hu liefde li ha ya
-wut hu Licht li ha ya
-niy hu moet li ha ya
-wap hu staart li ha ya
-wat hu spreken li ha ya
-nay hu uitademen li ha ya
-nim hu Naam li ha ya
-nat hu Nacht li ha ya
-nut hu Anode li ha ya
-nit hu Netto li ha ya
-nic hu Energie li ha ya
-nuy hu nieuw li ha ya
-sip hu Mondvol li ha ya
-sit hu Zin li ha ya
-sim hu soortgelijk li ha ya
-wul hu groot li ha ya
-nam hu aantal li ha ya
-saw hu zwart li ha ya
-sik hu Hoogte li ha ya
-sak hu overeenkomen li ha ya
-sil hu gemakkelijk li ha ya
-nul hu leegte li ha ya
-sap hu eenvoudigweg li ha ya
-suy hu verliezen li ha ya
-say hu zeggen li ha ya
-sam hu gelijk li ha ya
-tim hu Team li ha ya
-tik hu houden li ha ya
-san hu zelf li ha ya
-sat hu klinken li ha ya
-sup hu betalen li ha ya
-tis hu inhaleren li ha ya
-tiw hu Muur li ha ya
-sut hu Grootte li ha ya
-tiy hu Dag li ha ya
-naw hu aanwezig li ha ya
-tip hu beginnen li ha ya
-til hu laag li ha ya
-tin hu zien li ha ya
-tam hu Onderwerp li ha ya
-tak hu toevoegen li ha ya
-tuk hu Drank li ha ya
-tal hu Tie li ha ya
-tay hu reeks li ha ya
-tan hu geven li ha ya
-tuy hu Herhalen li ha ya
-tas hu kiezen li ha ya
-tup hu Diepte li ha ya
-tun hu Toys li ha ya
-tum hu Temperatuur li ha ya
-tap hu aanraken li ha ya
-ton hu Ton li ha ya
-tuf hu moeilijk li ha ya
-fin hu vrouwelijk li ha ya
-lif hu links li ha ya
-fit hu passen li ha ya
-tul hu Gereedschap li ha ya
-fam hu Gezin li ha ya
-lik hu Elektrische-lading li ha ya
-lin hu Lengte li ha ya
-ciy hu groen li ha ya
-cif hu verdelen li ha ya
-cis hu Leven li ha ya
-lis hu leven li ha ya
-lit hu Glyph li ha ya
-cay hu Rechts li ha ya
-cin hu Karakter li ha ya
-myut hu Import li ha ya
-cum hu Vorm li ha ya
-cim hu luisteren li ha ya
-myit hu onthouden li ha ya
-cak hu Ding li ha ya
-can hu Ongeval li ha ya
-myun hu dienst li ha ya
-cal hu verhuizing li ha ya
-myan hu zacht li ha ya
-mwut hu weerstaan li ha ya
-kyim hu Spel li ha ya
-myat hu Math li ha ya
-kyip hu Kleding li ha ya
-myul hu Moraliteit li ha ya
-kwit hu Zwaartekracht li ha ya
-kyam hu slijtage li ha ya
-kyit hu elk li ha ya
-kwat hu zorg li ha ya
-myin hu dromen li ha ya
-kyus hu Plezier li ha ya
-kyil hu Circuit li ha ya
-kyin hu Algemeen li ha ya
-kyap hu Kopie li ha ya
-kyup hu Groep li ha ya
-ksiy hu Expert li ha ya
-ksat hu precies li ha ya
-ksil hu Kristal li ha ya
-kyat hu moeilijk li ha ya
-kyul hu Regel li ha ya
-ksap hu Kabel li ha ya
-kwal hu taal li ha ya
-ksam hu Duisternis li ha ya
-ksip hu Toegang li ha ya
-ksin hu Verband li ha ya
-ksal hu Melkweg li ha ya
-ksum hu communiceren li ha ya
-ksan hu organiseren li ha ya
-kliy hu duidelijk li ha ya
-ksuf hu beschrijven li ha ya
-ktin hu Religie li ha ya
-klin hu Elektron li ha ya
-kcat hu acht li ha ya
-pyik hu Pauze li ha ya
-ksut hu verzamelen li ha ya
-klun hu Honger li ha ya
-pyit hu vier li ha ya
-ksul hu School li ha ya
-klaw hu lach li ha ya
-kcil hu Behendigheid li ha ya
-kfat hu Bijvoeglijk-naamwoord li ha ya
-pyaw hu Paar-Van li ha ya
-kcut hu Knoeien li ha ya
-kcuf hu genoeg li ha ya
-kcun hu Vervoegen li ha ya
-klas hu Klasse li ha ya
-klat hu Clausule li ha ya
-kcim hu Chemisch li ha ya
-klac hu behalve li ha ya
-pyil hu Klacht li ha ya
-pyif hu Werkwoord li ha ya
-kfin hu Config li ha ya
-pyas hu snel li ha ya
-pyin hu Ervaring li ha ya
-pyat hu Prompt li ha ya
-pyaf hu uitvoeren li ha ya
-pyam hu Programma li ha ya
-pyun hu Vogel li ha ya
-pyal hu parallel li ha ya
-pyac hu Wonder li ha ya
-pyan hu voornaamwoord li ha ya
-pyut hu Proton li ha ya
-psil hu spellen li ha ya
-pyul hu koken li ha ya
-pwas hu Antwoorden li ha ya
-pwil hu Veranderlijk li ha ya
-psin hu Uitstapje li ha ya
-pwut hu goedkeuren li ha ya
-psiy hu Druk li ha ya
-psam hu naar li ha ya
-psit hu Snelheid li ha ya
-pyuf hu Bewijsmateriaal li ha ya
-pyuc hu Project li ha ya
-psaf hu antwoorden li ha ya
-psan hu Ruimte li ha ya
-psat hu Oppervlak li ha ya
-pfis hu Voorkeur li ha ya
-psal hu Zeil li ha ya
-nyip hu Looking-Glass li ha ya
-psut hu Belofte li ha ya
-nyat hu invoeren li ha ya
-plum hu Probleem li ha ya
-pluy hu populair li ha ya
-plam hu Plasma li ha ya
-plin hu Vliegtuig li ha ya
-plut hu Stof li ha ya
-plun hu waarschijnlijk li ha ya
-nyul hu Rol li ha ya
-pfal hu mislukken li ha ya
-syim hu zeven li ha ya
-pcit hu waarderen li ha ya
-pcil hu speciaal li ha ya
-syip hu schoon li ha ya
-plan hu Plan li ha ya
-plat hu Planeet li ha ya
-syan hu Cyan li ha ya
-pfus hu Bus li ha ya
-psun hu Bron li ha ya
-swit hu Schakelaar li ha ya
-nlic hu Engels li ha ya
-play hu spelen li ha ya
-syic hu Onderzoek li ha ya
-syam hu Blijven li ha ya
-nyit hu Eenheid li ha ya
-nyus hu ioniseren li ha ya
-slin hu Single li ha ya
-nyut hu Neutron li ha ya
-nyis hu Notitie li ha ya
-syat hu solide li ha ya
-syut hu Ondersteuning li ha ya
-tyik hu Verval li ha ya
-syun hu Heelal li ha ya
-swat hu Water li ha ya
-swuy hu Vraag li ha ya
-swun hu Slaap li ha ya
-swil hu Ziel li ha ya
-slat hu Pagina li ha ya
-syit hu sturen li ha ya
-slof hu Woordenschat li ha ya
-syak hu wakker li ha ya
-tkun hu Chinees li ha ya
-slam hu sublimeren li ha ya
-tyip hu opnieuw li ha ya
-tyap hu proberen li ha ya
-tyaw hu Idee li ha ya
-tyas hu gooien li ha ya
-tyic hu Richting li ha ya
-slim hu voorbeeld li ha ya
-tyif hu vertalen li ha ya
-tyus hu Geval li ha ya
-tkic hu translatie-woordenboek li ha ya
-tyis hu Overgang li ha ya
-tsiy hu Geschiedenis li ha ya
-tsip hu Stap li ha ya
-tyuk hu Object li ha ya
-tyuf hu verschillend li ha ya
-tyuc hu onderwijzen li ha ya
-tyil hu Koud li ha ya
-tyam hu Atoom li ha ya
-tyak hu Schreeuw li ha ya
-tyim hu beven li ha ya
-tyin hu drie li ha ya
-tyan hu Koord li ha ya
-tyup hu Robot li ha ya
-tsiw hu Satelliet li ha ya
-tsic hu Proces li ha ya
-twis hu waar li ha ya
-tsim hu samen li ha ya
-tsin hu Instructie li ha ya
-tsuy hu zitten li ha ya
-tsan hu Student li ha ya
-tsak hu Aanval li ha ya
-tsil hu verdienen li ha ya
-tsac hu toenemen li ha ya
-tsay hu Ster li ha ya
-tsam hu Doel li ha ya
-tsum hu Studie li ha ya
-tlas hu Rechtbank li ha ya
-tsap hu Vastgoed li ha ya
-tsal hu Conditie li ha ya
-tsun hu Naamwoord li ha ya
-tsul hu Volwassene li ha ya
-tlay hu vouw li ha ya
-tsaf hu Smaak li ha ya
-tlum hu oud li ha ya
-tlis hu Verlangen li ha ya
-tsuk hu Bedrijf li ha ya
-tcap hu transparant li ha ya
-tlik hu Stroom li ha ya
-tfan hu Overdracht li ha ya
-tfas hu Ramp li ha ya
-tfim hu tijdelijk li ha ya
-tfun hu Vertrouwen li ha ya
-tlun hu Drie-punts li ha ya
-tfin hu Individu li ha ya
-fwap hu vijf li ha ya
-tciy hu Verandering li ha ya
-tfak hu Vuil li ha ya
-tlin hu ranggetal li ha ya
-tcik hu controleren li ha ya
-flan hu Vloed li ha ya
-tcil hu Gevangenis li ha ya
-tcum hu toetreden li ha ya
-flat hu Appartement li ha ya
-tfus hu Schade li ha ya
-tcuy hu buiten li ha ya
-tcun hu Prestatie li ha ya
-tcin hu Keten li ha ya
-tlan hu Traditie li ha ya
-tfal hu Bestand li ha ya
-flay hu vliegen li ha ya
-tcan hu Boom li ha ya
-fwas hu Fase li ha ya
-flun hu alsjeblieft li ha ya
-mink hu Geest li ha ya
-fyas hu Uitdrukking li ha ya
-clin hu Verwantschap li ha ya
-cyin hu leren li ha ya
-fwil hu Kracht li ha ya
-flit hu Fluit li ha ya
-mayn hu Harmonie li ha ya
-flut hu Bloem li ha ya
-miyn hu Mineur li ha ya
-miyt hu bewust li ha ya
-mant hu Magenta li ha ya
-fluc hu stromen li ha ya
-clut hu superkritisch-fluïdum li ha ya
-clum hu Zin li ha ya
-miyk hu sturen li ha ya
-mayc hu Afbeelding li ha ya
-mist hu meten li ha ya
-milt hu Smelten li ha ya
-musk hu Muziek li ha ya
-mans hu Man li ha ya
-mayp hu Kaart li ha ya
-mayt hu denkbeeldige-eenheid li ha ya
-mast hu Materie li ha ya
-muyn hu Dwaas li ha ya
-muyp hu verbeteren li ha ya
-kiyn hu de-ene li ha ya
-muyk hu Groot li ha ya
-kint hu omzetten li ha ya
-miwk hu persoon li ha ya
-munk hu mogelijk li ha ya
-munt hu Stemming li ha ya
-muft hu sterven li ha ya
-must hu de-meeste li ha ya
-mint hu Methode li ha ya
-muyt hu Bondgenoot li ha ya
-malt hu Materiaal li ha ya
-mack hu zich-voorstellen li ha ya
-muys hu emotie li ha ya
-kiyp hu Papier li ha ya
-kant hu Constante li ha ya
-kasp hu vangst li ha ya
-kast hu creëren li ha ya
-mult hu Modulo li ha ya
-kift hu vergeven li ha ya
-kisp hu Exponent li ha ya
-kays hu grammaticaal-Case li ha ya
-kanp hu aansluiten li ha ya
-kayn hu Rivier-stroom li ha ya
-kayt hu heet li ha ya
-kaws hu Gas li ha ya
-kaft hu bevestigen li ha ya
-kump hu Complex li ha ya
-kumt hu Commando li ha ya
-kimt hu hangen li ha ya
-kamt hu grammatica li ha ya
-kuym hu samen li ha ya
-yinp hu Terugkeer li ha ya
-yilk hu geel li ha ya
-kuct hu Misdrijf li ha ya
-yawt hu Schade li ha ya
-kuls hu wreed li ha ya
-kuyt hu kritisch-punt li ha ya
-kusp hu Ineenstorting li ha ya
-yisk hu rijk li ha ya
-kust hu Constante li ha ya
-yimt hu Ritme li ha ya
-yist hu Export li ha ya
-kuwt hu Code li ha ya
-yink hu Ring li ha ya
-yift hu waard li ha ya
-yamt hu bewonderen li ha ya
-yasp hu Werken li ha ya
-kunt hu Controle li ha ya
-kult hu Cultuur li ha ya
-yalt hu vroeg li ha ya
-yumt hu Genade li ha ya
-yilt hu Euler-nummer li ha ya
-yusk hu Oosten li ha ya
-yuyp hu Europa li ha ya
-yuns hu Uranus li ha ya
-yust hu Rest li ha ya
-yask hu Reactie li ha ya
-yunt hu Houder li ha ya
-piyn hu geloven li ha ya
-yast hu gratis li ha ya
-pint hu werk li ha ya
-yimk hu vragen li ha ya
-pist hu Goedkeuring li ha ya
-yalk hu Voertuig li ha ya
-yulp hu Rol li ha ya
-piys hu Pi li ha ya
-pays hu Base li ha ya
-pamt hu duurzaam li ha ya
-pans hu Spaans li ha ya
-yult hu Voordeel li ha ya
-puyt hu bijten li ha ya
-puyk hu grammaticaal-object li ha ya
-panp hu Brood li ha ya
-puwt hu voorzien li ha ya
-puls hu Kus li ha ya
-pult hu Fles li ha ya
-pust hu Post li ha ya
-past hu produceren li ha ya
-pusk hu Belasting li ha ya
-pant hu lenen li ha ya
-nuys hu Ruis li ha ya
-niwt hu Netwerk li ha ya
-punt hu Punt li ha ya
-nuls hu Nul li ha ya
-pack hu genieten li ha ya
-nims hu Animisme li ha ya
-siyt hu stel-voor li ha ya
-numt hu Notitie li ha ya
-sift hu Verschuiving li ha ya
-nilt hu Verstand li ha ya
-nayt hu zelden li ha ya
-nast hu Rente li ha ya
-sayk hu wijs li ha ya
-nuyt hu Noorden li ha ya
-nusp hu vergeten li ha ya
-sanp hu uitbreiden li ha ya
-wins hu Venus li ha ya
-wuym hu Volume li ha ya
-sink hu verminderen li ha ya
-wint hu Wind li ha ya
-tiyk hu tien li ha ya
-siyn hu verschijnen li ha ya
-tiyn hu doorgaan li ha ya
-niyt hu n-de-wortel li ha ya
-tiws hu Theater li ha ya
-nuks hu Unix li ha ya
-salc hu Sociaal li ha ya
-sact hu schieten li ha ya
-sank hu vaak li ha ya
-sumt hu Artikel li ha ya
-sunp hu aanvaarden li ha ya
-suyt hu rechts li ha ya
-nust hu Aankondiging li ha ya
-sucp hu Echtgenoot li ha ya
-sunt hu Zuiden li ha ya
-sark hu Sarcasme li ha ya
-sulc hu Oplossing li ha ya
-nuft hu vijandig li ha ya
-tiym hu laat li ha ya
-simt hu Limiet li ha ya
-nalt hu Natuur li ha ya
-sayt hu Speed-of-light li ha ya
-tiyf hu Rit li ha ya
-sant hu kunst li ha ya
-tins hu dicht li ha ya
-sint hu voelen li ha ya
-tawk hu Autoriteit li ha ya
-tink hu Tekst li ha ya
-ticp hu bijna li ha ya
-tiys hu Verwijdering li ha ya
-tisk hu Tekst li ha ya
-timp hu grammaticale-gespannen li ha ya
-tinp hu gulden-snede li ha ya
-tayf hu Aanbod li ha ya
-tiwk hu activiteit li ha ya
-tisp hu vertegenwoordigen li ha ya
-tayk hu vastmaken li ha ya
-tuym hu Wereld li ha ya
-liys hu Vrijheid li ha ya
-talk hu Interview li ha ya
-task hu Taak li ha ya
-talf hu verbergen li ha ya
-tank hu plotseling li ha ya
-taym hu Tijd li ha ya
-tasp hu Database li ha ya
-tuyk hu Dokter li ha ya
-tuyn hu Beurt li ha ya
-talp hu Tafel li ha ya
-tuyc hu vernietigen li ha ya
-tuys hu Dief li ha ya
-tukc hu Turks li ha ya
-lisk hu Feestdag li ha ya
-tayn hu Gebied li ha ya
-layt hu elf li ha ya
-tusk hu Vooruitgang li ha ya
-lank hu lokaal li ha ya
-liwk hu Wettelijk li ha ya
-tamk hu lijkt-op li ha ya
-tanp hu verschijnen li ha ya
-tack hu bedanken li ha ya
-tuwm hu Duur li ha ya
-fayt hu Feit li ha ya
-list hu tenminste li ha ya
-fals hu mis li ha ya
-falt hu Verzuim li ha ya
-funk hu Functie li ha ya
-last hu Lijst li ha ya
-laft hu Voordeel li ha ya
-lant hu langzaam li ha ya
-fult hu Hotel li ha ya
-liyk hu Vloeistof li ha ya
-liwt hu Geschenk li ha ya
-liyt hu Literatuur li ha ya
-fint hu vinden li ha ya
-liyn hu Lijn li ha ya
-layk hu Meer li ha ya
-fast hu Bezoek li ha ya
-fisk hu installeren li ha ya
-faym hu Farm li ha ya
-link hu Link li ha ya
-fuyk hu slecht li ha ya
-fans hu Frans li ha ya
-lint hu binnen li ha ya
-lumk hu Logaritme li ha ya
-fuym hu Vorm li ha ya
-cink hu Verlangen li ha ya
-cint hu Agent li ha ya
-funm hu Foneem li ha ya
-lunt hu Mensen li ha ya
-lunp hu Lus li ha ya
-luwt hu Luit li ha ya
-budz hu Boeddhisme li ha ya
-tick hu woordenboek li ha ya
-cinp hu Informatie li ha ya
+kup hu  kopen li ha ya
+kun hu  rood li ha ya
+yit hu  wachten li ha ya
+yik hu  ontkennen li ha ya
+yum hu  Lid li ha ya
+yat hu  lezen li ha ya
+yun hu  aftrekken li ha ya
+yuw hu  Jaar li ha ya
+yak hu  sommige li ha ya
+yac hu  Breedte li ha ya
+pis hu  vermenigvuldigen li ha ya
+pit hu  Wit li ha ya
+pic hu  Pis li ha ya
+yus hu  Gebruik li ha ya
+pam hu  Arm li ha ya
+pay hu  meer li ha ya
+yul hu  geheel li ha ya
+paw hu  Ruimte li ha ya
+pas hu  gebeuren li ha ya
+pak hu  lichaam li ha ya
+pat hu  Vader li ha ya
+pus hu  poep li ha ya
+puk hu  slecht li ha ya
+pan hu  ontmoeten li ha ya
+win hu  Overwinning li ha ya
+pac hu  vreugde li ha ya
+puc hu  leeg li ha ya
+puy hu  kind li ha ya
+put hu  verkopen li ha ya
+pul hu  blauw li ha ya
+fut hu  toekomst li ha ya
+wan hu  liefde li ha ya
+wut hu  Licht li ha ya
+niy hu  moet li ha ya
+wap hu  staart li ha ya
+wat hu  spreken li ha ya
+nay hu  uitademen li ha ya
+nim hu  Naam li ha ya
+nat hu  Nacht li ha ya
+nut hu  Anode li ha ya
+nal hu  helder li ha ya
+nit hu  Netto li ha ya
+nic hu  Energie li ha ya
+nuy hu  nieuw li ha ya
+sip hu  Mondvol li ha ya
+sit hu  Zin li ha ya
+sim hu  soortgelijk li ha ya
+wul hu  groot li ha ya
+nam hu  aantal li ha ya
+saw hu  zwart li ha ya
+sik hu  Hoogte li ha ya
+sak hu  overeenkomen li ha ya
+sil hu  gemakkelijk li ha ya
+nul hu  leegte li ha ya
+sap hu  eenvoudigweg li ha ya
+suy hu  verliezen li ha ya
+say hu  zeggen li ha ya
+sam hu  gelijk li ha ya
+tim hu  Team li ha ya
+tik hu  houden li ha ya
+san hu  zelf li ha ya
+sat hu  klinken li ha ya
+sup hu  betalen li ha ya
+tis hu  inhaleren li ha ya
+tiw hu  Muur li ha ya
+sut hu  Grootte li ha ya
+tiy hu  Dag li ha ya
+naw hu  aanwezig li ha ya
+tip hu  beginnen li ha ya
+til hu  laag li ha ya
+tin hu  zien li ha ya
+tam hu  Onderwerp li ha ya
+tak hu  toevoegen li ha ya
+tuk hu  Drank li ha ya
+tal hu  Tie li ha ya
+tay hu  reeks li ha ya
+tan hu  geven li ha ya
+tuy hu  Herhalen li ha ya
+tas hu  kiezen li ha ya
+tup hu  Diepte li ha ya
+tum hu  Temperatuur li ha ya
+tap hu  aanraken li ha ya
+ton hu  Ton li ha ya
+tuf hu  moeilijk li ha ya
+fin hu  vrouwelijk li ha ya
+lif hu  links li ha ya
+fit hu  passen li ha ya
+tul hu  Gereedschap li ha ya
+fam hu  Gezin li ha ya
+lik hu  Elektrische-lading li ha ya
+lin hu  Lengte li ha ya
+ciy hu  groen li ha ya
+cif hu  verdelen li ha ya
+cis hu  Leven li ha ya
+lis hu  leven li ha ya
+lit hu  Glyph li ha ya
+cay hu  Rechts li ha ya
+cin hu  Karakter li ha ya
+myut hu  Import li ha ya
+cum hu  Vorm li ha ya
+cim hu  luisteren li ha ya
+myil hu  Bondgenoot li ha ya
+myit hu  onthouden li ha ya
+cak hu  Ding li ha ya
+can hu  Ongeval li ha ya
+myun hu  dienst li ha ya
+cal hu  verhuizing li ha ya
+myan hu  zacht li ha ya
+mwut hu  weerstaan li ha ya
+kyim hu  Spel li ha ya
+myat hu  Math li ha ya
+kyip hu  Kleding li ha ya
+myul hu  Moraliteit li ha ya
+kwit hu  Zwaartekracht li ha ya
+kyam hu  slijtage li ha ya
+kyit hu  elk li ha ya
+myin hu  dromen li ha ya
+kyus hu  Plezier li ha ya
+kyil hu  Circuit li ha ya
+kyin hu  Algemeen li ha ya
+kwat hu  sterk li ha ya
+kyap hu  Kopie li ha ya
+kyup hu  Groep li ha ya
+ksiy hu  Expert li ha ya
+ksat hu  precies li ha ya
+ksit hu  Uitgang li ha ya
+ksil hu  Kristal li ha ya
+kyat hu  moeilijk li ha ya
+kyul hu  Regel li ha ya
+ksap hu  Kabel li ha ya
+kwal hu  taal li ha ya
+ksam hu  Duisternis li ha ya
+ksip hu  Toegang li ha ya
+ksin hu  Verband li ha ya
+ksal hu  Melkweg li ha ya
+ksum hu  communiceren li ha ya
+ksan hu  organiseren li ha ya
+klim hu  Wetenschap li ha ya
+kliy hu  duidelijk li ha ya
+ksuf hu  beschrijven li ha ya
+ktin hu  Religie li ha ya
+klin hu  Elektron li ha ya
+kcat hu  acht li ha ya
+pyik hu  Pauze li ha ya
+klum hu  Kolom li ha ya
+ksut hu  verzamelen li ha ya
+klut hu  uitsluiten li ha ya
+klun hu  Honger li ha ya
+kfit hu  Effect li ha ya
+pyit hu  vier li ha ya
+ksul hu  School li ha ya
+klaw hu  lach li ha ya
+kcil hu  Behendigheid li ha ya
+kfat hu  Bijvoeglijk-naamwoord li ha ya
+pyaw hu  Paar-Van li ha ya
+kcut hu  Knoeien li ha ya
+kcuf hu  genoeg li ha ya
+kcun hu  Vervoegen li ha ya
+klas hu  Klasse li ha ya
+klat hu  Clausule li ha ya
+kcim hu  Chemisch li ha ya
+klac hu  behalve li ha ya
+pyil hu  Klacht li ha ya
+pyan hu  Verspreiding li ha ya
+pyif hu  Werkwoord li ha ya
+kfin hu  Config li ha ya
+pyas hu  snel li ha ya
+pyin hu  Ervaring li ha ya
+pyat hu  Prompt li ha ya
+pyum hu  Voornaamwoord li ha ya
+pyaf hu  uitvoeren li ha ya
+pyam hu  Programma li ha ya
+pyun hu  Vogel li ha ya
+pyal hu  parallel li ha ya
+pyac hu  Wonder li ha ya
+pyut hu  Proton li ha ya
+psil hu  spellen li ha ya
+pyul hu  koken li ha ya
+pwas hu  Antwoorden li ha ya
+pwil hu  Veranderlijk li ha ya
+psin hu  Uitstapje li ha ya
+pwut hu  goedkeuren li ha ya
+psiy hu  Druk li ha ya
+psit hu  Snelheid li ha ya
+pyuf hu  Bewijsmateriaal li ha ya
+pyuc hu  Project li ha ya
+psaf hu  antwoorden li ha ya
+psan hu  Ruimte li ha ya
+psat hu  Oppervlak li ha ya
+psal hu  Zeil li ha ya
+nyip hu  Looking-Glass li ha ya
+psut hu  Belofte li ha ya
+nyat hu  invoeren li ha ya
+plum hu  Probleem li ha ya
+pluy hu  populair li ha ya
+plam hu  Plasma li ha ya
+plin hu  Vliegtuig li ha ya
+pfic hu  verkiezen li ha ya
+plut hu  Stof li ha ya
+plun hu  waarschijnlijk li ha ya
+nyul hu  Rol li ha ya
+pfal hu  mislukken li ha ya
+pcum hu  hoop li ha ya
+syim hu  zeven li ha ya
+pcit hu  waarderen li ha ya
+pcil hu  speciaal li ha ya
+syip hu  schoon li ha ya
+plan hu  Plan li ha ya
+plat hu  Planeet li ha ya
+syan hu  Cyan li ha ya
+pfus hu  Bus li ha ya
+psun hu  Bron li ha ya
+swit hu  Schakelaar li ha ya
+syiw hu  serveren li ha ya
+nlic hu  Engels li ha ya
+play hu  spelen li ha ya
+syic hu  Onderzoek li ha ya
+syam hu  Blijven li ha ya
+nyit hu  Eenheid li ha ya
+nyus hu  ioniseren li ha ya
+slin hu  Single li ha ya
+nyut hu  Neutron li ha ya
+nyis hu  Notitie li ha ya
+syat hu  solide li ha ya
+syut hu  Ondersteuning li ha ya
+tyik hu  Verval li ha ya
+syun hu  Heelal li ha ya
+swat hu  Water li ha ya
+swuy hu  Vraag li ha ya
+swun hu  Slaap li ha ya
+swil hu  Ziel li ha ya
+slac hu  vals li ha ya
+slat hu  Pagina li ha ya
+syit hu  sturen li ha ya
+slof hu  Woordenschat li ha ya
+syak hu  wakker li ha ya
+tkun hu  Chinees li ha ya
+slam hu  sublimeren li ha ya
+tyip hu  opnieuw li ha ya
+tyap hu  proberen li ha ya
+tyaw hu  Idee li ha ya
+tyas hu  gooien li ha ya
+tyic hu  Richting li ha ya
+slim hu  voorbeeld li ha ya
+tyif hu  vertalen li ha ya
+tyus hu  Geval li ha ya
+tkic hu  translatie-woordenboek li ha ya
+tyis hu  Overgang li ha ya
+tsiy hu  Geschiedenis li ha ya
+tsip hu  Stap li ha ya
+tyuk hu  Object li ha ya
+tyuf hu  verschillend li ha ya
+tyuc hu  onderwijzen li ha ya
+tyil hu  Koud li ha ya
+twal hu  welkom li ha ya
+twuf hu  twee li ha ya
+tyam hu  Atoom li ha ya
+tyak hu  Schreeuw li ha ya
+tyim hu  beven li ha ya
+tyin hu  drie li ha ya
+tyan hu  Koord li ha ya
+tyup hu  Robot li ha ya
+tsiw hu  Satelliet li ha ya
+tsic hu  Proces li ha ya
+twis hu  waar li ha ya
+tsim hu  samen li ha ya
+tsin hu  Instructie li ha ya
+tsuy hu  zitten li ha ya
+tsan hu  Student li ha ya
+tsak hu  Aanval li ha ya
+tsil hu  verdienen li ha ya
+tsac hu  toenemen li ha ya
+tsay hu  Ster li ha ya
+tsam hu  Doel li ha ya
+tsum hu  Studie li ha ya
+tlas hu  Rechtbank li ha ya
+tsap hu  Vastgoed li ha ya
+tsal hu  Conditie li ha ya
+tsun hu  Naamwoord li ha ya
+tlak hu  Rechthoek li ha ya
+tsul hu  Volwassene li ha ya
+tlay hu  vouw li ha ya
+tsaf hu  Smaak li ha ya
+tlum hu  oud li ha ya
+tlis hu  Verlangen li ha ya
+tsuk hu  Bedrijf li ha ya
+tcap hu  transparant li ha ya
+tlik hu  Stroom li ha ya
+tfan hu  Overdracht li ha ya
+tfas hu  Ramp li ha ya
+tfim hu  tijdelijk li ha ya
+tfun hu  Vertrouwen li ha ya
+tlun hu  Drie-punts li ha ya
+tfin hu  Individu li ha ya
+fwap hu  vijf li ha ya
+tciy hu  Verandering li ha ya
+tfak hu  Vuil li ha ya
+tlin hu  ranggetal li ha ya
+tcik hu  controleren li ha ya
+flan hu  Vloed li ha ya
+tcuk hu  Truc li ha ya
+tcil hu  Gevangenis li ha ya
+tcum hu  toetreden li ha ya
+fyis hu  offical li ha ya
+flat hu  Appartement li ha ya
+fyut hu  Fruit li ha ya
+tfus hu  Schade li ha ya
+tcuy hu  buiten li ha ya
+tcun hu  Prestatie li ha ya
+tcin hu  Keten li ha ya
+tlan hu  Traditie li ha ya
+tfal hu  Bestand li ha ya
+flay hu  vliegen li ha ya
+tcan hu  Boom li ha ya
+fwas hu  Fase li ha ya
+flun hu  alsjeblieft li ha ya
+mink hu  Geest li ha ya
+cyan hu  bevatten li ha ya
+cwuy hu  Zorg li ha ya
+fyas hu  Uitdrukking li ha ya
+clan hu  Oorsprong li ha ya
+clin hu  Verwantschap li ha ya
+cyin hu  leren li ha ya
+fwil hu  Kracht li ha ya
+flit hu  Fluit li ha ya
+mayn hu  Harmonie li ha ya
+flut hu  Bloem li ha ya
+miyn hu  Mineur li ha ya
+miyt hu  bewust li ha ya
+mant hu  Magenta li ha ya
+fluc hu  stromen li ha ya
+clut hu  superkritisch-fluïdum li ha ya
+clum hu  Zin li ha ya
+miyk hu  sturen li ha ya
+mank hu  Hersenen li ha ya
+mayc hu  Afbeelding li ha ya
+mist hu  meten li ha ya
+milt hu  Smelten li ha ya
+malp hu  Beloning li ha ya
+musk hu  Muziek li ha ya
+mans hu  Man li ha ya
+mayp hu  Kaart li ha ya
+mayt hu  denkbeeldige-eenheid li ha ya
+mast hu  Materie li ha ya
+muyn hu  Dwaas li ha ya
+muyp hu  verbeteren li ha ya
+kiyn hu  de-ene li ha ya
+muyk hu  Groot li ha ya
+kint hu  omzetten li ha ya
+miwk hu  persoon li ha ya
+munk hu  mogelijk li ha ya
+munt hu  Stemming li ha ya
+muft hu  sterven li ha ya
+must hu  de-meeste li ha ya
+mint hu  Methode li ha ya
+muyt hu  Bondgenoot li ha ya
+malt hu  Materiaal li ha ya
+kist hu  vervangen li ha ya
+mack hu  zich-voorstellen li ha ya
+muys hu  emotie li ha ya
+kiyp hu  Papier li ha ya
+kant hu  Constante li ha ya
+kasp hu  vangst li ha ya
+kast hu  creëren li ha ya
+mult hu  Modulo li ha ya
+kift hu  vergeven li ha ya
+kisp hu  Exponent li ha ya
+kays hu  grammaticaal-Case li ha ya
+kanp hu  aansluiten li ha ya
+kayn hu  Rivier-stroom li ha ya
+kaws hu  Gas li ha ya
+kump hu  Complex li ha ya
+kunp hu  gesloten li ha ya
+kumt hu  Commando li ha ya
+kimt hu  hangen li ha ya
+kamt hu  grammatica li ha ya
+kuym hu  samen li ha ya
+yinp hu  Terugkeer li ha ya
+yilk hu  geel li ha ya
+kuct hu  Misdrijf li ha ya
+yawt hu  Schade li ha ya
+kuls hu  wreed li ha ya
+kuyt hu  kritisch-punt li ha ya
+kusp hu  Ineenstorting li ha ya
+yisk hu  rijk li ha ya
+kust hu  Constante li ha ya
+yimt hu  Ritme li ha ya
+yist hu  Export li ha ya
+kuwt hu  Code li ha ya
+yink hu  Ring li ha ya
+yift hu  waard li ha ya
+yamt hu  bewonderen li ha ya
+yasp hu  Werken li ha ya
+kunt hu  Controle li ha ya
+kult hu  Cultuur li ha ya
+yaft hu  Serie li ha ya
+yalt hu  vroeg li ha ya
+yumt hu  Genade li ha ya
+yilt hu  Euler-nummer li ha ya
+yusk hu  Oosten li ha ya
+yuyp hu  Europa li ha ya
+yuns hu  Uranus li ha ya
+yust hu  Rest li ha ya
+yask hu  Reactie li ha ya
+yunt hu  Houder li ha ya
+piyn hu  geloven li ha ya
+piyt hu  afhangen li ha ya
+yast hu  gratis li ha ya
+pint hu  werk li ha ya
+yimk hu  vragen li ha ya
+pist hu  Goedkeuring li ha ya
+yalk hu  Voertuig li ha ya
+yulp hu  Rol li ha ya
+piys hu  Pi li ha ya
+pays hu  Base li ha ya
+pamt hu  duurzaam li ha ya
+pans hu  Spaans li ha ya
+yult hu  Voordeel li ha ya
+puyt hu  bijten li ha ya
+puyk hu  grammaticaal-object li ha ya
+panp hu  Brood li ha ya
+puwt hu  voorzien li ha ya
+pulk hu  Veelhoek li ha ya
+puls hu  Kus li ha ya
+pult hu  Fles li ha ya
+pust hu  Post li ha ya
+past hu  produceren li ha ya
+pusk hu  Belasting li ha ya
+pant hu  lenen li ha ya
+niyk hu  dichtbij li ha ya
+nuys hu  Ruis li ha ya
+niwt hu  Netwerk li ha ya
+nist hu  mooi li ha ya
+punt hu  Punt li ha ya
+nift hu  negen li ha ya
+nict hu  Inheems li ha ya
+nuls hu  Nul li ha ya
+pack hu  genieten li ha ya
+nims hu  Animisme li ha ya
+siyt hu  stel-voor li ha ya
+numt hu  Notitie li ha ya
+sift hu  Verschuiving li ha ya
+nilt hu  Verstand li ha ya
+nayt hu  zelden li ha ya
+nast hu  Rente li ha ya
+sayk hu  wijs li ha ya
+nuyt hu  Noorden li ha ya
+nusp hu  vergeten li ha ya
+sanp hu  uitbreiden li ha ya
+wins hu  Venus li ha ya
+wuym hu  Volume li ha ya
+sink hu  verminderen li ha ya
+silk hu  zes li ha ya
+wint hu  Wind li ha ya
+tiyk hu  tien li ha ya
+sayp hu  Levering li ha ya
+sayn hu  sparen li ha ya
+siyn hu  verschijnen li ha ya
+tiyn hu  doorgaan li ha ya
+niyt hu  n-de-wortel li ha ya
+tiws hu  Theater li ha ya
+nuks hu  Unix li ha ya
+salc hu  Sociaal li ha ya
+sact hu  schieten li ha ya
+suyk hu  lijden li ha ya
+sank hu  vaak li ha ya
+sumt hu  Artikel li ha ya
+sunp hu  aanvaarden li ha ya
+suyt hu  rechts li ha ya
+nust hu  Aankondiging li ha ya
+sucp hu  Echtgenoot li ha ya
+sunt hu  Zuiden li ha ya
+sark hu  Sarcasme li ha ya
+sulc hu  Oplossing li ha ya
+nuft hu  vijandig li ha ya
+tiym hu  laat li ha ya
+nalt hu  Natuur li ha ya
+sayt hu  Speed-of-light li ha ya
+tiyf hu  Rit li ha ya
+sant hu  kunst li ha ya
+tins hu  dicht li ha ya
+sint hu  voelen li ha ya
+tawk hu  Autoriteit li ha ya
+tink hu  Tekst li ha ya
+ticp hu  bijna li ha ya
+tiys hu  Verwijdering li ha ya
+tisk hu  Tekst li ha ya
+timp hu  grammaticale-gespannen li ha ya
+tinp hu  gulden-snede li ha ya
+tayf hu  Aanbod li ha ya
+tiwk hu  activiteit li ha ya
+tisp hu  vertegenwoordigen li ha ya
+tayk hu  vastmaken li ha ya
+tuym hu  Wereld li ha ya
+liys hu  Vrijheid li ha ya
+talk hu  Interview li ha ya
+task hu  Taak li ha ya
+talf hu  verbergen li ha ya
+tank hu  plotseling li ha ya
+taym hu  Tijd li ha ya
+tasp hu  Database li ha ya
+tuyk hu  Dokter li ha ya
+tuyn hu  Beurt li ha ya
+talp hu  Tafel li ha ya
+tuyc hu  vernietigen li ha ya
+/sˈa5˧n tɕjˈɑu2˧˥ʔ ɕˈiɜŋ/ 三角形 :zh. /tɹˈaɪaŋɡəl/ triangle :en.
+/tɾiˈaŋɡulo/ triángulo :es. /tɾɪkˈoːɳ/ त्रिकोण :hi. /mθlθ/
+مثلث :ar. /sˈɛɡi tˈiɡa/ segi tiga :id. /trʲiuɡˈoɭnik/
+треугольник :ru. /pˈembe tˈatu/ pembe tatu :sw. /øtʃɟˈæn/
+üçgen :tr. /kˈolmɪo/ kolmio :fi. /trˈiːaŋəl/ triangel :sv.
+/mosˈallas/ مثلث :fa. /trˈiɣonˌo/ τρίγωνο :el. 10 t, 8 u, 8 n,
+8 k, 8 a, 7 l, 7 i, 6 y, 4 m, 3 s, 3 c, 1 p, 1 f, 0 w, tunk hu
+ Driehoek li ha ya
+tuys hu  Dief li ha ya
+tukc hu  Turks li ha ya
+liyp hu  Bibliotheek li ha ya
+lisk hu  Feestdag li ha ya
+tayn hu  Gebied li ha ya
+layt hu  elf li ha ya
+tusk hu  Vooruitgang li ha ya
+lank hu  lokaal li ha ya
+liwk hu  Wettelijk li ha ya
+tamk hu  lijkt-op li ha ya
+tanp hu  verschijnen li ha ya
+tack hu  bedanken li ha ya
+tuwm hu  Duur li ha ya
+fayt hu  Feit li ha ya
+list hu  tenminste li ha ya
+fals hu  mis li ha ya
+falt hu  Verzuim li ha ya
+funk hu  Functie li ha ya
+last hu  Lijst li ha ya
+laft hu  Voordeel li ha ya
+lunk hu  Logica li ha ya
+lant hu  langzaam li ha ya
+fult hu  Hotel li ha ya
+lufk hu  slot li ha ya
+liyk hu  Vloeistof li ha ya
+liwt hu  Geschenk li ha ya
+liyt hu  Literatuur li ha ya
+fayk hu  Fabriek li ha ya
+fint hu  vinden li ha ya
+liyn hu  Lijn li ha ya
+layk hu  Meer li ha ya
+fast hu  Bezoek li ha ya
+fisk hu  installeren li ha ya
+faym hu  Farm li ha ya
+link hu  Link li ha ya
+fuyk hu  slecht li ha ya
+fans hu  Frans li ha ya
+fusk hu  Focus li ha ya
+lint hu  binnen li ha ya
+ciyk hu  safe li ha ya
+lumk hu  Logaritme li ha ya
+fuym hu  Vorm li ha ya
+cink hu  Verlangen li ha ya
+cank hu  Karakter li ha ya
+cant hu  Gewoonte li ha ya
+cint hu  Agent li ha ya
+funm hu  Foneem li ha ya
+lunt hu  Mensen li ha ya
+lunp hu  Lus li ha ya
+luwt hu  Luit li ha ya
+budz hu  Boeddhisme li ha ya
+tick hu  woordenboek li ha ya
+cinp hu  Informatie li ha ya

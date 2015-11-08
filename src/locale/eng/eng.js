@@ -77,6 +77,7 @@ var joiner = " ";
 var newPhrase = phrase.copy();
 delete newPhrase.head;
 var body;
+if (phrase.body.be !== "Junction"){
 if (newPhrase.body.body)
 var body = 
 nounConjugate(language,newPhrase.body.body,format,conjLevel,"n")
@@ -84,23 +85,13 @@ if (newPhrase.body.head)
 var head = 
 newPhrase.body.head.toLocaleString(language,format,conjLevel)
 
-
 // pluralize
-//if (body){
 var Type = phrase.body;
-result = pluralize(Type,body,head)
-delete newPhrase.body;
-//}
-//else{
-//if (head && body)
-//var result = head +joiner+body+joiner;
-//else if (head) result = head+joiner;
-//else if (body) result = body+joiner;
-//result += joiner;
-//}
-
+result = pluralize(Type,body,head);
+delete newPhrase.body.body;
+delete newPhrase.body.head;}
 result +=
-phraseConjugate(language,newPhrase,format,conjLevel)
+phraseConjugate(language,newPhrase,format,conjLevel,"n")
 if (isPronoun(phrase)) return result;
 return result;
 }
@@ -126,13 +117,13 @@ if (Word.body){
 var body = 
 translate.array(fromMwak,Word.body);
 body = body.map(function(word){
-return word+"a"+ender;});
+return word+"y";});
 body = body.join(joiner);
 }
 if (Word.head){
 var head = 
 translate.word(fromMwak,Word.head);
-head = head+"o"+ender;
+head = head+"a"+ender;
 }
 
 var result = new String();
@@ -152,6 +143,10 @@ function nounTypeConjugate(language,Type,format,conjLevel){
 var result = new String();
 var body = new String();
 var head = new String();
+var limb = new String();
+if (Type.limb)
+limb = 
+Type.limb.toLocaleString(language,format,"n",conjLevel);
 if (Type.body)
 var body = 
 Type.body.toLocaleString(language,format,"n", conjLevel)
@@ -160,7 +155,8 @@ head = Type.head.toLocaleString(language,format,"th", conjLevel)
 
 // pluralize
 result = pluralize(Type,body,head)
-
+if (limb.length>0)
+result+= limb;
 return result;
 }
 
@@ -186,25 +182,25 @@ else result= head+joiner+body.replace(/$/,"s");
 else if (Type.head) result= head+joiner+body;
 else result= body; 
 }
-else if (head) result = head;
+else if (head) result= head;
 return result+joiner;
 }
 
 
 
 conjugation.phrase = phraseConjugate;
-function phraseConjugate(language,phrase,format,conjLevel){
+function phraseConjugate(language,phrase,format,conjLevel,ender){
 var joiner = " ";
-if (phrase.body)
+if (phrase.body){
 var body = phrase.body.toLocaleString(language,format,"n",
 conjLevel);
+}
 if (phrase.head)
 var adposition = phrase.head.toLocaleString(language,format,
 "ch",conjLevel);
 if (phrase.clause)
 var clause = phrase.clause.toLocaleString(language,format,
 "n",conjLevel);
-
 if(phrase.subPhrase){
 var subPhrase =
 phrase.subPhrase.toLocaleString(language,format,"n",conjLevel);
@@ -268,8 +264,14 @@ var adposition = phrase.head.toLocaleString(language,format,
 "ch",conjLevel);
 var result = new String();
 /* infinitive tense is default */
+
+var verbMods = new String();
+if (phrase.body && phrase.body.head
+&& phrase.body.head.body){
+verbMods = translate.array(fromMwak,phrase.body.head.body);
+}
 if (head.length>0 && verb.length>0) 
-result = head+joiner+verb+"en"; 
+result = head+joiner+verbMods+verb+"en";  
 else if (head.length>0) result = head;
 else if (verb.length>0) result = affixStrip(verb)+"en";
 else result = adposition;
@@ -283,7 +285,7 @@ if (phrase.body.head && tenseWord
 
 /* present tense */
 if (parse.wordMatch(tense.present,tenseWord)){
-verb = affixStrip(verb);
+verb = verbMods + joiner +affixStrip(verb);
 if (subjectBody === "mi") result = verb+"e"; 
 else if (subjectBody === "tu") result= verb+"est";
 else if (subjectBody === "kli"
@@ -293,7 +295,7 @@ else if (subjectBody === "wi") result = verb;
 else if (subjectBody === "yu") result= verb;
 else if (subjectBody === "gents"
 ||  subjectBody === "ladies"
-||  subjectBody === "si") result = verb+"ath"; 
+||  subjectBody === "si") result = verb+"eth"; 
 else result = verb+"eth";
 
 
@@ -322,8 +324,8 @@ else if (subjectBody === "tu") result = "will "+verb+"est";
 else if (subjectBody === "il"
 ||  subjectBody === "elle"
 ||  subjectBody === "ti") result = "will "+verb+"eth"; 
-else if (subjectBody === "wi") result = "will "+verb+"ath"; 
-else if (subjectBody === "yu") result = "will "+verb+"ath"; 
+else if (subjectBody === "wi") result = "will "+verb+"eth"; 
+else if (subjectBody === "yu") result = "will "+verb+"eth"; 
 else if (subjectBody === "ils"
 ||  subjectBody === "elles"
 ||  subjectBody === "si") result = "will "+verb; 
@@ -334,8 +336,9 @@ else result = "will "+verb+"eth";
 else if (verb.length <= 0 && sentence.nominal)/* nominal */{
 var tense = mwak.grammar.tense
 var tenseWord = new String();
-if (phrase.body && phrase.body.head)
+if (phrase.body && phrase.body.head){
 tenseWord = phrase.body.head.head;
+}
 if (subjectBody.length > 0 && phrase.body && phrase.body.head && tenseWord
 && parse.wordMatch(tense.all,tenseWord)){
 var body = adposition; /* be */

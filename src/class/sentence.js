@@ -270,18 +270,12 @@ return false;
 Sentence.prototype.indexOf = phraseIndexFind;
 Sentence.prototype.phraseIndexFind = phraseIndexFind;
 function phraseIndexFind(language,cases){
-var caseWord;
-var toMwak = language.dictionary.toMwak;
-if (Array.isArray(cases)){
-	caseWord = cases;
-}else if (typeof cases === "string"){
-caseWord = 
-translate.array(toMwak,tokenize.stringToWords(cases));
-}else throw new TypeError("unsupported type:"+cases);
+var caseWord = cases;
 var i, phrase,
 phrases = this.phrases,
 length = phrases.length;
 var result = -1;
+
 for (i=0;i<length;i++){
 phrase = phrases[i];
 if(phrase.be === "Junction"
@@ -558,7 +552,6 @@ var phraseIndex = -1;
 var prevTopClause = false;
 var phraseTrans = new String();
 
-
 for (i=0; i<phraseOrderLength; i++){
 // be get bo phrase from working sentence ya 
 phraseIndex = sentence.indexOf(language,phraseOrder[i]);
@@ -597,7 +590,6 @@ if (phraseIndex !== -1)
 sentence.byIndexPhraseDelete(phraseIndex);
 }
 phraseTrans = "";
-
 // be end of loop for phrase order ya
 }
 
@@ -738,7 +730,8 @@ toLocaleString(language,format,"sh",conjLevel);
 //if (conj.sentenceHead) endWords = conj.sentenceHead(endWords);
 
 // be append to result ya
-	result = result.replace(/ $/,joiner)+endWords;
+	result = result+endWords;
+		//result.replace(/  $/,joiner)+endWords;
 	}
 // be append bo ender ya
 	result += ender;

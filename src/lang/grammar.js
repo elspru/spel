@@ -19,6 +19,8 @@ this.verbWord= translate.word(dict, mwakGrammar.verbWord);
 this.topicWord=translate.word(dict, mwakGrammar.topicWord);
 this.subPhraseWords=translate.array(dict,
 		mwakGrammar.subPhraseWords);
+this.subTypeWords=translate.array(dict,
+		mwakGrammar.subTypeWords);
 this.topClauseWords=translate.array(dict,
 		mwakGrammar.topClauseWords);
 this.topClauseTerminator=translate.array(dict,
@@ -102,7 +104,8 @@ agentWord: "hu",
 subjectWord: "hu",
 objectWord: "ha",
 verbWord: "hi",
-subPhraseWords: ["pi"],
+subPhraseWords: ["kpi"],
+subTypeWords: ["pi"],
 topClauseWords: ["ku","twa","swi","pwa","kla","syu","kyu",
 "sli","cya"],
 topClauseTerminator: ["twa"],
@@ -140,7 +143,7 @@ verbFinal: true,
 nounFinal: true,
 typeFinal: true,
 topicInitial: true,
-subjectProminent: false,
+subjectProminent: true,
 postpositional: true,
 clauseInitial: true,
 topClauseInitial: true,
@@ -220,16 +223,16 @@ else return secondaryStress+result;
 function compoundWord(language,wordO,format,conjLevel){
 var head = new String();
 var body = new String();
-var IPA = format.ipa;
+var IPA = format && format.ipa;
 if (Array.isArray(wordO.head))
 head = wordO.head.map(byteAlign.curry(IPA)).join("");
 else if (wordO.head) head = byteAlign(IPA,wordO.head);
 if (Array.isArray(wordO.body))
-body = wordO.body.map(byteAlign.curry(langauge)).join("");
+body = wordO.body.map(byteAlign.curry(language)).join("");
 else if (wordO.body) body = byteAlign(IPA,wordO.body);
 var result = body+head;
-if (IPA) return mwakToIPA(result) ;
-else return result;
+if (IPA) result = mwakToIPA(result) ;
+return result;
 }
 
 function trochaicCompound(language,wordO,format,conjLevel){
@@ -237,7 +240,7 @@ if (format && format.rhythm !== true)
 return wordO.toLocaleString(language,format,undefined,conjLevel);
 var head = new String();
 var body = new String();
-var IPA = format.ipa;
+var IPA = format && format.ipa;
 var primaryStress = "\u02C8";
 if (format && format.secondaryRhythm !== false)
 var secondaryStress = "\u02CC";
@@ -286,20 +289,25 @@ if (format && format.rhythm !== true)
 return typeO.toLocaleString(language,format,undefined,conjLevel);
 var head = new String();
 var body = new String();
+var limb = new String();
 var primaryStress = "\u02C8";
 if (format && format.secondaryRhythm !== false)
 var secondaryStress = "\u02CC";
 else secondaryStress = new String();
+if (typeO.limb)
+limb = 
+typeO.limb.toLocaleString(language,format,"th",conjLevel);
 if ((typeO.head))
 head =
 typeO.head.toLocaleString(language,format,"th",conjLevel);
 if ((typeO.body))
 body = typeO.body.toLocaleString(language,format,"n",conjLevel);
 var result = new String();
+if (limb.length>0) result+= limb;
 if (body.length >0 && head.length >0) 
-result = body+secondaryStress+head;
-else if (body.length >0) result = body;
-else if (head.length  >0) result = primaryStress+head;
+result += body+secondaryStress+head;
+else if (body.length >0) result += body;
+else if (head.length  >0) result += primaryStress+head;
 //if (format.ipa) return mwakToIPA(result) ;
 //else return result;
 return result;

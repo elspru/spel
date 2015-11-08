@@ -63,7 +63,7 @@ var twitterLangs = [ ["eng",eng],["spa"],["ara"],["por"],
 ];
 
 var coreLangs = [["eng",eng],/*["zho"],["spa"],["rus"],
-["ind"],["jpn"],["fra"],*/["javs"],["mwak",mwak]];
+/*["ind"],["jpn"],["fra"],*/["javs"],["mwak",mwak]];
 var langs = coreLangs;
 //var langs = gnuSocialLangs;
 //var langs = twitterLangs;
@@ -183,20 +183,27 @@ var conjugationLevel = 0x4;
 
 var string = 
 "su number of bottle ob numeral 99 ya"
-+" su chorus be start ya"
-+" be say ob number of bottle and"
-+" quote word bottles of beer on the wall, word unquote and"
-+" number of bottle and "
-+" quote word bottles of beer. word unquote ya"
++" su chorus be start ya be say "
++"  ob number of bottle and"
++" quote word bottles of water on the wall, word unquote "
++" and number of bottle and "
++" quote word bottles of water. word unquote ya"
 +" be decrease ob number of bottle ya"
 +" be say ob"
 +" quote word take one down and pass it around, word unquote "
 +" and number of bottle and "
-+" quote word bottles of beer on the wall. word unquote ya"
++ " quote word bottles of water on the wall. word unquote ya"
 +" su chorus be end ya"
-+" be repeat ob chorus if su number of bottle be big from"
++" be repeat ob chorus while su number of bottle be big from"
 +" numeral 0 ya"
 
+var string = 
+"su me be come from far galaxy ya "
++"su me memory be start in sunflower galaxy ya "
++"at there su me be live ob many life on water planet "
++"but end su local people be sacrifice ob me to space people "
++"that-which be part ob empire of many galaxy "
++"from whirlpool galaxy ya "
 
 console.log(string)
 //var tokens = tokenize.stringToWords(string);
