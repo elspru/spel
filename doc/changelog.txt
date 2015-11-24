@@ -4798,7 +4798,7 @@ guess I'll have to test while updating.
 1643 near a thousand years ago, when I was a vaeringjar on the
 Volga I heard of a mountain people that learned to become gods.
 I wished to learn from them, the tantric buddhists. 
-From the caspian sea, through the deserts 
+From the Caspian sea, through the deserts 
 and over onto the mountains.
 Divine I am, is the teaching.
 so mote it be. 
@@ -4832,4 +4832,235 @@ question was asked.
 "Are you the god?" the child yelled waving his stick.
 his mother quite pale at his great offence to a master. 
 "No little worm, but you may learn to become one."
-
+Nov 13 2015
+0545
+I was brought to a Ngakpa householder.
+"What's this?" he spoke, arms outstretched, exasperated.
+"A new student for you." the leader man spoke. 
+"I don't accept new students." the Ngakpa said firmly.
+"Now you will. We bring alms." and with so saying he had his
+men bring in bags of grain or buckwheat. "that should be enough 
+for him for the winter. You deal with him." then almost as an
+afterthought "make him a divine warrior"  and with that the
+door was shut behind me. I tried running after them, but he told
+me that the Ngakpa was my master now, and he would deal with me.
+"remmember you wanted to meet our gods?"
+I nodded. 
+"He will show you the way to become one."
+doubtfully I sauntered back to the shack, the Ngakpa's abode.
+His children looked at me curiously, and his wife somewhat
+scornfully. 
+"what about clothes and water? Doesn't he know there is more to
+a child than enough grain to feed him?"
+"either this boy has a very big apetite, or they brought enough
+grain for all of us." looking at the bags, the Ngakpa replied.
+0650
+At first I would get into fights with the siblings, 
+but the Ngakpa quickly put a stop to that by starting my
+training,  we would go up into the nearby mountains, chant and
+meditate. 
+"your soul is restless" he would say, "you need to calm it
+down", "see the fog, feel it blanket you with it's cool
+droplets, breathe." Sometimes he would leave me up in the
+mountain to meditate, he would say "when you have calmed, then
+you can return."
+The leader-man would stop by and occasionally ask about his 
+"divine warrior", seeing my frail husk, and the Ngankpa's stout
+children he couldn't help but laugh.  Eating only breakfast, and
+spending the rest of the days meditating and chanting 
+in the mountain, only allowed to go home as the sun was setting, 
+gave me an emaciated appearance. 
+"Did I not give enough food?" asked the leader, he himself had a
+round belly, and patted it as he asked ponderously.
+"I promised his mother that he would be well cared for, 
+she asks about him whenever she lays in my bed.
+Do not make me into a liar!"
+"He eats once everyday." The Ngakpa said defensively. 
+"Then let him eat twice a day!" The leader said, signing
+the men with sacks of grain to hold back.
+"I have given food for him, and him alone, though I knew you
+would take part. To deny him food is to steal from me. I ask no
+tax of you, and I protect your home with my forces. Tending this
+child is the least you could do to show your respect and
+gratitude."
+"I can double his portion size." The Ngakpa replied. 
+"Triple it! I want to see muscles not bones in his thighs and
+arms. My divine warrior must be strong!"
+From that day forward I was given more food, triple maybe not. 
+However the Ngakpa said that now I must also push a boulder and
+carry a large rock up and down the mountain.  
+After some years and more encouragement from the leader, 
+the Ngakpa felt I was ready, and he showed me and told me of 
+the tantric dieties, the god prototypes, I was to pick the one 
+that I liked, and then I would
+assimilate their qualities, becoming them. 
+One day I had climbed to far or slipped, fell and hit my head, 
+I awoke in the warmth of the Ngakpa's home, I could hear them
+arguing. 
+"Why didn't you just leave him there?" The wife was asking. 
+"The leader said that if any calamity should befall him, then he
+would burn our house down, with us inside."
+I faded back into unconsciousness, when I came to, I awoke to
+the wife smiling at me with tears in her eyes. she hugged me
+"I'm so glad you're okay." I had a bandages on my head and hand,
+and a splint for my leg. 
+"I wanted to fly like the disciples of Padmasambhava" I told the
+Ngakpa.
+"I am not Padmasambhava, and our divinity is not of the body, it
+is of the mind."
+Over the next few weeks as I recovered, I had more time with the
+family, and finally felt like I belonged. 
+A few years later when I had come of age,  the leader finally
+came to collect his divine warrior. Even though we had never
+been very close, the family still seemed sad at my parting.
+ I often front-lined in the charges at the nortern border 
+conflicts, full of invincible notions,  though it was
+only a few battles until I succumbed to the blades of the enemy.
+As I lay there dieing, the leader found me. 
+"Twice I have watched you die in my one life. 
+You are a fool, for in your violent anger you throw your life
+away. Or am I a fool for believing you could become something
+more than the barbarian that you were. Don't come back, I don't
+want to see you die again." With that he left me, and walked
+away. I succumbed to death and reincarnated in enemy lines. 
+I got the teachings I wanted, it wasn't what I expected, but 
+it's affected all my lives since. I am grateful to the leader,
+the Ngakpa and his family.
+om ah hung benza guru péma siddhi hung
+1134 though I remained on the plataeu for a few more lifetimes,
+persuing my study as I was able,  I drifted west, back towards
+what had been the domain of varingjar, and had by then become 
+the Khanate. 
+1153 based on my research it was probably the Guge kingdom of
+western-tibet, and probably one of Yeshe-O's descendants 
+was the leader. Though quite possibly it was some smaller place. 
+} 16 nov 2015
+0820 basically I have to finish that register machine version of
+the vm (lank), and later on I can try to figure out how to make 
+it compatible with forth if necessary. 
+} 17 Nov 2015
+0617 finished new version of fetch, which uses the initial index
+in order to fetch things from the program. still have to get it
+to skip over the index itself though. 
+0626 excellent it does that now also. Next is decode.
+0628 I would also like a function to print the whole
+instruction, in order to ease testing. 
+0657 okay printing the whole instruction now works, it indeed
+did help me with debugging the instruction. Also I no longer
+have to fill the rest of it with 0's since I return a length.
+0743 I'm thinking now I can make the instruction width 32bit,
+since I don't actually have any 16bit instructions, and they
+seem to break up nicely in 32bit increments. 
+also I'll use ksit (exit) 0x192A instead of cwah (byebye). 
+since cwah is more of a grammar word,
+kind of like a vocative. 
+Also it would be somewhat faster on most modern processors,
+which are typically at least 32bits wide. 
+0750 considering that little endian makes more sense,
+in case a smaller width is used. 
+0830 I decided to split a 16bit vm and am working on the 32bit
+one, it is at least slightly more complicated..
+0835 issue with my calculation of remaining length and
+comparison to current bit. 
+1328 fixed :-) now I'm fairly confident can work on the decode
+portion.
+1357 first command to implement is exit. or ksithiya
+1401 actually that seems to be part of eval, 
+decode simply sets up registers based on phrases, 
+so it decodes the phrases. 
+18 Nov 2015
+0333 so I've added run, and I can add eval.
+decode maybe somewhat more complicated. 
+0334 I'm also wondering if there may be more code analyzers for
+C,  the jslint is actually somewhat more rigorous at least in
+formating than the C version. 
+0349 I tried valgrind but it doesn't really tell me anything
+useful,  other than that there are no memory leaks possible.
+0350 anyways on to eval
+0436 okay eval has been implemented can now do decode. 
+0506 excellent decode works :-)
+0510 guess that's everything in terms of that tutorial
+from-source:
+https://en.wikibooks.org/wiki/Creating_a_Virtual_Machine/Register_VM_in_C#Execute
+I can sleep and maybe come up with some ideas of what to do
+next.
+0802 okay so I figure I can either have a TREG or typeRegister,
+or I could make registers a two dimensional array so can
+preserve the type information. 
+0803 the benefit is that registers could be loaded in parallel,
+the drawback is that it requires more registers. 
+0805 we could also have something similar to a "FLAGS" register, 
+which would have a few bits per register to indicate the type,
+for instance we have 8 registers, that gives us 4 bits per
+register for type information. 
+signed, unsigned, fixed, and floating point is just four,
+not sure would need more, it would only require 2 bits per
+register. though actually there could be glyphs and such, that
+way can avoid type-collisions at the VM level. 
+number (signed, unsigend, fixed point, floating) SHCN point
+glyph (ASCII,UTF-8,UTF-16,UTF-32) L-glyph
+boolean
+binary
+address
+object ?
+0820 I'll have to set phraseWord and typeWord in seperate
+functions, since decode is getting too big.
+} 19 Nov 2015
+0657 okay so I now set the types in TREG, which is short int,
+so no conversion is necessary, simply uses the typeWord. 
+0701 I'm thinking reg should be signed, then can have negatives
+as result. 
+0712 thinking of adding subtract
+0756 okay subtraction works. 
+I think next I need to get it to read from file or stdin,
+or find out how to communicate it through JS.
+then I need to make a compiler, to compile lank to lankCode. 
+0807 okay so it seems I can interact with it by exporting a
+function such as run(*prog, progLength); 
+I think it might make sense to make a run-time compiler. 
+so that can use it as more of a terminal. 
+0812 also considering how to copy or move things, 
+can have a register or place type,  and put it in the to place,
+could also do the same with an address or variable,
+so it would copy to that address, or to that variable. 
+} 22 Nov 2015
+0544 I'm thinking external interaction is the most important
+feature to add at this time. even if I can simply get it to run
+the current version and return the results via my main spel
+javascript site that would be good. 
+0657 there seems to be a problem with conjunctions,
+but only if they are after another sentence. 
+0714 it's likely something I changed recently, either in word.js
+or phrase.js or type.js, since it works on sourceforge just
+fine.
+} 23 Nov 2015
+0519 going to work on the vm for now, want to make it high
+quality, in terms of maintainability and scalability. This time
+I will take it at a steady pace so I can keep true to the coding
+guidelines. like for instance can make all input arguments which
+aren't used for output const.  Also can make as many functions
+OpenCl compatible as possible. And can add logical operators for
+switch and flip. 
+0630 so I think my run function should return the result of the
+program. however the result is in the register, also I wanted to
+be able to run some of it, then run some more.  so perhaps it
+should return an array of it's memory, which it could also
+accept initially. 
+1402 added a bunch of flags from my earlier C++ attempt at spel.
+} 24 Nov 2015
+0524 okay so I'll be able to significantly reduce the number of
+variable input arguments by making most things a part of memory. 
+for instance I don't have to pass around a pc pointer, since I
+have a PC constant which shows where in the memory the PC
+register is. also the tregs array can be replaced by a subset of
+the memory array, which can be identified by
+TYPES+CASE_CONSTANT
+0645 okay fixed it up, also been looking up how much memory in
+OpenCl, or even just my GPU, it is kind of difficult. says 32Kb
+per core,  but I don't know how many threads, also that is the
+L2 cache... anyways I guess I'll just assume 512 bytes or
+something. 
+0722 now merging instruction into memory also, as phrase.
+0733 great I did that, also lowered cache limit to 512Bytes
+0754 named 12 case registers, and have 4 meta registers IMM, PC,
+STACKP and DATAP.

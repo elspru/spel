@@ -6,11 +6,13 @@ extern "C" {
 #include<stdlib.h>
 #include<stdbool.h>
 #include<string.h>
+#define INT_BYTES 4
 #define SIZEOF_ARRAY( arr ) sizeof( arr ) / sizeof( arr[0] )
 #define MAX_INSTRUCTION_VALUE 0xFFFFFFFFU
 #define MAX_ADDRESS_VALUE 0xFFFFU
 #define PHRASE_SIZE 0x10U
 #define MAX_PHRASE_IDX 0xFU
+
 
 /* memory */
 
@@ -22,20 +24,26 @@ extern "C" {
 */
 
 #define MEMORY_SIZE 0x60
-#define TYPES 0x10
-#define PHRASE 0x20
-#define STACK 0x30
+#define TYPES   0x10
+#define PHRASE  0x20
+#define STACK   0x30
 
 /* case registers */
-#define IMM 0
-#define SU 1
-#define FROM 2
-#define AT 3
-#define BY 4
-#define TO 5
-#define OB 6
-#define BE 7
-#define PC 0xF
+#define IMM     0x0
+#define HEY     0x1
+#define ABOUT   0x2
+#define SU      0x3
+#define OF      0x4
+#define TO      0x5
+#define FROM    0x6
+#define BY      0x7
+#define AT      0x8
+#define TIL     0x9
+#define OB      0xA
+#define BE      0xB
+#define DATAP   0xC
+#define STACKP  0xE
+#define PC      0xF
 
 /* words  */
 #define SU_WORD 1
@@ -50,6 +58,7 @@ extern "C" {
 #define SUB_WORD 0xC854
 #define EXIT_WORD 0xA291
 #define ZERO_WORD 0x9B58
+#define ONE_WORD 0x9B58
 
 static void error(const char *message) {
     fprintf(stderr,"%s\n",message);
@@ -100,22 +109,21 @@ static void fetch(const unsigned int *prog,
     unsigned int maxLength = PHRASE_SIZE;
     unsigned int i;
     unsigned int remainingLength = 0;
-    unsigned int *pc = memory + PC;
-    assert(pc != NULL );
-    if (*pc >= progLength) {
+    assert(memory != NULL );
+    if (memory[PC] >= progLength) {
         error("PC exceeded end of program");
     }
-    assert(*pc < progLength);
-    batchIndex = prog[*pc&(MAX_ADDRESS_VALUE-MAX_PHRASE_IDX)]; 
-    currentBit = *pc&((~MAX_ADDRESS_VALUE)+MAX_PHRASE_IDX);
+    assert(memory[PC] < progLength);
+    batchIndex = prog[memory[PC]&(MAX_ADDRESS_VALUE-MAX_PHRASE_IDX)]; 
+    currentBit = memory[PC]&((~MAX_ADDRESS_VALUE)+MAX_PHRASE_IDX);
     /* skip index */
     if (currentBit == 0) {
-        *pc = *pc+1;
+        memory[PC] = memory[PC]+1;
         currentBit++;
     }
     assert (currentBit < PHRASE_SIZE);
     batchIndex = batchIndex >> currentBit;
-    remainingLength =  progLength-*pc;
+    remainingLength =  progLength-memory[PC];
     if (remainingLength < PHRASE_SIZE) {
        maxLength = (progLength%MAX_PHRASE_IDX)-currentBit; 
     } else {
@@ -126,8 +134,8 @@ static void fetch(const unsigned int *prog,
     assert (*phraseLength <= remainingLength);
     assert (*phraseLength <= maxLength);
     for (i=0;i<*phraseLength;i++){
-        *pc = *pc+1 ;
-        phraseWord =  prog[*pc-1];
+        memory[PC] = memory[PC]+1 ;
+        phraseWord =  prog[memory[PC]-1];
         assert (phraseWord <= MAX_INSTRUCTION_VALUE); 
         memory[PHRASE+i] = phraseWord;
     }
@@ -206,6 +214,23 @@ static void wholePhraseToGlyph(const unsigned int
     assert (sizeof(glyphs) > 0);
 }
 
+/*
+#define IMM     0x0
+#define HEY     0x1
+#define ABOUT   0x2
+#define SU      0x3
+#define OF      0x4
+#define TO      0x5
+#define FROM    0x6
+#define BY      0x7
+#define AT      0x8
+#define TIL     0x9
+#define OB      0xA
+#define BE      0xB
+#define DATAP   0xC
+#define STACKP  0xE
+#define PC  0xF
+*/
 static void printRegs(const unsigned int *memory) {
     unsigned int printedLength = 0;
     assert(memory != NULL);
@@ -213,20 +238,32 @@ static void printRegs(const unsigned int *memory) {
     printedLength += printf("      Value\tType \n");
     printedLength += printf(" IMM    %d\t0x%X,\n",
         (int)memory[IMM ], memory[TYPES+IMM ]); 
+    printedLength += printf(" HEY    %d\t0x%X,\n",
+        (int)memory[HEY], memory[TYPES+HEY]);
+    printedLength += printf(" ABOUT  %d\t0x%X,\n",
+        (int)memory[ABOUT], memory[TYPES+ABOUT]);
     printedLength += printf(" SU     %d\t0x%X,\n",
         (int)memory[SU  ], memory[TYPES+SU  ]); 
+    printedLength += printf(" OF     %d\t0x%X,\n",
+        (int)memory[OF  ], memory[TYPES+OF  ]); 
+    printedLength += printf(" TO     %d\t0x%X,\n",
+        (int)memory[TO  ], memory[TYPES+TO  ]);
     printedLength += printf(" TIME   %d\t0x%X,\n",
-        (int)memory[TIME], memory[TYPES+TIME]);
-    printedLength += printf(" FROM   %d\t0x%X,\n",
         (int)memory[FROM], memory[TYPES+FROM]);
     printedLength += printf(" BY     %d\t0x%X,\n",
         (int)memory[BY  ], memory[TYPES+BY  ]);
     printedLength += printf(" TO     %d\t0x%X,\n",
-        (int)memory[TO  ], memory[TYPES+TO  ]);
+        (int)memory[AT  ], memory[TYPES+AT  ]);
+    printedLength += printf(" BE     %d\t0x%X,\n",
+        (int)memory[TIL  ], memory[TYPES+TIL  ]);
     printedLength += printf(" OB     %d\t0x%X,\n",
-        (int)memory[OB  ], memory[TYPES+OB  ]);
+        (int)memory[TIL  ], memory[TYPES+TIL  ]);
     printedLength += printf(" BE     %d\t0x%X,\n",
         (int)memory[BE  ], memory[TYPES+BE  ]);
+    printedLength += printf(" DATAP  %d\t0x%X,\n",
+        (int)memory[DATAP  ], memory[TYPES+DATAP  ]);
+    printedLength += printf(" STACKP %d\t0x%X,\n",
+        (int)memory[STACKP  ], memory[TYPES+STACKP  ]);
     printedLength += printf(" PC     %d\t0x%X,\n",
         (int)memory[PC  ], memory[TYPES+PC  ]);
     assert(printedLength > 0);
@@ -332,8 +369,7 @@ static void run(const unsigned int *prog,
     bool running = true;
     char glyphs[9];
     memset(glyphs,(char) 0,9);
-    memset(memory,0,MEMORY_SIZE);
-    memory[PHRASE+0]=0; /* set initial value */
+    memset(memory,0,MEMORY_SIZE*INT_BYTES);
     /* fetch phrases */
     for (i = 0; i < progLength; i++) {
         fetch(prog, progLength, memory, &phraseLength);

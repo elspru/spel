@@ -1,12 +1,12 @@
-lank-vm.cpp:54:13:void error(const char*)	16	static
-lank-vm.cpp:63:21:unsigned int amountOfSameBits(unsigned int, unsigned int)	32	static
-lank-vm.cpp:93:13:void fetch(const unsigned int*, unsigned int, unsigned int*, unsigned int*)	56	static
-lank-vm.cpp:141:13:char nibbleToLankGlyph(unsigned int)	24	static
-lank-vm.cpp:168:13:void EightNibblesToLankGlyphs(unsigned int, char*)	56	static
-lank-vm.cpp:195:13:void wholePhraseToGlyph(const unsigned int*, unsigned int, char*)	32	static
-lank-vm.cpp:209:13:void printRegs(const unsigned int*)	24	static
-lank-vm.cpp:235:13:void phraseDecode(unsigned int, short unsigned int, unsigned int*)	24	static
-lank-vm.cpp:264:13:void decode(unsigned int, unsigned int*)	32	static
-lank-vm.cpp:295:13:void eval(unsigned int, unsigned int*, bool*)	32	static
-lank-vm.cpp:327:13:void run(const unsigned int*, unsigned int)	432	static
-lank-vm.cpp:353:5:int main()	64	static
+lank-vm.cpp:63:13:void error(const char*)	16	static
+lank-vm.cpp:72:21:unsigned int amountOfSameBits(unsigned int, unsigned int)	32	static
+lank-vm.cpp:102:13:void fetch(const unsigned int*, unsigned int, unsigned int*, unsigned int*)	48	static
+lank-vm.cpp:149:13:char nibbleToLankGlyph(unsigned int)	24	static
+lank-vm.cpp:176:13:void EightNibblesToLankGlyphs(unsigned int, char*)	56	static
+lank-vm.cpp:203:13:void wholePhraseToGlyph(const unsigned int*, unsigned int, char*)	32	static
+lank-vm.cpp:234:13:void printRegs(const unsigned int*)	24	static
+lank-vm.cpp:272:13:void phraseDecode(unsigned int, short unsigned int, unsigned int*)	24	static
+lank-vm.cpp:301:13:void decode(unsigned int, unsigned int*)	32	static
+lank-vm.cpp:332:13:void eval(unsigned int, unsigned int*, bool*)	32	static
+lank-vm.cpp:364:13:void run(const unsigned int*, unsigned int)	432	static
+lank-vm.cpp:389:5:int main()	64	static

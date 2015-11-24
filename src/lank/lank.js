@@ -1357,7 +1357,7 @@ var memoryInitializer = null;
 
 STATIC_BASE = 8;
 
-STATICTOP = STATIC_BASE + 1520;
+STATICTOP = STATIC_BASE + 1600;
 
 
 /* global initializers */ __ATINIT__.push({ func: function() { runPostSets() } });
@@ -1488,7 +1488,13 @@ var _stderr=_stderr=allocate([0,0,0,0,0,0,0,0], "i8", ALLOC_STATIC);;
 
 
 
-/* memory initializer */ allocate([97,100,100,101,100,10,0,0,109,101,109,111,114,121,91,84,89,80,69,83,43,84,79,93,32,61,61,32,109,101,109,111,114,121,91,84,89,80,69,83,43,79,66,93,0,0,0,0,101,120,105,116,10,0,0,0,99,111,109,109,97,110,100,32,33,61,32,48,0,0,0,0,108,101,110,103,116,104,32,60,61,32,109,97,120,76,101,110,103,116,104,0,0,0,0,0,112,104,114,97,115,101,76,101,110,103,116,104,32,61,61,32,49,0,0,0,0,0,0,0,102,105,114,115,116,66,105,116,32,60,61,32,49,0,0,0,109,97,120,76,101,110,103,116,104,32,60,61,32,40,117,110,115,105,103,110,101,100,32,105,110,116,41,32,115,105,122,101,111,102,40,105,110,116,41,42,56,0,0,0,0,0,0,0,110,117,109,98,101,114,32,60,32,77,65,88,95,73,78,83,84,82,85,67,84,73,79,78,95,86,65,76,85,69,0,0,112,104,114,97,115,101,87,111,114,100,32,60,61,32,77,65,88,95,73,78,83,84,82,85,67,84,73,79,78,95,86,65,76,85,69,0,0,0,0,0,42,112,104,114,97,115,101,76,101,110,103,116,104,32,60,61,32,109,97,120,76,101,110,103,116,104,0,0,0,0,0,0,42,112,104,114,97,115,101,76,101,110,103,116,104,32,60,61,32,114,101,109,97,105,110,105,110,103,76,101,110,103,116,104,0,0,0,0,0,0,0,0,109,97,120,76,101,110,103,116,104,32,60,61,32,80,72,82,65,83,69,95,83,73,90,69,0,0,0,0,0,0,0,0,99,117,114,114,101,110,116,66,105,116,32,60,32,80,72,82,65,83,69,95,83,73,90,69,0,0,0,0,0,0,0,0,42,112,99,32,60,32,112,114,111,103,76,101,110,103,116,104,0,0,0,0,0,0,0,0,80,67,32,101,120,99,101,101,100,101,100,32,101,110,100,32,111,102,32,112,114,111,103,114,97,109,0,0,0,0,0,0,37,115,10,0,0,0,0,0,112,99,32,33,61,32,78,85,76,76,0,0,0,0,0,0,112,104,114,97,115,101,68,101,99,111,100,101,58,32,117,110,107,110,111,119,110,32,112,104,114,97,115,101,87,111,114,100,0,0,0,0,0,0,0,0,100,101,99,111,100,101,58,32,117,110,107,110,111,119,110,32,105,109,109,101,100,105,97,116,101,76,101,110,103,116,104,87,111,114,100,0,0,0,0,0,105,109,109,101,100,105,97,116,101,86,97,108,117,101,32,60,61,32,77,65,88,95,73,78,83,84,82,85,67,84,73,79,78,95,86,65,76,85,69,0,48,120,70,70,70,70,32,62,61,32,105,109,109,101,100,105,97,116,101,76,101,110,103,116,104,87,111,114,100,0,0,0,105,109,109,101,100,105,97,116,101,76,101,110,103,116,104,87,111,114,100,32,62,32,48,0,112,104,114,97,115,101,76,101,110,103,116,104,32,62,32,49,0,0,0,0,0,0,0,0,114,101,115,117,108,116,32,62,61,32,39,46,39,32,38,38,32,114,101,115,117,108,116,32,60,61,39,122,39,0,0,0,110,105,98,98,108,101,32,60,61,32,48,120,70,0,0,0,114,101,115,117,108,116,32,33,61,32,78,85,76,76,0,0,80,67,32,37,88,32,73,78,83,84,82,32,37,88,10,0,105,110,116,87,111,114,100,32,60,61,32,77,65,88,95,73,78,83,84,82,85,67,84,73,79,78,95,86,65,76,85,69,0,0,0,0,0,0,0,0,112,104,114,97,115,101,76,101,110,103,116,104,32,60,61,32,80,72,82,65,83,69,95,83,73,90,69,0,0,0,0,0,112,104,114,97,115,101,76,101,110,103,116,104,32,62,32,48,0,0,0,0,0,0,0,0,103,108,121,112,104,115,32,33,61,32,78,85,76,76,0,0,112,114,105,110,116,101,100,76,101,110,103,116,104,32,62,32,48,0,0,0,0,0,0,0,32,80,67,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,66,69,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,79,66,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,84,79,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,66,89,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,109,101,109,111,114,121,91,80,72,82,65,83,69,43,48,93,32,60,61,32,77,65,88,95,73,78,83,84,82,85,67,84,73,79,78,95,86,65,76,85,69,0,0,0,0,0,0,0,32,70,82,79,77,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,84,73,77,69,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,83,85,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,73,77,77,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,32,32,32,32,32,86,97,108,117,101,9,84,121,112,101,32,10,0,0,0,0,0,0,114,101,103,105,115,116,101,114,115,58,32,10,0,0,0,0,109,101,109,111,114,121,32,33,61,32,78,85,76,76,0,0,101,118,97,108,58,32,117,110,107,110,111,119,110,32,99,111,109,109,97,110,100,0,0,0,115,117,98,116,114,97,99,116,101,100,10,0,0,0,0,0,109,101,109,111,114,121,91,84,89,80,69,83,43,70,82,79,77,93,32,61,61,32,109,101,109,111,114,121,91,84,89,80,69,83,43,79,66,93,0,0,108,97,110,107,45,118,109,46,99,112,112,0,0,0,0,0,112,114,111,103,76,101,110,103,116,104,32,62,32,48,0,0,109,97,105,110,0,0,0,0,112,114,105,110,116,82,101,103,115,0,0,0,0,0,0,0,100,101,99,111,100,101,0,0,102,101,116,99,104,0,0,0,101,118,97,108,0,0,0,0,114,117,110,0,0,0,0,0,69,105,103,104,116,78,105,98,98,108,101,115,84,111,76,97,110,107,71,108,121,112,104,115,0,0,0,0,0,0,0,0,119,104,111,108,101,80,104,114,97,115,101,84,111,71,108,121,112,104,0,0,0,0,0,0,110,105,98,98,108,101,84,111,76,97,110,107,71,108,121,112,104,0,0,0,0,0,0,0,97,109,111,117,110,116,79,102,83,97,109,101,66,105,116,115,0,0,0,0,0,0,0,0,38,1,0,0,214,194,88,155,100,0,56,60,214,194,88,155,200,0,56,58,58,193,44,52,214,194,88,155,216,0,56,89,84,200,44,52,145,162,44,52], "i8", ALLOC_NONE, Runtime.GLOBAL_BASE);
+
+
+
+
+
+
+/* memory initializer */ allocate([97,100,100,101,100,10,0,0,109,101,109,111,114,121,91,84,89,80,69,83,43,84,79,93,32,61,61,32,109,101,109,111,114,121,91,84,89,80,69,83,43,79,66,93,0,0,0,0,101,120,105,116,10,0,0,0,99,111,109,109,97,110,100,32,33,61,32,48,0,0,0,0,108,101,110,103,116,104,32,60,61,32,109,97,120,76,101,110,103,116,104,0,0,0,0,0,102,105,114,115,116,66,105,116,32,60,61,32,49,0,0,0,109,97,120,76,101,110,103,116,104,32,60,61,32,40,117,110,115,105,103,110,101,100,32,105,110,116,41,32,115,105,122,101,111,102,40,105,110,116,41,42,56,0,0,0,0,0,0,0,110,117,109,98,101,114,32,60,32,77,65,88,95,73,78,83,84,82,85,67,84,73,79,78,95,86,65,76,85,69,0,0,112,104,114,97,115,101,76,101,110,103,116,104,32,61,61,32,49,0,0,0,0,0,0,0,112,104,114,97,115,101,87,111,114,100,32,60,61,32,77,65,88,95,73,78,83,84,82,85,67,84,73,79,78,95,86,65,76,85,69,0,0,0,0,0,42,112,104,114,97,115,101,76,101,110,103,116,104,32,60,61,32,109,97,120,76,101,110,103,116,104,0,0,0,0,0,0,42,112,104,114,97,115,101,76,101,110,103,116,104,32,60,61,32,114,101,109,97,105,110,105,110,103,76,101,110,103,116,104,0,0,0,0,0,0,0,0,109,97,120,76,101,110,103,116,104,32,60,61,32,80,72,82,65,83,69,95,83,73,90,69,0,0,0,0,0,0,0,0,99,117,114,114,101,110,116,66,105,116,32,60,32,80,72,82,65,83,69,95,83,73,90,69,0,0,0,0,0,0,0,0,109,101,109,111,114,121,91,80,67,93,32,60,32,112,114,111,103,76,101,110,103,116,104,0,80,67,32,101,120,99,101,101,100,101,100,32,101,110,100,32,111,102,32,112,114,111,103,114,97,109,0,0,0,0,0,0,112,104,114,97,115,101,68,101,99,111,100,101,58,32,117,110,107,110,111,119,110,32,112,104,114,97,115,101,87,111,114,100,0,0,0,0,0,0,0,0,100,101,99,111,100,101,58,32,117,110,107,110,111,119,110,32,105,109,109,101,100,105,97,116,101,76,101,110,103,116,104,87,111,114,100,0,0,0,0,0,105,109,109,101,100,105,97,116,101,86,97,108,117,101,32,60,61,32,77,65,88,95,73,78,83,84,82,85,67,84,73,79,78,95,86,65,76,85,69,0,37,115,10,0,0,0,0,0,48,120,70,70,70,70,32,62,61,32,105,109,109,101,100,105,97,116,101,76,101,110,103,116,104,87,111,114,100,0,0,0,105,109,109,101,100,105,97,116,101,76,101,110,103,116,104,87,111,114,100,32,62,32,48,0,112,104,114,97,115,101,76,101,110,103,116,104,32,62,32,49,0,0,0,0,0,0,0,0,114,101,115,117,108,116,32,62,61,32,39,46,39,32,38,38,32,114,101,115,117,108,116,32,60,61,39,122,39,0,0,0,110,105,98,98,108,101,32,60,61,32,48,120,70,0,0,0,114,101,115,117,108,116,32,33,61,32,78,85,76,76,0,0,105,110,116,87,111,114,100,32,60,61,32,77,65,88,95,73,78,83,84,82,85,67,84,73,79,78,95,86,65,76,85,69,0,0,0,0,0,0,0,0,112,104,114,97,115,101,76,101,110,103,116,104,32,60,61,32,80,72,82,65,83,69,95,83,73,90,69,0,0,0,0,0,112,104,114,97,115,101,76,101,110,103,116,104,32,62,32,48,0,0,0,0,0,0,0,0,103,108,121,112,104,115,32,33,61,32,78,85,76,76,0,0,80,67,32,37,88,32,73,78,83,84,82,32,37,88,10,0,112,114,105,110,116,101,100,76,101,110,103,116,104,32,62,32,48,0,0,0,0,0,0,0,32,80,67,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,83,84,65,67,75,80,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,68,65,84,65,80,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,79,66,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,66,69,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,66,89,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,84,73,77,69,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,84,79,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,79,70,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,109,101,109,111,114,121,91,80,72,82,65,83,69,43,48,93,32,60,61,32,77,65,88,95,73,78,83,84,82,85,67,84,73,79,78,95,86,65,76,85,69,0,0,0,0,0,0,0,32,83,85,32,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,65,66,79,85,84,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,72,69,89,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,73,77,77,32,32,32,32,37,100,9,48,120,37,88,44,10,0,0,0,0,0,0,0,32,32,32,32,32,32,86,97,108,117,101,9,84,121,112,101,32,10,0,0,0,0,0,0,114,101,103,105,115,116,101,114,115,58,32,10,0,0,0,0,109,101,109,111,114,121,32,33,61,32,78,85,76,76,0,0,101,118,97,108,58,32,117,110,107,110,111,119,110,32,99,111,109,109,97,110,100,0,0,0,115,117,98,116,114,97,99,116,101,100,10,0,0,0,0,0,109,101,109,111,114,121,91,84,89,80,69,83,43,70,82,79,77,93,32,61,61,32,109,101,109,111,114,121,91,84,89,80,69,83,43,79,66,93,0,0,108,97,110,107,45,118,109,46,99,112,112,0,0,0,0,0,112,114,111,103,76,101,110,103,116,104,32,62,32,48,0,0,109,97,105,110,0,0,0,0,112,114,105,110,116,82,101,103,115,0,0,0,0,0,0,0,100,101,99,111,100,101,0,0,102,101,116,99,104,0,0,0,101,118,97,108,0,0,0,0,114,117,110,0,0,0,0,0,69,105,103,104,116,78,105,98,98,108,101,115,84,111,76,97,110,107,71,108,121,112,104,115,0,0,0,0,0,0,0,0,119,104,111,108,101,80,104,114,97,115,101,84,111,71,108,121,112,104,0,0,0,0,0,0,110,105,98,98,108,101,84,111,76,97,110,107,71,108,121,112,104,0,0,0,0,0,0,0,97,109,111,117,110,116,79,102,83,97,109,101,66,105,116,115,0,0,0,0,0,0,0,0,38,1,0,0,214,194,88,155,100,0,56,60,214,194,88,155,200,0,56,58,58,193,44,52,214,194,88,155,216,0,56,89,84,200,44,52,145,162,44,52], "i8", ALLOC_NONE, Runtime.GLOBAL_BASE);
 function runPostSets() {
 
 
@@ -5436,13 +5442,13 @@ function _main(){
  var $progLength;
  $1=0;
  var $2=$prog;
- assert(40 % 1 === 0);(_memcpy($2, 1488, 40)|0);
+ assert(40 % 1 === 0);(_memcpy($2, 1568, 40)|0);
  $progLength=10;
  var $3=$progLength;
  var $4=($3>>>0)>0;
  if($4){var $8=0;label=3;break;}else{label=2;break;}
  case 2: 
- ___assert_fail(1312,1296,363,1328);
+ ___assert_fail(1392,1376,399,1408);
  throw "Reached an unreachable!";
  label=3;break;
  case 3: 
@@ -5479,61 +5485,59 @@ function __Z3runPKjj($prog,$progLength){
  var $3=$glyphs;
  _memset($3, 0, 9)|0;
  var $4=$memory;
- _memset($4, 0, 96)|0;
- var $5=(($memory+128)|0);
- HEAP32[(($5)>>2)]=0;
+ _memset($4, 0, 384)|0;
  $i=0;
  label=2;break;
  case 2: 
- var $7=$i;
- var $8=$2;
- var $9=($7>>>0)<($8>>>0);
- if($9){label=3;break;}else{label=9;break;}
+ var $6=$i;
+ var $7=$2;
+ var $8=($6>>>0)<($7>>>0);
+ if($8){label=3;break;}else{label=9;break;}
  case 3: 
- var $11=$1;
- var $12=$2;
- var $13=(($memory)|0);
- __Z5fetchPKjjPjS1_($11,$12,$13,$phraseLength);
- var $14=HEAP32[(($phraseLength)>>2)];
- var $15=(($memory)|0);
- __Z6decodejPj($14,$15);
- var $16=(($memory+128)|0);
- var $17=HEAP32[(($16)>>2)];
- var $18=($17>>>0)<=4294967295;
- if($18){var $22=1;label=5;break;}else{label=4;break;}
+ var $10=$1;
+ var $11=$2;
+ var $12=(($memory)|0);
+ __Z5fetchPKjjPjS1_($10,$11,$12,$phraseLength);
+ var $13=HEAP32[(($phraseLength)>>2)];
+ var $14=(($memory)|0);
+ __Z6decodejPj($13,$14);
+ var $15=(($memory+128)|0);
+ var $16=HEAP32[(($15)>>2)];
+ var $17=($16>>>0)<=4294967295;
+ if($17){var $21=1;label=5;break;}else{label=4;break;}
  case 4: 
- ___assert_fail(1016,1296,341,1376);
+ ___assert_fail(1096,1376,377,1456);
  throw "Reached an unreachable!";
  label=5;break;
  case 5: 
- var $22;
- var $23=(($memory+60)|0);
- var $24=HEAP32[(($23)>>2)];
- var $25=(($memory+128)|0);
- var $26=HEAP32[(($25)>>2)];
- var $27=_printf(744,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$24,HEAP32[(((tempVarArgs)+(8))>>2)]=$26,tempVarArgs)); STACKTOP=tempVarArgs;
- var $28=(($memory)|0);
- var $29=HEAP32[(($phraseLength)>>2)];
+ var $21;
+ var $22=(($memory+60)|0);
+ var $23=HEAP32[(($22)>>2)];
+ var $24=(($memory+128)|0);
+ var $25=HEAP32[(($24)>>2)];
+ var $26=_printf(840,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$23,HEAP32[(((tempVarArgs)+(8))>>2)]=$25,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $27=(($memory)|0);
+ var $28=HEAP32[(($phraseLength)>>2)];
+ var $29=(($glyphs)|0);
+ __Z18wholePhraseToGlyphPKjjPc($27,$28,$29);
  var $30=(($glyphs)|0);
- __Z18wholePhraseToGlyphPKjjPc($28,$29,$30);
- var $31=(($glyphs)|0);
- var $32=_printf(456,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 8)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$31,tempVarArgs)); STACKTOP=tempVarArgs;
- var $33=HEAP32[(($phraseLength)>>2)];
- var $34=(($memory)|0);
- __Z4evaljPjPb($33,$34,$running);
- var $35=HEAP8[($running)];
- var $36=(($35)&1);
- var $37=($36&1);
- var $38=($37|0)==0;
- if($38){label=6;break;}else{label=7;break;}
+ var $31=_printf(576,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 8)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$30,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $32=HEAP32[(($phraseLength)>>2)];
+ var $33=(($memory)|0);
+ __Z4evaljPjPb($32,$33,$running);
+ var $34=HEAP8[($running)];
+ var $35=(($34)&1);
+ var $36=($35&1);
+ var $37=($36|0)==0;
+ if($37){label=6;break;}else{label=7;break;}
  case 6: 
  label=9;break;
  case 7: 
  label=8;break;
  case 8: 
- var $42=$i;
- var $43=((($42)+(1))|0);
- $i=$43;
+ var $41=$i;
+ var $42=((($41)+(1))|0);
+ $i=$42;
  label=2;break;
  case 9: 
  STACKTOP=sp;return;
@@ -5559,7 +5563,6 @@ function __Z5fetchPKjjPjS1_($prog,$progLength,$memory,$phraseLength){
  var $maxLength;
  var $i;
  var $remainingLength;
- var $pc;
  $1=$prog;
  $2=$progLength;
  $3=$memory;
@@ -5570,173 +5573,180 @@ function __Z5fetchPKjjPjS1_($prog,$progLength,$memory,$phraseLength){
  $maxLength=16;
  $remainingLength=0;
  var $5=$3;
- var $6=(($5+60)|0);
- $pc=$6;
- var $7=$pc;
- var $8=($7|0)!=0;
- if($8){var $12=0;label=3;break;}else{label=2;break;}
+ var $6=($5|0)!=0;
+ if($6){var $10=0;label=3;break;}else{label=2;break;}
  case 2: 
- ___assert_fail(464,1296,104,1360);
+ ___assert_fail(1280,1376,112,1440);
  throw "Reached an unreachable!";
  label=3;break;
  case 3: 
- var $12;
- var $13=$pc;
- var $14=HEAP32[(($13)>>2)];
- var $15=$2;
- var $16=($14>>>0)>=($15>>>0);
- if($16){label=4;break;}else{label=5;break;}
+ var $10;
+ var $11=$3;
+ var $12=(($11+60)|0);
+ var $13=HEAP32[(($12)>>2)];
+ var $14=$2;
+ var $15=($13>>>0)>=($14>>>0);
+ if($15){label=4;break;}else{label=5;break;}
  case 4: 
  __Z5errorPKc(424);
  label=5;break;
  case 5: 
- var $19=$pc;
+ var $18=$3;
+ var $19=(($18+60)|0);
  var $20=HEAP32[(($19)>>2)];
  var $21=$2;
  var $22=($20>>>0)<($21>>>0);
  if($22){var $26=1;label=7;break;}else{label=6;break;}
  case 6: 
- ___assert_fail(400,1296,108,1360);
+ ___assert_fail(400,1376,116,1440);
  throw "Reached an unreachable!";
  label=7;break;
  case 7: 
  var $26;
- var $27=$pc;
- var $28=HEAP32[(($27)>>2)];
- var $29=$28&65520;
- var $30=$1;
- var $31=(($30+($29<<2))|0);
- var $32=HEAP32[(($31)>>2)];
- $batchIndex=$32;
- var $33=$pc;
- var $34=HEAP32[(($33)>>2)];
- var $35=$34&-65521;
- $currentBit=$35;
- var $36=$currentBit;
- var $37=($36|0)==0;
- if($37){label=8;break;}else{label=9;break;}
+ var $27=$3;
+ var $28=(($27+60)|0);
+ var $29=HEAP32[(($28)>>2)];
+ var $30=$29&65520;
+ var $31=$1;
+ var $32=(($31+($30<<2))|0);
+ var $33=HEAP32[(($32)>>2)];
+ $batchIndex=$33;
+ var $34=$3;
+ var $35=(($34+60)|0);
+ var $36=HEAP32[(($35)>>2)];
+ var $37=$36&-65521;
+ $currentBit=$37;
+ var $38=$currentBit;
+ var $39=($38|0)==0;
+ if($39){label=8;break;}else{label=9;break;}
  case 8: 
- var $39=$pc;
- var $40=HEAP32[(($39)>>2)];
- var $41=((($40)+(1))|0);
- var $42=$pc;
- HEAP32[(($42)>>2)]=$41;
- var $43=$currentBit;
+ var $41=$3;
+ var $42=(($41+60)|0);
+ var $43=HEAP32[(($42)>>2)];
  var $44=((($43)+(1))|0);
- $currentBit=$44;
+ var $45=$3;
+ var $46=(($45+60)|0);
+ HEAP32[(($46)>>2)]=$44;
+ var $47=$currentBit;
+ var $48=((($47)+(1))|0);
+ $currentBit=$48;
  label=9;break;
  case 9: 
- var $46=$currentBit;
- var $47=($46>>>0)<16;
- if($47){var $51=1;label=11;break;}else{label=10;break;}
+ var $50=$currentBit;
+ var $51=($50>>>0)<16;
+ if($51){var $55=1;label=11;break;}else{label=10;break;}
  case 10: 
- ___assert_fail(368,1296,116,1360);
+ ___assert_fail(368,1376,124,1440);
  throw "Reached an unreachable!";
  label=11;break;
  case 11: 
- var $51;
- var $52=$batchIndex;
- var $53=$currentBit;
- var $54=$52>>>($53>>>0);
- $batchIndex=$54;
- var $55=$2;
- var $56=$pc;
- var $57=HEAP32[(($56)>>2)];
- var $58=((($55)-($57))|0);
- $remainingLength=$58;
- var $59=$remainingLength;
- var $60=($59>>>0)<16;
- if($60){label=12;break;}else{label=13;break;}
+ var $55;
+ var $56=$batchIndex;
+ var $57=$currentBit;
+ var $58=$56>>>($57>>>0);
+ $batchIndex=$58;
+ var $59=$2;
+ var $60=$3;
+ var $61=(($60+60)|0);
+ var $62=HEAP32[(($61)>>2)];
+ var $63=((($59)-($62))|0);
+ $remainingLength=$63;
+ var $64=$remainingLength;
+ var $65=($64>>>0)<16;
+ if($65){label=12;break;}else{label=13;break;}
  case 12: 
- var $62=$2;
- var $63=(((($62>>>0))%(15))&-1);
- var $64=$currentBit;
- var $65=((($63)-($64))|0);
- $maxLength=$65;
+ var $67=$2;
+ var $68=(((($67>>>0))%(15))&-1);
+ var $69=$currentBit;
+ var $70=((($68)-($69))|0);
+ $maxLength=$70;
  label=14;break;
  case 13: 
- var $67=$currentBit;
- var $68=(((16)-($67))|0);
- $maxLength=$68;
+ var $72=$currentBit;
+ var $73=(((16)-($72))|0);
+ $maxLength=$73;
  label=14;break;
  case 14: 
- var $70=$maxLength;
- var $71=($70>>>0)<=16;
- if($71){var $75=1;label=16;break;}else{label=15;break;}
+ var $75=$maxLength;
+ var $76=($75>>>0)<=16;
+ if($76){var $80=1;label=16;break;}else{label=15;break;}
  case 15: 
- ___assert_fail(336,1296,124,1360);
+ ___assert_fail(336,1376,132,1440);
  throw "Reached an unreachable!";
  label=16;break;
  case 16: 
- var $75;
- var $76=$batchIndex;
- var $77=$maxLength;
- var $78=__Z16amountOfSameBitsjj($76,$77);
- var $79=$4;
- HEAP32[(($79)>>2)]=$78;
- var $80=$4;
- var $81=HEAP32[(($80)>>2)];
- var $82=$remainingLength;
- var $83=($81>>>0)<=($82>>>0);
- if($83){var $87=1;label=18;break;}else{label=17;break;}
+ var $80;
+ var $81=$batchIndex;
+ var $82=$maxLength;
+ var $83=__Z16amountOfSameBitsjj($81,$82);
+ var $84=$4;
+ HEAP32[(($84)>>2)]=$83;
+ var $85=$4;
+ var $86=HEAP32[(($85)>>2)];
+ var $87=$remainingLength;
+ var $88=($86>>>0)<=($87>>>0);
+ if($88){var $92=1;label=18;break;}else{label=17;break;}
  case 17: 
- ___assert_fail(296,1296,126,1360);
+ ___assert_fail(296,1376,134,1440);
  throw "Reached an unreachable!";
  label=18;break;
  case 18: 
- var $87;
- var $88=$4;
- var $89=HEAP32[(($88)>>2)];
- var $90=$maxLength;
- var $91=($89>>>0)<=($90>>>0);
- if($91){var $95=1;label=20;break;}else{label=19;break;}
+ var $92;
+ var $93=$4;
+ var $94=HEAP32[(($93)>>2)];
+ var $95=$maxLength;
+ var $96=($94>>>0)<=($95>>>0);
+ if($96){var $100=1;label=20;break;}else{label=19;break;}
  case 19: 
- ___assert_fail(264,1296,127,1360);
+ ___assert_fail(264,1376,135,1440);
  throw "Reached an unreachable!";
  label=20;break;
  case 20: 
- var $95;
+ var $100;
  $i=0;
  label=21;break;
  case 21: 
- var $97=$i;
- var $98=$4;
- var $99=HEAP32[(($98)>>2)];
- var $100=($97>>>0)<($99>>>0);
- if($100){label=22;break;}else{label=26;break;}
+ var $102=$i;
+ var $103=$4;
+ var $104=HEAP32[(($103)>>2)];
+ var $105=($102>>>0)<($104>>>0);
+ if($105){label=22;break;}else{label=26;break;}
  case 22: 
- var $102=$pc;
- var $103=HEAP32[(($102)>>2)];
- var $104=((($103)+(1))|0);
- var $105=$pc;
- HEAP32[(($105)>>2)]=$104;
- var $106=$pc;
- var $107=HEAP32[(($106)>>2)];
- var $108=((($107)-(1))|0);
- var $109=$1;
- var $110=(($109+($108<<2))|0);
- var $111=HEAP32[(($110)>>2)];
- $phraseWord=$111;
- var $112=$phraseWord;
- var $113=($112>>>0)<=4294967295;
- if($113){var $117=1;label=24;break;}else{label=23;break;}
+ var $107=$3;
+ var $108=(($107+60)|0);
+ var $109=HEAP32[(($108)>>2)];
+ var $110=((($109)+(1))|0);
+ var $111=$3;
+ var $112=(($111+60)|0);
+ HEAP32[(($112)>>2)]=$110;
+ var $113=$3;
+ var $114=(($113+60)|0);
+ var $115=HEAP32[(($114)>>2)];
+ var $116=((($115)-(1))|0);
+ var $117=$1;
+ var $118=(($117+($116<<2))|0);
+ var $119=HEAP32[(($118)>>2)];
+ $phraseWord=$119;
+ var $120=$phraseWord;
+ var $121=($120>>>0)<=4294967295;
+ if($121){var $125=1;label=24;break;}else{label=23;break;}
  case 23: 
- ___assert_fail(224,1296,131,1360);
+ ___assert_fail(224,1376,139,1440);
  throw "Reached an unreachable!";
  label=24;break;
  case 24: 
- var $117;
- var $118=$phraseWord;
- var $119=$i;
- var $120=((($119)+(32))|0);
- var $121=$3;
- var $122=(($121+($120<<2))|0);
- HEAP32[(($122)>>2)]=$118;
+ var $125;
+ var $126=$phraseWord;
+ var $127=$i;
+ var $128=((($127)+(32))|0);
+ var $129=$3;
+ var $130=(($129+($128<<2))|0);
+ HEAP32[(($130)>>2)]=$126;
  label=25;break;
  case 25: 
- var $124=$i;
- var $125=((($124)+(1))|0);
- $i=$125;
+ var $132=$i;
+ var $133=((($132)+(1))|0);
+ $i=$133;
  label=21;break;
  case 26: 
  STACKTOP=sp;return;
@@ -5775,7 +5785,7 @@ function __Z6decodejPj($phraseLength,$memory){
  var $10=($9>>>0)>1;
  if($10){var $14=1;label=4;break;}else{label=3;break;}
  case 3: 
- ___assert_fail(656,1296,271,1352);
+ ___assert_fail(640,1376,308,1432);
  throw "Reached an unreachable!";
  label=4;break;
  case 4: 
@@ -5790,7 +5800,7 @@ function __Z6decodejPj($phraseLength,$memory){
  var $21=($20>>>0)>0;
  if($21){var $25=1;label=6;break;}else{label=5;break;}
  case 5: 
- ___assert_fail(632,1296,274,1352);
+ ___assert_fail(616,1376,311,1432);
  throw "Reached an unreachable!";
  label=6;break;
  case 6: 
@@ -5799,7 +5809,7 @@ function __Z6decodejPj($phraseLength,$memory){
  var $27=65535>=($26>>>0);
  if($27){var $31=1;label=8;break;}else{label=7;break;}
  case 7: 
- ___assert_fail(600,1296,275,1352);
+ ___assert_fail(584,1376,312,1432);
  throw "Reached an unreachable!";
  label=8;break;
  case 8: 
@@ -5816,7 +5826,7 @@ function __Z6decodejPj($phraseLength,$memory){
  var $39=($38>>>0)<=4294967295;
  if($39){var $43=1;label=11;break;}else{label=10;break;}
  case 10: 
- ___assert_fail(560,1296,279,1352);
+ ___assert_fail(536,1376,316,1432);
  throw "Reached an unreachable!";
  label=11;break;
  case 11: 
@@ -5840,7 +5850,7 @@ function __Z6decodejPj($phraseLength,$memory){
  $typeWord=$57;
  label=13;break;
  case 12: 
- __Z5errorPKc(520);
+ __Z5errorPKc(496);
  label=13;break;
  case 13: 
  label=14;break;
@@ -5874,7 +5884,7 @@ function __Z18wholePhraseToGlyphPKjjPc($memory,$phraseLength,$glyphs){
  var $5=($4|0)!=0;
  if($5){var $9=0;label=3;break;}else{label=2;break;}
  case 2: 
- ___assert_fail(1200,1296,199,1416);
+ ___assert_fail(1280,1376,207,1496);
  throw "Reached an unreachable!";
  label=3;break;
  case 3: 
@@ -5883,7 +5893,7 @@ function __Z18wholePhraseToGlyphPKjjPc($memory,$phraseLength,$glyphs){
  var $11=($10|0)!=0;
  if($11){var $15=1;label=5;break;}else{label=4;break;}
  case 4: 
- ___assert_fail(856,1296,200,1416);
+ ___assert_fail(824,1376,208,1496);
  throw "Reached an unreachable!";
  label=5;break;
  case 5: 
@@ -5892,7 +5902,7 @@ function __Z18wholePhraseToGlyphPKjjPc($memory,$phraseLength,$glyphs){
  var $17=($16>>>0)>0;
  if($17){var $21=1;label=7;break;}else{label=6;break;}
  case 6: 
- ___assert_fail(832,1296,201,1416);
+ ___assert_fail(800,1376,209,1496);
  throw "Reached an unreachable!";
  label=7;break;
  case 7: 
@@ -5901,7 +5911,7 @@ function __Z18wholePhraseToGlyphPKjjPc($memory,$phraseLength,$glyphs){
  var $23=($22>>>0)<=16;
  if($23){var $27=1;label=9;break;}else{label=8;break;}
  case 8: 
- ___assert_fail(800,1296,202,1416);
+ ___assert_fail(768,1376,210,1496);
  throw "Reached an unreachable!";
  label=9;break;
  case 9: 
@@ -5960,7 +5970,7 @@ function __Z4evaljPjPb($phraseLength,$memory,$running){
  var $11=($10|0)==1;
  if($11){var $15=1;label=4;break;}else{label=3;break;}
  case 3: 
- ___assert_fail(104,1296,300,1368);
+ ___assert_fail(200,1376,337,1448);
  throw "Reached an unreachable!";
  label=4;break;
  case 4: 
@@ -5974,7 +5984,7 @@ function __Z4evaljPjPb($phraseLength,$memory,$running){
  var $21=($20|0)!=0;
  if($21){var $25=1;label=6;break;}else{label=5;break;}
  case 5: 
- ___assert_fail(64,1296,302,1368);
+ ___assert_fail(64,1376,339,1448);
  throw "Reached an unreachable!";
  label=6;break;
  case 6: 
@@ -5991,12 +6001,12 @@ function __Z4evaljPjPb($phraseLength,$memory,$running){
  var $32=(($31+84)|0);
  var $33=HEAP32[(($32)>>2)];
  var $34=$2;
- var $35=(($34+88)|0);
+ var $35=(($34+104)|0);
  var $36=HEAP32[(($35)>>2)];
  var $37=($33|0)==($36|0);
  if($37){var $41=1;label=10;break;}else{label=9;break;}
  case 9: 
- ___assert_fail(16,1296,309,1368);
+ ___assert_fail(16,1376,346,1448);
  throw "Reached an unreachable!";
  label=10;break;
  case 10: 
@@ -6005,11 +6015,11 @@ function __Z4evaljPjPb($phraseLength,$memory,$running){
  var $43=(($42+20)|0);
  var $44=HEAP32[(($43)>>2)];
  var $45=$2;
- var $46=(($45+24)|0);
+ var $46=(($45+40)|0);
  var $47=HEAP32[(($46)>>2)];
  var $48=((($44)+($47))|0);
  var $49=$2;
- var $50=(($49+8)|0);
+ var $50=(($49+24)|0);
  var $51=HEAP32[(($50)>>2)];
  var $52=((($48)+($51))|0);
  var $53=$2;
@@ -6021,35 +6031,35 @@ function __Z4evaljPjPb($phraseLength,$memory,$running){
  label=15;break;
  case 11: 
  var $58=$2;
- var $59=(($58+72)|0);
+ var $59=(($58+88)|0);
  var $60=HEAP32[(($59)>>2)];
  var $61=$2;
- var $62=(($61+88)|0);
+ var $62=(($61+104)|0);
  var $63=HEAP32[(($62)>>2)];
  var $64=($60|0)==($63|0);
  if($64){var $68=1;label=13;break;}else{label=12;break;}
  case 12: 
- ___assert_fail(1256,1296,315,1368);
+ ___assert_fail(1336,1376,352,1448);
  throw "Reached an unreachable!";
  label=13;break;
  case 13: 
  var $68;
  var $69=$2;
- var $70=(($69+8)|0);
+ var $70=(($69+24)|0);
  var $71=HEAP32[(($70)>>2)];
  var $72=$2;
- var $73=(($72+24)|0);
+ var $73=(($72+40)|0);
  var $74=HEAP32[(($73)>>2)];
  var $75=((($71)-($74))|0);
  var $76=$2;
  var $77=(($76+20)|0);
  HEAP32[(($77)>>2)]=$75;
- var $78=_printf(1240,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 1)|0,STACKTOP = (((STACKTOP)+7)&-8),(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=0,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $78=_printf(1320,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 1)|0,STACKTOP = (((STACKTOP)+7)&-8),(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=0,tempVarArgs)); STACKTOP=tempVarArgs;
  var $79=$2;
  __Z9printRegsPKj($79);
  label=15;break;
  case 14: 
- __Z5errorPKc(1216);
+ __Z5errorPKc(1296);
  label=15;break;
  case 15: 
  label=16;break;
@@ -6076,16 +6086,16 @@ function __Z9printRegsPKj($memory){
  var $3=($2|0)!=0;
  if($3){var $7=0;label=3;break;}else{label=2;break;}
  case 2: 
- ___assert_fail(1200,1296,211,1336);
+ ___assert_fail(1280,1376,236,1416);
  throw "Reached an unreachable!";
  label=3;break;
  case 3: 
  var $7;
- var $8=_printf(1184,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 1)|0,STACKTOP = (((STACKTOP)+7)&-8),(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=0,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $8=_printf(1264,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 1)|0,STACKTOP = (((STACKTOP)+7)&-8),(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=0,tempVarArgs)); STACKTOP=tempVarArgs;
  var $9=$printedLength;
  var $10=((($9)+($8))|0);
  $printedLength=$10;
- var $11=_printf(1160,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 1)|0,STACKTOP = (((STACKTOP)+7)&-8),(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=0,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $11=_printf(1240,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 1)|0,STACKTOP = (((STACKTOP)+7)&-8),(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=0,tempVarArgs)); STACKTOP=tempVarArgs;
  var $12=$printedLength;
  var $13=((($12)+($11))|0);
  $printedLength=$13;
@@ -6095,7 +6105,7 @@ function __Z9printRegsPKj($memory){
  var $17=$1;
  var $18=(($17+64)|0);
  var $19=HEAP32[(($18)>>2)];
- var $20=_printf(1136,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$16,HEAP32[(((tempVarArgs)+(8))>>2)]=$19,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $20=_printf(1216,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$16,HEAP32[(((tempVarArgs)+(8))>>2)]=$19,tempVarArgs)); STACKTOP=tempVarArgs;
  var $21=$printedLength;
  var $22=((($21)+($20))|0);
  $printedLength=$22;
@@ -6105,7 +6115,7 @@ function __Z9printRegsPKj($memory){
  var $26=$1;
  var $27=(($26+68)|0);
  var $28=HEAP32[(($27)>>2)];
- var $29=_printf(1112,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$25,HEAP32[(((tempVarArgs)+(8))>>2)]=$28,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $29=_printf(1192,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$25,HEAP32[(((tempVarArgs)+(8))>>2)]=$28,tempVarArgs)); STACKTOP=tempVarArgs;
  var $30=$printedLength;
  var $31=((($30)+($29))|0);
  $printedLength=$31;
@@ -6115,17 +6125,17 @@ function __Z9printRegsPKj($memory){
  var $35=$1;
  var $36=(($35+72)|0);
  var $37=HEAP32[(($36)>>2)];
- var $38=_printf(1088,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$34,HEAP32[(((tempVarArgs)+(8))>>2)]=$37,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $38=_printf(1168,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$34,HEAP32[(((tempVarArgs)+(8))>>2)]=$37,tempVarArgs)); STACKTOP=tempVarArgs;
  var $39=$printedLength;
  var $40=((($39)+($38))|0);
  $printedLength=$40;
  var $41=$1;
- var $42=(($41+8)|0);
+ var $42=(($41+12)|0);
  var $43=HEAP32[(($42)>>2)];
  var $44=$1;
- var $45=(($44+72)|0);
+ var $45=(($44+76)|0);
  var $46=HEAP32[(($45)>>2)];
- var $47=_printf(1064,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$43,HEAP32[(((tempVarArgs)+(8))>>2)]=$46,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $47=_printf(1144,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$43,HEAP32[(((tempVarArgs)+(8))>>2)]=$46,tempVarArgs)); STACKTOP=tempVarArgs;
  var $48=$printedLength;
  var $49=((($48)+($47))|0);
  $printedLength=$49;
@@ -6135,7 +6145,7 @@ function __Z9printRegsPKj($memory){
  var $53=$1;
  var $54=(($53+80)|0);
  var $55=HEAP32[(($54)>>2)];
- var $56=_printf(992,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$52,HEAP32[(((tempVarArgs)+(8))>>2)]=$55,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $56=_printf(1072,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$52,HEAP32[(((tempVarArgs)+(8))>>2)]=$55,tempVarArgs)); STACKTOP=tempVarArgs;
  var $57=$printedLength;
  var $58=((($57)+($56))|0);
  $printedLength=$58;
@@ -6145,7 +6155,7 @@ function __Z9printRegsPKj($memory){
  var $62=$1;
  var $63=(($62+84)|0);
  var $64=HEAP32[(($63)>>2)];
- var $65=_printf(968,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$61,HEAP32[(((tempVarArgs)+(8))>>2)]=$64,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $65=_printf(1048,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$61,HEAP32[(((tempVarArgs)+(8))>>2)]=$64,tempVarArgs)); STACKTOP=tempVarArgs;
  var $66=$printedLength;
  var $67=((($66)+($65))|0);
  $printedLength=$67;
@@ -6155,7 +6165,7 @@ function __Z9printRegsPKj($memory){
  var $71=$1;
  var $72=(($71+88)|0);
  var $73=HEAP32[(($72)>>2)];
- var $74=_printf(944,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$70,HEAP32[(((tempVarArgs)+(8))>>2)]=$73,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $74=_printf(1024,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$70,HEAP32[(((tempVarArgs)+(8))>>2)]=$73,tempVarArgs)); STACKTOP=tempVarArgs;
  var $75=$printedLength;
  var $76=((($75)+($74))|0);
  $printedLength=$76;
@@ -6165,29 +6175,89 @@ function __Z9printRegsPKj($memory){
  var $80=$1;
  var $81=(($80+92)|0);
  var $82=HEAP32[(($81)>>2)];
- var $83=_printf(920,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$79,HEAP32[(((tempVarArgs)+(8))>>2)]=$82,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $83=_printf(1000,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$79,HEAP32[(((tempVarArgs)+(8))>>2)]=$82,tempVarArgs)); STACKTOP=tempVarArgs;
  var $84=$printedLength;
  var $85=((($84)+($83))|0);
  $printedLength=$85;
  var $86=$1;
- var $87=(($86+60)|0);
+ var $87=(($86+32)|0);
  var $88=HEAP32[(($87)>>2)];
  var $89=$1;
- var $90=(($89+124)|0);
+ var $90=(($89+96)|0);
  var $91=HEAP32[(($90)>>2)];
- var $92=_printf(896,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$88,HEAP32[(((tempVarArgs)+(8))>>2)]=$91,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $92=_printf(1048,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$88,HEAP32[(((tempVarArgs)+(8))>>2)]=$91,tempVarArgs)); STACKTOP=tempVarArgs;
  var $93=$printedLength;
  var $94=((($93)+($92))|0);
  $printedLength=$94;
- var $95=$printedLength;
- var $96=($95>>>0)>0;
- if($96){var $100=1;label=5;break;}else{label=4;break;}
+ var $95=$1;
+ var $96=(($95+36)|0);
+ var $97=HEAP32[(($96)>>2)];
+ var $98=$1;
+ var $99=(($98+100)|0);
+ var $100=HEAP32[(($99)>>2)];
+ var $101=_printf(976,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$97,HEAP32[(((tempVarArgs)+(8))>>2)]=$100,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $102=$printedLength;
+ var $103=((($102)+($101))|0);
+ $printedLength=$103;
+ var $104=$1;
+ var $105=(($104+36)|0);
+ var $106=HEAP32[(($105)>>2)];
+ var $107=$1;
+ var $108=(($107+100)|0);
+ var $109=HEAP32[(($108)>>2)];
+ var $110=_printf(952,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$106,HEAP32[(((tempVarArgs)+(8))>>2)]=$109,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $111=$printedLength;
+ var $112=((($111)+($110))|0);
+ $printedLength=$112;
+ var $113=$1;
+ var $114=(($113+44)|0);
+ var $115=HEAP32[(($114)>>2)];
+ var $116=$1;
+ var $117=(($116+108)|0);
+ var $118=HEAP32[(($117)>>2)];
+ var $119=_printf(976,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$115,HEAP32[(((tempVarArgs)+(8))>>2)]=$118,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $120=$printedLength;
+ var $121=((($120)+($119))|0);
+ $printedLength=$121;
+ var $122=$1;
+ var $123=(($122+48)|0);
+ var $124=HEAP32[(($123)>>2)];
+ var $125=$1;
+ var $126=(($125+112)|0);
+ var $127=HEAP32[(($126)>>2)];
+ var $128=_printf(928,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$124,HEAP32[(((tempVarArgs)+(8))>>2)]=$127,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $129=$printedLength;
+ var $130=((($129)+($128))|0);
+ $printedLength=$130;
+ var $131=$1;
+ var $132=(($131+56)|0);
+ var $133=HEAP32[(($132)>>2)];
+ var $134=$1;
+ var $135=(($134+120)|0);
+ var $136=HEAP32[(($135)>>2)];
+ var $137=_printf(904,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$133,HEAP32[(((tempVarArgs)+(8))>>2)]=$136,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $138=$printedLength;
+ var $139=((($138)+($137))|0);
+ $printedLength=$139;
+ var $140=$1;
+ var $141=(($140+60)|0);
+ var $142=HEAP32[(($141)>>2)];
+ var $143=$1;
+ var $144=(($143+124)|0);
+ var $145=HEAP32[(($144)>>2)];
+ var $146=_printf(880,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 16)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$142,HEAP32[(((tempVarArgs)+(8))>>2)]=$145,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $147=$printedLength;
+ var $148=((($147)+($146))|0);
+ $printedLength=$148;
+ var $149=$printedLength;
+ var $150=($149>>>0)>0;
+ if($150){var $154=1;label=5;break;}else{label=4;break;}
  case 4: 
- ___assert_fail(872,1296,232,1336);
+ ___assert_fail(856,1376,269,1416);
  throw "Reached an unreachable!";
  label=5;break;
  case 5: 
- var $100;
+ var $154;
  STACKTOP=sp;return;
   default: assert(0, "bad label: " + label);
  }
@@ -6204,7 +6274,7 @@ function __Z5errorPKc($message){
  $1=$message;
  var $2=HEAP32[((_stderr)>>2)];
  var $3=$1;
- var $4=_fprintf($2,456,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 8)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$3,tempVarArgs)); STACKTOP=tempVarArgs;
+ var $4=_fprintf($2,576,(tempVarArgs=STACKTOP,STACKTOP = (STACKTOP + 8)|0,(assert((STACKTOP|0) < (STACK_MAX|0))|0),HEAP32[((tempVarArgs)>>2)]=$3,tempVarArgs)); STACKTOP=tempVarArgs;
  _exit(1);
  throw "Reached an unreachable!";
  STACKTOP=sp;return;
@@ -6226,7 +6296,7 @@ function __Z24EightNibblesToLankGlyphsjPc($intWord,$result){
  var $4=($3>>>0)<=4294967295;
  if($4){var $8=0;label=3;break;}else{label=2;break;}
  case 2: 
- ___assert_fail(760,1296,171,1384);
+ ___assert_fail(728,1376,179,1464);
  throw "Reached an unreachable!";
  label=3;break;
  case 3: 
@@ -6235,7 +6305,7 @@ function __Z24EightNibblesToLankGlyphsjPc($intWord,$result){
  var $10=($9|0)!=0;
  if($10){var $14=1;label=5;break;}else{label=4;break;}
  case 4: 
- ___assert_fail(728,1296,172,1384);
+ ___assert_fail(712,1376,180,1464);
  throw "Reached an unreachable!";
  label=5;break;
  case 5: 
@@ -6350,7 +6420,7 @@ function __Z17nibbleToLankGlyphj($nibble){
  var $3=($2>>>0)<=15;
  if($3){var $7=0;label=3;break;}else{label=2;break;}
  case 2: 
- ___assert_fail(712,1296,143,1440);
+ ___assert_fail(696,1376,151,1520);
  throw "Reached an unreachable!";
  label=3;break;
  case 3: 
@@ -6419,7 +6489,7 @@ function __Z17nibbleToLankGlyphj($nibble){
  var $33=($32|0)<=122;
  if($33){var $37=1;label=24;break;}else{label=23;break;}
  case 23: 
- ___assert_fail(680,1296,163,1440);
+ ___assert_fail(664,1376,171,1520);
  throw "Reached an unreachable!";
  label=24;break;
  case 24: 
@@ -6455,12 +6525,12 @@ function __Z12phraseDecodejtPj($phraseWord,$typeWord,$memory){
  var $10=(($9)|0);
  var $11=HEAP32[(($10)>>2)];
  var $12=$3;
- var $13=(($12+24)|0);
+ var $13=(($12+40)|0);
  HEAP32[(($13)>>2)]=$11;
  var $14=$2;
  var $15=($14&65535);
  var $16=$3;
- var $17=(($16+88)|0);
+ var $17=(($16+104)|0);
  HEAP32[(($17)>>2)]=$15;
  label=7;break;
  case 4: 
@@ -6481,16 +6551,16 @@ function __Z12phraseDecodejtPj($phraseWord,$typeWord,$memory){
  var $30=(($29)|0);
  var $31=HEAP32[(($30)>>2)];
  var $32=$3;
- var $33=(($32+8)|0);
+ var $33=(($32+24)|0);
  HEAP32[(($33)>>2)]=$31;
  var $34=$2;
  var $35=($34&65535);
  var $36=$3;
- var $37=(($36+72)|0);
+ var $37=(($36+88)|0);
  HEAP32[(($37)>>2)]=$35;
  label=7;break;
  case 6: 
- __Z5errorPKc(480);
+ __Z5errorPKc(456);
  label=7;break;
  case 7: 
  label=8;break;
@@ -6523,7 +6593,7 @@ function __Z16amountOfSameBitsjj($number,$maxLength){
  var $5=($4>>>0)<4294967295;
  if($5){var $9=0;label=3;break;}else{label=2;break;}
  case 2: 
- ___assert_fail(192,1296,69,1464);
+ ___assert_fail(168,1376,78,1544);
  throw "Reached an unreachable!";
  label=3;break;
  case 3: 
@@ -6532,7 +6602,7 @@ function __Z16amountOfSameBitsjj($number,$maxLength){
  var $11=($10>>>0)<=32;
  if($11){var $15=1;label=5;break;}else{label=4;break;}
  case 4: 
- ___assert_fail(144,1296,70,1464);
+ ___assert_fail(120,1376,79,1544);
  throw "Reached an unreachable!";
  label=5;break;
  case 5: 
@@ -6544,7 +6614,7 @@ function __Z16amountOfSameBitsjj($number,$maxLength){
  var $19=($18>>>0)<=1;
  if($19){var $23=1;label=7;break;}else{label=6;break;}
  case 6: 
- ___assert_fail(128,1296,72,1464);
+ ___assert_fail(104,1376,81,1544);
  throw "Reached an unreachable!";
  label=7;break;
  case 7: 
@@ -6585,7 +6655,7 @@ function __Z16amountOfSameBitsjj($number,$maxLength){
  var $46=($44>>>0)<=($45>>>0);
  if($46){var $50=1;label=16;break;}else{label=15;break;}
  case 15: 
- ___assert_fail(80,1296,81,1464);
+ ___assert_fail(80,1376,90,1544);
  throw "Reached an unreachable!";
  label=16;break;
  case 16: 

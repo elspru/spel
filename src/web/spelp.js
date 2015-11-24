@@ -130,10 +130,11 @@ return lang;
 }
 function inputSubmit(userInput){
 var fromLangCode = fromLangChoice.value;
+var textObject = {};
 fromLangL = languageGet(fromLangCode);
 // make text object from input
 try{ 
-var textObject = new Text(fromLangL,userInput); }
+textObject = new Text(fromLangL,userInput); }
 catch (error){
 infoUpdate(error);
 noError = false;
