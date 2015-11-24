@@ -1,0 +1,12 @@
+diff -Naur emscripten-1.22.1/tools/gen_struct_info.py emscripten-1.22.1b/tools/gen_struct_info.py
+--- emscripten-1.22.1/tools/gen_struct_info.py	2014-08-07 16:37:49.000000000 -0500
++++ emscripten-1.22.1b/tools/gen_struct_info.py	2014-08-31 01:01:19.424002000 -0500
+@@ -377,7 +377,7 @@
+     
+     # Run the compiled program.
+     show('Calling generated program...')
+-    info = subprocess.check_output([shared.LLVM_INTERPRETER, bin_file[1]]).splitlines()
++    info = subprocess.check_output([shared.LLVM_INTERPRETER, '-force-interpreter', bin_file[1]]).splitlines()
+   except subprocess.CalledProcessError:
+     if os.path.isfile(bin_file[1]):
+       sys.stderr.write('FAIL: Running the generated program failed!\n')

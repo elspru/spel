@@ -1,0 +1,4 @@
+On ARM 
+install emscripten,
+compile LLVMgold
+and apply the lli_force-interpreter patch.
