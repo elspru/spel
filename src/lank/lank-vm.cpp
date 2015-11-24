@@ -9,9 +9,10 @@ extern "C" {
 #define INT_BYTES 4
 #define SIZEOF_ARRAY( arr ) sizeof( arr ) / sizeof( arr[0] )
 #define MAX_INSTRUCTION_VALUE 0xFFFFFFFFU
-#define MAX_ADDRESS_VALUE 0xFFFFU
-#define PHRASE_SIZE 0x10U
-#define MAX_PHRASE_IDX 0xFU
+#define MAX_ADDRESS_VALUE 0xFFFFFFFFU
+#define MAX_BATCH_IDX_VALUE 0xFFFFU
+#define PHRASE_SIZE 0xFU
+#define MAX_PHRASE_IDX 0xEU
 
 
 /* memory */
@@ -20,13 +21,16 @@ extern "C" {
 0x0     ... 0xF     noun registers
 0x10    ... 0x1F    type registers
 0x20    ... 0x2F    phrase memory
-0x30    ... 0x5F    stack memory
+0x30    ... 0x5F    meta memory
 */
 
 #define MEMORY_SIZE 0x60
 #define TYPES   0x10
 #define PHRASE  0x20
 #define STACK   0x30
+
+#define PHRASE_LENGTH  PHRASE
+#define PHRASE_WORD  PHRASE+1
 
 /* case registers */
 #define IMM     0x0
@@ -101,8 +105,7 @@ bytes to the phrase array, leaving the rest of it blank.
  */ 
 static void fetch(const unsigned int *prog, 
         const unsigned int progLength, 
-        unsigned int *memory,
-        unsigned int *phraseLength){
+        unsigned int *memory){
     unsigned int batchIndex = 0;
     unsigned int currentBit = 0;
     unsigned int phraseWord = 0;
@@ -114,8 +117,8 @@ static void fetch(const unsigned int *prog,
         error("PC exceeded end of program");
     }
     assert(memory[PC] < progLength);
-    batchIndex = prog[memory[PC]&(MAX_ADDRESS_VALUE-MAX_PHRASE_IDX)]; 
-    currentBit = memory[PC]&((~MAX_ADDRESS_VALUE)+MAX_PHRASE_IDX);
+    currentBit = memory[PC]%PHRASE_SIZE;
+    batchIndex = prog[memory[PC]-currentBit]; 
     /* skip index */
     if (currentBit == 0) {
         memory[PC] = memory[PC]+1;
@@ -123,26 +126,27 @@ static void fetch(const unsigned int *prog,
     }
     assert (currentBit < PHRASE_SIZE);
     batchIndex = batchIndex >> currentBit;
+    assert (batchIndex < MAX_BATCH_IDX_VALUE);
     remainingLength =  progLength-memory[PC];
     if (remainingLength < PHRASE_SIZE) {
-       maxLength = (progLength%MAX_PHRASE_IDX)-currentBit; 
+        maxLength = (progLength % MAX_PHRASE_IDX)-currentBit; 
     } else {
         maxLength = PHRASE_SIZE-currentBit;
     }
     assert (maxLength <= PHRASE_SIZE);
-    *phraseLength = amountOfSameBits(batchIndex, maxLength);
-    assert (*phraseLength <= remainingLength);
-    assert (*phraseLength <= maxLength);
-    for (i=0;i<*phraseLength;i++){
+    memory[PHRASE_LENGTH] = amountOfSameBits(batchIndex, maxLength);
+    assert (memory[PHRASE_LENGTH] <= remainingLength);
+    assert (memory[PHRASE_LENGTH] <= maxLength);
+    for (i=0;i<memory[PHRASE_LENGTH];i++){
         memory[PC] = memory[PC]+1 ;
         phraseWord =  prog[memory[PC]-1];
         assert (phraseWord <= MAX_INSTRUCTION_VALUE); 
-        memory[PHRASE+i] = phraseWord;
+        memory[PHRASE_WORD+i] = phraseWord;
     }
     /* fill rest with blanks */
     /*
-    for (i=*phraseLength;i<PHRASE_SIZE;i++) {
-        memory[PHRASE+i] = 0;
+    for (i=memory[PHRASE_LENGTH];i<PHRASE_SIZE;i++) {
+        memory[PHRASE_WORD+i] = 0;
     }*/
 }
 
@@ -201,15 +205,14 @@ static void EightNibblesToLankGlyphs(const unsigned int intWord,
 needs glyph array of phraseLength times phrase word size
 */
 static void wholePhraseToGlyph(const unsigned int
-        *memory, const unsigned int phraseLength,
-        char * glyphs) {
+        *memory, char * glyphs) {
     unsigned int i = 0;
     assert (memory != NULL);
     assert (glyphs != NULL);
-    assert (phraseLength > 0);
-    assert (phraseLength <= PHRASE_SIZE);
-    for (i = 0; i < phraseLength; i++) {
-        EightNibblesToLankGlyphs(memory[PHRASE+i], glyphs);
+    assert (memory[PHRASE_LENGTH] > 0);
+    assert (memory[PHRASE_LENGTH] <= PHRASE_SIZE);
+    for (i = 0; i < memory[PHRASE_LENGTH]; i++) {
+        EightNibblesToLankGlyphs(memory[PHRASE_WORD+i], glyphs);
     }
     assert (sizeof(glyphs) > 0);
 }
@@ -248,7 +251,7 @@ static void printRegs(const unsigned int *memory) {
         (int)memory[OF  ], memory[TYPES+OF  ]); 
     printedLength += printf(" TO     %d\t0x%X,\n",
         (int)memory[TO  ], memory[TYPES+TO  ]);
-    printedLength += printf(" TIME   %d\t0x%X,\n",
+    printedLength += printf(" FROM   %d\t0x%X,\n",
         (int)memory[FROM], memory[TYPES+FROM]);
     printedLength += printf(" BY     %d\t0x%X,\n",
         (int)memory[BY  ], memory[TYPES+BY  ]);
@@ -298,27 +301,26 @@ static void phraseDecode(const unsigned int phraseWord,
     match command portion to register,
     load register with immediate value.
 */
-static void decode(const unsigned int phraseLength, 
-        unsigned int *memory){
+static void decode(unsigned int *memory){
     unsigned int immediateValue = 0;
     unsigned int immediateLengthWord = 0;
     unsigned int phraseWord = 0;
     unsigned short int typeWord = 0;
-    if ((memory[PHRASE+0] & 0x0000C2D6U) == 0x0000C2D6U) {
-        assert(phraseLength > 1);
-        immediateLengthWord = (memory[PHRASE+0] & 0xFFFF0000U) >> 
+    if ((memory[PHRASE_WORD+0] & 0x0000C2D6U) == 0x0000C2D6U) {
+        assert(memory[PHRASE_LENGTH] > 1);
+        immediateLengthWord = (memory[PHRASE_WORD+0] & 0xFFFF0000U) >> 
             0x10;
         assert(immediateLengthWord > 0);
         assert(0xFFFF >= immediateLengthWord);
         switch(immediateLengthWord) {
             case ZERO_WORD:
-                immediateValue = memory[PHRASE+1] & 0x0000FFFFU;
+                immediateValue = memory[PHRASE_WORD+1] & 0x0000FFFFU;
                 assert (immediateValue <= MAX_INSTRUCTION_VALUE);
                 memory[IMM]= immediateValue;   
-                phraseWord = (memory[PHRASE+1] & 0xFF000000U) >> 
+                phraseWord = (memory[PHRASE_WORD+1] & 0xFF000000U) >> 
                     0x18;
                 typeWord = (unsigned short int) 
-                    ((memory[PHRASE+1] & 0x00FF0000U) >> 0x10);
+                    ((memory[PHRASE_WORD+1] & 0x00FF0000U) >> 0x10);
                 break;
             default: 
                 error("decode: unknown immediateLengthWord");
@@ -329,13 +331,12 @@ static void decode(const unsigned int phraseLength,
 }
 
 
-static void eval(const unsigned int phraseLength, 
-        unsigned int *memory, bool *running) {
+static void eval(unsigned int *memory, bool *running) {
     unsigned int command;
-    if ((memory[PHRASE+0] & 0x342C0000U) == 0x342C0000U) {
+    if ((memory[PHRASE_WORD+0] & 0x342C0000U) == 0x342C0000U) {
         /* can add compound verbs later */
-        assert(phraseLength == 1); /*single verbs for now*/
-        command = memory[PHRASE+0] & 0x0000FFFFU;
+        assert(memory[PHRASE_LENGTH] == 1); /*single verbs for now*/
+        command = memory[PHRASE_WORD+0] & 0x0000FFFFU;
         assert(command != 0);
         switch(command) {
             case EXIT_WORD: /*ksit exit*/
@@ -364,7 +365,6 @@ static void eval(const unsigned int phraseLength,
 static void run(const unsigned int *prog, 
         const unsigned int progLength) {
     unsigned int memory[MEMORY_SIZE];
-    unsigned int phraseLength = 0;
     unsigned int i = 0;
     bool running = true;
     char glyphs[9];
@@ -372,14 +372,13 @@ static void run(const unsigned int *prog,
     memset(memory,0,MEMORY_SIZE*INT_BYTES);
     /* fetch phrases */
     for (i = 0; i < progLength; i++) {
-        fetch(prog, progLength, memory, &phraseLength);
-        decode(phraseLength, memory);
-        assert(memory[PHRASE+0] <= MAX_INSTRUCTION_VALUE); 
-        printf("PC %X INSTR %X\n",memory[PC],memory[PHRASE+0]);
-        wholePhraseToGlyph(memory, phraseLength,
-            glyphs);
+        fetch(prog, progLength, memory);
+        decode(memory);
+        assert(memory[PHRASE_WORD+0] <= MAX_INSTRUCTION_VALUE); 
+        printf("PC %X INSTR %X\n",memory[PC],memory[PHRASE_WORD+0]);
+        wholePhraseToGlyph(memory, glyphs);
         printf("%s\n",glyphs);
-        eval(phraseLength,memory,&running);
+        eval(memory, &running);
         if (running == false) {
             break;
         }

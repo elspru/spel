@@ -9,12 +9,12 @@ target triple = "armv6-unknown-linux-gnueabihf"
 @.str = private unnamed_addr constant [15 x i8] c"progLength > 0\00", align 1
 @.str1 = private unnamed_addr constant [12 x i8] c"lank-vm.cpp\00", align 1
 @__PRETTY_FUNCTION__.main = private unnamed_addr constant [11 x i8] c"int main()\00", align 1
-@.str2 = private unnamed_addr constant [30 x i8] c"memory[0x20+0] <= 0xFFFFFFFFU\00", align 1
+@.str2 = private unnamed_addr constant [32 x i8] c"memory[0x20+1+0] <= 0xFFFFFFFFU\00", align 1
 @__PRETTY_FUNCTION__._Z3runPKjj = private unnamed_addr constant [51 x i8] c"void run(const unsigned int *, const unsigned int)\00", align 1
 @.str3 = private unnamed_addr constant [16 x i8] c"PC %X INSTR %X\0A\00", align 1
 @.str4 = private unnamed_addr constant [4 x i8] c"%s\0A\00", align 1
-@.str5 = private unnamed_addr constant [18 x i8] c"phraseLength == 1\00", align 1
-@__PRETTY_FUNCTION__._Z4evaljPjPb = private unnamed_addr constant [54 x i8] c"void eval(const unsigned int, unsigned int *, bool *)\00", align 1
+@.str5 = private unnamed_addr constant [18 x i8] c"memory[0x20] == 1\00", align 1
+@__PRETTY_FUNCTION__._Z4evalPjPb = private unnamed_addr constant [34 x i8] c"void eval(unsigned int *, bool *)\00", align 1
 @.str6 = private unnamed_addr constant [13 x i8] c"command != 0\00", align 1
 @.str7 = private unnamed_addr constant [6 x i8] c"exit\0A\00", align 1
 @.str8 = private unnamed_addr constant [37 x i8] c"memory[0x10+0x5] == memory[0x10+0xA]\00", align 1
@@ -33,7 +33,7 @@ target triple = "armv6-unknown-linux-gnueabihf"
 @.str19 = private unnamed_addr constant [18 x i8] c" SU     %d\090x%X,\0A\00", align 1
 @.str20 = private unnamed_addr constant [18 x i8] c" OF     %d\090x%X,\0A\00", align 1
 @.str21 = private unnamed_addr constant [18 x i8] c" TO     %d\090x%X,\0A\00", align 1
-@.str22 = private unnamed_addr constant [18 x i8] c" TIME   %d\090x%X,\0A\00", align 1
+@.str22 = private unnamed_addr constant [18 x i8] c" FROM   %d\090x%X,\0A\00", align 1
 @.str23 = private unnamed_addr constant [18 x i8] c" BY     %d\090x%X,\0A\00", align 1
 @.str24 = private unnamed_addr constant [18 x i8] c" BE     %d\090x%X,\0A\00", align 1
 @.str25 = private unnamed_addr constant [18 x i8] c" OB     %d\090x%X,\0A\00", align 1
@@ -41,36 +41,37 @@ target triple = "armv6-unknown-linux-gnueabihf"
 @.str27 = private unnamed_addr constant [18 x i8] c" STACKP %d\090x%X,\0A\00", align 1
 @.str28 = private unnamed_addr constant [18 x i8] c" PC     %d\090x%X,\0A\00", align 1
 @.str29 = private unnamed_addr constant [18 x i8] c"printedLength > 0\00", align 1
-@__PRETTY_FUNCTION__._Z18wholePhraseToGlyphPKjjPc = private unnamed_addr constant [74 x i8] c"void wholePhraseToGlyph(const unsigned int *, const unsigned int, char *)\00", align 1
+@__PRETTY_FUNCTION__._Z18wholePhraseToGlyphPKjPc = private unnamed_addr constant [54 x i8] c"void wholePhraseToGlyph(const unsigned int *, char *)\00", align 1
 @.str30 = private unnamed_addr constant [17 x i8] c"glyphs != __null\00", align 1
-@.str31 = private unnamed_addr constant [17 x i8] c"phraseLength > 0\00", align 1
-@.str32 = private unnamed_addr constant [22 x i8] c"phraseLength <= 0x10U\00", align 1
+@.str31 = private unnamed_addr constant [17 x i8] c"memory[0x20] > 0\00", align 1
+@.str32 = private unnamed_addr constant [21 x i8] c"memory[0x20] <= 0xFU\00", align 1
 @.str33 = private unnamed_addr constant [23 x i8] c"intWord <= 0xFFFFFFFFU\00", align 1
 @__PRETTY_FUNCTION__._Z24EightNibblesToLankGlyphsjPc = private unnamed_addr constant [58 x i8] c"void EightNibblesToLankGlyphs(const unsigned int, char *)\00", align 1
 @.str34 = private unnamed_addr constant [17 x i8] c"result != __null\00", align 1
 @.str35 = private unnamed_addr constant [14 x i8] c"nibble <= 0xF\00", align 1
 @__PRETTY_FUNCTION__._Z17nibbleToLankGlyphj = private unnamed_addr constant [43 x i8] c"char nibbleToLankGlyph(const unsigned int)\00", align 1
 @.str36 = private unnamed_addr constant [30 x i8] c"result >= '.' && result <='z'\00", align 1
-@.str37 = private unnamed_addr constant [17 x i8] c"phraseLength > 1\00", align 1
-@__PRETTY_FUNCTION__._Z6decodejPj = private unnamed_addr constant [48 x i8] c"void decode(const unsigned int, unsigned int *)\00", align 1
+@.str37 = private unnamed_addr constant [17 x i8] c"memory[0x20] > 1\00", align 1
+@__PRETTY_FUNCTION__._Z6decodePj = private unnamed_addr constant [28 x i8] c"void decode(unsigned int *)\00", align 1
 @.str38 = private unnamed_addr constant [24 x i8] c"immediateLengthWord > 0\00", align 1
 @.str39 = private unnamed_addr constant [30 x i8] c"0xFFFF >= immediateLengthWord\00", align 1
 @.str40 = private unnamed_addr constant [30 x i8] c"immediateValue <= 0xFFFFFFFFU\00", align 1
 @.str41 = private unnamed_addr constant [36 x i8] c"decode: unknown immediateLengthWord\00", align 1
 @.str42 = private unnamed_addr constant [33 x i8] c"phraseDecode: unknown phraseWord\00", align 1
-@__PRETTY_FUNCTION__._Z5fetchPKjjPjS1_ = private unnamed_addr constant [85 x i8] c"void fetch(const unsigned int *, const unsigned int, unsigned int *, unsigned int *)\00", align 1
+@__PRETTY_FUNCTION__._Z5fetchPKjjPj = private unnamed_addr constant [69 x i8] c"void fetch(const unsigned int *, const unsigned int, unsigned int *)\00", align 1
 @.str43 = private unnamed_addr constant [27 x i8] c"PC exceeded end of program\00", align 1
 @.str44 = private unnamed_addr constant [25 x i8] c"memory[0xF] < progLength\00", align 1
-@.str45 = private unnamed_addr constant [19 x i8] c"currentBit < 0x10U\00", align 1
-@.str46 = private unnamed_addr constant [19 x i8] c"maxLength <= 0x10U\00", align 1
-@.str47 = private unnamed_addr constant [33 x i8] c"*phraseLength <= remainingLength\00", align 1
-@.str48 = private unnamed_addr constant [27 x i8] c"*phraseLength <= maxLength\00", align 1
-@.str49 = private unnamed_addr constant [26 x i8] c"phraseWord <= 0xFFFFFFFFU\00", align 1
-@.str50 = private unnamed_addr constant [21 x i8] c"number < 0xFFFFFFFFU\00", align 1
+@.str45 = private unnamed_addr constant [18 x i8] c"currentBit < 0xFU\00", align 1
+@.str46 = private unnamed_addr constant [21 x i8] c"batchIndex < 0xFFFFU\00", align 1
+@.str47 = private unnamed_addr constant [18 x i8] c"maxLength <= 0xFU\00", align 1
+@.str48 = private unnamed_addr constant [32 x i8] c"memory[0x20] <= remainingLength\00", align 1
+@.str49 = private unnamed_addr constant [26 x i8] c"memory[0x20] <= maxLength\00", align 1
+@.str50 = private unnamed_addr constant [26 x i8] c"phraseWord <= 0xFFFFFFFFU\00", align 1
+@.str51 = private unnamed_addr constant [21 x i8] c"number < 0xFFFFFFFFU\00", align 1
 @__PRETTY_FUNCTION__._Z16amountOfSameBitsjj = private unnamed_addr constant [70 x i8] c"unsigned int amountOfSameBits(const unsigned int, const unsigned int)\00", align 1
-@.str51 = private unnamed_addr constant [42 x i8] c"maxLength <= (unsigned int) sizeof(int)*8\00", align 1
-@.str52 = private unnamed_addr constant [14 x i8] c"firstBit <= 1\00", align 1
-@.str53 = private unnamed_addr constant [20 x i8] c"length <= maxLength\00", align 1
+@.str52 = private unnamed_addr constant [42 x i8] c"maxLength <= (unsigned int) sizeof(int)*8\00", align 1
+@.str53 = private unnamed_addr constant [14 x i8] c"firstBit <= 1\00", align 1
+@.str54 = private unnamed_addr constant [20 x i8] c"length <= maxLength\00", align 1
 
 define i32 @main() #0 {
   %1 = alloca i32, align 4
@@ -88,7 +89,7 @@ define i32 @main() #0 {
   br label %8
 
 ; <label>:6                                       ; preds = %0
-  call void @__assert_fail(i8* getelementptr inbounds ([15 x i8]* @.str, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 399, i8* getelementptr inbounds ([11 x i8]* @__PRETTY_FUNCTION__.main, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([15 x i8]* @.str, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 398, i8* getelementptr inbounds ([11 x i8]* @__PRETTY_FUNCTION__.main, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %8
@@ -110,13 +111,11 @@ define internal void @_Z3runPKjj(i32* %prog, i32 %progLength) #0 {
   %1 = alloca i32*, align 4
   %2 = alloca i32, align 4
   %memory = alloca [96 x i32], align 4
-  %phraseLength = alloca i32, align 4
   %i = alloca i32, align 4
   %running = alloca i8, align 1
   %glyphs = alloca [9 x i8], align 1
   store i32* %prog, i32** %1, align 4
   store i32 %progLength, i32* %2, align 4
-  store i32 0, i32* %phraseLength, align 4
   store i32 0, i32* %i, align 4
   store i8 1, i8* %running, align 1
   %3 = bitcast [9 x i8]* %glyphs to i8*
@@ -126,79 +125,75 @@ define internal void @_Z3runPKjj(i32* %prog, i32 %progLength) #0 {
   store i32 0, i32* %i, align 4
   br label %5
 
-; <label>:5                                       ; preds = %40, %0
+; <label>:5                                       ; preds = %37, %0
   %6 = load i32* %i, align 4
   %7 = load i32* %2, align 4
   %8 = icmp ult i32 %6, %7
-  br i1 %8, label %9, label %43
+  br i1 %8, label %9, label %40
 
 ; <label>:9                                       ; preds = %5
   %10 = load i32** %1, align 4
   %11 = load i32* %2, align 4
   %12 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 0
-  call void @_Z5fetchPKjjPjS1_(i32* %10, i32 %11, i32* %12, i32* %phraseLength)
-  %13 = load i32* %phraseLength, align 4
-  %14 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 0
-  call void @_Z6decodejPj(i32 %13, i32* %14)
-  %15 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 32
-  %16 = load i32* %15, align 4
-  %17 = icmp ule i32 %16, -1
-  br i1 %17, label %18, label %19
+  call void @_Z5fetchPKjjPj(i32* %10, i32 %11, i32* %12)
+  %13 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 0
+  call void @_Z6decodePj(i32* %13)
+  %14 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 33
+  %15 = load i32* %14, align 4
+  %16 = icmp ule i32 %15, -1
+  br i1 %16, label %17, label %18
+
+; <label>:17                                      ; preds = %9
+  br label %20
 
 ; <label>:18                                      ; preds = %9
-  br label %21
-
-; <label>:19                                      ; preds = %9
-  call void @__assert_fail(i8* getelementptr inbounds ([30 x i8]* @.str2, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 377, i8* getelementptr inbounds ([51 x i8]* @__PRETTY_FUNCTION__._Z3runPKjj, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([32 x i8]* @.str2, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 377, i8* getelementptr inbounds ([51 x i8]* @__PRETTY_FUNCTION__._Z3runPKjj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
-  br label %21
+  br label %20
 
-; <label>:21                                      ; preds = %20, %18
-  %22 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 15
-  %23 = load i32* %22, align 4
-  %24 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 32
-  %25 = load i32* %24, align 4
-  %26 = call i32 (i8*, ...)* @printf(i8* getelementptr inbounds ([16 x i8]* @.str3, i32 0, i32 0), i32 %23, i32 %25)
-  %27 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 0
-  %28 = load i32* %phraseLength, align 4
-  %29 = getelementptr inbounds [9 x i8]* %glyphs, i32 0, i32 0
-  call void @_Z18wholePhraseToGlyphPKjjPc(i32* %27, i32 %28, i8* %29)
-  %30 = getelementptr inbounds [9 x i8]* %glyphs, i32 0, i32 0
-  %31 = call i32 (i8*, ...)* @printf(i8* getelementptr inbounds ([4 x i8]* @.str4, i32 0, i32 0), i8* %30)
-  %32 = load i32* %phraseLength, align 4
-  %33 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 0
-  call void @_Z4evaljPjPb(i32 %32, i32* %33, i8* %running)
-  %34 = load i8* %running, align 1
-  %35 = trunc i8 %34 to i1
-  %36 = zext i1 %35 to i32
-  %37 = icmp eq i32 %36, 0
-  br i1 %37, label %38, label %39
+; <label>:20                                      ; preds = %19, %17
+  %21 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 15
+  %22 = load i32* %21, align 4
+  %23 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 33
+  %24 = load i32* %23, align 4
+  %25 = call i32 (i8*, ...)* @printf(i8* getelementptr inbounds ([16 x i8]* @.str3, i32 0, i32 0), i32 %22, i32 %24)
+  %26 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 0
+  %27 = getelementptr inbounds [9 x i8]* %glyphs, i32 0, i32 0
+  call void @_Z18wholePhraseToGlyphPKjPc(i32* %26, i8* %27)
+  %28 = getelementptr inbounds [9 x i8]* %glyphs, i32 0, i32 0
+  %29 = call i32 (i8*, ...)* @printf(i8* getelementptr inbounds ([4 x i8]* @.str4, i32 0, i32 0), i8* %28)
+  %30 = getelementptr inbounds [96 x i32]* %memory, i32 0, i32 0
+  call void @_Z4evalPjPb(i32* %30, i8* %running)
+  %31 = load i8* %running, align 1
+  %32 = trunc i8 %31 to i1
+  %33 = zext i1 %32 to i32
+  %34 = icmp eq i32 %33, 0
+  br i1 %34, label %35, label %36
 
-; <label>:38                                      ; preds = %21
-  br label %43
-
-; <label>:39                                      ; preds = %21
+; <label>:35                                      ; preds = %20
   br label %40
 
-; <label>:40                                      ; preds = %39
-  %41 = load i32* %i, align 4
-  %42 = add i32 %41, 1
-  store i32 %42, i32* %i, align 4
+; <label>:36                                      ; preds = %20
+  br label %37
+
+; <label>:37                                      ; preds = %36
+  %38 = load i32* %i, align 4
+  %39 = add i32 %38, 1
+  store i32 %39, i32* %i, align 4
   br label %5
 
-; <label>:43                                      ; preds = %38, %5
+; <label>:40                                      ; preds = %35, %5
   ret void
 }
 
 ; Function Attrs: nounwind
 declare void @llvm.memset.p0i8.i32(i8* nocapture, i8, i32, i32, i1) #1
 
-define internal void @_Z5fetchPKjjPjS1_(i32* %prog, i32 %progLength, i32* %memory, i32* %phraseLength) #0 {
+define internal void @_Z5fetchPKjjPj(i32* %prog, i32 %progLength, i32* %memory) #0 {
   %1 = alloca i32*, align 4
   %2 = alloca i32, align 4
   %3 = alloca i32*, align 4
-  %4 = alloca i32*, align 4
   %batchIndex = alloca i32, align 4
   %currentBit = alloca i32, align 4
   %phraseWord = alloca i32, align 4
@@ -208,73 +203,73 @@ define internal void @_Z5fetchPKjjPjS1_(i32* %prog, i32 %progLength, i32* %memor
   store i32* %prog, i32** %1, align 4
   store i32 %progLength, i32* %2, align 4
   store i32* %memory, i32** %3, align 4
-  store i32* %phraseLength, i32** %4, align 4
   store i32 0, i32* %batchIndex, align 4
   store i32 0, i32* %currentBit, align 4
   store i32 0, i32* %phraseWord, align 4
-  store i32 16, i32* %maxLength, align 4
+  store i32 15, i32* %maxLength, align 4
   store i32 0, i32* %remainingLength, align 4
-  %5 = load i32** %3, align 4
-  %6 = icmp ne i32* %5, null
-  br i1 %6, label %7, label %8
+  %4 = load i32** %3, align 4
+  %5 = icmp ne i32* %4, null
+  br i1 %5, label %6, label %7
+
+; <label>:6                                       ; preds = %0
+  br label %9
 
 ; <label>:7                                       ; preds = %0
-  br label %10
-
-; <label>:8                                       ; preds = %0
-  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str13, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 112, i8* getelementptr inbounds ([85 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPjS1_, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str13, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 115, i8* getelementptr inbounds ([69 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
-  br label %10
+  br label %9
 
-; <label>:10                                      ; preds = %9, %7
-  %11 = load i32** %3, align 4
-  %12 = getelementptr inbounds i32* %11, i32 15
-  %13 = load i32* %12, align 4
-  %14 = load i32* %2, align 4
-  %15 = icmp uge i32 %13, %14
-  br i1 %15, label %16, label %17
+; <label>:9                                       ; preds = %8, %6
+  %10 = load i32** %3, align 4
+  %11 = getelementptr inbounds i32* %10, i32 15
+  %12 = load i32* %11, align 4
+  %13 = load i32* %2, align 4
+  %14 = icmp uge i32 %12, %13
+  br i1 %14, label %15, label %16
 
-; <label>:16                                      ; preds = %10
+; <label>:15                                      ; preds = %9
   call void @_Z5errorPKc(i8* getelementptr inbounds ([27 x i8]* @.str43, i32 0, i32 0))
-  br label %17
+  br label %16
 
-; <label>:17                                      ; preds = %16, %10
-  %18 = load i32** %3, align 4
-  %19 = getelementptr inbounds i32* %18, i32 15
-  %20 = load i32* %19, align 4
-  %21 = load i32* %2, align 4
-  %22 = icmp ult i32 %20, %21
-  br i1 %22, label %23, label %24
+; <label>:16                                      ; preds = %15, %9
+  %17 = load i32** %3, align 4
+  %18 = getelementptr inbounds i32* %17, i32 15
+  %19 = load i32* %18, align 4
+  %20 = load i32* %2, align 4
+  %21 = icmp ult i32 %19, %20
+  br i1 %21, label %22, label %23
 
-; <label>:23                                      ; preds = %17
-  br label %26
+; <label>:22                                      ; preds = %16
+  br label %25
 
-; <label>:24                                      ; preds = %17
-  call void @__assert_fail(i8* getelementptr inbounds ([25 x i8]* @.str44, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 116, i8* getelementptr inbounds ([85 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPjS1_, i32 0, i32 0)) #4
+; <label>:23                                      ; preds = %16
+  call void @__assert_fail(i8* getelementptr inbounds ([25 x i8]* @.str44, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 119, i8* getelementptr inbounds ([69 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
-  br label %26
+  br label %25
 
-; <label>:26                                      ; preds = %25, %23
-  %27 = load i32** %3, align 4
-  %28 = getelementptr inbounds i32* %27, i32 15
-  %29 = load i32* %28, align 4
-  %30 = and i32 %29, 65520
-  %31 = load i32** %1, align 4
-  %32 = getelementptr inbounds i32* %31, i32 %30
-  %33 = load i32* %32, align 4
-  store i32 %33, i32* %batchIndex, align 4
-  %34 = load i32** %3, align 4
-  %35 = getelementptr inbounds i32* %34, i32 15
-  %36 = load i32* %35, align 4
-  %37 = and i32 %36, -65521
-  store i32 %37, i32* %currentBit, align 4
+; <label>:25                                      ; preds = %24, %22
+  %26 = load i32** %3, align 4
+  %27 = getelementptr inbounds i32* %26, i32 15
+  %28 = load i32* %27, align 4
+  %29 = urem i32 %28, 15
+  store i32 %29, i32* %currentBit, align 4
+  %30 = load i32** %3, align 4
+  %31 = getelementptr inbounds i32* %30, i32 15
+  %32 = load i32* %31, align 4
+  %33 = load i32* %currentBit, align 4
+  %34 = sub i32 %32, %33
+  %35 = load i32** %1, align 4
+  %36 = getelementptr inbounds i32* %35, i32 %34
+  %37 = load i32* %36, align 4
+  store i32 %37, i32* %batchIndex, align 4
   %38 = load i32* %currentBit, align 4
   %39 = icmp eq i32 %38, 0
   br i1 %39, label %40, label %49
 
-; <label>:40                                      ; preds = %26
+; <label>:40                                      ; preds = %25
   %41 = load i32** %3, align 4
   %42 = getelementptr inbounds i32* %41, i32 15
   %43 = load i32* %42, align 4
@@ -287,16 +282,16 @@ define internal void @_Z5fetchPKjjPjS1_(i32* %prog, i32 %progLength, i32* %memor
   store i32 %48, i32* %currentBit, align 4
   br label %49
 
-; <label>:49                                      ; preds = %40, %26
+; <label>:49                                      ; preds = %40, %25
   %50 = load i32* %currentBit, align 4
-  %51 = icmp ult i32 %50, 16
+  %51 = icmp ult i32 %50, 15
   br i1 %51, label %52, label %53
 
 ; <label>:52                                      ; preds = %49
   br label %55
 
 ; <label>:53                                      ; preds = %49
-  call void @__assert_fail(i8* getelementptr inbounds ([19 x i8]* @.str45, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 124, i8* getelementptr inbounds ([85 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPjS1_, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([18 x i8]* @.str45, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 127, i8* getelementptr inbounds ([69 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %55
@@ -306,508 +301,530 @@ define internal void @_Z5fetchPKjjPjS1_(i32* %prog, i32 %progLength, i32* %memor
   %57 = load i32* %currentBit, align 4
   %58 = lshr i32 %56, %57
   store i32 %58, i32* %batchIndex, align 4
-  %59 = load i32* %2, align 4
-  %60 = load i32** %3, align 4
-  %61 = getelementptr inbounds i32* %60, i32 15
-  %62 = load i32* %61, align 4
-  %63 = sub i32 %59, %62
-  store i32 %63, i32* %remainingLength, align 4
-  %64 = load i32* %remainingLength, align 4
-  %65 = icmp ult i32 %64, 16
-  br i1 %65, label %66, label %71
+  %59 = load i32* %batchIndex, align 4
+  %60 = icmp ult i32 %59, 65535
+  br i1 %60, label %61, label %62
 
-; <label>:66                                      ; preds = %55
-  %67 = load i32* %2, align 4
-  %68 = urem i32 %67, 15
-  %69 = load i32* %currentBit, align 4
-  %70 = sub i32 %68, %69
-  store i32 %70, i32* %maxLength, align 4
-  br label %74
+; <label>:61                                      ; preds = %55
+  br label %64
 
-; <label>:71                                      ; preds = %55
-  %72 = load i32* %currentBit, align 4
-  %73 = sub i32 16, %72
-  store i32 %73, i32* %maxLength, align 4
-  br label %74
-
-; <label>:74                                      ; preds = %71, %66
-  %75 = load i32* %maxLength, align 4
-  %76 = icmp ule i32 %75, 16
-  br i1 %76, label %77, label %78
-
-; <label>:77                                      ; preds = %74
-  br label %80
-
-; <label>:78                                      ; preds = %74
-  call void @__assert_fail(i8* getelementptr inbounds ([19 x i8]* @.str46, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 132, i8* getelementptr inbounds ([85 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPjS1_, i32 0, i32 0)) #4
+; <label>:62                                      ; preds = %55
+  call void @__assert_fail(i8* getelementptr inbounds ([21 x i8]* @.str46, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 129, i8* getelementptr inbounds ([69 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
+  br label %64
+
+; <label>:64                                      ; preds = %63, %61
+  %65 = load i32* %2, align 4
+  %66 = load i32** %3, align 4
+  %67 = getelementptr inbounds i32* %66, i32 15
+  %68 = load i32* %67, align 4
+  %69 = sub i32 %65, %68
+  store i32 %69, i32* %remainingLength, align 4
+  %70 = load i32* %remainingLength, align 4
+  %71 = icmp ult i32 %70, 15
+  br i1 %71, label %72, label %77
+
+; <label>:72                                      ; preds = %64
+  %73 = load i32* %2, align 4
+  %74 = urem i32 %73, 14
+  %75 = load i32* %currentBit, align 4
+  %76 = sub i32 %74, %75
+  store i32 %76, i32* %maxLength, align 4
   br label %80
 
-; <label>:80                                      ; preds = %79, %77
-  %81 = load i32* %batchIndex, align 4
-  %82 = load i32* %maxLength, align 4
-  %83 = call i32 @_Z16amountOfSameBitsjj(i32 %81, i32 %82)
-  %84 = load i32** %4, align 4
-  store i32 %83, i32* %84, align 4
-  %85 = load i32** %4, align 4
-  %86 = load i32* %85, align 4
-  %87 = load i32* %remainingLength, align 4
-  %88 = icmp ule i32 %86, %87
-  br i1 %88, label %89, label %90
+; <label>:77                                      ; preds = %64
+  %78 = load i32* %currentBit, align 4
+  %79 = sub i32 15, %78
+  store i32 %79, i32* %maxLength, align 4
+  br label %80
 
-; <label>:89                                      ; preds = %80
-  br label %92
+; <label>:80                                      ; preds = %77, %72
+  %81 = load i32* %maxLength, align 4
+  %82 = icmp ule i32 %81, 15
+  br i1 %82, label %83, label %84
 
-; <label>:90                                      ; preds = %80
-  call void @__assert_fail(i8* getelementptr inbounds ([33 x i8]* @.str47, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 134, i8* getelementptr inbounds ([85 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPjS1_, i32 0, i32 0)) #4
+; <label>:83                                      ; preds = %80
+  br label %86
+
+; <label>:84                                      ; preds = %80
+  call void @__assert_fail(i8* getelementptr inbounds ([18 x i8]* @.str47, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 136, i8* getelementptr inbounds ([69 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
-  br label %92
+  br label %86
 
-; <label>:92                                      ; preds = %91, %89
-  %93 = load i32** %4, align 4
+; <label>:86                                      ; preds = %85, %83
+  %87 = load i32* %batchIndex, align 4
+  %88 = load i32* %maxLength, align 4
+  %89 = call i32 @_Z16amountOfSameBitsjj(i32 %87, i32 %88)
+  %90 = load i32** %3, align 4
+  %91 = getelementptr inbounds i32* %90, i32 32
+  store i32 %89, i32* %91, align 4
+  %92 = load i32** %3, align 4
+  %93 = getelementptr inbounds i32* %92, i32 32
   %94 = load i32* %93, align 4
-  %95 = load i32* %maxLength, align 4
+  %95 = load i32* %remainingLength, align 4
   %96 = icmp ule i32 %94, %95
   br i1 %96, label %97, label %98
 
-; <label>:97                                      ; preds = %92
+; <label>:97                                      ; preds = %86
   br label %100
 
-; <label>:98                                      ; preds = %92
-  call void @__assert_fail(i8* getelementptr inbounds ([27 x i8]* @.str48, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 135, i8* getelementptr inbounds ([85 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPjS1_, i32 0, i32 0)) #4
+; <label>:98                                      ; preds = %86
+  call void @__assert_fail(i8* getelementptr inbounds ([32 x i8]* @.str48, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 138, i8* getelementptr inbounds ([69 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %100
 
 ; <label>:100                                     ; preds = %99, %97
-  store i32 0, i32* %i, align 4
-  br label %101
+  %101 = load i32** %3, align 4
+  %102 = getelementptr inbounds i32* %101, i32 32
+  %103 = load i32* %102, align 4
+  %104 = load i32* %maxLength, align 4
+  %105 = icmp ule i32 %103, %104
+  br i1 %105, label %106, label %107
 
-; <label>:101                                     ; preds = %131, %100
-  %102 = load i32* %i, align 4
-  %103 = load i32** %4, align 4
-  %104 = load i32* %103, align 4
-  %105 = icmp ult i32 %102, %104
-  br i1 %105, label %106, label %134
+; <label>:106                                     ; preds = %100
+  br label %109
 
-; <label>:106                                     ; preds = %101
-  %107 = load i32** %3, align 4
-  %108 = getelementptr inbounds i32* %107, i32 15
-  %109 = load i32* %108, align 4
-  %110 = add i32 %109, 1
-  %111 = load i32** %3, align 4
-  %112 = getelementptr inbounds i32* %111, i32 15
-  store i32 %110, i32* %112, align 4
-  %113 = load i32** %3, align 4
-  %114 = getelementptr inbounds i32* %113, i32 15
-  %115 = load i32* %114, align 4
-  %116 = sub i32 %115, 1
-  %117 = load i32** %1, align 4
-  %118 = getelementptr inbounds i32* %117, i32 %116
-  %119 = load i32* %118, align 4
-  store i32 %119, i32* %phraseWord, align 4
-  %120 = load i32* %phraseWord, align 4
-  %121 = icmp ule i32 %120, -1
-  br i1 %121, label %122, label %123
-
-; <label>:122                                     ; preds = %106
-  br label %125
-
-; <label>:123                                     ; preds = %106
-  call void @__assert_fail(i8* getelementptr inbounds ([26 x i8]* @.str49, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 139, i8* getelementptr inbounds ([85 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPjS1_, i32 0, i32 0)) #4
+; <label>:107                                     ; preds = %100
+  call void @__assert_fail(i8* getelementptr inbounds ([26 x i8]* @.str49, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 139, i8* getelementptr inbounds ([69 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
-  br label %125
+  br label %109
 
-; <label>:125                                     ; preds = %124, %122
-  %126 = load i32* %phraseWord, align 4
-  %127 = load i32* %i, align 4
-  %128 = add i32 32, %127
-  %129 = load i32** %3, align 4
-  %130 = getelementptr inbounds i32* %129, i32 %128
-  store i32 %126, i32* %130, align 4
-  br label %131
+; <label>:109                                     ; preds = %108, %106
+  store i32 0, i32* %i, align 4
+  br label %110
 
-; <label>:131                                     ; preds = %125
-  %132 = load i32* %i, align 4
-  %133 = add i32 %132, 1
-  store i32 %133, i32* %i, align 4
-  br label %101
+; <label>:110                                     ; preds = %141, %109
+  %111 = load i32* %i, align 4
+  %112 = load i32** %3, align 4
+  %113 = getelementptr inbounds i32* %112, i32 32
+  %114 = load i32* %113, align 4
+  %115 = icmp ult i32 %111, %114
+  br i1 %115, label %116, label %144
 
-; <label>:134                                     ; preds = %101
+; <label>:116                                     ; preds = %110
+  %117 = load i32** %3, align 4
+  %118 = getelementptr inbounds i32* %117, i32 15
+  %119 = load i32* %118, align 4
+  %120 = add i32 %119, 1
+  %121 = load i32** %3, align 4
+  %122 = getelementptr inbounds i32* %121, i32 15
+  store i32 %120, i32* %122, align 4
+  %123 = load i32** %3, align 4
+  %124 = getelementptr inbounds i32* %123, i32 15
+  %125 = load i32* %124, align 4
+  %126 = sub i32 %125, 1
+  %127 = load i32** %1, align 4
+  %128 = getelementptr inbounds i32* %127, i32 %126
+  %129 = load i32* %128, align 4
+  store i32 %129, i32* %phraseWord, align 4
+  %130 = load i32* %phraseWord, align 4
+  %131 = icmp ule i32 %130, -1
+  br i1 %131, label %132, label %133
+
+; <label>:132                                     ; preds = %116
+  br label %135
+
+; <label>:133                                     ; preds = %116
+  call void @__assert_fail(i8* getelementptr inbounds ([26 x i8]* @.str50, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 143, i8* getelementptr inbounds ([69 x i8]* @__PRETTY_FUNCTION__._Z5fetchPKjjPj, i32 0, i32 0)) #4
+  unreachable
+                                                  ; No predecessors!
+  br label %135
+
+; <label>:135                                     ; preds = %134, %132
+  %136 = load i32* %phraseWord, align 4
+  %137 = load i32* %i, align 4
+  %138 = add i32 33, %137
+  %139 = load i32** %3, align 4
+  %140 = getelementptr inbounds i32* %139, i32 %138
+  store i32 %136, i32* %140, align 4
+  br label %141
+
+; <label>:141                                     ; preds = %135
+  %142 = load i32* %i, align 4
+  %143 = add i32 %142, 1
+  store i32 %143, i32* %i, align 4
+  br label %110
+
+; <label>:144                                     ; preds = %110
   ret void
 }
 
-define internal void @_Z6decodejPj(i32 %phraseLength, i32* %memory) #0 {
-  %1 = alloca i32, align 4
-  %2 = alloca i32*, align 4
+define internal void @_Z6decodePj(i32* %memory) #0 {
+  %1 = alloca i32*, align 4
   %immediateValue = alloca i32, align 4
   %immediateLengthWord = alloca i32, align 4
   %phraseWord = alloca i32, align 4
   %typeWord = alloca i16, align 2
-  store i32 %phraseLength, i32* %1, align 4
-  store i32* %memory, i32** %2, align 4
+  store i32* %memory, i32** %1, align 4
   store i32 0, i32* %immediateValue, align 4
   store i32 0, i32* %immediateLengthWord, align 4
   store i32 0, i32* %phraseWord, align 4
   store i16 0, i16* %typeWord, align 2
-  %3 = load i32** %2, align 4
-  %4 = getelementptr inbounds i32* %3, i32 32
-  %5 = load i32* %4, align 4
-  %6 = and i32 %5, 49878
-  %7 = icmp eq i32 %6, 49878
-  br i1 %7, label %8, label %60
+  %2 = load i32** %1, align 4
+  %3 = getelementptr inbounds i32* %2, i32 33
+  %4 = load i32* %3, align 4
+  %5 = and i32 %4, 49878
+  %6 = icmp eq i32 %5, 49878
+  br i1 %6, label %7, label %61
 
-; <label>:8                                       ; preds = %0
-  %9 = load i32* %1, align 4
-  %10 = icmp ugt i32 %9, 1
+; <label>:7                                       ; preds = %0
+  %8 = load i32** %1, align 4
+  %9 = getelementptr inbounds i32* %8, i32 32
+  %10 = load i32* %9, align 4
+  %11 = icmp ugt i32 %10, 1
+  br i1 %11, label %12, label %13
+
+; <label>:12                                      ; preds = %7
+  br label %15
+
+; <label>:13                                      ; preds = %7
+  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str37, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 310, i8* getelementptr inbounds ([28 x i8]* @__PRETTY_FUNCTION__._Z6decodePj, i32 0, i32 0)) #4
+  unreachable
+                                                  ; No predecessors!
+  br label %15
+
+; <label>:15                                      ; preds = %14, %12
+  %16 = load i32** %1, align 4
+  %17 = getelementptr inbounds i32* %16, i32 33
+  %18 = load i32* %17, align 4
+  %19 = and i32 %18, -65536
+  %20 = lshr i32 %19, 16
+  store i32 %20, i32* %immediateLengthWord, align 4
+  %21 = load i32* %immediateLengthWord, align 4
+  %22 = icmp ugt i32 %21, 0
+  br i1 %22, label %23, label %24
+
+; <label>:23                                      ; preds = %15
+  br label %26
+
+; <label>:24                                      ; preds = %15
+  call void @__assert_fail(i8* getelementptr inbounds ([24 x i8]* @.str38, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 313, i8* getelementptr inbounds ([28 x i8]* @__PRETTY_FUNCTION__._Z6decodePj, i32 0, i32 0)) #4
+  unreachable
+                                                  ; No predecessors!
+  br label %26
+
+; <label>:26                                      ; preds = %25, %23
+  %27 = load i32* %immediateLengthWord, align 4
+  %28 = icmp uge i32 65535, %27
+  br i1 %28, label %29, label %30
+
+; <label>:29                                      ; preds = %26
+  br label %32
+
+; <label>:30                                      ; preds = %26
+  call void @__assert_fail(i8* getelementptr inbounds ([30 x i8]* @.str39, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 314, i8* getelementptr inbounds ([28 x i8]* @__PRETTY_FUNCTION__._Z6decodePj, i32 0, i32 0)) #4
+  unreachable
+                                                  ; No predecessors!
+  br label %32
+
+; <label>:32                                      ; preds = %31, %29
+  %33 = load i32* %immediateLengthWord, align 4
+  switch i32 %33, label %59 [
+    i32 39768, label %34
+  ]
+
+; <label>:34                                      ; preds = %32
+  %35 = load i32** %1, align 4
+  %36 = getelementptr inbounds i32* %35, i32 34
+  %37 = load i32* %36, align 4
+  %38 = and i32 %37, 65535
+  store i32 %38, i32* %immediateValue, align 4
+  %39 = load i32* %immediateValue, align 4
+  %40 = icmp ule i32 %39, -1
+  br i1 %40, label %41, label %42
+
+; <label>:41                                      ; preds = %34
+  br label %44
+
+; <label>:42                                      ; preds = %34
+  call void @__assert_fail(i8* getelementptr inbounds ([30 x i8]* @.str40, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 318, i8* getelementptr inbounds ([28 x i8]* @__PRETTY_FUNCTION__._Z6decodePj, i32 0, i32 0)) #4
+  unreachable
+                                                  ; No predecessors!
+  br label %44
+
+; <label>:44                                      ; preds = %43, %41
+  %45 = load i32* %immediateValue, align 4
+  %46 = load i32** %1, align 4
+  %47 = getelementptr inbounds i32* %46, i32 0
+  store i32 %45, i32* %47, align 4
+  %48 = load i32** %1, align 4
+  %49 = getelementptr inbounds i32* %48, i32 34
+  %50 = load i32* %49, align 4
+  %51 = and i32 %50, -16777216
+  %52 = lshr i32 %51, 24
+  store i32 %52, i32* %phraseWord, align 4
+  %53 = load i32** %1, align 4
+  %54 = getelementptr inbounds i32* %53, i32 34
+  %55 = load i32* %54, align 4
+  %56 = and i32 %55, 16711680
+  %57 = lshr i32 %56, 16
+  %58 = trunc i32 %57 to i16
+  store i16 %58, i16* %typeWord, align 2
+  br label %60
+
+; <label>:59                                      ; preds = %32
+  call void @_Z5errorPKc(i8* getelementptr inbounds ([36 x i8]* @.str41, i32 0, i32 0))
+  br label %60
+
+; <label>:60                                      ; preds = %59, %44
+  br label %61
+
+; <label>:61                                      ; preds = %60, %0
+  %62 = load i32* %phraseWord, align 4
+  %63 = load i16* %typeWord, align 2
+  %64 = load i32** %1, align 4
+  call void @_Z12phraseDecodejtPj(i32 %62, i16 zeroext %63, i32* %64)
+  ret void
+}
+
+declare i32 @printf(i8*, ...) #0
+
+define internal void @_Z18wholePhraseToGlyphPKjPc(i32* %memory, i8* %glyphs) #0 {
+  %1 = alloca i32*, align 4
+  %2 = alloca i8*, align 4
+  %i = alloca i32, align 4
+  store i32* %memory, i32** %1, align 4
+  store i8* %glyphs, i8** %2, align 4
+  store i32 0, i32* %i, align 4
+  %3 = load i32** %1, align 4
+  %4 = icmp ne i32* %3, null
+  br i1 %4, label %5, label %6
+
+; <label>:5                                       ; preds = %0
+  br label %8
+
+; <label>:6                                       ; preds = %0
+  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str13, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 210, i8* getelementptr inbounds ([54 x i8]* @__PRETTY_FUNCTION__._Z18wholePhraseToGlyphPKjPc, i32 0, i32 0)) #4
+  unreachable
+                                                  ; No predecessors!
+  br label %8
+
+; <label>:8                                       ; preds = %7, %5
+  %9 = load i8** %2, align 4
+  %10 = icmp ne i8* %9, null
   br i1 %10, label %11, label %12
 
 ; <label>:11                                      ; preds = %8
   br label %14
 
 ; <label>:12                                      ; preds = %8
-  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str37, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 308, i8* getelementptr inbounds ([48 x i8]* @__PRETTY_FUNCTION__._Z6decodejPj, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str30, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 211, i8* getelementptr inbounds ([54 x i8]* @__PRETTY_FUNCTION__._Z18wholePhraseToGlyphPKjPc, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %14
 
 ; <label>:14                                      ; preds = %13, %11
-  %15 = load i32** %2, align 4
+  %15 = load i32** %1, align 4
   %16 = getelementptr inbounds i32* %15, i32 32
   %17 = load i32* %16, align 4
-  %18 = and i32 %17, -65536
-  %19 = lshr i32 %18, 16
-  store i32 %19, i32* %immediateLengthWord, align 4
-  %20 = load i32* %immediateLengthWord, align 4
-  %21 = icmp ugt i32 %20, 0
-  br i1 %21, label %22, label %23
+  %18 = icmp ugt i32 %17, 0
+  br i1 %18, label %19, label %20
 
-; <label>:22                                      ; preds = %14
-  br label %25
+; <label>:19                                      ; preds = %14
+  br label %22
 
-; <label>:23                                      ; preds = %14
-  call void @__assert_fail(i8* getelementptr inbounds ([24 x i8]* @.str38, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 311, i8* getelementptr inbounds ([48 x i8]* @__PRETTY_FUNCTION__._Z6decodejPj, i32 0, i32 0)) #4
+; <label>:20                                      ; preds = %14
+  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str31, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 212, i8* getelementptr inbounds ([54 x i8]* @__PRETTY_FUNCTION__._Z18wholePhraseToGlyphPKjPc, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
-  br label %25
+  br label %22
 
-; <label>:25                                      ; preds = %24, %22
-  %26 = load i32* %immediateLengthWord, align 4
-  %27 = icmp uge i32 65535, %26
-  br i1 %27, label %28, label %29
+; <label>:22                                      ; preds = %21, %19
+  %23 = load i32** %1, align 4
+  %24 = getelementptr inbounds i32* %23, i32 32
+  %25 = load i32* %24, align 4
+  %26 = icmp ule i32 %25, 15
+  br i1 %26, label %27, label %28
 
-; <label>:28                                      ; preds = %25
+; <label>:27                                      ; preds = %22
+  br label %30
+
+; <label>:28                                      ; preds = %22
+  call void @__assert_fail(i8* getelementptr inbounds ([21 x i8]* @.str32, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 213, i8* getelementptr inbounds ([54 x i8]* @__PRETTY_FUNCTION__._Z18wholePhraseToGlyphPKjPc, i32 0, i32 0)) #4
+  unreachable
+                                                  ; No predecessors!
+  br label %30
+
+; <label>:30                                      ; preds = %29, %27
+  store i32 0, i32* %i, align 4
   br label %31
 
-; <label>:29                                      ; preds = %25
-  call void @__assert_fail(i8* getelementptr inbounds ([30 x i8]* @.str39, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 312, i8* getelementptr inbounds ([48 x i8]* @__PRETTY_FUNCTION__._Z6decodejPj, i32 0, i32 0)) #4
-  unreachable
-                                                  ; No predecessors!
+; <label>:31                                      ; preds = %44, %30
+  %32 = load i32* %i, align 4
+  %33 = load i32** %1, align 4
+  %34 = getelementptr inbounds i32* %33, i32 32
+  %35 = load i32* %34, align 4
+  %36 = icmp ult i32 %32, %35
+  br i1 %36, label %37, label %47
+
+; <label>:37                                      ; preds = %31
+  %38 = load i32* %i, align 4
+  %39 = add i32 33, %38
+  %40 = load i32** %1, align 4
+  %41 = getelementptr inbounds i32* %40, i32 %39
+  %42 = load i32* %41, align 4
+  %43 = load i8** %2, align 4
+  call void @_Z24EightNibblesToLankGlyphsjPc(i32 %42, i8* %43)
+  br label %44
+
+; <label>:44                                      ; preds = %37
+  %45 = load i32* %i, align 4
+  %46 = add i32 %45, 1
+  store i32 %46, i32* %i, align 4
   br label %31
 
-; <label>:31                                      ; preds = %30, %28
-  %32 = load i32* %immediateLengthWord, align 4
-  switch i32 %32, label %58 [
-    i32 39768, label %33
-  ]
-
-; <label>:33                                      ; preds = %31
-  %34 = load i32** %2, align 4
-  %35 = getelementptr inbounds i32* %34, i32 33
-  %36 = load i32* %35, align 4
-  %37 = and i32 %36, 65535
-  store i32 %37, i32* %immediateValue, align 4
-  %38 = load i32* %immediateValue, align 4
-  %39 = icmp ule i32 %38, -1
-  br i1 %39, label %40, label %41
-
-; <label>:40                                      ; preds = %33
-  br label %43
-
-; <label>:41                                      ; preds = %33
-  call void @__assert_fail(i8* getelementptr inbounds ([30 x i8]* @.str40, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 316, i8* getelementptr inbounds ([48 x i8]* @__PRETTY_FUNCTION__._Z6decodejPj, i32 0, i32 0)) #4
-  unreachable
-                                                  ; No predecessors!
-  br label %43
-
-; <label>:43                                      ; preds = %42, %40
-  %44 = load i32* %immediateValue, align 4
-  %45 = load i32** %2, align 4
-  %46 = getelementptr inbounds i32* %45, i32 0
-  store i32 %44, i32* %46, align 4
-  %47 = load i32** %2, align 4
-  %48 = getelementptr inbounds i32* %47, i32 33
-  %49 = load i32* %48, align 4
-  %50 = and i32 %49, -16777216
-  %51 = lshr i32 %50, 24
-  store i32 %51, i32* %phraseWord, align 4
-  %52 = load i32** %2, align 4
-  %53 = getelementptr inbounds i32* %52, i32 33
-  %54 = load i32* %53, align 4
-  %55 = and i32 %54, 16711680
-  %56 = lshr i32 %55, 16
-  %57 = trunc i32 %56 to i16
-  store i16 %57, i16* %typeWord, align 2
-  br label %59
-
-; <label>:58                                      ; preds = %31
-  call void @_Z5errorPKc(i8* getelementptr inbounds ([36 x i8]* @.str41, i32 0, i32 0))
-  br label %59
-
-; <label>:59                                      ; preds = %58, %43
-  br label %60
-
-; <label>:60                                      ; preds = %59, %0
-  %61 = load i32* %phraseWord, align 4
-  %62 = load i16* %typeWord, align 2
-  %63 = load i32** %2, align 4
-  call void @_Z12phraseDecodejtPj(i32 %61, i16 zeroext %62, i32* %63)
+; <label>:47                                      ; preds = %31
   ret void
 }
 
-declare i32 @printf(i8*, ...) #0
-
-define internal void @_Z18wholePhraseToGlyphPKjjPc(i32* %memory, i32 %phraseLength, i8* %glyphs) #0 {
+define internal void @_Z4evalPjPb(i32* %memory, i8* %running) #0 {
   %1 = alloca i32*, align 4
-  %2 = alloca i32, align 4
-  %3 = alloca i8*, align 4
-  %i = alloca i32, align 4
-  store i32* %memory, i32** %1, align 4
-  store i32 %phraseLength, i32* %2, align 4
-  store i8* %glyphs, i8** %3, align 4
-  store i32 0, i32* %i, align 4
-  %4 = load i32** %1, align 4
-  %5 = icmp ne i32* %4, null
-  br i1 %5, label %6, label %7
-
-; <label>:6                                       ; preds = %0
-  br label %9
-
-; <label>:7                                       ; preds = %0
-  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str13, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 207, i8* getelementptr inbounds ([74 x i8]* @__PRETTY_FUNCTION__._Z18wholePhraseToGlyphPKjjPc, i32 0, i32 0)) #4
-  unreachable
-                                                  ; No predecessors!
-  br label %9
-
-; <label>:9                                       ; preds = %8, %6
-  %10 = load i8** %3, align 4
-  %11 = icmp ne i8* %10, null
-  br i1 %11, label %12, label %13
-
-; <label>:12                                      ; preds = %9
-  br label %15
-
-; <label>:13                                      ; preds = %9
-  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str30, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 208, i8* getelementptr inbounds ([74 x i8]* @__PRETTY_FUNCTION__._Z18wholePhraseToGlyphPKjjPc, i32 0, i32 0)) #4
-  unreachable
-                                                  ; No predecessors!
-  br label %15
-
-; <label>:15                                      ; preds = %14, %12
-  %16 = load i32* %2, align 4
-  %17 = icmp ugt i32 %16, 0
-  br i1 %17, label %18, label %19
-
-; <label>:18                                      ; preds = %15
-  br label %21
-
-; <label>:19                                      ; preds = %15
-  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str31, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 209, i8* getelementptr inbounds ([74 x i8]* @__PRETTY_FUNCTION__._Z18wholePhraseToGlyphPKjjPc, i32 0, i32 0)) #4
-  unreachable
-                                                  ; No predecessors!
-  br label %21
-
-; <label>:21                                      ; preds = %20, %18
-  %22 = load i32* %2, align 4
-  %23 = icmp ule i32 %22, 16
-  br i1 %23, label %24, label %25
-
-; <label>:24                                      ; preds = %21
-  br label %27
-
-; <label>:25                                      ; preds = %21
-  call void @__assert_fail(i8* getelementptr inbounds ([22 x i8]* @.str32, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 210, i8* getelementptr inbounds ([74 x i8]* @__PRETTY_FUNCTION__._Z18wholePhraseToGlyphPKjjPc, i32 0, i32 0)) #4
-  unreachable
-                                                  ; No predecessors!
-  br label %27
-
-; <label>:27                                      ; preds = %26, %24
-  store i32 0, i32* %i, align 4
-  br label %28
-
-; <label>:28                                      ; preds = %39, %27
-  %29 = load i32* %i, align 4
-  %30 = load i32* %2, align 4
-  %31 = icmp ult i32 %29, %30
-  br i1 %31, label %32, label %42
-
-; <label>:32                                      ; preds = %28
-  %33 = load i32* %i, align 4
-  %34 = add i32 32, %33
-  %35 = load i32** %1, align 4
-  %36 = getelementptr inbounds i32* %35, i32 %34
-  %37 = load i32* %36, align 4
-  %38 = load i8** %3, align 4
-  call void @_Z24EightNibblesToLankGlyphsjPc(i32 %37, i8* %38)
-  br label %39
-
-; <label>:39                                      ; preds = %32
-  %40 = load i32* %i, align 4
-  %41 = add i32 %40, 1
-  store i32 %41, i32* %i, align 4
-  br label %28
-
-; <label>:42                                      ; preds = %28
-  ret void
-}
-
-define internal void @_Z4evaljPjPb(i32 %phraseLength, i32* %memory, i8* %running) #0 {
-  %1 = alloca i32, align 4
-  %2 = alloca i32*, align 4
-  %3 = alloca i8*, align 4
+  %2 = alloca i8*, align 4
   %command = alloca i32, align 4
-  store i32 %phraseLength, i32* %1, align 4
-  store i32* %memory, i32** %2, align 4
-  store i8* %running, i8** %3, align 4
-  %4 = load i32** %2, align 4
-  %5 = getelementptr inbounds i32* %4, i32 32
-  %6 = load i32* %5, align 4
-  %7 = and i32 %6, 875298816
-  %8 = icmp eq i32 %7, 875298816
-  br i1 %8, label %9, label %82
+  store i32* %memory, i32** %1, align 4
+  store i8* %running, i8** %2, align 4
+  %3 = load i32** %1, align 4
+  %4 = getelementptr inbounds i32* %3, i32 33
+  %5 = load i32* %4, align 4
+  %6 = and i32 %5, 875298816
+  %7 = icmp eq i32 %6, 875298816
+  br i1 %7, label %8, label %83
 
-; <label>:9                                       ; preds = %0
-  %10 = load i32* %1, align 4
-  %11 = icmp eq i32 %10, 1
-  br i1 %11, label %12, label %13
+; <label>:8                                       ; preds = %0
+  %9 = load i32** %1, align 4
+  %10 = getelementptr inbounds i32* %9, i32 32
+  %11 = load i32* %10, align 4
+  %12 = icmp eq i32 %11, 1
+  br i1 %12, label %13, label %14
 
-; <label>:12                                      ; preds = %9
-  br label %15
+; <label>:13                                      ; preds = %8
+  br label %16
 
-; <label>:13                                      ; preds = %9
-  call void @__assert_fail(i8* getelementptr inbounds ([18 x i8]* @.str5, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 337, i8* getelementptr inbounds ([54 x i8]* @__PRETTY_FUNCTION__._Z4evaljPjPb, i32 0, i32 0)) #4
+; <label>:14                                      ; preds = %8
+  call void @__assert_fail(i8* getelementptr inbounds ([18 x i8]* @.str5, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 338, i8* getelementptr inbounds ([34 x i8]* @__PRETTY_FUNCTION__._Z4evalPjPb, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
-  br label %15
+  br label %16
 
-; <label>:15                                      ; preds = %14, %12
-  %16 = load i32** %2, align 4
-  %17 = getelementptr inbounds i32* %16, i32 32
-  %18 = load i32* %17, align 4
-  %19 = and i32 %18, 65535
-  store i32 %19, i32* %command, align 4
-  %20 = load i32* %command, align 4
-  %21 = icmp ne i32 %20, 0
-  br i1 %21, label %22, label %23
+; <label>:16                                      ; preds = %15, %13
+  %17 = load i32** %1, align 4
+  %18 = getelementptr inbounds i32* %17, i32 33
+  %19 = load i32* %18, align 4
+  %20 = and i32 %19, 65535
+  store i32 %20, i32* %command, align 4
+  %21 = load i32* %command, align 4
+  %22 = icmp ne i32 %21, 0
+  br i1 %22, label %23, label %24
 
-; <label>:22                                      ; preds = %15
-  br label %25
+; <label>:23                                      ; preds = %16
+  br label %26
 
-; <label>:23                                      ; preds = %15
-  call void @__assert_fail(i8* getelementptr inbounds ([13 x i8]* @.str6, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 339, i8* getelementptr inbounds ([54 x i8]* @__PRETTY_FUNCTION__._Z4evaljPjPb, i32 0, i32 0)) #4
+; <label>:24                                      ; preds = %16
+  call void @__assert_fail(i8* getelementptr inbounds ([13 x i8]* @.str6, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 340, i8* getelementptr inbounds ([34 x i8]* @__PRETTY_FUNCTION__._Z4evalPjPb, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
-  br label %25
+  br label %26
 
-; <label>:25                                      ; preds = %24, %22
-  %26 = load i32* %command, align 4
-  switch i32 %26, label %80 [
-    i32 41617, label %27
-    i32 49466, label %30
-    i32 51284, label %57
+; <label>:26                                      ; preds = %25, %23
+  %27 = load i32* %command, align 4
+  switch i32 %27, label %81 [
+    i32 41617, label %28
+    i32 49466, label %31
+    i32 51284, label %58
   ]
 
-; <label>:27                                      ; preds = %25
-  %28 = call i32 (i8*, ...)* @printf(i8* getelementptr inbounds ([6 x i8]* @.str7, i32 0, i32 0))
-  %29 = load i8** %3, align 4
-  store i8 0, i8* %29, align 1
-  br label %81
-
-; <label>:30                                      ; preds = %25
-  %31 = load i32** %2, align 4
-  %32 = getelementptr inbounds i32* %31, i32 21
-  %33 = load i32* %32, align 4
-  %34 = load i32** %2, align 4
-  %35 = getelementptr inbounds i32* %34, i32 26
-  %36 = load i32* %35, align 4
-  %37 = icmp eq i32 %33, %36
-  br i1 %37, label %38, label %39
-
-; <label>:38                                      ; preds = %30
-  br label %41
-
-; <label>:39                                      ; preds = %30
-  call void @__assert_fail(i8* getelementptr inbounds ([37 x i8]* @.str8, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 346, i8* getelementptr inbounds ([54 x i8]* @__PRETTY_FUNCTION__._Z4evaljPjPb, i32 0, i32 0)) #4
-  unreachable
-                                                  ; No predecessors!
-  br label %41
-
-; <label>:41                                      ; preds = %40, %38
-  %42 = load i32** %2, align 4
-  %43 = getelementptr inbounds i32* %42, i32 5
-  %44 = load i32* %43, align 4
-  %45 = load i32** %2, align 4
-  %46 = getelementptr inbounds i32* %45, i32 10
-  %47 = load i32* %46, align 4
-  %48 = add i32 %44, %47
-  %49 = load i32** %2, align 4
-  %50 = getelementptr inbounds i32* %49, i32 6
-  %51 = load i32* %50, align 4
-  %52 = add i32 %48, %51
-  %53 = load i32** %2, align 4
-  %54 = getelementptr inbounds i32* %53, i32 5
-  store i32 %52, i32* %54, align 4
-  %55 = call i32 (i8*, ...)* @printf(i8* getelementptr inbounds ([7 x i8]* @.str9, i32 0, i32 0))
-  %56 = load i32** %2, align 4
-  call void @_Z9printRegsPKj(i32* %56)
-  br label %81
-
-; <label>:57                                      ; preds = %25
-  %58 = load i32** %2, align 4
-  %59 = getelementptr inbounds i32* %58, i32 22
-  %60 = load i32* %59, align 4
-  %61 = load i32** %2, align 4
-  %62 = getelementptr inbounds i32* %61, i32 26
-  %63 = load i32* %62, align 4
-  %64 = icmp eq i32 %60, %63
-  br i1 %64, label %65, label %66
-
-; <label>:65                                      ; preds = %57
-  br label %68
-
-; <label>:66                                      ; preds = %57
-  call void @__assert_fail(i8* getelementptr inbounds ([37 x i8]* @.str10, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 352, i8* getelementptr inbounds ([54 x i8]* @__PRETTY_FUNCTION__._Z4evaljPjPb, i32 0, i32 0)) #4
-  unreachable
-                                                  ; No predecessors!
-  br label %68
-
-; <label>:68                                      ; preds = %67, %65
-  %69 = load i32** %2, align 4
-  %70 = getelementptr inbounds i32* %69, i32 6
-  %71 = load i32* %70, align 4
-  %72 = load i32** %2, align 4
-  %73 = getelementptr inbounds i32* %72, i32 10
-  %74 = load i32* %73, align 4
-  %75 = sub i32 %71, %74
-  %76 = load i32** %2, align 4
-  %77 = getelementptr inbounds i32* %76, i32 5
-  store i32 %75, i32* %77, align 4
-  %78 = call i32 (i8*, ...)* @printf(i8* getelementptr inbounds ([12 x i8]* @.str11, i32 0, i32 0))
-  %79 = load i32** %2, align 4
-  call void @_Z9printRegsPKj(i32* %79)
-  br label %81
-
-; <label>:80                                      ; preds = %25
-  call void @_Z5errorPKc(i8* getelementptr inbounds ([22 x i8]* @.str12, i32 0, i32 0))
-  br label %81
-
-; <label>:81                                      ; preds = %80, %68, %41, %27
+; <label>:28                                      ; preds = %26
+  %29 = call i32 (i8*, ...)* @printf(i8* getelementptr inbounds ([6 x i8]* @.str7, i32 0, i32 0))
+  %30 = load i8** %2, align 4
+  store i8 0, i8* %30, align 1
   br label %82
 
-; <label>:82                                      ; preds = %81, %0
+; <label>:31                                      ; preds = %26
+  %32 = load i32** %1, align 4
+  %33 = getelementptr inbounds i32* %32, i32 21
+  %34 = load i32* %33, align 4
+  %35 = load i32** %1, align 4
+  %36 = getelementptr inbounds i32* %35, i32 26
+  %37 = load i32* %36, align 4
+  %38 = icmp eq i32 %34, %37
+  br i1 %38, label %39, label %40
+
+; <label>:39                                      ; preds = %31
+  br label %42
+
+; <label>:40                                      ; preds = %31
+  call void @__assert_fail(i8* getelementptr inbounds ([37 x i8]* @.str8, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 347, i8* getelementptr inbounds ([34 x i8]* @__PRETTY_FUNCTION__._Z4evalPjPb, i32 0, i32 0)) #4
+  unreachable
+                                                  ; No predecessors!
+  br label %42
+
+; <label>:42                                      ; preds = %41, %39
+  %43 = load i32** %1, align 4
+  %44 = getelementptr inbounds i32* %43, i32 5
+  %45 = load i32* %44, align 4
+  %46 = load i32** %1, align 4
+  %47 = getelementptr inbounds i32* %46, i32 10
+  %48 = load i32* %47, align 4
+  %49 = add i32 %45, %48
+  %50 = load i32** %1, align 4
+  %51 = getelementptr inbounds i32* %50, i32 6
+  %52 = load i32* %51, align 4
+  %53 = add i32 %49, %52
+  %54 = load i32** %1, align 4
+  %55 = getelementptr inbounds i32* %54, i32 5
+  store i32 %53, i32* %55, align 4
+  %56 = call i32 (i8*, ...)* @printf(i8* getelementptr inbounds ([7 x i8]* @.str9, i32 0, i32 0))
+  %57 = load i32** %1, align 4
+  call void @_Z9printRegsPKj(i32* %57)
+  br label %82
+
+; <label>:58                                      ; preds = %26
+  %59 = load i32** %1, align 4
+  %60 = getelementptr inbounds i32* %59, i32 22
+  %61 = load i32* %60, align 4
+  %62 = load i32** %1, align 4
+  %63 = getelementptr inbounds i32* %62, i32 26
+  %64 = load i32* %63, align 4
+  %65 = icmp eq i32 %61, %64
+  br i1 %65, label %66, label %67
+
+; <label>:66                                      ; preds = %58
+  br label %69
+
+; <label>:67                                      ; preds = %58
+  call void @__assert_fail(i8* getelementptr inbounds ([37 x i8]* @.str10, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 353, i8* getelementptr inbounds ([34 x i8]* @__PRETTY_FUNCTION__._Z4evalPjPb, i32 0, i32 0)) #4
+  unreachable
+                                                  ; No predecessors!
+  br label %69
+
+; <label>:69                                      ; preds = %68, %66
+  %70 = load i32** %1, align 4
+  %71 = getelementptr inbounds i32* %70, i32 6
+  %72 = load i32* %71, align 4
+  %73 = load i32** %1, align 4
+  %74 = getelementptr inbounds i32* %73, i32 10
+  %75 = load i32* %74, align 4
+  %76 = sub i32 %72, %75
+  %77 = load i32** %1, align 4
+  %78 = getelementptr inbounds i32* %77, i32 5
+  store i32 %76, i32* %78, align 4
+  %79 = call i32 (i8*, ...)* @printf(i8* getelementptr inbounds ([12 x i8]* @.str11, i32 0, i32 0))
+  %80 = load i32** %1, align 4
+  call void @_Z9printRegsPKj(i32* %80)
+  br label %82
+
+; <label>:81                                      ; preds = %26
+  call void @_Z5errorPKc(i8* getelementptr inbounds ([22 x i8]* @.str12, i32 0, i32 0))
+  br label %82
+
+; <label>:82                                      ; preds = %81, %69, %42, %28
+  br label %83
+
+; <label>:83                                      ; preds = %82, %0
   ret void
 }
 
@@ -824,7 +841,7 @@ define internal void @_Z9printRegsPKj(i32* %memory) #0 {
   br label %7
 
 ; <label>:5                                       ; preds = %0
-  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str13, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 236, i8* getelementptr inbounds ([37 x i8]* @__PRETTY_FUNCTION__._Z9printRegsPKj, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str13, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 239, i8* getelementptr inbounds ([37 x i8]* @__PRETTY_FUNCTION__._Z9printRegsPKj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %7
@@ -996,7 +1013,7 @@ define internal void @_Z9printRegsPKj(i32* %memory) #0 {
   br label %154
 
 ; <label>:152                                     ; preds = %7
-  call void @__assert_fail(i8* getelementptr inbounds ([18 x i8]* @.str29, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 269, i8* getelementptr inbounds ([37 x i8]* @__PRETTY_FUNCTION__._Z9printRegsPKj, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([18 x i8]* @.str29, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 272, i8* getelementptr inbounds ([37 x i8]* @__PRETTY_FUNCTION__._Z9printRegsPKj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %154
@@ -1036,7 +1053,7 @@ define internal void @_Z24EightNibblesToLankGlyphsjPc(i32 %intWord, i8* %result)
   br label %8
 
 ; <label>:6                                       ; preds = %0
-  call void @__assert_fail(i8* getelementptr inbounds ([23 x i8]* @.str33, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 179, i8* getelementptr inbounds ([58 x i8]* @__PRETTY_FUNCTION__._Z24EightNibblesToLankGlyphsjPc, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([23 x i8]* @.str33, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 183, i8* getelementptr inbounds ([58 x i8]* @__PRETTY_FUNCTION__._Z24EightNibblesToLankGlyphsjPc, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %8
@@ -1050,7 +1067,7 @@ define internal void @_Z24EightNibblesToLankGlyphsjPc(i32 %intWord, i8* %result)
   br label %14
 
 ; <label>:12                                      ; preds = %8
-  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str34, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 180, i8* getelementptr inbounds ([58 x i8]* @__PRETTY_FUNCTION__._Z24EightNibblesToLankGlyphsjPc, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([17 x i8]* @.str34, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 184, i8* getelementptr inbounds ([58 x i8]* @__PRETTY_FUNCTION__._Z24EightNibblesToLankGlyphsjPc, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %14
@@ -1162,7 +1179,7 @@ define internal zeroext i8 @_Z17nibbleToLankGlyphj(i32 %nibble) #3 {
   br label %7
 
 ; <label>:5                                       ; preds = %0
-  call void @__assert_fail(i8* getelementptr inbounds ([14 x i8]* @.str35, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 151, i8* getelementptr inbounds ([43 x i8]* @__PRETTY_FUNCTION__._Z17nibbleToLankGlyphj, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([14 x i8]* @.str35, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 155, i8* getelementptr inbounds ([43 x i8]* @__PRETTY_FUNCTION__._Z17nibbleToLankGlyphj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %7
@@ -1272,7 +1289,7 @@ define internal zeroext i8 @_Z17nibbleToLankGlyphj(i32 %nibble) #3 {
   br label %37
 
 ; <label>:35                                      ; preds = %30, %26
-  call void @__assert_fail(i8* getelementptr inbounds ([30 x i8]* @.str36, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 171, i8* getelementptr inbounds ([43 x i8]* @__PRETTY_FUNCTION__._Z17nibbleToLankGlyphj, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([30 x i8]* @.str36, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 175, i8* getelementptr inbounds ([43 x i8]* @__PRETTY_FUNCTION__._Z17nibbleToLankGlyphj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %37
@@ -1375,7 +1392,7 @@ define internal i32 @_Z16amountOfSameBitsjj(i32 %number, i32 %maxLength) #3 {
   br label %9
 
 ; <label>:7                                       ; preds = %0
-  call void @__assert_fail(i8* getelementptr inbounds ([21 x i8]* @.str50, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 78, i8* getelementptr inbounds ([70 x i8]* @__PRETTY_FUNCTION__._Z16amountOfSameBitsjj, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([21 x i8]* @.str51, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 82, i8* getelementptr inbounds ([70 x i8]* @__PRETTY_FUNCTION__._Z16amountOfSameBitsjj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %9
@@ -1389,7 +1406,7 @@ define internal i32 @_Z16amountOfSameBitsjj(i32 %number, i32 %maxLength) #3 {
   br label %15
 
 ; <label>:13                                      ; preds = %9
-  call void @__assert_fail(i8* getelementptr inbounds ([42 x i8]* @.str51, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 79, i8* getelementptr inbounds ([70 x i8]* @__PRETTY_FUNCTION__._Z16amountOfSameBitsjj, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([42 x i8]* @.str52, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 83, i8* getelementptr inbounds ([70 x i8]* @__PRETTY_FUNCTION__._Z16amountOfSameBitsjj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %15
@@ -1406,7 +1423,7 @@ define internal i32 @_Z16amountOfSameBitsjj(i32 %number, i32 %maxLength) #3 {
   br label %23
 
 ; <label>:21                                      ; preds = %15
-  call void @__assert_fail(i8* getelementptr inbounds ([14 x i8]* @.str52, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 81, i8* getelementptr inbounds ([70 x i8]* @__PRETTY_FUNCTION__._Z16amountOfSameBitsjj, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([14 x i8]* @.str53, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 85, i8* getelementptr inbounds ([70 x i8]* @__PRETTY_FUNCTION__._Z16amountOfSameBitsjj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %23
@@ -1459,7 +1476,7 @@ define internal i32 @_Z16amountOfSameBitsjj(i32 %number, i32 %maxLength) #3 {
   br label %50
 
 ; <label>:48                                      ; preds = %43
-  call void @__assert_fail(i8* getelementptr inbounds ([20 x i8]* @.str53, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 90, i8* getelementptr inbounds ([70 x i8]* @__PRETTY_FUNCTION__._Z16amountOfSameBitsjj, i32 0, i32 0)) #4
+  call void @__assert_fail(i8* getelementptr inbounds ([20 x i8]* @.str54, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8]* @.str1, i32 0, i32 0), i32 94, i8* getelementptr inbounds ([70 x i8]* @__PRETTY_FUNCTION__._Z16amountOfSameBitsjj, i32 0, i32 0)) #4
   unreachable
                                                   ; No predecessors!
   br label %50
