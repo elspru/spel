@@ -2,7 +2,8 @@
 BINARY="lank"
 CFLAGS="-Wall -Wextra -Wpedantic -ansi"
 CFILES="lank-vm.c"
-FILES="lank-vm.cpp"
+FILES="lank-vm lank-worker lank-prez"
+PURE_FILES="lank-vm"
 CACHE_LIMIT=512
 GXXDEBUGFLAGS="-Wstrict-null-sentinel -Wno-coverage-mismatch\
  -fstack-usage -Wstack-usage=$CACHE_LIMIT -Wlogical-op\
@@ -19,28 +20,45 @@ DEBUGFLAGS="-gdwarf-4 -UNDEBUG -Wall -Wpedantic -Werror\
  -Woverlength-strings  -Wmissing-declarations"
 
 
+echo "cleaning"
+rm *.su
+rm *.map
+rm *.cpp
+rm lank*html
+rm lank*-*js
 
-echo "C++ file generating"
-echo 'extern "C" {' | cat > lank-vm.cpp
-cat lank-vm.c >> lank-vm.cpp
-echo '}' | cat >> lank-vm.cpp
+for FILE in $FILES
+do
+    echo "C++ file generating"
+    echo 'extern "C" {' | cat > $FILE.cpp
+    cat $FILE.c >> $FILE.cpp
+    echo '}' | cat >> $FILE.cpp
+done
 
-# soure code checks
-echo "cpp check"
-cppcheck $FILES
-echo "splint"
-splint  $CFILES
-#scan-build $FILES
+for FILE in $PURE_FILES
+do
+    
+    # soure code checks
+    splint  $FILE.c -exportlocal && echo "splint" &
+    cppcheck $FILE.cpp && echo "cppcheck" &
+    #scan-build $FILE
+    
+    # compilation
+    clang -S -emit-llvm -Wglobal-constructors $CFLAGS $FILE.cpp \
+            -o $BINARY.ll && echo "clang"&
+    gcc  $GXXDEBUGFLAGS $CFLAGS $FILE.cpp -o $BINARY && \
+           echo "gcc" &
+    wait
+    echo "done"
+done
 
-# compilation
-echo "clang"
-clang -S -emit-llvm -Wglobal-constructors $CFLAGS $FILES -o $BINARY.ll
-echo "gcc"
-gcc  $GXXDEBUGFLAGS $CFLAGS $FILES -o $BINARY
-echo "emcc JS"
-emcc  $FILES -o $BINARY.js   -s EXPORTED_FUNCTIONS="['_main']"
-echo "module.exports = Module; Module.inspect = function() {\
-return '[Module]'; }; " | cat >> lank.js
-
-echo "emcc HTML"
-emcc  lank-vm.cpp -o $BINARY.html   -s EXPORTED_FUNCTIONS="['_main']"
+# echo "module.exports = Module; Module.inspect = function() {\
+#return '[Module]'; }; " | cat >> lank.js 
+emcc  lank-vm.cpp -o $BINARY.html  $CFLAGS -s \
+        EXPORTED_FUNCTIONS="['_run']" && echo "emcc HTML" &
+emcc  lank-vm.cpp lank-worker.cpp -o $BINARY-worker.js $CFLAGS  -s \
+        EXPORTED_FUNCTIONS="['_work']" && echo "emcc worker" &
+emcc  lank-prez.cpp -o $BINARY-prez.html   $CFLAGS -s \
+        EXPORTED_FUNCTIONS="['_main']" && echo "emcc prez" &
+wait 
+echo "all done"

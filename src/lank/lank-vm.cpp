@@ -1,18 +1,19 @@
 extern "C" {
 /* Hello World program */
 
-#include<assert.h>
-#include<stdio.h>
-#include<stdlib.h>
-#include<stdbool.h>
-#include<string.h>
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+#include <stdint.h>
 #define INT_BYTES 4
 #define SIZEOF_ARRAY( arr ) sizeof( arr ) / sizeof( arr[0] )
-#define MAX_INSTRUCTION_VALUE 0xFFFFFFFFU
-#define MAX_ADDRESS_VALUE 0xFFFFFFFFU
-#define MAX_BATCH_IDX_VALUE 0xFFFFU
-#define PHRASE_SIZE 0xFU
-#define MAX_PHRASE_IDX 0xEU
+#define MAX_INSTRUCTION_VALUE (uint32_t) 0xFFFFFFFFU
+#define MAX_ADDRESS_VALUE (uint32_t) 0xFFFFFFFFU
+#define MAX_BATCH_IDX_VALUE (uint32_t) 0xFFFFU
+#define PHRASE_SIZE (uint32_t) 0xFU
+#define MAX_PHRASE_IDX (uint32_t) 0xEU
 
 
 /* memory */
@@ -21,13 +22,14 @@ extern "C" {
 0x0     ... 0xF     noun registers
 0x10    ... 0x1F    type registers
 0x20    ... 0x2F    phrase memory
-0x30    ... 0x5F    meta memory
 */
 
 #define MEMORY_SIZE 0x60
 #define TYPES   0x10
 #define PHRASE  0x20
-#define STACK   0x30
+/*not used
+0x30    ... 0x5F    stack memory
+#define STACK   0x30 */
 
 #define PHRASE_LENGTH  PHRASE
 #define PHRASE_WORD  PHRASE+1
@@ -73,18 +75,18 @@ static void error(const char *message) {
     returns how many bits are the same from smallest to largest
     up to the limit of maxLength
 */
-static unsigned int amountOfSameBits(const unsigned int number,
-        const unsigned int maxLength) {
-    unsigned int length = 0;
-    unsigned int i;
-    unsigned int firstBit;
-    unsigned int workNum = number;
+static uint32_t amountOfSameBits(const uint32_t number,
+        const uint32_t maxLength) {
+    uint32_t length = 0;
+    uint32_t i;
+    uint32_t firstBit;
+    uint32_t workNum = number;
     assert (number < MAX_INSTRUCTION_VALUE);
-    assert (maxLength <= (unsigned int) sizeof(int)*8); 
-    firstBit = workNum & 1U;
-    assert (firstBit <= 1);
+    assert (maxLength <= (uint32_t) sizeof(int)*8); 
+    firstBit = workNum & (uint32_t) 1U;
+    assert (firstBit <= (uint32_t) 1);
     for (i=0; i < maxLength; i++) {
-        if ((workNum & 1U) == firstBit) {
+        if ((workNum & (uint32_t) 1U) == firstBit) {
             length++;
             workNum = workNum >> 1;
         } else {
@@ -103,15 +105,15 @@ static unsigned int amountOfSameBits(const unsigned int number,
     based on this index and the pc register it copies those
 bytes to the phrase array, leaving the rest of it blank.
  */ 
-static void fetch(const unsigned int *prog, 
-        const unsigned int progLength, 
-        unsigned int *memory){
-    unsigned int batchIndex = 0;
-    unsigned int currentBit = 0;
-    unsigned int phraseWord = 0;
-    unsigned int maxLength = PHRASE_SIZE;
-    unsigned int i;
-    unsigned int remainingLength = 0;
+static void fetch(const uint32_t *prog, 
+        const uint32_t progLength, 
+        uint32_t *memory){
+    uint32_t batchIndex = 0;
+    uint32_t currentBit = 0;
+    uint32_t phraseWord = 0;
+    uint32_t maxLength = PHRASE_SIZE;
+    uint32_t i;
+    uint32_t remainingLength = 0;
     assert(memory != NULL );
     if (memory[PC] >= progLength) {
         error("PC exceeded end of program");
@@ -150,8 +152,74 @@ static void fetch(const unsigned int *prog,
     }*/
 }
 
-static char nibbleToLankGlyph(const unsigned int nibble){
-    char result;
+static uint32_t lankGlyphToNibble(const char glyph){
+    uint32_t result = 0x10;
+    assert(glyph >= '.' );
+    assert(glyph <= 'w' );
+    switch (glyph){
+        case '.': result = 0x0; break;
+        case 'm': result = 0x1; break;
+        case 'k': result = 0x2; break;
+        case 'i': result = 0x3; break;
+        case 'a': result = 0x4; break;
+        case 'y': result = 0x5; break;
+        case 'u': result = 0x6; break;
+        case 'p': result = 0x7; break;
+        case 'w': result = 0xA; break;
+        case 'n': result = 0x9; break;
+        case 's': result = 0xA; break;
+        case 't': result = 0xB; break;
+        case 'l': result = 0xC; break;
+        case 'h': result = 0xD; break;
+        case 'f': result = 0xE; break;
+        case 'c': result = 0xF; break;
+        default: error("lankGlyphToNibble: invalid glyph");
+             break;
+    }
+    assert(result <= 0xF );
+    return result;
+}
+
+/* lankGlyphsToChar8,
+compression facter of 2 from ASCII,
+so need half as much space in result array,
+taking into account that C-strings require extra char for null.
+little endian output.  
+example
+'ya'
+'y' = 5
+'a' = 4
+result 0x45
+*/
+static void lankGlyphsToChar8(const int glyphsLength,
+    const char *glyphs, const int resultLength, char *result){
+    int i = 0;
+    assert(glyphs != NULL);
+    assert(result != NULL);
+    assert(resultLength-1 == (glyphsLength-1)/2);
+    for (i = 0; i < resultLength-1; i++){
+        result[i] = (char) (lankGlyphToNibble(glyphs[i * 2]) +
+            lankGlyphToNibble(glyphs[i * 2 + 1]) * 0x10);
+    }
+    result[resultLength-1]=(char)0;
+}
+/*
+static void lankGlyphsToChar16(const int glyphsLength,
+    const char *glyphs, const int resultLength, char *result){
+    int i = 0;
+    assert(glyphs != NULL);
+    assert(result != NULL);
+    assert(resultLength-1 == (glyphsLength-1)/2);
+    for (i = 0; i < resultLength-1; i++){
+        result[i] = (char) (lankGlyphToNibble(glyphs[i * 2]) +
+            lankGlyphToNibble(glyphs[i * 2 + 1]) * 0x10);
+    }
+    result[resultLength-1]=(char)0;
+}
+*/
+
+static char nibbleToLankGlyph(const uint32_t nibble){
+    char result = 'X';
     assert(nibble <= 0xF );
     switch (nibble){
         case 0: result = 'm'; break;
@@ -170,27 +238,28 @@ static char nibbleToLankGlyph(const unsigned int nibble){
         case 0xD: result = 'f'; break;
         case 0xE: result = '.'; break;
         case 0xF: result = 'c'; break;
-        default: result = 'X'; break;
+        default: error("nibbleToLankGlyph: invalid nibble"); 
+            break;
     }
     assert(result >= '.' && result <='z' );
     return result;
 }
 
 
-static void EightNibblesToLankGlyphs(const unsigned int intWord,
+static void EightNibblesToLankGlyphs(const uint32_t intWord,
         char *result){
-    unsigned int nibbles[8];
+    uint32_t nibbles[8];
     assert( intWord <= MAX_INSTRUCTION_VALUE);
     assert( result != NULL ); /*char array result*/
     result[8] = (char) 0; /* make null terminated string */
-    nibbles[0] =  intWord & 0x0000000F;
-    nibbles[1] = (intWord & 0x000000F0 )>> 0x4;
-    nibbles[2] = (intWord & 0x00000F00 )>> 0x8;
-    nibbles[3] = (intWord & 0x0000F000 )>> 0xC;
-    nibbles[4] = (intWord & 0x000F0000 )>> 0x10;
-    nibbles[5] = (intWord & 0x00F00000 )>> 0x14;
-    nibbles[6] = (intWord & 0x0F000000 )>> 0x18;
-    nibbles[7] = (intWord & 0xF0000000 )>> 0x1C;
+    nibbles[0] =  intWord & (uint32_t) 0x0000000F;
+    nibbles[1] = (intWord & (uint32_t) 0x000000F0 )>> 0x4;
+    nibbles[2] = (intWord & (uint32_t) 0x00000F00 )>> 0x8;
+    nibbles[3] = (intWord & (uint32_t) 0x0000F000 )>> 0xC;
+    nibbles[4] = (intWord & (uint32_t) 0x000F0000 )>> 0x10;
+    nibbles[5] = (intWord & (uint32_t) 0x00F00000 )>> 0x14;
+    nibbles[6] = (intWord & (uint32_t) 0x0F000000 )>> 0x18;
+    nibbles[7] = (intWord & (uint32_t) 0xF0000000 )>> 0x1C;
     result[0] = nibbleToLankGlyph(nibbles[0]);
     result[1] = nibbleToLankGlyph(nibbles[1]);
     result[2] = nibbleToLankGlyph(nibbles[2]);
@@ -204,9 +273,9 @@ static void EightNibblesToLankGlyphs(const unsigned int intWord,
 /** whole phrase to glyph 
 needs glyph array of phraseLength times phrase word size
 */
-static void wholePhraseToGlyph(const unsigned int
+static void wholePhraseToGlyph(const uint32_t
         *memory, char * glyphs) {
-    unsigned int i = 0;
+    uint32_t i = 0;
     assert (memory != NULL);
     assert (glyphs != NULL);
     assert (memory[PHRASE_LENGTH] > 0);
@@ -234,46 +303,46 @@ static void wholePhraseToGlyph(const unsigned int
 #define STACKP  0xE
 #define PC  0xF
 */
-static void printRegs(const unsigned int *memory) {
-    unsigned int printedLength = 0;
+static void printRegs(const uint32_t *memory) {
+    uint32_t printedLength = 0;
     assert(memory != NULL);
     printedLength += printf("registers: \n");
     printedLength += printf("      Value\tType \n");
     printedLength += printf(" IMM    %d\t0x%X,\n",
-        (int)memory[IMM ], memory[TYPES+IMM ]); 
+        (int)memory[IMM ], (unsigned int) memory[TYPES+IMM ]); 
     printedLength += printf(" HEY    %d\t0x%X,\n",
-        (int)memory[HEY], memory[TYPES+HEY]);
+        (int)memory[HEY], (unsigned int) memory[TYPES+HEY]);
     printedLength += printf(" ABOUT  %d\t0x%X,\n",
-        (int)memory[ABOUT], memory[TYPES+ABOUT]);
+        (int)memory[ABOUT], (unsigned int) memory[TYPES+ABOUT]);
     printedLength += printf(" SU     %d\t0x%X,\n",
-        (int)memory[SU  ], memory[TYPES+SU  ]); 
+        (int)memory[SU  ], (unsigned int) memory[TYPES+SU  ]); 
     printedLength += printf(" OF     %d\t0x%X,\n",
-        (int)memory[OF  ], memory[TYPES+OF  ]); 
+        (int)memory[OF  ], (unsigned int) memory[TYPES+OF  ]); 
     printedLength += printf(" TO     %d\t0x%X,\n",
-        (int)memory[TO  ], memory[TYPES+TO  ]);
+        (int)memory[TO  ], (unsigned int) memory[TYPES+TO  ]);
     printedLength += printf(" FROM   %d\t0x%X,\n",
-        (int)memory[FROM], memory[TYPES+FROM]);
+        (int)memory[FROM], (unsigned int) memory[TYPES+FROM]);
     printedLength += printf(" BY     %d\t0x%X,\n",
-        (int)memory[BY  ], memory[TYPES+BY  ]);
+        (int)memory[BY  ], (unsigned int) memory[TYPES+BY  ]);
     printedLength += printf(" TO     %d\t0x%X,\n",
-        (int)memory[AT  ], memory[TYPES+AT  ]);
+        (int)memory[AT  ], (unsigned int) memory[TYPES+AT  ]);
     printedLength += printf(" BE     %d\t0x%X,\n",
-        (int)memory[TIL  ], memory[TYPES+TIL  ]);
+        (int)memory[TIL  ], (unsigned int) memory[TYPES+TIL  ]);
     printedLength += printf(" OB     %d\t0x%X,\n",
-        (int)memory[TIL  ], memory[TYPES+TIL  ]);
+        (int)memory[TIL  ], (unsigned int) memory[TYPES+TIL  ]);
     printedLength += printf(" BE     %d\t0x%X,\n",
-        (int)memory[BE  ], memory[TYPES+BE  ]);
+        (int)memory[BE  ], (unsigned int) memory[TYPES+BE  ]);
     printedLength += printf(" DATAP  %d\t0x%X,\n",
-        (int)memory[DATAP  ], memory[TYPES+DATAP  ]);
+        (int)memory[DATAP  ], (unsigned int) memory[TYPES+DATAP  ]);
     printedLength += printf(" STACKP %d\t0x%X,\n",
-        (int)memory[STACKP  ], memory[TYPES+STACKP  ]);
+        (int)memory[STACKP  ], (unsigned int) memory[TYPES+STACKP  ]);
     printedLength += printf(" PC     %d\t0x%X,\n",
-        (int)memory[PC  ], memory[TYPES+PC  ]);
+        (int)memory[PC  ], (unsigned int) memory[TYPES+PC  ]);
     assert(printedLength > 0);
 }
 
-static void phraseDecode(const unsigned int phraseWord, 
-    const unsigned short int typeWord, unsigned int *memory) {
+static void phraseDecode(const uint32_t phraseWord, 
+    const uint16_t typeWord, uint32_t *memory) {
     if (phraseWord != 0) {
         switch(phraseWord) {
             case OB_WORD: /*ha */
@@ -301,26 +370,29 @@ static void phraseDecode(const unsigned int phraseWord,
     match command portion to register,
     load register with immediate value.
 */
-static void decode(unsigned int *memory){
-    unsigned int immediateValue = 0;
-    unsigned int immediateLengthWord = 0;
-    unsigned int phraseWord = 0;
-    unsigned short int typeWord = 0;
-    if ((memory[PHRASE_WORD+0] & 0x0000C2D6U) == 0x0000C2D6U) {
+static void decode(uint32_t *memory){
+    uint32_t immediateValue = 0;
+    uint32_t immediateLengthWord = 0;
+    uint32_t phraseWord = 0;
+    uint16_t typeWord = 0;
+    if ((memory[PHRASE_WORD+0] & 
+            (uint32_t) 0x0000C2D6U) == (uint32_t) 0x0000C2D6U) {
         assert(memory[PHRASE_LENGTH] > 1);
-        immediateLengthWord = (memory[PHRASE_WORD+0] & 0xFFFF0000U) >> 
-            0x10;
+        immediateLengthWord = (memory[PHRASE_WORD+0] & 
+            (uint32_t) 0xFFFF0000U) >> 0x10;
         assert(immediateLengthWord > 0);
         assert(0xFFFF >= immediateLengthWord);
         switch(immediateLengthWord) {
             case ZERO_WORD:
-                immediateValue = memory[PHRASE_WORD+1] & 0x0000FFFFU;
+                immediateValue = memory[PHRASE_WORD+1] & 
+                    (uint32_t) 0x0000FFFFU;
                 assert (immediateValue <= MAX_INSTRUCTION_VALUE);
                 memory[IMM]= immediateValue;   
-                phraseWord = (memory[PHRASE_WORD+1] & 0xFF000000U) >> 
-                    0x18;
-                typeWord = (unsigned short int) 
-                    ((memory[PHRASE_WORD+1] & 0x00FF0000U) >> 0x10);
+                phraseWord = (memory[PHRASE_WORD+1] & 
+                    (uint32_t) 0xFF000000U) >> 0x18;
+                typeWord = (uint16_t) 
+                    ((memory[PHRASE_WORD+1] & 
+                        (uint32_t) 0x00FF0000U) >> 0x10);
                 break;
             default: 
                 error("decode: unknown immediateLengthWord");
@@ -331,12 +403,13 @@ static void decode(unsigned int *memory){
 }
 
 
-static void eval(unsigned int *memory, bool *running) {
-    unsigned int command;
-    if ((memory[PHRASE_WORD+0] & 0x342C0000U) == 0x342C0000U) {
+static void eval(uint32_t *memory, bool *running) {
+    uint32_t command;
+    if ((memory[PHRASE_WORD+0] & (uint32_t) 0x342C0000U) == 
+            (uint32_t) 0x342C0000U) {
         /* can add compound verbs later */
         assert(memory[PHRASE_LENGTH] == 1); /*single verbs for now*/
-        command = memory[PHRASE_WORD+0] & 0x0000FFFFU;
+        command = memory[PHRASE_WORD+0] & (uint32_t) 0x0000FFFFU;
         assert(command != 0);
         switch(command) {
             case EXIT_WORD: /*ksit exit*/
@@ -362,20 +435,20 @@ static void eval(unsigned int *memory, bool *running) {
     }
 }
 
-static void run(const unsigned int *prog, 
-        const unsigned int progLength) {
-    unsigned int memory[MEMORY_SIZE];
-    unsigned int i = 0;
+void run(const uint32_t *prog, 
+        const uint32_t progLength, uint32_t *memory) {
+    uint32_t i = 0;
     bool running = true;
     char glyphs[9];
     memset(glyphs,(char) 0,9);
-    memset(memory,0,MEMORY_SIZE*INT_BYTES);
     /* fetch phrases */
     for (i = 0; i < progLength; i++) {
         fetch(prog, progLength, memory);
         decode(memory);
         assert(memory[PHRASE_WORD+0] <= MAX_INSTRUCTION_VALUE); 
-        printf("PC %X INSTR %X\n",memory[PC],memory[PHRASE_WORD+0]);
+        printf("PC %X INSTR %X\n",
+            (unsigned int) memory[PC],
+            (unsigned int) memory[PHRASE_WORD+0]);
         wholePhraseToGlyph(memory, glyphs);
         printf("%s\n",glyphs);
         eval(memory, &running);
@@ -387,19 +460,33 @@ static void run(const unsigned int *prog,
 
 int main()
 {
-   unsigned int prog[] = { 0x126, 0x9B58C2D6U, 0x3C380064U,
-           0x9B58C2D6U, 0x3A3800C8U, 
-           0x342CC13AU,
-           0x9B58C2D6U, 0x593800D8U, 
-           0x342CC854U,
-           0x342CA291U
+   uint32_t prog[] = { 
+            (uint32_t) 0x126, 
+            (uint32_t) 0x9B58C2D6U, 
+            (uint32_t) 0x3C380064U,
+            (uint32_t) 0x9B58C2D6U, 
+            (uint32_t) 0x3A3800C8U, 
+            (uint32_t) 0x342CC13AU,
+            (uint32_t) 0x9B58C2D6U, 
+            (uint32_t) 0x593800B8U, 
+            (uint32_t) 0x342CC854U,
+            (uint32_t) 0x342CA291U
         }; 
-    unsigned int progLength = 0xA;
+    uint32_t progLength = 0xA;
+    uint32_t memory[MEMORY_SIZE];
+    uint32_t nibble;
+    const char lankGlyphs[] = "salhmunt";
+    char lankResult[5] = "    ";
+    memset(memory,0,MEMORY_SIZE*INT_BYTES);
     assert(progLength > 0);
 /* pfihnuls mmpynaha pfihnuls mmhnnata takhhiya
     cwahhiya */
-    run(prog, progLength);
+    run(prog, progLength, memory);
     /* exit */
+    nibble = lankGlyphToNibble('m');
+    printf("nibble %X\n",(unsigned int) nibble);
+    lankGlyphsToChar8(9,lankGlyphs,5,lankResult);
+    printf("glyphs %s result %s\n",lankGlyphs,lankResult);
     return 0;
 }
 }
