@@ -2,9 +2,14 @@
 BINARY="lank"
 CFLAGS="-Wall -Wextra -Wpedantic -ansi"
 CFILES="lank-vm.c"
-FILES="lank-vm lank-worker lank-prez"
-PURE_FILES="lank-vm"
+FILES="lank-vm lank-worker lank-prez lanklib"
+PURE_FILES="lank-vm lanklib"
 CACHE_LIMIT=512
+GCCDEBUGFLAGS="-Wno-coverage-mismatch\
+ -fstack-usage -Wstack-usage=$CACHE_LIMIT -Wlogical-op\
+ -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations\
+ -Wdouble-promotion -Wmaybe-uninitialized \
+ -Waggregate-return"
 GXXDEBUGFLAGS="-Wstrict-null-sentinel -Wno-coverage-mismatch\
  -fstack-usage -Wstack-usage=$CACHE_LIMIT -Wlogical-op\
  -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations\
@@ -35,28 +40,30 @@ do
     echo '}' | cat >> $FILE.cpp
 done
 
-for FILE in $PURE_FILES
-do
+# checks
     
     # soure code checks
-    splint  $FILE.c -exportlocal && echo "splint" &
-    cppcheck $FILE.cpp && echo "cppcheck" &
+    splint  lank-vm.c lanklib.c -exportlocal && \
+            echo "lanklib splint" &
+    cppcheck lank-vm.c lanklib.c && echo "lanklib cppcheck" &
     #scan-build $FILE
     
-    # compilation
-    clang -S -emit-llvm -Wglobal-constructors $CFLAGS $FILE.cpp \
-            -o $BINARY.ll && echo "clang"&
-    gcc  $GXXDEBUGFLAGS $CFLAGS $FILE.cpp -o $BINARY && \
-           echo "gcc" &
-    wait
-    echo "done"
-done
+# compilation
+clang -Wglobal-constructors $CFLAGS lanklib.c -c -o lanklib.o && \
+        echo "lanklib clang" &
+gcc $GCCDEBUGFLAGS $CFLAGS lanklib.c -c -o lanklib.o && \
+        echo "lanklib gcc" &
+clang -S -emit-llvm -Wglobal-constructors -o $BINARY.ll $CFLAGS\
+        lank-vm.cpp   && echo "clang lank-vm"&
+gcc  $GXXDEBUGFLAGS $CFLAGS lank-vm.cpp lanklib.o -o lank && \
+       echo "lank-vm gcc" &
 
 # echo "module.exports = Module; Module.inspect = function() {\
 #return '[Module]'; }; " | cat >> lank.js 
-emcc  lank-vm.cpp -o $BINARY.html  $CFLAGS -s \
+emcc  lank-vm.cpp lanklib.c -o $BINARY.html  $CFLAGS -s \
         EXPORTED_FUNCTIONS="['_run']" && echo "emcc HTML" &
-emcc  lank-vm.cpp lank-worker.cpp -o $BINARY-worker.js $CFLAGS  -s \
+emcc  lank-vm.cpp lank-worker.cpp lanklib.c \
+        -o $BINARY-worker.js $CFLAGS  -s \
         EXPORTED_FUNCTIONS="['_work']" && echo "emcc worker" &
 emcc  lank-prez.cpp -o $BINARY-prez.html   $CFLAGS -s \
         EXPORTED_FUNCTIONS="['_main']" && echo "emcc prez" &

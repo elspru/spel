@@ -2,13 +2,12 @@
 
 #include <assert.h>
 #include <stdio.h>
-#include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
 #include <stdint.h>
+#include "lanklib.h"
 #define INT_BYTES 4
 #define SIZEOF_ARRAY( arr ) sizeof( arr ) / sizeof( arr[0] )
-#define MAX_INSTRUCTION_VALUE (uint32_t) 0xFFFFFFFFU
 #define MAX_ADDRESS_VALUE (uint32_t) 0xFFFFFFFFU
 #define MAX_BATCH_IDX_VALUE (uint32_t) 0xFFFFU
 #define PHRASE_SIZE (uint32_t) 0xFU
@@ -65,10 +64,6 @@
 #define ZERO_WORD 0x9B58
 #define ONE_WORD 0x9B58
 
-static void error(const char *message) {
-    fprintf(stderr,"%s\n",message);
-    exit(EXIT_FAILURE);
-}
 
 /** amount of same bits
     returns how many bits are the same from smallest to largest
@@ -94,6 +89,19 @@ static uint32_t amountOfSameBits(const uint32_t number,
     }
     assert (length <= maxLength); 
     return length;
+}
+
+
+static void memPhraseToLankGlyphs(const uint32_t *memory, char *glyphs) {
+    unsigned int i = 0;
+    assert (memory != NULL);
+    assert (glyphs != NULL);
+    assert (memory[PHRASE_LENGTH] > 0);
+    assert (memory[PHRASE_LENGTH] <= PHRASE_SIZE);
+    for (i = 0; i < (unsigned int) memory[PHRASE_LENGTH]; i++) {
+        aUint32ToLankGlyphs(memory[PHRASE_WORD+i], glyphs);
+    }
+    assert (sizeof(glyphs) > 0);
 }
 
 /** fetch
@@ -151,139 +159,7 @@ static void fetch(const uint32_t *prog,
     }*/
 }
 
-static uint32_t lankGlyphToNibble(const char glyph){
-    uint32_t result = 0x10;
-    assert(glyph >= '.' );
-    assert(glyph <= 'w' );
-    switch (glyph){
-        case '.': result = 0x0; break;
-        case 'm': result = 0x1; break;
-        case 'k': result = 0x2; break;
-        case 'i': result = 0x3; break;
-        case 'a': result = 0x4; break;
-        case 'y': result = 0x5; break;
-        case 'u': result = 0x6; break;
-        case 'p': result = 0x7; break;
-        case 'w': result = 0xA; break;
-        case 'n': result = 0x9; break;
-        case 's': result = 0xA; break;
-        case 't': result = 0xB; break;
-        case 'l': result = 0xC; break;
-        case 'h': result = 0xD; break;
-        case 'f': result = 0xE; break;
-        case 'c': result = 0xF; break;
-        default: error("lankGlyphToNibble: invalid glyph");
-             break;
-    }
-    assert(result <= 0xF );
-    return result;
-}
 
-/* lankGlyphsToChar8,
-compression facter of 2 from ASCII,
-so need half as much space in result array,
-taking into account that C-strings require extra char for null.
-little endian output.  
-example
-'ya'
-'y' = 5
-'a' = 4
-result 0x45
-*/
-static void lankGlyphsToChar8(const int glyphsLength,
-    const char *glyphs, const int resultLength, char *result){
-    int i = 0;
-    assert(glyphs != NULL);
-    assert(result != NULL);
-    assert(resultLength-1 == (glyphsLength-1)/2);
-    for (i = 0; i < resultLength-1; i++){
-        result[i] = (char) (lankGlyphToNibble(glyphs[i * 2]) +
-            lankGlyphToNibble(glyphs[i * 2 + 1]) * 0x10);
-    }
-    result[resultLength-1]=(char)0;
-}
-/*
-static void lankGlyphsToChar16(const int glyphsLength,
-    const char *glyphs, const int resultLength, char *result){
-    int i = 0;
-    assert(glyphs != NULL);
-    assert(result != NULL);
-    assert(resultLength-1 == (glyphsLength-1)/2);
-    for (i = 0; i < resultLength-1; i++){
-        result[i] = (char) (lankGlyphToNibble(glyphs[i * 2]) +
-            lankGlyphToNibble(glyphs[i * 2 + 1]) * 0x10);
-    }
-    result[resultLength-1]=(char)0;
-}
-*/
-
-static char nibbleToLankGlyph(const uint32_t nibble){
-    char result = 'X';
-    assert(nibble <= 0xF );
-    switch (nibble){
-        case 0: result = 'm'; break;
-        case 1: result = 'k'; break;
-        case 2: result = 'i'; break;
-        case 3: result = 'a'; break;
-        case 4: result = 'y'; break;
-        case 5: result = 'u'; break;
-        case 6: result = 'p'; break;
-        case 7: result = 'w'; break;
-        case 8: result = 'n'; break;
-        case 9: result = 's'; break;
-        case 0xA: result = 't'; break;
-        case 0xB: result = 'l'; break;
-        case 0xC: result = 'h'; break;
-        case 0xD: result = 'f'; break;
-        case 0xE: result = '.'; break;
-        case 0xF: result = 'c'; break;
-        default: error("nibbleToLankGlyph: invalid nibble"); 
-            break;
-    }
-    assert(result >= '.' && result <='z' );
-    return result;
-}
-
-
-static void EightNibblesToLankGlyphs(const uint32_t intWord,
-        char *result){
-    uint32_t nibbles[8];
-    assert( intWord <= MAX_INSTRUCTION_VALUE);
-    assert( result != NULL ); /*char array result*/
-    result[8] = (char) 0; /* make null terminated string */
-    nibbles[0] =  intWord & (uint32_t) 0x0000000F;
-    nibbles[1] = (intWord & (uint32_t) 0x000000F0 )>> 0x4;
-    nibbles[2] = (intWord & (uint32_t) 0x00000F00 )>> 0x8;
-    nibbles[3] = (intWord & (uint32_t) 0x0000F000 )>> 0xC;
-    nibbles[4] = (intWord & (uint32_t) 0x000F0000 )>> 0x10;
-    nibbles[5] = (intWord & (uint32_t) 0x00F00000 )>> 0x14;
-    nibbles[6] = (intWord & (uint32_t) 0x0F000000 )>> 0x18;
-    nibbles[7] = (intWord & (uint32_t) 0xF0000000 )>> 0x1C;
-    result[0] = nibbleToLankGlyph(nibbles[0]);
-    result[1] = nibbleToLankGlyph(nibbles[1]);
-    result[2] = nibbleToLankGlyph(nibbles[2]);
-    result[3] = nibbleToLankGlyph(nibbles[3]);
-    result[4] = nibbleToLankGlyph(nibbles[4]);
-    result[5] = nibbleToLankGlyph(nibbles[5]);
-    result[6] = nibbleToLankGlyph(nibbles[6]);
-    result[7] = nibbleToLankGlyph(nibbles[7]);
-}
-
-/** whole phrase to glyph 
-needs glyph array of phraseLength times phrase word size
-*/
-static void wholePhraseToGlyph(const uint32_t
-        *memory, char * glyphs) {
-    uint32_t i = 0;
-    assert (memory != NULL);
-    assert (glyphs != NULL);
-    assert (memory[PHRASE_LENGTH] > 0);
-    assert (memory[PHRASE_LENGTH] <= PHRASE_SIZE);
-    for (i = 0; i < memory[PHRASE_LENGTH]; i++) {
-        EightNibblesToLankGlyphs(memory[PHRASE_WORD+i], glyphs);
-    }
-    assert (sizeof(glyphs) > 0);
-}
 
 /*
 #define IMM     0x0
@@ -448,7 +324,7 @@ void run(const uint32_t *prog,
         printf("PC %X INSTR %X\n",
             (unsigned int) memory[PC],
             (unsigned int) memory[PHRASE_WORD+0]);
-        wholePhraseToGlyph(memory, glyphs);
+        memPhraseToLankGlyphs(memory, glyphs);
         printf("%s\n",glyphs);
         eval(memory, &running);
         if (running == false) {
@@ -473,18 +349,24 @@ int main()
         }; 
     uint32_t progLength = 0xA;
     uint32_t memory[MEMORY_SIZE];
-    uint32_t nibble;
     const char lankGlyphs[] = "salhmunt";
     char lankResult[5] = "    ";
+    uint16_t lankResult16[2] = {0,0};
+    uint32_t lankResult32[1] = {0};
     memset(memory,0,MEMORY_SIZE*INT_BYTES);
     assert(progLength > 0);
 /* pfihnuls mmpynaha pfihnuls mmhnnata takhhiya
     cwahhiya */
     run(prog, progLength, memory);
     /* exit */
-    nibble = lankGlyphToNibble('m');
-    printf("nibble %X\n",(unsigned int) nibble);
     lankGlyphsToChar8(9,lankGlyphs,5,lankResult);
-    printf("glyphs %s result %s\n",lankGlyphs,lankResult);
+    printf("glyphs %s result %X\n",lankGlyphs,
+            (unsigned int) lankResult[0]);
+    lankGlyphsToUint16(9,lankGlyphs,2,lankResult16);
+    printf("glyphs %s result %X\n",lankGlyphs,
+            (unsigned int) lankResult16[0]);
+    lankGlyphsToUint32(9,lankGlyphs,1,lankResult32);
+    printf("glyphs %s result %X\n",lankGlyphs,
+            (unsigned int) lankResult32[0]);
     return 0;
 }
