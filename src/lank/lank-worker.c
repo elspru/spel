@@ -1,5 +1,6 @@
 #include <assert.h>
 #include <stdio.h>
+#include <stdint.h>
 #include <string.h>
 #include <emscripten/emscripten.h>
 #include "lank-vm.h"
@@ -31,5 +32,5 @@ void work(char *data, int size) {
     assert(size > 0);
     run(prog,progLength,memory);
     printf("worker %s %d",data,size);
-    emscripten_worker_respond(hello,11); 
+    emscripten_worker_respond( hello,11); 
 }

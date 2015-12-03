@@ -7,6 +7,7 @@
 #include <stdint.h>
 #include "lanklib.h"
 #define INT_BYTES 4
+#define INT_NIBBLES INT_BYTES*2
 #define SIZEOF_ARRAY( arr ) sizeof( arr ) / sizeof( arr[0] )
 #define MAX_ADDRESS_VALUE (uint32_t) 0xFFFFFFFFU
 #define MAX_BATCH_IDX_VALUE (uint32_t) 0xFFFFU
@@ -92,14 +93,18 @@ static uint32_t amountOfSameBits(const uint32_t number,
 }
 
 
-static void memPhraseToLankGlyphs(const uint32_t *memory, char *glyphs) {
+static void memPhraseToLankGlyphs(const uint32_t *memory, 
+    const unsigned int glyphArrayLength, char *glyphs) {
+    const unsigned int phraseLength = 
+        (unsigned int) memory[PHRASE_LENGTH];
     unsigned int i = 0;
     assert (memory != NULL);
     assert (glyphs != NULL);
-    assert (memory[PHRASE_LENGTH] > 0);
-    assert (memory[PHRASE_LENGTH] <= PHRASE_SIZE);
-    for (i = 0; i < (unsigned int) memory[PHRASE_LENGTH]; i++) {
-        aUint32ToLankGlyphs(memory[PHRASE_WORD+i], glyphs);
+    assert (phraseLength > 0);
+    assert (phraseLength <= (unsigned int) PHRASE_SIZE);
+    for (i = 0; i < (unsigned int) phraseLength; i++) {
+        uint32ArrayToLankGlyphs(phraseLength, 
+            &memory[PHRASE_WORD], glyphArrayLength, glyphs);
     }
     assert (sizeof(glyphs) > 0);
 }
@@ -314,8 +319,9 @@ void run(const uint32_t *prog,
         const uint32_t progLength, uint32_t *memory) {
     uint32_t i = 0;
     bool running = true;
-    char glyphs[9];
-    memset(glyphs,(char) 0,9);
+    unsigned int glyphsLength = 0;
+    char glyphs[PHRASE_SIZE*INT_NIBBLES];
+    memset(glyphs,(char) 0,PHRASE_SIZE*INT_NIBBLES);
     /* fetch phrases */
     for (i = 0; i < progLength; i++) {
         fetch(prog, progLength, memory);
@@ -324,7 +330,9 @@ void run(const uint32_t *prog,
         printf("PC %X INSTR %X\n",
             (unsigned int) memory[PC],
             (unsigned int) memory[PHRASE_WORD+0]);
-        memPhraseToLankGlyphs(memory, glyphs);
+        glyphsLength = (unsigned int) (memory[PHRASE_LENGTH] *
+            INT_NIBBLES)+1;
+        memPhraseToLankGlyphs(memory, glyphsLength, glyphs);
         printf("%s\n",glyphs);
         eval(memory, &running);
         if (running == false) {
@@ -359,13 +367,13 @@ int main()
     cwahhiya */
     run(prog, progLength, memory);
     /* exit */
-    lankGlyphsToChar8(9,lankGlyphs,5,lankResult);
+    lankGlyphsToChar8Array(9,lankGlyphs,5,lankResult);
     printf("glyphs %s result %X\n",lankGlyphs,
             (unsigned int) lankResult[0]);
-    lankGlyphsToUint16(9,lankGlyphs,2,lankResult16);
+    lankGlyphsToUint16Array(9,lankGlyphs,2,lankResult16);
     printf("glyphs %s result %X\n",lankGlyphs,
             (unsigned int) lankResult16[0]);
-    lankGlyphsToUint32(9,lankGlyphs,1,lankResult32);
+    lankGlyphsToUint32Array(9,lankGlyphs,1,lankResult32);
     printf("glyphs %s result %X\n",lankGlyphs,
             (unsigned int) lankResult32[0]);
     return 0;

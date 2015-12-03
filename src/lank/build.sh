@@ -1,6 +1,8 @@
 #!/bin/bash
 BINARY="lank"
-CFLAGS="-Wall -Wextra -Wpedantic -ansi"
+FLAGS="-Wall -Wextra -Wpedantic"
+CFLAGS="-std=c11"
+CXXFLAGS="-std=c++11"
 CFILES="lank-vm.c"
 FILES="lank-vm lank-worker lank-prez lanklib"
 PURE_FILES="lank-vm lanklib"
@@ -49,23 +51,23 @@ done
     #scan-build $FILE
     
 # compilation
-clang -Wglobal-constructors $CFLAGS lanklib.c -c -o lanklib.o && \
-        echo "lanklib clang" &
-gcc $GCCDEBUGFLAGS $CFLAGS lanklib.c -c -o lanklib.o && \
+clang -Wglobal-constructors $CFLAGS $FLAGS lanklib.c -c \
+         -o lanklib.o && echo "lanklib clang" &
+gcc $GCCDEBUGFLAGS $CFLAGS $FLAGS lanklib.c -c -o lanklib.o && \
         echo "lanklib gcc" &
-clang -S -emit-llvm -Wglobal-constructors -o $BINARY.ll $CFLAGS\
-        lank-vm.cpp   && echo "clang lank-vm"&
-gcc  $GXXDEBUGFLAGS $CFLAGS lank-vm.cpp lanklib.o -o lank && \
-       echo "lank-vm gcc" &
+clang -S -emit-llvm -Wglobal-constructors -o $BINARY.ll $FLAGS\
+        $CXXFLAGS lank-vm.cpp   && echo "clang lank-vm"&
+gcc  $GXXDEBUGFLAGS $FLAGS lank-vm.cpp lanklib.o -o lank \
+       $CXXFLAGS && echo "lank-vm gcc" &
 
 # echo "module.exports = Module; Module.inspect = function() {\
 #return '[Module]'; }; " | cat >> lank.js 
-emcc  lank-vm.cpp lanklib.c -o $BINARY.html  $CFLAGS -s \
+emcc  lank-vm.cpp lanklib.c -o $BINARY.html  $FLAGS -s \
         EXPORTED_FUNCTIONS="['_run']" && echo "emcc HTML" &
 emcc  lank-vm.cpp lank-worker.cpp lanklib.c \
-        -o $BINARY-worker.js $CFLAGS  -s \
+        -o $BINARY-worker.js $FLAGS  -s \
         EXPORTED_FUNCTIONS="['_work']" && echo "emcc worker" &
-emcc  lank-prez.cpp -o $BINARY-prez.html   $CFLAGS -s \
+emcc  lank-prez.cpp -o $BINARY-prez.html   $FLAGS -s \
         EXPORTED_FUNCTIONS="['_main']" && echo "emcc prez" &
 wait 
 echo "all done"

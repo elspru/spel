@@ -1,5 +1,6 @@
 #include <stdint.h>
 #include <stdio.h>
+#include <string.h>
 #include <assert.h>
 #include <stdlib.h>
 #include "lanklib.h"
@@ -11,7 +12,7 @@ void error(const char *message) {
 
 char nibbleToLankGlyph(const uint8_t nibble){
     char result = 'X';
-    assert(nibble <= 0xF );
+    assert(nibble <= NIBBLE_MASK );
     switch (nibble){
         case 0: result = 'm'; break;
         case 1: result = 'k'; break;
@@ -37,32 +38,60 @@ char nibbleToLankGlyph(const uint8_t nibble){
 }
 
 void aUint16ToLankGlyphs(const uint16_t instruction,
- char *result){
-    uint8_t nibbles[4];
+        unsigned int glyphArrayLength, char *glyphArray){
+    enum { uintLength = 4 };
+    uint8_t nibbles[uintLength];
     uint8_t i;
-    assert( result != NULL ); /*char array result*/
-    result[4] = (char) 0; /* make null terminated string */
-    for (i = 0; i < 4; i++) {
-    nibbles[i] = (uint8_t) ((instruction >> (4 * i)) & 
-            (uint32_t) 0xF);
-    assert (nibbles[i] <= 0xF);
-    result[i] = nibbleToLankGlyph(nibbles[i]);
+    assert( glyphArrayLength == 9);
+    assert( glyphArray != NULL ); /*char array glyphArray*/
+    for (i = 0; i < uintLength; i++) {
+    nibbles[i] = (uint8_t) ((instruction >> (NIBBLE_LENGTH * i)) & 
+            (uint32_t) NIBBLE_MASK);
+    assert (nibbles[i] <= NIBBLE_MASK);
+    glyphArray[i] = nibbleToLankGlyph(nibbles[i]);
     }
+    glyphArray[glyphArrayLength-1] = (char) 0; 
+    assert((unsigned int) strlen(glyphArray) == glyphArrayLength-1);
 }
 
 
 void aUint32ToLankGlyphs(const uint32_t intWord,
-        char *result){
-    uint8_t nibbles[8];
+        const unsigned int glyphArrayLength,
+        char *glyphArray){
+    enum { uintLength = 8 };
+    uint8_t nibbles[uintLength];
     uint8_t i;
-    assert( result != NULL ); /*char array result*/
-    result[8] = (char) 0; /* make null terminated string */
-    for (i = 0; i < 8; i++) {
-    nibbles[i] = (uint8_t) ((intWord >> (4 * i)) & 
-            (uint32_t) 0xF);
-    assert (nibbles[i] <= 0xF);
-    result[i] = nibbleToLankGlyph(nibbles[i]);
+    assert( glyphArrayLength == (unsigned int) uintLength+1);
+    assert( glyphArray != NULL ); /*char array glyphArray*/
+    for (i = 0; i < uintLength; i++) {
+        nibbles[i] = (uint8_t) ((intWord >> (NIBBLE_LENGTH * i)) & 
+            (uint32_t) NIBBLE_MASK);
+        assert (nibbles[i] <= NIBBLE_MASK);
+        glyphArray[i] = nibbleToLankGlyph(nibbles[i]);
     }
+    glyphArray[glyphArrayLength-1] = (char) 0; 
+    assert((unsigned int) strlen(glyphArray) == glyphArrayLength-1);
+}
+
+void uint32ArrayToLankGlyphs(const unsigned int intArrayLength,
+        const uint32_t *intArray, const unsigned int
+        glyphArrayLength, char *glyphArray){
+    enum { uintLength = 8 };
+    unsigned int i;
+    unsigned int j;
+    char tempGlyphArray[uintLength+1]=" ";
+    assert(intArray != NULL);
+    assert(glyphArray != NULL);
+    assert((glyphArrayLength-1)/uintLength == intArrayLength);
+    for (i = 0; i < intArrayLength; i++) {
+        aUint32ToLankGlyphs(intArray[i],
+            (unsigned int) uintLength+1, tempGlyphArray);
+        for (j = 0; j < uintLength; j++) {
+            glyphArray[i*uintLength+j] = tempGlyphArray[j];
+        }
+    }
+    glyphArray[glyphArrayLength-1] = (char) 0; 
+    assert((unsigned int) strlen(glyphArray) == glyphArrayLength-1);
 }
 
 uint8_t lankGlyphToNibble(const char glyph){
@@ -89,11 +118,11 @@ uint8_t lankGlyphToNibble(const char glyph){
         default: error("lankGlyphToNibble: invalid glyph");
              break;
     }
-    assert(result <= 0xF );
+    assert(result <= NIBBLE_MASK );
     return result;
 }
 
-/* lankGlyphsToChar8,
+/* lankGlyphsToChar8Array,
 compression facter of 2 from ASCII,
 so need half as much space in result array,
 taking into account that C-strings require extra char for null.
@@ -104,7 +133,7 @@ example
 'a' = 4
 result 0x45
 */
-void lankGlyphsToChar8(const int glyphsLength,
+void lankGlyphsToChar8Array(const int glyphsLength,
     const char *glyphs, const int resultLength, char *result){
     int i = 0;
     assert(glyphs != NULL);
@@ -117,7 +146,7 @@ void lankGlyphsToChar8(const int glyphsLength,
     result[resultLength-1]=(char)0;
 }
 
-void lankGlyphsToUint16(const unsigned int glyphsLength,
+void lankGlyphsToUint16Array(const unsigned int glyphsLength,
     const char *glyphs, const unsigned int resultLength, 
     uint16_t *result){
     unsigned int i = 0;
@@ -134,7 +163,7 @@ void lankGlyphsToUint16(const unsigned int glyphsLength,
 }
 
 
-void lankGlyphsToUint32(const unsigned int glyphsLength,
+void lankGlyphsToUint32Array(const unsigned int glyphsLength,
     const char *glyphs, const unsigned int resultLength, 
     uint32_t *result){
     unsigned int i = 0;
