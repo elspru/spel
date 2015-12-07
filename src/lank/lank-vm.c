@@ -6,6 +6,8 @@
 #include <string.h>
 #include <stdint.h>
 #include "lanklib.h"
+#define SENTENCE_SIZE 0x100
+#define PAGE_SIZE 0x1000
 #define INT_BYTES 4
 #define INT_NIBBLES INT_BYTES*2
 #define SIZEOF_ARRAY( arr ) sizeof( arr ) / sizeof( arr[0] )
@@ -23,7 +25,7 @@
 0x20    ... 0x2F    phrase memory
 */
 
-#define MEMORY_SIZE 0x60
+#define MEMORY_SIZE 0x30
 #define TYPES   0x10
 #define PHRASE  0x20
 /*not used
@@ -72,12 +74,12 @@
 */
 static uint32_t amountOfSameBits(const uint32_t number,
         const uint32_t maxLength) {
-    uint32_t length = 0;
-    uint32_t i;
+    size_t length = 0;
+    size_t i;
     uint32_t firstBit;
     uint32_t workNum = number;
     assert (number < MAX_INSTRUCTION_VALUE);
-    assert (maxLength <= (uint32_t) sizeof(int)*8); 
+    assert (maxLength <= (size_t) sizeof(int)*8); 
     firstBit = workNum & (uint32_t) 1U;
     assert (firstBit <= (uint32_t) 1);
     for (i=0; i < maxLength; i++) {
@@ -94,15 +96,15 @@ static uint32_t amountOfSameBits(const uint32_t number,
 
 
 static void memPhraseToLankGlyphs(const uint32_t *memory, 
-    const unsigned int glyphArrayLength, char *glyphs) {
-    const unsigned int phraseLength = 
-        (unsigned int) memory[PHRASE_LENGTH];
-    unsigned int i = 0;
+    const size_t glyphArrayLength, char *glyphs) {
+    const size_t phraseLength = 
+        (size_t) memory[PHRASE_LENGTH];
+    size_t i = 0;
     assert (memory != NULL);
     assert (glyphs != NULL);
     assert (phraseLength > 0);
-    assert (phraseLength <= (unsigned int) PHRASE_SIZE);
-    for (i = 0; i < (unsigned int) phraseLength; i++) {
+    assert (phraseLength <= (size_t) PHRASE_SIZE);
+    for (i = 0; i < phraseLength; i++) {
         uint32ArrayToLankGlyphs(phraseLength, 
             &memory[PHRASE_WORD], glyphArrayLength, glyphs);
     }
@@ -118,14 +120,14 @@ static void memPhraseToLankGlyphs(const uint32_t *memory,
 bytes to the phrase array, leaving the rest of it blank.
  */ 
 static void fetch(const uint32_t *prog, 
-        const uint32_t progLength, 
+        const size_t progLength, 
         uint32_t *memory){
     uint32_t batchIndex = 0;
     uint32_t currentBit = 0;
     uint32_t phraseWord = 0;
-    uint32_t maxLength = PHRASE_SIZE;
-    uint32_t i;
-    uint32_t remainingLength = 0;
+    size_t maxLength = PHRASE_SIZE;
+    size_t i;
+    size_t remainingLength = 0;
     assert(memory != NULL );
     if (memory[PC] >= progLength) {
         error("PC exceeded end of program");
@@ -184,7 +186,7 @@ static void fetch(const uint32_t *prog,
 #define PC  0xF
 */
 static void printRegs(const uint32_t *memory) {
-    uint32_t printedLength = 0;
+    size_t printedLength = 0;
     assert(memory != NULL);
     printedLength += printf("registers: \n");
     printedLength += printf("      Value\tType \n");
@@ -315,11 +317,11 @@ static void eval(uint32_t *memory, bool *running) {
     }
 }
 
-void run(const uint32_t *prog, 
-        const uint32_t progLength, uint32_t *memory) {
+void run(const size_t progLength, 
+        const uint32_t *prog, uint32_t *memory) {
     uint32_t i = 0;
     bool running = true;
-    unsigned int glyphsLength = 0;
+    size_t glyphsLength = 0;
     char glyphs[PHRASE_SIZE*INT_NIBBLES];
     memset(glyphs,(char) 0,PHRASE_SIZE*INT_NIBBLES);
     /* fetch phrases */
@@ -330,7 +332,7 @@ void run(const uint32_t *prog,
         printf("PC %X INSTR %X\n",
             (unsigned int) memory[PC],
             (unsigned int) memory[PHRASE_WORD+0]);
-        glyphsLength = (unsigned int) (memory[PHRASE_LENGTH] *
+        glyphsLength = (size_t) (memory[PHRASE_LENGTH] *
             INT_NIBBLES)+1;
         memPhraseToLankGlyphs(memory, glyphsLength, glyphs);
         printf("%s\n",glyphs);
@@ -341,9 +343,23 @@ void run(const uint32_t *prog,
     }
 }
 
-int main()
+
+static void tokenize(const size_t sourceSentenceLength, 
+    const char *sourceSentence, 
+    size_t *tokenSentenceLength, uint16_t *tokenSentence){
+    assert(sourceSentenceLength > 0);
+    assert(sourceSentence != NULL);
+    assert(tokenSentenceLength != NULL);
+    assert(tokenSentence != NULL);
+    *tokenSentenceLength = sourceSentenceLength/4; 
+    lankGlyphsToUint16Array(sourceSentenceLength,
+        sourceSentence, *tokenSentenceLength, tokenSentence);
+}
+
+
+int main(/*int argc, char *argv[]*/ )
 {
-   uint32_t prog[] = { 
+    uint32_t prog[] = { 
             (uint32_t) 0x126, 
             (uint32_t) 0x9B58C2D6U, 
             (uint32_t) 0x3C380064U,
@@ -355,17 +371,44 @@ int main()
             (uint32_t) 0x342CC854U,
             (uint32_t) 0x342CA291U
         }; 
-    uint32_t progLength = 0xA;
+    size_t progLength = 0xA;
     uint32_t memory[MEMORY_SIZE];
     const char lankGlyphs[] = "salhmunt";
     char lankResult[5] = "    ";
     uint16_t lankResult16[2] = {0,0};
     uint32_t lankResult32[1] = {0};
+    int returnCode = 0;
+/* file stuff begins */
+    size_t sourceSentenceLength = 0;
+    size_t tokenSentenceLength = 0;
+    FILE *sourceCode;
+    FILE *tokenFile;
+    char sourceSentence[SENTENCE_SIZE] = "";
+    uint16_t tokenSentence[SENTENCE_SIZE/2];
+    memset(tokenSentence,0,SENTENCE_SIZE);
+    sourceCode = fopen("test.lc","r");
+    tokenFile = fopen("test.lt","w");
+    assert(sourceCode != NULL);
+    assert(tokenFile != NULL);
+    sourceSentenceLength = (size_t) fread(sourceSentence,
+        sizeof(char), SENTENCE_SIZE, sourceCode);
+    assert(sourceSentenceLength > 0);
+    printf("SSL 0x%X\n",(unsigned int) sourceSentenceLength);
+    tokenize(sourceSentenceLength, sourceSentence,
+        &tokenSentenceLength, tokenSentence);
+    returnCode = (int) fwrite(tokenSentence, 
+        sizeof(int16_t), tokenSentenceLength, tokenFile);
+    assert((size_t) returnCode == tokenSentenceLength);
+    returnCode = fclose(sourceCode);
+    assert(returnCode == 0);
+    returnCode = fclose(tokenFile);
+    assert(returnCode == 0);
+/* file stuff ends*/
     memset(memory,0,MEMORY_SIZE*INT_BYTES);
     assert(progLength > 0);
 /* pfihnuls mmpynaha pfihnuls mmhnnata takhhiya
     cwahhiya */
-    run(prog, progLength, memory);
+    run(progLength, prog, memory);
     /* exit */
     lankGlyphsToChar8Array(9,lankGlyphs,5,lankResult);
     printf("glyphs %s result %X\n",lankGlyphs,

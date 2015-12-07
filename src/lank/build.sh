@@ -1,12 +1,12 @@
 #!/bin/bash
 BINARY="lank"
 FLAGS="-Wall -Wextra -Wpedantic"
-CFLAGS="-std=c11"
-CXXFLAGS="-std=c++11"
+CFLAGS="-std=c11 -ansi"
+CXXFLAGS="-std=c++11 -ansi"
 CFILES="lank-vm.c"
 FILES="lank-vm lank-worker lank-prez lanklib"
 PURE_FILES="lank-vm lanklib"
-CACHE_LIMIT=512
+CACHE_LIMIT=1024
 GCCDEBUGFLAGS="-Wno-coverage-mismatch\
  -fstack-usage -Wstack-usage=$CACHE_LIMIT -Wlogical-op\
  -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations\
