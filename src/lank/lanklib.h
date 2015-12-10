@@ -4,6 +4,8 @@
 #define MAX_INSTRUCTION_VALUE (uint32_t) 0xFFFFFFFFU
 #define NIBBLE_LENGTH 4
 #define NIBBLE_MASK 0xF
+#define HIGHEST_CONSONANT 0xC
+#define GLOTTAL_STOP 0xC
 
 extern void error(const char *message);
 extern uint8_t lankGlyphToNibble(const char glyph);
@@ -42,5 +44,13 @@ extern void aUint32ToLankGlyphs(const uint32_t intWord,
 extern void uint32ArrayToLankGlyphs(const size_t
         intArrayLength, const uint32_t *intArray, const size_t
          glyphArrayLength, char *glyphArray);
+
+extern void uint16ArrayToCharArray(const size_t
+        uint16ArrayLength, const uint16_t *uint16Array, 
+        size_t *uint8ArrayLength, char *charArray);
+
+extern void charArrayToUint16Array(const size_t
+        charArrayLength, const char *charArray, 
+        size_t *uint8ArrayLength, uint16_t *uint16Array);
 
 #endif

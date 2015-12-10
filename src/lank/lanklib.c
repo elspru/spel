@@ -39,8 +39,13 @@ char nibbleToLankGlyph(const uint8_t nibble){
 
 uint8_t lankGlyphToNibble(const char glyph){
     uint8_t result = 0x10;
+    if( glyph < '.' || glyph > 'y' ){
+        printf("glyph '%c' 0x%X \n",glyph,(unsigned int) glyph);
+        error("lankGlyphToNibble error, glyph out of bounds");
+        
+    }
     assert(glyph >= '.' );
-    assert(glyph <= 'w' );
+    assert(glyph <= 'y' );
     switch (glyph){
         case 'm': result = 0x0; break;
         case 'k': result = 0x1; break;
@@ -181,4 +186,38 @@ void lankGlyphsToUint32Array(const size_t glyphsLength,
     }
 }
 
-
+/* sets charArray and charArrayLength 
+    this is for charArrays or uint8_t arrays a binary format,
+if you want ASCII look for the GlyphLank versions*/
+void uint16ArrayToCharArray(const size_t
+        uint16ArrayLength, const uint16_t *uint16Array, 
+        size_t *charArrayLength, char *charArray){
+        size_t i;
+        uint16_t elem;
+        assert(uint16ArrayLength *2 <= *charArrayLength);
+        assert(uint16Array != NULL);
+        assert(charArray != NULL);
+        for (i = 0; i < uint16ArrayLength; i++) {
+            elem = uint16Array[i];
+            charArray[i*2]= (char) (elem & 0xFF);
+            charArray[i*2+1]= (char) (elem >> 0x8);
+        }
+        *charArrayLength = uint16ArrayLength*2;
+}
+/* sets uint16Array and uint16ArrayLength 
+    this is for charArrays or uint8_t arrays a binary format,
+if you want ASCII look for the GlyphLank versions*/
+void charArrayToUint16Array(const size_t
+        charArrayLength, const char *charArray, 
+        size_t *uint16ArrayLength, uint16_t *uint16Array){
+        size_t i;
+        assert(charArrayLength % 2 == 0);
+        assert(*uint16ArrayLength * 2 <= charArrayLength);
+        assert(uint16Array != NULL);
+        assert(charArray != NULL);
+        for (i = 0; i < charArrayLength/2; i++) {
+            uint16Array[i] = ((uint16_t) charArray[i*2]) +
+            (((uint16_t) charArray[i*2+1]) >> 0x4) ;
+        }
+        *uint16ArrayLength = charArrayLength/2;
+}

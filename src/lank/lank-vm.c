@@ -6,15 +6,16 @@
 #include <string.h>
 #include <stdint.h>
 #include "lanklib.h"
-#define SENTENCE_SIZE 0x100
-#define PAGE_SIZE 0x1000
+#define SENTENCE_SIZE 60
+#define PARAGRAPH_SIZE 0x360
+#define PAGE_SIZE 0x2520
 #define INT_BYTES 4
 #define INT_NIBBLES INT_BYTES*2
 #define SIZEOF_ARRAY( arr ) sizeof( arr ) / sizeof( arr[0] )
 #define MAX_ADDRESS_VALUE (uint32_t) 0xFFFFFFFFU
 #define MAX_BATCH_IDX_VALUE (uint32_t) 0xFFFFU
-#define PHRASE_SIZE (uint32_t) 0xFU
-#define MAX_PHRASE_IDX (uint32_t) 0xEU
+#define PHRASE_SIZE (uint32_t) 0xF
+#define MAX_PHRASE_IDX (uint32_t) 0xE
 
 
 /* memory */
@@ -97,8 +98,7 @@ static uint32_t amountOfSameBits(const uint32_t number,
 
 static void memPhraseToLankGlyphs(const uint32_t *memory, 
     const size_t glyphArrayLength, char *glyphs) {
-    const size_t phraseLength = 
-        (size_t) memory[PHRASE_LENGTH];
+    const size_t phraseLength = (size_t) memory[PHRASE_LENGTH];
     size_t i = 0;
     assert (memory != NULL);
     assert (glyphs != NULL);
@@ -343,17 +343,122 @@ void run(const size_t progLength,
     }
 }
 
+static bool isSpace(const char glyph){
+    if ((uint8_t) glyph <= (uint8_t) 0x20) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+static uint16_t shortWordTokenize(uint8_t *nibbles){
+    uint8_t j = 0;
+    uint16_t token = 0;
+    for (j = 2; j < 4; j++){
+        nibbles[j] = GLOTTAL_STOP;
+    }
+    for (j = 0; j < 4; j++){
+        token += (uint16_t) ((nibbles[j]) << (4 * j));
+    }
+    return token;
+} 
+
+
+static uint16_t fullWordTokenize(const uint8_t *nibbles){
+    uint8_t j = 0;
+    uint16_t token = 0;
+    for (j = 0; j < 4; j++){
+        token += (uint16_t) ((nibbles[j]) << (4 * j));
+    }
+    return token;
+} 
 
 static void tokenize(const size_t sourceSentenceLength, 
-    const char *sourceSentence, 
+    char *sourceSentence, 
     size_t *tokenSentenceLength, uint16_t *tokenSentence){
+    size_t sourceIndex = 0;
+    size_t tokenIndex = 0;
+    size_t tempSourceIndex = 0;
+    char glyphs[6] = "XXXXX";
+    uint8_t nibbles[5] = {0,0,0,0,0};
     assert(sourceSentenceLength > 0);
     assert(sourceSentence != NULL);
     assert(tokenSentenceLength != NULL);
     assert(tokenSentence != NULL);
-    *tokenSentenceLength = sourceSentenceLength/4; 
-    lankGlyphsToUint16Array(sourceSentenceLength,
-        sourceSentence, *tokenSentenceLength, tokenSentence);
+    for (sourceIndex=0;sourceIndex<sourceSentenceLength;
+            sourceIndex++){
+        tempSourceIndex = sourceIndex;
+        glyphs[0] = sourceSentence[tempSourceIndex +0];
+        if (isSpace(glyphs[0])) {
+            continue;
+        }
+        nibbles[0] = lankGlyphToNibble(glyphs[0]);
+        if (nibbles[0] > HIGHEST_CONSONANT){
+            sourceSentence[tempSourceIndex] = 'X';
+            printf("prevToken 0x%X \n ",
+                (unsigned int) tokenSentence[tokenIndex-1]);
+            printf("n0 glyph '%c' ",glyphs[0]);
+            printf("nibble %X ",(unsigned int) nibbles[0]);
+            printf("at %d  in %s\n", (int) tempSourceIndex, 
+                sourceSentence);
+            error("tokenization parse error, vowel start");
+        }
+        assert(nibbles[0] <= HIGHEST_CONSONANT);
+        assert(tempSourceIndex+3 < sourceSentenceLength);
+        glyphs[1] = sourceSentence[tempSourceIndex +1];
+        if (isSpace(glyphs[1])) {
+            sourceSentence[tempSourceIndex+1] = 'X';
+            printf("%c at %d from %s\n",glyphs[1],
+                (int) tempSourceIndex+1, sourceSentence);
+            error("tokenize unexpected space");
+        }
+        assert(!isSpace(glyphs[1]));
+        nibbles[1] = lankGlyphToNibble(glyphs[1]);
+        glyphs[2] = sourceSentence[tempSourceIndex +2];
+        if (isSpace(glyphs[2])){
+            tokenSentence[tokenIndex] +=
+                shortWordTokenize(nibbles);
+            tokenIndex++;
+            sourceIndex++;
+            continue;
+        }
+        nibbles[2] = lankGlyphToNibble(glyphs[2]);
+        glyphs[3] = sourceSentence[tempSourceIndex +3];
+        if (isSpace(glyphs[3])){
+            sourceSentence[tempSourceIndex+3] = 'X';
+            printf("%c at %d from %s\n",glyphs[3],
+                (int) tempSourceIndex+3, sourceSentence);
+            error("tokenize unexpected space");
+        }
+        assert(!isSpace(glyphs[3]));
+        nibbles[3] = lankGlyphToNibble(glyphs[3]);
+        if (tempSourceIndex +4 < sourceSentenceLength) {
+        glyphs[4] = sourceSentence[tempSourceIndex + 4];
+            if (isSpace(glyphs[4])) {
+                nibbles[4] = GLOTTAL_STOP; 
+            } else {
+                nibbles[4] = lankGlyphToNibble(glyphs[4]);
+            } 
+        } else {
+            nibbles[4] = GLOTTAL_STOP;
+        }
+        /* if 4 glyph word make full int16*/
+        if ( nibbles[4] <= HIGHEST_CONSONANT 
+            && (nibbles[1] < HIGHEST_CONSONANT ||
+            (nibbles[3] < HIGHEST_CONSONANT &&
+            nibbles[2] != HIGHEST_CONSONANT ))) {
+            tokenSentence[tokenIndex] = fullWordTokenize(nibbles);
+            tokenIndex++;
+            sourceIndex = sourceIndex +3;
+        } else {
+            tokenSentence[tokenIndex] += shortWordTokenize(nibbles);
+            tokenIndex++;
+            sourceIndex++;
+        }
+    }
+    assert(tokenIndex <= SENTENCE_SIZE/2);
+    *tokenSentenceLength = tokenIndex;
 }
 
 
@@ -373,19 +478,18 @@ int main(/*int argc, char *argv[]*/ )
         }; 
     size_t progLength = 0xA;
     uint32_t memory[MEMORY_SIZE];
-    const char lankGlyphs[] = "salhmunt";
-    char lankResult[5] = "    ";
-    uint16_t lankResult16[2] = {0,0};
-    uint32_t lankResult32[1] = {0};
     int returnCode = 0;
 /* file stuff begins */
-    size_t sourceSentenceLength = 0;
-    size_t tokenSentenceLength = 0;
     FILE *sourceCode;
     FILE *tokenFile;
+    size_t sourceSentenceLength = SENTENCE_SIZE; 
+    size_t tokenSentenceLength = SENTENCE_SIZE/2;
+    size_t outputSentenceLength = SENTENCE_SIZE;
     char sourceSentence[SENTENCE_SIZE] = "";
     uint16_t tokenSentence[SENTENCE_SIZE/2];
+    char outputSentence[SENTENCE_SIZE];
     memset(tokenSentence,0,SENTENCE_SIZE);
+    memset(outputSentence,0,SENTENCE_SIZE);
     sourceCode = fopen("test.lc","r");
     tokenFile = fopen("test.lt","w");
     assert(sourceCode != NULL);
@@ -393,12 +497,13 @@ int main(/*int argc, char *argv[]*/ )
     sourceSentenceLength = (size_t) fread(sourceSentence,
         sizeof(char), SENTENCE_SIZE, sourceCode);
     assert(sourceSentenceLength > 0);
-    printf("SSL 0x%X\n",(unsigned int) sourceSentenceLength);
     tokenize(sourceSentenceLength, sourceSentence,
         &tokenSentenceLength, tokenSentence);
-    returnCode = (int) fwrite(tokenSentence, 
-        sizeof(int16_t), tokenSentenceLength, tokenFile);
-    assert((size_t) returnCode == tokenSentenceLength);
+    uint16ArrayToCharArray(tokenSentenceLength, tokenSentence,
+        &outputSentenceLength, outputSentence);
+    returnCode = (int) fwrite(outputSentence, 
+        sizeof(char), outputSentenceLength, tokenFile);
+    assert((size_t) returnCode == outputSentenceLength);
     returnCode = fclose(sourceCode);
     assert(returnCode == 0);
     returnCode = fclose(tokenFile);
@@ -410,14 +515,5 @@ int main(/*int argc, char *argv[]*/ )
     cwahhiya */
     run(progLength, prog, memory);
     /* exit */
-    lankGlyphsToChar8Array(9,lankGlyphs,5,lankResult);
-    printf("glyphs %s result %X\n",lankGlyphs,
-            (unsigned int) lankResult[0]);
-    lankGlyphsToUint16Array(9,lankGlyphs,2,lankResult16);
-    printf("glyphs %s result %X\n",lankGlyphs,
-            (unsigned int) lankResult16[0]);
-    lankGlyphsToUint32Array(9,lankGlyphs,1,lankResult32);
-    printf("glyphs %s result %X\n",lankGlyphs,
-            (unsigned int) lankResult32[0]);
     return 0;
 }
