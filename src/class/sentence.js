@@ -10,6 +10,10 @@ var err = require("../lib/error");
 module.exports = Sentence;
 /// su sentence be object ya
 function Sentence(language, input, conjLevel) {
+    if (language === undefined) {
+        console.log(err.stackTrace());
+        throw "Sentence error: language undefined";
+    }
 this.be = "Sentence";
 var tokens, i;
 if (typeof input === "string"){
@@ -368,8 +372,7 @@ Sentence.prototype.byIndexPhraseSet = function(index,replacement){
 	return sentence;
 }
 Sentence.prototype.copy = function(language){
-return new Sentence(language, 
-JSON.parse(JSON.stringify(this)));
+return new Sentence(language, JSON.parse(JSON.stringify(this)));
 }
 Sentence.prototype.toString = function(format){
 	var joiner = ' ';

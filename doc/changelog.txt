@@ -5064,3 +5064,456 @@ something.
 0733 great I did that, also lowered cache limit to 512Bytes
 0754 named 12 case registers, and have 4 meta registers IMM, PC,
 STACKP and DATAP.
+0801 now I still have to get run or another similar function to
+accept as input, the starting memory, the program, and a string
+or some other memory for output. 
+0804 it could be interesting to try to fit all variables into
+the memory. can have a meta registers section, and one to hold
+glyphs being generated for output.  though glyphs are generally
+best kept as chars if ASCII, or short ints for UTF16,  though if
+we go with emoji then UTF32 is probably best, so can keep ints. 
+1242 okay now phraseLength is part of memory.
+1300 there seems to be an issue with decrementing MAX_PHRASE_IDX
+to 0xE, not sure what exactly, though it seems that the
+maxLength isn't calculated properly.
+1643 fixed it, issue was with currentBit calculations. 
+} 25 Nov 2015
+0538 so a goal now is to get it to work with javascript.
+after we have it run from a single thread, we need it to work
+with multiple threads, and ideally openCl. Though web workers
+should suffice for now, on the JS front, since webCl isn't being
+supported by any major browser I'm aware of. However there is a
+plug-in for it in firefox, it's not an official component. 
+0635 so it looks like I'll need to make a lank-worker.c file,
+which uses the webWorkers API of emscripten.
+Also may want a woker manager, but that can probably be done in
+plain javascript...
+Anyways first is the lank-worker.c or .cpp 
+0645 so I'm thinking that there can be an interrupt or something
+for sending output to stdout, this would the the equivalent of
+sending a post-message. 
+another alternative is that the memory which is passed to the
+function can have an area for the message that will be returned.
+and the postmessage can return the whole memory. 
+0708 so the next time it is called can start from the same
+state, or from a blank state. I guess it is also possible to
+post multiple messages, if there is some kind of timer.
+however generally I can't really see why this would be.
+especially considering that the worker is to be called by
+function.  We would have to have some global variables to
+preserve state between calls, which could get messy.  Though
+perhaps it is doable. when calling it initially can pass it the
+memory along with the program, it could hold on to the memory,
+or point to it with a global pointer. Then the program can
+be called with the program code, which it can execute.
+1209 so I guess we can have two version, one that is stateless,
+which is called with memory and data, and it returns both, and
+then exits. 
+another is a stateful version, where the memory is initialized,
+via a constructor. 
+Then a different function processes code and returns output if
+any.
+A third function could ask it to dump memory. 
+1220 I'm looking now, it seems that the calling function can
+only give it a single block, and only recieve a single block.
+hmmm i wonder what the register overhead is... 192 bytes or 0xCO
+that doesn't include stack, since not everything needs a stack.
+If there is a large stack it would certainly make sense to
+initialize the memory first.
+So when calling we'd give a block which had the program code.
+Assuming there is enough space in the data area of the
+memory, then can simply return an array that consists of a
+pointer to that area with a length.
+} 26 Nov 15
+0843 so I created a worker, lank-worker.c,  it seems that it
+wants to work only with emscripten.
+so I'll either have to make a javascript worker,
+or get it all to work with pure emscripten.
+0922 I guess it would be best if it was all in C.  though having
+it accessible from javascript certainly has it's own advantages.
+} 27 Nov 2015
+0717 so if we do do it all in C, then can try to make it flow
+based programming style. not sure if emscripten allows for
+scheduling. 
+0734 so there is a setTimeout thing available via emscripten.h
+0745 okay so lets figure out a basic untimed version first. 
+of lank-manager perhaps. or lank-president :-). 
+if we thinking about it as a president, or presiding officer,
+then it's really much like a scheduler,  it gets requests, and
+based on some algorithm allows them to be heard, or in this case
+processed. 
+I'm thinking the treasurer in this case would manage server
+resources, to give statistics on what type of operations are
+holding up the line -- may need optimizing or duplicating --
+ and which ones are zooming ahead -- may need to be fleshed out
+to be more CPU intensive. So it's somewhat like a profiler. 
+The secretary would keep the history, both of input and output.
+0749 the scheduler or president has to come first. So we may
+imagine multiple users, where they make requests, and responses,
+so their names are stored along with data they request. 
+0803 thinking now the vm would be even better if we managed to
+hook it into the llvm compiler, then we could do JITc.
+0813 I'm thinking it would be good to have a process that
+translates the VM code to native code, and the native code is
+loaded into the processors that way it is somewhat faster..
+Though understandably that wouldn't make much different in
+javascript. 
+} 28 Nov 2015
+0527 well it tells me worker is not defined, not sure what I can
+do to make it defined. 
+0539 okay so it works I think, but only in browser
+0609 I got opencl examples to work. however they are written in
+cpp. 
+0610 anyways so I guess next I'll make an openCl version. 
+okay so next steps on the agenda are, 
+getting some useful output or interaction via web workers.
+making an llvm backend or compiler/interpreter for the vm.
+getting it to work with openCl.  
+translating text to bytecode. 
+} 29 Nov 2015
+0710 may have to rewrite vm in a 8bit version so that can have
+memory of chars. unless can figure out a way to do the
+conversions from char array to unsigned int array.
+or can initialize the int array, and then only accept program
+input. though would need conversion to output or input the whole
+memory block. 
+} 30 Nov 2015
+0637 one other thin I could do is make an int to char and char
+to int converter. 
+0639 though I'm guessing now it would be best to simply accept
+program as text, and have some alternative way of dumping
+memory.
+0914 so it seems that it would be best to have a string
+compatible version, something that converts bytecode to string,
+and also something that converts string to bytecode.  
+This could also be used for converting memory to string and vice
+versa. will use glottal stop for the zero. output in little
+endian.
+0915 I'm having trouble getting it to properly reload in firefox
+even with a clear cache button installed.  it seems to always
+use an old version of the code.  
+0920 I think understandably it is very frustrating so I will
+work on the console version as much as possible while keeping in
+mind the constraints of getting it to work with the vm version.
+0923 so next thing to do will be to make a glyphsToBytes 
+and bytesToGlyphs functions, maybe a glyphsToBatches function.
+0937 okay I fixed it, was a problem with build scripts,
+can continue working on emscripten via web browser.
+} 01 Dec 2015
+0945 wrote lankGlyphToNibble. next gotta do one for a glyph
+array to 8bit array, and probably int array.
+afterwards can make one that makes batches,
+can simply look for end of phrase keywords and flip bits
+accordingly. rounding so that each batch has whole phrases,
+maybe even whole sentences. if go the whole sentences route,
+then can round based on the ya or sentence ender words. 
+it may be easiest to do this using 8bit array, since the
+sentence ender and phrase ender words generally fit in 8bit
+sometimes 16bit.
+though 16bit would allow one word per entry, which might
+simplify things. 
+1433 also I believe javascript chars are 16bits by default
+anyhow.
+1513 hmmm well it seems we may not be able to relly on it
+crossing from emscripten to javascript. so may have to do it
+8bit styles, though can still do 16bit spacing, and 16bit
+indexing. 
+1530 can try using wchar_t in C, and have builder convert those
+references to char16_t in the C++ version. then can see if it
+will work..
+1537 okay so they don't work, since the emscripten signature is
+char, so it doesn't accept wide chars, however I may still be
+able to use it for internal things. 
+1651 updated all unsigned ints to uint32_t where possible.
+happy to have discovered the stdint.h file, finally can get it
+to be the widths that I want.
+1657 I'm thinking should make build files generate in seperate
+directory 
+} 03 Dec 2015
+0633 edited a bunch with the uint char  and glyph conversion
+next have to convert the old text, to the new version of
+alphabet where glottal stop is 0. 
+0657 need to make a tokenizer to make batches more easily. 
+simplest tokenizer would recognize words and put them into 
+int16_t tokens, each of which can hold a word. 
+simplest to differentiate consonants and vowels if vowels are
+kept at one end of the encoding,  perhaps 0xD-0xF
+this would simplify the case of if we wished to use a base 
+12 number system.
+a number could be any uint16 which has no vowels and is > 0
+assuming . is 0, and numbers start at 1 (m) 
+it currently takes 32bits to indicate a number is coming,
+this new base 12 system would make some stuff slower,
+like converting numbers to binary,
+but may take less space.
+which would be good for a glyph input/output,
+and it would also be more human friendly. 
+so it seems that 12bit is better than 16bit+8bytes 
+for expressions up to 77 bytes or 616 bits. 
+considering that is more than current estimtes of
+ atoms in the universe (10^82), it should be good enough.
+however if it is only 4 bytes, then after 38 bytes or 304 bits
+it becomes more efficient in binary.  which is more than 
+the number of stars in the universe, but nowhere near atoms.
+Actually I think it is 4 bytes current, pfih nuls. 
+currently 128bit is the largest floats/ints supported,
+so even if it went up to 256 we should be okay with dozenal.
+the glottal-stop '.' can even represent the point for floating
+points. 
+in which case 'm' should be 0, and '.' should be 0xC
+now just need an efficient conversion algorithm.
+for each nibble in number string (uint16_t)
+if place greater than 0
+then multiply by 12 multiplied by place in number string.
+0801 if only 2 bytes to indicate number and length,  
+then dozenal is only more efficient up to 19 bytes,
+or 152 bits.  though that it is still bigger than 128bit.
+nowadays computers are more often memory bound than CPU bound,
+so I guess it would be okay for there to be a bunch of CPU
+operations, though still it might make more sense for the
+bytecode to have binary numbers, then they are plug and play, no
+conversions necessary.  however the glyphCode could certainly be
+dozenal, would save space markedly. 
+if a number starts or ends with a '.' we could consider it 
+negative. ends with would make most sense, since could multiply
+the whole number by -1, or not it, rather than holding onto that
+information. though it would take a whole byte for floating and
+sign information. 
+so batchCode will be binary, with type information, such as
+float64 or what not,  and the glyphCode can be more literate. 
+0815 there are floats and fixed numbers, traditionally we use
+fixed numbers in human math,  but in computers we use floating
+numbers.  we could represent floating numbers just as easily as
+fixed point numbers. fraction.exponent(sign)
+though it would be best to convey that it is floating point
+through the type information. 
+for instance
+741.0 float (tluh)
+74.1 fixed (na..)
+both are dozenal for 1.61 golden ratio
+0825 so the parser will have to fill the blanks with '.'
+0829 so I'm thinking it would be good to have a lank source code
+file, lank batch file (uint32_t), and lank (char8) file. 
+so .lc and .lb are available 
+I guess we don't really need a char8 file.  
+though .lt with uint16_t tokens would be good .lt is available.
+I guess ideally it would be file acronyms that make sense in
+lank..  though lank changes a lot.. so w/e can always do other
+ones later. 
+0836 so that's what I can do tommorrow, get it to read and write
+these things from and to files.  then I can "compile" something,
+and run batch code from file.
+1041 there is another option that is easier to compute and that
+is octal.
+it will go all the way up to base 128bit or 16 byte before it
+is same width as 4byte instruction relating it's length. 
+} 04 Dec 2015
+0337 seems like the vocab can use another overhaul,
+can probably make it so only CV CCVH CVCH and CCVC are valid.
+0342 anyways that will be cumbersome to do, it was hard enough
+getting what I have now to fit, I'll need more algorithms to
+make it easier. Anyways that's all aesthetic really, right now
+what is more important is the more practical aspects of the VM.
+Relating to that however, it is best to have version information
+available in the files. 
+0348 anyways so lets get started with what 'we' were discussing
+yesterday. 
+0350 first off reading file, one page at a time, and returning
+output. 
+0409 wondering if perhaps should make a new file lank-c.c or
+lank-compiler.c which would compile glyphs into tokens and
+bytecode... 
+could also be lanktyifhi.c language translate
+anyways for the next decades of working on this I think English
+will still be the primary language, and considering the ongoing
+development of the lank vocab, it may not even be called lank if
+we decide to use "moderately complex syllable structure".
+which makes up the majority of languages today. 
+yea.. also the glide initials can be unwieldly for children,
+or at least it was difficult for my son before he was two years
+old. though I guess that shouldn't be as much of an issue
+internationally as the syllable structure. 
+0516 okay so I've made up the new syllables and sent it in for
+peer review. I'll add words to it based on how lank words end up
+being used. 
+0550 anyways will start coding in lank-vm can extract it to
+other files later on. 
+0651 with 24 glyph alphabet it is possible to make a base 60 by
+using consonant pairs.  with 16glyph alphabet can have base 30
+with consonant pairs. though 30 isn't really better than 12,
+since it's not even divisible by 4. 
+octal is the next best thing to just barely reach up to 60.
+though 12 can reach up to 120, which is even better than 60. 
+0659 anyways need a word for fraction. 
+A0 is 120, or 0A_l (little endian) ml (lank glyphs)
+kfa is now for fraction type, along with kfas root. 
+377/120 ~= pi 3.1416...
+nty.ml kfah = 
+three-hundred-seventy-seven over one-hundred-and-twenty
+0729 I think I also need a lank number to glyph, and glyph to
+number thing. 
+lwlk.p nu =
+/ləwələkəʔəpənu/
+three point one four one five
+3.1415
+2236 okay so it seems that these are three month programs,  
+and so that's about 12 weeks,  and since we're so "big" on
+dozenal now, perhaps can have a 12 week session.  Though I think
+I'll break that up into a month by month basis. 
+i'll put the details in everyDayMeditation.txt
+} 07 Dec 2015
+0331 so today, reading input from a file, and writing to another
+file.  possibly with tokenizing in between. 
+0927 tokenization works
+1500 I'm thinking now that if I take the uint16_t stuff and pass
+it through again it might not work, or it might give the same
+output.  but I'm thinking about stray glottal-stops would
+certainly screw it up.  so numbers would have to have a number
+of glyphs divisible by four in order to really work well. 
+1502 ideally of course numbers would be free form,
+though we don't live in an ideal world lol, or is it. 
+anyways the code text at this point certainly would be generated
+by something, since even I can't speak/write in lank without a
+reference, since I don't remember all the vocabulary, and I'm
+hesitant to learn it if it might change later. 
+1504 one thing I should do, is give a good output saying where
+and when an error has occured. I'll do that and move on to
+parsing. 
+2157 so even if it makes more sense to think about it in
+int16_t, it might be best to record and retrieve in uint8_t, or
+char since that is more platform independant, -- there are some
+big endian platforms out there -- also can send it 
+via worker messages that way. can add that to it.
+In terms of the batch coding, while I was thinking about making
+it uint16_t maybe uint8_t is better for the same reason. 
+also it would allow for somewhat better compression. 
+not having to convert frolm uint8_t to uint16_t or otherwise
+would also mean less conversion delay. 
+I could potentially have two indexes, one for words, and another
+for phrases.  a 0 could be a single byte word, a 1 could be a
+two byte word. though if I have more than two bytes then would
+need to use the other kind of index, with a bit for each byte,
+and flip for new word. though I think it would probably be more
+of a waste of space than simply having an extra byte for short
+words. hmmm well each phrase has at least one short word,
+possibly two. so that is two bytes, though processing those
+bytes also takes more effort than having aligned words. 
+also some systems, javascript included are actually natively
+char16_t so it shouldn't make much difference. converting to
+uint16_t from the transfered chars might actually be worthwhile.
+2209 so otherwise the first uint16_t in a batch will have the 
+phrase index. each batch of 16 int16_t's would be 32 bytes 
+or 256, 30 bytes or 240 bits of those would be operable.
+15 words basically, can expect a density of 3 to 5 phrases per
+batch.  
+} 08 Dec 2015
+0535 so saving and retrieving as uint8_t
+then can message pass data in a flow based manner.
+1233 okay the uint16_t to char works now. 
+now I guess a char to uint16_t array.
+1312 okay made it, guess can work on the parser tommorrow.
+} 09 Dec 2015
+0556 the sentence_size should actually reflect the batch size in
+bytes, since batches are the end result anyhow. 
+so that means 30 bytes. 
+0601 60 is a nicer number though... so maybe batches should be
+32bit..
+0619 debugging tokenizer.
+I think I'll have to remove whitespace in a seperate step to
+simplify things. 
+0623 it might also make sense to have some kind of buffer, where
+can take more glyphs from, or can put glyphs which haven't been
+used from previous batch. 
+} 10 Dec 2015
+0607 fixed a bug, thinking should have an intermediate step
+where a white-space free version of text is made, before
+tokenizing, since if there is white-space then can have
+non-aligned words which creates all sorts of issues -- like
+requiring a buffer. 
+0609 I'll do some meditation
+} 13 Dec 2015
+2245 been sick, taking some time off, don't want suboptimal code
+due to illness. but got idea that if verb final strict, then
+there is no need for sentence ender.
+} 14 Dec 2015
+0727 so according to my intuition should do OpenCl and SystemC
+integration, or perhaps SystemC and OpenCl and then everything
+else should fall into place given the limitations therin. 
+0752 so I'm compiling SystemC for ARM. I'll check on my OpenCl
+test stuff for now. 
+1356 so from my understanding each GPU thread can only write to
+shared memory,  much like message passing, it has the input
+message and the output message. each of the threads in a warp
+has the same algorithm, which in this case will be the VM. 
+I guess we should call it the GPU-VM, since it has to be so
+small and succinct enough to fit into the shared memory. I'm not
+sure how the code gets loaded, but it probably has to fit in
+there also. 
+the global process would then have to get these messages and put
+the results into global memory where necessary. 
+Can make the GPU-VM have a minimal amount of parts, thus making
+it's object or executable file relatively smile, especially sans
+the assert statements. 
+1718 so blackboards and tuple-spaces seems to be the most common
+AI decentralized schedulers. Basically like the output of one
+becomes the input of another, is the other is constantly looking
+for such input. 
+1730 lets imagine a french input, that requires and
+english output, a translation request. 
+say we have a user fred who speaks french and they want to
+translate bonjour to english, so they say:
+"su bonjour etre tranduce a anglais ya"
+this would get picked up as an input, 
+and be deposited as a batch indicating it's source and
+destination, which is presumably the same person. 
+though I guess we don't need to know the source, just the
+destination. 
+"a-destination fred su bonjour etre tranduce a anglais ya"
+so that would be the batch that would be put in the commons. 
+perhaps with a tag somewhere saying what language it is in. 
+ideally at the front. 
+"en-langue francais a-destination fred etre tranduce ob bonjour
+a anglais ya"
+this would be the batch..
+now it would be picked up by a french translating process, that
+translates stuff to lank.  
+1758 new word for language is klac /kläʃ/
+1801 anyways so the translating process would make it into a
+klac packet and change the language part
+klacclahfredtcuhnlictasalhhatyifhi (char)
+which would be picked up by the glyph-to-batch translator
+0b100110011,fredtcuhnlicta..salhha..tyifhi.. (int16_t)
+1835 I'm thinking for a message passing system like javascript,
+the workers can't search through shared memory, but the main
+thread can. So it comes across a language and then gives that
+sentence to the worker, the call-back-function would put the
+result in the former batch location. 
+the cortex a7 has as little as 8kb cache, so we'll presume a
+page size 0x1000B for the master node. so at 0x10 per batch 
+we'd have 0x100 batches in it. 
+though for initial glyph inputs I guess it's best to do 0x100
+per string. which is the standard. giving us 0x10 batches per
+page. we'd need 16-32 bytes for a batch that size, which seems
+ridiculous.. 
+1848 from-source
+http://countwordsworth.com/blog/what-is-a-good-average-sentence-length/
+says that good average is 15-20 words per sentence. so that
+would be 32-64 bytes with klac if we do 16-32 as maximum. 
+I think 16 is a reasonable maximum, so can make it 256bits,
+that would allow a single 32bit register to access them all.
+that would mean 128 batches per page. 
+still there is the string problem... 
+though I guess the strings could have multiple batches,
+especially if an even number
+to average 16 words, would need to have space for 32 words,
+so 32bit index makes most sense, though we'll see with real
+world stuff what is best. 
+1918 another thing the callback function can do, is check if the
+result batches verb is one of the output verbs, which master
+thread has to process, anything such as put or get or say 
+to console, global memory, or other streams, then it would have
+to act on it itself. 
+Another thing it could look for is error output,  though that
+could be a say error or something. 
+1934 using the destination operand could probably just use get
+and put for most things that the master thread has to do. 

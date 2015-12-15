@@ -170,7 +170,7 @@ conjugation.nominal = copulaNominal;
 function 
 copulaNominal(language, sentence,format,type, conjLevel){
 
-var sentence = sentence.copy();
+var sentence = sentence.copy(language);
 var result = new String();
 var joiner = "";
 var phrases = sentence.phrases;
@@ -296,7 +296,7 @@ return result;
 conjugation.text = textConjugate;
 function 
 textConjugate(language,text,format, type, conjLevel){
-var newText = text.copy();
+var newText = text.copy(language);
 var sentences = newText.sentences;
 var firstSentence = sentences[0];
 var lastSentence = sentences[sentences.length-1];
@@ -323,7 +323,7 @@ conjugation.sentence = sentenceConjugate;
 function 
 sentenceConjugate(language,sentence,format, type, conjLevel){
 
-var sentence = sentence.copy();
+var sentence = sentence.copy(language);
 var result = new String();
 format.joiner = " ";
 var phrases = sentence.phrases;
@@ -591,7 +591,7 @@ conjugation.header =
 conjugation.subjectPhrase = subjectPhraseConjugate;
 function
 subjectPhraseConjugate(language,phrase,format,conjLevel){
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body = phraseConjugate(language,newPhrase,format,"n",conjLevel);
 return body;
@@ -602,7 +602,7 @@ function objectPhraseConjugate(language,phrase,format,conjLevel)
 {
 var result = new String;
 
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body = phraseConjugate(language,newPhrase,format,"n",conjLevel);
 

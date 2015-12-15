@@ -60,7 +60,7 @@ else if (head === "tu") return "thou"+joiner;
 else if (head === "yu") return "ye"+joiner;
 else if (head === "si") return "they"+joiner;
 // main
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body = phraseConjugate(language,newPhrase,format,conjLevel);
 var result = new String();
@@ -74,10 +74,10 @@ function
 objectPhraseConjugate(language,phrase,format,conjLevel){
 var result = new String();
 var joiner = " ";
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body;
-if (phrase.body.be !== "Junction"){
+if (phrase.body && phrase.body.be !== "Junction"){
 if (newPhrase.body.body)
 var body = 
 nounConjugate(language,newPhrase.body.body,format,conjLevel,"n")

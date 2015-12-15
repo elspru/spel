@@ -94,7 +94,6 @@ var conjugationLevel = 0x4;
 //+ " on most common of grammar and phoneme and rhythm  ya "
 //+ " su it be most similar to Turkish and Chinese ya "
 //var string = "su make program ob fun ya";
-//var string = "be say ob quote phrase hello world phrase unquote ya ";
 //var string = "su plural people ob one ya";
 //var string = "su SPEL be now in early phase of grow ya"
 //+ " but su me be now add ob verb conjugation "
@@ -204,6 +203,10 @@ var string =
 +"but end su local people be sacrifice ob me to space people "
 +"that-which be part ob empire of many galaxy "
 +"from whirlpool galaxy ya "
+
+var string = "be say ob quote phrase hello world phrase unquote ya ";
+
+var string = "ob quote phrase hello world phrase unquote be say ya";
 
 console.log(string)
 //var tokens = tokenize.stringToWords(string);

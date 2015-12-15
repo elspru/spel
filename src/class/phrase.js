@@ -5,8 +5,13 @@ var Quote = require("./quote");
 var Type = require("./type");
 var Word = require("./word");
 var Clause = require("./clause");
+var err = require("../lib/error");
 module.exports = Phrase;
 function Phrase(language, input, conjLevel ){
+    if (language === undefined) {
+        console.log(err.stackTrace());
+        throw "Phrase error: language undefined";
+    }
 this.be = "Phrase";
 var tokens;
 if (typeof input === "string"){
@@ -33,7 +38,6 @@ else throw new TypeError(JSON.stringify(input)
 		+" not valid for "+this.be);
 // extract quotes
 tokens = parse.quotesExtract(language,tokens);
-
 // phrase parsing algorithm de
 // be get ob phrase do
 // if clauseInitial then get phrase from end ya else

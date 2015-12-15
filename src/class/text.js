@@ -8,6 +8,10 @@ var err = require("../lib/error");
 module.exports = Text;
 /// su sentence be object ya
 function Text(language, input, conjLevel) {
+    if (language === undefined) {
+        throw "Text error: language undefined";
+    }
+
 this.be = "Text";
 var tokens, i;
 if (typeof input === "string"){

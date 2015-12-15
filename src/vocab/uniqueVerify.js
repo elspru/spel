@@ -62,7 +62,7 @@ sentences[i].phraseDelete(mwak,".i");
 // check if same definition is found twice
 for (i=0;i<sentences.length;i++){
 var phrase = sentences[1].phraseGet(mwak,"ha");
-var sentence = sentences[1].copy();
+var sentence = sentences[1].copy(mwak);
 sentences.splice(1,1);
 //console.log(phrase.toString());
 var matches = definitions.indexOf(mwak,phrase.toString());

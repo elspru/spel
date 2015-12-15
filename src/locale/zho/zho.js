@@ -46,7 +46,7 @@ function subjectPhraseConjugate(language,phrase,format,conjLevel){
 // exceptions
 var joiner = " ";
 // main
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body =
 newPhrase.toLocaleString(language,format,undefined,conjLevel);
@@ -60,7 +60,7 @@ function objectPhraseConjugate(language,phrase,format,conjLevel){
 // exceptions
 var joiner = " ";
 // main
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body =
 newPhrase.toLocaleString(language,format,undefined,conjLevel);
@@ -74,7 +74,7 @@ function verbPhraseConjugate(language,phrase,format,conjLevel){
 // exceptions
 var joiner = " ";
 // main
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body =
 newPhrase.toLocaleString(language,format,undefined,conjLevel);

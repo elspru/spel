@@ -1,6 +1,9 @@
 var tokenize = require("../compile/tokenize");
+var err = require("../lib/error");
+
 //var parse = require("../compile/parse");
 function Quote(input) {
+    console.log("Quote");
     "use strict";
     this.be = "Quote";
     var tokens;
@@ -26,7 +29,10 @@ function quoteInputToMatch(input) {
         result = new Quote(input);
     } else if (input.be === "Quote") {
         result = input;
-    } else { throw new TypeError(input + " not valid match"); }
+    } else { 
+        var error = new TypeError(input + " not valid match"); 
+        throw error.stack;
+    }
     return result;
 }
 module.exports = Quote;

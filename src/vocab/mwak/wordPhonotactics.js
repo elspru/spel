@@ -31,12 +31,17 @@ var Glyph12Alphabet = 	["m","k","i","a","y","u","p","w",
     		       	 "n","s","t","l"];
 var Bit4Alphabet = 	["m","k","i","a","y","u","p","w",
     		       	 "n","s","t","l","h","f",".","c"];
+var Bit4AlphabetM = 	["m","k","i","y","p","w",
+    		       	 "n","s","t","l","h","f",".","c"];
 var Glyph19Alphabet = 	["m","k","i","a","y","u","p","w",
     		       	 "n","s","t","l","h","f",".","c",
 		       	 "e","o","r"];
 var Glyph24Alphabet = 	["m","k","i","a","y","u","p","w",
     		       	 "n","s","t","l","h","f",".","c",
 		       	 "e","o","r","b","g","d","z","j"];
+var Glyph24AlphabetM = 	["m","k","i","y","p","w",
+    		       	 "n","s","t","l","h","f",".","c",
+		       	 "r","b","g","d","z","j"];
 var Glyph31Alphabet = 	["m","k","i","a","y","u","p","w",
     		       	 "n","s","t","l","h","f",".","c",
 		       	 "e","o","r","b","g","d","z","j",
@@ -53,13 +58,15 @@ var alphabet = Bit2Alphabet;
 //var alphabet = Bit3Alphabet;
 //var alphabet = Glyph12Alphabet;
 var alphabet = Bit4Alphabet;
+var alphabet = Bit4AlphabetM;
 //var alphabet = Glyph19Alphabet;
-//var alphabet = Glyph24Alphabet;
+var alphabet = Glyph24Alphabet;
+var alphabet = Glyph24AlphabetM;
 //var alphabet = Glyph31Alphabet;
 //var alphabet = Bit5Alphabet;
-var comment = "X16G kya";
-var strictPhonotactics = false;
-var loosePhonotactics = true;
+var comment = "C16G kya";
+var strictPhonotactics = true;
+var loosePhonotactics = false;
 var noPhonotactics = false;
 var initialAffricates = false;
 var finalAffricates = false;
@@ -71,6 +78,8 @@ var plosiveNasalInitials = false; // pm, kn, tq, etc
 var adjacentGlides = false; // yw wy combinations
 var initialSonorityDifference = 0;
 var totalSonorityDifference = 0;
+var yAfterI = false;
+var wAfterU = false;
 if (noPhonotactics) noPhonotacticsSet();
 if (loosePhonotactics) loosePhonotacticsSet();
 if (strictPhonotactics) strictPhonotacticsSet();
@@ -86,6 +95,8 @@ function noPhonotacticsSet(){
 	initialSonorityDifference = 0;
 	totalSonorityDifference = 0;
 	adjacentGlides = true;
+    yAfterI = true;
+    wAfterU = true;
 }
 function loosePhonotacticsSet(){
 	finalAffricates = true;
@@ -97,19 +108,22 @@ function loosePhonotacticsSet(){
 	sonorityInversion = false;
 	samePhonemeTwice = false;// same phoneme twice
 	adjacentGlides = false;
+    yAfterI = true;
+    wAfterU = true;
 }
 function strictPhonotacticsSet(){
 	plosiveNasalInitials = false;
 	sonorityPlateau= false;
 	finalAffricates= false;
 	uniquePhonemes = true; 
-	plosiveNasalInitials = false;
 	adjacentGlides = false; 
  	initialSonorityDifference = 0x20;
 	totalSonorityDifference = 0x20;
 	sonorityInversion = false;
 	samePhonemeTwice = false;// same phoneme twice
 	adjacentGlides = false;
+    yAfterI = false;
+    wAfterU = false;
 }
 // su phoneme sonority be dictionary of glyph with unit8 ya
 /*Dict<glyph,uint8>*/ alphabet.sonority = {
@@ -206,18 +220,19 @@ alphabet.phonemeClass.checkType = function(type,glyph){
 
 // su syllable weight be array of string ya
 var /*array<String>*/ syllableWeight = [
+	[".","V"],
 	["H","V"],
-	["H","V","T"],
+	["H","V","T","H"],
 	["C","V"],
-	["C","V","T"],
-	["C","C","V"],
+	["C","V","T","H"],
+	["C","C","V","H"],
 	["C","C","V","T"],
-     	["C","V","C"],
-      	["C","V","T","C"],
+   	["C","V","C","H"],
+   	["C","V","T","C"],
 	["C","C","V","C"],
-	["C","C","V","T","C"],
-	["C","V","C","C"],
-	["C","V","T","C","C"]
+	["C","C","V","T","C","H"],
+/*	["C","V","C","C"],
+	["C","V","T","C","C","H"] */
 ];
 
 // su words generate be generate bo word array for syllable with
@@ -299,6 +314,14 @@ function /*array<String>*/ wordsGenerate(
 			if (!plosiveNasalInitials && !hasVowel &&
 			    alphabetCheck("p",previousGlyph)&&
 			    alphabetCheck("n",glyph))
+				return null;
+			if (!yAfterI && hasVowel &&
+			    previousGlyph == 'i' &&
+			    glyph == 'y' )
+				return null;
+			if (!wAfterU && hasVowel &&
+			    previousGlyph == 'u' &&
+			    glyph == 'w' )
 				return null;
 		// no plosive-nasal finals
 		//	if (hasVowel &&

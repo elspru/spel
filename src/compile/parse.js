@@ -494,7 +494,6 @@ function quotesExtract(language, tokens){
 // go backwards through tokens
 // else go forwards
 // return result
-
 var grammar = language.grammar;
 var quotes = grammar.quotes;
 var quoteHeads = quotes.quoteHeads;

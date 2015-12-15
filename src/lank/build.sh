@@ -7,6 +7,7 @@ CFILES="lank-vm.c"
 FILES="lank-vm lank-worker lank-prez lanklib"
 PURE_FILES="lank-vm lanklib"
 CACHE_LIMIT=1024
+HEAP_LIMIT=0
 GCCDEBUGFLAGS="-Wno-coverage-mismatch\
  -fstack-usage -Wstack-usage=$CACHE_LIMIT -Wlogical-op\
  -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations\

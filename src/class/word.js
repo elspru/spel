@@ -1,5 +1,6 @@
 var tokenize = require("../compile/tokenize");
 var translate = require("../compile/translate");
+var err = require("../lib/error");
 //var emitter = require("events").EventEmitter;
 
 // be order final ob tokens in language
@@ -103,9 +104,13 @@ function Word(language, input, partOfSpeech) {
     // else be final order ya
     //
     // be set ob this
+    if (language === undefined) {
+        console.log(err.stackTrace());
+        throw "Word error: language undefined";
+    }
 
     var tokens,
-        wordOrder = language.grammar.wordOrder,
+        wordOrder = language.grammar && language.grammar.wordOrder,
         tokenTuple,
         bodyTokens,
         headToken;

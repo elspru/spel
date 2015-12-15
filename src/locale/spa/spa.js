@@ -301,7 +301,7 @@ if (head === "mi") return "yo ";
 else if (head === "tu") return "tú ";
 
 // main
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body = newPhrase.toLocaleString(language,format,"n",conjLevel);
 var result = new String();
@@ -356,7 +356,7 @@ conjugation.objectPhrase = objectPhraseConjugate;
 function 
 objectPhraseConjugate(language,phrase,format,conjLevel){
 var joiner = " ";
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body = 
 phraseConjugate(language,newPhrase,format,conjLevel);

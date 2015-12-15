@@ -1,4 +1,7 @@
-
+exports.stackTrace = function stackTrace() {
+    var err = new Error();
+    return err.stack;
+}
 exports.indexCheck= function(length,index){
 	if (typeof index != "number")
 		throw new TypeError("su index bo "+index+" must be number ya"+

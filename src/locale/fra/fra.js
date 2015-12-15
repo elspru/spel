@@ -427,7 +427,7 @@ if (head === "mi") return "je"+joiner;
 else if (head === "tu") return "tu"+joiner;
 
 // main
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body = phraseConjugate(language,newPhrase,format,conjLevel);
 var result = new String();
@@ -455,7 +455,7 @@ if (head === "mi") return "me"+joiner;
 else if (head === "tu") return "te"+joiner;
 
 // main
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body = phraseConjugate(language,newPhrase,format,conjLevel);
 var result = new String();
@@ -553,7 +553,7 @@ function
 objectPhraseConjugate(language,phrase,format,conjLevel){
 var joiner = " ";
 
-var newPhrase = phrase.copy();
+var newPhrase = phrase.copy(language);
 delete newPhrase.head;
 var body = phraseConjugate(language,newPhrase,format,conjLevel);
 

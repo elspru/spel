@@ -1,8 +1,13 @@
 var tokenize = require("../compile/tokenize");
 var parse = require("../compile/parse");
 var Word = require("./word");
+var err = require("../lib/error");
 module.exports = Type;
 function Type(language,input,partOfSpeech){
+    if (language === undefined) {
+        console.log(err.stackTrace());
+        throw "Type error: language undefined";
+    }
 	this.be = "Type";
 	var tokens;
 	if (typeof input === "string"){
