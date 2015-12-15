@@ -38,6 +38,7 @@ else return '«'+foreignQuoteObject.body.join(" ")+'»';
 }
 conjugation.citationQuote = 
 function (language,foreignQuoteObject,format){
+console.log("citation quote");
 var typeFinal = language.grammar.wordOrder.typeFinal;
 if (typeFinal)
 return '“'+foreignQuoteObject.body.join(" ")+'”'+" "

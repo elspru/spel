@@ -62,7 +62,7 @@ var twitterLangs = [ ["eng",eng],["spa"],["ara"],["por"],
 ,["nld"],["swe"],["javs"],["mwak",mwak]
 ];
 
-var coreLangs = [["eng",eng],/*["zho"],["spa"],["rus"],
+var coreLangs = [["eng",eng],/*["zho"],*/["spa"],["rus"],
 /*["ind"],["jpn"],["fra"],*/["javs"],["mwak",mwak]];
 var langs = coreLangs;
 //var langs = gnuSocialLangs;
@@ -204,9 +204,9 @@ var string =
 +"that-which be part ob empire of many galaxy "
 +"from whirlpool galaxy ya "
 
-var string = "be say ob quote phrase hello world phrase unquote ya ";
-
 var string = "ob quote phrase hello world phrase unquote be say ya";
+var string = "su program be translate ob sentence ya"
+
 
 console.log(string)
 //var tokens = tokenize.stringToWords(string);
@@ -219,7 +219,9 @@ var word = new Text(eng,string);
 console.log(word.toString());
 console.log(JSON.stringify(word));
 
-langs.forEach(toLangStringTranslate.curry(conjugationLevel).curry(word));
+langs.forEach(toLangStringTranslate.curry(0).curry(word));
+
+console.log("#lank "+word.toString());
 
 function toLangStringTranslate(conjugationLevel,word,tuple){
 
