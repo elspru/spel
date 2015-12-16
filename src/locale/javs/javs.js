@@ -535,9 +535,9 @@ type,conjLevel){
 // if one of comparatives replace it
 // else return it as normal sentence
 
-//if (!innerSentence.nominal)
-//return sentenceConjugate(language,innerSentence,format,type,
-//conjLevel);
+if (!innerSentence.nominal)
+return sentenceConjugate(language,innerSentence,format,type,
+conjLevel);
 
 var result = new String();
 

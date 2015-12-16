@@ -62,7 +62,7 @@ var twitterLangs = [ ["eng",eng],["spa"],["ara"],["por"],
 ,["nld"],["swe"],["javs"],["mwak",mwak]
 ];
 
-var coreLangs = [["eng",eng],/*["zho"],*/["spa"],["rus"],
+var coreLangs = [["eng",eng],/*["zho"],["spa"],["rus"],*/
 /*["ind"],["jpn"],["fra"],*/["javs"],["mwak",mwak]];
 var langs = coreLangs;
 //var langs = gnuSocialLangs;
@@ -206,6 +206,7 @@ var string =
 
 var string = "ob quote phrase hello world phrase unquote be say ya";
 var string = "su program be translate ob sentence ya"
+var string = "if bo condition then bo solution ya"
 
 
 console.log(string)
@@ -219,7 +220,7 @@ var word = new Text(eng,string);
 console.log(word.toString());
 console.log(JSON.stringify(word));
 
-langs.forEach(toLangStringTranslate.curry(0).curry(word));
+langs.forEach(toLangStringTranslate.curry(conjugationLevel).curry(word));
 
 console.log("#lank "+word.toString());
 
