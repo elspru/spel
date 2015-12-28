@@ -25,8 +25,12 @@ if [[ $TO == $FROM ]]
 then
 OUT=$OB
 else
-OUT=`echo $OB | translate-bin -s $BY -f $FROM -t $TO` 2>/dev/null
+OUT=`./trans -s $FROM :$TO` $OB 2>/dev/null
 fi
 
-OUTF=`echo $OUT|awk -F'>' '{print $2;}'`
-echo $OUTF
+echo $OUT
+
+#LANG=$1
+#shift
+#WORD=$@
+#./trans --brief :$LANG $WORD

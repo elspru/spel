@@ -10,8 +10,8 @@ if [ $TO == $FROM ]
 then
 OUTF=$OB
 else 
-OUT=`echo $OB | translate-bin -s $BY -f $FROM -t $TO 2>/dev/null`
-OUTF=`echo $OUT|awk -F'>' '{print $2;}'`
+OUT=`./trans --brief :$TO $OB 2>/dev/null`
+OUTF=$OUT
 fi
 if [ $TO == "ar" ]
 then PHON=`arabicToIPA $OUTF`

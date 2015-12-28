@@ -47,7 +47,8 @@ ksu li hu than li ha ya
 kli li hu exclusive-or li ha ya
 kla li hu but li ha ya
 klu li hu clause-tail li ha ya
-kfa li hu adjective-affix li ha ya
+kfa li hu fraction li ha ya
+kci li hu then li ha ya
 kca li hu there li ha ya
 pyi li hu verb-affix li ha ya
 pya li hu on li ha ya
@@ -73,21 +74,23 @@ sla li hu hello li ha ya
 tyi li hu quote li ha ya
 tya li hu  after ha ya
 tyu li hu him li ha ya
-twa li hu then li ha ya
+twa li hu outside-of li ha ya
 twu li hu dual li ha ya
 tsi li hu yes li ha ya
 tsa li hu untill li ha ya
-tsu li hu noun-affix li ha ya
+tsu li hu except li ha ya
 tli li hu ord li ha ya
 tla li hu for li ha ya
+tlu li hu floating-point-number li ha ya
 tfa li hu at li ha ya
 tci li hu here li ha ya
-tcu li hu out li ha ya
+tcu li hu to-destination li ha ya
 fyu li hu few li ha ya
 fwa li hu for li ha ya
 cyi li hu her li ha ya
 cya li hu  else ha ya
 cwa li hu byebye li ha ya
+cla li hu in-language li ha ya
 mik hu  make ha ya
 miy hu  memory ha ya
 mip hu  past ha ya
@@ -279,6 +282,7 @@ kyul hu  rule ha ya
 kyuc hu excuse li ha ya
 kwit hu  gravity ha ya
 kwic hu village li ha ya
+kwam hu unit-of-mass li ha ya
 kwat hu  strong ha ya
 kwul hu call li ha ya
 ksim hu expect li ha ya
@@ -316,7 +320,7 @@ klan hu colony li ha ya
 klas hu  class ha ya
 klat hu  clause ha ya
 klaf hu claim li ha ya
-klac hu  except ha ya
+klac hu language li ha ya
 klum hu  column ha ya
 klup hu global li ha ya
 klun hu  hunger ha ya
@@ -326,6 +330,7 @@ kluc hu crime li ha ya
 kfin hu  config ha ya
 kfit hu  effect ha ya
 kfan hu  confirm ha ya
+kfas hu fraction li ha ya
 kfat hu  adjective ha ya
 kfac hu ear li ha ya
 kfup hu cup li ha ya
@@ -400,7 +405,7 @@ psuf hu breast li ha ya
 psuc hu expression li ha ya
 plin hu  plane ha ya
 plic hu particle li ha ya
-plam hu  plasma ha  mast fwas hi ya
+plam hu  plasma ha  lik mast fwas hi ya
 pak hu apply li ha ya
 play hu  play ha ya
 plan hu  plan ha ya
@@ -451,6 +456,7 @@ syik hu sick li ha ya
 syip hu  clean ha ya
 syiw hu  serve ha ya
 syit hu  send ha ya
+syil hu cell li ha ya
 syif hu reserve li ha ya
 syic hu  research ha ya
 syam hu  stay ha ya
@@ -564,6 +570,7 @@ tciy hu  change ha ya
 tcin hu  chain ha ya
 tcil hu  jail ha ya
 tcam hu chew li ha ya
+tcak hu speak li ha ya
 tcay hu attitude li ha ya
 tcap hu  transparent ha ya
 tcan hu  tree ha ya
@@ -657,6 +664,7 @@ mast hu  matter ha ya
 malk hu advertisement li ha ya
 malp hu  reward ha ya
 malt hu metal li ha ya
+malf hu oil li ha ya
 malc hu regret li ha ya
 maft hu admit li ha ya
 mack hu  imagine ha ya
@@ -1014,7 +1022,6 @@ lask hu offend li ha ya
 lasp hu fight li ha ya
 last hu  list ha ya
 laft hu  benefit ha ya
-lack hu language li ha ya
 lumk hu  logarithm ha ya
 lumt hu  melody ha ya
 luwt hu  lute ha ya
