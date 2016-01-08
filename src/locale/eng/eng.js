@@ -49,27 +49,148 @@ var isPronoun = wrld.conjugation.isPronoun;
 //conjugation.copula = "is";
 //conjugation.nominal = wrld.conjugation.copulaNominal;
 
-conjugation.subjectPhrase = subjectPhraseConjugate;
-function subjectPhraseConjugate(language,phrase,format,conjLevel){
-// exceptions
-var joiner = " ";
-var head = phrase && phrase.body && phrase.body.head 
-&& phrase.body.head.head;
-if (head === "mi") return "I"+joiner;
-else if (head === "tu") return "thou"+joiner;
-else if (head === "yu") return "ye"+joiner;
-else if (head === "si") return "they"+joiner;
-// main
-var newPhrase = phrase.copy(language);
-delete newPhrase.head;
-var body = phraseConjugate(language,newPhrase,format,conjLevel);
-var result = new String();
-result = body;
-return result;
+function nounConjugate(language,Word,format,conjLevel,ender){
+    if (ender === undefined) ender = "";
+    var head, body,
+        joiner = " ",
+        nounSuffix = "an",
+        fromMwak = language.dictionary.fromMwak;
+    if (ender === "S") {
+        nounSuffix = "a";
+        ender = "";
+    }
+    if (Word.body){
+        var body = translate.array(fromMwak, Word.body);
+        body = body.map(function(word) { return word; });
+        body = body.join(joiner);
+    }
+    if (Word.head){
+        var head = translate.word(fromMwak, Word.head);
+        head = head + nounSuffix + ender;
+    }
+    
+    var result = new String();
+    if (body && head) result = body + joiner + head;
+    else { 
+        if (head) result = head;
+        else if (body)  result = body;
+    }
+    return result;
+}
+conjugation.noun = nounConjugate;
+
+
+function pluralize(Type,body,head){
+    var result = new String();
+    var joiner = " ";
+    var number = mwak.grammar.number;
+    if (body){
+        if (Type.head && Type.head.head && 
+                parse.wordMatch(number.all, Type.head.head)){
+            if (parse.wordMatch(number.plural, Type.head.head))
+                result= body.replace(/$/, "s"); 
+            else result= head+joiner+body.replace(/$/, "s"); 
+        } else if (Type.head) {
+            result = head + joiner + body;
+        } else {
+            result = body; 
+        }
+    }
+    else if (head) result = head;
+    return result + joiner;
 }
 
+function nounTypeConjugate(language,Type,format,conjLevel){
+    var result = new String();
+    var body = new String();
+    var head = new String();
+    var limb = new String();
+    if (Type.limb)
+    limb = Type.limb.toLocaleString(language, format, "n",
+        conjLevel);
+    if (Type.body) {
+        var body = Type.body.toLocaleString(language, format,
+            "n", conjLevel);
+    }
+    if (Type.head) {
+        head = Type.head.toLocaleString(language, format, "th", 
+            conjLevel);
+    }
+    // pluralize
+    result = pluralize(Type, body, head)
+    if (limb.length>0)
+    result+= limb;
+    return result;
+}
+conjugation.nounType = nounTypeConjugate;
 
-conjugation.objectPhrase = objectPhraseConjugate;
+
+function phraseConjugate(language,phrase,format,conjLevel,ender){
+    var joiner = " ";
+    if (phrase.body){
+        var body = phrase.body.toLocaleString(language, format,
+            "n", conjLevel);
+    }
+    if (phrase.head)
+        var adposition = phrase.head.toLocaleString(language,
+            format, "ch", conjLevel);
+    if (phrase.clause)
+        var clause = phrase.clause.toLocaleString(language, 
+            format, "n", conjLevel);
+    if(phrase.subPhrase){
+        var subPhrase = phrase.subPhrase.toLocaleString(
+            language, format, "n", conjLevel);
+    }
+    var result = new String();
+    if (adposition) result += adposition + joiner;
+    if (body) result += body + joiner;
+    if (subPhrase) result += subPhrase + joiner;
+    if (clause) result += clause + joiner;
+    result = result.replace(/  $/, " ");
+    return result;
+}
+conjugation.phrase = phraseConjugate;
+
+
+function subjectPhraseConjugate(language,phrase,format,conjLevel){
+    // exceptions
+    var joiner = " ";
+    var head = phrase && phrase.body && phrase.body.head 
+        && phrase.body.head.head;
+    if (head === "mi") return "I"+joiner;
+    else if (head === "tu") return "thou"+joiner;
+    else if (head === "yu") return "ye"+joiner;
+    else if (head === "si") return "they"+joiner;
+    // main
+    var result = new String();
+    var newPhrase = phrase.copy(language);
+    delete newPhrase.head;
+    var body;
+    if (newPhrase.body && newPhrase.body.type === "mwq") {
+        return wrld.conjugation.citationQuote(
+            language,newPhrase.body, format) + " ";
+    }
+    if (phrase.body && phrase.body.be !== "Junction"){
+        if (newPhrase.body.body) {
+            var body = nounConjugate(language, 
+                newPhrase.body.body, format, conjLevel, "S")
+        }
+        if (newPhrase.body.head) {
+            var head = newPhrase.body.head.toLocaleString(
+                language, format, conjLevel)
+        }
+        // pluralize
+        var Type = phrase.body;
+        result = pluralize(Type,body,head);
+        delete newPhrase.body.body;
+        delete newPhrase.body.head;
+    }
+    result +=
+    phraseConjugate(language,newPhrase,format,conjLevel,"n")
+    return result;
+}
+conjugation.subjectPhrase = subjectPhraseConjugate;
+
 function 
 objectPhraseConjugate(language,phrase,format,conjLevel){
     console.log(" eng obj phrase "+phrase.toString());
@@ -79,27 +200,30 @@ objectPhraseConjugate(language,phrase,format,conjLevel){
     delete newPhrase.head;
     var body;
     if (newPhrase.body && newPhrase.body.type === "mwq") {
-    return wrld.conjugation.citationQuote(language,newPhrase.body,
-        format) + " ";
+        return wrld.conjugation.citationQuote(
+            language,newPhrase.body, format) + " ";
     }
     if (phrase.body && phrase.body.be !== "Junction"){
-    if (newPhrase.body.body)
-    var body = 
-    nounConjugate(language,newPhrase.body.body,format,conjLevel,"n")
-    if (newPhrase.body.head)
-    var head = 
-    newPhrase.body.head.toLocaleString(language,format,conjLevel)
-    
-    // pluralize
-    var Type = phrase.body;
-    result = pluralize(Type,body,head);
-    delete newPhrase.body.body;
-    delete newPhrase.body.head;}
+        if (newPhrase.body.body) {
+            var body = nounConjugate(language, 
+                newPhrase.body.body, format, conjLevel)
+        }
+        if (newPhrase.body.head) {
+            var head = newPhrase.body.head.toLocaleString(
+                language, format, conjLevel)
+        }
+        // pluralize
+        var Type = phrase.body;
+        result = pluralize(Type,body,head);
+        delete newPhrase.body.body;
+        delete newPhrase.body.head;
+    }
     result +=
     phraseConjugate(language,newPhrase,format,conjLevel,"n")
     if (isPronoun(phrase)) return result;
     return result;
 }
+conjugation.objectPhrase = objectPhraseConjugate;
 
 function affixStrip(word){
 if (isVowel(word[word.length-1]))
@@ -112,114 +236,15 @@ if (vowels.indexOf(glyph)!== -1) return true;
 else false;
 }
 
-conjugation.noun = nounConjugate;
-function nounConjugate(language,Word,format,conjLevel,ender){
-if (ender === undefined) ender = "";
-var head, body;
-var fromMwak = language.dictionary.fromMwak;
-var joiner = " ";
-if (Word.body){
-var body = 
-translate.array(fromMwak,Word.body);
-body = body.map(function(word){
-return word+"y";});
-body = body.join(joiner);
-}
-if (Word.head){
-var head = 
-translate.word(fromMwak,Word.head);
-head = head+"a"+ender;
-}
-
-var result = new String();
-if (body && head)
-result = body+joiner+head;
-else{
-if (head) result = head;
-else if (body)  result = body;
-}
-return result;
-}
-
-
-conjugation.nounType = nounTypeConjugate;
-function nounTypeConjugate(language,Type,format,conjLevel){
-
-var result = new String();
-var body = new String();
-var head = new String();
-var limb = new String();
-if (Type.limb)
-limb = 
-Type.limb.toLocaleString(language,format,"n",conjLevel);
-if (Type.body)
-var body = 
-Type.body.toLocaleString(language,format,"n", conjLevel)
-if (Type.head)
-head = Type.head.toLocaleString(language,format,"th", conjLevel)
-
-// pluralize
-result = pluralize(Type,body,head)
-if (limb.length>0)
-result+= limb;
-return result;
-}
 
 conjugation.mood = moodConjugate;
 function moodConjugate(language,Word,format,conjLevel){
-var fromMwak = language.dictionary.fromMwak;
-var word = translate.word(fromMwak,Word.head);
-word = word;
-return word+"e";
+    var fromMwak = language.dictionary.fromMwak;
+    var word = translate.word(fromMwak,Word.head);
+    word = word;
+    return word+"e";
 }
 
-function pluralize(Type,body,head){
-var result = new String();
-var joiner = " ";
-var number = mwak.grammar.number;
-if (body){
-if (Type.head && Type.head.head
-&& parse.wordMatch(number.all,Type.head.head)){
-if (parse.wordMatch(number.plural,Type.head.head))
-result= body.replace(/$/,"s"); 
-else result= head+joiner+body.replace(/$/,"s"); 
-}
-else if (Type.head) result= head+joiner+body;
-else result= body; 
-}
-else if (head) result= head;
-return result+joiner;
-}
-
-
-
-conjugation.phrase = phraseConjugate;
-function phraseConjugate(language,phrase,format,conjLevel,ender){
-var joiner = " ";
-if (phrase.body){
-var body = phrase.body.toLocaleString(language,format,"n",
-conjLevel);
-}
-if (phrase.head)
-var adposition = phrase.head.toLocaleString(language,format,
-"ch",conjLevel);
-if (phrase.clause)
-var clause = phrase.clause.toLocaleString(language,format,
-"n",conjLevel);
-if(phrase.subPhrase){
-var subPhrase =
-phrase.subPhrase.toLocaleString(language,format,"n",conjLevel);
-}
-
-var result = new String();
-
-if (adposition) result += adposition+joiner;
-if (body) result += body+joiner;
-if (subPhrase) result += subPhrase+joiner;
-if (clause) result += clause+joiner;
-result = result.replace(/  $/," ");
-return result;
-}
 
 conjugation.verbAgreement = verbAgreementConjugate;
 function verbAgreementConjugate(language,sentence,format,conjLevel){
