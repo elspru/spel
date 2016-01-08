@@ -48,6 +48,7 @@ kli li hu él li ha ya
 kla li hu pero li ha ya
 klu li hu cláusula-de-la-cola li ha ya
 kfa li hu adjetivo-afijo li ha ya
+kci li hu  en ese undefined ha ya
 kca li hu ja li ha ya
 pyi li hu verbo-afijo li ha ya
 pya li hu sobre li ha ya
@@ -72,6 +73,7 @@ swi li hu mientras li ha ya
 sli li hu else-if li ha ya
 sla li hu hola li ha ya
 tya li hu después li ha ya
+tyu li hu él li ha ya
 tyu li ha ya
 tyi li hu cita li ha ya
 twu li hu dual li ha ya
@@ -79,6 +81,7 @@ tsa li hu hasta-el li ha ya
 tsi li hu sí li ha ya
 tsu li hu sustantivo-afijo li ha ya
 tla li hu para li ha ya
+tlu li hu  de punto flotante de undefined ha ya
 fyi li hu ella li ha ya
 tfa li hu a li ha ya
 tci li hu Aquí li ha ya
@@ -87,6 +90,7 @@ tcu li hu fuera li ha ya
 fwa li hu para li ha ya
 cyi li hu su li ha ya
 tli li hu  ord ha ya
+cla li hu  en su idioma li ha ya
 cwa li hu adios li ha ya
 fyu li hu pocos li ha ya
 cya li hu más li ha ya
@@ -278,6 +282,7 @@ kwit hu gravedad li ha ya
 kyam hu llevar li ha ya
 kyuc hu excusa li ha ya
 kyit hu cada li ha ya
+kwam hu  unidad de undefined ha ya
 kwic hu pueblo li ha ya
 myin hu soñar li ha ya
 kwul hu llamada li ha ya
@@ -325,6 +330,7 @@ ksuf hu describir li ha ya
 kluc hu crimen li ha ya
 ktin hu religión li ha ya
 kcat hu las-ocho li ha ya
+kfas hu fracción li ha ya
 kfan hu confirmar li ha ya
 pyik hu rotura li ha ya
 kfac hu oreja li ha ya
@@ -450,6 +456,7 @@ pcit hu apreciar li ha ya
 syik hu enfermo li ha ya
 pcil hu especial li ha ya
 slim hu  ejemplo ha ya
+syil hu celda li ha ya
 plan hu plan li ha ya
 syif hu reserva li ha ya
 syan hu cian li ha ya
@@ -563,6 +570,7 @@ tlik hu electricidad li ha ya
 tlum hu viejo li ha ya
 tlis hu desear li ha ya
 tcap hu transparente li ha ya
+tcak hu hablar li ha ya
 tcam hu masticar li ha ya
 tcay hu actitud li ha ya
 tlin hu  ordinal ha ya
@@ -656,6 +664,7 @@ masp hu molestar li ha ya
 flut hu flor li ha ya
 malk hu anuncio li ha ya
 mayn hu armonía li ha ya
+malf hu aceite li ha ya
 mant hu magenta li ha ya
 malc hu lamentar li ha ya
 maft hu admitir li ha ya
@@ -1016,8 +1025,11 @@ tuyn hu turno li ha ya
 tuys hu ladrón li ha ya
 tuyc hu destruir li ha ya
 fiym hu firma li ha ya
+fiwn hu evidencia li ha ya
+fink hu dedo li ha ya
 fiyn hu evitar li ha ya
 fiys hu versión li ha ya
+famk hu familiar li ha ya
 /sˈa5˧n tɕjˈɑu2˧˥ʔ ɕˈiɜŋ/ 三角形 :zh. /tɹˈaɪaŋɡəl/ triangle :en.
 /tɾiˈaŋɡulo/ triángulo :es. /tɾɪkˈoːɳ/ त्रिकोण :hi. /mθlθ/
 مثلث :ar. /sˈɛɡi tˈiɡa/ segi tiga :id. /trʲiuɡˈoɭnik/
@@ -1028,19 +1040,62 @@ fiys hu versión li ha ya
 triángulo li ha ya
 lisk hu vacaciones li ha ya
 tukc hu Turco li ha ya
+fant hu evento li ha ya
+fask hu extra li ha ya
 liyp hu biblioteca li ha ya
 talp hu mesa li ha ya
 layt hu once li ha ya
+fack hu fuego li ha ya
+fact hu suficiente li ha ya
+fumt hu mañana li ha ya
 lank hu local li ha ya
 tusk hu progreso li ha ya
+fuys hu ofensa li ha ya
 tamk hu mirar li ha ya
+funt hu confianza li ha ya
 liwk hu legal li ha ya
+fust hu falda li ha ya
 tanp hu aparecer li ha ya
+fulc hu cabello li ha ya
+cimt hu  imaginaria - undefined ha ya
 tack hu agradecer li ha ya
+ciyn hu región li ha ya
+ciwk hu aldea li ha ya
 tuwm hu duración li ha ya
 fayt hu hecho li ha ya
+cisk hu agudo li ha ya
+cisp hu particular li ha ya
+cist hu historia li ha ya
+cilk hu mejilla li ha ya
+cils hu resolver li ha ya
+cilt hu quietud li ha ya
+camk hu camisa li ha ya
+cayk hu juez li ha ya
+cayp hu vergüenza li ha ya
+cayn hu sobrevivir li ha ya
+cays hu premio li ha ya
+cayf hu mandíbula li ha ya
+cawn hu animal li ha ya
 list hu minimo li ha ya
+canp hu hábito li ha ya
 fals hu falso li ha ya
+cast hu estación li ha ya
+calk hu corazón li ha ya
+cafk hu víctima li ha ya
+cumt hu enemigo li ha ya
+cuym hu rumor li ha ya
+cuyk hu Quemadura li ha ya
+cuyp hu cadera li ha ya
+cuyn hu río li ha ya
+cuys hu casa li ha ya
+cuyt hu ciudad li ha ya
+cunk hu canta li ha ya
+cunt hu coser li ha ya
+cusk hu ciudad li ha ya
+cusp hu Zapatos li ha ya
+cust hu existir li ha ya
+culp hu olor li ha ya
+cult hu hombro li ha ya
 falt hu defecto li ha ya
 funk hu función li ha ya
 lant hu lento li ha ya

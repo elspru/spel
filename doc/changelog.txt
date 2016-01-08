@@ -5517,3 +5517,172 @@ Another thing it could look for is error output,  though that
 could be a say error or something. 
 1934 using the destination operand could probably just use get
 and put for most things that the master thread has to do. 
+} 15 Dec 2015
+1748 thinking that even with message passing the workers could
+be the search agents, by requesting a list, or a single block of
+ language identifiers, or verbs, 
+} 20 Dec 2015
+0705 ideally would make something generic enough, that any kind
+of parallel ideology could be fit in it.  Also the interface
+would be ideally something similar to giving orders to workers,
+or soldiers, something that a leader might be used to doing. 
+This is where the subject comes in, or the vocative. 
+hey processor2 be perform ob function4 ya
+hey processor3 su user1 be ...
+0717 hmmm not even sure how to use it. 
+I guess the subject is more for using objects. 
+hey processor 4 su cabinet be open do
+0726 so basically a multi layered blackboard system would do,
+a mini eco-system for every GPU and CPU core,  with the main one
+being at the main thread.  
+0750 so creatures could be a higher order function, which
+accepts a function, the time to live, and starvation speed. 
+it could be instantiated on some processor. 
+0811 so when coding, how do we make it easy to make creatures,
+and for them to work together? especially at the bytecode level.
+there would have to be something like examine, or examine self,
+to see how many processors are available. and a simple way of
+pushing off some functions to that processor.  I know typically
+it is done with threads, but I think they are rather overly
+abstract. 
+abstraction is good for portability, though knowing specifically
+what is going on is best for performance.  It is possible to
+have both of course. 
+Anyways we don't even have to implement multi-threading right
+away. just have the idea of how to do so, so that the code is
+forwards compatible. 
+even a single threaded VM will be better than nothing. 
+I think the confusing part now is how the main thread will
+decide to delegate to other threads.  
+The simplest case would probably where it delegates everything,
+but there aren't infinite resources or processors available.
+} 22 Dec 2015
+2242 what I really want to do most is work on those word
+generating scripts. So it would give a list of potentially
+matching words which are still available. 
+Ideally I would make a script that would do it from scratch,
+adding the words based on frequency list. though It's hard to
+have a frequency list since we haven't actually used the
+language yet.
+but whatever it's pretty obvious I'm fooling around with things
+I've already done, it's like that information bias thing, I
+already know about this, so I'm comfortable with it, and want to
+continue fiddling. 
+What I'm not comfortable with, what I'm confused about is, the
+parallel programming. and how that is going to look, in a simple
+and useable way. similar to that of a story.  
+I guess first we would define the characters, they would be the
+processes. Character is unfortunately a rather ambigious word,
+maybe should use people or something. defining people. or
+persons.. though that could get into some complicated territory. 
+2253 a Persona, that is probably the best word for it. 
+anyways then would define the story line, the protagonist would
+be the main thread, or main persona that is acting on the
+memory, but other personas would act on it as well..
+so really there has to be a background persona for the
+environment, which will notify the personas that there is some
+data they may like to work on. 
+the protagonist could then be responsbile for input and output.
+so the persona blocks would describe what kind of input data
+they like, they would do something with it and make some output
+data.  
+the protagonist block would also describe what kind of input
+data it likes, and it would describe how it will output that
+data to the user. 
+the protagonist could also accept input from the user, and put
+it into the ecosystem.
+The ecosystem thread would simply pattern match to see if there
+is a thread that would find the data interesting, if yes then it
+would give it to that thread. 
+Though certainly ideally the threads would look for stuff
+themselves, once they are done processing the old stuff.. 
+though that would require shared memory, which isn't available
+for javascript. 
+otherwise maybe can make something like the ecosystem thread
+would only search if it has requests to fulfill,  the requests
+would be matches and return addresses (function calls), so if 
+a match is found, then it would call the function, and take it
+off it's request queue. 
+2310 anyways sleep for soon. will think about the syntax. 
+su french translator be start ob persona ya
+su me be know ob french language ya
+su me be seek ob batch with quote glyph en-langue francais glyph
+unquote at start as french batch then
+su me be translate ob french batch to mwak as mwak batch then
+su me be output ob mwak batch ya
+su french translator be end ob persona ya
+su main be start ob persona ya
+su me be ask ob user for text in-language french as french text
+then su me be put ob french text in community ya
+su me be seek ob mwak batch then
+su me be say ob mwak batch to user ya
+2324 okay so hopefully that will work. can dream on it.
+2326
+su community be start ya
+su me be birth ob french translator ya
+su me be birth ob main ya
+su community be end ya
+2327 each persona can have default values for time to live and
+hunger metrics. they can be overriden by setting up something
+else in the persona description. 
+su main be end ya
+} 23 Dec 2015
+1548 one of the most important things for such asynchronous
+transactions is a collate function.  So there should be some
+kind of way of indicating the order when there is a multi-batch
+things.  Since the batches can be processed out of order, but
+they have to be assembled into the proper order for output. 
+There would have to be some kind of collating organism to do so.
+it could for instance make a linked list of the batch indexes.
+} 24 Dec 2015
+0647 so start out with single thread,  can have the processes
+going concurrently. If a persona asks to be reproduced then can
+parallelize, as it has been around long enough to need it. 
+} 28 Dec 2015
+0750 okay so we basically have the idea with the VM,
+there are a few kinks to work out, like collation. 
+but I'd like to write a story in SPEL now. 
+it is also easier to apply portion of SPEL. 
+Okay so have to see if I have those file translating scripts
+working. 
+0802 am jslinting fileTranslate.js so it will be easier to
+debug.
+0900 seems that my google translate engine isn't working
+anymore, so I might have to make scripts that work with hand
+inputed translations. 
+0920 got new translation script ./trans so will have to update
+scripts accordingly. 
+0921 also got idea about how the blackboard or ecosystem can
+have rooms or areas, with locks, for security purposes.  and the
+environment manager thread can identify if a process has a
+proper key for that area. there can be a set of keys, some more
+permananet others more temporary.  if there is a breach all keys
+can be flushed and renegotiated based on legitimacy. 
+0947 okay updated the ordinary wordTranslate.sh for it.
+1004 need to update translationUpdate.js will have to jsHint and
+jslint it most likely, as it is rather confusing. 
+1402 so it seems to me that some of the project is in Beta,
+or debugging rather than adding new features. 
+the console version anyways.
+wheras the web interface might still be in alpha.
+2252 jslinted translationUpdate, will have to break up some of
+it's larger functions.
+} 29 Dec 2015
+0731 seems that based on the Russia 2045 initiative, Russia will
+have a single or just a handful of super powerful, likely
+villanaous AI's.
+http://qz.com/581664/the-eye-opening-things-that-made-us-smarter-in-2015/
+1932 I have a vague idea for the 4KB (page) layout, 
+also need idea for the 65KB (operating system level) layout. 
+} 05 Jan 2015
+0639 so still have to figure out translationUpdate
+0821 I think I'm getting close to figureing it out. 
+on a similar topic I think I might be able to parallelize the
+translation,  as each file can be translated independantly. 
+I simply have to get it to have a process for each file, rather
+than doing the files in sequence. 
+0831 great it is working, will try to figure out parallelizing
+it next time. 
+} 07 Jan 2015
+2152 actually lets try using it first, there should be enough
+vocab for a reasonably wide level of expression. 

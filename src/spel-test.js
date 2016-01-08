@@ -226,46 +226,43 @@ console.log("#lank "+word.toString());
 
 function toLangStringTranslate(conjugationLevel,word,tuple){
 
-var code = tuple[0];
-var lang = tuple[1];
-
-if (!lang){
-var Lang = require("./locale/"+code+"/"+code);
-lang = new Lang();
-tuple[1]=lang;
-//console.error(code+" language loaded"); 
-}
-
-
-var format = new Object();
-format.ipa = true;
-//format.newline = " ";
-format.rhythm = true;
-format.secondaryRhythm = false;
-format.lineLength = 60;
-
-var langName = new String();
-if (code === "javs") langName = "nodejs";
-else if (code === "spa") langName = "español";
-else if (code === "eng") langName = "english";
-else if (code === "zho") langName = "中文";
-else if (code === "fra") langName = "français";
-else if (code === "deu") langName = "Deutsch";
-else if (code === "ara") langName = "لغةالعربية";
-else if (code === "rus") langName = "русский";
-else if (code === "swe") langName = "svensk";
-else if (code === "por") langName = "português";
-else if (code === "ind") langName = "Melayu";
-else if (code === "tur") langName = "Türk";
-else if (code === "tha") langName = "ไทย";
-else if (code === "jpn") langName = "日本人";
-else if (code === "nld") langName = "Nederlands";
-else if (code === "mwak") langName = "mwak";
-console.log("#"+langName+": " +
-word.toLocaleString(lang,format,"t",conjugationLevel) );
-//var javs = new Javs(lang.dictionary);
-//console.log("#nodejs "+langName+" "+
-//word.toLocaleString(javs,format,"t",conjugationLevel));
+    var code = tuple[0];
+    var lang = tuple[1];
+    
+    if (!lang){
+        var Lang = require("./locale/"+code+"/"+code);
+        lang = new Lang();
+        tuple[1]=lang;
+        //console.error(code+" language loaded"); 
+    }
+    var format = new Object();
+    format.ipa = true;
+    //format.newline = " ";
+    format.rhythm = true;
+    format.secondaryRhythm = false;
+    format.lineLength = 60;
+    var langName = new String();
+    if (code === "javs") langName = "nodejs";
+    else if (code === "spa") langName = "español";
+    else if (code === "eng") langName = "english";
+    else if (code === "zho") langName = "中文";
+    else if (code === "fra") langName = "français";
+    else if (code === "deu") langName = "Deutsch";
+    else if (code === "ara") langName = "لغةالعربية";
+    else if (code === "rus") langName = "русский";
+    else if (code === "swe") langName = "svensk";
+    else if (code === "por") langName = "português";
+    else if (code === "ind") langName = "Melayu";
+    else if (code === "tur") langName = "Türk";
+    else if (code === "tha") langName = "ไทย";
+    else if (code === "jpn") langName = "日本人";
+    else if (code === "nld") langName = "Nederlands";
+    else if (code === "mwak") langName = "mwak";
+    console.log("#"+langName+": " +
+    word.toLocaleString(lang,format,"t",conjugationLevel) );
+    //var javs = new Javs(lang.dictionary);
+    //console.log("#nodejs "+langName+" "+
+    //word.toLocaleString(javs,format,"t",conjugationLevel));
 
 }
 

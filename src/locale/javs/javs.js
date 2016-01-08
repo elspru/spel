@@ -273,12 +273,12 @@ objectMake(language,phrases,format,type,conjLevel,nominal){
 
 var i;
 var result = new String();
-if (phrases.length === 1
-&& phrases[0].head.head === "ha"){
-var phrase = phrases[0].body.toLocaleString(language,
-format,"n",conjLevel);
-
-return phrase;
+if (phrases.length === 1 && 
+        phrases[0].head.head === "ha" &&
+        phrases[0].body){
+    var phrase = phrases[0].body.toLocaleString(language,
+    format,"n",conjLevel);
+    return phrase;
 }
 
 

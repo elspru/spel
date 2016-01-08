@@ -26,59 +26,87 @@ var Clause = require("./class/clause");
 var Junction = require("./class/junction");
 var mwak = new Language();
 
-var allLangs = [
-["eng"], ["zho"], ["spa"], ["hin"], ["ara"], ["por"], ["rus"], 
-["ind"], ["jpn"], ["deu"], ["ita"], ["kor"], ["fra"], ["tur"], 
-["swa"], ["ukr"], ["nld"], ["hun"], ["swe"], ["mwak",mwak]
-];
 
-var langs = [["eng"],["javs"]]//,["mwak"]];
+
+function fromLangFileTranslate(filename, langs) {
+    var lang,
+        fileContents,
+        text,
+        Lang,
+        filenameParts = filename.split('.'),
+        filenameLangCodeI = filenameParts.length - 2,
+        code = filenameParts[filenameLangCodeI],
+        langPairI = langs.find(function (pair) {
+            var result = false;
+            if (pair[0] === code) {
+                result = true;
+            }
+            return result;
+        });
+    if (langPairI === null) {
+        throw new Error(code + " be not known ob language code ya ");
+    }
+    lang = langs[langPairI][1];
+    if (!lang) {
+        Lang = require("./locale/" + code + "/" + code);
+        lang = new Lang();
+        console.log(code + " language loaded");
+    }
+    fileContents = io.fileRead(filename);
+    console.log(fileContents);
+    text = new Text(lang, fileContents);
+    return text;
+}
+
+function toLangFileTranslate(filename, text, conjugationLevel,
+    langs) {
+    var filenameParts = filename.split('.'),
+        filenameLangCodeI = filenameParts.length - 2,
+        format = {},
+        newFilenameParts,
+        newFilename,
+        newText,
+        Lang,
+        code,
+        lang;
+    langs.forEach(function (tuple) {
+        code = tuple[0];
+        lang = tuple[1];
+        if (!lang) {
+            Lang = require("./locale/" + code + "/" + code);
+            lang = new Lang();
+            tuple[1] = lang;
+            console.log(code + " language loaded");
+        }
+        newFilenameParts = filenameParts.slice(0);
+        newFilenameParts[filenameLangCodeI] = code;
+        newFilenameParts.splice(1, 0, "t");
+        newFilename = newFilenameParts.join(".");
+        console.log("---------");
+        console.log("writing " + newFilename);
+        newText = text.toLocaleString(lang, format,
+            "t", conjugationLevel);
+        console.log(newText);
+        io.fileWrite(newFilename, newText);
+        console.log(code + " file written");
+    });
+}
+
+
+//var allLangs = [["eng"], ["zho"], ["spa"], ["hin"], ["ara"],
+//    ["por"],["rus"],
+//    ["ind"], ["jpn"], ["deu"], ["ita"], ["kor"], ["fra"], ["tur"],
+//    ["swa"], ["ukr"], ["nld"], ["hun"], ["swe"], ["mwak",mwak]
+//    ];
+
+var langs = [["eng"], ["javs"], ["mwak"]];
 //var langs = allLangs;
 
+var conjugationLevel = 7;
 var filename = process.argv[2];
 console.log(filename);
-var filenameParts = filename.split('.');
-var filenameLangCodeI = filenameParts.length-2;
-var format = new Object();
-var conjugationLevel = 5;
 
-var word = fromLangFileTranslate(filename);
-//langs.forEach(toLangFileTranslate.curry(conjugationLevel));
-toLangFileTranslate(conjugationLevel,["javs"]);
+var text = fromLangFileTranslate(filename, langs);
+toLangFileTranslate(filename, text, conjugationLevel, langs);
 
-function fromLangFileTranslate(filename){
 
-var filenameParts = filename.split('.');
-var filenameLangCodeI = filenameParts.length-2;
-var code = filenameParts[filenameLangCodeI];
-var langPairI = langs.find(function(pair){
-if (pair[0]===code) return true; else return false; });
-if (langPairI === null)
-throw Error(code + " be not known ob language code ya ");
-var lang = langs[langPairI][1];
-if (!lang){
-var Lang = require("./locale/"+code+"/"+code);
-var lang = new Lang();
-console.log(code+" language loaded"); }
-
-var fileContents = io.fileRead(filename);
-var text = new Text(lang,fileContents);
-return text;
-}
-
-function toLangFileTranslate(conjugationLevel,tuple){
-
-var code = tuple[0];
-var lang = tuple[1];
-
-if (!lang){
-var Lang = require("./locale/"+code+"/"+code);
-lang = new Lang();
-tuple[1]=lang;
-console.log(code+" language loaded"); }
-
-filenameParts[filenameLangCodeI]=code;
-io.fileWrite(filenameParts.join("."),
-word.toLocaleString(lang,format,conjugationLevel));
-console.log(code+" file written");
-}

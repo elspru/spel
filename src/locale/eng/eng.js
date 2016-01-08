@@ -72,33 +72,33 @@ return result;
 conjugation.objectPhrase = objectPhraseConjugate;
 function 
 objectPhraseConjugate(language,phrase,format,conjLevel){
-console.log(" eng obj phrase "+phrase.toString());
-var result = new String();
-var joiner = " ";
-var newPhrase = phrase.copy(language);
-delete newPhrase.head;
-var body;
-if (newPhrase.body.type === "mwq") {
-return wrld.conjugation.citationQuote(language,newPhrase.body,
-    format) + " ";
-}
-if (phrase.body.be !== "Junction"){
-if (newPhrase.body.body)
-var body = 
-nounConjugate(language,newPhrase.body.body,format,conjLevel,"n")
-if (newPhrase.body.head)
-var head = 
-newPhrase.body.head.toLocaleString(language,format,conjLevel)
-
-// pluralize
-var Type = phrase.body;
-result = pluralize(Type,body,head);
-delete newPhrase.body.body;
-delete newPhrase.body.head;}
-result +=
-phraseConjugate(language,newPhrase,format,conjLevel,"n")
-if (isPronoun(phrase)) return result;
-return result;
+    console.log(" eng obj phrase "+phrase.toString());
+    var result = new String(),
+        joiner = " ";
+    var newPhrase = phrase.copy(language);
+    delete newPhrase.head;
+    var body;
+    if (newPhrase.body && newPhrase.body.type === "mwq") {
+    return wrld.conjugation.citationQuote(language,newPhrase.body,
+        format) + " ";
+    }
+    if (phrase.body && phrase.body.be !== "Junction"){
+    if (newPhrase.body.body)
+    var body = 
+    nounConjugate(language,newPhrase.body.body,format,conjLevel,"n")
+    if (newPhrase.body.head)
+    var head = 
+    newPhrase.body.head.toLocaleString(language,format,conjLevel)
+    
+    // pluralize
+    var Type = phrase.body;
+    result = pluralize(Type,body,head);
+    delete newPhrase.body.body;
+    delete newPhrase.body.head;}
+    result +=
+    phraseConjugate(language,newPhrase,format,conjLevel,"n")
+    if (isPronoun(phrase)) return result;
+    return result;
 }
 
 function affixStrip(word){
@@ -276,9 +276,9 @@ if (phrase.body && phrase.body.head
 verbMods = translate.array(fromMwak,phrase.body.head.body);
 }
 if (head.length>0 && verb.length>0) 
-result = head+joiner+verbMods+verb+"en";  
+result = head+joiner+verbMods+verb+"eth";  
 else if (head.length>0) result = head;
-else if (verb.length>0) result = affixStrip(verb)+"en";
+else if (verb.length>0) result = affixStrip(verb)+"eth";
 else result = adposition;
  
 if (verb.length > 0)/* normal conjugation */{

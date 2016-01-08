@@ -25,12 +25,8 @@ if [[ $TO == $FROM ]]
 then
 OUT=$OB
 else
-OUT=`./trans -s $FROM :$TO` $OB 2>/dev/null
+OUT=`./trans --brief -s $FROM :$TO $OB` 2>/dev/null
 fi
 
 echo $OUT
 
-#LANG=$1
-#shift
-#WORD=$@
-#./trans --brief :$LANG $WORD
