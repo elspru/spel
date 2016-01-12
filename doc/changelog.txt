@@ -5686,3 +5686,15 @@ it next time.
 } 07 Jan 2015
 2152 actually lets try using it first, there should be enough
 vocab for a reasonably wide level of expression. 
+2330 it seems that javs language has some serious sideffects
+which ruins anything that gets translated afterwards.  very
+unfortunate..
+2336 oh whoopee I managed to fix it, was the format variable,
+have to reset it after each languages plays around with it. 
+} 08 Jan 2015
+0651 seems all translationUpdate is now working well,
+while I can't parallelize it with webWorkers, 
+I may be able to parallelize it with bash,
+in a pseudo web workers fashion. 
+1729 okay made the bash script seems to work good.
+

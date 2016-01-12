@@ -1,14 +1,5 @@
 #!/usr/bin/nodejs
-////////////////////////////////////////////////////////////////
-//          0x10            0x20            0x30            0x40
-//3456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0
-//      10        20        30        40        50        60  64
-//34567890123456789012345678901234567890123456789012345678901234
-////////////////////////////////////////////////////////////////
-/// be file sh for extracting dictionary definitions ya
-/// su speakable programming for every language be title ya
-/// su la AGPL-3 be license ya
-/// be end of head ya
+// translationUpdate worker
 "use strict";
 
 var debug = false;
@@ -202,139 +193,31 @@ function translateUpdate(toFilename, toLangCode,
     //}
 }
 
-try {
-    translateUpdate(toFilename, toLangCode);
-} catch (e) {
-    console.log(toFilename + " problem");
-    console.log(e.stack);
-    console.log(e);
-}
+//try {
+//    translateUpdate(toFilename, toLangCode);
+//} catch (e) {
+//    console.log(toFilename + " problem");
+//    console.log(e.stack);
+//    console.log(e);
+//}
 
-var Eng = require("../locale/eng/eng");
-var eng = new Eng(".");
-// spanish
-var toFilename = "spa.txt";
-var toLangCode = "es";
-translateUpdate(toFilename, toLangCode);
-// portuguese
-var fromFilename = "spa.txt";
-var fromLangCode = "es";
-var toFilename = "por.txt";
-var toLangCode = "pt";
-translateUpdate(toFilename, toLangCode,
-    fromFilename, fromLangCode);
-// french
-var toFilename = "fra.txt";
-var toLangCode = "fr";
-translateUpdate(toFilename, toLangCode);
-// mandarin chinese
-var toFilename = "zho.txt";
-var toLangCode = "zh";
-translateUpdate(toFilename, toLangCode);
-// russian
-var toFilename = "rus.txt";
-var toLangCode = "ru";
-translateUpdate(toFilename, toLangCode);
-// arabic
-var toFilename = "ara.txt";
-var toLangCode = "ar";
-translateUpdate(toFilename, toLangCode);
-// indonesian
-var toFilename = "ind.txt";
-var toLangCode = "id";
-translateUpdate(toFilename, toLangCode);
-// german
-var toFilename = "deu.txt";
-var toLangCode = "de";
-translateUpdate(toFilename, toLangCode);
-// japanese
-var fromFilename = "zho.txt";
-var fromLangCode = "zh";
-var toFilename = "jpn.txt";
-var toLangCode = "ja";
-translateUpdate(toFilename, toLangCode,
-    fromFilename, fromLangCode);
-// korean
-//var fromFilename = "jpn.txt";
-//var fromLangCode = "ja";
-var toFilename = "kor.txt";
-var toLangCode = "ko";
-translateUpdate(toFilename, toLangCode);//,
-// farsi
-//var toFilename = "fas.txt";
-//var toLangCode = "fa";
-//translateUpdate(toFilename, toLangCode);
-//fromFilename, fromLangCode);
-// hindi
-var toFilename = "hin.txt";
-var toLangCode = "hi";
-translateUpdate(toFilename, toLangCode);
-//// bengali
-//var toFilename = "ben.txt";
-//var toLangCode = "bn";
-//translateUpdate(toFilename, toLangCode);
-//// tamil
-//var toFilename = "tam.txt";
-//var toLangCode = "ta";
-//translateUpdate(toFilename, toLangCode);
+//this.onmessage = function(event) {
+//// parse message into two arguments
+//var message = event.data,
+//    tuple = message.split(" "),
+//    toFilename = tuple[0],
+//    toLangCode = tuple[1];
+//    postMessage("status "+ message + " recieved");
+//    if (toFilename = "close") {
+//        self.close();
+//    }
+//    postMessage("status "+ toFilename + " starting");
+//    translateUpdate(toFilename, toLangCode);
+//    postMessage(toFilename + " done");
+//};
 
-//translateUpdate(toFilename, toLangCode);
-// italian
-var toFilename = "ita.txt";
-var toLangCode = "it";
+toFilename = process.argv[2];
+toLangCode = process.argv[3];
+console.log(toFilename + " starting ");
 translateUpdate(toFilename, toLangCode);
-// thai
-var toFilename = "tha.txt";
-var toLangCode = "th";
-translateUpdate(toFilename, toLangCode);
-// dutch
-var fromFilename = "deu.txt";
-var fromLangCode = "de";
-var toFilename = "nld.txt";
-var toLangCode = "nl";
-translateUpdate(toFilename, toLangCode,
-    fromFilename, fromLangCode);
-// hebrew
-var toFilename = "heb.txt";
-var toLangCode = "he";
-translateUpdate(toFilename, toLangCode);
-// swedish
-var fromFilename = "deu.txt";
-var fromLangCode = "de";
-var toFilename = "swe.txt";
-var toLangCode = "sv";
-translateUpdate(toFilename, toLangCode,
-    fromFilename, fromLangCode);
-// swahili
-var toFilename = "swa.txt";
-var toLangCode = "sw";
-translateUpdate(toFilename, toLangCode);
-// ukranian
-var fromFilename = "rus.txt";
-var fromLangCode = "ru";
-var toFilename = "ukr.txt";
-var toLangCode = "uk";
-translateUpdate(toFilename, toLangCode,
-    fromFilename, fromLangCode);
-// turkish
-var toFilename = "tur.txt";
-var toLangCode = "tr";
-translateUpdate(toFilename, toLangCode);
-// hungarian
-var toFilename = "hun.txt";
-var toLangCode = "hu";
-translateUpdate(toFilename, toLangCode);
-// finnish
-var toFilename = "fin.txt";
-var toLangCode = "fi";
-translateUpdate(toFilename, toLangCode);
-// esperanto
-var byService = "reversePlain";
-var toFilename = "epo.txt";
-var toLangCode = "eo";
-var fromLangCode = "esperanto-list.txt";
-translateUpdate(toFilename, toLangCode, "eng.txt", fromLangCode, byService);
-
-
-
-
+console.log(toFilename + " done ");

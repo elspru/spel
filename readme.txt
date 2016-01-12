@@ -18,6 +18,8 @@ INSTALL
 need nodejs for compilation.
 npm for exec-sync, browserify
 
+libfribidi-bin trans
+
 console demo in src/
 run ./spel-node.js
 

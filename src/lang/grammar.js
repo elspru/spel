@@ -93,6 +93,7 @@ return this;
 }
 
 var mwakGrammar = {
+name: "mwak",
 be: "Grammar",
 junctions:["ki","wa","mwa"],
 typeWords: ["li","sa","nyu","na","pa","yi","ni","tyi","nya"],
@@ -153,27 +154,41 @@ phraseOrder: ["ha","hi"],
 intransitiveWord: "hu"
 },
 conjugation:{
-reversible:[],
-irreversible:[],
-ipa : (mwakToIPA),
-word:(compoundWord),
-noun:(trochaicCompound),
-verb: (trochaicCompound),
-nounType: (typeCompound),
-verbType: (typeCompound),
-phraseHead: (phraseHead),
-verbHead: (phraseHead),
-clauseHead: (phraseHead),
-junctionHead: (phraseHead),
-sentenceHead: (phraseHead),
-mood: (trochaicCompound),
-format:{
-joiner:'',
-phraseJoiner:' ',
-clauseJoiner:' '
-},
+    reversible:[],
+    irreversible:[],
+    phrase : (mwakPhrase),
+    ipa : (mwakToIPA),
+    word:(compoundWord),
+    noun:(trochaicCompound),
+    verb: (trochaicCompound),
+    nounType: (typeCompound),
+    verbType: (typeCompound),
+    phraseHead: (phraseHead),
+    verbHead: (phraseHead),
+    clauseHead: (phraseHead),
+    junctionHead: (phraseHead),
+    sentenceHead: (phraseHead),
+    mood: (trochaicCompound),
+    format:{
+        joiner:'',
+        phraseJoiner:' ',
+        clauseJoiner:' '
+    },
 }
 } // end of mwak grammar object ya
+
+function mwakPhrase(language, phrase, format, conjLevel) {
+    var head = phrase.head && 
+            phrase.head.toLocaleString(language, format, "ch", 
+        conjLevel);
+        body = phrase.body && 
+            phrase.body.toLocaleString(language, format, "n", 
+        conjLevel);
+    if (body && head) return body + head;
+    if (body) return body;
+    if (head) return head;
+    return "";
+}
 
 function mwakToIPA(string){
 var i, glyph;
@@ -185,6 +200,7 @@ if (glyph==="a") result[i]= "ä";
 else if (glyph==="c") result[i]= "ʃ";
 else if (glyph==="j") result[i]= "ʒ";
 else if (glyph==="_") result[i]= "ʔ";
+else if (glyph===".") result[i]= "ʔ";
 else if (glyph==="y") result[i]= "j";
 else if (glyph==="q") result[i]= "ŋ";
 else if (glyph==="5") result[i]= "˦";
@@ -200,7 +216,7 @@ return result.join("");
 
 function byteAlign(IPA,word){
 var pad= "h";
-if (IPA) pad = "ʰ";
+if (IPA === true) pad = "ʰ";
 var result = new String();
 if (word.length % 2 === 1) result = word+pad;
 else result = word;
@@ -209,7 +225,7 @@ return result;
 
 function stressByteAlign(IPA,word,index,array){
 var pad= "h";
-if (IPA) pad = "ʰ";
+if (IPA === true) pad = "ʰ";
 var result = new String();
 var arLength = array.length;
 var primaryStress = "\u02C8";
@@ -225,13 +241,13 @@ var head = new String();
 var body = new String();
 var IPA = format && format.ipa;
 if (Array.isArray(wordO.head))
-head = wordO.head.map(byteAlign.curry(IPA)).join("");
+    head = wordO.head.map(byteAlign.curry(IPA)).join("");
 else if (wordO.head) head = byteAlign(IPA,wordO.head);
 if (Array.isArray(wordO.body))
-body = wordO.body.map(byteAlign.curry(language)).join("");
+    body = wordO.body.map(byteAlign.curry(language)).join("");
 else if (wordO.body) body = byteAlign(IPA,wordO.body);
-var result = body+head;
-if (IPA) result = mwakToIPA(result) ;
+var result = body + head;
+if (IPA === true) result = mwakToIPA(result) ;
 return result;
 }
 

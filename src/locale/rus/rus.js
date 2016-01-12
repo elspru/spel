@@ -275,7 +275,7 @@ var Type = phrase.body;
 // pluralize
 var number = mwak.grammar.number;
 var Type = phrase.body;
-if (Type.head && Type.head.head
+if (Type && Type.head && Type.head.head
 && parse.wordMatch(number.all,Type.head.head)){
 var lastGlyph=body[body.length-1];
 if ("а"===lastGlyph)
@@ -289,7 +289,7 @@ result = pos+body.replace(/.$/,"и");
 else result = pos+body+"ы";
 }
 // feminine declension
-else if (Type.head && Type.head.head
+else if (Type && Type.head && Type.head.head
 && parse.wordMatch(number.all,Type.head.head)){
 result = pos+body+"и "; 
 }
@@ -517,11 +517,11 @@ function objectAdjectiveConjugate(language,type,format,conjLevel){
 var result = new String();
 var joiner = " ";
 var dict = language.dictionary.fromMwak;
-var adjectives = type.body && type.body.body;
+var adjectives = type && type.body && type.body.body;
 var noun = type && type.body 
 && type.body.head ;
 if (noun) noun = translate.word(dict,noun);
-var markers = translate.word(dict,type.head);
+var markers = translate.word(dict, type && type.head);
 if (markers)
 result += markers + joiner;
 if (adjectives){
@@ -533,7 +533,7 @@ var affix = " ";
 // pluralize
 var number = mwak.grammar.number;
 var Type = type;
-if (Type.head && Type.head.head
+if (Type & Type.head && Type.head.head
 && parse.wordMatch(number.all,Type.head.head)){
 affix = "ые "; 
 }

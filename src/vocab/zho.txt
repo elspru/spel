@@ -1,621 +1,1032 @@
-hi li hu  是 li ha ya
-ha li hu  顆 li ha ya
-hu li hu  者 li ha ya
-mi li hu  我 li ha ya
-ma li hu  什么 li ha ya
-mu li hu  男性 li ha ya
+hi li hu 是 li ha ya
+ha li hu 顆 li ha ya
+hu li hu 者 li ha ya
+mi li hu 我 li ha ya
+ma li hu 什么 li ha ya
+mu li hu 男性 li ha ya
 ki li hu  和 ha ya
-ka li hu  如 li ha ya
-ku li hu  如果 li ha ya
-yi li hu  此 li ha ya
-yu li hu  你 li ha ya
-ya li hu  啊 li ha ya
-pi li hu  的 li ha ya
-pa li hu  那 li ha ya
-pu li hu  没有 li ha ya
-wi li hu  我们 li ha ya
+ka li hu 如 li ha ya
+ku li hu 如果 li ha ya
+yi li hu 此 li ha ya
+yu li hu 你 li ha ya
+ya li hu 啊 li ha ya
+pi li hu 的 li ha ya
+pa li hu 那 li ha ya
+pu li hu 没有 li ha ya
+wi li hu 我们 li ha ya
 wa li hu  或 ha ya
-wu li hu  由 li ha ya
-ni li hu  在 li ha ya
-na li hu  数字 li ha ya
-si li hu  他们 li ha ya
+wu li hu 由 li ha ya
+ni li hu 在 li ha ya
+na li hu 数字 li ha ya
+si li hu 他们 li ha ya
 nu li hu  今 ha ya
 ti li hu  之 ha ya
-su li hu  从 li ha ya
-ta li hu  到 li ha ya
-tu li hu  尒 li ha ya
-li li hu  字面 li ha ya
-fa li hu  大约 li ha ya
-la li hu  哎 li ha ya
-lu li hu  们 li ha ya
-fi li hu  女人 li ha ya
-ci li hu  嗎？ li ha ya
-fu li hu  将 li ha ya
-mya li hu  可能是 li ha ya
-ca li hu  中性 li ha ya
-myi li hu  许多 li ha ya
+su li hu 从 li ha ya
+ta li hu 到 li ha ya
+tu li hu 尒 li ha ya
+li li hu 字面 li ha ya
+fa li hu 大约 li ha ya
+la li hu 哎 li ha ya
+lu li hu 们 li ha ya
+fi li hu 女人 li ha ya
+ci li hu 嗎？ li ha ya
+fu li hu 将 li ha ya
+mya li hu 可能是 li ha ya
+ca li hu 中性 li ha ya
+cu li hu 和/或 li ha ya
+myi li hu 许多 li ha ya
 kyi li hu  有条件 ha ya
-mwa li hu  同 li ha ya
-kya li hu  旁白 li ha ya
+mwa li hu 同 li ha ya
+kya li hu 旁白 li ha ya
 sa li hu  该 ha ya
-kyu li hu  因为 li ha ya
-kwa li hu  即，这 li ha ya
-ksa li hu  引文结束 li ha ya
-kli li hu  他 li ha ya
-kla li hu  但 li ha ya
-klu li hu  第尾巴 li ha ya
-kfa li hu  形容词词缀 li ha ya
-kca li hu  哈 li ha ya
-pyi li hu  动词词缀 li ha ya
-pya li hu  上 li ha ya
-psu li hu  从源 li ha ya
-psi li hu  前 li ha ya
+kyu li hu 因为 li ha ya
+kwa li hu 即，这 li ha ya
+ksi li hu 极端 li ha ya
+ksa li hu 引文结束 li ha ya
+ksu li hu 比 li ha ya
+kli li hu 他 li ha ya
+kla li hu 但 li ha ya
+klu li hu 第尾巴 li ha ya
+kfa li hu 形容词词缀 li ha ya
+kci li hu 然后 li ha ya
+kca li hu 哈 li ha ya
+pyi li hu 动词词缀 li ha ya
+pya li hu 上 li ha ya
+psu li hu 从源 li ha ya
+psi li hu 前 li ha ya
+psa li hu 前任的 li ha ya
 pwa li hu  或者 ha ya
-pli li hu  例如 li ha ya
-pci li hu  还 li ha ya
-pca li hu  姁 li ha ya
-pcu li hu  也 li ha ya
-nyi li hu  不 li ha ya
-nya li hu  亦即 li ha ya
-nyu li hu  一个 li ha ya
-sya li hu  单数 li ha ya
-syi li hu  很 li ha ya
-syu li hu  所以 li ha ya
-swa li hu  否则 li ha ya
-swi li hu  而 li ha ya
-sli li hu  否则，如果 li ha ya
-sla li hu  您好 li ha ya
-tya li hu  后 li ha ya
-tyi li hu  引用 li ha ya
-twu li hu  双重 li ha ya
-tsa li hu  直到 li ha ya
-tsi li hu  是的 li ha ya
-tsu li hu  名词词缀 li ha ya
-tla li hu  为 li ha ya
-fyi li hu  她的 li ha ya
-twa li hu  然后 li ha ya
-tcu li hu  出 li ha ya
+pli li hu 例如 li ha ya
+pfi li hu 二值 li ha ya
+pci li hu 还 li ha ya
+pca li hu 姁 li ha ya
+pcu li hu 也 li ha ya
+nyi li hu 不 li ha ya
+nya li hu 亦即 li ha ya
+nyu li hu 一个 li ha ya
+sya li hu 单数 li ha ya
+syi li hu 很 li ha ya
+syu li hu 所以 li ha ya
+swa li hu 否则 li ha ya
+swu li hu 所以 li ha ya
+swi li hu 而 li ha ya
+sli li hu 否则，如果 li ha ya
+sla li hu 您好 li ha ya
+tya li hu 后 li ha ya
+tyu li hu 他 li ha ya
+tyi li hu 引用 li ha ya
+twu li hu 双重 li ha ya
+tsa li hu 直到 li ha ya
+tsi li hu 是的 li ha ya
+tsu li hu 名词词缀 li ha ya
+tla li hu 为 li ha ya
+fyi li hu 她的 li ha ya
+tlu li hu 浮点数 li ha ya
+tfa li hu 在 li ha ya
+tci li hu 这里 li ha ya
+twa li hu 然后 li ha ya
+tcu li hu 出 li ha ya
+fwa li hu 对于 li ha ya
+cyi li hu 她的 li ha ya
 tli li hu  第 ha ya
-fyu li hu  少数 li ha ya
-cya li hu  其他 li ha ya
-min hu  更少 li ha ya
-miy hu  记忆 li ha ya
-mik hu  使 li ha ya
+cwa li hu 再见 li ha ya
+cla li hu 在语言 li ha ya
+fyu li hu 少数 li ha ya
+cya li hu 其他 li ha ya
+min hu 更少 li ha ya
+miy hu 记忆 li ha ya
+mik hu 使 li ha ya
+mic hu 机 li ha ya
 mip hu  过去 ha ya
-mit hu  中间 li ha ya
+mit hu 中间 li ha ya
 mak hu  字 ha ya
-man hu  想 li ha ya
-mat hu  母亲 li ha ya
-mun hu  男 li ha ya
-mas hu  块 li ha ya
-mut hu  救命 li ha ya
-mac hu  机 li ha ya
-mul hu  满 li ha ya
+man hu 想 li ha ya
+mat hu 母亲 li ha ya
+mun hu 男 li ha ya
+mus hu 男 li ha ya
+mas hu 块 li ha ya
+mut hu 救命 li ha ya
+mac hu 机 li ha ya
+mul hu 满 li ha ya
 kim hu  比较 ha ya
 kiy hu  去 ha ya
-kip hu  能 li ha ya
-kin hu  主 li ha ya
-kam hu  来 li ha ya
-kis hu  高 li ha ya
-kit hu  结束 li ha ya
+kip hu 能 li ha ya
+kic hu 每 li ha ya
+kin hu 主 li ha ya
+kam hu 来 li ha ya
+kis hu 高 li ha ya
+kit hu 结束 li ha ya
 kap hu  头 ha ya
-kan hu  知道 li ha ya
-kas hu  事业 li ha ya
-kaf hu  阴极 li ha ya
-kuy hu  成长 li ha ya
-kat hu  得到 li ha ya
-kal hu  所有 li ha ya
-kum hu  贸易 li ha ya
-kus hu  食品 li ha ya
-kuc hu  小 li ha ya
-yis hu  写 li ha ya
-kul hu  目标 li ha ya
-kup hu  购买 li ha ya
-kun hu  红 li ha ya
+kan hu 知道 li ha ya
+kas hu 事业 li ha ya
+kaf hu 阴极 li ha ya
+kuy hu 成长 li ha ya
+kat hu 得到 li ha ya
+kal hu 所有 li ha ya
+kum hu 贸易 li ha ya
+kus hu 食品 li ha ya
+kuc hu 小 li ha ya
+yis hu 写 li ha ya
+kul hu 目标 li ha ya
+kup hu 购买 li ha ya
+kun hu 红 li ha ya
 yik hu  否定 ha ya
-yit hu  等待 li ha ya
-yum hu  肢 li ha ya
-yat hu  阅读 li ha ya
-yun hu  减 li ha ya
-yak hu  一些 li ha ya
-yuw hu  年 li ha ya
-yac hu  宽度 li ha ya
-pis hu  乘 li ha ya
-pit hu  白 li ha ya
-pic hu  小便 li ha ya
-yus hu  使用 li ha ya
-pay hu  更多 li ha ya
-pam hu  臂 li ha ya
-yul hu  整个 li ha ya
-pas hu  传 li ha ya
-paw hu  地方 li ha ya
+yit hu 等待 li ha ya
+yum hu 肢 li ha ya
+yup hu 好 li ha ya
+yat hu 阅读 li ha ya
+yun hu 减 li ha ya
+yak hu 一些 li ha ya
+yuw hu 年 li ha ya
+yuc hu 好 li ha ya
+yac hu 宽度 li ha ya
+pis hu 乘 li ha ya
+pit hu 白 li ha ya
+pic hu 小便 li ha ya
+yus hu 使用 li ha ya
+pay hu 更多 li ha ya
+pam hu 臂 li ha ya
+yul hu 整个 li ha ya
+pas hu 传 li ha ya
+paw hu 地方 li ha ya
 pak hu  体 ha ya
-pat hu  父亲 li ha ya
-pus hu  便便 li ha ya
+pum hu 路径 li ha ya
+pat hu 父亲 li ha ya
+pus hu 便便 li ha ya
 pan hu  见面 ha ya
-puk hu  坏 li ha ya
-win hu  赢 li ha ya
-pac hu  欢乐 li ha ya
+puk hu 坏 li ha ya
+win hu 赢 li ha ya
+pac hu 欢乐 li ha ya
+wik hu 周 li ha ya
 puy hu  孩子 ha ya
-puc hu  空 li ha ya
-put hu  卖 li ha ya
-pul hu  蓝色 li ha ya
+wit hu 水平 li ha ya
+puc hu 空 li ha ya
+put hu 卖 li ha ya
+pul hu 蓝色 li ha ya
 fut hu  未来 ha ya
-wan hu  爱 li ha ya
-wut hu  光 li ha ya
-niy hu  需要 li ha ya
+nik hu 然而 li ha ya
+wan hu 爱 li ha ya
+nip hu 没有 li ha ya
+wut hu 光 li ha ya
+niy hu 需要 li ha ya
 wap hu  尾 ha ya
-wat hu  说话 li ha ya
-nay hu  呼 li ha ya
-nim hu  名字 li ha ya
-nat hu  夜晚 li ha ya
-nut hu  阳极 li ha ya
-nit hu  净 li ha ya
-nal hu  裸 li ha ya
-nic hu  能源 li ha ya
-sip hu  啜 li ha ya
-nuy hu  新 li ha ya
-sit hu  集 li ha ya
+wat hu 说话 li ha ya
+nay hu 呼 li ha ya
+nas hu 兄弟 li ha ya
+nim hu 名字 li ha ya
+nat hu 夜晚 li ha ya
+nut hu 阳极 li ha ya
+nit hu 净 li ha ya
+nal hu 裸 li ha ya
+nic hu 能源 li ha ya
+sip hu 啜 li ha ya
+nuy hu 新 li ha ya
+sit hu 集 li ha ya
 wul hu  大 ha ya
-sim hu  类似 li ha ya
+sim hu 类似 li ha ya
 nam hu  号码 ha ya
-saw hu  黑 li ha ya
-sik hu  高度 li ha ya
-sil hu  易 li ha ya
-sak hu  同意 li ha ya
-nul hu  无效 li ha ya
-suy hu  输 li ha ya
-sap hu  简单 li ha ya
-say hu  说 li ha ya
-sam hu  相同 li ha ya
-tim hu  球队 li ha ya
-tik hu  持有 li ha ya
-san hu  自我 li ha ya
-sat hu  声音 li ha ya
-sup hu  付 li ha ya
-tis hu  吸入 li ha ya
-sut hu  尺寸 li ha ya
-tiw hu  墙 li ha ya
-tiy hu  天 li ha ya
+saw hu 黑 li ha ya
+sik hu 高度 li ha ya
+sil hu 易 li ha ya
+sak hu 同意 li ha ya
+nul hu 无效 li ha ya
+saf hu 空间 li ha ya
+suk hu 吮吸 li ha ya
+suy hu 输 li ha ya
+sap hu 简单 li ha ya
+sun hu 拥有 li ha ya
+say hu 说 li ha ya
+sam hu 相同 li ha ya
+tim hu 球队 li ha ya
+tik hu 持有 li ha ya
+san hu 自我 li ha ya
+sat hu 声音 li ha ya
+sup hu 付 li ha ya
+tis hu 吸入 li ha ya
+sut hu 尺寸 li ha ya
+tiw hu 墙 li ha ya
+tiy hu 天 li ha ya
 naw hu  现时 ha ya
-tip hu  开始 li ha ya
-til hu  低 li ha ya
-tin hu  见 li ha ya
-tam hu  话题 li ha ya
-tak hu  添加 li ha ya
-tuk hu  喝 li ha ya
-tay hu  放 li ha ya
-tal hu  领带 li ha ya
-tan hu  给 li ha ya
-tas hu  选择 li ha ya
-tuy hu  重复 li ha ya
-tup hu  深度 li ha ya
-tum hu  温度 li ha ya
-tap hu  触摸 li ha ya
-tuf hu  难 li ha ya
-ton hu  吨 li ha ya
-fin hu  女 li ha ya
-fit hu  适合 li ha ya
-lif hu  左 li ha ya
-tul hu  工具 li ha ya
-lik hu  电荷 li ha ya
-fam hu  家庭 li ha ya
-lin hu  长度 li ha ya
-ciy hu  绿 li ha ya
-cif hu  分 li ha ya
-lis hu  住 li ha ya
-cis hu  生活 li ha ya
-lit hu  字形 li ha ya
-myut hu  进口 li ha ya
-cay hu  权 li ha ya
-cin hu  迹象 li ha ya
-cim hu  听 li ha ya
-cum hu  形状 li ha ya
-myit hu  记得 li ha ya
-myil hu  盟友 li ha ya
-cak hu  事 li ha ya
-can hu  机会 li ha ya
-myun hu  聘用 li ha ya
-cal hu  举 li ha ya
-myan hu  软 li ha ya
-kyim hu  游戏 li ha ya
-mwut hu  抵制 li ha ya
-myat hu  数学 li ha ya
-kyip hu  衣服 li ha ya
-myul hu  道德 li ha ya
-kwit hu  重力 li ha ya
-kyam hu  携带 li ha ya
-kyit hu  每 li ha ya
-myin hu  梦 li ha ya
-kyus hu  开玩笑 li ha ya
-kyil hu  圈 li ha ya
-kyin hu  一般 li ha ya
-kyap hu  复制 li ha ya
-kwat hu  强 li ha ya
-kyup hu  组 li ha ya
-ksat hu  准确 li ha ya
-ksiy hu  专家 li ha ya
-kyat hu  硬 li ha ya
-ksit hu  出口 li ha ya
-ksil hu  水晶 li ha ya
-kyul hu  规则 li ha ya
-ksip hu  访问 li ha ya
-ksap hu  绳 li ha ya
-ksam hu  黑暗 li ha ya
-ksin hu  背景 li ha ya
-ksal hu  星系 li ha ya
-klaw hu  笑 li ha ya
-ksan hu  组织 li ha ya
-ksum hu  沟通 li ha ya
-kliy hu  明确 li ha ya
-klim hu  科学 li ha ya
-klin hu  电子 li ha ya
-ksuf hu  描述 li ha ya
-ktin hu  宗教 li ha ya
-kcat hu  八 li ha ya
-pyik hu  休息 li ha ya
-ksut hu  收集 li ha ya
-klum hu  柱 li ha ya
-pyit hu  四 li ha ya
-klut hu  排除 li ha ya
-klun hu  饥饿 li ha ya
-kfit hu  效果 li ha ya
-ksul hu  学校 li ha ya
-klac hu  除 li ha ya
-pyaw hu  对 li ha ya
-kcil hu  技能 li ha ya
-kfat hu  形容词 li ha ya
-klas hu  类 li ha ya
-kcut hu  胡来 li ha ya
-kcuf hu  足够 li ha ya
-kcun hu  共轭 li ha ya
-klat hu  条款 li ha ya
-kcim hu  化学 li ha ya
-pyil hu  呼吁 li ha ya
-kfin hu  配置 li ha ya
-pyif hu  动词 li ha ya
-pyan hu  传播 li ha ya
-pyas hu  快 li ha ya
-pyin hu  经验 li ha ya
-pyam hu  方案 li ha ya
-pyat hu  提示 li ha ya
-pyaf hu  演出 li ha ya
-pyum hu  代词 li ha ya
-pyut hu  质子 li ha ya
-pyun hu  鸟 li ha ya
-pyal hu  并行 li ha ya
-pyac hu  怀疑 li ha ya
-psil hu  拼 li ha ya
-pyul hu  熬 li ha ya
-pwas hu  答案 li ha ya
-pyuf hu  证明 li ha ya
-pwil hu  变量 li ha ya
-pwut hu  批准 li ha ya
-psin hu  纺 li ha ya
-psiy hu  压力 li ha ya
-psit hu  速度 li ha ya
-pyuc hu  工程 li ha ya
-psan hu  空间 li ha ya
-psaf hu  回复 li ha ya
-psat hu  面 li ha ya
-psal hu  帆 li ha ya
-nyip hu  镜 li ha ya
-psun hu  来源 li ha ya
-psut hu  承诺 li ha ya
-nyat hu  进入 li ha ya
-plum hu  问题 li ha ya
-plam hu  血浆 li ha ya
-pluy hu  流行 li ha ya
-plin hu  平面 li ha ya
-nyul hu  滚 li ha ya
-pfic hu  比较喜欢 li ha ya
-plut hu  尘 li ha ya
-plun hu  大概 li ha ya
-syim hu  七 li ha ya
-pfal hu  失败 li ha ya
-pcum hu  希望 li ha ya
-syip hu  清洁 li ha ya
-pcit hu  欣赏 li ha ya
-pcil hu  特别 li ha ya
-plan hu  计划 li ha ya
-plat hu  行星 li ha ya
-syan hu  青色 li ha ya
-pfus hu  公共汽车 li ha ya
+tip hu 开始 li ha ya
+taw hu 通过 li ha ya
+til hu 低 li ha ya
+tin hu 见 li ha ya
+tam hu 话题 li ha ya
+tac hu 下面 li ha ya
+tak hu 添加 li ha ya
+tuk hu 喝 li ha ya
+tay hu 放 li ha ya
+tal hu 领带 li ha ya
+tun hu 向下 li ha ya
+tus hu 结果 li ha ya
+tan hu 给 li ha ya
+tas hu 选择 li ha ya
+tuc hu 玩具 li ha ya
+tuy hu 重复 li ha ya
+tup hu 深度 li ha ya
+tum hu 温度 li ha ya
+tap hu 触摸 li ha ya
+tuf hu 难 li ha ya
+lat hu 结束 li ha ya
+lac hu 爱 li ha ya
+ton hu 吨 li ha ya
+fin hu 女 li ha ya
+fit hu 适合 li ha ya
+fas hu 发生 li ha ya
+fuy hu 以上 li ha ya
+lif hu 左 li ha ya
+tul hu 工具 li ha ya
+cik hu 移动 li ha ya
+lik hu 电荷 li ha ya
+fam hu 家庭 li ha ya
+lin hu 长度 li ha ya
+cit hu 必须 li ha ya
+ciy hu 绿 li ha ya
+cam hu 家 li ha ya
+cif hu 分 li ha ya
+lis hu 住 li ha ya
+cis hu 生活 li ha ya
+cat hu 击中 li ha ya
+lit hu 字形 li ha ya
+cus hu 显示 li ha ya
+myut hu 进口 li ha ya
+cay hu 权 li ha ya
+cin hu 迹象 li ha ya
+cim hu 听 li ha ya
+cum hu 形状 li ha ya
+myal hu 值 li ha ya
+myac hu 冒险 li ha ya
+myit hu 记得 li ha ya
+myil hu 盟友 li ha ya
+cak hu 事 li ha ya
+myuf hu 反对 li ha ya
+mwis hu 平均 li ha ya
+mwit hu 会员 li ha ya
+mwas hu 湿 li ha ya
+mwat hu 物质 li ha ya
+can hu 机会 li ha ya
+myun hu 聘用 li ha ya
+cal hu 举 li ha ya
+myan hu 软 li ha ya
+kyis hu 比 li ha ya
+kyim hu 游戏 li ha ya
+mwut hu 抵制 li ha ya
+kyic hu 公司 li ha ya
+myat hu 数学 li ha ya
+kyas hu 到关 li ha ya
+kyip hu 衣服 li ha ya
+kyac hu 急 li ha ya
+myul hu 道德 li ha ya
+kwit hu 重力 li ha ya
+kyam hu 携带 li ha ya
+kyuc hu 原谅 li ha ya
+kyit hu 每 li ha ya
+kwic hu 村 li ha ya
+kwam hu 单位质量的 li ha ya
+myin hu 梦 li ha ya
+kwul hu 呼叫 li ha ya
+ksim hu 期望 li ha ya
+kyus hu 开玩笑 li ha ya
+kyil hu 圈 li ha ya
+kyin hu 一般 li ha ya
+kyap hu 复制 li ha ya
+kwat hu 强 li ha ya
+ksic hu 竞争 li ha ya
+kyup hu 组 li ha ya
+ksay hu 告诉 li ha ya
+ksat hu 准确 li ha ya
+ksiy hu 专家 li ha ya
+kyat hu 硬 li ha ya
+ksit hu 出口 li ha ya
+ksaf hu 事故 li ha ya
+ksac hu 行使 li ha ya
+ksil hu 水晶 li ha ya
+ksuy hu 奇怪 li ha ya
+ksup hu 简要 li ha ya
+ksun hu 合同 li ha ya
+kyul hu 规则 li ha ya
+ksip hu 访问 li ha ya
+ksap hu 绳 li ha ya
+ksuc hu 秋季 li ha ya
+ksam hu 黑暗 li ha ya
+ksin hu 背景 li ha ya
+ksal hu 星系 li ha ya
+klic hu 键 li ha ya
+klam hu 劳动 li ha ya
+klay hu 哭 li ha ya
+klap hu 拍 li ha ya
+klaw hu 笑 li ha ya
+klan hu 殖民地 li ha ya
+ksan hu 组织 li ha ya
+ksum hu 沟通 li ha ya
+klaf hu 要求 li ha ya
+kliy hu 明确 li ha ya
+klim hu 科学 li ha ya
+klup hu 全球 li ha ya
+klin hu 电子 li ha ya
+klus hu 壁橱 li ha ya
+ksuf hu 描述 li ha ya
+kluc hu 犯罪 li ha ya
+ktin hu 宗教 li ha ya
+kcat hu 八 li ha ya
+kfan hu 确认 li ha ya
+kfas hu 分数 li ha ya
+pyik hu 休息 li ha ya
+kfac hu 耳 li ha ya
+kfup hu 杯 li ha ya
+kfun hu 会议 li ha ya
+kfus hu 描述 li ha ya
+ksut hu 收集 li ha ya
+kcin hu 经纪人 li ha ya
+klum hu 柱 li ha ya
+kcam hu 估计 li ha ya
+kcay hu 治愈 li ha ya
+kcap hu 占据 li ha ya
+kcan hu 打猎 li ha ya
+kcas hu 成本 li ha ya
+pyit hu 四 li ha ya
+kcal hu 橱柜 li ha ya
+kcaf hu 逃逸 li ha ya
+kcum hu 佣金 li ha ya
+klut hu 排除 li ha ya
+klun hu 饥饿 li ha ya
+kcul hu 壳 li ha ya
+kfit hu 效果 li ha ya
+ksul hu 学校 li ha ya
+klac hu 除 li ha ya
+pyis hu 预测 li ha ya
+pyaw hu 对 li ha ya
+kcil hu 技能 li ha ya
+kfat hu 形容词 li ha ya
+pyic hu 和平 li ha ya
+klas hu 类 li ha ya
+pyak hu 实践 li ha ya
+kcut hu 胡来 li ha ya
+kcuf hu 足够 li ha ya
+kcun hu 共轭 li ha ya
+klat hu 条款 li ha ya
+kcim hu 化学 li ha ya
+pyil hu 呼吁 li ha ya
+kfin hu 配置 li ha ya
+pyif hu 动词 li ha ya
+pyuk hu 发布 li ha ya
+pyan hu 传播 li ha ya
+pyus hu 处理 li ha ya
+pyas hu 快 li ha ya
+pyin hu 经验 li ha ya
+pyam hu 方案 li ha ya
+pyat hu 提示 li ha ya
+pwit hu 相信 li ha ya
+pyaf hu 演出 li ha ya
+pway hu 远 li ha ya
+pwan hu 管 li ha ya
+pyum hu 代词 li ha ya
+pwus hu 存在 li ha ya
+pyut hu 质子 li ha ya
+psim hu 相反 li ha ya
+psik hu 区别 li ha ya
+pyun hu 鸟 li ha ya
+pyal hu 并行 li ha ya
+pyac hu 怀疑 li ha ya
+psil hu 拼 li ha ya
+psif hu 赞美 li ha ya
+psic hu 页 li ha ya
+psam hu 准备 li ha ya
+psak hu 吐 li ha ya
+pyul hu 熬 li ha ya
+pwas hu 答案 li ha ya
+pyuf hu 证明 li ha ya
+pwil hu 变量 li ha ya
+psac hu 奖 li ha ya
+psuy hu 抗议 li ha ya
+pwut hu 批准 li ha ya
+psin hu 纺 li ha ya
+psuf hu 乳房 li ha ya
+psuc hu 表达 li ha ya
+psiy hu 压力 li ha ya
+plic hu 粒子 li ha ya
+psit hu 速度 li ha ya
+pyuc hu 工程 li ha ya
+psan hu 空间 li ha ya
+psaf hu 回复 li ha ya
+psat hu 面 li ha ya
+psal hu 帆 li ha ya
+pluk hu 插头 li ha ya
+nyip hu 镜 li ha ya
+psun hu 来源 li ha ya
+psut hu 承诺 li ha ya
+pfim hu 职业 li ha ya
+pfiy hu 表现 li ha ya
+pfin hu 鳍 li ha ya
+pfit hu 期 li ha ya
+nyat hu 进入 li ha ya
+pfam hu 父 li ha ya
+pfan hu 埋葬 li ha ya
+plum hu 问题 li ha ya
+pfum hu 丰富 li ha ya
+pfun hu 打开 li ha ya
+plam hu 血浆 li ha ya
+pcin hu 钱 li ha ya
+pcis hu 商业 li ha ya
+pluy hu 流行 li ha ya
+plin hu 平面 li ha ya
+pcay hu 时间表 li ha ya
+pcan hu 交换 li ha ya
+pcas hu 爪子 li ha ya
+pcat hu 花 li ha ya
+pcal hu 跳 li ha ya
+nyul hu 滚 li ha ya
+pcun hu 人 li ha ya
+pcus hu 裤子 li ha ya
+pcut hu 桥 li ha ya
+pcuf hu 眉 li ha ya
+pfic hu 比较喜欢 li ha ya
+plut hu 尘 li ha ya
+plun hu 大概 li ha ya
+nyas hu 上升 li ha ya
+syim hu 七 li ha ya
+nyal hu 钉子 li ha ya
+nyup hu 邀请 li ha ya
+pfal hu 失败 li ha ya
+pcum hu 希望 li ha ya
+syip hu 清洁 li ha ya
+nwat hu 当量 li ha ya
+pcit hu 欣赏 li ha ya
+syik hu 生病 li ha ya
+pcil hu 特别 li ha ya
+plan hu 计划 li ha ya
+plat hu 行星 li ha ya
+syil hu 细胞 li ha ya
+syif hu 保留 li ha ya
+syan hu 青色 li ha ya
+pfus hu 公共汽车 li ha ya
 slim hu  例 ha ya
-swit hu  开关 li ha ya
-play hu  玩 li ha ya
-syiw hu  服务 li ha ya
-nlic hu  英语 li ha ya
-syic hu  研究 li ha ya
-syam hu  留 li ha ya
-nyit hu  单元 li ha ya
-nyus hu  电离 li ha ya
-slin hu  单 li ha ya
-nyut hu  中子 li ha ya
-nyis hu  参考 li ha ya
-syat hu  固 li ha ya
-tyik hu  衰变 li ha ya
-syut hu  支持 li ha ya
-syun hu  宇宙 li ha ya
-swil hu  灵魂 li ha ya
-swat hu  水 li ha ya
-swuy hu  质疑 li ha ya
-swun hu  睡觉 li ha ya
-syit hu  发送 li ha ya
-slac hu  错 li ha ya
-slat hu  侧 li ha ya
-syak hu  醒 li ha ya
-slof hu  词汇 li ha ya
-slam hu  升华 li ha ya
-tkun hu  中国 li ha ya
-tyip hu  再次 li ha ya
-tyap hu  尝试 li ha ya
-tyaw hu  主意 li ha ya
-tyas hu  扔 li ha ya
-tyic hu  方向 li ha ya
-tkic hu  翻译，字典 li ha ya
-tyus hu  案件 li ha ya
-tyif hu  翻译 li ha ya
-tyim hu  颤抖 li ha ya
-tyis hu  过渡 li ha ya
-tsiy hu  故事 li ha ya
-tsip hu  步 li ha ya
-tyuc hu  教 li ha ya
-tyuk hu  对象 li ha ya
-tyuf hu  不同 li ha ya
-tyil hu  冷 li ha ya
-tyam hu  原子 li ha ya
-twal hu  欢迎 li ha ya
-twuf hu  两 li ha ya
-tyak hu  喊 li ha ya
-tyin hu  三 li ha ya
-tyan hu  串 li ha ya
-tyup hu  机器人 li ha ya
-twis hu  真 li ha ya
-tsiw hu  卫星 li ha ya
-tsim hu  一起 li ha ya
-tsic hu  审讯 li ha ya
-tsin hu  指令 li ha ya
-tsil hu  值得 li ha ya
-tsuy hu  坐 li ha ya
-tsak hu  攻击 li ha ya
-tsan hu  学生 li ha ya
-tsam hu  目的 li ha ya
-tsay hu  明星 li ha ya
-tsac hu  增加 li ha ya
-tsap hu  财产 li ha ya
-tsum hu  研究 li ha ya
-tlas hu  菜 li ha ya
-tsal hu  状态 li ha ya
-tsaf hu  味道 li ha ya
-tsuk hu  店 li ha ya
-tsun hu  名词 li ha ya
-tlak hu  矩形 li ha ya
-tsul hu  成人 li ha ya
-tlay hu  折 li ha ya
-tlik hu  电力 li ha ya
-tlum hu  老 li ha ya
-tlis hu  欲望 li ha ya
-tcap hu  透明 li ha ya
+syap hu 订购 li ha ya
+swit hu 开关 li ha ya
+play hu 玩 li ha ya
+syuk hu 严格 li ha ya
+syup hu 擦 li ha ya
+syiw hu 服务 li ha ya
+nlic hu 英语 li ha ya
+syic hu 研究 li ha ya
+syam hu 留 li ha ya
+swic hu 意识 li ha ya
+nyit hu 单元 li ha ya
+swal hu 等于 li ha ya
+swum hu 说服 li ha ya
+nyus hu 电离 li ha ya
+slin hu 单 li ha ya
+nyut hu 中子 li ha ya
+slik hu 单 li ha ya
+sliy hu 世俗 li ha ya
+slip hu 总是 li ha ya
+nyis hu 参考 li ha ya
+slit hu 分开 li ha ya
+slif hu 字 li ha ya
+slic hu 楼梯 li ha ya
+syat hu 固 li ha ya
+slan hu 听 li ha ya
+tyik hu 衰变 li ha ya
+syut hu 支持 li ha ya
+slun hu 单独 li ha ya
+sluf hu 遵循 li ha ya
+syun hu 宇宙 li ha ya
+swil hu 灵魂 li ha ya
+swat hu 水 li ha ya
+swuy hu 质疑 li ha ya
+swun hu 睡觉 li ha ya
+syit hu 发送 li ha ya
+slac hu 错 li ha ya
+slat hu 侧 li ha ya
+syak hu 醒 li ha ya
+slof hu 词汇 li ha ya
+slam hu 升华 li ha ya
+tkun hu 中国 li ha ya
+tyip hu 再次 li ha ya
+tyap hu 尝试 li ha ya
+tyal hu 正义 li ha ya
+tyaf hu 交付 li ha ya
+tyac hu 出席 li ha ya
+tyum hu 过渡 li ha ya
+tyaw hu 主意 li ha ya
+tyas hu 扔 li ha ya
+tyun hu 其他 li ha ya
+tyic hu 方向 li ha ya
+tkic hu 翻译，字典 li ha ya
+tyus hu 案件 li ha ya
+tyif hu 翻译 li ha ya
+tway hu 门 li ha ya
+tyim hu 颤抖 li ha ya
+twuy hu 门口 li ha ya
+tyis hu 过渡 li ha ya
+tsiy hu 故事 li ha ya
+tsik hu 税 li ha ya
+tsip hu 步 li ha ya
+tyuc hu 教 li ha ya
+tyuk hu 对象 li ha ya
+tyuf hu 不同 li ha ya
+tyil hu 冷 li ha ya
+tyam hu 原子 li ha ya
+twal hu 欢迎 li ha ya
+twuf hu 两 li ha ya
+tyak hu 喊 li ha ya
+tyin hu 三 li ha ya
+tyan hu 串 li ha ya
+tyup hu 机器人 li ha ya
+twis hu 真 li ha ya
+tsiw hu 卫星 li ha ya
+tsim hu 一起 li ha ya
+tsic hu 审讯 li ha ya
+tsup hu 停止 li ha ya
+tsin hu 指令 li ha ya
+tsil hu 值得 li ha ya
+tsuy hu 坐 li ha ya
+tsak hu 攻击 li ha ya
+tsan hu 学生 li ha ya
+tlic hu 乐趣 li ha ya
+tlam hu 属于 li ha ya
+tsam hu 目的 li ha ya
+tsay hu 明星 li ha ya
+tlap hu 治疗 li ha ya
+tsac hu 增加 li ha ya
+tsap hu 财产 li ha ya
+tlaf hu 只要 li ha ya
+tsum hu 研究 li ha ya
+tlas hu 菜 li ha ya
+tfik hu 交通 li ha ya
+tsal hu 状态 li ha ya
+tfis hu 差分 li ha ya
+tfam hu 确定 li ha ya
+tsaf hu 味道 li ha ya
+tsuk hu 店 li ha ya
+tsun hu 名词 li ha ya
+tlak hu 矩形 li ha ya
+tfum hu 朋友 li ha ya
+tsul hu 成人 li ha ya
+tlay hu 折 li ha ya
+tcim hu 尺寸 li ha ya
+tlik hu 电力 li ha ya
+tlum hu 老 li ha ya
+tlis hu 欲望 li ha ya
+tcap hu 透明 li ha ya
+tcam hu 嚼 li ha ya
+tcak hu 说话 li ha ya
+tcay hu 态度 li ha ya
 tlin hu  序数词 ha ya
-tlun hu  三联点 li ha ya
-tfan hu  转让 li ha ya
-tfas hu  灾难 li ha ya
-tfim hu  临时 li ha ya
-tfun hu  信任 li ha ya
-tfin hu  个人 li ha ya
-fwap hu  五 li ha ya
-tfak hu  污垢 li ha ya
-tciy hu  变化 li ha ya
-tlan hu  传统 li ha ya
-flan hu  洪水 li ha ya
-tcik hu  查 li ha ya
-flat hu  平 li ha ya
-tcuk hu  招 li ha ya
-tcil hu  监狱 li ha ya
-tcum hu  加入 li ha ya
-fyis hu  官方 li ha ya
-tfus hu  破坏 li ha ya
-fyut hu  水果 li ha ya
-tcin hu  链 li ha ya
-tcuy hu  外 li ha ya
-tcun hu  动力 li ha ya
-tfal hu  文件 li ha ya
-tcan hu  树 li ha ya
-flay hu  飞 li ha ya
-fwil hu  力 li ha ya
-fwas hu  相 li ha ya
-mink hu  心 li ha ya
-flun hu  请 li ha ya
-fyas hu  短语 li ha ya
-cyan hu  包括 li ha ya
-cwuy hu  关怀 li ha ya
-cyin hu  学习 li ha ya
-clan hu  来源 li ha ya
-clin hu  关系 li ha ya
-flit hu  笛 li ha ya
-fluc hu  流 li ha ya
-mayn hu  和谐 li ha ya
-flut hu  花 li ha ya
-mant hu  品红 li ha ya
-miyn hu  未成年人 li ha ya
-miyt hu  察觉 li ha ya
-clut hu  超临界流体 li ha ya
-clum hu  句子 li ha ya
+tlun hu 三联点 li ha ya
+tcal hu 聊 li ha ya
+tfan hu 转让 li ha ya
+tfas hu 灾难 li ha ya
+tfim hu 临时 li ha ya
+tcup hu 下降 li ha ya
+tcuw hu 外 li ha ya
+tfun hu 信任 li ha ya
+tcul hu 标题 li ha ya
+fyim hu 即时 li ha ya
+tfin hu 个人 li ha ya
+fyit hu 面前 li ha ya
+fyil hu 愉快 li ha ya
+fyam hu 成名 li ha ya
+fyaw hu 副词 li ha ya
+fyan hu 庆祝 li ha ya
+fwap hu 五 li ha ya
+fyat hu 译 li ha ya
+fyum hu 改革 li ha ya
+fyun hu 警告 li ha ya
+tfak hu 污垢 li ha ya
+fwis hu 类 li ha ya
+tciy hu 变化 li ha ya
+fway hu 品种 li ha ya
+tlan hu 传统 li ha ya
+flan hu 洪水 li ha ya
+flim hu 非金属 li ha ya
+flin hu 影响 li ha ya
+tcik hu 查 li ha ya
+flat hu 平 li ha ya
+tcuk hu 招 li ha ya
+tcil hu 监狱 li ha ya
+fluk hu 花 li ha ya
+flup hu 地板 li ha ya
+tcum hu 加入 li ha ya
+fyis hu 官方 li ha ya
+tfus hu 破坏 li ha ya
+cyik hu 分享 li ha ya
+cyip hu 新闻 li ha ya
+fyut hu 水果 li ha ya
+cyis hu 横过 li ha ya
+cyit hu 牙齿 li ha ya
+cyif hu 明显 li ha ya
+cyam hu 合页 li ha ya
+cyap hu 科 li ha ya
+tcin hu 链 li ha ya
+cyas hu 字符 li ha ya
+cyat hu 危险 li ha ya
+cyal hu 架 li ha ya
+cyaf hu 揭示 li ha ya
+cyum hu 房间 li ha ya
+cyut hu 条件 li ha ya
+cwif hu 接收 li ha ya
+cwam hu 晚间 li ha ya
+cwan hu 阴道 li ha ya
+cwal hu 吞 li ha ya
+tcuy hu 外 li ha ya
+tcun hu 动力 li ha ya
+clak hu 踝 li ha ya
+tfal hu 文件 li ha ya
+clas hu 大厅 li ha ya
+tcan hu 树 li ha ya
+clun hu 膝盖 li ha ya
+flay hu 飞 li ha ya
+fwil hu 力 li ha ya
+fwas hu 相 li ha ya
+miwt hu 死亡 li ha ya
+mink hu 心 li ha ya
+minp hu 之间 li ha ya
+flun hu 请 li ha ya
+misp hu 疑似 li ha ya
+fyas hu 短语 li ha ya
+mils hu 军事 li ha ya
+cyan hu 包括 li ha ya
+milc hu 洗 li ha ya
+mift hu 方法 li ha ya
+mict hu 提到 li ha ya
+mayk hu 标记 li ha ya
+cwuy hu 关怀 li ha ya
+cyin hu 学习 li ha ya
+mays hu 边界 li ha ya
+clan hu 来源 li ha ya
+clin hu 关系 li ha ya
+flit hu 笛 li ha ya
+fluc hu 流 li ha ya
+mask hu 面具 li ha ya
+masp hu 麻烦 li ha ya
+mayn hu 和谐 li ha ya
+malk hu 广告 li ha ya
+flut hu 花 li ha ya
+mant hu 品红 li ha ya
+malf hu 油 li ha ya
+malc hu 后悔 li ha ya
+maft hu 承认 li ha ya
+miyn hu 未成年人 li ha ya
+miyt hu 察觉 li ha ya
+clut hu 超临界流体 li ha ya
+clum hu 句子 li ha ya
 miwk hu  人 ha ya
-miyk hu  发送 li ha ya
-mist hu  测量 li ha ya
-mank hu  大脑 li ha ya
-mayc hu  图像 li ha ya
-milt hu  熔 li ha ya
-musk hu  音乐 li ha ya
-malp hu  奖励 li ha ya
-mayp hu  地图 li ha ya
-mans hu  人的 li ha ya
-mayt hu  虚机 li ha ya
-mast hu  物 li ha ya
-kiyn hu  一 li ha ya
-muyn hu  傻瓜 li ha ya
-muyp hu  提高 li ha ya
-kint hu  兑换 li ha ya
-muyk hu  主要 li ha ya
-muys hu  情感 li ha ya
-must hu  最 li ha ya
-munk hu  可能 li ha ya
-munt hu  情绪 li ha ya
-muft hu  死 li ha ya
-mint hu  方法 li ha ya
-muyt hu  盟友 li ha ya
-malt hu  材料 li ha ya
-mack hu  想像 li ha ya
-kist hu  更换 li ha ya
+miyk hu 发送 li ha ya
+muwt hu 口 li ha ya
+mist hu 测量 li ha ya
+mank hu 大脑 li ha ya
+mayc hu 图像 li ha ya
+musp hu 腕 li ha ya
+milt hu 熔 li ha ya
+musk hu 音乐 li ha ya
+malp hu 奖励 li ha ya
+muct hu 重要 li ha ya
+mayp hu 地图 li ha ya
+mans hu 人的 li ha ya
+mayt hu 虚机 li ha ya
+mast hu 物 li ha ya
+kiyn hu 一 li ha ya
+muyn hu 傻瓜 li ha ya
+muyp hu 提高 li ha ya
+kict hu 超过 li ha ya
+kamp hu 营 li ha ya
+kint hu 兑换 li ha ya
+kaym hu 收集 li ha ya
+kayp hu 边缘 li ha ya
+muyk hu 主要 li ha ya
+muys hu 情感 li ha ya
+kayt hu 卡 li ha ya
+kawp hu 盖 li ha ya
+kawn hu 挂 li ha ya
+must hu 最 li ha ya
+kawt hu 床 li ha ya
+munk hu 可能 li ha ya
+munt hu 情绪 li ha ya
+muft hu 死 li ha ya
+mint hu 方法 li ha ya
+kalp hu 电缆 li ha ya
+kals hu 星系 li ha ya
+kalc hu 抱怨 li ha ya
+kafp hu 接受 li ha ya
+kaft hu 活性 li ha ya
+kact hu 热 li ha ya
+muyt hu 盟友 li ha ya
+malt hu 材料 li ha ya
+mack hu 想像 li ha ya
+kuyp hu 复制 li ha ya
+kist hu 更换 li ha ya
 kamt hu  语法 ha ya
-kiyp hu  纸 li ha ya
-kant hu  不变 li ha ya
-kasp hu  抓 li ha ya
-kast hu  创建 li ha ya
-mult hu  模 li ha ya
-kift hu  原谅 li ha ya
-kisp hu  指数 li ha ya
-kays hu  语法情况 li ha ya
-kayn hu  流流 li ha ya
-kanp hu  接 li ha ya
-kaws hu  气 li ha ya
-kimt hu  挂 li ha ya
-kump hu  复 li ha ya
-kunp hu  关闭 li ha ya
-kumt hu  命令 li ha ya
-yinp hu  回报 li ha ya
-kuym hu  常见 li ha ya
-yilk hu  黄 li ha ya
+kiyp hu 纸 li ha ya
+kant hu 不变 li ha ya
+kasp hu 抓 li ha ya
+kulp hu 爪 li ha ya
+kast hu 创建 li ha ya
+mult hu 模 li ha ya
+kulc hu 勺 li ha ya
+kufp hu 恢复 li ha ya
+kuft hu 涂层 li ha ya
+kucp hu 皮肤 li ha ya
+kift hu 原谅 li ha ya
+kisp hu 指数 li ha ya
+yiwt hu 反叛 li ha ya
+kays hu 语法情况 li ha ya
+kayn hu 流流 li ha ya
+yint hu 今天 li ha ya
+kanp hu 接 li ha ya
+yisp hu 出口 li ha ya
+kaws hu 气 li ha ya
+kimt hu 挂 li ha ya
+yils hu 年龄 li ha ya
+kump hu 复 li ha ya
+yilc hu 已经 li ha ya
+yifk hu 富裕 li ha ya
+kunp hu 关闭 li ha ya
+yict hu 拒绝 li ha ya
+kumt hu 命令 li ha ya
+yinp hu 回报 li ha ya
+yank hu 岩石 li ha ya
+yanp hu 普通 li ha ya
+yant hu 出租 li ha ya
+kuym hu 常见 li ha ya
+yilk hu 黄 li ha ya
 yimk hu  问 ha ya
-yawt hu  危害 li ha ya
-kuct hu  犯罪 li ha ya
-kuyt hu  关键点 li ha ya
-kuls hu  残酷 li ha ya
-kusp hu  崩溃 li ha ya
-kust hu  不变 li ha ya
-yisk hu  丰富 li ha ya
-yist hu  出口 li ha ya
-yimt hu  韵律 li ha ya
-kuwt hu  代码 li ha ya
-yink hu  环 li ha ya
-yasp hu  工作 li ha ya
-yift hu  值得 li ha ya
-yamt hu  佩服 li ha ya
-kunt hu  控制 li ha ya
-kult hu  文化 li ha ya
-yalt hu  早 li ha ya
-yaft hu  排 li ha ya
-yilt hu  欧拉数 li ha ya
-yumt hu  怜悯 li ha ya
-yusk hu  东部 li ha ya
-yask hu  反应 li ha ya
-yuyp hu  欧洲 li ha ya
-yuns hu  天王星 li ha ya
-yust hu  休息 li ha ya
-yunt hu  集装箱 li ha ya
-yast hu  免费 li ha ya
-piyn hu  冠瘿 li ha ya
-piyt hu  依赖 li ha ya
-pist hu  许可证 li ha ya
-pint hu  操作 li ha ya
-yalk hu  车辆 li ha ya
-yulp hu  角色 li ha ya
-piys hu  PI li ha ya
-pamt hu  永久 li ha ya
-pays hu  基地 li ha ya
-yult hu  效用 li ha ya
-puyk hu  语法对象 li ha ya
-pans hu  西班牙语 li ha ya
-panp hu  面包 li ha ya
-puyt hu  咬 li ha ya
-past hu  生产 li ha ya
-puwt hu  提供 li ha ya
-pant hu  借 li ha ya
-pulk hu  多边形 li ha ya
-puls hu  吻 li ha ya
-pult hu  瓶子 li ha ya
-pust hu  邮件 li ha ya
-pusk hu  负载 li ha ya
-nuys hu  噪音 li ha ya
-punt hu  点 li ha ya
-niyk hu  附近的 li ha ya
-nuls hu  零 li ha ya
-niwt hu  网络 li ha ya
-nist hu  不错 li ha ya
-pack hu  享受 li ha ya
-nift hu  九 li ha ya
-nict hu  本地人 li ha ya
-siyt hu  建议 li ha ya
-nims hu  万物有灵 li ha ya
-sift hu  移 li ha ya
-sayk hu  明智 li ha ya
-numt hu  注意 li ha ya
-nilt hu  情报 li ha ya
-nayt hu  罕见 li ha ya
-nast hu  兴趣 li ha ya
-nuyt hu  北 li ha ya
-nusp hu  忘记 li ha ya
-sanp hu  扩展 li ha ya
-wins hu  金星 li ha ya
-wuym hu  音量 li ha ya
-wint hu  风 li ha ya
-tiyk hu  十 li ha ya
-sink hu  减少 li ha ya
-silk hu  六 li ha ya
-tiyn hu  继续 li ha ya
-siyn hu  似乎 li ha ya
-sayp hu  供应 li ha ya
-sayn hu  节省 li ha ya
-niyt hu  第n根 li ha ya
-sint hu  感觉 li ha ya
-tiws hu  剧院 li ha ya
-nuks hu  UNIX li ha ya
-nust hu  通知 li ha ya
-salc hu  社会 li ha ya
-sact hu  射击 li ha ya
-suyk hu  受 li ha ya
-sank hu  常 li ha ya
-sumt hu  主题 li ha ya
-sunp hu  假设 li ha ya
-suyt hu  正确 li ha ya
-sunt hu  南 li ha ya
-sucp hu  配偶 li ha ya
-sulc hu  解 li ha ya
-sark hu  讽刺 li ha ya
-nuft hu  敌对 li ha ya
-tiym hu  晚 li ha ya
-nalt hu  大自然 li ha ya
-sayt hu  光速的 li ha ya
-tiyf hu  驱动器 li ha ya
-sant hu  艺术 li ha ya
+yawt hu 危害 li ha ya
+kuct hu 犯罪 li ha ya
+yalf hu 旅行 li ha ya
+yafk hu 应对 li ha ya
+kuyt hu 关键点 li ha ya
+yact hu 配给 li ha ya
+yumk hu 上市 li ha ya
+kuls hu 残酷 li ha ya
+yunk hu 培养 li ha ya
+kusp hu 崩溃 li ha ya
+kust hu 不变 li ha ya
+yusp hu 抢 li ha ya
+yisk hu 丰富 li ha ya
+yist hu 出口 li ha ya
+yimt hu 韵律 li ha ya
+yulf hu 有用 li ha ya
+yuck hu 根 li ha ya
+yuct hu 涉及 li ha ya
+pimt hu 具有 li ha ya
+piyk hu 实验 li ha ya
+kuwt hu 代码 li ha ya
+yink hu 环 li ha ya
+yasp hu 工作 li ha ya
+yift hu 值得 li ha ya
+pisk hu 阴茎 li ha ya
+yamt hu 佩服 li ha ya
+pilt hu 票 li ha ya
+pict hu 病虫害 li ha ya
+pamk hu 提示 li ha ya
+kunt hu 控制 li ha ya
+paym hu 端口 li ha ya
+payn hu 禁止 li ha ya
+kult hu 文化 li ha ya
+payt hu 咬 li ha ya
+payc hu 价格 li ha ya
+pank hu 陷阱 li ha ya
+yalt hu 早 li ha ya
+pask hu 袋 li ha ya
+yaft hu 排 li ha ya
+palk hu 背部 li ha ya
+pals hu 爆炸 li ha ya
+palt hu 政治 li ha ya
+yilt hu 欧拉数 li ha ya
+pact hu 部分 li ha ya
+pumt hu 肚皮 li ha ya
+puym hu 绊倒 li ha ya
+yumt hu 怜悯 li ha ya
+puyn hu 底部 li ha ya
+puys hu 交叉 li ha ya
+yusk hu 东部 li ha ya
+puyc hu 倒 li ha ya
+yask hu 反应 li ha ya
+punk hu 腿 li ha ya
+yuyp hu 欧洲 li ha ya
+yuns hu 天王星 li ha ya
+yust hu 休息 li ha ya
+yunt hu 集装箱 li ha ya
+yast hu 免费 li ha ya
+piyn hu 冠瘿 li ha ya
+pulf hu 眼皮 li ha ya
+piyt hu 依赖 li ha ya
+wist hu 投资 li ha ya
+ways hu 面对 li ha ya
+wayt hu 线 li ha ya
+wank hu 碗 li ha ya
+wasp hu 长袍 li ha ya
+walk hu 波 li ha ya
+pist hu 许可证 li ha ya
+wuyt hu 投票 li ha ya
+wunk hu 弯头 li ha ya
+wulp hu 肋骨 li ha ya
+wuls hu 主管 li ha ya
+wult hu 旧 li ha ya
+nimt hu 非金属 li ha ya
+pint hu 操作 li ha ya
+niyp hu 避免 li ha ya
+yalk hu 车辆 li ha ya
+niws hu 鼻子 li ha ya
+yulp hu 角色 li ha ya
+nisk hu 成分 li ha ya
+nisp hu 原理 li ha ya
+piys hu PI li ha ya
+nilk hu 核 li ha ya
+pamt hu 永久 li ha ya
+pays hu 基地 li ha ya
+nick hu 裸 li ha ya
+yult hu 效用 li ha ya
+namt hu 委 li ha ya
+naym hu 正常 li ha ya
+nayk hu 拒绝 li ha ya
+nays hu 组织 li ha ya
+puyk hu 语法对象 li ha ya
+nayc hu 国家 li ha ya
+nask hu 利益 li ha ya
+nasp hu 运输 li ha ya
+pans hu 西班牙语 li ha ya
+nals hu 联系 li ha ya
+panp hu 面包 li ha ya
+nafk hu 窗口 li ha ya
+naft hu 人造 li ha ya
+nack hu 检查 li ha ya
+nact hu 干扰 li ha ya
+numk hu 经济 li ha ya
+puyt hu 咬 li ha ya
+nuym hu 宣布 li ha ya
+past hu 生产 li ha ya
+puwt hu 提供 li ha ya
+nusk hu 肛门 li ha ya
+pant hu 借 li ha ya
+pulk hu 多边形 li ha ya
+nulk hu 颈部 li ha ya
+nulp hu 高贵 li ha ya
+puls hu 吻 li ha ya
+nult hu 分娩 li ha ya
+pult hu 瓶子 li ha ya
+nuck hu 决不 li ha ya
+simk hu 一秒 li ha ya
+simp hu 种子 li ha ya
+simt hu 系统 li ha ya
+siym hu 概要 li ha ya
+siyk hu 秘密 li ha ya
+siyp hu 精确 li ha ya
+pust hu 邮件 li ha ya
+pusk hu 负载 li ha ya
+siyc hu 系列 li ha ya
+siwc hu 情况 li ha ya
+nuys hu 噪音 li ha ya
+sinp hu 出现 li ha ya
+punt hu 点 li ha ya
+niyk hu 附近的 li ha ya
+silt hu 解决 li ha ya
+silf hu 平民 li ha ya
+sifk hu 缺乏 li ha ya
+sifp hu 位置 li ha ya
+nuls hu 零 li ha ya
+sick hu 性别 li ha ya
+sict hu 伤心 li ha ya
+samk hu 眼 li ha ya
+samt hu 小时 li ha ya
+saym hu 伸展 li ha ya
+niwt hu 网络 li ha ya
+nist hu 不错 li ha ya
+pack hu 享受 li ha ya
+nift hu 九 li ha ya
+sayf hu 牺牲 li ha ya
+sayc hu 调查 li ha ya
+nict hu 本地人 li ha ya
+siyt hu 建议 li ha ya
+nims hu 万物有灵 li ha ya
+salk hu 杀 li ha ya
+salp hu 剩余 li ha ya
+salt hu 盐 li ha ya
+salf hu 健康 li ha ya
+sift hu 移 li ha ya
+saft hu 安全 li ha ya
+sack hu 暮 li ha ya
+sacp hu 惩治 li ha ya
+sayk hu 明智 li ha ya
+sumk hu 成功 li ha ya
+sump hu 早上 li ha ya
+numt hu 注意 li ha ya
+nilt hu 情报 li ha ya
+suyp hu 吸收 li ha ya
+suyn hu 结构体 li ha ya
+nayt hu 罕见 li ha ya
+sunk hu 主干 li ha ya
+nast hu 兴趣 li ha ya
+nuyt hu 北 li ha ya
+sult hu 士兵 li ha ya
+nusp hu 忘记 li ha ya
+sufk hu 脊柱 li ha ya
+suft hu 神圣 li ha ya
+suck hu 插座 li ha ya
+sanp hu 扩展 li ha ya
+timk hu 语法 li ha ya
+wins hu 金星 li ha ya
+wuym hu 音量 li ha ya
+tiyp hu 类型 li ha ya
+wint hu 风 li ha ya
+tiyk hu 十 li ha ya
+sink hu 减少 li ha ya
+tiyc hu 延迟 li ha ya
+silk hu 六 li ha ya
+tiyn hu 继续 li ha ya
+siyn hu 似乎 li ha ya
+sayp hu 供应 li ha ya
+sayn hu 节省 li ha ya
+niyt hu 第n根 li ha ya
+tilk hu 标签 li ha ya
+tilc hu 技术 li ha ya
+tifk hu 活动 li ha ya
+sint hu 感觉 li ha ya
+tiws hu 剧院 li ha ya
+nuks hu UNIX li ha ya
+tamp hu 辩论 li ha ya
+nust hu 通知 li ha ya
+salc hu 社会 li ha ya
+tayp hu 最佳 li ha ya
+sact hu 射击 li ha ya
+tays hu 站 li ha ya
+suyk hu 受 li ha ya
+tayc hu 度 li ha ya
+sank hu 常 li ha ya
+sumt hu 主题 li ha ya
+sunp hu 假设 li ha ya
+suyt hu 正确 li ha ya
+sunt hu 南 li ha ya
+sucp hu 配偶 li ha ya
+sulc hu 解 li ha ya
+tals hu 假装 li ha ya
+sark hu 讽刺 li ha ya
+talc hu 有权 li ha ya
+tafp hu 保卫 li ha ya
+nuft hu 敌对 li ha ya
+tacp hu 讨论 li ha ya
+tumk hu 呕吐 li ha ya
+tump hu 寺庙 li ha ya
+tiym hu 晚 li ha ya
+nalt hu 大自然 li ha ya
+tuyp hu 原型 li ha ya
+sayt hu 光速的 li ha ya
+tiyf hu 驱动器 li ha ya
+sant hu 艺术 li ha ya
 timp hu  语法时态 ha ya
-tins hu  密 li ha ya
-tawk hu  权威 li ha ya
-tiys hu  距离 li ha ya
-tink hu  文本 li ha ya
-ticp hu  几乎 li ha ya
-tiwk hu  活动 li ha ya
-tisk hu  文本 li ha ya
-tinp hu  黄金比例 li ha ya
+tuwk hu 责任 li ha ya
+tuwn hu 音 li ha ya
+tins hu 密 li ha ya
+tunp hu 适应 li ha ya
+tawk hu 权威 li ha ya
+tusp hu 胆 li ha ya
+tulk hu 总 li ha ya
+tulp hu 疼痛 li ha ya
+tufk hu 目的 li ha ya
+tuck hu 字典 li ha ya
+limk hu 完善 li ha ya
+limt hu 限制 li ha ya
+tiys hu 距离 li ha ya
+tink hu 文本 li ha ya
+ticp hu 几乎 li ha ya
+tiwk hu 活动 li ha ya
+tisk hu 文本 li ha ya
+tinp hu 黄金比例 li ha ya
 tick hu  词典 ha ya
-tayf hu  提供 li ha ya
-tisp hu  代表 li ha ya
-tayk hu  附 li ha ya
-tuym hu  世界 li ha ya
-liys hu  自由 li ha ya
-task hu  任务 li ha ya
-talk hu  谈话 li ha ya
-tank hu  突然 li ha ya
-talf hu  隐藏 li ha ya
-taym hu  时间 li ha ya
-talp hu  表 li ha ya
-tasp hu  数据库 li ha ya
-tuyk hu  医生 li ha ya
-tuyn hu  转 li ha ya
-tuys hu  贼 li ha ya
-tuyc hu  破坏 li ha ya
+tayf hu 提供 li ha ya
+linp hu 长度 li ha ya
+tisp hu 代表 li ha ya
+tayk hu 附 li ha ya
+tuym hu 世界 li ha ya
+lifk hu 推出 li ha ya
+lick hu 演讲 li ha ya
+licp hu 叶 li ha ya
+lict hu 选 li ha ya
+lamk hu 法 li ha ya
+lamt hu 本地 li ha ya
+liys hu 自由 li ha ya
+task hu 任务 li ha ya
+layc hu 文学 li ha ya
+laws hu 懒 li ha ya
+talk hu 谈话 li ha ya
+tank hu 突然 li ha ya
+lask hu 得罪 li ha ya
+lasp hu 斗争 li ha ya
+talf hu 隐藏 li ha ya
+taym hu 时间 li ha ya
+talp hu 表 li ha ya
+lumt hu 旋律 li ha ya
+tasp hu 数据库 li ha ya
+tuyk hu 医生 li ha ya
+tuyn hu 转 li ha ya
+tuys hu 贼 li ha ya
+tuyc hu 破坏 li ha ya
+fiym hu 公司 li ha ya
+fiyn hu 防止 li ha ya
+fiys hu 版 li ha ya
+fiwn hu 证据 li ha ya
+fink hu 手指 li ha ya
 /sˈa5˧n tɕjˈɑu2˧˥ʔ ɕˈiɜŋ/ 三角形 :zh. /tɹˈaɪaŋɡəl/ triangle :en.
 /tɾiˈaŋɡulo/ triángulo :es. /tɾɪkˈoːɳ/ त्रिकोण :hi. /mθlθ/
 مثلث :ar. /sˈɛɡi tˈiɡa/ segi tiga :id. /trʲiuɡˈoɭnik/
@@ -623,56 +1034,100 @@ tuyc hu  破坏 li ha ya
 üçgen :tr. /kˈolmɪo/ kolmio :fi. /trˈiːaŋəl/ triangel :sv.
 /mosˈallas/ مثلث :fa. /trˈiɣonˌo/ τρίγωνο :el. 10 t, 8 u, 8 n,
 8 k, 8 a, 7 l, 7 i, 6 y, 4 m, 3 s, 3 c, 1 p, 1 f, 0 w, tunk hu
- 三角形 li ha ya
-lisk hu  假期 li ha ya
-tukc hu  土耳其 li ha ya
-liyp hu  图书馆 li ha ya
-tayn hu  区域 li ha ya
-layt hu  十一 li ha ya
-lank hu  当地 li ha ya
-tusk hu  进度 li ha ya
-tamk hu  看 li ha ya
-liwk hu  法律 li ha ya
-tanp hu  出现 li ha ya
-tack hu  谢谢 li ha ya
-tuwm hu  长短 li ha ya
-fayt hu  事实 li ha ya
-list hu  至少 li ha ya
-fals hu  假 li ha ya
-falt hu  默认 li ha ya
-funk hu  功能 li ha ya
-lant hu  慢 li ha ya
-last hu  名单 li ha ya
-laft hu  好处 li ha ya
-lunk hu  逻辑 li ha ya
-fult hu  饭店 li ha ya
-liyk hu  液体 li ha ya
-lufk hu  锁 li ha ya
-liwt hu  礼物 li ha ya
-liyt hu  文学 li ha ya
-fint hu  发现 li ha ya
-fayk hu  工厂 li ha ya
-liyn hu  线 li ha ya
-layk hu  湖 li ha ya
-link hu  链接 li ha ya
-fast hu  访问 li ha ya
-fisk hu  词缀 li ha ya
-faym hu  农场 li ha ya
-lint hu  里面 li ha ya
-fuyk hu  穷 li ha ya
-fans hu  法国 li ha ya
-fusk hu  焦点 li ha ya
-lumk hu  对数 li ha ya
-ciyk hu  肯定 li ha ya
-lunt hu  人 li ha ya
-fuym hu  形式 li ha ya
-cink hu  希望 li ha ya
-cank hu  迹象 li ha ya
-cant hu  习惯 li ha ya
-cint hu  经纪人 li ha ya
-funm hu  音素 li ha ya
-lunp hu  环 li ha ya
-luwt hu  琵琶 li ha ya
+三角形 li ha ya
+lisk hu 假期 li ha ya
+famk hu 熟 li ha ya
+tukc hu 土耳其 li ha ya
+liyp hu 图书馆 li ha ya
+tayn hu 区域 li ha ya
+fant hu 事件 li ha ya
+fask hu 额外 li ha ya
+layt hu 十一 li ha ya
+lank hu 当地 li ha ya
+tusk hu 进度 li ha ya
+fack hu 火 li ha ya
+fact hu 足够 li ha ya
+fumt hu 明天 li ha ya
+tamk hu 看 li ha ya
+liwk hu 法律 li ha ya
+fuys hu 罪行 li ha ya
+tanp hu 出现 li ha ya
+funt hu 相信 li ha ya
+tack hu 谢谢 li ha ya
+fust hu 短裙 li ha ya
+tuwm hu 长短 li ha ya
+fulc hu 头发 li ha ya
+cimt hu 虚数单位 li ha ya
+fayt hu 事实 li ha ya
+ciyn hu 地区 li ha ya
+ciwk hu 村庄 li ha ya
+list hu 至少 li ha ya
+fals hu 假 li ha ya
+cisk hu 尖锐 li ha ya
+cisp hu 特定 li ha ya
+cist hu 历史 li ha ya
+cilk hu 脸颊 li ha ya
+cils hu 解决 li ha ya
+cilt hu 寂静 li ha ya
+camk hu 衬衫 li ha ya
+cayk hu 法官 li ha ya
+cayp hu 耻辱 li ha ya
+cayn hu 生存 li ha ya
+cays hu 奖 li ha ya
+cayf hu 颚 li ha ya
+cawn hu 动物 li ha ya
+falt hu 默认 li ha ya
+canp hu 习惯 li ha ya
+funk hu 功能 li ha ya
+cast hu 站 li ha ya
+calk hu 心 li ha ya
+cafk hu 受害者 li ha ya
+cumt hu 敌人 li ha ya
+cuym hu 谣言 li ha ya
+cuyk hu 烧伤 li ha ya
+cuyp hu 臀部 li ha ya
+cuyn hu 河 li ha ya
+cuys hu 房子 li ha ya
+cuyt hu 市 li ha ya
+cunk hu 唱 li ha ya
+cunt hu 缝 li ha ya
+cusk hu 镇 li ha ya
+cusp hu 鞋 li ha ya
+cust hu 存在 li ha ya
+culp hu 闻 li ha ya
+cult hu 肩 li ha ya
+lant hu 慢 li ha ya
+last hu 名单 li ha ya
+laft hu 好处 li ha ya
+lunk hu 逻辑 li ha ya
+fult hu 饭店 li ha ya
+liyk hu 液体 li ha ya
+lufk hu 锁 li ha ya
+liwt hu 礼物 li ha ya
+liyt hu 文学 li ha ya
+fint hu 发现 li ha ya
+fayk hu 工厂 li ha ya
+liyn hu 线 li ha ya
+layk hu 湖 li ha ya
+link hu 链接 li ha ya
+fast hu 访问 li ha ya
+fisk hu 词缀 li ha ya
+faym hu 农场 li ha ya
+lint hu 里面 li ha ya
+fuyk hu 穷 li ha ya
+fans hu 法国 li ha ya
+fusk hu 焦点 li ha ya
+lumk hu 对数 li ha ya
+ciyk hu 肯定 li ha ya
+lunt hu 人 li ha ya
+fuym hu 形式 li ha ya
+cink hu 希望 li ha ya
+cank hu 迹象 li ha ya
+cant hu 习惯 li ha ya
+cint hu 经纪人 li ha ya
+funm hu 音素 li ha ya
+lunp hu 环 li ha ya
+luwt hu 琵琶 li ha ya
 kwal hu  语言 ha ya
-budz hu  佛教 li ha ya
-cinp hu  信息 li ha ya
+budz hu 佛教 li ha ya
+cinp hu 信息 li ha ya

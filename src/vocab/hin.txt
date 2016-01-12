@@ -1,621 +1,1032 @@
-hi li hu  होना li ha ya
-ha li hu  ओबी li ha ya
-hu li hu  सु li ha ya
-mi li hu  मुझको li ha ya
-ma li hu  क्या-बात li ha ya
-mu li hu  मर्द-का li ha ya
-ki li hu  व li ha ya
-ka li hu  जैसा li ha ya
-ku li hu  अगर li ha ya
-yi li hu  यहयहां li ha ya
-yu li hu  आप li ha ya
-ya li hu  तो li ha ya
-pi li hu  की li ha ya
-pa li hu  उस-बात li ha ya
-pu li hu  किया li ha ya
-wi li hu  हमने li ha ya
-wa li hu  या li ha ya
-wu li hu  द्वारा li ha ya
-ni li hu  में li ha ya
-na li hu  अंक li ha ya
-si li hu  उनहोने li ha ya
-nu li hu  अभी li ha ya
-ti li hu  था li ha ya
-su li hu  से li ha ya
-ta li hu  को li ha ya
-tu li hu  तेरा li ha ya
-li li hu  शाब्दिक li ha ya
-fa li hu  अबाउट li ha ya
-la li hu  अरे li ha ya
-lu li hu  बहुवचन li ha ya
-fi li hu  स्त्रैण li ha ya
-ci li hu  एह? li ha ya
-fu li hu  जायेंगे li ha ya
-mya li hu  मेबी li ha ya
-ca li hu  नपुंसक-लिंग li ha ya
-myi li hu  अनेक li ha ya
-kyi li hu  सशर्त li ha ya
-mwa li hu  साथ li ha ya
-kya li hu  अलग li ha ya
-sa li hu  एस् li ha ya
-kyu li hu  क्योंकि li ha ya
-kwa li hu  जो-कि li ha ya
-ksa li hu  गंदें-शब्द-बोलना li ha ya
-kli li hu  उसे li ha ya
-kla li hu  लेकिन li ha ya
-klu li hu  खंड-पूंछ li ha ya
-kfa li hu  विशेषण-प्रत्यय li ha ya
-kca li hu  हा li ha ya
-pyi li hu  क्रिया-प्रत्यय li ha ya
-pya li hu  पर li ha ya
-psu li hu  से-स्रोत li ha ya
-psi li hu  से-पहले li ha ya
-pwa li hu  yaor li ha ya
-pli li hu  उदाहरण-के-लिए li ha ya
-pci li hu  भी li ha ya
-pca li hu  रसिक li ha ya
-pcu li hu  भी li ha ya
-nyi li hu  न li ha ya
-nya li hu  यानी li ha ya
-nyu li hu  एक li ha ya
-sya li hu  एकवचन li ha ya
-syi li hu  बहुत li ha ya
-syu li hu  इसलिए li ha ya
-swa li hu  अन्यथा li ha ya
-swi li hu  जबकि li ha ya
-sli li hu  बाकी-अगर li ha ya
-sla li hu  नमस्कार li ha ya
-tya li hu  के-बाद li ha ya
-tyi li hu  उद्धरण li ha ya
-twu li hu  दोहरी li ha ya
-tsa li hu  जब-तक li ha ya
-tsi li hu  हां li ha ya
-tsu li hu  संज्ञा-प्रत्यय li ha ya
-tla li hu  के-लिए li ha ya
-fyi li hu  उसके li ha ya
-twa li hu  फिर li ha ya
-tcu li hu  बाहर li ha ya
-tli li hu  ORD li ha ya
-fyu li hu  कुछ li ha ya
-cya li hu  अन्य li ha ya
-min hu  कम li ha ya
-miy hu  स्मृति li ha ya
-mik hu  मेक li ha ya
-mip hu  अतीत li ha ya
-mit hu  मध्यम li ha ya
-mak hu  शब्द li ha ya
-man hu  सोच li ha ya
-mat hu  माँ li ha ya
-mun hu  नर li ha ya
-mas hu  मास li ha ya
-mut hu  मदद li ha ya
-mac hu  मशीन li ha ya
-mul hu  पूर्ण li ha ya
-kim hu  तुलना li ha ya
-kiy hu  जाओ li ha ya
-kip hu  सक्षम li ha ya
-kin hu  मेन li ha ya
-kam hu  आ li ha ya
-kis hu  उच्च li ha ya
-kit hu  समाप्त li ha ya
-kap hu  सरपंच li ha ya
-kan hu  पता-है li ha ya
-kas hu  कारण li ha ya
-kaf hu  कैथोड li ha ya
-kuy hu  बढ़ने li ha ya
-kat hu  मिलना li ha ya
-kal hu  सारे li ha ya
-kum hu  व्यापार li ha ya
-kus hu  भोजन li ha ya
-kuc hu  छोटा li ha ya
-yis hu  लिखो li ha ya
-kul hu  लक्ष्य li ha ya
-kup hu  खरीद li ha ya
-kun hu  लाल li ha ya
-yik hu  नकारना li ha ya
-yit hu  प्रतीक्षा li ha ya
-yum hu  अवयव li ha ya
-yat hu  पढ़ना li ha ya
-yun hu  घटाना li ha ya
-yak hu  कुछ li ha ya
-yuw hu  वर्ष li ha ya
-yac hu  चौड़ाई li ha ya
-pis hu  गुणा-करना li ha ya
-pit hu  सफेद li ha ya
-pic hu  पेशाब li ha ya
-yus hu  यूज़ li ha ya
-pay hu  अधिक li ha ya
-pam hu  बांह li ha ya
-yul hu  पूरे li ha ya
-pas hu  पास li ha ya
-paw hu  जगह li ha ya
-pak hu  बॉडी li ha ya
-pat hu  पिताजी li ha ya
-pus hu  पू li ha ya
-pan hu  मिले li ha ya
-puk hu  खराब li ha ya
-win hu  जीत li ha ya
-pac hu  खुशी li ha ya
-puy hu  बच्चा li ha ya
-puc hu  खाली li ha ya
-put hu  बेचना li ha ya
-pul hu  ब्लू li ha ya
-fut hu  भविष्य li ha ya
-wan hu  इश्क li ha ya
-wut hu  रोशनी li ha ya
-niy hu  आवश्यकता li ha ya
-wap hu  पूंछ li ha ya
-wat hu  बोलो li ha ya
-nay hu  साँस-छोड़ना li ha ya
-nim hu  नाम li ha ya
-nat hu  रात li ha ya
-nut hu  बिजली-का-धनात्मक-छोर li ha ya
-nit hu  जाल li ha ya
-nal hu  नंगा li ha ya
-nic hu  एनर्जी li ha ya
-sip hu  आचमन li ha ya
-nuy hu  नई li ha ya
-sit hu  सैट li ha ya
-wul hu  महा li ha ya
-sim hu  समान li ha ya
-nam hu  नंबर li ha ya
-saw hu  काला li ha ya
-sik hu  ऊंचाई li ha ya
-sil hu  आसान li ha ya
-sak hu  इस-बात-से-सहमत li ha ya
-nul hu  अमान्य li ha ya
-suy hu  खोना li ha ya
-sap hu  सरल li ha ya
-say hu  कहो li ha ya
-sam hu  समान li ha ya
-tim hu  टीम li ha ya
-tik hu  पकड़ li ha ya
-san hu  स्वयं li ha ya
-sat hu  ध्वनि li ha ya
-sup hu  वेतन li ha ya
-tis hu  साँस-लेना li ha ya
-sut hu  आकार li ha ya
-tiw hu  दीवार li ha ya
-tiy hu  दिन li ha ya
-tip hu  शुरू li ha ya
-tin hu  देख li ha ya
-til hu  कम li ha ya
-tam hu  टॉपिक li ha ya
-naw hu  वर्तमान li ha ya
-tak hu  जोड़ना li ha ya
-tuk hu  पेय li ha ya
-tay hu  रखना li ha ya
-tal hu  टाई li ha ya
-tap hu  स्पर्श li ha ya
-tan hu  देना li ha ya
-tuy hu  दोहराना li ha ya
-tas hu  चुनना li ha ya
-tup hu  गहराई li ha ya
-tum hu  तापमान li ha ya
-tuf hu  मुश्किल li ha ya
-ton hu  टन li ha ya
-fin hu  महिला li ha ya
-fit hu  योग्य li ha ya
-lif hu  बाएं li ha ya
-tul hu  ओजार li ha ya
-lik hu  आवेश li ha ya
-fam hu  परिवार li ha ya
-lin hu  लंबाई li ha ya
-ciy hu  हरा li ha ya
-cif hu  डिवाइड li ha ya
-lis hu  लीव li ha ya
-cis hu  जीवन li ha ya
-lit hu  ग्लिफ़ li ha ya
-cim hu  सुन-रहे li ha ya
-cay hu  सही li ha ya
-cin hu  संकेत li ha ya
-myut hu  आयात-करना li ha ya
-cum hu  आकार li ha ya
-cak hu  चीज li ha ya
-myil hu  मित्र li ha ya
-myit hu  याद li ha ya
-cal hu  चाल li ha ya
-can hu  संभावना li ha ya
-myun hu  रोजगार li ha ya
-kyul hu  राज li ha ya
-kyip hu  कपड़ोँ li ha ya
-mwut hu  विरोध li ha ya
-kyim hu  खेल li ha ya
-myat hu  गणित li ha ya
-myan hu  शीतल li ha ya
-kwit hu  गंभीरता li ha ya
-kyam hu  ले-जाना li ha ya
-myul hu  नेतिक li ha ya
-kyit hu  प्रत्येक li ha ya
-myin hu  सपना li ha ya
-kyus hu  मस्ती li ha ya
-kyap hu  प्रतिलिपि li ha ya
-kyil hu  गोला li ha ya
-kwat hu  मज़बूत li ha ya
-kyin hu  सामान्य li ha ya
-ksat hu  सटीक li ha ya
-ksiy hu  विशेषज्ञ li ha ya
-kyup hu  गट li ha ya
-ksit hu  बाहर-जाएं li ha ya
-ksil hu  क्रिस्टल li ha ya
-kyat hu  मुश्किल li ha ya
-ksip hu  प्रवेश li ha ya
-ksap hu  रस्सी li ha ya
-ksam hu  अंधेरा li ha ya
-ksin hu  प्रसंग li ha ya
-ksal hu  आकाशगंगा li ha ya
-ksan hu  का-आयोजन li ha ya
-kliy hu  क्लियर li ha ya
-ksum hu  संवाद li ha ya
-klin hu  इलेक्ट्रॉन li ha ya
-klim hu  विज्ञान li ha ya
-kcat hu  आठ li ha ya
-ksuf hu  वर्णन li ha ya
-ktin hu  धर्म li ha ya
-pyik hu  टूट li ha ya
-ksut hu  इकट्ठा li ha ya
-pyit hu  फोर li ha ya
-klum hu  स्तंभ li ha ya
-ksul hu  स्कूल li ha ya
-klut hu  निकालना li ha ya
-klun hu  भूख li ha ya
-kfit hu  प्रभाव li ha ya
-klac hu  सिवाय li ha ya
-pyaw hu  कपल li ha ya
-klas hu  कक्षा li ha ya
-kcil hu  कौशल li ha ya
-kfat hu  विशेषण li ha ya
-klat hu  धारा li ha ya
-kcut hu  गंदगी li ha ya
-kcuf hu  काफी li ha ya
-kcun hu  एकत्रित li ha ya
-kcim hu  रासायनिक li ha ya
-kwal hu  भाषा li ha ya
-pyil hu  अपील li ha ya
-kfin hu  कॉन्फ़िग li ha ya
-pyin hu  अनुभव li ha ya
-pyan hu  फैलाव li ha ya
-pyif hu  क्रिया li ha ya
-pyas hu  तेज li ha ya
-pyam hu  कार्यक्रम li ha ya
-klaw hu  हंसी li ha ya
-pyat hu  शीघ्र li ha ya
-pyum hu  सर्वनाम li ha ya
-pyaf hu  प्रदर्शन li ha ya
-pyut hu  प्रोटॉन li ha ya
-pyun hu  पक्षी li ha ya
-pyal hu  समानांतर li ha ya
-pyac hu  आश्चर्य-है li ha ya
-psil hu  जादू li ha ya
-pyul hu  फोड़ा li ha ya
-pyuf hu  प्रमाण li ha ya
-pwas hu  जवाब li ha ya
-pwil hu  परिवर्तनशील li ha ya
-psin hu  स्पिन li ha ya
-pwut hu  मंजूर li ha ya
-psiy hu  दबाव li ha ya
-psit hu  गति li ha ya
-pyuc hu  परियोजना li ha ya
-psan hu  अंतरिक्ष li ha ya
-psaf hu  उत्तर li ha ya
-psun hu  स्रोत li ha ya
-psat hu  सतह li ha ya
-psal hu  पाल li ha ya
-nyip hu  आईना li ha ya
-psut hu  वादा li ha ya
-nyat hu  प्रवेश li ha ya
-plum hu  समस्या li ha ya
-pluy hu  लोकप्रिय li ha ya
-plam hu  प्लाज्मा li ha ya
-plin hu  प्लेन li ha ya
-pfic hu  पसंद-करते-हैं li ha ya
-plut hu  धूल li ha ya
-plun hu  शायद li ha ya
-nyul hu  रोल li ha ya
-pfal hu  असफल li ha ya
-pcum hu  आशा li ha ya
-syim hu  सात li ha ya
-pcit hu  सराहना li ha ya
-pcil hu  विशेष li ha ya
-syip hu  साफ li ha ya
-plan hu  प्लान li ha ya
-plat hu  ग्रह li ha ya
-syan hu  सियान li ha ya
-pfus hu  बस li ha ya
-syak hu  जागर li ha ya
-swit hu  स्विच li ha ya
-syiw hu  सेवा-कर li ha ya
-nlic hu  अंग्रेजी li ha ya
-play hu  प्ले li ha ya
-syic hu  अनुसंधान li ha ya
-syam hu  ठहरना li ha ya
-nyit hu  इकाई li ha ya
-nyus hu  योण-बनाना li ha ya
-slin hu  सिंगल li ha ya
-nyut hu  न्युट्रोन li ha ya
-nyis hu  संदर्भ li ha ya
-syat hu  ठोस li ha ya
-syut hu  समर्थन li ha ya
-tyik hu  क्षय li ha ya
-syun hu  ब्रम्हांड li ha ya
-swat hu  पानी li ha ya
-swuy hu  सवाल li ha ya
-swun hu  नींद li ha ya
-swil hu  आत्मा li ha ya
-slac hu  गलत li ha ya
-slat hu  पक्ष li ha ya
-syit hu  भेजो li ha ya
-slof hu  शब्दावली li ha ya
-slam hu  निर्मल-करना li ha ya
-tkun hu  चीनी li ha ya
-tyip hu  फिर-से li ha ya
-tyap hu  कोशिश li ha ya
-tyaw hu  विचार li ha ya
-tyas hu  फेंकना li ha ya
-tyic hu  दिशा li ha ya
-tyus hu  प्रकरण li ha ya
-tyim hu  घबराना li ha ya
-tyif hu  अनुवाद-करें li ha ya
-tyis hu  संक्रमण li ha ya
-tsiy hu  कहानी li ha ya
-tsip hu  कदम li ha ya
-tyil hu  ठंडा li ha ya
-tyuc hu  सिखाना li ha ya
-tyuk hu  वस्तु li ha ya
-tyuf hu  विभिन्न li ha ya
-tyam hu  परमाणु li ha ya
-tyak hu  चिल्लाना li ha ya
-twal hu  स्वागत li ha ya
-twuf hu  दो li ha ya
-twis hu  सच li ha ya
-tyin hu  तीन li ha ya
-tyan hu  तार li ha ya
-tyup hu  रोबोट li ha ya
-tsiw hu  उपग्रह li ha ya
-tsil hu  लायक li ha ya
-tsim hu  साथ-साथ li ha ya
-tsic hu  परीक्षण li ha ya
-tsin hu  अनुदेश li ha ya
-tsuy hu  बैठिये li ha ya
-tsak hu  हमला li ha ya
-tsam hu  उद्देश्य li ha ya
-tsan hu  छात्र li ha ya
-tsay hu  तारा li ha ya
-tlas hu  थाली li ha ya
-tsac hu  वृद्धि li ha ya
-tsum hu  अध्ययन li ha ya
-tsap hu  संपत्ति li ha ya
-tsal hu  स्टेट li ha ya
-tsaf hu  स्वाद li ha ya
-tsuk hu  दुकान li ha ya
-tsun hu  संज्ञा li ha ya
-tsul hu  वयस्क li ha ya
-tlak hu  आयत li ha ya
-tlay hu  तह li ha ya
-tcap hu  पारदर्शक li ha ya
-tlis hu  इच्छा li ha ya
-tlum hu  पुराना li ha ya
-tlik hu  बिजली li ha ya
-tlun hu  तीन-बिंदु li ha ya
-fwap hu  पंज li ha ya
-tfan hu  स्थानांतरण li ha ya
-tfas hu  आपदा li ha ya
-tfim hu  अस्थायी li ha ya
-tfun hu  भरोसा li ha ya
-tfin hu  व्यक्ति li ha ya
-tfak hu  गंदगी li ha ya
-tlan hu  परंपरा li ha ya
-tciy hu  परिवर्तन li ha ya
-flan hu  बाढ़ li ha ya
-flat hu  समतल li ha ya
-tcik hu  चेक li ha ya
-tfus hu  क्षति li ha ya
-tcil hu  जेल li ha ya
-tcuk hu  चाल li ha ya
-tcum hu  में-शामिल-होने-के li ha ya
-tcin hu  चेन li ha ya
-fyis hu  सरकारी li ha ya
-tcan hu  पेड li ha ya
-fyut hu  फल li ha ya
-tcuy hu  बाहर li ha ya
-tcun hu  शक्ति li ha ya
-tfal hu  फ़ाइल li ha ya
-fwil hu  बल li ha ya
-flay hu  मक्खी li ha ya
-fwas hu  अवस्था li ha ya
-mink hu  माइंड li ha ya
-fyas hu  मुहावरा li ha ya
-flun hu  कृपया li ha ya
-slim hu  उदाहरण li ha ya
-cyin hu  सीखना li ha ya
-cyan hu  शामिल li ha ya
-cwuy hu  ध्यान li ha ya
-clin hu  संबंध li ha ya
-clan hu  मूल li ha ya
-flit hu  बंसी li ha ya
-mayn hu  सामंजस्य li ha ya
-fluc hu  बहे li ha ya
-mant hu  मैजंटा li ha ya
-flut hu  फूल li ha ya
-miyn hu  नाबालिग li ha ya
-miyt hu  अवगत li ha ya
-clut hu  सुपर-तरल li ha ya
-clum hu  सेंटेंस li ha ya
-tkic hu  अनुवाद-शब्दकोश li ha ya
-mist hu  नाप li ha ya
-milt hu  पिघल li ha ya
-mayc hu  छवि li ha ya
-mank hu  मस्तिष्क li ha ya
-musk hu  संगीत li ha ya
-mayp hu  मेप li ha ya
-mayt hu  काल्पनिक-इकाई li ha ya
-malp hu  इनाम li ha ya
-mans hu  मानव li ha ya
-mast hu  मामला li ha ya
-kiyn hu  एक-र li ha ya
-kint hu  बदलना li ha ya
-muyn hu  मूर्ख li ha ya
-muyp hu  में-सुधार li ha ya
-miyk hu  भेजो li ha ya
-muyk hu  प्रमुख li ha ya
-must hu  मोस्ट li ha ya
-munk hu  संभव li ha ya
-munt hu  मनोदशा li ha ya
-muyt hu  मित्र li ha ya
-muft hu  मरना li ha ya
-mint hu  विधि li ha ya
-malt hu  सामग्री li ha ya
-mack hu  कल्पना li ha ya
-kiyp hu  कागज li ha ya
-kant hu  लगातार li ha ya
-kist hu  की-जगह li ha ya
-kasp hu  पकड़ li ha ya
-kast hu  बना li ha ya
-mult hu  modulo li ha ya
-kift hu  माफ-कर-दो li ha ya
-kisp hu  प्रतिपादक li ha ya
-tlin hu  क्रमवाचक li ha ya
-kays hu  व्याकरण-केस li ha ya
-kayn hu  प्रवाह-चालू li ha ya
-kanp hu  कनेक्ट li ha ya
-kaws hu  गैस li ha ya
-kimt hu  लटकना li ha ya
-kump hu  जटिल li ha ya
-kumt hu  आदेश li ha ya
-yinp hu  की-वापसी li ha ya
-kunp hu  बंद li ha ya
-yilk hu  पीले li ha ya
-kuym hu  सामान्य li ha ya
-miwk hu  व्यक्ति li ha ya
-yawt hu  बुराई li ha ya
-kuyt hu  महत्वपूर्ण-बिंदु li ha ya
-kuct hu  अपराध li ha ya
-kuls hu  निर्दयी li ha ya
-kusp hu  गिरावट li ha ya
-kust hu  लगातार li ha ya
-muys hu  भावना li ha ya
-yisk hu  धनी li ha ya
-yist hu  निर्यात li ha ya
-yimt hu  ताल li ha ya
-yink hu  अंगूठी li ha ya
-kuwt hu  कोड li ha ya
-yamt hu  प्रशंसा li ha ya
-yift hu  लायक li ha ya
-yasp hu  काम li ha ya
-kunt hu  नियंत्रण li ha ya
-yilt hu  Eulers-संख्या li ha ya
-yalt hu  जल्दी li ha ya
-yask hu  प्रतिक्रिया li ha ya
-yaft hu  पंक्ति li ha ya
-yumt hu  दया li ha ya
-yusk hu  पूर्व li ha ya
-yuyp hu  यूरोप li ha ya
-yuns hu  ऊरानुस li ha ya
-yunt hu  पात्र li ha ya
-yust hu  आराम li ha ya
-yast hu  मुफ़्त li ha ya
-kult hu  संस्कृति li ha ya
-piyn hu  मान-लेना li ha ya
-panp hu  रोटी li ha ya
-piyt hu  निर्भर li ha ya
-pint hu  संचालित li ha ya
-pist hu  परमिट li ha ya
-yalk hu  वाहन li ha ya
-piys hu  गड़बड़ी li ha ya
-pamt hu  स्थायी li ha ya
-yulp hu  भूमिका li ha ya
-pays hu  आधार li ha ya
-pans hu  स्पेनिश li ha ya
-yult hu  उपयोगिता li ha ya
-puyk hu  व्याकरण-वस्तु li ha ya
-puyt hu  काटना li ha ya
-past hu  उत्पादित-करें li ha ya
-puwt hu  प्रदान-करना li ha ya
-pack hu  आनंद li ha ya
-puls hu  चुंबन li ha ya
-pulk hu  बहुभुज li ha ya
-pult hu  बोतल li ha ya
-pust hu  मेल li ha ya
-pusk hu  भार li ha ya
-nuys hu  शोर-शराबा li ha ya
-punt hu  बिंदु li ha ya
-nuls hu  शून्य li ha ya
-niyk hu  समीप li ha ya
-niwt hu  नेटवर्क li ha ya
-pant hu  उधार li ha ya
-nist hu  अच्छा li ha ya
-siyt hu  सुझाना li ha ya
-nift hu  नौ li ha ya
-nict hu  देशी li ha ya
-nims hu  सर्वात्मवाद li ha ya
-sift hu  पाली li ha ya
-sayk hu  समझदार li ha ya
-numt hu  ध्यान-दें li ha ya
-kamt hu  व्याकरण li ha ya
-nayt hu  विरल li ha ya
-nilt hu  बुद्धि li ha ya
-nast hu  ब्याज li ha ya
-nuyt hu  उत्तर li ha ya
-nusp hu  भूल-जा li ha ya
-sanp hu  विस्तार li ha ya
-wins hu  शुक्र li ha ya
-wuym hu  आयतन li ha ya
-wint hu  पवन li ha ya
-sink hu  कमी li ha ya
-tiyk hu  दस li ha ya
-silk hu  छक्का li ha ya
-tiyn hu  जारी-रहना li ha ya
-siyn hu  प्रतीत li ha ya
-sayp hu  सप्लाई li ha ya
-sayn hu  बचाना li ha ya
-niyt hu  n-वें-रूट li ha ya
-sant hu  कला li ha ya
-tiws hu  थिएटर li ha ya
-nuks hu  यूनिक्स li ha ya
-salc hu  सामाजिक li ha ya
-sact hu  गोली-मार li ha ya
-nust hu  नोटिस li ha ya
-suyk hu  भुगतना li ha ya
-sumt hu  विषय li ha ya
-sunp hu  लगता-है li ha ya
-suyt hu  सही li ha ya
-sank hu  अक्सर li ha ya
-sucp hu  पति li ha ya
-nuft hu  शत्रुतापूर्ण li ha ya
-sunt hu  दक्षिण li ha ya
-sark hu  ताना li ha ya
-sulc hu  समाधान li ha ya
-tiym hu  देर li ha ya
-nalt hu  प्रकृति li ha ya
-sayt hu  प्रकाश-की-गति li ha ya
-tiyf hu  चलाना li ha ya
-tawk hu  अधिकार li ha ya
-tins hu  घना li ha ya
-tiys hu  दूरी li ha ya
-sint hu  लगना li ha ya
-tink hu  टेक्स्ट li ha ya
-ticp hu  लगभग li ha ya
-tinp hu  सुनहरा-अनुपात li ha ya
-tisk hu  टेक्स्ट li ha ya
-tuym hu  दुनिया li ha ya
-tisp hu  का-प्रतिनिधित्व li ha ya
-tayf hu  प्रस्ताव li ha ya
-tayk hu  जोड़ना li ha ya
-tamk hu  देखना li ha ya
-liys hu  स्वतंत्रता li ha ya
-tank hu  अचानक li ha ya
-task hu  कार्य li ha ya
-talk hu  बातचीत li ha ya
-taym hu  समय li ha ya
-talf hu  छिपाना li ha ya
-talp hu  टेबल li ha ya
-lisk hu  छुट्टी li ha ya
-tasp hu  डेटाबेस li ha ya
-tuyk hu  चिकित्सक li ha ya
-tuyn hu  मोड़ li ha ya
-tuys hu  चोर li ha ya
-tuyc hu  नष्ट li ha ya
-tayn hu  कटरा li ha ya
+hi li hu होना li ha ya
+ha li hu ओबी li ha ya
+hu li hu सु li ha ya
+mi li hu मुझको li ha ya
+ma li hu क्या-बात li ha ya
+mu li hu मर्द-का li ha ya
+ki li hu व li ha ya
+ka li hu जैसा li ha ya
+ku li hu अगर li ha ya
+yi li hu यहयहां li ha ya
+yu li hu आप li ha ya
+ya li hu तो li ha ya
+pi li hu की li ha ya
+pa li hu उस-बात li ha ya
+pu li hu किया li ha ya
+wi li hu हमने li ha ya
+wa li hu या li ha ya
+wu li hu द्वारा li ha ya
+ni li hu में li ha ya
+na li hu अंक li ha ya
+si li hu उनहोने li ha ya
+nu li hu अभी li ha ya
+ti li hu था li ha ya
+su li hu से li ha ya
+ta li hu को li ha ya
+tu li hu तेरा li ha ya
+li li hu शाब्दिक li ha ya
+fa li hu अबाउट li ha ya
+la li hu अरे li ha ya
+lu li hu बहुवचन li ha ya
+fi li hu स्त्रैण li ha ya
+ci li hu एह? li ha ya
+fu li hu जायेंगे li ha ya
+mya li hu मेबी li ha ya
+ca li hu नपुंसक-लिंग li ha ya
+cu li hu  और / undefined ha ya
+myi li hu अनेक li ha ya
+kyi li hu सशर्त li ha ya
+mwa li hu साथ li ha ya
+kya li hu अलग li ha ya
+sa li hu एस् li ha ya
+kyu li hu क्योंकि li ha ya
+kwa li hu जो-कि li ha ya
+ksi li hu चरम li ha ya
+ksa li hu गंदें-शब्द-बोलना li ha ya
+ksu li hu से li ha ya
+kli li hu उसे li ha ya
+kla li hu लेकिन li ha ya
+klu li hu खंड-पूंछ li ha ya
+kfa li hu विशेषण-प्रत्यय li ha ya
+kci li hu फिर li ha ya
+kca li hu हा li ha ya
+pyi li hu क्रिया-प्रत्यय li ha ya
+pya li hu पर li ha ya
+psu li hu से-स्रोत li ha ya
+psi li hu से-पहले li ha ya
+psa li hu भूतपूर्व li ha ya
+pwa li hu yaor li ha ya
+pli li hu उदाहरण-के-लिए li ha ya
+pfi li hu  द्विआधारी undefined ha ya
+pci li hu भी li ha ya
+pca li hu रसिक li ha ya
+pcu li hu भी li ha ya
+nyi li hu न li ha ya
+nya li hu यानी li ha ya
+nyu li hu एक li ha ya
+sya li hu एकवचन li ha ya
+syi li hu बहुत li ha ya
+syu li hu इसलिए li ha ya
+swa li hu अन्यथा li ha ya
+swu li hu ऐसा li ha ya
+swi li hu जबकि li ha ya
+sli li hu बाकी-अगर li ha ya
+sla li hu नमस्कार li ha ya
+tya li hu के-बाद li ha ya
+tyu li hu उसे li ha ya
+tyi li hu उद्धरण li ha ya
+twu li hu दोहरी li ha ya
+tsa li hu जब-तक li ha ya
+tsi li hu हां li ha ya
+tsu li hu संज्ञा-प्रत्यय li ha ya
+tla li hu के-लिए li ha ya
+fyi li hu उसके li ha ya
+tlu li hu  चल बिन्दु undefined ha ya
+tfa li hu पर li ha ya
+tci li hu यहाँ li ha ya
+twa li hu फिर li ha ya
+tcu li hu बाहर li ha ya
+fwa li hu  के undefined ha ya
+cyi li hu उसके li ha ya
+tli li hu ORD li ha ya
+cwa li hu अलविदा li ha ya
+cla li hu  इन- undefined ha ya
+fyu li hu कुछ li ha ya
+cya li hu अन्य li ha ya
+min hu कम li ha ya
+miy hu स्मृति li ha ya
+mik hu मेक li ha ya
+mic hu मशीन li ha ya
+mip hu अतीत li ha ya
+mit hu मध्यम li ha ya
+mak hu शब्द li ha ya
+man hu सोच li ha ya
+mat hu माँ li ha ya
+mun hu नर li ha ya
+mus hu नर li ha ya
+mas hu मास li ha ya
+mut hu मदद li ha ya
+mac hu मशीन li ha ya
+mul hu पूर्ण li ha ya
+kim hu तुलना li ha ya
+kiy hu जाओ li ha ya
+kip hu सक्षम li ha ya
+kic hu प्रत्येक li ha ya
+kin hu मेन li ha ya
+kam hu आ li ha ya
+kis hu उच्च li ha ya
+kit hu समाप्त li ha ya
+kap hu सरपंच li ha ya
+kan hu पता-है li ha ya
+kas hu कारण li ha ya
+kaf hu कैथोड li ha ya
+kuy hu बढ़ने li ha ya
+kat hu मिलना li ha ya
+kal hu सारे li ha ya
+kum hu व्यापार li ha ya
+kus hu भोजन li ha ya
+kuc hu छोटा li ha ya
+yis hu लिखो li ha ya
+kul hu लक्ष्य li ha ya
+kup hu खरीद li ha ya
+kun hu लाल li ha ya
+yik hu नकारना li ha ya
+yit hu प्रतीक्षा li ha ya
+yum hu अवयव li ha ya
+yup hu अच्छा li ha ya
+yat hu पढ़ना li ha ya
+yun hu घटाना li ha ya
+yak hu कुछ li ha ya
+yuw hu वर्ष li ha ya
+yuc hu अच्छा li ha ya
+yac hu चौड़ाई li ha ya
+pis hu गुणा-करना li ha ya
+pit hu सफेद li ha ya
+pic hu पेशाब li ha ya
+yus hu यूज़ li ha ya
+pay hu अधिक li ha ya
+pam hu बांह li ha ya
+yul hu पूरे li ha ya
+pas hu पास li ha ya
+paw hu जगह li ha ya
+pak hu बॉडी li ha ya
+pum hu पथ li ha ya
+pat hu पिताजी li ha ya
+pus hu पू li ha ya
+pan hu मिले li ha ya
+puk hu खराब li ha ya
+win hu जीत li ha ya
+pac hu खुशी li ha ya
+wik hu सप्ताह li ha ya
+puy hu बच्चा li ha ya
+wit hu स्तर li ha ya
+puc hu खाली li ha ya
+put hu बेचना li ha ya
+pul hu ब्लू li ha ya
+fut hu भविष्य li ha ya
+nik hu  अभी undefined ha ya
+wan hu इश्क li ha ya
+nip hu बिना li ha ya
+wut hu रोशनी li ha ya
+niy hu आवश्यकता li ha ya
+wap hu पूंछ li ha ya
+wat hu बोलो li ha ya
+nay hu साँस-छोड़ना li ha ya
+nas hu भाई li ha ya
+nim hu नाम li ha ya
+nat hu रात li ha ya
+nut hu बिजली-का-धनात्मक-छोर li ha ya
+nit hu जाल li ha ya
+nal hu नंगा li ha ya
+nic hu एनर्जी li ha ya
+sip hu आचमन li ha ya
+nuy hu नई li ha ya
+sit hu सैट li ha ya
+wul hu महा li ha ya
+sim hu समान li ha ya
+nam hu नंबर li ha ya
+saw hu काला li ha ya
+sik hu ऊंचाई li ha ya
+sil hu आसान li ha ya
+sak hu इस-बात-से-सहमत li ha ya
+nul hu अमान्य li ha ya
+saf hu अंतरिक्ष li ha ya
+suk hu चूसना li ha ya
+suy hu खोना li ha ya
+sap hu सरल li ha ya
+sun hu अपना li ha ya
+say hu कहो li ha ya
+sam hu समान li ha ya
+tim hu टीम li ha ya
+tik hu पकड़ li ha ya
+san hu स्वयं li ha ya
+sat hu ध्वनि li ha ya
+sup hu वेतन li ha ya
+tis hu साँस-लेना li ha ya
+sut hu आकार li ha ya
+tiw hu दीवार li ha ya
+tiy hu दिन li ha ya
+tip hu शुरू li ha ya
+tin hu देख li ha ya
+taw hu  के माध्यम undefined ha ya
+til hu कम li ha ya
+tam hu टॉपिक li ha ya
+naw hu वर्तमान li ha ya
+tac hu नीचे li ha ya
+tak hu जोड़ना li ha ya
+tuk hu पेय li ha ya
+tay hu रखना li ha ya
+tal hu टाई li ha ya
+tun hu नीचे li ha ya
+tus hu परिणाम li ha ya
+tap hu स्पर्श li ha ya
+tan hu देना li ha ya
+tuc hu खिलौना li ha ya
+tuy hu दोहराना li ha ya
+tas hu चुनना li ha ya
+tup hu गहराई li ha ya
+tum hu तापमान li ha ya
+tuf hu मुश्किल li ha ya
+lat hu समाप्त li ha ya
+lac hu प्यार li ha ya
+ton hu टन li ha ya
+fin hu महिला li ha ya
+fit hu योग्य li ha ya
+fas hu होना li ha ya
+fuy hu ऊपर li ha ya
+lif hu बाएं li ha ya
+tul hu ओजार li ha ya
+cik hu चाल li ha ya
+lik hu आवेश li ha ya
+fam hu परिवार li ha ya
+lin hu लंबाई li ha ya
+cit hu चाहिए li ha ya
+ciy hu हरा li ha ya
+cam hu घर li ha ya
+cif hu डिवाइड li ha ya
+lis hu लीव li ha ya
+cis hu जीवन li ha ya
+cat hu मारा li ha ya
+lit hu ग्लिफ़ li ha ya
+cus hu प्रदर्शन li ha ya
+cim hu सुन-रहे li ha ya
+cay hu सही li ha ya
+cin hu संकेत li ha ya
+myut hu आयात-करना li ha ya
+cum hu आकार li ha ya
+myal hu मूल्य li ha ya
+myac hu उद्यम li ha ya
+cak hu चीज li ha ya
+myil hu मित्र li ha ya
+myit hu याद li ha ya
+myuf hu  का undefined ha ya
+mwis hu औसत li ha ya
+mwit hu सदस्य li ha ya
+mwas hu गीला li ha ya
+mwat hu पदार्थ li ha ya
+cal hu चाल li ha ya
+can hu संभावना li ha ya
+myun hu रोजगार li ha ya
+kyul hu राज li ha ya
+kyis hu से li ha ya
+kyip hu कपड़ोँ li ha ya
+mwut hu विरोध li ha ya
+kyic hu निगम li ha ya
+kyim hu खेल li ha ya
+kyas hu  बन्द करने के undefined ha ya
+myat hu गणित li ha ya
+kyac hu आपातकालीन li ha ya
+myan hu शीतल li ha ya
+kwit hu गंभीरता li ha ya
+kyam hu ले-जाना li ha ya
+kyuc hu बहाना li ha ya
+myul hu नेतिक li ha ya
+kwic hu गाँव li ha ya
+kwam hu  यूनिट के undefined ha ya
+kyit hu प्रत्येक li ha ya
+kwul hu कॉल li ha ya
+ksim hu उम्मीद li ha ya
+myin hu सपना li ha ya
+kyus hu मस्ती li ha ya
+kyap hu प्रतिलिपि li ha ya
+kyil hu गोला li ha ya
+kwat hu मज़बूत li ha ya
+ksic hu प्रतिस्पर्धा li ha ya
+kyin hu सामान्य li ha ya
+ksay hu कहना li ha ya
+ksat hu सटीक li ha ya
+ksiy hu विशेषज्ञ li ha ya
+kyup hu गट li ha ya
+ksit hu बाहर-जाएं li ha ya
+ksaf hu दुर्घटना li ha ya
+ksac hu व्यायाम li ha ya
+ksil hu क्रिस्टल li ha ya
+ksuy hu अजीब li ha ya
+ksup hu संक्षिप्त li ha ya
+ksun hu अनुबंध li ha ya
+kyat hu मुश्किल li ha ya
+ksip hu प्रवेश li ha ya
+ksap hu रस्सी li ha ya
+ksuc hu पड़ना li ha ya
+ksam hu अंधेरा li ha ya
+ksin hu प्रसंग li ha ya
+ksal hu आकाशगंगा li ha ya
+klic hu कुंजी li ha ya
+klam hu श्रम li ha ya
+klay hu रोना li ha ya
+klap hu ताली li ha ya
+ksan hu का-आयोजन li ha ya
+klan hu कालोनी li ha ya
+kliy hu क्लियर li ha ya
+ksum hu संवाद li ha ya
+klaf hu दावा li ha ya
+klin hu इलेक्ट्रॉन li ha ya
+klim hu विज्ञान li ha ya
+klup hu वैश्विक li ha ya
+kcat hu आठ li ha ya
+klus hu कोठरी li ha ya
+ksuf hu वर्णन li ha ya
+kluc hu अपराध li ha ya
+ktin hu धर्म li ha ya
+pyik hu टूट li ha ya
+kfan hu  इस बात की undefined ha ya
+kfas hu अंश li ha ya
+ksut hu इकट्ठा li ha ya
+kfac hu कान li ha ya
+kfup hu कप li ha ya
+kfun hu सम्मेलन li ha ya
+kfus hu वर्णन li ha ya
+pyit hu फोर li ha ya
+kcin hu एजेंट li ha ya
+klum hu स्तंभ li ha ya
+kcam hu आकलन li ha ya
+kcay hu इलाज li ha ya
+kcap hu  पर undefined ha ya
+kcan hu शिकार li ha ya
+kcas hu लागत li ha ya
+ksul hu स्कूल li ha ya
+kcal hu अलमारी li ha ya
+kcaf hu पलायन li ha ya
+kcum hu आयोग li ha ya
+klut hu निकालना li ha ya
+klun hu भूख li ha ya
+kcul hu खोल li ha ya
+kfit hu प्रभाव li ha ya
+klac hu सिवाय li ha ya
+pyaw hu कपल li ha ya
+pyis hu भविष्यवाणी li ha ya
+klas hu कक्षा li ha ya
+kcil hu कौशल li ha ya
+kfat hu विशेषण li ha ya
+pyic hu शांति li ha ya
+klat hu धारा li ha ya
+pyak hu अभ्यास li ha ya
+kcut hu गंदगी li ha ya
+kcuf hu काफी li ha ya
+kcun hu एकत्रित li ha ya
+kcim hu रासायनिक li ha ya
+kwal hu भाषा li ha ya
+pyil hu अपील li ha ya
+kfin hu कॉन्फ़िग li ha ya
+pyin hu अनुभव li ha ya
+pyuk hu  प्रकाशित undefined ha ya
+pyan hu फैलाव li ha ya
+pyus hu प्रक्रिया li ha ya
+pyif hu क्रिया li ha ya
+pyas hu तेज li ha ya
+pyam hu कार्यक्रम li ha ya
+klaw hu हंसी li ha ya
+pwit hu मानना li ha ya
+pyat hu शीघ्र li ha ya
+pway hu दूर li ha ya
+pwan hu पाइप li ha ya
+pyum hu सर्वनाम li ha ya
+pwus hu उपस्थिति li ha ya
+pyaf hu प्रदर्शन li ha ya
+psim hu उलटा li ha ya
+psik hu भेदभाव li ha ya
+pyut hu प्रोटॉन li ha ya
+pyun hu पक्षी li ha ya
+pyal hu समानांतर li ha ya
+pyac hu आश्चर्य-है li ha ya
+psif hu प्रशंसा li ha ya
+psic hu पृष्ठ li ha ya
+psam hu  तैयार undefined ha ya
+psak hu थूक li ha ya
+psil hu जादू li ha ya
+pyul hu फोड़ा li ha ya
+pyuf hu प्रमाण li ha ya
+pwas hu जवाब li ha ya
+psac hu इनाम li ha ya
+psuy hu विरोध li ha ya
+pwil hu परिवर्तनशील li ha ya
+psin hu स्पिन li ha ya
+psuf hu स्तन li ha ya
+psuc hu अभिव्यक्ति li ha ya
+pwut hu मंजूर li ha ya
+plic hu कण li ha ya
+psiy hu दबाव li ha ya
+psit hu गति li ha ya
+pyuc hu परियोजना li ha ya
+psan hu अंतरिक्ष li ha ya
+psaf hu उत्तर li ha ya
+psun hu स्रोत li ha ya
+pluk hu प्लग li ha ya
+psat hu सतह li ha ya
+psal hu पाल li ha ya
+nyip hu आईना li ha ya
+pfim hu व्यवसाय li ha ya
+pfiy hu  व्यवहार करते undefined ha ya
+pfin hu पंख li ha ya
+pfit hu अवधि li ha ya
+psut hu वादा li ha ya
+pfam hu माता-पिता li ha ya
+pfan hu दफनाना li ha ya
+nyat hu प्रवेश li ha ya
+pfum hu  बहुत undefined ha ya
+pfun hu खुला li ha ya
+plum hu समस्या li ha ya
+pcin hu धन li ha ya
+pcis hu व्यापार li ha ya
+pluy hu लोकप्रिय li ha ya
+plam hu प्लाज्मा li ha ya
+pcay hu अनुसूची li ha ya
+pcan hu विनिमय li ha ya
+pcas hu पंजा li ha ya
+pcat hu बिताना li ha ya
+pcal hu छलांग li ha ya
+plin hu प्लेन li ha ya
+pcun hu व्यक्ति li ha ya
+pcus hu पैंट li ha ya
+pcut hu पुल li ha ya
+pcuf hu भौं li ha ya
+pfic hu पसंद-करते-हैं li ha ya
+plut hu धूल li ha ya
+plun hu शायद li ha ya
+nyas hu वृद्धि li ha ya
+nyul hu रोल li ha ya
+nyal hu नाखून li ha ya
+nyup hu आमंत्रण li ha ya
+pfal hu असफल li ha ya
+pcum hu आशा li ha ya
+syim hu सात li ha ya
+nwat hu बराबर li ha ya
+pcit hu सराहना li ha ya
+syik hu बीमार li ha ya
+pcil hu विशेष li ha ya
+syip hu साफ li ha ya
+plan hu प्लान li ha ya
+syil hu सेल li ha ya
+syif hu रिज़र्व li ha ya
+plat hu ग्रह li ha ya
+syan hu सियान li ha ya
+pfus hu बस li ha ya
+syap hu व्यवस्था li ha ya
+syak hu जागर li ha ya
+swit hu स्विच li ha ya
+syuk hu कठोर li ha ya
+syup hu रगड़ li ha ya
+syiw hu सेवा-कर li ha ya
+nlic hu अंग्रेजी li ha ya
+play hu प्ले li ha ya
+syic hu अनुसंधान li ha ya
+swic hu सचेत li ha ya
+syam hu ठहरना li ha ya
+swal hu बराबर li ha ya
+swum hu मनाना li ha ya
+nyit hu इकाई li ha ya
+nyus hu योण-बनाना li ha ya
+slin hu सिंगल li ha ya
+slik hu एक li ha ya
+sliy hu  धर्म undefined ha ya
+slip hu सदैव li ha ya
+nyut hu न्युट्रोन li ha ya
+slit hu  विभाजित करने के undefined ha ya
+slif hu शब्द li ha ya
+slic hu सीढ़ियों li ha ya
+nyis hu संदर्भ li ha ya
+slan hu सुनना li ha ya
+syat hu ठोस li ha ya
+syut hu समर्थन li ha ya
+slun hu अकेला li ha ya
+sluf hu अनुसरण li ha ya
+tyik hu क्षय li ha ya
+syun hu ब्रम्हांड li ha ya
+swat hu पानी li ha ya
+swuy hu सवाल li ha ya
+swun hu नींद li ha ya
+swil hu आत्मा li ha ya
+slac hu गलत li ha ya
+slat hu पक्ष li ha ya
+syit hu भेजो li ha ya
+slof hu शब्दावली li ha ya
+slam hu निर्मल-करना li ha ya
+tkun hu चीनी li ha ya
+tyip hu फिर-से li ha ya
+tyap hu कोशिश li ha ya
+tyal hu न्याय li ha ya
+tyaf hu उद्धार li ha ya
+tyac hu  भाग लेने के undefined ha ya
+tyum hu संक्रमण li ha ya
+tyaw hu विचार li ha ya
+tyas hu फेंकना li ha ya
+tyun hu अन्य li ha ya
+tyic hu दिशा li ha ya
+tyus hu प्रकरण li ha ya
+tyim hu घबराना li ha ya
+tyif hu अनुवाद-करें li ha ya
+tway hu द्वार li ha ya
+tyis hu संक्रमण li ha ya
+twuy hu द्वार li ha ya
+tsiy hu कहानी li ha ya
+tsip hu कदम li ha ya
+tsik hu टैक्स li ha ya
+tyil hu ठंडा li ha ya
+tyuc hu सिखाना li ha ya
+tyuk hu वस्तु li ha ya
+tyuf hu विभिन्न li ha ya
+tyam hu परमाणु li ha ya
+tyak hu चिल्लाना li ha ya
+twal hu स्वागत li ha ya
+twuf hu दो li ha ya
+twis hu सच li ha ya
+tyin hu तीन li ha ya
+tyan hu तार li ha ya
+tyup hu रोबोट li ha ya
+tsiw hu उपग्रह li ha ya
+tsil hu लायक li ha ya
+tsim hu साथ-साथ li ha ya
+tsic hu परीक्षण li ha ya
+tsup hu रुकें li ha ya
+tsin hu अनुदेश li ha ya
+tsuy hu बैठिये li ha ya
+tsak hu हमला li ha ya
+tsam hu उद्देश्य li ha ya
+tsan hu छात्र li ha ya
+tlic hu अभिराम li ha ya
+tlam hu  संबंधित undefined ha ya
+tsay hu तारा li ha ya
+tlas hu थाली li ha ya
+tlap hu इलाज li ha ya
+tsac hu वृद्धि li ha ya
+tsum hu अध्ययन li ha ya
+tlaf hu केवल li ha ya
+tsap hu संपत्ति li ha ya
+tsal hu स्टेट li ha ya
+tfik hu यातायात li ha ya
+tsaf hu स्वाद li ha ya
+tfis hu अंतर li ha ya
+tfam hu परिभाषित li ha ya
+tsuk hu दुकान li ha ya
+tsun hu संज्ञा li ha ya
+tsul hu वयस्क li ha ya
+tlak hu आयत li ha ya
+tfum hu मित्र li ha ya
+tlay hu तह li ha ya
+tcap hu पारदर्शक li ha ya
+tcim hu आयाम li ha ya
+tlis hu इच्छा li ha ya
+tlum hu पुराना li ha ya
+tlik hu बिजली li ha ya
+tlun hu तीन-बिंदु li ha ya
+tcam hu जुगल li ha ya
+tcak hu बोलना li ha ya
+tcay hu रवैया li ha ya
+fwap hu पंज li ha ya
+tfan hu स्थानांतरण li ha ya
+tcal hu बातचीत li ha ya
+tfas hu आपदा li ha ya
+tfim hu अस्थायी li ha ya
+tfun hu भरोसा li ha ya
+tcup hu ड्रॉप li ha ya
+tcuw hu बाहर li ha ya
+tfin hu व्यक्ति li ha ya
+tcul hu शीर्षक li ha ya
+fyim hu तुरंत li ha ya
+tfak hu गंदगी li ha ya
+fyit hu सामने li ha ya
+fyil hu सुखद li ha ya
+fyam hu प्रसिद्धि li ha ya
+fyaw hu क्रिया-विशेषण li ha ya
+fyan hu मनाना li ha ya
+tlan hu परंपरा li ha ya
+fyat hu व्याख्या li ha ya
+fyum hu सुधार li ha ya
+fyun hu  चेतावनी undefined ha ya
+tciy hu परिवर्तन li ha ya
+fwis hu तरह li ha ya
+flan hu बाढ़ li ha ya
+fway hu विविधता li ha ya
+flat hu समतल li ha ya
+tcik hu चेक li ha ya
+flim hu  धातु के रूप-रंग का एक अधातु undefined ha ya
+flin hu प्रभाव li ha ya
+tfus hu क्षति li ha ya
+tcil hu जेल li ha ya
+tcuk hu चाल li ha ya
+tcum hu में-शामिल-होने-के li ha ya
+fluk hu फूल li ha ya
+flup hu मंज़िल li ha ya
+tcin hu चेन li ha ya
+fyis hu सरकारी li ha ya
+tcan hu पेड li ha ya
+cyik hu शेयर li ha ya
+cyip hu समाचार li ha ya
+fyut hu फल li ha ya
+cyis hu पार li ha ya
+cyit hu दांत li ha ya
+cyif hu ज़ाहिर li ha ya
+cyam hu काज li ha ya
+cyap hu शाखा li ha ya
+tcuy hu बाहर li ha ya
+cyas hu चरित्र li ha ya
+cyat hu खतरा li ha ya
+cyal hu शेल्फ li ha ya
+cyaf hu  पता चलता undefined ha ya
+cyum hu कक्ष li ha ya
+cyut hu शर्त li ha ya
+cwif hu प्राप्त li ha ya
+cwam hu शाम li ha ya
+cwan hu योनी li ha ya
+cwal hu निगलना li ha ya
+tcun hu शक्ति li ha ya
+tfal hu फ़ाइल li ha ya
+clak hu टखने li ha ya
+fwil hu बल li ha ya
+clas hu हॉल li ha ya
+flay hu मक्खी li ha ya
+clun hu घुटना li ha ya
+fwas hu अवस्था li ha ya
+mink hu माइंड li ha ya
+fyas hu मुहावरा li ha ya
+miwt hu मौत li ha ya
+flun hu कृपया li ha ya
+minp hu  के undefined ha ya
+slim hu उदाहरण li ha ya
+misp hu संदिग्ध li ha ya
+cyin hu सीखना li ha ya
+mils hu सैन्य li ha ya
+cyan hu शामिल li ha ya
+milc hu धुलाई li ha ya
+mift hu विधि li ha ya
+mict hu उल्लेख li ha ya
+mayk hu निशान li ha ya
+cwuy hu ध्यान li ha ya
+clin hu संबंध li ha ya
+mays hu सीमा li ha ya
+clan hu मूल li ha ya
+flit hu बंसी li ha ya
+mayn hu सामंजस्य li ha ya
+fluc hu बहे li ha ya
+mask hu मुखौटा li ha ya
+masp hu परेशानी li ha ya
+mant hu मैजंटा li ha ya
+malk hu विज्ञापन li ha ya
+flut hu फूल li ha ya
+miyn hu नाबालिग li ha ya
+malf hu तेल li ha ya
+malc hu खेद li ha ya
+maft hu  स्वीकार undefined ha ya
+miyt hu अवगत li ha ya
+clut hu सुपर-तरल li ha ya
+clum hu सेंटेंस li ha ya
+tkic hu अनुवाद-शब्दकोश li ha ya
+mist hu नाप li ha ya
+milt hu पिघल li ha ya
+muwt hu मुंह li ha ya
+mayc hu छवि li ha ya
+mank hu मस्तिष्क li ha ya
+musk hu संगीत li ha ya
+musp hu कलाई li ha ya
+mayp hu मेप li ha ya
+mayt hu काल्पनिक-इकाई li ha ya
+malp hu इनाम li ha ya
+muct hu जरूरी li ha ya
+mans hu मानव li ha ya
+mast hu मामला li ha ya
+kiyn hu एक-र li ha ya
+kint hu बदलना li ha ya
+muyn hu मूर्ख li ha ya
+muyp hu में-सुधार li ha ya
+miyk hu भेजो li ha ya
+kict hu  से undefined ha ya
+kamp hu शिविर li ha ya
+muyk hu प्रमुख li ha ya
+kaym hu इकट्ठा li ha ya
+kayp hu धार li ha ya
+must hu मोस्ट li ha ya
+munk hu संभव li ha ya
+kayt hu कार्ड li ha ya
+kawp hu आवरण li ha ya
+kawn hu लटकना li ha ya
+munt hu मनोदशा li ha ya
+kawt hu बिस्तर li ha ya
+muyt hu मित्र li ha ya
+muft hu मरना li ha ya
+mint hu विधि li ha ya
+malt hu सामग्री li ha ya
+kalp hu केबल li ha ya
+kals hu आकाशगंगा li ha ya
+kalc hu शिकायत li ha ya
+kafp hu  स्वीकार undefined ha ya
+kaft hu सक्रिय li ha ya
+kact hu गरम li ha ya
+mack hu कल्पना li ha ya
+kiyp hu कागज li ha ya
+kant hu लगातार li ha ya
+kuyp hu प्रतिलिपि li ha ya
+kist hu की-जगह li ha ya
+kasp hu पकड़ li ha ya
+kast hu बना li ha ya
+mult hu modulo li ha ya
+kift hu माफ-कर-दो li ha ya
+kulp hu पंजा li ha ya
+kisp hu प्रतिपादक li ha ya
+tlin hu क्रमवाचक li ha ya
+kulc hu चम्मच li ha ya
+kufp hu  की undefined ha ya
+kuft hu कोट li ha ya
+kucp hu त्वचा li ha ya
+kays hu व्याकरण-केस li ha ya
+kayn hu प्रवाह-चालू li ha ya
+yiwt hu विद्रोह li ha ya
+kanp hu कनेक्ट li ha ya
+kaws hu गैस li ha ya
+yint hu आज li ha ya
+kimt hu लटकना li ha ya
+yisp hu निर्यात li ha ya
+kump hu जटिल li ha ya
+kumt hu आदेश li ha ya
+yils hu आयु li ha ya
+yinp hu की-वापसी li ha ya
+yilc hu  पहले undefined ha ya
+yifk hu धनी li ha ya
+kunp hu बंद li ha ya
+yict hu अस्वीकार li ha ya
+yilk hu पीले li ha ya
+kuym hu सामान्य li ha ya
+yank hu चट्टान li ha ya
+yanp hu साधारण li ha ya
+yant hu किराया li ha ya
+miwk hu व्यक्ति li ha ya
+yawt hu बुराई li ha ya
+kuyt hu महत्वपूर्ण-बिंदु li ha ya
+kuct hu अपराध li ha ya
+kuls hu निर्दयी li ha ya
+yalf hu यात्रा li ha ya
+yafk hu प्रतिक्रिया li ha ya
+kusp hu गिरावट li ha ya
+yact hu राशन li ha ya
+yumk hu सार्वजनिक li ha ya
+kust hu लगातार li ha ya
+yunk hu गाड़ी li ha ya
+muys hu भावना li ha ya
+yisk hu धनी li ha ya
+yusp hu लूटना li ha ya
+yist hu निर्यात li ha ya
+yimt hu ताल li ha ya
+yink hu अंगूठी li ha ya
+yulf hu उपयोगी li ha ya
+yuck hu जड़ li ha ya
+yuct hu  संबंधित undefined ha ya
+pimt hu अधिकारी li ha ya
+piyk hu प्रयोग li ha ya
+kuwt hu कोड li ha ya
+yamt hu प्रशंसा li ha ya
+yift hu लायक li ha ya
+yasp hu काम li ha ya
+pisk hu लिंग li ha ya
+kunt hu नियंत्रण li ha ya
+pilt hu टिकट li ha ya
+pict hu कीट li ha ya
+pamk hu शीघ्र li ha ya
+yilt hu Eulers-संख्या li ha ya
+paym hu बंदरगाह li ha ya
+payn hu प्रतिबंध li ha ya
+yalt hu जल्दी li ha ya
+payt hu काटना li ha ya
+payc hu कीमत li ha ya
+pank hu फंदा li ha ya
+yask hu प्रतिक्रिया li ha ya
+pask hu बैग li ha ya
+yaft hu पंक्ति li ha ya
+palk hu वापस li ha ya
+pals hu विस्फोट li ha ya
+palt hu राजनीति li ha ya
+yumt hu दया li ha ya
+pact hu हिस्सा li ha ya
+pumt hu पेट li ha ya
+puym hu ठोकर li ha ya
+yusk hu पूर्व li ha ya
+puyn hu तल li ha ya
+puys hu पार li ha ya
+yuyp hu यूरोप li ha ya
+puyc hu बहना li ha ya
+yuns hu ऊरानुस li ha ya
+punk hu पैर li ha ya
+yunt hu पात्र li ha ya
+yust hu आराम li ha ya
+yast hu मुफ़्त li ha ya
+kult hu संस्कृति li ha ya
+piyn hu मान-लेना li ha ya
+panp hu रोटी li ha ya
+pulf hu पपोटा li ha ya
+piyt hu निर्भर li ha ya
+wist hu निवेश li ha ya
+ways hu चेहरा li ha ya
+wayt hu तार li ha ya
+wank hu कटोरा li ha ya
+wasp hu जामा li ha ya
+walk hu लहर li ha ya
+pint hu संचालित li ha ya
+wuyt hu वोट li ha ya
+wunk hu कोहनी li ha ya
+wulp hu पसली li ha ya
+wuls hu उत्तरदायी li ha ya
+wult hu पुराना li ha ya
+nimt hu  गैर undefined ha ya
+pist hu परमिट li ha ya
+niyp hu  से undefined ha ya
+yalk hu वाहन li ha ya
+niws hu नाक li ha ya
+piys hu गड़बड़ी li ha ya
+nisk hu घटक li ha ya
+nisp hu सिद्धांत li ha ya
+pamt hu स्थायी li ha ya
+nilk hu नाभिकीय li ha ya
+yulp hu भूमिका li ha ya
+pays hu आधार li ha ya
+nick hu नंगा li ha ya
+pans hu स्पेनिश li ha ya
+namt hu  नियुक्त undefined ha ya
+naym hu साधारण li ha ya
+nayk hu इनकार li ha ya
+nays hu  का undefined ha ya
+yult hu उपयोगिता li ha ya
+nayc hu राष्ट्र li ha ya
+nask hu ब्याज li ha ya
+nasp hu ट्रांसपोर्ट li ha ya
+puyk hu व्याकरण-वस्तु li ha ya
+nals hu संपर्क li ha ya
+puyt hu काटना li ha ya
+nafk hu खिड़की li ha ya
+naft hu कृत्रिम li ha ya
+nack hu  की undefined ha ya
+nact hu हस्तक्षेप li ha ya
+numk hu अर्थव्यवस्था li ha ya
+past hu उत्पादित-करें li ha ya
+nuym hu घोषणा li ha ya
+puwt hu प्रदान-करना li ha ya
+pack hu आनंद li ha ya
+nusk hu गुदा li ha ya
+puls hu चुंबन li ha ya
+pulk hu बहुभुज li ha ya
+nulk hu गरदन li ha ya
+nulp hu महान li ha ya
+pult hu बोतल li ha ya
+nult hu जन्म li ha ya
+pust hu मेल li ha ya
+nuck hu  कभी undefined ha ya
+simk hu  एक undefined ha ya
+simp hu बीज li ha ya
+simt hu व्यवस्था li ha ya
+siym hu सारांश li ha ya
+siyk hu गुप्त li ha ya
+siyp hu ठीक li ha ya
+pusk hu भार li ha ya
+nuys hu शोर-शराबा li ha ya
+siyc hu शृंखला li ha ya
+siwc hu स्थिति li ha ya
+punt hu बिंदु li ha ya
+sinp hu दिखाई li ha ya
+nuls hu शून्य li ha ya
+niyk hu समीप li ha ya
+silt hu बसना li ha ya
+silf hu असैनिक li ha ya
+sifk hu कमी li ha ya
+sifp hu स्थिति li ha ya
+niwt hu नेटवर्क li ha ya
+sick hu लिंग li ha ya
+sict hu उदास li ha ya
+samk hu आंख li ha ya
+samt hu समय li ha ya
+saym hu खिंचाव li ha ya
+pant hu उधार li ha ya
+nist hu अच्छा li ha ya
+siyt hu सुझाना li ha ya
+nift hu नौ li ha ya
+sayf hu त्याग li ha ya
+sayc hu जांच li ha ya
+nict hu देशी li ha ya
+nims hu सर्वात्मवाद li ha ya
+sift hu पाली li ha ya
+salk hu हत्या li ha ya
+salp hu अतिरिक्त li ha ya
+salt hu नमक li ha ya
+salf hu स्वास्थ्य li ha ya
+sayk hu समझदार li ha ya
+saft hu सुरक्षा li ha ya
+sack hu सांझ li ha ya
+sacp hu  सज़ा undefined ha ya
+numt hu ध्यान-दें li ha ya
+sumk hu सफलता li ha ya
+sump hu सुबह li ha ya
+kamt hu व्याकरण li ha ya
+nayt hu विरल li ha ya
+suyp hu अवशोषित li ha ya
+suyn hu संरचना li ha ya
+nilt hu बुद्धि li ha ya
+sunk hu ट्रंक li ha ya
+nast hu ब्याज li ha ya
+nuyt hu उत्तर li ha ya
+sult hu सैनिक li ha ya
+nusp hu भूल-जा li ha ya
+sufk hu  रीढ़ की undefined ha ya
+suft hu धार्मिक li ha ya
+suck hu सॉकेट li ha ya
+sanp hu विस्तार li ha ya
+timk hu व्याकरण li ha ya
+wins hu शुक्र li ha ya
+wuym hu आयतन li ha ya
+tiyp hu टाइप li ha ya
+wint hu पवन li ha ya
+sink hu कमी li ha ya
+tiyk hu दस li ha ya
+tiyc hu विलंब li ha ya
+silk hu छक्का li ha ya
+tiyn hu जारी-रहना li ha ya
+siyn hu प्रतीत li ha ya
+sayp hu सप्लाई li ha ya
+sayn hu बचाना li ha ya
+niyt hu n-वें-रूट li ha ya
+tilk hu लेबल li ha ya
+tilc hu प्रौद्योगिकी li ha ya
+tifk hu गतिविधि li ha ya
+sant hu कला li ha ya
+tiws hu थिएटर li ha ya
+nuks hu यूनिक्स li ha ya
+tamp hu बहस li ha ya
+salc hu सामाजिक li ha ya
+sact hu गोली-मार li ha ya
+tayp hu चोटी li ha ya
+nust hu नोटिस li ha ya
+tays hu खड़ा li ha ya
+suyk hu भुगतना li ha ya
+tayc hu उपाधि li ha ya
+sumt hu विषय li ha ya
+sunp hu लगता-है li ha ya
+suyt hu सही li ha ya
+sank hu अक्सर li ha ya
+sucp hu पति li ha ya
+nuft hu शत्रुतापूर्ण li ha ya
+sunt hu दक्षिण li ha ya
+tals hu नाटक li ha ya
+sark hu ताना li ha ya
+talc hu  समर्थ undefined ha ya
+tafp hu बचाव li ha ya
+sulc hu समाधान li ha ya
+tacp hu  पर undefined ha ya
+tumk hu वमन li ha ya
+tump hu मंदिर li ha ya
+tiym hu देर li ha ya
+nalt hu प्रकृति li ha ya
+tuyp hu प्रोटोटाइप li ha ya
+sayt hu प्रकाश-की-गति li ha ya
+tiyf hu चलाना li ha ya
+tawk hu अधिकार li ha ya
+tins hu घना li ha ya
+tuwk hu कर्तव्य li ha ya
+tuwn hu लहजा li ha ya
+tiys hu दूरी li ha ya
+tunp hu अनुकूलन li ha ya
+sint hu लगना li ha ya
+tusp hu आंत li ha ya
+tulk hu कुल li ha ya
+tulp hu दर्द li ha ya
+tufk hu लक्ष्य li ha ya
+tuck hu शब्दकोश li ha ya
+limk hu उत्तम li ha ya
+limt hu सीमा li ha ya
+tink hu टेक्स्ट li ha ya
+ticp hu लगभग li ha ya
+tinp hu सुनहरा-अनुपात li ha ya
+tisk hu टेक्स्ट li ha ya
+tuym hu दुनिया li ha ya
+tisp hu का-प्रतिनिधित्व li ha ya
+tayf hu प्रस्ताव li ha ya
+tayk hu जोड़ना li ha ya
+linp hu लंबाई li ha ya
+tamk hu देखना li ha ya
+liys hu स्वतंत्रता li ha ya
+tank hu अचानक li ha ya
+lifk hu रिहाई li ha ya
+lick hu व्याख्यान li ha ya
+licp hu पत्ती li ha ya
+lict hu चुनाव li ha ya
+lamk hu कानून li ha ya
+lamt hu स्थानीय li ha ya
+task hu कार्य li ha ya
+talk hu बातचीत li ha ya
+layc hu साहित्य li ha ya
+laws hu आलसी li ha ya
+taym hu समय li ha ya
+talf hu छिपाना li ha ya
+lask hu अपमान li ha ya
+lasp hu लड़ाई li ha ya
+talp hu टेबल li ha ya
+lisk hu छुट्टी li ha ya
+tasp hu डेटाबेस li ha ya
+lumt hu राग li ha ya
+tuyk hu चिकित्सक li ha ya
+tuyn hu मोड़ li ha ya
+tuys hu चोर li ha ya
+tuyc hu नष्ट li ha ya
+tayn hu कटरा li ha ya
+fiym hu दृढ़ li ha ya
+fiyn hu रोकना li ha ya
+fiys hu संस्करण li ha ya
+fiwn hu सबूत li ha ya
+fink hu उंगली li ha ya
 /sˈa5˧n tɕjˈɑu2˧˥ʔ ɕˈiɜŋ/ 三角形 :zh. /tɹˈaɪaŋɡəl/ triangle :en.
 /tɾiˈaŋɡulo/ triángulo :es. /tɾɪkˈoːɳ/ त्रिकोण :hi. /mθlθ/
 مثلث :ar. /sˈɛɡi tˈiɡa/ segi tiga :id. /trʲiuɡˈoɭnik/
@@ -623,56 +1034,100 @@ tayn hu  कटरा li ha ya
 üçgen :tr. /kˈolmɪo/ kolmio :fi. /trˈiːaŋəl/ triangel :sv.
 /mosˈallas/ مثلث :fa. /trˈiɣonˌo/ τρίγωνο :el. 10 t, 8 u, 8 n,
 8 k, 8 a, 7 l, 7 i, 6 y, 4 m, 3 s, 3 c, 1 p, 1 f, 0 w, tunk hu
- त्रिकोण li ha ya
-tukc hu  तुर्की li ha ya
-layt hu  ग्यारह li ha ya
-liyp hu  पुस्तकालय li ha ya
-lank hu  स्थानीय li ha ya
-tack hu  धन्यवाद li ha ya
-tusk hu  प्रगति li ha ya
-tanp hu  दिखाई-देते-हैं li ha ya
-liwk hu  कानूनी li ha ya
-tuwm hu  अवधि li ha ya
-liyt hu  साहित्य li ha ya
-fayt hu  तथ्य li ha ya
-fals hu  असत्य li ha ya
-list hu  कम-से-कम li ha ya
-falt hu  चूक li ha ya
-funk hu  समारोह li ha ya
-fult hu  होटल li ha ya
-lant hu  धीमा li ha ya
-last hu  सूची li ha ya
-laft hu  लाभ li ha ya
-liyk hu  तरल li ha ya
-lunk hu  तर्क li ha ya
-liwt hu  उपहार li ha ya
-lint hu  अंदर li ha ya
-lufk hu  ताला li ha ya
-liyn hu  रेखा li ha ya
-fint hu  खोज li ha ya
-layk hu  झील li ha ya
-fayk hu  कारखाना li ha ya
-link hu  कडी li ha ya
-lunt hu  लोग li ha ya
-fast hu  यात्रा li ha ya
-fisk hu  प्रत्यय li ha ya
-faym hu  खेत li ha ya
-lumk hu  लोगारित्म li ha ya
-fuyk hu  गरीब li ha ya
-fans hu  फ्रेंच li ha ya
-lunp hu  पाश li ha ya
-fusk hu  फोकस li ha ya
-fuym hu  प्रपत्र li ha ya
-ciyk hu  ज़रूर li ha ya
-funm hu  स्वनिम li ha ya
-cink hu  इच्छा li ha ya
-cint hu  एजेंट li ha ya
-cank hu  संकेत li ha ya
-cant hu  आदत li ha ya
-luwt hu  वीणा li ha ya
-timp hu  व्याकरण-काल li ha ya
-cinp hu  इंफॉर्मेशन li ha ya
-budz hu  बुद्ध-धर्म li ha ya
-tick hu  शब्दकोश li ha ya
-tiwk hu  कार्यकलाप li ha ya
-yimk hu  पूछो li ha ya
+त्रिकोण li ha ya
+tukc hu तुर्की li ha ya
+famk hu परिचित li ha ya
+layt hu ग्यारह li ha ya
+liyp hu पुस्तकालय li ha ya
+lank hu स्थानीय li ha ya
+fant hu घटना li ha ya
+fask hu अतिरिक्त li ha ya
+tack hu धन्यवाद li ha ya
+tusk hu प्रगति li ha ya
+tanp hu दिखाई-देते-हैं li ha ya
+fack hu आग li ha ya
+fact hu पर्याप्त li ha ya
+fumt hu कल li ha ya
+liwk hu कानूनी li ha ya
+tuwm hu अवधि li ha ya
+fuys hu अपमान li ha ya
+liyt hu साहित्य li ha ya
+funt hu भरोसा li ha ya
+fayt hu तथ्य li ha ya
+fust hu स्कर्ट li ha ya
+fals hu असत्य li ha ya
+fulc hu बाल li ha ya
+cimt hu  काल्पनिक undefined ha ya
+list hu कम-से-कम li ha ya
+ciyn hu क्षेत्र li ha ya
+ciwk hu पुरवा li ha ya
+falt hu चूक li ha ya
+funk hu समारोह li ha ya
+cisk hu तेज़ li ha ya
+cisp hu विशेष li ha ya
+cist hu इतिहास li ha ya
+cilk hu गाल li ha ya
+cils hu संकल्प li ha ya
+cilt hu शांति li ha ya
+camk hu कमीज li ha ya
+cayk hu जज li ha ya
+cayp hu  शर्म की बात undefined ha ya
+cayn hu  जीवित रहने undefined ha ya
+cays hu पुरस्कार li ha ya
+cayf hu जबड़ा li ha ya
+cawn hu जानवर li ha ya
+fult hu होटल li ha ya
+canp hu आदत li ha ya
+lant hu धीमा li ha ya
+cast hu स्टेशन li ha ya
+calk hu दिल li ha ya
+cafk hu शिकार li ha ya
+cumt hu दुश्मन li ha ya
+cuym hu अफवाह li ha ya
+cuyk hu जलाना li ha ya
+cuyp hu नितंब li ha ya
+cuyn hu नदी li ha ya
+cuys hu घर li ha ya
+cuyt hu शहर li ha ya
+cunk hu गाना li ha ya
+cunt hu सीना li ha ya
+cusk hu शहर li ha ya
+cusp hu जूते li ha ya
+cust hu मौजूद li ha ya
+culp hu गंध li ha ya
+cult hu कंधा li ha ya
+last hu सूची li ha ya
+laft hu लाभ li ha ya
+liyk hu तरल li ha ya
+lunk hu तर्क li ha ya
+liwt hu उपहार li ha ya
+lint hu अंदर li ha ya
+lufk hu ताला li ha ya
+liyn hu रेखा li ha ya
+fint hu खोज li ha ya
+layk hu झील li ha ya
+fayk hu कारखाना li ha ya
+link hu कडी li ha ya
+lunt hu लोग li ha ya
+fast hu यात्रा li ha ya
+fisk hu प्रत्यय li ha ya
+faym hu खेत li ha ya
+lumk hu लोगारित्म li ha ya
+fuyk hu गरीब li ha ya
+fans hu फ्रेंच li ha ya
+lunp hu पाश li ha ya
+fusk hu फोकस li ha ya
+fuym hu प्रपत्र li ha ya
+ciyk hu ज़रूर li ha ya
+funm hu स्वनिम li ha ya
+cink hu इच्छा li ha ya
+cint hu एजेंट li ha ya
+cank hu संकेत li ha ya
+cant hu आदत li ha ya
+luwt hu वीणा li ha ya
+timp hu व्याकरण-काल li ha ya
+cinp hu इंफॉर्मेशन li ha ya
+budz hu बुद्ध-धर्म li ha ya
+tick hu शब्दकोश li ha ya
+tiwk hu कार्यकलाप li ha ya
+yimk hu पूछो li ha ya

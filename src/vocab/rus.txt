@@ -1,621 +1,1032 @@
-hi li hu  быть li ha ya
-ha li hu  о li ha ya
-hu li hu  а li ha ya
-mi li hu  мне li ha ya
-ma li hu  что li ha ya
-mu li hu  мужской li ha ya
-ki li hu  и li ha ya
-ka li hu  как li ha ya
-ku li hu  если li ha ya
-yi li hu  это li ha ya
-yu li hu  вас li ha ya
-ya li hu  дя li ha ya
-pi li hu  -ов li ha ya
-pa li hu  эта li ha ya
-pu li hu  сделал li ha ya
-wi li hu  нас li ha ya
-mip li hu  прошлый li ha ya
-wu li hu  по li ha ya
-ni li hu  в li ha ya
-na li hu  цифра li ha ya
-wa li hu  или li ha ya
-nu li hu  ню li ha ya
-si li hu  них li ha ya
-su li hu  от li ha ya
-nu li hu  сейчас li ha ya
+hi li hu быть li ha ya
+ha li hu о li ha ya
+hu li hu а li ha ya
+mi li hu мне li ha ya
+ma li hu что li ha ya
+mu li hu мужской li ha ya
+ki li hu и li ha ya
+ka li hu как li ha ya
+ku li hu если li ha ya
+yi li hu это li ha ya
+yu li hu вас li ha ya
+ya li hu дя li ha ya
+pi li hu -ов li ha ya
+pa li hu эта li ha ya
+pu li hu сделал li ha ya
+wi li hu нас li ha ya
+mip li hu прошлый li ha ya
+wu li hu по li ha ya
+ni li hu в li ha ya
+na li hu цифра li ha ya
+wa li hu или li ha ya
+nu li hu ню li ha ya
+si li hu них li ha ya
+su li hu от li ha ya
+nu li hu сейчас li ha ya
 ti li hu  то ha ya
-ta li hu  к li ha ya
-tu li hu  тебе li ha ya
-la li hu  эй li ha ya
-lu li hu  множественное-число li ha ya
-fi li hu  женский li ha ya
-fa li hu  об li ha ya
-fu li hu  воля li ha ya
-ci li hu  а? li ha ya
-ca li hu  среднего-рода li ha ya
-myi li hu  многие li ha ya
-li li hu  буквальный li ha ya
-mwa li hu  с li ha ya
-mya li hu  может-быть li ha ya
+ta li hu к li ha ya
+tu li hu тебе li ha ya
+la li hu эй li ha ya
+lu li hu множественное-число li ha ya
+fi li hu женский li ha ya
+fa li hu об li ha ya
+fu li hu воля li ha ya
+ci li hu а? li ha ya
+ca li hu среднего-рода li ha ya
+cu li hu  и / undefined ha ya
+myi li hu многие li ha ya
+li li hu буквальный li ha ya
+mwa li hu с li ha ya
+mya li hu может-быть li ha ya
 kyi li hu  условно ha ya
-kyu li hu  потому-что li ha ya
-kwa li hu  то-что li ha ya
-kya li hu  в-сторону li ha ya
-kli li hu  его li ha ya
-ksa li hu  закрывать-кавычки li ha ya
-klu li hu  Предложение-хвост li ha ya
-kfa li hu  прилагательное-аффикс li ha ya
-kla li hu  но li ha ya
-pyi li hu  глагол-аффикс li ha ya
-pya li hu  на li ha ya
+kyu li hu потому-что li ha ya
+kwa li hu то-что li ha ya
+ksi li hu крайняя li ha ya
+kya li hu в-сторону li ha ya
+ksu li hu чем li ha ya
+kli li hu его li ha ya
+ksa li hu закрывать-кавычки li ha ya
+klu li hu Предложение-хвост li ha ya
+kfa li hu прилагательное-аффикс li ha ya
+kci li hu тогда li ha ya
+kla li hu но li ha ya
+pyi li hu глагол-аффикс li ha ya
+pya li hu на li ha ya
 sa li hu  эт ha ya
-psi li hu  прежде,-чем li ha ya
-psu li hu  от-источника li ha ya
-pli li hu  например li ha ya
-pci li hu  также li ha ya
-kca li hu  ха li ha ya
-pcu li hu  также li ha ya
+psi li hu прежде,-чем li ha ya
+psa li hu бывший li ha ya
+psu li hu от-источника li ha ya
+pli li hu например li ha ya
+pfi li hu  двоичный undefined ha ya
+pci li hu также li ha ya
+kca li hu ха li ha ya
+pcu li hu также li ha ya
 pwa li hu  дили ha ya
-nya li hu  а-именно li ha ya
-nyu li hu  ин li ha ya
-nyi li hu  не li ha ya
-sya li hu  единственное-число li ha ya
-syi li hu  очень li ha ya
-swa li hu  в-противном-случае li ha ya
-syu li hu  так li ha ya
-sli li hu  еще-если li ha ya
-pca li hu  веселый li ha ya
-tya li hu  после li ha ya
-swi li hu  в-то-время-как li ha ya
-tyi li hu  цитата li ha ya
-tsa li hu  до-тех-пор-пока li ha ya
-tsi li hu  да li ha ya
-tsu li hu  существительное-аффикс li ha ya
-twu li hu  двойной li ha ya
-tla li hu  для li ha ya
-fyi li hu  ее li ha ya
-tcu li hu  из li ha ya
-sla li hu  привет li ha ya
-fyu li hu  несколько li ha ya
-cya li hu  еще li ha ya
-min hu  меньше li ha ya
-miy hu  память li ha ya
-mik hu  сделать li ha ya
-twa li hu  тогда li ha ya
-tli li hu  ога li ha ya
-mit hu  средний li ha ya
-man hu  думать li ha ya
-mip hu  мимо li ha ya
+nya li hu а-именно li ha ya
+nyu li hu ин li ha ya
+nyi li hu не li ha ya
+sya li hu единственное-число li ha ya
+syi li hu очень li ha ya
+swa li hu в-противном-случае li ha ya
+swu li hu так li ha ya
+syu li hu так li ha ya
+sli li hu еще-если li ha ya
+pca li hu веселый li ha ya
+tya li hu после li ha ya
+tyu li hu его li ha ya
+swi li hu в-то-время-как li ha ya
+tyi li hu цитата li ha ya
+tsa li hu до-тех-пор-пока li ha ya
+tsi li hu да li ha ya
+tsu li hu существительное-аффикс li ha ya
+twu li hu двойной li ha ya
+tla li hu для li ha ya
+tlu li hu  с плавающей точкой undefined ha ya
+tfa li hu в li ha ya
+tci li hu Вот li ha ya
+fyi li hu ее li ha ya
+tcu li hu из li ha ya
+fwa li hu для li ha ya
+cyi li hu ее li ha ya
+sla li hu привет li ha ya
+cwa li hu пока-пока li ha ya
+cla li hu  в - undefined ha ya
+fyu li hu несколько li ha ya
+cya li hu еще li ha ya
+min hu меньше li ha ya
+miy hu память li ha ya
+mik hu сделать li ha ya
+mic hu машина li ha ya
+twa li hu тогда li ha ya
+tli li hu ога li ha ya
+mit hu средний li ha ya
+man hu думать li ha ya
+mip hu мимо li ha ya
 mak hu  слово ha ya
-mun hu  мужчина li ha ya
-mut hu  Помогите li ha ya
-mas hu  масса li ha ya
-mat hu  мать li ha ya
-mac hu  машина li ha ya
-mul hu  полный li ha ya
-kip hu  способный li ha ya
-kin hu  главный li ha ya
-kam hu  приехать li ha ya
-kis hu  высокая li ha ya
-kit hu  конец li ha ya
+mus hu мужской li ha ya
+mun hu мужчина li ha ya
+mut hu Помогите li ha ya
+mas hu масса li ha ya
+mat hu мать li ha ya
+mac hu машина li ha ya
+mul hu полный li ha ya
+kip hu способный li ha ya
+kic hu каждый li ha ya
+kin hu главный li ha ya
+kam hu приехать li ha ya
+kis hu высокая li ha ya
+kit hu конец li ha ya
 kim hu  сравнить ha ya
 kiy hu  идти ha ya
-kap hu  голова li ha ya
-kaf hu  катод li ha ya
-kuy hu  расти li ha ya
-kat hu  получить li ha ya
-kan hu  знать li ha ya
-kum hu  торговля li ha ya
-kus hu  еда li ha ya
-kuc hu  небольшой li ha ya
-yis hu  запись li ha ya
-kul hu  цель li ha ya
-kup hu  купить li ha ya
-kun hu  красный li ha ya
-kas hu  причина li ha ya
-yit hu  ждать li ha ya
-yum hu  конечность li ha ya
-yat hu  читать li ha ya
-yun hu  вычитать li ha ya
-kal hu  все li ha ya
-yuw hu  год li ha ya
-yak hu  некоторые li ha ya
-pis hu  умножить li ha ya
-pit hu  белый li ha ya
-pic hu  моча li ha ya
-yac hu  ширина li ha ya
-pay hu  еще-больше li ha ya
-pam hu  рука li ha ya
-yus hu  использовать li ha ya
-yul hu  все li ha ya
-paw hu  место li ha ya
-pas hu  проходить li ha ya
+kap hu голова li ha ya
+kaf hu катод li ha ya
+kuy hu расти li ha ya
+kat hu получить li ha ya
+kan hu знать li ha ya
+kum hu торговля li ha ya
+kus hu еда li ha ya
+kuc hu небольшой li ha ya
+yis hu запись li ha ya
+kul hu цель li ha ya
+kup hu купить li ha ya
+kun hu красный li ha ya
+kas hu причина li ha ya
+yit hu ждать li ha ya
+yum hu конечность li ha ya
+yup hu хорошо li ha ya
+yat hu читать li ha ya
+yun hu вычитать li ha ya
+kal hu все li ha ya
+yuw hu год li ha ya
+yuc hu хорошо li ha ya
+yak hu некоторые li ha ya
+pis hu умножить li ha ya
+pit hu белый li ha ya
+pic hu моча li ha ya
+yac hu ширина li ha ya
+pay hu еще-больше li ha ya
+pam hu рука li ha ya
+yus hu использовать li ha ya
+yul hu все li ha ya
+paw hu место li ha ya
+pas hu проходить li ha ya
+pum hu дорожка li ha ya
 yik hu  отрицать ha ya
-pak hu  тело li ha ya
-pus hu  мочиться li ha ya
-pat hu  отец li ha ya
-puk hu  плохой li ha ya
-win hu  победа li ha ya
+pak hu тело li ha ya
+pus hu мочиться li ha ya
+pat hu отец li ha ya
+puk hu плохой li ha ya
+win hu победа li ha ya
+wik hu неделю li ha ya
 pan hu  встречать ha ya
-puc hu  пустой li ha ya
-put hu  продавать li ha ya
-pul hu  синий li ha ya
-pac hu  радость li ha ya
+wit hu уровень li ha ya
+puc hu пустой li ha ya
+put hu продавать li ha ya
+pul hu синий li ha ya
+pac hu радость li ha ya
+nik hu  все undefined ha ya
 puy hu  ребенок ha ya
-wut hu  свет li ha ya
-niy hu  нуждаться li ha ya
-fut hu  будущее li ha ya
-wan hu  любовь li ha ya
-nay hu  выдыхать li ha ya
-nim hu  имя li ha ya
-nat hu  ночь li ha ya
-nut hu  анод li ha ya
-nit hu  чистый li ha ya
-nal hu  голый li ha ya
-nic hu  энергия li ha ya
-sip hu  глоток li ha ya
-nuy hu  новый li ha ya
-sit hu  набор li ha ya
-wap hu  хвост li ha ya
-sim hu  аналогичный li ha ya
-wat hu  говорить li ha ya
-saw hu  черный li ha ya
-sik hu  высота li ha ya
-sil hu  да-легко li ha ya
-sak hu  согласны li ha ya
-nul hu  нуль li ha ya
-suy hu  потерять li ha ya
-sap hu  простой li ha ya
-say hu  сказать li ha ya
-sam hu  то-же-самое li ha ya
-tim hu  команда li ha ya
-tik hu  держать li ha ya
+nip hu без li ha ya
+wut hu свет li ha ya
+niy hu нуждаться li ha ya
+fut hu будущее li ha ya
+wan hu любовь li ha ya
+nay hu выдыхать li ha ya
+nas hu  родной undefined ha ya
+nim hu имя li ha ya
+nat hu ночь li ha ya
+nut hu анод li ha ya
+nit hu чистый li ha ya
+nal hu голый li ha ya
+nic hu энергия li ha ya
+sip hu глоток li ha ya
+nuy hu новый li ha ya
+sit hu набор li ha ya
+wap hu хвост li ha ya
+sim hu аналогичный li ha ya
+wat hu говорить li ha ya
+saw hu черный li ha ya
+sik hu высота li ha ya
+sil hu да-легко li ha ya
+sak hu согласны li ha ya
+nul hu нуль li ha ya
+saf hu пространство li ha ya
+suk hu сосать li ha ya
+suy hu потерять li ha ya
+sap hu простой li ha ya
+sun hu своя li ha ya
+say hu сказать li ha ya
+sam hu то-же-самое li ha ya
+tim hu команда li ha ya
+tik hu держать li ha ya
 wul hu  большой ha  payhmap hi ya
-san hu  себя li ha ya
-sat hu  звук li ha ya
-tis hu  вдыхать li ha ya
-sut hu  размер li ha ya
-tiw hu  стена li ha ya
-tiy hu  день li ha ya
-sup hu  платить li ha ya
+san hu себя li ha ya
+sat hu звук li ha ya
+tis hu вдыхать li ha ya
+sut hu размер li ha ya
+tiw hu стена li ha ya
+tiy hu день li ha ya
+sup hu платить li ha ya
 nam hu  число ha ya
-til hu  низкий li ha ya
-tip hu  начать li ha ya
-tin hu  видеть li ha ya
-tak hu  добавлять li ha ya
-tuk hu  напиток li ha ya
-naw hu  настоящее-время li ha ya
-tal hu  галстук li ha ya
-tam hu  тема li ha ya
-tay hu  положить li ha ya
-tuy hu  повторение li ha ya
-tan hu  дать li ha ya
-tup hu  глубина li ha ya
-tum hu  температура li ha ya
-tuf hu  трудно li ha ya
-ton hu  тонна li ha ya
-tas hu  выбирать li ha ya
-fin hu  женский-пол li ha ya
-lif hu  слева li ha ya
-fit hu  соответствовать li ha ya
-tap hu  коснуться li ha ya
-fam hu  семья li ha ya
-lik hu  электрического-заряда li ha ya
-lin hu  длина li ha ya
-ciy hu  зеленый li ha ya
-cif hu  разделение li ha ya
-cis hu  жизнь li ha ya
-tul hu  инструмент li ha ya
-lis hu  жить li ha ya
-cay hu  право li ha ya
-cin hu  знак li ha ya
-myut hu  импорт li ha ya
-cum hu  форма li ha ya
-cim hu  услышать li ha ya
-myil hu  союзник li ha ya
-myit hu  запомнить li ha ya
-cak hu  вещь li ha ya
-lit hu  глиф li ha ya
-myun hu  использовать li ha ya
-can hu  шанс li ha ya
-cal hu  шаг li ha ya
-mwut hu  сопротивляться li ha ya
-kyim hu  игра li ha ya
-myat hu  математический li ha ya
-kyip hu  одежда li ha ya
-myan hu  мягкий li ha ya
-kwit hu  вес li ha ya
-kyam hu  нести li ha ya
-kyit hu  каждый li ha ya
-kyus hu  веселье li ha ya
-myul hu  моральный li ha ya
-myin hu  мечтать li ha ya
-kyil hu  круг li ha ya
-kwat hu  сильный li ha ya
-kyin hu  общий li ha ya
-ksat hu  точная li ha ya
-ksiy hu  эксперт li ha ya
-kyap hu  копия li ha ya
-ksit hu  Выход li ha ya
-ksil hu  кристалл li ha ya
-kyup hu  группа li ha ya
-kyat hu  жесткий li ha ya
-ksap hu  веревка li ha ya
-ksip hu  доступ li ha ya
-ksam hu  темно li ha ya
-ksin hu  контекст li ha ya
-ksal hu  галактика li ha ya
-ksan hu  организовать li ha ya
-ksum hu  общаться li ha ya
-kliy hu  ясно li ha ya
-klim hu  наука li ha ya
-klin hu  электрон li ha ya
-ksuf hu  описывать li ha ya
-ktin hu  религия li ha ya
-kcat hu  восемь li ha ya
-pyik hu  перерыв li ha ya
-ksut hu  собирать li ha ya
-klum hu  колонка li ha ya
-pyit hu  четыре li ha ya
-klut hu  исключать li ha ya
-klun hu  голод li ha ya
-kfit hu  эффект li ha ya
-ksul hu  школа li ha ya
-kyul hu  правило li ha ya
-pyaw hu  пара li ha ya
-kcil hu  умение li ha ya
-kfat hu  прилагательное li ha ya
-klas hu  класс li ha ya
-kcut hu  беспорядок li ha ya
-kcuf hu  достаточно li ha ya
-kcun hu  спрягать li ha ya
-klat hu  пункт li ha ya
-kcim hu  химическая li ha ya
-klac hu  кроме li ha ya
-pyil hu  обращение li ha ya
-kfin hu  конфиг li ha ya
-pyan hu  распространение li ha ya
-pyif hu  глагол li ha ya
-pyas hu  быстро li ha ya
-pyin hu  опыт li ha ya
-pyam hu  программа li ha ya
-pyat hu  подсказка li ha ya
-pyum hu  местоимение li ha ya
-pyaf hu  выполнять li ha ya
-klaw hu  смех li ha ya
-pyun hu  птица li ha ya
-pyal hu  параллельно li ha ya
-pyac hu  удивляться li ha ya
-pyut hu  протон li ha ya
-psil hu  заклинание li ha ya
-pyul hu  кипятить li ha ya
-pwas hu  ответ li ha ya
-pyuf hu  доказательство li ha ya
-pwil hu  переменная li ha ya
-psin hu  спин li ha ya
-pwut hu  утвердить li ha ya
-psiy hu  давление li ha ya
-psit hu  скорость li ha ya
-pyuc hu  проект li ha ya
-psaf hu  ответить li ha ya
-psan hu  пространство li ha ya
-psat hu  поверхность li ha ya
-psal hu  парус li ha ya
-nyip hu  зеркало li ha ya
-psun hu  источник li ha ya
-psut hu  обещание li ha ya
-nyat hu  войти-в li ha ya
-plum hu  проблема li ha ya
-pluy hu  популярный li ha ya
-plam hu  плазма li ha ya
-pfic hu  предпочитать li ha ya
-plin hu  самолет li ha ya
-plut hu  пыли li ha ya
-plun hu  вероятно li ha ya
-nyul hu  рулон li ha ya
-pcum hu  надеяться li ha ya
-pfal hu  провал li ha ya
-syim hu  семь li ha ya
-pcit hu  ценить li ha ya
-pcil hu  специальный li ha ya
-syip hu  чистый li ha ya
-plan hu  план li ha ya
-plat hu  планета li ha ya
-syan hu  голубой li ha ya
-pfus hu  автобус li ha ya
-play hu  играть li ha ya
-syiw hu  служить li ha ya
-swit hu  переключатель li ha ya
-nlic hu  Английский li ha ya
-nyit hu  блок li ha ya
-syic hu  исследование li ha ya
-syam hu  оставаться li ha ya
-nyus hu  ионизировать li ha ya
-nyut hu  нейтрон li ha ya
-slin hu  один li ha ya
-nyis hu  ссылка li ha ya
-syit hu  послать li ha ya
-syat hu  твердый li ha ya
-syut hu  поддерживать li ha ya
-tyik hu  распад li ha ya
-syun hu  вселенная li ha ya
-swat hu  вода li ha ya
-swuy hu  вопрос li ha ya
-swun hu  сон li ha ya
-slac hu  неправильно li ha ya
-swil hu  душа li ha ya
-slat hu  сторона li ha ya
-syak hu  проснуться li ha ya
-slof hu  словарь li ha ya
-slam hu  сублимировать li ha ya
-tkun hu  Китайский li ha ya
-tyip hu  снова li ha ya
-tyap hu  пытаться li ha ya
-tyaw hu  идея li ha ya
-tyas hu  бросать li ha ya
-tyic hu  направление li ha ya
-tyus hu  дело li ha ya
-tyif hu  перевести li ha ya
-tyim hu  дрожать li ha ya
-tyis hu  переход li ha ya
-tsiy hu  история li ha ya
-tsip hu  шаг li ha ya
-tyuc hu  учить li ha ya
-tyuk hu  объект li ha ya
-tyuf hu  другой li ha ya
-tyil hu  холодный li ha ya
-tyam hu  атом li ha ya
-twal hu  добро-пожаловать li ha ya
-twuf hu  два li ha ya
-tyak hu  крик li ha ya
-tyin hu  три li ha ya
-tyan hu  строка li ha ya
-tyup hu  робот li ha ya
-twis hu  верно li ha ya
-tsiw hu  спутниковое li ha ya
-tsim hu  вместе li ha ya
-tsic hu  испытание li ha ya
-tsin hu  инструкция li ha ya
-tsil hu  заслуживать li ha ya
-tsuy hu  сидеть li ha ya
-tsak hu  атака li ha ya
-tsan hu  студент li ha ya
-tsam hu  цель li ha ya
-tsay hu  звезда li ha ya
-tsac hu  увеличение li ha ya
-tsap hu  свойство li ha ya
-tsum hu  исследование li ha ya
-tlas hu  блюдо li ha ya
-tsal hu  состояние li ha ya
-tsaf hu  вкус li ha ya
-tsuk hu  магазин li ha ya
-tsun hu  существительное li ha ya
-tlak hu  прямоугольник li ha ya
-tsul hu  для-взрослых li ha ya
-tlay hu  сложить li ha ya
-tlik hu  электричество li ha ya
-tlum hu  старый li ha ya
-tlis hu  желать li ha ya
-tcap hu  прозрачный li ha ya
+taw hu  с undefined ha ya
+til hu низкий li ha ya
+tip hu начать li ha ya
+tin hu видеть li ha ya
+tac hu ниже li ha ya
+tak hu добавлять li ha ya
+tuk hu напиток li ha ya
+naw hu настоящее-время li ha ya
+tal hu галстук li ha ya
+tun hu вниз li ha ya
+tus hu результат li ha ya
+tam hu тема li ha ya
+tay hu положить li ha ya
+tuc hu игрушка li ha ya
+tuy hu повторение li ha ya
+tan hu дать li ha ya
+tup hu глубина li ha ya
+tum hu температура li ha ya
+tuf hu трудно li ha ya
+lat hu конец li ha ya
+lac hu люблю li ha ya
+ton hu тонна li ha ya
+tas hu выбирать li ha ya
+fin hu женский-пол li ha ya
+fas hu происходить li ha ya
+fuy hu выше li ha ya
+lif hu слева li ha ya
+fit hu соответствовать li ha ya
+cik hu переехать li ha ya
+tap hu коснуться li ha ya
+fam hu семья li ha ya
+lik hu электрического-заряда li ha ya
+cit hu должен li ha ya
+lin hu длина li ha ya
+cam hu Главная li ha ya
+ciy hu зеленый li ha ya
+cif hu разделение li ha ya
+cis hu жизнь li ha ya
+cat hu удар li ha ya
+tul hu инструмент li ha ya
+cus hu показать li ha ya
+lis hu жить li ha ya
+cay hu право li ha ya
+cin hu знак li ha ya
+myut hu импорт li ha ya
+cum hu форма li ha ya
+myal hu стоимость li ha ya
+myac hu предприятие li ha ya
+cim hu услышать li ha ya
+myil hu союзник li ha ya
+myit hu запомнить li ha ya
+myuf hu противодействовать li ha ya
+mwis hu  в undefined ha ya
+mwit hu член li ha ya
+mwas hu влажный li ha ya
+mwat hu вещество li ha ya
+cak hu вещь li ha ya
+lit hu глиф li ha ya
+myun hu использовать li ha ya
+can hu шанс li ha ya
+kyis hu чем li ha ya
+cal hu шаг li ha ya
+mwut hu сопротивляться li ha ya
+kyic hu корпорация li ha ya
+kyim hu игра li ha ya
+kyas hu закрывать li ha ya
+myat hu математический li ha ya
+kyac hu  крайняя undefined ha ya
+kyip hu одежда li ha ya
+myan hu мягкий li ha ya
+kwit hu вес li ha ya
+kyuc hu оправдание li ha ya
+kyam hu нести li ha ya
+kwic hu деревня li ha ya
+kwam hu  Блок - undefined ha ya
+kyit hu каждый li ha ya
+kwul hu вызов li ha ya
+ksim hu ожидать li ha ya
+kyus hu веселье li ha ya
+myul hu моральный li ha ya
+myin hu мечтать li ha ya
+kyil hu круг li ha ya
+kwat hu сильный li ha ya
+ksic hu конкурировать li ha ya
+kyin hu общий li ha ya
+ksay hu рассказать li ha ya
+ksat hu точная li ha ya
+ksiy hu эксперт li ha ya
+kyap hu копия li ha ya
+ksit hu Выход li ha ya
+ksaf hu авария li ha ya
+ksac hu упражнение li ha ya
+ksil hu кристалл li ha ya
+ksuy hu странный li ha ya
+ksup hu краткое li ha ya
+ksun hu контракт li ha ya
+kyup hu группа li ha ya
+kyat hu жесткий li ha ya
+ksap hu веревка li ha ya
+ksuc hu падать li ha ya
+ksip hu доступ li ha ya
+ksam hu темно li ha ya
+ksin hu контекст li ha ya
+klic hu ключ li ha ya
+klam hu  труд, undefined ha ya
+klay hu плакать li ha ya
+klap hu  хлопать в undefined ha ya
+ksal hu галактика li ha ya
+klan hu колония li ha ya
+ksan hu организовать li ha ya
+ksum hu общаться li ha ya
+klaf hu Запрос li ha ya
+kliy hu ясно li ha ya
+klim hu наука li ha ya
+klup hu Глобальный li ha ya
+klin hu электрон li ha ya
+klus hu  стенной undefined ha ya
+ksuf hu описывать li ha ya
+kluc hu преступление li ha ya
+ktin hu религия li ha ya
+kcat hu восемь li ha ya
+kfan hu подтвердить li ha ya
+kfas hu доля li ha ya
+pyik hu перерыв li ha ya
+kfac hu ухо li ha ya
+kfup hu кружка li ha ya
+kfun hu конференция li ha ya
+kfus hu описывать li ha ya
+ksut hu собирать li ha ya
+kcin hu агент li ha ya
+klum hu колонка li ha ya
+kcam hu оценить li ha ya
+kcay hu лечение li ha ya
+kcap hu занимать li ha ya
+kcan hu охота li ha ya
+kcas hu Стоимость li ha ya
+pyit hu четыре li ha ya
+kcal hu шкаф li ha ya
+kcaf hu побег li ha ya
+kcum hu комиссия li ha ya
+klut hu исключать li ha ya
+klun hu голод li ha ya
+kcul hu оболочка li ha ya
+kfit hu эффект li ha ya
+ksul hu школа li ha ya
+kyul hu правило li ha ya
+pyis hu прогнозировать li ha ya
+pyaw hu пара li ha ya
+kcil hu умение li ha ya
+kfat hu прилагательное li ha ya
+pyic hu мир li ha ya
+klas hu класс li ha ya
+pyak hu практика li ha ya
+kcut hu беспорядок li ha ya
+kcuf hu достаточно li ha ya
+kcun hu спрягать li ha ya
+klat hu пункт li ha ya
+kcim hu химическая li ha ya
+klac hu кроме li ha ya
+pyil hu обращение li ha ya
+kfin hu конфиг li ha ya
+pyuk hu публиковать li ha ya
+pyan hu распространение li ha ya
+pyus hu обработать li ha ya
+pyif hu глагол li ha ya
+pyas hu быстро li ha ya
+pyin hu опыт li ha ya
+pyam hu программа li ha ya
+pwit hu считают, li ha ya
+pyat hu подсказка li ha ya
+pway hu далеко li ha ya
+pwan hu труба li ha ya
+pyum hu местоимение li ha ya
+pwus hu присутствие li ha ya
+pyaf hu выполнять li ha ya
+psim hu  задний undefined ha ya
+psik hu дискриминация li ha ya
+klaw hu смех li ha ya
+pyun hu птица li ha ya
+pyal hu параллельно li ha ya
+pyac hu удивляться li ha ya
+psif hu хвалить li ha ya
+psic hu страница li ha ya
+psam hu подготовить li ha ya
+psak hu плевать li ha ya
+pyut hu протон li ha ya
+psil hu заклинание li ha ya
+pyul hu кипятить li ha ya
+pwas hu ответ li ha ya
+psac hu приз li ha ya
+psuy hu  акция undefined ha ya
+pyuf hu доказательство li ha ya
+pwil hu переменная li ha ya
+psuf hu грудь li ha ya
+psuc hu выражение li ha ya
+psin hu спин li ha ya
+plic hu частица li ha ya
+pwut hu утвердить li ha ya
+psiy hu давление li ha ya
+psit hu скорость li ha ya
+pyuc hu проект li ha ya
+psaf hu ответить li ha ya
+psan hu пространство li ha ya
+pluk hu штекер li ha ya
+psat hu поверхность li ha ya
+psal hu парус li ha ya
+nyip hu зеркало li ha ya
+pfim hu профессия li ha ya
+pfiy hu  вести undefined ha ya
+pfin hu плавник li ha ya
+pfit hu период li ha ya
+psun hu источник li ha ya
+pfam hu родитель li ha ya
+pfan hu похоронить li ha ya
+psut hu обещание li ha ya
+pfum hu много li ha ya
+pfun hu открытый li ha ya
+nyat hu войти-в li ha ya
+pcin hu Деньги li ha ya
+pcis hu бизнес li ha ya
+plum hu проблема li ha ya
+pluy hu популярный li ha ya
+pcay hu график li ha ya
+pcan hu обмен li ha ya
+pcas hu лапа li ha ya
+pcat hu проводить li ha ya
+pcal hu Прыгать li ha ya
+plam hu плазма li ha ya
+pcun hu человек li ha ya
+pcus hu брюки li ha ya
+pcut hu мост li ha ya
+pcuf hu бровь li ha ya
+pfic hu предпочитать li ha ya
+plin hu самолет li ha ya
+plut hu пыли li ha ya
+nyas hu подъем li ha ya
+plun hu вероятно li ha ya
+nyal hu ногти li ha ya
+nyup hu приглашать li ha ya
+nyul hu рулон li ha ya
+pcum hu надеяться li ha ya
+pfal hu провал li ha ya
+nwat hu эквивалент li ha ya
+syim hu семь li ha ya
+syik hu больной li ha ya
+pcit hu ценить li ha ya
+pcil hu специальный li ha ya
+syip hu чистый li ha ya
+syil hu клетка li ha ya
+syif hu резерв li ha ya
+plan hu план li ha ya
+plat hu планета li ha ya
+syan hu голубой li ha ya
+syap hu заказ li ha ya
+pfus hu автобус li ha ya
+play hu играть li ha ya
+syuk hu строгий li ha ya
+syup hu натирать li ha ya
+syiw hu служить li ha ya
+swit hu переключатель li ha ya
+nlic hu Английский li ha ya
+nyit hu блок li ha ya
+swic hu сознательный li ha ya
+syic hu исследование li ha ya
+swal hu равным li ha ya
+swum hu убеждать li ha ya
+syam hu оставаться li ha ya
+nyus hu ионизировать li ha ya
+nyut hu нейтрон li ha ya
+slik hu Один li ha ya
+sliy hu светский li ha ya
+slip hu всегда li ha ya
+slin hu один li ha ya
+slit hu разделить li ha ya
+slif hu слово li ha ya
+slic hu лестница li ha ya
+nyis hu ссылка li ha ya
+slan hu Слушать li ha ya
+syit hu послать li ha ya
+syat hu твердый li ha ya
+slun hu  в undefined ha ya
+sluf hu следовать li ha ya
+syut hu поддерживать li ha ya
+tyik hu распад li ha ya
+syun hu вселенная li ha ya
+swat hu вода li ha ya
+swuy hu вопрос li ha ya
+swun hu сон li ha ya
+slac hu неправильно li ha ya
+swil hu душа li ha ya
+slat hu сторона li ha ya
+syak hu проснуться li ha ya
+slof hu словарь li ha ya
+slam hu сублимировать li ha ya
+tkun hu Китайский li ha ya
+tyip hu снова li ha ya
+tyal hu справедливость li ha ya
+tyaf hu доставить li ha ya
+tyac hu посещать li ha ya
+tyum hu переход li ha ya
+tyap hu пытаться li ha ya
+tyaw hu идея li ha ya
+tyun hu Другие li ha ya
+tyas hu бросать li ha ya
+tyic hu направление li ha ya
+tyus hu дело li ha ya
+tyif hu перевести li ha ya
+tway hu дверь li ha ya
+tyim hu дрожать li ha ya
+twuy hu  дверной undefined ha ya
+tyis hu переход li ha ya
+tsiy hu история li ha ya
+tsik hu налог li ha ya
+tsip hu шаг li ha ya
+tyuc hu учить li ha ya
+tyuk hu объект li ha ya
+tyuf hu другой li ha ya
+tyil hu холодный li ha ya
+tyam hu атом li ha ya
+twal hu добро-пожаловать li ha ya
+twuf hu два li ha ya
+tyak hu крик li ha ya
+tyin hu три li ha ya
+tyan hu строка li ha ya
+tyup hu робот li ha ya
+twis hu верно li ha ya
+tsiw hu спутниковое li ha ya
+tsim hu вместе li ha ya
+tsic hu испытание li ha ya
+tsup hu стоп li ha ya
+tsin hu инструкция li ha ya
+tsil hu заслуживать li ha ya
+tsuy hu сидеть li ha ya
+tsak hu атака li ha ya
+tsan hu студент li ha ya
+tlic hu удовольствие li ha ya
+tlam hu принадлежать li ha ya
+tsam hu цель li ha ya
+tsay hu звезда li ha ya
+tlap hu лечение li ha ya
+tsac hu увеличение li ha ya
+tsap hu свойство li ha ya
+tlaf hu только li ha ya
+tsum hu исследование li ha ya
+tlas hu блюдо li ha ya
+tfik hu трафик li ha ya
+tsal hu состояние li ha ya
+tfis hu разница li ha ya
+tfam hu определять li ha ya
+tsaf hu вкус li ha ya
+tsuk hu магазин li ha ya
+tsun hu существительное li ha ya
+tlak hu прямоугольник li ha ya
+tfum hu друг li ha ya
+tsul hu для-взрослых li ha ya
+tlay hu сложить li ha ya
+tcim hu измерение li ha ya
+tlik hu электричество li ha ya
+tlum hu старый li ha ya
+tlis hu желать li ha ya
+tcap hu прозрачный li ha ya
+tcam hu жевать li ha ya
+tcak hu говорить li ha ya
+tcay hu отношение li ha ya
 slim hu  пример ha ya
-tlan hu  традиция li ha ya
-tfan hu  перевод li ha ya
-tfas hu  катастрофа li ha ya
-tlun hu  тройной-точкой li ha ya
-tfun hu  доверие li ha ya
-tfim hu  временный li ha ya
-tfin hu  человек li ha ya
-fwap hu  пять li ha ya
-tciy hu  изменение li ha ya
-tfak hu  грязь li ha ya
-tfal hu  файл li ha ya
-flan hu  наводнение li ha ya
-tcik hu  проверять li ha ya
-tcuk hu  трюк li ha ya
-flat hu  квартира li ha ya
-tcum hu  присоединиться li ha ya
-fyis hu  Официальный li ha ya
-tcil hu  тюрьма li ha ya
-fyut hu  фрукты li ha ya
-tfus hu  повреждение li ha ya
-tcin hu  цепь li ha ya
-tcuy hu  вне li ha ya
-tcun hu  мощность li ha ya
-tcan hu  дерево li ha ya
-fwil hu  сила li ha ya
-flay hu  летать li ha ya
-flit hu  флейта li ha ya
-fwas hu  фаза li ha ya
-flun hu  Пожалуйста li ha ya
-mink hu  ум li ha ya
-cyan hu  включать li ha ya
-cwuy hu  уход li ha ya
-fyas hu  фраза li ha ya
-clan hu  происхождение li ha ya
-clin hu  отношение li ha ya
-cyin hu  учиться li ha ya
-tkic hu  перевод-словарь li ha ya
-flut hu  цветок li ha ya
-mayn hu  гармония li ha ya
-fluc hu  течь li ha ya
-mant hu  пурпурный li ha ya
-miyn hu  несовершеннолетний li ha ya
-miyt hu  знать li ha ya
-clut hu  сверхкритической-жидкости li ha ya
-clum hu  приговор li ha ya
-miyk hu  послать li ha ya
-mist hu  измерять li ha ya
-mank hu  мозг li ha ya
-mayc hu  изображение li ha ya
-milt hu  расплав li ha ya
-musk hu  музыка li ha ya
-malp hu  награда li ha ya
-mayp hu  карта li ha ya
-mans hu  человек li ha ya
-mayt hu  мнимого-блок li ha ya
-mast hu  вопрос li ha ya
-kiyn hu  один li ha ya
-muyn hu  дурак li ha ya
-muyp hu  улучшать li ha ya
-kint hu  конвертировать li ha ya
-muyk hu  основной li ha ya
-tlin hu  порядковый li ha ya
-must hu  больше-всего li ha ya
-munk hu  возможный li ha ya
-munt hu  настроение li ha ya
-muft hu  умереть li ha ya
-mint hu  метод li ha ya
-muyt hu  союзник li ha ya
-malt hu  материал li ha ya
-mack hu  вообразить li ha ya
-kist hu  заменять li ha ya
-kiyp hu  бумага li ha ya
-kant hu  постоянная li ha ya
-kasp hu  улов li ha ya
-kast hu  создать li ha ya
-mult hu  по-модулю li ha ya
-kift hu  прощать li ha ya
-kisp hu  экспонента li ha ya
-kays hu  грамматическая-случая li ha ya
-kayn hu  поток-тока li ha ya
-kanp hu  подключать li ha ya
-kaws hu  газ li ha ya
-kimt hu  вешать li ha ya
-miwk hu  человек li ha ya
-kump hu  комплекс li ha ya
-kunp hu  закрыть li ha ya
-kumt hu  команда li ha ya
-muys hu  эмоция li ha ya
-yinp hu  возвращение li ha ya
-kuym hu  общий li ha ya
-yilk hu  желтый li ha ya
-kamt hu  грамматика li ha ya
-kuct hu  преступление li ha ya
-yawt hu  вред li ha ya
-kuls hu  жестокий li ha ya
-kuyt hu  критической-точки li ha ya
-kusp hu  коллапс li ha ya
-yisk hu  богатые li ha ya
-kust hu  постоянная li ha ya
-yist hu  экспорт li ha ya
-yimt hu  ритм li ha ya
-kuwt hu  код li ha ya
-yink hu  кольцо li ha ya
-yift hu  стоимость li ha ya
-yamt hu  любоваться li ha ya
-yasp hu  работа li ha ya
-kunt hu  контроль li ha ya
-kult hu  культура li ha ya
-yaft hu  ряд li ha ya
-yalt hu  рано li ha ya
-yumt hu  милость li ha ya
-yilt hu  Эйлера-номер li ha ya
-yusk hu  восток li ha ya
-yuyp hu  Европа li ha ya
-yuns hu  Уран li ha ya
-yust hu  остальные li ha ya
-yask hu  реакция li ha ya
-yunt hu  контейнер li ha ya
-piyn hu  полагать li ha ya
-piyt hu  зависеть li ha ya
-yast hu  бесплатно li ha ya
-pint hu  работать li ha ya
-yalk hu  автомобиль li ha ya
-pist hu  разрешение li ha ya
-yulp hu  роль li ha ya
-yult hu  утилита li ha ya
-piys hu  пи li ha ya
-pamt hu  постоянный li ha ya
-pays hu  база li ha ya
-pans hu  Испанский li ha ya
-panp hu  хлеб li ha ya
-puyt hu  укусить li ha ya
-puyk hu  грамматико-объект li ha ya
-pant hu  брать li ha ya
-puwt hu  предоставить li ha ya
-pulk hu  полигон li ha ya
-puls hu  поцелуй li ha ya
-pult hu  бутылка li ha ya
-pust hu  почта li ha ya
-past hu  производить li ha ya
-pusk hu  нагрузка li ha ya
-pack hu  наслаждаться li ha ya
-niyk hu  рядом li ha ya
-nuys hu  шум li ha ya
-niwt hu  сеть li ha ya
-nist hu  хороший li ha ya
-punt hu  точка li ha ya
-nift hu  девять li ha ya
-nict hu  родной li ha ya
-nuls hu  нулю li ha ya
-siyt hu  предлагать li ha ya
-nims hu  анимизм li ha ya
-sift hu  сдвиг li ha ya
-numt hu  Заметка li ha ya
-sayk hu  мудрый li ha ya
-nilt hu  интеллект li ha ya
-nayt hu  редкий li ha ya
-nast hu  интерес li ha ya
-nuyt hu  Северная li ha ya
-nusp hu  забывать li ha ya
-wins hu  Венера li ha ya
-sanp hu  продлить li ha ya
-wint hu  ветер li ha ya
-wuym hu  объем li ha ya
-sink hu  уменьшить li ha ya
-silk hu  шесть li ha ya
+tlan hu традиция li ha ya
+tcal hu чат li ha ya
+tfan hu перевод li ha ya
+tfas hu катастрофа li ha ya
+tlun hu тройной-точкой li ha ya
+tcup hu падение li ha ya
+tcuw hu  за undefined ha ya
+tfun hu доверие li ha ya
+tcul hu заглавие li ha ya
+fyim hu немедленная li ha ya
+tfim hu временный li ha ya
+fyit hu фронт li ha ya
+fyil hu приятный li ha ya
+fyam hu слава li ha ya
+fyaw hu наречие li ha ya
+fyan hu праздновать li ha ya
+tfin hu человек li ha ya
+fyat hu интерпретировать li ha ya
+fyum hu реформа li ha ya
+fyun hu предупреждать li ha ya
+fwap hu пять li ha ya
+fwis hu  своего undefined ha ya
+tciy hu изменение li ha ya
+fway hu разнообразие li ha ya
+tfak hu грязь li ha ya
+tfal hu файл li ha ya
+flim hu металлоид li ha ya
+flin hu влияние li ha ya
+flan hu наводнение li ha ya
+tcik hu проверять li ha ya
+tcuk hu трюк li ha ya
+flat hu квартира li ha ya
+fluk hu цветок li ha ya
+flup hu пол li ha ya
+tcum hu присоединиться li ha ya
+fyis hu Официальный li ha ya
+tcil hu тюрьма li ha ya
+cyik hu доля li ha ya
+cyip hu Новости li ha ya
+fyut hu фрукты li ha ya
+cyis hu через li ha ya
+cyit hu зубы li ha ya
+cyif hu очевидно, li ha ya
+cyam hu петля li ha ya
+cyap hu филиал li ha ya
+tfus hu повреждение li ha ya
+cyas hu персонаж li ha ya
+cyat hu Опасность li ha ya
+cyal hu полка li ha ya
+cyaf hu выявить li ha ya
+cyum hu комната li ha ya
+cyut hu состояние li ha ya
+cwif hu Получать li ha ya
+cwam hu вечер li ha ya
+cwan hu влагалище li ha ya
+cwal hu глотать li ha ya
+tcin hu цепь li ha ya
+tcuy hu вне li ha ya
+clak hu лодыжка li ha ya
+tcun hu мощность li ha ya
+clas hu зал li ha ya
+tcan hu дерево li ha ya
+clun hu колено li ha ya
+fwil hu сила li ha ya
+flay hu летать li ha ya
+flit hu флейта li ha ya
+miwt hu смерть li ha ya
+fwas hu фаза li ha ya
+minp hu между li ha ya
+flun hu Пожалуйста li ha ya
+misp hu подозреваемый li ha ya
+mink hu ум li ha ya
+mils hu военный li ha ya
+cyan hu включать li ha ya
+milc hu мыть li ha ya
+mift hu метод li ha ya
+mict hu упомянуть li ha ya
+mayk hu отметка li ha ya
+cwuy hu уход li ha ya
+fyas hu фраза li ha ya
+mays hu граница li ha ya
+clan hu происхождение li ha ya
+clin hu отношение li ha ya
+cyin hu учиться li ha ya
+tkic hu перевод-словарь li ha ya
+mask hu маска li ha ya
+masp hu беспокоить li ha ya
+flut hu цветок li ha ya
+malk hu Реклама li ha ya
+mayn hu гармония li ha ya
+fluc hu течь li ha ya
+malf hu масло li ha ya
+malc hu жалею li ha ya
+maft hu признавать li ha ya
+mant hu пурпурный li ha ya
+miyn hu несовершеннолетний li ha ya
+miyt hu знать li ha ya
+clut hu сверхкритической-жидкости li ha ya
+clum hu приговор li ha ya
+miyk hu послать li ha ya
+muwt hu рот li ha ya
+mist hu измерять li ha ya
+mank hu мозг li ha ya
+mayc hu изображение li ha ya
+musp hu запястье li ha ya
+milt hu расплав li ha ya
+musk hu музыка li ha ya
+malp hu награда li ha ya
+muct hu важный li ha ya
+mayp hu карта li ha ya
+mans hu человек li ha ya
+mayt hu мнимого-блок li ha ya
+mast hu вопрос li ha ya
+kiyn hu один li ha ya
+muyn hu дурак li ha ya
+muyp hu улучшать li ha ya
+kict hu превышать li ha ya
+kamp hu лагерь li ha ya
+kint hu конвертировать li ha ya
+kaym hu собирать li ha ya
+kayp hu край li ha ya
+muyk hu основной li ha ya
+tlin hu порядковый li ha ya
+kayt hu карта li ha ya
+kawp hu обложка li ha ya
+kawn hu вешать li ha ya
+must hu больше-всего li ha ya
+kawt hu постель li ha ya
+munk hu возможный li ha ya
+munt hu настроение li ha ya
+muft hu умереть li ha ya
+mint hu метод li ha ya
+kalp hu кабель li ha ya
+kals hu галактика li ha ya
+kalc hu жаловаться li ha ya
+kafp hu принимать li ha ya
+kaft hu активный li ha ya
+kact hu горячий li ha ya
+muyt hu союзник li ha ya
+malt hu материал li ha ya
+mack hu вообразить li ha ya
+kuyp hu копия li ha ya
+kist hu заменять li ha ya
+kiyp hu бумага li ha ya
+kant hu постоянная li ha ya
+kasp hu улов li ha ya
+kast hu создать li ha ya
+kulp hu коготь li ha ya
+mult hu по-модулю li ha ya
+kift hu прощать li ha ya
+kulc hu ложка li ha ya
+kufp hu восстанавливать li ha ya
+kuft hu Пальто li ha ya
+kucp hu кожа li ha ya
+kisp hu экспонента li ha ya
+kays hu грамматическая-случая li ha ya
+yiwt hu восстание li ha ya
+kayn hu поток-тока li ha ya
+kanp hu подключать li ha ya
+yint hu Cегодня li ha ya
+kaws hu газ li ha ya
+yisp hu экспорт li ha ya
+kimt hu вешать li ha ya
+miwk hu человек li ha ya
+yils hu возраст li ha ya
+kump hu комплекс li ha ya
+yilc hu уже li ha ya
+yifk hu богатый li ha ya
+kunp hu закрыть li ha ya
+yict hu отклонить li ha ya
+kumt hu команда li ha ya
+muys hu эмоция li ha ya
+yank hu камень li ha ya
+yanp hu обычный li ha ya
+yant hu аренда li ha ya
+yinp hu возвращение li ha ya
+kuym hu общий li ha ya
+yilk hu желтый li ha ya
+kamt hu грамматика li ha ya
+kuct hu преступление li ha ya
+yalf hu путешествовать li ha ya
+yafk hu реагировать li ha ya
+yawt hu вред li ha ya
+yact hu рацион li ha ya
+yumk hu общественного li ha ya
+kuls hu жестокий li ha ya
+yunk hu поезд li ha ya
+kuyt hu критической-точки li ha ya
+kusp hu коллапс li ha ya
+yusp hu грабить li ha ya
+yisk hu богатые li ha ya
+kust hu постоянная li ha ya
+yist hu экспорт li ha ya
+yulf hu полезным li ha ya
+yuck hu корень li ha ya
+yuct hu  иметь undefined ha ya
+pimt hu обладать li ha ya
+piyk hu эксперимент li ha ya
+yimt hu ритм li ha ya
+kuwt hu код li ha ya
+yink hu кольцо li ha ya
+yift hu стоимость li ha ya
+pisk hu пенис li ha ya
+yamt hu любоваться li ha ya
+pilt hu билет li ha ya
+pict hu вредитель li ha ya
+pamk hu незамедлительный li ha ya
+yasp hu работа li ha ya
+paym hu порт li ha ya
+payn hu запрет li ha ya
+kunt hu контроль li ha ya
+payt hu укусить li ha ya
+payc hu цена li ha ya
+pank hu ловушка li ha ya
+kult hu культура li ha ya
+pask hu мешок li ha ya
+yaft hu ряд li ha ya
+palk hu назад li ha ya
+pals hu взорваться li ha ya
+palt hu политика li ha ya
+yalt hu рано li ha ya
+pact hu часть li ha ya
+pumt hu живот li ha ya
+puym hu спотыкаться li ha ya
+yumt hu милость li ha ya
+puyn hu дно li ha ya
+puys hu пересекать li ha ya
+yilt hu Эйлера-номер li ha ya
+puyc hu залить li ha ya
+yusk hu восток li ha ya
+punk hu нога li ha ya
+yuyp hu Европа li ha ya
+yuns hu Уран li ha ya
+yust hu остальные li ha ya
+yask hu реакция li ha ya
+yunt hu контейнер li ha ya
+piyn hu полагать li ha ya
+pulf hu веко li ha ya
+piyt hu зависеть li ha ya
+wist hu  вкладывать undefined ha ya
+ways hu лицо li ha ya
+wayt hu провод li ha ya
+wank hu миска li ha ya
+wasp hu халат li ha ya
+walk hu волна li ha ya
+yast hu бесплатно li ha ya
+wuyt hu голос li ha ya
+wunk hu локоть li ha ya
+wulp hu ребро li ha ya
+wuls hu ответственность li ha ya
+wult hu старый li ha ya
+nimt hu  не undefined ha ya
+pint hu работать li ha ya
+niyp hu избежать li ha ya
+yalk hu автомобиль li ha ya
+niws hu нос li ha ya
+pist hu разрешение li ha ya
+nisk hu ингредиент li ha ya
+nisp hu принцип li ha ya
+yulp hu роль li ha ya
+nilk hu ядерного li ha ya
+yult hu утилита li ha ya
+piys hu пи li ha ya
+nick hu голый li ha ya
+pamt hu постоянный li ha ya
+namt hu назначать li ha ya
+naym hu нормальный li ha ya
+nayk hu Отрицать li ha ya
+nays hu организовать li ha ya
+pays hu база li ha ya
+nayc hu народ li ha ya
+nask hu интерес li ha ya
+nasp hu транспорт li ha ya
+pans hu Испанский li ha ya
+nals hu контакт li ha ya
+panp hu хлеб li ha ya
+nafk hu окно li ha ya
+naft hu искусственный li ha ya
+nack hu исследовать li ha ya
+nact hu вмешиваться li ha ya
+numk hu экономика li ha ya
+puyt hu укусить li ha ya
+nuym hu объявлять li ha ya
+puyk hu грамматико-объект li ha ya
+pant hu брать li ha ya
+nusk hu анус li ha ya
+puwt hu предоставить li ha ya
+pulk hu полигон li ha ya
+nulk hu шея li ha ya
+nulp hu благородный li ha ya
+puls hu поцелуй li ha ya
+nult hu рождение li ha ya
+pult hu бутылка li ha ya
+nuck hu никогда li ha ya
+simk hu  одна undefined ha ya
+simp hu семена li ha ya
+simt hu система li ha ya
+siym hu резюме li ha ya
+siyk hu секрет li ha ya
+siyp hu точный li ha ya
+pust hu почта li ha ya
+past hu производить li ha ya
+siyc hu серии li ha ya
+siwc hu ситуация li ha ya
+pusk hu нагрузка li ha ya
+sinp hu появляться li ha ya
+pack hu наслаждаться li ha ya
+niyk hu рядом li ha ya
+silt hu селиться li ha ya
+silf hu гражданский li ha ya
+sifk hu отсутствие li ha ya
+sifp hu должность li ha ya
+nuys hu шум li ha ya
+sick hu секс li ha ya
+sict hu грустный li ha ya
+samk hu глаз li ha ya
+samt hu час li ha ya
+saym hu протяжение li ha ya
+niwt hu сеть li ha ya
+nist hu хороший li ha ya
+punt hu точка li ha ya
+nift hu девять li ha ya
+sayf hu жертва li ha ya
+sayc hu исследовать li ha ya
+nict hu родной li ha ya
+nuls hu нулю li ha ya
+siyt hu предлагать li ha ya
+salk hu убийство li ha ya
+salp hu избыток li ha ya
+salt hu  поваренная undefined ha ya
+salf hu здоровье li ha ya
+nims hu анимизм li ha ya
+saft hu безопасность li ha ya
+sack hu сумерки li ha ya
+sacp hu наказать li ha ya
+sift hu сдвиг li ha ya
+sumk hu успех li ha ya
+sump hu утро li ha ya
+numt hu Заметка li ha ya
+sayk hu мудрый li ha ya
+suyp hu поглощать li ha ya
+suyn hu состав li ha ya
+nilt hu интеллект li ha ya
+sunk hu хобот li ha ya
+nayt hu редкий li ha ya
+nast hu интерес li ha ya
+sult hu солдат li ha ya
+nuyt hu Северная li ha ya
+sufk hu позвоночник li ha ya
+suft hu священный li ha ya
+suck hu разъем li ha ya
+nusp hu забывать li ha ya
+timk hu грамматика li ha ya
+wins hu Венера li ha ya
+sanp hu продлить li ha ya
+tiyp hu тип li ha ya
+wint hu ветер li ha ya
+wuym hu объем li ha ya
+sink hu уменьшить li ha ya
+tiyc hu задержка li ha ya
+silk hu шесть li ha ya
 yimk hu  спросить ha ya
-tiyk hu  десять li ha ya
-sayp hu  поставка li ha ya
-sayn hu  сохранять li ha ya
-tiyn hu  продолжать li ha ya
-siyn hu  казаться li ha ya
-niyt hu  п-корень li ha ya
-nalt hu  природа li ha ya
-tiws hu  театр li ha ya
-salc hu  социального li ha ya
-sact hu  стрелять li ha ya
-suyk hu  страдать li ha ya
-nuks hu  Юникс li ha ya
-sumt hu  предмет li ha ya
-sunp hu  предполагать li ha ya
-suyt hu  правильный li ha ya
-nust hu  уведомление li ha ya
-sucp hu  супруга li ha ya
-sank hu  часто li ha ya
-sunt hu  на-юг li ha ya
-sulc hu  решение li ha ya
-sark hu  сарказм li ha ya
-nuft hu  враждебный li ha ya
-tiym hu  поздно li ha ya
-sant hu  искусство li ha ya
-sayt hu  скорости-света li ha ya
-tiyf hu  привод li ha ya
-tins hu  плотный li ha ya
-sint hu  чувствовать li ha ya
-tawk hu  власть li ha ya
-tiys hu  расстояние li ha ya
-ticp hu  почти li ha ya
-tink hu  текст li ha ya
-tisk hu  текст li ha ya
-tinp hu  золотисто-коэффициент li ha ya
-tisp hu  представлять li ha ya
-tayf hu  предложение li ha ya
-tuym hu  мир li ha ya
-tayk hu  придавать li ha ya
-tamk hu  смотреть li ha ya
-liys hu  свобода li ha ya
-task hu  задача li ha ya
-talk hu  говорить li ha ya
-tank hu  внезапно li ha ya
-talf hu  скрывать li ha ya
-taym hu  время li ha ya
-talp hu  стол li ha ya
-tasp hu  база-данных li ha ya
-tuyk hu  врач li ha ya
-tuyn hu  поворот li ha ya
-tuys hu  вор li ha ya
-tuyc hu  уничтожить li ha ya
+tiyk hu десять li ha ya
+sayp hu поставка li ha ya
+sayn hu сохранять li ha ya
+tiyn hu продолжать li ha ya
+tilk hu метка li ha ya
+tilc hu технологии li ha ya
+tifk hu Мероприятия li ha ya
+siyn hu казаться li ha ya
+niyt hu п-корень li ha ya
+nalt hu природа li ha ya
+tamp hu дебаты li ha ya
+tiws hu театр li ha ya
+salc hu социального li ha ya
+tayp hu Вверх li ha ya
+sact hu стрелять li ha ya
+tays hu стоять li ha ya
+suyk hu страдать li ha ya
+tayc hu степень li ha ya
+nuks hu Юникс li ha ya
+sumt hu предмет li ha ya
+sunp hu предполагать li ha ya
+suyt hu правильный li ha ya
+nust hu уведомление li ha ya
+sucp hu супруга li ha ya
+sank hu часто li ha ya
+tals hu  делать undefined ha ya
+sunt hu на-юг li ha ya
+talc hu  давать undefined ha ya
+tafp hu защищать li ha ya
+sulc hu решение li ha ya
+tacp hu обсуждать li ha ya
+tumk hu рвота li ha ya
+tump hu храм li ha ya
+sark hu сарказм li ha ya
+nuft hu враждебный li ha ya
+tuyp hu  опытный undefined ha ya
+tiym hu поздно li ha ya
+sant hu искусство li ha ya
+sayt hu скорости-света li ha ya
+tiyf hu привод li ha ya
+tuwk hu долг li ha ya
+tuwn hu тон li ha ya
+tins hu плотный li ha ya
+tunp hu адаптировать li ha ya
+sint hu чувствовать li ha ya
+tusp hu потрошить li ha ya
+tulk hu Всего li ha ya
+tulp hu боль li ha ya
+tufk hu цель li ha ya
+tuck hu Словарь li ha ya
+limk hu идеально li ha ya
+limt hu предел li ha ya
+tawk hu власть li ha ya
+tiys hu расстояние li ha ya
+ticp hu почти li ha ya
+tink hu текст li ha ya
+tisk hu текст li ha ya
+tinp hu золотисто-коэффициент li ha ya
+tisp hu представлять li ha ya
+tayf hu предложение li ha ya
+linp hu длина li ha ya
+tuym hu мир li ha ya
+tayk hu придавать li ha ya
+tamk hu смотреть li ha ya
+lifk hu выпуск li ha ya
+lick hu лекция li ha ya
+licp hu лист li ha ya
+lict hu избранный li ha ya
+lamk hu закон li ha ya
+lamt hu местный li ha ya
+liys hu свобода li ha ya
+task hu задача li ha ya
+layc hu литература li ha ya
+laws hu ленивый li ha ya
+talk hu говорить li ha ya
+tank hu внезапно li ha ya
+lask hu оскорблять li ha ya
+lasp hu борьба li ha ya
+talf hu скрывать li ha ya
+taym hu время li ha ya
+talp hu стол li ha ya
+lumt hu мелодия li ha ya
+tasp hu база-данных li ha ya
+tuyk hu врач li ha ya
+tuyn hu поворот li ha ya
+tuys hu вор li ha ya
+tuyc hu уничтожить li ha ya
+fiym hu фирма li ha ya
+fiyn hu  не undefined ha ya
+fiys hu версия li ha ya
+fiwn hu доказательства li ha ya
+fink hu Палец li ha ya
 /sˈa5˧n tɕjˈɑu2˧˥ʔ ɕˈiɜŋ/ 三角形 :zh. /tɹˈaɪaŋɡəl/ triangle :en.
 /tɾiˈaŋɡulo/ triángulo :es. /tɾɪkˈoːɳ/ त्रिकोण :hi. /mθlθ/
 مثلث :ar. /sˈɛɡi tˈiɡa/ segi tiga :id. /trʲiuɡˈoɭnik/
@@ -623,58 +1034,102 @@ tuyc hu  уничтожить li ha ya
 üçgen :tr. /kˈolmɪo/ kolmio :fi. /trˈiːaŋəl/ triangel :sv.
 /mosˈallas/ مثلث :fa. /trˈiɣonˌo/ τρίγωνο :el. 10 t, 8 u, 8 n,
 8 k, 8 a, 7 l, 7 i, 6 y, 4 m, 3 s, 3 c, 1 p, 1 f, 0 w, tunk hu
- треугольник li ha ya
-lisk hu  отпуск li ha ya
-tukc hu  Турецкий li ha ya
-liyp hu  библиотека li ha ya
-tayn hu  площадь li ha ya
-layt hu  одиннадцать li ha ya
-lank hu  местный li ha ya
-tusk hu  прогресс li ha ya
-tanp hu  появляться li ha ya
-liwk hu  правовой li ha ya
-tack hu  благодарить li ha ya
-tuwm hu  продолжительность li ha ya
-liyt hu  литература li ha ya
-fayt hu  факт li ha ya
-list hu  как-минимум li ha ya
-fals hu  ложный li ha ya
-falt hu  дефолт li ha ya
-funk hu  функция li ha ya
-lant hu  медленно li ha ya
-last hu  список li ha ya
-laft hu  выгода li ha ya
-lunk hu  логика li ha ya
-fult hu  гостиничный-комплекс li ha ya
-liyk hu  жидкость li ha ya
-lufk hu  запереть li ha ya
-liwt hu  подарок li ha ya
-liyn hu  линия li ha ya
-fint hu  находить li ha ya
-fayk hu  завод li ha ya
-lint hu  внутри li ha ya
-layk hu  озеро li ha ya
-link hu  ссылка li ha ya
-fast hu  визит li ha ya
-fisk hu  ставить li ha ya
-faym hu  ферма li ha ya
-lunt hu  люди li ha ya
-fuyk hu  бедных li ha ya
-fans hu  Французский li ha ya
-fusk hu  фокус li ha ya
-lumk hu  логарифм li ha ya
-ciyk hu  конечно li ha ya
-luwt hu  лютня li ha ya
-fuym hu  форма li ha ya
-cink hu  желание li ha ya
-cank hu  знак li ha ya
-cant hu  привычка li ha ya
-cint hu  агент li ha ya
-funm hu  фонема li ha ya
-lunp hu  петля li ha ya
-timp hu  напряженный li ha ya
-cinp hu  информация li ha ya
-budz hu  Буддизм li ha ya
-tiwk hu  деятельность li ha ya
+треугольник li ha ya
+lisk hu отпуск li ha ya
+famk hu знакомые li ha ya
+tukc hu Турецкий li ha ya
+liyp hu библиотека li ha ya
+tayn hu площадь li ha ya
+fant hu мероприятие li ha ya
+fask hu дополнительный li ha ya
+layt hu одиннадцать li ha ya
+lank hu местный li ha ya
+tusk hu прогресс li ha ya
+fack hu Огонь li ha ya
+fact hu достаточно li ha ya
+fumt hu завтра li ha ya
+tanp hu появляться li ha ya
+liwk hu правовой li ha ya
+fuys hu преступление li ha ya
+tack hu благодарить li ha ya
+funt hu доверять li ha ya
+tuwm hu продолжительность li ha ya
+fust hu юбка li ha ya
+liyt hu литература li ha ya
+fulc hu волосы li ha ya
+cimt hu  мнимая единица undefined ha ya
+fayt hu факт li ha ya
+ciyn hu область li ha ya
+ciwk hu Гамлет li ha ya
+list hu как-минимум li ha ya
+fals hu ложный li ha ya
+cisk hu резкое li ha ya
+cisp hu конкретный li ha ya
+cist hu история li ha ya
+cilk hu щека li ha ya
+cils hu разрешить li ha ya
+cilt hu неподвижность li ha ya
+camk hu Рубашка li ha ya
+cayk hu судья li ha ya
+cayp hu позор li ha ya
+cayn hu выживать li ha ya
+cays hu награда li ha ya
+cayf hu челюсть li ha ya
+cawn hu животное li ha ya
+falt hu дефолт li ha ya
+canp hu привычка li ha ya
+funk hu функция li ha ya
+cast hu станция li ha ya
+calk hu сердце li ha ya
+cafk hu жертва li ha ya
+cumt hu враг li ha ya
+cuym hu слух li ha ya
+cuyk hu сжигать li ha ya
+cuyp hu бедро li ha ya
+cuyn hu река li ha ya
+cuys hu дом li ha ya
+cuyt hu город li ha ya
+cunk hu петь li ha ya
+cunt hu шить li ha ya
+cusk hu город li ha ya
+cusp hu обувь li ha ya
+cust hu существовать li ha ya
+culp hu запах li ha ya
+cult hu плечо li ha ya
+lant hu медленно li ha ya
+last hu список li ha ya
+laft hu выгода li ha ya
+lunk hu логика li ha ya
+fult hu гостиничный-комплекс li ha ya
+liyk hu жидкость li ha ya
+lufk hu запереть li ha ya
+liwt hu подарок li ha ya
+liyn hu линия li ha ya
+fint hu находить li ha ya
+fayk hu завод li ha ya
+lint hu внутри li ha ya
+layk hu озеро li ha ya
+link hu ссылка li ha ya
+fast hu визит li ha ya
+fisk hu ставить li ha ya
+faym hu ферма li ha ya
+lunt hu люди li ha ya
+fuyk hu бедных li ha ya
+fans hu Французский li ha ya
+fusk hu фокус li ha ya
+lumk hu логарифм li ha ya
+ciyk hu конечно li ha ya
+luwt hu лютня li ha ya
+fuym hu форма li ha ya
+cink hu желание li ha ya
+cank hu знак li ha ya
+cant hu привычка li ha ya
+cint hu агент li ha ya
+funm hu фонема li ha ya
+lunp hu петля li ha ya
+timp hu напряженный li ha ya
+cinp hu информация li ha ya
+budz hu Буддизм li ha ya
+tiwk hu деятельность li ha ya
 tick hu  словарь ha ya
 kwal hu  язык ha ya

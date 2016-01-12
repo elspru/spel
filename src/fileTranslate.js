@@ -55,6 +55,8 @@ function fromLangFileTranslate(filename, langs) {
     fileContents = io.fileRead(filename);
     console.log(fileContents);
     text = new Text(lang, fileContents);
+    console.log(text.toString());
+    console.log(text.toLocaleString(mwak));
     return text;
 }
 
@@ -70,21 +72,22 @@ function toLangFileTranslate(filename, text, conjugationLevel,
         code,
         lang;
     langs.forEach(function (tuple) {
+        newText = text.copy(mwak);
+        format = {};
         code = tuple[0];
         lang = tuple[1];
-        if (!lang) {
             Lang = require("./locale/" + code + "/" + code);
             lang = new Lang();
             tuple[1] = lang;
             console.log(code + " language loaded");
-        }
         newFilenameParts = filenameParts.slice(0);
         newFilenameParts[filenameLangCodeI] = code;
         newFilenameParts.splice(1, 0, "t");
         newFilename = newFilenameParts.join(".");
         console.log("---------");
+        console.log(lang.grammar.name);
         console.log("writing " + newFilename);
-        newText = text.toLocaleString(lang, format,
+        newText = newText.toLocaleString(lang, format,
             "t", conjugationLevel);
         console.log(newText);
         io.fileWrite(newFilename, newText);
@@ -99,7 +102,7 @@ function toLangFileTranslate(filename, text, conjugationLevel,
 //    ["swa"], ["ukr"], ["nld"], ["hun"], ["swe"], ["mwak",mwak]
 //    ];
 
-var langs = [["eng"], ["javs"], ["mwak"]];
+var langs = [["eng"], ["spa"], ["fra"], ["rus"], ["javs"], ["mwak"] ];
 //var langs = allLangs;
 
 var conjugationLevel = 7;

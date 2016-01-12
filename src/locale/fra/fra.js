@@ -565,7 +565,7 @@ var result = phraseString;
 /* le la les */
 var Type = phrase.body;
 var number = mwak.grammar.number;
-if (Type.head && Type.head.head){
+if (Type && Type.head && Type.head.head){
 if (parse.wordMatch(number.all,Type.head.head)){
 result = "les "+result;
 }

@@ -1,621 +1,1032 @@
-hi li hu  인가 li ha ya
-ha li hu  를 li ha ya
-hu li hu  가 li ha ya
-mi li hu  나는 li ha ya
-ma li hu  무엇 li ha ya
-mu li hu  남성의 li ha ya
-ki li hu  과 li ha ya
-ka li hu  으로 li ha ya
-ku li hu  경우 li ha ya
-yi li hu  이 li ha ya
-yu li hu  당신 li ha ya
-ya li hu  요 li ha ya
-pi li hu  의 li ha ya
-pa li hu  그-일 li ha ya
-pu li hu  한 li ha ya
-wi li hu  우리 li ha ya
-wa li hu  또는 li ha ya
-wu li hu  로 li ha ya
-ni li hu  에 li ha ya
-na li hu  숫자 li ha ya
-si li hu  그들은 li ha ya
-nu li hu  지금 li ha ya
-ti li hu  그 li ha ya
-su li hu  부터 li ha ya
-ta li hu  게 li ha ya
-tu li hu  그대 li ha ya
-li li hu  리터럴 li ha ya
-fa li hu  약 li ha ya
-la li hu  이봐 li ha ya
-lu li hu  복수의 li ha ya
-fi li hu  여성의 li ha ya
-ci li hu  응? li ha ya
-fu li hu  의지 li ha ya
-mya li hu  아마 li ha ya
-ca li hu  중성 li ha ya
-myi li hu  많은 li ha ya
-kyi li hu  조건부의 li ha ya
-mwa li hu  와 li ha ya
-kya li hu  곁에 li ha ya
-sa li hu  이전-그 li ha ya
-kyu li hu  때문에 li ha ya
-kwa li hu  그-있는 li ha ya
-ksa li hu  인용을-끝-맺다 li ha ya
-kli li hu  그를 li ha ya
-kla li hu  하지만 li ha ya
-klu li hu  절-꼬리 li ha ya
-kfa li hu  형용사-접사 li ha ya
-kca li hu  하아 li ha ya
-pyi li hu  동사-접사 li ha ya
-pya li hu  에 li ha ya
-psu li hu  원본에서 li ha ya
-psi li hu  전에 li ha ya
-pwa li hu  또는-아 li ha ya
-pli li hu  대한-예 li ha ya
-pci li hu  또한 li ha ya
-pca li hu  서 li ha ya
-pcu li hu  또한 li ha ya
-nyi li hu  아니 li ha ya
-nya li hu  즉 li ha ya
-nyu li hu  나 li ha ya
-sya li hu  단수 li ha ya
-syi li hu  대단히 li ha ya
-syu li hu  그래서 li ha ya
-swa li hu  그렇지-않으면 li ha ya
-swi li hu  동안 li ha ya
-sli li hu  다른-IF li ha ya
-sla li hu  안녕하세요 li ha ya
-tya li hu  후 li ha ya
-tyi li hu  시세 li ha ya
-twu li hu  이중의 li ha ya
-tsa li hu  untill li ha ya
-tsi li hu  예 li ha ya
-tsu li hu  명사-접사 li ha ya
-tla li hu  용 li ha ya
-fyi li hu  그녀의 li ha ya
-twa li hu  그때 li ha ya
-tcu li hu  아웃 li ha ya
-tli li hu  기사 li ha ya
-fyu li hu  조금 li ha ya
-cya li hu  그렇지-않으면 li ha ya
-min hu  적게 li ha ya
-miy hu  기억 li ha ya
-mik hu  확인 li ha ya
-mip hu  지난 li ha ya
-mit hu  중간 li ha ya
-mak hu  낱말 li ha ya
-man hu  생각 li ha ya
-mat hu  어머니 li ha ya
-mun hu  남성 li ha ya
-mas hu  질량 li ha ya
-mut hu  도움 li ha ya
-mac hu  기계 li ha ya
-mul hu  완전한 li ha ya
-kim hu  비교 li ha ya
-kiy hu  가기 li ha ya
-kip hu  유능한 li ha ya
-kin hu  주요 li ha ya
-kam hu  왔다 li ha ya
-kis hu  높은 li ha ya
-kit hu  끝 li ha ya
-kap hu  머리 li ha ya
-kan hu  알고 li ha ya
-kas hu  경력 li ha ya
-kaf hu  음극 li ha ya
-kuy hu  성장 li ha ya
-kat hu  도착 li ha ya
-kal hu  모든 li ha ya
-kum hu  무역 li ha ya
-kus hu  음식 li ha ya
-kuc hu  작은 li ha ya
-yis hu  쓰기 li ha ya
-kul hu  골 li ha ya
-kup hu  사기 li ha ya
-kun hu  빨간 li ha ya
-yik hu  부정 li ha ya
-yit hu  대기 li ha ya
-yum hu  수족 li ha ya
-yat hu  읽기 li ha ya
-yun hu  덜다 li ha ya
-yak hu  약 li ha ya
-yuw hu  년 li ha ya
-yac hu  폭 li ha ya
-pis hu  곱 li ha ya
-pit hu  화이트 li ha ya
-pic hu  소변 li ha ya
-yus hu  용도 li ha ya
-pay hu  더 li ha ya
-pam hu  팔 li ha ya
-yul hu  전체의 li ha ya
-pas hu  패스 li ha ya
-paw hu  장소 li ha ya
-pak hu  몸 li ha ya
-pat hu  아버지 li ha ya
-pus hu  똥 li ha ya
+hi li hu 인가 li ha ya
+ha li hu 를 li ha ya
+hu li hu 가 li ha ya
+mi li hu 나는 li ha ya
+ma li hu 무엇 li ha ya
+mu li hu 남성의 li ha ya
+ki li hu 과 li ha ya
+ka li hu 으로 li ha ya
+ku li hu 경우 li ha ya
+yi li hu 이 li ha ya
+yu li hu 당신 li ha ya
+ya li hu 요 li ha ya
+pi li hu 의 li ha ya
+pa li hu 그-일 li ha ya
+pu li hu 한 li ha ya
+wi li hu 우리 li ha ya
+wa li hu 또는 li ha ya
+wu li hu 로 li ha ya
+ni li hu 에 li ha ya
+na li hu 숫자 li ha ya
+si li hu 그들은 li ha ya
+nu li hu 지금 li ha ya
+ti li hu 그 li ha ya
+su li hu 부터 li ha ya
+ta li hu 게 li ha ya
+tu li hu 그대 li ha ya
+li li hu 리터럴 li ha ya
+fa li hu 약 li ha ya
+la li hu 이봐 li ha ya
+lu li hu 복수의 li ha ya
+fi li hu 여성의 li ha ya
+ci li hu 응? li ha ya
+fu li hu 의지 li ha ya
+mya li hu 아마 li ha ya
+ca li hu 중성 li ha ya
+cu li hu  및 / undefined ha ya
+myi li hu 많은 li ha ya
+kyi li hu 조건부의 li ha ya
+mwa li hu 와 li ha ya
+kya li hu 곁에 li ha ya
+sa li hu 이전-그 li ha ya
+kyu li hu 때문에 li ha ya
+kwa li hu 그-있는 li ha ya
+ksi li hu 극단 li ha ya
+ksa li hu 인용을-끝-맺다 li ha ya
+ksu li hu 보다 li ha ya
+kli li hu 그를 li ha ya
+kla li hu 하지만 li ha ya
+klu li hu 절-꼬리 li ha ya
+kfa li hu 형용사-접사 li ha ya
+kci li hu 그때 li ha ya
+kca li hu 하아 li ha ya
+pyi li hu 동사-접사 li ha ya
+pya li hu 에 li ha ya
+psu li hu 원본에서 li ha ya
+psi li hu 전에 li ha ya
+psa li hu 전자 li ha ya
+pwa li hu 또는-아 li ha ya
+pli li hu 대한-예 li ha ya
+pfi li hu  이진 undefined ha ya
+pci li hu 또한 li ha ya
+pca li hu 서 li ha ya
+pcu li hu 또한 li ha ya
+nyi li hu 아니 li ha ya
+nya li hu 즉 li ha ya
+nyu li hu 나 li ha ya
+sya li hu 단수 li ha ya
+syi li hu 대단히 li ha ya
+syu li hu 그래서 li ha ya
+swa li hu 그렇지-않으면 li ha ya
+swu li hu 그래서 li ha ya
+swi li hu 동안 li ha ya
+sli li hu 다른-IF li ha ya
+sla li hu 안녕하세요 li ha ya
+tya li hu 후 li ha ya
+tyu li hu 그를 li ha ya
+tyi li hu 시세 li ha ya
+twu li hu 이중의 li ha ya
+tsa li hu untill li ha ya
+tsi li hu 예 li ha ya
+tsu li hu 명사-접사 li ha ya
+tla li hu 용 li ha ya
+fyi li hu 그녀의 li ha ya
+tlu li hu  부동 소수점 undefined ha ya
+tfa li hu ...에서 li ha ya
+tci li hu 이리 li ha ya
+twa li hu 그때 li ha ya
+tcu li hu 아웃 li ha ya
+fwa li hu  ...에 undefined ha ya
+cyi li hu 그녀의 li ha ya
+tli li hu 기사 li ha ya
+cwa li hu 안녕 li ha ya
+cla li hu  의 undefined ha ya
+fyu li hu 조금 li ha ya
+cya li hu 그렇지-않으면 li ha ya
+min hu 적게 li ha ya
+miy hu 기억 li ha ya
+mik hu 확인 li ha ya
+mic hu 기계 li ha ya
+mip hu 지난 li ha ya
+mit hu 중간 li ha ya
+mak hu 낱말 li ha ya
+man hu 생각 li ha ya
+mat hu 어머니 li ha ya
+mun hu 남성 li ha ya
+mus hu 남성 li ha ya
+mas hu 질량 li ha ya
+mut hu 도움 li ha ya
+mac hu 기계 li ha ya
+mul hu 완전한 li ha ya
+kim hu 비교 li ha ya
+kiy hu 가기 li ha ya
+kip hu 유능한 li ha ya
+kic hu 마다 li ha ya
+kin hu 주요 li ha ya
+kam hu 왔다 li ha ya
+kis hu 높은 li ha ya
+kit hu 끝 li ha ya
+kap hu 머리 li ha ya
+kan hu 알고 li ha ya
+kas hu 경력 li ha ya
+kaf hu 음극 li ha ya
+kuy hu 성장 li ha ya
+kat hu 도착 li ha ya
+kal hu 모든 li ha ya
+kum hu 무역 li ha ya
+kus hu 음식 li ha ya
+kuc hu 작은 li ha ya
+yis hu 쓰기 li ha ya
+kul hu 골 li ha ya
+kup hu 사기 li ha ya
+kun hu 빨간 li ha ya
+yik hu 부정 li ha ya
+yit hu 대기 li ha ya
+yum hu 수족 li ha ya
+yup hu 좋다 li ha ya
+yat hu 읽기 li ha ya
+yun hu 덜다 li ha ya
+yak hu 약 li ha ya
+yuw hu 년 li ha ya
+yuc hu 좋다 li ha ya
+yac hu 폭 li ha ya
+pis hu 곱 li ha ya
+pit hu 화이트 li ha ya
+pic hu 소변 li ha ya
+yus hu 용도 li ha ya
+pay hu 더 li ha ya
+pam hu 팔 li ha ya
+yul hu 전체의 li ha ya
+pas hu 패스 li ha ya
+paw hu 장소 li ha ya
+pak hu 몸 li ha ya
+pum hu 통로 li ha ya
+pat hu 아버지 li ha ya
+pus hu 똥 li ha ya
 pat ha ya
-puk hu  나쁜 li ha ya
-win hu  승리 li ha ya
-put hu  판매 li ha ya
-pul hu  푸른 li ha ya
-puc hu  빈 li ha ya
-pan hu  모임 li ha ya
-pac hu  즐거움 li ha ya
-wan hu  러브 li ha ya
-wut hu  빛 li ha ya
-niy hu  필요가있다 li ha ya
-puy hu  어린이 li ha ya
-wat hu  이야기 li ha ya
-nay hu  숨을-내쉬다 li ha ya
-nim hu  이름 li ha ya
-nat hu  밤 li ha ya
-nut hu  양극 li ha ya
-nic hu  에너지 li ha ya
-nit hu  그물 li ha ya
-nal hu  벌거-벗은 li ha ya
-sip hu  한모금 li ha ya
-nuy hu  새로운 li ha ya
-sit hu  세트 li ha ya
-fut hu  미래 li ha ya
-sim hu  비슷한 li ha ya
-san hu  자기 li ha ya
-saw hu  검정 li ha ya
-sik hu  신장 li ha ya
-sil hu  쉽게 li ha ya
-nul hu  널-(null) li ha ya
-sak hu  동의합니다 li ha ya
-suy hu  손실 li ha ya
-sap hu  단순한 li ha ya
-say hu  말 li ha ya
-sam hu  같은 li ha ya
-tim hu  팀 li ha ya
-tik hu  보유 li ha ya
-sat hu  소리 li ha ya
-sup hu  지불 li ha ya
-wap hu  꼬리 li ha ya
-tis hu  흡입 li ha ya
-sut hu  크기 li ha ya
-tiy hu  하루 li ha ya
-tiw hu  벽 li ha ya
-tip hu  시작 li ha ya
-tin hu  참조 li ha ya
-til hu  낮은 li ha ya
-tam hu  주제 li ha ya
-wul hu  큰 li ha ya
-tak hu  추가 li ha ya
-tuk hu  한잔 li ha ya
-tay hu  넣어 li ha ya
-tap hu  터치 li ha ya
-tal hu  넥타이 li ha ya
-tan hu  주기 li ha ya
-tas hu  선택 li ha ya
-tuy hu  반복 li ha ya
-tup hu  깊이 li ha ya
-tum hu  온도 li ha ya
-tuf hu  어려운 li ha ya
-ton hu  톤 li ha ya
-fin hu  여성 li ha ya
-fit hu  에-맞게 li ha ya
-tul hu  수단 li ha ya
-lif hu  좌회전 li ha ya
-lik hu  전기-요금 li ha ya
-lin hu  길이 li ha ya
-fam hu  가족 li ha ya
-ciy hu  녹색 li ha ya
-cif hu  분할 li ha ya
-nam hu  번호 li ha ya
-lis hu  살고있다 li ha ya
-cis hu  생활 li ha ya
-lit hu  글꼴 li ha ya
-cin hu  기호 li ha ya
-cay hu  권리 li ha ya
-cim hu  듣다 li ha ya
-myut hu  수입 li ha ya
-cum hu  모양 li ha ya
-myit hu  기억 li ha ya
-myil hu  동맹국 li ha ya
-cal hu  움직임 li ha ya
-cak hu  일 li ha ya
-myun hu  고용 li ha ya
-naw hu  현재 li ha ya
-can hu  기회 li ha ya
-kyim hu  경기 li ha ya
-mwut hu  저항 li ha ya
-myat hu  수학 li ha ya
-kyul hu  규칙 li ha ya
-kyup hu  그룹 li ha ya
-kyip hu  옷 li ha ya
-myan hu  부드러운 li ha ya
-kyam hu  수행 li ha ya
-kyit hu  각각의 li ha ya
-kwit hu  중량 li ha ya
-kyus hu  재미 li ha ya
-myul hu  도덕의 li ha ya
-myin hu  꿈 li ha ya
-kwat hu  강한 li ha ya
-kyap hu  복사 li ha ya
-kyil hu  원 li ha ya
-ksiy hu  전문가 li ha ya
-kyin hu  일반 li ha ya
-ksit hu  출구 li ha ya
-ksil hu  결정 li ha ya
-ksat hu  정확한 li ha ya
-kyat hu  단단한 li ha ya
-ksap hu  로프 li ha ya
-ksam hu  어두운 li ha ya
-ksip hu  액세스 li ha ya
-ksin hu  문맥 li ha ya
-ksal hu  은하 li ha ya
-kliy hu  명확한 li ha ya
-ksum hu  통신 li ha ya
-klac hu  외 li ha ya
-klim hu  과학 li ha ya
-kcat hu  여덟 li ha ya
-ksuf hu  설명 li ha ya
-ktin hu  종교 li ha ya
-pyik hu  단절 li ha ya
-ksan hu  조직 li ha ya
-pyit hu  네 li ha ya
-klum hu  기둥 li ha ya
-klin hu  전자 li ha ya
-klut hu  제외 li ha ya
-klun hu  굶주림 li ha ya
-kfit hu  효과 li ha ya
-ksut hu  수집 li ha ya
-pyaw hu  한-쌍 li ha ya
-ksul hu  학교 li ha ya
-kcil hu  숙련 li ha ya
-kfat hu  형용사 li ha ya
-klas hu  클래스 li ha ya
-kcut hu  엉망 li ha ya
-kcuf hu  충분히 li ha ya
-kcun hu  공액 li ha ya
-klat hu  절 li ha ya
-pyil hu  호소 li ha ya
-kcim hu  화학 li ha ya
-kfin hu  설정 li ha ya
-pyif hu  동사 li ha ya
-pyan hu  전파 li ha ya
-pyas hu  빠른 li ha ya
-pyin hu  경험 li ha ya
-pyam hu  프로그램 li ha ya
-pyat hu  신속한 li ha ya
-pyut hu  양성자 li ha ya
-pyum hu  대명사 li ha ya
-pyaf hu  수행 li ha ya
-pyal hu  평행 li ha ya
-pyun hu  새 li ha ya
-psil hu  주문 li ha ya
-pyac hu  경이 li ha ya
-pyul hu  종기 li ha ya
-pyuf hu  증명 li ha ya
-pwas hu  답변 li ha ya
-pwil hu  변수 li ha ya
-pwut hu  승인 li ha ya
-psin hu  회전 li ha ya
-psiy hu  압박 li ha ya
-psit hu  속도 li ha ya
-pyuc hu  계획 li ha ya
-psan hu  공간 li ha ya
-psun hu  출처 li ha ya
-psaf hu  대답 li ha ya
-psat hu  표면 li ha ya
-psal hu  돛 li ha ya
-nyip hu  거울 li ha ya
-psut hu  약속 li ha ya
-nyat hu  입력 li ha ya
-plum hu  문제 li ha ya
-plam hu  혈장 li ha ya
-plin hu  평면 li ha ya
-pluy hu  인기있는 li ha ya
-nyul hu  롤 li ha ya
-pfic hu  선호 li ha ya
-plun hu  아마 li ha ya
-plut hu  먼지 li ha ya
-syim hu  일곱 li ha ya
-pfal hu  실패 li ha ya
-pcum hu  기대 li ha ya
-syip hu  깨끗한 li ha ya
-pcit hu  감사 li ha ya
-pcil hu  특별한 li ha ya
-plan hu  계획 li ha ya
-plat hu  행성 li ha ya
-syan hu  시안 li ha ya
-pfus hu  버스 li ha ya
-syak hu  깨어 li ha ya
-swit hu  스위치 li ha ya
-play hu  놀이 li ha ya
-syiw hu  서브 li ha ya
-nlic hu  영어 li ha ya
-syic hu  연구 li ha ya
-syam hu  유지 li ha ya
-nyit hu  단위 li ha ya
-nyus hu  이온화하다 li ha ya
-slin hu  하나의 li ha ya
-nyut hu  중성자 li ha ya
-nyis hu  참고 li ha ya
-syat hu  고체 li ha ya
-tyik hu  부식 li ha ya
-syut hu  지원 li ha ya
-syun hu  우주 li ha ya
-swun hu  수면 li ha ya
-swat hu  물 li ha ya
-swuy hu  문제 li ha ya
-swil hu  영혼 li ha ya
-syit hu  보내 li ha ya
-slac hu  그릇된 li ha ya
-klaw hu  웃음 li ha ya
-slat hu  측면 li ha ya
-slof hu  어휘 li ha ya
-slam hu  승화하다 li ha ya
-tkun hu  중국어 li ha ya
-tyip hu  다시 li ha ya
-tyap hu  시험 li ha ya
-tyaw hu  생각 li ha ya
-tyim hu  떨다 li ha ya
-tyas hu  던져 li ha ya
-tyic hu  방향 li ha ya
-twis hu  참된 li ha ya
-tyus hu  경우 li ha ya
-tyif hu  번역 li ha ya
-tsuk hu  가게 li ha ya
-tyis hu  변화 li ha ya
-tsiy hu  이야기 li ha ya
-tsip hu  단계 li ha ya
-tyuk hu  대상 li ha ya
-tyuc hu  가르쳐 li ha ya
-tyuf hu  다른 li ha ya
-tyil hu  감기 li ha ya
-twal hu  환영 li ha ya
-twuf hu  두 li ha ya
-tyam hu  원자 li ha ya
-tyak hu  외침 li ha ya
-tyin hu  세 li ha ya
-tsil hu  자격 li ha ya
-tyan hu  현 li ha ya
-tyup hu  로봇 li ha ya
-tsiw hu  위성 li ha ya
-tsim hu  함께 li ha ya
-tsic hu  시도 li ha ya
-tsin hu  명령 li ha ya
-tsuy hu  앉아 li ha ya
-tsak hu  공격 li ha ya
-tsam hu  목적 li ha ya
-tsan hu  학생 li ha ya
-tsay hu  스타 li ha ya
-tsal hu  상태 li ha ya
-tsac hu  증가 li ha ya
-tsum hu  연구 li ha ya
-tlas hu  요리 li ha ya
-tsap hu  재산 li ha ya
-tsaf hu  미각 li ha ya
-tsun hu  명사 li ha ya
-tsul hu  성인 li ha ya
-tlak hu  구형 li ha ya
-tlay hu  겹 li ha ya
-tlis hu  욕구 li ha ya
-tcap hu  투명한 li ha ya
-tlum hu  늙은 li ha ya
-tlik hu  전기 li ha ya
-tlan hu  전통 li ha ya
-tlun hu  트리플-포인트 li ha ya
-tfim hu  일시적인 li ha ya
-tfan hu  이전 li ha ya
-tfas hu  재앙 li ha ya
-fwap hu  다섯 li ha ya
-tfun hu  신탁 li ha ya
-tfin hu  개인 li ha ya
-tfak hu  더러운 li ha ya
-tcan hu  나무 li ha ya
-tciy hu  변화 li ha ya
-flan hu  홍수 li ha ya
-flat hu  플랫 li ha ya
-tcik hu  점검 li ha ya
-tcil hu  교도소 li ha ya
-tcuk hu  비결 li ha ya
-tfus hu  손해 li ha ya
-tcum hu  가입 li ha ya
-fyis hu  offical-한 li ha ya
-tcin hu  체인 li ha ya
-fyut hu  과일 li ha ya
-tcuy hu  외부 li ha ya
-tcun hu  힘 li ha ya
-tfal hu  파일 li ha ya
-fwil hu  힘 li ha ya
-flay hu  파리 li ha ya
-fwas hu  상 li ha ya
-mink hu  마음 li ha ya
-fyas hu  구 li ha ya
-fluc hu  흐름 li ha ya
-flun hu  하십시오 li ha ya
-cyin hu  배우 li ha ya
-cyan hu  포함 li ha ya
-cwuy hu  주의 li ha ya
-flit hu  플루트 li ha ya
-clan hu  출발지 li ha ya
-clin hu  관계 li ha ya
-mayn hu  조화 li ha ya
-clum hu  문장 li ha ya
-mant hu  마젠타 li ha ya
-flut hu  꽃 li ha ya
-miyn hu  미성년자 li ha ya
-miyt hu  인식 li ha ya
-clut hu  초-임계-유체 li ha ya
-slim hu  모범 li ha ya
-mist hu  측정 li ha ya
-milt hu  용해 li ha ya
-musk hu  음악 li ha ya
-mayc hu  영상 li ha ya
-mank hu  뇌 li ha ya
-mayp hu  지도 li ha ya
-mayt hu  허수-단위 li ha ya
-mans hu  사람의 li ha ya
-malp hu  보수 li ha ya
-mast hu  문제 li ha ya
-kiyn hu  하나 li ha ya
-kint hu  개-심자 li ha ya
-miyk hu  보내 li ha ya
-muyn hu  바보 li ha ya
-muyp hu  개선 li ha ya
-muyk hu  주요한 li ha ya
-mint hu  방법 li ha ya
-must hu  가장 li ha ya
-munk hu  가능한 li ha ya
-munt hu  기분 li ha ya
-muyt hu  동맹국 li ha ya
-muft hu  주사위 li ha ya
-malt hu  자료 li ha ya
-mack hu  상상 li ha ya
-kiyp hu  종이 li ha ya
-kant hu  상수 li ha ya
-kasp hu  잡기 li ha ya
-kist hu  교체 li ha ya
-kast hu  생성 li ha ya
-mult hu  모듈 li ha ya
-kift hu  용서 li ha ya
-kisp hu  대표자 li ha ya
-kays hu  문법의-경우 li ha ya
-kayn hu  흐름의-현재 li ha ya
-kaws hu  가스 li ha ya
-kanp hu  연결 li ha ya
-tkic hu  번역,-사전 li ha ya
-kimt hu  걸림-새 li ha ya
-kump hu  복잡한 li ha ya
-kumt hu  명령 li ha ya
-yinp hu  반환 li ha ya
-yilk hu  황색 li ha ya
-kunp hu  종료 li ha ya
-kuym hu  공통의 li ha ya
-tlin hu  순서를-나타내는 li ha ya
-yawt hu  해 li ha ya
-kuyt hu  중요한-점 li ha ya
-kuls hu  잔인한 li ha ya
-kuct hu  범죄 li ha ya
-kusp hu  붕괴 li ha ya
-kust hu  상수 li ha ya
-kunt hu  제어 li ha ya
-yist hu  수출 li ha ya
-yisk hu  풍부한 li ha ya
-yimt hu  리듬 li ha ya
-yink hu  링 li ha ya
-kuwt hu  코드 li ha ya
-yamt hu  감탄 li ha ya
-yasp hu  작업 li ha ya
-yift hu  가치 li ha ya
-miwk hu  사람들 li ha ya
-yilt hu  오일러-번호 li ha ya
-yalt hu  일찍 li ha ya
-yask hu  반응 li ha ya
-yusk hu  동쪽 li ha ya
-yaft hu  열 li ha ya
-yumt hu  자비 li ha ya
-yuyp hu  유럽 li ha ya
-yuns hu  천왕성 li ha ya
-yunt hu  컨테이너 li ha ya
-yast hu  무료로 li ha ya
-yust hu  휴식 li ha ya
-kult hu  문화 li ha ya
-muys hu  감정 li ha ya
-piyn hu  ...라는-의견을-내-세우다 li ha ya
-pist hu  허가 li ha ya
-piyt hu  따라 li ha ya
-pint hu  운영 li ha ya
-yalk hu  차량 li ha ya
-piys hu  파이 li ha ya
-pamt hu  퍼머넌트 li ha ya
-yulp hu  역할 li ha ya
-pays hu  베이스 li ha ya
-yult hu  유틸리티 li ha ya
-pans hu  스페인어 li ha ya
-puyk hu  문법-객체 li ha ya
-puyt hu  깨물다 li ha ya
-past hu  생산 li ha ya
-puwt hu  제공 li ha ya
-panp hu  빵 li ha ya
-pusk hu  하중 li ha ya
-puls hu  키스 li ha ya
-pulk hu  다각형 li ha ya
-pult hu  병 li ha ya
-pust hu  우편 li ha ya
-nuys hu  잡음 li ha ya
-punt hu  포인트 li ha ya
-nuls hu  제로 li ha ya
-pant hu  대출 li ha ya
-niyk hu  가까이에 li ha ya
-niwt hu  네트워크 li ha ya
-siyt hu  제안 li ha ya
-nist hu  좋은 li ha ya
-nims hu  정령-신앙 li ha ya
-nift hu  구 li ha ya
-nict hu  출신 li ha ya
-sift hu  변화 li ha ya
-sayk hu  슬기로운 li ha ya
-pack hu  즐길-수 li ha ya
-numt hu  주의 li ha ya
-nayt hu  드문 li ha ya
-nilt hu  지성 li ha ya
-nast hu  관심 li ha ya
-nuyt hu  북 li ha ya
-nusp hu  잊지 li ha ya
-sanp hu  확장 li ha ya
-kamt hu  문법 li ha ya
-wuym hu  체적 li ha ya
-wins hu  금성 li ha ya
-tiyk hu  열 li ha ya
-sink hu  감소 li ha ya
-tiyn hu  계속 li ha ya
-silk hu  여섯 li ha ya
-siyn hu  것 li ha ya
-niyt hu  n-번째-루트 li ha ya
-sayp hu  공급 li ha ya
-sayn hu  저장 li ha ya
-wint hu  바람 li ha ya
-tiws hu  극장 li ha ya
-nuks hu  유닉스 li ha ya
-nust hu  통지 li ha ya
-salc hu  사회적인 li ha ya
-sact hu  사격 li ha ya
-sank hu  자주 li ha ya
-suyk hu  고통 li ha ya
-sumt hu  제목 li ha ya
-sunp hu  가정 li ha ya
-suyt hu  옳은 li ha ya
-nuft hu  적의 li ha ya
-sucp hu  배우자 li ha ya
-sunt hu  남쪽 li ha ya
-sark hu  풍자 li ha ya
-sulc hu  해결 li ha ya
-tiym hu  늦게 li ha ya
-sant hu  예술 li ha ya
-sayt hu  광속의 li ha ya
-nalt hu  자연 li ha ya
-tiyf hu  드라이브 li ha ya
-tawk hu  권위 li ha ya
-tins hu  밀집한 li ha ya
-tiys hu  거리 li ha ya
-yimk hu  질문 li ha ya
-tuym hu  세계 li ha ya
-ticp hu  거의 li ha ya
-tink hu  본문 li ha ya
-tinp hu  황금-비율 li ha ya
-tisk hu  본문 li ha ya
-tuwm hu  지속 li ha ya
-tayf hu  제공 li ha ya
-tisp hu  대표 li ha ya
-tayk hu  첨부 li ha ya
-tamk hu  보기 li ha ya
-liys hu  자유 li ha ya
-tank hu  갑자기 li ha ya
-talk hu  이야기 li ha ya
-task hu  태스크 li ha ya
-talf hu  숨기기 li ha ya
-taym hu  시간 li ha ya
-talp hu  테이블 li ha ya
-lisk hu  휴가 li ha ya
-tuyk hu  의사 li ha ya
-tuyn hu  회전 li ha ya
-tasp hu  데이터베이스 li ha ya
-tuyc hu  파괴 li ha ya
-tuys hu  도둑 li ha ya
+puk hu 나쁜 li ha ya
+win hu 승리 li ha ya
+put hu 판매 li ha ya
+wik hu 주 li ha ya
+pul hu 푸른 li ha ya
+wit hu 수평 li ha ya
+puc hu 빈 li ha ya
+pan hu 모임 li ha ya
+pac hu 즐거움 li ha ya
+wan hu 러브 li ha ya
+nik hu 아직 li ha ya
+wut hu 빛 li ha ya
+nip hu 없이 li ha ya
+niy hu 필요가있다 li ha ya
+puy hu 어린이 li ha ya
+wat hu 이야기 li ha ya
+nay hu 숨을-내쉬다 li ha ya
+nim hu 이름 li ha ya
+nas hu 형제 li ha ya
+nat hu 밤 li ha ya
+nut hu 양극 li ha ya
+nic hu 에너지 li ha ya
+nit hu 그물 li ha ya
+nal hu 벌거-벗은 li ha ya
+sip hu 한모금 li ha ya
+nuy hu 새로운 li ha ya
+sit hu 세트 li ha ya
+fut hu 미래 li ha ya
+sim hu 비슷한 li ha ya
+san hu 자기 li ha ya
+saw hu 검정 li ha ya
+sik hu 신장 li ha ya
+sil hu 쉽게 li ha ya
+nul hu 널-(null) li ha ya
+sak hu 동의합니다 li ha ya
+suy hu 손실 li ha ya
+saf hu 공간 li ha ya
+suk hu 빨다 li ha ya
+sap hu 단순한 li ha ya
+say hu 말 li ha ya
+sun hu 개인적인 li ha ya
+sam hu 같은 li ha ya
+tim hu 팀 li ha ya
+tik hu 보유 li ha ya
+sat hu 소리 li ha ya
+sup hu 지불 li ha ya
+wap hu 꼬리 li ha ya
+tis hu 흡입 li ha ya
+sut hu 크기 li ha ya
+tiy hu 하루 li ha ya
+tiw hu 벽 li ha ya
+tip hu 시작 li ha ya
+tin hu 참조 li ha ya
+til hu 낮은 li ha ya
+taw hu 통하다 li ha ya
+tam hu 주제 li ha ya
+wul hu 큰 li ha ya
+tak hu 추가 li ha ya
+tac hu 이하 li ha ya
+tuk hu 한잔 li ha ya
+tay hu 넣어 li ha ya
+tap hu 터치 li ha ya
+tal hu 넥타이 li ha ya
+tun hu 하위 li ha ya
+tus hu 결과 li ha ya
+tan hu 주기 li ha ya
+tas hu 선택 li ha ya
+tuc hu 장난감 li ha ya
+tuy hu 반복 li ha ya
+tup hu 깊이 li ha ya
+tum hu 온도 li ha ya
+tuf hu 어려운 li ha ya
+ton hu 톤 li ha ya
+lat hu 종료 li ha ya
+lac hu 사랑 li ha ya
+fin hu 여성 li ha ya
+fit hu 에-맞게 li ha ya
+tul hu 수단 li ha ya
+fas hu  우연히 undefined ha ya
+fuy hu 위의 li ha ya
+lif hu 좌회전 li ha ya
+lik hu 전기-요금 li ha ya
+cik hu 움직임 li ha ya
+lin hu 길이 li ha ya
+fam hu 가족 li ha ya
+ciy hu 녹색 li ha ya
+cit hu  절대로 필요한 undefined ha ya
+cif hu 분할 li ha ya
+cam hu 집 li ha ya
+nam hu 번호 li ha ya
+lis hu 살고있다 li ha ya
+cis hu 생활 li ha ya
+cat hu 히트 li ha ya
+lit hu 글꼴 li ha ya
+cus hu 표시 li ha ya
+cin hu 기호 li ha ya
+cay hu 권리 li ha ya
+cim hu 듣다 li ha ya
+myut hu 수입 li ha ya
+cum hu 모양 li ha ya
+myal hu 값 li ha ya
+myac hu 투기 li ha ya
+myit hu 기억 li ha ya
+myil hu 동맹국 li ha ya
+cal hu 움직임 li ha ya
+myuf hu 반대 li ha ya
+mwis hu 평균 li ha ya
+mwit hu 회원 li ha ya
+mwas hu 젖은 li ha ya
+mwat hu 물질 li ha ya
+cak hu 일 li ha ya
+myun hu 고용 li ha ya
+naw hu 현재 li ha ya
+can hu 기회 li ha ya
+kyis hu 보다 li ha ya
+kyim hu 경기 li ha ya
+mwut hu 저항 li ha ya
+kyic hu 법인 li ha ya
+myat hu 수학 li ha ya
+kyas hu  에 - undefined ha ya
+kyul hu 규칙 li ha ya
+kyac hu  비상 undefined ha ya
+kyup hu 그룹 li ha ya
+kyip hu 옷 li ha ya
+myan hu 부드러운 li ha ya
+kyuc hu 변명 li ha ya
+kyam hu 수행 li ha ya
+kwic hu 마을 li ha ya
+kwam hu  단위 의 undefined ha ya
+kyit hu 각각의 li ha ya
+kwul hu 요구 li ha ya
+ksim hu  배고 undefined ha ya
+kwit hu 중량 li ha ya
+kyus hu 재미 li ha ya
+myul hu 도덕의 li ha ya
+myin hu 꿈 li ha ya
+kwat hu 강한 li ha ya
+ksic hu 경쟁 li ha ya
+kyap hu 복사 li ha ya
+ksay hu 텔 li ha ya
+kyil hu 원 li ha ya
+ksiy hu 전문가 li ha ya
+kyin hu 일반 li ha ya
+ksit hu 출구 li ha ya
+ksaf hu 사고 li ha ya
+ksac hu 운동 li ha ya
+ksil hu 결정 li ha ya
+ksuy hu 이상한 li ha ya
+ksup hu 간결한 li ha ya
+ksun hu 계약 li ha ya
+ksat hu 정확한 li ha ya
+kyat hu 단단한 li ha ya
+ksap hu 로프 li ha ya
+ksuc hu 가을 li ha ya
+ksam hu 어두운 li ha ya
+ksip hu 액세스 li ha ya
+ksin hu 문맥 li ha ya
+klic hu 키 li ha ya
+klam hu 노동 li ha ya
+klay hu  울음 undefined ha ya
+klap hu 박수 li ha ya
+ksal hu 은하 li ha ya
+klan hu 식민지 li ha ya
+kliy hu 명확한 li ha ya
+ksum hu 통신 li ha ya
+klaf hu 청구 li ha ya
+klac hu 외 li ha ya
+klim hu 과학 li ha ya
+klup hu 글로벌 li ha ya
+kcat hu 여덟 li ha ya
+klus hu 변기 li ha ya
+ksuf hu 설명 li ha ya
+kluc hu 범죄 li ha ya
+ktin hu 종교 li ha ya
+pyik hu 단절 li ha ya
+kfan hu 확인 li ha ya
+kfas hu 분수 li ha ya
+ksan hu 조직 li ha ya
+kfac hu 귀 li ha ya
+kfup hu 컵 li ha ya
+kfun hu 회의 li ha ya
+kfus hu 설명 li ha ya
+pyit hu 네 li ha ya
+kcin hu 에이전트 li ha ya
+klum hu 기둥 li ha ya
+kcam hu 견적 li ha ya
+kcay hu 치료법 li ha ya
+kcap hu 차지하다 li ha ya
+kcan hu 사냥 li ha ya
+kcas hu 비용 li ha ya
+klin hu 전자 li ha ya
+kcal hu 찬장 li ha ya
+kcaf hu 탈출 li ha ya
+kcum hu 위원회 li ha ya
+klut hu 제외 li ha ya
+klun hu 굶주림 li ha ya
+kcul hu 껍질 li ha ya
+kfit hu 효과 li ha ya
+ksut hu 수집 li ha ya
+pyaw hu 한-쌍 li ha ya
+pyis hu 예측 li ha ya
+ksul hu 학교 li ha ya
+kcil hu 숙련 li ha ya
+kfat hu 형용사 li ha ya
+pyic hu 평화 li ha ya
+klas hu 클래스 li ha ya
+pyak hu 연습 li ha ya
+kcut hu 엉망 li ha ya
+kcuf hu 충분히 li ha ya
+kcun hu 공액 li ha ya
+klat hu 절 li ha ya
+pyil hu 호소 li ha ya
+kcim hu 화학 li ha ya
+kfin hu 설정 li ha ya
+pyif hu 동사 li ha ya
+pyuk hu 게시 li ha ya
+pyan hu 전파 li ha ya
+pyus hu 방법 li ha ya
+pyas hu 빠른 li ha ya
+pyin hu 경험 li ha ya
+pyam hu 프로그램 li ha ya
+pyat hu 신속한 li ha ya
+pwit hu 믿다 li ha ya
+pyut hu 양성자 li ha ya
+pway hu 떨어져 li ha ya
+pwan hu 파이프 li ha ya
+pyum hu 대명사 li ha ya
+pwus hu 존재 li ha ya
+pyaf hu 수행 li ha ya
+psim hu 역 li ha ya
+psik hu 차별 li ha ya
+pyal hu 평행 li ha ya
+pyun hu 새 li ha ya
+psil hu 주문 li ha ya
+pyac hu 경이 li ha ya
+psif hu 칭찬 li ha ya
+psic hu 페이지 li ha ya
+psam hu 준비 li ha ya
+psak hu 침 li ha ya
+pyul hu 종기 li ha ya
+pyuf hu 증명 li ha ya
+pwas hu 답변 li ha ya
+pwil hu 변수 li ha ya
+psac hu 상 li ha ya
+psuy hu 항의 li ha ya
+pwut hu 승인 li ha ya
+psin hu 회전 li ha ya
+psuf hu 유방 li ha ya
+psuc hu 식 li ha ya
+psiy hu 압박 li ha ya
+plic hu 입자 li ha ya
+psit hu 속도 li ha ya
+pyuc hu 계획 li ha ya
+psan hu 공간 li ha ya
+psun hu 출처 li ha ya
+psaf hu 대답 li ha ya
+psat hu 표면 li ha ya
+pluk hu 플러그 li ha ya
+psal hu 돛 li ha ya
+nyip hu 거울 li ha ya
+psut hu 약속 li ha ya
+pfim hu 직업 li ha ya
+pfiy hu 굴다 li ha ya
+pfin hu 지느러미 li ha ya
+pfit hu 기간 li ha ya
+nyat hu 입력 li ha ya
+pfam hu 부모 li ha ya
+pfan hu 묻다 li ha ya
+plum hu 문제 li ha ya
+pfum hu 많은 li ha ya
+pfun hu 열린 li ha ya
+plam hu 혈장 li ha ya
+pcin hu 돈 li ha ya
+pcis hu 사업 li ha ya
+plin hu 평면 li ha ya
+pluy hu 인기있는 li ha ya
+pcay hu 시간표 li ha ya
+pcan hu 교환 li ha ya
+pcas hu  앞발로 땅을 undefined ha ya
+pcat hu 보내다 li ha ya
+pcal hu 도약 li ha ya
+nyul hu 롤 li ha ya
+pcun hu 사람 li ha ya
+pcus hu 바지 li ha ya
+pcut hu 다리 li ha ya
+pcuf hu 눈썹 li ha ya
+pfic hu 선호 li ha ya
+plun hu 아마 li ha ya
+plut hu 먼지 li ha ya
+nyas hu  일어나 undefined ha ya
+syim hu 일곱 li ha ya
+nyal hu 손톱 li ha ya
+nyup hu 초대 li ha ya
+pfal hu 실패 li ha ya
+pcum hu 기대 li ha ya
+syip hu 깨끗한 li ha ya
+nwat hu 동등한 li ha ya
+pcit hu 감사 li ha ya
+syik hu 고약한 li ha ya
+pcil hu 특별한 li ha ya
+plan hu 계획 li ha ya
+plat hu 행성 li ha ya
+syil hu 세포 li ha ya
+syif hu 비축 li ha ya
+syan hu 시안 li ha ya
+pfus hu 버스 li ha ya
+syak hu 깨어 li ha ya
+syap hu 주문 li ha ya
+swit hu 스위치 li ha ya
+play hu 놀이 li ha ya
+syuk hu 엄격한 li ha ya
+syup hu  문지르 undefined ha ya
+syiw hu 서브 li ha ya
+nlic hu 영어 li ha ya
+syic hu 연구 li ha ya
+syam hu 유지 li ha ya
+swic hu 의식이있는 li ha ya
+nyit hu 단위 li ha ya
+swal hu 같은 li ha ya
+swum hu 설득 li ha ya
+nyus hu 이온화하다 li ha ya
+slin hu 하나의 li ha ya
+nyut hu 중성자 li ha ya
+slik hu 단일 li ha ya
+sliy hu 속가 li ha ya
+slip hu 항상 li ha ya
+nyis hu 참고 li ha ya
+slit hu  로 undefined ha ya
+slif hu 워드 li ha ya
+slic hu 계단 li ha ya
+syat hu 고체 li ha ya
+slan hu 들리다 li ha ya
+tyik hu 부식 li ha ya
+syut hu 지원 li ha ya
+slun hu 혼자 li ha ya
+sluf hu 따르다 li ha ya
+syun hu 우주 li ha ya
+swun hu 수면 li ha ya
+swat hu 물 li ha ya
+swuy hu 문제 li ha ya
+swil hu 영혼 li ha ya
+syit hu 보내 li ha ya
+slac hu 그릇된 li ha ya
+klaw hu 웃음 li ha ya
+slat hu 측면 li ha ya
+slof hu 어휘 li ha ya
+slam hu 승화하다 li ha ya
+tkun hu 중국어 li ha ya
+tyip hu 다시 li ha ya
+tyap hu 시험 li ha ya
+tyal hu 정의 li ha ya
+tyaf hu 가하다 li ha ya
+tyac hu 참석 li ha ya
+tyum hu 전이 li ha ya
+tyaw hu 생각 li ha ya
+tyim hu 떨다 li ha ya
+tyun hu 다른 li ha ya
+tyas hu 던져 li ha ya
+tyic hu 방향 li ha ya
+twis hu 참된 li ha ya
+tyus hu 경우 li ha ya
+tway hu 문 li ha ya
+tyif hu 번역 li ha ya
+twuy hu 출입구 li ha ya
+tsuk hu 가게 li ha ya
+tyis hu 변화 li ha ya
+tsik hu 세 li ha ya
+tsiy hu 이야기 li ha ya
+tsip hu 단계 li ha ya
+tyuk hu 대상 li ha ya
+tyuc hu 가르쳐 li ha ya
+tyuf hu 다른 li ha ya
+tyil hu 감기 li ha ya
+twal hu 환영 li ha ya
+twuf hu 두 li ha ya
+tyam hu 원자 li ha ya
+tyak hu 외침 li ha ya
+tyin hu 세 li ha ya
+tsil hu 자격 li ha ya
+tyan hu 현 li ha ya
+tyup hu 로봇 li ha ya
+tsiw hu 위성 li ha ya
+tsim hu 함께 li ha ya
+tsup hu 그만 li ha ya
+tsic hu 시도 li ha ya
+tsin hu 명령 li ha ya
+tsuy hu 앉아 li ha ya
+tsak hu 공격 li ha ya
+tsam hu 목적 li ha ya
+tlic hu 낙 li ha ya
+tlam hu 있다 li ha ya
+tsan hu 학생 li ha ya
+tsay hu 스타 li ha ya
+tlap hu 치료 li ha ya
+tsal hu 상태 li ha ya
+tsac hu 증가 li ha ya
+tlaf hu 만 li ha ya
+tsum hu 연구 li ha ya
+tlas hu 요리 li ha ya
+tfik hu 교통 li ha ya
+tsap hu 재산 li ha ya
+tfis hu 차 li ha ya
+tfam hu 밝히다 li ha ya
+tsaf hu 미각 li ha ya
+tsun hu 명사 li ha ya
+tsul hu 성인 li ha ya
+tlak hu 구형 li ha ya
+tfum hu 친구 li ha ya
+tlay hu 겹 li ha ya
+tlis hu 욕구 li ha ya
+tcim hu 치수 li ha ya
+tcap hu 투명한 li ha ya
+tlum hu 늙은 li ha ya
+tlik hu 전기 li ha ya
+tlan hu 전통 li ha ya
+tcam hu 씹다 li ha ya
+tcak hu 말하다 li ha ya
+tcay hu 태도 li ha ya
+tlun hu 트리플-포인트 li ha ya
+tfim hu 일시적인 li ha ya
+tcal hu 잡담 li ha ya
+tfan hu 이전 li ha ya
+tfas hu 재앙 li ha ya
+fwap hu 다섯 li ha ya
+tcup hu 하락 li ha ya
+tcuw hu 외부 li ha ya
+tfun hu 신탁 li ha ya
+tcul hu 표제 li ha ya
+fyim hu 즉시 li ha ya
+tfin hu 개인 li ha ya
+fyit hu 전면 li ha ya
+fyil hu 쾌적한 li ha ya
+fyam hu 명성 li ha ya
+fyaw hu 부사 li ha ya
+fyan hu  세상에 undefined ha ya
+tfak hu 더러운 li ha ya
+fyat hu 새기다 li ha ya
+fyum hu 개정 li ha ya
+fyun hu 경고 li ha ya
+tcan hu 나무 li ha ya
+fwis hu 종류 li ha ya
+tciy hu 변화 li ha ya
+fway hu 종류 li ha ya
+flan hu 홍수 li ha ya
+flat hu 플랫 li ha ya
+flim hu  금속 undefined ha ya
+flin hu 영향 li ha ya
+tcik hu 점검 li ha ya
+tcil hu 교도소 li ha ya
+tcuk hu 비결 li ha ya
+tfus hu 손해 li ha ya
+fluk hu 꽃 li ha ya
+flup hu 바닥 li ha ya
+tcum hu 가입 li ha ya
+fyis hu offical-한 li ha ya
+tcin hu 체인 li ha ya
+cyik hu 몫 li ha ya
+cyip hu 뉴스 li ha ya
+fyut hu 과일 li ha ya
+cyis hu  가로 undefined ha ya
+cyit hu 이 li ha ya
+cyif hu 분명한 li ha ya
+cyam hu 돌쩌귀 li ha ya
+cyap hu 분기 li ha ya
+tcuy hu 외부 li ha ya
+cyas hu 캐릭터 li ha ya
+cyat hu 위험 li ha ya
+cyal hu 선반 li ha ya
+cyaf hu 창틀 li ha ya
+cyum hu 방 li ha ya
+cyut hu 조건 li ha ya
+cwif hu 받다 li ha ya
+cwam hu 저녁 li ha ya
+cwan hu 질 li ha ya
+cwal hu 제비 li ha ya
+tcun hu 힘 li ha ya
+tfal hu 파일 li ha ya
+clak hu 발목 li ha ya
+fwil hu 힘 li ha ya
+clas hu 홀 li ha ya
+flay hu 파리 li ha ya
+clun hu 무릎 li ha ya
+fwas hu 상 li ha ya
+mink hu 마음 li ha ya
+fyas hu 구 li ha ya
+miwt hu 죽음 li ha ya
+fluc hu 흐름 li ha ya
+minp hu 중에서 li ha ya
+flun hu 하십시오 li ha ya
+misp hu 용의자 li ha ya
+cyin hu 배우 li ha ya
+mils hu 군 li ha ya
+cyan hu 포함 li ha ya
+milc hu 빨래 li ha ya
+mift hu 방법 li ha ya
+mict hu 언급 li ha ya
+mayk hu 표 li ha ya
+cwuy hu 주의 li ha ya
+flit hu 플루트 li ha ya
+mays hu 경계 li ha ya
+clan hu 출발지 li ha ya
+clin hu 관계 li ha ya
+mayn hu 조화 li ha ya
+clum hu 문장 li ha ya
+mask hu 마스크 li ha ya
+masp hu 귀찮음 li ha ya
+mant hu 마젠타 li ha ya
+malk hu 광고 li ha ya
+flut hu 꽃 li ha ya
+miyn hu 미성년자 li ha ya
+malf hu 기름 li ha ya
+malc hu 유감 li ha ya
+maft hu 들이다 li ha ya
+miyt hu 인식 li ha ya
+clut hu 초-임계-유체 li ha ya
+slim hu 모범 li ha ya
+mist hu 측정 li ha ya
+milt hu 용해 li ha ya
+musk hu 음악 li ha ya
+muwt hu 입 li ha ya
+mayc hu 영상 li ha ya
+mank hu 뇌 li ha ya
+mayp hu 지도 li ha ya
+musp hu 손목 li ha ya
+mayt hu 허수-단위 li ha ya
+mans hu 사람의 li ha ya
+malp hu 보수 li ha ya
+muct hu 중대한 li ha ya
+mast hu 문제 li ha ya
+kiyn hu 하나 li ha ya
+kint hu 개-심자 li ha ya
+miyk hu 보내 li ha ya
+muyn hu 바보 li ha ya
+muyp hu 개선 li ha ya
+muyk hu 주요한 li ha ya
+kict hu 넘다 li ha ya
+kamp hu 캠프 li ha ya
+mint hu 방법 li ha ya
+kaym hu 모으다 li ha ya
+kayp hu 가장자리 li ha ya
+must hu 가장 li ha ya
+munk hu 가능한 li ha ya
+kayt hu 카드 li ha ya
+kawp hu 덮개 li ha ya
+kawn hu  다루는 undefined ha ya
+munt hu 기분 li ha ya
+kawt hu 침대 li ha ya
+muyt hu 동맹국 li ha ya
+muft hu 주사위 li ha ya
+malt hu 자료 li ha ya
+mack hu 상상 li ha ya
+kalp hu 케이블 li ha ya
+kals hu 은하 li ha ya
+kalc hu 불평 li ha ya
+kafp hu 동의 li ha ya
+kaft hu 유효한 li ha ya
+kact hu 뜨거운 li ha ya
+kiyp hu 종이 li ha ya
+kant hu 상수 li ha ya
+kasp hu 잡기 li ha ya
+kuyp hu 부 li ha ya
+kist hu 교체 li ha ya
+kast hu 생성 li ha ya
+mult hu 모듈 li ha ya
+kift hu 용서 li ha ya
+kisp hu 대표자 li ha ya
+kulp hu  갈고리 undefined ha ya
+kays hu 문법의-경우 li ha ya
+kayn hu 흐름의-현재 li ha ya
+kulc hu 숟가락 li ha ya
+kufp hu  다시 undefined ha ya
+kuft hu 코트 li ha ya
+kucp hu 피부 li ha ya
+kaws hu 가스 li ha ya
+kanp hu 연결 li ha ya
+yiwt hu 반란 li ha ya
+tkic hu 번역,-사전 li ha ya
+kimt hu 걸림-새 li ha ya
+yint hu 오늘 li ha ya
+kump hu 복잡한 li ha ya
+yisp hu 수출 li ha ya
+kumt hu 명령 li ha ya
+yinp hu 반환 li ha ya
+yils hu 나이 li ha ya
+yilk hu 황색 li ha ya
+yilc hu 이미 li ha ya
+yifk hu 풍부한 li ha ya
+kunp hu 종료 li ha ya
+yict hu  받지 undefined ha ya
+kuym hu 공통의 li ha ya
+tlin hu 순서를-나타내는 li ha ya
+yank hu 록 li ha ya
+yanp hu 보통주 li ha ya
+yant hu 임대 li ha ya
+yawt hu 해 li ha ya
+kuyt hu 중요한-점 li ha ya
+kuls hu 잔인한 li ha ya
+kuct hu 범죄 li ha ya
+kusp hu 붕괴 li ha ya
+yalf hu 여행 li ha ya
+yafk hu 반응 li ha ya
+kust hu 상수 li ha ya
+yact hu 정액 li ha ya
+yumk hu 공적인 li ha ya
+kunt hu 제어 li ha ya
+yunk hu 기차 li ha ya
+yist hu 수출 li ha ya
+yisk hu 풍부한 li ha ya
+yusp hu 롭 li ha ya
+yimt hu 리듬 li ha ya
+yink hu 링 li ha ya
+kuwt hu 코드 li ha ya
+yulf hu 유능한 li ha ya
+yuck hu 뿌리 li ha ya
+yuct hu 말하다 li ha ya
+pimt hu 붙잡다 li ha ya
+piyk hu 실험 li ha ya
+yamt hu 감탄 li ha ya
+yasp hu 작업 li ha ya
+yift hu 가치 li ha ya
+miwk hu 사람들 li ha ya
+pisk hu 음경 li ha ya
+yilt hu 오일러-번호 li ha ya
+pilt hu 티켓 li ha ya
+pict hu 해충 li ha ya
+pamk hu 신속한 li ha ya
+yalt hu 일찍 li ha ya
+paym hu 포트 li ha ya
+payn hu 반 li ha ya
+yask hu 반응 li ha ya
+payt hu 깨물다 li ha ya
+payc hu 가격 li ha ya
+pank hu 덫 li ha ya
+yusk hu 동쪽 li ha ya
+pask hu 가방 li ha ya
+yaft hu 열 li ha ya
+palk hu 뒤로 li ha ya
+pals hu 터지다 li ha ya
+palt hu 정치 li ha ya
+yumt hu 자비 li ha ya
+pact hu 부품 li ha ya
+pumt hu 배 li ha ya
+puym hu 채이기 li ha ya
+yuyp hu 유럽 li ha ya
+puyn hu 바닥 li ha ya
+puys hu 십자가 li ha ya
+yuns hu 천왕성 li ha ya
+puyc hu 붓다 li ha ya
+yunt hu 컨테이너 li ha ya
+punk hu 다리 li ha ya
+yast hu 무료로 li ha ya
+yust hu 휴식 li ha ya
+kult hu 문화 li ha ya
+muys hu 감정 li ha ya
+piyn hu ...라는-의견을-내-세우다 li ha ya
+pist hu 허가 li ha ya
+pulf hu 눈꺼풀 li ha ya
+piyt hu 따라 li ha ya
+wist hu 사다 li ha ya
+ways hu 얼굴 li ha ya
+wayt hu 철사 li ha ya
+wank hu 사발 li ha ya
+wasp hu 옷 li ha ya
+walk hu 웨이브 li ha ya
+pint hu 운영 li ha ya
+wuyt hu 투표 li ha ya
+wunk hu 팔꿈치 li ha ya
+wulp hu 늑골 li ha ya
+wuls hu 책임 li ha ya
+wult hu 늙은 li ha ya
+nimt hu 비금속 li ha ya
+yalk hu 차량 li ha ya
+niyp hu 기피 li ha ya
+piys hu 파이 li ha ya
+niws hu 코 li ha ya
+pamt hu 퍼머넌트 li ha ya
+nisk hu 성분 li ha ya
+nisp hu 원리 li ha ya
+yulp hu 역할 li ha ya
+nilk hu 핵 li ha ya
+pays hu 베이스 li ha ya
+yult hu 유틸리티 li ha ya
+nick hu 적나라한 li ha ya
+pans hu 스페인어 li ha ya
+namt hu 정하다 li ha ya
+naym hu 표준 li ha ya
+nayk hu 거부 li ha ya
+nays hu 조직 li ha ya
+puyk hu 문법-객체 li ha ya
+nayc hu 민족 li ha ya
+nask hu 관심 li ha ya
+nasp hu 수송 li ha ya
+puyt hu 깨물다 li ha ya
+nals hu 접촉 li ha ya
+past hu 생산 li ha ya
+nafk hu 창문 li ha ya
+naft hu 인공 li ha ya
+nack hu 검사 li ha ya
+nact hu 방해 li ha ya
+numk hu 경제 li ha ya
+puwt hu 제공 li ha ya
+nuym hu 알리다 li ha ya
+panp hu 빵 li ha ya
+pusk hu 하중 li ha ya
+nusk hu 항문 li ha ya
+puls hu 키스 li ha ya
+pulk hu 다각형 li ha ya
+nulk hu 목 li ha ya
+nulp hu 고귀한 li ha ya
+pult hu 병 li ha ya
+nult hu 출생 li ha ya
+pust hu 우편 li ha ya
+nuck hu 못 li ha ya
+simk hu 일초 li ha ya
+simp hu 씨 li ha ya
+simt hu 체계 li ha ya
+siym hu 개요 li ha ya
+siyk hu 비밀 li ha ya
+siyp hu 정확한 li ha ya
+nuys hu 잡음 li ha ya
+punt hu 포인트 li ha ya
+siyc hu 시리즈 li ha ya
+siwc hu 상태 li ha ya
+nuls hu 제로 li ha ya
+sinp hu 나타나다 li ha ya
+pant hu 대출 li ha ya
+niyk hu 가까이에 li ha ya
+silt hu 정착 li ha ya
+silf hu  일반 undefined ha ya
+sifk hu 결핍 li ha ya
+sifp hu 위치 li ha ya
+niwt hu 네트워크 li ha ya
+sick hu 섹스 li ha ya
+sict hu 슬퍼 li ha ya
+samk hu 눈 li ha ya
+samt hu 시간 li ha ya
+saym hu 뻗기 li ha ya
+siyt hu 제안 li ha ya
+nist hu 좋은 li ha ya
+nims hu 정령-신앙 li ha ya
+nift hu 구 li ha ya
+sayf hu 희생 li ha ya
+sayc hu 파다 li ha ya
+nict hu 출신 li ha ya
+sift hu 변화 li ha ya
+sayk hu 슬기로운 li ha ya
+salk hu 죽이다 li ha ya
+salp hu 여분 li ha ya
+salt hu 소금 li ha ya
+salf hu 건강 li ha ya
+pack hu 즐길-수 li ha ya
+saft hu 안전 li ha ya
+sack hu 어스름 li ha ya
+sacp hu 벌하다 li ha ya
+numt hu 주의 li ha ya
+sumk hu 성공 li ha ya
+sump hu 아침 li ha ya
+nayt hu 드문 li ha ya
+nilt hu 지성 li ha ya
+suyp hu 없애다 li ha ya
+suyn hu 구조 li ha ya
+nast hu 관심 li ha ya
+sunk hu 트렁크 li ha ya
+nuyt hu 북 li ha ya
+nusp hu 잊지 li ha ya
+sult hu 병사 li ha ya
+sanp hu 확장 li ha ya
+sufk hu 등뼈 li ha ya
+suft hu 신성한 li ha ya
+suck hu 소켓 li ha ya
+kamt hu 문법 li ha ya
+timk hu 문법 li ha ya
+wuym hu 체적 li ha ya
+wins hu 금성 li ha ya
+tiyp hu 유형 li ha ya
+tiyk hu 열 li ha ya
+sink hu 감소 li ha ya
+tiyn hu 계속 li ha ya
+tiyc hu 지연 li ha ya
+silk hu 여섯 li ha ya
+siyn hu 것 li ha ya
+niyt hu n-번째-루트 li ha ya
+sayp hu 공급 li ha ya
+sayn hu 저장 li ha ya
+wint hu 바람 li ha ya
+tilk hu 상표 li ha ya
+tilc hu  과학 undefined ha ya
+tifk hu 활동 li ha ya
+tiws hu 극장 li ha ya
+nuks hu 유닉스 li ha ya
+nust hu 통지 li ha ya
+tamp hu 토론 li ha ya
+salc hu 사회적인 li ha ya
+sact hu 사격 li ha ya
+tayp hu 상단 li ha ya
+sank hu 자주 li ha ya
+tays hu 대 li ha ya
+suyk hu 고통 li ha ya
+tayc hu 정도 li ha ya
+sumt hu 제목 li ha ya
+sunp hu 가정 li ha ya
+suyt hu 옳은 li ha ya
+nuft hu 적의 li ha ya
+sucp hu 배우자 li ha ya
+sunt hu 남쪽 li ha ya
+sark hu 풍자 li ha ya
+tals hu 체하다 li ha ya
+sulc hu 해결 li ha ya
+talc hu 자격을 li ha ya
+tafp hu 지키다 li ha ya
+tiym hu 늦게 li ha ya
+tacp hu  즐기며 undefined ha ya
+tumk hu 토하다 li ha ya
+tump hu 신전 li ha ya
+sant hu 예술 li ha ya
+sayt hu 광속의 li ha ya
+tuyp hu 원기 li ha ya
+nalt hu 자연 li ha ya
+tiyf hu 드라이브 li ha ya
+tawk hu 권위 li ha ya
+tins hu 밀집한 li ha ya
+tuwk hu 의무 li ha ya
+tuwn hu 음정 li ha ya
+tiys hu 거리 li ha ya
+tunp hu  개조 undefined ha ya
+yimk hu 질문 li ha ya
+tusp hu 거트 li ha ya
+tulk hu 합계 li ha ya
+tulp hu 고통 li ha ya
+tufk hu 목적 li ha ya
+tuck hu 사전 li ha ya
+limk hu 완전한 li ha ya
+limt hu 한도 li ha ya
+tuym hu 세계 li ha ya
+ticp hu 거의 li ha ya
+tink hu 본문 li ha ya
+tinp hu 황금-비율 li ha ya
+tisk hu 본문 li ha ya
+tuwm hu 지속 li ha ya
+tayf hu 제공 li ha ya
+tisp hu 대표 li ha ya
+linp hu 길이 li ha ya
+tayk hu 첨부 li ha ya
+tamk hu 보기 li ha ya
+liys hu 자유 li ha ya
+lifk hu 해제 li ha ya
+lick hu 강의 li ha ya
+licp hu 잎 li ha ya
+lict hu 선택된 li ha ya
+lamk hu 법률 li ha ya
+lamt hu  노동 조합 undefined ha ya
+tank hu 갑자기 li ha ya
+talk hu 이야기 li ha ya
+layc hu 문학 li ha ya
+laws hu 게으른 li ha ya
+task hu 태스크 li ha ya
+talf hu 숨기기 li ha ya
+lask hu 긁다 li ha ya
+lasp hu 싸움 li ha ya
+taym hu 시간 li ha ya
+talp hu 테이블 li ha ya
+lisk hu 휴가 li ha ya
+lumt hu 멜로디 li ha ya
+tuyk hu 의사 li ha ya
+tuyn hu 회전 li ha ya
+tasp hu 데이터베이스 li ha ya
+tuyc hu 파괴 li ha ya
+tuys hu 도둑 li ha ya
+fiym hu 상사 li ha ya
+fiyn hu 막다 li ha ya
+fiys hu 번역 li ha ya
+fiwn hu 증거 li ha ya
+fink hu 손가락 li ha ya
 /sˈa5˧n tɕjˈɑu2˧˥ʔ ɕˈiɜŋ/ 三角形 :zh. /tɹˈaɪaŋɡəl/ triangle :en.
 /tɾiˈaŋɡulo/ triángulo :es. /tɾɪkˈoːɳ/ त्रिकोण :hi. /mθlθ/
 مثلث :ar. /sˈɛɡi tˈiɡa/ segi tiga :id. /trʲiuɡˈoɭnik/
@@ -623,57 +1034,101 @@ tuys hu  도둑 li ha ya
 üçgen :tr. /kˈolmɪo/ kolmio :fi. /trˈiːaŋəl/ triangel :sv.
 /mosˈallas/ مثلث :fa. /trˈiɣonˌo/ τρίγωνο :el. 10 t, 8 u, 8 n,
 8 k, 8 a, 7 l, 7 i, 6 y, 4 m, 3 s, 3 c, 1 p, 1 f, 0 w, tunk hu
- 삼각형 li ha ya
-tayn hu  지역 li ha ya
-tukc hu  터키의 li ha ya
-liyp hu  도서관 li ha ya
-layt hu  열한 li ha ya
-lank hu  지방의 li ha ya
-tack hu  감사 li ha ya
-tusk hu  진행 li ha ya
-tanp hu  표시 li ha ya
-liwk hu  적법한 li ha ya
-liyt hu  문학 li ha ya
-lint hu  내부 li ha ya
-fayt hu  사실 li ha ya
-fals hu  그릇된 li ha ya
-list hu  이상 li ha ya
-falt hu  디폴트-값 li ha ya
-funk hu  기능 li ha ya
-fult hu  호텔 li ha ya
-last hu  명부 li ha ya
-laft hu  이익 li ha ya
-lant hu  느린 li ha ya
-lunk hu  논리 li ha ya
-liyk hu  액체 li ha ya
-liwt hu  선물 li ha ya
-lufk hu  자물쇠 li ha ya
-liyn hu  라인 li ha ya
-layk hu  호수 li ha ya
-fint hu  발견 li ha ya
-fayk hu  공장 li ha ya
-link hu  링크 li ha ya
-fisk hu  부착 li ha ya
-fast hu  방문 li ha ya
-lunt hu  사람들 li ha ya
-faym hu  농장 li ha ya
-lumk hu  로그 li ha ya
-fuyk hu  가난한 li ha ya
-fans hu  프랑스의 li ha ya
-lunp hu  고리 li ha ya
-fusk hu  초점 li ha ya
-fuym hu  형태 li ha ya
-ciyk hu  확실한 li ha ya
-funm hu  음소 li ha ya
-cink hu  소원 li ha ya
-cint hu  대리인 li ha ya
-cank hu  기호 li ha ya
-cant hu  습관 li ha ya
-luwt hu  류트 li ha ya
-sint hu  감각 li ha ya
-cinp hu  정보 li ha ya
-budz hu  불교 li ha ya
-timp hu  문법-시제 li ha ya
-tiwk hu  활동 li ha ya
-tick hu  사전 li ha ya
-kwal hu  언어 li ha ya
+삼각형 li ha ya
+tayn hu 지역 li ha ya
+famk hu 익숙한 li ha ya
+tukc hu 터키의 li ha ya
+liyp hu 도서관 li ha ya
+layt hu 열한 li ha ya
+fant hu 행사 li ha ya
+fask hu 특별한 li ha ya
+lank hu 지방의 li ha ya
+tack hu 감사 li ha ya
+tusk hu 진행 li ha ya
+fack hu 화재 li ha ya
+fact hu 충분한 li ha ya
+fumt hu 내일 li ha ya
+tanp hu 표시 li ha ya
+liwk hu 적법한 li ha ya
+fuys hu 위반 li ha ya
+liyt hu 문학 li ha ya
+funt hu 믿음 li ha ya
+lint hu 내부 li ha ya
+fust hu 치마 li ha ya
+fayt hu 사실 li ha ya
+fulc hu 머리 li ha ya
+cimt hu  허수 undefined ha ya
+fals hu 그릇된 li ha ya
+ciyn hu 부위 li ha ya
+ciwk hu  작은 undefined ha ya
+list hu 이상 li ha ya
+falt hu 디폴트-값 li ha ya
+cisk hu 날카로운 li ha ya
+cisp hu 특별한 li ha ya
+cist hu 역사 li ha ya
+cilk hu 뺨 li ha ya
+cils hu 결의 li ha ya
+cilt hu 고요함 li ha ya
+camk hu 셔츠 li ha ya
+cayk hu 판사 li ha ya
+cayp hu 부끄러움 li ha ya
+cayn hu 생존 li ha ya
+cays hu 장학금 li ha ya
+cayf hu 턱 li ha ya
+cawn hu 동물 li ha ya
+funk hu 기능 li ha ya
+canp hu 습관 li ha ya
+fult hu 호텔 li ha ya
+cast hu 역 li ha ya
+calk hu 심장 li ha ya
+cafk hu 희생자 li ha ya
+cumt hu 적 li ha ya
+cuym hu 소문 li ha ya
+cuyk hu 화상 li ha ya
+cuyp hu  잘 알고 undefined ha ya
+cuyn hu 강 li ha ya
+cuys hu 집 li ha ya
+cuyt hu 시티 li ha ya
+cunk hu 부르다 li ha ya
+cunt hu 꿰매다 li ha ya
+cusk hu 도시 li ha ya
+cusp hu 구두 li ha ya
+cust hu 있다 li ha ya
+culp hu 냄새 li ha ya
+cult hu 어깨 li ha ya
+last hu 명부 li ha ya
+laft hu 이익 li ha ya
+lant hu 느린 li ha ya
+lunk hu 논리 li ha ya
+liyk hu 액체 li ha ya
+liwt hu 선물 li ha ya
+lufk hu 자물쇠 li ha ya
+liyn hu 라인 li ha ya
+layk hu 호수 li ha ya
+fint hu 발견 li ha ya
+fayk hu 공장 li ha ya
+link hu 링크 li ha ya
+fisk hu 부착 li ha ya
+fast hu 방문 li ha ya
+lunt hu 사람들 li ha ya
+faym hu 농장 li ha ya
+lumk hu 로그 li ha ya
+fuyk hu 가난한 li ha ya
+fans hu 프랑스의 li ha ya
+lunp hu 고리 li ha ya
+fusk hu 초점 li ha ya
+fuym hu 형태 li ha ya
+ciyk hu 확실한 li ha ya
+funm hu 음소 li ha ya
+cink hu 소원 li ha ya
+cint hu 대리인 li ha ya
+cank hu 기호 li ha ya
+cant hu 습관 li ha ya
+luwt hu 류트 li ha ya
+sint hu 감각 li ha ya
+cinp hu 정보 li ha ya
+budz hu 불교 li ha ya
+timp hu 문법-시제 li ha ya
+tiwk hu 활동 li ha ya
+tick hu 사전 li ha ya
+kwal hu 언어 li ha ya
