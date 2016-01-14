@@ -21,7 +21,9 @@ npm for exec-sync, browserify, jslint, jshint
 libfribidi-bin trans
 
 console demo in src/
-run ./spel-node.js
+run:
+./spel-test.js
+./fileTranslate.sh readme.eng.txt
 
 web demo in src/web
 generate spel.js with ./build in that directory
