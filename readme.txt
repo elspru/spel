@@ -16,7 +16,7 @@ check doc/roadmap.txt
 INSTALL
 
 need nodejs for compilation.
-npm for exec-sync, browserify
+npm for exec-sync, browserify, jslint, jshint
 
 libfribidi-bin trans
 

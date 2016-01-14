@@ -5697,4 +5697,5 @@ while I can't parallelize it with webWorkers,
 I may be able to parallelize it with bash,
 in a pseudo web workers fashion. 
 1729 okay made the bash script seems to work good.
-
+} 11 Jan 2015
+2240 working on a meditation log app
