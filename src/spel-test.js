@@ -205,8 +205,8 @@ var string =
 +"from whirlpool galaxy ya "
 
 var string = "ob quote phrase hello world phrase unquote be say ya";
-var string = "su program be translate ob sentence ya"
 var string = "if bo condition then bo solution ya"
+var string = "su program be translate ob sentence ya"
 
 
 console.log(string)

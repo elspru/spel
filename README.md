@@ -1,27 +1,29 @@
-Speakable Programming for Every Language
+##Speakable Programming for Every Language
 Your language to speak with all.
 
 A computer programming language using human language syntax
 for human-to-human and human-to-computer communication 
 with high precision, supporting many languages.
 
-LICENSE
+###LICENSE
 
 This project is Libre Software, licensed under AGPL-3.0.
 
-ROADMAP
+###ROADMAP
 
 check doc/roadmap.txt
 
-INSTALL
+###INSTALL
 
 need nodejs for compilation.
-npm for exec-sync, browserify
+npm for exec-sync, browserify, jslint, jshint
 
 libfribidi-bin trans
 
 console demo in src/
-run ./spel-node.js
+run:
+./spel-test.js
+./fileTranslate.sh readme.eng.txt
 
 web demo in src/web
 generate spel.js with ./build in that directory
