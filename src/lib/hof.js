@@ -9,9 +9,9 @@
 
 "use strict";
 /// curry
-Object.prototype.curry = function(args){
-	return this.bind(null,args);
-}
+Object.prototype.curry = function (args) {
+    return this.bind(null, args);
+};
 /// be expand bo array by function de
 /// su expand be like bo map ya 
 ///	but if su function be return bo array 
@@ -22,7 +22,7 @@ Array.prototype.expand = function(func){
 	if (typeof func != "function")
 		throw new TypeError("su expand be need by function ya");
 	var length = this.length >>> 0;
-	var result = new Array();
+	var result = []; 
 	var providedThis = arguments[1];
 	var i, val, res;
 	for (i = 0; i < length; i ++){
@@ -40,6 +40,7 @@ Array.prototype.expand = function(func){
 /// su stencil be like bo expand ya 
 ///	but with multiple element as input to function 
 ///		via array from offset array ya
+var exports;
 exports.cofc = contigiousOffsetCheck;
 function contigiousOffsetCheck(offsets){
 	// if offsets are not one after other then false
@@ -69,7 +70,7 @@ Array.prototype.stencil = function(/*array*/offsets,func){
 	var contigiousOffsets = contigiousOffsetCheck(offsets);
 	var valFunction = forStencil;
 	function forStencil(array,index){ // default slow
-			var val = new Array(); // to hold offsets
+			var val = [];// to hold offsets
 			var j, offset;
 			//console.log("offsets"+offsets);
 			//console.log(array);
@@ -77,8 +78,7 @@ Array.prototype.stencil = function(/*array*/offsets,func){
 			for (j=0;j<offsetsLength;j++){
 				offset = offsets[j];
 				// if it does not exit make null
-				if (index+offset<0
-				   ||index+offset>length)
+				if (index+offset<0 || index+offset>length)
 					val = val.concat(null);
 				else val = val.concat(array[index+offset]);
 			}
@@ -87,8 +87,7 @@ Array.prototype.stencil = function(/*array*/offsets,func){
 	}
 	var firstOffset = offsets[0];
 	function sliceStencil(array,index){
-		if (index+firstOffset<0
-		   || index+offsetsLength>array.length){
+		if (index+firstOffset<0 || index+offsetsLength>array.length){
 			return forStencil(array,index);
 		   }
 		//console.log("sliceSt "+array.slice(index+firstOffset,
@@ -101,7 +100,7 @@ Array.prototype.stencil = function(/*array*/offsets,func){
 		valFunction = sliceStencil;
 	}
 	//else console.log("for stencil");
-	var result = new Array();
+	var result = []; 
 	var providedThis = arguments[1];
 	var i, res, val, offset;
 	for (i = 0; i < length; i++){
@@ -129,7 +128,7 @@ Array.prototype.find = function(func){
 			if (func.call(providedThis, this[i], i, this))
 				return i;
 	return null;
-}
+};
 /// su rfind bo reverse find ya
 Array.prototype.rfind = function(func){
 	if (typeof func != "function")
@@ -142,7 +141,7 @@ Array.prototype.rfind = function(func){
 			if (func.call(providedThis, this[i], i, this))
 				return i;
 	return null;
-}
+};
 //
 //// attach the .equals method to Array's prototype to call it on any array
 //Array.prototype.equals = function (array) {
@@ -171,7 +170,7 @@ Object.prototype.equals = function(match){
 	if (JSON.stringify(this)==(JSON.stringify(match)))
 		return true;
 	return false;
-}
+};
 Array.prototype.isSubset = function(match){
 	var i;
 	var length = this.length;
@@ -181,7 +180,7 @@ Array.prototype.isSubset = function(match){
 		if(match.indexOf(this[i])===-1)
 			return false;
 	return true;
-}
+};
 Array.prototype.isSuperset = function(match){
 	var i;
 	var length = match.length;
@@ -191,13 +190,12 @@ Array.prototype.isSuperset = function(match){
 		if(this.indexOf(match[i])===-1)
 			return false;
 	return true;
-}
+};
 Array.prototype.isLike = function(match){
-	if (this.isSubset(match)
-		||this.isSuperset(match))
+	if (this.isSubset(match) || this.isSuperset(match))
 		return true;
 	return false;
-}
+};
 //Object.prototype.copy = function(){
 //	return JSON.parse(JSON.stringify(this));
 //}
