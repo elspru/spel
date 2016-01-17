@@ -16,7 +16,15 @@ check doc/roadmap.txt
 ###INSTALL
 
 need nodejs for compilation.
-npm for exec-sync, browserify, jslint, jshint
+npm for exec-sync, browserify, jslint, jshint, and tape
+
+in the src/ folder do:
+npm install exec-sync
+npm install browserify
+npm install jslint
+npm install jshint
+npm install tape
+npm install colors
 
 libfribidi-bin trans
 
