@@ -1,4 +1,22 @@
-" syntax/synesthesia.vim
+" syntax/synesthesia-night.vim
+" a synesthesia syntax highlighting file for vim
+" by Logan Streondj
+" license AGPL-3.0
+"
+" to set up, place this file into ~/.vim/syntax/
+" then  in your ~/.vimrc 
+" " quote vimrc
+" " for text files:
+" au BufRead,BufNewFile *.txt set filetype=synesthesia-night
+" " for all files:
+" au BufRead,BufNewFile * set filetype=synesthesia-night
+" " this syntax highlighting needs a dark background 
+" highlight Normal     guifg=white guibg=black
+" " this syntax highlighting needs a bold font
+" set guifont=Dejavu\ Sans\ Mono\ Bold\ 11
+" " vimrc unquote
+"
+" note that it is more colorful in gvim than console
 syntax match a "a"
 syntax match b "b"
 syntax match c "c"

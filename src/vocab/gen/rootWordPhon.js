@@ -20,7 +20,7 @@
 //  su basic root word finding algorithm de
 //  su english concept word be input argument ya
 //  su word definitions be modified ya
-//  su source language translation via trans 
+//  su source language translation via trans
 //      ob Chinese (Sino-Tibetan) 1030 and
 //      ob English (IE, West Germanic) 840 and
 //      ob Spanish (IE, Romance) 490 and
@@ -40,7 +40,7 @@
 //  su translations be stored in dataset ya
 //  su phoneme translation via espeak ya
 //  su phoneme translations be stored in dataset ya
-//  su phoneme equivalncy function by language weight be output 
+//  su phoneme equivalncy function by language weight be output
 //      ob phoneme frequency and
 //      ob starting consonants and
 //      ob middle consonants and
@@ -53,64 +53,92 @@
 
 
 var io = require("../../lib/io"),
-    Entry = function () {
-    //      ob Chinese (Sino-Tibetan) 1030 and
-        this.zh = "";
-    //      ob English (IE, West Germanic) 840 and
-        this.en = "";
-    //      ob Spanish (IE, Romance) 490 and
-        this.es = "";
-    //      ob Hindi  (IE, Indo-Aryan) 380 and
-        this.hi = "";
-    //      ob Arabic (Afro-Asiatic) 490 and
-        this.ar = "";
-    //      ob Indonesian (Austronesian) and
-        this.id = "";
-    //      ob Russian (IE, Slavic) and
-        this.ru = "";
-    //      ob Swahili (Niger-Congo) and
-        this.sw = "";
-    //      ob Swedish (IE, North Germanic) and
-        this.sv = "";
-    //      ob Turkish (Turkic) and
-        this.tr = "";
-    //      ob Finnish (Uralic) and
-        this.fi = "";
-    //      ob Farsi (IE, Indo-Iranian) and
-        this.fa = "";
-    //      ob Tamil (Dravidian) and
-        this.ta = "";
-    //      ob Georgian (Kartvelian) and
-        this.ka = "";
-    //      ob Welsh (IE, Celtic) and
-        this.cy = "";
-    //      ob Greek (IE, Hellenic) ya
-        this.el = "";
-    },
+    hof = require("../../lib/hof"),
     allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt","es"],
+        "fi", "el", "ka", "cy", "pl", "sr", "lt", "es"],
     allPhonLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
         "fi", "el", "ka", "cy", "pl", "sr", "lt", "zhy", "es"],
-    langWeights = {"hi":1500, "zh":1300, "en":840, "sw":600,
-        "ar":490, "id":486, "tr":377, "ta":210, "fi":28, "ka":5,
-        "cy":2, "sv":21,  "es": 490, "fr": 220, "de":145, 
-        "pt":200, "it":64, "el":13, "lt":5, "ru":325, "pl":57,
-        "sr":32}
+    langWeights = {"hi": 1500, "zh": 1300, "en": 840, "sw": 600,
+        "ar": 490, "es":  490, "id": 486, "tr": 377, "ru": 325,
+        "fr":  220, "ta": 210, "fa": 200, "pt": 200, "de": 145,
+        "zhy": 70, "vi": 70, "it": 64, "pl": 57, "fi": 28,
+        "sv": 21, "ka": 5, "el": 13, "lt": 5, "cy": 2, "sr": 32
+        },
+    gramList = [],
+    rootList = [],
+    consonantList = "mkypwnstlhf.crbgdzjvqx18",
+    finalConsonantList = "ptkfscqmnxbdgzjv",
+    secondConsonantList = "fscyrwlxzjv",
+    vowelList = "iaueo6",
+    toneList = "7_",
     PhonEntry = function () {
         this.en = "";
-        //allPhonLangs.forEach(function (code) {
-        //    this[code] = "";
-        //});
     },
-    rootPhonEntry = function () {
+    RootPhonEntry = function () {
         this.consonants = {};
         this.vowels = {};
         this.initialConsonants = {};
         this.middleConsonants = {};
         this.finalConsonants = {};
+        this.tone = {};
     };
+function arrayUnique(a) {
+    return a.reduce(function (p, c) {
+        if (p.indexOf(c) < 0) {
+            p.push(c);
+        }
+        return p;
+    }, []);
+}
+function addTypeOfGlyphToObj(typeList, obj, weight, glyph) {
+    if (typeList.indexOf(glyph) > -1) {
+        if (obj[glyph] === undefined) {
+            obj[glyph] = 0;
+        }
+        obj[glyph] += weight;
+    }
+}
+
+function addGlyphs(obj, glyphWord, weight) {
+    var length = glyphWord.length,
+        glyphAr = glyphWord.split(""),
+        segmentLength = Math.ceil(length / 3),
+        initialStart = 0,
+        middleStart = Math.floor(length / 3),
+        finalStart = length - (segmentLength + 1),
+        initialSegment = arrayUnique(glyphAr.
+                slice(initialStart, segmentLength)),
+        middleSegment = arrayUnique(glyphAr.slice(middleStart,
+            (segmentLength + middleStart))),
+        finalSegment = arrayUnique(glyphAr.slice(finalStart,
+            length)),
+        consonants;
+    /* consonants */
+    glyphAr = arrayUnique(glyphAr);
+    glyphAr.forEach(function (glyph) {
+        addTypeOfGlyphToObj(consonantList, obj.consonants,
+                weight, glyph);
+    });
+    /* vowels*/
+    glyphAr.forEach(function (glyph) {
+        addTypeOfGlyphToObj(vowelList, obj.vowels,
+                weight, glyph);
+    });
+    initialSegment.forEach(function (glyph) {
+        addTypeOfGlyphToObj(consonantList,
+                obj.initialConsonants, weight, glyph);
+    });
+    middleSegment.forEach(function (glyph) {
+        addTypeOfGlyphToObj(secondConsonantList,
+                obj.middleConsonants, weight, glyph);
+    });
+    finalSegment.forEach(function (glyph) {
+        addTypeOfGlyphToObj(finalConsonantList,
+                obj.finalConsonants, weight, glyph);
+    });
+}
 
 function stringToWordLines(string) {
     function lineToWords(line) {
@@ -136,415 +164,465 @@ function wordOfEachLine(wordIndex, wordLines) {
     });
 }
 
-function translateWord(word, toLangCode) {
-    var execSync = require("exec-sync"),
-        fromLangCode = "en",
-        command = "",
-        translation = "",
-        warning;
-    command = "../gtranslate.sh " + fromLangCode + " " +
-        toLangCode + " " + word;
-    try {
-        translation = execSync(command);
-    } catch (e) {
-        console.log("fail for " + command);
-        console.log(e.stack);
-        console.log(e);
-    }
-    if (translation.toLower &&
-            translation.toLower() === word) {
-        warning = ("Warning: " + translation +
-            " has same definition");
-        console.log(warning);
-    }
-    return translation;
-}
-
-function updateTranslationEntry(entry, word) {
-    var translation;
-    if (entry.en === "") {
-        entry.en = word;
-    }
-    Object.keys(entry).forEach(function (key) {
-        if (entry[key] === "") {
-            translation = translateWord(word, key);
-            console.log(translation);
-            entry[key] = translation;
-        }
+function ipaTo16Glyph(word) {
+/*
+var Bit4Alphabet =     ["m","k","i","a","y","u","p","w",
+                        "n","s","t","l","h","f",".","c"];
+// c = /ʃ/
+// y = /j/
+// . = /ʔ/
+//  note su glyph . ob only used for grammar ya
+// h = /h/
+//  note su glyph h ob only used for grammar ya
+*/
+    var matchReplaceArray = [
+    /* punctuation */
+        ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
+        ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["\-", ""],
+        ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
+        /* vowels */
+        ["y", "i"], ["Y", "i"], ["ɪ", "i"], ["ĩ", "i"],
+        ["ɨ", "i"], ["e", "i"],
+        ["ɛ", "a"], ["ɜ", "a"], ["æ", "a"], ["ɑ̃", "a"],
+        ["ã", "a"], ["ʌ", "a"], ["ɑ", "a"], ["ɐ̃", "a"],
+        ["ɐ", "a"],
+        ["o", "u"], ["ɵ", "u"], ["ɔ", "u"], ["ʉ", "u"],
+        ["ø", "u"], ["œ̃", "u"], ["œ", "u"], ["ũ", "u"],
+        ["ɯ", "u"], ["õ", "u"],
+        ["ə", ""],
+        /* tones */
+        ["˨", ""], ["˩", ""],
+        ["˥", ""], ["˦", ""],
+        ["˧", ""],
+    /** consonants **/
+    /* plosives */
+        ["b", "p"],
+        ["ð", "t"], ["ʈ", "t"], ["ɗ", "t"], ["ɖ", "t"],
+        ["t̪", "t"], ["ʈ", "t"], ["d", "t"],
+        ["c", "k"], ["ɟ", "k"], ["ʔ", "k"], ["q", "k"],
+        ["ɡ", "k"], ["ˀ", "k"],
+        /* approximants */
+        ["ʊ", "w"],/* w like vowel */
+        ["v", "w"], ["β", "f"], ["w̃", "w"], ["ʋ", "w"],
+        ["l̩", "l"], ["ɫ", "l"], ["ɬ", "l"], ["ɭ", "l"],
+        ["ʎ", "l"],
+        ["j", "y"], ["ʲ", "y"], ["ʁ", "y"], ["ɾ", "y"],
+        ["ɹ", "y"], ["ɻ", "y"], ["ɚ", "y"], ["r", "y"],
+        /* fricatives */
+        ["θ", "f"],
+        ["z", "s"],
+        ["ʃ", "c"], ["ʃ", "c"], ["ʒ", "c"], ["ʂ", "c"],
+        ["ʐ", "c"], ["ç", "c"], ["ʝ", "c"], ["ɕ", "c"],
+        ["ʑ", "c"], ["ɣ", "c"], ["x", "c"], ["ħ", "c"],
+        ["ʰ", "c"], ["h", "c"], ["ʕ", "c"], ["ʕ", "c"],
+        ["؟", "c"], ["ˤ", "c"],
+        /* nasals */
+        ["m̩", "m"],
+        ["ŋ", "n"], ["ɳ", "n"], ["ɲ", "n"]
+    ];
+    matchReplaceArray.forEach(function(tuple) {
+        var match = new RegExp(tuple[0], "g"),
+            replace = tuple[1];
+        word = word.replace(match, replace);
     });
-    return entry;
-}
-
-function phonateWord(word, inLangCode) {
-    var execSync = require("exec-sync"),
-        command = "",
-        translation = "",
-        warning;
-    if (inLangCode === "en") {
-        inLangCode = "en-us";
-    }
-    command = 'echo "' + word + '" | espeak --stdin --ipa -q ' +
-        " -v " + inLangCode;
-    try {
-        translation = execSync(command);
-    } catch (e) {
-        console.log("fail for " + command);
-        console.log(e.stack);
-        console.log(e);
-    }
-    if (translation.toLower &&
-            translation.toLower() === word) {
-        warning = ("Warning: " + translation +
-            " has same definition");
-        console.log(warning);
-    }
-    return translation;
-}
-
-function arabicToIPA(word) {
-  //  var execSync = require("exec-sync"),
-  //      command = "",
-  //      translation = "",
-  //      warning;
-  //  command = "echo '" + word + "' | fribidi ";
-  //  try {
-  //      translation = execSync(command);
-  //  } catch (e) {
-  //      console.log("fail for " + command);
-  //      console.log(e.stack);
-  //      console.log(e);
-  //  }
-  //  word = translation;
-  //  console.log( "translation " + translation);
-    word = word.replace("ا","a");
-    word = word.replace("ﺍ","a");
-    word = word.replace("ﺍ","a");
-    word = word.replace("ﺇ","a");
-    word = word.replace("ﺃ","a");
-    word = word.replace("ﻜ","k");
-    word = word.replace("ﻰ","ji");
-    word = word.replace("ﺼ","ts");
-    word = word.replace("ﺎ","a");
-    word = word.replace("ﻟ","l");
-    word = word.replace("ﻟ","l");
-    word = word.replace("ﻠ","l");
-    word = word.replace("ﺭ","r");
-    word = word.replace("ﻛ","k");
-    word = word.replace("ﻴ","ji");
-    word = word.replace("ﺴ","ʃ");
-    word = word.replace("ﻐ","f");
-    word = word.replace("ﻳ","ja");
-    word = word.replace("ﻓ","f");
-    word = word.replace("ﻲ","ji");
-    word = word.replace("ﻳ","ji");
-    word = word.replace("ﺣ","ħ");
-    word = word.replace("ﺯ","z");
-    word = word.replace("ﺤ","ħ");
-    word = word.replace("ﻼ﻿","lo");
-    word = word.replace("ﻨ","n");
-    word = word.replace("ﻙ","k");
-    word = word.replace("ﺺ","ts");
-    word = word.replace("ﺱ","s");
-    word = word.replace("ﺟ","ʒ");
-    word = word.replace("ﻋ","ʒ");
-    word = word.replace("ب","b");
-    word = word.replace("ت","t");
-    word = word.replace("ﻄ","tˤ");
-    word = word.replace("ﻃ","tˤ");
-    word = word.replace("ث","θ");
-    word = word.replace("ﺜ","θ");
-    word = word.replace("ﺩ","d");
-    word = word.replace("ﻖ","q");
-    word = word.replace("ﻷ﻿","la");
-    word = word.replace("ج","ʒ");
-    word = word.replace("ﺞ","dʒ");
-    word = word.replace("ﺠ","ʒ");
-    word = word.replace("ح","ħ");
-    word = word.replace("ﺣ","ħ");
-    word = word.replace("ﻞ","l");
-    word = word.replace("ﻄ","t");
-    word = word.replace("ﺌ","ji");
-    word = word.replace("ﺹ","s");
-    word = word.replace("ﻧ","n");
-    word = word.replace("ﺡ","ħ");
-    word = word.replace("خ","x");
-    word = word.replace("د","d");
-    word = word.replace("ذ","ð");
-    word = word.replace("ر","r");
-    word = word.replace("ﺭ","r");
-    word = word.replace("ز","z");
-    word = word.replace("س","s");
-    word = word.replace("ش","ʃ");
-    word = word.replace("ﺸ","ʃ");
-    word = word.replace("ﺅ","w");
-    word = word.replace("ﻛ","k");
-    word = word.replace("ﺮ","r");
-    word = word.replace("ﺦ","x");
-    word = word.replace("ﺨ","x");
-    word = word.replace("ﻊ","ʕ");
-    word = word.replace("ﻴ","ji");
-    word = word.replace("ﻞ","l");
-    word = word.replace("ﺛ","θ");
-    word = word.replace("ﺚ","θ");
-    word = word.replace("ﺙ","θ");
-    word = word.replace("ﺛ","θ");
-    word = word.replace("ﻓ","f");
-    word = word.replace("ﻁ","t");
-    word = word.replace("ﻹ﻿","la");
-    word = word.replace("ﻇ","ðˤ");
-    word = word.replace("ﻈ","ðˤ");
-    word = word.replace("ﻆ","ðˤ");
-    word = word.replace("ﺪ","d");
-    word = word.replace("ﺫ","ð");
-    word = word.replace("ﻲ","ji");
-    word = word.replace("ﺢ","x");
-    word = word.replace("ﻯ","a");
-    word = word.replace("ﺎ","a:");
-    word = word.replace("ﺿ","d");
-    word = word.replace("ﺳ","s");
-    word = word.replace("ﻱ","ji");
-    word = word.replace("ﻂ","tˤ");
-    word = word.replace("ﻣ","m");
-    word = word.replace("ﺆ","w");
-    word = word.replace("ﻵ﻿","la");
-    word = word.replace("ﻀ","d");
-    word = word.replace("ﺖ","t");
-    word = word.replace("ﻪ","h");
-    word = word.replace("ﺾ","d");
-    word = word.replace("ع","ʕ");
-    word = word.replace("ﺗ","t");
-    word = word.replace("ﻻ﻿","lo");
-    word = word.replace("ﺻ","ts");
-    word = word.replace("ﺑ","ts");
-    word = word.replace("ﺩ","d");
-    word = word.replace("غ","ɣ");
-    word = word.replace("ﺽ","dˤ");
-    word = word.replace("ﺦ","x");
-    word = word.replace("ﺲ","s");
-    word = word.replace("ﻔ","f");
-    word = word.replace("ﻋ","ɣ");
-    word = word.replace("ﻎ","ɣ");
-    word = word.replace("ﻍ","ɣ");
-    word = word.replace("ﺉ","ji");
-    word = word.replace("ﻠ","l");
-    word = word.replace("ﺏ","b");
-    word = word.replace("ﻏ","ɣ");
-    word = word.replace("ﻫ","n");
-    word = word.replace("ف","f");
-    word = word.replace("ﻪ","h");
-    word = word.replace("ق","q");
-    word = word.replace("ﻘ","q");
-    word = word.replace("ك","k");
-    word = word.replace("ل","l");
-    word = word.replace("ﻝ","l");
-    word = word.replace("م","m");
-    word = word.replace("ﻢ","m");
-    word = word.replace("ﻣ","m");
-    word = word.replace("ن","n");
-    word = word.replace("ﻦ","n");
-    word = word.replace("ﺑ","b");
-    word = word.replace("ه","h");
-    word = word.replace("و","w");
-    word = word.replace("ﻮ","w");
-    word = word.replace("ي","j");
-    word = word.replace("ﻩ","h");
-    word = word.replace("ﻬ","h");
-    word = word.replace("ﺪ","d");
-    word = word.replace("ة","ta");
-    word = word.replace("ﺓ","ta");
-    word = word.replace("ﺓ","ta");
-    word = word.replace("ﺔ","q");
-    word = word.replace("ﻘ","q");
-    word = word.replace("ﻗ","q");
-    word = word.replace("ﺔ","q");
-    word = word.replace("ﺮ","r");
-    word = word.replace("أ","ʔ");
-    word = word.replace("ﺘ","t");
-    word = word.replace("ﻴ","ji");
-    word = word.replace("ﻮ","w");
-    word = word.replace("ﻭ","w");
-    word = word.replace("ﺬ","ð");
-    word = word.replace("ﻚ","k");
-    word = word.replace("ﻧ","n");
-    word = word.replace("ﺗ","t");
-    word = word.replace("ﻭ","w");
-    word = word.replace("ﺍ","ʔ");
-    word = word.replace("ﻌ","ʔ");
-    word = word.replace("ﻕ","q");
-    word = word.replace("ﺋ","n");
-    word = word.replace("ﺒ","b");
-    word = word.replace("ﺐ","b");
-    word = word.replace("ﻣ","m");
-    word = word.replace("ﺘ","t");
-    word = word.replace("ﻤ","m");
-    word = word.replace("ء","ʔ");
-    word = word.replace("ﻼ﻿","la");
-    word = word.replace("ئ","ʔ");
-    word = word.replace("ﻉ","ʔ");
-    word = word.replace("ﺕ","t");
-    word = word.replace("ﻥ","n");
-    word = word.replace("ﻡ","m");
-    word = word.replace("ﺐ","b");
-    word = word.replace("د","d");
-    word = word.replace("ص","sˤ");
-    word = word.replace("ض","dˤ");
-    word = word.replace("ط","tˤ");
-    word = word.replace("ظ","zˤ");
-    word = word.replace("ﺧ","x");
-    word = word.replace("ﺳ","s");
-    word = word.replace("ﻑ","f");
-    word = word.replace("ﺷ","ʃ");
-    word = word.replace("ﻒ","f");
-    word = word.replace("ﺝ","g");
-    word = word.replace("ﺰ","z");
-    word = word.replace("إ","aʔ");
-    word = word.replace("ﻌ","ʔ");
-    word = word.replace("آ","ʔaː");
-    word = word.replace("ﺁ","ʔaː");
-    word = word.replace("ﺄ","ʔaː");
-    word = word.replace("ﺎ","ʔaː");
-    word = word.replace("ﺊ","ji");
-    console.log("word " +word);
     return word;
 }
-function thaiToIPA(word) {
-    word.replace("บ", "b"); 	 
-    word.replace("ฎ", "d"); 	
-    word.replace("ด", "d");   
-    word.replace("ฝ", "f");	
-    word.replace("ฟ", "f");  
-    word.replace("ห", "h"); 	
-    word.replace("ฮ", "h");    
-    word.replace("ญ", "j"); 	
-    word.replace("ย", "j");    
-    word.replace("ก", "k"); 	
-    word.replace("ข", "x"); 	
-    word.replace("ฃ", "x");   
-    word.replace("ค", "x");   
-    word.replace("ฅ", "x");   
-    word.replace("ฆ", "x");   
-    word.replace("ล", "l"); 	
-    word.replace("ฬ", "l");   
-    word.replace("ม", "m"); 	
-    word.replace("ณ", "n"); 	
-    word.replace("น", "n");   
-    word.replace("ง", "ŋ"); 	
-    word.replace("—", "ɲ"); 	  
-    word.replace("ป", "p"); 	
-    word.replace("ผ", "pʰ");
-    word.replace("พ", "pʰ");  
-    word.replace("ภ", "pʰ");    
-    word.replace("ร", "r"); 	
-    word.replace("ซ", "s"); 	
-    word.replace("ศ", "s");    
-    word.replace("ษ", "s");    
-    word.replace("ส", "s");    
-    word.replace("ฏ", "t"); 	
-    word.replace("ต", "t");    
-    word.replace("ฐ", "tʰ");
-    word.replace("ฑ", "tʰ");
-    word.replace("ฒ", "tʰ");
-    word.replace("ถ", "tʰ");
-    word.replace("ท", "tʰ");
-    word.replace("ธ", "tʰ");
-    word.replace("จ", "tɕ"); 
-    word.replace("ฉ", "tɕʰ");
-    word.replace("ช", "tɕʰ");
-    word.replace("ฌ", "tɕʰ"); 
-    word.replace("ว", "w"); 	
-    word.replace("อ", "ʔ"); 	
-    word.replace("ะ", "ʔ");   
-    word.replace("อย", "j"); 
-    word.replace("หม", "m");     
-    word.replace("หล", "l");     
-    word.replace("หน", "n");     
-    word.replace("หย", "j");     
-    word.replace("หง", "ŋ");     
-    word.replace("หร", "r");     
-//        ◌ั◌ 	
-//e 	เ◌ะ, 
-//        เ◌็◌ 
-//ɛ 	แ◌ะ, 
-//        แ◌็◌ 
-//i 	◌ิ, 
-//        ◌ิ◌ 
-//o 	โ◌ะ, 
-//ɔ 	เ◌าะ, 
-//a 	◌ะ, 
-//        ◌็อ◌ 
-//u 	◌ุ, ◌ุ◌ 
-//ɯ 	◌ึ, ◌ึ◌ 
-//ɤ 	เ◌อะ 	
-//aː 	◌า, ◌า◌ 
-//eː 	เ◌, เ◌◌ 
-//ɛː 	แ◌, แ◌◌ 
-//iː 	◌ี, ◌ี◌ 	◌ີ
-//oː 	โ◌, โ◌◌
-//ɔː 	◌อ, ◌อ◌ 
-//uː 	◌ู, ◌ู, 
-//ɯː 	◌ือ, ◌ื◌
-//ɤː 	เ◌อ, เ◌ิ◌
-//iəʔ 	เ◌ียะ 
-//iə 	เ◌ีย, เ◌ีย◌ 
-//uəʔ 	◌ัวะ 
-//uə 	◌ัว, ◌ว◌ 
-//ɯəʔ 	เ◌ือะ 
-//ɯə 	เ◌ือ, เ◌ือ◌ 
-    return word;
-} 
-
-function updatePhonemicEntry(phonEntry, transEntry) {
-    var translation,
-        word;
-    if (key === "th") {
-        word = transEntry[key];
-        translation = thaiToIPA(word);
-    } else {
-    Object.keys(phonEntry).forEach(function (key) {
-        if (phonEntry[key] === "") {
-            if (key === "zhy") {
-                word = transEntry.zh;
-            } else {
-                word = transEntry[key];
-            }
-            if (key === "ar") {
-                translation = arabicToIPA(word);
-            } else {
-                translation = phonateWord(word, key);
-            }
-            console.log("word " + word);
-            console.log("translation " + translation);
-            phonEntry[key] = translation;
-        }
+function ipaTo24Glyph(word) {
+/*
+var Glyph24Alphabet =     ["m","k","i","a","y","u","p","w",
+                        "n","s","t","l","h","f",".","c",
+                    "e","o","r","b","g","d","z","j"];
+// c = /ʃ/
+// j = /ʒ/
+// y = /j/
+// . = /ʔ/
+//  note su glyph . ob only used for grammar ya
+// h = /h/
+//  note su glyph h ob only used for grammar ya
+*/
+    var matchReplaceArray = [
+        /* punctuation */
+        ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
+        ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["\\-", ""],
+        ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
+        /* vowels */
+        ["y", "i"], ["Y", "i"], ["ɪ", "i"], ["ĩ", "i"],
+        ["ɨ", "i"],
+        ["e", "e"], ["ɛ", "e"], ["ɜ", "e"], ["ø", "e"],
+        ["œ̃", "e"], ["œ", "e"],
+        ["æ", "a"], ["ɑ̃", "a"], ["ã", "a"], ["ɑ", "a"],
+        ["ɐ̃", "a"], ["ɐ", "a"],
+        ["ʌ", "o"], ["o", "o"], ["ɔ", "o"], ["ɵ", "o"],
+        ["õ", "o"],
+        ["ʊ", "u"], ["ʉ", "u"], ["ũ", "u"], ["ɯ", "u"],
+        ["ə", ""],
+        /* tones */
+        ["˨", ""], ["˩", ""],
+        ["˥", ""], ["˦", ""],
+        ["˧", ""],
+        /** consonants **/
+        /* plosives */
+        ["ʈ", "t"], ["t̪", "t"], ["ʈ", "t"],
+        ["ð", "d"], ["ɗ", "d"], ["ɖ", "d"], ["d", "d"],
+        ["b", "b"],
+        ["c", "k"], ["q", "k"], ["ʔ", "k"], ["ˀ", "k"],
+        ["ɟ", "g"], ["g", "g"], ["ɡ", "g"],
+        /* approximants */
+        ["v", "w"], ["β", "w"], ["w̃", "w"], ["ʋ", "w"],
+        ["l̩", "l"], ["ɫ", "l"], ["ɬ", "l"], ["ɭ", "l"],
+        ["ʎ", "l"],
+        ["j", "y"], ["ʲ", "y"],
+        ["ɾ", "r"], ["ɹ", "r"], ["ɻ", "r"], ["ɚ", "r"],
+        ["ʁ", "r"],/* espeak for ʀ */
+        /* fricatives */
+        ["θ", "f"],
+        ["ʰ", "c"], ["ʃ", "c"], ["ʃ", "c"], ["ʂ", "c"],
+        ["ç", "c"], ["ɕ", "c"], ["x", "c"], ["ħ", "c"],
+        ["h", "c"],
+        ["ʒ", "j"], ["ʐ", "j"], ["ʑ", "j"], ["ʝ", "j"],
+        ["ɣ", "j"], ["ʕ", "j"], ["ʕ", "j"], ["؟", "j"],
+        ["ˤ", "j"],
+        /* nasals */
+        ["m̩", "m"],
+        ["ŋ", "n"], ["ɳ", "n"], ["ɲ", "n"],
+    ];
+    matchReplaceArray.forEach(function(tuple) {
+        var match = new RegExp(tuple[0], "g"),
+            replace = tuple[1];
+        word = word.replace(match, replace);
     });
+    return word;
+}
+
+function ipaTo28Glyph(word) {
+/*
+var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
+                        "n","s","t","l","h","f",".","c",
+                    "e","o","r","b","g","d","z","j",
+             "v","q","6","x"];
+// c = /ʃ/
+// j = /ʒ/
+// y = /j/
+// q = /ŋ/
+// 6 = /ə/
+// . = /ʔ/ // glotal stop only used for grammar ya
+// h = /h/ // glotal fricative only used for grammar ya
+*/
+    var matchReplaceArray = [
+        /* punctuation */
+        ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
+        ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["\\-", ""],
+        ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
+        /* vowels */
+        ["y", "i"], ["Y", "i"], ["ɪ", "i"], ["ĩ", "i"],
+        ["ɨ", "i"],
+        ["e", "e"], ["ɛ", "e"], ["ɜ", "e"], ["ø", "e"],
+        ["œ̃", "e"], ["œ", "e"],
+        ["æ", "a"], ["ɑ̃", "a"], ["ã", "a"], ["ɑ", "a"],
+        ["ɐ̃", "a"], ["ɐ", "a"],
+        ["ʌ", "o"], ["o", "o"], ["ɔ", "o"], ["ɵ", "o"],
+        ["õ", "o"],
+        ["ʊ", "u"], ["ʉ", "u"], ["ũ", "u"], ["ɯ", "u"],
+        ["ə", "6"],
+        /* tones */
+        ["˨", ""], ["˩", ""],
+        ["˥", ""], ["˦", ""],
+        ["˧", ""],
+        /** consonants **/
+        /* plosives */
+        ["ʈ", "t"], ["t̪", "t"], ["ʈ", "t"],
+        ["ð", "d"], ["ɗ", "d"], ["ɖ", "d"], ["d", "d"],
+        ["b", "b"],
+        ["c", "k"], ["q", "k"], ["ʔ", "k"], ["ˀ", "k"],
+        ["ɟ", "g"], ["g", "g"], ["ɡ", "g"],
+        /* approximants */
+        ["w̃", "w"], ["ʋ", "w"],
+        ["l̩", "l"], ["ɫ", "l"], ["ɬ", "l"], ["ɭ", "l"],
+        ["ʎ", "l"],
+        ["j", "y"], ["ʲ", "y"],
+        ["ɾ", "r"], ["ɹ", "r"], ["ɻ", "r"], ["ɚ", "r"],
+        ["ʁ", "r"],/* espeak for ʀ */
+        /* fricatives */
+        ["v", "v"], ["β", "b"],
+        ["θ", "f"],
+        ["ʃ", "c"], ["ʃ", "c"], ["ʂ", "c"], ["ç", "c"],
+        ["ɕ", "c"],
+        ["ʒ", "j"], ["ʐ", "j"], ["ʑ", "j"], ["ʝ", "j"],
+        ["x", "x"], ["ħ", "x"], ["h", "x"], ["ʰ", "x"],
+        ["ɣ", "x"], ["ʕ", "x"], ["ʕ", "x"], ["؟", "x"],
+        ["ˤ", "x"],
+        /* nasals */
+        ["m̩", "m"],
+        ["ɳ", "n"],
+        ["ŋ", "q"], ["ɲ", "q"],
+    ];
+    matchReplaceArray.forEach(function(tuple) {
+        var match = new RegExp(tuple[0], "g"),
+            replace = tuple[1];
+        word = word.replace(match, replace);
+    });
+    return word;
+}
+
+function ipaTo32Glyph(word) {
+/*
+var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
+                        "n","s","t","l","h","f",".","c",
+                    "e","o","r","b","g","d","z","j",
+             "v","q","7","_","6","x","1","8"];
+// c = /ʃ/
+// j = /ʒ/
+// y = /j/
+// q = /ŋ/
+// 6 = /ə/
+// 7 = /˦/ // high tone for rare words
+// _ = /˨/ // low tone for rare words
+// 1 = /ǀ/ // dental click for temporary words
+// 8 = /ǁ/ // lateral click for temporary words
+// . = /ʔ/ // glotal stop only used for grammar ya
+// h = /h/ // glotal fricative only used for grammar ya
+*/
+    var matchReplaceArray = [
+        /* punctuation */
+        ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
+        ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["\\-", ""],
+        ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
+        /* vowels */
+        ["y", "i"], ["Y", "i"], ["ɪ", "i"], ["ĩ", "i"],
+        ["ɨ", "i"],
+        ["e", "e"], ["ɛ", "e"], ["ɜ", "e"], ["ø", "e"],
+        ["œ̃", "e"], ["œ", "e"],
+        ["æ", "a"], ["ɑ̃", "a"], ["ã", "a"], ["ɑ", "a"],
+        ["ɐ̃", "a"], ["ɐ", "a"],
+        ["ʌ", "o"], ["o", "o"], ["ɔ", "o"], ["ɵ", "o"],
+        ["õ", "o"],
+        ["ʊ", "u"], ["ʉ", "u"], ["ũ", "u"], ["ɯ", "u"],
+        ["ə", "6"],
+        /* tones */
+        ["˨", "_"], ["˩", "_"],
+        ["˥", "7"], ["˦", "7"],
+        ["˧", ""],
+        /** consonants **/
+        /* plosives */
+        ["ʈ", "t"], ["t̪", "t"], ["ʈ", "t"],
+        ["ð", "d"], ["ɗ", "d"], ["ɖ", "d"], ["d", "d"],
+        ["b", "b"],
+        ["c", "k"], ["q", "k"], ["ʔ", "k"], ["ˀ", ""],
+        ["ɟ", "g"], ["g", "g"], ["ɡ", "g"],
+        /* approximants */
+        ["w̃", "w"], ["ʋ", "w"],
+        ["l̩", "l"], ["ɫ", "l"], ["ɬ", "l"], ["ɭ", "l"],
+        ["ʎ", "l"],
+        ["j", "y"], ["ʲ", "y"],
+        ["ɾ", "r"], ["ɹ", "r"], ["ɻ", "r"], ["ɚ", "r"],
+        ["ʁ", "r"],/* espeak for ʀ */
+        /* fricatives */
+        ["v", "v"], ["β", "b"],
+        ["θ", "f"],
+        ["ʃ", "c"], ["ʃ", "c"], ["ʂ", "c"], ["ç", "c"],
+        ["ɕ", "c"],
+        ["ʒ", "j"], ["ʐ", "j"], ["ʑ", "j"], ["ʝ", "j"],
+        ["x", "x"], ["ħ", "x"], ["h", "x"], ["ʰ", ""],
+        ["ɣ", "x"], ["ʕ", "x"], ["ʕ", "x"], ["؟", "x"],
+        ["ˤ", ""],
+        /* nasals */
+        ["m̩", "m"],
+        ["ɳ", "n"],
+        ["ŋ", "q"], ["ɲ", "q"],
+    ];
+    matchReplaceArray.forEach(function(tuple) {
+        var match = new RegExp(tuple[0], "g"),
+            replace = tuple[1];
+        word = word.replace(match, replace);
+    });
+    return word;
+}
+function objToArray(obj) {
+    var objArray = [],
+        resultArray = [];
+    Object.keys(obj).forEach(function (key) {
+        objArray.push([key, obj[key]]);
+    });
+    return objArray;
+}
+
+function sortByWeight(glyphWeightObj) {
+    var objArray = [],
+        resultArray = [];
+    Object.keys(glyphWeightObj).forEach(function (key) {
+        objArray.push([key, glyphWeightObj[key]]);
+    });
+    objArray.sort(function(first, match) {
+        return (first[1] - match[1]);
+    });
+    objArray.reverse();
+    objArray.forEach(function (elem) {
+        resultArray.push(elem[0]);
+    });
+    return resultArray;
+}
+function addWeighted (typeList, startElem) {
+        var result = [],
+            start = startElem[0],
+            weight = startElem[1];
+        Object.keys(typeList).forEach(function (key) {
+            var end = key,
+                endWeight = typeList[key],
+                entry = [start+end, endWeight + weight];
+            result.push(entry);
+        });
+        return result;
+}
+//function addWeight(weightedArray, weight) {
+//    return weightedArray.map(function (elem) {
+//        elem[1] += weight;
+//        return elem;
+//    });
+//}
+function averageWeight(weightedArray) {
+    return weightedArray.map(function (elem) {
+        var wordLength = elem[0].length,
+            weight = elem[1];
+        if (wordLength > 0) {
+            elem[1] = weight/wordLength | 0;
+        }
+        return elem;
+    });
+}
+function genGram(rootPhonEntry) {
+    var rpn = rootPhonEntry,
+        vowelsList = rpn.vowels,
+        initialList = rpn.initialConsonants,
+        secondList = rpn.middleConsonants,
+        finalList = rpn.finalConsonants,
+        initialListAr = objToArray(initialList),
+        wordList = [],
+        cvList = initialListAr,
+        csvList = initialListAr;
+    cvList = cvList.expand(addWeighted.curry(vowelsList));
+    csvList = csvList.expand(addWeighted.curry(secondList));
+    csvList = csvList.expand(addWeighted.curry(vowelsList));
+    wordList = wordList.concat(cvList);
+    wordList = wordList.concat(csvList);
+    averageWeight(wordList);
+    wordList = wordList.sort(function (first, match) {
+        return parseInt(match[1]) - parseInt(first[1]);
+    });
+    return wordList;
+}
+function genRoot(rootPhonEntry) {
+    var rpn = rootPhonEntry,
+        vowelsList = rpn.vowels,
+        initialList = rpn.initialConsonants,
+        secondList = rpn.middleConsonants,
+        finalList = rpn.finalConsonants,
+        initialListAr = objToArray(initialList),
+        wordList = [],
+        cvfList = initialListAr,
+        csvfList = initialListAr;
+    cvfList = cvfList.expand(addWeighted.curry(vowelsList));
+    cvfList = cvfList.expand(addWeighted.curry(finalList));
+    csvfList = csvfList.expand(addWeighted.curry(secondList));
+    csvfList = csvfList.expand(addWeighted.curry(vowelsList));
+    csvfList = csvfList.expand(addWeighted.curry(finalList));
+    wordList = wordList.concat(cvfList);
+    wordList = wordList.concat(csvfList);
+    averageWeight(wordList);
+    wordList = wordList.sort(function (first, match) {
+        return parseInt(match[1]) - parseInt(first[1]);
+    });
+    return wordList;
+}
+
+function addWordToList(word, wordArray, availList, list) {
+    /* if  already in list then don't add it */
+    var i = 0,
+        wordArrayLength = wordArray.length;
+    for (i = 0; i < wordArrayLength; i++)  {
+        var langWordElem = wordArray[i],
+            langWord = langWordElem[0],
+            weight = langWordElem[1],
+            availIndex =  availList.indexOf(langWord),
+            oldWord = list[word] && list[word][0],
+            oldWordIndex = availList.indexOf(oldWord);
+        if (availIndex > -1) {
+            if (list[word] === undefined) {
+                list[word] = [langWord, weight];
+                availList[availIndex] = undefined;
+                availList.splice(availIndex,1);
+                break;
+               // console.log(langWord + " " +
+               //     availList.indexOf(langWord));
+            //} else if (list[word] && list[word][1] < weight
+            //        && oldWordIndex === -1 ) {
+            //    list[word] = [langWord, weight];
+            //    availList.push(oldWord);
+            }
+        }
     }
-    return phonEntry;
+    //console.log("length " +availList.length);
+    return availList;
+    
 }
 
 function main() {
-    var fileContents = io.fileRead("sortedWordList.edited.txt"),
+    var fileContents = io.fileRead("testWordList.txt"),
         wordLines = stringToWordLines(fileContents),
+        Glyph16File = io.fileRead("16GlyphWordList.txt"),
+        G16Lines = stringToWordLines(Glyph16File),
+        G16List = wordOfEachLine(0, G16Lines),
+        Glyph24File = io.fileRead("24GlyphWordList.txt"),
+        G24Lines = stringToWordLines(Glyph24File),
+        G24List = wordOfEachLine(0, G24Lines),
         mainWords = wordOfEachLine(0, wordLines),
         phonJSON = io.fileRead("genPhon.json"),
         phonObj = JSON.parse(phonJSON),
         rootPhonJSON = io.fileRead("rootPhon.json"),
-        rootPhonObj = JSON.parse(rootPhonJSON),
+        rootPhonObj = {} ,//JSON.parse(rootPhonJSON),
         transEntry,
         phonEntry,
         consonantArray,
         vowelArray,
-        phonWord;
+        phonWord,
+        glyphWord,
+        rootPhonEntry;
     // mainWords.map(getTranslations.curry(transObj));
-    mainWords.forEach(function (word) {
+    wordLines.forEach(function (line, index) {
+        var word = line[0],
+            gram = line[1];
         phonEntry = phonObj[word];
         rootPhonEntry = rootPhonObj[word];
+        if (rootPhonEntry === undefined) {
+            rootPhonEntry = new RootPhonEntry();
+        }
         // be add ob sub entry for each lang ya
         allPhonLangs.forEach(function (langCode) {
             phonWord = phonEntry[langCode];
+        if (phonWord !==  undefined) {
+            if (index > (G16List.length/1.6|0)) {
+                glyphWord = ipaTo24Glyph(phonWord);
+            } else {
+                glyphWord = ipaTo16Glyph(phonWord);
+            }
+        }
+        if (langWeights[langCode] === undefined) {
+            throw new Error("undefined langWeight for " +
+                langCode);
+        }
+        addGlyphs(rootPhonEntry, glyphWord,
+            langWeights[langCode]);
         });
-        rootPhonEntry.consonantArray = consonantArray;
-        rootPhonEntry.vowelArray = vowelArray;
+        if (gram === "G") {
+            G24List = addWordToList(word, genGram(rootPhonEntry),
+                G24List, gramList);
+        } else {
+            G24List = addWordToList(word, genRoot(rootPhonEntry),
+                G24List, rootList);
+        }
+        rootPhonObj[word] = rootPhonEntry;
     });
+        console.log(gramList);
+        console.log(rootList);
     io.fileWrite("rootPhon.json", JSON.stringify(rootPhonObj));
 }
 

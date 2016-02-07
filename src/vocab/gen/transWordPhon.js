@@ -92,7 +92,8 @@ var io = require("../../lib/io"),
         "fi", "el", "ka", "cy", "pl", "sr", "lt"],
     allPhonLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt", "zhy", "es"],
+        "fi", "el", "ka", "cy", "pl", "sr", "lt", "zhy", "es",
+        "th"],
     PhonEntry = function () {
         this.en = "";
         //allPhonLangs.forEach(function (code) {
@@ -156,7 +157,7 @@ function updateTranslationEntry(entry, word) {
     Object.keys(entry).forEach(function (key) {
         if (entry[key] === "") {
             translation = translateWord(word, key);
-            console.log(translation);
+            //console.log(translation);
             entry[key] = translation;
         }
     });
@@ -171,6 +172,7 @@ function phonateWord(word, inLangCode) {
     if (inLangCode === "en") {
         inLangCode = "en-us";
     }
+    word = word.replace(/\"/g,"");
     command = 'echo "' + word + '" | espeak --stdin --ipa -q ' +
         " -v " + inLangCode;
     try {
@@ -216,12 +218,14 @@ function arabicToIPA(word) {
     word = word.replace("ﺼ","ts");
     word = word.replace("ﺎ","a");
     word = word.replace("ﻟ","l");
+    word = word.replace("ﻤ","m");
     word = word.replace("ﻟ","l");
     word = word.replace("ﻠ","l");
     word = word.replace("ﺭ","r");
     word = word.replace("ﻛ","k");
     word = word.replace("ﻴ","ji");
     word = word.replace("ﺴ","ʃ");
+    word = word.replace("ﺵ","ʃ");
     word = word.replace("ﻐ","f");
     word = word.replace("ﻳ","ja");
     word = word.replace("ﻓ","f");
@@ -394,63 +398,64 @@ function arabicToIPA(word) {
     word = word.replace("ﺄ","ʔaː");
     word = word.replace("ﺎ","ʔaː");
     word = word.replace("ﺊ","ji");
-    console.log("word " +word);
+    //console.log("word " +word);
     return word;
 }
 function thaiToIPA(word) {
-    word.replace("บ", "b"); 	 
-    word.replace("ฎ", "d"); 	
-    word.replace("ด", "d");   
-    word.replace("ฝ", "f");	
-    word.replace("ฟ", "f");  
-    word.replace("ห", "h"); 	
-    word.replace("ฮ", "h");    
-    word.replace("ญ", "j"); 	
-    word.replace("ย", "j");    
-    word.replace("ก", "k"); 	
-    word.replace("ข", "x"); 	
-    word.replace("ฃ", "x");   
-    word.replace("ค", "x");   
-    word.replace("ฅ", "x");   
-    word.replace("ฆ", "x");   
-    word.replace("ล", "l"); 	
-    word.replace("ฬ", "l");   
-    word.replace("ม", "m"); 	
-    word.replace("ณ", "n"); 	
-    word.replace("น", "n");   
-    word.replace("ง", "ŋ"); 	
-    word.replace("—", "ɲ"); 	  
-    word.replace("ป", "p"); 	
-    word.replace("ผ", "pʰ");
-    word.replace("พ", "pʰ");  
-    word.replace("ภ", "pʰ");    
-    word.replace("ร", "r"); 	
-    word.replace("ซ", "s"); 	
-    word.replace("ศ", "s");    
-    word.replace("ษ", "s");    
-    word.replace("ส", "s");    
-    word.replace("ฏ", "t"); 	
-    word.replace("ต", "t");    
-    word.replace("ฐ", "tʰ");
-    word.replace("ฑ", "tʰ");
-    word.replace("ฒ", "tʰ");
-    word.replace("ถ", "tʰ");
-    word.replace("ท", "tʰ");
-    word.replace("ธ", "tʰ");
-    word.replace("จ", "tɕ"); 
-    word.replace("ฉ", "tɕʰ");
-    word.replace("ช", "tɕʰ");
-    word.replace("ฌ", "tɕʰ"); 
-    word.replace("ว", "w"); 	
-    word.replace("อ", "ʔ"); 	
-    word.replace("ะ", "ʔ");   
-    word.replace("อย", "j"); 
-    word.replace("หม", "m");     
-    word.replace("หล", "l");     
-    word.replace("หน", "n");     
-    word.replace("หย", "j");     
-    word.replace("หง", "ŋ");     
-    word.replace("หร", "r");     
+    word = word.replace(/บ/g, "b"); 	 
+    word = word.replace(/ฎ/g, "d"); 	
+    word = word.replace(/ด/g, "d");   
+    word = word.replace(/ฝ/g, "f");	
+    word = word.replace(/ฟ/g, "f");  
+    word = word.replace(/ห/g, "h"); 	
+    word = word.replace(/ฮ/g, "h");    
+    word = word.replace(/ญ/g, "j"); 	
+    word = word.replace(/ย/g, "j");    
+    word = word.replace(/ก/g, "k"); 	
+    word = word.replace(/ข/g, "x"); 	
+    word = word.replace(/ฃ/g, "x");   
+    word = word.replace(/ค/g, "x");   
+    word = word.replace(/ฅ/g, "x");   
+    word = word.replace(/ฆ/g, "x");   
+    word = word.replace(/ล/g, "l"); 	
+    word = word.replace(/ฬ/g, "l");   
+    word = word.replace(/ม/g, "m"); 	
+    word = word.replace(/ณ/g, "n"); 	
+    word = word.replace(/น/g, "n");   
+    word = word.replace(/ง/g, "ŋ"); 	
+    word = word.replace(/—/g, "ɲ"); 	  
+    word = word.replace(/ป/g, "p"); 	
+    word = word.replace(/ผ/g, "pʰ");
+    word = word.replace(/พ/g, "pʰ");  
+    word = word.replace(/ภ/g, "pʰ");    
+    word = word.replace(/ร/g, "r"); 	
+    word = word.replace(/ซ/g, "s"); 	
+    word = word.replace(/ศ/g, "s");    
+    word = word.replace(/ษ/g, "s");    
+    word = word.replace(/ส/g, "s");    
+    word = word.replace(/ฏ/g, "t"); 	
+    word = word.replace(/ต/g, "t");    
+    word = word.replace(/ฐ/g, "tʰ");
+    word = word.replace(/ฑ/g, "tʰ");
+    word = word.replace(/ฒ/g, "tʰ");
+    word = word.replace(/ถ/g, "tʰ");
+    word = word.replace(/ท/g, "tʰ");
+    word = word.replace(/ห/g, "tʰ");
+    word = word.replace(/ธ/g, "tʰ");
+    word = word.replace(/จ/g, "tɕ"); 
+    word = word.replace(/ฉ/g, "tɕʰ");
+    word = word.replace(/ช/g, "tɕʰ");
+    word = word.replace(/ฌ/g, "tɕʰ"); 
+    word = word.replace(/ว/g, "w"); 	
+    word = word.replace(/อ/g, "ʔ"); 	
+    word = word.replace(/ะ/g, "ʔ");   
+    word = word.replace("อย", "j"); 
+    word = word.replace("หม", "m");     
+    word = word.replace("หล", "l");     
+    word = word.replace("หน", "n");     
+    word = word.replace("หย", "j");     
+    word = word.replace("หง", "ŋ");     
+    word = word.replace("หร", "r");     
 //        ◌ั◌ 	
 //e 	เ◌ะ, 
 //        เ◌็◌ 
@@ -466,6 +471,7 @@ function thaiToIPA(word) {
 //ɯ 	◌ึ, ◌ึ◌ 
 //ɤ 	เ◌อะ 	
 //aː 	◌า, ◌า◌ 
+    word = word.replace(/า/g,"a:");
 //eː 	เ◌, เ◌◌ 
 //ɛː 	แ◌, แ◌◌ 
 //iː 	◌ี, ◌ี◌ 	◌ີ
@@ -478,10 +484,41 @@ function thaiToIPA(word) {
 //iə 	เ◌ีย, เ◌ีย◌ 
 //uəʔ 	◌ัวะ 
 //uə 	◌ัว, ◌ว◌ 
+    word = word.replace(/ว/g,"uə");
 //ɯəʔ 	เ◌ือะ 
 //ɯə 	เ◌ือ, เ◌ือ◌ 
     return word;
 } 
+
+function zhyTones(word) {
+    word = word.replace(/1/g,"˥˧");
+    word = word.replace(/2/g,"˧˥");
+    word = word.replace(/3/g,"˧");
+    word = word.replace(/4/g,"˨˩");
+    word = word.replace(/5/g,"˩˧");
+    word = word.replace(/6/g,"˨");
+    word = word.replace(/7/g,"˥");
+    word = word.replace(/8/g,"˧");
+    word = word.replace(/9/g,"˨");
+    return word;
+}
+function zhTones(word) {
+    word = word.replace(/1/g,"˥");
+    word = word.replace(/2/g,"˧˥");
+    word = word.replace(/3/g,"˩˦");
+    word = word.replace(/4/g,"˥˩");
+    word = word.replace(/5/g,"");
+    return word;
+}
+function viTones(word) {
+    word = word.replace(/1/g,"˧");
+    word = word.replace(/2/g,"˨˩");
+    word = word.replace(/3/g,"˧˥");
+    word = word.replace(/4/g,"˧˩");
+    word = word.replace(/5/g,"˧˥ˀ");
+    word = word.replace(/6/g,"˧˨ˀ");
+    return word;
+}
 
 function updatePhonemicEntry(phonEntry, transEntry) {
     var translation,
@@ -489,9 +526,10 @@ function updatePhonemicEntry(phonEntry, transEntry) {
     Object.keys(phonEntry).forEach(function (key) {
     if (key === "th") {
         word = transEntry[key];
-        console.log("word " + word);
-        translation = thaiToIPA(word);
-        console.log("translation " + translation);
+        if (word !== undefined) { 
+            translation = thaiToIPA(word);
+        }
+        //console.log("th translation " + translation);
     } else {
         if (phonEntry[key] === "") {
             if (key === "zhy") {
@@ -501,11 +539,20 @@ function updatePhonemicEntry(phonEntry, transEntry) {
             }
             if (key === "ar") {
                 translation = arabicToIPA(word);
+            } else if (key === "zhy") {
+                translation = phonateWord(word, key);
+                translation = zhyTones(translation);
+            } else if (key === "zh") {
+                translation = phonateWord(word, key);
+                translation = zhTones(translation);
+            } else if (key === "vi") {
+                translation = phonateWord(word, key);
+                translation = viTones(translation);
             } else {
                 translation = phonateWord(word, key);
             }
-            console.log("word " +word);
-            console.log("translation " +translation);
+            //console.log("word " +word);
+            //console.log("translation " +translation);
             phonEntry[key] = translation;
         }
     }
@@ -514,12 +561,12 @@ function updatePhonemicEntry(phonEntry, transEntry) {
 }
 
 function main() {
-    var fileContents = io.fileRead("sortedWordList.edited.txt"),
+    var fileContents = io.fileRead("sortedComboList.txt"),
         wordLines = stringToWordLines(fileContents),
         mainWords = wordOfEachLine(0, wordLines),
-        transJSON = io.fileRead("genTrans.json"),
+        transJSON = io.fileRead("genTrans2.json"),
         transObj = JSON.parse(transJSON),
-        phonJSON = io.fileRead("genPhon.json"),
+        phonJSON = io.fileRead("genPhon2.json"),
         phonObj = JSON.parse(phonJSON),
         transEntry,
         phonEntry;
@@ -536,9 +583,14 @@ function main() {
                 phonEntry[langCode] = "";
             }
         });
-        phonObj[word] = updatePhonemicEntry(phonEntry, transEntry);
+        if (transEntry === undefined) {
+            console.log(word + " undefined ");
+        } else {
+            phonObj[word] = updatePhonemicEntry(phonEntry, 
+                transEntry);
+        }
     });
-    io.fileWrite("genPhon.json", JSON.stringify(phonObj));
+    io.fileWrite("genPhon2.json", JSON.stringify(phonObj));
 }
 
 main();

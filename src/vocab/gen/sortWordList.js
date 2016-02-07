@@ -88,7 +88,7 @@ function compareToWordListIndex(wordList, mainWordLine,
 }
 
 function main() {
-    var fileContents = io.fileRead("wordList.txt"),
+    var fileContents = io.fileRead("combinedList.txt"),
         wordLines = stringToWordLines(fileContents),
         freqFileContents = io.fileRead("english-30000.txt"),
         freqWordLines = stringToWordLines(freqFileContents),
@@ -98,7 +98,7 @@ function main() {
     wordLines.sort(compareToWordListIndex.curry(freqWords));
     result = wordLinesToString(wordLines);
     console.log(result);
-    io.fileWrite("sortedWordList.txt", result);
+    io.fileWrite("sortedComboList.txt", result);
 }
 
 main();

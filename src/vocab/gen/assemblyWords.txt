@@ -1,0 +1,7 @@
+copy
+add
+subtract
+shift
+jump
+load
+name

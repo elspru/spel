@@ -5674,7 +5674,7 @@ villanaous AI's.
 http://qz.com/581664/the-eye-opening-things-that-made-us-smarter-in-2015/
 1932 I have a vague idea for the 4KB (page) layout, 
 also need idea for the 65KB (operating system level) layout. 
-} 05 Jan 2015
+} 05 Jan 2016
 0639 so still have to figure out translationUpdate
 0821 I think I'm getting close to figureing it out. 
 on a similar topic I think I might be able to parallelize the
@@ -5683,7 +5683,7 @@ I simply have to get it to have a process for each file, rather
 than doing the files in sequence. 
 0831 great it is working, will try to figure out parallelizing
 it next time. 
-} 07 Jan 2015
+} 07 Jan 2016
 2152 actually lets try using it first, there should be enough
 vocab for a reasonably wide level of expression. 
 2330 it seems that javs language has some serious sideffects
@@ -5691,11 +5691,307 @@ which ruins anything that gets translated afterwards.  very
 unfortunate..
 2336 oh whoopee I managed to fix it, was the format variable,
 have to reset it after each languages plays around with it. 
-} 08 Jan 2015
+} 08 Jan 2016
 0651 seems all translationUpdate is now working well,
 while I can't parallelize it with webWorkers, 
 I may be able to parallelize it with bash,
 in a pseudo web workers fashion. 
 1729 okay made the bash script seems to work good.
-} 11 Jan 2015
+} 11 Jan 2016
 2240 working on a meditation log app
+} 13 Jan 2016
+2324 bare bones of meditation log app almost complete.
+simply need calculation of day's total, and activity-total.
+ then the stats screen and the meditation screen,
+also the uploading screen, and finally the entry removal screen.
+} 14 Jan 2016
+0541 find previous function necessary, for elements of entries
+} 18 Jan 2016
+2226 been working on meditation app recently. 
+Igor suggested Bootstrap for styling, it seems interesting. 
+I'm thinking will implement it with Scrollspy menu,
+as that is the most compatible with the current HTML layout.
+another option would be to make menu buttons better. 
+another thing I'll have to do is make a bootstrap form,
+instead of the current "add entry" table. 
+} 19 Jan 2016
+0738 idea for webapp,
+make an Entry object,  to store entries without formatting
+information. 
+that way can output them with the latest formatting information,
+also makes it easier to access components of it. 
+will have to make a function to harvest the old entries,
+this can be the same function as for harvesting from upload. 
+0741 afterwards will need sort by date,
+something to remove entries, and edit entries. 
+} 19 Jan 2015
+2303 really need a view entries and edit entries ability. 
+so probably the view entries would allow people to also edit and
+remove entries, through the use of some buttons, probably in
+place of where the record button used to be. 
+2305 the upload entries will also be greatly beneficial, since
+I'm planning on upgrading to Firefox OS 2.5 or 2.2, which will
+probably clear the cached version of my app.
+Another thing Is after record entries should go to the view
+Stats screen. 
+} 25 Jan 2016
+1015 working on rootWordGen and pre-sort. 
+should really have a minimum number of world languages,
+which covers the majority of major language families. 
+issue with having too many is they all need espeak support. 
+2205 made the sort list portion of it. next is the getting
+translations for all of them and storing them in some kind of
+datatype. 
+} 26 Jan 2016
+2103 so lets think of the next stage. 
+I need function that takes word, and language code,
+then returns the resulting translation. 
+can extract it from translationUpdate.  
+2145 okay wrote thing to get translation from google translate
+and save, them, currently waiting for it.  guess I'll find out
+if it worked tommorrow. wanted to do a smaller trial run than
+all the words, but it seems it's hard to cancel it because of
+the try catch loop.
+2150 while I wait I'll see what I can do about the weights. it
+would be good to know what the populations of the language
+families are. 
+2158 well pie chart of world languages by percentage of
+speakers. indicates IE 45%, Sino-Tibetan 22%, Altaic 6%,
+Niger-Congo 6%, Afro-Asiatic 5%, Austronesian 5%, Dravidian 4%, 
+so lets see how that goes with the languages we have available
+https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Languages.png/450px-Languages.png
+Indo-European 45% 3,285 million {
+//      ob English (IE, West Germanic) 840 and
+//      ob Spanish (IE, Romance) 490 and
+//      ob Hindi  (IE, Indo-Aryan) 380 and
+//      ob Welsh (IE, Celtic) and
+//      ob Greek (IE, Hellenic) ya
+//      ob Russian (IE, Slavic) and
+//      ob Swedish (IE, North Germanic) and
+//      ob Farsi (IE, Indo-Iranian) and }
+Sino-Tibetan 22% 1,606 million{ 
+    //      ob Chinese (Sino-Tibetan) 1030 and }
+Altaic 6%  438 million{ //      ob Turkish (Turkic) and }
+Niger-Congo 6% 438 million {//  ob Swahili (Niger-Congo) and }
+Austronesian 5%+ Tai-Kadai 1.5%, 365+110 million{
+    //      ob Indonesian (Austronesian) and }
+Afro-Asiatic 5% 365 million{ //      ob Arabic (Afro-Asiatic) }
+Dravidian 5% 365 million{ //      ob Tamil (Dravidian) }
+Uralic 0.4%, 28 million { //      ob Finnish (Uralic)  }
+Kartvelian 0.07% 5 million { //      ob Georgian (Kartvelian)  }
+2214 Okay lets look at some real numbers to corroborate things
+Mandarin 1030 million
+English 840 million
+Arabic 490 million
+Spanish 490 million
+Hindi 380 million
+Russian 170 million
+Portuguese 200 million (Romance +Spanish)
+Bengali 210 million (Indo-Aryan +Hindi)
+French 220 million 
+Malay/Indonesian 210 million
+Urdu 160 million (Indo-Aryan, +Hindi)
+Japanese 130 million (Altaic, +Turkish)
+German 145 million
+Javanese 84 million (Austronesian, +Indonesian)
+Telugu 79 million (Dravidian, +Tamil)
+Tamil 77 million 
+Korean 77 million (Altaic, +Turkish)
+Wu 77 million (Sino-Tibetan, +Cantonese/Mandarin)
+Marathi 75 million (Indo-Aryan, +Hindi)
+Turkish 71 million
+Vietnamese 68 million 
+Italian 64 million
+Punjabi 63 million (Indo-Aryan, +Hindi)
+Yue 62 million (Sino-Tibetan, ~+Mandarin)
+Farsi 57 Million
+Swahili 150 million Niger-Congo (600 million)
+Tai-Kadai 100 million +Austronesian/Indonesian
+2233 so I can probably allow most of the european languages that
+have espeak variants represent themselves. that gives a final
+list of:
+Hindi (Indo-Aryan 1500)
+Mandarin 1030 million
+Yue 62+Wu 77 million (Sino-Tibetan, ~+Mandarin) [139]
+English 840 million
+German 145 million
+Swedish (North Germanic, 9+6+5+.3+.1 = 20.4) 21
+Swahili Niger-Congo [600 million]
+Arabic 490 million
+Malay/Indonesian (Austronesian 386 + 100 Tai Kadai) [486] 
+Vietnamese 68 million (Astroasiatic 71 million)
+Turkish (Turkic 170 million) 6 mongol + 77 korean + 130 jap= 383
+Russian for Eastern Slavic Languages 325 million
+Tamil for Dravidian 210 million
+Farsi (200 mil Iranian Languages)
+Spanish 490 million
+French 220 million 
+Portuguese 200 million 
+Italian 64 million
+Finnish, Uralic  28 million 
+Greek, (hellenic 13)
+Georgian, Kartvelian  5 million 
+Welsh, (celtic 1.4) 2
+Polish for Western Slavic 57 million
+Serbian for South Slavic 32 million
+Lithuanian for Baltic 5 million
+2251 so I'll have to add an option to add the new languages
+to the existing translation JSON. that way can have all the
+languages.  Then I'll need to make the espeak level entries,
+which will espeak translate from the google translations. 
+And after that we'll do the weighing. 
+} 27 Jan 2016
+0953 so it seems that the initial translations are complete,
+now I'll add the additional languages. 
+1033 so I'm going to be splitting the rootWordGen, since
+translation takes so long,  and part of it is finished I can
+start working on the phoneme stuff. Though I guess I also need
+to work on my class material for tommorrow. 
+} 29 Jan 2016
+0950 so finally added an arabicToIPA yesterday.
+am working on thaiToIPA. but should also make my phoneme
+harvesting. which I guess will be another file.  
+rootWordPhon seems a good title for it, 
+so maybe I'll move the old rootWordPhon to transWordPhon
+1027 anyways need to figure out an algorithm.
+we can load up genPhon.json and sortedWordList.edited.txt
+we will be generating rootPhon.json the object will have
+this.consonantArray
+this.vowelArray
+this.initialConsonatArray
+this.middleConsonantArray
+this.finalConsonantArray
+They will be sorted based on the weights of the languages,
+which will be internal to the algorithm that generates them.
+1032 so at a later stage will have to downmix the consonants.
+Or we can downmix right now,  and have each object have the
+above, but one for this.SixteenGlyph and this.TwentyFourGlyph
+or we can simply have two different objects of the same kind but
+with different names. 
+} 29 Jan 2016
+2215 did some meditation, 
+ideas to put up a flyer at bleeding carrot, and at post of
+driveway about the laughing meditation. 
+also to start practicing for the pame benza meditation that I
+used to do on the slopes of tibet 900 years ago.  so I could
+later perform it at the open mic. 
+} 01 Feb 2016
+2018 hmmm I wonder if with new phonotactics may not need word
+alignement, so could use h or x for words. 
+makcakhi
+don't know if it is ma kcak or mak cak
+hmakhcakhi
+2130 so going to be using the 5bit version for full vocab,
+and going to have 2 clicks for local or temporary words.
+2153 due to highly regular layout of the words CCVC with h for
+padding, can probably have a condensed representation. 
+22 consonants does require 5 bits, though only 12 can be the
+second consonant, and 16 can be final, which can both be
+represented with 4 bits, leaving 3 bits to express the vowel
+though that doesn't allow expression of tone.
+unless we consider the voiced nature of initial consonant,
+since that would change f to v and c to j, and s to z
+which would lower it to 3 bits for second consonant,
+leaving 4 bits for vowel.
+2204 so layout can be 5+3+3+1+4 CSVTF
+2207 we might need a slightly modified layout for short words
+though,  which can be signaled by choosing one of the empty
+consonats, since there are 22 consonants, but can express 32, 
+2212 this can work for 2 letter words, but not three letter.
+2219 well maybe it could if h can fit in first 3 bits.
+for instance if h was 0, then simply avoid assigning, 8, 16, and
+24, then will know that the next 5 bits will be start of small
+word. otherwise consonant 30 or "." could signal it is one of
+the 2 letter words.  so we are looking at:
+5+3+3+1+4 CSVTF
+3+5+3+1+4 HCVTF
+3+5+3+1+2 .CSVT
+2228  grammar word be if first 3 bits are 1's,
+    so can't assign 31, 23, or 7 , in addition to 16, 18, 24
+2234 I wonder what the vocabulary range is.
+2258 with tones it is 10,100 words, without it is 6,700
+2300 14 bits would be enough to list them all sequentially,
+so the encoding is 2 bits inefficient. but is fairly
+straightforward.  certainly cheaper than 5*5 for the longest
+words with tone (25 bits). 
+2303 but yeah with looser phonotactics can have much larger
+vocabularies. 
+2308 thinking perhaps the last two bits of grammar words could 
+be a checksum for the phrase or sentence. 
+2323 so it would seem that it should be enough, considering can
+always have multiple syllable words. 
+} 03 Feb 2016
+0733 combined special english, oxford english, and wordnet, for
+the full list which will be for the 24 glyph language. 
+1010 made a 28 glyph lang
+1317 if have 13 glyph version can have roots pronounceable by
+75% of language speakers 
+1331 the bit 3 alphabet has 78 syllables. 
+    24 of them are grammar words, 54 are root syllables
+should be easily pronounceable by 85% of speakers. 
+1954 anyways what is the next phase of programming?
+2200 aggregating the phonemes once generated
+2203 it should be done at time of language translation,
+since we know the key, and thus the value of the phonemes
+} 04 Feb 2016
+1551 idea for checking for uniqueness of definition before
+commiting them to root word list. For instance if two words have
+the same definition in three different languages, then the
+shorter of the two (english) words will be kept, and the other
+will be blacklisted. 
+1637 can also have a redlist where words that have the same
+spelling in multiple (three or more) languages would go, 
+as it indicates borrowing. may have to lowercase them all.
+1638 then can also have a greenlist of words which are have
+unique definitions in all languages, as well as unique
+spellings. 
+1657 in relation to the monostary, tibetan bodhisattva vows, 
+with new monasticism. the goal is to bring awakening to all 
+people, not just those who follow a celebate lifestyle. 
+1. I vow to actualize and live according to my full moral and ethical capacity.
+2. I vow to live in solidarity with the cosmos and all living beings.
+3. I vow to live in deep nonviolence.
+4. I vow to live in humility and to remember the many teachers and guides who assisted me on my spiritual path.
+5. I vow to embrace a daily spiritual practice.
+6. I vow to cultivate mature self-knowledge.
+7. I vow to live a life of simplicity.
+8. I vow to live a life of selfless service and compassionate action.
+9. I vow to be a prophetic voice as I work for justice, compassion and world transformation."
+from  The new monasticism: an interspiritual manifesto for
+contemplative life"
+} 05 Feb 2016
+0930 so what to do now.. I guess we can continue with the
+phoneme aggregation since we started that, and then the
+uniqueness after, even though it would later be happening
+before the phoneme aggregation stage, or even the phoneme
+translation station, due to different pronunciation rules. 
+1107 okay finished phoneme aggregation stage, but now am excited
+about word generation stage. I'm thinking can use a simpler
+algorithm that simply generates all possible words in order of
+preference, and then they would be matched to the available
+words. 
+1109 so I'll have to think about the best algorithm for it.
+1348 okay implemented it,  need something that when run low on
+words 
+1352 now need something to switch from 16glyph mode to 24glyph
+mode after a certain number of words. lets say golden ratio,
+so 682, though number of of grammar words and roots are
+different. there are 144 grammar words, 960 roots.
+so 593 for roots, 88 for grammar words. 
+or even 39 for grammar words, since that is the shortest ones.
+and 120 for the root words, since those are the shortest ones. 
+1506 have to add the weight of the words to each word, so can
+sort by highest weight. can add an average-weight letter to
+shorter words.
+1733 have to turn cvList and such into arrays.
+} 06 Feb 2016
+0910 instead of adding an extra glyph value, can divide all the
+weights by the number of letters, to get a better approximation
+of how many speakers the words represents
+1742 great so that is done, next is the uniqueness stuff.
+} 07 Feb 2015
+1048 so I am inspired to work on the meditation app again, will
+set the colors to lime or chartreuse and green apple.
+also set the form to be in proper order. 
+then also set up the drop down menus with other option for the
+currently empty fields

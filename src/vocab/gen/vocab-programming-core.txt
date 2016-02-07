@@ -1,0 +1,44 @@
+ASM	C++	NSM	LeipJak	Borean	PIE	FrameN	SpecEng	Oxford	WordNet	
+registr		I~me	I/me				self	I/me	self
+\n	;	do		                	do      do	 	
+label	:	place	name	                locale  place	label	 
+pointer	*	this	this                                                    
+address	&	at                                                         
+content		inside  	                                	 
+PC		here    	                                	 
+call	f();	want    	                                	 
+ret	return		come	                
+memory		know    	                                	 
+nop		moment  	                                	 
+copy	=	like~as 	                                	 
+load	=	become  	                                	 
+store	=	belong		                                	 
+add	+	more		                	more    	 	
+sub	-	little		                	less    	 	
+div	/	few		                cut	divide  	 cut	
+mul	*	many			        quant	many    	 multipl
+jump	goto	move	go
+if/cond	if	if
+jb	<	below
+ja	>	above
+compare	==	same
+not	!	not
+and	&&	near
+or	||	else
+shift
+roll
+_start:	main()	live
+import	include	can
+	exit()	die
+	max()	big
+	min()	small
+	print	say
+	get	hear
+	(argv)	because
+	str""	words
+	vector	words
+	array[]	words
+	
+
+
+

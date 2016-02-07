@@ -155,11 +155,12 @@ function updateTranslationEntry(entry, word) {
 }
 
 function main() {
-    var fileContents = io.fileRead("sortedWordList.edited.txt"),
+    var fileContents = io.fileRead("sortedComboList.txt"),
         wordLines = stringToWordLines(fileContents),
         mainWords = wordOfEachLine(0, wordLines),
-        transJSON = io.fileRead("genTrans.json"),
+        transJSON = io.fileRead("genTrans2.json"),
         transObj = JSON.parse(transJSON),
+        count = 0,
         entry;
     // mainWords.map(getTranslations.curry(transObj));
     mainWords.forEach(function (word) {
@@ -174,9 +175,15 @@ function main() {
             }
         });
         transObj[word] = updateTranslationEntry(entry, word);
+        count += 1;
+        if (count > 100) {
+            io.fileWrite("genTrans2.json", 
+                JSON.stringify(transObj));
+            count = 0;
+        }
     });
     console.log(JSON.stringify(transObj));
-    io.fileWrite("genTrans.json", JSON.stringify(transObj));
+    io.fileWrite("genTrans2.json", JSON.stringify(transObj));
 }
 
 main();

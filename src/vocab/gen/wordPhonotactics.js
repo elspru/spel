@@ -26,42 +26,43 @@ var Glyph3Alphabet = 	["m","k","i"];
 var Bit2Alphabet = 	["m","k","i","y"];
 var Glyph5Alphabet = 	["m","k","i","y","p",];
 var Glyph7Alphabet = 	["m","k","i","a","y","p","w"];
-var Bit3Alphabet = 	["m","k","i","a","y","p","w","n"];
+var Bit3Alphabet = 	["m","k","i","a","y","p","w","h"];
 var Glyph12Alphabet = 	["m","k","i","a","y","u","p","w",
     		       	 "n","s","t","l"];
-var Bit4Alphabet = 	["m","k","i","a","y","u","p","w",
-    		       	 "n","s","t","l","h","f",".","c"];
-var Bit4AlphabetM = 	["m","k","i","y","p","w",
-    		       	 "n","s","t","l","h","f",".","c"];
-var Glyph19Alphabet = 	["m","k","i","a","y","u","p","w",
-    		       	 "n","s","t","l","h","f",".","c",
-		       	 "e","o","r"];
-var Glyph24Alphabet = 	["m","k","i","a","y","u","p","w",
-    		       	 "n","s","t","l","h","f",".","c",
-		       	 "e","o","r","b","g","d","z","j"];
-var Glyph24AlphabetM = 	["m","k","i","y","p","w",
-    		       	 "n","s","t","l","h","f",".","c",
-		       	 "r","b","g","d","z","j"];
-var Glyph31Alphabet = 	["m","k","i","a","y","u","p","w",
-    		       	 "n","s","t","l","h","f",".","c",
-		       	 "e","o","r","b","g","d","z","j",
-			 "v","q","7","_","6","1","x",];
-var Bit5Alphabet = 	["m","k","i","a","y","u","p","w",
-    		       	 "n","s","t","l","h","f",".","c",
-		       	 "e","o","r","b","g","d","z","j",
-			 "v","q","9","5","4","1","x","6"];
+var Glyph12Alphabet = 	["m","k","i","a","y","u","p","w",
+    		       	 "n","s","t","h"];
+var Bit4Alphabet = 	["m","k","i","a", "y","u","p","w",
+    		       	 "n","s","t","l", "h","f",".","c"];
+var Glyph19Alphabet = 	["m","k","i","a", "y","u","p","w",
+    		       	     "n","s","t","l", "h","f",".","c",
+		       	         "e","o","r"];
+var Glyph24Alphabet = 	["m","k","i","a", "y","u","p","w",
+    		       	     "n","s","t","l", "h","f",".","c",
+		       	         "e","o","r","b", "g","d","z","j"];
+var Glyph28Alphabet = 	["m","k","i","a", "y","u","p","w",
+    		       	     "n","s","t","l", "h","f",".","c",
+		       	         "e","o","r","b", "g","d","z","j",
+			             "v","q","6","x"];
+var Glyph31Alphabet = 	["m","k","i","a", "y","u","p","w",
+    		       	     "n","s","t","l", "h","f",".","c",
+		       	         "e","o","r","b", "g","d","z","j",
+			             "v","q","7","_", "6","1","x"];
+var Bit5Alphabet = 	["m","k","i","a", "y","u","p","w",
+    		       	 "n","s","t","l", "h","f",".","c",
+		       	     "e","o","r","b", "g","d","z","j",
+			         "v","q","7","_", "x","6","1","8"];
 var alphabet = Bit1Alphabet;
 //var alphabet = Glyph3Alphabet;
 var alphabet = Bit2Alphabet;
 //var alphabet = Glyph5Alphabet;
-//var alphabet = Glyph7Alphabet;
-//var alphabet = Bit3Alphabet;
+var alphabet = Glyph7Alphabet;
+var alphabet = Bit3Alphabet;
 //var alphabet = Glyph12Alphabet;
-var alphabet = Bit4Alphabet;
-var alphabet = Bit4AlphabetM;
+//var alphabet = Glyph12Alphabet;
+//var alphabet = Bit4Alphabet;
 //var alphabet = Glyph19Alphabet;
-var alphabet = Glyph24Alphabet;
-var alphabet = Glyph24AlphabetM;
+//var alphabet = Glyph24Alphabet;
+//var alphabet = Glyph28Alphabet;
 //var alphabet = Glyph31Alphabet;
 //var alphabet = Bit5Alphabet;
 var comment = "C16G kya";
@@ -115,10 +116,10 @@ function strictPhonotacticsSet(){
 	plosiveNasalInitials = false;
 	sonorityPlateau= false;
 	finalAffricates= false;
-	uniquePhonemes = true; 
+	uniquePhonemes = false; 
 	adjacentGlides = false; 
- 	initialSonorityDifference = 0x20;
-	totalSonorityDifference = 0x20;
+ 	initialSonorityDifference = 0x10;
+	totalSonorityDifference = 0x10;
 	sonorityInversion = false;
 	samePhonemeTwice = false;// same phoneme twice
 	adjacentGlides = false;
@@ -132,8 +133,7 @@ function strictPhonotacticsSet(){
 	"u":0x70,
 	"e":0x70,
 	"o":0x70,
-	"2":0x70,
-	"1":0x70,
+	"6":0x70,
 	"y":0x6C,
 	"w":0x6C,
 	"r":0x54,
@@ -143,7 +143,6 @@ function strictPhonotacticsSet(){
 	"q":0x40,
 	"h":0x30,
 	"x":0x30,
-	"6":0x30,
 	"f":0x30,
 	"v":0x30,
 	"c":0x30,
@@ -157,13 +156,15 @@ function strictPhonotacticsSet(){
 	"d":0x10,
 	"k":0x10,
 	"g":0x10,
-	".":0x10
+	".":0x10,
+	"1":0x10,
+	"8":0x10
 };
 // voicing for which are distinguishing those that are strict
 
 alphabet.voicing = {
-	"al":[".","h","i","a","e","o","u","y",
-		"r","l","w","m","n","1","2","q","4","5"],
+	"al":[".","h","i","a","e","o","u","y","6",
+		"r","l","w","m","n","1","2","q","4","5","1","8"],
 	"un":["p","t","k","f","s","c","x"],
 	"vo":["b","d","g","v","z","j","6"]
 }
@@ -187,10 +188,16 @@ alphabet.voicing.checkType = function(glyph,type){
 alphabet.phonemeClass = {
 	".":["."],
 	"H":["h"],
-	"V":["i","a","e","o","u","2","1"],
-	"C":["p","t","k","f","s","c","y","r","l","w","q",
-		"m","n","x","b","d","g","z","j","v","6"],
-	"T":["4","5"],
+	"V":["i","a","e","o","u","6"],
+	"C":["p","t","k","f", "s","c","x",
+         "b","d","g","v", "z","j",
+         "n","m","q","r", "l","y","w"],
+	"F":["p","t","k","f", "s","c","q","m",
+         "n","x","b","d", "g","z","j","v"],
+	"S":["f","s","c","y", "r","w","l","x",
+         "z","j","v"],
+	"T":["7","_"],
+	"L":["1","8"],
 	"n":["n","m","q"], // nasals
 	"f":["f","s","c","x","h","v","z","j","6"], // fricatives
 	"p":["p","t","k","b","d","g"], // plosives
@@ -204,6 +211,12 @@ alphabet.phonemeClass.getType = function(glyph){
 		return "V";
 	if(phonCla["C"].indexOf(glyph)!==-1)
 		return "C";
+	if(phonCla["F"].indexOf(glyph)!==-1)
+		return "F";
+	if(phonCla["S"].indexOf(glyph)!==-1)
+		return "S";
+	if(phonCla["g"].indexOf(glyph)!==-1)
+		return "g";
 	if(phonCla["H"].indexOf(glyph)!==-1)
 		return "H";
 	if(phonCla["T"].indexOf(glyph)!==-1)
@@ -222,15 +235,15 @@ alphabet.phonemeClass.checkType = function(type,glyph){
 var /*array<String>*/ syllableWeight = [
 	[".","V"],
 	["H","V"],
-	["H","V","T","H"],
+	["V","T"],
 	["C","V"],
-	["C","V","T","H"],
-	["C","C","V","H"],
-	["C","C","V","T"],
-   	["C","V","C","H"],
-   	["C","V","T","C"],
-	["C","C","V","C"],
-	["C","C","V","T","C","H"],
+	["C","V","T"],
+	["C","S","V","H"],
+	["C","S","V","T","H"],
+   	["H","C","V","F"],
+   	["H","C","V","T","F"],
+	["C","S","V","F"],
+	["C","S","V","T","F"],
 /*	["C","V","C","C"],
 	["C","V","T","C","C","H"] */
 ];
@@ -248,6 +261,9 @@ function /*array<String>*/ wordsGenerate(
 		return alphabet.filter(alphabetCheck.curry(type));
 	};
 	var alphabetConsonants = alphabetFilter(alphabet,"C");
+	var alphabetFinals = alphabetFilter(alphabet,"F");
+	var alphabetSeconds = alphabetFilter(alphabet,"S");
+	var alphabetGlides = alphabetFilter(alphabet,"g");
 	var alphabetVowels = alphabetFilter(alphabet,"V");
 	var alphabetPauses = alphabetFilter(alphabet,".");
 	var alphabetTones = alphabetFilter(alphabet,"T");
@@ -298,9 +314,9 @@ function /*array<String>*/ wordsGenerate(
 			if (alphabetCheck("H",glyph))
 				return elem+glyph;
 		// if this or previous tone return proper
-	//		if (alphabetCheck("T",glyph)|| 
-	//		    alphabetCheck("T",previousGlyph))
-	//			return elem+glyph;
+			if (alphabetCheck("T",glyph)|| 
+			    alphabetCheck("T",previousGlyph))
+				return elem+glyph;
 		// no glides together
 			if (!adjacentGlides
 			    && alphabetCheck("g",glyph)
@@ -399,6 +415,12 @@ function /*array<String>*/ wordsGenerate(
 		result = result.expand(appendNext.curry(alphabetConsonants));
 	}else if(syllable[i]=="V"){
 		result = result.expand(appendNext.curry(alphabetVowels));
+	}else if(syllable[i]=="F"){
+		result = result.expand(appendNext.curry(alphabetFinals));
+	}else if(syllable[i]=="S"){
+		result = result.expand(appendNext.curry(alphabetSeconds));
+	}else if(syllable[i]=="g"){
+		result = result.expand(appendNext.curry(alphabetGlides));
 	}else if(syllable[i]=="."){
 		result = result.expand(appendNext.curry(alphabetPauses));
 	}else if(syllable[i]=="H"){
@@ -411,7 +433,7 @@ function /*array<String>*/ wordsGenerate(
 };
 
 // su main be function ya
-function main(alphabet,syllableWeight){
+function main(alphabet, syllableWeight){
 	var single = true; // if  single word per line
 	"use strict";
 	// generate all words based on syllable weight
@@ -433,15 +455,16 @@ function main(alphabet,syllableWeight){
 	var remainingAmount = allWordsLength % wordsPerRow;
 	var out;
 	var i;
-	for (i=0; i<fullRowsAmount;i++){
-		out = allWords.slice(i*wordsPerRow,(i+1)*wordsPerRow);
+	for (i = 0; i < fullRowsAmount; i++){
+		out = allWords.slice(i * wordsPerRow, (i + 1) * 
+            wordsPerRow);
 		out = out.join(" ");
 		// quote grammar words
 		if (alphabetCheck("V",out[out.length-1])
-|| alphabetCheck("T",out[out.length-1])) out = out + " li";
+|| alphabetCheck("T",out[out.length-1])) out = out ;//+ " li";
 		// if single make into nominative
-		if (single ) out = out + " hu "+comment+" ya";
+		//if (single ) out = out + " hu "+comment+" ya";
 		console.log(out);
 	}
 }
-main(alphabet,syllableWeight);
+main(alphabet, syllableWeight);
