@@ -27,7 +27,9 @@ var io = require("../../lib/io"),
 
 function sortByLength(wordLines) {
     function byLength(wordLine, otherLine) {
-        return wordLine[0].length - otherLine[0].length;
+        var firstWord = wordLine[0].split(" ")[0],
+            otherWord = otherLine[0].split(" ")[0];
+        return firstWord.length - otherWord.length;
     }
     wordLines.sort(byLength);
     return wordLines;
@@ -61,8 +63,10 @@ function compareToWordListIndex(wordList, mainWordLine,
         matchWordLine) {
     function matchIndex(wordList, word) {
         var match = null,
-            matchEx = new RegExp("^" + word),
+            matchEx,
             index = -1;
+        word = word.replace(/\./,"");
+        matchEx = new RegExp("^" + word + "$")
         while (match === null) {
             index += 1;
             match = wordList[index].match(matchEx);
@@ -87,17 +91,72 @@ function compareToWordListIndex(wordList, mainWordLine,
     return result;
 }
 
+function mergeCompounds(wordLines) {
+    return wordLines.map(function (wordLine) {
+        var firstWord = wordLine[0],
+            secondWord = wordLine[1];
+        if (secondWord === "G") {
+            secondWord = "g";
+        }
+        if (secondWord !== undefined && 
+            secondWord !== "g") {
+            wordLine = [firstWord + "-" + secondWord];
+        }
+        return wordLine;
+    });
+}
+
+function uniqueLines(wordLines) {
+    var matchingWords,
+        allFirstWords = wordLines.map(function (wordLine) {
+            return wordLine[0];
+        }),
+        uniqueLines;
+    uniqueLines = wordLines.filter(function (wordLine, index) {
+        var word = wordLine[0];
+        matchingWords = 
+                allFirstWords.expand(function (defWord, defIndex) {
+            if (word === defWord) {
+                return defIndex;
+            } else {
+                return null;
+            }
+        });
+        if (matchingWords.length >= 1 &&
+                matchingWords[0] !== index){
+            //console.log(word + " " + matchingWords);
+            return false;
+        } else {
+            return true;
+        }
+            
+    });
+    return uniqueLines;
+}
+
 function main() {
-    var fileContents = io.fileRead("combinedList.txt"),
+    var fileContents = io.fileRead("comboWordList.txt"),
         wordLines = stringToWordLines(fileContents),
         freqFileContents = io.fileRead("english-30000.txt"),
         freqWordLines = stringToWordLines(freqFileContents),
         freqWords = wordOfEachLine(1, freqWordLines),
         result = "";
+    //console.log("wl " + JSON.stringify(wordLines));
+    console.log("merging compounds");
+    wordLines = mergeCompounds(wordLines);
+    //console.log(JSON.stringify(wordLines)+ " mc");
+    console.log("unique lines");
+    wordLines = uniqueLines(wordLines);
+    //console.log(JSON.stringify(wordLines) + " ul");
+    console.log("sorting by length");
     wordLines = sortByLength(wordLines);
+    //console.log(JSON.stringify(wordLines) + " sl");
+    console.log("sorting by frequency list");
     wordLines.sort(compareToWordListIndex.curry(freqWords));
+    //console.log(JSON.stringify(wordLines) + " sorted");
     result = wordLinesToString(wordLines);
     console.log(result);
+    console.log("writing result");
     io.fileWrite("sortedComboList.txt", result);
 }
 

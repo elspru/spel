@@ -1,39 +1,75 @@
+0 infinitive
+0 nominative-case
+0 accusative-case
+0 genitive-case
+0 parent
+1 dad
+2 mom
+3 hello
+4 bye
+0 ancestor
+0 grandparent
+7 hungry
 1 the 56271872
 2 of 33950064
 3 and 29944184
 4 to 25956096
+0 dative-case
 5 in 17420636
+0 in-subcase
+0 me
 6 i 11764797
+0 it
 7 that 11073318
+0 relativizer
 8 was 10078245
+0 past-tense
 9 his 8799755
 10 he 8397205
+0 masculine-gender
 11 it 8058110
 12 with 7725512
+0 comitative-case
 13 is 7557477
+0 present-tense
 14 for 7097981
+0 vocative-case
+0 benefactive-case
 15 as 7037543
+0 essive-case
 16 had 6139336
 17 you 6048903
 18 not 5741803
+0 negation
 19 be 5662527
 20 her 5202501
 21 on 5113263
+0 on-subcase
 22 at 5091841
+0 at-subcase
+0 locative-case
 23 by 5061050
+0 via-case
+0 instrumental-case
 24 which 4580906
+0 interrogative-mood
 25 have 4346500
 26 or 4228287
 27 from 4108111
+0 from-case
+0 ablative-case
 28 this 4015425
+0 demonstrative
 29 him 3971997
 30 but 3894211
 31 all 3703342
 32 she 3415846
+0 feminine-gender
 33 they 3340398
 34 were 3323884
 35 my 3277699
 36 are 3224178
+0 perfective-aspect
 37 me 3027134
 38 one 2832569
 39 their 2820265
@@ -43,34 +79,52 @@
 43 them 2509917
 44 we 2491655
 45 who 2472663
+0 social-marker
+0 will
 46 would 2400858
+0 future-tense
 47 been 2357654
 48 will 2320022
 49 no 2241145
 50 when 1980046
+0 imperfective-aspect
 51 there 1961200
+0 indicative-mood
 52 if 1951102
+0 conditional-mood
 53 more 1899787
 54 out 1875351
+0 elative-case
 55 up 1792712
 56 into 1703963
+0 illative-case
 57 do 1680164
+0 imperative-mood
 58 any 1665366
 59 your 1658553
 60 what 1605908
+0 question-word
+0 copula
 61 has 1602329
+0 person
 62 man 1573117
+0 male
 63 could 1571110
 64 other 1533530
 65 than 1508779
 66 our 1498473
 67 some 1476767
+0 number g
 68 very 1462382
 69 time 1449681
+0 time-marker
+0 temporal-case
 70 upon 1424595
 71 about 1414687
+0 topic-case g
 72 may 1400642
 73 its 1373270
+0 literal g
 74 only 1318367
 75 now 1317723
 76 like 1280625
@@ -80,6 +134,7 @@
 80 should 1192154
 81 made 1188501
 82 did 1185720
+0 retrospective-aspect
 83 us 1171742
 84 such 1136757
 85 a 1135294
@@ -94,15 +149,20 @@
 94 much 1021822
 95 down 989808
 96 after 978575
+0 subordinator
 97 first 978196
 98 mr 974419
 99 good 966602
 100 men 923053
 101 own 922130
+0 alienable-possession
 102 never 899673
+0 inalienable-possession
 103 most 889691
 104 old 887917
 105 shall 883846
+0 prospective-aspect
+0 deliberative-mood
 106 day 882331
 107 where 881975
 108 those 878621
@@ -116,7 +176,9 @@
 116 go 816536
 117 make 807600
 118 well 799596
+0 discourse-marker
 119 through 792925
+0 perlative-case
 120 being 792220
 121 long 791686
 122 say 788124
@@ -128,6 +190,7 @@
 128 def 748992
 129 again 745230
 130 many 744168
+0 plural-number
 131 back 740270
 132 here 729829
 133 think 715780
@@ -159,6 +222,7 @@
 159 god 552668
 160 years 547420
 161 off 545832
+0 delative-case
 162 face 544251
 163 nothing 541692
 164 right 536737
@@ -185,7 +249,9 @@
 185 mind 470313
 186 heart 467157
 187 few 466338
+0 paucal-number
 188 because 465587
+0 causal-case
 189 thing 461472
 190 whom 458312
 191 far 456267
@@ -205,11 +271,13 @@
 205 days 426104
 206 told 424696
 207 let 424320
+0 hortative
 208 lord 422407
 209 country 420788
 210 asked 420044
 211 going 419315
 212 seen 418862
+0 visible-evidential
 213 better 416463
 214 p 415673
 215 having 415355
@@ -222,6 +290,7 @@
 222 among 387549
 223 course 385303
 224 hands 385081
+0 female
 225 woman 384156
 226 enough 382266
 227 words 380328
@@ -256,6 +325,8 @@
 256 gutenberg 328324
 257 felt 326524
 258 until 326391
+0 final-time
+0 terminative-case
 259 since 326386
 260 power 326243
 261 themselves 325793
@@ -275,6 +346,7 @@
 275 stood 308025
 276 form 307506
 277 within 307223
+0 inessive-case
 278 together 304955
 279 till 304735
 280 thy 304489
@@ -299,8 +371,11 @@
 299 passed 279864
 300 feet 279821
 301 near 278870
+0 near-case
 302 public 278365
+0 space-marker
 303 state 277682
+0 state-marker
 304 son 277227
 305 hundred 275990
 306 children 275607
@@ -319,6 +394,7 @@
 319 already 264662
 320 received 264606
 321 fact 263613
+0 factive-evidential
 322 gone 263585
 323 girl 262689
 324 known 262571
@@ -326,6 +402,7 @@
 326 times 260596
 327 least 259916
 328 perhaps 257964
+0 epistemic-mood
 329 sure 255885
 330 indeed 255789
 331 english 255212
@@ -348,6 +425,7 @@
 348 letter 242178
 349 four 242099
 350 wish 241091
+0 optative-mood
 351 fire 240652
 352 cried 240280
 353 2 240009
@@ -361,6 +439,7 @@
 361 free 235012
 362 war 234544
 363 during 233771
+0 during-time
 364 several 233197
 365 business 233158
 366 whether 230819
@@ -377,6 +456,7 @@
 377 became 224811
 378 john 224569
 379 become 224326
+0 translative-case
 380 dead 224049
 381 earth 222546
 382 boy 222315
@@ -396,6 +476,7 @@
 396 truth 212548
 397 ground 212369
 398 really 211722
+0 realis-mood
 399 rest 211668
 400 mean 211299
 401 different 211043
@@ -403,7 +484,9 @@
 403 possible 209099
 404 fell 208344
 405 towards 208199
+0 allative-case
 406 human 206740
+0 anthropic-gender
 407 kept 206329
 408 short 206216
 409 town 205687
@@ -420,6 +503,8 @@
 420 live 199658
 421 lady 199560
 422 subject 198566
+0 same-subject-marker
+0 different-subject
 423 sn 198498
 424 answer 198187
 425 sea 198128
@@ -428,6 +513,7 @@
 428 hard 196458
 429 terms 196252
 430 doubt 195905
+0 dubitative-mood
 431 around 195594
 432 ask 194903
 433 arms 194298
@@ -470,9 +556,11 @@
 470 art 173544
 471 spoke 172990
 472 across 172901
+0 vialis-case
 473 brother 172692
 474 early 172467
 475 ought 171690
+0 deontic-mood
 476 sometimes 171309
 477 line 170962
 478 saying 170695
@@ -578,6 +666,7 @@
 578 gold 139711
 579 makes 139167
 580 desire 138288
+0 desiderative-mood
 581 play 138228
 582 master 137871
 583 office 136616
@@ -600,6 +689,7 @@
 600 paper 133030
 601 letters 132785
 602 probably 132560
+0 probability
 603 glad 132368
 604 important 132288
 605 especially 132096
@@ -639,6 +729,9 @@
 639 sleep 124634
 640 persons 123820
 641 blockquote 123703
+0 start-quote g
+0 end-quote g
+0 quotative-case
 642 happened 123421
 643 particular 123182
 644 drew 122264
@@ -684,6 +777,7 @@
 684 carry 113357
 685 exclaimed 113352
 686 including 113104
+0 inclusive-person
 687 filled 112921
 688 seeing 112889
 689 influence 112447
@@ -694,6 +788,7 @@
 694 secret 111678
 695 parts 111194
 696 please 111114
+0 polite-register
 697 appearance 110932
 698 evil 110898
 699 march 110834
@@ -748,6 +843,7 @@
 748 born 104938
 749 court 104606
 750 generally 104448
+0 gnomic
 751 grew 104326
 752 showed 104205
 753 getting 103981
@@ -766,7 +862,9 @@
 766 heaven 101875
 767 william 101780
 768 started 101771
+0 inchoative-aspect
 769 command 101717
+0 jussive-mood
 770 tone 101569
 771 regard 101139
 772 expected 101117
@@ -834,6 +932,7 @@
 834 music 94284.2
 835 opportunity 94123.6
 836 that's 93912.4
+0 distal-demonstrative
 837 german 93866.5
 838 afternoon 93839.6
 839 cry 93675.0
@@ -857,6 +956,7 @@
 857 race 91305.6
 858 begin 91207.5
 859 per 91115.7
+0 distributive-case
 860 individual 90923.5
 861 sitting 90632.3
 862 learn 90513.7
@@ -947,6 +1047,7 @@
 947 wise 83039.0
 948 ladies 82918.0
 949 possession 82883.2
+0 possessive-marker
 950 pleasant 82839.7
 951 perfectly 82830.9
 952 o' 82761.3
@@ -1036,6 +1137,7 @@
 1036 lying 76560.4
 1037 smiled 76547.8
 1038 keeping 76541.4
+0 anger
 1039 spite 76495.5
 1040 shown 76402.2
 1041 directly 76333.4
@@ -1135,6 +1237,7 @@
 1135 marry 70948.9
 1136 captain 70861.9
 1137 finished 70763.8
+0 cessative-aspect
 1138 extent 70649.8
 1139 watched 70643.5
 1140 curious 70641.1
@@ -1147,6 +1250,7 @@
 1147 'em 70256.7
 1148 jesus 70228.2
 1149 exactly 70213.1
+0 intensifier
 1150 importance 70066.8
 1151 finally 70018.5
 1152 bill 69973.4
@@ -1175,6 +1279,8 @@
 1175 possessed 68995.6
 1176 thrown 68931.5
 1177 evidence 68904.6
+0 evidential
+0 evidential-case
 1178 distant 68882.5
 1179 michael 68874.5
 1180 progress 68830.2
@@ -1234,12 +1340,16 @@
 1234 choose 65396.7
 1235 agreed 65284.4
 1236 animal 65255.1
+0 zoic-gender
 1237 events 65118.2
+0 same-event-marker
 1238 there's 65017.8
 1239 fully 64982.2
 1240 delight 64971.9
 1241 rights 64836.6
 1242 amount 64720.3
+0 amount-marker
+0 multiplicative-case
 1243 obtain 64706.1
 1244 tax 64658.6
 1245 servants 64642.0
@@ -1358,6 +1468,7 @@
 1358 golden 59969.5
 1359 numerous 59925.2
 1360 frequently 59873.8
+0 frequentive-aspect
 1361 famous 59843.0
 1362 telling 59831.9
 1363 powerful 59634.9
@@ -1438,6 +1549,7 @@
 1438 habit 57035.2
 1439 spanish 56981.4
 1440 familiar 56835.1
+0 familiar-register
 1441 reader 56832.7
 1442 published 56807.4
 1443 direct 56755.2
@@ -1550,6 +1662,7 @@
 1550 series 53157.9
 1551 laughing 53113.6
 1552 address 53096.2
+0 address-marker
 1553 relief 53061.3
 1554 bird 52958.5
 1555 owner 52920.5
@@ -1589,6 +1702,7 @@
 1589 resolved 51981.4
 1590 calling 51950.6
 1591 phrase 51940.3
+0 phrase-marker
 1592 acts 51907.1
 1593 mention 51888.9
 1594 square 51832.7
@@ -1722,6 +1836,7 @@
 1722 clean 47921.3
 1723 useful 47849.4
 1724 yesterday 47824.0
+0 hesternal-tense
 1725 delicate 47818.5
 1726 fail 47778.1
 1727 continue 47737.8
@@ -1793,6 +1908,7 @@
 1793 centre 46093.8
 1794 faint 46085.1
 1795 thinks 46053.5
+0 rational-gender
 1796 parents 46044.8
 1797 escaped 46024.2
 1798 careful 45995.7
@@ -1894,6 +2010,7 @@
 1894 dogs 43682.4
 1895 successful 43611.2
 1896 plants 43609.7
+0 vegetal-gender
 1897 vision 43605.7
 1898 rare 43603.3
 1899 granted 43561.4
@@ -2152,6 +2269,7 @@
 2152 spend 38033.7
 2153 production 38021.1
 2154 source 38004.5
+0 initiative-case
 2155 mankind 37996.6
 2156 universal 37991.8
 2157 deck 37965.7
@@ -2163,8 +2281,10 @@
 2163 humble 37795.6
 2164 compliance 37787.7
 2165 delay 37771.1
+0 delayed-imperative
 2166 shining 37764.0
 2167 reported 37740.2
+0 reported-evidential
 2168 hers 37736.3
 2169 unfortunate 37731.5
 2170 midnight 37703.8
@@ -2251,6 +2371,7 @@
 2251 wit 36238.7
 2252 fame 36237.9
 2253 singular 36221.3
+0 singular-number
 2254 error 36182.5
 2255 utmost 36158.0
 2256 methods 36155.6
@@ -2285,6 +2406,7 @@
 2285 'tis 35536.9
 2286 farm 35520.3
 2287 reference 35509.2
+0 referential
 2288 chinese 35506.1
 2289 exist 35494.2
 2290 corn 35491.8
@@ -2500,6 +2622,7 @@
 2500 daughters 31553.6
 2501 treat 31550.4
 2502 warning 31522.7
+0 admonitive-mood
 2503 flew 31518.0
 2504 speaks 31489.5
 2505 developed 31472.9
@@ -2569,6 +2692,7 @@
 2569 port 30537.7
 2570 male 30525.9
 2571 experienced 30487.9
+0 direct-evidential
 2572 opposed 30485.5
 2573 treaty 30483.2
 2574 contents 30481.6
@@ -2596,6 +2720,7 @@
 2596 tribe 30165.9
 2597 costs 30125.6
 2598 threatened 30120.8
+0 apprehensive-mood
 2599 arrangement 30110.5
 2600 western 30106.6
 2601 sang 30102.6
@@ -2852,6 +2977,7 @@
 2852 taxes 27100.3
 2853 marble 27081.3
 2854 recently 27076.5
+0 recent-past-tense
 2855 tones 27064.7
 2856 ability 27037.8
 2857 awake 27037.8
@@ -3302,6 +3428,7 @@
 3302 motives 22465.8
 3303 fastened 22454.7
 3304 introduction 22446.0
+0 protasis
 3305 converted 22419.9
 3306 wilderness 22419.1
 3307 confused 22416.0
@@ -3446,6 +3573,7 @@
 3446 propose 21352.7
 3447 seats 21348.7
 3448 bark 21347.1
+0 mimetic
 3449 reception 21339.2
 3450 pleasing 21334.5
 3451 attained 21329.7
@@ -3551,6 +3679,7 @@
 3551 heels 20695.2
 3552 grandfather 20692.1
 3553 other's 20690.5
+0 obviative
 3554 income 20679.4
 3555 i.e. 20661.2
 3556 regards 20650.1
@@ -3634,6 +3763,7 @@
 3634 experiment 20024.4
 3635 shores 20017.2
 3636 today 20016.4
+0 hodiernal-tense
 3637 tremendous 20006.2
 3638 afforded 20004.6
 3639 moonlight 20002.2
@@ -3818,6 +3948,7 @@
 3816 owned 18702.4
 3817 adventures 18700.8
 3818 exclusion 18688.1
+0 exclusive-person
 3819 seize 18670.7
 3820 chances 18669.9
 3821 springs 18661.2
@@ -4044,6 +4175,7 @@
 4042 murmur 17463.5
 4043 elegant 17460.3
 4044 honourable 17453.2
+0 honorific
 4045 stopping 17452.4
 4046 guilt 17440.5
 4047 welfare 17437.3
@@ -5032,6 +5164,7 @@
 5030 occasioned 13154.1
 5031 invasion 13151.0
 5032 workmen 13147.0
+0 ascetic
 5033 monks 13145.4
 5034 sends 13145.4
 5035 turkish 13144.7
@@ -5363,6 +5496,7 @@
 5361 factory 12086.1
 5362 shades 12083.7
 5363 gossip 12080.6
+0 logophoric
 5364 seventh 12079.0
 5365 attendance 12075.0
 5366 robes 12071.9
@@ -5782,6 +5916,7 @@
 5780 guidance 10817.9
 5781 prospects 10816.3
 5782 humbly 10811.6
+0 humble-register
 5783 lined 10809.2
 5784 serene 10804.5
 5785 shrugged 10797.4
@@ -5924,6 +6059,7 @@
 5922 drifted 10470.6
 5923 accuracy 10465.9
 5924 deceased 10465.9
+0 former-deceased
 5925 circular 10463.5
 5926 securing 10458.7
 5927 possibilities 10455.6
@@ -6177,6 +6313,7 @@
 6175 desperately 9820.35
 6176 goodly 9817.18
 6177 habitual 9815.60
+0 habitual-aspect
 6178 voluntary 9815.60
 6179 luncheon 9812.44
 6180 eighteenth 9808.48
@@ -7318,6 +7455,7 @@
 7316 peculiarities 7450.90
 7317 sting 7450.90
 7318 simultaneously 7445.36
+0 simultaneous-aspect
 7319 watches 7445.36
 7320 cong. 7444.57
 7321 episode 7443.78
@@ -7387,6 +7525,7 @@
 7385 anonymous 7327.48
 7386 injurious 7326.69
 7387 formally 7324.32
+0 formal-register
 7388 sports 7324.32
 7389 ab 7322.74
 7390 scales 7322.74
@@ -7637,6 +7776,7 @@
 7635 vexation 6897.11
 7636 indicates 6896.32
 7637 overheard 6895.52
+0 auditory-evidential
 7638 tray 6894.73
 7639 raymond 6891.57
 7640 thereafter 6890.78
@@ -8124,6 +8264,7 @@
 8122 inherent 6170.05
 8123 preventing 6169.26
 8124 inference 6168.47
+0 inferential-evidential
 8125 advertisement 6167.68
 8126 mutton 6167.68
 8127 packing 6167.68
@@ -8155,6 +8296,7 @@
 8153 contemptible 6137.62
 8154 deities 6135.24
 8155 profane 6134.45
+0 expletive
 8156 foreseen 6133.66
 8157 ti 6132.87
 8158 conceit 6132.08
@@ -8211,6 +8353,7 @@
 8209 transmit 6063.25
 8210 dispatch 6061.67
 8211 onto 6056.13
+0 sublative-case
 8212 veranda 6056.13
 8213 dip 6054.55
 8214 inexplicable 6052.97
@@ -8385,6 +8528,7 @@
 8383 brood 5813.25
 8384 tempting 5812.46
 8385 define 5804.55
+0 declarative-mood
 8386 antwerp 5803.76
 8387 forefathers 5803.76
 8388 stretches 5802.18
@@ -9078,6 +9222,7 @@
 9076 vase 4843.32
 9077 ty 4839.37
 9078 initial 4837.78
+0 initial-time
 9079 baths 4836.20
 9080 weighty 4836.20
 9081 minimum 4835.41
@@ -9464,6 +9609,7 @@
 9462 attic 4425.60
 9463 savings 4425.60
 9464 affirmative 4424.02
+0 affirmative-mood
 9465 ills 4422.44
 9466 applications 4421.65
 9467 t 4421.65
@@ -9551,6 +9697,7 @@
 9549 eddy 4347.28
 9550 percentage 4346.49
 9551 twinkle 4342.53
+0 ideophone
 9552 curb 4340.95
 9553 sandstone 4340.16
 9554 invaluable 4337.79
@@ -9808,6 +9955,7 @@
 9806 godly 4085.41
 9807 sarcastic 4085.41
 9808 therefrom 4085.41
+0 exessive-case
 9809 specifically 4084.62
 9810 uniformity 4083.83
 9811 emerging 4083.04
@@ -9824,6 +9972,7 @@
 9822 grind 4075.92
 9823 bang 4075.13
 9824 unreal 4075.13
+0 irrealis-mood
 9825 blacksmith 4074.34
 9826 injunction 4072.76
 9827 scarcity 4071.96
@@ -11221,6 +11370,7 @@
 11219 elizabethan 2956.46
 11220 colt 2954.09
 11221 pronoun 2954.09
+0 pronoun-marker
 11222 wrongly 2952.51
 11223 bubbles 2950.93
 11224 sucked 2950.14
@@ -11850,6 +12000,7 @@
 11848 christie 2589.38
 11849 distract 2589.38
 11850 dont 2589.38
+0 prohibitive-mood
 11851 heredity 2588.59
 11852 laboriously 2588.59
 11853 endangered 2587.80
@@ -12064,6 +12215,7 @@
 12062 whales 2467.54
 12063 grocer 2466.75
 12064 speculate 2466.75
+0 speculative-mood
 12065 quieter 2465.96
 12066 comics 2463.59
 12067 indignity 2463.59
@@ -12276,6 +12428,7 @@
 12274 immaculate 2361.53
 12275 lens 2361.53
 12276 philanthropy 2361.53
+0 pegative-case
 12277 richards 2361.53
 12278 constituent 2360.74
 12279 ammonia 2359.95
@@ -13002,6 +13155,7 @@
 13000 dismount 2042.70
 13001 dating 2041.91
 13002 nearby 2041.91
+0 prosecutive-case
 13003 poplar 2041.91
 13004 spoonful 2041.91
 13005 trevor 2041.91
@@ -14336,6 +14490,8 @@
 14334 revere 1557.74
 14335 thickening 1557.74
 14336 historically 1556.95
+0 remote-past-tense
+0 historic-tense
 14337 fissure 1556.16
 14338 unremitting 1556.16
 14339 cassock 1555.37
@@ -14514,6 +14670,7 @@
 14512 clip 1509.48
 14513 colombia 1509.48
 14514 hypothetical 1509.48
+0 hypothetical-mood
 14515 scoff 1509.48
 14516 enamel 1508.69
 14517 inflammable 1508.69
@@ -14804,6 +14961,7 @@
 14802 openness 1427.20
 14803 pianoforte 1427.20
 14804 dual 1426.41
+0 dual-number
 14805 lassitude 1426.41
 14806 adores 1425.62
 14807 didactic 1425.62
@@ -15147,6 +15305,7 @@
 15145 grandma 1340.97
 15146 grasshopper 1340.97
 15147 stampede 1340.97
+0 pluractional
 15148 unfeigned 1340.97
 15149 roost 1340.18
 15150 spurn 1340.18
@@ -15219,6 +15378,7 @@
 15217 hump 1321.98
 15218 libertine 1321.98
 15219 sensed 1321.98
+0 sensory-evidential-mood
 15220 copiously 1321.19
 15221 decadence 1321.19
 15222 subdivision 1321.19
@@ -16249,6 +16409,7 @@
 16247 bergen 1084.64
 16248 cornet 1084.64
 16249 uphill 1084.64
+0 motion-uphill
 16250 clamber 1083.85
 16251 portent 1083.85
 16252 stow 1083.85
@@ -16854,6 +17015,7 @@
 16852 assorted 950.152
 16853 bumper 950.152
 16854 downhill 950.152
+0 motion-downhill
 16855 gage 950.152
 16856 life-time 950.152
 16857 looped 950.152
@@ -17389,6 +17551,7 @@
 17387 antimony 853.634
 17388 profundity 853.634
 17389 atop 852.843
+0 superessive-case
 17390 marital 852.843
 17391 pertain 852.843
 17392 slash 852.843
@@ -18342,6 +18505,7 @@
 18340 marketplace 704.900
 18341 pistil 704.900
 18342 potentially 704.900
+0 potential-mood
 18343 scrutinize 704.900
 18344 slake 704.900
 18345 tutelage 704.900
@@ -20067,6 +20231,7 @@
 20065 lao 496.832
 20066 ninety-eight 496.832
 20067 wow 496.832
+0 mirative
 20068 byre 496.041
 20069 collier 496.041
 20070 disorganization 496.041
@@ -20154,6 +20319,7 @@
 20152 sugars 488.130
 20153 uncooked 488.130
 20154 upstream 488.130
+0 motion-upriver
 20155 absorbent 487.338
 20156 cuticle 487.338
 20157 dockyard 487.338
@@ -21299,6 +21465,7 @@
 21297 campanile 379.744
 21298 chairmen 379.744
 21299 downstream 379.744
+0 motion-downriver
 21300 hypochondriac 379.744
 21301 lampoon 379.744
 21302 macintosh 379.744
@@ -24179,6 +24346,7 @@
 24177 novelette 201.739
 24178 passel 201.739
 24179 relevance 201.739
+0 current-relevance-marker
 24180 scurf 201.739
 24181 skid 201.739
 24182 trailers 201.739
@@ -28694,6 +28862,7 @@
 28692 oslo 65.6641
 28693 overlie 65.6641
 28694 partitive 65.6641
+0 partitive-case
 28695 pharmacology 65.6641
 28696 piddling 65.6641
 28697 pleural 65.6641
@@ -34951,6 +35120,7 @@
 34948 thermonuclear 12.6581
 34949 thighbone 12.6581
 34950 throughput 12.6581
+0 prolative-case
 34951 tis 12.6581
 34952 toothpaste 12.6581
 34953 tos 12.6581

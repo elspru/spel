@@ -121,8 +121,11 @@ function translateWord(word, toLangCode) {
         command = "",
         translation = "",
         warning;
+    word = word.replace(/\'/g, "");
+    word = word.replace(/\-/g, " ");
+    word = word.replace(/_/g, " ");
     command = "../gtranslate.sh " + fromLangCode + " " +
-        toLangCode + " " + word;
+        toLangCode + " '" + word +"'";
     try {
         translation = execSync(command);
     } catch (e) {
@@ -182,7 +185,7 @@ function main() {
             count = 0;
         }
     });
-    console.log(JSON.stringify(transObj));
+    //console.log(JSON.stringify(transObj));
     io.fileWrite("genTrans2.json", JSON.stringify(transObj));
 }
 

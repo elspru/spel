@@ -1,0 +1,3050 @@
+be-verb: tap, 4233,  hˈoːnaː kɾˈɪjaː,  s.ˈi. tˈonɡ tshˈi̪ɜ
+nominative-case: nak, 6009,  nɪjˈʊkt mˈaːmlˌaː,  ts.ˈu˧˥ kˈo-ɜ wˈai khˈo-ɜ
+accusative-case: kak, 6789,  kˈʌɾm kˈaːɾək mˈaːmlˌaː,  pˈin kˈo-ɜ wˈai khˈo-ɜ
+genitive-case: tak, 5831,  sˌəmbəndʰəkˈaːɾək mˈaːmlˌaː,  suoɜjˈiou˧˥ kˈo-ɜ wˈai khˈo-ɜ
+parent: mat, 4057,  mˈaːtaːpˈɪtaː,  fˈu
+dad: pap, 5890,  pˈɪtaː,  pˈɑ
+mom: mam, 7222,  mˈã,  mɑmɑ˧˥
+hello: nat, 3972,  nəmˈʌsteː,  niɜnxˈɑu˧˥
+ancestor: tat, 3519,  pˈuːɾʋəɟ,  tsˈu˧˥ ɕˈiɛn
+grandmother: tam, 4380,  dˈaːdi,  tsuɜmˈu˧˥
+hungry: cac, 4821,  bʰˈuːkʰaː,  tɕˈi ˈo-
+of: kat, 2771,  kˈaː,  tə˥
+and: wan, 2688,  ˈɔːɾ,  xˈo-ɜ
+to: tuk, 2802,  kˈoː,  ts.ˈi.
+interior-case: tik, 5665,  ˈãtɾˌɪk mˈaːmlˌaː,  s.ˈi. nˈei wˈai khˈo-ɜ
+me: mic, 3471,  mˈʊɟʰeː,  wˈo˧˥
+it: yic, 2413,  jˈəh,  thˈɑ
+complementizer: pit, 6807,  (en)kˈɒmplɪmˌɛntaɪzə(hi),  puɜʲˈy˧˥
+past-tense: tan, 5276,  ʌtˈiːt kˈaːl,  kuotɕhy˥ tɕˈi˧˥n ts.ˈaŋ
+masculine-gender: san, 5891,  sˈʌɲɡjaː lˈĩɡ,  nˈaɜn ɕˈiŋ ɕˈiŋ pˈiɛɜ
+present-tense: yan, 5861,  wˌəɾtəmˈaːn kˈaːl,  tˈaŋ ɕˈiɑ tɕˈi˧˥n ts.ˈaŋ
+vocative-case: wuk, 5465,  səmbˈoːdʰən mˈaːmlˌaː,  xˈu wˈai khˈo-ɜ
+as: kas, 3800,  ɟˈɛːsaː,  ʐˈuɜ
+you: nan, 2917,  ˈaːp,  nˈiɜn
+not: nic, 3199,  nˈʌhĩ,  pˈu
+at-case: tas, 4777,  pˈʌɾ mˈaːmlˌaː,  tsˈai wˈai khˈo-ɜ
+interrogative-mood: yat, 6676,  pɾˌəʃnəʋˈaːcək mənˈoːdʃˌaː,  jˈiɜ wˈuən ɕˈin tɕhˈiɜŋ
+or: yam, 3188,  jˈaː,  jˈɑu mo-˥
+from-case: tac, 4991,  seː mˈaːmlˌaː,  tshˈonɡɜ wˈai khˈo-ɜ
+demonstrative: tit, 6146,  ʈʰˈoːs,  ts.ˈi.˧˥ s.ˈi. tˈai tshˈi̪ɜ
+but: lan, 3782,  lˈeːkɪn,  tˈan
+all: sut, 3625,  sˈʌb,  suoɜjˈiou˧˥
+feminine-gender: nin, 6079,  stɾˈi lˈĩɡ,  nˈy˧˥ ʐˈəɜn ɕˈiŋ pˈiɛɜ
+one: yik, 2533,  ˈeːk,  jˈi
+so: sas, 3645,  ˈɛːsaː,  suoɜjˈi˧˥
+social-marker: sak, 6054,  saːmˈaːɟɪk nɪʃˈaːn,  s.ˈo- xˈuei pjˈɑu tɕˈi
+will: can, 3903,  hˈoːɡaː,  tɕˈiɑŋ
+future-tense: tyat, 4995,  bʰəʋˈɪʂjə kˈaːl,  wˈei lˈaiɜ tɕˈi˧˥n ts.ˈaŋ
+perfective-aspect: yap, 5522,  sˈaːdʰək pˈʌhəlˌuː,  wˈɑɜn ts.hˈəɜŋ s.ˈi. fˈaŋ mˈiɛn
+when: kan, 4196,  kˈʌb,  s.ˈəɜn mo-ɜ s.i.ɜxouɜ
+imperfective-aspect: map, 5314,  ʌdʰˈuːɾaː pˈʌhəlˌuː,  wˈei wˈɑɜn ts.hˈəɜŋ fˈaŋ mˈiɛn
+there: kam, 4021,  kːjaː ˌaːp wˈʌhã mɔːɟˈuːd hɛ̃,  nɑli˥
+indicative-mood: tut, 5962,  sˈuːcək mənˈoːdʃˌaː,  ts.ˈi.˧˥ s.ˈi. ɕˈin tɕhˈiɜŋ
+conditional-mood: cun, 5853,  səʃˈʌɾt mənˈoːdʃˌaː,  jˈiou˧˥ thjˈɑuɜ tɕˈiɛn tə˥ ɕˈin tɕhˈiɜŋ
+more: mac, 3008,  ˈʌdʰɪk,  kˈəŋ tˈuo
+partitive-case: pak, 6294,  zˈaːti mˈaːmlˌaː,  pjˈɑu˧˥ fˈən tshˈi̪ɜ wˈai khˈo-ɜ
+out: tcac, 3535,  bˈaːhəɾ,  ts.hˈu
+do: taf, 2753,  kˈʌɾ,  tsˈuo
+imperative-mood: pat, 5983,  ˌʌnɪʋˈaːɾjə mənˈoːdʃˌaː,  s.ˈi. tsˈai pˈi ɕˈiɜŋ ɕˈin tɕhˈiɜŋ
+question-word: wat, 5608,  səʋˈaːl ʃˈʌbd,  thˈiɜ tsˈi̪
+copula: kac, 3718,  jˈoːɟək,  ɕˈi tshˈi̪ɜ
+person: pan, 3958,  ʋjˈʌktɪ,  ʐˈəɜn
+could: kit, 3945,  sˈʌktˌaː hɛː,  kho-ɜjˈi˧˥
+other: cat, 3904,  ˈʌnjə,  tɕhˈiɜ thˈɑ
+number: nac, 3899,  sˈʌŋkʰjaː,  s.ˈu
+very: pac, 3779,  bˈʌhʊt,  fˈei ts.hˈɑɜŋ
+time: sam, 4530,  (en)tˈaɪm mˌiː(hi),  s.ˈi.ɜ tɕˈiɛn
+time-marker: tyac, 5121,  (en)tˈaɪm mˌiː(hi) nɪʃˈaːn,  s.ˈi.ɜ tɕˈiɛn pjˈɑu tɕˈi
+topic-case: cak, 5045,  wˈɪʂˌɛj mˈaːmlˌaː,  ts.ˈu˧˥ thˈiɜ wˈai khˈo-ɜ
+may: man, 4356,  mˈʌi,  khˈo-˧˥ nˈəɜŋ
+only: tun, 3191,  kˈeːʋəl,  ts.ˈi.˧˥ jˈɑu
+now: cas, 3526,  ˈʌb,  ɕˈiɛn tsˈai
+little: cik, 3261,  tʰˈoːr.aː,  ɕjˈɑu˧˥
+then: pcan, 3605,  pʰˈɪɾ,  ʐˈaɜn xˈou
+great: tcat, 3223,  məhˈaːn,  tˈɑ
+before: sac, 4222,  seː pˈʌhəlˌeː,  ts.ˈi. tɕhˈiɛɜn
+two: tyut, 3218,  dˈoː,  ˈər
+see: tcan, 3623,  dˈeːkʰnˌaː,  khˈan tˈɑu
+know: sat, 3561,  ɟˈaːnnˌaː,  ts.i.tɑu˧˥
+down: cin, 3591,  nˈiːceː,  ɕˈiɑŋ ɕˈiɑ
+subordinator: sun, 7723,  (en)sʌbˈɔːdɪnˌeɪtə(hi),  tshonɡɜs.ˈu˧˥ lˈiɛɜn tshˈi̪ɜ
+first: pas, 3349,  pˈʌhəlˌeː,  tˈi jˈi
+never: kap, 3891,  kˈʌbʰi nˈʌhĩ,  tɕˈyɛɜ pˈu
+old: tyan, 3205,  pʊɾˈaːnaː,  tɕˈiou
+day: tin, 3970,  dˈɪn,  ʐˈi.
+where: wac, 3039,  ɟˈʌhã,  nɑ˧˥li˥˩
+way: yas, 3498,  ɾˈaːstaː,  faŋfˈɑ˧˥
+work: kaf, 3294,  kˈaːm,  kˈonɡ tsˈuo
+life: lit, 3489,  ɟˈĩdɡˌi,  s.ˈəŋ xˈuoɜ
+go: kun, 3538,  ɟˈaːoː nˈə,  tsˈou˧˥
+long: lat, 4620,  lˈʌmbeː sˈʌmˌɛj tˌək,  ts.hˈɑɜŋ
+say: sin, 2847,  kˈʌhənˌaː,  s.wˈo
+here: cic, 2876,  jˈʌhã,  ts.o-lˈi˧˥
+last: kcac, 3880,  pˈɪcʰlˌi bˈaːɾ,  ts.hˈi.ɜ ɕˈy
+away: twan, 3083,  dˈuːɾ,  ˈyæ˧˥n
+take: lak, 3684,  lˈeːnaː,  tshaiɜtɕhˈy˧˥
+found: fan, 4419,  pˈaːjaː,  fˈɑ ɕˈiɛn
+hand: cyat, 2877,  hˈaːtʰ,  s.ˈou˧˥
+young: yac, 3997,  jˈʊʋaː,  nˈiɛɜn tɕhˈiŋ
+though: sap, 3307,  jˈʌdjəpˌɪ,  sˈuei ʐˈaɜn
+give: kin, 3715,  dˈeːnaː,  kˈei˧˥
+god: pcac, 2402,  pˌəɾmˈeːʃʋəɾ,  s.ˈəɜn
+nothing: win, 4147,  kˈʊcʰ nˈʌhĩ,  mˈeiɜ s.ˈəɜn mo-ɜ
+part: pis, 3527,  hˈɪssaː,  pufə˥n
+saw: tic, 4178,  dˈeːkʰaː,  tɕˈy
+house: fas, 3925,  ɡʰˈʌɾ,  fˈaɜŋ tsi̪ɜ
+world: tlat, 3240,  dˈʊnɪjˌaː,  s.ˈi. tɕˈiɛ
+head: caf, 3019,  sˈɪɾ,  thˈouɜ
+three: tyin, 3435,  tˈiːn,  sˈan
+mrs.: cit, 3995,  ʃɾˈiːmtˌi,  thaithai˥
+night: nit, 3431,  ɾˈaːt,  wˈɑ˧˥n
+king: yak, 3437,  ɾˈaːɟaː,  wˈɑɜŋ
+heart: cyin, 2897,  dˈɪl,  ɕˈin
+because: kik, 3812,  kːjˈõkɪ,  jˈin wˈei
+name: nam, 4470,  nˈaːm,  mˈiɜŋ ts.hˈəŋ
+country: kic, 3974,  dˈeːʃ,  kˈuoɜ tɕˈiɑ
+better: pcic, 3927,  bˈeːhətˌəɾ,  kəŋxˈɑu˧˥
+side: psac, 3572,  pˈʌkʃ,  tshˈo-
+course: kus, 5842,  kˈoːɾs,  khˈo- ts.hˈəɜŋ
+woman: min, 3790,  mˌəhɪlˈaːw,  fuənˈy˧˥
+enough: kyat, 3209,  pəɾjˈaːpt,  kˈou lə˥
+room: fac, 3823,  kˈʌkʃ,  fˈaɜŋ tɕˈiɛn
+almost: lac, 3542,  lˈʌɡəbʰˌəɡ,  tɕixˈu
+cannot: nas, 4838,  nˈʌhĩ kˈʌɾ sˈʌktˌeː,  pˈu nˈəɜŋ
+water: wik, 2764,  pˈaːni,  s.wˈei˧˥
+light: wak, 3511,  pɾəkˈaːʃ,  kwˈaŋ
+word: slat, 2880,  ʃˈʌbd,  tsˈi̪
+door: twat, 3108,  dʋˈaːɾ,  mˈəɜn
+use: pus, 4138,  ˌʊpjˈoːɡ,  s.ˈi.˧˥ ˈyuŋ
+morning: sup, 3486,  sˈʊbəh,  tsɑu˧˥s.a˥˩ŋ
+voice: was, 3850,  aːʋˈaːz,  ʲˈy˧˥ jˈin
+white: pic, 4614,  səpʰˈeːd,  pˈaiɜ sˈo-
+money: tlan, 4002,  dʰˈʌn,  tɕhˈiɛɜn
+next: kyak, 3984,  ˈʌɡlˌaː,  ɕˈiɑ jiɜko-ɜ
+poor: yit, 4009,  dəɾˈɪdɾə,  tɕjˈɑu ts.hˈɑ tə˥
+death: mit, 3476,  mˈɔːt,  sˈi̪˧˥ wˈɑɜŋ
+form: fam, 4089,  pɾəpˈʌtɾə,  ɕˈiɜŋ ts.hˈəɜŋ
+often: tsan, 4053,  ˈʌksəɾ,  tɕˈiŋ ts.hˈɑɜŋ
+year: nwan, 2795,  sˈaːl,  nˈiɛɜn
+friend: myat, 3573,  mˈɪtɾə,  phˈəɜŋ jiouɜ
+order: yut, 3444,  ʋjəʋˈʌstʰaː,  tˈiŋ kˈou
+round: cut, 3512,  dˈɔːɾ,  xˈueiɜ xˈo-ɜ
+wife: cis, 3769,  pˈʌtni,  tɕhˈi tsi̪˧˥
+believe: kcan, 3642,  mˈaːnnˌaː,  ɕˈiɑŋ ɕˈin
+public: sik, 4436,  sˈaːɾʋəɟnɪk,  s.ˈaŋ s.ˈi.
+space-marker: tcak, 4726,  ˌʌntəɾˈɪkʃ nɪʃˈaːn,  khˈonɡ tɕˈiɛn pjˈɑu tɕˈi
+state-marker: tyak, 5401,  ɾˈaːɟjə nɪʃˈaːn,  ts.ˈou pjˈɑu tɕˈi
+son: psat, 3069,  bˈeːʈaː,  ˈərɜ tsi̪ɜ
+children: pik, 3168,  bˈʌcceː,  xˈaiɜ tsi̪ɜ
+hope: cwan, 3754,  ˈaːʃaː,  ɕˈi wˈɑŋ
+dear: yin, 3867,  pɾˈɪj,  tɕhˈin ˈai
+read: pyac, 3276,  pˈʌr.hənˌaː,  tˈuɜ
+city: sit, 2936,  ʃˈʌhəɾ,  s.ˈi.
+already: lic, 3841,  pˈʌhəlˌeː hˈi,  ji˧˥tɕi˥˩ŋ
+girl: mak, 3409,  lˈʌr.kˌi,  nˈy˧˥ xˈaiɜ
+hear: sic, 3271,  sˈʊnoː,  thˈiŋ
+open: kcat, 3294,  kʰˈʊlaː,  tˈɑ˧˥ khˈai
+body: tcic, 2760,  ʃˈʌw,  thˈi˧˥
+air: cwac, 3724,  hˈʌʋaː,  khˈonɡ tɕhˈi
+nature: nyit, 4241,  pɾˈʌkɾɪtˌɪ,  ɕˈiŋ ts.ˈi.
+help: plat, 3623,  mˈʌdəd,  pˈaŋ pˈaŋ wˈo˧˥
+letter: pyat, 3805,  pˈʌtɾə,  ɕˈin
+four: ksat, 2424,  cˈaːɾ,  sˈi̪
+fire: fak, 2818,  ˈaːɡ,  xˈuo˧˥
+therefore: yis, 3250,  ˈɪslˌɪjeː,  jintshˈi̪˧˥
+hour: cam, 3983,  sˈʌmˌɛj,  ɕjˈɑu˧˥ s.ˈi.ɜ
+free: tyit, 3684,  mˈʊkt,  tsˈi̪ jˈiouɜ
+war: syat, 3028,  jˈʊddʰ,  ts.ˈan ts.ˈəŋ
+reason: kyan, 4300,  kˈaːɾəɳ,  ˈyæɜn jˈin
+united: nut, 4753,  jˌuːnaːɪʈˈeːɖ,  lˈiɛɜn xˈo-ɜ təɜ
+why: wam, 3650,  kːjˈõ,  wˈei s.ˈəɜn mo-ɜ
+lost: kut, 3753,  kʰˈoːjaː,  mˈiɜ lˈu
+thousand: tsas, 3132,  həzˈaːɾ,  tɕhˈiɛn
+family: fin, 3714,  pˌəɾɪʋˈaːɾ,  tɕˈiɑ thˈiɜŋ
+soul: twam, 3585,  ˈaːtmaː,  lˈiɜŋ xwˈuəɜn
+care: kcam, 3667,  dʰjˈaːn,  kwˈan ɕˈin
+mean: mwit, 3895,  mˈʌtəlˌəb,  jˈi wˈei ts.o-˥
+answer: tsat, 3437,  ˈʊtːəɾ,  xˈueiɜ tˈɑɜ
+sea: mis, 2937,  səmˈʊdɾə,  xˈai˧˥
+fear: tuc, 2866,  ɖˈʌɾ,  khˈonɡ˧˥ tɕˈy
+understand: pcat, 4083,  sˈʌməɟʰnaː,  liɜtɕˈiɛ˧˥
+hard: kyin, 3206,  kˈʌʈʰɪn,  jˈiŋ
+terms: cyut, 3460,  ʃˈʌɾtõ,  s.uʲˈy˧˥
+doubt: cwat, 3033,  səndˈeːh,  xˈuaiɜ jˈiɜ
+ask: pun, 3587,  pˈuːcʰnˌaː,  wˈuən
+arms: tcas, 3766,  hˌətʰɪjˈaːɾ,  wˈu˧˥ tɕhˈi
+black: kis, 3423,  kˈaːli,  xˈei sˈo-
+dark: nyan, 3138,  ʌndʰˈeːɾaː,  xˈei ˈan
+ten: tis, 3331,  dˈʌs,  s.ˈi.ɜ
+show: cyan, 3527,  pɾədˈʌɾʃən,  ɕˈiɛ˧˥n s.ˈi.
+story: kif, 3663,  kəhˈaːni,  kus.i.˥
+book: kip, 3131,  kɪtˈaːb,  s.ˈu
+electronic: lin, 5906,  ɪlˈeːkʈɾoːnˌɪk,  tiɛntsˈi̪˧˥
+interest: nyas, 3853,  bjˈaːɟ,  lˈi jˈi
+written: lik, 4147,  lˈɪkʰaː,  s.ˈu mˈiɛn
+bed: pwat, 3768,  bˈɪstəɾ,  ts.hwˈɑɜŋ
+art: klat, 3022,  kˈʌlaː,  jˈi s.ˈu
+brother: pyak, 3410,  bʰˈaːi,  ko-ko-˧˥
+sometimes: mas, 4144,  kˈʌbʰi kˈʌbʰi,  jˈiou˧˥ s.ˈi.ɜ
+line: lis, 3950,  lˈaːɪn,  ɕˈiɛn
+table: tlas, 3350,  tˈaːlɪkˌaː,  pjˈɑu˧˥
+river: nwit, 2587,  nˈʌdi,  xˈo-ɜ
+sun: syan, 4011,  sˈuːɾəɟ,  thˈai jˈiɑɜŋ
+information: fyin, 3854,  sˈuːcnˌaː,  ɕinɕˈi
+suddenly: tfan, 4087,  ʌcˈaːnək,  thˈu ʐˈaɜn
+strange: kyap, 4004,  ʌɟˈiːb,  tɕhˈiɜ kˈuai
+change: pin, 4065,  pˌəɾɪʋˈʌɾtən,  kəŋkˈai˧˥
+purpose: tcit, 3148,  ʊddˈeːʃjə,  mutˈi
+happy: cwic, 3158,  kʰˈʊʃ,  khˈuai lˈə
+seem: syit, 3825,  pɾətˈiːt,  si̪xˈu
+blood: cyac, 3074,  kʰˈuːn,  ɕˈyɛ jˈiɛ
+rose: kwas, 3549,  ɡʊlˈaːb,  meiɜkueiɜ
+south: swan, 3587,  dˈʌkʃɪɳ,  nˈaɜn
+cold: tyun, 2849,  ʈʰˈʌɳɖ,  lˈə˧˥ŋ
+stand: ksan, 3577,  kʰˈʌr.aː,  ts.ˈan
+suppose: naf, 3631,  mˈaːn lˈiːɟɪˌeː,  tɕˈiɑ˧˥ s.ˈo-
+cut: kim, 3693,  kˈʌmi,  tɕhˈiɛ
+copy: pip, 3607,  pɾˈʌtɪlˌɪpɪ,  fˈu ts.ˈi.
+six: sis, 3097,  cʰˈʌkːaː,  lˈiou
+france: fyas, 5294,  pʰɾˈãs,  fˈɑ˧˥ kˈuoɜ
+remember: fat, 3737,  jˈaːd,  tɕˈi tə˥
+effect: yaf, 3873,  pɾˈʌbʰaʊ,  jiɜŋɕˈiɑ˧˥ŋ
+except: swat, 3781,  sɪʋˈaːj,  ts.hˈuɜ
+hair: cap, 3056,  bˈaːl,  thouɜfɑɜ
+copyright: pyit, 4606,  (en)kˈɒpɪɹˌaɪt(hi),  pˈa˧˥n tɕhˈyæɜn
+army: cyit, 3591,  sˈeːnaː,  tɕˈyən tˈuei
+run: kcak, 3404,  ɾˈʌn,  phˈɑu˧˥
+west: pcit, 3606,  pˈʌʃcɪm,  ɕˈi
+pay: wit, 3876,  wˈeːtən,  kˈonɡ tsˈi̪
+red: yun, 3093,  lˈaːl,  xˈonɡɜ
+gold: tcun, 3168,  sˈoːnaː,  tɕˈin
+play: plin, 3141,  plˈeː,  wˈɑɜn
+office: fus, 3644,  kˈaːɾjaːlɛj,  pˈan kˈonɡ s.ˈi.
+church: kyac, 4280,  cˈʌɾc,  tɕjˈɑu xˈuei
+paper: kyas, 3613,  kˈaːɡəz,  ts.ˈi.˧˥
+especially: cyas, 3692,  wɪʃˈeːʂ ɾˈuːp seː,  thˈə pˈiɛɜ
+window: cyak, 3622,  kʰˈɪr.kˌi,  ts.hwɑŋkhˈou˧˥
+agreement: kwat, 4416,  sˌəmɟʰˈɔːtaː,  ɕˈiɛɜ jˈi
+beauty: pyan, 3098,  sˈũdəɾtaː,  meiɜnˈy˧˥
+duty: tfac, 3237,  kəɾtˈʌʋjə,  tsˈo-ɜ ʐˈən
+send: psan, 3765,  bʰˈeːɟnˌaː,  fˈɑ sˈonɡ
+distance: tif, 4477,  dˈuːɾi,  tɕˈy lˈiɜ
+silence: sim, 3866,  cˈʊpːi,  ts.hˈəɜn mˈo
+foot: fyat, 2879,  pˈɛːɾ,  tɕjˈɑu˧˥ jˈiɑ tsi̪˧˥
+wild: wis, 3514,  ɟˈʌŋɡəlˌi,  jˈiɛ˧˥ s.ˈəŋ
+save: pam, 3516,  bəcˈaːnaː,  pˈɑu˧˥ tshˈuəɜn
+green: kcin, 3756,  ɡɾˈiːn,  lˈy sˈo-
+trouble: mip, 3235,  mʊsˈiːbət,  mɑɜfaɜn
+smile: myan, 3589,  mʊskˈaːn,  wˈei ɕjˈɑu
+wrong: clat, 2946,  ɡˈʌlət,  tshˈuo wˈu
+sleep: sip, 3361,  nˈĩd,  s.weitɕjˈɑu
+minutes: mik, 4699,  mˈɪnʈˌõ,  fˈən ts.ˈonɡ
+visit: fwat, 3137,  jˈaːtɾaː,  fˈa˧˥ŋ wˈuən
+try: tcis, 3796,  kˈoːʃɪʃ,  ts.hˈɑɜŋ s.ˈi.
+presence: psit, 4376,  ʊpˈʌstʰɪtˌɪ,  tshˈuəɜn tsˈai
+sweet: tlit, 3395,  mˈiːʈʰaː,  thˈiɛɜn
+rich: tcin, 3212,  dʰˈʌni,  fˈəŋ fˈu
+enemy: tim, 4070,  dˈʊʃmən,  tˈiɜ ʐˈəɜn
+ship: cip, 2408,  pˈoːt,  ts.hˈuaɜn
+including: nun, 3524,  ʃˈaːmɪl,  pˈɑu xˈaɜn
+secret: kyit, 3648,  ɡˈʊpt,  mˈi mˈi
+march: myac, 5509,  mˈaːɾc,  jˈiouɜ ɕˈiɜŋ
+stay: lap, 2983,  ɾˈʌhənˌaː,  lˈiouɜ
+blue: plan, 3219,  nˈiːlaː,  lˈaɜn
+impossible: psap, 3864,  ʌsˈʌmbʰəw,  pˈu khˈo-˧˥ nˈəɜŋ
+school: kuk, 4861,  skˈuːl,  ɕˈyɛɜ ɕjˈɑu
+married: mwat, 3963,  wɪʋˈaːhɪt,  jˈi˧˥ xwˈuən
+food: pcak, 3143,  bʰˈoːɟən,  s.i.ɜphˈi˧˥n
+twenty: tsis, 3326,  bˈiːs,  ˈər s.ˈi.ɜ
+quiet: nwat, 3032,  ʃˈãt,  ˈan tɕˈiŋ
+easily: nis, 3448,  aːsˈaːni seː,  ʐˈonɡɜ jˈi
+language: nyac, 3220,  bʰˈaːʂaː,  ʲˈy˧˥ jˈiɛɜn
+expression: pyas, 4427,  ˌʌbʰɪʋjˈʌktɪ,  pjˈɑu˧˥ tˈɑɜ
+week: saf, 2791,  səptˈaːh,  ts.ˈou
+hall: cuc, 3235,  hˈɔl,  tˈɑ thˈiŋ
+danger: kcit, 3319,  kʰˈʌtɾˌaː,  weiɕˈiɛ˧˥n
+property: slit, 4022,  səmpˈʌtːɪ,  s.ˈu˧˥ ɕˈiŋ
+born: klan, 3595,  ɟˈʌnm,  thˈiɛn s.ˈəŋ
+court: kyut, 3541,  kˈoːɾʈ,  fˈɑ˧˥ thˈiɜŋ
+worth: las, 3568,  lˈaːjək,  tɕˈiɑ ts.ˈi.ɜ
+tree: pyic, 2511,  pˈeːr.,  s.ˈu
+wall: twit, 2962,  diʋˈaːɾ,  pˈi
+heaven: cwak, 3514,  sʋˈʌɾɡ,  thˈiɛn thˈaɜŋ
+tone: lun, 3427,  lˈʌhəɟˌaː,  jˈin
+expected: pcik, 3896,  ʌpˈeːkʃɪt,  ʲˈy tɕhˈi
+month: maf, 3817,  mˈaːh,  ˈyɛ
+experience: nyap, 3859,  ˈʌnʊbʰˌəw,  tɕˈiŋ jˈiɛn
+duke: cuk, 4125,  ʃˈaːsək,  kˈonɡ tɕˈyɛɜ
+bound: pim, 3250,  sˈiːmaː,  tɕˈiɛ
+stone: pwac, 2934,  pˈʌttʰəɾ,  s.ˈi.ɜ
+direction: tlac, 4041,  dˈɪʃaː,  fˈaŋ ɕˈiɑŋ
+chair: ksis, 3801,  kˈʊɾsˌi,  jˈi˧˥ tsi̪˥˩
+support: syac, 4202,  səmˈʌɾtʰən,  ts.ˈi. ts.hˈi.ɜ
+village: ksac, 2910,  ɡˈãnw,  tshˈuən
+field: clit, 2988,  kʃˈeːtɾə,  lˈi˧˥ŋ ʲˈy
+success: slan, 3866,  sˈʌpʰəltaː,  ts.hˈəɜŋ kˈonɡ
+hill: clin, 3201,  pəhˈaːr.i,  s.ˈan
+music: nik, 4909,  səŋɡˈiːt,  jinˈyɛ
+distal-demonstrative: tsit, 6255,  bˈaːhəɾ kaː ʈʰˈoːs,  ˈyæ˧˥n tˈuan ts.ˈi.˧˥ s.ˈi. tˈai tshˈi̪ɜ
+cry: kuc, 3225,  ɾˈoːnaː,  khˈu
+seven: swit, 2943,  sˈaːt,  tɕhˈi
+private: paf, 4412,  pɾˌaːɪʋˈeːʈ,  sˈi̪ ʐˈəɜn
+news: nap, 3784,  sˌəmaːcˈaːɾ,  ɕˈin wˈuəɜn
+garden: fyan, 4387,  ʊdjˈaːn,  xwˈɑ ˈyæɜn
+race: tus, 3730,  dˈɔːr.,  ts.ˈonɡ˧˥ tsˈuɜ
+learn: pcin, 3473,  sˈiːkʰnˌaː,  ɕˈyɛɜ ɕˈiɜ
+political: syik, 4340,  ɾˌaːɟnˈiːtɪk,  ts.ˈəŋ ts.ˈi.
+lie: kcun, 2797,  ɟʰˈuːʈʰ,  xwˈɑ˧˥ŋ jˈiɛɜn
+cast: tsak, 3710,  ɖˈaːlnˌaː,  thˈouɜ
+eat: kcas, 3197,  kʰˈaːnaː,  ts.hˈi.
+ill: mim, 2773,  bimˈaːɾ,  s.ˈəŋ pˈiŋ
+original: yip, 3569,  mˈuːl,  ˈyæɜn pˈa˧˥n tə˥˩
+summer: lam, 3724,  ɡˈʌɾmi,  ɕˈiɑ tɕˈi
+religion: tcam, 3661,  dʰˈʌɾm,  tsˈonɡ tɕjˈɑu
+escape: pyap, 3299,  pəlˈaːjən,  thˈɑuɜ jˈi
+author: lut, 3173,  lˈeːkʰək,  tsuots.ˈo-˧˥
+brown: pyun, 4308,  bʰˈuːɾaː,  tsˈonɡ sˈo-
+pain: tlak, 3230,  dˈʌɾd,  thˈəɜŋ thˈonɡ
+soft: waf, 3378,  mʊlˈaːjəm,  ʐouɜʐˈua˧˥n tə˥˩
+corner: kyun, 4086,  kˈoːnaː,  tɕjˈɑu˧˥
+produce: psas, 3860,  ʊtpˈaːdɪt kˈʌɾẽː,  s.əŋts.hˈa˧˥n
+laugh: cyaf, 2892,  hˈʌnsi,  ɕjˈɑu
+forget: flat, 3352,  bʰˈuːlnˌaː,  wˈɑŋ tɕˈi
+europe: yup, 4983,  juːɾˈoːp,  ˈou ts.ˈou
+eight: nyat, 2508,  ˈaːʈʰ,  pˈɑ
+dress: pcas, 3501,  poːʃˈaːk,  lˈiɛɜn jˈi tɕhˈyiɜn
+terrible: cyap, 4370,  bʰəjˈaːnək,  khˈo-˧˥ phˈɑ
+breath: syas, 3062,  sˈãs,  tɕhiɕˈi
+wise: myas, 3188,  wˈaːɾ,  mˈiɜŋ ts.ˈi.
+memory: myit, 4303,  smɾˈɪtɪ,  tɕˈi jˈi
+modern: mwan, 4515,  ˈaːdʰʊnˌɪk,  ɕˈiɛn tˈai
+break: pyik, 3827,  bɾˈeːk,  tˈɑ˧˥ phˈo
+fifty: ksas, 3587,  pəcˈaːs,  wˈu˧˥ s.ˈi.ɜ
+island: tip, 3256,  dʋˈiːp,  tˈɑu˧˥
+touch: suc, 3770,  spˈʌɾʃ,  ts.hˈu mˈo
+promise: pcam, 3440,  wˈaːdaː,  ts.hˈəɜŋ nˈuo
+conduct: kwan, 4016,  ˈaːcəɾˌəɳ,  tɕˈin ɕˈiɜŋ
+surprise: syak, 4017,  ˈʌcəɾˌəɟ,  tɕˈiŋ
+shot: put, 3279,  ʃˈɔʈ,  s.ˈo- tɕˈi
+glass: klak, 3508,  kˈãc,  poli˧˥
+safe: sif, 3565,  sʊɾˈʌkʃɪt,  ˈan tɕhˈyæɜn
+doctor: ksit, 3311,  cɪkˈɪtsək,  jˈi s.ˈəŋ
+repeated: pyut, 3366,  dˌoːhəɾˈaːjaː,  fˈa˧˥n fˈu
+military: slin, 3257,  sˈɛːnjə,  tɕˈyən s.ˈi.
+drink: pyin, 3175,  pˈeːj,  xˈo-
+anger: nuc, 3221,  kɾˈoːdʰ,  fˈən nˈu
+hat: cup, 3822,  ʈˈoːpi,  mˈɑu tsi̪˥
+dog: kwak, 3574,  kˈʊtːaː,  kˈou˧˥
+servant: puc, 3285,  nˈɔːkəɾ,  phˈuɜ ʐˈəɜn
+pride: pyam, 3317,  ˌʌbʰɪmˈaːn,  tsˈi̪ xˈɑuɜ
+crowd: kcic, 3319,  bʰˈiːr.,  ʐˈəɜn tɕhˈyiɜn
+train: myin, 4425,  ɡˈaːr.i,  pheiɜjˈiɑ˧˥ŋ
+moral: mut, 3945,  nˈɛːtɪk,  tˈɑu tˈəɜ
+sword: clan, 2766,  tˌəlʋˈaːɾ,  tɕˈiɛn
+attack: nyak, 3432,  ˈaːkɾəmˌəɳ,  kˈonɡ tɕˈi
+health: slac, 4203,  sʋˈaːstʰjə,  tɕˈiɛn khˈɑŋ
+sorry: pcuc, 3258,  kʰˈeːd,  pˈɑu tɕhˈiɛn
+courage: kcuc, 3903,  sˈaːhəs,  ˈyu˧˥ŋ tɕhˈi
+grace: nyam, 3254,  ʌnˈʊɡɾəh,  əntˈiɛ˧˥n
+official: fis, 3749,  ˌaːdʰɪkˈaːɾɪk,  kwˈan fˈaŋ
+jack: ksak, 4260,  ɟˈɛːk,  ts.hˈɑ khˈou˧˥
+request: pfat, 3588,  pɾˈaːɾtʰənˌaː,  tɕhˈi˧˥ŋ tɕhˈiouɜ
+twelve: tyas, 3276,  bˈaːɾəh,  s.ˈi.ɜ ˈər
+engaged: wut, 3513,  ʋjˈʌst,  tˈiŋ xwˈuən
+wine: wun, 4090,  wˈaːɪn,  phuɜthɑuɜ tɕˈiou˧˥
+taste: kfat, 3258,  sʋˈaːd,  weitɑu˥
+iron: tcap, 3611,  lˈoːhaː,  thˈiɛ˧˥
+advantage: wap, 3659,  lˈaːbʰ,  jioutˈiɛ˧˥n
+clothes: kup, 3485,  kˈʌpr.ˌeː,  jifu˧˥
+judge: twak, 3416,  ɟˈʌɟ,  fˈɑ˧˥ kwˈan
+captain: pwan, 4288,  kəptˈaːn,  tueits.ˈa˧˥ŋ
+curious: kyis, 4808,  ɟɪɡjˈaːsʊ,  xɑutɕhˈiɜ
+foreign: wic, 3673,  wɪdˈeːʃi,  kˈuoɜ wˈai
+finally: nim, 4276,  ˈʌnt mˈẽː,  tsˈuei xˈou
+prove: pfan, 3546,  sˈaːbɪt kˈʌɾnˌaː,  ts.ˈəŋ mˈiɜŋ
+prevent: fwan, 3794,  ɾˈoːknˌaː,  faɜŋts.ˈi.˧˥
+neck: cyun, 3143,  ɡˈʌɾədˌən,  tɕˈi˧˥ŋ pˈu
+dry: suk, 3126,  sˈuːkʰaː,  kˈan
+lose: kcut, 3157,  kʰˈoːnaː,  s.ˈi. tɕhˈy
+evidence: fit, 3949,  səbˈuːt,  ts.ˈəŋ tɕˈy
+progress: pyis, 3805,  pɾˈʌɡtˌɪ,  tɕints.ˈa˧˥n
+building: plit, 3415,  ɪmˈaːɾət,  tɕˈiɛn tsˈɑu
+sad: swac, 3377,  ʊdˈaːs,  s.ˈaŋ ɕˈin
+sin: psip, 2971,  pˈaːp,  tsˈuei
+thirty: tfis, 3775,  tˈiːs,  sˈan s.ˈi.ɜ
+honest: tsin, 3622,  ˌiːmaːndˈaːɾ,  ts.hˈəɜŋ s.ˈi.ɜ
+bank: puk, 3879,  bˈɛ̃k,  jiɜnxˈaɜŋ
+forest: flan, 3042,  wˈʌn,  sˈən lˈiɜn
+measure: myap, 3497,  mˈaːp,  tsho-lˈiɑɜŋ
+otherwise: tyic, 3914,  ˈʌnjətʰˌaː,  ts.hˈuɜ tshˈi̪ɜ jˈi˧˥ wˈai
+stream: tyam, 3553,  dʰˈaːɾaː,  lˈiouɜ
+bread: yim, 3104,  ɾˈoːʈi,  mˈiɛn pˈɑu
+choose: twac, 3074,  cˈʊnnˌaː,  ɕˈyæ˧˥n tsˈo-ɜ
+animal: nwam, 3249,  ɟˈaːnəʋˌəɾ,  tˈonɡ wˈu
+thick: mus, 2623,  mˈoːʈaː,  xˈou
+creature: yum, 3384,  pɾˈaːɳi,  s.ˈəŋ wˈu
+rain: myic, 2893,  bˈaːɾɪʃ,  ʲˈy˧˥
+holy: swut, 3387,  pəʋˈɪtɾə,  s.ˈəŋ
+july: clis, 3863,  ɟʊlˈaːi,  tɕhˈi ˈyɛ
+coast: pwit, 2962,  tˈʌʈ,  pˈin
+file: fic, 3835,  fˈaːɪl,  wˈuəɜn tɕˈiɛn
+song: kum, 3104,  ɡˈiːt,  ko-tɕhˈy˧˥
+anyone: nyic, 3457,  kˈɪsi koː bʰˈi,  ʐˈən xˈo-ɜ ʐˈəɜn
+grass: tsac, 3602,  ɡʰˈaːs,  tshˈɑu˧˥
+opening: cyic, 3651,  pɾaːɾˈʌmbʰɪk,  khˈai phˈaɜn
+june: mun, 4107,  ɟˈuːn,  lˈiou ˈyɛ
+fish: fik, 3136,  mˈʌcʰlˌi,  ʲˈyɜ
+capital: klin, 3541,  ɾˌaːɟdʰˈaːni,  tsi̪pˈə˧˥n
+breast: tfat, 3470,  stˈʌn,  ʐˈu˧˥ fˈaɜŋ
+snow: cif, 3170,  hˌɪmpˈaːt,  ɕˈyɛ˧˥
+education: cim, 3983,  ʃˈɪkʃaː,  tɕjˈɑu ʲˈy
+pity: syam, 3262,  dˈʌjaː,  liɛɜnmˈi˧˥n
+million: tlin, 4413,  dˈʌs lˈaːkʰ,  pˈai˧˥ wˈɑn
+tired: tcik, 2721,  tʰˈʌkaː,  lˈei
+kill: ksam, 2281,  hˈʌtːjaː,  s.ˈɑ
+shadow: kcap, 2460,  cʰˈaːjaː,  jinjˈi˧˥ŋ
+established: tfit, 4234,  stʰˈaːpɪt,  tɕˈi tˈiŋ
+brave: psak, 3067,  bəhˈaːdʊɾ,  yuɜŋkˈa˧˥n
+virtue: myak, 3143,  sˌədaːcˈaːɾ,  mˈei˧˥ tˈəɜ
+famous: sum, 3352,  pɾəsˈɪddʰ,  ts.umˈiɜŋ
+divine: twin, 4148,  dˈɪʋjə,  s.ˈəɜn s.ˈəŋ
+valley: klit, 3328,  ɡʰˈaːʈi,  kˈu˧˥
+guess: nwas, 3689,  ˌʌnʊmˈaːn,  tshˈai tshˈo-
+bent: plac, 3709,  tˈʊlaː hˈʊaː,  wˈɑn tɕhˈy
+season: tsim, 3425,  ɾˈɪtʊ,  tɕˈi tɕˈiɛɜ
+science: syin, 3383,  wɪɡjˈaːn,  khˈo- ɕˈyɛɜ
+bore: kcuk, 3450,  cʰˈeːd,  khˈonɡ˧˥
+uncle: muk, 2683,  cˈaːcaː,  s.us.u˧˥
+list: psis, 3066,  sˈuːci,  mˈiɜŋ tˈan
+august: ksut, 4112,  ʌɡˈʌst,  pˈɑ ˈyɛ
+familiar: flak, 3533,  pˈʌɾɪcˌɪt,  s.ˈuɜ
+reader: tsut, 2919,  pˈaːʈʰək,  tuɜts.ˈo-˧˥
+twice: tsap, 3853,  dˈoː bˈaːɾ,  lˈiɑ˧˥ŋ tshˈi̪
+priest: pcis, 3854,  pʊɾˈoːhɪt,  mus.i.˥
+wounded: fyac, 3091,  ɡʰˈaːjəl,  fˈu s.ˈaŋ
+sorrow: tsam, 2461,  ɡˈʌm,  pˈei ˈai
+palace: plas, 3232,  mˈʌhəl,  kˈonɡ tˈiɛn
+beat: tyap, 3469,  həɾˈaːnaː,  tɕˈi pˈai
+eh?: nwac, 2098,  nˈaː,  s.ˈi. mɑ˥
+italy: tlic, 4527,  ˈɪʈlˌi,  jˈi tˈɑ lˈi
+fool: muc, 3282,  mˈuːɾkʰ,  s.ˈɑ˧˥ tsi̪˥˩
+burst: psut, 3457,  wɪspʰˈoːʈ,  pˈɑu lˈiɛ
+suffer: tfak, 3710,  bʰˈʊɡətnaː,  tsˈɑu s.ˈou
+noise: cus, 3468,  ʃˈoːɾ,  tsˈɑu s.ˈəŋ
+literature: fyit, 4045,  saːhˈɪtːjə,  wˈuəɜn ɕˈyɛɜ
+spain: psin, 4762,  spˈeːn,  ɕˈi pˈan jˈiɑɜ
+storm: tcut, 3697,  ˈãdʰi,  fˈəŋ pˈɑu
+pocket: kyik, 3016,  ɟˈeːb,  khˈou˧˥ tˈai
+november: nwap, 5145,  nəʋˈʌmbəɾ,  s.ˈi.ɜ jˈi ˈyɛ
+december: syap, 4951,  dɪsˈʌmbəɾ,  s.ˈi.ɜ ˈər ˈyɛ
+absence: psic, 4093,  ˌʌnʊpˈʌstʰɪtˌɪ,  tɕhˈyɛ ɕˈiɜ
+thank: fyak, 3782,  dʰˌənjəʋˈaːd,  kˈa˧˥n ɕˈiɛ
+address: twas, 3618,  pˈʌtaː,  tits.ˈi.˧˥
+bird: pwak, 3248,  pˈʌkʃi,  njˈɑu˧˥
+owner: myik, 3715,  mˈaːlɪk,  suoɜjˈiouɜ ts.ˈo-˧˥
+coat: kwut, 3569,  kˈoːʈ,  thu˥ tshˈəɜŋ
+smoke: tcuc, 3551,  dʰˈʊã,  ts.hˈou jˈiɛn
+january: nwak, 3410,  ɟˈʌnəʋɾi,  jˈi ˈyɛ
+machine: clic, 3579,  məʃˈiːn,  tɕˈi
+teeth: tlis, 2937,  dˈãt,  jiɑɜts.hˈi.˧˥
+shame: clac, 3696,  ʃˈʌɾm ki bˈaːt hɛː,  ts.hi.ɜʐˈu˧˥
+bay: pcaf, 2791,  kʰˈaːr.i,  wˈɑn
+brain: tyuk, 2957,  dɪmˈaːɡ,  nˈɑu˧˥
+ring: klac, 2928,  ʌŋɡˈuːʈʰi,  xˈuaɜn
+mention: clak, 2836,  ʊllˈeːkʰ,  thˈiɜ tˈɑu
+square: kyam, 3880,  wˈʌɾɡ,  kwaɜŋts.hˈɑ˧˥ŋ
+fruit: fut, 3283,  pʰˈʌl,  s.weiɜkˈuo˧˥
+tea: tsic, 3218,  cˈaːj,  ts.hˈɑɜ
+welcome: swak, 3514,  sʋˈaːɡət,  xuanjˈiɜŋ
+germany: cyam, 4290,  ɟˈʌɾmənˌi,  tˈəɜ kˈuoɜ
+poetry: pwis, 3872,  kˈʌʋɪtˌaː,  s.ˈi.
+buy: kyim, 3446,  kʰəɾˈiːdnˌeː keː lˈɪeː,  koumˈai˧˥
+faithful: yif, 3033,  ʃɾəddʰˈaːlʊ,  khˈo-˧˥ ɕˈin
+forty: klas, 3686,  caːlˈiːs,  sˈi̪ s.ˈi.ɜ
+april: pyip, 3769,  ʌpɾˈɛːl,  sˈi̪ ˈyɛ
+october: kwap, 4282,  ʌkʈˈuːbəɾ,  s.ˈi.ɜ ˈyɛ
+slave: tlap, 3149,  dˈaːs,  nˈuɜ lˈi
+text: tyis, 3350,  ʈˈeːksʈ,  wuəɜnpˈə˧˥n
+credit: kyip, 3350,  ʃɾˈeːj,  ɕˈin ˈyuŋ
+fifteen: pfit, 2934,  pˈʌndɾəh,  s.i.ɜwˈu˧˥
+cruel: kyic, 3405,  nˈɪɾdəjˌi,  tshaɜnʐˈə˧˥n
+join: undefined, undefined, undefined, undefined
+process: yus, 3859,  pɾˈʌkɾɪjˌaː,  ts.huɜlˈi˧˥
+crime: kyaf, 3466,  ˌʌpɾˈaːdʰ,  fˈan tsˈuei
+dust: tsuc, 3808,  dʰˈuːl,  xˈuei ts.hˈəɜn
+practical: yuk, 4402,  ʋjaʊhˈaːɾɪk,  s.ˈi.ɜ ˈyuŋ
+destroy: pcut, 3682,  nˈʌʂʈ,  phˈo xˈuai
+nose: nus, 3351,  nˈaːk,  pˈiɜ tsi̪ɜ
+yesterday: kfan, 3273,  kˈʌl,  tsˈuoɜ thˈiɛn
+fail: fap, 3504,  ˈʌsəpʰˌəl,  s.ˈi. pˈai
+continue: kcik, 3942,  ɟˈaːɾi ɾˈʌkʰnˌeː keː lˈɪeː,  tɕˈi ɕˈy
+blind: nyut, 2490,  ˈʌndʰaː,  mˈaɜŋ
+india: nyin, 3710,  ˈĩɖɪjˌaː,  jˈin tˈu
+fly: fyap, 2915,  ˈʊr.nˌaː,  fˈei
+devil: cwas, 3012,  ʃɛːtˈaːn,  moɜkˈuei˧˥
+sacrifice: syaf, 3774,  tːjˈaːɡ,  ɕˈi s.ˈəŋ
+conscience: tfin, 3311,  ˌʌntəɾˈaːtmaː ki aːʋˈaːɟ,  lˈiɑɜŋ ɕˈin
+minister: myis, 3781,  mˈʌntɾi,  puts.ˈa˧˥ŋ
+hate: tyaf, 3109,  nˈʌfəɾˌət,  thˈɑu˧˥ jˈiɛn
+lake: cyik, 2461,  ɟʰˈiːl,  xˈuɜ
+careful: kwac, 3673,  saʊdʰˈaːn,  ɕjˈɑu˧˥ ɕˈin
+enjoy: clas, 3265,  aːnˈʌnd,  ɕˈiɑ˧˥ŋ s.ˈou
+worship: pcap, 3668,  pˈuːɟaː,  ts.hˈonɡɜ pˈai
+goods: pwas, 2976,  mˈaːl,  ts.haɜnphˈi˧˥n
+skin: twik, 2862,  tʋˈʌcaː,  phˈiɜ fˈu
+roof: tlut, 2872,  cʰˈʌt,  wutˈi˧˥ŋ
+crown: gan, 3791,  tˈaːɟ,  kwˈan
+castle: ksap, 3837,  ɡˈʌr.h,  ts.həɜŋpˈɑu˧˥
+throne: tcus, 3398,  sĩhˈaːsən,  wˈɑɜŋ tsˈuo
+prison: cyis, 3588,  ɟˈeːl,  tɕˈiɛn ʲˈy
+cup: kfap, 3274,  kˈʌp,  pˈei
+member: myam, 2783,  sədˈʌsjə,  xˈuei ˈyæɜn
+civil: swik, 3441,  nˈaːɡɾˌɪk,  kˈuoɜ nˈei
+bow: ksun, 2959,  dʰˈʌnʊʂ,  kˈonɡ
+milk: luc, 2762,  dˈuːdʰ,  niouɜnˈai˧˥
+egypt: ksip, 3531,  mˈɪsɾə,  ˈai tɕˈiɜ
+cousin: yuc, 3577,  cəcˈeːɾaː bʰˈaːi,  pjɑuɜtɕˈiɛ˧˥
+bridge: pyuc, 2749,  pˈʊl,  tɕhjˈɑuɜ
+israel: syis, 4923,  ˌɪɟɾˈaːɪl,  jˈi˧˥ sˈo- lˈiɛ
+salt: slam, 3178,  nˈʌmək,  jˈiɛɜn
+innocent: wus, 3660,  maːsˈuːm,  wˈuɜ kˈu
+queen: kwin, 3992,  ɾˈaːni,  nˈy˧˥ wˈɑɜŋ
+curiosity: kcis, 4365,  ɟɪɡjˈaːsaː,  xɑutɕhˈiɜ ɕˈin
+dance: nyis, 2556,  nɾˈɪtːjə,  wuɜtˈɑu˧˥
+hotel: cwut, 4101,  hˈoːʈəl,  fˈan tˈiɛn
+fill: cwin, 3081,  bʰˈʌɾnˌaː,  thˈiɛɜn
+prisoner: pwin, 4150,  bˈʌndi,  tɕhˈiouɜ fˈan
+stairs: syic, 3630,  sˈiːr.hɪjˌõ,  lˈouɜ thˈi
+beg: tlam, 3304,  mˈaːn lˈeːnaː,  tɕhˈiouɜ
+sand: swas, 2577,  ɾˈeːt,  s.ˈɑ
+september: slap, 4352,  sɪtˈʌmbəɾ,  tɕˈiou˧˥ ˈyɛ
+ireland: tlik, 3414,  ˌaːjəɾlˈɛ̃ɖ,  ˈai ˈər˧˥ lˈaɜn
+ruin: fyic, 3308,  wɪnˈaːʃ,  fˈei ɕˈy
+cattle: wim, 2986,  məʋˈeːʃi,  xwˈɑɜŋ nˈiouɜ
+equipment: wip, 3760,  ˈʊpəkˌəɾəɳ,  s.ˈo- pˈei
+kitchen: kfun, 3667,  ɾəsˈoːi,  ts.hˈuɜ fˈaɜŋ
+sell: plak, 3021,  bˈeːcnˌaː,  mˈai
+speed: kfit, 3618,  ɡˈʌtɪ,  sˈu tˈu
+computer: myut, 5015,  kəmpːjˈuːʈəɾ,  tɕˈi sˈuan tɕˈi
+limited: lim, 3102,  sˈiːmɪt,  jˈiou˧˥ ɕˈiɛn
+library: pfak, 3867,  pˌʊstəkˈaːlˌɛj,  thˈuɜ s.ukwˈa˧˥n
+confusion: klun, 3722,  bʰɾˈʌm ki stʰˈɪtɪ,  xwˈuən lˈuan
+article: luk, 3091,  lˈeːkʰ,  wˈuəɜn ts.ˈaŋ
+cook: kfak, 2945,  pəkˈaːnaː,  ts.hˈuɜ s.ˈi.
+desert: ksus, 3425,  ɾˌeːɡɪstˈaːn,  s.ˈɑ mˈo
+kiss: pup, 3447,  cˈũbən,  wˈuə˧˥n
+ball: plut, 2867,  ɡˈẽːd,  tɕhˈiouɜ
+observe: nuk, 3130,  nɪɾˈiːkʃəɳ,  s.ˈou˧˥
+guilty: klic, 2968,  dˈoːʂi,  jˈiou˧˥ tsˈuei
+gun: psun, 3414,  bəndˈuːk,  tɕhˈiɑŋ
+police: plis, 5899,  pˈʊlɪs,  tɕˈi˧˥ŋ ts.hˈɑɜ
+hide: ksin, 4234,  cʰɪpˈaːnaː,  jˈi˧˥n tshˈaɜŋ
+generous: tyik, 3146,  ʊdˈaːɾ,  khɑŋkhˈai˧˥
+cloud: plaf, 2568,  bˈaːdəl,  ʲˈyəɜn
+waste: tfik, 3317,  beːkˈaːɾ,  lˈaŋ fˈei
+february: pyaf, 4371,  pʰˈʌɾəʋɾi,  ˈər ˈyɛ
+disease: tsik, 2935,  ɾˈoːɡ,  tɕˈiɜ pˈiŋ
+spend: pwam, 3322,  bɪtˈaːnaː,  xwˈɑ
+source: syun, 3968,  sɾˈoːt,  tsˈi̪ ˈyæɜn
+aunt: tyim, 2492,  cˈaːci,  jˈiɜ mˈɑ
+delay: tlim, 3824,  wɪlˈʌmb,  jˈiɛɜn ts.hˈi.ɜ
+hero: nyik, 3453,  nˈaːjək,  jˈiŋ ɕˈyɜŋ
+philosophy: faf, 5354,  dˈʌɾʃən,  ts.ˈo-ɜ ɕˈyɛɜ
+finger: slik, 3014,  ˈʊŋɡəlˌi,  s.ouɜts.ˈi.˧˥
+forehead: flac, 3328,  mˈaːtʰaː,  tɕhˈiɛɜn ˈo-ɜ
+angel: twic, 3389,  dˌeːʋdˈuːt,  thiɛns.ˈi.˧˥
+dawn: laf, 2699,  bʰˈoːɾ,  lˈiɜ mˈiɜŋ
+sheep: pfic, 2410,  bʰˈeːr.,  jˈiɑɜŋ
+patience: tcaf, 2573,  dʰˈɛːɾjə,  ʐˈə˧˥n nˈai
+farm: kfac, 3308,  kʰˈeːt,  nonɡɜts.hˈɑ˧˥ŋ
+weakness: flit, 3080,  dˈʊɾbəltaː,  ʐuotˈiɛ˧˥n
+china: swin, 3277,  cˈiːn,  ts.ˈonɡ kˈuoɜ
+sigh: tcuk, 2996,  ɟʰˈõkaː,  thˈan
+opposition: pif, 3824,  wɪɾˈoːdʰ,  fˈa˧˥n tˈuei
+artist: slas, 3115,  kˌəlaːkˈaːɾ,  jˈi s.ˈu tɕˈiɑ
+knight: cwit, 3621,  ʃˌuːɾʋˈiːɾ,  tɕhˈiɜ s.ˈi.
+charm: cwam, 2655,  aːkˈʌɾʂəɳ,  mˈei lˈi
+governor: kwun, 3965,  ɾˈaːɟjəpˌaːl,  ts.outs.ˈa˧˥ŋ
+branch: fwac, 2847,  ʃˈaːkʰaː,  khˈo-
+disposition: slic, 3354,  sʋˈʌbʰaʊ,  ɕˈiŋ kˈo-ɜ
+pipe: pwap, 4187,  pˈaːɪp,  kwˈa˧˥n
+oh: wuc, 3131,  ˈoːh,  ˈoɜ
+cabin: kfin, 4628,  kˈeːbɪn,  tshˈaŋ
+nervous: nwis, 3556,  pˌəɾeːʃˈaːn,  tɕˈi˧˥n ts.ˈaŋ
+knife: kuf, 3060,  cˈaːkuː,  tˈɑu
+silk: syim, 3096,  ɾˈeːʃəm,  sˈi̪
+russia: sus, 3403,  ɾˈuːs,  ˈo-ɜ kˈuoɜ
+contempt: kyif, 3382,  ɡʰɾˈɪɳaː,  pˈi˧˥ s.ˈi.
+hell: nyaf, 2823,  nˈʌɾək,  tiˈy
+mixed: myuk, 3231,  mˈɪʃɾɪt,  tsˈɑɜ
+prefer: pyif, 4871,  pəsˈʌnd kˈʌɾtˌeː hɛ̃,  pˌi˧˥tɕjɑuɕi˧˥xˈuan
+ambition: mwac, 4356,  mˌəhətʋaːkˈãkʃaː,  ts.i.ɕiɑ˥ŋ
+christmas: ksim, 3901,  kɾˈɪsəmˌəs,  s.ˈəŋ tˈan
+constitution: nwin, 4356,  sˌənʋɪdʰˈaːn,  ɕiɛnfˈɑ˧˥
+africa: fyik, 6291,  ʌpʰɾˈiːkaː,  fˈei ts.ˈou
+tide: kwam, 2755,  ɟʋˈaːɾ,  ts.hˈɑuɜ
+college: klik, 4425,  kɔlˈeːɟ,  ɕˈyɛɜ ˈyæn
+tail: kyuk, 2548,  pˈũcʰ,  wˈei˧˥
+generation: nyif, 3816,  pˈiːr.hi,  tˈai
+cat: klut, 2556,  bˈɪlli,  mˈɑu
+eleven: klam, 2654,  ɡjˈaːɾəh,  s.ˈi.ɜ jˈi
+instinct: slak, 3491,  sʋaːbʰˈaʊɪk,  pˈə˧˥n nˈəɜŋ
+tribe: klip, 3077,  ɟˌənɟˈaːtɪ,  pˈu lˈuo
+shake: mwak, 2763,  mˈʌntʰən,  jˈɑuɜ
+industry: tyus, 3433,  ʊdjˈoːɡ,  xaɜŋjˈiɛ
+lamp: gap, 3410,  dˈiːpək,  tˈəŋ
+coffee: kfif, 5795,  kˈɔfi,  khˈɑ fˈei
+nurse: nyus, 3258,  nˈʌɾs,  xus.i.˥
+teaching: tcim, 3062,  ʃˈɪkʃəɳ,  tɕjˈɑu ɕˈyɛɜ
+shoes: clut, 2931,  ɟˈuːteː,  ɕˈiɛɜ
+activity: kwit, 4687,  ɡˈʌtɪʋˌɪdʰɪ,  xˈuoɜ tˈonɡ
+saturday: cwap, 3162,  ʃˌənɪʋˈaːɾ,  ɕˈiŋ tɕhˈi lˈiou
+sunshine: nyuc, 3059,  dʰˈuːp,  jˈiɑɜŋ kwˈaŋ
+widow: wif, 3407,  wˈɪdʰʋˌaː,  kwɑ˧˥fu˥˩
+reflection: flin, 4013,  pɾˌətɪbˈĩb,  fˈa˧˥n s.ˈo-
+star: syut, 2357,  tˈaːɾaː,  ɕˈiŋ
+bottle: pcun, 3471,  bˈoːtəl,  phˈiɜŋ
+bless: plik, 4298,  bʰˈʌlaː kˈʌɾeː,  pˈɑu˧˥ jˈiou
+stir: clap, 3340,  halcˈal,  tɕjˈɑu˧˥ pˈan
+province: pfas, 3355,  pɾˈãt,  s.ˈə˧˥ŋ
+civilization: slaf, 3629,  sˈʌbʰjətˌaː,  wˈuəɜn mˈiɜŋ
+hang: klap, 2979,  lˈʌʈəknaː,  kwˈɑ
+exception: swap, 3511,  ˌʌpʋˈaːd,  lˈi wˈai
+swear: psam, 3441,  kˈʌsəm seː,  fˈɑ s.ˈi.
+treasure: tsun, 2592,  kʰəɟˈaːnaː,  pˈɑu˧˥
+seed: slis, 2885,  bˈiːɟ,  ts.ˈonɡ˧˥ tsi̪˥˩
+tower: gac, 2944,  minˈaːɾ,  thˈɑ˧˥
+favourite: fwit, 4419,  pˌəsndˈiːdaː,  ɕˈi˧˥ ˈai
+mexico: ksik, 6324,  mˈeːksɪkˌoː,  mˈo ɕˈi kˈo-
+furniture: mif, 3073,  pʰəɾnˈiːcəɾ,  tɕiɑtɕy˧˥
+rope: ksaf, 2418,  ɾˈʌssi,  s.ˈəɜŋ
+sixty: swis, 3161,  sˈaːʈʰ,  lˈiou s.ˈi.ɜ
+ceremony: syuc, 3926,  sˌəmaːɾˈoːh,  jˈiɜ s.ˈi.
+hunting: claf, 3079,  ʃɪkˈaːɾ,  s.ˈou lˈiɛ
+whisper: psus, 3052,  pʰˌʊspʰʊsˈaːnaː,  ərɜʲˈy˧˥
+christianity: kcim, 4745,  isˈaːi dʰˈʌɾm,  tɕˈi tˈu tɕjˈɑu
+lawyer: kwik, 2647,  wəkˈiːl,  lˈy s.ˈi.
+princess: kwis, 3859,  ɾˌaːɟkʊmˈaːɾi,  konɡts.ˈu˧˥
+altar: clam, 2658,  wˈeːdi,  thˈaɜn
+web: wup, 3309,  wˈeːb,  tɕˈyæɜn thˈonɡɜ ts.ˈi.˧˥
+purple: pfun, 2670,  bˈɛ̃ɡnˌi,  tsˈi̪˧˥ sˈo-
+gather: ksic, 3077,  ɪkˈʌʈʰːaː,  s.ˈou tɕˈiɜ
+drunk: tyip, 3422,  ʃəɾˈaːbi,  tsˈuei
+emperor: myip, 3458,  səmɾˈaːʈ,  xwˈɑɜŋ tˈi
+ugly: cyuk, 3152,  kʊɾˈuːp,  ts.hˈou˧˥ lˈou
+harmless: cyuc, 3507,  hˈaːnɪɾhɪt,  wˈuɜ xˈai
+roll: yuf, 4158,  ɾˈoːl,  kˈuə˧˥n
+inch: nwic, 3609,  ˈĩc,  jˈiŋ tshˈuən
+newspaper: kyup, 3274,  sˌəmaːcˈaːɾ pˈʌtɾə,  pɑuts.ˈi.˧˥
+beard: tyif, 3229,  dˈaːr.hi,  xˈuɜ tsi̪ɜ
+tear: syus, 2639,  ˈãsuː,  sˈi̪
+bob: tup, 3864,  bˈɔb,  tˈua˧˥n fˈɑ
+smell: klaf, 2383,  ɡˈʌndʰ,  wˈuəɜn
+eighteen: tcip, 3303,  ʌʈʰˈaːɾəh,  s.ˈi.ɜ pˈɑ
+root: ksuk, 2296,  ɟˈʌr.,  kˈən
+theatre: twis, 3321,  tʰɪˈeːʈəɾ,  tɕˈy ˈyæn
+comparison: kfas, 3392,  tˈʊlnˌaː,  tˈuei ts.ˈɑu
+rival: pfin, 3642,  pɾˌətɪdʋˈʌndʋi,  tueis.ˈou˧˥
+coach: kyuc, 3365,  kˈoːc,  tɕjˈɑu lˈiɛn
+revenge: tsaf, 3288,  bˈʌdlˌaː,  fˈu ts.hˈouɜ
+jealous: cyus, 2894,  ˈiːɾʂjaːlˌʊ,  tˈu
+flash: flas, 4263,  flˈɛːʃ,  s.ˈa˧˥n
+curse: tfas, 2768,  ˌʌbʰɪʃˈaːp,  tsˈu˧˥ ts.ˈou
+positive: psaf, 3496,  sˌəkaːɾˈaːtmək,  ts.ˈəŋ
+club: klup, 6082,  klˈʌb,  tɕˈy lˈə pˈu
+flood: nif, 2945,  bˈaːr.h,  xonɡɜs.wˈei˧˥
+grain: nyun, 2763,  ʌnˈaːɟ,  liɑɜŋs.i.ɜ
+indifference: tfic, 3818,  ˌʊdaːsˈiːntˌaː,  mˈo pˈu kwˈan ɕˈin
+horizon: cwik, 3821,  kʃˈɪtɪɟ,  tˌiphiɜŋɕˈiɛn
+steep: tum, 2830,  kʰˈʌr.i,  tˈou˧˥
+harmony: myun, 3636,  sˌaːməɲɟˈʌsjə,  xˈo-ɜ ɕˈiɛɜ
+thunder: fyut, 2570,  ɡˌər.əɡr.ˈaːhəʈ,  lˈeiɜ
+greece: klis, 3204,  juːnˈaːn,  ɕˈi lˈɑ
+childhood: tfap, 3425,  bˈʌcəpˌən,  thˈonɡɜ nˈiɛɜn
+knee: cwun, 2723,  ɡʰˈʊʈnˌaː,  ɕˈi kˈai
+saddle: gat, 3444,  sˈɛːɖəl,  ˈan
+slip: swam, 2761,  sˈʌɾək,  xwˈɑɜ
+revolution: klim, 3425,  kɾˈãtɪ,  kˈo-ɜ mˈiŋ
+farmer: fim, 3899,  kɪsˈaːn,  nˈonɡɜ mˈiɜn
+messenger: mwin, 3301,  mɛːsˈẽːɟəɾ,  ɕins.ˈi.˧˥
+student: clun, 3288,  cʰˈaːtɾə,  ɕyɛɜs.əɜŋ
+cave: kwic, 3250,  ɡˈʊpʰaː,  tˈonɡ ɕˈyɛɜ
+tradition: tfam, 3701,  pəɾˈʌmpəɾˌaː,  ts.huaɜnthˈonɡ˧˥
+tragedy: psik, 2861,  tɾˈaːsdˌi,  pˈei tɕˈy
+criticism: clik, 2937,  aːlˈoːcnˌaː,  phˈi phˈiɜŋ
+cotton: plap, 3250,  kəpˈaːs,  mˈiɛɜn
+hospital: slut, 2939,  ˌʌspətˈaːl,  jˈi ˈyæn
+gas: gas, 4811,  ɡˈɛːs,  tɕhithˈi˧˥
+inevitable: rin, 3785,  ˌʌpɾɪhˈaːɾjə,  pˈi ʐˈaɜn
+deadly: git, 3092,  ɡʰˈaːtək,  ts.ˈi. mˈiŋ
+hostile: rat, 3561,  ʃˌətɾʊtaːpˈuːɾɳə,  tˈiɜ tˈuei
+translation: ran, 4043,  ˌʌnʊʋˈaːd,  fˈan jˈi
+funeral: tran, 4423,  ˈʌntɪm sənskˈaːɾ,  tsaŋlˈi˧˥
+romantic: rak, 5020,  ɾoːmˈaːni,  lˈaŋ mˈan
+dollar: dlan, 4699,  ɖˈɔləɾ,  mˈei˧˥ ˈyæɜn
+daylight: dac, 3840,  dˈɪn kaː pɾəkˈaːʃ,  ʐˈi. kwˈaŋ
+sixteen: sos, 3796,  sˈoːləh,  s.ˈi.ɜ lˈiou
+colony: kon, 5808,  kaːlˈoːni,  ts.ˌi.ɜmiɜntˈi
+wing: gin, 2339,  wˈĩɡ,  jˈi
+lion: sen, 2728,  ʃˈeːɾ,  s.ˈi. tsi̪˧˥
+culture: kot, 3496,  sˈʌnskɾɪtˌɪ,  wˈuəɜn xwˈɑ
+drama: dam, 4450,  nˈaːʈək,  ɕˈi tɕˈy
+mist: duc, 2686,  dʰˈũdʰ,  poɜwˈu
+medicine: dan, 3289,  dˈʌʋaː,  jˈi ɕˈyɛɜ
+fourteen: kos, 3438,  cˈɔːdəh,  s.ˈi.ɜ sˈi̪
+acid: sram, 2843,  ˈʌmlə,  sˈuan
+asia: zas, 3806,  ˈeːʃɪjˌaː,  jˈiɑ ts.ˈou
+income: mon, 3113,  ˈaːmədni,  s.ˈou ʐˈu
+bishop: bip, 3960,  bˈɪʃəp,  ts.ˈu˧˥ tɕjˈɑu
+orange: ron, 4637,  naːɾˈʌŋɡi,  ts.hˈəɜŋ
+austria: srit, 4824,  ˈɔsʈɾɪjˌaː,  ˈɑu tilˈi
+bath: ban, 3785,  snˈaːn,  ʲˈy
+sunset: sot, 4048,  suːɾjˈaːst,  ʐˈi. lˈuo
+handkerchief: rac, 3601,  ɾuːmˈaːl,  s.ˈou˧˥ phˈɑ
+secretary: sris, 3986,  sˈʌcɪw,  mˈi s.ˈu
+straw: prac, 2908,  pʊˈaːl,  tɑutshˈɑu˧˥
+steam: bac, 3628,  bʰˈaːp,  ts.ˈəŋ tɕhˈi
+poison: wec, 2540,  wˈɪʂ,  tˈuɜ
+distinguish: din, 3750,  bʰˈeːd,  tɕhˈy fˈən
+wash: dic, 3219,  dʰʊlˈaːi,  ɕˈi˧˥
+nonsense: bas, 4452,  bˌəkʋˈaːs,  fˈei xwˈɑ
+coal: koc, 3404,  kˈoːjlˌaː,  mˈeiɜ thˈan
+canoe: ton, 3702,  ɖˈõɡi,  tˈuɜ mˈu ts.ˈou
+monday: swic, 2504,  sˌoːmʋˈaːɾ,  ɕˈiŋ tɕhˈi jˈi
+desirable: zin, 3294,  wˌãcʰnˈiːj,  xˈo-ɜ jˈi
+linen: len, 3778,  lˈɪnən,  mˈɑɜ pˈu
+sink: sok, 3084,  sˈĩk,  s.wˈei˧˥ tshˈɑuɜ
+nephew: bin, 3380,  bʰətˈiːɟaː,  wais.ə˥ŋ
+bloody: krin, 3839,  ɾˌəktəɾˈʌɲɟɪt,  ɕˈyɛ ɕˈiŋ
+stomach: tem, 3485,  pˈeːʈ,  wˈei
+brass: pran, 3159,  pˈiːtəl,  xwˈɑɜŋ thˈonɡɜ
+fence: bap, 2725,  bˈaːr.,  lˈiɜ pɑɜ
+statue: dat, 4207,  pɾˈʌtɪmˌaː,  tjˈɑu ɕˈiɑŋ
+artillery: tlip, 4553,  tˈoːpẽː,  phˈɑu pˈiŋ
+embrace: kran, 3143,  aːlˈĩɡən,  ˈyuŋ pˈɑu
+deer: lif, 2159,  mɾˈɪɡ,  lˈu
+bush: crac, 3343,  ɟʰˈaːr.i,  ts.hˈən thˈɑu
+heir: ris, 3894,  wˈaːɾɪs,  tɕˈi ts.hˈəɜŋ ts.ˈo-˧˥
+oak: blun, 2715,  bəlˈuːt,  ɕˈiɑŋ mˈu
+piano: pon, 5807,  pɪjˈaːnoː,  kˈaŋ tɕhˈiɜn
+persuade: sek, 2778,  mənˈaːnaː,  s.wˈo fˈuɜ
+cruelty: rut, 4437,  kɾˈuːɾtˌaː,  tshˈaɜn khˈu
+temptation: yon, 3359,  pɾəlˈoːbʰən,  jˈiou xˈuo
+international: tric, 4661,  ˌʌntəɾɾˈaːʂʈɾij,  kˈuoɜ tɕˈi
+interfere: nek, 2947,  hˌəstəkʃˈeːp,  kanʐˈɑu˧˥
+philosopher: fif, 5245,  dˈaːɾʃənˌɪk,  ts.ˈo-ɜ ɕˈyɛɜ tɕˈiɑ
+fishing: jin, 3091,  mˈʌcʰlˌi pˈʌkər.naː,  tjˈɑu ʲˈyɜ
+steal: truc, 3258,  cʊɾˈaːnaː,  thˈou
+lip: loc, 2332,  ˈõʈʰ,  ts.hˈuəɜn
+parallel: pen, 3928,  sˌəmaːnˈãtəɾ,  phˈiɜŋ ɕˈiɜŋ
+continent: bat, 3253,  məhˈaːdʋip,  tˈɑ lˈu
+prohibition: ric, 3495,  nɪʂˈeːdʰ,  tɕˈin lˈiŋ
+tie: trat, 3807,  ʈˈaːi,  lˈi˧˥ŋ tˈai
+egg: non, 2374,  ˈʌɳɖaː,  tˈan
+artificial: rit, 4055,  kɾˈɪtɾɪm,  ʐˈəɜn tsˈɑu
+meanwhile: srin, 3276,  ˈɪs bˈiːc,  ʲˈyɜ tshˈi̪˧˥ thˈonɡɜ s.ˈi.ɜ
+pine: pwen, 2849,  dˌeːʋdˈaːɾ,  sˈonɡ s.ˈu
+sailor: rik, 2996,  nˈaʊɪk,  s.weiɜs.ˈou˧˥
+purity: prat, 3974,  pəʋˈɪtɾətˌaː,  ts.hˈuəɜn tˈu
+republic: guk, 4122,  ɡˌəɳətˈʌntɾə,  kˈonɡ xˈo-ɜ kˈuoɜ
+telephone: ten, 6481,  ʈˌeːlipʰˈoːn,  tˈiɛn xwˈɑ
+whip: krit, 2475,  kˈoːr.aː,  pˈiɛn
+shirt: cem, 2613,  kəmˈiːɟ,  ts.hˈən s.ˈan
+sofa: sof, 5449,  sˈoːfaː,  s.ˈɑ fˈɑ
+sweep: gam, 3021,  ɡʰˈʊmaʊ,  sˈɑu˧˥
+thief: ksif, 2071,  cˈoːɾ,  tsˈeiɜ
+channel: ken, 4566,  cˈɛːnəl,  tɕhˈyɜ tˈɑu
+palm: pem, 3598,  hətʰˈeːli,  tsˈonɡ lˈyɜ
+speaker: zat, 3708,  wˈʌktaː,  jˈiɑɜŋ s.ˈəŋ tɕhˈi
+threshold: dit, 2718,  ɖeːʋˈʌr.hi,  ʲˈy
+collar: klon, 3859,  kˈɔləɾ,  lˈi˧˥ŋ
+beer: bic, 4136,  bˈiːjəɾ,  phiɜtɕˈiou˧˥
+velvet: wem, 2910,  mˈʌxəmli,  sˈi̪ ʐˈonɡɜ
+gravity: gwit, 3943,  ɡəmbʰˈiːɾtˌaː,  ts.ˈonɡ lˈi
+sermon: cen, 3082,  ˌʊpdˈeːʃ,  tɕˈiɑ˧˥ŋ tˈɑu
+thirteen: tes, 3928,  tˈeːɾəh,  s.ˈi.ɜ sˈan
+cigar: srat, 3415,  sɪɡˈaːɾ,  ɕˈyɛ˧˥ tɕˈiɑ
+brush: brac, 3760,  bɾˈʌʃ,  s.wˈɑ
+cream: krim, 5440,  kɾˈiːm,  nˈai˧˥ jˈiouɜ
+japan: jan, 5594,  ɟaːpˈaːn,  ʐi.pˈə˧˥n
+jury: jrin, 3770,  ɟˈuːɾi,  phˈeiɜ s.ˈə˧˥n thˈuaɜn
+frozen: goc, 3836,  ɟˈʌmeː hˈʊeː,  tˈonɡ tɕˈiɛɜ təɜ
+pot: pot, 4525,  pˈɔʈ,  kˈuo
+apple: pep, 2897,  sˈeːb,  phiɜŋkˈuo˧˥
+background: prin, 3786,  pɾˌɪʂʈʰəbʰˈuːmɪ,  peitɕˈi˧˥ŋ
+transcribe: trin, 3833,  ʈˈaːɪp kˈʌɾnˌaː,  lˈu ts.ˈi.
+georgia: grac, 4008,  ɟˈɔɾɟɪjˌaː,  kˈo-ɜ lˈu˧˥ tɕˈiɜ jˈiɑ
+virus: pris, 4639,  wˈaːɪɾˌəs,  pˈiŋ tˈuɜ
+childish: bit, 3465,  bˌəckˈaːnaː,  jˈiou ts.ˈi.
+reflect: flik, 3699,  pɾˌətɪbˈĩbɪt,  fˈa˧˥n jˈiŋ
+opera: poc, 4231,  oːpˈeːɾaː,  kˈo- tɕˈy
+latitude: jat, 3814,  ʌkʃˈãʃ,  wˈei˧˥ tˈu
+punish: zan, 3563,  sˈʌzaː dˈeːnaː,  ts.hˈəɜŋ ts.ˈi.
+elbow: kcoc, 3603,  kˈoːhənˌi,  wˈɑn thˈouɜ
+seventy: set, 4134,  sˈʌtːəɾ,  tɕhˈi s.ˈi.ɜ
+scripture: sric, 3555,  ĩɟˈiːl,  s.ˈəŋ tɕˈiŋ
+disorder: dak, 3435,  wɪkˈaːɾ,  wˈuə˧˥n lˈuan
+binary: brin, 4943,  bˈaːɪnɾi,  ˈər tɕˈin ts.ˈi.
+abbey: bis, 2731,  ˈɛːbi,  sˈəŋ ˈyæn
+arrow: tec, 3154,  tˈiːɾ,  tɕˈiɛn thˈouɜ
+elaborate: crat, 3550,  wˈɪstɾɪt,  ts.hˈa˧˥n s.ˈu
+coin: son, 2841,  sˈɪkːaː,  jˈiŋ pˈi
+tremble: tram, 3606,  sˈɪhəɾnaː,  ts.hantˈou˧˥
+trap: cran, 3166,  pʰˈʌndaː,  ɕiɛntɕˈi˧˥ŋ
+cake: kek, 5358,  kˈeːk,  tˈan kˈɑu
+seventeen: sec, 4112,  sˈʌtɾəh,  s.ˈi.ɜ tɕhˈi
+honey: moc, 2546,  mˈʌdʰʊ,  fˈəŋ mˈi
+brick: trit, 2858,  ˈiːɳʈ,  ts.ˈuan
+eighty: ses, 3725,  ˈʌssi,  pˈɑ s.ˈi.ɜ
+legend: wen, 4508,  kˌĩʋədˈʌnti,  ts.hˈuaɜn s.wˈo
+compass: das, 3615,  dˈɪʃaː sˈuːcək jˈʌntɾə,  lˈuoɜ phˈaɜn
+harvest: ros, 3847,  fˈʌsəl,  s.outs.hə˧˥ŋ
+stove: tot, 3266,  sʈˈoːw,  xˈuo˧˥ lˈuɜ
+australia: sras, 4865,  ɔsʈɾˈeːlɪjˌaː,  ˈɑu tˈɑ lˈi jˈiɑ
+swell: con, 3158,  mˌəhaːtəɾˈʌŋɡ,  phˈəɜŋ ts.ˈaŋ
+swamp: som, 3030,  dˈʌlədˌəl,  ts.ˈɑu˧˥ tsˈo-ɜ
+dressing: res, 4054,  ɖɾeːsˈĩɡ,  fˈu ljˈɑu
+boiled: buc, 3401,  ˈʊblˌaː hˈʊaː,  ts.ˈu˧˥ fˈei
+wolf: baf, 2532,  bʰˈeːr.ɪjˌaː,  lˈaɜŋ
+carpet: krap, 3504,  ɡəlˈiːcaː,  tithˈa˧˥n
+antiquity: bak, 3747,  pɾaːcˈiːn kˈaːl,  kˈu˧˥ tˈai
+turkey: trik, 4928,  tˈʊɾki,  xˈuo˧˥ tɕˈi
+fertile: frut, 2420,  ˌʊpɟˈaːu,  wˈo
+whistle: slif, 3019,  sˈiːʈi,  s.ˈɑu
+cheese: gis, 2897,  pənˈiːɾ,  tɕhˈi˧˥ sˈi̪
+bite: krat, 3274,  kˈaːʈnˌaː,  jˈɑu˧˥
+wander: bjan, 3699,  bʰˈʌʈəknaː,  mˈan pˈu
+mask: mok, 4329,  mʊkʰˈɔːʈaː,  mˈiɛn tɕˈy
+vegetable: soc, 2902,  sˈʌbzi,  s.ˈu tshˈai
+trousers: tlun, 4415,  pˌətlˈuːn,  ts.hˈɑɜŋ khˈu
+corruption: ruc, 4249,  dˈuːʂəɳ,  fˈu˧˥ pˈai
+cabinet: nen, 3271,  mˌəntɾɪmˈʌɳɖəl,  nˈei kˈo-ɜ
+soup: sop, 3612,  sˈuːp,  thˈaŋ
+spy: jas, 2577,  ɟaːsˈuːs,  tɕiɛntˈiɛɜ
+gossip: gic, 4042,  ɡˈʌpəʃˌəp,  ɕˈiɛɜn xwˈɑ
+abstract: srot, 4642,  ʌmˈuːɾt,  ts.hˈou ɕˈiɑŋ
+accent: kson, 4049,  ʊccˈaːɾəɳ,  khou˧˥ji˥˩n
+thursday: cwis, 3368,  ɡˌʊɾuːʋˈaːɾ,  ɕˈiŋ tɕhˈi sˈi̪
+traffic: tfaf, 4773,  jˌaːtaːjˈaːt,  tɕjˈɑu thˈonɡ
+architecture: rek, 5282,  ˌaːɾkɪʈˈeːkcəɾ,  tɕˈiɛn ts.ˈu
+ornament: bon, 3855,  aːbʰˈuːʂəɳ,  ts.wˈɑŋ s.ˈi.
+negative: net, 3773,  nˌəkaːɾˈaːtmək,  fˈu
+festival: tcec, 3542,  tːjɔːhˈaːɾ,  tɕˈiɛɜ
+treason: gran, 3859,  ɾˈaːɟdɾˈoːh,  phˈan nˈi
+hunter: crin, 2603,  ʃɪkˈaːɾi,  lˈiɛ ʐˈəɜn
+snake: sep, 3342,  sˈãnp,  s.ˈo-ɜ
+battery: bet, 4649,  bˈɛːʈɾˌi,  tˈiɛn ts.hˈi.ɜ
+netherlands: dlen, 5001,  nˌiːdəɾlˈɛ̃ɖ,  xˈo-ɜ lˈaɜn
+detective: tet, 4367,  ɟaːsˈuːsi,  ts.ˈən thˈan
+monk: sran, 3052,  sˈaːdʰʊ,  sˈəŋ
+swim: yen, 3423,  tˈɛːɾnˌaː,  jiouɜˈyu˧˥ŋ
+brandy: ren, 4805,  dˈaːɾʊcˌaː ˈɛːk pɾəkˈaːɾ,  pˌaiɜlaɜntˈi
+volunteer: wot, 3591,  sʋˌəjnsˈeːʋək,  ts.ˈi. ˈyæn ts.ˈo-˧˥
+deaf: boc, 2460,  bˈʌhəɾˌaː,  lˈonɡɜ
+juice: rus, 3647,  ɾˈʌs,  ts.ˈi.
+ministry: met, 3476,  məntɾˈaːlˌɛj,  pˈu
+diameter: dyat, 3862,  ʋjˈaːs,  ts.ˈi.ɜ tɕˈiŋ
+axe: kcaf, 3167,  kʊlhˈaːr.i,  fˈu˧˥ thˈouɜ
+diamond: dran, 4054,  hˈiːɾaː,  tsuans.ˈi.ɜ
+echo: gek, 3156,  ɡˈũɟ,  xˈueiɜ s.ˈəŋ
+lazy: les, 3339,  ˈaːlsˌi,  lˈa˧˥n
+disappear: dap, 3507,  ɡˈaːjəb,  ɕjˈɑu s.ˈi.
+ink: mwic, 3048,  sjˈaːhi,  mos.wˈei˧˥
+cellar: tcen, 2679,  tˌəhəxˈaːnaː,  titɕjˈɑu
+senate: syen, 4760,  sɪnˈeːʈ,  tshˈan jˈi ˈyæn
+coffin: trac, 2750,  taːbˈuːt,  kwantshai˧˥
+swallow: glan, 3599,  nˈɪɡəlnaː,  thwˈuən
+swing: gwan, 3331,  ɟʰˈuːlaː,  pˈai˧˥ tˈonɡ
+complex: kes, 3352,  ɟˈʌʈɪl,  fˈu tsˈɑɜ
+resignation: dis, 3191,  ɪstˈiːpʰaː,  tshˈi̪ɜ ts.ˈi.ɜ
+pepper: pek, 2795,  mˈɪɾc,  xˈuɜ tɕjˈɑu
+pony: pom, 3520,  ʈˈʌʈːuː,  ɕjɑuɜmˈɑ˧˥
+candidate: zam, 2888,  ˌʊmmidʋˈaːɾ,  xouɕˈyæ˧˥n ʐˈəɜn
+fox: lok, 2600,  lˈoːmr.ˌi,  xˈuɜ liɜ
+chimney: dim, 3626,  cˈɪmnˌi,  jˈiɛn tshˈonɡ
+accuracy: dut, 3572,  ʃˈʊddʰətˌaː,  ts.ˈuə˧˥n tɕhˈyɛ ɕˈiŋ
+democratic: drit, 6050,  ɖeːmˈoːkɾeːʈˌɪk,  miɜnts.ˈu˧˥ tə˥˩
+bud: bot, 3007,  kˈʌli,  jˈiɑɜ
+pig: srus, 2218,  sˈuːəɾ,  ts.ˈu
+ivory: craf, 3069,  hˈaːtʰi dˈãt,  ɕˈiɑŋ jˈiɑɜ
+classical: ksok, 5247,  klˈaːsɪk,  kuɜtˈiɛ˧˥n
+elephant: let, 2994,  hˈaːtʰi,  ɕˈiɑŋ
+nails: nes, 2788,  naːkʰˈuːn,  tˈiŋ tsi̪˧˥
+bee: dik, 2864,  mˌədʰʊmˈʌkkʰi,  mˈi fˈəŋ
+bury: men, 2981,  dˌəpʰnˈaːnaː,  mˈaiɜ tsˈaŋ
+actor: ket, 3764,  ˌʌbʰɪnˈeːtaː,  jˈiɛ˧˥n ˈyæɜn
+sweat: swon, 2516,  pəsˈiːnaː,  xˈan
+polish: plic, 5094,  pˈoːlɪʃ,  phˈɑu kwˈaŋ
+illusion: lus, 2866,  mˈaːjaː,  tshˈuo tɕˈyɛɜ
+rural: run, 3723,  ɡɾaːmˈiːɳ,  ɕˈiɑŋ tshˈuən
+groan: sren, 2770,  kəɾˈaːh,  s.ˈən jˈiɜn
+granite: gyan, 5439,  ɡɾeːnˈaːɪʈ,  xwˌɑkaŋjˈiɛɜn
+needle: jis, 2473,  sˈʊi,  ts.ˈən
+chicken: truk, 2533,  mˈʊɾɡi,  tɕˈi
+barrel: bran, 3689,  bˈɛːɾəl,  thˈonɡ˧˥
+olive: zen, 3301,  ɟɛːtˈuːn,  kˈa˧˥n
+syria: cris, 4062,  sˈiːɾɪjˌaː,  ɕˈy lˈi jˈiɑ
+van: won, 4265,  wˈɛːn,  mˈiɛn pˈɑu ts.hˈo-
+nod: krac, 2939,  sˈɪɾ kaː ɪʃˈaːɾaː,  tˈiɛ˧˥n thˈouɜ
+birthday: gjin, 3627,  ɟˈʌnmədˌɪn,  s.əŋʐi.˧˥
+hammer: cot, 3449,  hətʰˈɔːr.aː,  ts.hˈueiɜ
+fragrant: rim, 3085,  sʊɡˈʌndʰɪt,  ɕˈiɑŋ
+dig: kwaf, 3161,  kʰʊdˈaːi,  wˈɑ
+pet: pet, 3370,  pˈaːltˌuː,  ts.hˈonɡ˧˥ wˈu
+skull: kok, 4177,  kʰˈoːpr.ˌi,  thouɜkˈu˧˥
+frown: rum, 4150,  bʰɾuːbʰˈʌŋɡ,  ts.ˈou mˈeiɜ
+patent: plet, 3911,  peːʈˈẽːʈ,  ts.ˈuan lˈi
+rash: ret, 3472,  lˈaːl cəkˈʌtːeː,  phiɜts.ˈə˧˥n
+billion: blin, 3702,  ˈeːk ˈʌɾəb,  s.ˈi.ɜ jˈi
+chemical: kyek, 3722,  ɾaːsˈaːjnˌɪk,  xwˈɑ ɕˈyɛɜ
+imitate: mot, 3526,  ki nˈʌkəl,  moɜnˈi˧˥
+weekly: jik, 3431,  sˈaːptaːhˌɪk,  mˈei˧˥ ts.ˈou
+technical: tek, 4674,  tˌəknˈiːki,  tɕˈi s.ˈu
+portugal: prut, 5104,  pˌʊɾtəɡˈaːl,  phˌuɜthɑuɜjˈiɑɜ
+vegetation: jit, 3556,  wənˈʌspətˌɪjã,  ts.ˈi.ɜ pˈei
+switzerland: srif, 4063,  sʋˌɪʈɟəɾlˈɛ̃ɖ,  ʐˈuei s.ˈi.
+crow: krak, 3378,  kˈɔːaː,  wˈu jˈiɑ
+sunrise: sruc, 3609,  sˈuːɾjoːdɛj,  ʐˈi. ts.hˈu
+tiger: cric, 2269,  bˈaːɡʰ,  xˈu˧˥
+militia: lip, 3973,  mˈɪlɪʃˌɪjaː,  mˈiɜn pˈiŋ
+jupiter: jip, 4069,  bɾɪhˈʌspətˌɪ,  mˈu ɕˈiŋ
+integrity: tret, 3785,  ʌkʰˈʌɳɖətˌaː,  lˈiɛɜn ts.ˈəŋ
+nineteen: dun, 3384,  ʊnnˈiːs,  s.i.ɜtɕˈiou˧˥
+organic: gik, 4953,  kˈaːɾbənˌɪk,  jˈiou˧˥ tɕˈi
+theology: dlic, 3506,  dʰˌəɾməʃˈaːsɾə,  s.ˈəɜn ɕˈyɛɜ
+witch: dyac, 3105,  ɖˈaːjən,  wˈu phˈoɜ
+diplomatic: dlik, 5151,  ɾˈaːɟənjɪk,  wˈai tɕjˈɑu
+champagne: cep, 4496,  ʃɛ̃pˈeːn,  ɕiɑŋpˈin tɕˈiou˧˥
+divorce: lon, 3107,  təlˈaːk,  lˈiɜ xwˈuən
+foam: cum, 3570,  ɟʰˈaːɡ,  phˈɑu mˈo
+gravel: ras, 2835,  kˈʌŋkər.,  sˈuei s.ˈi.ɜ
+planet: gen, 3421,  ɡɾˈʌh,  ɕˈiɜŋ ɕˈiŋ
+shelf: cec, 3457,  ʃˈeːlpʰ,  tɕˈiɑ
+fan: fon, 3621,  pɾəʃˈʌnsək,  fˈəŋ s.ˈan
+tropical: rip, 4390,  ˌʊʂɳəkʈɪbndʰˈiːj,  ʐˈo- tˈai
+arbitrary: ben, 2699,  mˌənmˈaːnaː,  sˈueiɜ jˈi
+mercury: kren, 2943,  pˈaːɾaː,  kˈonɡ˧˥
+daisy: glat, 3075,  ɡˌʊləbhˈaːɾ,  ts.hˈuɜ tɕˈyɜ
+suicide: tras, 3054,  ˈaːtməhˌətːjaː,  tsˈi̪ s.ˈɑ
+bridle: ram, 3249,  ləɡˈaːm,  phˈei
+reporter: rot, 5233,  ɾɪpˈoːɾʈəɾ,  tɕits.ˈo-˧˥
+deprive: prit, 3087,  wˈʌɲcɪt,  pˈo tˈuoɜ
+fork: trak, 2878,  kˈãʈaː,  ts.hˈɑ
+employer: myot, 3043,  nɪjˈoːktaː,  kuts.ˈu˧˥
+sweden: swen, 4404,  sʋˈiːɖən,  ʐueitˈiɛ˧˥n
+accuse: kcot, 3445,  aːɾˈoːp ləɡˈaːteː hɛ̃,  khˈonɡ
+monkey: don, 3363,  bˈʌndəɾ,  xˈouɜ
+signature: trim, 3172,  həstˈaːkʃəɾ,  tɕhˈiɛn mˈiɜŋ
+easter: psot, 3671,  ˈiːsʈəɾ,  fˈu xˈuoɜ tɕˈiɛɜ
+torch: coc, 4038,  məʃˈaːl,  xˈuo˧˥ tɕˈy
+grammar: gak, 4296,  ʋjˈaːkəɾˌəɳ,  ʲyɜfˈɑ˧˥
+deposit: dwat, 3103,  ɟˈʌmaː,  tshuəɜnkhwˈa˧˥n
+colonial: kwon, 3843,  ˌɔːpnɪʋˈeːʃɪk,  ts.ˈi.ɜ mˈiɜn
+sicily: dlit, 3494,  sˈɪsɪlˌi,  ɕˈi ɕˈi lˈiɜ tˈɑu˧˥
+thickness: mos, 2791,  moːʈˈaːi,  xˈou tˈu
+stubborn: woc, 2435,  hˈʌʈʰi,  wˈɑɜn kˈu
+belgium: blim, 5444,  bˈeːlɟɪjˌəm,  pˈi˧˥ lˈi s.ˈi.ɜ
+muscle: mop, 3145,  mˌãspˈeːʃi,  tɕˈi ʐˈou
+harp: rap, 3371,  wˈiːɳaː,  s.ˈu tɕhˈiɜn
+rub: roc, 3253,  ɾˈʌɡər.,  tshˈɑ
+cowardly: raf, 3373,  ɾˈaːr.,  taɜnɕjˈɑu˧˥
+toast: tos, 4829,  ʈˈoːsʈ,  khˈɑu˧˥ mˈiɛn pˈɑu
+mouse: myus, 3193,  mˈaːʊs,  s.ˈu˧˥ pjˈɑu
+syllable: blic, 3123,  ʃəbdˈãʃ,  jˈin tɕˈiɛɜ
+lime: kram, 2969,  cˈuːnaː,  sˈuan ts.hˈəɜŋ
+neutral: not, 4156,  təʈˈʌstʰ,  ts.ˈonɡ ɕˈiŋ
+norway: nwon, 4996,  nˈɔɾʋeː,  nˈuoɜ wˈei
+jordan: dron, 5091,  ɟˈɔɾɖən,  ˈyɛ tˈan
+denmark: dem, 5226,  ɖˌeːnmˈaːɾk,  tˈan mˈai
+goat: byan, 2612,  bˈʌkɾˌaː,  s.ˈan jˈiɑɜŋ
+tailor: trif, 3589,  dˈʌɾɟi,  tshaiɜfˈəɜŋ
+anonymous: nom, 4322,  ɡˌʊmnˈaːm,  nˈi mˈiɜŋ
+melt: nec, 3646,  pˈɪɡʰəl,  ʐˈonɡɜ xwˈɑ
+umbrella: kras, 2722,  cʰˈaːtaː,  sˈa˧˥n
+goose: gos, 3323,  bˈʌtːəkʰ,  ˈo-ɜ
+truce: cras, 3669,  səŋɡʰˈʌɾʂ wɪɾˈaːm,  ɕˈiou ts.ˈan
+alaska: los, 5780,  ʌlˈaːskaː,  ˈɑ lˈɑ sˈi̪ tɕˈiɑ ts.ˈou
+planning: pcon, 3622,  aːjˈoːɟən,  kˈuei xwˈɑ
+soap: swun, 3542,  sˈaːbʊn,  fˈeiɜ tsˈɑu
+skeleton: klet, 3914,  kəŋkˈaːl,  kˈu˧˥ tɕˈiɑ
+sewing: jic, 3403,  sɪlˈaːi,  ts.ˈən ɕˈiɛn xˈuoɜ
+kettle: kec, 3496,  kˈeːtlˌi,  s.wˈei˧˥ xˈuɜ
+mature: trun, 2684,  pɾˈɔːr.h,  ts.hˈəɜŋ s.ˈuɜ
+cuba: kyus, 4141,  kːjˈuːbaː,  ku˧˥pˈɑ
+rabbit: kric, 3025,  kʰˌəɾɡˈoːʃ,  thˈu tsi̪˥
+player: jlin, 3024,  kʰɪlˈaːr.i,  pˈo fˈaŋ tɕˈi
+insect: kset, 3403,  kˈiːʈ,  khwˈuən ts.hˈonɡɜ
+restaurant: srac, 3991,  bʰˌoːɟnˈaːlˌɛj,  tshˈan thˈiŋ
+owl: bun, 2948,  ˈʊlluː,  mˈɑu thˈouɜ jˈiŋ
+violin: blan, 4143,  waːjˈoːlɪn,  ɕjˈɑu˧˥ thˈiɜ tɕhˈiɜn
+dragon: gon, 3673,  ˈʌɟəɡˌəɾ,  lˈonɡɜ
+thirsty: kyos, 2489,  pːjˈaːs,  khˈo-˧˥
+brother-in-law: bik, 4317,  bʰˈaːi mẽː kaːnˈuːn,  ko-ko-˧˥ tsˈai fˈɑ˧˥
+son-in-law: tok, 3636,  bˈeːʈaː mẽː kaːnˈuːn,  ˈərɜ tsi̪ɜ tsˈai fˈɑ˧˥
+mayor: mes, 3021,  mˌəhaːpˈɔːɾ,  s.i.ts.ˈa˧˥ŋ
+e-mail: mec, 4571,  ˈi mˈeːl,  (en)ˌiːˈʊmlaʊt(zh) jˈiouɜ tɕˈiɛn
+minority: sron, 3408,  ˌʌlpəsˈʌŋkʰjək,  s.ˈɑu˧˥ s.ˈu mˈiɜn tsˈuɜ
+orchestra: kses, 5665,  ɔɾkˈeːsʈɾaː,  yɛtˈuei
+bacon: bok, 4047,  bˈeːkən,  ɕˈyən ʐˈou
+baked: bec, 3299,  bˈeːk kˈɪjaː hˈʊaː,  xonɡkhˈɑu˧˥ tə˥˩
+roast: jac, 3046,  bʰˈʊnaː hˈʊaː,  khˈɑu˧˥
+hungary: crif, 3899,  hˈʌŋɡəɾˌi,  ɕˈyŋ jˈiɑɜ lˈi
+architect: ruk, 3946,  wˈaːstʊkˌaːɾ,  tɕˈiɛn ts.ˈu s.ˈi.
+fisherman: pcim, 2276,  mˈʌcʰʊˌaː,  ʲˈyɜ
+hawaii: gwin, 3994,  həʋˈaːi,  ɕˈiɑ wˈei jˈiɜ
+lemon: nem, 3773,  nˈĩbuː,  nˈiɜŋ mˈəɜŋ
+cough: kcos, 4040,  kʰˈãsi,  kho-ɜsouɜ
+headache: rok, 3379,  sˌɪɾədˈʌɾd,  thˈouɜ thˈonɡ
+tenant: kyen, 3308,  kˌɪɾaːjeːdˈaːɾ,  ts.hˈəɜŋ tsˈu ʐˈəɜn
+fertility: fun, 3138,  ˌʊpɟˈaːupˌən,  s.ˈəŋ ʲˈy nˈəɜŋ lˈi
+ninety: nos, 3705,  nˈʌʋʋeː,  tɕˈiou˧˥ s.ˈi.ɜ
+carpenter: fran, 3370,  bˈʌr.həˌi,  mˈu tɕiɑ˥ŋ
+ounce: yos, 3471,  ˈɔ̃s,  ˈɑŋ sˈi̪
+spoon: kcok, 3295,  cˈʌmməc,  s.ˈɑuɜ
+rum: rom, 5797,  ɾˈʌm,  lˈaɜŋ mˈuɜ tɕˈiou˧˥
+balloon: blon, 3700,  ɡʊbbˈaːɾaː,  tɕhˈi tɕhˈiouɜ
+vinegar: srik, 3466,  sˈɪɾkˌaː,  tshˈu
+revive: num, 2758,  pˌʊnrɟˈiːʋɪt,  fˈu xˈuoɜ
+tunnel: srun, 3618,  sʊɾˈʌŋɡ,  sˈuei tˈɑu
+puzzle: pec, 3250,  pəhˈeːli,  nˈaɜn thˈiɜ
+mathematics: grit, 3579,  ɡˈʌɳɪt,  s.ˈu ɕˈyɛɜ
+fade: frun, 2901,  mˌʊɾɟʰˈaːnaː,  thwˈuən sˈo-
+liver: glin, 2300,  ɟˈɪɡəɾ,  kˈan
+submarine: drin, 3390,  pˌənɖˈʊbbi,  tɕhiɛɜnthˈi˧˥ŋ
+earthquake: tom, 3480,  bʰuːkˈʌmp,  tits.ˈən
+laboratory: brat, 3746,  pɾˌəjoːɡʃˈaːlaː,  s.ˈi.ɜ jˈiɛn s.ˈi.
+self-control: yot, 4843,  sʋˈʌjən nɪjˈʌntɾəɳ,  tsˈi̪ khˈonɡ ts.ˈi.
+embassy: dlas, 3221,  dˌuːtaʊˈaːs,  tɑs.ˈi.ɜ kwˈa˧˥n
+farthest: srak, 3379,  sˈʌb seː ˈʌdʰɪk dˈuːɾ,  tsueiˈyæ˧˥n
+whisky: wes, 4998,  ʋhˈɪski,  wˈei s.ˈi. tɕˈi tɕˈiou˧˥
+chocolate: clot, 5458,  cˌɔklˈeːʈ,  tɕhjˈɑu˧˥ khˈo- lˈi
+glove: dlat, 3215,  dəstˈaːnaː,  s.ˈou˧˥ thˈɑu
+kneel: cek, 3916,  ɡʰˈʊʈnˌaː ʈˈeːknˌaː,  ɕˈiɑ kˈuei
+geography: jif, 3869,  bʰuːɡˈoːl,  tilˈi˧˥
+brazil: bzac, 4969,  bɾˈaːzɪl,  pɑɕˈi
+peninsula: pyus, 3868,  pɾˌaːjdʋˈiːp,  pantˈɑu˧˥
+psychology: slim, 4496,  mˌənoːʋɪɡjˈaːn,  ɕinlˈi˧˥ ɕˈyɛɜ
+trout: trut, 4889,  ʈɾˈaːʊʈ,  tsˈuən ʲˈyɜ
+pudding: pwun, 4969,  pʊɖˈĩɡ,  pˈu tˈiŋ
+wig: prik, 2987,  wˈɪɡ,  tɕiɑ˧˥fˈɑ
+pump: pop, 5449,  pˈʌmp,  pˈəŋ
+oxygen: ksen, 4736,  ɔksˈiːɟən,  jˈiɑ˧˥ŋ
+medal: mek, 2794,  pˈʌdək,  ɕˈyən ts.ˈaŋ
+ruby: gun, 2809,  mˈaːɳɪk,  xˈonɡɜ pˈɑu˧˥ s.ˈi.ɜ
+thermometer: rem, 5081,  tʰˌəɾmaːmˈiːʈəɾ,  wˈuən tˈu tɕˈi
+rhetoric: trok, 4108,  wˈʌkɾəpʈʊtˌaː,  ɕˈiou tshˈi̪ɜ
+oar: dyan, 2347,  ɖˈãr.,  tɕˈiɑ˧˥ŋ
+telescope: tsip, 3732,  dˌuːɾbˈiːn,  wˈɑŋ ˈyæ˧˥n tɕˈiŋ
+camel: gut, 2808,  ˈũʈ,  lˈuo thuo˥
+amateur: byat, 2976,  ʃˈɔːkɪjˌaː,  jˈiɛ ʲˈyɜ
+exit: cet, 2972,  bˈaːhəɾ ɟˈaːẽː,  ts.hukhˈou˧˥
+biography: bif, 4503,  ɟˈiːʋnˌi,  ts.hˈuaɜn
+donkey: lec, 2721,  ɡˈʌdʰaː,  lˈyɜ
+monthly: mwis, 3935,  mˈaːsɪk,  mˈei˧˥ ˈyɛ jiɜtshˈi̪
+oval: wok, 3935,  ˌʌɳɖaːkˈaːɾ,  thˈuo˧˥ ˈyæɜn
+dictionary: den, 2806,  ʃˌəbdəkˈoːʃ,  tsi̪tˈiɛ˧˥n
+rainbow: rec, 3753,  ˈĩdɾədʰnʊʂ,  tshai˧˥xˈonɡɜ
+tank: zak, 4171,  ʈˈɛ̃k,  thˈa˧˥n khˈo-
+butcher: ksuf, 2769,  kəsˈaːi,  thuɜfˈu
+butterfly: crit, 3081,  tˈɪtlˌi,  xˈuɜ tˈiɛɜ
+bamboo: bam, 4474,  bˈãs,  ts.ˈuɜ
+jam: jam, 4061,  ɟˈaːm,  kˈuo˧˥ tɕˈiɑŋ
+museum: mem, 3890,  sˌəŋɡɾəhˈaːlˌɛj,  pˈoɜ wˈu kwˈa˧˥n
+alphabet: kfam, 3451,  wˌəɾɳəmˈaːlaː,  tsi̪mˈu˧˥
+rot: frac, 2924,  sər.ˈãdʰ,  fˈu˧˥ lˈan
+friction: toc, 3049,  ʈˈʌkɾˌaʊ,  mˈoɜ tshˈɑ
+pier: gwat, 2584,  ɡʰˈaːʈ,  mɑ˧˥thou˥˩
+spider: zik, 2628,  mˈʌkr.ˌi,  ts.ˈi. ts.ˈu
+potato: tlot, 2686,  ˈaːluː,  thˈu˧˥ tˈou
+barber: bras, 3025,  nˈaːi,  li˧˥fˈɑ s.ˈi.
+slate: slet, 4047,  slˈeːʈ,  s.i.ɜpˈa˧˥n
+jamaica: jak, 5304,  ɟəmˈɛːkaː,  jˈiɑɜ mˈai˧˥ tɕˈiɑ
+father-in-law: prak, 3926,  pˈɪtaː mẽː kaːnˈuːn,  futɕhi˥n tsˈai fˈɑ˧˥
+emerald: zran, 3068,  pˈʌnnaː,  tshˈuei
+lava: zac, 3432,  lˈaʊaː,  jˈiɛɜn tɕˈiɑŋ
+trillion: tlon, 5066,  ʈɾˈɪlɪjˌən,  ts.ˈɑu
+chestnut: blat, 3516,  ʃˌaːhəblˈuːt,  pˈa˧˥n lˈi
+nominal: nyon, 4065,  nˌaːmmˈaːtɾə,  kˈonɡ ts.hˈəŋ
+shrug: cok, 4094,  kˈʌndʰeː ˌʊckˈaːneː ki kɾˈɪjaː,  sˈonɡ˧˥
+cabbage: noc, 2735,  ɡˈoːbʰi,  tɕˈyæ˧˥n ɕˈin tshˈai
+sandstone: bwat, 3165,  bˈʌlʊˌaː pˈʌttʰəɾ,  s.ˈɑ jˈiɛɜn
+lever: lek, 2930,  ʊtːˈoːlək,  kˈaŋ kˈan
+senator: syet, 4600,  sinˈeːʈəɾ,  tshˈan jˈi ˈyæɜn
+guinea: gyin, 5141,  ɡˈɪnni,  tɕˈi˧˥ nˈei jˈiɑ
+iris: kris, 4406,  ˈaːnkʰ ki pˈʊtlˌi,  ˈyæn wˈei˧˥ xwˈɑ
+ant: frat, 2583,  cˈĩʈi,  mɑɜjˈi˧˥
+panama: pes, 2932,  pənˈaːmaː,  pɑnˈɑɜ mˈɑ˧˥
+ankle: tcon, 2783,  ʈˈʌkʰnˌeː,  xˈuaiɜ
+dictate: dek, 3144,  hˈʊkmə,  thiŋɕˈiɛ˧˥
+frog: crak, 2863,  mˈeːɖʰək,  tɕhˈiŋ wˈɑ
+sponge: syon, 3817,  spˈʌɲɟ,  xˈai˧˥ mˈiɛɜn
+squirrel: slip, 2625,  ɡˈɪləhˌəɾi,  sonɡs.ˈu˧˥
+cement: sem, 4528,  simˈẽːʈ,  s.wˈei˧˥ nˈiɜ
+scarf: daf, 3308,  dʊpˈʌʈːaː,  wˈeiɜ tɕˈin
+geological: jlik, 4524,  bʰuːʋˈɛːɡjaːnˌɪk,  tits.ˈi.
+passport: psop, 5280,  pˌaːspˈoːɾʈ,  xˈu ts.ˈɑu
+biscuit: buk, 4794,  bˈɪskʊʈ,  pˈi˧˥ŋ kˈan
+philippines: flip, 6127,  pʰˌɪlipˈĩs,  fˈei lˈy pˈin
+adjective: jet, 3942,  wɪʃˈeːʂəɳ,  ɕˈiɜŋ ʐˈonɡɜ tshˈi̪ɜ
+suspension: slen, 3531,  nɪlˈʌmbən,  ɕˈyæɜn kwˈɑ
+darts: drat, 5282,  ɖˈaːɾʈ,  fˈei pjˈɑu
+vanilla: byin, 2825,  wənˈiːlaː,  ɕiɑŋtshˈɑu˧˥
+pyramid: prim, 6047,  pɪɾˈaːmɪɖ,  tɕˈin tsˈi̪ thˈɑ˧˥
+nap: top, 2585,  ɟʰˈʌpkˌi,  tˈuə˧˥n
+engraving: grak, 3798,  ˌeːnɡɾeːʋˈĩɡ,  tjˈɑu khˈo-
+broom: srut, 2860,  ɟʰˈaːr.uː,  sɑuts.ou˥
+clover: tyoc, 2258,  tˈɪptˌɪjaː ɡʰˈaːs,  mˈu
+cyprus: srip, 4326,  saːˈɪpɾəs,  sˌaiphu˧˥lusˈi̪
+astronomy: tron, 4363,  kʰəɡˈoːl,  thˈiɛn wˈuəɜn ɕˈyɛɜ
+maze: bren, 3670,  bʰˈuːl bʰʊlˈɛːjaː,  mˈiɜ kˈonɡ
+heather: ces, 3167,  hˈiːtʰ,  s.ˈi.ɜ nˈaɜn s.ˈu˧˥
+scholarship: brit, 3824,  cʰˈaːtɾəʋɾˌɪtːɪ,  tɕˈiɑ˧˥ŋ ɕˈyɛɜ tɕˈin
+turtle: kruc, 3228,  kˈʌcʰʊˌaː,  kˈuei
+stew: tluc, 2656,  mˈʌcʰlˌi pˈaːlnˌeː kaː ɟəhˈaːz,  tˈuən
+malta: jlat, 5333,  mˈaːlʈaː,  mˈɑɜ ˈər˧˥ thˈɑ
+cricket: krik, 4753,  kɾˈɪkɪt,  ɕˈi s.ˈuai
+pigeon: kom, 2508,  kəbˈuːtəɾ,  kˈo- tsi̪˧˥
+triangle: tyen, 3660,  tɾɪkˈoːɳ,  santɕjˈɑu˧˥ ɕˈiɜŋ
+treasurer: kcen, 3397,  koːʂˈaːdʰjəkʃ,  ts.hˈu nˈɑ ˈyæɜn
+hydrogen: cron, 5707,  hˌaːɪɖɾˈoːɟən,  tɕhˈiŋ
+printer: zit, 3197,  mˈʊdɾək,  tˈɑ˧˥ jˈin tɕˈi
+choke: tcoc, 3531,  ɡˈʌlaː ɡʰˈõʈnˌaː,  tɕhˈiɑŋ
+chronic: grin, 3789,  ɟˈiːɾɳə,  mˈan ɕˈiŋ
+dilemma: dlim, 4561,  dˈʊʋɪdʰˌaː,  khwˈuən tɕˈiŋ
+locomotive: lot, 6114,  lˌoːkoːmˈoːʈɪw,  tɕˈi ts.hˈo-
+lick: lem, 2327,  cˈaːʈnˌaː,  thˈiɛ˧˥n
+dancer: drak, 3216,  nˈʌɾtəkˌi,  wuɜtˈɑu˧˥ tɕˈiɑ
+balm: blam, 4674,  bˈaːm,  ɕˈiɑŋ ts.ˈi.
+migration: gras, 3895,  pɾəʋˈaːs,  tɕhˈiɛn jˈiɜ
+kitten: kfik, 3048,  bˈɪlli kaː bˈʌccaː,  ɕjˈɑu˧˥ mˈɑu
+slang: cram, 2738,  kʰˈɪcr.ˌi bʰˈaːʂaː,  liɜˈy˧˥
+tennis: tces, 5107,  ʈˈeːnɪs,  wˈɑ˧˥ŋ tɕhˈiouɜ
+parrot: prot, 3331,  tˈoːtaː,  jiŋwˈu˧˥
+spine: clon, 2636,  ɾˈiːr.h ki hˈʌɖɖi,  tɕi˧˥ts.ˈu
+macedonia: mwon, 5020,  mˌɛːseːɖˈoːnɪjˌaː,  mˈɑ˧˥ tɕhˈiɜ tˈuən
+lebanon: lep, 4421,  lˌeːbnˈaːn,  lˌiɜpɑnˈən
+strategy: sret, 4012,  ɾˌəɳnˈiːtɪ,  ts.ˈan lˈyɛ
+quartz: kraf, 4401,  kʋˈaːɾʈɟ,  s.ˈi.ɜ jˈiŋ
+parsley: pras, 3685,  ˌʌɟmˈoːd,  ɕˈiɑŋ tshˈai
+defile: drik, 2910,  ˌʌpʋˈɪtɾə kˈʌɾnˌaː,  wˈu
+glacier: gim, 3419,  hˈɪmənˌəd,  pˈiŋ ts.hˈuan
+cone: krun, 3608,  ʃˈʌŋkʊ,  ts.ˈuei thˈi˧˥
+symmetry: myet, 3837,  sˌəmɾˈuːptˌaː,  tueits.hˈən
+mosque: myim, 3084,  mˈʌsɟɪd,  tɕhˈiŋ ts.ˈən sˈi̪
+chess: crec, 4275,  ʃˌətəɾˈʌɲɟ,  tɕhˈiɜ
+cherry: trec, 3518,  cˈeːɾi,  jˈiŋ thˈɑuɜ
+mustard: cos, 3335,  sˈʌɾsˌõ,  tɕiɛmo˥
+sieve: zlin, 2723,  cˈʌlnˌi,  s.ˈai
+magnet: mum, 2372,  cˈũbək,  tshi̪ɜthˈiɛ˧˥
+fern: fen, 3847,  fˈʌɾn,  tɕˈyɛɜ lˈei
+islam: slum, 5314,  ˌɪslˈaːm,  jˈi sˈi̪ lˈaɜn tɕjˈɑu
+membrane: mwen, 2632,  ɟʰˈɪlli,  mˈoɜ
+siberia: sres, 3945,  sˌaːɪbˈeːɾɪjˌaː,  ɕˈi pˈoɜ lˈi jˈiɑ
+shave: get, 3022,  həɟˈaːmət,  kwˈɑ xˈuɜ tsi̪ɜ
+guitar: gyat, 4954,  ɡɪʈˈaːɾ,  tɕiɜthɑɜ
+mother-in-law: muf, 4063,  mˈã mẽː kaːnˈuːn,  mu˧˥tɕhi˥˩n tsˈai fˈɑ˧˥
+elm: yem, 3778,  ˈeːlmə,  ʲˈyɜ s.ˈu
+oyster: srim, 2801,  sˈiːp,  mˈu˧˥ lˈi
+neptune: nwen, 5518,  nˌeːpcːjˈuːn,  xˈai˧˥ wˈɑɜŋ ɕˈiŋ
+medieval: dyin, 3936,  mˌədʰjəkaːlˈiːn,  ts.ˈonɡ s.ˈi. tɕˈi
+morocco: myok, 4716,  moːɾˈʌkːoː,  mˈoɜ lˈuo kˈo-
+sparrow: grat, 3159,  ɡɔːɾˈɛːjaː,  mˈɑɜ tɕhˈyɛ
+cinnamon: dlin, 3530,  dˌaːlcˈiːni,  ʐˈou kˈuei
+plastic: psuk, 4732,  plˈaːsʈɪk,  sˈu ljˈɑu
+footnote: fot, 4041,  pʰˌʊʈnˈoːʈ,  tɕjˈɑu˧˥ ts.ˈu
+golf: gof, 5748,  ɡˈoːlf,  kˌɑuər˧˥fˈu tɕhˈiouɜ
+luxembourg: lum, 4818,  lˌəkɟəməbˈʌɾɡ,  lˈuɜ sˈən pˈɑu˧˥
+crab: krec, 3468,  kˈeːkr.ˌaː,  phˈaɜŋ ɕˈiɛ
+yawn: gwac, 2919,  ɟəmbʰˈaːi,  tˈɑ˧˥ xɑtɕhiɛ˧˥n
+inequality: dwan, 3599,  ˌʌsmˈaːntˌaː,  pˈu tˈə˧˥ŋ s.ˈi.
+pottery: frit, 3424,  mˈɪʈːi keː bˈʌɾtənˌõ,  thˈɑuɜ tɕhˈi
+housewife: tcif, 3492,  ɡɾˈɪhɪɳˌi,  tɕˈiɑ thˈiɜŋ ts.ˈu˧˥ fˈu
+tolerant: cren, 4009,  səhˈɪʂɳʊ,  khwˈan ʐˈonɡɜ
+sherry: crem, 5169,  spˈeːnɪʃ səpʰˈeːd mˈʌdɪɾˌaː,  ɕˈyɛ˧˥ lˈi tɕˈiou˧˥
+chad: dzat, 3484,  kˈaːɣəz kaː ʈˈʊkr.ˌaː,  ts.ɑtˈəɜ
+armenia: myen, 4042,  ˈaːɾminˌɪjaː,  jˈiɑ mˈei˧˥ nˈiɜ jˈiɑ
+jargon: jran, 4642,  ʃˌəbdəɟˈaːl,  ɕˈiɜŋ xwˈɑ
+bulgaria: blas, 4458,  bʊlɡˈaːɾɪjˌaː,  pˈɑu˧˥ tɕˈiɑ lˈi jˈiɑ
+plum: plim, 2646,  bˈeːɾ,  lˈi˧˥ tsi̪˥˩
+tumbler: tfom, 3949,  (en)tˈʌmblə(hi),  (en)tˈʌmblə(zh)
+puppy: pok, 3557,  kˈʊtːeː kaː bˈʌccaː,  ɕjɑuɜkˈou˧˥
+irrigation: rif, 3284,  sĩcˈaːi,  kwˈan kˈai
+capitalist: glit, 4195,  pˌũɟiʋˈaːdi,  tsi̪pˈə˧˥n tɕˈiɑ
+elasticity: lef, 3498,  lˈoːc,  thaɜnɕˈiŋ
+shark: crap, 3531,  ʃˈaːɾk,  s.ˈɑ ʲˈyɜ
+realism: clim, 4295,  jətʰˈaːɾtʰəʋˌaːd,  ɕˈiɛn s.ˈi.ɜ ts.ˈu˧˥ jˈi
+crocodile: kroc, 2905,  mˌəɡəɾəmˈʌccʰ,  ˈo- ʲˈyɜ
+ginger: djin, 3378,  ˈʌdəɾˌək,  tɕˈiɑŋ
+ambulance: bus, 5883,  ˈeːmbʊlˌẽːs,  tɕˈiou xˈu ts.hˈo-
+barricade: brak, 4554,  ˈaːr.,  ˈyuŋ
+gut: tsot, 2781,  ˈãt,  tˈa˧˥n
+equanimity: kcum, 3266,  sˈʌmbʰˌaʊ,  thˈai ʐˈaɜn ts.hˈu ts.ˈi.
+spleen: plif, 2766,  tˈɪlli,  phˈiɜ
+radio: rof, 3587,  ɾˈeːɖɪjˌoː,  wˈuɜ ɕˈiɛn tˈiɛn
+informal: frim, 4671,  ˌʌnɔːpcˈaːɾɪk,  fˈei ts.ˈəŋ s.ˈi. tə˥
+equator: wet, 4247,  bʰuːmˈʌdʰjə ɾˈeːkʰaː,  ts.hˈi. tˈɑu
+bracelet: bes, 3624,  kˈʌŋɡən,  s.ˈou˧˥ ts.ˈuoɜ
+nitrogen: zrin, 4186,  nˌaːɪʈɾˈoːɟən,  tˈan
+celery: slec, 2897,  ˌʌɟʋˈaːjən,  tɕhˈiɜn tshˈai
+razor: zlat, 2906,  ˈʊstəɾˌaː,  thˈi tˈɑu
+fireworks: fris, 3810,  ˌaːtɪʃbˈaːɟi,  jˈiɛn xwˈɑ
+sardinia: frin, 4423,  sˈaːɾɖɪnˌɪjaː,  sˈɑ tˈiŋ tˈɑu˧˥
+saturn: crun, 3475,  ʃˈʌnɪ ɡɾˈʌh,  thˈu˧˥ ɕˈiŋ
+nutmeg: nok, 2913,  ɟˈaːjəpʰˌəl,  ʐˈou tˈou khˈou
+pear: prap, 2902,  nˌaːʃpˈaːti,  lˈiɜ
+quail: tren, 2929,  bəʈˈeːɾ,  ˈan ts.huə˧˥n
+undress: cop, 3741,  ɡʰˈʌɾ kaː kˈʌpr.ˌaː,  thˈuo jifu˧˥
+furrow: cruc, 2494,  kˈũɖ,  tɕhˈiɜ
+judaism: dum, 5452,  ɟˌuːdaːˈiːsmə,  jˈiouɜ thˈai tɕjˈɑu
+lens: yes, 2992,  lˈẽːs,  thˈou tɕˈiŋ
+cancer: kfes, 3962,  kˈɛ̃səɾ,  ˈaiɜ ts.ˈəŋ
+lecturer: zrat, 2875,  ʋjˈaːkʰjaːtˌaː,  tɕˈiɑ˧˥ŋ s.ˈi.
+wicket: wek, 4026,  wɪkˈeːʈ,  pˈiɛn mˈəɜn
+induction: dip, 4581,  ˌʌdʰɪʂʈʰˈaːpən,  ka˧˥njˈiŋ
+chew: tcum, 2713,  ɟˈʊɡəl,  tɕˈyɛɜ
+talkative: blit, 3004,  baːtˈuːni,  phiɜntsˈuei˧˥
+daughter-in-law: tsen, 3569,  bˈeːʈi mẽː kaːnˈuːn,  nˈy˧˥ ˈərɜ tsˈai fˈɑ˧˥
+chisel: kcif, 2559,  cʰˈeːni,  tsˈɑuɜ
+lobster: lom, 3703,  ɟʰˈĩɡaː mˈʌcʰlˌi,  lˈonɡɜ ɕˈiɑ
+jade: gec, 2614,  ɟˈeːɖ,  ʲˈy
+evergreen: dren, 3775,  sˌədaːbhˈaːɾ,  ts.hˈɑɜŋ lˈy
+snarl: glac, 3111,  ɡˈɪɾəh,  kˈɑu˧˥ lˈuan
+lizard: crik, 3127,  cʰˈɪpəkli,  ɕˈi jˈi
+waterfall: crop, 3076,  ɟʰˈʌɾnˌaː,  phˈu pˈu
+shutter: crot, 3509,  ʃˈʌʈəɾ,  khˈuai mˈəɜn
+presidency: rep, 3677,  ɾˌaːʃtɾapˈati pˈʌd,  tsonɡɜthˈonɡ˧˥ ʐˈən tɕhˈi
+greenland: glen, 5514,  ɡɾˌiːnlˈɛ̃ɖ,  kˈo-ɜ lˈiɜŋ lˈaɜn
+gallon: glon, 5750,  ɡˈɛːlən,  tɕˈiɑ lˈuəɜn
+mosquito: mwuk, 3153,  mˈʌccʰəɾ,  wˈuəɜn tsi̪ɜ
+peacock: pwot, 2488,  mˈoːɾ,  khˈonɡ˧˥ tɕhˈyɛ
+deviation: dwin, 3541,  wˈɪcəlˌən,  phiɛnts.hˈɑ
+mosaic: myek, 3808,  mɔːzˈeːk,  ɕˈiɑŋ tɕhˈiɛn
+plug: tloc, 3115,  plˈʌɡ,  ts.hˈɑ thˈouɜ
+indigo: nwik, 3324,  nˈiːl,  tˈiɛn tɕhˈiŋ
+sapphire: zif, 3168,  nˈiːləm,  lˈaɜn pˈɑu˧˥ s.ˈi.ɜ
+lighthouse: pfac, 3208,  pɾˌəkaːʃəstˈʌmbʰ,  təŋthˈɑ˧˥
+corsica: kros, 6072,  kˈoːɾsɪkˌaː,  khˈo- ɕˈi tɕˈiɑ
+grocery: kcon, 2926,  kɪɾˈaːnaː,  tsˈɑɜ xˈuo
+communist: myos, 4519,  sˈaːmjəʋˌaːdi,  konɡts.hˈa˧˥n
+poplar: plam, 3302,  cɪnˈaːɾ,  pˈaiɜ jˈiɑɜŋ
+constellation: klot, 4651,  nəkʃˈʌtɾə,  ɕˈiŋ tsˈuo
+dictator: dot, 3934,  tˌaːnaːʃˈaːh,  tˈuɜ tshˈaiɜ ts.ˈo-˧˥
+satellite: jlit, 3274,  ʊpˈʌɡɾəh,  wˈei ɕˈiŋ
+slipper: lop, 3085,  cˈʌpːəl,  thˈuo ɕˈiɛɜ
+consonant: kyon, 3845,  ʋjˈʌɲɟən,  fˈu˧˥ jˈin
+saffron: sraf, 3502,  kˈeːsəɾ,  tsˌaŋxonɡɜxwˈɑ
+synagogue: djan, 3258,  ˌaːɾaːdʰnˈaːlˌɛj,  xˈuei thˈaɜŋ
+jeweller: juc, 2851,  ɟˈɔːhəɾˌi,  ts.upˈɑu˧˥ s.ˈaŋ
+lotus: lof, 3390,  kˈʌməl,  lˈiɛɜn xwˈɑ
+chloride: krok, 4259,  kloːɾˈaːɪɖ,  lˈy xwˈɑ wˈu
+bacteria: bwin, 3723,  ɟiʋˈaːɳʊ,  tɕˈyən
+sticky: pwik, 2819,  cˈɪpcˌɪpaː,  nˈiɛɜn
+venezuela: nef, 4870,  wˌeːneːɟʊˈeːlaː,  wˈei˧˥ nˈei ʐˈuei lˈɑ
+afghanistan: fos, 4716,  ˌʌfɣˌaːnɪstˈaːn,  ˈɑ fˈu xˈan
+secretion: kron, 3754,  sɾˈaʊ,  fˈən mˈi
+ethiopia: fip, 5583,  ˌɪtʰɪjˈoːpɪjˌaː,  ˌaisaiˌo-ɜpi˧˥jˈiɑ
+urine: drun, 2721,  mˈuːtɾə,  njˈɑu
+garlic: tsus, 3263,  lˈʌhəsˌʊn,  tˈɑ sˈuan
+finland: flen, 5344,  pʰˌɪnlˈɛ̃ɖ,  fˈən lˈaɜn
+chile: zlic, 3048,  cˈɪli,  ts.ˈi. lˈi
+middle-class: dlak, 3655,  mˈʌdʰjəm wˈʌɾɡ,  ts.onɡts.hˈa˧˥n tɕˈiɛ tɕˈiɜ
+easel: kfic, 2730,  cˈɪtɾəpʰˌələk,  xwˈɑ tɕˈiɑ
+strawberry: trem, 4393,  sʈɾɔbˈeːɾi,  tshˈɑu˧˥ mˈeiɜ
+notebook: tcot, 2924,  nˈoːʈbˌʊk,  pˈi˧˥ tɕˈi pˈə˧˥n
+album: zlam, 4165,  ˈeːlbəm,  ts.uantɕˈiɜ
+baseball: bos, 4392,  bˈeːsbˌɔl,  pˈaŋ tɕhˈiouɜ
+sniff: sluc, 2687,  sˈũɡʰnˌaː,  ɕˈi tɕhˈi
+buffet: buf, 4697,  bˈʊfeː,  tsˈi̪ ts.ˈu tshˈan
+participle: rop, 3498,  kɾɪdˈʌnt,  fˈən tshˈi̪ɜ
+nicaragua: kruk, 4521,  nˌɪkaːɾˈaːɡʊˌaː,  nˈiɜ tɕˈiɑ lˈɑ kwˈɑ
+garage: graf, 4415,  ɡeːɾˈaːɟ,  ts.hˈo- khˈu
+crutch: krut, 3202,  bɛːsˈaːkʰi,  kˈuai˧˥ ts.ˈaŋ
+phosphorus: psof, 4485,  pʰˈaːspʰoːɾˌəs,  lˈiɜn
+andes: zis, 2936,  ẽːɖˈiːɟ,  ˈan tˈi sˈi̪ s.ˈan mˈai
+gymnasium: gyam, 3410,  ʋjˌaːjaːmʃˈaːlaː,  tɕˈiɛn s.ˈən fˈaɜŋ
+niger: nyen, 3061,  nˈaːɪɟˌəɾ,  nˈiɜ ʐˈi. ˈər˧˥
+crane: gren, 3841,  kɾˈeːn,  tɕhˈi˧˥ ts.ˈonɡ tɕˈi
+thesis: tses, 4112,  tʰˈiːsɪs,  lˈuən wˈuəɜn
+banana: bwan, 3280,  kˈeːlaː,  ɕˈiɑŋ tɕjˈɑu
+bran: frak, 2403,  cˈoːkəɾ,  fˈu
+drip: trip, 3156,  ʈˈʌpək,  tˈi
+canary: krif, 3800,  kənˈaːɾi cˈɪr.ɪjˌaː,  tɕˈin sˈi̪ tɕhˈyɛ
+censor: swes, 4347,  sˈẽːsəɾ,  s.ˈə˧˥n ts.hˈɑɜ
+missile: tris, 2342,  mɪsˈaːɪl,  tˈɑu˧˥ tˈan
+sausage: slos, 3834,  sˈɔs,  ɕˈiɑŋ ts.hˈɑɜŋ
+rhinoceros: gres, 2548,  ɡˈɛ̃ɖaː,  ɕˈi nˈiouɜ
+tomato: trot, 3460,  ʈəmˈaːʈəɾ,  fantɕhˈiɛɜ
+holly: cloc, 3727,  hˈoːlli,  tˈonɡ tɕhˈiŋ
+kangaroo: nuf, 3825,  kəŋɡˈeːɾuː,  tais.ˈu˧˥
+potassium: psim, 4759,  poːʈˈɛːʃɪjˌəm,  tɕˈiɑ˧˥
+algebra: gjan, 3075,  bˈiːɟəɡɳɪt,  tˈai s.ˈu
+biology: bwic, 4012,  ɟˌiːʋʋɪɡjˈaːn,  s.ˈəŋ wˈu ɕˈyɛɜ
+unemployment: bim, 3098,  bˌeːɾoːɟɡˈaːɾi,  s.ˈi. jˈiɛ
+caterpillar: krot, 3035,  kˈʌmlˌaː,  mˈɑuɜ ts.hˈonɡɜ
+madagascar: djas, 5268,  mˌeːɖaːɡˈaːskəɾ,  mˈɑ˧˥ tˈɑɜ tɕˈiɑ sˈi̪ tɕˈiɑ
+turpentine: tep, 4181,  tˌaːɾpˈiːn,  sˈonɡ tɕˈiɛɜ jˈiouɜ
+browser: but, 3690,  bɾˈaːʊzˌəɾ,  liouɜlˈa˧˥n tɕhˈi
+singapore: nip, 6235,  sĩɡˈaːpʊɾ,  ɕˈin tɕˈiɑ phˈo
+spectrum: pyet, 4088,  spˈeːkʈɾəm,  kwaŋphˈu˧˥
+sodium: syom, 4035,  sˈoːɖɪjˌəm,  nˈɑ
+hysteria: cret, 4240,  hɪsʈˈiːɾɪjˌaː,  ɕˈiɛ sˈi̪ tiɜlˈi˧˥
+trustee: tsos, 3785,  ʈɾˈʌsʈi,  s.ˈou thˈuo ʐˈəɜn
+eel: byic, 2563,  bˈaːm mˈʌcʰlˌi,  mˈaɜn ʲˈyɜ
+otter: jrat, 2152,  ˈud,  thˈɑ˧˥
+pluto: plot, 4961,  plˈuːʈoː,  mˈiɜŋ wˈɑɜŋ ɕˈiŋ
+colombia: kop, 5116,  koːlˈʌmbɪjˌaː,  kˈo- lˈuəɜn pˈi˧˥ jˈiɑ
+libya: pwic, 2470,  lˈiːbɪjˌaː,  lˈi pˈi˧˥ jˈiɑ
+honeysuckle: cyes, 3935,  (en)hˈʌnɪsˌʌkəl(hi),  tɕˈin jˈiɜn xwˈɑ
+stretcher: trek, 3412,  sʈɾˈeːcəɾ,  tˈan tɕˈiɑ
+frieze: frif, 3882,  pʰɾˈiːz,  tˈai ts.wˈɑŋ ts.wˈɑŋ s.ˈi.
+atheism: tsem, 3692,  nˈaːstɪktaː,  wˈuɜ s.ˈəɜn lˈuən
+constituency: kcec, 4008,  cˈʊnaʊ kʃˈeːtɾə,  ɕˈyæ˧˥n mˈiɜn
+uncontrolled: kof, 3776,  ˌʌnɪjˈʌntɾɪt,  s.ˈi. khˈonɡ
+paraguay: pruk, 4516,  pəɾˈaːɡʊˌaː,  pɑlˈɑ kˈuei
+turnip: tlen, 2578,  ʃˈʌləɟˌəm,  wˈuɜ tɕˈiŋ
+drummer: dom, 3525,  ɖʰəɳɖʰˈoːɾcˌi,  kuɜs.ˈou˧˥
+almond: bjam, 3130,  baːdˈaːm,  ɕˈiŋ ʐˈəɜn
+nausea: glic, 2680,  ɟˈi mˌɪclˈaːnaː,  o-˧˥ɕˈin
+platinum: pyim, 4334,  plˈɛːʈɪnˌəm,  pˈoɜ
+currant: kem, 3383,  kˈɪʃmˌɪʃ,  xˈei tshˈu lˈi
+lung: pcen, 2674,  pʰˈeːpʰr.ˌaː,  fˈei
+pheasant: fet, 3686,  tˈiːtəɾ,  jˈiɛ˧˥ tɕˈi
+super: syup, 4749,  sˈʊpəɾ,  ts.hˈɑu
+poppy: pos, 2866,  kʰˈʌsəkʰˌəs,  jˈiŋ sˈu
+sahara: zrac, 2407,  səhˈaːɾaː,  sˌɑxɑlˈɑ
+gasoline: pron, 3020,  pˈeːʈɾoːl,  tɕhˈi jˈiouɜ
+kidney: grik, 2402,  ɡˈʊɾdeː,  s.ˈən
+cactus: kret, 4068,  kˈɛːkʈəs,  ɕiɛnʐˈəɜn ts.ˈa˧˥ŋ
+guiana: gyun, 5448,  ɡəjˈaːnaː,  kˈuei jˈiɑ nˈɑ
+arsenic: tson, 3176,  sˈʌŋkʰɪjˌaː,  s.ˈən
+acacia: ksuc, 2860,  bəbˈuːl,  tshˈi̪ xˈuaiɜ
+snail: nop, 3178,  ɡʰˈõɡʰaː,  wˈo nˈiouɜ
+algeria: gjat, 3312,  ˌeːlɟˈiːɾɪjˌaː,  ˈɑ ˈər˧˥ tɕˈiɜ lˈi jˈiɑ
+playground: clen, 3955,  kʰˈeːl kaː mɛːdˈaːn,  tshɑuts.hˈɑ˧˥ŋ
+thyme: tyom, 3118,  ˌʌɟʋˈaːjən keː pʰˈuːl,  s.ˈo- ɕiɑŋtshˈɑu˧˥
+grasshopper: tfen, 2466,  ʈˈɪɖɖi,  ts.ɑmˈə˧˥ŋ
+albania: bwak, 3399,  ʌlbˈaːnɪjˌaː,  ˈɑ ˈər˧˥ pɑnˈiɜ jˈiɑ
+mandarin: jon, 3665,  ˌʌkəɾmˈʌɳjə,  phˈu˧˥ thˈonɡ xwˈɑ
+thistle: tsif, 2817,  tʰˈiːslə,  tɕˈi
+sorrel: sroc, 3171,  soːɾˈeːl,  tshˈu tɕˈiɑŋ tshˈɑu˧˥
+jockey: jok, 4164,  ɟˈɔki,  tɕhˈiɜ s.ˈi.
+pneumonia: zon, 4139,  nɪmˈoːnɪjˌaː,  fˈei jˈiɛɜn
+mica: blik, 3289,  ˈʌbʰɾək,  ʲyəɜnmˈu˧˥
+gorilla: gric, 5136,  ɡoːɾˈɪllaː,  tˈɑ ɕiŋɕi˧˥ŋ
+dividend: dwic, 2815,  laːbʰˈãʃ,  kˈu˧˥ lˈi
+skate: kyet, 3499,  skˈeːʈ,  xwˈɑɜ pˈiŋ
+honduras: crus, 5375,  hˈõɖʊɾˌəs,  xˌonɡɜtulɑsˈi̪
+auburn: jun, 3706,  sˈʊnəhˌəɾaː bʰˈuːɾaː ɾˈʌŋɡ,  ˈɑu pˈə˧˥n
+stenographer: traf, 4331,  ˈaːʃʊlˌɪpɪk,  sˈu tɕˈi ˈyæɜn
+mauritius: mwos, 4507,  mɔɾˈiːʃəs,  mˈɑuɜ lˈi˧˥ tɕhˈiouɜ sˈi̪
+pomegranate: slon, 2852,  ʌnˈaːɾ,  s.i.ɜliouɜ
+fireman: fren, 4426,  pʰˌaːjəɾmˈɛːn,  ɕjˈɑu fˈaɜŋ tˈuei ˈyæɜn
+opal: pyop, 4017,  dˈuːdʰɪjˌaː pˈʌttʰəɾ,  tˈan pˈaiɜ s.ˈi.ɜ
+curry: undefined, undefined, undefined, undefined
+bitch: brut, 2663,  kˈʊtɪjˌaː,  pjˈɑu˧˥ tsi̪˥˩
+eyelid: yop, 2697,  pəpˈoːʈaː,  jˈiɛ˧˥n phˈiɜ
+diagonal: dyon, 4226,  wɪkˈʌɾɳə,  tueitɕjˈɑu˧˥ ɕˈiɛn
+eyebrow: bric, 2846,  bʰˈɔ̃,  mˈeiɜ
+sneeze: pric, 2980,  cʰˈĩk,  phˈən thˈi
+cartilage: jrak, 3305,  ʊpˈaːstʰɪ,  ʐuaɜnkˈu˧˥
+turquoise: tros, 4225,  fɪɾˈoːzaː,  lˈy sˈonɡ s.ˈi.ɜ
+scarecrow: sruk, 3583,  bɪɟˈuːkaː,  tɑutshˈɑu˧˥ ʐˈəɜn
+hinduism: nwim, 4953,  hˈɪnduː dʰˈʌɾm,  jˈin tˈu tɕjˈɑu
+refugee: nyim, 3299,  ʃˌəɾɳˈaːɾtʰi,  nanmˈiɜn
+protein: pwon, 4007,  pɾoːʈˈiːn,  tˈan pˈaiɜ
+refectory: fec, 3209,  cˌaːjxˈaːnaː,  fˈan thˈiŋ
+mongolia: mom, 4480,  məŋɡˈoːlɪjˌaː,  məɜŋkˈu˧˥
+gene: jyin, 3926,  ɟˈiːn,  tɕˈi jˈin
+freshman: dram, 3076,  nˈʌeː,  tˈɑ jˈi
+liberia: pren, 3068,  lˌaːɪbˈeːɾɪjˌaː,  lˈi pˈiɜ lˈi˧˥ jˈiɑ
+nape: nep, 3570,  ɖˈʌb,  tɕˈi˧˥ŋ pˈei
+yemen: yom, 4986,  jˈʌmən,  jˈiɛ˧˥ mˈəɜn
+sociology: sloc, 4783,  sˌəmaːɟʃˈaːstɾə,  s.ˈo- xˈuei ɕˈyɛɜ
+guatemala: gem, 5961,  ɡʋˌaːʈeːmˈaːlaː,  wˌeitimɑ˧˥lˈɑ
+carrot: grot, 2921,  ɡˈaːɟəɾ,  xˈuɜ lˈuoɜ poɜ
+bowling: blis, 4122,  ɡˌẽːdbˈaːɟi,  pˈɑu˧˥ lˈiɜŋ tɕhˈiouɜ
+senegal: syec, 3842,  seːnˈeːɡəl,  sˌaineitɕiɑˈər˧˥
+melon: klen, 3211,  kʰˌəɾbˈuːɟ,  kwˈɑ
+gill: gyac, 2589,  maːʃˈuːk,  sˈai
+molecular: mwik, 3290,  ˈaːɳʋˌɪk,  fəntsi̪˥
+accountant: ksum, 3385,  mʊnˈiːm,  khuaitɕˈi
+mackerel: crim, 3930,  cʰˈoːʈi səmˈʊdɾi mˈʌcʰlˌi,  tɕhˈiŋ ʲˈyɜ
+phosphate: pset, 4960,  pʰɔspʰˈeːʈ,  lˈiɜn sˈuan jˈiɛɜn
+argentina: gjit, 4648,  ˌʌɾɟẽːʈˈiːnaː,  ˈɑ kˈən thˈiɜŋ
+scorpion: krip, 3557,  bˈɪccʰuː,  ɕˈiɛ
+woodpecker: tcok, 3148,  kˌəʈʰpʰˈoːr.ʋˌaː,  ts.ˈuoɜ mˈu njˈɑu˧˥
+raspberry: fes, 3043,  ɾˈʌsəbʰɾi,  fˈu phˈəɜn tsi̪ɜ
+hippopotamus: com, 4285,  ɟˌələhˈʌsti,  xo-ɜmˈɑ˧˥
+alkaline: flic, 3267,  kʃaːɾˈiːj,  tɕˈiɛ˧˥n ɕˈiŋ
+wheelbarrow: tlet, 3547,  ʈʰˈeːlaː,  tˈuɜ lˈuəɜn ts.hˈo-
+capsule: ksup, 4631,  kˈɛːpsuːl,  tɕjˈɑu nˈaɜŋ
+stork: jwan, 2761,  sˈaːɾəs,  kwˈan
+nepal: nyep, 5348,  neːpˈaːl,  nˌiɜpoɜˈər˧˥
+tulip: tlup, 5524,  ʈːjˈuːlɪp,  ʲˈy tɕˈin ɕˈiɑŋ
+iran: plon, 2101,  iɾˈaːn,  jilˈa˧˥ŋ
+donor: dzan, 3480,  dˈaːtaː,  tɕˈyæn tsˈəŋ ts.ˈo-˧˥
+manganese: zun, 2721,  mˌɛ̃ɡnˈiːɟ,  mˈə˧˥ŋ
+psychologist: slot, 3834,  mˌənoːʋɪɡjˈaːni,  ɕinlˈi˧˥ ɕˈyɛɜ tɕˈiɑ
+chlorine: klok, 3962,  kloːɾˈiːn,  lˈy
+synonym: zim, 3233,  pəɾjˈaːj,  tˈai mˈiɜŋ tshˈi̪ɜ
+keyboard: kep, 3281,  kibˈoːɾɖ,  tɕˈiɛn phˈaɜn
+amethyst: byit, 3420,  bɪllˈɔːɾ,  tsˈi̪˧˥ tɕˈiŋ
+diver: dwac, 3272,  ɣˌoːtaːxˈoːɾ,  tɕhiɛɜns.wˈei˧˥ ˈyæɜn
+elite: zlit, 3406,  ˌʌbʰɪɟˈaːt wˈʌɾɡ,  tɕˈiŋ jˈiŋ
+bolivia: bwis, 5030,  boːlˈiːʋɪjˌaː,  pˈo lˈi wˈeiɜ jˈiɑ
+parenthesis: pcot, 2681,  kˈoːʂʈək,  ts.hˈɑ ʐˈu ʲˈy˧˥
+rugby: bzic, 2352,  ɾˈʌɡbi,  kaɜnlˈa˧˥n tɕhˈiouɜ
+uterus: tcek, 2556,  ɡəɾbʰˈaːʃˌɛj,  tsi̪˧˥kˈonɡ
+inflected: fek, 3950,  wɪbʰˈʌktɪ,  tɕhˈy ts.ˈo-ɜ
+retina: fwin, 3541,  ɾˈeːʈɪnˌaː,  s.ˈi. wˈɑ˧˥ŋ mˈoɜ
+penguin: pyen, 4108,  pˈẽːɡʊˌɪn,  tɕhˈi˧˥ ˈo-ɜ
+limousine: mwun, 4239,  lɪmˈoːsɪn,  xˈɑuɜ xwˈɑɜ tɕjˈɑu ts.hˈo-
+gambia: gyim, 3618,  ɡˈaːmbɪjˌaː,  kˈaŋ pˈi˧˥ jˈiɑ
+himalayas: cles, 4696,  hɪmˈaːlˌɛj,  ɕˈiɜ mˈɑ˧˥ lˈɑ jˈiɑ˧˥ s.ˈan
+antimony: twim, 4050,  sˈʊɾmˌaː,  thˈi
+erosion: cyon, 2970,  kˈʌʈaʊ,  tɕhˈin s.ˈi.ɜ
+pineapple: nwun, 2943,  ˌʌnaːnˈaːs,  pˈo lˈuoɜ
+immune: myon, 3107,  pɾˌətɪɾˈʌkʃaː,  mˈiɛ˧˥n jˈi tə˥
+cocktail: kyot, 4758,  kˌɔkʈˈeːl,  tɕˈi wˈeiɜ tɕˈiou˧˥
+uganda: gjun, 3930,  jʊɡˈãɖaː,  wˈu kˈan tˈɑɜ
+skein: tcet, 2699,  ˈʌɳʈi,  tɕjˈɑu˧˥
+grenada: gyen, 4600,  ɡɾeːnˈaːɖaː,  kˈo-ɜ lˈiɜn nˈɑ tˈɑɜ
+brewery: bwit, 3864,  ʃəɾˈaːb ki bʰˈʌʈʰːi,  niɑŋtɕˈiouɜ ts.hˈɑ˧˥ŋ
+simplify: sef, 3406,  aːsˈaːn bənˈaːneː mˈẽː,  tɕˈiɛ˧˥n xwˈɑ
+sudan: zut, 2901,  suːɖˈaːn,  sˈu tˈan
+haiti: cyet, 3788,  hˈɛːti,  xai˧˥tˈi
+cauliflower: klif, 3684,  pʰˌuːlɡˈoːbʰi,  tshˈai xwˈɑ
+sock: bzak, 2664,  mˈɔːzaː,  wˈɑ tsi̪˥
+television: twen, 5926,  ʈeːlˈiːʋɪɟˌən,  tˈiɛn s.ˈi.
+uruguay: cwuk, 2606,  ʊɾˈʊɡʋeː,  wˈu lˈɑ kˈuei
+lithuania: twun, 4736,  lˌɪtʰʊˈaːnɪjˌaː,  lˈi thˈɑuɜ wˈɑ˧˥n
+asthma: dzam, 3826,  dˈʌmaː,  ɕjɑuts.hˈua˧˥n
+gregarious: grec, 4083,  ɟʰˈʊɳɖ mẽː ɾˌəhəneːʋˈaːlaː,  tɕhˈyiɜn tɕˈy
+hedgehog: dec, 4304,  kˌãʈeːdˈaːɾ ɟˈʌŋɡəlˌi cˈuːhaː,  wei˥
+tasmania: zyan, 4084,  təsmˈaːnɪjˌaː,  thˈɑ˧˥ sˈi̪ mˈɑ˧˥ nˈiɜ jˈiɑ
+angola: nof, 4929,  ʌŋɡˈoːlaː,  ˈan kˈo- lˈɑ
+postmark: doc, 4246,  ɖˈaːkəɡʰˈʌɾ ki mˈʊhəɾ ləɡˈaːnaː,  jˈiouɜ ts.hˈuo
+forestry: dyit, 2633,  wˈaːnɪkˌi,  lˈiɜn jˈiɛ
+aluminum: wum, 3697,  ˌʌljʊmˈiːnɪjˌəm,  lˈy˧˥
+alfalfa: luf, 3775,  ˈʌlpʰəlˌaː,  mˈu ɕy˥
+oscillation: slun, 3802,  kˈʌmpən,  ts.ˈən tˈaŋ
+vietnam: byam, 4089,  wˌɪjətnˈaːm,  ˈyɛ nˈaɜn
+horoscope: ksop, 3884,  kˈũɖlˌi,  ɕˈiŋ tsˈuo ʲˈyən s.ˈi.
+nettle: jrac, 2581,  bˈɪcʰʊˌaː,  tɕhiɛɜnmˈɑɜ
+baste: got, 2354,  cˈoːʈnˌaː,  pˈə˧˥ŋ
+dolphin: dif, 4927,  ɖˈɔlpʰɪn,  xˈai˧˥ thwˈuəɜn
+killer: byis, 2556,  hətːjˈaːɾaː,  ɕyŋs.ˈou˧˥
+omelette: clet, 4453,  ˌaːmlˈeːʈ,  tɕˈiɛn tˈan
+mammal: jap, 2945,  stˌənpˈaːji,  puɜʐˈu˧˥ tˈonɡ wˈu
+dominoes: dwon, 4095,  ɖˈoːmɪnˌoː,  kˈu˧˥ phˈaiɜ
+ecuador: kwot, 5554,  ˌɪkʋeːɖˈoːɾ,  ˈo- kwˈɑ tuoˈər˧˥
+mozambique: zok, 5455,  moːɟˈaːmbɪk,  mˈo sˈaŋ pˈi˧˥ khˈo-
+dioxide: dos, 5497,  ɖˌaːɪɔksˈaːɪɖ,  ˈər jˈiɑ˧˥ŋ xwˈɑ thˈan
+colon: plen, 3094,  pˈeːʈ keː,  tɕˈiɛɜ ts.hˈɑɜŋ
+bureaucracy: bris, 4561,  nˌaukˈaɾʃˈaːhɪ,  kwˈan ljˈɑuɜ
+tambourine: trap, 2291,  ɖˈʌpʰ,  s.ˈouɜ kˈu˧˥
+antiseptic: nwet, 4709,  sˈʌr.ən ɾˌoːkneːʋˈaːli dˈʌbaː,  faɜŋfˈu˧˥ tɕˈi
+ukraine: krek, 4273,  jˈuːkɾeːn,  wˈu khˈo- lˈaɜn
+dominica: dok, 5572,  ɖˈoːmɪnˌɪkaː,  tˈuo mˈi˧˥ nˈiɜ tɕˈiɑ
+rosemary: zic, 3104,  mˈẽːhədˌi,  mˈiɜ tˈiɛɜ ɕˈiɑŋ
+climber: pram, 3234,  pˌəɾʋətaːɾˈoːhi,  tˈəŋ s.ˈan ts.ˈo-˧˥
+refrigerator: pcif, 3383,  pʰɾˈɪɟ,  pˈiŋ ɕˈiɑŋ
+iraq: yok, 3403,  ɪɾˈaːk,  jˈi lˈɑ khˈo-
+unacceptable: kwim, 3521,  ˌʌsʋikˈaːɾjə,  pˈu khˈo-˧˥ tɕˈiɛ s.ˈou
+massage: jlas, 3028,  mˈaːlɪʃ,  ˈan mˈoɜ
+orchid: ref, 2885,  ˈaːɾkɪɖ,  lˈaɜn xwˈɑ
+specification: pfik, 4126,  wˌɪnɪɾdˈeːʃ,  kˈuei fˈan
+uranus: trus, 3260,  ˈʌɾʊɳ ɡɾˈʌh,  thˈiɛn wˈɑɜŋ ɕˈiŋ
+apricot: brik, 3445,  kʰʊbˈaːni,  ɕˈiŋ
+topaz: zap, 4170,  ʈoːpˈaːz,  xwˈɑɜŋ ʲˈy
+tights: tset, 3345,  ʈˈaːɪʈˌəs,  tɕˈi˧˥n s.ˈən jˈi
+coconut: ksot, 2373,  nˈaːɾɪjˌəl,  jˈiɛ tsi̪˧˥
+anthropology: nwip, 4098,  nɾˌɪʋɪɡjˈaːn,  ʐˈəɜn lˈei ɕˈyɛɜ
+igneous: gip, 3655,  ˈaːtʃˌi,  xˈuo˧˥ ts.hˈəɜŋ jˈiɛɜn
+pakistan: pson, 5303,  pˌaːkɪstˈaːn,  pˌɑtɕisi̪thˈa˧˥n
+solder: dlac, 2815,  mɪlˈaːp,  xˈan tɕˈiɛ
+rectum: yet, 3511,  məlˈaːʃˌɛj,  ts.ˈi.ɜ ts.hˈɑɜŋ
+larch: drac, 3610,  ˈeːk pɾəkˈaːɾ kaː wɾˈɪkʃ,  lˈuo jˈiɛ sˈonɡ
+sunflower: cluc, 3332,  sˈuːɾəɟmʊkʰˌi,  ɕˈiɑŋ ʐˈi. khˈueiɜ
+giraffe: jraf, 4748,  ɟɪɾˈaːf,  ts.hˈɑɜŋ tɕˈi˧˥ŋ lˈu
+romania: myom, 2594,  ɾoːmˈaːnɪjˌaː,  luoɜmˈɑ˧˥ nˈiɜ jˈiɑ
+pestle: pcus, 3072,  mˈuːsəl,  ts.hˈu˧˥
+backgammon: bem, 3879,  bˌɛːkɡɛːmˈɔːn,  s.i.ɜwˈu˧˥ tsi̪˥˩ tɕhˈiɜ
+ion: nyot, 2060,  ˈaːjən,  liɜtsˈi̪˧˥
+zebra: zwam, 3379,  zˈeːbɾˌaː,  panmˈɑ˧˥
+eucalyptus: klus, 5863,  jˌʊklˈɪpʈʊs,  ˈan s.ˈu
+modem: mwom, 4717,  mˈoːɖəm,  tjˌɑuts.i.tɕˌiɛ˧˥tjɑutɕhˈi
+quince: kwip, 2565,  ʃɾˈiːpʰəl,  pho˥
+prompter: psos, 3306,  pɾˈoːtsaːhˌək,  xuantɕhˈiɜ ts.ˈo-˧˥
+mauritania: myum, 3105,  mˌɔɾɪʈˈaːnɪjˌaː,  mˈɑuɜ lˈiɜ thˈɑ˧˥ nˈiɜ jˈiɑ
+microwave: krop, 4202,  mˌaːɪkɾoːʋˈeːw,  wˈei pˈo
+indonesia: des, 4364,  ˌĩɖoːnˈeːʃɪjˌaː,  jˈin tˈu nˈiɜ ɕˈi jˈiɑ
+capillary: klek, 3782,  kˈeːʃɪkˌaː,  mˈɑuɜ ɕˈi kwˈa˧˥n
+mayonnaise: myes, 4712,  mˌeːjoːnˈeːz,  tˈan xwˈɑɜŋ tɕˈiɑŋ
+benin: byen, 4933,  bˈeːnɪn,  pˈei nˈiɜŋ
+dandelion: dlon, 4382,  sˌĩhəpˈʌɾɳi,  phˈuɜ kˈonɡ jˈiŋ
+nigeria: jris, 3814,  nˌaːɪɟˈiːɾɪjˌaː,  nˈiɜ ʐˈi. lˈi jˈiɑ
+malaysia: myec, 4173,  məlˈeːʃɪjˌaː,  mˈɑ˧˥ lˈaiɜ ɕˈi jˈiɑ
+bahamas: bom, 4217,  bəhˈaːmaː,  pˌɑxɑmˈɑ˧˥
+yugoslavia: glaf, 5093,  juːɡˈoːslaʊˌɪjaː,  nˈaɜn sˈi̪ lɑfˈu
+allspice: srap, 3454,  sˈaːɾeː məsˈaːleː,  tˈuo ɕˈiɑŋ kˈuo˧˥
+sublimate: dlam, 3809,  ʊdˈaːtːikˌəɾəɳ kˈʌɾnˌaː,  s.ˈəŋ xwˈɑɜ
+parallelogram: plem, 3983,  səmˈaːntəɾ,  phˈiɜŋ ɕˈiɜŋ sˈi̪ pˈiɛn ɕˈiɜŋ
+cobalt: kwok, 3845,  koːbˈaːlʈ,  kˈu˧˥
+stockbroker: crek, 4206,  ʃˈeːjəɾ dəlˈaːl,  kˈu˧˥ phjˈɑu tɕˈiŋ tɕˈi ʐˈəɜn
+oat: gwam, 2461,  ɟˈʌi,  jˈiɛn mˈai
+cutlery: tlif, 3633,  kˈʌʈəlɾi,  tˈɑu tɕˈy
+video: wof, 3789,  wˈiːɖɪjˌoː,  s.ˈi. phˈiɜn
+hockey: cwok, 4251,  hˈɔki,  tɕhˈy kˈuən tɕhˈiouɜ
+alliteration: tres, 3999,  ˌʌnʊpɾˈaːs,  thˈouɜ ʲˈyən
+cambodia: mwas, 3757,  kəmbˈoːɖɪjˌaː,  tɕˈiɛɜn phˈu˧˥ ts.ˈai
+taiwan: twon, 5142,  tˌaːɪʋˈaːn,  thˈaiɜ wˈɑn
+magnesium: myem, 4746,  mˈɛːɡniʃˌɪjəm,  mˈei˧˥
+radar: dras, 1942,  ɾaːɖˈaːɾ,  lˈeiɜ tˈɑɜ
+salamander: jen, 3608,  səmˈʌndəɾ,  ʐˈonɡɜ
+goldfish: zyic, 3493,  zˈʌɾd mˈʌcʰlˌi,  tɕˈin ʲˈyɜ
+yam: twus, 2743,  ɾətˈaːluː,  s.ˈu˧˥
+chimpanzee: cyen, 3523,  cĩpˈãzi,  xˈei ɕiŋɕi˧˥ŋ
+cranberry: krem, 3020,  kɾˌɛːnbˈeːɾi,  mˈaɜn ˈyɛ mˈeiɜ
+thailand: tlek, 4238,  tʰˌaːilˈɛ̃ɖ,  thˈai kˈuoɜ
+daffodil: bjin, 2945,  hˈʌlkˌaː pˈiːlaː,  lˈɑ˧˥ pɑ˥˩ s.wei˧˥ɕˈiɛn
+octagon: tyon, 4248,  ˌʌʂʈəkˈoːnaː,  pɑtɕjˈɑu˧˥ ɕˈiɜŋ
+rectangle: tyet, 3228,  ˈaːjət,  tɕy˧˥ɕˈiɜŋ
+kelp: klep, 3135,  sɪʋˈaːɾ,  xˈai˧˥ tˈai
+generalize: jlak, 3856,  saːmˈaːnjikˌəɾəɳ,  kˈai khˈuo
+curfew: yec, 3496,  nˌɪʂeːdʰˈaːɡjaː,  ɕjˈɑu tɕˈin
+homosexual: mef, 3845,  sˌəmlˈɛ̃ɡɪk,  thˈonɡɜ ɕˈiŋ
+hamburger: mep, 3857,  hˌɛːməbˈʌɾɡəɾ,  xanpˈɑu˧˥ pˈɑu
+florist: fras, 3953,  pʰˌuːlʋˈaːlaː,  xwˈɑ s.ˈaŋ
+reincarnation: zron, 4065,  pʊnˈʌɾɟənm,  thˈouɜ thˈai
+ignite: zlan, 3470,  ˈaːɡ lˈʌɡnˌaː,  tˈiɛ˧˥n ʐˈaɜn
+watermelon: zrak, 2617,  tˌəɾbˈuːɟ,  ɕˈi kwˈɑ
+cameroon: jren, 4575,  kˌɛːmɾˈuːn,  khˈɑ mˈai lˈonɡɜ
+tunisia: tuf, 4828,  ʈːjuːnˈiːʃɪjˌaː,  thˈu nˈiɜ sˈi̪
+uranium: mwum, 2939,  juːɾˈeːnɪjˌəm,  jˈiouɜ
+catcher: kwet, 3505,  pˈʌkər.neː wˈaːlaː,  puɜs.ˈou˧˥
+coordinate: syot, 3967,  səmˈʌnʋəˌɛj stʰˈaːpɪt,  tsˈuo pjˈɑu
+laos: wos, 3884,  laːˈoːs,  lɑu˧˥wˈo
+taxpayer: nwaf, 3159,  kˌəɾdˈaːtaː,  nˈɑ s.wˈei ʐˈəɜn
+trombone: troc, 3890,  tˈʊɾhˌi,  ts.hˈɑɜŋ xˈɑu
+pumice: pum, 2956,  ɟʰˈãʋã,  fˈuɜ s.ˈi.ɜ
+eyelash: brim, 3041,  bəɾˈɔːni,  tɕˈiɛɜ mˈɑuɜ
+chessboard: tcop, 4022,  ʃˌətəɾˈʌɲɟ bˈoːɾɖ,  kˈuoɜ tɕˈi ɕˈiɑŋ tɕhˈiɜ tɕhˈiɜ phˈaɜn
+fennel: foc, 2939,  sˈɔ̃pʰ,  xˈueiɜ ɕˈiɑŋ
+marjoram: myoc, 3544,  kˈʊʈʰɾˌaː,  mˈo tɕjˈɑu˧˥ lˈaɜn
+kuwait: kwuc, 5362,  kʊʋˈɛːʈ,  khˈo- wˈei thˈə
+bib: brip, 2776,  ˈʌkəsˌəɾ pˈiːnaː,  wˈeiɜ tˈou
+metamorphic: prif, 4010,  ɾuːpˈãtɾˌɪt,  pˈiɛn ts.ˈi.
+octopus: twap, 3317,  ˌʌʂʈəbˈaːhʊ,  ts.ˈaŋ ʲˈyɜ
+asteroid: croc, 3558,  cʰˈoːʈaː tˈaːɾaː,  ɕjˈɑu˧˥ ɕˈiɜŋ ɕˈiŋ
+icicle: zlik, 3202,  hˌɪməlˈʌmb,  pˈiŋ ts.ˈu
+biennial: dyic, 3716,  dʋɪʋˈaːʂɪk,  lˈiɑ˧˥ŋ nˈiɛɜn jiɜtshˈi̪
+mall: mof, 3081,  mˈɔl,  kˈou wˈu ts.ˈonɡ ɕˈin
+bismuth: bum, 4696,  wˈɪsmʊʈ,  pˈi
+kenya: kyec, 3416,  kˈeːnjaː,  khˈə˧˥n nˈiɜ jˈiɑ
+sundial: dzic, 2925,  dʰˈuːpəɡʰr.i,  kˈuei˧˥
+obsidian: bzin, 4659,  ˈoːbsiɖˌɪjən,  xˈei jˈɑu s.ˈi.ɜ
+microbe: krum, 3596,  sˈuːkʃmə ɟˈiːw,  wˈei s.ˈəŋ wˈu
+genital: gzit, 3235,  ɟˈʌnən,  s.ˈəŋ ts.ˈi.ɜ tɕhˈi
+expletive: swet, 2946,  dˈʊɾʋəcˌən,  tsaŋxwˈɑ
+jeans: djis, 3408,  ɟˈiːns,  niouɜtsˈai˧˥ khˈu
+biceps: kcip, 4394,  mˈʌcʰlˌɪjã,  kˈonɡ ˈər thˈouɜ tɕˈi
+raccoon: jlan, 3112,  ˈeːk pɾəkˈaːɾ kaː ɟˈaːnəʋˌəɾ,  li˥
+zimbabwe: mwam, 3507,  ɟɪmbˈaːbʋeː,  tɕˌinpɑpuwˈeiɜ
+cornea: krom, 4408,  kˈɔɾnɪjˌaː,  tɕjˈɑu˧˥ mˈoɜ
+molar: mwoc, 2791,  dˈaːr.h,  mˈoɜ jˈiɑɜ
+calculator: kluc, 4627,  kˌɛːlkʊlˈeːʈəɾ,  tɕˈi sˈuan tɕhˈi
+centipede: wep, 3234,  caːlˈiːsəpˌəd,  wˈuɜ
+sardine: zram, 3483,  sˌaːɾɖˈaːɪn,  s.ˈɑ tˈiŋ ʲˈyɜ
+x-ray: ksec, 4893,  ˈeːksəɾˈeː,  ˈaiɜkss.ˈo- ɕˈiɛn
+belize: blif, 5385,  beːlˈiːɟ,  pˌai˧˥litsˈi̪
+tadpole: kwoc, 3306,  mˈeːɖʰək kaː ɖˌĩbʰkˈiːʈ,  kho-tˈou˧˥
+bangladesh: blac, 6559,  bˈãɡlaːdˌeːʃ,  mˈəŋ tɕˈiɑ lˈɑ kˈuoɜ
+duckling: dyak, 3232,  bˈʌtːəx kaː bˈʌccaː,  ɕjˈɑu˧˥ jˈiɑ
+malachite: glik, 4126,  mˌɛːlaːkˈaːɪʈ,  khˈonɡ˧˥ tɕhˈyɛ s.ˈi.ɜ
+visa: bzis, 3560,  wˈiːsaː,  tɕhˈiɛn ts.ˈəŋ
+infrastructure: frik, 4339,  bˌʊnɪjˈaːdi ɖʰˈãceː,  tɕits.hˈu˧˥ s.ˈo- s.ˈi.
+tanzania: gzan, 5144,  təɲɟˈaːnɪjˌaː,  thˈa˧˥n sˈaŋ nˈiɜ jˈiɑ
+firefly: grun, 3257,  ɟˈʊɡnˌuː,  jiɜŋxˈuo˧˥ ts.hˈonɡɜ
+detector: det, 5905,  ɖɪʈˈeːkʈəɾ,  thˈan tshˈo- tɕhˈi
+adaptive: dwit, 3797,  ˌʌnʊkˈuːli,  tsˈi̪ s.i.jˈiŋ
+biologist: bjit, 3589,  ɟˌiːʋʋɪɡjˈaːni,  s.ˈəŋ wˈu ɕˈyɛɜ tɕˈiɑ
+rolling-pin: rup, 4214,  ɾoːlˈĩɡ pˈɪn,  jˈiɑ jˈiɛɜn ɕjˈɑu
+peony: pyon, 3821,  (en)pˈiəni(hi),  mu˧˥ta˥˩n
+euphemism: fem, 3623,  ʋjˈʌɲɟənˌaː,  wˈɑ˧˥n tshˈi̪ɜ
+bromine: brom, 5129,  bɾˈoːmɪn,  ɕˈiou
+palladium: plum, 3802,  dˈʊɾɡ,  pˈɑ˧˥
+bassoon: bzan, 3471,  ˌʌlɡˈoːɟaː,  pˌɑsonɡkwˈa˧˥n
+djibouti: jut, 5157,  ɟɪbˈuːti,  tɕˈiɜ pˈu thˈiɜ
+slovakia: swok, 6634,  sloːʋˈaːkɪjˌaː,  sˈi̪ lˈuo fˈɑɜ khˈo-
+hiccup: clok, 3096,  hˈɪckˌi,  kˈo-ɜ
+cheddar: cyec, 3341,  cˈeːɖəɾ,  tɕhˈiɛ tˈɑɜ ʐˈu˧˥ lˈɑu
+scalpel: kcup, 3740,  cʰˈʊɾi,  tɕˈiɛ˧˥ phˈou tˈɑu
+swaziland: dzin, 4222,  sʋˌaːɟilˈɛ̃ɖ,  sˈi̪ wˈei s.ˈi. lˈaɜn
+somalia: slom, 4308,  soːmˈaːlɪjˌaː,  sˈuoɜ mɑɜlˈi˧˥
+popcorn: pcok, 4011,  pˈɔpkˌɔɾn,  pˈɑu mˈi˧˥ xwˈɑ
+zoo: zyac, 2850,  cˌɪr.ɪjˈaːɡʰəɾ,  tˈonɡ wˈu ˈyæɜn
+clinic: ksek, 3389,  klˈɪnɪk,  ts.əɜnsˈuo˧˥
+zambia: zyam, 3313,  ɟˈaːmbɪjˌaː,  tsˈan pˈi˧˥ jˈiɑ
+urethra: ruf, 3184,  mˌuːtɾəmˈaːɾɡ,  njˈɑu tˈɑu
+graphite: gif, 5228,  sˈiːsaː,  s.ˈi.ɜ mˈo
+artichoke: tcof, 3999,  hˈaːtʰi cˈʌk,  ts.hɑuɜɕˈiɛ˧˥n tɕˈi
+gabon: gwon, 4483,  ɡˈɛːbɔn,  tɕˈiɑ phˈəɜŋ
+horseradish: crok, 3632,  hˌɔɾsəɾˈɛːɖɪʃ,  lˈɑ kˈən
+starfish: tlaf, 3461,  ˈeːk pɾəkˈaːɾ ki mˈʌcʰlˌi ɟˈɪs koː pˈãnc sˈaːt bˈaːhʊ keː sˈʌdɾɪʃ ˈʌŋɡ hˈoːteː hɛː,  xˈai˧˥ ɕˈiŋ
+sleeveless: bwas, 2871,  bˌɪnaː ˈaːstin kaː,  wˈuɜ ɕˈiou
+namibia: nyip, 4282,  naːmˈiːbɪjˌaː,  nɑmˈiɜ pˈi˧˥ jˈiɑ
+botswana: bwon, 6320,  bˈoːtsəʋˌaːnaː,  pˈoɜ tshˈi̪ɜ wˈɑ˧˥ nˈɑ
+pentagon: pyot, 4008,  pˌəɲcəkˈoːɳ,  wuɜtɕjˈɑu˧˥ tˈɑ lˈouɜ
+stethoscope: tsok, 5393,  pˌəɾɪʃɾˈaʊk,  thiŋthˈonɡ˧˥
+azerbaijan: zyin, 5006,  ˌaːzəɾbaːɪɟˈaːn,  ˌɑsaipaitɕˈiɑŋ
+liechtenstein: tsec, 4954,  lˌɪkʈˈẽːsʈin,  lˈiɛ ts.ˈi. tˈuən s.ˈi. tˈəŋ
+behead: sles, 3710,  sˈɪɾ kˈaːʈ lˈeːnaː,  ts.aɜns.ˈou˧˥
+humerus: cros, 2981,  pɾəɡˈʌɳɖɪkˌaː,  kˈonɡ
+scrotum: kcom, 3743,  ˌʌɳɖəkˈoːʃ ki tʰˈɛːli,  jˈin nˈaɜŋ
+malawi: mwim, 4356,  məlˈaʊi,  mˈɑ˧˥ lˈɑ wˈeiɜ
+jazz: gjas, 3722,  ɟˈaːɟ,  tɕˌyɛɜs.i.ˈyɛ
+tractor: tlok, 4329,  ʈɾˈɛːkʈəɾ,  thˈuo lˈɑ tɕˈi
+tungsten: tfon, 4017,  ʈəŋɡˈʌsʈən,  wˈu
+endive: nyet, 3143,  wɪlˈaːjtˌi,  tɕˈy mˈai˧˥ tshˈai
+grapefruit: kfut, 3266,  cəkˈoːtɾˌaː,  jˈiou tsi̪˥
+wallpaper: tlep, 3451,  wˌɔlpˈeːpəɾ,  tɕhˈiɑɜŋ ts.ˈi.˧˥
+rwanda: dwun, 3405,  ɾəʋˈãɖaː,  lˈuɜ wˈɑŋ tˈɑɜ
+greengrocer: cwon, 3230,  pʰˈʌl bˌeːcneːʋˈaːlaː,  tshˈai fˈan
+manicure: nyuk, 3906,  mɛːnˈiːkːjoːɾ,  ɕˌiouts.i.ɜtɕˈiɑ˧˥
+margarine: jron, 3521,  nˈʌklˌi mˈʌkkʰən,  ʐˈəɜn tsˈɑu nˈai˧˥ jˈiouɜ
+metabolism: tlem, 4187,  cəjˈaːpəcɛj,  tˈai ɕˈiɛ
+beetroot: brot, 3288,  cʊkˈʌndəɾ,  xˈonɡɜ tshˈai thˈouɜ
+alimony: gaf, 3914,  ɡʊɟˈaːɾaː bʰˈʌtːaː,  s.anjˈiɑ˧˥ŋ fˈei
+bhutan: bwut, 5192,  bʰuːʈˈaːn,  pˈu tˈan
+earring: kwen, 2444,  kˈaːn ki bˈaːli,  ˈər˧˥ xˈuaɜn
+ramadan: zlac, 2107,  ɾˌəmɟˈaːn,  ts.ˈai ˈyɛ
+suriname: srum, 6398,  sˌuːɾinˈaːm,  sˈu lˈi˧˥ nˈaɜn
+latvia: twaf, 4286,  lˈaːtʋˌɪjaː,  lˈɑ thˈuo wˈeiɜ jˈiɑ
+oesophagus: swaf, 3386,  ɡʰˈeːɡʰaː,  s.i.ɜkwˈa˧˥n
+weekend: wom, 3696,  səptˈaːh keː ˈʌnt mˈẽː,  ts.ˈou mˈo
+slovenia: swos, 5415,  sloːʋˈeːnɪjˌaː,  sˈi̪ lˈuo wˈuəɜn nˈiɜ jˈiɑ
+maldives: myaf, 3931,  mˌaːldˈiːw,  mˌɑɜər˧˥taifˈu
+kazakhstan: ksos, 5266,  kˌəɟaːkʰstˈaːn,  xˈɑ sˈɑ khˈo- sˈi̪ thˈa˧˥n
+brunei: bwun, 4703,  bɾʊnˈeːi,  wˈuəɜn lˈaiɜ
+motorcycle: tfok, 4305,  mˌoːʈəɾsˈaːɪkˌɪl,  mˈoɜ thˈuo ts.hˈo-
+guinea-bissau: gus, 6693,  ɡˈɪnni bɪsˈaːu,  tɕˈi˧˥ nˈei jˈiɑ tɕˈi˧˥ nˈei jiɑpˈi˧˥ s.ˈɑu
+mantra: tyot, 3136,  mˈʌntɾə,  khˈou˧˥ thˈouɜ ts.hˈaɜn
+lesotho: tsoc, 3940,  lɪsˈoːʈoː,  lˈaiɜ sˈuo˧˥ thˈuo
+box-office: kfis, 4034,  ɖˈɪbbaː kˈaːɾjaːlɛj,  khwˈaŋ pˈan kˈonɡ s.ˈi.
+burundi: brun, 6181,  bˈʊsrndi,  pˈu lˈonɡɜ tˈiɜ
+heroin: gron, 4889,  heːɾˈoːɪn,  xˈai˧˥ lˈuo jˈin
+glider: gyit, 2943,  ɡlˈaːɪɖˌəɾ,  xwˈɑɜ ɕˈiɑɜŋ tɕˈi
+fibula: fuk, 4264,  ʈˈãɡ keː ˈʌɡlˌeː bʰˈaːɡ ki hˈʌɖɖi,  fˈeiɜ kˈu˧˥
+cathode: kfoc, 4044,  kɛːtʰˈoːɖ,  jˈin tɕˈiɜ
+chicory: crip, 3246,  kˈaːsnˌi,  tɕˈyɜ tɕˈy kˈən
+iguana: guc, 3766,  ɡˈoːdʰaː,  lˈiɛ ɕˈi
+parking: prok, 3905,  pˈaːɾkĩɡ,  thˈiɜŋ ts.hˈo-
+fishmonger: flon, 3528,  mˈʌcʰlˌi bˈʌnɪjˌaː,  ʲˈyɜ fˈan tsi̪˥
+belarus: blus, 6480,  bˌeːloːɾˈuːs,  pˈaiɜ ˈo-ɜ lˈuoɜ sˈi̪
+toothbrush: tfoc, 3438,  ʈuːtʰˈʌbɾəʃ,  jˈiɑɜ s.wˈɑ
+clitoris: kces, 2869,  bʰˌəɡʃˈeːpʰ,  jˈin tˈi
+delicatessen: dris, 4487,  ɖˌeːlikˈɛːʈəsˌən,  s.ˈuɜ s.ˈi.ɜ
+comoros: klos, 4686,  kˌoːmoːɾˈoːs,  khˈo- mˈoɜ lˈuoɜ
+flamingo: fron, 3983,  məɾˈaːl,  xˈuo˧˥ lˈiɛ njˈɑu˧˥
+selenium: slem, 5115,  seːlˈeːnɪjˌəm,  ɕˈi
+estonia: syes, 3688,  ˈeːstoːnˌɪjaː,  ˈai s.ˈɑ nˈiɜ jˈiɑ
+guava: gyak, 2614,  ˌʌmɾˈuːd,  fˈan s.i.ɜliouɜ
+airport: cwaf, 2881,  həʋˈaːi ˈʌɖɖaː,  tɕits.hˈɑ˧˥ŋ
+jellyfish: glif, 3619,  ɟˈeːlɪfˌɪʃ,  xˈai˧˥ ts.ˈo-
+uzbekistan: zes, 6168,  ˌʊzbeːkɪstˈaːn,  wˈu tsˈi̪ pˈiɛɜ khˈo- sˈi̪ thˈa˧˥n
+psychiatry: zrit, 3928,  mˈaːnsˌɪk ɾˈoːɡõ ki cɪkˈɪtsaː,  tɕˈiŋ s.ˈəɜn pˈiŋ ɕˈyɛɜ
+vanuatu: nwut, 5004,  wˈaːnʊˌətʊ,  wˈɑɜ nˈu˧˥ ˈɑ thˈuɜ
+steeplechase: tles, 3959,  sʈˌiːpəlcˈeːz,  ts.ˈaŋ ˈai sˈai
+liter: sros, 1124,  lˈiːʈəɾ,  s.ˈəŋ
+basketball: bek, 3813,  bˈaːskeːʈbaːl,  lˈaɜn tɕhˈiouɜ
+imposter: dzit, 3277,  ɖʰˈõɡi,  mˈɑu mˈiɜŋ tˈi˧˥ŋ thˈi
+moldova: mwot, 3744,  mˌoːldˈoːʋaː,  moɜˈər˧˥ tˈuo wˈɑ˧˥
+chromium: crom, 4453,  kɾˈoːmɪjˌəm,  kˈo-
+rodeo: tcem, 2061,  ɾədˈeːu,  tɕhyæntˈi
+duodenum: dzon, 3759,  ɡɾˈʌhəɳˌi,  s.ˈi.ɜ ˈər ts.ˈi.˧˥ ts.hˈɑɜŋ
+sandpaper: syip, 3183,  (en)sˈandpeɪpə(hi),  s.ˈɑ ts.ˈi.˧˥
+hormone: crum, 4306,  hˈaːɾmoːn,  tɕˈi sˈu
+turkmenistan: tyes, 5002,  tˌʊɾkəmˌeːnɪstˈaːn,  thˈu˧˥ khˈu mˈan sˈi̪ thˈa˧˥n
+ulna: kcus, 3078,  kˈʊhənˌi ki hˈʌɖɖi,  ts.hi.ɜkˈu˧˥
+kyrgyzstan: gzas, 5273,  kˌɪɾɡɪzstˈaːn,  tɕˈiɜ ˈər˧˥ tɕˈiɜ sˈi̪ sˈi̪ thˈa˧˥n
+animism: nyom, 3756,  səɾʋˈaːtməʋˌaːd,  wˈɑn wˈu jˈiou˧˥ lˈiɜŋ lˈuən
+eritrea: pret, 3303,  ɪɾˈɪʈɾɪjˌaː,  ˈo- lˈi thˈə lˈi˧˥ jˈiɑ
+ord: drot, 2943,  (en)ˈɔːd(hi),  (en)ˈɔːd(zh)
+piccolo: pof, 3381,  cʰˈoːʈaː pɪjˈaːnoː,  tˈua˧˥n tˈiɜ
+feminist: fwis, 4408,  nˌaːɾiʋˈaːdi,  nˈy˧˥ tɕhˈyæɜn ts.ˈu˧˥ jˈi ts.ˈo-˧˥
+saxophone: ksof, 5995,  sˈɛːksoːpʰˌoːn,  sˈɑ khˈo- kwˈa˧˥n
+tarragon: trom, 3522,  nˌaːɡdˈɔːnaː,  lˈonɡɜ xˈɑu
+euro: dros, 3083,  jˈuːɾoː,  ˈou ˈyæɜn
+persimmon: psem, 3132,  xˈʊɾmˌaː,  s.ˈi. tsi̪˥
+andorra: nwoc, 3286,  ʌɳɖˈoːɾaː,  ˈan tˈɑu ˈər˧˥
+ginseng: jes, 4278,  ɟˌɪnsˈẽːɡ,  tshˈan
+grater: grap, 2462,  kˈʌʃ,  tshˈɑ tshˈai pˈa˧˥n
+tajikistan: djat, 5252,  tˌəɟaːkɪstˈaːn,  thˈɑ˧˥ tɕˈiɜ khˈo- sˈi̪ thˈa˧˥n
+algorithm: grim, 4574,  kˈʌlən wˈɪdʰɪ,  suanfˈɑ˧˥
+anthropomorphism: trof, 4130,  ˌʌʋtˌaːɾʋˈaːd,  nˈi˧˥ ʐˈəɜn lˈuən
+laser: twes, 2382,  lˈeːzəɾ,  tɕˈi kwˈaŋ
+patella: pluk, 3384,  wˈʊʈnˌeː ki cˈʌkːi,  pinkˈu˧˥
+drugstore: duk, 3275,  dˈʌʋaː ki dʊkˈaːn,  jˈɑu tˈiɛn
+millimeter: clem, 4182,  mˌɪlimˈiːʈəɾ,  xɑuɜmˈi˧˥
+sprinkler: srek, 3283,  bˌʊɟʰaːneːʋˈaːlaː,  sɑɜs.wˈei˧˥ ts.hˈo-
+accelerator: kloc, 3082,  tʋˈʌɾək,  tɕˈiɑ sˈu tɕhˈi
+part-time: prem, 3582,  pˈaːɾʈ ʈaːˈiːm,  tɕˈiɛn ts.ˈi.ɜ
+sensitivity: zet, 3241,  sˌənʋeːdˌənʃˈiːltˌaː,  liɜŋmˈi˧˥n tˈu
+skyscraper: kcet, 3696,  ɡˌəɡəncˈũbi ɪmˈaːɾət,  mˈoɜ thˈiɛn tˈɑ lˈouɜ
+demonstrator: dret, 4527,  pɾədˈʌɾʃək,  s.ˈi. wˈei ts.ˈo-˧˥
+helium: cyim, 4659,  hˈiːlɪjˌəm,  xˈai
+bilingual: dlis, 3386,  dʋɪbʰˈaːʂɪk,  s.wɑŋʲˈy˧˥
+gerund: ges, 3729,  kɾˌɪjaʊˈaːcək sˈʌɲɡjaː,  tˈonɡ mˈiɜŋ tshˈi̪ɜ
+plasma: psom, 3797,  plˈaːɟmaː,  tˈə˧˥ŋ liɜtsˈi̪ɜ thˈi˧˥
+chromosome: ksom, 5513,  kɾˌoːmoːsˈaːm,  ʐˈa˧˥n sˈo- thˈi˧˥
+okra: brok, 2674,  bʰˈĩɖi,  tɕhˈiou khˈueiɜ
+haberdashery: brap, 3594,  bɪsˈaːti ki dʊkˈaːn,  fˈuɜ s.ˈi. yuŋphˈi˧˥n
+kilometre: klom, 5509,  kˌɪloːmˈiːʈəɾ,  konɡlˈi˧˥
+fax: fok, 3286,  pʰˈɛːks,  ts.hˈuaɜn ts.ˈən
+freckle: pcek, 2841,  ɟʰˈaːi,  tɕhˈyɛ pˈan
+broccoli: bwik, 4754,  bɾˈoːklˌi,  ɕˈi lˈaɜn xwˈɑ
+shampoo: cwup, 4346,  ʃˈɛːmpuː,  ɕˈi˧˥ thˈouɜ
+tourmaline: tlus, 4565,  ʈˌuːmlˈaːɪn,  tˈiɛn tɕhˈi s.ˈi.ɜ
+preterite: bret, 4100,  bʰˈuːtkˈaːl,  kuotɕhy˥ s.ˈi.
+cumin: jim, 3188,  ɟˈiːɾaː,  ɕjˈɑu˧˥ xˈueiɜ ɕˈiɑŋ
+toaster: tsop, 3499,  ʈoːˈʌsʈəɾ,  khˈɑu˧˥ mˈiɛn pˈɑu tɕˈi
+vitamin: bram, 4016,  wɪʈˈaːmɪn,  wˈeiɜ thˈɑ mˈiŋ
+swordfish: srec, 3232,  sʋˈoːɾɖəfˌɪʃ,  tɕhˈiɜ ʲˈyɜ
+cadmium: kyem, 4126,  kˈɛːɖmˌɪjəm,  kˈo-ɜ
+bomber: broc, 4156,  bˌəməʋˈʌɾʂək,  xˈonɡ ts.ˈɑ tɕˈi
+marshmallow: mwaf, 3953,  (en)mˈɑːʃmɐlˌəʊ(hi),  miɛɜnxwɑɜ thˈaɜŋ
+hexagon: ksoc, 3415,  ʂˈʌʈbʰʊɟ,  lˈiou pˈiɛn ɕˈiɜŋ
+titanium: tyem, 3501,  ʈˌaːɪʈˈeːnɪjˌəm,  thˈai
+splurge: clec, 3848,  ʃˈeːxi,  xˈuei xˈuo
+catamaran: kres, 2957,  kˌəʈəmɾˈɛːn,  s.wˈɑŋ thˈi˧˥ ts.hˈuaɜn
+seagull: gok, 3033,  ɡˈʌŋɡaːcˈɪlli,  xˈai˧˥ ˈou
+copulate: kluk, 3438,  mˈɛːtʰʊn kˈʌɾnˌaː,  kˈou
+hourglass: zlas, 3717,  (en)ˈaʊəɡlas(hi),  tˈi lˈou
+halloween: cwen, 4515,  hˌɛːloːʋˈiːn,  wˈɑn s.ˈəŋ tɕˈiɛɜ
+boron: bron, 5147,  boːɾˈaːn,  phˈəɜŋ
+homeopathy: cof, 4129,  sˌəmaːcɪkˈɪtsaː,  thˈonɡɜ ts.ˈonɡ˧˥ ljɑuɜfˈɑ˧˥
+epiglottis: plok, 3563,  kəɳʈʰˈʌccʰəd,  xˈouɜ thˈouɜ kˈai
+helicopter: cwet, 4680,  hˌeːlikˈaːpʈəɾ,  ts.ˈi.ɜ s.ˈəŋ tɕˈi
+tellurium: trum, 5242,  ʈˈeːljuːɾˌɪjəm,  tˈi
+centimetre: syem, 5012,  sˌẽːʈimˈiːʈəɾ,  liɜmˈi˧˥
+molybdenum: mwem, 4390,  mˌoːlɪbɖˈeːnəm,  mˈu
+lithium: tfim, 4224,  lˈɪtʰɪjˌəm,  lˈi˧˥
+multimedia: mup, 3787,  mˌəlʈimˈiːɖɪjˌaː,  tˈuo meiɜthˈi˧˥
+calorie: kles, 4281,  kɛːlˈoːɾi,  khˈɑ˧˥ lˈu lˈi˧˥
+robot: cwot, 3162,  ɾoːbˈoːʈ,  tɕˈi tɕhˈi ʐˈəɜn
+homework: cwoc, 3042,  ɡʰˈʌɾ kaː pˈaːʈʰ,  kˈonɡ khˈo-
+prostate: pses, 4291,  pɾˈoːsʈeːʈ,  tɕhˈiɛɜn lˈiɛ ɕˈiɛn
+metatarsal: pres, 3281,  pɾˌəpdɪkˈiːj,  ts.ˈi.ɜ kˈu˧˥
+gnomic: gyik, 3943,  sˈuːktɪ kaː,  kˈo-ɜ jˈiɛɜn
+logarithm: gram, 5749,  lˌoːɡaːɾˈɪtmə,  tˈuei s.ˈu
+mantis: glas, 2932,  ˈeːk pɾəkˈaːɾ kaː kˈiːr.aː,  lˈaɜŋ
+amplifier: plip, 4200,  ˈeːmpəlˌiːpʰaːjˌəɾ,  khˈuo jˈin tɕhˈi
+amino: yoc, 2419,  ʌmˈiːnoː,  ˈan tɕˈi
+brioche: bruc, 4402,  (en)bɹiːˈəʊʃ(hi),  ɕˈiɛɜ tˈiɛn
+hummingbird: clif, 2512,  cˈɪr.ɪjˌõ,  fəŋnjˈɑu˧˥
+ecology: klec, 3626,  pəɾˈɪstʰɪtˌɪki,  s.ˈəŋ thˈai
+shallot: clop, 3855,  cʰˈoːʈeː pːjˈaːz,  tshˈonɡ
+marijuana: bwam, 2740,  mˌaːɾɪɟʊˈaːnaː,  tˈɑ mˈɑɜ
+kilogram: kwom, 4636,  kɪlˈoːɡɾaːm,  kˈonɡ tɕˈin
+overeat: tof, 3635,  pˈeːʈ bʰˈʌɾ kʰˈaː ɟˈaːnaː,  ts.hˈi. tə˧˥ kˈuo tˈuo
+outfield: djac, 3376,  dˈuːɾ kaː kʃˈeːtɾə,  waits.hˈɑ˧˥ŋ
+cello: tlec, 4442,  wˌaːjəlˌəncˈeːloː,  tˈɑ thˈiɜ tɕhˈiɜn
+handsaw: cyoc, 2577,  hˈaːtʰ ˈaːɾi,  s.ˈou˧˥ tɕˈy
+protasis: pcos, 4783,  nˈaːʈək kaː pˈʌhəlˌaː bʰˈaːɡ,  thjˈɑuɜ tɕˈiɛn tshˈonɡɜ tɕˈy
+pizza: bzas, 3558,  pˈɪzzaː,  pˈi˧˥ sˈɑ
+eavesdrop: cres, 3736,  cʰˈɪpəkˌəɾ bˈaːtẽː sˈʊnnˌaː,  tɕhˈiɛ thˈiŋ
+metonymy: tlom, 3800,  ˌʌlŋkˈaːɾ ɟˈɪs mẽː kˈɪsi pədˈaːɾtʰ keː lˈɪjeː ˈʊn kaː nˈaːm kˈʌhaː ɟˈaːtaː hɛː,  xˈuan ʲˈy
+haircut: blak, 2836,  bˈaːl kˈaːʈnˌaː,  li˧˥fˈɑ
+pipette: pwip, 3665,  wˈĩdʊk,  ɕikwˈa˧˥n
+cerium: srem, 4881,  sˈɛːɾɪjˌəm,  s.ˈi.
+trapezium: twem, 3262,  sˌəməlˈʌmb,  thˈi ɕˈiɜŋ
+stratosphere: tsof, 4865,  sˌəmtˈaːp mˈʌɳɖəl,  phˈiɜŋ lˈiouɜ tshˈəɜŋ
+parameter: pcet, 3928,  pˌɛːɾaːmˈiːʈəɾ,  tshˈan s.ˈu
+finial: floc, 2981,  kˈʌləʃ,  tˈi˧˥ŋ tɕˈiɛn
+orangeade: jras, 2552,  aːɾˈʌɲɟ,  tɕˈyɜ tsi̪ɜ
+ureter: prun, 3470,  mˈuːtɾəʋˌaːhɪnˌi,  s.ˈu njˈɑu kwˈa˧˥n
+one-way: pwaf, 2549,  ˈeːk mˈaːɾɡ,  jˈi panfˈɑ˧˥
+psychotherapy: kfip, 4137,  mˌənoːcɪkˈɪtsaː,  ɕinlˈi˧˥ ts.ˈi. ljˈɑuɜ
+clipboard: kcop, 3200,  klˌɪpbˈoːɾɖ,  tɕˈiɛ˧˥n thˈiɛ pˈa˧˥n
+onomatopoeia: nup, 4010,  ʌɾtʰˈaːnʊɾˌəɳən,  ɕˈiɑŋ s.ˈəŋ tshˈi̪ɜ
+aquamarine: jwin, 4096,  ˌʌkʋaːmɾˈiːn,  lˈaɜn tɕˈiŋ
+conifer: nwif, 4324,  ʃˈʌŋkʊdʰˌəɾ wɾˈɪkʃ,  ts.ˈən jˈiɛ s.ˈu
+neon: nyok, 3348,  nˈiːjən,  nˈai˧˥
+odometer: dlot, 3886,  ˌoːɖoːmˈiːʈəɾ,  lˈi˧˥ ts.hˈəɜŋ pjˈɑu˧˥
+dragonfly: dlap, 2868,  ʋjˈaːdʰəpətˈʌŋɡ,  tɕhˈiŋ thˈiɜŋ
+osmium: zom, 4598,  ˈaːzmˌɪjəm,  ˈo-ɜ
+synecdoche: nyek, 4664,  ˌʊpəlˈʌkʃjə ˌʌlŋkˈaːɾ ɟˈɪs mẽː ˈʌnʃ keː lˈɪjeː pˈuːɾɳə ˈʌtʰʋˌaː pˈuːɾɳə keː lˈɪjeː ˈʌnʃ kaː pɾˈə,  thˈiɜ ʲˈy
+inchoative: bzat, 3340,  ˌɪbtɪdˈaːi,  fˈɑ tˈuan tə˧˥
+radiology: dloc, 4967,  ɾˌeːɖɪjoːlˈoːɟi,  fˈaŋ s.ˈo- khˈo-
+ring-finger: glis, 2915,  ʌŋɡˈuːʈʰi ˈʊŋɡəlˌi,  xˈuaɜn s.ouɜts.ˈi.˧˥
+thermostat: twet, 4793,  tʰəɾmˈoːsʈeːʈ,  xˈəɜŋ wˈuən tɕhˈi
+ashtray: kcek, 2765,  ɾˌaːkʰdˈaːni,  jˈiɛn xˈuei kˈaŋ
+triceps: tsep, 5038,  ʈɾˌaːɪsˈeːps,  kˈonɡ sˈan thˈouɜ tɕˈi
+osteopathy: swip, 4298,  (en)ˌɒstɪˈɒpəθɪ(hi),  kˈu˧˥ pˈiŋ
+clockwise: swot, 3141,  dˌəkʃɪɳˈaʊɾt,  s.wˈo-n s.ˈi.ɜ ts.ˈən
+papaya: mwap, 2698,  pəpˈiːtaː,  mˈu kwˈɑ
+protractor: jyat, 3114,  cˈãdaː,  lˌiɑɜŋtɕjɑu˧˥tɕhˈi
+wicket-keeper: twip, 3642,  wɪkˈeːʈ ɾˈʌkʰnˌeː wˈaːleː,  pˈiɛn mˈəɜn kwaɜnlˈi˧˥ ʐˈəɜn
+surfing: suf, 4399,  səɾfˈĩɡ,  ts.hˈonɡ lˈaŋ
+artifact: tfek, 3892,  wɪɾˈuːpəɳ sˈaːkʃjə,  s.ˈəɜn tɕhˈi
+reactor: yek, 3497,  ɾɪˈeːkʈəɾ,  fa˧˥njˈiŋ tˈuei
+oregano: zot, 3606,  ˌʌɟʋˈaːjən ki pˈʌtːi,  nˈiouɜ ts.ˈi.
+plutonium: lup, 4743,  pluːʈˈoːnɪjˌəm,  pˈu
+pediatrics: drek, 4623,  bˈʌccõ ki dˈʌʋaː kˈʌɾnˌeː ki wˈɪdjaː,  ˈərɜ khˈo-
+plywood: dwap, 3397,  plaːˈiːʋʊɖ,  xˈo-ɜ pˈa˧˥n
+yttrium: zrim, 4617,  (en)ˈɪtɹiəm(hi),  jˈi˧˥
+condom: kwum, 3047,  kəɳɖˈoːm,  pˈi ʲˈyən thˈɑu
+augmentative: gret, 3878,  wɾˈɪddʰɪ kˌəɾneːʋˈaːlaː,  tɕhˈiɑɜŋ xwˈɑ tə˥
+bidet: bep, 3969,  (en)bˈiːdeɪ(hi),  ʲˈy phˈəɜn
+piglet: crut, 3140,  ɡʰˈẽːʈaː,  ɕjˈɑu˧˥ ts.ˈu
+postgraduate: srok, 3156,  snˌaːtkˈoːtːəɾ,  jˈiɛɜn tɕˈiou s.ˈəŋ
+wok: dwak, 2950,  kəɖˈaːi,  ts.hˈɑu˧˥ kˈuo
+right-wing: dwik, 3231,  dˈãjaː wˈĩɡ,  jˈiou jˈi
+argon: jrun, 2999,  ˈaːɾɡən,  jˈiɑ
+lipstick: psok, 3759,  lɪpˈʌsʈɪk,  khˈou˧˥ xˈonɡɜ
+quadriceps: drip, 5780,  (en)kwˈɒdɹaɪsəps(hi),  kˈu˧˥ sˈi̪ thˈouɜ tɕˈi
+dishwasher: bwac, 4404,  bˈʌɾtən sˈaːf kˈʌɾnˌeː wˈaːlaː,  ɕiɜwˈɑ˧˥n tɕˈi
+globalization: bluc, 4186,  bʰˌuːməɳɖəlˈiːkəɾˌəɳ,  tɕhˈyæɜn tɕhˈiouɜ xwˈɑ
+wavelength: jlen, 3510,  təɾˈʌŋɡ dˈɛːɾdʰjə,  pˈo ts.hˈɑɜŋ
+intercom: tcom, 4485,  ˈĩʈəɾkɔm,  tˈuei tɕˈiɑ˧˥ŋ
+termite: drim, 3623,  dˈiːmək,  paiɜjˈi˧˥
+blinker: byik, 3296,  blˈĩkəɾ,  ɕˈin xˈɑu tˈəŋ
+hepatitis: pyes, 4418,  hˌɛːpeːʈˈaːɪʈˌɪs,  kˈan jˈiɛɜn
+bosnia-herzegovina: byon, 5600,  bˈoːsnɪjˌaː hˌəɾɟeːɡˈoːʋɪnˌaː,  pˈo sˈi̪ nˈiɜ jˈiɑ xˌeiso-kˌo-weiɜnˈɑ
+proton: twot, 4006,  pɾˈoːʈɔn,  ts.i.tsˈi̪˧˥
+contraception: trop, 3475,  ɡˌəɾbʰənɪɾˈoːdʰək,  pˈi ʲˈyən
+milligram: glam, 4761,  mɪlˈiːɡɾaːm,  xˈɑuɜ khˈo-
+playpen: plep, 3756,  (en)plˈeɪpən(hi),  wˈeiɜ lˈaɜn
+tantalum: twut, 3422,  ʈˈɛ̃ʈəlˌəm,  thˈa˧˥n
+anacoluthon: klof, 5155,  (en)ˈanɐkˌɒlʌθən(hi),  (en)ˈanɐkˌɒlʌθən(zh)
+croissant: kwos, 4007,  kɾˌoːɪsˈɛːn,  ɕˈin ˈyɛ ɕˈiɜŋ mˈiɛn pˈɑu
+koala: kfaf, 3635,  kˈoːəlˌaː,  khˈɑu˧˥ lˈɑ
+wheelchair: clek, 3717,  ʋhˌiːlcˈeːjəɾ,  luəɜnjˈi˧˥
+bollard: blap, 4395,  (en)bˈɒlɑːd(hi),  ɕˈi lˈa˧˥n ts.ˈu
+genocide: nyoc, 3144,  nˌəɾəsnhˈaːɾ,  ts.ˈonɡ˧˥ tsˈuɜ mˈiɛ tɕˈyɛɜ
+tequila: tsek, 2982,  ʈəkˈiːlaː,  lˈonɡɜ s.ˈo-ɜ lˈaɜn tɕˈiou˧˥
+blender: bwec, 2641,  blˈẽːɖəɾ,  xwˈuən xˈo-ɜ tɕhˈi
+hamster: cyos, 3567,  hˈʌmsəʈˌəɾ,  tshaŋs.ˈu˧˥
+linesman: jyan, 3256,  ʋjˌəʋhˈaːɾ kˌəɾneːʋˈaːlaː,  pˈiɛn tshˈaiɜ
+ophthalmology: flim, 3764,  nˈeːtɾə wɪɡjˈaːn,  jˈiɛ˧˥n khˈo-
+salami: zlim, 5470,  səlˈaːmi,  sˈɑ lˈɑ mˈi˧˥
+tin-opener: tef, 3610,  ʈˈɪn səlˈaːmi bˌəlleːbˈaːɟ,  ɕˈi tɕˈiɛ mˈu ts.ˈan
+gallium: glim, 5503,  ɡˈɛːlɪjˌəm,  tɕˈiɑ
+zirconium: zum, 4904,  (en)zɜːkˈəʊniəm(hi),  kˈɑu
+nonlinear: jlon, 3710,  (en)nˌɒnlˈɪniə(hi),  fˈei ɕˈiɛn ɕˈiŋ
+parmesan: psen, 4497,  pˌəɾmˈeːzən,  pɑ˥ mˈɑ˧˥
+pesticide: pfis, 3030,  kˌiːʈnˈaːʃək,  nˈonɡɜ jˈɑu
+beryllium: brem, 3916,  pʰiɾˈoːzaː,  phˈiɜ
+neuron: byun, 3279,  njˈuːɾɔn,  s.ˈəɜn tɕˈiŋ ˈyæɜn
+router: jot, 3123,  ɾˈuːʈəɾ,  lˈu jˈiouɜ tɕhˈi
+brunet: bzon, 2877,  ʃjˈaːmlˌaː,  s.ˈən sˈo-
+volleyball: ploc, 3404,  wˌaːlibˈaːl,  phˈaiɜ tɕhˈiouɜ
+contrabass: krus, 3735,  ɖˈʌbəlˌəbəs,  tsˈuei tˈi jˈin
+myanmar: byim, 2327,  mjãmˈaːɾ,  mˈiɛ˧˥n tˈiɛn
+flip-flop: fop, 3953,  pʰlˈɪp pʰlˈɔp,  fˈan tˈonɡ phˈai tɕˈi s.ˈəŋ
+neutron: nwot, 4536,  njˈuːʈɾɔn,  ts.onɡtsˈi̪˧˥
+deodorant: drut, 4713,  ɖˌɪoːɖoːɾˈẽːʈ,  ts.hˈuɜ ts.hˈou tɕˈi
+niobium: nwom, 4531,  nˌaːɪˈoːbɪjˌəm,  nˈiɜ
+paronomasia: dwam, 3399,  ʃˌəbdaːlŋkˈaːɾ,  s.wˈɑŋ kwˈan ʲˈy˧˥
+premolar: proc, 3672,  ˌʌɡɾədˈaːr.h,  tɕhˈiɛɜn tɕiouts.hˈi.˧˥
+antiphrasis: tfif, 5102,  (en)ˌantɪfɹˈasiz(hi),  faɜnʲˈyɜ fˈɑ˧˥
+germanium: jem, 4088,  ɟəɾmˈeːnɪjˌəm,  ts.ˈo-˧˥
+hacksaw: djak, 3125,  (en)hˈaksɔː(hi),  kˈaŋ tɕˈy
+metalloid: tlop, 4163,  dʰˈaːtʊ keː ɾˈuːpəɾˈʌŋɡ kaː ˈeːk ʌdʰˈaːtʊ pədˈaːɾtʰ,  fˈei tɕins.ˈu˧˥
+put-on: drap, 2886,  ɖˈaːl pˈʌɾ,  faŋs.a˥ŋ
+biodiversity: gwic, 4330,  ɟˈɛːw wˈɪʋɪdʰtaː,  s.ˈəŋ wˈu tˈuo jˈiɑŋ ɕˈiŋ
+guitarist: gris, 5686,  ɡˌɪʈaːɾʋˈaːdək,  tɕiɜthɑɜ s.ˈou˧˥
+joystick: jyok, 4264,  ɟˈoːsʈɪk,  tshˈɑu tsˈonɡ kˈan
+antibiotic: tyok, 4920,  ˌẽːʈibaːjˈoːʈɪk dəʋˈaːw,  khˈɑŋ s.ˈəŋ sˈu
+backstroke: gwak, 3059,  ɟəʋˈaːbi cˈoːʈ,  jiɑɜŋˈyu˧˥ŋ
+brie: brif, 4558,  bɾˈi,  pˈu lˈi˧˥ kˈan lˈɑu
+luge: fuc, 3126,  lˈʊɡ,  wˈuɜ tˈuo ɕˈyɛ˧˥ tɕhjˈɑu
+actinium: kfim, 3438,  ɟˈʌŋɡi,  ˈɑ
+couscous: kfus, 5396,  (en)kˈuːskuːs(hi),  khˈu sˈi̪ khˈu sˈi̪
+martini: mwet, 4199,  mˈaːɾʈinˌi,  mˈɑ˧˥ tˈi nˈiɜ tɕˈi wˈeiɜ tɕˈiou˧˥
+sauna: zwan, 3589,  sˈɔnaː,  sˈaŋ nˈɑɜ
+anastrophe: nyof, 4357,  (en)anˈastɹəfɪ(hi),  (en)anˈastɹəfɪ(zh)
+litchi: fric, 2942,  lˈiːci,  lˈi ts.ˈi.
+marathon: fraf, 4058,  mɛːɾˈaːtʰən,  mˈɑ˧˥ lˈɑ sˈonɡ
+mozzarella: zras, 4151,  mˈoːtzaːɾˌeːlaː,  nˈai˧˥ lˈɑu
+third-person: dres, 6362,  (en)θˈɜːd pˈɜːsən(hi),  (en)θˈɜːd(zh) phərsˈon
+karate: grut, 3492,  kəɾˈaːʈeː,  khonɡs.ˈou˧˥ tˈɑu
+philately: flam, 3494,  ʈˈɪkəʈ ɪkˈʌʈʰːaː kˈʌɾnˌeː kaː kˈaːm,  tɕˈiɜ jˈiouɜ
+ytterbium: zyim, 3722,  (en)ˈɪtəbˌiəm(hi),  jˈi
+autism: tsum, 3551,  ˌaːtməkˈẽːdɾɪt,  tsˈi̪ pˈi ts.ˈəŋ
+chiasmus: ksem, 4518,  kˈeːɪsˌəməs,  tɕjˈɑu tshˈuo phˈei lˈiɛ
+freesia: fwic, 3756,  (en)fɹˈiːziə(hi),  ˈyæn wˈei˧˥ khˈo-
+ionize: yof, 2979,  jˈoːɳ bənˈaːnaː,  tˈiɛn lˈiɜ
+ladybug: prec, 3204,  ˈeːk pɾəkˈaːɾ kaː ɡˌʊbɾˈɛːlaː,  phjˈɑuɜ ts.hˈonɡɜ
+mascara: tsuk, 3170,  kˈaːɟəl,  tɕˈiɛɜ mˈɑuɜ kˈɑu
+radon: dwen, 2082,  ɾaːɖˈoːɳ,  tˈonɡ
+americium: myif, 4202,  ɾˌeːɖɪjoːˈɛːkʈɪw,  mˈi˧˥
+tempera: tcep, 4748,  ʈˈeːmpeːɾˌeː,  tshˈai˧˥ xwˈɑ
+as-much-as: gom, 3431,  ɟˈɛːsaː bˈʌhʊt ɟˈɛːsaː,  ʐˈuɜ ɕˈy˧˥ tˈuo ʐˈuɜ
+neptunium: nyem, 4665,  nˈɛːpʈʊnˌɪjəm,  nˈɑɜ
+lens-cover: jek, 3234,  lˈẽːs ˈaːʋəɾˌəɳ,  thˈou tɕˈiŋ kˈai
+lemon-sole: mwek, 4131,  nˈĩbuː ˌeːkmˈaːtɾə,  nˈiɜŋ mˈəɜŋ wˈeiɜ jˈi
+circumfix: kfef, 6085,  (en)sˈɜːkəmfˌɪks(hi),  (en)sˈɜːkəmfˌɪks(zh)
+newsagent: zret, 3893,  (en)njˈuːzeɪdʒənt(hi),  pˈɑu khˈan thˈiɜŋ
+vacant-lot: byot, 3502,  ɾˈɪkt bˈʌhʊt kˈʊcʰ,  khˈonɡ tə˧˥ xˈə˧˥n tˈuo
+lemon-curd: mwuc, 3454,  nˈĩbuː dˈʌhi,  nˈiɜŋ mˈəɜŋ nˈiɜŋ ʐˈu˧˥
+gas-pump: gop, 5419,  ɡˈɛːs pˈʌmp,  tɕhithˈi˧˥ pˈəŋ
+cd-player: def, 4228,  sˈiːɖi kʰɪlˈaːr.i,  kwˈaŋ phˈaɜn pˈo fˈaŋ tɕˈi
+netium: nyum, 4219,  (en)nˈiəɹɪəm(hi),  tɕˈiɑ ts.ˈuɜ thˈɑuɜ
+carryall: fram, 3587,  bˈoːɾaː,  (en)kˈaɹɪˌɔːl(zh)
+lawn-mower: clom, 3798,  lˈɔn ɡʰˈaːs kˈaːʈnˌeː ki məʃˈiːn,  tshˈɑu˧˥ phˈiɜŋ ko-tshˈɑu˧˥ tɕˈi
+east-timor: twom, 4851,  pˈuːɾwə tɪmˈoːɾ,  tˈonɡ tˈi
+launch-pad: fep, 3590,  pɾəkʃˈeːpəɳ pˈɛːɖ,  fˈɑ s.ˈo- tˈiɛn
+depend-on: pcip, 3166,  nˈɪɾbʰəɾ pˈʌɾ,  jˈi khˈɑu s.ˈaŋ
+too-little: tyuc, 3251,  bˈʌhʊt tʰˈoːr.aː,  thˈai ɕjˈɑu˧˥
+samsara: swus, 3270,  sənsˈaːɾ,  lˈuəɜn xˈueiɜ
+neodymium: nwum, 4339,  (en)nˌiːəʊdˈɪmiəm(hi),  nˈy˧˥
+verbalizer: blet, 5383,  (en)vˈɜːbəlˌaɪzə(hi),  mjˈɑuɜ s.ˈu tɕhˈi
+chess-set: tfet, 4802,  ʃˌətəɾˈʌɲɟ sˈeːʈ,  tɕhˈiɜ tsˈu˧˥
+price-list: flis, 4093,  mˈuːljə sˈuːci,  tɕˈiɑ kˈo-ɜ mˈiɜŋ tˈan
+air-filter: kfet, 3485,  wˈaːjʊ pʰˈɪlʈəɾ,  khˈonɡ tɕhˈi kˈuo lˈy
+pancreas: nyec, 3877,  ʌɡnjˈaːʃˌɛj,  jˈiɜ ɕˈiɛn
+mouthwash: cwuc, 3629,  mˈaːʊtʰʋɔʃ,  s.ˈu khouɜs.wˈei˧˥
+cardamon: kyom, 3392,  ɪlˈaːjcˌi,  tˈou khˈou kˈuo˧˥ s.ˈi.ɜ
+that-of: dlaf, 3290,  (en)wˈɒtəl ɒv(hi),  (en)ðˈat ɒv(zh)
+verb-affix: kef, 4145,  kɾˈɪjaː pɾˈʌtːjəˌɛj,  tˈonɡ tshˈi̪ɜ xouts.ˈuei
+seahorse: clos, 2861,  (en)sˈiːhɔːs(hi),  xaiɜmˈɑ˧˥
+steel-wool: tlum, 3966,  sʈˈiːl ˈun,  kˈaŋ jˈiɑɜŋ mˈɑuɜ
+hypnothize: pfim, 3471,  səmmˈoːhɪt,  tshˈuei mˈiɛɜn
+timpani: mwip, 3825,  ʈˈĩpnˌoː,  tˈiŋ jˈin kˈu˧˥
+almond-oil: djam, 3527,  baːdˈaːm tˈeːl,  ɕˈiŋ ʐˈəɜn jˈiouɜ
+human-body: nwuc, 3338,  mˈaːnəw ʃəɾˈiːɾ,  ʐəɜnthˈi˧˥ ˈyuŋ
+houseplant: clus, 3285,  ɡʰəɾˈeːlʊ pɔːdʰˈaːaː,  s.ˈi. nˈei ts.ˈi.ɜ wˈu
+headrest: cwes, 3859,  (en)hˈɛdɹɛst(hi),  thˈouɜ khˈɑu
+europium: srop, 4343,  jʊɾˈoːpɪjˌəm,  jˈiou˧˥
+roll-out: gloc, 3620,  ɾˈoːl bˈaːhəɾ,  kˈuə˧˥n ts.hˈu
+angiosperm: psep, 5097,  (en)ˈaŋɡɪˌɒspɜːm(hi),  pˌeitsi̪˧˥ts.i.ɜwˈu
+rural-area: glak, 3523,  ɡɾaːmˈiːɳ kʃˈeːtɾə,  ɕˈiɑŋ tshˈuən tɕhˈy
+zoom-lens: zlun, 4917,  zˈuːm lˈẽːs,  fˈaŋ tˈɑ thˈou tɕˈiŋ
+sea-lion: zris, 2892,  səmˈʊdɾə ʃˈeːɾ,  xˈai˧˥ s.ˈi. tsi̪˧˥
+mirative: jrit, 5357,  (en)mˈɜːɹətˌɪv(hi),  mˌiʐɑthivˈo-
+sea-bass: byas, 3257,  səmˈʊdɾə bˈaːs,  xˈai˧˥ tˈi jˈin
+star-anise: tcos, 3943,  tˈaːɾaː mˈoːʈi sˈɔ̃f,  mˈiɜŋ ɕˈiŋ pɑtɕjˈɑu˧˥
+jelly-bean: jles, 3752,  ɟˈeːli sˈeːm,  kˈuo˧˥ tˈonɡ tˈou
+wild-rice: jlis, 3289,  ɟˈʌŋɡəlˌi cˈaʊl,  jˈiɛ˧˥ s.əŋmˈi˧˥
+feijoa: fef, 4940,  (en)feɪdʒˈəʊə(hi),  fˈei ˈyɛ kˈuo˧˥
+sculptor: glut, 3587,  sˌəŋɡətɾˈaːʃ,  tjˈɑu sˈu tɕˈiɑ
+police-car: psoc, 4563,  pˈʊlɪs ɡˈaːr.i,  tɕˈi˧˥ŋ ts.hˈɑɜ tɕhˈi ts.hˈo-
+be-born: jyon, 2876,  hˈoːnaː ɟˈʌnm,  s.ˈi. thˈiɛn s.ˈəŋ
+polar-bear: pruc, 3759,  dʰɾʊʋˈiːj bʰˈaːluː,  tɕˈiɜ ɕˈiŋ ɕˈyɜŋ
+ionosphere: nyes, 4104,  jˈoːɳ kʃˈeːtɾə,  tˈiɛn lˈiɜ tshˈəɜŋ
+founds: fwun, 3433,  (en)fˈaʊndz(hi),  ts.hwˈɑŋ lˈi
+fire-alarm: jlam, 4219,  ˈaːɡ ʌlˈaːɾm,  xˈuo˧˥ pɑutɕˈi˧˥ŋ
+venitive: byet, 3242,  (en)vˈɛnɪtˌɪv(hi),  vˌənithivˈo-
+fire-truck: grok, 3838,  ˈaːɡ ʈɾˈʌk,  xˈuoɜ khˈɑ˧˥ ts.hˈo-
+goalkeeper: glip, 4082,  ɡˌoːlkˈiːpəɾ,  s.ˈou˧˥ mˈəɜn ˈyæɜn
+inner-tube: dwut, 3118,  ˈãtɾˌɪk ʈːjˈuːb,  nˈei kwˈa˧˥n
+in-subcase: slek, 4782,  mẽː (en)sˈʌbkeɪs(hi),  tsˈai tsi̪˥ tɕhˈiɜŋ khwˈaŋ
+fish-scale: psek, 3949,  mˈʌcʰlˌi skˈeːl,  ʲˈyɜ kˈuei mˈoɜ
+fish-slice: clip, 3069,  mˈʌcʰlˌi ʈˈʊkr.ˌaː,  ʲˈyɜ phˈiɛn
+due-to: dyok, 3552,  dˈeːj koː,  jiŋjˈiou˧˥ ts.ˈi.
+samarium: srom, 4749,  səmˈɛːɾɪjˌəm,  s.ˈan
+antibody: tfip, 3433,  ẽːʈˈiːbɔɖˌi,  khɑŋthˈi˧˥
+plumb-line: plun, 4068,  sˈaːhʊl lˈaːɪn,  ts.hˈueiɜ ts.ˈi.ɜ ɕˈiɛn
+floor-plan: zlap, 3772,  mˈʌɲzɪl jˈoːɟnˌaː,  tipˈa˧˥n tɕˈi xwˈɑ
+hortative: cyot, 3505,  ˌʊpdˈeːʃ dˌeːneːʋˈaːlaː,  ts.ˈonɡ kˈɑu tə˥
+courgette: kwek, 3574,  (en)kɜːdʒˈɛt(hi),  ɕjˈɑu˧˥ xˈuɜ kwˈɑ
+DVD: dwif, 4682,  ɖiʋˈiːɖi,  tˌivˌeitˈi
+paralyzed: jlic, 3024,  stˈʌmbʰɪt,  thˈan
+basalt: bzam, 3799,  baːɟˈaːlət,  ɕyæɜnwˈu˧˥ jˈiɛɜn
+ice-hockey: pcoc, 4419,  bˈʌɾpʰ hˈɔki,  pˈiŋ tɕhˈy kˈuən tɕhˈiouɜ
+poet: jwit, 2565,  kˈʌʋɪ,  s.ˈi. ʐˈəɜn
+egg-cup: dop, 3523,  ˈʌɳɖaː kˈʌp,  tˈan pˈei
+formalwear: fros, 3548,  nˌɪjmˌaːnʊsˈaːɾ pˈʌhənneː wˈaːleː wˈʌstɾə,  ts.ˈəŋ ts.wˈɑŋ
+sports-car: pros, 3825,  kʰˈeːl ɡˈaːr.i,  thˈi˧˥ ʲˈy tɕhˈi ts.hˈo-
+ugli-fruit: guf, 4469,  (en)ˈʌɡli(hi) pʰˈʌl,  (en)ˈʌɡli(zh) s.weiɜkˈuo˧˥
+luffa: tfof, 2478,  tˈoːɾˌi,  sˈi̪ kwˈɑ
+spark-plug: frap, 3454,  cĩɡˈaːɾi plˈʌɡ,  xˈuo˧˥ xwˈɑ ts.hˈɑ thˈouɜ
+ideophone: dof, 5972,  (en)ˈɪdɪˌɒfəʊn(hi),  (en)ˈɪdɪˌɒfəʊn(zh)
+human-face: nwec, 3832,  mˈaːnəw cˈeːhəɾˌaː,  ʐˈəɜn təɜ mˈiɛn tˈuei
+baby-buggy: blot, 3744,  bˈʌccaː cʰˈoːʈi ɡˈaːr.i,  pɑuɜpˈɑu˧˥ yɛjˈiɛ˧˥ ts.hˈo-
+long-jump: bjat, 3597,  lˈʌmbaː cʰəlˈãɡ,  ts.hˈɑɜŋ thjˈɑu
+hovercraft: crof, 4455,  hˌʊʋəɾəkɾˈʌfʈ,  tɕhˈi tˈiɛn ts.hˈuaɜn
+cubbyhole: kyoc, 4168,  (en)kˈʌbɪhˌəʊl(hi),  tɕˈiɛn tˈou s.ˈi.
+front-door: fwet, 2874,  sˈaːmnˌeː dʋˈaːɾ,  mˈiɛn tɕhˈiɛɜn mˈəɜn
+horse-race: gros, 3799,  ɡʰˈoːr.aː dˈɔːr.,  mˈɑɜ ts.ˈonɡ˧˥ tsˈuɜ
+frying-pan: zaf, 3435,  pʰɾaːˈĩɡ kər.ˈaːhi,  jiouɜts.ˈɑɜ fˈan
+fuel-gauge: dlip, 3218,  ˈiːndʰən nˈaːp,  ʐˈaɜn ljˈɑu tsho-lˈiɑɜŋ
+swimsuit: slus, 3615,  sʋɪmˈĩɡ sˈuːʈ,  ˈyu˧˥ŋ ts.wˈɑŋ
+mimetic: kfen, 3618,  ˈʌnʊkˌəɾəɳ kˌəɾneːʋˈaːlaː,  moɜfˈa˧˥ŋ tə˥˩
+gable-wall: glap, 3567,  məkˈaːn kaː kˈoːnaː diʋˈaːɾ,  s.ˈan tɕhˈiɑɜŋ pˈi
+hard-hat: kcep, 3107,  kˈʌʈʰɪn ʈˈoːpi,  jˈiŋ mˈɑu tsi̪˥
+owing-to: djit, 3488,  (en)ˈəʊvɪŋ sˈəʊ(hi),  ˈou taɜpliouɜ ˈai ˈən ts.ˈi tho˥
+cufflink: kfok, 4938,  (en)kˈʌflɪŋk(hi),  ɕˈiou khˈou
+bow-tie: glot, 3761,  dʰˈʌnʊʂ ʈˈaːi,  kˈonɡ lˈi˧˥ŋ tˈai
+tv-camera: tfem, 4505,  ʈˈiːʋi kˈɛːmɾˌaː,  tˈiɛn s.ˈi. ɕiɑŋtɕˈi
+gas-burner: gjen, 3678,  ɡˈɛːs bˈʌɾnəɾ,  tɕhithˈi˧˥ khˈo- lˈu tɕˈi
+AIDS: zyis, 2447,  ˈeːɖs,  ˈai tsˈi̪ pˈiŋ
+home-plate: clep, 3907,  hˈoːm plˈeːʈ,  tɕˈiɑ phˈaɜn
+pillowcase: sluk, 3857,  (en)pˈɪləʊkˌeɪs(hi),  ts.ˈə˧˥n thˈɑu
+herbal-tea: jlac, 3638,  hˈʌɾbəl cˈaːj,  tshɑuɜpˈə˧˥n ts.hˈɑɜ
+sousaphone: tsuf, 4536,  (en)sˈaʊsɐfˌəʊn(hi),  tˈɑ xˈɑu
+fijis: fyif, 3626,  pʰˈɪɟi,  fˈei˧˥ tɕˈi
+trash-bin: zrun, 2824,  kˈʌcɾˌaː bˈɪn,  lˈɑ tɕˈi ɕˈiɑŋ tsi̪˧˥
+sour-cream: jram, 3983,  kʰˈʌʈːaː məlˈaːi,  suannˈai˧˥ jˈiouɜ
+sour-bread: srep, 3714,  kʰˈʌʈːaː ɾˈoːʈi,  sˈuan mˈiɛn pˈɑu
+baltic-sea: bzim, 4134,  bˈaːlʈɪk səmˈʊdɾə,  pˌoluoɜtixˈai˧˥ tə˥˩ xˈai˧˥
+lime-tree: krep, 2753,  cˈuːnaː pˈeːr.,  sˈuan ts.hˈəɜŋ s.ˈu
+buddhism: fum, 4324,  bˈʊddʰ dʰˈʌɾm,  foɜtɕjˈɑu
+shorts: cruk, 3015,  nˈɪkəɾ,  tˈua˧˥n khˈu
+soup-spoon: psum, 4196,  sˈuːp cˈʌmməc,  thˈaŋ s.ˈɑuɜ
+dollhouse: dus, 4134,  ɡˈʊr.ɪjˌaː kaː ɡʰˈʌɾ,  wˈɑɜn tɕˈy wˈu
+town-hall: groc, 3283,  nˈʌɡəɾ hˈɔl,  ts.ˈən tˈɑ thˈiŋ
+towel-bar: tyop, 3417,  tˈɔːlɪjˌaː bˈaːɾ,  mˈɑuɜ tɕˈin tɕiou˧˥pˈɑ
+life-raft: draf, 3967,  ɟˈĩdɡˌi bˈeːr.aː,  s.ˈəŋ xˈuoɜ fˈɑɜ
+petri-dish: prip, 5234,  pˈeːʈɾi tʰˈaːli,  pheiɜjˈiɑɜŋ mˈi˧˥n tˈiɛɜ
+drill-bit: dlet, 3536,  ɖɾˈɪl bˈɪʈ,  tsuanthˈouɜ wˈei
+non-human: gjon, 3432,  ɡˈɛːɾ mˈaːnəw,  fˈei ʐˈəɜn təɜ
+dustcloth: dup, 3943,  dʰˈuːl kaː kˈʌpr.ˌaː,  ts.hˈuɜ ts.hˈəɜn pˈu
+hard-drive: kfon, 3106,  kˈʌʈʰɪn cəlˈaːnaː,  jˈiŋ tɕhˈy tˈonɡ
+obviative: bwot, 5993,  (en)ˈɒbviətˌɪv(hi),  (en)ˈɒbviətˌɪv(zh)
+leftfield: tfef, 4049,  bˈaːjã mɛːdˈaːn,  (en)lˈɛftfiːld(zh) tsˈuo
+folk-music: kyok, 3720,  lˈoːk səŋɡˈiːt,  mˈiɜn tɕˈiɛn jinˈyɛ
+and/or: swoc, 3703,  ɔːɾ (en)slˈaʃ(hi) jˈaː,  xˈo-ɜ (en)slaɜʃ(zh) xˈuo
+snuff-out: psuc, 3216,  nˈaːs bˈaːhəɾ,  pˈiɜ jˈiɛn ts.hˈu
+topsoil: plos, 3674,  (en)tˈɒpsɔɪl(hi),  pjɑuɜthˈu˧˥
+hand-towel: mwut, 2833,  hˈaːtʰ tˈɔːlɪjˌaː,  s.ˈou˧˥ mˈɑuɜ tɕˈin
+hand-drill: zraf, 2601,  hˈaːtʰ ɖɾˈɪl,  s.ˈou˧˥ tsuanthˈouɜ
+bath-towel: blut, 3337,  snˈaːn tˈɔːlɪjˌaː,  ʲˈy mˈɑuɜ tɕˈin
+pet-shop: twek, 3595,  pˈaːltˌuː dʊkˈaːn,  ts.hˈonɡ˧˥ wˈu tˈiɛn
+pet-food: twuc, 3893,  pˈaːltˌuː bʰˈoːɟən,  ts.hˈonɡ˧˥ wˈu s.i.ɜphˈi˧˥n
+tent-peg: tyec, 3807,  tˈʌmbuː kʰˈũʈi,  ts.ˈaŋ phə˥ŋ jˈi tɕˈiɑ
+let-go-of: jaf, 2760,  cˈʌloː cˈʌleː ɟˈaːoː kaː,  ʐˈaŋ tsˈou˧˥ tə˥˩
+paucal: pwok, 4838,  (en)pˈɔːkəl(hi),  (en)pˈɔːkəl(zh)
+slalom: glom, 4043,  slˈɛːləm,  tɕˈi lˈiouɜ xˈueiɜ ɕˈyæɜn
+as-of: gzak, 2131,  ɟˈɛːsaː kaː,  ʐˈuɜ təɜ
+gynecology: gluc, 3101,  pɾˌəsuːtɪʃˈaːsɾə,  fˈu khˈo-
+gypsophila: psif, 5127,  (en)dʒˌɪpsəfˈɪlə(hi),  mˈa˧˥n thˈiɛn ɕˈiŋ
+sesame-seed: swim, 2906,  tˈɪl bˈiːɟ,  ts.i.mɑ˧˥ ts.ˈonɡ˧˥ tsi̪˥˩
+bus-stop: bzot, 3999,  bˈʌs ɾˈʊkẽː,  tsˈonɡ˧˥ ɕˈiɛn thiɜŋts.ˈi.˧˥
+groundcover: zlak, 3378,  zəmˈiːn ki cˈaːdəɾ,  timˈiɛn fˈu kˈai
+green-salad: dyas, 3897,  hˈʌɾaː səlˈaːd,  lˈy sˈo- s.ˈɑ lˈɑ
+green-olive: gzat, 3568,  hˈʌɾaː ɟɛːtˈuːn,  lˈy sˈo- kˈa˧˥n
+test-tube: tsup, 3484,  kəsˈɔːʈi ʈːjˈuːb,  tshˈo- s.i.kwˈa˧˥n
+grape-juice: grus, 4864,  ʌŋɡˈuːɾ ɾˈʌs,  phˌuɜthɑuɜts.ˈi.
+human-being: nyup, 3581,  mˈaːnəw kˈɪjaː ɟˈaː ɾˌəhaː hɛː,  ʐˈəɜn təɜ tshˈuəɜn tsˈai
+golf-course: glok, 5794,  ɡˈoːlf kˈoːɾs,  kˌɑuər˧˥fˈu tɕhˈiouɜ khˈo- ts.hˈəɜŋ
+exosphere: ksef, 4196,  bˌəhɪɾmˈʌɳɖəl,  wˈai jˈi tshˈəɜŋ
+taxi-rank: tsom, 4945,  ʈˈɛːksi pˈʌd,  ts.hˈu tsˈu ts.hˈo- ts.ˈi.
+tap-water: nwos, 3027,  nˈʌl pˈaːni,  lˈonɡɜ thˈouɜ s.wˈei˧˥
+dining-room: bjac, 3104,  bʰˈoːɟən kˈʌkʃ,  ˈyuŋ tshˈan fˈaɜŋ tɕˈiɛn
+heavy-metal: brum, 3065,  bʰˈaːɾi dʰˈaːtʊ,  ts.ˈonɡ tɕins.ˈu˧˥
+face-mask: zek, 3497,  cˈeːhəɾˌaː mʊkʰˈɔːʈaː,  mˈiɛn tˈuei mˈiɛn tɕˈy
+herb-garden: bwen, 3831,  ɟˈʌr.i bˈuːʈi bəɡˈiːcaː,  tshɑuɜpˈə˧˥n ts.ˈi.ɜ wˈu xwˈɑ ˈyæɜn
+face-pack: fwak, 3649,  cˈeːhəɾˌaː pˈɛːk,  mˈiɛn tˈuei pˈɑu
+attenuative: tyum, 4058,  (en)ɐtˈɛnjuːətˌɪv(hi),  s.uaitɕˈiɛ˧˥n ɕˈiŋ
+living-room: cwim, 3774,  ɟˈiːʋɪt kˈʌkʃ,  xˈuoɜ təɜ fˈaɜŋ tɕˈiɛn
+mendelevium: dlem, 5844,  mˈeːɳɖeːlˌiːʋɪjˌəm,  mˈəɜn
+gas-station: gjac, 3954,  ɡˈɛːs sʈˈeːʃən,  tɕhithˈi˧˥ ts.ˈan
+tie-tack: jwak, 3378,  ʈˈaːi kˈiːl,  lˈi˧˥ŋ tˈai tˈiŋ
+einsteinium: syum, 3023,  aːˈĩsʈɪnˌɪjəm,  ˈai
+fruit-juice: frus, 4029,  pʰˈʌl ɾˈʌs,  s.weiɜkˈuo˧˥ ts.ˈi.
+frozen-food: gzon, 3747,  ɟˈʌmeː hˈʊeː bʰˈoːɟən,  tˈonɡ tɕˈiɛɜ təɜ s.i.ɜphˈi˧˥n
+mudita: myuc, 4241,  (en)mjuːdˈiːtə(hi),  mˌutithˈɑ
+californium: kfom, 5754,  kˌəlɪfˈoːɾnˌɪjəm,  khˈai
+air-bag: byac, 3111,  wˈaːjʊ bˈɛːɡ,  khˈonɡ tɕhˈi tˈai
+french-bean: fyes, 3832,  pʰɾˈẽːc sˈeːm,  fˈɑ˧˥ kˈuoɜ tˈou
+iced-coffee: blaf, 4188,  bˌəɾpʰˈiːlaː kˈɔfi,  pˈiŋ ts.ˈən khˈɑ fˈei
+skier: syek, 3289,  skˈiːɪs cˌəlneːʋˈaːlaː,  xwɑɜɕˈyɛ˧˥ tə˥˩ ʐˈəɜn
+floppy-disk: fyis, 4087,  pʰlˈɔpi ɖˈɪsk,  ʐˈua˧˥n phˈaɜn tshˈi̪ɜ phˈaɜn
+fishing-rod: byak, 3297,  mˈʌcʰlˌi pˈʌkər.naː cʰˈʌr.i,  tjˈɑu ʲˈyɜ kˈan
+origami: zyom, 2907,  (en)ˌɒɹɪɡˈɑːmi(hi),  ts.ˈo-ɜ ts.ˈi.˧˥
+strapless: trep, 3961,  (en)stɹˈapləs(hi),  lˈu tɕˈiɛn
+usitative: zyit, 4644,  (en)jˈuːzɪtˌeɪtɪv(hi),  ˌusi̪thˌɑthivˈo-
+coreference: kfos, 5444,  (en)kˈɔːɹɛfɹəns(hi),  ts.ˈi.˧˥ tˈai
+dative-case: dwas, 5030,  sˌəmpɾədˈaːn kˈaːɾək mˈaːmlˌaː,  kˈo-ɜ wˈai khˈo-ɜ
+first-aid: psec, 3192,  pɾˈʌtʰəm səhˈaːjtˌaː,  tˈi jˈi ˈyæɜn ts.ˈu
+finish-line: blen, 3687,  səmˈaːpt lˈaːɪn,  wˈɑɜn ɕˈiɛn
+fish-farm: kcem, 3663,  mˈʌcʰlˌi kʰˈeːt,  ʲˈyɜ nonɡɜts.hˈɑ˧˥ŋ
+ivory-coast: zyat, 3524,  hˈaːtʰi dˈãt tˈʌʈ,  ɕˈiɑŋ jˈiɑɜ pˈin
+incubator: nwuk, 3885,  ˈʌɳɖeː sˈeːneː ki məʃˈiːn,  xˈəɜŋ wˈuən ɕˈiɑŋ
+flatbread: flap, 2587,  cˈʌpʈˌi ɾˈoːʈi,  tɑpˈi˧˥ŋ
+in-basket: djik, 2973,  mẽː ʈˈoːkɾˌi,  tsˈai lˈaɜn
+guy-wire: praf, 3093,  pˈʊɾʊʂ tˈaːɾ,  tɕiɑxuo˧˥ ɕˈiɛn
+face-powder: cuf, 3262,  cˈeːhəɾˌaː pˈaːʊɖˌəɾ,  mˈiɛn tˈuei fˈə˧˥n mˈo
+ice-tongs: pcem, 3294,  bˈʌɾpʰ cˈɪmʈˌaː,  pˈiŋ tɕhˈiɛɜn
+eye-dropper: jrap, 3603,  ˈãkʰ ɖɾˈɔpəɾ,  jˈiɛ˧˥n tikwˈa˧˥n
+ice-skate: bwet, 4052,  bˈʌɾpʰ skˈeːʈ,  pˈiŋ xwˈɑɜ pˈiŋ
+mailbox: tlos, 4090,  mˌeːlbˈɔks,  jˈiouɜ ɕˈiɑŋ
+ice-maker: pfot, 3626,  bˈʌɾpʰ nɪɾmˈaːtaː,  pˈiŋ ts.ˈi. tsuots.ˈo-˧˥
+hydrofoil: drif, 4250,  hˈiːɖɾoːfˌoːɪl,  s.wˈei˧˥ jˈi
+knee-length: glun, 4157,  ɡʰˈʊʈnˌaː ləmbˈaːi,  ɕˈi kˈai ts.hˈɑɜŋ tˈu
+dual-number: dlun, 3667,  dˈoːhəɾˌi sˈʌŋkʰjaː,  s.wɑŋts.hˈonɡɜ s.ˈu
+engine-room: gjic, 3573,  ˈĩɟən kˈʌkʃ,  fˈɑ tˈonɡ tɕˈi fˈaɜŋ tɕˈiɛn
+essive-case: swek, 6626,  (en)ˈɛsɪv(hi) mˈaːmlˌaː,  (en)ˈɛsɪv(zh) wˈai khˈo-ɜ
+working-day: gzin, 3080,  kˈaːm kˈʌɾ ɾˌəheː dˈɪn,  tɕˈiɑ kˈonɡ ʐˈi.
+lace-making: pfen, 3240,  pʰˈiːtaː nɪɾmˈaːɳ,  xwˈɑ pˈiɛn ts.ˈi. tsˈɑu
+foul-line: flun, 4566,  bˌeːimˈaːni seː lˈaːɪn,  fˈan kˈuei ɕˈiɛn
+landing-net: tfun, 3310,  ˈʌʋətˌəɾəɳ ɟˈaːl,  tɕˈiɑŋ lˈuo tɕˈiŋ
+wire-cutter: kfot, 3210,  tˈaːɾ kˈaːʈnˌeː wˈaːlaː,  ɕˈiɛn tɕhiɛkˈo- tɕˈi
+el-salvador: swof, 5267,  (en)ˌɛl(hi) sˈaːlʋaːɖˌoːɾ,  aiˈər˧˥ sɑˈərɜ wˈɑ˧˥ tˈuo
+minibus: mwus, 3057,  cʰˈoːʈaː bˈʌs,  ɕjˈɑu˧˥ pɑ˥˩
+minibar: myop, 2641,  mˈɪni bˈaːɾ,  miɜnˈiɜ tɕiou˧˥pˈɑ
+chewing-gum: kyum, 3253,  cəbˈaːneː ɡˈʌm,  tɕˈy˧˥ tɕˈyɛɜ tɕjˈɑu
+free-kick: tluk, 2964,  mˈʊkt lˈaːt,  tsˈi̪ jˈiouɜ thˈi
+sri-lanka: slok, 5439,  ʃɾilˈʌŋkaː lˈʌŋkaː,  sˈi̪ lˈi˧˥ lˈaɜn khˈɑ˧˥ sˈi̪ lˈi˧˥ lˈaɜn khˈɑ˧˥
+nth-root: tfec, 3027,  wˈẽː ɟˈʌr.,  tˈi ˈən kˈən
+spray-gun: pcuk, 4030,  pʰʊhˈaːɾ bəndˈuːk,  phˈən wˈu tɕhˈiɑŋ
+full-time: pwet, 3277,  pˈuːɾaː sˈʌmˌɛj,  tɕhˈyæɜn ts.ˈi.ɜ
+white-bread: prep, 3621,  səpʰˈeːd ɾˈoːʈi,  pˈaiɜ sˈo- mˈiɛn pˈɑu
+duffel-coat: flot, 5159,  (en)dˈʌfəl(hi) kˈoːʈ,  jits.ˈonɡ˧˥ tshˈu nə˧˥ thu˥ tshˈəɜŋ
+lemon-grass: mwes, 3440,  nˈĩbuː ɡʰˈaːs,  nˈiɜŋ mˈəɜŋ tshˈɑu˧˥
+dried-fruit: kfuc, 4248,  sˈuːkʰaː pʰˈʌl,  kˈan tə˧˥ s.weiɜkˈuo˧˥
+fried-egg: frot, 2845,  tˈʌlaː hˈʊaː ˈʌɳɖaː,  jiouɜts.ˈɑɜ tˈan
+hour-hand: jyac, 3146,  sˈʌmˌɛj hˈaːtʰ,  ɕjˈɑu˧˥ s.ˈi.ɜ s.ˈou˧˥
+horsebean: cef, 3385,  ɡʰˈoːr.eː bˈiːn,  tshˈaɜn tˈou
+drawing-pin: cwip, 3611,  cˈɪ tɾˈə kaː ɾˈi pˈɪn,  xwˈɑ xwˈɑ ɕjˈɑu
+life-jacket: dyik, 4531,  ɟˈĩdɡˌi ɟɛːkˈeːʈ,  s.ˈəŋ xˈuoɜ tɕiɑɜkhˈo-
+sit-up: tcup, 3667,  bˈɛːʈʰɪjˌeː ˈupəɾ,  tsˈuo ɕˈiɑŋ s.ˈaŋ
+galapagos: glos, 5231,  ɡˌɛːlaːpaːɡˈoːs,  tɕˈiɑ lˈɑ phˈɑ kˈo- sˈi̪
+dental-care: nwek, 4073,  dˈʌnt cɪkˈɪtsaː dˌeːkʰbʰˈaːl,  jiɑɜts.hˈi.˧˥ kwˈan ɕˈin
+liquid-unit: jyit, 2850,  tˈʌɾəl ɪkˈaːi,  jiɛthˈi˧˥ tˈan ˈyæɜn
+high-jump: kcuf, 2796,  ˈʊcc cʰəlˈãɡ,  kˈɑu thjˈɑu
+finite-verb: fwik, 3366,  sˈiːmɪt kɾˈɪjaː,  jˈiou˧˥ ɕˈiɛn tˈonɡ tshˈi̪ɜ
+swear-in: fwen, 2815,  ʃˈʌpətʰ lˈeːnaː,  fˈɑ s.ˈi. s.ˈi.
+bap: bjap, 4448,  bˌəptˈɪsmaː,  (en)bˈap(zh)
+cricket-bat: kwif, 3807,  kɾˈɪkɪt bˈʌllaː,  ɕˈi s.ˈuai pˈiɛn fˈuɜ
+eggplant: bjen, 3695,  bˈɛ̃ɡən,  tɕhiɛɜtsi̪ɜ
+gladiolus: gyis, 4525,  ɡlˌeːɖɪjˈoːləs,  tɕˈiɛn lˈaɜn
+cress-green: kwec, 3636,  kɾˈeːs hˈʌɾaː,  s.wˈei˧˥ tɕhˈiɜn lˈy sˈo-
+headboard: wop, 3460,  cˌaːɾpˈaːi ki ˈʌɡlˌi pˈiːʈʰ,  ts.hwˈɑɜŋ thˈouɜ pˈa˧˥n
+machine-gun: cyip, 3463,  məʃˈiːn bəndˈuːk,  tɕˈi tɕhˈiɑŋ
+main-course: zus, 3926,  mˈʊkʰjə kˈoːɾs,  ts.ˈu˧˥ jˈɑu khˈo- ts.hˈəɜŋ
+red-sea: clum, 2840,  lˈaːl səmˈʊdɾə,  xonɡɜxˈai˧˥
+cor-anglais: krof, 3233,  bʰɾˌəʂʈaːcˈaːɾ (en)ˈaŋɡleɪ(hi),  tshoər˧˥ jˈiŋ wˈuəɜn
+goal-line: gyon, 3626,  lˈʌkʃjə lˈaːɪn,  mˈu pjˈɑu ɕˈiɛn
+soup-bowl: pwuk, 3524,  sˈuːp kəʈˈoːɾaː,  thaŋwˈɑ˧˥n
+golf-ball: glof, 4635,  ɡˈoːlf ɡˈẽːd,  kˌɑuər˧˥fˈu tɕhˈiouɜ tɕhˈiouɜ
+maple-syrup: ples, 4125,  mˈeːpəl sˈɪɾəp,  fˈəŋ thˈaɜŋ tɕˈiɑŋ
+goosefish: gef, 4710,  (en)ɡˈuːsfɪʃ(hi),  ˈan khˈɑŋ khˈo-
+hatchback: cyek, 3179,  hˌɛːcbˈɛːk,  lˈiɑ˧˥ŋ ɕˈiɑŋ ts.hˈo-
+common-plum: klem, 3479,  saːmˈaːnjə bˈeːɾ,  kˈonɡ thˈonɡɜ lˈi˧˥ tsi̪˥˩
+edam: dyam, 4258,  eːɖˈaːm,  jˈi tˈan
+coffee-tree: kfec, 4433,  kˈɔfi pˈeːr.,  khˈɑ fˈei s.ˈu
+soap-dish: bup, 3772,  sˈaːbʊn tʰˈaːli,  fˈeiɜ tsˈɑu tˈiɛɜ
+green-pea: jwat, 3364,  hˈʌɾaː mˈʌʈəɾ,  lˈy sˈo- wˈɑn tˈou
+handstamp: dyap, 3492,  hˈaːtʰ sʈˈãp,  s.ˈou˧˥ jˈiouɜ phjˈɑu
+green-tea: dric, 3193,  hˈʌɾaː cˈaːj,  lˈy sˈo- ts.hˈɑɜ
+troposphere: tfos, 4369,  kʃˈoːbʰ mˈʌɳɖəl,  tˈuei lˈiouɜ tshˈəɜŋ
+treble-clef: twuk, 4324,  tˈɪhəɾˌaː kˈũɟi,  sants.hˈonɡɜ phˈu˧˥ xˈɑu
+clothes-peg: syoc, 3248,  wˈʌstɾə kʰˈũʈi,  jifu˧˥ jˈi tɕˈiɑ
+nobelium: blum, 4760,  (en)nˈəʊbliəm(hi),  nˈuo
+clock-radio: jroc, 3789,  ɡʰˈʌr.i ɾˈeːɖɪjˌoː,  s.ˈi.ɜ ts.ˈonɡ wˈuɜ ɕˈiɛn tˈiɛn
+minute-hand: nyos, 2583,  mˈɪnəʈ hˈaːtʰ,  fˈən ts.ˈonɡ s.ˈou˧˥
+lutetium: twum, 4117,  ljuːʈˈeːʃɪjˌəm,  lˈiouɜ
+mixing-bowl: cyok, 3730,  mˈɪʃɾəɳ kəʈˈoːɾaː,  xwˈuən xˈo-ɜ wˈɑ˧˥n
+as-per: gep, 3059,  ɟˈɛːsaː pɾˈʌtɪ,  ʐˈuɜ mˈei˧˥
+lative-case: twif, 5054,  (en)lˈatɪv(hi) mˈaːmlˌaː,  lˌɑthivˈo- wˈai khˈo-ɜ
+take-off: tcef, 2757,  lˈeːnaː bˈʌnd,  tshaiɜtɕhˈy˧˥ lˈiɜ
+traffic-jam: fyam, 4548,  jˌaːtaːjˈaːt ɟˈaːm,  tɕjˈɑu thˈonɡ kˈuo˧˥ tɕˈiɑŋ
+snack-bar: bjak, 2622,  nˈaːʃtaː bˈaːɾ,  ɕjˈɑu˧˥ ts.hˈi. tɕiou˧˥pˈɑ
+mosquito-ne: zren, 3018,  mˈʌccʰəɾ (en)nˈiː(hi),  wˈuəɜn tsi̪ɜ nə˥
+art-deco: nwok, 3830,  kˈʌlaː ɖˈeːkoː,  jˈi s.ˈu ts.wˈɑŋ s.ˈi.
+slip-road: kwus, 2772,  cˈuːk sˈʌr.ək,  xwˈɑɜ lˈu
+beach-ball: pcop, 3307,  səmˈʊdɾə tˈʌʈ ɡˈẽːd,  xˈai˧˥ thˈan tɕhˈiouɜ
+tonic-water: twos, 3825,  ʈˈɔnɪk pˈaːni,  puɜphˈiɜn s.wˈei˧˥
+soft-drink: jyun, 3330,  mʊlˈaːjəm pˈeːj,  ʐouɜʐˈua˧˥n tə˥˩ xˈo-
+toilet-seat: tyos, 4605,  ʃɔːcˈaːlˌɛj sˈiːʈ,  tsho-sˈuo˧˥ tsˈuo wˈei
+skincare: tyek, 3647,  tʋˈʌcaː ki dˌeːkʰbʰˈaːl,  phˈiɜ fˈu xulˈi˧˥
+napkin-ring: pcec, 3848,  nˈɛːpkˌɪn ʌŋɡˈuːʈʰi,  tshˈan tɕˈin xˈuaɜn
+x-ray-film: kfem, 5794,  ˈeːks ɾˈeː fˈɪlmə,  ˈaiɜks s.ˈo- ɕˈiɛn tiɛnjˈi˧˥ŋ
+cheese-rind: jrip, 3511,  pənˈiːɾ pˈʌpr.ˌi,  tɕhˈi˧˥ sˈi̪ kˈuo˧˥ phˈiɜ
+genkan: jwek, 4533,  (en)dʒˈɛŋkən(hi),  ɕˈyæɜn kwˈan
+cyder: syep, 2150,  (en)sˈaɪdə(hi),  tshitˈər
+new-zealand: zlen, 3938,  nˈʌjaː njˌuːɟilˈɛ̃ɖ,  ɕˈin ɕˈin ɕˈi lˈaɜn
+skydiving: syif, 2833,  skˌaːɪɖˌaːɪʋˈĩɡ,  thjɑusˈa˧˥n
+caspian-sea: kyes, 3646,  kˈɛːspɪjˌən səmˈʊdɾə,  liɜxˈaiɜ xˈai˧˥
+north-korea: zrok, 4172,  ˈʊtːəɾ kˈoːɾɪjˌaː,  pˈei˧˥ xˈaɜn kˈuoɜ
+candy-store: ksep, 3031,  kˈɛ̃ɖi dʊkˈaːn,  thaɜŋkˈuo˧˥ s.ˈaŋ tˈiɛn
+skim-milk: pcum, 3177,  hˈʌʋaː mẽː ɡʰˈuːmnˌaː dˈuːdʰ,  phiɛtɕhˈy niouɜnˈai˧˥
+proper-noun: zwin, 3104,  ˈʊcɪt sˈʌɲɡjaː,  ts.ˈəŋ tɕhˈyɛ mˈiɜŋ tshˈi̪ɜ
+ski-trail: swif, 3199,  skˈi nɪʃˈaːn,  xwɑɜɕˈyɛ˧˥ lˈuo xˈou
+ski-slope: jric, 3238,  skˈi ɖʰˈaːl,  xwɑɜɕˈyɛ˧˥ phˈo
+ocean-liner: jlun, 3033,  sˈaːɡəɾ lˈaːɪnˌəɾ,  xˈai˧˥ jˈiɑɜŋ ts.hˈən tˈiɛn
+accompanier: klop, 4798,  (en)ɐkˈʌmpənɪə(hi),  (en)ɐkˈʌmpənɪə(zh)
+importe: prop, 3734,  (en)ɪmpˈɔːt(hi),  (en)ɪmpˈɔːt(zh)
+bubble-bath: bluf, 3694,  bˈʊlbˌʊlaː snˈaːn,  phˈɑu mˈo ʲˈy
+brown-bread: bop, 3651,  bʰˈuːɾaː ɾˈoːʈi,  tsˈonɡ sˈo- mˈiɛn pˈɑu
+optic-nerve: pces, 3917,  ˈɔpʈɪk nˈʌs,  s.ˈi. s.ˈəɜn tɕˈiŋ s.ˈəɜn tɕˈiŋ
+realis-mood: zric, 3326,  (en)ɹˈiəliz(hi) mənˈoːdʃˌaː,  (en)ɹˈiəliz(zh) ɕˈin tɕhˈiɜŋ
+bridle-path: jlap, 3179,  ləɡˈaːm pˈʌtʰ,  phˈei lˈu tɕˈiŋ
+bridge-deck: plek, 3721,  pˈʊl ɖˈeːk,  tɕhjˈɑuɜ tɕiɑɜpˈa˧˥n
+resultative: zlet, 5151,  (en)ɹɪzˈʌltətˌɪv(hi),  tˈonɡ tɕˈiɛɜ
+is-part-of: cluf, 4918,  (en)ˈeɪtʃlˈuːti ɒv(hi),  xluthˈi (en)ˈaf(zh)
+denominator: dyen, 2594,  bʰˈaːɟək,  fənmˈu˧˥
+bread-knife: zuk, 3392,  ɾˈoːʈi cˈaːkuː,  mˈiɛn pˈɑu tˈɑu
+brake-pedal: zep, 3381,  bɾˈeːk pˈeːɖəl,  ts.ˈi. tˈonɡ thɑpˈa˧˥n
+ozone-layer: zos, 4667,  oːɟˈoːn pˈʌɾət,  ts.houjˈiɑ˧˥ŋ tshˈəɜŋ
+bowling-pin: blip, 4832,  ɡˌẽːdbˈaːɟi pˈɪn,  pˈɑu˧˥ lˈiɜŋ tɕhˈiouɜ ɕjˈɑu
+yogurt: djot, 2811,  dˈʌhi,  suannˈai˧˥
+snare-drum: gjam, 2900,  ɟˈaːl ɖʰˈoːl,  tɕhˈyæn thˈɑu kˈu˧˥
+robb: zop, 2629,  ɾˈɔb,  lˈuoɜ pˈoɜ
+body-lotion: bloc, 4397,  tˈʌn lˈoːʃən,  s.ənthˈiɜ ɕˈi˧˥ tɕˈi
+blue-cheese: zlis, 2937,  nˈiːlaː pənˈiːɾ,  lˈaɜn sˈo- tɕhˈi˧˥ sˈi̪
+shipyard: cyif, 3004,  ʃˌɪpjˈaːɾɖ,  ts.hˈuaɜn ts.hˈɑ˧˥ŋ
+paragliding: plec, 3629,  pɛːɾˈaːɡlaːˌɪɖĩɡ,  xwˈɑɜ ɕˈiɑɜŋ sˈa˧˥n
+parking-lot: pfon, 3746,  pˈaːɾkĩɡ bˈʌhʊt kˈʊcʰ,  thˈiɜŋ ts.hˈo- xˈə˧˥n tˈuo
+side-dish: pyoc, 2708,  pˈʌkʃ tʰˈaːli,  tshˈo- tˈiɛɜ
+railcar: jlek, 3329,  (en)ɹˈeɪlkɑː(hi),  kˈuei˧˥ tˈɑu ts.hˈo-
+black-olive: bzit, 3523,  kˈaːli ɟɛːtˈuːn,  xˈei sˈo- kˈa˧˥n
+bikini: bzen, 3645,  bˈɪkɪnˌi,  pˈi˧˥ tɕˈi nˈiɜ ˈyu˧˥ŋ ts.wˈɑŋ
+blood-test: dyis, 2983,  ɾˈʌkt kəsˈɔːʈi,  ɕˈyɛ jˈiɛ tshˈo- s.ˈi.
+final-time: flet, 6160,  (en)fˈaɪnəl tˈaɪm(hi),  (en)fˈaɪnəl(zh) thimˈo-
+asyndeton: zwat, 3932,  (en)ɐsˈɪndɛtən(hi),  (en)ɐsˈɪndɛtən(zh)
+street-sign: tfes, 2737,  sˈʌr.ək səŋkˈeːt,  tɕˈiɛ pjˈɑu ts.ˈi.
+pencil-case: pwek, 4008,  pˈẽːsɪl mˈaːmlˌaː,  tɕhiɛnpˈi˧˥ wˈai khˈo-ɜ
+waders: zec, 3102,  (en)wˈeɪdəz(hi),  s.ˈo- tɕhˈiɜn
+etc.: tfep, 2279,  ˈaːdɪ,  təɜŋtˈə˧˥ŋ
+bean-sprout: tfut, 3209,  sˈeːm ˈʌŋkʊɾ,  tˈou fˈɑ jˈiɑɜ
+CD: swec, 2220,  sˈiːɖi,  kwˈaŋ phˈaɜn
+beach-towel: djut, 3541,  səmˈʊdɾə tˈʌʈ tˈɔːlɪjˌaː,  xˈai˧˥ thˈan mˈɑuɜ tɕˈin
+beach-chair: jyis, 3789,  səmˈʊdɾə tˈʌʈ kˈʊɾsˌi,  xˈai˧˥ thˈan jˈi˧˥ tsi̪˥˩
+shoe-shop: cluk, 2846,  ɟˈuːtaː dʊkˈaːn,  ɕˈiɛɜ tˈiɛn
+bass-guitar: bjet, 4070,  bˈaːs ɡɪʈˈaːɾ,  tˈi jˈin tɕiɜthɑɜ
+paper-clip: zip, 3713,  kˈaːɡəz klˈɪp,  ts.ˈi.˧˥ tɕˈiɑ
+as-if: gjak, 2724,  ɟˈɛːsaː ˌʌɡəɾ,  ʐˈuɜ ʐuɜkˈuo˧˥
+vialis-case: bzik, 4452,  (en)vˈaɪəlˌiz(hi) mˈaːmlˌaː,  (en)vˈaɪəlˌiz(zh) wˈai khˈo-ɜ
+one-second: dyun, 2793,  ˈeːk kʃˈʌɳ,  jˈi mjˈɑu˧˥
+boiled-egg: byut, 3270,  ˈʊblˌaː hˈʊaː ˈʌɳɖaː,  ts.ˈu˧˥ fˈei tˈan
+verbal-noun: zlon, 3547,  mˈɔːkʰɪk sˈʌɲɡjaː,  khˈou˧˥ thˈouɜ mˈiɜŋ tshˈi̪ɜ
+baking-tray: pfet, 3534,  pəkˈaːnaː ʈɾˈeː,  pˈi˧˥ŋ thˈuo phˈaɜn
+curium: jrim, 4384,  kːjˈuːɾɪjˌəm,  tɕˈy
+pipe-cutter: pyok, 3076,  pˈaːɪp kˈaːʈnˌeː wˈaːlaː,  kwˈa˧˥n tɕhiɛkˈo- tɕˈi
+trail-bike: cwek, 3793,  nɪʃˈaːn bˈaːɪk,  lˈuo xˈou tsˈi̪ ɕˈiɜŋ ts.hˈo-
+zoic-gender: zyon, 4152,  (en)zˈəʊɪk(hi) lˈĩɡ,  ts.ˈou ɕˈiŋ pˈiɛɜ
+art-nouveau: swuc, 3203,  kˈʌlaː dʰˈʌni,  jˈi s.ˈu pˈɑu fˈɑ xˈu
+art-gallery: slep, 2898,  kˈʌlaː ɡˈeːlɾˌi,  jˈi s.ˈu xwˈɑ lˈaɜŋ
+ghostwriter: jrik, 3270,  ˈʌslˌi lˈeːkʰək,  taipˈi˧˥
+rib-cage: blok, 3366,  pˈʌslˌi pˈĩɟɾˌaː,  leikˈu˧˥ lˈonɡɜ
+square-foot: kref, 3950,  wˈʌɾɡ pˈɛːɾ,  kwaɜŋts.hˈɑɜŋ tɕjˈɑu˧˥ jˈiɑ tsi̪˧˥
+arabian-sea: bwim, 3158,  ˈʌɾbˌi səmˈʊdɾə,  ˈɑ lˈɑ pˈoɜ xˈai˧˥
+seat-belt: swem, 3517,  sˈiːʈ bˈeːlʈ,  tsˈuo wˈei tˈai
+apple-juice: plus, 4352,  sˈeːb ɾˈʌs,  phiɜŋkˈuo˧˥ ts.ˈi.
+processor: pfes, 4260,  pɾoːsˈeːsəɾ,  ts.huɜlˈi˧˥ tɕhˈi
+sponge-cake: pfek, 4596,  spˈʌɲɟ kˈeːk,  xˈai˧˥ mˈiɛɜn tˈan kˈɑu
+noseband: psup, 3137,  (en)nˈəʊsband(hi),  (en)nˈəʊsband(zh)
+in-language: byif, 2974,  ˈɪn bʰˈaːʂaː,  tsˈai ʲˈy˧˥ jˈiɛɜn
+speedometer: swom, 4037,  spˌiːɖoːmˈiːʈəɾ,  ts.hˈo- sˈu pjˈɑu˧˥
+speed-limit: jlim, 2982,  ɡˈʌtɪ hˈʌd,  sˈu tˈu ɕˈiɛn ts.ˈi.
+postal-code: pfok, 3937,  ɖˈaːk kaː kˈoːɖ,  jˈiouɜ ts.ˈəŋ mˈɑ˧˥
+from-source: syos, 2797,  seː sɾˈoːt,  tshˈonɡɜ ˈyæɜn
+potato-chip: trup, 3693,  ˈaːluː ʈˈʊkr.ˌaː,  thˈu˧˥ tˈou ɕˈin phˈiɛn
+slip-on: gzap, 2690,  cˈuːk pˈʌɾ,  xwˈɑɜ s.ˈaŋ
+alarm-clock: gyas, 3071,  ʌlˈaːɾm ɡʰˈʌr.i,  pɑutɕˈi˧˥ŋ s.ˈi.ɜ ts.ˈonɡ
+clause-tail: kyop, 3201,  kʰˈʌɳɖ pˈũcʰ,  tshˈonɡɜ tɕˈy wˈei˧˥
+south-korea: syok, 3787,  dˈʌkʃɪɳ kˈoːɾɪjˌaː,  nˈaɜn xˈaɜn kˈuoɜ
+prison-cell: gles, 3880,  ɟˈeːl sˈeːl,  tɕˈiɛn ʲˈy ɕˈi pˈɑu
+biplane: blec, 4269,  bˈiːplɛːn,  fˈu jˈi fˈei tɕˈi
+skateboard: kyep, 3064,  skˌeːʈbˈoːɾɖ,  xwɑɜpˈa˧˥n
+aerosol-can: slop, 4285,  ˌeːjɾoːsˈoːl kˈʌɾ sˈʌktˌeː hɛ̃,  tɕhˈi wˈu tɕˈi nˈəɜŋ kˈou
+fool-around: fyun, 3154,  sˈʊsti mẽː sˈʌmˌɛj ɡənʋˈaːnaː,  s.ˈɑ˧˥ kwˈɑ tsˈuo˧˥ jˈiou
+battlefield: bjic, 2583,  ɾˌəɳbʰˈuːmɪ,  ts.ants.hˈɑ˧˥ŋ
+except-if: kcef, 5665,  (en)ˈaksɛpt ˈaɪ ˈɛf(hi),  (en)ɛksˈɛpt ɪf(zh)
+acupressure: kruf, 3760,  eːkːjˈuːpɾeːʃˌəɾ,  ts.ˈi.˧˥ jˈiɑ ˈan mˈoɜ
+zoomorphism: zrom, 5845,  (en)zˈuːmɔːfˌɪzəm(hi),  tˈonɡ wˈu ɕˈiɜŋ ɕˈiɑŋ
+pergola: prom, 3117,  mˈʌɳɖəm,  lˈiɑɜŋ phˈəɜŋ
+experiencer: prek, 3276,  bʰˈoːktaː,  thˈi˧˥ jˈiɛn ts.ˈo-˧˥
+puerto-rico: drok, 4880,  pˈʌɾʈoː ɾˈɪkoː,  pˈo tˈuo lˈiɜ kˈo- pˈo tˈuo lˈiɜ kˈo-
+synesthesia: nwes, 3504,  (en)sˌaɪnɪsθˈiːziə(hi),  lˈiɛɜn tɕˈyɛɜ
+brazil-nut: zlot, 4611,  bɾˈaːzɪl ˌʌkʰɾˈoːʈ,  pɑɕˈi tɕiɛnkˈuo˧˥
+kohlrabi: zloc, 3364,  kˈoːlhaːbˌi,  phˈiɛ˧˥
+near-to: bres, 2821,  (en)nˌiə sˈəʊ(hi),  nɛər˧˥ tho˥
+reverential: yef, 3138,  ʃɾəddʰˈaːmˌɛj,  jˈiɜn
+source-case: twok, 4053,  sɾˈoːt mˈaːmlˌaː,  tsˈi̪ ˈyæɜn wˈai khˈo-ɜ
+fishhook: flok, 3715,  mˈʌcʰlˌi kaː kˈãʈaː,  ʲˈyɜ kˈou
+out-basket: braf, 3309,  bˈaːhəɾ ʈˈoːkɾˌi,  ts.hˈu lˈaɜn
+pursuant-to: pwut, 5606,  (en)pəsjˈuːənt sˈəʊ(hi),  (en)pəsjˈuːənt(zh) thˈo
+boxers: blos, 3360,  mˌʊkːeːbˈaːɟõ,  tɕhˈyæɜn tɕˈi s.ˈou˧˥
+rye-bread: crep, 2973,  ɾˈaːi ɾˈoːʈi,  xˈei mˈai mˈiɛn pˈɑu
+ski-pole: kwop, 3280,  skˈi kʰˈʌmbʰaː,  xwɑɜɕˈyɛ˧˥ tɕˈiɜ
+color-blind: fyon, 3180,  ɾˈʌŋɡ ˈʌndʰaː,  sˈo- mˈaɜŋ
+iced-tea: jlet, 3206,  bˌəɾpʰˈiːlaː cˈaːj,  pˈiŋ ts.ˈən ts.hˈɑɜ
+as-regards: joc, 3518,  ɟˈɛːsaː kaː səmbˈʌndʰ,  ʐˈuɜ wˈuən xˈou
+comic-strip: mwop, 3367,  kˈɔmɪk sʈɾˈɪp,  mˈan xwˈɑ thjˈɑuɜ
+brown-rice: bros, 3626,  bʰˈuːɾaː cˈaʊl,  tsˈonɡ sˈo- mˈi˧˥
+ice-cube: blek, 3795,  bˈʌɾpʰ ɡʰˌənkʃˈeːtɾə,  pˈiŋ lˈi fˈaŋ thˈi˧˥
+anadiplosis: dlos, 5583,  (en)ˌanɐdɪplˈəʊsɪs(hi),  xˈueiɜ xˈuaɜn
+as-well-as: kwem, 3296,  ɟˈɛːsaː ˈʌccʰi tˈʌɾəh seː ɟˈɛːsaː,  ʐˈuɜ tɕˈi˧˥ŋ ʐˈuɜ
+oil-tanker: flek, 3677,  tˈeːl ʈˈɛ̃kəɾ,  jˈiouɜ jˈiouɜ ts.hˈuaɜn
+on-top-of: prup, 2954,  pˈʌɾ ˈupəɾ kaː kaː,  s.ˈaŋ tsˈuei tɕˈiɑ tə˧˥
+riding-boot: zwit, 3057,  səʋˈaːɾi bˈuːʈ,  tɕhˈiɜ s.ˈu ɕˈyɛ
+riding-crop: dwis, 3140,  səʋˈaːɾi fˈʌsəl,  tɕhˈiɜ s.ˈu tsˈuo wˈu
+right-field: dlek, 2646,  sˈʌhi kʰˈeːt,  tˈuei lˈi˧˥ŋ ʲˈy
+rock-garden: gwas, 2627,  cəʈːˈaːn bəɡˈiːcaː,  jˈiɛɜn xwˈɑ ˈyæɜn
+antonomasia: grom, 1985,  (en)ˌantənəmˈeɪziə(hi),  xˈuan ts.hˈəŋ
+tour-guide: truf, 3277,  jˈaːtɾaː mˈaːɾɡədˌəɾʃək,  jˈiouɜ lˈaɜn ts.ˈi.˧˥ nˈaɜn
+knee-pad: gwap, 3157,  ɡʰˈʊʈnˌaː pˈɛːɖ,  ɕˈi kˈai tˈiɛn
+bus-driver: bof, 3867,  bˈʌs cˈaːlək,  tsˈonɡ˧˥ ɕˈiɛn sˈi̪ tɕˈi
+distributor: dyim, 3199,  wˈɪtəɾˌək,  tɕˈiŋ ɕjˈɑu s.ˈaŋ
+roof-garden: fwas, 2886,  cʰˈʌt bəɡˈiːcaː,  wutˈi˧˥ŋ xwˈɑ ˈyæɜn
+rotor-blade: tref, 4120,  ɾoːʈˈaːɾ blˈeːɖ,  ts.uantsˈi̪˧˥ tˈɑu phˈiɛn
+rubber-band: byap, 2920,  ɾˈʌbəɾ bˈɛ̃ɖ,  ɕˈiɑŋ tɕjˈɑu tˈai
+rubber-boot: bjut, 3620,  ɾˈʌbəɾ bˈuːʈ,  ɕˈiɑŋ tɕjˈɑu ɕˈyɛ
+logophoric: gruk, 3778,  (en)lˌɒɡəfˈɒɹɪk(hi),  (en)lˌɒɡəfˈɒɹɪk(zh)
+runner-bean: jros, 3241,  hˌəɾkˈaːɾaː sˈeːm,  phˈɑu˧˥ pˈu ts.ˈo-˧˥ tˈou
+bus-ticket: bzet, 3885,  bˈʌs ʈˈɪkəʈ,  tsˈonɡ˧˥ ɕˈiɛn phjˈɑu
+monorail: nwof, 3076,  mˌoːnoːɾˈeːl,  tankˈuei˧˥
+safari-park: frip, 5691,  səpʰˈaːɾi pˈaːɾk,  jˈiɛ˧˥ s.ˈəŋ tˈonɡ wˈu ˈyæɜn kˈonɡ ˈyæɜn
+whole-milk: zuc, 2952,  pˈuːɾaː kaː pˈuːɾaː dˈuːdʰ,  ts.ə˧˥ŋkˈo- niouɜnˈai˧˥
+shuttle-bus: cwos, 4173,  ʃˈʌʈəl bˈʌs,  ts.hˈuan sˈuo tsˈonɡ˧˥ ɕˈiɛn
+in-spite-of: dyif, 3073,  (en)spˈiːti dˈɑːɹi(hi),  təŋkhˈi tɑʐˈi.
+in-place-of: pef, 4759,  (en)tˈɛmpat dˈɑːɹi(hi),  (en)tˈɛmpat(zh) tɑʐˈi.
+in-front-of: dlif, 3201,  (en)dɪpˈan dˈɑːɹi(hi),  təphˈan tɑʐˈi.
+at-most: dzas, 2783,  pˈʌɾ ˌʌdʰɪkˈãʃ,  tsˈai tsˈuei
+showjumping: druk, 3814,  kˈuːdəkˌəɾ dɪkʰˈaːoː,  mˈɑ˧˥ s.ˈu
+ski-boot: jwic, 2846,  skˈi bˈuːʈ,  xwɑɜɕˈyɛ˧˥ ɕˈyɛ
+rap-music: pyuk, 3614,  kʰˌəʈəkʰʈˈaːnaː səŋɡˈiːt,  tɕhjˈɑu tɕˈi jinˈyɛ
+white-wine: pwim, 4212,  səpʰˈeːd wˈaːɪn,  pˈaiɜ sˈo- phuɜthɑuɜ tɕˈiou˧˥
+red-meat: zem, 2855,  lˈaːl mˈãs,  xˈonɡɜ ʐˈou
+shop-clerk: dlut, 3638,  dʊkˈaːn klˈʌɾk,  tˈiɛn s.utɕi˧˥
+brachylogia: byuc, 3560,  (en)bɹˌakɪlˈəʊdʒə(hi),  (en)bɹˌakɪlˈəʊdʒə(zh)
+by-means-of: dyot, 3262,  dʋˈaːɾaː mˈʌtəlˌəb kaː,  thˈonɡ kˈuo s.ˈou˧˥ tˈuan tə˥
+epanalepsis: plop, 5919,  (en)ˌɛpɐneɪlˈɛpsɪs(hi),  (en)ˌɛpɐneɪlˈɛpsɪs(zh)
+racehorse: droc, 3151,  ɡʰˌʊr.dˈɔːr. kaː ɡʰˈoːr.aː,  saimˈɑ˧˥
+catachresis: jres, 4409,  (en)kˌatɐtʃɹˈiːsɪs(hi),  ˈo-ɜ ts.ˈua˧˥n
+meringue: brec, 2929,  (en)məɹˈaŋ(hi),  sˈu phˈiɜ
+bedcover: dwek, 3797,  bˈeːɖ kˈʌʋəɾ,  ts.hwˈɑɜŋ ts.ˈɑu
+hubcap: cwop, 3340,  (en)hˈʌbkap(hi),  luəɜnkˈu˧˥ ts.ˈɑu
+white-rice: pwes, 3170,  səpʰˈeːd cˈaʊl,  pˈaiɜ sˈo- mˈi˧˥
+dysprosium: drom, 5414,  ɖɪspɾˈoːsɪjˌəm,  tˈi
+dinner-plate: dep, 3459,  ɾˈaːtɾɪ kaː bʰˈoːɟən plˈeːʈ,  wˈɑ˧˥n tshˈan phˈaɜn
+emote: fyot, 3277,  bʰˈaʊ kaː pɾˈʌkəʈ kˈʌɾnˌaː,  pjˈɑu˧˥ ɕˈiɛn kˈa˧˥n tɕhˈiɜŋ
+compost-heap: pfut, 3161,  kʰˈaːd ɖʰˈeːɾ,  tˈuei fˈeiɜ tˈuei
+pectoral-fin: cwif, 3420,  cʰˈaːti pˈʌɾ kaː kˈʌʋəc pˈʌŋkʰ,  ɕˈyŋ s.ˈi. tɕhˈiɜ
+flow-current: fruk, 3254,  pɾəʋˈaːh cˈaːluː,  lˈiouɜ lˈiouɜ
+bicycle-seat: bles, 4195,  sˈaːɪkˌɪl sˈiːʈ,  tsˈi̪ ɕˈiɜŋ ts.hˈo- tsˈuo wˈei
+trial-number: pcom, 3332,  pəɾˈiːkʃəɳ sˈʌŋkʰjaː,  s.ˈə˧˥n ɕˈyən s.ˈu
+soya: syof, 3756,  sˈoːjaː,  xwˈɑɜŋ tˈou
+epidemiology: dwip, 3420,  mˌəhaːmˈaːɾi wɪɡjˈaːn,  lˈiouɜ ɕˈiɜŋ pˈiŋ ɕˈyɛɜ
+north-pole: pcup, 3105,  ˈʊtːəɾ kʰˈʌmbʰaː,  pˈei˧˥ tɕˈiɜ
+masking-tape: myep, 3717,  mˈaːskĩɡ pʰˈiːtaː,  jˈiɛ˧˥n pˈi tɕjˈɑu tˈai
+thanks-to: fyos, 4327,  (en)θˈaŋks sˈəʊ(hi),  (en)θˈaŋks(zh) thˈo
+praseodymium: pyem, 5303,  pɾˌeːsɪjoːɖˈiːmɪjˌəm,  phˈu˧˥
+fire-station: gzac, 3357,  ˈaːɡ sʈˈeːʃən,  xˈuo˧˥ ts.ˈan
+wine-vinegar: gwik, 3161,  wˈaːɪn sˈɪɾkˌaː,  phuɜthɑuɜ tɕˈiou˧˥ tshˈu
+because-of: bzos, 5092,  (en)bɪkˈʌz ɒv(hi),  pˌo-tshɑusˈo- (en)ɒv(zh)
+coffee-table: kfek, 4129,  kˈɔfi tˈaːlɪkˌaː,  khˈɑ fˈei pjˈɑu˧˥
+Koran: kwuk, 2742,  kʊɾˈaːn,  khˈo-˧˥ lˈaɜn tɕˈiŋ
+cocoa-powder: kcof, 4367,  kˈoːkoː pˈaːʊɖˌəɾ,  kho-ɜkhˈo-ɜ fˈə˧˥n mˈo
+cardiology: dyip, 3883,  kˈaːɾɖɪjˌəlɟˌi,  ɕˌintsaŋpˈiŋ
+fire-brigade: grif, 3685,  ˈaːɡ bɾɪɡˈeːɖ,  xˈuoɜ lˈy˧˥
+blue-jean: bjun, 4042,  blˈuː ɟˈiːn,  lˈaɜn sˈo- niouɜtsˈai˧˥
+gadolinium: dlom, 4843,  (en)ɡˌadəlˈɪniəm(hi),  kˈɑɜ
+punk-rock: pfuk, 3396,  ɡˈũɖaː cəʈːˈaːn,  phˈəɜŋ khˈo- jˈiɛɜn
+bank-manager: brek, 3881,  bˈɛ̃k pɾəbˈʌndʰək,  jiɜnxˈaɜŋ tɕiŋlˈi˧˥
+triple-point: tfot, 3250,  tˈiːn bˈĩdʊ,  sˈan ɕˈiɑŋ tˈiɛ˧˥n
+wear-out: zwon, 2601,  tʰˈʌknˌaː,  moɜsˈuə˧˥n
+stock-market: zyak, 3065,  sʈˈɔk baːɟˈaːɾ,  kˈu˧˥ phjˈɑu s.i.ts.hˈɑ˧˥ŋ
+ballet-skirt: bwek, 4638,  bˈɛːleː skˈʌɾʈ,  pɑlˈeiɜ wˈuɜ tˈua˧˥n tɕhˈyiɜn
+jussive-mood: jwim, 4912,  (en)dʒˈʌsɪv(hi) mənˈoːdʃˌaː,  mˈiŋ lˈiŋ tə˥ ɕˈin tɕhˈiɜŋ
+retail-store: drem, 3113,  kʰˈʊdɾˌaː dʊkˈaːn,  lˈiɜŋ s.ˈou s.ˈaŋ tˈiɛn
+filter-paper: frek, 3721,  pʰˈɪlʈəɾ kˈaːɡəz,  kˈuo lyts.ˈi.˧˥
+balance-beam: zwik, 3309,  sˈʌntʊlˌən kˈɪɾəɳ,  phˈiɜŋ xˈəɜŋ kwˈaŋ s.ˈu
+living-thing: zwic, 3540,  ɟˈiːʋɪt cˈiːz,  xˈuoɜ təɜ s.ˈi. tɕhˈiɜŋ
+travel-agent: fret, 3479,  jˈaːtɾaː eːɟˈẽːʈ,  lˈy˧˥ ɕˈiɜŋ tailˈi˧˥ ʐˈəɜn
+rhodium-atom: dyum, 5065,  ɾˌoːɖɪjˈaːm pˌəɾmˈaːɳʊ,  lˈɑu˧˥ yæɜntsˈi̪˧˥
+deontic-mood: dyom, 4127,  (en)diːˈɒntɪk(hi) mənˈoːdʃˌaː,  tˈɑu jˈi ɕˈin tɕhˈiɜŋ
+andative: dyet, 2903,  (en)ˈandətˌɪv(hi),  ˌantɑthivˈo-
+set-square: twec, 4125,  sˈeːʈ wˈʌɾɡ,  tsˈuɜ kwaɜŋts.hˈɑ˧˥ŋ
+french-toast: fom, 4481,  pʰɾˈẽːc ʈˈoːsʈ,  fˈɑ˧˥ kˈuoɜ khˈɑu˧˥ mˈiɛn pˈɑu
+erbium: bjim, 3146,  ˈʌɾbɪjˌəm,  ˈər˧˥
+patientive: pyec, 4246,  (en)pˈeɪʃəntˌɪv(hi),  phˌɑthiɛnthivˈo-
+near-subcase: psef, 4021,  pˈaːs (en)sˈʌbkeɪs(hi),  tɕˈin tsi̪˥ tɕhˈiɜŋ khwˈaŋ
+judo: juk, 3675,  ɟˈuːdoː,  ʐˈouɜ tˈɑu
+pot-plant: pfap, 3035,  mˈʌʈkˌaː pˈɔːdʰaː,  kˈuo ts.hˈɑ˧˥ŋ
+neoclassic: n6s, 4872,  nˌəʋʃˈaːstɾij,  ɕˈin kuɜtˈiɛ˧˥n
+french-fries: rax, 5580,  pʰɾˈẽːc pʰɾˈaːɪz,  fˈɑ˧˥ kˈuoɜ s.ˈu˧˥ thjˈɑuɜ
+aromatherapy: qap, 4726,  ˌʌɾoːmˌaːtʰeːɾˈeːpi,  fˈaŋ ɕˈiɑŋ ljɑuɜfˈɑ˧˥
+square-meter: w6t, 4008,  wˈʌɾɡ mˈiːʈəɾ,  kwaɜŋts.hˈɑ˧˥ŋ jiɜpjˈɑu˧˥
+citrus-fruit: tsix, 4881,  saːˈɪʈɾəs pʰˈʌl,  kˈan tɕˈyɜ s.weiɜkˈuo˧˥
+arctic-ocean: taq, 5010,  ˈaːɾkəʈˌɪk sˈaːɡəɾ,  pˈei˧˥ tɕˈiɜ xˈai˧˥ jˈiɑɜŋ
+spring-scale: xek, 4835,  wəsˈʌnt skˈeːl,  thaɜnxwˈɑɜŋ kˈuei mˈoɜ
+semolina: siq, 4131,  sˈuːɟi,  tshˈu miɛnfˈə˧˥n
+spring-onion: saq, 4023,  wəsˈʌnt pːjˈaːɟ,  thaɜnxwˈɑɜŋ jˈiɑɜŋ tshˈonɡ
+field-hockey: lix, 5140,  kʰˈeːt hˈɔki,  lˈi˧˥ŋ ʲˈy tɕhˈy kˈuən tɕhˈiouɜ
+dress-circle: vit, 3339,  poːʃˈaːk wɾˈɪtː,  lˈiɛɜn jˈi tɕhˈyiɜn tɕhˈyæn
+unit-of-mass: naq, 4777,  jˈuːnɪʈ keː dɾˌəʋjəmˈaːn,  tˈan wˈei ts.ˈi. lˈiɑŋ tə˥
+circular-saw: rix, 4381,  pˌəɾɪpˈʌtɾə dˈeːkʰaː,  ˈyæɜn tɕˈy
+port-wine: nix, 4773,  bˌəndəɾɡˈaːh wˈaːɪn,  tuankhˈou˧˥ phuɜthɑuɜ tɕˈiou˧˥
+wedding-cake: xak, 5005,  ʃˈaːdi kˈeːk,  xwuənlˈi˧˥ tˈan kˈɑu
+watercolor: waq, 4017,  pˈaːni keː ɾˈʌŋɡ kaː,  s.wˈeiɜ tshˈai˧˥
+chamberpot: cax, 3759,  peːʃˈaːb kˈʌɾnˌeː kaː bˈʌɾətˌən,  mɑɜthˈonɡ˧˥
+double-cream: d6m, 4559,  dˈoːɡʊnˌaː məlˈaːi,  s.wˈɑŋ nˈai˧˥ jˈiouɜ
+middle-voice: dyos, 3773,  mˈʌdʰjə aːʋˈaːz,  ts.ˈonɡ tɕˈiɛn ʲˈy˧˥ jˈin
+spirit-level: tiq, 3719,  ˈaːtmaː stˈʌɾ,  tɕˈiŋ s.ˈəɜn s.wˈei˧˥ phˈiɜŋ
+neck-brace: qes, 4004,  ɡˈʌɾədˌən bɾˈeːs,  tɕˈi˧˥ŋ pˈu ts.ˈi. ts.hˈəŋ
+else-if: syef, 3139,  kˈɪsi ɔːɾ jˌədɪ,  fˈou˧˥ tsˈo-ɜ
+ ʐuɜkˈuo˧˥
+tomato-juice: txas, 5341,  ʈəmˈaːʈəɾ ɾˈʌs,  fantɕhˈiɛɜ ts.ˈi.
+binary-value: vrim, 3845,  dʋˌɪaːdʰˈaːɾi mˈuːljə,  ˈər ts.ˈi.ɜ
+chiropractic: xrit, 5190,  (en)kˌaɪɹəpɹˈaktɪk(hi),  nˈiɛ tɕˈi
+pop-music: piq, 4980,  pˈɔp səŋɡˈiːt,  lˈiouɜ ɕˈiɜŋ təɜ jinˈyɛ
+dysphemism: s6m, 6574,  ɖˌɪspʰˈeːmɪzˌəm,  (en)dɪsfˈiːmɪzəm(zh)
+chili-pepper: liq, 3320,  mˈɪɾc mˈɪɾc,  lˈɑ tɕjˈɑu xˈuɜ tɕjˈɑu
+music-school: qik, 4703,  səŋɡˈiːt skˈuːl,  jinˈyɛ ɕˈyɛɜ ɕjˈɑu
+toilet-water: tlox, 3915,  ʃɔːcˈaːlˌɛj pˈaːni,  tsho-sˈuoɜ s.wˈei˧˥
+centric-case: trix, 4852,  kˈẽːdɾij mˈaːmlˌaː,  ts.ˈonɡ ɕˈin wˈai khˈo-ɜ
+south-africa: kfuk, 4660,  dˈʌkʃɪɳ ʌpʰɾˈiːkaː,  nˈaɜn fˈei ts.ˈou
+chequebook: txuk, 4006,  cˈeːk bˈʊk,  ts.ˈi. phjˈɑu pˈu
+air-mattress: xat, 4908,  wˈaːjʊ ɡˈʌddaː,  khˈonɡ tɕhˈi ts.hwˈɑɜŋ tˈiɛn
+mustard-seed: xris, 3729,  sˈʌɾsˌõ bˈiːɟ,  tɕiɛmo˥ ts.ˈonɡ˧˥ tsi̪˥˩
+prickly-pear: xip, 4374,  kˈãnʈeːdˌaːɾ nˌaːʃpˈaːti,  tshˈi̪ lˈiɜ
+watering-can: xik, 3998,  pˈaːni kˈʌɾ sˈʌktˌeː hɛ̃,  sɑɜs.wˈei˧˥ nˈəɜŋ kˈou
+prison-guard: pax, 3418,  ɟˈeːl ɡˈaːɾɖ,  tɕˈiɛn ʲˈy s.ˈou˧˥ wˈei
+chicken-coop: kxon, 4336,  mˈʊɾɡi sˈʌh sˈeːʃən,  tɕˈi kˈonɡ ʲˈyən
+oblique-case: bwok, 3793,  pəɾˈoːkʃ mˈaːmlˌaː,  ɕˈiɛɜ wˈai khˈo-ɜ
+nougat: nax, 5010,  nˈuːɡaː,  nˈiouɜ jˈiɑ thˈaɜŋ
+patient-case: qak, 4075,  məɾˈiːɟ mˈaːmlˌaː,  xuants.ˈo-˧˥ wˈai khˈo-ɜ
+adam's-apple: dax, 4925,  eːɖˈʌms sˈeːb,  jˈiɑ tˈaŋ sˈi̪ phiɜŋkˈuo˧˥
+protactinium: prum, 4920,  ˈeːk pɾəkˈaːɾ kaː ɾəsˈaːjnˌɪk mˌuːlətˈʌtːwə,  phˈuɜ
+water-hazard: wax, 3904,  pˈaːni sˈʌŋkəʈ,  s.wˈei˧˥ mɑuɕˈiɛ˧˥n
+tobacco-pipe: tax, 4976,  təmbˈaːkuː pˈaːɪp,  jiɛntshˈɑuɜ kwˈa˧˥n
+is-a-kind-of: xaf, 4479,  (en)ɐ kˈaɪnd ɒv(hi),  (en)lˌɪɡɐtʃəeɪˈiː(zh) kˌoɜtuɜər˥ (en)a˥f(zh)
+solar-system: xit, 4574,  sˈɔːɾ pɾəɳˈaːli,  thˈai jˈiɑɜŋ təɜ ɕithˈonɡ˧˥
+water-bottle: vat, 3342,  pˈaːni bˈoːtəl,  s.wˈei˧˥ phˈiɜŋ
+cement-mixer: sex, 5149,  simˈẽːʈ mˈɪksəɾ,  s.wˈei˧˥ nˈiɜ xwˈuən xˈo-ɜ tɕhˈi
+acorn-squash: qac, 4876,  bəlˈuːt kaː pʰˈʌl skʋˈaːʃ,  ɕˈiɑŋ tsi̪˥ pˈi tɕhˈiouɜ
+pumpkin-seed: kix, 4351,  kˈʌdduː bˈiːɟ,  nˈaɜn kwˈɑ ts.ˈonɡ˧˥ tsi̪˥˩
+dental-floss: tex, 4645,  dˈʌnt cɪkˈɪtsaː dˈãnt sˈaːpʰ kˈʌɾnˌeː kaː dʰˈaːɡaː,  jiɑɜts.hˈi.˧˥ mˈiɛɜn
+prehodiernal: xin, 5498,  pˈuːɾwə ˈʌʋtən,  ʲˈy (en)həʊ˥diə˥nəl˥(zh)
+bay-leaf: xap, 3540,  kʰˈaːr.i pˈʌtːi,  wˈɑn jˈiɛ
+in-case: k6s, 5599,  (en)kˈasəs(hi),  (en)kˈasəs(zh)
+krypton: kxot, 5027,  kɾˈiːpʈoːɳ,  khˈo-
+sandpit: sax, 4804,  ɾˈeːt ki kʰˈaːn,  s.ˈɑ khˈəŋ
+mailbag: kax, 4115,  ɖˈaːk kaː tʰˈɛːlaː,  jˈiouɜ tˈai
+single-quote: qit, 7210,  (en)sˈɪŋɡəl kwˈəʊt(hi),  si̪ŋlˈə tɕhˌyothˈə
+cash-machine: qin, 4879,  ɾˈoːkər. məʃˈiːn,  ɕˈiɛn tɕˈin tɕˈi
+carving-fork: kxat, 4833,  lˈʌkr.ˌi ki kʰoːdˈaːi kˈãʈaː,  tjˈɑu khˈo- ts.hˈɑ tsi̪˧˥
+jury-box: jyak, 4455,  pəɲcˈaːjət ɖˈɪbbaː,  phˈeiɜ s.ˈə˧˥n thˈuaɜn khwˈaŋ
+civil-rights: gix, 5023,  nˈaːɡɾˌɪk ˌʌdʰɪkˈaːɾ,  kˈonɡ mˈiɜn tɕhˈyæɜn lˈi
+initial-time: n6t, 6809,  (en)ɪnˈɪʃəl tˈaɪm(hi),  (en)ɪnˈɪʃəl(zh) thimˈo-
+pluractional: l6n, 6677,  (en)plʊəɹˈakʃənəl(hi),  (en)plʊəɹˈakʃənəl(zh)
+meitnerium: m6m, 4891,  (en)meɪtnˈiəɹɪəm(hi),  wˈɑn
+caraway-seed: xis, 3980,  ɟˈiːɾaː bˈiːɟ,  ɕˈiɑŋ tɕhˈiɜn tsˈi̪ɜ ts.ˈonɡ˧˥ tsi̪˥˩
+sleeping-bag: qat, 3450,  sˈoːjaː hˈʊaː bˈɛːɡ,  s.wˈei mˈiɛɜn tˈai
+school-bus: kxus, 4616,  skˈuːl bˈʌs,  ɕˈyɛɜ ɕjˈɑu tsˈonɡ˧˥ ɕˈiɛn
+except-for: kfep, 5268,  (en)ˈaksɛpt fɔː(hi),  (en)ɛksˈɛpt az bˈʊdə(zh)
+golf-bag: kfof, 4537,  ɡˈoːlf bˈɛːɡ,  kˌɑuər˧˥fˈu tɕhˈiouɜ tˈai
+camping-site: kxit, 5139,  kɛ̃pˈĩɡ sˈaːɪʈ,  lˈu jˈiɜŋ ɕiɛnts.hˈɑ˧˥ŋ
+camomile-tea: max, 4494,  baːbˈuːnaː cˈaːj,  kˈan tɕˈyɜ ts.hˈɑɜ
+hockey-stick: kiq, 5139,  hˈɔki cʰˈʌr.i,  tɕhˈy kˈuən tɕhˈiouɜ pˈaŋ
+curry-powder: kaq, 4645,  kˈʌɾi pˈaːʊɖˌəɾ,  kɑlˈiɜ fˈə˧˥n mˈo
+polysyndeton: l6t, 5746,  (en)pˌɒlɪsˈɪndɛtən(hi),  lˈiɛɜn tshˈi̪ɜ (en)aɜnd(zh) tˈiɛɜ
+fall-in-love: xan, 3745,  ɡˈɪɾnˌaː mẽː ˈɪʃk,  tɕhˈiou tɕˈi tsˈai ˈai
+notice-board: vin, 3590,  nˈoːʈɪs mˈʌɳɖəl,  ts.ˈu jˈi pˈa˧˥n
+ethium: fyim, 4495,  (en)iːθˈɪdiəm(hi),  ɕˈiou xwˈɑ jˈi˧˥ tˈiŋ
+if-only: jrot, 3133,  ˌʌɡəɾ kˈeːʋəl,  ʐuɜkˈuoɜ ts.ˈi.˧˥ jˈɑu
+seaborgium: sr6m, 5866,  sibˈoːɾɡɪjˌəm,  (en)sˈiːbɔːdʒəm(zh)
+bus-terminal: t6n, 5649,  bˈʌs ʈˈʌɾmɪnˌəl,  tsˈonɡ˧˥ ɕˈiɛn ts.ˈonɡ tˈiɛ˧˥n ts.ˈan
+burkina-faso: bvis, 5210,  bˈʊɾkɪnˌaː pʰˈaːsoː,  pˈu tɕˈi nˈɑ fˈɑɜ sˈuo˧˥ pˈu tɕˈi nˈɑ fˈɑɜ sˈuo˧˥
+walnut-oil: xot, 4237,  ˌʌkʰɾˈoːʈ tˈeːl,  xo-ɜthɑuɜ jˈiouɜ
+aerobics: r6k, 4221,  ˌeːɾoːbˈɪks,  jˈiouɜ jˈiɑ˧˥ŋ ʲˈyən tˈonɡ
+to-be: txan, 3001,  koː hˈoːnaː,  ts.ˈi. s.ˈi.
+pipe-bowl: paq, 3372,  pˈaːɪp kəʈˈoːɾaː,  kwˈaɜn wˈɑ˧˥n
+gneiss: xes, 4142,  ʃˈɛːl,  phˈiɛn mˈɑɜ jˈiɛɜn
+antanaclasis: tlaq, 5619,  jˈʌmək ˌʌlŋkˈaːɾ,  (en)ˈantɐnˌaklɐsˌiz(zh)
+bulldog-clip: xuk, 4582,  ˈeːk pɾəkˈaːɾ kaː kˈʊtː klˈɪp,  nˈiouɜ thˈouɜ tɕhˈyæ˧˥n tɕˈiɑ
+antimetabole: tix, 5600,  (en)ˌantɪmətˈabɒl(hi),  ˌanthimˌo-thɑpolˈə
+goal-trigger: lox, 3081,  lˈʌkʃjə ʈɾˈɪɡəɾ,  mˈu pjˈɑu ts.hˈu fˈɑ
+crochet-hook: keq, 4646,  (en)kɹəʊʃˈeɪ(hi) ˈʌŋkʊr.ˌaː,  kˈou pˈiɛn kˈou
+extinguisher: kxic, 3557,  ˈaːɡ bʊɟʰˈaːneː ki kˈʌl,  miɛxˈuo˧˥ tɕhˈi
+thermosphere: tsox, 5646,  tʰəɾmˈoːspʰijˌəɾ,  ʐˈo- tshˈəɜŋ
+luggage-rack: qan, 3731,  saːmˈaːn ɾˈɛːk,  ɕiɜŋliɜ tɕˈiɑ
+exhaust-pipe: kxap, 3925,  nɪkˈaːs pˈaːɪp,  phˈaiɜ tɕhikwˈa˧˥n
+cricket-ball: kxet, 4148,  kɾˈɪkɪt ɡˈẽːd,  ɕˈi s.ˈuai tɕhˈiouɜ
+clementine: xen, 5140,  klˌeːmẽːʈˈaːɪn,  khˈo- lˈaiɜ mˈəɜn
+rock-concert: kyax, 3583,  cəʈːˈaːn səŋɡˈiːt kˈaːɾjəkɾˌəm,  jˈiɛɜn jinˈyɛ xˈuei
+hash-out: xax, 5462,  hˈɛːʃ bˈaːhəɾ,  xˈɑ ɕˈi ts.hˈu
+hand-luggage: xam, 3473,  hˈaːtʰ saːmˈaːn,  s.ˈou˧˥ ɕiɜŋliɜ
+theme-park: txak, 4227,  wˈɪʂˌɛj pˈaːɾk,  ts.ˈu˧˥ thˈiɜ kˈonɡ ˈyæɜn
+on-behalf-of: raq, 3469,  pˈʌɾ pˈʌkʃ kaː,  s.ˈaŋ taipjˈɑu˧˥ tə˥˩
+roller-blind: lax, 4647,  bˈeːlən ˈʌndʰaː,  jˈiɑ lˈu tɕˈi mˈaɜŋ
+vatican-city: txin, 4779,  wˈeːʈɪkˌən ʃˈʌhəɾ,  tɕjˈɑu thˈiɜŋ s.ˈi.
+single-cream: qim, 4491,  ˈeːk məlˈaːi,  tˈan nˈai˧˥ jˈiouɜ
+tennis-court: tsex, 5544,  ʈˈeːnɪs njaːjˈaːlˌɛj,  wˈɑ˧˥ŋ tɕhˈiouɜ fˈɑ˧˥ thˈiɜŋ
+orange-juice: r6s, 4361,  naːɾˈʌŋɡi ɾˈʌs,  ts.hˈəɜŋ ts.ˈi.
+in-case-of: ks6s, 4511,  (en)kˈasəs dˈɑːɹi(hi),  (en)kˈasəs(zh) tɑʐˈi.
+san-marino: vran, 5225,  sˈaːn mˈaːɾɪnˌoː,  sˈan mɑɜlˈi˧˥ nˈuo
+florist-shop: laq, 4507,  pʰˌuːlʋˈaːlaː dʊkˈaːn,  xwˈɑ s.ˈaŋ tˈiɛn
+relativeizer: l6s, 4502,  (en)ɹɪlˈatɪvˌaɪzə(hi),  ʐˌo-lɑthˌivitsˈər
+cream-cheese: mix, 3521,  məlˈaːi pənˈiːɾ,  nˈai˧˥ jˈiouɜ tɕhˈi˧˥ sˈi̪
+sierra-leone: xlin, 5184,  pəhˈaːr.õ kaː sˈɪlsˌɪlaː lɪjˈoːn,  nˈei xwˈɑɜ tˈɑɜ lˈi ˈɑɜŋ
+vas-deferens: van, 5442,  wˌiːeːˈeːs (en)dˈɛfəɹənz(hi),  s.ˈu tɕˈiŋ kwˈa˧˥n s.ˈu tɕˈiŋ kwˈa˧˥n
+satsuma: ts6m, 5283,  (en)satsˈuːmə(hi),  sˈɑ mˈoɜ
+milliliter: xlit, 4707,  mˈɪli lˈiːʈəɾ,  xˈɑuɜ s.ˈəŋ
+clove-pink: klaq, 3955,  lˈɔ̃ɡ ɡʊlˈaːbi,  tˈiŋ ɕiɑŋfˈə˧˥n
+ground-floor: miq, 3859,  bʰˈuːmɪ mˈʌɲzɪl,  timˈiɛn tipˈa˧˥n
+doorbell: diq, 3552,  dəɾʋˈaːzi ki ɡʰˈʌɳʈi,  mˈəɜn lˈiɜŋ
+tape-measure: txam, 4176,  pʰˈiːtaː mˈaːp,  tɕjˈɑu tˈai tsho-lˈiɑɜŋ
+cotton-plant: psax, 4446,  kəpˈaːs pˈɔːdʰaː,  mˈiɛɜn ts.hˈɑ˧˥ŋ
+garlic-press: xas, 4111,  lˈʌhəsˌʊn dəbˈaːj,  tˈɑ sˈuan ˈan
+prior-to: pix, 5443,  (en)pɹˈaɪə sˈəʊ(hi),  phʐˌi.oər˧˥ tho˥
+major-planet: maq, 3946,  pɾˈʌmʊkʰ ɡɾˈʌh,  ts.ˈonɡ tˈɑ tə˥ ɕˈiɜŋ ɕˈiŋ
+sailing-boat: nux, 3872,  nɔːkˈaːjən nˈaʊ,  fˈan ts.hˈuaɜn ts.hˈuaɜn
+bowling-ball: biq, 4360,  ɡˌẽːdbˈaːɟi ɡˈẽːd,  pˈɑu˧˥ lˈiɜŋ tɕhˈiouɜ tɕhˈiouɜ
+eyeliner: vlin, 4181,  ˌaːilˈaːɪnˌəɾ,  jˈiɛ˧˥n ɕˈiɛn
+converb: k6p, 4097,  (en)kənvˈɜːb(hi),  (en)kənvˈɜːb(zh)
+safety-pin: xic, 4069,  sʊɾˈʌkʃaː pˈɪn,  ˈan tɕhˈyæɜn ɕjˈɑu
+kung-fu: kuq, 5422,  kˈũɡ pʰˈuː,  kˈonɡ fu˧˥ fˈuɜ
+table-tennis: vis, 4521,  tˈaːlɪkˌaː ʈˈeːnɪs,  pjˈɑuɜ wˈɑ˧˥ŋ tɕhˈiouɜ
+shoulder-bag: txat, 3332,  kˈʌndʰaː bˈɛːɡ,  tɕˈiɛn tˈai
+shopping-bag: kraq, 3713,  kʰˌəɾidˈaːɾi bˈɛːɡ,  kˈou wˈu tˈai
+elative-case: vik, 4156,  səmbˈʌndʰi mˈaːmlˌaː,  ɕˈiɑŋ tˈuei tə˥ wˈai khˈo-ɜ
+goatfish: gyif, 4503,  (en)ɡˈəʊtfɪʃ(hi),  ɕˈy tjˈɑu khˈo-
+bass-clef: bax, 4734,  bˈaːs kˈũɟi,  tˈi jˈin phˈu˧˥ xˈɑu
+saudi-arabia: srax, 4571,  sˈʌudˌi ˈʌɾəb,  s.ˈɑ thˈə ˈɑ lˈɑ pˈoɜ
+phonological: fix, 3981,  dʰʋˈʌni,  jˈin ʲˈyən
+teddy-bear: dex, 4606,  ʈˈeːɖi bʰˈaːluː,  wˈɑɜn tɕˈy ɕˈyɜŋ
+swivel-chair: vas, 4103,  kˈũɖaː kˈʊɾsˌi,  ɕyæɜnts.ˈuaɜn jˈi˧˥ tsi̪˥˩
+papier-mache: xim, 4107,  kˈaːɡəɟ lˈʊɡdˌi,  xwˈuən nˈiɜŋ ts.ˈi.˧˥ ɕˈiɜŋ
+fishing-boat: xun, 3893,  mˈʌcʰlˌi pˈʌkər.naː nˈaʊ,  tjˈɑu ʲˈyɜ ts.hˈuaɜn
+coffee-cup: kfop, 5229,  kˈɔfi kˈʌp,  khˈɑ fˈei pˈei
+indian-ocean: niq, 4843,  bʰˌaːɾtˈiːj sˈaːɡəɾ,  jˈin tˈu ʐəɜnxˈai˧˥ jˈiɑɜŋ
+urban-center: xet, 4164,  ʃˈʌhəɾˌi kˈẽːdɾə,  ts.hˈəɜŋ s.ˈi. tə˥ ts.ˈonɡ jˈiɑŋ
+pepperoni: prix, 5015,  pˌeːpɾˈɔːni,  jˈi tˈɑ lˈi lˈɑ wˈei ɕˈiɑŋ ts.hˈɑɜŋ
+snowsuit: s6s, 4405,  (en)snˈəʊsuːt(hi),  fˈaɜŋ ɕˈyɛ˧˥ ts.wˈɑŋ
+epanorthosis: pfos, 7036,  (en)ˌɛpɐnɔːθˈəʊsɪs(hi),  (en)ˌɛpɐnɔːθˈəʊsɪs(zh)
+goalpost: qot, 3794,  ɡˈoːl pˈoːsʈ,  mˈəɜn ts.ˈu
+cold-cream: qam, 4377,  sˈʌɾdi məlˈaːi,  lˈəɜŋ nˈai˧˥ jˈiouɜ
+double-quote: dlok, 7053,  (en)dˈʌbəl kwˈəʊt(hi),  (en)dˈʌbəl(zh) tɕhˌyothˈə
+scuba-diving: kxan, 4156,  ˈeːk pɾəkˈaːɾ kaː wɾˈɪkʃ ɖˌaːɪʋˈĩɡ,  s.wˈei˧˥ fˈei tɕhiɛɜns.wˈei˧˥
+shaving-foam: vam, 4269,  həɟˈaːmət bənˈaːneː kaː kˈaːm ɟʰˈaːɡ,  kwˈɑ phˈɑu mˈo
+bed-linen: tl6n, 4237,  bˈɪstəɾ lˈɪnən,  ts.hwˈɑɜŋ mˈɑɜ pˈu
+wooden-spoon: vak, 3501,  lˈʌkr.ˌi kaː cˈʌmməc,  mˈu s.ˈɑuɜ
+lawrencium: l6m, 4815,  lɔɾˈẽːʃɪjˌəm,  lˈɑuɜ
+rump-steak: vet, 4107,  dˈʊm sʈˈeːk,  thwˈuəɜn pˈu nˈiouɜ phˈaiɜ
+Web-site: bvat, 4175,  wˈeːb sˈaːɪʈ,  tɕˈyæɜn thˈonɡɜ ts.ˈi.˧˥ ɕiɛnts.hˈɑ˧˥ŋ
+holmium: xlim, 5580,  (en)hˈɒlmiəm(hi),  xˈuo˧˥
+new-year: nyaq, 3567,  nˈʌjaː sˈaːl,  ɕˈin nˈiɛɜn
+telic-aspect: leq, 5282,  (en)tˈɛlɪk(hi) pˈʌhəlˌuː,  (en)tˈɛlɪk(zh) fˈaŋ mˈiɛn
+landing-gear: txix, 3879,  ˈʌʋətˌəɾəɳ ɡˈɪjəɾ,  tɕˈiɑŋ lˈuo ts.hˈi.˧˥ lˈuəɜn
+service-line: vwin, 4170,  sˈʌɾʋɪs lˈaːɪn,  fuɜwˈu ɕˈiɛn
+hafnium: fax, 4656,  hˈeːfnˌɪjəm,  xˈɑ
+first-person: f6s, 6400,  (en)fˈɜːst pˈɜːsən(hi),  (en)fˈɜːst(zh) phərsˈon
+vibraphone: vrin, 6407,  (en)vˈaɪbɹɐfˌəʊn(hi),  ts.hˈan jˈin tɕhˈiɜn
+abessive-case: bvak, 6805,  (en)ɐbˈɛsɪv(hi) mˈaːmlˌaː,  (en)ɐbˈɛsɪv(zh) wˈai khˈo-ɜ
+francium: faq, 5301,  (en)fɹˈansiəm(hi),  fˈaŋ
+sewing-basket: txik, 3821,  sɪlˈaːi ʈˈoːkɾˌi,  ts.ˈən ɕˈiɛn xˈuoɜ lˈaɜn
+ablative-case: bvik, 4860,  pˈʌɲcəmˌi wɪbʰˈʌktɪ mˈaːmlˌaː,  tˈuoɜ kˈo-ɜ wˈai khˈo-ɜ
+cow/bull: vlac, 4400,  ɡˈaːj (en)slˈaʃ(hi) bˈɛːl,  nˈiouɜ (en)slaɜʃ(zh) nˈiouɜ
+aerosol: xres, 3890,  ˌeːjɾoːsˈoːl,  tɕhˈi wˈu tɕˈi
+morning-glory: sox, 3743,  sˈʊbəh mˈʌhɪmˌaː,  tsɑu˧˥s.a˥˩ŋ ʐˈonɡɜ jˈɑu
+hair-coloring: koq, 4534,  kˈeːʃ ɾˈʌŋɡ,  thouɜfɑɜ ʐˈa˧˥n sˈo-
+mangosteen: qas, 6292,  (en)mˌaŋɡəstˈiːn(hi),  s.ˈan ts.ˈuɜ
+rhenium: riq, 4133,  ɾˌeːnijˈaːm,  lˈaiɜ
+modal-case: dlox, 4685,  mˈoːɖəl mˈaːmlˌaː,  ʲˈy˧˥ tɕhˈi wˈai khˈo-ɜ
+group-therapy: gup, 4142,  səmˈuːh cɪkˈɪtsaː,  tsˈu˧˥ ts.ˈi. ljˈɑuɜ
+adessive-case: dvak, 6857,  (en)ɐdˈɛsɪv(hi) mˈaːmlˌaː,  (en)ɐdˈɛsɪv(zh) wˈai khˈo-ɜ
+hard-shoulder: xon, 3419,  kˈʌʈʰɪn kˈʌndʰaː,  jˈiŋ tɕˈiɛn
+grated-cheese: rex, 3690,  kˈʌsaː hˈʊaː pənˈiːɾ,  mˈoɜ sˈuei tɕhˈi˧˥ sˈi̪
+agentive-case: dvik, 5041,  (en)eɪdʒˈɛntɪv(hi) mˈaːmlˌaː,  s.ˈi. s.ˈi. wˈai khˈo-ɜ
+black-sea: ksax, 3942,  kˈaːli səmˈʊdɾə,  xˈei sˈo- xˈai˧˥
+second-person: s6n, 6418,  (en)ˈɛs ˈiː sˈiː pˈɜːsən(hi),  (en)sˈɛkənd(zh) phərsˈon
+black-tea: xlat, 4180,  kˈaːli cˈaːj,  xˈei sˈo- ts.hˈɑɜ
+coral-reef: kxaf, 3642,  mˈũɡaː cəʈːˈaːn,  s.ˈan xˈuɜ tɕjˈɑu
+kumquat: kxak, 4445,  (en)kˈʌmkwat(hi),  tɕˈin tɕˈyɜ
+allative-case: l6k, 5943,  (en)ˈalətˌɪv(hi) mˈaːmlˌaː,  (en)ˈalətˌɪv(zh) wˈai khˈo-ɜ
+schadenfreude: crax, 4606,  (en)ʃˈadənfɹˌɔɪd(hi),  ɕˈiŋ tsˈai lˈə xˈuo
+pine-nut: nox, 3804,  dˌeːʋdˈaːɾ ˌʌkʰɾˈoːʈ,  sˈonɡ s.ˈu tɕiɛnkˈuo˧˥
+on-account-of: k6n, 4115,  pˈʌɾ kˈaːɾəɳ kaː,  s.ˈaŋ ts.ˈaŋ xˈu tə˥
+anticausative: ts6t, 6626,  (en)ˌantɪkˈɔːsətˌɪv(hi),  ˌanthitshˌɑusˌɑthivˈo-
+calcite: vlas, 4745,  kˈeːlsaːˌɪʈ,  fˈaŋ tɕˈiɛ˧˥ s.ˈi.ɜ
+gin-and-tonic: n6n, 4984,  ɟˈɪn tˈʌtʰaː ʈˈɔnɪk,  tˈu sˈonɡ tsi̪˧˥ tɕˈiou˧˥ xˈo-ɜ puɜphˈi˧˥n
+sirloin-steak: qek, 4490,  (en)sˈɜːlɔɪn(hi) sʈˈeːk,  niouɜnˈa˧˥n nˈiouɜ phˈaiɜ
+rock-climbing: xlan, 4059,  cəʈːˈaːn cˈʌr.hənˌaː,  jˈiɛɜn phˈan tˈəŋ
+agent-trigger: glet, 3709,  eːɟˈẽːʈ ʈɾˈɪɡəɾ,  tailˈi˧˥ ʐˈəɜn ts.hˈu fˈɑ
+costa-rica: srix, 4971,  kˈoːsʈaː ɾˈɪkaː,  kˈo- sˈi̪ tˈɑɜ lˈiɜ tɕˈiɑ kˈo- sˈi̪ tˈɑɜ lˈiɜ tɕˈiɑ
+angle-bracket: gr6t, 6472,  (en)ˈaŋɡəl bɹˈakɪt(hi),  ɑŋlˈə (en)bɹˈakɪt(zh)
+multal: m6t, 6677,  (en)mˈʌltəl(hi),  (en)mˈʌltəl(zh)
+grocery-store: kxin, 4216,  kɪɾˈaːnaː dʊkˈaːn,  tsˈɑɜ xˈuo s.ˈaŋ tˈiɛn
+rutherfordium: r6m, 5838,  ɾˌədəɾpʰˈoːɾɖɪjˌəm,  (en)ɹˌuːðəfˈɔːdiəm(zh)
+recycling-bin: slaq, 4754,  ɾˌiːsaːɪklˈĩɡ bˈɪn,  xˈueiɜ s.ˈou ɕˈiɑŋ tsi̪˧˥
+common-gender: m6n, 3856,  saːmˈaːnjə lˈĩɡ,  kˈonɡ thˈonɡɜ ɕˈiŋ pˈiɛɜ
+record-player: loq, 3615,  ˌʌbʰɪlˈeːkʰ kʰɪlˈaːr.i,  tɕˈi lˈu pˈo fˈaŋ tɕˈi
+gauze-bandage: gaq, 3479,  dʰˈũdʰ pˈʌʈːi,  s.ˈɑ pˈu pəŋtˈai
+strikebreaker: trax, 4653,  hˌər.tˈaːl tˌoːr.neːʋˈaːlaː,  pɑkˈonɡ phˈo xˈuai ts.ˈo-˧˥
+rainbow-trout: xut, 4059,  ˈĩdɾədʰnʊʂ ʈɾˈaːʊʈ,  tshai˧˥xˈonɡɜ tsˈuən ʲˈyɜ
+hot-chocolate: xok, 5665,  ɡˈʌɾəm cˌɔklˈeːʈ,  ʐˈo- tɕhjˈɑu˧˥ khˈo- lˈi
+jodhpurs: dux, 4351,  ɟˌoːdʰpˈuːɾ,  mˈɑ˧˥ khˈu
+radio-antenna: ven, 5003,  ɾˈeːɖɪjˌoː ẽːʈˈiːnaː,  wˈuɜ ɕˈiɛn tˈiɛn thˈiɛn ɕˈiɛn
+friction-tape: txit, 4443,  ʈˈʌkɾˌaʊ pʰˈiːtaː,  mˈoɜ tshˈɑ tɕjˈɑu tˈai
+regardless-of: gl6s, 6555,  (en)ɹɪɡˈɑːdəlz ɒv(hi),  (en)ɹɪɡˈɑːdləs ɒv(zh)
+relay-race: lex, 4005,  ɾˈɪleː dˈɔːr.,  ts.ˈonɡ tɕˈi ts.ˈonɡ˧˥ tsˈuɜ
+freight-train: xret, 4271,  bʰˈaːr.aː ɾˈeːl ɡˈaːɖi,  xˈuo wˈu pheiɜjˈiɑ˧˥ŋ
+formal-garden: r6n, 4584,  ˌɔːpcˈaːɾɪk bəɡˈiːcaː,  ts.ˈəŋ s.ˈi. xwˈɑ ˈyæɜn
+subsequent-to: s6t, 6859,  (en)sˈʌbsɪkvənt sˈəʊ(hi),  (en)sˈʌbsɪkwənt(zh) thˈo
+citation-form: t6m, 3918,  ˈʊddʰəɾˌəɳ pɾəpˈʌtɾə,  jˈi˧˥n ˈyuŋ ɕˈiɜŋ ts.hˈəɜŋ
+putting-green: plax, 3754,  ɖˈaːl hˈʌɾaː,  pˈɑ˧˥ lˈy sˈo-
+long-ago: lux, 3298,  lˈʌmbaː pˈuːɾwə,  ts.hˈɑɜŋ tɕhˈiɛɜn
+wake-up: xup, 3328,  ɟˈaːɡnˌaː ˈupəɾ,  xuanɕˈi˧˥ŋ ɕˈiɑŋ s.ˈaŋ
+short-circuit: tsax, 3476,  ʃˈaːɾʈ sˈʌɾkɪʈ,  tˈua˧˥n lˈu
+logical-place: jlip, 6447,  (en)lˈɒdʒɪkəl plˈeɪs(hi),  (en)lˈɒdʒɪkəl(zh) phlɑtshˈo-
+pudding-stone: pux, 5400,  pʊɖˈĩɡ pˈʌttʰəɾ,  pˈu tˈiŋ s.ˈi.ɜ
+socket-wrench: six, 3875,  sɔkˈeːʈ ɾˈĩc,  ts.hˈɑ tsˈuo pans.ˈou˧˥
+cesium: sy6m, 3838,  sˈiːzɪjˌəm,  sˈo-
+delative-case: dvek, 6020,  (en)dɪlˈatɪv(hi) mˈaːmlˌaː,  tˌəlɑthivˈo- wˈai khˈo-ɜ
+xenon: zyen, 3664,  ksˈiːnən,  ɕˈiɛn
+acrylic-paint: kliq, 5155,  ˈɛːkɾeːlˌɪk ɾˈʌŋɡ,  pˈi˧˥ŋ ɕˈi sˈuan s.ˈu ts.ˈi. thuɜljˈɑu
+adhesive-tape: dvat, 4824,  ɡˈõd pʰˈiːtaː,  tɕjɑunˈiɛɜn tɕˈi tɕjˈɑu tˈai
+ironing-board: triq, 3824,  ˈɪstɾi mˈʌɳɖəl,  ʲˈyən thˈaŋ pˈa˧˥n
+durating-time: duq, 5927,  (en)djˈʊəɹeɪtˌɪŋ tˈaɪm mˌiː(hi),  tˌuʐɑthˈiŋ s.ˈi.ɜ tɕˈiɛn
+raincoat: pyek, 2675,  ɾˌeːnkˈoːʈ,  ʲˈy˧˥ jˈi
+cry-out: kox, 3781,  ɾˈoːnaː bˈaːhəɾ,  khˈu ts.hˈu
+look-at: kxas, 3873,  dˈeːkʰnˌaː pˈʌɾ,  khˈan tsˈai
+jigsaw-puzzle: gax, 3895,  ˈaːɾaː pəhˈeːli,  phˈin thˈuɜ nˈaɜn thˈiɜ
+south-america: kxik, 4289,  dˈʌkʃɪɳ ʌmˈeːɾɪkˌaː,  naɜnmˈei˧˥ kˈuoɜ
+hematite: xix, 5034,  hˈeːmʈˌɪʈ,  ts.hˈi. thˈiɛ˧˥ khwˈaŋ
+space-shuttle: txic, 3823,  ˌʌntəɾˈɪkʃ ʃˈʌʈəl,  khˈonɡ tɕˈiɛn ts.hˈuan sˈuo
+space-station: ps6n, 3965,  ˌʌntəɾˈɪkʃ sʈˈeːʃən,  khˈonɡ tɕˈiɛn ts.ˈan
+exercise-bike: zyik, 4158,  ʋjaːjˈaːm bˈaːɪk,  ɕiɜŋs.ˈi.˧˥ tsˈi̪ ɕˈiɜŋ ts.hˈo-
+direct-object: r6t, 4299,  pɾətːjˈʌkʃ wˈʌstʊ,  ts.ˈi.ɜ tɕˈiɛ mutˈi
+exchange-rate: daq, 3582,  ˈʌdlˌaː bˈʌdlˌi dˈʌɾ,  tɕjˈɑu xˈuan lˈy
+ergative-case: gvik, 5699,  (en)ˈɜːɡətˌɪv(hi) mˈaːmlˌaː,  tsˈuo kˈo-ɜ wˈai khˈo-ɜ
+wire-stripper: xrap, 4708,  tˈaːɾ kʰˈaːl ˌʊdʰeːr.neːʋˈaːlaː,  ɕˈiɛn thˈuo jˈi wˈu˧˥ niɑ˥˩ŋ
+bar-code: brop, 4519,  bˈaːɾ kˈoːɖ,  tɕiou˧˥pˈɑ mˈɑ˧˥
+white-currant: pxet, 4047,  səpʰˈeːd kˈɪʃmˌɪʃ,  pˈaiɜ sˈo- xˈei tshˈu lˈi
+earth's-crust: txap, 3852,  pɾˈɪtʰʋi ki pˈaːpr.ˌi,  titɕhˈiouɜ mˈiɛn pˈɑu phˈiɜ
+amount-marker: kxac, 3713,  ɾˈʌkəm nɪʃˈaːn,  lˈiɑŋ pjˈɑu tɕˈi
+exessive-case: t6k, 4357,  ˈʌtːjədʰˌɪk mˈaːmlˌaː,  kˈuo tˈuo wˈai khˈo-ɜ
+whipped-cream: txim, 3313,  kˈoːsaː məlˈaːi,  piɛntˈɑɜ nˈai˧˥ jˈiouɜ
+dressing-gown: seq, 4481,  ɖɾeːsˈĩɡ ɡˈaːʊn,  ts.hˈuan jˈi phˈɑuɜ
+sports-jacket: xrok, 4684,  kʰˈeːl ɟɛːkˈeːʈ,  thˈi˧˥ ʲˈy tɕiɑɜkhˈo-
+fermium: frem, 5769,  (en)fˈɜːmiəm(hi),  fˈei
+polyptoton: p6t, 6677,  (en)pˌɒlɪptˈɒtən(hi),  (en)pˌɒlɪptˈɒtən(zh)
+aquatic-plant: wix, 4456,  ɟəlˈiːj pˈɔːdʰaː,  s.wˈeiɜ ts.hˈɑ˧˥ŋ
+wedding-dress: dix, 3860,  ʃˈaːdi poːʃˈaːk,  xwuənlˈi˧˥ lˈiɛɜn jˈi tɕhˈyiɜn
+arctic-circle: tcix, 4417,  ˈaːɾkəʈˌɪk wɾˈɪtː,  pˈei˧˥ tɕˈiɜ tɕhˈyæn
+dubnium: d6n, 6209,  (en)dˈʌbniəm(hi),  (en)dˈʌbniəm(zh)
+little-finger: yiq, 3684,  tʰˈoːr.aː ˈʊŋɡəlˌi,  ɕjˈɑuɜ s.ouɜts.ˈi.˧˥
+plimsoll-line: psix, 5611,  (en)plˈɪmsɒl(hi) lˈaːɪn,  phˈu˧˥ lˈi mˈuɜ suoɜˈər˧˥ ɕˈiɛn
+playing-field: xaq, 3332,  kʰˈeːl ɾˌəheː hɛ̃ kʰˈeːt,  pˈo fˈaŋ lˈi˧˥ŋ ʲˈy
+actor-role: krax, 3783,  ˌʌbʰɪnˈeːtaː bʰˈuːmɪkˌaː,  jˈiɛ˧˥n ˈyæɜn tɕjˈɑu˧˥ sˈo-
+cylinder-head: slix, 4117,  sɪlˈẽːɖəɾ sˈɪɾ,  ts.ˈu mˈiɛn thˈouɜ
+sword-lily: tlix, 4017,  tˌəlʋˈaːɾ lˈɪli,  tɕˈiɛn pˈai˧˥ xˈo-ɜ
+symploce: sl6s, 5830,  (en)sˈɪmpləʊs(hi),  (en)sˈɪmpləʊs(zh)
+place-setting: txet, 4199,  ɟˈʌɡəh seːʈˈĩɡ,  titˈiɛ˧˥n xˈuaɜn tɕˈiŋ
+macadamia-nut: mex, 4724,  (en)mˌakədˈeɪmiə(hi) ˌʌkʰɾˈoːʈ,  ˈɑu ts.ˈou tɕiɛnkˈuo˧˥
+creme-caramel: kr6m, 4860,  kɾˈiːm kˌaːɾmˈeːl,  nˈai˧˥ jˈiouɜ tɕjˈɑu thˈaɜŋ
+starting-line: xran, 3819,  ʃˌʊɾʊˈaːt mẽː lˈaːɪn,  khais.ˈi.˧˥ ɕˈiɛn
+cracked-wheat: xum, 3965,  pʰˈʌʈaː ɡˈeːhũ,  tshˈuən ɕjˈɑu˧˥ mˈai
+volitive-mood: vim, 5505,  (en)vˈɒlɪtˌɪv(hi) mənˈoːdʃˌaː,  jˈi ˈyæn s.ˈi. ɕˈin tɕhˈiɜŋ
+crt-screen: sraq, 4058,  siˈaːɾʈˌi skɾˈiːn,  sˌeiˌərɜthˈi phˈiɜŋ mˈu
+balance-wheel: slax, 3282,  sˈʌntʊlˌən pˈʌhɪjˌaː,  phˈiɜŋ xˈəɜŋ lˈuəɜn
+physiotherapy: fyip, 5028,  pʰˌɪɟɪjˌoːtʰɛːɾˈeːpi,  lˈi˧˥ ljˈɑuɜ
+vacuum-bottle: k6t, 4868,  wˈɛːkːjuːm bˈoːtəl,  ts.ˈən khˈonɡ phˈiɜŋ
+conveyor-belt: kr6t, 4420,  kənʋˈeːjəɾ bˈeːlʈ,  s.ˈu sˈonɡ tˈai tˈai
+contrabassoon: tr6n, 5686,  (en)kˌɒntɹəbasˈuːn(hi),  tˈi jinkwˈa˧˥n
+conning-tower: xyat, 3481,  ʈʰˈʌɡ minˈaːɾ,  tɕˈiŋ tˈuɜ thˈɑ˧˥
+illative-case: gvak, 4655,  nətˈiːɟeː kaː mˈaːmlˌaː,  (en)ɪlˈatɪv(zh) wˈai khˈo-ɜ
+baseball-team: blem, 5903,  bˈeːsbˌɔl ʈˈiːm,  pˈaŋ tɕhˈiouɜ tɕhˈiouɜ tˈuei
+bass-clarinet: b6n, 5193,  bˈaːs ʃˌəhənˈaːi,  tˈi jˈin tˈan xwɑɜŋkwˈa˧˥n
+united-states: xrat, 4207,  jˌuːnaːɪʈˈeːɖ ɾˈaːɟjõ,  lˈiɛɜn xˈo-ɜ təɜ ts.wˈɑŋ thˈai
+pencil-eraser: plix, 3923,  pˈẽːsɪl ɾˈʌbər.,  tɕhiɛnpˈi˧˥ ɕˈiɑŋ phˈiɜ
+computer-game: kyux, 4741,  kəmpːjˈuːʈəɾ kʰˈeːl,  tɕˈi sˈuan tɕˈi jˈiouɜ ɕˈi
+bohrium: br6m, 6174,  bˈoːɾɪjˌəm,  (en)bˈəʊɹiəm(zh)
+motion-uphill: rox, 4193,  pɾˈʌstaʊ ˈupəɾ ki ˈoːɾ,  ʲˈyən tˈonɡ s.ˈaŋ phˈo
+trans-numeral: tsaq, 5075,  ʈɾˈãs ˈʌŋk,  fˈa˧˥n s.ˈi. s.ˈu tsˈi̪
+inessive-case: nex, 5643,  (en)ɪnˈɛsɪv(hi) mˈaːmlˌaː,  nˈei kˈo-ɜ wˈai khˈo-ɜ
+peanut-butter: pxik, 3722,  mˈũɡəpʰli mˈʌkkʰən,  xwˈɑ s.ˈəŋ xwˈɑɜŋ jˈiouɜ
+consist-of: y6t, 3240,  mˈɪləkˌəɾ kaː,  jˈiouɜ təɜ
+sunflower-oil: sux, 3901,  sˈuːɾəɟmʊkʰˌi tˈeːl,  ɕˈiɑŋ ʐˈi. khˈueiɜ jˈiouɜ
+club-sandwich: ksiq, 5094,  klˈʌb sˈɛ̃ɖʋˌɪc,  tɕˈy lˈə pˈu sˈan mˈiɜŋ ts.ˈi.
+Eulers-number: luq, 4538,  (en)ˈɔɪləz(hi) sˈʌŋkʰjaː,  (en)ˈɔɪləz(zh) s.ˈu
+temporal-case: mwok, 3587,  lˈɔːkɪk mˈaːmlˌaː,  nˈiɛ wˈai khˈo-ɜ
+birthday-cake: m6k, 4427,  ɟˈʌnmədˌɪn kˈeːk,  s.əŋʐi.˧˥ tˈan kˈɑu
+irrealis-mood: r6c, 4288,  (en)ɪɹˈiəliz(hi) mənˈoːdʃˌaː,  fˈei ɕˈiɛn s.ˈi.ɜ ɕˈin tɕhˈiɜŋ
+middle-finger: dyiq, 4029,  mˈʌdʰjə ˈʊŋɡəlˌi,  ts.ˈonɡ tɕˈiɛn s.ouɜts.ˈi.˧˥
+passion-fruit: cux, 4175,  ɟʊnˈuːn pʰˈʌl,  tɕhˈiɜŋ s.weiɜkˈuo˧˥
+mineral-water: xrin, 3761,  kʰˈʌnɪɟ pˈaːni,  khwˈaŋ wˈu s.wˈei˧˥
+loganberry: gex, 4192,  loːɡˈaːnbeːɾˌɪ,  jˈiɑɜŋ mˈeiɜ
+too-much: tux, 3647,  bˈʌhʊt bˈʌhʊt,  thˈai ɕˈy˧˥ tˈuo
+traffic-light: traq, 4445,  jˌaːtaːjˈaːt ɾˈoːʃnˌi,  tɕjˈɑu thˈonɡ kwˈaŋ
+black-pudding: suq, 4715,  kˈaːli pʊɖˈĩɡ,  xˈei sˈo- pˈu tˈiŋ
+hassium: xyim, 4548,  hˈɛːʃɪjˌəm,  əː˥ˈərpˈɑpˈisˈi̪lˈiou
+parking-meter: pxam, 4836,  pˈaːɾkĩɡ mˈiːʈəɾ,  thˈiɜŋ ts.hˈo- jiɜpjˈɑu˧˥
+cider-vinegar: drix, 4858,  sˈaːɪɖˌəɾ sˈɪɾkˌaː,  phiɜŋkˈuoɜ tɕˈiou˧˥ tshˈu
+milky-way: pxim, 3008,  dˈuːdʰ kaː mˈaːɾɡ,  ʐˌu˧˥paiɜso-ɜ panfˈɑ˧˥
+locative-case: qok, 4543,  loːkˈɛːʈɪw mˈaːmlˌaː,  fˈaŋ wˈei wˈai khˈo-ɜ
+boarding-pass: baq, 3752,  bˈoːɾɖĩɡ ʊtːˈiːɾɳə kˈʌɾnˌaː,  tˈəŋ tɕˈi thˈonɡ kˈuo
+at-least: ksaq, 3014,  pˈʌɾ kˈʌm seː kˈʌm,  tsˈai tsueiɕjˈɑu˧˥
+motor-scooter: trox, 5064,  mˈoːʈəɾ skˈuːʈəɾ,  fˈɑ tˈonɡ tɕˈi mˈoɜ thˈuo ts.hˈo-
+mountain-bike: qwak, 3970,  pˈʌɾʋət bˈaːɪk,  s.ˈan tsˈi̪ ɕˈiɜŋ ts.hˈo-
+chocolate-bar: xlot, 5381,  cˌɔklˈeːʈ bˈaːɾ,  tɕhjˈɑu˧˥ khˈo- lˈi tɕiou˧˥pˈɑ
+mustard-sauce: xos, 3801,  sˈʌɾsˌõ cˈʌʈnˌi,  tɕiɛmo˥ tɕˈiɑŋ
+national-park: vap, 4123,  ɾˈaːʂʈɾij pˈaːɾk,  kˈuoɜ mˈiɜn kˈonɡ ˈyæɜn
+optative-mood: p6n, 4906,  ˌaːpʈˈaːɪʈˌɪw mənˈoːdʃˌaː,  pjˈɑu˧˥ ˈyæn wˈɑŋ tə˥ ɕˈin tɕhˈiɜŋ
+sun-hat: txot, 3423,  ɾˈʌʋɪ ʈˈoːpi,  thˈai jˈiɑɜŋ mˈɑu tsi̪˥
+passive-voice: pyix, 3959,  nˈɪʂkɾɪj aːʋˈaːz,  pˈei tˈonɡ ʲˈy˧˥ jˈin
+bottle-opener: tlax, 3843,  bˈoːtəl səlˈaːmi bˌəlleːbˈaːɟ,  phˈiɜŋ tɕˈiɛ mˈu ts.ˈan
+talcum-powder: t6p, 4100,  tˈaːlək pˈaːʊɖˌəɾ,  xwˈɑɜ s.ˈi.ɜ fˈəɜn fˈə˧˥n mˈo
+paucal-number: plom, 5823,  (en)pˈɔːkəl(hi) sˈʌŋkʰjaː,  (en)pˈɔːkəl(zh) s.ˈu
+pegative-case: gvek, 6271,  (en)pˈɛɡətˌɪv(hi) mˈaːmlˌaː,  phˌo-kɑthivˈo- wˈai khˈo-ɜ
+bottled-water: blaq, 4246,  bˌoːtələbˈʌnd pˈaːni,  phˈiɜŋ ts.wˈɑŋ s.wˈei˧˥
+plural-number: xus, 3891,  bˈʌhʊʋˌəcən sˈʌŋkʰjaː,  fˈu s.ˈu s.ˈu
+phrase-marker: xac, 4080,  mʊhˈaʊɾaː nɪʃˈaːn,  tˈuaɜn ʲˈy˧˥ pjˈɑu tɕˈi
+caribbean-sea: klix, 4695,  kˈɛːɾɪbˌɪjən səmˈʊdɾə,  tɕˈiɑ lˈə pˈiɜ xˈai˧˥
+dairy-farm: yix, 4298,  ɖˈeːjɾˌi kʰˈeːt,  ʐˈu˧˥ ts.i.phˈi˧˥n nonɡɜts.hˈɑ˧˥ŋ
+calendar-week: kr6s, 4346,  kɛːlˈẽːɖəɾ səptˈaːh,  ʐˈi. lˈi ts.ˈou
+air-force: xyan, 3071,  wˈaːjʊ sˈeːnaː,  khˈonɡ tɕˈyən
+businesswoman: nw6n, 3330,  ʋjaːpˈaːɾ kˈʌɾnˌeː wˈaːli ˈɔːɾət,  nˈy˧˥ s.ˈaŋ ʐˈəɜn
+dark-bread: xep, 3923,  ʌndʰˈeːɾaː ɾˈoːʈi,  xˈei ˈan mˈiɛn pˈɑu
+chauvinist: qis, 4358,  ˌʌndʰəɾˈaːʂʈɾiʋˌaːdi,  s.ˈɑ wˈuəɜn ts.ˈu˧˥ jˈi
+teeing-ground: txax, 4340,  (en)tˈiːɪŋ(hi) bʰˈuːmɪ,  fˈɑ tɕhˈiouɜ timˈiɛn
+business-suit: qus, 4184,  ʋjaːpˈaːɾ sˈuːʈ,  s.ˈaŋ jˈiɛ s.ˈi. xˈo-ɜ
+bunsen-burner: n6k, 3958,  lˈeːmp bˈʌɾnəɾ,  pˈə˧˥n s.ˈəŋ khˈo- lˈu tɕˈi
+open-sandwich: tsiq, 4532,  kʰˈʊlaː sˈɛ̃ɖʋˌɪc,  tˈɑ˧˥ khˈai sˈan mˈiɜŋ ts.ˈi.
+olive-oil: zyet, 3281,  ɟɛːtˈuːn tˈeːl,  kˈa˧˥n jˈiouɜ
+pregnancy-test: x6t, 4583,  ɡəɾbʰˈaʊstʰaː kəsˈɔːʈi,  xˈuaiɜ ʲˈyən tshˈo- s.ˈi.
+sewing-machine: s6c, 4416,  sɪlˈaːi məʃˈiːn,  ts.ˈən ɕˈiɛn xˈuoɜ tɕˈi
+debit-card: vek, 4160,  nˈaːmeː kˈaːɾɖ,  tɕˈiɛ fˈaŋ khˈɑ˧˥
+aikido: kxix, 3398,  (en)eɪkˈiːdəʊ(hi),  xˈo-ɜ tɕhˈi tˈɑu
+security-guard: swax, 3685,  sʊɾˈʌkʃaː ɡˈaːɾɖ,  ˈan tɕhˈyæɜn s.ˈou˧˥ wˈei
+prolative-case: p6k, 5432,  (en)pɹˈɒlətˌɪv(hi) mˈaːmlˌaː,  phʐˌolɑthivˈo- wˈai khˈo-ɜ
+business-lunch: yax, 4201,  ʋjaːpˈaːɾ dˈoːpəhˌəɾ kaː bʰˈoːɟən,  s.ˈaŋ jˈiɛ wˈu˧˥ tshˈan
+scrambled-eggs: txut, 3164,  tˈʌleː hˈʊeː ˈʌɳɖeː,  ts.hˈɑu˧˥ tɕˈi tˈan
+precative-mood: pxin, 5293,  (en)pɹɪkˈatɪv(hi) mənˈoːdʃˌaː,  phʐˌo-tshɑthivˈo- ɕˈin tɕhˈiɜŋ
+sunroof: srux, 4288,  sˌənɾˈuːpʰ,  thˈiɛn ts.hwˈɑŋ
+imaginary-unit: xyin, 4094,  kˈaːlpənˌɪk ɪkˈaːi,  ɕˈy s.ˈu tˈan wˈei
+shoulder-blade: clax, 3489,  kˈʌndʰaː blˈeːɖ,  tɕˈiɛn tˈɑu phˈiɛn
+shoulder-strap: pxat, 3609,  kˈʌndʰaː pˈʌʈːaː,  tɕˈiɛn peitˈai
+potential-mood: tox, 4637,  kʃˈʌmtˌaː mənˈoːdʃˌaː,  tɕhˈiɛɜn tsˈai ɕˈin tɕhˈiɜŋ
+adverbial-case: vax, 4615,  kɾˈɪjaːwɪʃˈeːʂəɳˌəsəmbˈʌndʰi mˈaːmlˌaː,  ts.wɑŋʲˈy˧˥ wˈai khˈo-ɜ
+primary-object: xyit, 3919,  mˈʊkʰjə wˈʌstʊ,  ts.ˈu˧˥ mutˈi
+pronoun-marker: pxak, 3702,  sˌəɾʋənˈaːm nɪʃˈaːn,  tˈai tshˈi̪ɜ pjˈɑu tɕˈi
+breast-feeding: txis, 3661,  stˈʌn kʰˈɪlaː,  ʐˈu˧˥ fˈaɜŋ khˈuei sˈonɡ
+harness-racing: caq, 3423,  sˈaːz dˈɔːr.,  mˈɑ˧˥ tɕˈy saiphˈɑu˧˥
+perlative-case: pex, 5650,  (en)pˈɜːlətˌɪv(hi) mˈaːmlˌaː,  phˌərlɑthivˈo- wˈai khˈo-ɜ
+tandem-bicycle: dvas, 4498,  mˈɪləkˌəɾ sˈaːɪkˌɪl,  ts.hˈuan lˈiɛɜn tsˈi̪ ɕˈiɜŋ ts.hˈo-
+in-addition-to: txun, 5786,  (en)tˈambɐhˌan kɛmjˈuːdiən(hi),  (en)tˈambɐhˌan ʌntˈʌk(zh)
+television-set: t6t, 5563,  ʈeːlˈiːʋɪɟˌən sˈeːʈ,  tˈiɛn s.ˈi. tsˈu˧˥
+prime-minister: pxit, 4269,  pɾədʰˈaːn mˈʌntɾi,  tsonɡɜlˈi˧˥
+nervous-system: n6m, 4134,  pˌəɾeːʃˈaːn pɾəɳˈaːli,  tɕˈi˧˥n ts.ˈaŋ ɕithˈonɡ˧˥
+tailor's-chalk: xrik, 4280,  dˈʌɾɟi cˈaːk,  tshaiɜfˈəɜŋ fəɜnpˈi˧˥
+computer-virus: prus, 4654,  kəmpːjˈuːʈəɾ wˈaːjəɾˌəs,  tɕˈi sˈuan tɕˈi pˈiŋ tˈuɜ
+animate-gender: qen, 4265,  cˈeːtən lˈĩɡ,  fuʲˈy˧˥ s.ˈəŋ mˈiŋ ɕˈiŋ pˈiɛɜ
+chopping-board: toq, 4266,  cˈʌʈəknaː mˈʌɳɖəl,  ts.ˈa˧˥n pˈo pˈa˧˥n
+mountain-range: qwan, 3404,  pˈʌɾʋət ɾˈẽːɟ,  s.ˈan fˈan wˈeiɜ
+anterior-tense: tr6t, 3950,  pˈuːɾʋəkˌaːl kaː kˈaːl,  tɕhiɛɜnmiɛɜn tə˥ tɕˈi˧˥n ts.ˈaŋ
+antessive-case: ts6k, 5292,  (en)ˈantɪsˌɪv(hi) mˈaːmlˌaː,  (en)ˈantɪsˌɪv(zh) wˈai khˈo-ɜ
+speed-of-light: kcaq, 3945,  pɾəkˈaːʃ kˈɪ ɡˈʌtɪ,  kwˈaŋ sˈu
+stative-aspect: txip, 4840,  (en)stˈatɪv(hi) pˈʌhəlˌuː,  tɕˈiŋ thˈai tˈonɡ tshˈi̪ɜ fˈaŋ mˈiɛn
+roller-skating: l6q, 3862,  bˈeːlən skeːʈˈĩɡ,  jˈiɑ lˈu tɕˈi lˈiou pˈiŋ
+subessive-case: bvek, 6273,  (en)sˈʌbɪsˌɪv(hi) mˈaːmlˌaː,  (en)sˈʌbɪsˌɪv(zh) wˈai khˈo-ɜ
+roller-coaster: vrat, 3875,  bˈeːlən kɪnˈaːɾeː kaː ɟəhˈaːz,  jˈiɑ lˈu tɕˈi pˈei tˈiɛn
+sublative-case: bvok, 5550,  (en)sˈʌblətˌɪv(hi) mˈaːmlˌaː,  ts.ˈi. kˈo-ɜ wˈai khˈo-ɜ
+monetary-value: xrim, 3433,  mˈɔːdɾɪk mˈuːljə,  xˈuo pˈi ts.ˈi.ɜ
+espresso: fres, 4986,  ˈeːspɾeːsˌoː,  nˈonɡɜ khˈɑ fˈei
+climbing-frame: k6k, 3834,  cˈʌr.hənˌaː ɖʰˈãcaː,  phˈan tˈəŋ ts.ˈən
+clothes-hanger: yaq, 4036,  wˈʌstɾə kˈãʈaː,  jifu˧˥ jˈi tɕˈiɑ
+birthday-party: qet, 4331,  ɟˈʌnmədˌɪn pˈaːɾʈi,  s.əŋʐi.˧˥ phˈai tˈuei
+block-of-flats: kxax, 4380,  kʰˈʌɳɖ kaː pʰlˈɛːʈõ,  khˈuai tə˥ kˈonɡ ʲˈy
+auxiliary-verb: syix, 3659,  səhˈaːjək kɾˈɪjaː,  fˈu˧˥ tˈonɡ tshˈi̪ɜ
+sunflower-seed: cix, 3814,  sˈuːɾəɟmʊkʰˌi bˈiːɟ,  ɕˈiɑŋ ʐˈi. khˈueiɜ ts.ˈonɡ˧˥ tsi̪˥˩
+remote-control: txon, 5030,  duːɾˈʌstʰ nɪjˈʌntɾəɳ,  ˈyæ˧˥n ts.hˈəɜŋ khˈonɡ ts.ˈi.
+police-officer: pfif, 5158,  pˈʊlɪs ˈʌfəsˌəɾ,  tɕˈi˧˥ŋ ts.hˈɑɜ kwˈan
+critical-point: vrit, 3467,  kɾˈãtɪk bˈĩdʊ,  lˈiɜn tɕˈiɛ tˈiɛ˧˥n
+quotative-case: txok, 4852,  (en)kwˈəʊtətˌɪv(hi) mˈaːmlˌaː,  tɕhˌyothˌɑthivˈo- wˈai khˈo-ɜ
+condensed-milk: n6x, 3932,  ɡʰˌənibʰˈuːt dˈuːdʰ,  lˈə˧˥ŋ nˈiɜŋ niouɜnˈai˧˥
+cable-car: klax, 5217,  kˈeːbəl ɡˈaːr.i,  tiɛnlˈa˧˥n tɕhˈi ts.hˈo-
+united-kingdom: nuq, 4373,  jˌuːnaːɪʈˈeːɖ ɾˈaːɟjə,  lˈiɛɜn xˈo-ɜ təɜ wˈɑɜŋ kˈuoɜ
+motion-upriver: tuq, 3751,  pɾˈʌstaʊ (en)ˈʌpɹɪvə(hi),  ʲˈyən tˈonɡ s.ˈaŋ jˈiouɜ
+baseball-glove: blax, 5235,  bˈeːsbˌɔl dəstˈaːnaː,  pˈaŋ tɕhˈiouɜ s.ˈou˧˥ thˈɑu
+stock-exchange: kcax, 4093,  sʈˈɔk ˈʌdlˌaː bˈʌdlˌi,  kˈu˧˥ phjˈɑu tɕjˈɑu xˈuan
+container-ship: tyix, 4000,  pˈaːtɾə səmˈũdɾi ɟəhˈaːɟ,  ʐˈonɡɜ tɕhˈi ts.hˈuaɜn
+indium: djim, 3892,  ˈiːɳɖijˌʊm,  jˈin
+urinary-system: rux, 3921,  mˈuːtɾə pɾəɳˈaːli,  njˈɑu ɕithˈonɡ˧˥
+french-pancake: req, 4947,  pʰɾˈẽːc pˌɛːnkˈeːk,  fˈɑ˧˥ kˈuoɜ pˈi˧˥ŋ tsi̪˥˩
+cottage-cheese: kxis, 3543,  kˈʊʈɪjˌaː pənˈiːɾ,  mˈɑuɜ wˈu tɕhˈi˧˥ sˈi̪
+square-bracket: sr6t, 6099,  (en)skwˈeə bɹˈakɪt(hi),  stɕhˌyɑʐˈo- (en)bɹˈakɪt(zh)
+vacuum-cleaner: kex, 4851,  wˈɛːkːjuːm səpʰˈaːi wˈaːlaː,  ts.ˈən khˈonɡ tɕhˈiŋ tɕˈiɛɜ tɕhˈi
+starting-block: xrak, 4307,  ʃˌʊɾʊˈaːt mẽː kʰˈʌɳɖ,  khais.ˈi.˧˥ khˈuai
+venetian-blind: nyix, 4894,  wɪnˈiːʃɪjˌən ˈʌndʰaː,  wˈei nˈiɜ sˈi̪ mˈaɜŋ
+historic-tense: sriq, 4508,  ˌɛːtɪhˈaːsɪk kˈaːl,  lis.ˈi.˧˥ ɕˈiŋ tɕˈi˧˥n ts.ˈaŋ
+atlantic-ocean: txaq, 4664,  ˌʌʈlˈãʈɪk sˈaːɡəɾ,  tˈɑ ɕˈi jˈiɑɜŋ xˈai˧˥ jˈiɑɜŋ
+final-particle: xlik, 3907,  ˈʌntɪm kˈʌɳ,  tsˈuei ts.ˈonɡ litsˈi̪˧˥
+line-judge: xyik, 3212,  lˈaːɪn ɟˈʌɟ,  ɕˈiɛn fˈɑ˧˥ kwˈan
+football-field: tloq, 4758,  fˈʊʈbˌɔl kʰˈeːt,  tsˈuɜ tɕhˈiouɜ lˈi˧˥ŋ ʲˈy
+art-exhibition: pxan, 3615,  kˈʌlaː pɾədˈʌɾʃənˌi,  jˈi s.ˈu ts.aɜnlˈa˧˥n
+czech-republic: kxek, 5252,  cˈeːk ɡˌəɳətˈʌntɾə,  tɕˈiɛɜ khˈo- kˈonɡ xˈo-ɜ kˈuoɜ
+nosewheel: xwik, 3502,  həʋˈaːi ɟəʋˈaːz kaː ˈaːɡeː kaː pˈʌhɪjˌaː,  tɕhˈiɛɜn lˈuəɜn
+digital-camera: dzik, 4765,  ɖˈɪɟɪʈˌəl kˈɛːmɾˌaː,  s.ˈu tsˈi̪ ɕiɑŋtɕˈi
+object-patient: b6t, 6638,  (en)ˈɒbdʒɛkt pˈeɪʃənt(hi),  (en)ˈɒbdʒɛkt pˈeɪʃənt(zh)
+western-sahara: ksix, 5161,  pˈʌʃcɪmˌi səhˈaːɾaː,  ɕˈi sˌɑxɑlˈɑ
+police-station: ps6t, 5252,  pˈʊlɪs sʈˈeːʃən,  tɕˈi˧˥ŋ ts.hˈɑɜ ts.ˈan
+food-processor: xros, 4371,  bʰˈoːɟən pɾoːsˈeːsəɾ,  s.i.ɜphˈiɜn ts.huɜlˈi˧˥ tɕhˈi
+dressing-table: syax, 3794,  ɖɾeːsˈĩɡ tˈaːlɪkˌaː,  ts.hˈuan jˈi pjˈɑu˧˥
+laundry-basket: vrik, 4002,  dʰoːbˈiːɡʰəɾ ʈˈoːkɾˌi,  ɕˈi˧˥ jˈi tˈiɛn lˈaɜn
+to-destination: d6t, 2900,  koː ɡəntˈʌʋjə,  tˈɑu mˌutitˈi
+electric-drill: krix, 4323,  bˈɪɟlˌi ɖɾˈɪl,  tˈiɛn tˈonɡ tsuanthˈouɜ
+with-regard-to: xrot, 4504,  (en)wɪð ɹɪɡˈɑːd sˈəʊ(hi),  taɜpliouɜ ˈai thˈi ˈeiɜts.h (en)ɹɪɜɡɑː˥d(zh) tho˥
+evitative-case: ves, 5854,  (en)ˈɛvɪtˌeɪtɪv(hi) mˈaːmlˌaː,  ˌo-vithˌɑthivˈo- wˈai khˈo-ɜ
+camembert: k6m, 4447,  kɛːmˈeːmbəɾʈ,  khˈɑ˧˥ mˈəɜŋ pˈoɜ ˈər˧˥
+fish-and-chips: kxip, 4552,  mˈʌcʰlˌi tˈʌtʰaː cˈɪps,  ʲˈyɜ xˈo-ɜ ɕˈin phˈiɛn
+emergency-exit: jix, 4144,  ˌaːpaːtkaːlˈiːn bˈaːhəɾ ɟˈaːẽː,  tɕˈiɜ ts.hukhˈou˧˥
+emergency-room: txac, 3619,  ˌaːpaːtkaːlˈiːn kˈʌkʃ,  tɕˈiɜ fˈaɜŋ tɕˈiɛn
+rehabilitation: xlas, 3944,  pˌʊnrʋˈaːs,  fˈu ˈyæɜn
+epistemic-mood: teq, 4822,  (en)ɪpɪstˈɛmɪk(hi) mənˈoːdʃˌaː,  ʐˈən ts.ˈi. ɕˈin tɕhˈiɜŋ
+dynamic-aspect: giq, 4303,  ɡˌətɪʃˈiːl pˈʌhəlˌuː,  tˈonɡ thˈai fˈaŋ mˈiɛn
+zebra-crossing: brax, 5186,  zˈeːbɾˌaː cɔːɾˈaːhaː,  panmˈɑ˧˥ lukhˈou˧˥
+deixis-deictic: dyek, 5060,  (en)dˈeɪksɪs dˈeɪktɪk(hi),  ts.ˈi.˧˥ s.ˈi. ʲˈyɜ ts.ˈi.˧˥ s.ˈi. ʲˈy˧˥
+soldering-iron: drax, 4504,  ʈˈãknˌeː ki kɾˈɪjaː lˈoːhaː,  xˈan tɕˈiɛ thˈiɛ˧˥
+potter's-wheel: xrax, 4110,  kʊmhˈaːɾ pˈʌhɪjˌaː,  thˈɑuɜ kˈonɡ lˈuəɜn
+kitchen-garden: xwan, 3857,  ɾəsˈoːi bəɡˈiːcaː,  ts.hˈuɜ fˈaɜŋ xwˈɑ ˈyæɜn
+powder-compact: pox, 4256,  pˈaːʊɖˌəɾ sˈʌɡʰən,  fˈə˧˥n mˈo tɕˈi˧˥n tshˈou
+eyebrow-pencil: bix, 3586,  bʰˈɔ̃ pˈẽːsɪl,  mˈeiɜ tɕhiɛnpˈi˧˥
+filing-cabinet: dvan, 4107,  dˈaːkʰɪl mˌəntɾɪmˈʌɳɖəl,  pˈei ˈan nˈei kˈo-ɜ
+figure-skating: fiq, 3947,  ˈaːkɾɪtˌɪ skeːʈˈĩɡ,  s.ˈu tsˈi̪ lˈiou pˈiŋ
+fallopian-tube: fwut, 3959,  pʰɛːlˈoːpɪjˌən ʈːjˈuːb,  s.ˈu lˈuaɜn kwˈaɜn kwˈa˧˥n
+praying-mantis: xiq, 3866,  pɾˈaːɾtʰənˌaː ˈeːk pɾəkˈaːɾ kaː kˈiːr.aː,  tɕhiɜtˈɑu˧˥ lˈaɜŋ
+umbilical-cord: xlis, 3868,  nˈaːl ɾˈʌssi,  tɕhˈiɜ tˈai s.ˈəɜŋ
+humble-register: m6s, 4684,  nˈʌmɾə ɾəɟˈɪsʈəɾ,  tɕhˈiɛn pˈei tɕˈi tshˈuəɜn tɕhˈi
+football-player: blop, 4825,  fˈʊʈbˌɔl kʰɪlˈaːr.i,  tsˈuɜ tɕhˈiouɜ pˈo fˈaŋ tɕˈi
+habitual-aspect: b6p, 4599,  ʌbʰjˈʌst pˈʌhəlˌuː,  kwˈan ts.hˈɑɜŋ təɜ fˈaŋ mˈiɛn
+criminal-record: pxek, 3781,  ˌʌpɾˈaːdʰɪk ˌʌbʰɪlˈeːkʰ,  ɕˈiɜŋ s.ˈi. tɕˈi lˈu
+indirect-speech: tyax, 3947,  ˌʌpɾətːjˈʌkʃ bʰˈaːʂəɳ,  tɕiɛntɕˈiɛ jiɛɜnʲˈy˧˥
+breakfast-table: kxam, 3708,  sˈʊbəh kaː nˈaːʃtaː tˈaːlɪkˌaː,  tsˈɑu˧˥ tshˈan pjˈɑu˧˥
+arts-and-crafts: txaf, 3897,  kˈʌlaː tˈʌtʰaː ʃˈɪlp,  jˈi s.ˈu xˈo-ɜ kˈonɡ jˈi
+former-deceased: xwit, 3864,  bʰˌuːtpˈuːɾwə mɾˈɪtək,  tɕhˈiɛɜn ʐˈən tə˥ si̪ɜts.ˈo-˧˥
+ice-hockey-rink: xoq, 4968,  bˈʌɾpʰ hˈɔki skeːʈˈĩɡ ɾˈĩɡ,  pˈiŋ tɕhˈy kˈuən tɕhˈiouɜ xwˈɑɜ piŋts.hˈɑ˧˥ŋ
+self-confidence: sw6n, 3821,  sʋˈʌjən ˈaːtməʋˌɪʃʋaːs,  tsˈi̪ ts.ˈi. ɕˈin tˈu
+volcanic-crater: vok, 4465,  ɟʋaːlˈaːmʊkʰˌi ɡˈʌɖɖʰaː,  xˈuo˧˥ s.ˈan tˈan khˈəŋ
+formal-register: fr6t, 4508,  ˌɔːpcˈaːɾɪk ɾəɟˈɪsʈəɾ,  ts.ˈəŋ s.ˈi. tɕˈi tshˈuəɜn tɕhˈi
+sanitary-napkin: txen, 4306,  sˈɛːnɪʈɾi nˈɛːpkˌɪn,  wˈei ʲˈy tshˈan tɕˈin
+stainless-steel: sliq, 3877,  sʈˌeːnlˈeːs sʈˈiːl,  puɜɕˈiou kˈaŋ
+gerbera: jret, 3893,  (en)dʒˈɜːbəɹə(hi),  fˈei ts.ˈou tɕˈyɜ
+metacarpal-bone: xlak, 3899,  kˌəɾbʰɪkˈaːstʰɪk hˈʌɖɖi,  ts.aɜŋkˈuɜ kˈu˧˥
+absolutive-case: bvuk, 6577,  (en)ˈabsəlˌuːtɪv(hi) mˈaːmlˌaː,  (en)ˈabsəlˌuːtɪv(zh) wˈai khˈo-ɜ
+washing-machine: vic, 4298,  dʰʊlˈaːi məʃˈiːn,  ɕˈi˧˥ tˈiɜ tɕˈi
+patient-trigger: pr6t, 3213,  məɾˈiːɟ ʈɾˈɪɡəɾ,  xuants.ˈo-˧˥ ts.hˈu fˈɑ
+dining-car: qax, 3643,  bʰˈoːɟən ɡˈaːr.i,  ˈyuŋ tshˈan tɕhˈi ts.hˈo-
+objective-place: jex, 3495,  lˈʌkʃjə ɟˈʌɡəh,  mˌutitˈi tˈiɛ˧˥n
+cocktail-shaker: txek, 4947,  kˌɔkʈˈeːl ˈeːk pɾəkˈaːɾ keː bˈʌɾətˌən,  tɕˈi wˈeiɜ tɕˈiou˧˥ ts.ˈən tˈonɡ s.ˈai
+transitive-verb: tfix, 3481,  səkˈʌɾmək kɾˈɪjaː,  tɕˈiɜ wˈu tˈonɡ tshˈi̪ɜ
+exocentric-case: zrik, 6708,  (en)ɛɡzəʊsˈɛntɹɪk(hi) mˈaːmlˌaː,  (en)ɛɡzəʊsˈɛntɹɪk(zh) wˈai khˈo-ɜ
+seminal-vesicle: vlik, 3966,  lˌaːbʰdˈaːjək pˈʊʈɪkˌaː,  tɕˈiŋ nˈaɜŋ
+comitative-case: mox, 5000,  (en)kˈɒmɪtˌeɪtɪv(hi) mˈaːmlˌaː,  tshˌomithˌɑthivˈo- wˈai khˈo-ɜ
+plumbing-system: p6m, 3938,  pˌaːɪplˈaːɪn pɾəɳˈaːli,  s.wˈeiɜ nˈua˧˥n ɕithˈonɡ˧˥
+pneumatic-drill: nwax, 3824,  wˌaːjʋˈiːj ɖɾˈɪl,  tɕhˈi tˈonɡ tsuanthˈouɜ
+light-bulb: cox, 2872,  ɾˈoːʃnˌi bˈʌlb,  kwˈaŋ tˈəŋ phˈɑu
+even-if: vif, 6758,  (en)ˈand ɪf(hi),  o-vˈən (en)ɪf(zh)
+rearview-mirror: xric, 4419,  pˈiːcʰeː kaː dɾˈɪʃjə aːˈiːnaː,  tɑu˧˥ts.hˈo- xˈou s.ˈi. tɕˈiŋ
+railway-station: dwet, 4519,  ɾˈeːlʋˌeː sʈˈeːʃən,  thˈiɛ˧˥ lˈu ts.ˈan
+achilles-tendon: kxiq, 3901,  dˈʊkʰtˌi pˈʌʈːaː,  kˈən tɕˈiɛn tɕˈi tɕˈiɛn
+evidential-case: tc6k, 4104,  pɾətːjˈʌkʃ mˈaːmlˌaː,  ts.ˈəŋ tɕˈy wˈai khˈo-ɜ
+initiative-case: xyak, 4259,  pˈʌhəl mˈaːmlˌaː,  ts.hˈaŋ jˈi wˈai khˈo-ɜ
+hot-air-balloon: gux, 3778,  ɡˈʌɾəm wˈaːjʊ ɡʊbbˈaːɾaː,  ʐˈo- khˈonɡ tɕhˈi tɕhˈi tɕhˈiouɜ
+impersonal-verb: psiq, 3273,  ˌʌʋɛːjˈʌktɪk kɾˈɪjaː,  fˈei ʐˈəɜn təɜ tˈonɡ tshˈi̪ɜ
+flowering-shrub: kux, 3886,  kˈʊsʊmˌɪt ɟʰˈaːr.i,  khˈai xwˈɑ kwˈan mˈu
+north-sea: prax, 3088,  ˈʊtːəɾ səmˈʊdɾə,  peiɜxˈai˧˥
+electric-guitar: tcax, 4256,  bˈɪɟlˌi ɡɪʈˈaːɾ,  tˈiɛn tˈonɡ tɕiɜthɑɜ
+computer-screen: krup, 4269,  kəmpːjˈuːʈəɾ skɾˈiːn,  tɕˈi sˈuan tɕˈi phˈiɜŋ mˈu
+rational-gender: roq, 3720,  tˌəɾkəsˈʌŋɡət lˈĩɡ,  xo-ɜlˈi˧˥ tə˥˩ ɕˈiŋ pˈiɛɜ
+past-perfective: tfax, 4359,  ʌtˈiːt sˈaːdʰək,  kuotɕhy˥ wˈɑɜn ts.hˈəɜŋ s.ˈi.
+with-respect-to: xem, 4448,  sˈaːtʰ mẽː səmmˈaːn koː,  thˈonɡɜ tsˈuən ts.ˈonɡ ts.ˈi.
+telephone-booth: txex, 4743,  ʈˌeːlipʰˈoːn bˈuːtʰ,  tˈiɛn xwˈɑ thˈiɜŋ
+admonitive-mood: tcaq, 3941,  ceːtˈaʊni mənˈoːdʃˌaː,  tɕˈi˧˥ŋ kˈɑu ɕˈin tɕhˈiɜŋ
+reflexive-voice: fyaf, 3242,  kˌəɾməkˈʌɾtːaː aːʋˈaːz,  fˈa˧˥n sˈi̪ ʲˈy˧˥ jˈin
+double-negative: duf, 3925,  dˈoːɡʊnˌaː nˌəkaːɾˈaːtmək,  s.wˈɑŋ fˈu
+graveyard-shift: vrak, 3985,  kˌəbɾəstˈaːn kʰˈɪsək ɟˈaːnaː,  mutˈi ts.ˈua˧˥n jˈiɜ
+sparkling-water: plaq, 4160,  ʃˌaːndˈaːɾ pˈaːni,  pˈo kwˈaŋ lˈiɜn lˈiɜn s.wˈei˧˥
+cape-gooseberry: pxas, 4081,  kˈeːp kəɾˈɔ̃daː,  tɕˈiɑ˧˥ tshˈu lˈi
+crastinal-tense: sl6t, 5708,  (en)kɹˈastɪnəl(hi) kˈaːl,  (en)kɹˈastɪnəl(zh) tɕˈi˧˥n ts.ˈaŋ
+rocky-mountains: kxaq, 3641,  ɾˈɔki pəhˈaːr.õ,  jˈiɛɜn s.ˈi.ɜ s.ˈan
+second-language: nyax, 3331,  dˈuːsɾˌaː bʰˈaːʂaː,  tˈi ˈər ʲˈy˧˥ jˈiɛɜn
+durative-aspect: dvip, 6131,  (en)djˈʊəɹətˌɪv(hi) pˈʌhəlˌuː,  ts.hˈi.ɜ ɕˈy fˈaŋ mˈiɛn
+dubitative-mood: bvin, 6148,  (en)djˈuːbɪtˌeɪtɪv(hi) mənˈoːdʃˌaː,  tˌupithˌɑthivˈo- ɕˈin tɕhˈiɜŋ
+singular-number: gum, 3543,  wɪlˈʌkʃəɳ sˈʌŋkʰjaː,  tˈan s.ˈu s.ˈu
+knitting-needle: t6s, 3024,  bˈʊnnˌaː sˈʊi,  ts.ˈən ts.ˈi. ts.ˈən
+at-same-time-as: txem, 4016,  pˈʌɾ wˈʌhi (en)tˈaɪm mˌiː(hi) ɟˈɛːsaː,  tsˈai ɕˈiɑŋ thˈonɡɜ s.ˈi.ɜ tɕˈiɛn ʐˈuɜ
+polite-register: br6t, 4369,  sˈʌbʰjə ɾəɟˈɪsʈəɾ,  jˈiouɜ lˈi˧˥ mˈɑu tɕˈi tshˈuəɜn tɕhˈi
+classical-music: kyiq, 4847,  klˈaːsɪk səŋɡˈiːt,  kuɜtˈiɛ˧˥n jinˈyɛ
+small-intestine: kxes, 3599,  cʰˈoːʈaː ˈãt,  ɕjˈɑu˧˥ ts.hˈɑɜŋ
+pineapple-juice: qos, 3680,  ˌʌnaːnˈaːs ɾˈʌs,  pˈo lˈuoɜ ts.ˈi.
+office-building: kyaq, 3624,  kˈaːɾjaːlɛj ɪmˈaːɾət,  pˈan kˈonɡ s.ˈi. tɕˈiɛn tsˈɑu
+pitcher's-mound: xrut, 4118,  ɡʰˈʌr.eː ʈˈiːlaː,  thouɜs.ˈouɜ ts.ˈonɡ˧˥
+hodiernal-tense: xlon, 4990,  ˈʌʋtən kˈaːl,  (en)hˈəʊdiənəl(zh) tɕˈi˧˥n ts.ˈaŋ
+motion-downhill: yox, 3856,  pɾˈʌstaʊ ʊtˈaːɾ,  ʲˈyən tˈonɡ ɕˈiɑ phˈo
+gymnastic-horse: jax, 4540,  ʋjaːjˈaːm ɡʰˈoːr.aː,  thˈi˧˥ tshˈɑu mˈɑ˧˥
+heating-element: xlet, 4042,  hiʈˈĩɡ tˈʌtːwə,  tɕˈiɑ ʐˈo- ˈyæɜn tɕˈiɛn
+hesternal-tense: tleq, 5849,  (en)hɛstˈɜːnəl(hi) kˈaːl,  (en)hɛstˈɜːnəl(zh) tɕˈi˧˥n ts.ˈaŋ
+ultrasonography: tsux, 5035,  ˌʌlʈɾaːsoːnˈoːɡɾaːpʰˌi,  ts.hˈɑu s.ˈəŋ
+bureau-de-change: briq, 4449,  bjˈuːɾoː ɖˈeː pˌəɾɪʋˈʌɾtən,  tɕˈyɜ tˈəɜ kəŋkˈai˧˥
+lymphatic-system: frax, 4285,  lˈĩf kaː pɾəɳˈaːli,  liɜnpˈɑ ɕithˈonɡ˧˥
+transverse-flute: tsef, 4447,  ˈaːr.aː bˈãsʊɾˌi,  xˈəɜŋ ts.hˈɑɜŋ tˈiɜ
+recording-studio: vut, 4824,  ɾˌɪkɔɾɖˈĩɡ sʈˈuːɖɪjˌoː,  tɕˈi lˈu kˈonɡ tsˈuo s.ˈi.
+grammatical-case: grax, 3768,  ʋjˈaːkəɾˌəɳ mˈaːmlˌaː,  ʲyɜfˈɑ˧˥ tɕhˈiɜŋ khwˈaŋ
+latissimus-dorsi: txos, 4605,  (en)lˈatɪsˌɪməs dˈɔːsi(hi),  pˈei khˈuo tɕˈi tɕˈi
+department-store: praq, 3815,  wɪbʰˈaːɡ dʊkˈaːn,  pˈu mˈəɜn s.ˈaŋ tˈiɛn
+ejaculatory-duct: dluk, 4161,  ʊdɡˈaːɾ wˈaːhɪnˌi,  kˈa˧˥n thˈan tə˥ kwˈa˧˥n
+exclusive-person: ks6n, 3645,  ʌnˈʌnjə ʋjˈʌktɪ,  tˈuɜ tɕˈiɑ ʐˈəɜn
+inanimate-gender: neq, 4071,  ʌcˈeːtən lˈĩɡ,  lˈɑu˧˥ ts.hˈəɜŋ ɕˈiŋ pˈiɛɜ
+windscreen-wiper: qip, 4390,  wˌĩɖskɾˈiːn wˈaːɪpˌəɾ,  fˈəŋ tˈaŋ ʲˈy˧˥ kwˈɑ tɕhˈi
+anesthesiologist: dzis, 4247,  (en)ˌanɪsθˌiːzɪˈɒlədʒˌɪst(hi),  mˈɑɜ tsˈuei s.ˈi.
+butternut-squash: t6c, 4589,  (en)bˈʌtənˌʌt(hi) skʋˈaːʃ,  xˈuɜ thˈɑuɜ pˈi tɕhˈiouɜ
+inclusive-person: moq, 3455,  sˈʌmmɪlˌɪt ʋjˈʌktɪ,  pˈɑu ʐˈonɡɜ ɕˈiŋ ʐˈəɜn
+prosecutive-case: syuk, 4502,  (en)pɹˈɒsɪkjˌuːtɪv(hi) mˈaːmlˌaː,  tɕiɛɜntɕˈy˧˥ wˈai khˈo-ɜ
+imprecative-mood: xram, 4382,  pʰˌəʈkˈaːɾ kaː mənˈoːdʃˌaː,  ts.outsˈu˧˥ ɕˈin tɕhˈiɜŋ
+hot-water-bottle: gwot, 3629,  ɡˈʌɾəm pˈaːni bˈoːtəl,  ʐo-s.wˈei˧˥ phˈiɜŋ
+computer-monitor: kr6n, 4747,  kəmpːjˈuːʈəɾ mˈɔnɪʈˌəɾ,  tɕˈi sˈuan tɕˈi tɕˈiɛn khˈonɡ
+superessive-case: psux, 6238,  (en)sˌuːpəɹˈɛsɪv(hi) mˈaːmlˌaː,  (en)sˌuːpəɹˈɛsɪv(zh) wˈai khˈo-ɜ
+associative-case: gwok, 4033,  ɟˌoːr.neːʋˈaːlaː mˈaːmlˌaː,  liɛɜnɕˈiɑ˧˥ŋ wˈai khˈo-ɜ
+iterative-aspect: yep, 4355,  cˈʌlnˌeː kaː pˈʌhəlˌuː,  tˈiɛɜ tˈai fˈaŋ mˈiɛn
+endocrine-system: krox, 4688,  ˈʌnt
+ sɾˈaʊi pɾəɳˈaːli,  nˈei fˈən mˈi ɕithˈonɡ˧˥
+affirmative-mood: f6n, 3925,  sˌəkaːɾˈaːtmək mənˈoːdʃˌaː,  khˈə˧˥n tˈiŋ ɕˈin tɕhˈiɜŋ
+pencil-sharpener: pcep, 4404,  pˈẽːsɪl ˌaːsɪjˈaːnaː,  tɕhiɛnpˈiɜ tɕˈyæɜn pˈi˧˥ tˈɑu
+papua-new-guinea: pxun, 5378,  pˈaːpʊˌaː nˈʌjaː ɡˈɪnni,  pˌɑpujˌiɑɕintɕˌi˧˥neijˈiɑ
+chest-of-drawers: t6x, 3134,  cʰˈaːti kaː dəɾˈaːz,  ɕˈyŋ pˈu tə˥ ts.hˈou thi˧˥
+insect-repellent: k6c, 4105,  kˈiːʈ wɪkˈʌɾʂək,  khwˈuən ts.hˈonɡɜ tɕhˈy wˈuəɜn
+animated-cartoon: nwix, 4240,  ˌeːnɪmeːʈˈeːɖ kˈaːɾʈuːn,  tˈonɡ xwˈɑ tˈonɡ xwˈɑ phˈiɛn
+graphic-designer: gzis, 4498,  ɡɾˈaːpʰɪk ɖɪɟˈaːɪnˌəɾ,  thˈuɜ ɕˈiɑŋ s.ˈo- tɕˈi s.ˈi.
+propositive-mood: poq, 5277,  (en)pɹɒpˈɒzɪtˌɪv(hi) mənˈoːdʃˌaː,  phʐˌophosˌi̪thivˈo- ɕˈin tɕhˈiɜŋ
+tropic-of-cancer: p6s, 4399,  ɾˈeːkʰaː kaː kˈɛ̃səɾ,  ʐˈo- tˈai tə˥ ˈaiɜ ts.ˈəŋ
+declarative-mood: ks6m, 4250,  kətʰˈaːtmək mənˈoːdʃˌaː,  ts.hˈəɜn s.ˈu ɕˈin tɕhˈiɜŋ
+orange-marmalade: qaq, 3891,  naːɾˈʌŋɡi mʊɾˈʌbbaː,  ts.hˈəɜŋ kˈuo˧˥ tɕˈiɑŋ
+motion-downriver: y6n, 3795,  pɾˈʌstaʊ (en)dˈaʊnɹɪvə(hi),  ʲˈyən tˈonɡ ɕˈiɑ jˈiouɜ
+terminative-case: twix, 4616,  (en)tˈɜːmɪnətˌɪv(hi) mˈaːmlˌaː,  ts.ˈonɡ tɕˈiɛɜ wˈai khˈo-ɜ
+baseball-diamond: blom, 5698,  bˈeːsbˌɔl hˈiːɾaː,  pˈaŋ tɕhˈiouɜ tsuans.ˈi.ɜ
+convenience-food: qix, 3831,  sˈʊʋɪdʰˌaː bʰˈoːɟən,  fˈaŋ pˈiɛn s.i.ɜphˈi˧˥n
+musical-notation: qut, 4423,  səŋɡˈiːt noːʈˈeːʃən,  jinˈyɛ fˈuɜ xˈɑu
+discourse-marker: vac, 3723,  pɾˈʌʋəcˌən nɪʃˈaːn,  jiɛɜntɕˈiɑ˧˥ŋ pjˈɑu tɕˈi
+departure-lounge: vlan, 3727,  pɾəstʰˈaːn laːˈʊɲɟ,  lˈiɜ khˈai ɕˈiou ɕi˧˥ s.ˈi.
+digestive-system: dwim, 4380,  pˌəcaːneːʋˈaːlaː pɾəɳˈaːli,  ɕjˈɑu xwˈɑ ɕithˈonɡ˧˥
+core-benefactive: bef, 5831,  kˈoːɾ (en)bˌɛnɪfˈaktɪv(hi),  xˈo-ɜ ɕˈin (en)bɛ˧˥nɪ˥fa˥ktɪ˥v(zh)
+speculative-mood: peq, 4064,  kˈaːlpənˌɪk mənˈoːdʃˌaː,  thˈouɜ tɕˈi ɕˈin tɕhˈiɜŋ
+butterfly-stroke: tliq, 4287,  tˈɪtlˌi aːɡʰˈaːt,  xˈuɜ tˈiɛɜ ɕˈiɜŋ ts.hˈəɜŋ
+balearic-islands: brep, 5019,  bˌeːlɪˈeːɾɪk dʋˈiːpõ,  pɑlˈi ɑlˈiɜ tɑuɜʲˈy˧˥
+falkland-islands: flop, 3960,  fˌɔklˈɛ̃ɖ dʋˈiːpõ,  fˈuɜ khˈo- lˈaɜn tɑuɜʲˈy˧˥
+four-wheel-drive: pxon, 3838,  cˈaːɾ pˈʌhɪjˌaː cəlˈaːnaː,  sˈi̪ lˈuəɜn tɕhˈy tˈonɡ
+anthropic-gender: noq, 3966,  (en)anθɹˈɒpɪk(hi) lˈĩɡ,  tsˈo-ɜ ɕˈiŋ pˈiɛɜ
+benefactive-case: bvas, 5900,  (en)bˌɛnɪfˈaktɪv(hi) mˈaːmlˌaː,  (en)bˌɛnɪfˈaktɪv(zh) wˈai khˈo-ɜ
+prohibitive-mood: qic, 3931,  nˌɪʂeːdʰˈaːtmək mənˈoːdʃˌaː,  lˈiŋ ʐˈəɜn wˈɑŋ ˈərɜ tɕhˈyɛ pˈu ɕˈin tɕhˈiɜŋ
+reciprocal-voice: vris, 3605,  paːɾˈʌspəɾˌɪk aːʋˈaːz,  tɑus.ˈuɜ ʲˈy˧˥ jˈin
+aircraft-carrier: twax, 3329,  wɪmˈaːn wˈaːhək,  fˈei tɕˈi ts.ˈi. tɕˈiɑ
+printing-process: pxis, 3991,  mˈʊdɾəɳ pɾˈʌkɾɪjˌaː,  jˈin xwˈɑ ts.huɜlˈi˧˥
+inchoative-aspect: tfop, 4619,  ˌɪbtɪdˈaːi pˈʌhəlˌuː,  fˈɑ tˈuan tə˧˥ fˈaŋ mˈiɛn
+recent-past-tense: xwat, 4201,  hˈaːl kaː ʌtˈiːt kˈaːl,  tsˈuei tɕˈin kuotɕhy˥ tɕˈi˧˥n ts.ˈaŋ
+direct-evidential: tc6t, 4389,  pɾətːjˈʌkʃ pɾətːjˈʌkʃ,  ts.ˈi.ɜ tɕˈiɛ ts.ˈəŋ tɕˈy
+desiderative-mood: dvim, 6154,  (en)dɪzˈɪdəɹətˌɪv(hi) mənˈoːdʃˌaː,  tˌəsi̪tˌəʐɑthivˈo- ɕˈin tɕhˈiɜŋ
+berkelium: bl6m, 4617,  bəɾkˈiːlɪjˌəm,  phˈeiɜ
+semi-skimmed-milk: xwim, 3986,  ˈʌɾddʰ skˈɪmɖ dˈuːdʰ,  pˈan thˈuo ts.ˈi. niouɜnˈai˧˥
+operating-theater: pxot, 4436,  ˌɔpɾeːʈˈĩɡ tʰɪˈeːʈəɾ,  tshˈɑu tsˈuo tɕˈy ˈyæn
+organic-structure: gjik, 4280,  kˈaːɾbənˌɪk sˈʌnɾəcnaː,  jˈiou˧˥ tɕˈi tɕˈiɛɜ kˈou thˈi˧˥
+distributive-case: dwuk, 4005,  bˌãʈneːʋˈaːlaː mˈaːmlˌaː,  fˈən phˈei tə˥ wˈai khˈo-ɜ
+hall-of-residence: xras, 4752,  hˈɔl kaː nɪʋˈaːs,  tˈɑ thˈiŋ tə˧˥ ts.ˈu ts.ˈaiɜ
+remote-past-tense: kxut, 4421,  duːɾˈʌstʰ ʌtˈiːt kˈaːl,  ˈyæ˧˥n ts.hˈəɜŋ kuotɕhy˥ tɕˈi˧˥n ts.ˈaŋ
+different-subject: fwek, 3768,  ˈʌləɡ wˈɪʂˌɛj,  pˈu thˈonɡɜ ɕˈyɛɜ khˈo-
+deliberative-mood: dr6m, 4169,  ˌʌdʰɪkˌaːɾhˈiːn mənˈoːdʃˌaː,  s.ˈə˧˥n jˈi ɕˈin tɕhˈiɜŋ
+possessive-marker: pfam, 3396,  mˌaːlɪkˈaːnaː nɪʃˈaːn,  suoɜjˈiou˧˥ kˈo-ɜ pjˈɑu tɕˈi
+same-event-marker: xom, 4229,  wˈʌhi ɡʰˈʌʈnˌaː nɪʃˈaːn,  ɕˈiɑŋ thˈonɡɜ s.ˈi. tɕˈiɛn pjˈɑu tɕˈi
+antipassive-voice: ts6s, 4774,  (en)ˌantɪpˈasɪv(hi) aːʋˈaːz,  (en)ˌantɪpˈasɪv(zh) ʲˈy˧˥ jˈin
+american-football: mwif, 4825,  ʌmˈeːɾɪkˌən fˈʊʈbˌɔl,  mˈei˧˥ kˈuoɜ tsˈuɜ tɕhˈiouɜ
+successive-clause: kyix, 3350,  kɾˈʌmɪk dʰˈaːɾaː,  lˈiɛɜn ɕˈy thjɑuɜkhwˈa˧˥n
+applicative-voice: pyos, 4458,  ˌʌnʊpɾəjˈoːɡi aːʋˈaːz,  xˈo-ɜ ˈyuŋ tə˥ ʲˈy˧˥ jˈin
+apprehensive-mood: pxic, 4008,  bʰˌəjbʰˈiːt mənˈoːdʃˌaː,  jˈiou lˈy ɕˈin tɕhˈiɜŋ
+mediterranean-sea: trex, 4168,  ˈaːbʰjəntˌəɾɪk səmˈʊdɾə,  tˌits.onɡxˈaiɜ xˈai˧˥
+instrumental-case: s6k, 4793,  səhˈaːjək mˈaːmlˌaː,  jˈiɜ tɕhˈi tə˥ wˈai khˈo-ɜ
+sultanate-of-oman: txum, 5941,  sˌʊltˈaːn kaː ˌʌdʰɪkˈaːɾ kaː oːmˈaːn,  sˈu tˈan kˈuoɜ təɜ ˈɑ mˈan
+equatorial-guinea: xren, 5256,  bʰˌuːmədʰjˌəɾeːkʰˈiːj ɡˈɪnni,  ts.hˈi. tˈɑu tɕˈi˧˥ nˈei jˈiɑ
+real-estate-agent: sy6t, 4147,  wˈaːstəʋˌɪk ɟˌaːjdˈaːd eːɟˈẽːʈ,  ts.ˈən s.ˈi.ɜ fˈaɜŋ tits.hˈa˧˥n tailˈi˧˥ ʐˈəɜn
+computer-hardware: kruq, 4533,  kəmpːjˈuːʈəɾ hˈaːɾɖəʋˌeːjəɾ,  tɕˈi sˈuan tɕˈi jˈiŋ tɕˈiɛn
+is-an-instance-of: kxen, 3853,  hɛː ˈeːk ʊdˈaːhəɾˌəɳ kaː,  s.ˈi. jiɜko-ɜ lˈi tə˥
+computer-keyboard: krux, 4426,  kəmpːjˈuːʈəɾ kibˈoːɾɖ,  tɕˈi sˈuan tɕˈi tɕˈiɛn phˈaɜn
+familiar-register: f6t, 4425,  pˈʌɾɪcˌɪt ɾəɟˈɪsʈəɾ,  s.ˈuɜ tɕˈi tshˈuəɜn tɕhˈi
+collective-plural: kxif, 3942,  saːmˈuːhɪk bˈʌhʊʋˌəcən,  tɕiɜthˈi˧˥ fˈu s.ˈu
+completive-aspect: meq, 4499,  ʃˈeːʂ pˈʌhəlˌuː,  (en)kəmplˈɛtɪv(zh) fˈaŋ mˈiɛn
+answering-machine: qem, 4122,  ɟəʋˈaːb dˈeː məʃˈiːn,  jiŋtˈɑɜ tɕˈi
+excessive-duration: kwix, 3604,  ˈʌtːjədʰˌɪk ˈʌʋdʰˌɪ,  kˈuo tˈuo weiɜtɕhˈi
+destinative-aspect: tyep, 4491,  ɡəntˈʌʋjə pˈʌhəlˌuː,  mˌutitˈi fˈaŋ mˈiɛn
+adjustable-spanner: s6p, 4534,  sˌəmaːjˈoːɟjə nˌaːpneːʋˈaːlaː,  kho-˧˥thjˈɑuɜ ts.ˈə˧˥ŋ tə˥˩ pans.ˈou˧˥
+telephone-receiver: txes, 4976,  ʈˌeːlipʰˈoːn ɾɪsˈiːʋəɾ,  tˈiɛn xwˈɑ tɕˈiɛ s.ˈou tɕhˈi
+existential-clause: swix, 4591,  ʌstˈɪtwə dʰˈaːɾaː,  tshˈuəɜn tsˈai thjɑuɜkhwˈa˧˥n
+prospective-aspect: xlap, 4083,  bʰˈaʊi pˈʌhəlˌuː,  ʲˈy tɕhˈi fˈaŋ mˈiɛn
+dominican-republic: dox, 5285,  ɖˈoːmɪnˌɪkən ɡˌəɳətˈʌntɾə,  tˈuo mˈiɜŋ nˈiɜ tɕˈiɑ kˈonɡ xˈo-ɜ kˈuoɜ
+progressive-aspect: pfip, 5078,  pɾˌəɡtɪʃˈiːl pˈʌhəlˌuː,  tɕˈin pˈu fˈaŋ mˈiɛn
+factive-evidential: bvit, 4774,  (en)fˈaktɪv(hi) pɾətːjˈʌkʃ,  s.ˈi. s.ˈi.ɜ ɕˈiŋ ts.ˈəŋ tɕˈy
+present-participle: q6t, 4338,  wˌəɾtəmˈaːn kɾɪdˈʌnt,  tˈaŋ ɕˈiɑ fˈən tshˈi̪ɜ
+double-parenthesis: dzak, 3855,  dˈoːɡʊnˌaː kˈoːʂʈək,  s.wˈɑŋ ts.hˈɑ ʐˈu ʲˈy˧˥
+prepositional-case: psox, 4658,  sˌəmbəndʰəbˈoːdʰək pˈuːɾʋəsˌəɾɡəsəmbˈʌndʰi mˈaːmlˌaː,  tɕhˈiɛɜn ts.ˈi. tshˈi̪ɜ təɜ wˈai khˈo-ɜ
+vermiform-appendix: vrap, 4694,  kˈiːr.aː keː ɾˈuːp kaː pˌəɾɪʃˈɪʂʈ,  lˈaɜn fˈu lˈu
+in-accordance-with: ksex, 4011,  mẽː ˌʌnʊsˈaːɾ sˈaːtʰ mˈẽː,  tsˈai ˈan ts.ˈɑu thˈonɡɜ
+outboard-motorboat: zrot, 4722,  ɟəhˈaːz keː bˈaːhəɾ mˌoːʈəɾbˈoːʈ,  ɕˈiɛɜn wˈai tɕhithˈi˧˥ŋ
+passive-participle: vyit, 4288,  nˈɪʂkɾɪj kɾɪdˈʌnt,  pˈei tˈonɡ fˈən tshˈi̪ɜ
+overhead-projector: xrek, 5275,  bʰˈuːmɪ keː ˈupəɾ pɾəkʃˈeːpək,  kˈɑu tɕˈiɑ fˈaŋ jˈiŋ tɕˈi
+delayed-imperative: txiq, 3672,  wɪlˈʌmbɪt ˌʌnɪʋˈaːɾjə,  jˈiɛɜn ts.hˈi.ɜ s.ˈi. tsˈai pˈi ɕˈiɜŋ
+visible-evidential: vric, 4382,  dɪkʰˈaːi pɾətːjˈʌkʃ,  khˈo-˧˥ tɕˈiɛn ts.ˈəŋ tɕˈy
+singulative-number: slux, 6213,  (en)sˈɪŋɡjʊlətˌɪv(hi) sˈʌŋkʰjaː,  sˌi̪nkulˌɑthivˈo- s.ˈu
+ayurveda: yex, 4751,  ˌaːjʊɾʋˈeːd,  ˈɑ ʲˈy fˈei thˈuoɜ
+radiation-sickness: r6q, 3543,  wˈɪkɪɾˌəɳ bimˈaːɾi,  fˈuɜ s.ˈo- pˈiŋ
+causative: kriq, 2893,  pɾˈeːɾɳˌaː kaː,  ts.ˈi. pˈiŋ
+single-action-verb: qyak, 4296,  ˈeːk kˈaːɾjə kɾˈɪjaː,  tanxˈaɜŋ tˈonɡ tˈonɡ tshˈi̪ɜ
+tourist-attraction: txuc, 3561,  pˈʌɾjəʈˌək aːkˈʌɾʂəɳ,  jˈiouɜ khˈo- jˈi˧˥n lˈi
+circulatory-system: xlam, 4217,  pʰˌɪɾneːʋˈaːlaː pɾəɳˈaːli,  ɕˈyəɜn xˈuaɜn ɕithˈonɡ˧˥
+cleaning-implement: xliq, 4229,  səpʰˈaːi lˈaːɡuː,  tɕhˈiŋ tɕˈiɛɜ təɜ s.ˈi.ɜ ɕˈiɜŋ
+instruction-manual: tcux, 4177,  ˌʌnʊdˈeːʃ ɡˈaːɪɖ,  ts.ˈi.˧˥ lˈiŋ s.ˈou˧˥ tshˈo-
+superlative-degree: slup, 4243,  ˌʌtɪʃjˈoːktɪ ʊpˈaːdʰɪ,  tsˈuei kˈɑu tɕˈiɜ tˈu
+grammatical-object: graq, 3634,  ʋjˈaːkəɾˌəɳ wˈʌstʊ,  ʲyɜfˈɑ˧˥ tˈuei ɕˈiɑŋ
+triangular-bandage: tyiq, 4442,  tɾˌɪkoːɳˈiːj pˈʌʈːi,  santɕjˈɑu˧˥ ɕˈiɜŋ təɜ pəŋtˈai
+respiratory-system: pr6m, 3991,  sˈãs pɾəɳˈaːli,  xˈu ɕˈi ɕithˈonɡ˧˥
+multiplicative-case: tl6k, 4495,  ɡˈʊɳək mˈaːmlˌaː,  ts.həɜŋfˈɑ˧˥ wˈai khˈo-ɜ
+tropic-of-capricorn: xoc, 4175,  ɾˈeːkʰaː kaː mˈʌkəɾ ɾˈaːʃɪ,  ʐˈo- tˈai tə˥ mˈoɜ tɕˈiɛɜ tsˈuo
+trinidad-and-tobago: dvit, 5259,  tɾˌɪnɪdˈaːd tˈʌtʰaː ʈoːbˈɛːɡoː,  thˈə lˈi nˈiɜ tˈɑɜ xˈo-ɜ tˈuo pɑ˧˥ kˈo-
+epenthetic-morpheme: fex, 5430,  (en)ˌɛpənθˈɛtɪk(hi) ʃˈʌbd kaː bʰˈaːɡ,  (en)ˌɛpənθˈɛtɪk(zh) tshˈi̪ɜ sˈu
+southern-hemisphere: dlix, 4203,  dˈʌkʃɪɳ ɡoːlˈaːɾddʰ,  nˈaɜn pˈu tə˥ pˈan tɕhˈiouɜ
+connective-particle: qyit, 3951,  səɲjˈoːɟi kˈʌɳ,  tɕˈiɛɜ tˈi tsˈu˧˥ ts.ˈi. litsˈi̪˧˥
+jerusalem-artichoke: jlut, 5560,  jˌəɾuːʃlˈeːm hˈaːtʰi cˈʌk,  jˈiɛ lˈu sɑlˈə˧˥ŋ ts.hɑuɜɕˈiɛ˧˥n tɕˈi
+artificial-language: tyaq, 4167,  kɾˈɪtɾɪm bʰˈaːʂaː,  ʐˈəɜn tsˈɑu ʲˈy˧˥ jˈiɛɜn
+antigua-and-barbuda: twup, 4727,  ẽːʈˈiːɡʊˌaː tˈʌtʰaː bˈaːɾbˌʊɖaː,  ˌanthiɜkwˌɑxo-ɜpˌɑputˈɑɜ
+continuative-aspect: tyup, 4440,  sˈʌtət pˈʌhəlˌuː,  tɕˈiɛ ɕˈy fˈaŋ mˈiɛn
+supercritical-fluid: sruf, 5117,  sˈʊpəɾ tˈʌɾəl,  ts.hˈɑu lˈiɜn tɕˈiɛ liouɜthˈi˧˥
+woodwind-instrument: wux, 4798,  (en)wˈʊdwɪnd(hi) sˈaːdʰən,  mˈu kwˈa˧˥n yɛtɕhˈi jˈiɜ tɕhˈi
+auditory-evidential: cr6t, 4626,  ʃɾˈʌʋəɳ pɾətːjˈʌkʃ,  thˈiŋ tɕˈyɛɜ ts.ˈəŋ tɕˈy
+reported-evidential: pr6c, 4162,  ki sˈuːcnˌaː dˈi pɾətːjˈʌkʃ,  pˈɑu tˈɑu ts.ˈəŋ tɕˈy
+same-subject-marker: xec, 4306,  wˈʌhi wˈɪʂˌɛj nɪʃˈaːn,  ɕˈiɑŋ thˈonɡɜ ɕˈyɛɜ khˈo- pjˈɑu tɕˈi
+simultaneous-aspect: m6p, 3928,  sˌəmkˈaːlɪk pˈʌhəlˌuː,  thˈonɡɜ s.ˈi.ɜ fˈaŋ mˈiɛn
+reproductive-system: ps6m, 4373,  pɾˈʌɟənˌən pɾəɳˈaːli,  s.ˈəŋ ts.ˈi.ɜ ɕithˈonɡ˧˥
+dorsal-fin: pliq, 3668,  pɾɪʂʈʰˈiːj pˈʌŋkʰ,  pˈei tɕhˈiɜ
+gothic-architecture: grek, 5396,  ɡˈoːtʰɪk ˌaːɾkɪʈˈeːkcəɾ,  kˈo- thˈə tɕˈiɛn ts.ˈu
+cartridge-extractor: ks6t, 4883,  kˌaːɾtˈuːs cˈɪmʈˌaː,  xˈo-ɜ s.ˈi. tshˈi̪ɜ tˈai ts.hˈou ts.hˈu tɕhˈi
+semelfactive-aspect: feq, 5799,  (en)sˌɛmɪlfˈaktɪv(hi) pˈʌhəlˌuː,  (en)sˌɛmɪlfˈaktɪv(zh) fˈaŋ mˈiɛn
+intrauterine-device: tr6s, 4451,  ˌʌntəɾɡəɾbʰˈaːʃjˌi jˈʊktɪ,  kˈonɡ nˈei s.ˈo- pˈei
+northern-hemisphere: qif, 3855,  ˈʊtːɾˌi ɡoːlˈaːɾddʰ,  pˈei˧˥ fˈaŋ pˈan tɕhˈiouɜ
+postpositional-case: pxok, 4590,  pˈuːcʰeː mˈaːmlˌaː,  xˈou ts.ˈi. wˈai khˈo-ɜ
+cross-country-skiing: kcix, 3995,  pˈaːɾ dˈeːʃ skiˈĩɡ,  tɕjˈɑu ts.hˈɑ kˈuoɜ tɕˈiɑ xwɑɜɕˈyɛ˧˥
+television-programme: tr6m, 5384,  ʈeːlˈiːʋɪɟˌən kˈaːɾjəkɾˌəm,  tˈiɛn s.ˈi. ts.hˈəɜŋ ɕˈy
+reflecting-telescope: fwap, 3719,  dəɾʃˈaːti dˌuːɾbˈiːn,  fˈa˧˥n jˈiŋ wˈɑŋ ˈyæ˧˥n tɕˈiŋ
+frequentative-aspect: r6p, 5246,  kˈɪsi kˈaːɾjə ki pˌʊnɾaʊɾˈɪtːɪ dˌɪkʰaːneːʋˈaːlaː pˈʌhəlˌuː,  ts.honɡɜfˈu ɕˈiɜŋ ts.hˈəɜŋ tˈuei fˈaŋ mˈiɛn
+phillips-screwdriver: ps6s, 4913,  pʰɪlˈɪps pˈẽːcəkˌəs,  fˈei lˈi phˈu˧˥ sˈi̪ lˈuoɜ sˈi̪ tˈɑu
+allocutive-agreement: ky6t, 3983,  ʋjˈaːkʰjaːn sˌəmɟʰˈɔːtaː,  ɕˈyən s.ˈi. ɕˈiɛɜ jˈi
+oak-tree: vlut, 2821,  bəlˈuːt pˈeːr.,  ɕˈiɑŋ mˈu s.ˈu
+instrument-or-method: syiq, 4603,  sˈaːdʰən jˈaː təɾˈiːkaː,  jˈiɜ tɕhˈi jˈɑu mo-˥ faŋfˈɑ˧˥
+united-arab-emirates: xrem, 5325,  jˌuːnaːɪʈˈeːɖ ˈʌɾəb ˌʌmiɾˈaːt,  lˈiɛɜn xˈo-ɜ təɜ ˈɑ lˈɑ pˈoɜ tɕhiouɜts.ˈa˧˥ŋ kˈuoɜ
+alienable-possession: nyex, 4779,  bˈʌdəlneː keː jˈoːɡjə ˌʌdʰɪkˈaːɾ,  liɜtɕˈiɛn tə˥ suoɜjˈiou˧˥ tɕhˈyæɜn
+identification-number: tfaq, 3603,  pˌəhəcˈaːn sˈʌŋkʰjaː,  s.i.ɜpˈiɛɜ s.ˈu
+horizontal-stabilizer: xlic, 4172,  kʃˈɛːtɪɟ sʈˌeːblˈaːɪɟˌəɾ,  xˈəɜŋ wˈuə˧˥n tˈiŋ tɕˈi
+floating-point-number: vun, 4066,  cˈʌl bˈɪndʊ sˈʌŋkʰjaː,  fuɜtˈiɛ˧˥n s.ˈu
+sao-tome-and-principe: swop, 5821,  sˈaːoː mˌeːɾeː lˈɪeː tˈʌtʰaː pɾˈĩsɪpˌeː,  s.ˈəŋ pˈɑu˧˥ lˈuoɜ tˈuei wˈo˧˥ lˈaiɜ s.woxo-˧˥ s.ˈəŋ tˈuo mˈei˧˥ xˈo-ɜ phˈu˧˥ lˈiɜn ɕˈi pˈi˧˥
+republic-of-the-congo: g6k, 5051,  ɡˌəɳətˈʌntɾə kaː kˈãɡoː,  kˈonɡ xˈo-ɜ kˈuoɜ təɜ kˈai kaŋkˈuo˧˥
+public-address-system: vram, 4310,  ɟˈʌntˌaː pˈʌtaː pɾəɳˈaːli,  s.ˈaŋ s.ˈi. tits.ˈi.˧˥ ɕithˈonɡ˧˥
+the-day-after-tomorrow: deq, 4105,  dˈɪn bˈaːd ˈaːneː wˈaːlaː kˈʌl,  kˈai ʐˈi. xˈou mˈiɜŋ thˈiɛn
+inalienable-possession: xlix, 4481,  ˌʌʋɪccʰˈeːdjə ˌʌdʰɪkˈaːɾ,  pˈu khˈo-˧˥ fˈən kˈo- suoɜjˈiou˧˥ tɕhˈyæɜn
+inferential-evidential: n6c, 4534,  ˌaːnʊmˈaːnɪk pɾətːjˈʌkʃ,  thueilˈi˧˥ ts.ˈəŋ tɕˈy
+object-of-an-attribute: tyuq, 3856,  wˈʌstʊ kaː ˈeːk ɡˈʊɳ,  mutˈi tə˥ jiɜko-ɜ s.ˈu˧˥ ɕˈiŋ
+lunar-excursion-module: klum, 4721,  cˈãdɾə sˈɛːɾ mɔɖjˈuːl,  thˈai jˈin ˈyæ˧˥n tsˈuɜ mˈoɜ
+past-passive-participle: xif, 4346,  ʌtˈiːt nˈɪʂkɾɪj kɾɪdˈʌnt,  kuotɕhy˥ pˈei tˈonɡ fˈən tshˈi̪ɜ
+oral-contraceptive-pill: kxop, 4720,  mˈɔːkʰɪk ɡˌəɾbʰənɪɾˈoːdʰək ɡˈoːli,  khˈou˧˥ fˈuɜ pˈi ʲˈyən tə˥ wˈɑɜn
+sensory-evidential-mood: crix, 4615,  ɡɾˌəhəɳʃˈiːl pɾətːjˈʌkʃ mənˈoːdʃˌaː,  kˈa˧˥n tɕˈyɛɜ təɜ ts.ˈəŋ tɕˈy ɕˈin tɕhˈiɜŋ
+central-african-republic: tr6k, 5173,  kˈẽːdɾij ʌfɾˈiːki ɡˌəɳətˈʌntɾə,  ts.ˈonɡ jˈiɑŋ fˈei ts.ˈou ʐˈəɜn kˈonɡ xˈo-ɜ kˈuoɜ
+the-day-before-yesterday: dles, 4065,  dˈɪn seː pˈʌhəlˌeː bˈɪtaː kˈʌl,  kˈai ʐˈi. ts.ˈi. tɕhˈiɛɜn tsˈuoɜ thˈiɛn
+current-relevance-marker: xrac, 4128,  wˌəɾtəmˈaːn pɾaːsˈʌŋɡɪktaː nɪʃˈaːn,  tˈaŋ tɕhˈiɛɜn kwˈan lˈiɛɜn pjˈɑu tɕˈi
+locative-directional-case: tciq, 4959,  loːkˈɛːʈɪw dɪʃˈaːtmək mˈaːmlˌaː,  fˈaŋ wˈei tˈiŋ ɕˈiɑŋ wˈai khˈo-ɜ
+counterfactual-conditional: txoc, 5163,  pɾˌətɪttʰjˈaːtmək səʃˈʌɾt,  fˈaɜn jˈiou˧˥ thjˈɑuɜ tɕˈiɛn tə˥
+erent-event-change-of-event: nw6t, 4946,  (en)ɹˈɛnt(hi) ɡʰˈʌʈnˌaː pˌəɾɪʋˈʌɾtən kaː ɡʰˈʌʈnˌaː,  (en)ɹˈɛnt(zh) s.ˈi. tɕˈiɛn kəŋkˈai˧˥ tə˥˩ s.ˈi. tɕˈiɛn
+democratic-republic-of-the-congo: kxok, 6276,  ɖeːmˈoːkɾeːʈˌɪk ɡˌəɳətˈʌntɾə kaː kˈãɡoː,  miɜnts.ˈu˧˥ tə˥˩ kˈonɡ xˈo-ɜ kˈuoɜ təɜ kˈai kaŋkˈuo˧˥

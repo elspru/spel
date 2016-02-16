@@ -63,8 +63,8 @@ var io = require("../../lib/io"),
     langWeights = {"hi": 1500, "zh": 1300, "en": 840, "sw": 600,
         "ar": 490, "es":  490, "id": 486, "tr": 377, "ru": 325,
         "fr":  220, "ta": 210, "fa": 200, "pt": 200, "de": 145,
-        "zhy": 70, "vi": 70, "it": 64, "pl": 57, "fi": 28,
-        "sv": 21, "ka": 5, "el": 13, "lt": 5, "cy": 2, "sr": 32
+        "zhy": 70, "vi": 70, "it": 64, "pl": 57, "sr": 32, 
+        "fi": 28, "sv": 21, "ka": 5, "el": 13, "lt": 5, "cy": 2
         },
     gramList = [],
     rootList = [],
@@ -93,7 +93,7 @@ function arrayUnique(a) {
     }, []);
 }
 function addTypeOfGlyphToObj(typeList, obj, weight, glyph) {
-    if (typeList.indexOf(glyph) > -1) {
+    if (obj && typeList.indexOf(glyph) > -1) {
         if (obj[glyph] === undefined) {
             obj[glyph] = 0;
         }
@@ -124,6 +124,8 @@ function addGlyphs(obj, glyphWord, weight) {
     /* vowels*/
     glyphAr.forEach(function (glyph) {
         addTypeOfGlyphToObj(vowelList, obj.vowels,
+                weight, glyph);
+        addTypeOfGlyphToObj(toneList, obj.tone,
                 weight, glyph);
     });
     initialSegment.forEach(function (glyph) {
@@ -440,9 +442,11 @@ var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
 function objToArray(obj) {
     var objArray = [],
         resultArray = [];
-    Object.keys(obj).forEach(function (key) {
-        objArray.push([key, obj[key]]);
-    });
+    if (obj) {
+        Object.keys(obj).forEach(function (key) {
+            objArray.push([key, obj[key]]);
+        });
+    }
     return objArray;
 }
 
@@ -495,15 +499,24 @@ function genGram(rootPhonEntry) {
         initialList = rpn.initialConsonants,
         secondList = rpn.middleConsonants,
         finalList = rpn.finalConsonants,
+        tonesList = rpn.tone,
         initialListAr = objToArray(initialList),
         wordList = [],
         cvList = initialListAr,
-        csvList = initialListAr;
+        csvList = initialListAr,
+        cvtList,
+        csvtList;
     cvList = cvList.expand(addWeighted.curry(vowelsList));
     csvList = csvList.expand(addWeighted.curry(secondList));
     csvList = csvList.expand(addWeighted.curry(vowelsList));
     wordList = wordList.concat(cvList);
     wordList = wordList.concat(csvList);
+    if (tonesList && tonesList.length > 0) {
+        cvtList = cvList.expand(addWeighted.curry(tonesList));
+        csvtList = csvList.expand(addWeighted.curry(tonesList));
+        wordList = wordList.concat(cvtList);
+        wordList = wordList.concat(csvtList);
+    }
     averageWeight(wordList);
     wordList = wordList.sort(function (first, match) {
         return parseInt(match[1]) - parseInt(first[1]);
@@ -516,14 +529,25 @@ function genRoot(rootPhonEntry) {
         initialList = rpn.initialConsonants,
         secondList = rpn.middleConsonants,
         finalList = rpn.finalConsonants,
+        tonesList = rpn.tone,
         initialListAr = objToArray(initialList),
         wordList = [],
         cvfList = initialListAr,
-        csvfList = initialListAr;
+        csvfList = initialListAr,
+        cvtfList,
+        csvtfList;
     cvfList = cvfList.expand(addWeighted.curry(vowelsList));
-    cvfList = cvfList.expand(addWeighted.curry(finalList));
     csvfList = csvfList.expand(addWeighted.curry(secondList));
     csvfList = csvfList.expand(addWeighted.curry(vowelsList));
+    if (tonesList && tonesList.length > 0) {
+        cvtfList = cvfList.expand(addWeighted.curry(tonesList));
+        csvtfList = csvfList.expand(addWeighted.curry(tonesList));
+        cvtfList = cvtfList.expand(addWeighted.curry(finalList));
+        csvtfList = csvtfList.expand(addWeighted.curry(finalList));
+        wordList = wordList.concat(cvtfList);
+        wordList = wordList.concat(csvtfList);
+    }
+    cvfList = cvfList.expand(addWeighted.curry(finalList));
     csvfList = csvfList.expand(addWeighted.curry(finalList));
     wordList = wordList.concat(cvfList);
     wordList = wordList.concat(csvfList);
@@ -534,7 +558,8 @@ function genRoot(rootPhonEntry) {
     return wordList;
 }
 
-function addWordToList(word, wordArray, availList, list) {
+function addWordToList(word, phonEntry, wordArray, 
+        availList, typeList) {
     /* if  already in list then don't add it */
     var i = 0,
         wordArrayLength = wordArray.length;
@@ -543,26 +568,37 @@ function addWordToList(word, wordArray, availList, list) {
             langWord = langWordElem[0],
             weight = langWordElem[1],
             availIndex =  availList.indexOf(langWord),
-            oldWord = list[word] && list[word][0],
+            oldWord = typeList[word] && typeList[word][0],
             oldWordIndex = availList.indexOf(oldWord);
         if (availIndex > -1) {
-            if (list[word] === undefined) {
-                list[word] = [langWord, weight];
+            if (typeList[word] === undefined) {
+                typeList[word] = [langWord, weight,
+                    phonEntry["hi"], phonEntry["zh"]];
                 availList[availIndex] = undefined;
-                availList.splice(availIndex,1);
+                availList.splice(availIndex, 1);
                 break;
                // console.log(langWord + " " +
                //     availList.indexOf(langWord));
-            //} else if (list[word] && list[word][1] < weight
-            //        && oldWordIndex === -1 ) {
-            //    list[word] = [langWord, weight];
-            //    availList.push(oldWord);
             }
         }
     }
-    //console.log("length " +availList.length);
+    console.log(word + " " + typeList[word]);
     return availList;
     
+}
+function formatDictionary(thesaurus, mainWords) {
+    var result = "";
+    mainWords.forEach(function (word) { 
+        if (thesaurus[word]) {
+            result += word + ": ";
+            result += thesaurus[word][0] + ", ";
+            result += thesaurus[word][1] + ", ";
+            result += thesaurus[word][2] + ", ";
+            result += thesaurus[word][3];
+            result += "\n";
+        }
+    });
+    return result;
 }
 
 function main() {
@@ -571,11 +607,11 @@ function main() {
         Glyph16File = io.fileRead("16GlyphWordList.txt"),
         G16Lines = stringToWordLines(Glyph16File),
         G16List = wordOfEachLine(0, G16Lines),
-        Glyph24File = io.fileRead("24GlyphWordList.txt"),
+        Glyph24File = io.fileRead("32GlyphWordList.txt"),
         G24Lines = stringToWordLines(Glyph24File),
         G24List = wordOfEachLine(0, G24Lines),
         mainWords = wordOfEachLine(0, wordLines),
-        phonJSON = io.fileRead("genPhon.json"),
+        phonJSON = io.fileRead("genPhon2.json"),
         phonObj = JSON.parse(phonJSON),
         rootPhonJSON = io.fileRead("rootPhon.json"),
         rootPhonObj = {} ,//JSON.parse(rootPhonJSON),
@@ -585,12 +621,26 @@ function main() {
         vowelArray,
         phonWord,
         glyphWord,
-        rootPhonEntry;
+        rootPhonEntry,
+        G16GramMax = 144,
+        G16RootMax = 960,
+        G24GramMax = 450,
+        G24RootMax = 3520,
+        G28GramMax = 666,
+        G28RootMax = 6540,
+        gramCount = 0,
+        rootCount = 0;
     // mainWords.map(getTranslations.curry(transObj));
     wordLines.forEach(function (line, index) {
         var word = line[0],
             gram = line[1];
         phonEntry = phonObj[word];
+        if (phonEntry !== undefined) {
+            if (gram !== undefined) {
+                gramCount += 1;
+            } else {
+                rootCount += 1;
+            }
         rootPhonEntry = rootPhonObj[word];
         if (rootPhonEntry === undefined) {
             rootPhonEntry = new RootPhonEntry();
@@ -599,7 +649,14 @@ function main() {
         allPhonLangs.forEach(function (langCode) {
             phonWord = phonEntry[langCode];
         if (phonWord !==  undefined) {
-            if (index > (G16List.length/1.6|0)) {
+            if (gram && gramCount > ((G28GramMax/1.61)|0) ||
+                rootCount > ((G28RootMax/1.61)|0)) {
+                glyphWord = ipaTo32Glyph(phonWord);
+            } else if (gram && gramCount > ((G24GramMax/1.61)|0) ||
+                rootCount > ((G24RootMax/1.61)|0)) {
+                glyphWord = ipaTo28Glyph(phonWord);
+            } else if (gram && gramCount > ((G16GramMax/1.61)|0) ||
+                rootCount > ((G16RootMax/1.61)|0)) {
                 glyphWord = ipaTo24Glyph(phonWord);
             } else {
                 glyphWord = ipaTo16Glyph(phonWord);
@@ -612,18 +669,28 @@ function main() {
         addGlyphs(rootPhonEntry, glyphWord,
             langWeights[langCode]);
         });
-        if (gram === "G") {
-            G24List = addWordToList(word, genGram(rootPhonEntry),
-                G24List, gramList);
+        if (gram === "g") {
+            G24List = addWordToList(word, phonEntry, 
+                genGram(rootPhonEntry), G24List, gramList);
+        /* if including all gram words as roots */
+            G24List = addWordToList(word, phonEntry,
+                genRoot(rootPhonEntry), G24List, rootList);
         } else {
-            G24List = addWordToList(word, genRoot(rootPhonEntry),
-                G24List, rootList);
+            G24List = addWordToList(word, phonEntry,
+                genRoot(rootPhonEntry), G24List, rootList);
         }
         rootPhonObj[word] = rootPhonEntry;
+        } else {
+            console.log(word + " undefined");
+        }
     });
         console.log(gramList);
         console.log(rootList);
     io.fileWrite("rootPhon.json", JSON.stringify(rootPhonObj));
+    io.fileWrite("gramWords.txt", 
+            formatDictionary(gramList, mainWords));
+    io.fileWrite("rootWords.txt", 
+            formatDictionary(rootList, mainWords));
 }
 
 main();

@@ -157,7 +157,7 @@ function updateTranslationEntry(entry, word) {
     Object.keys(entry).forEach(function (key) {
         if (entry[key] === "") {
             translation = translateWord(word, key);
-            //console.log(translation);
+            console.log(translation);
             entry[key] = translation;
         }
     });
@@ -169,10 +169,13 @@ function phonateWord(word, inLangCode) {
         command = "",
         translation = "",
         warning;
+    if (word === "undefined") {
+        word = "";
+    }
     if (inLangCode === "en") {
         inLangCode = "en-us";
     }
-    word = word.replace(/\"/g,"");
+    word = word && word.replace(/\"/g,"");
     command = 'echo "' + word + '" | espeak --stdin --ipa -q ' +
         " -v " + inLangCode;
     try {
@@ -207,7 +210,7 @@ function arabicToIPA(word) {
   //      console.log(e);
   //  }
   //  word = translation;
-  //  console.log( "translation " + translation);
+  //  console.log(translation);
     word = word.replace("ا","a");
     word = word.replace("ﺍ","a");
     word = word.replace("ﺍ","a");
@@ -524,20 +527,20 @@ function updatePhonemicEntry(phonEntry, transEntry) {
     var translation,
         word;
     Object.keys(phonEntry).forEach(function (key) {
-    if (key === "th") {
-        word = transEntry[key];
-        if (word !== undefined) { 
-            translation = thaiToIPA(word);
-        }
-        //console.log("th translation " + translation);
-    } else {
         if (phonEntry[key] === "") {
             if (key === "zhy") {
                 word = transEntry.zh;
             } else {
                 word = transEntry[key];
             }
-            if (key === "ar") {
+            if (key === "th") {
+                word = transEntry[key];
+                if (word !== undefined) { 
+                    translation = thaiToIPA(word);
+                    console.log("th " + translation);
+                    phonEntry[key] = translation;
+                }
+            } else if (key === "ar") {
                 translation = arabicToIPA(word);
             } else if (key === "zhy") {
                 translation = phonateWord(word, key);
@@ -552,10 +555,11 @@ function updatePhonemicEntry(phonEntry, transEntry) {
                 translation = phonateWord(word, key);
             }
             //console.log("word " +word);
-            //console.log("translation " +translation);
+            if (translation !== undefined) {
+                console.log(key + " " +translation);
+            }
             phonEntry[key] = translation;
         }
-    }
     });
     return phonEntry;
 }
@@ -568,6 +572,7 @@ function main() {
         transObj = JSON.parse(transJSON),
         phonJSON = io.fileRead("genPhon2.json"),
         phonObj = JSON.parse(phonJSON),
+        count = 0,
         transEntry,
         phonEntry;
     // mainWords.map(getTranslations.curry(transObj));
@@ -588,6 +593,12 @@ function main() {
         } else {
             phonObj[word] = updatePhonemicEntry(phonEntry, 
                 transEntry);
+        count += 1;
+        if (count > 100) {
+            io.fileWrite("genPhon2.json", 
+                JSON.stringify(phonObj));
+            count = 0;
+        }
         }
     });
     io.fileWrite("genPhon2.json", JSON.stringify(phonObj));

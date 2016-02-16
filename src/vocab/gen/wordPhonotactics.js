@@ -61,8 +61,8 @@ var alphabet = Bit3Alphabet;
 //var alphabet = Glyph12Alphabet;
 //var alphabet = Bit4Alphabet;
 //var alphabet = Glyph19Alphabet;
-//var alphabet = Glyph24Alphabet;
-//var alphabet = Glyph28Alphabet;
+var alphabet = Glyph24Alphabet;
+var alphabet = Glyph28Alphabet;
 //var alphabet = Glyph31Alphabet;
 //var alphabet = Bit5Alphabet;
 var comment = "C16G kya";
@@ -192,8 +192,8 @@ alphabet.phonemeClass = {
 	"C":["p","t","k","f", "s","c","x",
          "b","d","g","v", "z","j",
          "n","m","q","r", "l","y","w"],
-	"F":["p","t","k","f", "s","c","q","m",
-         "n","x","b","d", "g","z","j","v"],
+	"F":["p","t","k","f", "s","c","n","m",
+         "q","x"],
 	"S":["f","s","c","y", "r","w","l","x",
          "z","j","v"],
 	"T":["7","_"],
@@ -238,10 +238,10 @@ var /*array<String>*/ syllableWeight = [
 	["V","T"],
 	["C","V"],
 	["C","V","T"],
-	["C","S","V","H"],
-	["C","S","V","T","H"],
-   	["H","C","V","F"],
-   	["H","C","V","T","F"],
+	["C","S","V"],
+	["C","S","V","T"],
+   	["C","V","F"],
+   	["C","V","T","F"],
 	["C","S","V","F"],
 	["C","S","V","T","F"],
 /*	["C","V","C","C"],
@@ -365,7 +365,7 @@ function /*array<String>*/ wordsGenerate(
 			   && !alphabetCheck("V",glyph)
 			   //&& !alphabetCheck("V",previousGlyph)
 			   && Math.abs(thisLevel-previousLevel)
-			   <initialSonorityDifference)
+			   < initialSonorityDifference)
 				return null;
 			if (totalSonorityDifference > 0
 			   && !alphabetCheck("V",glyph)

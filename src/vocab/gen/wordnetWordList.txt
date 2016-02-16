@@ -412,7 +412,7 @@ bury
 bus
 bush
 business
-businessman
+businessperson
 busy
 butter
 butterfly
@@ -770,7 +770,7 @@ cower
 crack
 crackpot
 craft
-craftsman
+artisan
 crash
 cream
 create
@@ -1318,7 +1318,7 @@ firm
 first
 first-hand
 fish
-fisherman
+fisher
 fist
 fit
 fitness
@@ -2477,7 +2477,7 @@ poetry
 point
 poison
 pole
-policeman
+police-officer
 policy
 polish
 polite
@@ -3154,7 +3154,6 @@ spite
 split
 splurge
 spoil
-spokesman
 spokesperson
 spontaneous
 spoon
