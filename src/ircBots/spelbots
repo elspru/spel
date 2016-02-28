@@ -1,0 +1,5 @@
+#!/bin/bash
+PATH="/home/elspru/spel/src/ircBots/"
+
+$PATH/president.js &
+$PATH/secretary.js &

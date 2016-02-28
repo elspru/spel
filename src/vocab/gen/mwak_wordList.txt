@@ -1088,10 +1088,13 @@ shoes
 exist
 smell
 shoulder
-at-case g
-from-case g
-subject-case g
-object-case g
-of-case g
-to-case g
-interior-case g
+may g
+computer-programming
+initialism g
+acronym g
+thou g
+president
+secretary
+treasurer
+facilitator
+moderator

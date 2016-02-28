@@ -629,6 +629,7 @@ function main() {
         G28GramMax = 666,
         G28RootMax = 6540,
         gramCount = 0,
+        shortGramCount = 0,
         rootCount = 0;
     // mainWords.map(getTranslations.curry(transObj));
     wordLines.forEach(function (line, index) {

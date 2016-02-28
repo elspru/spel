@@ -1,0 +1,29 @@
+4855B11B73 elspru:hello
+4855B123A4 elspru:awesome so now with day change it will be possible to make good logs
+.4855B16099.mu.elspru.nwoh gotta also make the new stuff
+.4855B16653.mu.elspru.nwoh i mean finish with the cases, that will be good
+.4855B25A67.mu.elspru.nwoh so rather than making it by date, can do it by word count
+.4855B26096.mu.elspru.nwoh something like 720 words.  after that can package it into a blog post.
+.4855B26451.mu.elspru.nwoh the title should be about 6 words long, so can make it consist of the most common words which aren't grammar words.
+.4855B2662B.mu.elspru.nwoh for english that would be words with a length greater than 3.
+.4855B26902.mu.elspru.nwoh or can simply have a blacklist of english grammar words which should not be included.
+.4855B26BAB.mu.elspru.nwoh I guess I'll go set that up.
+.4855B27868.mu.elspru.nwoh 720 is 12 times 60 btw
+.4855B29260.mu.elspru.nwoh javascript is great, works everywhere. web apps, console, even IRC :-D.
+.4856179065.mu.elspru.nwoh okay wrote it now gotta test it
+.4856179531.mu.elspru.nwoh ideally need a way of testing it seperate from reloading the bot..
+4856662233 <elspru> hope this worked
+.485666B989.mu.elspru.nwo okay so gotta finish that grammar words length thing
+.485666BA22.mu.elspru.nwo and then can work on the bots some more
+.3479BB664.mu.elspru.nwo fixed up the seconds
+.3479BB688.mu.elspru.nwo now records in duodecimal unix time
+.3479BB792.mu.elspru.nwo or rather dozenal
+.3479BBA13.mu.elspru.nwo so the idea is the grammar words will have 2 or 3 appended to them, based on if they should be generated in the form of 2 or three letters.
+.3479BBA7A.mu.elspru.nwo also there will be a seperate counter for 2 letter words, so that when get to 1/phi count of them will switch over to next alphabet for generating
+.3479BBB1A.mu.elspru.nwo most of this will occur in rootWordPhon.js with some editing of the text files to enter the grammar word length information thereafter
+.347A06009.mu.elspru.nwo  /names
+.347A06978.mu.elspru.nwo added password check to bots so can upload source code
+.347A06998.mu.elspru.nwo might do it some other way, by simply keeping it in a file outside the actual folder, would be best I think.
+.347A069AA.mu.elspru.nwo maybe in /etc/spelbots or something
+.347A14791.mu.elspru.nwo  /names
+.347A147A9.mu.elspru.nwo seems the bots are now fairly stable

@@ -1,4 +1,4 @@
-be-verb g
+infinitive g
 nominative-case g
 accusative-case g
 genitive-case g
@@ -7,80 +7,109 @@ dad
 mom
 hello g
 ancestor
-grandmother
+grandparent
 hungry
-of g
+adjective g
 and g
-to g
-interior-case g
+dative-case g
 me g
 it g
-complementizer g
+relativizer g
+perfective-aspect g
 past-tense g
 masculine-gender g
+comitative-case g
 present-tense g
-vocative-case g
-as g
+benefactive-case g
+essive-case g
 you g
 not g
-at-case g
+negation g
+its
+on g
+locative-case g
+instrumental-case g
+which
 interrogative-mood g
 or g
-from-case g
+ablative-case g
 demonstrative g
 but g
 all g
 feminine-gender g
+they
+plural-number g
 one
 so g
 social-marker g
 will
 future-tense g
-perfective-aspect g
 when
 imperfective-aspect g
 there g
 indicative-mood g
 conditional-mood g
 more g
-partitive-case g
 out
+elative-case g
+illative-case g
 do
 imperative-mood g
 question-word g
 copula g
 person g
+male g
 could
 other g
+some
 number
 very g
 time
 time-marker g
+temporal-case g
 topic-case g
-may
+may g
 only g
-now g
 little
 then g
+should g
+retrospective-aspect g
+us
 great
 before g
 two
 see
 know
 down g
+after g
 subordinator g
 first
+own g
+alienable-possession g
 never
+inalienable-possession g
 old
+deliberative-mood g
 day
 where
+come
 way
 work
 life
+without g
 go
+discourse-marker g
+perlative-case g
+progressive-aspect g
 long
 say
+how
+even g
+many g
+back g
 here g
+think
+same g
 last
 away
 take
@@ -90,34 +119,55 @@ young
 though
 give
 god
+delative-case g
 nothing
+right g
+once
+semelfactive-aspect g
 part g
 saw
 house
 world
 head
 three
-mrs.
+love
+always
 night
+each g
 king
+between g
 heart
+paucal-number g
 because g
+causal-case g
+thing g
+set
 name g
+proper-noun g
+hortative g
 country
+visible-evidential g
 better
 side g
 course
-woman
+female g
 enough g
+full
 room
 almost g
 cannot
 water
 light
 word
+given g
 door
 use
 morning
+final-time g
+terminative-case g
+power
+themselves
+present g
 voice
 white
 money
@@ -125,25 +175,32 @@ next
 poor
 death
 form
+inessive-case g
+kind
 often
 year
 friend
 order
 round g
-wife
 believe
 public
 space-marker g
 state-marker g
 son
+hundred
 children
 hope g
+above g
 dear
 read
 city
 already
-girl
+fact
+factive-evidential g
 hear
+least g
+perhaps
+epistemic-mood g
 open
 body
 air
@@ -151,11 +208,13 @@ nature
 help
 letter
 four
+optative-mood g
 fire
 therefore
 hour
 free
 war
+whether
 reason g
 united
 why
@@ -163,8 +222,17 @@ lost
 thousand
 family
 soul
+question
 care
+realis-mood g
 mean
+towards g
+allative-case g
+anthropic-gender g
+short
+subject g
+same-subject-marker g
+different-subject g
 answer
 sea
 fear g
@@ -172,29 +240,45 @@ understand
 hard
 terms
 doubt g
+dubitative-mood g
 ask
 arms
 black
+bring
+beautiful
 dark
+hold
 ten
 show
 story
+common
 book
 electronic
+talk
+mark
 interest
-written
+write
 bed
+necessary
+idea
 art
+vialis-case g
 brother
+early
+deontic-mood g
 sometimes
 line
 table
 river
+eye
 sun
 information
 suddenly
 strange
+deep
 change
+feeling
+meet
 purpose g
 happy
 seem
@@ -202,28 +286,46 @@ blood
 rose
 south
 cold
+forward
+position
+late
 stand
 suppose
+daughter
+mine
 cut
 copy
+husband
 six
 france
 remember
 effect
+fall
 except g
 hair
+pass
 copyright
 army
 run
+horse
+future g
 west
 pay
 red
 gold
+desire g
+desiderative-mood g
 play
+master
 office
+government
 church
+length
+company
 paper
+probability g
 especially
+bear
 window
 agreement g
 beauty
@@ -233,32 +335,45 @@ distance
 silence
 foot
 wild
+die
 save g
 green
 trouble
 smile
 wrong
+various
 sleep
+quotative-case g
 minutes
+action
 visit
+follow
 try
 presence
 sweet
 rich
 enemy
 ship
+condition g
 including g
+inclusive-person g
 secret
+polite-register g
+evil
 march
+whatever
 stay
+instead
 blue
 impossible
 school
+occasion
 married
 food
 twenty
 quiet
 easily
+prospective-aspect g
 language
 expression
 week
@@ -267,45 +382,69 @@ danger
 property
 born
 court
+generally
 worth g
+simple
 tree
+fight
 wall
 heaven
+inchoative-aspect g
+jussive-mood g
 tone
+regard
 expected
 month
 experience
+entirely
+fresh
 duke
+covered
 bound
+east
 stone
+quickly
 direction
 chair
 support
+date
 village
 field g
+permission g
 success
+proper
 hill
 music
 distal-demonstrative g
+afternoon
 cry
+honour
 seven
 private
 news
+scene
 garden
 race
+begin
+distributive-case g
 learn
 political
 lie
 cast
 eat
+floor
 ill
 original
 summer
 religion
+picture
 escape
 author
 brown
+determined
 pain g
+spring
+century
 soft
 corner
 produce
@@ -317,23 +456,33 @@ dress
 terrible
 breath
 wise
+possessive-marker g
 memory
 modern
+spot
+rise
 break
 fifty
 island
 touch
 promise g
+degree
+plan
 conduct
 surprise g
 shot
+worse
 glass
+instance
 safe
 doctor
+completive-aspect g
 repeated
 military
+warm
 drink
 anger g
+directly
 hat
 dog
 servant
@@ -341,57 +490,95 @@ pride
 crowd
 train
 moral
+associated
+enter
+rule
 sword
 attack
 health
+paragraph
+social
+refund
 sorry
 courage
 grace
 official
 jack
+provided
 request g
+glance
+movement g
+expect
+opposite g
 twelve
 engaged
 wine
 taste
 iron
+distribute
+trade
 advantage
 clothes
 judge
+difference
+anxious
 captain
+finished
+cessative-aspect g
 curious
 foreign
+intensifier g
+importance
 finally
+bill
 prove
 prevent
 neck
+legal
 dry
+serve
 lose
 evidence
+evidential-case g
 progress
 building
+search
 sad
 sin
 thirty
 honest
+shut
 bank
+fate
 forest
 measure
 otherwise g
 stream
 bread
+additional
 choose
 animal
+zoic-gender g
+same-event-marker g
+amount-marker g
+multiplicative-case g
 thick
 creature
 rain
+surface
 holy
 july
+report
 coast
 file
+shoulder
+surprised
+royal
 song
+comfort
 anyone
 grass
+draw
 opening
 june
 fish
@@ -399,72 +586,107 @@ capital
 breast
 snow
 education
+sharp
 pity
+expense
+yours
 million
 tired
 kill
 shadow
+weight
+mass
 established
 brave
+thin
+satisfied
+check
 virtue
 famous
+alive
+national
 divine
 valley
 guess
+yellow
+remains
 bent
+box
+principle
 season
 science
 bore
 uncle
 list
 august
+unknown
 familiar g
+familiar-register g
 reader
+approach
 twice
+intellectual
+truly
 priest
 wounded
-sorrow
+sorrow g
 palace
 beat
 eh? g
 italy
 fool
+edge
+nine
 burst
 suffer
 noise
 literature
+advice g
 spain
+empty
+rank
 storm
 pocket
+imagination
+sentence
 november
 december
+happen
 absence
 thank
 address
 bird
 owner
 coat
+prepare
+relations
 smoke
 january
 machine
+content
 teeth
 shame
 bay
 brain
 ring
-mention
+phrase-marker g
 square
 fruit
 tea
+explain
 welcome
 germany
 poetry
 buy
 faithful
+excitement
 forty
 april
+kindly
 october
+bitter
 slave
+loose
 text
 credit
 fifteen
@@ -474,20 +696,32 @@ process
 crime
 dust
 practical
+colour
 destroy
+increase
 nose
+admit
 yesterday
+hesternal-tense g
 fail
 continue
+wear
 blind
+dozen
 india
 fly
+praise
 devil
+gradually
 sacrifice
+exercise
 conscience
 minister
 hate
 lake
+centre
+faint
+rational-gender g
 careful
 enjoy
 worship
@@ -497,49 +731,83 @@ roof
 crown
 castle
 throne
+attached
+mile
+extreme g
 prison
 cup
 member
 civil
+everywhere
+connection
+evident
+couple
+volume
+custom
 bow
+suit
+meat
 milk
+vegetal-gender g
+vision
+rare
 egypt
 cousin
 bridge
 israel
+protect
 salt
 innocent
 queen
-curiosity
+count
+curiosity g
 dance
 hotel
 fill
 prisoner
+shop
 stairs
 beg
 sand
+violent
 september
 ireland
+departure
 ruin
+skill
 cattle
 equipment
 kitchen
 sell
 speed
+conclusion g
 computer
+eternal
 limited
 library
+base
 confusion
+glorious
+likewise
+frightened
+unhappy
 article g
 cook
+band
 desert
 kiss
 ball
+stick
+argument
 observe
+benedictive-mood g
+striking
 guilty
 gun
 police
 hide
+expedition
+ignorant
 generous
 cloud
 waste
@@ -547,91 +815,177 @@ february
 disease
 spend
 source
+initiative-case g
 aunt
 delay
+delayed-imperative g
+reported-evidential g
+midnight
 hero
 philosophy
 finger
+comfortable
+somewhere
+press
+staff
+reward
+blame
+misery
 forehead
+ad
 angel
+singular-number g
 dawn
+commercial
+forgive
 sheep
 patience
 farm
+referential g
+key
 weakness
 china
+atmosphere
 sigh
+humanity
 opposition
+disk
+lonely
 artist
 knight
 charm
+decision g
 governor
 branch
 disposition
+enthusiasm
+community
+oil
 pipe
+print
 oh
 cabin
+alarm
 nervous
+permanent
 knife
+district
 silk
 russia
 contempt
 hell
+separated
+seriously
 mixed
+wooden
 prefer
+warning g
+admonitive-mood g
+impulse
 ambition
 christmas
+somehow
 constitution
+instrument
 africa
 tide
 college
 tail
 generation
 cat
+direct-evidential g
+abandoned
 eleven
 instinct
+characteristic
 tribe
+apprehensive-mood g
+shelter
+rude
+riding
 shake
 industry
+profession
 lamp
 coffee
+obey
+northern
 nurse
+assure
+chain
 teaching
 shoes
+yard
+vague
+elsewhere
+apartment
 activity
 saturday
 sunshine
 widow
+element
 reflection
+organization
 star
+incident
+guest
+bar
 bottle
 bless
 stir
+inner
+fix
+derive
+hollow
 province
 civilization
 hang
+shock
 exception
+strain
+standard
+driving
+rid
 swear
 treasure
 seed
 tower
 favourite
 mexico
+recently
+recent-past-tense g
+awake
+folk
 furniture
 rope
+adventure
+royalty
+feast
+describe
 sixty
+scale
 ceremony
 hunting
 whisper
+largely
 christianity
 lawyer
+detail
 princess
 altar
 web
 purple
 gather
+election
+conception
 drunk
+pour
+lift
+gesture
+manage
+exchange
 emperor
+remote g
 ugly
 harmless
 roll
@@ -640,17 +994,35 @@ newspaper
 beard
 tear
 bob
+commission
+whereas
+crossing
+independence
 smell
 eighteen
+historical
+gross
 root
+mud
+bride
+veil
 theatre
 comparison
 rival
+balance
 coach
+humour
+novel
 revenge
 jealous
+wheel
+invitation g
+burnt
 flash
+create
+conflict
 curse
+helpless
 positive
 club
 flood
@@ -665,37 +1037,63 @@ greece
 childhood
 knee
 saddle
+software
+injury
+receipt
+enable
+protasis g
 slip
 revolution
 farmer
+stroke
+platform
 messenger
+privilege
+organized
 student
 cave
 tradition
 tragedy
+farewell
 criticism
 cotton
 hospital
+rent
 gas
 inevitable
 deadly
+leaf
+publication
 hostile
 translation
 funeral
+flour
+correspondence
 romantic
+hut
+propose
+mimetic g
 dollar
 daylight
 sixteen
+assembly
 colony
 wing
 lion
 culture
+column
+cunning
 drama
+joke
 mist
 medicine
+nest
 fourteen
 acid
+namely g
 asia
+user
+obviative g
 income
 bishop
 orange
@@ -703,110 +1101,214 @@ austria
 bath
 sunset
 handkerchief
+basket
 secretary
 straw
+impatient
+salvation
+hodiernal-tense g
+intend
 steam
 poison
+talent
+climate
+effective
 distinguish
 wash
+confession
 nonsense
 coal
 canoe
+temporary
+delimitative-aspect g
+bone
 monday
+tuesday
+wednesday
+federal
 desirable
+representative
 linen
 sink
 nephew
+ms
 bloody
+siege
 stomach
 brass
+summit
+fifth
+cheap
+exclusive-person g
+seize
+landing
 fence
 statue
 artillery
 embrace
+surrounding
+strictly
 deer
 bush
+railroad
+discharge
 heir
 oak
+unpleasant
+invention
 piano
+purse
 persuade
+invisible
 cruelty
 temptation
+telic-aspect g
+economic
 international
+crushed
 interfere
 philosopher
+incapable
+elegant
+welfare
 fishing
 steal
 lip
+retire
+stretch
+gallery
 parallel
+atelic-aspect g
 continent
 prohibition g
 tie
+cell
 egg
 artificial
+anchor
 meanwhile
+crisis
+polite g
+lunch
 pine
+push
+alliance
+miracle
 sailor
 purity
 republic
 telephone
 whip
 shirt
+introduce
 sofa
 sweep
 thief
+retain
 channel
+personality
+reform
+threatening
 palm
 speaker
 threshold
+induce
+spear
+neat
+session
+torture
+damp
+ridge
+traveller
+mill
+map
 collar
+replace
+deliberately
 beer
 velvet
 gravity
 sermon
+abuse
+flock
 thirteen
+justify
 cigar
+friday
 brush
 cream
 japan
+cliff
 jury
+monster
 frozen
 pot
+penny
+insist
 apple
+discuss
 background
 transcribe
+periodic
+entertainment
 georgia
 virus
 childish
 reflect
+convert
+outline
 opera
+approval
 latitude
+betray
 punish
 elbow
+repair
+suspicious
 seventy
 scripture
+horn
+pit
 disorder
 binary
 abbey
 arrow
+tend
 elaborate
+loyalty
 coin
 tremble
+exile
+mechanical
 trap
 cake
+sir
+hesitate
 seventeen
 honey
+stake
+tread
 brick
 eighty
+unfortunately
+consult
 legend
 compass
 harvest
+promotion
 stove
+rebel
+old-fashioned
 australia
 swell
 swamp
 dressing
+challenge
 boiled
+ascetic
+manager
+chorus
+rational
 wolf
 carpet
 antiquity
@@ -815,61 +1317,111 @@ fertile
 whistle
 cheese
 bite
+cathedral
+exclamation g
+harbor
 wander
+crops
+navy
 mask
+cab
+pencil
 vegetable
+exhibit
 trousers
 corruption
 cabinet
 soup
+surgeon
+allowance
 spy
+reckless
 gossip
+logophoric g
 abstract
 accent
 thursday
 traffic
 architecture
+crack
 ornament
+reverse
+amuse
+recovery
+pavement
+decisive
 negative
 festival
+reduce
 treason
 hunter
 snake
 battery
 netherlands
+wax
 detective
-monk
+analysis
 swim
+envelope
+whoever
 brandy
+cigarette
+motor
 volunteer
+reaction
+baggage
 deaf
 juice
+humility
 ministry
+sexual
 diameter
 axe
 diamond
+alternate
 echo
+restraint
+identity
+screen
 lazy
+momentane-aspect g
+compact
+drift
 disappear
+ray
 ink
+massive
 cellar
+memorable
+glare
 senate
 coffin
 swallow
+indulge
 swing
+meadow
 complex
 resignation
+humble-register g
+conspiracy
 pepper
 pony
 candidate
 fox
 chimney
+jurisdiction
+agriculture
 accuracy
+former-deceased g
 democratic
 bud
+blanket
+hail
 pig
+shaped
 ivory
 classical
+observer
 elephant
 nails
 bee
@@ -878,28 +1430,53 @@ actor
 sweat
 polish
 illusion
+uncertainty
+secondary
+fold
 rural
 groan
+resemble
+quote g
 granite
+sack
+annoyance g
 needle
+smoked
+behave
+controlled
 chicken
+consistent
 barrel
+habitual-aspect g
+expert
+impress
 olive
 syria
 van
+obstacle
 nod
+foster
+definition
 birthday
 hammer
 fragrant
+repetition g
+trivial
+kick
 dig
 pet
 skull
+legislature
+heel
 frown
 patent
 rash
 billion
 chemical
+pilot
 imitate
+skirt
+unusually
 weekly
 technical
 portugal
@@ -907,91 +1484,156 @@ vegetation
 switzerland
 crow
 sunrise
+contribute
+hook
 tiger
+penetrate
+sleeve
+highway
 militia
+ditch
 jupiter
 integrity
 nineteen
+qualified
 li g
 organic
 theology
 witch
+bored
 diplomatic
+studio
+exceed
 champagne
+inspire
+banner
 divorce
+bolt
+vein
+passive g
 foam
 gravel
+apron
 planet
 shelf
 fan
 tropical
+phase
 arbitrary
 mercury
 daisy
+creep
 suicide
 bridle
 reporter
 deprive
+reject
+balcony
 fork
+employee
 employer
 sweden
+irritated
 accuse
+pension
+verb g
 monkey
+acceptable
 signature
+orthodox
+irony g
 easter
+nursery
+reluctance
+import
 torch
 grammar
 deposit
 colonial
+yacht
+consequential g
 sicily
+dome
 thickness
 stubborn
 belgium
 muscle
 harp
+magnitude
 rub
 cowardly
 toast
 mouse
 syllable
 lime
+pat
+dialogue
 neutral g
+diligence
+contradiction
 norway
+achieve
 jordan
 denmark
 goat
 tailor
+flourish
+impose
 anonymous
+formal-register g
+calf
+manual
 melt
+delete
 umbrella
+boot
+mineral
 goose
 truce
 alaska
 planning
 soap
+doll
 skeleton
+villa
 sewing
+reconcile
 kettle
 mature
 cuba
 rabbit
+conductor
+dependence
 player
 insect
 restaurant
 owl
 violin
+radical
+resident
 dragon
+auditory-evidential g
 thirsty
+linger
+calculation
 brother-in-law
 son-in-law
+regulation
 mayor
 e-mail
 minority g
+acquisition
+veteran
 orchestra
 bacon
+disadvantage
 baked
+fabric
+musician
+mentally
 roast
 hungary
+inadequate
 architect
 fisherman
 hawaii
@@ -1000,120 +1642,240 @@ cough
 headache
 tenant
 fertility
+heal
 ninety
 carpenter
+random
 ounce
 spoon
 rum
 balloon
+inferential-evidential g
+publisher
 vinegar
+ash
+expletive g
 revive
+susceptible
 tunnel
 puzzle
+mechanism
 mathematics
 fade
 liver
+sublative-case g
+dip
+unit g
+monopoly
+gambling
 submarine
 earthquake
 laboratory
+cork
 self-control
+buddha
+knit
 embassy
+plaster
 farthest
+declarative-mood g
+stimulus
+plateau
 whisky
 chocolate
+coincidence
+scratch
 glove
 kneel
 geography
+investment
+verbal g
 brazil
+analogy
 peninsula
+secular
+hawk
 psychology
+fasten
 trout
+scrap
+role
+dose
 pudding
+magnetic
 wig
 pump
 oxygen
+certificate
 medal
 ruby
 thermometer
 rhetoric
+concentration
 oar
 telescope
+renaissance
+necklace
+spelling
+willow
 camel
 amateur
 exit
 biography
 donkey
 monthly
+ignore
+vacation
+click
 oval
+stump
+elastic
 dictionary
+ham
 rainbow
+consume
+emphatic g
+spit
 tank
+colleague
 butcher
 butterfly
+chart
+twin
+independently
 bamboo
+dealer
+inspector
+initial-time g
+morsel
+nightmare
 jam
+dice
 museum
 alphabet
+scatter
+raid
+disclose
 rot
+aggressive
+grate
 friction
 pier
 spider
 potato
 barber
+revision
 slate
+gin
+greed
+multiply
+spin
 jamaica
 father-in-law
+statistics
+calendar
+nomination
 emerald
 lava
 trillion
 chestnut
+attic
+affirmative-mood g
 nominal
+infection
+pitcher
 shrug
+pioneer
+omission
 cabbage
+athletic
+drunkenness
+ideophone g
 sandstone
 lever
 senator
 guinea
 iris
 ant
+stalk
+pregnant
 panama
+precipitate
 ankle
+classification
+variable
+wrap
+curly
+sulphur
 dictate
+emerge
 frog
+exessive-case g
 sponge
+annoying
 squirrel
+grind
+irrealis-mood g
 cement
+weaving
+indoors
 scarf
+picnic
+exploit
 geological
 passport
+immoral
 biscuit
+birch
+lining
 philippines
-adjective g
+cooperation
+tablet
 suspension
+relaxation
 darts
+atom
 vanilla
+aids
 pyramid
+cycle
 nap
+unlawful
+paw
+shyness g
 engraving
+eclipse
 broom
 clover
 cyprus
+panel
 astronomy
 maze
 heather
 scholarship
 turtle
+adviser
 stew
 malta
+fibre
 cricket
 pigeon
+adaptation
+badge
+hip
 triangle
 treasurer
 hydrogen
+fragile
 printer
 choke
 chronic
+cope
 dilemma
+bouquet
+engineering
+camera
+apologize
 locomotive
 lick
 dancer
@@ -1124,135 +1886,238 @@ slang g
 tennis
 parrot
 spine
+loom
 macedonia
+stab
+password
+hemisphere
 lebanon
 strategy
 quartz
+scissors
 parsley
 defile
+patrol
 glacier
+halfway
+memorandum
 cone
 symmetry
+manufacturer
+defendant
 mosque
 chess
+toll
 cherry
+widespread
+stumble
+truck
 mustard
+percent
+auction
 sieve
+unsteady
 magnet
+suck
 fern
 islam
+tiptoe
 membrane
+syrup
 siberia
+continuity
 shave
 guitar
 mother-in-law
+shiny
 elm
+soar
 oyster
+pronoun-marker g
+staple
+spice
+bail
+carrier
+tease
+plow
+physiological
+gutter
+comet
 neptune
 medieval
 morocco
 sparrow
+compensate
 cinnamon
 plastic
 footnote
+orbit
+frugal
 golf
+zero
 luxembourg
 crab
+chip
+oppress
 yawn
 inequality
+mole
 pottery
 housewife
+rye
+disobey
 tolerant
+embryo
+walnut
+eaves
 sherry
 chad
+miner
+applaud
 armenia
+yeast
 jargon g
 bulgaria
+premium
 plum
 tumbler
 puppy
+bankruptcy
 irrigation
+mint
 capitalist
 elasticity
 shark
+recruit
+storage
+prohibitive-mood g
+prevalence
 realism
 crocodile
 ginger
 ambulance
+comparable
+grimace
 barricade
+scientist
 gut
 equanimity
 spleen
 radio
+irrelevant
+bean
 informal
+granddaughter
+disagreement g
+speculative-mood g
 equator
 bracelet
 nitrogen
 celery
 razor
+contrasting
+propaganda
 fireworks
 sardinia
 saturn
 nutmeg
 pear
+mantel
 quail
 undress
 furrow
+harmful
 judaism
+complement
 lens
+pegative-case g
 cancer
+pawn
 lecturer
+leak
 wicket
+density
 induction
 chew
 talkative
 daughter-in-law
 chisel
 lobster
+porridge
+discount
+hierarchy
 jade
+varnish
 evergreen
 snarl
 lizard
+pad
 waterfall
+disappointing
 shutter
+qua g
 presidency
+buyer
 greenland
 gallon
 mosquito
 peacock
 deviation
+wrestle
 mosaic
 plug
+squat
 indigo
 sapphire
+foil
 lighthouse
 corsica
 grocery
+bladder
 communist
+amaze
+prosecutive-case g
 poplar
 constellation
 dictator
+preoccupation
 satellite
 slipper
 consonant
+approximate
 saffron
 synagogue
+unemployed
 jeweller
+supporter
 lotus
+lettuce
 chloride
 bacteria
 sticky
 venezuela
+feign
 afghanistan
 secretion
+simmer
 ethiopia
+explicitly
+coincide
+ballet
 urine
 garlic
+elapse
+economics
 finland
 chile
 middle-class
+agile
+tongs
+laundry
 easel
 strawberry
+urban
+embarrass
 notebook
 album
 baseball
@@ -1261,63 +2126,104 @@ buffet
 participle g
 nicaragua
 garage
+diagnosis
 crutch
+extort
+registration
+soluble
 phosphorus
+brooch
+interrogation g
+structural
 andes
 gymnasium
 niger
+glue
 crane
 thesis
+artisan
 banana
 bran
 drip
+rib
+nickel
+pi
+bus
 canary
 censor
 missile
 sausage
+manipulation
 rhinoceros
 tomato
+reinforce
 holly
 kangaroo
 potassium
+retrieve
 algebra
+dentist
+optical
+budge
 biology
 unemployment
 caterpillar
 madagascar
+solo
 turpentine
 browser
 singapore
+gland
+remote-past-tense g
+historic-tense g
+nuclear
 spectrum
 sodium
-hysteria
+hysteria g
 trustee
+hostage
 eel
+gourd
+wrinkle
 otter
+transparency
 pluto
+boxing
 colombia
+spike
 libya
 honeysuckle
+priority
 stretcher
 frieze
+pedestrian
 atheism
+monitor
 constituency
 uncontrolled
 paraguay
 turnip
+pallet
 drummer
 almond
 nausea
 platinum
+blues
 currant
+dual-number g
 lung
 pheasant
 super
+trolley
+locally
 poppy
+incite
 sahara
 gasoline
 kidney
+loot
 cactus
+assessment
 guiana
 arsenic
 acacia
@@ -1325,8 +2231,19 @@ snail
 algeria
 playground
 thyme
+buoy
+cuff
 grasshopper
+pluractional g
+equation
+socialist
+filter
+mince
+sensory-evidential-mood g
 albania
+widen
+emit
+leash
 mandarin
 thistle
 sorrel
@@ -1334,56 +2251,95 @@ jockey
 pneumonia
 mica
 gorilla
+solidarity
+hinge
+longitudinal
 dividend
 skate
 honduras
 auburn
+fillet
+cramp
 stenographer
+exponent
 mauritius
+disability
+obsession
+allotment
 pomegranate
-fireman
+photographer
 opal
 curry
+delta
+digital
 bitch
+trans
 eyelid
 diagonal
+crucible
 eyebrow
 sneeze
 cartilage
 turquoise
+hilarious
 scarecrow
 hinduism
 refugee
+shuttle
 protein
+estuary
+dump
 refectory
 mongolia
 gene
 freshman
 liberia
+definitive g
+merge
+succulent
 nape
 yemen
 sociology
+squash
 guatemala
+regional
+motion-uphill g
+retrospective g
+tornado
+inversion
+tv
+productivity
 carrot
 bowling
 senegal
 melon
 gill
 molecular
+conglomerate
 accountant
+cucumber
 mackerel
+orgy
+solvent
 phosphate
 argentina
 scorpion
 woodpecker
 raspberry
 hippopotamus
+primer
 alkaline
+gymnastics
 wheelbarrow
 capsule
 stork
+comma
 nepal
 tulip
+bumper
+motion-downhill g
+miscarriage
+pod
 iran
 donor
 manganese
@@ -1397,33 +2353,58 @@ elite
 bolivia
 parenthesis g
 rugby
+ulcer
 uterus
 inflected g
+caper
+quantum
+sweater
+evolutionary
+notation
 retina
+bounce
 penguin
+fiji
 limousine
+creeper
 gambia
+calyx
+dissection
 himalayas
+linear
 antimony
+superessive-case g
+tumor
 erosion
 pineapple
+navel
 immune
 cocktail
+polo
 uganda
+influenza
 skein
 grenada
 brewery
 simplify
+abridge
+dent
 sudan
 haiti
+captivate
 cauliflower
+coerce
+monaco
 sock
-television
+liqueur
 uruguay
+movie
 lithuania
+cosmos
 asthma
 gregarious
 hedgehog
+penis
 tasmania
 angola
 postmark
@@ -1433,74 +2414,123 @@ alfalfa
 oscillation
 vietnam
 horoscope
+joker
+eject
+childbirth
+inclusion
+larynx
 nettle
 baste
 dolphin
 killer
+foal
 omelette
 mammal
 dominoes
+potential-mood g
 ecuador
 mozambique
+indicator
 dioxide
 colon
 bureaucracy
+corkscrew
+distort
 tambourine
 antiseptic
 ukraine
+lintel
 dominica
+newborn
 rosemary
 climber
 refrigerator
 iraq
+archaeological
+nozzle
 unacceptable
 massage
 orchid
 specification
+teacup
+leaflet
 uranus
 apricot
 topaz
 tights
 coconut
+bakery
 anthropology
 igneous
+transitive g
+cower
 pakistan
 solder
 rectum
 larch
 sunflower
+louse
 giraffe
 romania
 pestle
 backgammon
 ion
 zebra
+somersault
 eucalyptus
 modem
+acceleration
+percussion
+falsify
 quince
 prompter
+emission
+kidnap
+lapel
+overlap
 mauritania
 microwave
 indonesia
+folklore
 capillary
+nationalism
+deciduous
 mayonnaise
 benin
 dandelion
 nigeria
+motif
 malaysia
+treadmill
+sedimentary
 bahamas
+atrium
 yugoslavia
 allspice
 sublimate
+hyperbole g
+cd
+theorist
+frustration
+traction
+whiting
 parallelogram
+mirative g
 cobalt
+rococo
 stockbroker
 oat
+motion-upriver g
 cutlery
+flip
+redundancy
 video
+boycott
+quiz
 hockey
 alliteration g
 cambodia
+checkers
 taiwan
 magnesium
 radar
@@ -1512,12 +2542,18 @@ cranberry
 thailand
 daffodil
 octagon
+reliability
 rectangle
 kelp
 generalize
+rafter
+fertilization
 curfew
 homosexual
 hamburger
+scenario
+formulation
+haddock
 florist
 reincarnation
 ignite
@@ -1525,34 +2561,55 @@ watermelon
 cameroon
 tunisia
 uranium
+clarinet
 catcher
+placenta
 coordinate
 laos
 taxpayer
 trombone
 pumice
 eyelash
+stressed
+integrated
+opine
 chessboard
+safari
 fennel
 marjoram
 kuwait
+motion-downriver g
+coefficient
 bib
+heater
 metamorphic
 octopus
 asteroid
+headline
 icicle
+leek
+analyst
+geyser
+checkmate
 biennial
 mall
 bismuth
 kenya
+scraper
+postcard
 sundial
+convergence
+digress
+shareholder
 obsidian
 microbe
 genital
-expletive g
+morphological
 jeans
+tab
 biceps
 raccoon
+buttercup
 zimbabwe
 cornea
 molar
@@ -1562,8 +2619,11 @@ sardine
 x-ray
 belize
 ghana
+environmental
 tadpole
 bangladesh
+disjunction g
+agenda
 duckling
 malachite
 visa
@@ -1576,66 +2636,93 @@ biologist
 rolling-pin
 peony
 euphemism g
+splice
 bromine
 palladium
 bassoon
 djibouti
 slovakia
+cosmetic
+femur
 hiccup
 cheddar
+pastel
+quarterdeck
 scalpel
+barbecue
 swaziland
 somalia
 popcorn
+coaster
 zoo
 clinic
 zambia
 urethra
 graphite
+connotation
 artichoke
 gabon
 horseradish
 starfish
+yoga
 sleeveless
 namibia
+bookstore
+therapy
 botswana
+trachea
 pentagon
 stethoscope
 azerbaijan
+ketchup
 liechtenstein
+nationalist
 behead
+yeah
 humerus
 scrotum
 malawi
+problematic
 jazz
 tractor
 tungsten
 endive
 grapefruit
+terrorist
 wallpaper
 rwanda
 greengrocer
+dribble
 manicure
 margarine
 metabolism
 beetroot
 alimony
+negligee
 bhutan
 earring
 ramadan
+bream
 suriname
 latvia
+reflexive g
 oesophagus
 weekend
 slovenia
+undershirt
 maldives
+vaccine
+baroque
 kazakhstan
 brunei
+lingerie
 motorcycle
 guinea-bissau
 mantra
 lesotho
 box-office
+cockerel
+semester
 burundi
 heroin
 glider
@@ -1643,70 +2730,103 @@ fibula
 cathode
 chicory
 iguana
+ideology
 parking
 fishmonger
 belarus
 toothbrush
 clitoris
 delicatessen
+anticlimax g
 comoros
 flamingo
 selenium
+cycling
 estonia
 guava
+equivalence
+current-relevance-marker g
 airport
 jellyfish
 uzbekistan
+amputate
 psychiatry
 vanuatu
 steeplechase
 liter
+handcuff
 basketball
 imposter
 moldova
+cockroach
 chromium
 rodeo
+nonetheless
 duodenum
+testis
+bunker
 sandpaper
+fairway
 hormone
 turkmenistan
 ulna
+flawed
+perforate
 kyrgyzstan
 animism
+polygon
 eritrea
 ord g
 piccolo
+antenna
 feminist
 saxophone
+conjugate
+foreskin
+gymnast
 tarragon
+bathrobe
 euro
 persimmon
 andorra
 ginseng
 grater
 tajikistan
+diaper
 algorithm
 anthropomorphism g
 laser
 patella
 drugstore
 millimeter
+flex
+modifier g
 sprinkler
 accelerator
+loge
+nuance
 part-time
 sensitivity
 skyscraper
 demonstrator
 helium
 bilingual
+acronym g
+initialism g
 gerund g
+neo
 plasma
 chromosome
+ordinal g
 okra
 haberdashery
 kilometre
 fax
+vocative g
+genetics
 freckle
+screwdriver
+appetizer
 broccoli
 shampoo
 tourmaline
@@ -1722,58 +2842,96 @@ hexagon
 titanium
 splurge
 catamaran
+fuselage
 seagull
+girlfriend
 copulate
+filler
 hourglass
+sprinter
 halloween
+pecan
+crossbar
+empathy
 boron
 homeopathy
 epiglottis
 helicopter
 tellurium
+deadline
+oxidize
+skiing
 centimetre
+doormat
 molybdenum
 lithium
 multimedia
+update
 calorie
 robot
+pharmacist
 homework
 prostate
+commuter
+workbench
 metatarsal
-gnomic g
 logarithm
+badminton
 mantis
-amplifier
+toddler
+instal
+windshield
 amino
 brioche
+glyph
 hummingbird
+aorist g
 ecology
+pejorative g
+sophisticate
 shallot
 marijuana
+micro
 kilogram
+intercostal
 overeat
 outfield
 cello
 handsaw
-protasis g
+predictable
+gasket
 pizza
 eavesdrop
+linguistics
 metonymy g
 haircut
 iridium
+racism
+hypotenuse
+industrialization
 pipette
+headquarter
 cerium
+congruent
+partitive-case g
 trapezium
+cassette
 -ish
+dimensional
 stratosphere
 parameter
 finial
 orangeade
+maximize
+seminar
+sunglasses
 ureter
 one-way
+chard
 psychotherapy
 clipboard
 onomatopoeia g
+disco
 aquamarine
 conifer
 neon
@@ -1781,13 +2939,16 @@ odometer
 dragonfly
 osmium
 synecdoche g
+suppository
 inchoative g
 radiology
 ring-finger
 thermostat
 ashtray
+plagiarize
 triceps
 osteopathy
+briefcase
 clockwise g
 papaya
 protractor
@@ -1797,69 +2958,101 @@ artifact
 reactor
 oregano
 plutonium
+escalator
 pediatrics
+lifeguard
+lollipop
 plywood
+topiary
 yttrium
+barleycorn
 condom
 augmentative g
+pigpen
 bidet
 piglet
 postgraduate
 wok
+romper
 right-wing
 argon
 lipstick
+phobia
 quadriceps
+socialize
 dishwasher
 globalization
 wavelength
+encode
+recycle
+backpack
 intercom
 termite
 blinker
 hepatitis
+torus
 bosnia-herzegovina
+chemotherapy
+fenugreek
+modulo
 proton
 contraception
 milligram
 playpen
+sideline
+stopwatch
 tantalum
 anacoluthon g
 croissant
 koala
+solute
 wheelchair
 bollard
 genocide
+perfective g
 tequila
 blender
 hamster
-linesman
 ophthalmology
+predator
 salami
 tin-opener
+anorak
 gallium
 zirconium
+determiner g
 nonlinear
 parmesan
 pesticide
 beryllium
+flan
 neuron
+predicative g
 router
+underpants
 brunet
+factorial
 volleyball
 contrabass
+hallux
 myanmar
+aileron
 flip-flop
 neutron
 deodorant
 tam-tam
+denture
 niobium
 paronomasia g
 premolar
 antiphrasis g
+exfoliate
+fairground
 germanium
 hacksaw
 metalloid
 put-on
+prolative-case g
 biodiversity
 guitarist
 joystick
@@ -1868,14 +3061,18 @@ backstroke
 brie
 luge
 actinium
+astronaut
 couscous
+extraterrestrial
 martini
 sauna
 anastrophe g
+crackpot
 litchi
 marathon
 mozzarella
 third-person g
+toenail
 karate
 philately
 ytterbium
@@ -1885,1172 +3082,1173 @@ freesia
 ionize
 ladybug
 mascara
+pedicure
 radon
-americium
-tempera
-as-much-as
-neptunium
-lens-cover
-lemon-sole
-circumfix g
-newsagent
-vacant-lot
-lemon-curd
-gas-pump
-cd-player
-netium
-carryall
-lawn-mower
-east-timor
-launch-pad
-depend-on
-too-little
-samsara
+oral-contraceptive-pill
 neodymium
-verbalizer g
-chess-set
-price-list
-air-filter
-pancreas
-mouthwash
-cardamon
-that-of g
-verb-affix g
-seahorse
-steel-wool
-hypnothize
-winn
-timpani
-almond-oil
-human-body
-houseplant
-headrest
-europium
-roll-out
-angiosperm
-rural-area
-zoom-lens
-sea-lion
-mirative g
-sea-bass
-star-anise
-jelly-bean
-wild-rice
-feijoa
-sculptor
-police-car
-be-born
-polar-bear
-ionosphere
-founds
-fire-alarm
-venitive g
-fire-truck
-goalkeeper
-inner-tube
-in-subcase g
-fish-scale
-fish-slice
-due-to g
-samarium
-antibody
-plumb-line
-floor-plan
-hortative g
-courgette
-DVD
-paralyzed
-basalt
-ice-hockey
-poet
-egg-cup
-formalwear
-sports-car
-ugli-fruit
-luffa
-spark-plug
-ideophone g
-human-face
-baby-buggy
-long-jump
-hovercraft
-cubbyhole
-front-door
-horse-race
-frying-pan
-fuel-gauge
-swimsuit
-mimetic g
-gable-wall
-hard-hat
-owing-to g
-cufflink
-bow-tie
-tv-camera
-gas-burner
-AIDS
-home-plate
-pillowcase
-herbal-tea
-sousaphone
-fijis
-trash-bin
-sour-cream
-sour-bread
-baltic-sea
-lime-tree
-buddhism
-shorts
-soup-spoon
-dollhouse
-town-hall
-towel-bar
-life-raft
-petri-dish
-drill-bit
-non-human g
-dustcloth
-hard-drive
-obviative g
-leftfield
-folk-music
-and/or g
-snuff-out
-topsoil
-hand-towel
-hand-drill
-bath-towel
-pet-shop
-pet-food
-tent-peg
-let-go-of
-paucal g
-slalom
-as-of g
-gynecology
-gypsophila
-sesame-seed
-bus-stop
-groundcover
-green-salad
-green-olive
-test-tube
-grape-juice
-human-being
-golf-course
-exosphere
-taxi-rank
-tap-water
-dining-room
-heavy-metal
 face-mask
-herb-garden
-face-pack
-attenuative g
-living-room
-mendelevium
-gas-station
-tie-tack
-einsteinium
-fruit-juice
-frozen-food
-mudita
-californium
-air-bag
-french-bean
-astatine
-iced-coffee
-skier
-floppy-disk
-fishing-rod
-origami
-strapless
-usitative g
-coreference g
-dative-case g
-first-aid
-finish-line
-fish-farm
-ivory-coast
-incubator
-flatbread
-in-basket
-guy-wire
-face-powder
-ice-tongs
-eye-dropper
+circumfix g
+shoe-shop
+stirrup
+petri-dish
+polyptoton g
 ice-skate
-mailbox
+biplane
 ice-maker
+netium
+air-force
+prior-to g
+monorail
+tailgate
+chauvinist
+legislate
+neck-brace
+town-hall
+neoclassic
+exosphere
+lawrencium
+seaborgium
+meitnerium
+pet-shop
+bar-code
+newsreader
+pet-food
+as-far-as g
+dysphemism g
+usitative g
+nightdress
+north-pole
+projector
+veridical g
+towel-bar
+seat-belt
+hypnothize
+sultana
+butchery
+human-body
+sun-hat
+houseplant
+wild-rice
+paucal g
+indium
+actor-role g
+sunburn
+oil-tanker
+sugarcane
+courgette
+goalkeeper
+owing-to g
 hydrofoil
-knee-length
-dual-number g
-engine-room
-essive-case g
-working-day
-lace-making
-foul-line
-landing-net
-wire-cutter
-el-salvador
-minibus
-minibar
-chewing-gum
-free-kick
-sri-lanka
-nth-root
-spray-gun
-full-time
-white-bread
-duffel-coat
-lemon-grass
-dried-fruit
-fried-egg
-hour-hand
-horsebean
-drawing-pin
-life-jacket
-sit-up
-galapagos
-dental-care
-liquid-unit
-high-jump
-finite-verb g
-swear-in
-bap
-cricket-bat
-eggplant
-gladiolus
-cress-green
-headboard
-machine-gun
-main-course
-red-sea
-cor-anglais
-goal-line
-soup-bowl
-golf-ball
-maple-syrup
-goosefish
-hatchback
-common-plum
-edam
-coffee-tree
-soap-dish
-green-pea
-handstamp
-green-tea
-troposphere
-treble-clef
-clothes-peg
+except-for g
+ski-boot
+eclair
+old-age
+coral-reef
+snowsuit
+strapless
+verbalizer g
+out-basket
+cold-cream
+folk-music
+set-square
+in-case-of g
+coffee-cup
+buddhism
+cesium
+first-hand
+ramekin
+hard-hat
 nobelium
-clock-radio
+linker g
+clove-pink
+paper-clip
+shop-clerk
+clementine
+school-bus
+racehorse
+sesame-seed
+accompanier g
+new-year
+skateboard
+groundcover
+common-plum
+white-bread
+dumbbell
+noseband
+crt-screen
+aikido
+take-off
+chequebook
+red-meat
+chamberpot
+pipe-bowl
+tonic-water
+baking-tray
+prison-cell
+crosswalk
+square-foot
+andative g
+verbal-noun g
+californium
+cardiology
+cor-anglais
+bus-stop
+goal-line
+working-day
+pepperoni
+multal g
+feijoa
+ethium
+denominator
+potato-chip
+seahorse
+snare-drum
+firefighter
+snowmobile
+sponge-cake
+dairy-farm
+bus-ticket
+bus-driver
+dark-bread
+soft-drink
+bass-guitar
+heavy-metal
+cress-green
+oak-tree
+herb-garden
+cricket-bat
+bow-tie
+erbium
+toilet-seat
+postal-code
+nougat
+brown-rice
+debit-card
+headrest
+beach-chair
+sunroof
+beach-towel
+cleanser
+eiderdown
+bean-sprout
+san-marino
+soup-spoon
+shorts
+figurine
+safety-pin
+brazil-nut
+sour-bread
+basalt
+sour-cream
+waders
+hubcap
+rationality
+sousaphone
+speedometer
+non-human g
+origami
+gladiolus
+boiled-egg
+antonomasia g
+rump-steak
+speed-limit
+blood-test
+dining-car
+black-olive
+iced-coffee
+zoom-lens
+chewing-gum
+disquieted
+spark-plug
+hematite
+fool-around
+dental-care
+safari-park
+website
+blue-cheese
+at-most
+gnomic-mood g
+coreference g
+beach-ball
+dorsal-fin
+troposphere
+cow/bull
+wire-cutter
+runner-bean
+body-lotion
+bath-towel
+trimmer
+ivory-coast
+sports-car
+rubber-boot
+punk-rock
+driveshaft
+baltic-sea
+red-sea
+rubber-band
+south-korea
+in-case g
+curium
+pistachio
+rotor-blade
+nonremittal
+drawing-pin
+treble-clef
+roof-garden
+baby-buggy
+earthing
+dried-fruit
+bowling-pin
+knee-length
+duffel-coat
+east-timor
+brake-pedal
+ayurveda
+bikini
+lace-making
+time-deixis g
+if-only g
+bread-knife
+brachylogia g
+landing-net
+sit-up
+egg-cup
+star-anise
+causative g
+radicchio
+cufflink
+bridge-deck
+by-means-of g
+bridle-path
+due-to g
+distributor
+catachresis g
+long-jump
+steel-wool
+rock-garden
+el-salvador
+lemon-grass
+pro-phrase g
+slalom
+byebye g
+right-field
+skincare
+brown-bread
+life-jacket
+mudita
+riding-crop
+engine-room
+angiosperm
+lative-case g
+riding-boot
+in-language g
+bubble-bath
+hour-hand
+thanks-to g
+almond-oil
+flatbread
+air-filter
+liquid-unit
+art-deco
+paralyzed
+railcar
+mouthwash
+eye-dropper
+from-source g
+port-wine
+relay-race
+clause-tail g
+nectarine
+wear-out
+face-powder
+dustcloth
+pipe-cutter
+resultative g
+truffle
+ice-cube
+machine-gun
+horsebean
+boxers
+zoomorphism g
+main-course
+raincoat
+facilitator
+supposedly
+sri-lanka
+experiencer g
+dining-room
+synesthesia g
+living-room
+sword-lily
+tent-peg
+maple-syrup
+candy-store
+and/or g
+regression
+fishhook
+finish-line
+iced-tea
+test-tube
+pancreas
+olive-oil
+holmium
+else-if g
+fish-fillet
+reverential g
+acupressure
+teddy-bear
+interviewer
+sea-lion
+aerosol
+fishing-rod
+fire-alarm
+street-sign
+mendelevium
+aerosol-can
+caspian-sea
+rainforest
+fire-truck
 minute-hand
-lutetium
+pursuant-to g
 mixing-bowl
 as-per g
-lative-case g
-take-off
-traffic-jam
-snack-bar
-mosquito-ne
-art-deco
-slip-road
-beach-ball
-tonic-water
-soft-drink
-toilet-seat
-skincare
-napkin-ring
-x-ray-film
-cheese-rind
-genkan
-cyder
-new-zealand
-skydiving
-caspian-sea
-north-korea
-candy-store
-skim-milk
-proper-noun g
-ski-trail
-ski-slope
-ocean-liner
-accompanier g
-importe
-bubble-bath
-brown-bread
-optic-nerve
-realis-mood g
-bridle-path
-bridge-deck
-resultative g
 is-part-of g
-denominator
-bread-knife
-brake-pedal
-ozone-layer
-bowling-pin
-yogurt
-snare-drum
-robb
-body-lotion
-blue-cheese
-shipyard
-paragliding
-parking-lot
-side-dish
-railcar
-yaor g
-black-olive
-bikini
-blood-test
-final-time g
-asyndeton g
-street-sign
-pencil-case
-waders
-etc.
-bean-sprout
-CD
-beach-towel
-beach-chair
-shoe-shop
-bass-guitar
-paper-clip
-as-if g
-vialis-case g
-one-second
-boiled-egg
-verbal-noun g
-baking-tray
-curium
-pipe-cutter
-trail-bike
-zoic-gender g
-art-nouveau
-art-gallery
-ghostwriter
-rib-cage
-square-foot
-arabian-sea
-seat-belt
-apple-juice
-processor
-sponge-cake
-noseband
-in-language g
-speedometer
-speed-limit
-postal-code
-from-source g
-potato-chip
-slip-on
+patientive g
+fish-scale
+floppy-disk
+eggplant
+spray-gun
+deixis g
+drill-bit
 alarm-clock
-clause-tail g
-south-korea
-prison-cell
-biplane
-skateboard
-aerosol-can
-fool-around
-battlefield
-except-if g
-acupressure
-zoomorphism g
-pergola
-experiencer g
-puerto-rico
-synesthesia g
-brazil-nut
-kohlrabi
-near-to g
-reverential g
+mosquito-ne
+hafnium
+theme-park
+ghostwriter
+human-being
+floor-plan
+gneiss
+genkan
+tempera
+cheese-rind
+rhenium
+napkin-ring
+fish-farm
+first-aid
 source-case g
-fishhook
-out-basket
-pursuant-to g
-boxers
-rye-bread
-ski-pole
-color-blind
-iced-tea
-as-regards g
+french-bean
+bass-clef
+even-if g
+drainpipe
+traffic-jam
+striped
+new-zealand
+thruster
+frozen-food
+pencil-case
+fruit-juice
+formalwear
+tie-tack
+attenuative g
+einsteinium
+north-korea
+berkelium
+apple-juice
+finite-verb g
+arabian-sea
+sightseeing
+gas-station
+kumquat
+full-time
+bed-linen
 comic-strip
-brown-rice
-ice-cube
+jodhpurs
+ocean-liner
+front-door
+kung-fu
+yogurt
 anadiplosis g
-as-well-as g
-oil-tanker
-on-top-of g
-riding-boot
-riding-crop
-right-field
-rock-garden
-antonomasia g
-tour-guide
-knee-pad
-bus-driver
-distributor
-roof-garden
-rotor-blade
-rubber-band
-rubber-boot
-logophoric g
-runner-bean
-bus-ticket
-monorail
-safari-park
-whole-milk
 shuttle-bus
+color-blind
+showjumping
+frying-pan
+fuel-gauge
+epanalepsis g
+art-gallery
+ration
+optic-nerve
+art-nouveau
+clock-radio
+clothes-peg
+americium
+gable-wall
+jury-box
+golf-course
+xenon
+newsagent
 in-spite-of g
 in-place-of g
+gearshift
+knee-pad
+descriptor
 in-front-of g
-at-most
-showjumping
-ski-boot
-rap-music
-white-wine
-red-meat
-shop-clerk
-brachylogia g
-by-means-of g
-epanalepsis g
-racehorse
-catachresis g
-meringue
-bedcover
-hubcap
-white-rice
-dysprosium
-dinner-plate
-emote
-compost-heap
-pectoral-fin
-flow-current
-bicycle-seat
-trial-number g
-soya
-epidemiology
-north-pole
-masking-tape
-thanks-to g
-praseodymium
-fire-station
-wine-vinegar
-because-of g
-coffee-table
-Koran
-cocoa-powder
-cardiology
-fire-brigade
-blue-jean
-gadolinium
-punk-rock
-bank-manager
-triple-point
-wear-out
-stock-market
-ballet-skirt
-jussive-mood g
-retail-store
-filter-paper
-balance-beam
-living-thing
+gas-burner
+ozone-layer
+kohlrabi
+grape-juice
+parking-lot
+battlefield
+puerto-rico
+post-office
+green-olive
+carryall
+green-salad
+wake-up
+coffee-tree
+parachuting
+paragliding
+one-second
+first-person g
+goal-trigger g
+sledding
+dollhouse
+samsara
+orange-juice
 travel-agent
-rhodium-atom
-deontic-mood g
-andative g
-set-square
-french-toast
-erbium
-patientive g
-near-subcase g
-judo
-pot-plant
-neoclassic
-french-fries
-aromatherapy
-square-meter
-citrus-fruit
-arctic-ocean
-spring-scale
-semolina
-spring-onion
-field-hockey
-dress-circle
-unit-of-mass
-circular-saw
-port-wine
-wedding-cake
-watercolor
-chamberpot
-double-cream
-middle-voice g
-spirit-level
-neck-brace
-else-if g
-tomato-juice
-binary-value g
-chiropractic
-pop-music
-dysphemism g
-chili-pepper
-music-school
-toilet-water
-centric-case g
-south-africa
-chequebook
-air-mattress
-mustard-seed
-prickly-pear
-watering-can
-prison-guard
-chicken-coop
-oblique-case g
-nougat
-patient-case g
-adam's-apple
-protactinium
-water-hazard
-tobacco-pipe
-is-a-kind-of g
-solar-system
-water-bottle
-cement-mixer
-acorn-squash
-pumpkin-seed
-dental-floss
-prehodiernal g
-bay-leaf
-in-case g
-krypton
+epanorthosis g
+black-sea
+pectoral-fin
+physics
+calcite
+notice-board
+black-tea
 sandpit
-mailbag
+double-quote g
+identifiable g
+impermanence
+on-behalf-of g
+tour-guide
+mustard-seed
+sideways
+satsuma
+rap-music
+music-school
+tweezer
+timpani
+tomato-juice
+arugula
+polysyndeton g
+toilet-water
+stock-market
+urban-center
+cry-out
+tobacco-pipe
+continuative g
 single-quote g
+masking-tape
+trail-bike
+major-planet
+swear-in
+luggage-rack
+exclusive-or g
+hash-out
+binary-value g
+skier
+epidemiology
+macrame
+taxi-rank
+vas-deferens
+except-if g
+unit-of-mass
+landing-gear
+each-other
+slip-on
+be-born
+vatican-city
+middle-voice g
+fall-in-love
+green-tea
+indian-ocean
+retail-store
+koran
+triple-point
+postbox
+hockey-stick
+antimetabole g
+individually
+cardamon
+hand-luggage
+roll-out
+oblique-case g
+prickly-pear
+pergola
+patient-case g
+prison-guard
+as-of g
+flow-current
+as-if g
+ground-floor
+antanaclasis g
+thermosphere
+look-at
+gynecology
+gypsophila
+prehodiernal g
+tennis-court
+pumpkin-seed
+phonological
+mailbag
+garlic-press
+price-list
+tape-measure
+rural-area
+french-toast
+french-fries
+too-little
+consist-of
+florist-shop
+hand-drill
+fishing-boat
+trash-bin
+hand-towel
+table-tennis
+fire-station
+fire-brigade
+filter-paper
+espresso
+field-hockey
+mail-carrier
+receptionist
+swivel-chair
+tuple g
+is-a-kind-of g
+green-pea
+ugli-fruit
+luffa
+protactinium
+thorium-atom
+friendship
+extinguisher
+sea-bass
+tap-water
+bad-tempered
+exhaust-pipe
+hard-drive
+living-thing
+krypton
+tv-camera
+rye-bread
+mobile-phone
+rock-concert
+vacant-lot
+space-deixis g
+roller-blind
+acorn-squash
+adam's-apple
+centric-case g
+water-bottle
+dress-circle
+double-cream
+aerobics
+gas-pump
+civil-rights
+dinner-plate
+costa-rica
+high-jump
+air-mattress
+water-hazard
+dental-floss
+watering-can
+sailing-boat
+praseodymium
+at-case g
+wedding-cake
+galapagos
+herbal-tea
+milky-way
+emote
+saudi-arabia
+processor
+curry-powder
+vibraphone
+crochet-hook
+home-plate
+feces
+cricket-ball
+soup-bowl
+cream-cheese
+arctic-ocean
+cotton-plant
+aromatherapy
+scuba-diving
+square-meter
+balance-beam
+ballet-skirt
+spring-scale
+spring-onion
+bank-manager
+walnut-oil
+horse-race
+inhaler
+compost-heap
+service-line
+spirit-level
+coffee-table
+bicycle-seat
+snorkel
+south-africa
+cocoa-powder
+bowling-ball
+shaving-foam
+wine-vinegar
+breaststroke
+bulldog-clip
+shopping-bag
+shoulder-bag
+snuff-out
+papier-mache
+hovercraft
+wooden-spoon
+citrus-fruit
+solar-system
+sierra-leone
+circular-saw
+burkina-faso
+bus-terminal
+single-cream
+rib-cage
+human-face
+chiropractic
+chili-pepper
+camomile-tea
+chicken-coop
+camping-site
+eyeliner
+cement-mixer
 cash-machine
 carving-fork
-jury-box
-civil-rights
-initial-time g
-pluractional g
-meitnerium
 caraway-seed
 sleeping-bag
-school-bus
-except-for g
-golf-bag
-camping-site
-camomile-tea
-hockey-stick
-curry-powder
-polysyndeton g
-fall-in-love
-notice-board
-ethium
-if-only g
-seaborgium
-bus-terminal
-burkina-faso
-walnut-oil
-aerobics
+watercolor
+caribbean-sea
 to-be
-pipe-bowl
-gneiss
-antanaclasis g
-bulldog-clip
-antimetabole g
-goal-trigger g
-crochet-hook
-extinguisher
-thermosphere
-luggage-rack
-exhaust-pipe
-cricket-ball
-clementine
-rock-concert
-hash-out
-hand-luggage
-theme-park
-on-behalf-of g
-roller-blind
-vatican-city
-single-cream
-tennis-court
-orange-juice
-in-case-of g
-san-marino
-florist-shop
-relativeizer g
-cream-cheese
-sierra-leone
-vas-deferens
-satsuma
-milliliter
-clove-pink
-ground-floor
-doorbell
-tape-measure
-cotton-plant
-garlic-press
-prior-to g
-major-planet
-sailing-boat
-bowling-ball
-eyeliner
-converb g
-safety-pin
-kung-fu
-table-tennis
-shoulder-bag
-shopping-bag
-elative-case g
-goatfish
-bass-clef
-saudi-arabia
-phonological
-teddy-bear
-swivel-chair
-papier-mache
-fishing-boat
-coffee-cup
-indian-ocean
-urban-center
-pepperoni
-snowsuit
-epanorthosis g
-goalpost
-cold-cream
-double-quote g
-scuba-diving
-shaving-foam
-bed-linen
-wooden-spoon
-lawrencium
-rump-steak
-Web-site
-holmium
-new-year
-telic-aspect g
-landing-gear
-service-line
-hafnium
-first-person g
-vibraphone
-abessive-case g
-francium
-sewing-basket
-ablative-case g
-cow/bull
-aerosol
-morning-glory
-hair-coloring
-mangosteen
-rhenium
-modal-case g
-group-therapy
-adessive-case g
-hard-shoulder
-grated-cheese
-agentive-case g
-black-sea
-second-person g
-black-tea
-coral-reef
-kumquat
-allative-case g
-schadenfreude
-pine-nut
-on-account-of g
-anticausative g
-calcite
-gin-and-tonic
+radiation
+vocational
+ice-hockey
+calendar-week
+chocolate-bar
+camping
 sirloin-steak
-rock-climbing
-agent-trigger g
-costa-rica
-angle-bracket g
-multal g
-grocery-store
-rutherfordium
-recycling-bin
-common-gender g
-record-player
-gauze-bandage
-strikebreaker
-rainbow-trout
-hot-chocolate
-jodhpurs
-radio-antenna
-friction-tape
-regardless-of g
-relay-race
-freight-train
-formal-garden
-subsequent-to g
-citation-form g
-putting-green
-long-ago
-wake-up
-short-circuit
-logical-place g
-pudding-stone
+business-suit
 socket-wrench
-cesium
-delative-case g
-xenon
-acrylic-paint
-adhesive-tape
-ironing-board
-durating-time g
-raincoat
-cry-out
-look-at
-jigsaw-puzzle
+cider-vinegar
+swimming-pool
+wire-stripper
+bunsen-burner
+club-sandwich
+strikebreaker
+nth-root
+as-regards g
+bottled-water
+bottle-opener
+trans-numeral g
 south-america
-hematite
+boarding-pass
 space-shuttle
 space-station
-exercise-bike
-direct-object g
-exchange-rate
-ergative-case g
-wire-stripper
-bar-code
-white-currant
-earth's-crust
-amount-marker g
-exessive-case g
-whipped-cream
-dressing-gown
+that-of g
+headboard
+black-pudding
+birthday-cake
+sewing-basket
+bass-clarinet
+baseball-team
+computer-game
 sports-jacket
-fermium
-polyptoton g
-aquatic-plant
-wedding-dress
+conning-tower
+contrabassoon
+white-currant
+balance-wheel
+sculptor
+conveyor-belt
+cyder
+whipped-cream
+vocative-case g
+volitive-mood g
+cracked-wheat
 arctic-circle
-dubnium
-little-finger
+starting-line
+aquatic-plant
+creme-caramel
+cylinder-head
+wedding-dress
+inner-tube
+as-well-as g
+soap-dish
+ski-pole
+eventive-mood g
+citation-form g
+white-rice
+lime-tree
+white-wine
+dressing-gown
+adhesive-tape
+movie-theater
+person-deixis g
+acrylic-paint
+earth's-crust
+rock-climbing
+police-car
+common-gender g
+sunflower-oil
+ionosphere
+direct-object g
+goalpost
+goatfish
+whole-milk
+polar-bear
+exchange-rate
+exercise-bike
+durating-time g
+recycling-bin
+statistically
+record-player
+blue-jean
+logical-place g
+rainbow-trout
+short-circuit
+radio-antenna
+talcum-powder
+formal-garden
+gerbera
+jelly-bean
+freight-train
+friction-tape
+putting-green
+gauze-bandage
+gin-and-tonic
+cable-car
+rutherfordium
+samarium
+teeing-ground
+ergative-case g
+importe
+passive-voice g
+agent-trigger g
+europium
+snack-bar
+grated-cheese
+pudding-stone
+leftfield
+angle-bracket g
+cardboard
+eulers-number
+group-therapy
+camembert
+hair-coloring
+anticausative g
+fermium
+morning-glory
+shipyard
+hard-shoulder
+hot-chocolate
+incubator
+fried-egg
+boned
+ironing-board
+schadenfreude g
+jigsaw-puzzle
+slip-road
+agentive-case g
 plimsoll-line
 playing-field
-actor-role g
-cylinder-head
-sword-lily
-symploce g
+pine-nut
+neptunium
+mainsail
+dubnium
+golf-bag
+second-person g
+little-finger
+vacuum-bottle
+bedcover
+doorbell
 place-setting
 macadamia-nut
-creme-caramel
-starting-line
-cracked-wheat
-volitive-mood g
-crt-screen
-balance-wheel
+subsequent-to g
+grocery-store
+adessive-case g
 physiotherapy
-vacuum-bottle
-conveyor-belt
-contrabassoon
-conning-tower
-illative-case g
-baseball-team
-bass-clarinet
-united-states
-pencil-eraser
-computer-game
-bohrium
-motion-uphill g
-trans-numeral g
-inessive-case g
-peanut-butter
-consist-of
-sunflower-oil
-club-sandwich
-Eulers-number
-temporal-case g
-birthday-cake
-irrealis-mood g
 middle-finger
-passion-fruit
+regardless-of g
+united-states
+because-of g
 mineral-water
-loganberry
-too-much
-traffic-light
-black-pudding
-hassium
-parking-meter
-cider-vinegar
-milky-way
-locative-case g
-boarding-pass
-at-least
 motor-scooter
 mountain-bike
-chocolate-bar
+yaor g
+x-ray-film
+free-kick
 mustard-sauce
 national-park
-optative-mood g
-sun-hat
-passive-voice g
-bottle-opener
-talcum-powder
-paucal-number g
-pegative-case g
-bottled-water
-plural-number g
-phrase-marker g
-caribbean-sea
-dairy-farm
-calendar-week
-air-force
-businesswoman
-dark-bread
-chauvinist
-teeing-ground
-business-suit
-bunsen-burner
+pencil-eraser
+on-account-of g
+traffic-light
+symploce g
+bay-leaf
 open-sandwich
-olive-oil
-pregnancy-test
-sewing-machine
-debit-card
-aikido
-security-guard
-prolative-case g
-business-lunch
-scrambled-eggs
-precative-mood g
-sunroof
+pot-plant
+peanut-butter
+minibar
+converb g
+plumb-line
+hurdles
+passion-fruit
+antibody
+abessive-case g
+launch-pad
+parking-meter
+asyndeton g
+minibus
+computer-virus
+lawn-mower
+edam
+complementizer g
+czech-republic
+monetary-value
+baseball-glove
+emergency-room
+bohrium
+emergency-exit
+adverbial-case g
+chopping-board
+fish-and-chips
+antessive-case g
+electric-drill
+etc.
+subessive-case g
+harness-racing
+to-destination g
+potter's-wheel
+atlantic-ocean
+objective-case g
+object-patient g
+art-exhibition
+lemon-curd
 imaginary-unit
+roller-coaster
+nominalization g
+starting-block
+roller-skating
+filing-cabinet
+venetian-blind
+figure-skating
+zebra-crossing
+scrambled-eggs
+cottage-cheese
+dressing-table
+western-sahara
+animate-gender g
+powder-compact
+praying-mantis
+businessperson
+pregnancy-test
+police-station
+stock-exchange
+mineral-gender g
+evitative-case g
+container-ship
+mountain-range
+lemon-sole
+television-set
+condensed-milk
+vacuum-cleaner
+security-guard
+laundry-basket
+nervous-system
+discontentment g
+precative-mood g
+digital-camera
+speed-of-light
+lens-cover
+business-lunch
+square-bracket g
+block-of-flats
+urinary-system
+sunflower-seed
+semolina
+french-pancake
+deductive-mood g
+united-kingdom
+fallopian-tube
+swimsuit
+soldering-iron
+sewing-machine
+in-addition-to g
+lutetium
+poet
+eyebrow-pencil
+remote-control
+with-regard-to g
+breast-feeding
+air-bag
+police-officer
+auxiliary-verb g
+polarity
+light-bulb
+hassium
+clothes-hanger
+umbilical-cord
+goosefish
+primary-object g
+climbing-frame
+final-particle g
+cd-player
+nosewheel
+tailor's-chalk
 shoulder-blade
 shoulder-strap
-potential-mood g
-adverbial-case g
-primary-object g
-pronoun-marker g
-breast-feeding
-harness-racing
-perlative-case g
-tandem-bicycle
-in-addition-to g
-television-set
-prime-minister
-nervous-system
-tailor's-chalk
-computer-virus
-animate-gender g
-chopping-board
-mountain-range
-anterior-tense g
-antessive-case g
-speed-of-light
-stative-aspect g
-roller-skating
-subessive-case g
-roller-coaster
-sublative-case g
-monetary-value
-espresso
-climbing-frame
-clothes-hanger
-birthday-party
-block-of-flats
-auxiliary-verb g
-sunflower-seed
-remote-control
-police-officer
-critical-point
-quotative-case g
-condensed-milk
-cable-car
-united-kingdom
-motion-upriver g
-baseball-glove
-stock-exchange
-container-ship
-indium
-urinary-system
-french-pancake
-cottage-cheese
-square-bracket g
-vacuum-cleaner
-starting-block
-venetian-blind
-historic-tense g
-atlantic-ocean
-final-particle g
 line-judge
-football-field
-art-exhibition
-czech-republic
-nosewheel
-digital-camera
-object-patient g
-western-sahara
-police-station
-food-processor
-dressing-table
-laundry-basket
-to-destination g
-electric-drill
-with-regard-to g
-evitative-case g
-camembert
-fish-and-chips
-emergency-exit
-emergency-room
-rehabilitation
-epistemic-mood g
-dynamic-aspect g
-zebra-crossing
-deixis-deictic g
-soldering-iron
-potter's-wheel
 kitchen-garden
-powder-compact
-eyebrow-pencil
-filing-cabinet
-figure-skating
-fallopian-tube
-praying-mantis
-umbilical-cord
-humble-register g
-football-player
-habitual-aspect g
-criminal-record
-indirect-speech g
-breakfast-table
-arts-and-crafts
-former-deceased g
-ice-hockey-rink
-self-confidence
+critical-point
+football-field
+birthday-party
+tandem-bicycle
+rehabilitation
+food-processor
+prime-minister
+handstamp
+soya
 volcanic-crater
-formal-register g
-sanitary-napkin
-stainless-steel
-gerbera
-metacarpal-bone
+in-basket
 absolutive-case g
+office-building
+north-sea
+graveyard-shift
+skim-milk
+double-negative g
+metacarpal-bone
+pineapple-juice
+ultrasonography
+bald
+with-respect-to g
+impersonal-verb g
+exocentric-case g
+pitcher's-mound
+robb
+plumbing-system
+indirect-speech g
+second-language g
+knitting-needle
+pneumatic-drill
+self-confidence g
+packaging
+ice-hockey-rink
+telephone-booth
+hot-air-balloon
+heating-element
+life-raft
+loganberry
+verb-affix g
+gymnastic-horse
+motorist
+past-perfective g
+achilles-tendon
 washing-machine
-patient-trigger g
-dining-car
+football-player
+flowering-shrub
 objective-place g
+railway-station
+rearview-mirror
+at-same-time-as g
+arts-and-crafts
+stainless-steel
+patient-trigger g
+sparkling-water
+electric-guitar
+rocky-mountains
+breakfast-table
+reflexive-voice g
+abstract-gender g
+small-intestine
+camera-operator
+assumptive-mood g
+cape-gooseberry
+permissive-mood g
+commissive-mood g
+sanitary-napkin
+collective-noun g
+cubbyhole
+criminal-record
+classical-music
 cocktail-shaker
 transitive-verb g
-exocentric-case g
-seminal-vesicle
-comitative-case g
-plumbing-system
-pneumatic-drill
-light-bulb
-even-if g
-rearview-mirror
-railway-station
-achilles-tendon
-evidential-case g
-initiative-case g
-hot-air-balloon
-impersonal-verb g
-flowering-shrub
-north-sea
-electric-guitar
 computer-screen
-rational-gender g
-past-perfective g
-with-respect-to g
-telephone-booth
-admonitive-mood g
-reflexive-voice g
-double-negative g
-graveyard-shift
-sparkling-water
-cape-gooseberry
 crastinal-tense g
-rocky-mountains
-second-language g
-durative-aspect g
-dubitative-mood g
-singular-number g
-knitting-needle
-at-same-time-as g
-polite-register g
-classical-music
-small-intestine
-pineapple-juice
-office-building
-pitcher's-mound
-hodiernal-tense g
-motion-downhill g
-gymnastic-horse
-heating-element
-hesternal-tense g
-ultrasonography
-bureau-de-change
+seminal-vesicle
 lymphatic-system
-transverse-flute
-recording-studio
-grammatical-case
-latissimus-dorsi
-department-store
-ejaculatory-duct
-exclusive-person g
-inanimate-gender g
-windscreen-wiper
-anesthesiologist
-butternut-squash
-inclusive-person g
-prosecutive-case g
-imprecative-mood g
-hot-water-bottle
-computer-monitor
-superessive-case g
-associative-case g
-iterative-aspect g
-endocrine-system
-affirmative-mood g
-pencil-sharpener
-papua-new-guinea
-chest-of-drawers
-insect-repellent
-animated-cartoon
-graphic-designer
-propositive-mood g
-tropic-of-cancer
-declarative-mood g
-orange-marmalade
-motion-downriver g
-terminative-case g
-baseball-diamond
-convenience-food
-musical-notation
-discourse-marker g
-departure-lounge
-digestive-system
-core-benefactive g
-speculative-mood g
-butterfly-stroke
-balearic-islands
 falkland-islands
-four-wheel-drive
-anthropic-gender g
-benefactive-case g
-prohibitive-mood g
+propositive-mood g
+core-benefactive g
+guy-wire
+cyan
+inanimate-gender g
+musical-notation
+endocrine-system
+hot-water-bottle
+balearic-islands
+baseball-diamond
+orange-marmalade
+powerline-worker
+ejaculatory-duct
+pencil-sharpener
+discourse-deixis g
+chess-set
+windscreen-wiper
+judo
 reciprocal-voice g
-aircraft-carrier
+dressage
 printing-process
-inchoative-aspect g
-recent-past-tense g
-direct-evidential g
-desiderative-mood g
-berkelium
+latissimus-dorsi
+ski-trail
+bureau-de-change
+digestive-system
+butterfly-stroke
+butternut-squash
+transverse-flute
+departure-lounge
+meringue
+department-store
+grammatical-case
+associative-case g
+papua-new-guinea
+graphic-designer
+critic
+four-wheel-drive
+venitive g
+chest-of-drawers
+tropic-of-cancer
+ski-slope
+animated-cartoon
+imprecative-mood g
+superlative-case g
+founds
+convenience-food
+curler
+aircraft-carrier
+insect-repellent
+anesthesiologist
+recording-studio
+computer-monitor
+passionate
+computer-hardware
+continuous-aspect g
 semi-skimmed-milk
-operating-theater
 organic-structure
-distributive-case g
+operating-theater
+astatine
+mediterranean-sea
+mangosteen
+francium
+chipboard
+gadolinium
+winn
 hall-of-residence
-remote-past-tense g
-different-subject g
-deliberative-mood g
-possessive-marker g
-same-event-marker g
 antipassive-voice g
-american-football
+dysprosium
 successive-clause g
 applicative-voice g
-apprehensive-mood g
-mediterranean-sea
-instrumental-case g
-sultanate-of-oman
-equatorial-guinea
-real-estate-agent
-computer-hardware
-is-an-instance-of g
+foul-line
 computer-keyboard
-familiar-register g
-collective-plural g
-completive-aspect g
+sultanate-of-oman
+is-an-instance-of g
+real-estate-agent
+american-football
+bap
+long-ago
 answering-machine
-excessive-duration g
-destinative-aspect g
-adjustable-spanner
-telephone-receiver
-existential-clause g
-prospective-aspect g
-dominican-republic
-progressive-aspect g
-factive-evidential g
-present-participle g
-double-parenthesis g
-prepositional-case g
+equatorial-guinea
+pillowcase
+soon-future-tense g
+pop-music
+dvd
 vermiform-appendix
+near-to g
+dominican-republic
 in-accordance-with g
-outboard-motorboat
-passive-participle g
 overhead-projector
-delayed-imperative g
-visible-evidential g
-singulative-number g
-ayurveda
+outboard-motorboat
+triangular-bandage
+let-go-of
+respiratory-system
+double-parenthesis g
 radiation-sickness
-causative g
-single-action-verb g
-tourist-attraction
-circulatory-system
 cleaning-implement
+tourist-attraction
+continutive-aspect g
+existential-clause g
+modal-case g
+excessive-duration g
+single-action-verb g
 instruction-manual
+telephone-receiver
+circulatory-system
+adjustable-spanner
+present-participle g
+prepositional-case g
+necessitative-mood g
 superlative-degree g
 grammatical-object
-triangular-bandage
-respiratory-system
-multiplicative-case g
-tropic-of-capricorn
-trinidad-and-tobago
-epenthetic-morpheme g
-southern-hemisphere
-connective-particle g
-jerusalem-artichoke
-artificial-language
+reflector
+passive-participle g
+depend-on
+singulative-number g
+topsoil
 antigua-and-barbuda
-continuative-aspect g
-supercritical-fluid
-woodwind-instrument
-auditory-evidential g
-reported-evidential g
-same-subject-marker g
-simultaneous-aspect g
-reproductive-system
-dorsal-fin
 gothic-architecture
+trinidad-and-tobago
+supercritical-fluid
+epenthetic-morpheme g
+artificial-language
+southern-hemisphere
 cartridge-extractor
-semelfactive-aspect g
+reproductive-system
 intrauterine-device
+woodwind-instrument
+jerusalem-artichoke
 northern-hemisphere
+tropic-of-capricorn
+side-dish
+ice-tongs
+connective-particle g
 postpositional-case g
-cross-country-skiing
-television-programme
-reflecting-telescope
-frequentative-aspect g
-phillips-screwdriver
-allocutive-agreement g
-oak-tree
+remote-future-tense g
+on-top-of g
 instrument-or-method g
+frequentative-aspect g
 united-arab-emirates
-alienable-possession g
+reflecting-telescope
+allocutive-agreement g
+cross-country-skiing
+phillips-screwdriver
+television-programme
+computer-programming
 identification-number
-horizontal-stabilizer
-floating-point-number g
+public-address-system
 sao-tome-and-principe
 republic-of-the-congo
-public-address-system
+floating-point-number g
+horizontal-stabilizer
 the-day-after-tomorrow
-inalienable-possession g
-inferential-evidential g
-object-of-an-attribute g
 lunar-excursion-module
+milliliter
+object-of-an-attribute g
+too-much
+at-least
+golf-ball
 past-passive-participle g
-oral-contraceptive-pill
-sensory-evidential-mood g
+face-pack
 central-african-republic
 the-day-before-yesterday
-current-relevance-marker g
 locative-directional-case g
 counterfactual-conditional g
 erent-event-change-of-event g

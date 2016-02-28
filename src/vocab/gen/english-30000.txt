@@ -12,17 +12,21 @@
 7 hungry
 1 the 56271872
 2 of 33950064
+0 adjective
 3 and 29944184
 4 to 25956096
 0 dative-case
 5 in 17420636
 0 in-subcase
 0 me
+0 first-person
 6 i 11764797
 0 it
+0 third-person
 7 that 11073318
 0 relativizer
 8 was 10078245
+0 perfective-aspect
 0 past-tense
 9 his 8799755
 10 he 8397205
@@ -31,17 +35,19 @@
 12 with 7725512
 0 comitative-case
 13 is 7557477
+0 perfective-aspect
 0 present-tense
 14 for 7097981
-0 vocative-case
 0 benefactive-case
 15 as 7037543
 0 essive-case
 16 had 6139336
 17 you 6048903
+0 second-person
 18 not 5741803
 0 negation
 19 be 5662527
+0 its
 20 her 5202501
 21 on 5113263
 0 on-subcase
@@ -66,6 +72,7 @@
 32 she 3415846
 0 feminine-gender
 33 they 3340398
+0 plural-number
 34 were 3323884
 35 my 3277699
 36 are 3224178
@@ -161,7 +168,6 @@
 103 most 889691
 104 old 887917
 105 shall 883846
-0 prospective-aspect
 0 deliberative-mood
 106 day 882331
 107 where 881975
@@ -180,6 +186,7 @@
 119 through 792925
 0 perlative-case
 120 being 792220
+0 progressive-aspect
 121 long 791686
 122 say 788124
 123 might 787455
@@ -190,7 +197,6 @@
 128 def 748992
 129 again 745230
 130 many 744168
-0 plural-number
 131 back 740270
 132 here 729829
 133 think 715780
@@ -227,6 +233,7 @@
 163 nothing 541692
 164 right 536737
 165 once 534154
+0 semelfactive-aspect
 166 another 533985
 167 left 531797
 168 part 526137
@@ -268,6 +275,7 @@
 202 heard 429972
 203 look 428871
 204 name 427021
+0 proper-noun
 205 days 426104
 206 told 424696
 207 let 424320
@@ -544,6 +552,7 @@
 458 account 178452
 459 mark 178084
 460 interest 178001
+0 write
 461 written 177232
 462 can't 176728
 463 bed 176635
@@ -827,6 +836,7 @@
 732 easily 107012
 733 moved 106996
 734 afterwards 106992
+0 prospective-aspect
 735 giving 106981
 736 walk 106858
 737 stopped 106661
@@ -1118,6 +1128,7 @@
 1017 offer 78246.3
 1018 class 78173.5
 1019 complete 78039.8
+0 completive-aspect
 1020 access 77716.3
 1021 lower 77368.2
 1022 wouldn't 77327.0
@@ -2219,6 +2230,7 @@
 2102 fierce 39048.0
 2103 argument 38991.0
 2104 observe 38990.2
+0 benedictive-mood
 2105 blessed 38967.3
 2106 bosom 38956.2
 2107 rage 38949.1
@@ -2667,6 +2679,7 @@
 2544 empire 30925.4
 2545 elements 30909.6
 2546 idle 30891.4
+0 continuative-aspect
 2547 pen 30885.8
 2548 entering 30872.4
 2549 online 30872.4
@@ -3849,6 +3862,7 @@
 3719 races 19291.0
 3720 deemed 19279.1
 3721 temporary 19278.3
+0 delimitative-aspect
 3722 pile 19276.7
 3723 frederick 19263.3
 3724 chapel 19251.4
@@ -4090,6 +4104,7 @@
 3957 temptation 17932.6
 3958 lady's 17929.4
 3959 subsequent 17917.6
+0 telic-aspect
 3960 jewels 17912.8
 3961 breathed 17910.4
 3962 willingly 17906.5
@@ -4219,6 +4234,7 @@
 4085 immortal 17234.8
 4086 gallery 17233.2
 4087 parallel 17233.2
+0 atelic-aspect
 4088 lean 17230.1
 4089 tempted 17229.3
 4090 frontier 17228.5
@@ -4572,6 +4588,7 @@
 4438 deliberately 15481.7
 4439 awe 15474.5
 4440 beforehand 15470.6
+0 retrospective-aspect
 4441 strife 15470.6
 4442 released 15468.2
 4443 compare 15466.6
@@ -5799,6 +5816,7 @@
 5663 shrewd 11170.0
 5664 extravagant 11169.2
 5665 momentary 11169.2
+0 momentane-aspect
 5666 cordial 11166.8
 5667 engineer 11166.0
 5668 rapidity 11166.0
@@ -25682,6 +25700,7 @@
 25512 weald 147.942
 25513 well-off 147.942
 25514 acronym 147.151
+0 initialism
 25515 adel 147.151
 25516 anesthetic 147.151
 25517 eczema 147.151

@@ -20,7 +20,6 @@ allocutive-agreement g
 alienable-possession g
 animate-gender g
 andative g
-anterior-tense g
 antessive-case g
 anticausative g
 antipassive-voice g
@@ -49,7 +48,7 @@ citation-form g
 classifier g
 conjunction g
 consequential g
-collective-plural g
+collective-noun g
 comitative-case g
 comparative g
 completive-aspect g
@@ -57,7 +56,7 @@ concessive g
 conditional-mood g
 conjunction g
 connective-particle g
-continuative-aspect g
+continuous-aspect g
 contrastive g
 copula g
 coreference g
@@ -76,7 +75,6 @@ demonstrative g
 deontic-mood g
 dependent g
 desiderative-mood g
-destinative-aspect g
 determiner g
 detransitive g
 motion-downhill g
@@ -93,9 +91,8 @@ motion-downriver g
 different-subject g
 dual-number g
 dubitative-mood g
-durative-aspect g
+delimitative-aspect g
 dyadic g
-dynamic-aspect g
 epenthetic-morpheme g
 elative-case g
 emphatic g
@@ -125,7 +122,7 @@ former-deceased g
 future-tense g
 genitive-case g
 gerund g
-gnomic g
+gnomic-mood g
 goal-trigger g
 habitual-aspect g
 humble-register g
@@ -167,7 +164,6 @@ indirect-object g
 imperfective-aspect g
 irrealis-mood g
 indirect-speech g
-iterative-aspect g
 jussive-mood g
 lative-case g
 second-language g
@@ -246,11 +242,13 @@ quotative-case g
 rational-gender g
 realis-mood g
 recent-past-tense g
+soon-future-tense g
 reciprocal-voice g
 referential g
 reflexive-voice g
 relativizer g
 remote-past-tense g
+remote-future-tense g
 reported-evidential g
 resultative g
 retrospective g
@@ -258,20 +256,18 @@ referential g
 subject-case g
 subjunctive-mood g
 same-event-marker g
-semelfactive-aspect g
 sensory-evidential-mood g
 sequential g
 singular-number g
 singulative-number g
-simultaneous-aspect g
 speculative-mood g
 same-subject-marker g
-stative-aspect g
 subordinator g
 subessive-case g
 sublative-case g
 successive-clause g
 superlative-degree g
+superlative-case g
 superessive-case g
 agent-trigger g
 patient-trigger g
@@ -282,7 +278,6 @@ tense g
 topic-case g
 transitive-verb g
 translative g
-trial-number g
 trans-numeral g
 motion-uphill g
 motion-upriver g
@@ -302,9 +297,6 @@ zoic-gender g
 to-case g
 from-case g
 at-case g
-in-subcase g
-near-subcase g
-on-subcase g
 space-marker g
 state-marker g
 social-marker g
@@ -322,6 +314,20 @@ eventive-mood g
 permissive-mood g
 assumptive-mood g
 deductive-mood g
+atelic-aspect g
+continutive-aspect g
+momentane-aspect g
+semelfactive-aspect g
+causal-case g
+mineral-gender g
+abstract-gender g
+benedictive-mood g
+person-deixis g
+time-deixis g
+space-deixis g
+discourse-deixis g
+pro-phrase g
+pro-sentence g
 
 
 agent g
@@ -1796,13 +1802,16 @@ shoes
 exist
 smell
 shoulder
-at-case g
-from-case g
-subject-case g
-object-case g
-of-case g
-to-case g
-interior-case g
+may g
+computer-programming
+initialism g
+acronym g
+thou g
+president
+secretary
+treasurer
+facilitator
+moderator
 
 
 ant
@@ -9034,7 +9043,6 @@ monarch
 monarchy
 monastery
 money
-monk
 monkey
 monopoly
 monster
@@ -9141,7 +9149,6 @@ novel
 nuance
 nuclear
 number
-nun
 nurse
 nursery
 nut
@@ -10668,7 +10675,6 @@ on
 across
 through
 about
-because-of
 by-means-of
 except-for
 for
@@ -15472,7 +15478,7 @@ field
 fig
 figure-skating
 figurine
-fijis
+fiji
 filament
 file
 file
@@ -17923,77 +17929,77 @@ hassium
 meitnerium
 
 
-affection
-anger
-angst
-anguish
-annoyance
-anxiety
-apathy
-arousal
-awe
-boredom
-confidence
-contempt
-contentment
-courage
-curiosity
-depression
-desire
-despair
-disappointment
-disgust
-distrust
-dread
-ecstasy
-embarrassment
-envy
-euphoria
-excitement
-fear
-frustration
-gratitude
-grief
-guilt
-happiness
-hatred
-hope
-horror
-hostility
-hurt
-hysteria
-indifference
-interest
-jealousy
-joy
-loathing
-loneliness
-love
-lust
-outrage
-panic
-passion
-pity
-pleasure
-pride
-rage
-regret
-remorse
-sadness
-satisfaction
-schadenfreude
-self-confidence
-shame
-shock
-shyness
-sorrow
-suffering
-surprise
-trust
-wonder
-worry
-zeal
-zest
+affection g
+anger g
+angst g
+anguish g
+annoyance g
+anxiety g
+apathy g
+arousal g
+awe g
+boredom g
+confidence g
+contempt g
+contentment g
+courage g
+curiosity g
+depression g
+desire g
+despair g
+disappointment g
+disgust g
+distrust g
+dread g
+ecstasy g
+embarrassment g
+envy g
+euphoria g
+excitement g
+fear g
+frustration g
+gratitude g
+grief g
+guilt g
+happiness g
+hatred g
+hope g
+horror g
+hostility g
+hurt g
+hysteria g
+indifference g
+interest g
+jealousy g
+joy g
+loathing g
+loneliness g
+love g
+lust g
+outrage g
+panic g
+passion g
+pity g
+pleasure g
+pride g
+rage g
+regret g
+remorse g
+sadness g
+satisfaction g
+schadenfreude g
+self-confidence g
+shame g
+shock g
+shyness g
+sorrow g
+suffering g
+surprise g
+trust g
+wonder g
+worry g
+zeal g
+zest g
 
 
 compassion
@@ -18054,5 +18060,7 @@ ascetic
 jewel
 lotus
 compassionate
+meditate
+buddha
 
 

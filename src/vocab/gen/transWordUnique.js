@@ -174,14 +174,20 @@ function returnIfUnique(transEntry, allDefinObj, index,
         } else {
             //console.log(key + " " + word + " " +
             //    matchingDefs + " " + index);
-            foundDuplicateDefs += 1;
+            /* check if preceding words are implemented */
+            matchingDefs.forEach(function (defIndex) {
+                var defWord = mainWords[defIndex];
+                if (thesaurus[defWord] !== undefined) {
+                    foundDuplicateDefs += 1;
+                }
+            });
         }
     });
     if (foundBlanks > 0) {
         result = "BLANK"; 
         blacklist[enDef] = thesaurusEntry;
-        console.log(enDef + " blank");
-        console.log(thesaurusEntry);
+        //console.log(enDef + " blank");
+        //console.log(thesaurusEntry);
     } else if (foundDuplicateDefs === 0) {
         result = transEntry;
         thesaurus[enDef] = thesaurusEntry;
@@ -191,7 +197,7 @@ function returnIfUnique(transEntry, allDefinObj, index,
     } else {
         blacklist[enDef] = thesaurusEntry;
         console.log(enDef + " blackListed");
-        console.log(thesaurusEntry);
+        //console.log(thesaurusEntry);
         result = null;
     }
     return result;
@@ -263,7 +269,7 @@ function main() {
             mainWords[mainWords.indexOf(word)] = null;
             allDefObj = makeAllDefinObj(transObj, mainWords);
         } else if (uniqEntry !== null) {
-            // console.log(word + " is unique");
+             console.log(word + " is unique");
             uniqObj[word] = uniqEntry;
         } else {
         }

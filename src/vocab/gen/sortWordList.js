@@ -93,14 +93,19 @@ function compareToWordListIndex(wordList, mainWordLine,
 
 function mergeCompounds(wordLines) {
     return wordLines.map(function (wordLine) {
-        var firstWord = wordLine[0],
-            secondWord = wordLine[1];
+        var firstWord = wordLine[0] && wordLine[0].toLowerCase(),
+            secondWord = wordLine[1]&& wordLine[1].toLowerCase();
         if (secondWord === "G") {
             secondWord = "g";
         }
         if (secondWord !== undefined && 
             secondWord !== "g") {
             wordLine = [firstWord + "-" + secondWord];
+        } else if (firstWord !== undefined) {
+            wordLine[0] = firstWord;
+            if (secondWord !== undefined) {
+                wordLine[1] = secondWord;
+            }
         }
         return wordLine;
     });
@@ -134,9 +139,24 @@ function uniqueLines(wordLines) {
     return uniqueLines;
 }
 
+function removeBlacklisted(wordLines, blacklist) {
+    return wordLines.filter(function (line) {
+        var word = line[0];
+        if (blacklist.indexOf(word) === -1) {
+            return true;
+        } else {
+            console.log(word + " removed");
+            return false;
+        }
+    });
+}
+
 function main() {
     var fileContents = io.fileRead("comboWordList.txt"),
         wordLines = stringToWordLines(fileContents),
+        blackFileContents = io.fileRead("sortBlacklist.txt"),
+        blackLines = stringToWordLines(blackFileContents),
+        blacklist = wordOfEachLine(0, blackLines),
         freqFileContents = io.fileRead("english-30000.txt"),
         freqWordLines = stringToWordLines(freqFileContents),
         freqWords = wordOfEachLine(1, freqWordLines),
@@ -148,6 +168,8 @@ function main() {
     console.log("unique lines");
     wordLines = uniqueLines(wordLines);
     //console.log(JSON.stringify(wordLines) + " ul");
+    console.log("removing blacklisted words");
+    wordLines = removeBlacklisted(wordLines, blacklist);
     console.log("sorting by length");
     wordLines = sortByLength(wordLines);
     //console.log(JSON.stringify(wordLines) + " sl");
