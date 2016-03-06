@@ -1,0 +1,512 @@
+nominative-case: na, 6494,  nɪjˈʊkt mˈaːmlˌaː,  ts.ˈu˧˥ kˈo-ɜ wˈai khˈo-ɜ
+accusative-case: ka, 6914,  kˈʌɾm kˈaːɾək mˈaːmlˌaː,  pˈin kˈo-ɜ wˈai khˈo-ɜ
+hello: ca, 4262,  nəmˈʌsteː,  niɜnxˈɑu˧˥
+genitive-case: ta, 5722,  sˌəmbəndʰəkˈaːɾək mˈaːmlˌaː,  suoɜjˈiou˧˥ kˈo-ɜ wˈai khˈo-ɜ
+adjective: ci, 4927,  wɪʃˈeːʂəɳ,  ɕˈiɜŋ ʐˈonɡɜ tshˈi̪ɜ
+and: wa, 2997,  ˈɔːɾ,  xˈo-ɜ
+destination-case: twa, 5902,  ɡəntˈʌʋjə mˈaːmlˌaː,  mˌutitˈi wˈai khˈo-ɜ
+dative-case: ti, 6079,  sˌəmpɾədˈaːn kˈaːɾək mˈaːmlˌaː,  kˈo-ɜ wˈai khˈo-ɜ
+me: mi, 4039,  mˈʊɟʰeː,  wˈo˧˥
+first-person: fa, 6716,  (en)fˈɜːst pˈɜːsən(hi),  (en)fˈɜːst(zh) phərsˈon
+it: yi, 2220,  jˈəh,  thˈɑ
+third-person: tya, 5800,  (en)θˈɜːd pˈɜːsən(hi),  (en)θˈɜːd(zh) phərsˈon
+relativizer: li, 7750,  (en)ɹɪlˈatɪvˌaɪzə(hi),  ʐˌo-lɑthˌivitsˈər
+perfective-aspect: ya, 5437,  sˈaːdʰək pˈʌhəlˌuː,  wˈɑɜn ts.hˈəɜŋ s.ˈi. fˈaŋ mˈiɛn
+past-tense: sa, 5082,  ʌtˈiːt kˈaːl,  kuotɕhy˥ tɕˈi˧˥n ts.ˈaŋ
+masculine-gender: si, 6034,  sˈʌɲɡjaː lˈĩɡ,  nˈaɜn ɕˈiŋ ɕˈiŋ pˈiɛɜ
+comitative-case: ma, 7608,  (en)kˈɒmɪtˌeɪtɪv(hi) mˈaːmlˌaː,  tshˌomithˌɑthivˈo- wˈai khˈo-ɜ
+present-tense: tca, 5150,  wˌəɾtəmˈaːn kˈaːl,  tˈaŋ ɕˈiɑ tɕˈi˧˥n ts.ˈaŋ
+benefactive-case: pa, 7750,  (en)bˌɛnɪfˈaktɪv(hi) mˈaːmlˌaː,  (en)bˌɛnɪfˈaktɪv(zh) wˈai khˈo-ɜ
+essive-case: swi, 7315,  (en)ˈɛsɪv(hi) mˈaːmlˌaː,  (en)ˈɛsɪv(zh) wˈai khˈo-ɜ
+you: nwa, 2554,  ˈaːp,  nˈiɜn
+second-person: su, 5870,  (en)ˈɛs ˈiː sˈiː pˈɜːsən(hi),  (en)sˈɛkənd(zh) phərsˈon
+not: ni, 3941,  nˈʌhĩ,  pˈu
+negation: ki, 4150,  ˌɪnkˈaːɾ,  fˈou˧˥ tˈiŋ
+on: la, 3425,  pˈʌɾ,  s.ˈaŋ
+adpositional-case: pi, 7750,  (en)ɐdpəzˈɪʃənəl(hi) mˈaːmlˌaː,  (en)ɐdpəzˈɪʃənəl(zh) ˈan tɕˈiɛn
+location-case: tsa, 4033,  stʰˈaːn mˈaːmlˌaː,  weits.i.˥ ˈan tɕˈiɛn
+space-deixis: tci, 4928,  ˌʌntəɾˈɪkʃ (en)dˈeɪksɪs(hi),  khˈonɡ tɕˈiɛn ts.ˈi.˧˥ s.ˈi. ʲˈy˧˥
+way-case: mya, 3537,  mˈaːɾɡ mˈaːmlˌaː,  panfˈɑ˧˥ ˈan tɕˈiɛn
+instrumental-case: yu, 5656,  səhˈaːjək mˈaːmlˌaː,  jˈiɜ tɕhˈi tə˥ wˈai khˈo-ɜ
+interrogative-mood: nu, 5353,  pɾˌəʃnəʋˈaːcək mənˈoːdʃˌaː,  jˈiɜ wˈuən ɕˈin tɕhˈiɜŋ
+or: wu, 2573,  jˈaː,  jˈɑu mo-˥
+source-case: tu, 4896,  sɾˈoːt mˈaːmlˌaː,  tsˈi̪ ˈyæɜn wˈai khˈo-ɜ
+ablative-case: pwa, 5847,  pˈʌɲcəmˌi wɪbʰˈʌktɪ mˈaːmlˌaː,  tˈuoɜ kˈo-ɜ wˈai khˈo-ɜ
+demonstrative: tyi, 5452,  ʈʰˈoːs,  ts.ˈi.˧˥ s.ˈi. tˈai tshˈi̪ɜ
+but: lya, 2652,  lˈeːkɪn,  tˈan
+all: syu, 3814,  sˈʌb,  suoɜjˈiou˧˥
+feminine-gender: nyi, 5116,  stɾˈi lˈĩɡ,  nˈy˧˥ ʐˈəɜn ɕˈiŋ pˈiɛɜ
+plural-number: psa, 4485,  bˈʌhʊʋˌəcən sˈʌŋkʰjaː,  fˈu s.ˈu s.ˈu
+so: sya, 3045,  ˈɛːsaː,  suoɜjˈi˧˥
+social-deixis: sli, 5596,  saːmˈaːɟɪk (en)dˈeɪksɪs(hi),  s.ˈo- xˈuei ts.ˈi.˧˥ s.ˈi. ʲˈy˧˥
+volitive-mood: wi, 6611,  (en)vˈɒlɪtˌɪv(hi) mənˈoːdʃˌaː,  jˈi ˈyæn s.ˈi. ɕˈin tɕhˈiɜŋ
+future-tense: pya, 4757,  bʰəʋˈɪʂjə kˈaːl,  wˈei lˈaiɜ tɕˈi˧˥n ts.ˈaŋ
+imperfective-aspect: fi, 4658,  ʌdʰˈuːɾaː pˈʌhəlˌuː,  wˈei wˈɑɜn ts.hˈəɜŋ fˈaŋ mˈiɛn
+there: kla, 4107,  kːjaː ˌaːp wˈʌhã mɔːɟˈuːd hɛ̃,  nɑli˥
+conditional-mood: cu, 5943,  səʃˈʌɾt mənˈoːdʃˌaː,  jˈiou˧˥ thjˈɑuɜ tɕˈiɛn tə˥ ɕˈin tɕhˈiɜŋ
+more: kca, 2557,  ˈʌdʰɪk,  kˈəŋ tˈuo
+elative-case: nwi, 4357,  səmbˈʌndʰi mˈaːmlˌaː,  ɕˈiɑŋ tˈuei tə˥ wˈai khˈo-ɜ
+illative-case: lwa, 5701,  nətˈiːɟeː kaː mˈaːmlˌaː,  (en)ɪlˈatɪv(zh) wˈai khˈo-ɜ
+directive-mood: tsi, 5548,  aːdˈeːʃ mənˈoːdʃˌaː,  ts.ˈi.˧˥ s.ˈi. ɕˈin tɕhˈiɜŋ
+deontic-mood: tcu, 5473,  (en)diːˈɒntɪk(hi) mənˈoːdʃˌaː,  tˈɑu jˈi ɕˈin tɕhˈiɜŋ
+question-word: sla, 4456,  səʋˈaːl ʃˈʌbd,  thˈiɜ tsˈi̪
+copula: kya, 3853,  jˈoːɟək,  ɕˈi tshˈi̪ɜ
+person: pca, 3085,  ʋjˈʌktɪ,  ʐˈəɜn
+male: nya, 3092,  nˈʌɾ,  nˈaɜn
+other: cya, 3048,  ˈʌnjə,  tɕhˈiɜ thˈɑ
+some: undefined, undefined, undefined, undefined
+number: nla, 3210,  sˈʌŋkʰjaː,  s.ˈu
+very: fya, 3182,  bˈʌhʊt,  fˈei ts.hˈɑɜŋ
+time: syi, 3034,  (en)tˈaɪm mˌiː(hi),  s.ˈi.ɜ tɕˈiɛn
+time-deixis: cyi, 4397,  pˈʌhəɾ (en)dˈeɪksɪs(hi),  s.ˈi.ɜ tɕˈiɛn ts.ˈi.˧˥ s.ˈi. ʲˈy˧˥
+temporal-case: mu, 4416,  lˈɔːkɪk mˈaːmlˌaː,  nˈiɛ wˈai khˈo-ɜ
+topic-case: twi, 4597,  wˈɪʂˌɛj mˈaːmlˌaː,  ts.ˈu˧˥ thˈiɜ wˈai khˈo-ɜ
+may: mwa, 3849,  mˈʌi,  khˈo-˧˥ nˈəɜŋ
+epistemic-mood: pu, 5077,  (en)ɪpɪstˈɛmɪk(hi) mənˈoːdʃˌaː,  ʐˈən ts.ˈi. ɕˈin tɕhˈiɜŋ
+only: twu, 3515,  kˈeːʋəl,  ts.ˈi.˧˥ jˈɑu
+then: pci, 3129,  pʰˈɪɾ,  ʐˈaɜn xˈou
+should: kci, 3115,  cˈaːhɪˌeː,  jˈiŋ kˈai
+hortative-mood: cwi, 5311,  ˌʊpdˈeːʃ dˌeːneːʋˈaːlaː mənˈoːdʃˌaː,  ts.ˈonɡ kˈɑu tə˥ ɕˈin tɕhˈiɜŋ
+retrospective-aspect: swa, 4888,  pˈuːɾʋəpɾˌəbʰaʊˌi pˈʌhəlˌuː,  xˈueiɜ kˈu fˈaŋ mˈiɛn
+before: pfa, 3146,  seː pˈʌhəlˌeː,  ts.ˈi. tɕhˈiɛɜn
+down: cwa, 2675,  nˈiːceː,  ɕˈiɑŋ ɕˈiɑ
+after: kfa, 2827,  keː bˈaːd,  xˈou
+subordinator: pyi, 5897,  (en)sʌbˈɔːdɪnˌeɪtə(hi),  tshonɡɜs.ˈu˧˥ lˈiɛɜn tshˈi̪ɜ
+own: pyu, 2679,  ˈʌpnˌaː,  yuŋjˈiou˧˥
+alienable-possession: lu, 5889,  bˈʌdəlneː keː jˈoːɡjə ˌʌdʰɪkˈaːɾ,  liɜtɕˈiɛn tə˥ suoɜjˈiou˧˥ tɕhˈyæɜn
+inalienable-possession: nli, 5228,  ˌʌʋɪccʰˈeːdjə ˌʌdʰɪkˈaːɾ,  pˈu khˈo-˧˥ fˈən kˈo- suoɜjˈiou˧˥ tɕhˈyæɜn
+deliberative-mood: tyu, 5026,  ˌʌdʰɪkˌaːɾhˈiːn mənˈoːdʃˌaː,  s.ˈə˧˥n jˈi ɕˈin tɕhˈiɜŋ
+without: pla, 3219,  bˈɪnaː,  meiɜjˈiou˧˥
+perlative-case: lwi, 7456,  (en)pˈɜːlətˌɪv(hi) mˈaːmlˌaː,  phˌərlɑthivˈo- wˈai khˈo-ɜ
+progressive-aspect: psi, 5432,  pɾˌəɡtɪʃˈiːl pˈʌhəlˌuː,  tɕˈin pˈu fˈaŋ mˈiɛn
+even: pwi, 2761,  bʰˈi,  s.ənts.ˈi.
+many: myi, 3309,  ʌnˈeːk,  ɕˈy˧˥ tˈuo
+back: ksa, 2456,  wˈaːpəs,  pˈei pˈu
+here: cli, 2271,  jˈʌhã,  ts.o-lˈi˧˥
+same: mla, 2677,  səmˈaːn,  ɕˈiɑŋ thˈonɡɜ
+delative-case: lwu, 5895,  (en)dɪlˈatɪv(hi) mˈaːmlˌaː,  tˌəlɑthivˈo- wˈai khˈo-ɜ
+right: kyi, 2732,  sˈʌhi,  tˈuei
+semelfactive-aspect: mwi, 7424,  (en)sˌɛmɪlfˈaktɪv(hi) pˈʌhəlˌuː,  (en)sˌɛmɪlfˈaktɪv(zh) fˈaŋ mˈiɛn
+part: pfi, 3218,  hˈɪssaː,  pufə˥n
+each: ri, 2704,  pɾətːjˈeːk,  mˈei˧˥
+between: bi, 3410,  keː bˈiːc,  ts.ˈi. tɕˈiɛn
+paucal-number: plo, 6879,  (en)pˈɔːkəl(hi) sˈʌŋkʰjaː,  (en)pˈɔːkəl(zh) s.ˈu
+because: yo, 3392,  kːjˈõkɪ,  jˈin wˈei
+causal-case: ksi, 5010,  kˌəɾɳˈiːj mˈaːmlˌaː,  jinkˈuo˧˥ wˈai khˈo-ɜ
+thing: gi, 2829,  cˈiːz,  s.ˈi. tɕhˈiɜŋ
+name: ne, 3608,  nˈaːm,  mˈiɜŋ ts.hˈəŋ
+proper-noun: ra, 3902,  ˈʊcɪt sˈʌɲɡjaː,  ts.ˈəŋ tɕhˈyɛ mˈiɜŋ tshˈi̪ɜ
+hortative: co, 4479,  ˌʊpdˈeːʃ dˌeːneːʋˈaːlaː,  ts.ˈonɡ kˈɑu tə˥
+visible-evidential: cri, 5090,  dɪkʰˈaːi pɾətːjˈʌkʃ,  khˈo-˧˥ tɕˈiɛn ts.ˈəŋ tɕˈy
+side: so, 3437,  pˈʌkʃ,  tshˈo-
+female: me, 2937,  mˈʌhɪlˌaː,  nˈy˧˥
+enough: ku, 2740,  pəɾjˈaːpt,  kˈou lə˥
+almost: lo, 2645,  lˈʌɡəbʰˌəɡ,  tɕixˈu
+desiderative-mood: di, 7100,  (en)dɪzˈɪdəɹətˌɪv(hi) mənˈoːdʃˌaː,  tˌəsi̪tˌəʐɑthivˈo- ɕˈin tɕhˈiɜŋ
+given: dwi, 3393,  dˈi,  thˈə tˈiŋ
+final-time: fla, 7298,  (en)fˈaɪnəl tˈaɪm(hi),  (en)fˈaɪnəl(zh) thimˈo-
+terminative-case: te, 7372,  (en)tˈɜːmɪnətˌɪv(hi) mˈaːmlˌaː,  ts.ˈonɡ tɕˈiɛɜ wˈai khˈo-ɜ
+present: rwa, 3352,  wˌəɾtəmˈaːn,  tˈaŋ ɕˈiɑ
+inessive-case: nwe, 7434,  (en)ɪnˈɛsɪv(hi) mˈaːmlˌaː,  nˈei kˈo-ɜ wˈai khˈo-ɜ
+imperative-mood: pri, 4788,  ˌʌnɪʋˈaːɾjə mənˈoːdʃˌaː,  s.ˈi. tsˈai pˈi ɕˈiɜŋ ɕˈin tɕhˈiɜŋ
+round: ro, 3337,  dˈɔːɾ,  xˈueiɜ xˈo-ɜ
+hope: cra, 3377,  ˈaːʃaː,  ɕˈi wˈɑŋ
+above: ba, 2056,  ˈupəɾ,  jˈi˧˥ s.ˈaŋ
+factive-evidential: fwi, 6375,  (en)fˈaktɪv(hi) pɾətːjˈʌkʃ,  s.ˈi. s.ˈi.ɜ ɕˈiŋ ts.ˈəŋ tɕˈy
+least: ke, 3259,  kˈʌm seː kˈʌm,  tsueiɕjˈɑu˧˥
+optative-mood: po, 5471,  ˌaːpʈˈaːɪʈˌɪw mənˈoːdʃˌaː,  pjˈɑu˧˥ ˈyæn wˈɑŋ tə˥ ɕˈin tɕhˈiɜŋ
+reason: rya, 3236,  kˈaːɾəɳ,  ˈyæɜn jˈin
+realis-mood: le, 5467,  (en)ɹˈiəliz(hi) mənˈoːdʃˌaː,  (en)ɹˈiəliz(zh) ɕˈin tɕhˈiɜŋ
+potential-mood: to, 4985,  kʃˈʌmtˌaː mənˈoːdʃˌaː,  tɕhˈiɛɜn tsˈai ɕˈin tɕhˈiɜŋ
+towards: kra, 3056,  ki ˈoːɾ,  ɕˈiɑŋ
+allative-case: lwe, 6405,  (en)ˈalətˌɪv(hi) mˈaːmlˌaː,  (en)ˈalətˌɪv(zh) wˈai khˈo-ɜ
+anthropic-gender: nri, 5371,  (en)anθɹˈɒpɪk(hi) lˈĩɡ,  tsˈo-ɜ ɕˈiŋ pˈiɛɜ
+subject: se, 3972,  wˈɪʂˌɛj,  ɕˈyɛɜ khˈo-
+same-subject-marker: ce, 5003,  wˈʌhi wˈɪʂˌɛj nɪʃˈaːn,  ɕˈiɑŋ thˈonɡɜ ɕˈyɛɜ khˈo- pjˈɑu tɕˈi
+different-subject: fe, 4718,  ˈʌləɡ wˈɪʂˌɛj,  pˈu thˈonɡɜ ɕˈyɛɜ khˈo-
+fear: ko, 3278,  ɖˈʌɾ,  khˈonɡ˧˥ tɕˈy
+doubt: da, 3212,  səndˈeːh,  xˈuaiɜ jˈiɜ
+dubitative-mood: twe, 6934,  (en)djˈuːbɪtˌeɪtɪv(hi) mənˈoːdʃˌaː,  tˌupithˌɑthivˈo- ɕˈin tɕhˈiɜŋ
+vialis-case: we, 5209,  (en)vˈaɪəlˌiz(hi) mˈaːmlˌaː,  (en)vˈaɪəlˌiz(zh) wˈai khˈo-ɜ
+purpose: du, 3666,  ʊddˈeːʃjə,  mutˈi
+except: swu, 3000,  sɪʋˈaːj,  ts.hˈuɜ
+future: be, 3018,  bʰəʋˈɪʂjə,  wˈei lˈaiɜ
+desire: kwa, 3354,  ˈɪccʰaː,  ʲˈy wˈɑŋ
+probability: bla, 3587,  səmbʰˈaʊnaː,  khˈo-˧˥ nˈəɜŋ ɕˈiŋ
+opinion: ji, 2477,  ɾˈaːj,  jitɕiɛ˥n
+agreement: ga, 4367,  sˌəmɟʰˈɔːtaː,  ɕˈiɛɜ jˈi
+save: ja, 3390,  bəcˈaːnaː,  pˈɑu˧˥ tshˈuəɜn
+quotative-case: kwi, 6842,  (en)kwˈəʊtətˌɪv(hi) mˈaːmlˌaː,  tɕhˌyothˌɑthivˈo- wˈai khˈo-ɜ
+condition: kri, 3274,  ʃˈʌɾt,  thjˈɑuɜ tɕˈiɛn
+including: kli, 3125,  ʃˈaːmɪl,  pˈɑu xˈaɜn
+inclusive-person: mo, 4241,  sˈʌmmɪlˌɪt ʋjˈʌktɪ,  pˈɑu ʐˈonɡɜ ɕˈiŋ ʐˈəɜn
+precative-mood: rwi, 6859,  (en)pɹɪkˈatɪv(hi) mənˈoːdʃˌaː,  phʐˌo-tshɑthivˈo- ɕˈin tɕhˈiɜŋ
+polite-register: bri, 4571,  sˈʌbʰjə ɾəɟˈɪsʈəɾ,  jˈiouɜ lˈi˧˥ mˈɑu tɕˈi tshˈuəɜn tɕhˈi
+prospective-aspect: tla, 4356,  bʰˈaʊi pˈʌhəlˌuː,  ʲˈy tɕhˈi fˈaŋ mˈiɛn
+gnomic-aspect: no, 4706,  sˈuːktɪ kaː pˈʌhəlˌuː,  kˈo-ɜ jˈiɛɜn fˈaŋ mˈiɛn
+worth: bya, 2882,  lˈaːjək,  tɕˈiɑ ts.ˈi.ɜ
+inchoative-aspect: tfi, 5149,  ˌɪbtɪdˈaːi pˈʌhəlˌuː,  fˈɑ tˈuan tə˧˥ fˈaŋ mˈiɛn
+jussive-mood: jwi, 5460,  (en)dʒˈʌsɪv(hi) mənˈoːdʃˌaː,  mˈiŋ lˈiŋ tə˥ ɕˈin tɕhˈiɜŋ
+field: cla, 2330,  kʃˈeːtɾə,  lˈi˧˥ŋ ʲˈy
+permission: zi, 3900,  ˈʌnʊmtɪ,  ʲyəɜnɕˈy˧˥
+permissive-mood: mwo, 4203,  ˌʌnʊmˈoːdək mənˈoːdʃˌaː,  khwˈan ʐˈonɡɜ ɕˈin tɕhˈiɜŋ
+distal-demonstrative: tse, 4973,  bˈaːhəɾ kaː ʈʰˈoːs,  ˈyæ˧˥n tˈuan ts.ˈi.˧˥ s.ˈi. tˈai tshˈi̪ɜ
+distributive-case: dwa, 4754,  bˌãʈneːʋˈaːlaː mˈaːmlˌaː,  fˈən phˈei tə˥ wˈai khˈo-ɜ
+pain: do, 3440,  dˈʌɾd,  thˈəɜŋ thˈonɡ
+possessive-marker: sra, 4352,  mˌaːlɪkˈaːnaː nɪʃˈaːn,  suoɜjˈiou˧˥ kˈo-ɜ pjˈɑu tɕˈi
+promise: re, 2477,  wˈaːdaː,  ts.hˈəɜŋ nˈuo
+commissive-mood: kwo, 5914,  (en)kəmˈɪsɪv(hi) mənˈoːdʃˌaː,  ts.hˈəɜŋ nˈuo ɕˈiŋ ɕˈin tɕhˈiɜŋ
+surprise: sri, 3812,  ˈʌcəɾˌəɟ,  tɕˈiŋ
+completive-aspect: mwe, 5438,  ʃˈeːʂ pˈʌhəlˌuː,  (en)kəmplˈɛtɪv(zh) fˈaŋ mˈiɛn
+anger: nra, 2514,  kɾˈoːdʰ,  fˈən nˈu
+request: pe, 3138,  pɾˈaːɾtʰənˌaː,  tɕhˈi˧˥ŋ tɕhˈiouɜ
+movement: wo, 2618,  ãdˈoːlən,  ʲˈyən tˈonɡ
+opposite: pse, 3182,  sˈaːmnˌeː,  tˈuei mˈiɛn
+cessative-aspect: tfa, 3804,  səmˈaːptɪ pˈʌhəlˌuː,  tɕˈiɛ jˈiɛn fˈaŋ mˈiɛn
+intensifier: tli, 4558,  (en)ɪntˈɛnsɪfˌaɪə(hi),  tsˈəŋ tɕhˈiɑɜŋ
+evidential-case: tra, 3966,  pɾətːjˈʌkʃ mˈaːmlˌaː,  ts.ˈəŋ tɕˈy wˈai khˈo-ɜ
+otherwise: dra, 3431,  ˈʌnjətʰˌaː,  ts.hˈuɜ tshˈi̪ɜ jˈi˧˥ wˈai
+zoic-gender: zo, 5208,  (en)zˈəʊɪk(hi) lˈĩɡ,  ts.ˈou ɕˈiŋ pˈiɛɜ
+eventive-mood: nwo, 6145,  (en)ɪvˈɛntɪv(hi) mənˈoːdʃˌaː,  ˌo-vənthivˈo- ɕˈin tɕhˈiɜŋ
+same-event-marker: cwo, 4041,  wˈʌhi ɡʰˈʌʈnˌaː nɪʃˈaːn,  ɕˈiɑŋ thˈonɡɜ s.ˈi. tɕˈiɛn pjˈɑu tɕˈi
+multiplicative-case: tlu, 4446,  ɡˈʊɳək mˈaːmlˌaː,  ts.həɜŋfˈɑ˧˥ wˈai khˈo-ɜ
+mass: mra, 3753,  saːmˈuːhɪk,  ts.ˈi. lˈiɑŋ
+speculative-mood: pli, 4715,  kˈaːlpənˌɪk mənˈoːdʃˌaː,  thˈouɜ tɕˈi ɕˈin tɕhˈiɜŋ
+familiar: fli, 2991,  pˈʌɾɪcˌɪt,  s.ˈuɜ
+familiar-register: fri, 4416,  pˈʌɾɪcˌɪt ɾəɟˈɪsʈəɾ,  s.ˈuɜ tɕˈi tshˈuəɜn tɕhˈi
+sorrow: go, 2450,  ɡˈʌm,  pˈei ˈai
+eh?: za, 2173,  nˈaː,  s.ˈi. mɑ˥
+advice: dla, 2885,  səlˈaːh,  ts.ˈonɡ kˈɑu
+phrase-marker: fra, 4835,  mʊhˈaʊɾaː nɪʃˈaːn,  tˈuaɜn ʲˈy˧˥ pjˈɑu tɕˈi
+join: undefined, undefined, undefined, undefined
+hesternal-tense: tle, 7613,  (en)hɛstˈɜːnəl(hi) kˈaːl,  (en)hɛstˈɜːnəl(zh) tɕˈi˧˥n ts.ˈaŋ
+rational-gender: tlo, 3825,  tˌəɾkəsˈʌŋɡət lˈĩɡ,  xo-ɜlˈi˧˥ tə˥˩ ɕˈiŋ pˈiɛɜ
+extreme: kre, 4104,  cˈʌɾəm,  tɕˈiɜ tˈuan
+vegetal-gender: tri, 3974,  wənˈʌspətˌɪk lˈĩɡ,  ts.ˈi.ɜ wˈu ɕˈiŋ ɕˈiŋ pˈiɛɜ
+curiosity: ryi, 3784,  ɟɪɡjˈaːsaː,  xɑutɕhˈiɜ ɕˈin
+conclusion: clo, 3605,  nɪʂkˈʌɾʂ,  tɕˈiɛɜ lˈuən
+article: ru, 2438,  lˈeːkʰ,  wˈuəɜn ts.ˈaŋ
+benedictive-mood: bwi, 3826,  aːʃˈiːɾʋaːd mənˈoːdʃˌaː,  ts.ˈu fˈuɜ ɕˈin tɕhˈiɜŋ
+initiative-case: nyo, 3937,  pˈʌhəl mˈaːmlˌaː,  ts.hˈaŋ jˈi wˈai khˈo-ɜ
+delayed-imperative: de, 3785,  wɪlˈʌmbɪt ˌʌnɪʋˈaːɾjə,  jˈiɛɜn ts.hˈi.ɜ s.ˈi. tsˈai pˈi ɕˈiɜŋ
+reported-evidential: pra, 5089,  ki sˈuːcnˌaː dˈi pɾətːjˈʌkʃ,  pˈɑu tˈɑu ts.ˈəŋ tɕˈy
+singular-number: gla, 3997,  wɪlˈʌkʃəɳ sˈʌŋkʰjaː,  tˈan s.ˈu s.ˈu
+referential: fre, 4286,  (en)ɹɪfəɹˈɛnʃəl(hi),  tshankhˈɑu˧˥
+decision: dri, 3531,  nˈɪɾɳəˌɛj,  tɕˈyɛɜ tˈiŋ
+inductive-mood: kcu, 4204,  ˌʌdʰɪʂʈʰˈaːpən kaː mənˈoːdʃˌaː,  kˈuei nˈɑ tə˥ ɕˈin tɕhˈiɜŋ
+discourse-deixis: ye, 4555,  pɾˈʌʋəcˌən (en)dˈeɪksɪs(hi),  jiɛɜntɕˈiɑɜŋ ts.ˈi.˧˥ s.ˈi. ʲˈy˧˥
+vocative-case: bo, 4617,  səmbˈoːdʰən mˈaːmlˌaː,  xˈu wˈai khˈo-ɜ
+warning: tru, 3164,  ceːtˈaʊni,  tɕˈi˧˥ŋ kˈɑu
+admonitive-mood: tsu, 4118,  ceːtˈaʊni mənˈoːdʃˌaː,  tɕˈi˧˥ŋ kˈɑu ɕˈin tɕhˈiɜŋ
+continuous-aspect: nre, 4329,  nɪɾˈʌntəɾ pˈʌhəlˌuː,  lˈiɛɜn ɕˈy fˈaŋ mˈiɛn
+direct-evidential: tre, 4494,  pɾətːjˈʌkʃ pɾətːjˈʌkʃ,  ts.ˈi.ɜ tɕˈiɛ ts.ˈəŋ tɕˈy
+apprehensive-mood: pco, 4195,  bʰˌəjbʰˈiːt mənˈoːdʃˌaː,  jˈiou lˈy ɕˈin tɕhˈiɜŋ
+recent-past-tense: tco, 3830,  hˈaːl kaː ʌtˈiːt kˈaːl,  tsˈuei tɕˈin kuotɕhy˥ tɕˈi˧˥n ts.ˈaŋ
+remote: tso, 2890,  duːɾˈʌstʰ,  ˈyæ˧˥n ts.hˈəɜŋ
+invitation: mli, 3616,  nɪmˈʌntɾəɳ,  tɕhiɜŋthˈiɛ˧˥
+imprecative-mood: pro, 4917,  pʰˌəʈkˈaːɾ kaː mənˈoːdʃˌaː,  ts.outsˈu˧˥ ɕˈin tɕhˈiɜŋ
+assumptive-mood: mri, 4256,  sʋˈiːkɾɪt mənˈoːdʃˌaː,  tɕjˈɑu ɕˈin tɕhˈiɜŋ
+protasis: pso, 4513,  nˈaːʈək kaː pˈʌhəlˌaː bʰˈaːɡ,  thjˈɑuɜ tɕˈiɛn tshˈonɡɜ tɕˈy
+mimetic: mre, 4166,  ˈʌnʊkˌəɾəɳ kˌəɾneːʋˈaːlaː,  moɜfˈa˧˥ŋ tə˥˩
+namely: gwi, 2566,  jˈaːni,  jˈi tɕˈiɜ
+obviative: bwa, 5687,  (en)ˈɒbviətˌɪv(hi),  (en)ˈɒbviətˌɪv(zh)
+hodiernal-tense: dli, 5326,  ˈʌʋtən kˈaːl,  (en)hˈəʊdiənəl(zh) tɕˈi˧˥n ts.ˈaŋ
+delimitative-aspect: dwe, 6128,  (en)dɪlˈɪmɪtˌeɪtɪv(hi) pˈʌhəlˌuː,  tˈiŋ tɕˈiɛ fˈaŋ mˈiɛn
+exclusive-person: kwe, 4226,  ʌnˈʌnjə ʋjˈʌktɪ,  tˈuɜ tɕˈiɑ ʐˈəɜn
+telic-aspect: lyi, 5206,  (en)tˈɛlɪk(hi) pˈʌhəlˌuː,  (en)tˈɛlɪk(zh) fˈaŋ mˈiɛn
+atelic-aspect: tfe, 5454,  (en)ˈeɪtlɪk(hi) pˈʌhəlˌuː,  (en)ˈeɪtlɪk(zh) fˈaŋ mˈiɛn
+prohibition: zli, 2317,  nɪʂˈeːdʰ,  tɕˈin lˈiŋ
+prohibitive-mood: jri, 3672,  nˌɪʂeːdʰˈaːtmək mənˈoːdʃˌaː,  lˈiŋ ʐˈəɜn wˈɑŋ ˈərɜ tɕhˈyɛ pˈu ɕˈin tɕhˈiɜŋ
+polite: slo, 3453,  sˈʌbʰjə,  jˈiouɜ lˈi˧˥ mˈɑu
+push: undefined, undefined, undefined, undefined
+map: undefined, undefined, undefined, undefined
+exclamation: klo, 3472,  wˌɪsməjˌaːdɪbˈoːdʰək,  kˈa˧˥n thˈan
+logophoric: gri, 5349,  (en)lˌɒɡəfˈɒɹɪk(hi),  (en)lˌɒɡəfˈɒɹɪk(zh)
+reverse: undefined, undefined, undefined, undefined
+reduce: undefined, undefined, undefined, undefined
+momentane-aspect: mye, 4999,  (en)mˈəʊməntˌeɪn(hi) pˈʌhəlˌuː,  mˌomənthɑnˈə fˈaŋ mˈiɛn
+humble-register: mro, 4240,  nˈʌmɾə ɾəɟˈɪsʈəɾ,  tɕhˈiɛn pˈei tɕˈi tshˈuəɜn tɕhˈi
+former-deceased: zri, 3847,  bʰˌuːtpˈuːɾwə mɾˈɪtək,  tɕhˈiɛɜn ʐˈən tə˥ si̪ɜts.ˈo-˧˥
+quote: fu, 2944,  ˈʊddʰəɾˌəɳ,  jˈi˧˥n ˈyuŋ
+annoyance: gra, 2924,  cˈɪr.h,  faɜnnˈɑu˧˥
+habitual-aspect: cle, 4212,  ʌbʰjˈʌst pˈʌhəlˌuː,  kwˈan ts.hˈɑɜŋ təɜ fˈaŋ mˈiɛn
+repetition: pru, 3178,  dˈʊhəɾˌaʊ,  ts.ˈonɡ
+passive: jyi, 2924,  nˈɪʂkɾɪj,  pˈei tˈonɡ
+verb: gre, 3071,  kɾˈɪjaː,  tˈonɡ tshˈi̪ɜ
+irony: fo, 2586,  ʋjˈʌŋɡjə,  fˈə˧˥ŋ tshˈi̪
+consequential: kse, 3381,  ˈɛhəm,  xoukˈuo˧˥
+neutral: nro, 3201,  təʈˈʌstʰ,  ts.ˈonɡ ɕˈiŋ
+formal-register: sre, 4260,  ˌɔːpcˈaːɾɪk ɾəɟˈɪsʈəɾ,  ts.ˈəŋ s.ˈi. tɕˈi tshˈuəɜn tɕhˈi
+auditory-evidential: tro, 4851,  ʃɾˈʌʋəɳ pɾətːjˈʌkʃ,  thˈiŋ tɕˈyɛɜ ts.ˈəŋ tɕˈy
+minority: sro, 3251,  ˌʌlpəsˈʌŋkʰjək,  s.ˈɑu˧˥ s.ˈu mˈiɜn tsˈuɜ
+inferential-evidential: nle, 4469,  ˌaːnʊmˈaːnɪk pɾətːjˈʌkʃ,  thueilˈi˧˥ ts.ˈəŋ tɕˈy
+expletive: sle, 3180,  dˈʊɾʋəcˌən,  tsaŋxwˈɑ
+sublative-case: swo, 6646,  (en)sˈʌblətˌɪv(hi) mˈaːmlˌaː,  ts.ˈi. kˈo-ɜ wˈai khˈo-ɜ
+unit: bli, 2286,  ɪkˈaːi,  tˈan ˈyæɜn
+declarative-mood: ksu, 3984,  kətʰˈaːtmək mənˈoːdʃˌaː,  ts.hˈəɜn s.ˈu ɕˈin tɕhˈiɜŋ
+verbal: kce, 2805,  mˈɔːkʰɪk,  khˈou˧˥ thˈouɜ
+emphatic: zra, 3628,  zˌoːɾdˈaːɾ,  ʲˈy˧˥ tjˈɑu tɕhˈiɑɜŋ təɜ
+initial-time: nlo, 5519,  (en)ɪnˈɪʃəl tˈaɪm(hi),  (en)ɪnˈɪʃəl(zh) thimˈo-
+affirmative-mood: fwa, 3379,  sˌəkaːɾˈaːtmək mənˈoːdʃˌaː,  khˈə˧˥n tˈiŋ ɕˈin tɕhˈiɜŋ
+ideophone: dyi, 5396,  (en)ˈɪdɪˌɒfəʊn(hi),  (en)ˈɪdɪˌɒfəʊn(zh)
+exessive-case: two, 3810,  ˈʌtːjədʰˌɪk mˈaːmlˌaː,  kˈuo tˈuo wˈai khˈo-ɜ
+irrealis-mood: fle, 3019,  (en)ɪɹˈiəliz(hi) mənˈoːdʃˌaː,  fˈei ɕˈiɛn s.ˈi.ɜ ɕˈin tɕhˈiɜŋ
+shyness: cro, 3301,  ʃˈʌɾm,  xˈai ɕˈiou
+slang: jra, 2584,  kʰˈɪcr.ˌi bʰˈaːʂaː,  liɜˈy˧˥
+pronoun-marker: rye, 3681,  sˌəɾʋənˈaːm nɪʃˈaːn,  tˈai tshˈi̪ɜ pjˈɑu tɕˈi
+jargon: bra, 4350,  ʃˌəbdəɟˈaːl,  ɕˈiɜŋ xwˈɑ
+disagreement: dlo, 2606,  bˈʌhəs,  jˈi jˈi
+pegative-case: pwe, 7439,  (en)pˈɛɡətˌɪv(hi) mˈaːmlˌaː,  phˌo-kɑthivˈo- wˈai khˈo-ɜ
+qua: gwa, 3271,  jˈoːɡjətˌaː keː ɾˈuːp mˈẽː,  tɕhyˈɑ
+prosecutive-case: pwu, 5502,  (en)pɹˈɒsɪkjˌuːtɪv(hi) mˈaːmlˌaː,  tɕiɛɜntɕˈy˧˥ wˈai khˈo-ɜ
+participle: ryo, 2784,  kɾɪdˈʌnt,  fˈən tshˈi̪ɜ
+interrogation: kru, 3198,  pˌuːcʰtˈaːcʰ,  wˈuən ts.ˈə˧˥n
+remote-past-tense: tce, 4306,  duːɾˈʌstʰ ʌtˈiːt kˈaːl,  ˈyæ˧˥n ts.hˈəɜŋ kuotɕhy˥ tɕˈi˧˥n ts.ˈaŋ
+historic-tense: cre, 4709,  ˌɛːtɪhˈaːsɪk kˈaːl,  lis.ˈi.˧˥ ɕˈiŋ tɕˈi˧˥n ts.ˈaŋ
+hysteria: sye, 4002,  hɪsʈˈiːɾɪjˌaː,  ɕˈiɛ sˈi̪ tiɜlˈi˧˥
+dual-number: dlu, 3583,  dˈoːhəɾˌi sˈʌŋkʰjaː,  s.wɑŋts.hˈonɡɜ s.ˈu
+pluractional: lyu, 5350,  (en)plʊəɹˈakʃənəl(hi),  (en)plʊəɹˈakʃənəl(zh)
+filter: undefined, undefined, undefined, undefined
+sensory-evidential-mood: nye, 4236,  ɡɾˌəhəɳʃˈiːl pɾətːjˈʌkʃ mənˈoːdʃˌaː,  kˈa˧˥n tɕˈyɛɜ təɜ ts.ˈəŋ tɕˈy ɕˈin tɕhˈiɜŋ
+curry: undefined, undefined, undefined, undefined
+definitive: fyi, 3435,  ˈʌntɪm,  mˈiɜŋ tɕhˈyɛ
+motion-uphill: kco, 3493,  pɾˈʌstaʊ ˈupəɾ ki ˈoːɾ,  ʲˈyən tˈonɡ s.ˈaŋ phˈo
+retrospective: rwe, 4035,  pˈuːɾʋəpɾˌəbʰaʊˌi,  xˈueiɜ kˈu
+motion-downhill: kso, 3343,  pɾˈʌstaʊ ʊtˈaːɾ,  ʲˈyən tˈonɡ ɕˈiɑ phˈo
+synonym: syo, 2487,  pəɾjˈaːj,  tˈai mˈiɜŋ tshˈi̪ɜ
+parenthesis: pcu, 2544,  kˈoːʂʈək,  ts.hˈɑ ʐˈu ʲˈy˧˥
+inflected: gli, 3230,  wɪbʰˈʌktɪ,  tɕhˈy ts.ˈo-ɜ
+superessive-case: psu, 7672,  (en)sˌuːpəɹˈɛsɪv(hi) mˈaːmlˌaː,  (en)sˌuːpəɹˈɛsɪv(zh) wˈai khˈo-ɜ
+transitive: txi, 3342,  səkˈʌɾmək,  tɕˈiɜ wˈu
+hyperbole: xi, 3955,  ˌʌtɪʃjˈoːktɪ,  khwˈɑ ts.ˈaŋ
+mirative: mr6, 5827,  (en)mˈɜːɹətˌɪv(hi),  mˌiʐɑthivˈo-
+motion-upriver: t6, 3993,  pɾˈʌstaʊ (en)ˈʌpɹɪvə(hi),  ʲˈyən tˈonɡ s.ˈaŋ jˈiouɜ
+alliteration: xra, 4121,  ˌʌnʊpɾˈaːs,  thˈouɜ ʲˈyən
+motion-downriver: va, 3914,  pɾˈʌstaʊ (en)dˈaʊnɹɪvə(hi),  ʲˈyən tˈonɡ ɕˈiɑ jˈiouɜ
+disjunction: xo, 3199,  ˈʌlɡˌaʊ,  thˈuo tɕˈiɛɜ
+euphemism: y6, 3171,  ʋjˈʌɲɟənˌaː,  wˈɑ˧˥n tshˈi̪ɜ
+splice: undefined, undefined, undefined, undefined
+reflexive: flo, 3518,  kˌəɾməkˈʌɾtːaː,  fˈa˧˥n sˈi̪
+anticlimax: xli, 3809,  ˈʌʋəntɪ,  xˈu˧˥ thˈouɜ s.ˈo-ɜ wˈei˧˥
+current-relevance-marker: xa, 4890,  wˌəɾtəmˈaːn pɾaːsˈʌŋɡɪktaː nɪʃˈaːn,  tˈaŋ tɕhˈiɛɜn kwˈan lˈiɛɜn pjˈɑu tɕˈi
+ord: dro, 3855,  (en)ˈɔːd(hi),  (en)ˈɔːd(zh)
+anthropomorphism: nr6, 4345,  ˌʌʋtˌaːɾʋˈaːd,  nˈi˧˥ ʐˈəɜn lˈuən
+modifier: qi, 3613,  ˌaːpɾɪʋˈʌɾtək,  ɕioukˈai˧˥
+acronym: kfi, 3727,  səŋkʃˈɪpt,  s.ˈou˧˥ tsi̪mˈu˧˥ suoɕˈiɛ˧˥
+initialism: nl6, 5112,  (en)ɪnˈɪʃəlˌɪzəm(hi),  s.ˈou˧˥ tsi̪mˈu˧˥ sˈuo lˈyɛ tshˈi̪ɜ
+gerund: ge, 3818,  kɾˌɪjaʊˈaːcək sˈʌɲɡjaː,  tˈonɡ mˈiɜŋ tshˈi̪ɜ
+ordinal: r6, 3554,  kɾˌəmʋˈaːcək,  ɕˈy s.ˈu tshˈi̪ɜ
+vocative: vo, 3884,  səmbˈoːdʰən,  xˈu
+preterite: pre, 4303,  bʰˈuːtkˈaːl,  kuotɕhy˥ s.ˈi.
+aorist: bro, 4678,  (en)eɪˈɔːɹɪst(hi),  puɜtˈiŋ kuotɕhy˥
+pejorative: p6, 4266,  ˌʌpmˈaːnəɟˌənək,  pˈiɛ˧˥n jˈi
+metonymy: m6, 4212,  ˌʌlŋkˈaːɾ ɟˈɪs mẽː kˈɪsi pədˈaːɾtʰ keː lˈɪjeː ˈʊn kaː nˈaːm kˈʌhaː ɟˈaːtaː hɛː,  xˈuan ʲˈy
+partitive-case: pxi, 5125,  zˈaːti mˈaːmlˌaː,  pjˈɑu˧˥ fˈən tshˈi̪ɜ wˈai khˈo-ɜ
+onomatopoeia: qa, 4490,  ʌɾtʰˈaːnʊɾˌəɳən,  ɕˈiɑŋ s.ˈəŋ tshˈi̪ɜ
+synecdoche: swe, 4061,  ˌʊpəlˈʌkʃjə ˌʌlŋkˈaːɾ ɟˈɪs mẽː ˈʌnʃ keː lˈɪjeː pˈuːɾɳə ˈʌtʰʋˌaː pˈuːɾɳə keː lˈɪjeː ˈʌnʃ kaː pɾˈə,  thˈiɜ ʲˈy
+inchoative: txa, 3974,  ˌɪbtɪdˈaːi,  fˈɑ tˈuan tə˧˥
+clockwise: k6, 3626,  dˌəkʃɪɳˈaʊɾt,  s.wˈo-n s.ˈi.ɜ ts.ˈən
+augmentative: xe, 4419,  wɾˈɪddʰɪ kˌəɾneːʋˈaːlaː,  tɕhˈiɑɜŋ xwˈɑ tə˥
+anacoluthon: n6, 5874,  (en)ˈanɐkˌɒlʌθən(hi),  (en)ˈanɐkˌɒlʌθən(zh)
+perfective: pfe, 4025,  sˈaːdʰək,  wˈɑɜn ts.hˈəɜŋ s.ˈi.
+determiner: txe, 4401,  nɪɾdʰˈaːɾək,  tɕhˈyɛ tˈiŋ
+predicative: dji, 3963,  wɪdʰˈeːj,  pjɑuɜʲˈy˧˥
+paronomasia: qla, 3516,  ʃˌəbdaːlŋkˈaːɾ,  s.wˈɑŋ kwˈan ʲˈy˧˥
+antiphrasis: qra, 4645,  (en)ˌantɪfɹˈasiz(hi),  faɜnʲˈyɜ fˈɑ˧˥
+prolative-case: l6, 5629,  (en)pɹˈɒlətˌɪv(hi) mˈaːmlˌaː,  phʐˌolɑthivˈo- wˈai khˈo-ɜ
+anastrophe: vra, 5086,  (en)anˈastɹəfɪ(hi),  (en)anˈastɹəfɪ(zh)
+chiasmus: ts6, 3882,  kˈeːɪsˌəməs,  tɕjˈɑu tshˈuo phˈei lˈiɛ
+due-to: dyo, 3766,  dˈeːj koː,  jiŋjˈiou˧˥ ts.ˈi.
+asyndeton: s6, 5321,  (en)ɐsˈɪndɛtən(hi),  (en)ɐsˈɪndɛtən(zh)
+finite-verb: vi, 3393,  sˈiːmɪt kɾˈɪjaː,  jˈiou˧˥ ɕˈiɛn tˈonɡ tshˈi̪ɜ
+gnomic-mood: kxi, 3865,  sˈuːktɪ kaː mənˈoːdʃˌaː,  kˈo-ɜ jˈiɛɜn ɕˈin tɕhˈiɜŋ
+antonomasia: tr6, 3439,  (en)ˌantənəmˈeɪziə(hi),  xˈuan ts.hˈəŋ
+usitative: zu, 5695,  (en)jˈuːzɪtˌeɪtɪv(hi),  ˌusi̪thˌɑthivˈo-
+as-far-as: jla, 3231,  ɟˈɛːsaː dˈuːɾ ɟˈɛːsaː,  ʐˈuɜ ˈyæ˧˥n ʐˈuɜ
+veridical: ve, 4128,  sətːjˈʌpɾɪj,  pˈu ɕywˈei˧˥
+coreference: kro, 6004,  (en)kˈɔːɹɛfɹəns(hi),  ts.ˈi.˧˥ tˈai
+prior-to: pr6, 5424,  (en)pɹˈaɪə sˈəʊ(hi),  phʐˌi.oər˧˥ tho˥
+converb: dve, 4960,  (en)kənvˈɜːb(hi),  (en)kənvˈɜːb(zh)
+as-per: je, 2932,  ɟˈɛːsaː pɾˈʌtɪ,  ʐˈuɜ mˈei˧˥
+paucal: pc6, 4256,  (en)pˈɔːkəl(hi),  (en)pˈɔːkəl(zh)
+thanks-to: qo, 5237,  (en)θˈaŋks sˈəʊ(hi),  (en)θˈaŋks(zh) thˈo
+brachylogia: bl6, 6677,  (en)bɹˌakɪlˈəʊdʒə(hi),  (en)bɹˌakɪlˈəʊdʒə(zh)
+by-means-of: dya, 3732,  dʋˈaːɾaː mˈʌtəlˌəb kaː,  thˈonɡ kˈuo s.ˈou˧˥ tˈuan tə˥
+pursuant-to: pfu, 4877,  (en)pəsjˈuːənt sˈəʊ(hi),  (en)pəsjˈuːənt(zh) thˈo
+catachresis: kxa, 4884,  (en)kˌatɐtʃɹˈiːsɪs(hi),  ˈo-ɜ ts.ˈua˧˥n
+is-part-of: xu, 4820,  (en)ˈeɪtʃlˈuːti ɒv(hi),  xluthˈi (en)ˈaf(zh)
+resultative: zle, 4830,  (en)ɹɪzˈʌltətˌɪv(hi),  tˈonɡ tɕˈiɛɜ
+reverential: vre, 3520,  ʃɾəddʰˈaːmˌɛj,  jˈiɜn
+attenuative: tye, 5286,  (en)ɐtˈɛnjuːətˌɪv(hi),  s.uaitɕˈiɛ˧˥n ɕˈiŋ
+else-if: lye, 3329,  kˈɪsi ɔːɾ jˌədɪ,  fˈou˧˥ tsˈo-ɜ
+ ʐuɜkˈuo˧˥
+synesthesia: ks6, 3169,  (en)sˌaɪnɪsθˈiːziə(hi),  lˈiɛɜn tɕˈyɛɜ
+verbalizer: ble, 6768,  (en)vˈɜːbəlˌaɪzə(hi),  mjˈɑuɜ s.ˈu tɕhˈi
+as-regards: kyo, 3452,  ɟˈɛːsaː kaː səmbˈʌndʰ,  ʐˈuɜ wˈuən xˈou
+as-well-as: kxe, 3607,  ɟˈɛːsaː ˈʌccʰi tˈʌɾəh seː ɟˈɛːsaː,  ʐˈuɜ tɕˈi˧˥ŋ ʐˈuɜ
+lative-case: dva, 4635,  (en)lˈatɪv(hi) mˈaːmlˌaː,  lˌɑthivˈo- wˈai khˈo-ɜ
+epanalepsis: ple, 7676,  (en)ˌɛpɐneɪlˈɛpsɪs(hi),  (en)ˌɛpɐneɪlˈɛpsɪs(zh)
+because-of: bzo, 5419,  (en)bɪkˈʌz ɒv(hi),  pˌo-tshɑusˈo- (en)ɒv(zh)
+zoomorphism: zro, 5736,  (en)zˈuːmɔːfˌɪzəm(hi),  tˈonɡ wˈu ɕˈiɜŋ ɕˈiɑŋ
+multal: mlo, 6618,  (en)mˈʌltəl(hi),  (en)mˈʌltəl(zh)
+clause-tail: klu, 3893,  kʰˈʌɳɖ pˈũcʰ,  tshˈonɡɜ tɕˈy wˈei˧˥
+verbal-noun: xla, 3767,  mˈɔːkʰɪk sˈʌɲɡjaː,  khˈou˧˥ thˈouɜ mˈiɜŋ tshˈi̪ɜ
+causative: xri, 2382,  pɾˈeːɾɳˌaː kaː,  ts.ˈi. pˈiŋ
+circumfix: kf6, 5698,  (en)sˈɜːkəmfˌɪks(hi),  (en)sˈɜːkəmfˌɪks(zh)
+from-source: tyo, 3361,  seː sɾˈoːt,  tshˈonɡɜ ˈyæɜn
+in-front-of: pxa, 4646,  (en)dɪpˈan dˈɑːɹi(hi),  təphˈan tɑʐˈi.
+that-of: vla, 2525,  (en)wˈɒtəl ɒv(hi),  (en)ðˈat ɒv(zh)
+in-place-of: pce, 4646,  (en)tˈɛmpat dˈɑːɹi(hi),  (en)tˈɛmpat(zh) tɑʐˈi.
+in-spite-of: qyi, 3773,  (en)spˈiːti dˈɑːɹi(hi),  təŋkhˈi tɑʐˈi.
+in-language: byi, 3801,  ˈɪn bʰˈaːʂaː,  tsˈai ʲˈy˧˥ jˈiɛɜn
+accompanier: kfo, 4637,  (en)ɐkˈʌmpənɪə(hi),  (en)ɐkˈʌmpənɪə(zh)
+dysphemism: d6, 5989,  ɖˌɪspʰˈeːmɪzˌəm,  (en)dɪsfˈiːmɪzəm(zh)
+experiencer: xre, 3585,  bʰˈoːktaː,  thˈi˧˥ jˈiɛn ts.ˈo-˧˥
+except-for: kfe, 5251,  (en)ˈaksɛpt fɔː(hi),  (en)ɛksˈɛpt az bˈʊdə(zh)
+anadiplosis: nlu, 5516,  (en)ˌanɐdɪplˈəʊsɪs(hi),  xˈueiɜ xˈuaɜn
+patientive: pxe, 5316,  (en)pˈeɪʃəntˌɪv(hi),  phˌɑthiɛnthivˈo-
+yaor: jo, 3459,  (en)jeɪˈɔː(hi),  jɑuər˧˥
+binary-value: vri, 4260,  dʋˌɪaːdʰˈaːɾi mˈuːljə,  ˈər ts.ˈi.ɜ
+exclusive-or: kle, 4359,  ˌeːkmˈaːtɾə,  jˈi xˈuo
+linker: ly6, 3135,  lˈĩkəɾ,  lˈiɛn tɕˈiɛ
+in-case-of: ps6, 3357,  (en)kˈasəs dˈɑːɹi(hi),  (en)kˈasəs(zh) tɑʐˈi.
+single-quote: qli, 7219,  (en)sˈɪŋɡəl kwˈəʊt(hi),  si̪ŋlˈə tɕhˌyothˈə
+polysyndeton: pye, 4927,  (en)pˌɒlɪsˈɪndɛtən(hi),  lˈiɛɜn tshˈi̪ɜ (en)aɜnd(zh) tˈiɛɜ
+near-to: nru, 5182,  (en)nˌiə sˈəʊ(hi),  nɛər˧˥ tho˥
+distributive: dru, 3834,  bˌãʈneːʋˈaːlaː,  fˈən phˈei tə˥
+on-behalf-of: qya, 3547,  pˈʌɾ pˈʌkʃ kaː,  s.ˈaŋ taipjˈɑu˧˥ tə˥˩
+in-case: kc6, 3380,  (en)kˈasəs(hi),  (en)kˈasəs(zh)
+if-only: gro, 3025,  ˌʌɡəɾ kˈeːʋəl,  ʐuɜkˈuoɜ ts.ˈi.˧˥ jˈɑu
+owing-to: vwi, 3612,  (en)ˈəʊvɪŋ sˈəʊ(hi),  ˈou taɜpliouɜ ˈai ˈən ts.ˈi tho˥
+epanorthosis: pfo, 6871,  (en)ˌɛpɐnɔːθˈəʊsɪs(hi),  (en)ˌɛpɐnɔːθˈəʊsɪs(zh)
+double-quote: blo, 7334,  (en)dˈʌbəl kwˈəʊt(hi),  (en)dˈʌbəl(zh) tɕhˌyothˈə
+even-if: v6, 4491,  (en)ˈand ɪf(hi),  o-vˈən (en)ɪf(zh)
+continuative: ty6, 3563,  sˈʌtət,  tɕˈiɛ ɕˈy
+antimetabole: tx6, 4636,  (en)ˌantɪmətˈabɒl(hi),  ˌanthimˌo-thɑpolˈə
+on-top-of: qu, 3482,  pˈʌɾ ˈupəɾ kaː kaː,  s.ˈaŋ tsˈuei tɕˈiɑ tə˧˥
+antanaclasis: tl6, 4908,  jˈʌmək ˌʌlŋkˈaːɾ,  (en)ˈantɐnˌaklɐsˌiz(zh)
+centric-case: dre, 4516,  kˈẽːdɾij mˈaːmlˌaː,  ts.ˈonɡ ɕˈin wˈai khˈo-ɜ
+is-a-kind-of: gu, 4287,  (en)ɐ kˈaɪnd ɒv(hi),  (en)lˌɪɡɐtʃəeɪˈiː(zh) kˌoɜtuɜər˥ (en)a˥f(zh)
+pro-sentence: rwo, 3984,  səmˈʌɾtʰək wˈaːkːjə,  tɕhˈin tɕˈy tsi̪˥
+deixis: dzi, 4710,  (en)dˈeɪksɪs(hi),  ts.ˈi.˧˥ s.ˈi. ʲˈy˧˥
+as-of: ze, 2219,  ɟˈɛːsaː kaː,  ʐˈuɜ təɜ
+goal-trigger: lyo, 3148,  lˈʌkʃjə ʈɾˈɪɡəɾ,  mˈu pjˈɑu ts.hˈu fˈɑ
+identifiable: xya, 3289,  pˌəhəcˈaːn jˈoːɡjə,  s.i.ɜpˈiɛɜ
+tuple: tfu, 3866,  ʈˈʌpəl,  ˈyæɜn tsˈu˧˥
+byebye: jwa, 3268,  ˈʌlʋˌɪdaː,  tsˈai tɕˈiɛn
+middle-voice: myo, 3850,  mˈʌdʰjə aːʋˈaːz,  ts.ˈonɡ tɕˈiɛn ʲˈy˧˥ jˈin
+oblique-case: bwo, 3329,  pəɾˈoːkʃ mˈaːmlˌaː,  ɕˈiɛɜ wˈai khˈo-ɜ
+polyptoton: py6, 4582,  (en)pˌɒlɪptˈɒtən(hi),  (en)pˌɒlɪptˈɒtən(zh)
+patient-case: xwa, 3040,  məɾˈiːɟ mˈaːmlˌaː,  xuants.ˈo-˧˥ wˈai khˈo-ɜ
+prehodiernal: x6, 4369,  pˈuːɾwə ˈʌʋtən,  ʲˈy (en)həʊ˥diə˥nəl˥(zh)
+symploce: mlu, 6371,  (en)sˈɪmpləʊs(hi),  (en)sˈɪmpləʊs(zh)
+common-gender: kye, 3686,  saːmˈaːnjə lˈĩɡ,  kˈonɡ thˈonɡɜ ɕˈiŋ pˈiɛɜ
+on-account-of: kr6, 3087,  pˈʌɾ kˈaːɾəɳ kaː,  s.ˈaŋ ts.ˈaŋ xˈu tə˥
+angle-bracket: qr6, 6344,  (en)ˈaŋɡəl bɹˈakɪt(hi),  ɑŋlˈə (en)bɹˈakɪt(zh)
+under-subcase: dye, 3216,  nˈiːceː (en)sˈʌbkeɪs(hi),  ɕˈiɑ tsi̪˥ tɕhˈiɜŋ khwˈaŋ
+logical-place: jli, 6632,  (en)lˈɒdʒɪkəl plˈeɪs(hi),  (en)lˈɒdʒɪkəl(zh) phlɑtshˈo-
+citation-form: tfo, 3342,  ˈʊddʰəɾˌəɳ pɾəpˈʌtɾə,  jˈi˧˥n ˈyuŋ ɕˈiɜŋ ts.hˈəɜŋ
+state-subcase: txo, 3531,  ɾˈaːɟjə (en)sˈʌbkeɪs(hi),  ts.ˈou tsi̪˧˥ tɕhˈiɜŋ khwˈaŋ
+subsequent-to: bu, 6888,  (en)sˈʌbsɪkvənt sˈəʊ(hi),  (en)sˈʌbsɪkwənt(zh) thˈo
+durating-time: dwu, 5094,  (en)djˈʊəɹeɪtˌɪŋ tˈaɪm mˌiː(hi),  tˌuʐɑthˈiŋ s.ˈi.ɜ tɕˈiɛn
+as-if: gja, 2538,  ɟˈɛːsaː ˌʌɡəɾ,  ʐˈuɜ ʐuɜkˈuo˧˥
+regardless-of: gl6, 6658,  (en)ɹɪɡˈɑːdəlz ɒv(hi),  (en)ɹɪɡˈɑːdləs ɒv(zh)
+abessive-case: bva, 7393,  (en)ɐbˈɛsɪv(hi) mˈaːmlˌaː,  (en)ɐbˈɛsɪv(zh) wˈai khˈo-ɜ
+trans-numeral: ryu, 3530,  ʈɾˈãs ˈʌŋk,  fˈa˧˥n s.ˈi. s.ˈu tsˈi̪
+person-deixis: qe, 3882,  ʋjˈʌktɪ (en)dˈeɪksɪs(hi),  ʐˈəɜn ts.ˈi.˧˥ s.ˈi. ʲˈy˧˥
+direct-object: rwu, 3880,  pɾətːjˈʌkʃ wˈʌstʊ,  ts.ˈi.ɜ tɕˈiɛ mutˈi
+adessive-case: dvi, 7463,  (en)ɐdˈɛsɪv(hi) mˈaːmlˌaː,  (en)ɐdˈɛsɪv(zh) wˈai khˈo-ɜ
+ergative-case: gvi, 5919,  (en)ˈɜːɡətˌɪv(hi) mˈaːmlˌaː,  tsˈuo kˈo-ɜ wˈai khˈo-ɜ
+modal-case: dle, 4444,  mˈoːɖəl mˈaːmlˌaː,  ʲˈy˧˥ tɕhˈi wˈai khˈo-ɜ
+venitive: vyi, 5024,  (en)vˈɛnɪtˌɪv(hi),  vˌənithivˈo-
+agentive-case: gve, 4990,  (en)eɪdʒˈɛntɪv(hi) mˈaːmlˌaː,  s.ˈi. s.ˈi. wˈai khˈo-ɜ
+schadenfreude: c6, 4752,  (en)ʃˈadənfɹˌɔɪd(hi),  ɕˈiŋ tsˈai lˈə xˈuo
+non-human: gya, 2888,  ɡˈɛːɾ mˈaːnəw,  fˈei ʐˈəɜn təɜ
+locative-case: lwo, 5014,  loːkˈɛːʈɪw mˈaːmlˌaː,  fˈaŋ wˈei wˈai khˈo-ɜ
+anticausative: txu, 4429,  (en)ˌantɪkˈɔːsətˌɪv(hi),  ˌanthitshˌɑusˌɑthivˈo-
+agent-trigger: gle, 3607,  eːɟˈẽːʈ ʈɾˈɪɡəɾ,  tailˈi˧˥ ʐˈəɜn ts.hˈu fˈɑ
+passive-voice: pyo, 3954,  nˈɪʂkɾɪj aːʋˈaːz,  pˈei tˈonɡ ʲˈy˧˥ jˈin
+mineral-gender: mle, 4112,  kʰˈʌnɪɟ lˈĩɡ,  khwˈaŋ wˈu ɕˈiŋ pˈiɛɜ
+nominalization: ml6, 5298,  (en)nˌɒmɪnəlaɪzˈeɪʃən(hi),  mˈiɜŋ tshˈi̪ɜ
+primary-object: myu, 3930,  mˈʊkʰjə wˈʌstʊ,  ts.ˈu˧˥ mutˈi
+to-destination: dza, 2438,  koː ɡəntˈʌʋjə,  tˈɑu mˌutitˈi
+final-particle: vli, 3574,  ˈʌntɪm kˈʌɳ,  tsˈuei ts.ˈonɡ litsˈi̪˧˥
+posessive-case: slu, 3112,  mˌaːlɪkˈaːnaː mˈaːmlˌaː,  suoɜjˈiou˧˥ kˈo-ɜ ˈan tɕˈiɛn
+evitative-case: vwe, 5436,  (en)ˈɛvɪtˌeɪtɪv(hi) mˈaːmlˌaː,  ˌo-vithˌɑthivˈo- wˈai khˈo-ɜ
+possessed-case: dja, 3349,  ʌdʰˈiːn mˈaːmlˌaː,  fˈu s.ˈən ˈan tɕˈiɛn
+subessive-case: bvi, 7513,  (en)sˈʌbɪsˌɪv(hi) mˈaːmlˌaː,  (en)sˈʌbɪsˌɪv(zh) wˈai khˈo-ɜ
+with-regard-to: xro, 4492,  (en)wɪð ɹɪɡˈɑːd sˈəʊ(hi),  taɜpliouɜ ˈai thˈi ˈeiɜts.h (en)ɹɪɜɡɑː˥d(zh) tho˥
+complementizer: pl6, 5186,  (en)kˈɒmplɪmˌɛntaɪzə(hi),  puɜʲˈy˧˥
+square-bracket: sr6, 5549,  (en)skwˈeə bɹˈakɪt(hi),  stɕhˌyɑʐˈo- (en)bɹˈakɪt(zh)
+object-patient: b6, 6192,  (en)ˈɒbdʒɛkt pˈeɪʃənt(hi),  (en)ˈɒbdʒɛkt pˈeɪʃənt(zh)
+auxiliary-verb: xyi, 3578,  səhˈaːjək kɾˈɪjaː,  fˈu˧˥ tˈonɡ tshˈi̪ɜ
+except-if: dje, 2847,  (en)ˈaksɛpt ˈaɪ ˈɛf(hi),  (en)ɛksˈɛpt ɪf(zh)
+antessive-case: nwu, 3262,  (en)ˈantɪsˌɪv(hi) mˈaːmlˌaː,  (en)ˈantɪsˌɪv(zh) wˈai khˈo-ɜ
+animate-gender: qri, 3370,  cˈeːtən lˈĩɡ,  fuʲˈy˧˥ s.ˈəŋ mˈiŋ ɕˈiŋ pˈiɛɜ
+discontentment: kxo, 2514,  ˌʌsntˈoːʂ,  pˈu mˈa˧˥n
+adverbial-case: vya, 4364,  kɾˈɪjaːwɪʃˈeːʂəɳˌəsəmbˈʌndʰi mˈaːmlˌaː,  ts.wɑŋʲˈy˧˥ wˈai khˈo-ɜ
+at-case: vwa, 2919,  pˈʌɾ mˈaːmlˌaː,  tsˈai wˈai khˈo-ɜ
+in-addition-to: pxu, 3347,  (en)tˈambɐhˌan kɛmjˈuːdiən(hi),  (en)tˈambɐhˌan ʌntˈʌk(zh)
+collective-noun: kxu, 3187,  saːmˈuːhɪk sˈʌɲɡjaː,  tɕiɜthˈi˧˥ mˈiɜŋ tshˈi̪ɜ
+with-respect-to: xye, 3428,  sˈaːtʰ mẽː səmmˈaːn koː,  thˈonɡɜ tsˈuən ts.ˈonɡ ts.ˈi.
+past-perfective: tf6, 3618,  ʌtˈiːt sˈaːdʰək,  kuotɕhy˥ wˈɑɜn ts.hˈəɜŋ s.ˈi.
+objective-place: jye, 3192,  lˈʌkʃjə ɟˈʌɡəh,  mˌutitˈi tˈiɛ˧˥n
+patient-trigger: mru, 3109,  məɾˈiːɟ ʈɾˈɪɡəɾ,  xuants.ˈo-˧˥ ts.hˈu fˈɑ
+second-language: sru, 3076,  dˈuːsɾˌaː bʰˈaːʂaː,  tˈi ˈər ʲˈy˧˥ jˈiɛɜn
+transitive-verb: gzi, 2729,  səkˈʌɾmək kɾˈɪjaː,  tɕˈiɜ wˈu tˈonɡ tshˈi̪ɜ
+reflexive-voice: f6, 3365,  kˌəɾməkˈʌɾtːaː aːʋˈaːz,  fˈa˧˥n sˈi̪ ʲˈy˧˥ jˈin
+double-negative: dl6, 3445,  dˈoːɡʊnˌaː nˌəkaːɾˈaːtmək,  s.wˈɑŋ fˈu
+impersonal-verb: jle, 3170,  ˌʌʋɛːjˈʌktɪk kɾˈɪjaː,  fˈei ʐˈəɜn təɜ tˈonɡ tshˈi̪ɜ
+self-confidence: sw6, 3514,  sʋˈʌjən ˈaːtməʋˌɪʃʋaːs,  tsˈi̪ ts.ˈi. ɕˈin tˈu
+surface-subcase: pxo, 3550,  sˈʌtəh (en)sˈʌbkeɪs(hi),  pjˈɑu˧˥ mˈiɛn tsi̪˥ tɕhˈiɜŋ khwˈaŋ
+actor-role: fro, 3415,  ˌʌbʰɪnˈeːtaː bʰˈuːmɪkˌaː,  jˈiɛ˧˥n ˈyæɜn tɕjˈɑu˧˥ sˈo-
+absolutive-case: bvu, 7089,  (en)ˈabsəlˌuːtɪv(hi) mˈaːmlˌaː,  (en)ˈabsəlˌuːtɪv(zh) wˈai khˈo-ɜ
+crastinal-tense: sl6, 6022,  (en)kɹˈastɪnəl(hi) kˈaːl,  (en)kɹˈastɪnəl(zh) tɕˈi˧˥n ts.ˈaŋ
+abstract-gender: bja, 3769,  sˈaːɾ lˈĩɡ,  ts.hˈou ɕˈiɑŋ ɕˈiŋ pˈiɛɜ
+indirect-speech: ry6, 3515,  ˌʌpɾətːjˈʌkʃ bʰˈaːʂəɳ,  tɕiɛntɕˈiɛ jiɛɜnʲˈy˧˥
+exocentric-case: zre, 6562,  (en)ɛɡzəʊsˈɛntɹɪk(hi) mˈaːmlˌaː,  (en)ɛɡzəʊsˈɛntɹɪk(zh) wˈai khˈo-ɜ
+at-same-time-as: qwa, 3378,  pˈʌɾ wˈʌhi (en)tˈaɪm mˌiː(hi) ɟˈɛːsaː,  tsˈai ɕˈiɑŋ thˈonɡɜ s.ˈi.ɜ tɕˈiɛn ʐˈuɜ
+reciprocal-voice: zyi, 2880,  paːɾˈʌspəɾˌɪk aːʋˈaːz,  tɑus.ˈuɜ ʲˈy˧˥ jˈin
+inanimate-gender: ny6, 3106,  ʌcˈeːtən lˈĩɡ,  lˈɑu˧˥ ts.hˈəɜŋ ɕˈiŋ pˈiɛɜ
+core-benefactive: kfu, 3989,  kˈoːɾ (en)bˌɛnɪfˈaktɪv(hi),  xˈo-ɜ ɕˈin (en)bɛ˧˥nɪ˥fa˥ktɪ˥v(zh)
+superlative-case: plu, 3982,  ˌʌtɪʃjˈoːktɪ mˈaːmlˌaː,  tsˈuei kˈɑu tɕˈiɜ wˈai khˈo-ɜ
+associative-case: gwo, 3697,  ɟˌoːr.neːʋˈaːlaː mˈaːmlˌaː,  liɛɜnɕˈiɑ˧˥ŋ wˈai khˈo-ɜ
+interior-subcase: bre, 3413,  ˈãtɾˌɪk (en)sˈʌbkeɪs(hi),  s.ˈi. nˈei tsi̪˥ tɕhˈiɜŋ khwˈaŋ
+propositive-mood: px6, 3758,  (en)pɹɒpˈɒzɪtˌɪv(hi) mənˈoːdʃˌaː,  phʐˌophosˌi̪thivˈo- ɕˈin tɕhˈiɜŋ
+electric-current: bru, 3055,  bˈɪɟlˌi wˌəɾtəmˈaːn,  tˈiɛn tˈonɡ tˈaŋ tɕhˈiɛɜn
+applicative-voice: kyu, 4122,  ˌʌnʊpɾəjˈoːɡi aːʋˈaːz,  xˈo-ɜ ˈyuŋ tə˥ ʲˈy˧˥ jˈin
+and/or: xlo, 3739,  ɔːɾ (en)slˈaʃ(hi) jˈaː,  xˈo-ɜ (en)slaɜʃ(zh) xˈuo
+antipassive-voice: nyu, 3357,  (en)ˌantɪpˈasɪv(hi) aːʋˈaːz,  (en)ˌantɪpˈasɪv(zh) ʲˈy˧˥ jˈin
+is-an-instance-of: kx6, 3201,  hɛː ˈeːk ʊdˈaːhəɾˌəɳ kaː,  s.ˈi. jiɜko-ɜ lˈi tə˥
+soon-future-tense: cwe, 3762,  ʃˈiːɡʰɾə bʰəʋˈɪʂjə kˈaːl,  pˈu tɕˈiou˧˥ wˈei lˈaiɜ tɕˈi˧˥n ts.ˈaŋ
+successive-clause: cyo, 2603,  kɾˈʌmɪk dʰˈaːɾaː,  lˈiɛɜn ɕˈy thjɑuɜkhwˈa˧˥n
+andative: dy6, 3442,  (en)ˈandətˌɪv(hi),  ˌantɑthivˈo-
+verb-affix: gyi, 3293,  kɾˈɪjaː pɾˈʌtːjəˌɛj,  tˈonɡ tshˈi̪ɜ xouts.ˈuei
+in-accordance-with: fru, 3357,  mẽː ˌʌnʊsˈaːɾ sˈaːtʰ mˈẽː,  tsˈai ˈan ts.ˈɑu thˈonɡɜ
+present-participle: qre, 3580,  wˌəɾtəmˈaːn kɾɪdˈʌnt,  tˈaŋ ɕˈiɑ fˈən tshˈi̪ɜ
+continutive-aspect: tc6, 4126,  sˈʌtət pˈʌhəlˌuː,  tɕˈiɛ ɕˈy fˈaŋ mˈiɛn
+necessitative-mood: sy6, 4405,  (en)nəsˈɛsɪtətˌɪv(hi) mənˈoːdʃˌaː,  (en)nəsˈɛsɪtətˌɪv(zh) ɕˈin tɕhˈiɜŋ
+single-action-verb: qye, 4361,  ˈeːk kˈaːɾjə kɾˈɪjaː,  tanxˈaɜŋ tˈonɡ tˈonɡ tshˈi̪ɜ
+superlative-degree: clu, 3747,  ˌʌtɪʃjˈoːktɪ ʊpˈaːdʰɪ,  tsˈuei kˈɑu tɕˈiɜ tˈu
+double-parenthesis: djo, 3567,  dˈoːɡʊnˌaː kˈoːʂʈək,  s.wˈɑŋ ts.hˈɑ ʐˈu ʲˈy˧˥
+singulative-number: glu, 6578,  (en)sˈɪŋɡjʊlətˌɪv(hi) sˈʌŋkʰjaː,  sˌi̪nkulˌɑthivˈo- s.ˈu
+excessive-duration: kwu, 3123,  ˈʌtːjədʰˌɪk ˈʌʋdʰˌɪ,  kˈuo tˈuo weiɜtɕhˈi
+passive-participle: vro, 3702,  nˈɪʂkɾɪj kɾɪdˈʌnt,  pˈei tˈonɡ fˈən tshˈi̪ɜ
+luminous-intensity: cyu, 3714,  pɾˌəkaːʃjˈʊkt tˈiːʋɾətˌaː,  fˈɑ kwˈaŋ tə˧˥ tɕhˈiɑɜŋ tˈu
+existential-clause: tw6, 3933,  ʌstˈɪtwə dʰˈaːɾaː,  tshˈuəɜn tsˈai thjɑuɜkhwˈa˧˥n
+connective-particle: ky6, 2810,  səɲjˈoːɟi kˈʌɳ,  tɕˈiɛɜ tˈi tsˈu˧˥ ts.ˈi. litsˈi̪˧˥
+epenthetic-morpheme: fye, 4381,  (en)ˌɛpənθˈɛtɪk(hi) ʃˈʌbd kaː bʰˈaːɡ,  (en)ˌɛpənθˈɛtɪk(zh) tshˈi̪ɜ sˈu
+postpositional-case: pwo, 4367,  pˈuːcʰeː mˈaːmlˌaː,  xˈou ts.ˈi. wˈai khˈo-ɜ
+amount-of-substance: mwu, 3407,  ɾˈʌkəm kaː pədˈaːɾtʰ,  lˈiɑŋ tə˥ wˈu ts.ˈi.
+remote-future-tense: xwi, 3726,  duːɾˈʌstʰ bʰəʋˈɪʂjə kˈaːl,  ˈyæ˧˥n ts.hˈəɜŋ wˈei lˈaiɜ tɕˈi˧˥n ts.ˈaŋ
+frequentative-aspect: gva, 3945,  kˈɪsi kˈaːɾjə ki pˌʊnɾaʊɾˈɪtːɪ dˌɪkʰaːneːʋˈaːlaː pˈʌhəlˌuː,  ts.honɡɜfˈu ɕˈiɜŋ ts.hˈəɜŋ tˈuei fˈaŋ mˈiɛn
+instrument-or-method: xyo, 3386,  sˈaːdʰən jˈaː təɾˈiːkaː,  jˈiɜ tɕhˈi jˈɑu mo-˥ faŋfˈɑ˧˥
+allocutive-agreement: jya, 3286,  ʋjˈaːkʰjaːn sˌəmɟʰˈɔːtaː,  ɕˈyən s.ˈi. ɕˈiɛɜ jˈi
+inclusive-disjunction: xlu, 3505,  sˈʌmmɪlˌɪt ˈʌlɡˌaʊ,  pˈɑu khˈuo tə˥ thˈuo tɕˈiɛɜ
+floating-point-number: flu, 3866,  cˈʌl bˈɪndʊ sˈʌŋkʰjaː,  fuɜtˈiɛ˧˥n s.ˈu
+exclusive-disjunction: vu, 3381,  ʌnˈʌnjə ˈʌlɡˌaʊ,  tˈuɜ tɕˈiɑ thˈuo tɕˈiɛɜ
+object-of-an-attribute: ju, 4081,  wˈʌstʊ kaː ˈeːk ɡˈʊɳ,  mutˈi tə˥ jiɜko-ɜ s.ˈu˧˥ ɕˈiŋ
+past-passive-participle: qro, 3248,  ʌtˈiːt nˈɪʂkɾɪj kɾɪdˈʌnt,  kuotɕhy˥ pˈei tˈonɡ fˈən tshˈi̪ɜ
+locative-directional-case: fyo, 3783,  loːkˈɛːʈɪw dɪʃˈaːtmək mˈaːmlˌaː,  fˈaŋ wˈei tˈiŋ ɕˈiɑŋ wˈai khˈo-ɜ
+counterfactual-conditional: fy6, 4276,  pɾˌətɪttʰjˈaːtmək səʃˈʌɾt,  fˈaɜn jˈiou˧˥ thjˈɑuɜ tɕˈiɛn tə˥
+erent-event-change-of-event: rw6, 4492,  (en)ɹˈɛnt(hi) ɡʰˈʌʈnˌaː pˌəɾɪʋˈʌɾtən kaː ɡʰˈʌʈnˌaː,  (en)ɹˈɛnt(zh) s.ˈi. tɕˈiɛn kəŋkˈai˧˥ tə˥˩ s.ˈi. tɕˈiɛn

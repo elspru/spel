@@ -1,0 +1,399 @@
+infinitive g
+nominative-case g
+accusative-case g
+genitive-case g
+parent
+dad
+mom
+hello g
+bye
+ancestor
+grandparent
+hungry
+adjective g
+and g
+dative-case g
+me g
+it g
+relativizer g
+perfective-aspect g
+past-tense g
+masculine-gender g
+comitative-case g
+present-tense g
+benefactive-case g
+essive-case g
+you g
+not g
+negation g
+its
+on g
+locative-case g
+instrumental-case g
+which
+interrogative-mood g
+or g
+ablative-case g
+this g
+demonstrative g
+but g
+all g
+feminine-gender g
+they
+plural-number g
+my
+one
+their
+so g
+them g
+we g
+who
+social-marker g
+will
+would
+future-tense g
+no g
+when
+imperfective-aspect g
+there g
+indicative-mood g
+conditional-mood g
+more g
+out
+elative-case g
+up g
+illative-case g
+do
+imperative-mood g
+any g
+what g
+question-word g
+copula g
+person g
+male g
+could
+other g
+some
+number
+very g
+time
+time-marker g
+temporal-case g
+upon g
+about g
+topic-case g
+may g
+only g
+little
+then g
+should g
+did g
+retrospective-aspect g
+us
+great
+before g
+must
+two
+these
+see
+know
+over g
+much
+down g
+after g
+subordinator g
+first
+good
+own g
+alienable-possession g
+never
+inalienable-possession g
+most g
+old
+shall
+deliberative-mood g
+day
+where
+those
+come
+way
+work
+life
+without g
+go
+make
+discourse-marker g
+perlative-case g
+progressive-aspect g
+long
+say
+might
+how
+too
+even g
+again g
+many g
+back g
+here g
+think
+every
+people
+same g
+last
+thought
+away
+under g
+take
+found
+hand
+still
+place g
+while g
+just
+also g
+young
+yet
+though
+against g
+get
+ever
+give
+god
+off g
+delative-case g
+face
+nothing
+right g
+once
+semelfactive-aspect g
+another
+left g
+part g
+saw
+house
+world
+head
+three
+new
+love
+always
+put
+night
+each g
+king
+between g
+tell
+mind
+heart
+few g
+paucal-number g
+because g
+causal-case g
+thing g
+whom
+far g
+called
+whole
+set
+both g
+find
+look
+name g
+proper-noun g
+let
+hortative g
+lord
+country
+visible-evidential g
+better
+home
+side g
+something
+moment
+father
+among g
+course
+female g
+enough g
+mother
+soon
+full
+end
+room
+almost g
+small
+thou g
+cannot
+water
+want
+however
+light
+quite
+nor
+word
+whose
+given g
+door
+best
+use
+morning
+until g
+final-time g
+terminative-case g
+since g
+power
+themselves
+used
+rather
+present g
+voice
+white
+less g
+money
+next
+poor
+death
+form
+inessive-case g
+together
+large
+matter
+kind
+often
+certain g
+year
+friend
+half g
+order
+round g
+true
+anything
+keep
+wife
+means
+believe
+near g
+public
+space-marker g
+state
+state-marker g
+son
+hundred
+children
+thus
+hope g
+alone
+above g
+case
+dear
+thee g
+high
+read
+city
+already
+fact
+factive-evidential g
+girl
+hear
+times g
+least g
+perhaps
+epistemic-mood g
+sure
+indeed
+open
+body
+itself
+along g
+land
+return
+leave
+air
+nature
+either g
+law
+help
+lay
+point
+child
+letter
+four
+wish
+optative-mood g
+fire
+speak
+therefore
+hour
+free
+war
+during g
+several
+business
+whether
+manner g
+second
+reason g
+united
+call
+general
+why
+behind g
+become
+dead
+earth
+boy
+lost
+thousand
+family
+soul
+feel
+spirit
+question
+care
+truth
+ground
+really
+realis-mood g
+rest
+mean
+different
+possible
+towards g
+allative-case g
+human
+anthropic-gender g
+short
+town
+following g
+need
+cause
+evening
+five
+strong
+able
+live
+lady
+subject g
+same-subject-marker g
+different-subject g
+answer
+sea
+fear g
+understand
+hard
+terms
+doubt g
+dubitative-mood g
+around g
+ask
+arms
+turn
+sense
+black
+bring
+beautiful
+close
+dark
+hold
+character
+sort

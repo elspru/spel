@@ -58,3 +58,15 @@ myself
 now
 can
 well
+prepositional-case
+in-subcase
+on-subcase
+space-marker
+state-marker
+time-marker
+social-marker
+amount-marker
+discourse-marker
+first-person
+second-person
+third-person

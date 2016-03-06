@@ -1,267 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
 <h1>SPEL Grammar</h1>
-
-<h2>Paragraph Level</h2>
-<h3>discourse markers</h3>
-<h3>huh</h3>
-
-<h2>Inter-sentence level</h2>
-<h3>junctions</h3>
-negation    NOT
-conjunction AND
-disjunction OR
-exclusive-disjunction CNOT Toffoli
-swap    CSWAP Fredkin
-
-
-<h2>Sentence level</h2>
-
-<h2>Verb Level</h2>
-<h3>mood</h3>
-realis
-irrealis
-deontic
-epistemic
-conditional
-<h3>aspect</h3>
-perfective
-imperfective
-gnomic
-habitual
-inchoative
-cessative
-retrospective
-prospective
-atelic
-telic
-<h3>tense</h3>
-past-tense
-recent-past
-present-tense
-soon-future
-future-tense
-<h3>register</h3>
-familiar
-formal
-humble
-polite
-<h2>Inter-Phrase Level</h2>
-<h3>cases</h3>
-abessive
-<h3>topic focus</h3>
-
-<h2>Noun-modifiers</h2>
-<h3>definiteness</h3>
-definite
-indefinite
-<h3>specificity</h3>
-specific
-unspecific
-question-particle
-<h3>proforms</h3>
-zero-person
-first-person
-second-person
-third-person
-reciprocal
-relative
-reflexive
-resumptive
-<h3>clusivity</h3>
-inclusive
-exclusive
-<h3>demonstratives</h3>
-abstract-demonstrative
-proximal-demonstrative
-medial-demonstrative
-distal-demonstrative
-space-marker
-time-marker
-<h3>number</h3>
-singular
-dual
-trial
-paucal
-plural
-<h3>gender</h3>
-neuter
-masculine
-feminine
-common (three-letter)
-<h3>volition</h3>
-volitional (three-letter)
-unvolitional (three-letter)
-<h3>animacy</h3>
-abstract
-mineral
-vegetal
-zoic
-rational
-
-(three-letter)
-artistic
-research
-vehicular
-locality
-planetary
-star
-galaxy
-universe
-
-<h3>comparison</h3>
-comparative
-superlative
-<h3>classifiers</h3>
-length
-weight
-<h3>honorific</h3>
-name
-acronym 
-initialism (three-letter)
-abbreviation (three-letter)
-<h3>quotes</h3>
-quote
-
-subtypes:
-phonetic quote
-foreign-glyph quote
-binary quote
-
-<h2>The Table</h2>
-<table>
-<tr>
-<th>infinitive (i) </th>
-<th>source-case (u) </th>
-<th>location-case (a) </th>
-<th>destination-case (e)</th>
-<th>way-case (o) </th>
-</tr>
-<tr>
-<th>base (ka) </th>
-    <td>nominative-case (yi) </td>
-    <td>accusative-case (wa)</td>
-    <td>dative-case (tu) </td>
-    <td>instrumental-case (pi)</td>
-</tr>
-<tr>
-<th>genitive-subcase (k)</th>
-<td>possessive-case</td>
-<td>descriptive-case</td>
-<td>possessed-case</td>
-<td></td>
-</tr>
-<tr>
-<th>near-subcase</th>
-<td>ablative-case</td>
-<td>locative-case</td>
-<td>allative-case</td>
-<td>prosecutive-case</td>
-</tr>
-<tr>
-<th>interior-subcase (n) </th>
-<td>elative-case</td>
-<td>inessive-case</td>
-<td>illative-case</td>
-<td>perlative-case</td>
-</tr>
-<tr>
-<th>surface-subcase (s)</th>
-<td>delative-case</td>
-<td>superessive-case</td>
-<td>superlative-case</td>
-<td>vialis-case</td>
-</tr>
-<tr>
-<th>under-subcase (w)</th>
-<td></td>
-<td>subessive-case</td>
-<td>sublative-case</td>
-<td></td>
-</tr>
-<tr>
-<th>state-subcase (c)</th>
-<td>exessive-case</td>
-<td>essive-case</td>
-<td>translative-case</td>
-<td>prolative-case</td>
-</tr>
-<tr>
-<th>social-subcase (p)</th>
-<td>causal-case</td>
-<td>comitative-case</td>
-<td>benefactive-case</td>
-<td>evidential-case</td>
-</tr>
-<tr>
-<th>time-subcase (t)</th>
-<td>initial-time</td>
-<td>temporal-case</td>
-<td>final-time</td>
-<td>during-time</td>
-</tr>
-<tr>
-<th>address-subcase (d)</th>
-<td>initiative-case</td>
-<td>vocative-case</td>
-<td>terminative-case</td>
-<td></td>
-</tr>
-<tr>
-<th>amount-subcase (q)</th>
-<td>partitive-case</td>
-<td>multiplicative-case</td>
-<td>distributive-case</td>
-<td></td>
-</tr>
-</table>
-<table>
-<tr>
-<td>junction</td>
-<td>conjunction</td>
-<td>negation</td>
-<td>inclusive disjunction</td>
-<td>exclusive disjunction</td>
-</tr>
-<tr>
-<td>realis</td>
-</tr>
-</table>
-
-<h3>second attempt</h3>
-<h4>lexical categories</h4>
-<ul>
-<li>noun
+<h2>Composition</h2>
+those marked with asterisk are mandatory for phrase formation.
+<dl>
+<dt><a href="phonology.html">Phonology</a></dt>
+<dt>Grammar Words</dt>
+<dd>are of the form CV or CCVH where C is consonant, 
+H is /h/ and V is vowel.</dd>
+<dt>Root Words</dt>
+<dd>are of the form HCVC or CCVC where C is consonant, 
+H is /h/ and V is vowel.</dd>
+<dt>sentence</dt>
+<dd>emotions evidentials mood*</dd>
+<dt>noun phrase</dt>
+<dd>(root or pro-form)* <a href="#suffixes" data-toggle="collapse">suffix</a> case*</dd>
+<dt>verb phrase</dt>
+<dd>(root xor copula)* (aspect or tense)*</dd>
+<dt>adjective phrase</dt>
+<dd>(root or pro-form)* suffix adjective-marker* case<br/>
+case needs to be marked if adjective comes after the head noun,
+or could be confused as part of a different noun phrase.</dd>
+<dt>adverbial phrase</dt>
+<dd>(root or pro-form)* suffix adverb-marker*</dd>
+</dl>
+<h2>Grammar Tree</h2>
+<ul class="list-group">
+<li class="list-group-item"><!--<div href="#noun-stuff" class="btn btn-default"
+data-toggle="collapse">-->noun
     <ul>
-        <li>adjective</li>
-        <li>adverb</li>
-        <li>pro-form
-            <ul>
+        <li><div href="#proform" class="btn btn-default" data-toggle="collapse">pro-form</div>
+            <ul id="proform" class="collapse">
                 <li>person-deixis</li>
                 <li>time-deixis</li>
                 <li>space-deixis</li>
+                <li>interior-deixis</li>
+                <li>surface-deixis</li>
+                <li>under-deixis</li>
                 <li>discourse-deixis</li>
+                <li>social-deixis</li>
+                <li>amount-deixis</li>
+                <li>state-deixis</li>
                 <li>interrogative</li>
                 <li>pro-phrase</li>
                 <li>pro-sentence</li>
             </ul>
         </li>
-        <li>suffixes
-            <ul>
-                <li>number
-                    <ul>
-                        <li>singular</li>
-                        <li>dual</li>
-                        <li>trial</li>
-                        <li>paucal</li>
-                        <li>plural</li>
-                        <li>collective</li>
-                        <li>distributive</li>
-                        <li>inclusive</li>
-                        <li>exclusive</li>
-                    </ul>
-                </li>
-                <li>gender</li>
-                <li>volition</li>
-                <li>animacy</li>
+        <li id="suffix"><div href="#suffixes" class="btn
+btn-default" data-toggle="collapse">suffixes</div>
+            <ul id="suffixes" class="collapse">
                 <li>proximity
                     <ul>
                         <li>proximal</li>
@@ -269,6 +63,36 @@ binary quote
                         <li>distal</li>
                     </ul>
                 </li>
+                <li>number
+                    <ul>
+                        <li>singular</li>
+                        <li>dual</li>
+                        <li>trial</li>
+                        <li>paucal</li>
+                        <li>plural</li>
+                        <li>multal</li>
+                        <li>collective</li>
+                        <li>distributive</li>
+                        <li>inclusive</li>
+                        <li>exclusive</li>
+                    </ul>
+                </li>
+                <li>classifier
+                    <ul>
+                    <li>name</li>
+                    <li>number</li>
+                    <li>length</li>
+                    <li>mass</li>
+                    <li>time</li>
+                    <li>electric current</li>
+                    <li>temperature</li>
+                    <li>amount-of-substance</li>
+                    <li>luminous-intensity</li>
+                    </ul>
+                </li>
+                <li><a href="nounClass.html#animacy">animacy</a></li>
+                <li>volition</li>
+                <li><a href="nounClass.html#gender">gender</a></li>
                 <li>specificity</li>
                 <li>definiteness</li>
                 <li>quantifier
@@ -282,54 +106,38 @@ binary quote
                 </li>
             </ul>
         </li>
+        <li>adjective marker</li>
+        <li>adverb marker</li>
+        <li><a href="caseTable.html">case</a></li>
     </ul>
 </li>
-<li>verb
+<li class="list-group-item">verb
     <ul>
-        <li>aspect</li>
-        <li>tense</li>
-        <li>type</li>
-        <li>form</li>
+        <li><a href="aspectDefs.html#tree">aspect</a></li>
+        <li><a href="aspectDefs.html#tense">tense</a></li>
     </ul>
 </li>
-<li>adposition
+<li class="list-group-item">correlative conjunction
     <ul>
-        <li>cases</li>
+        <li>conjunction (and)</li>
+        <li>inclusive disjunction (and-or)</li>
+        <li>exclusive disjunction (xor)</li>
     </ul>
 </li>
-<li>correlative conjunction
+<li class="list-group-item">particle
     <ul>
-        <li>conjunction</li>
-        <li>inclusive disjunction</li>
-        <li>exclusive disjunction</li>
-    </ul>
-</li>
-<li>classifier
-    <ul>
-    <li>number</li>
-    <li>length</li>
-    <li>mass</li>
-    <li>time</li>
-    <li>electric current</li>
-    <li>thermodynamic temperature</li>
-    <li>amount of substance</li>
-    <li>luminous intensity</li>
-    </ul>
-</li>
-<li>particle
-    <li>sentence-final particle
+    <li> sentence-final-particle
         <ul>
-            <li>moods</li>
+            <li><a href="moodDefs.html#tree">mood</a></li>
         </ul>
-    <li>
     <li>sentence-semi-final particle
         <ul>
             <li>emotions</li>
             <li>evidentials</li>
         </ul>
-    <li>
+    </ul>
 </li>
-<li>subordinator
+<li class="list-group-item">subordinator
     <ul>
         <li>genitive</li>
         <li>relativizer</li>
@@ -338,3 +146,5 @@ binary quote
 <li>interjection</li>
 
 </ul>
+</body>
+</html>

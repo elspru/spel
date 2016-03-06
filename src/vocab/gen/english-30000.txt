@@ -1,7 +1,6 @@
-0 infinitive
+0 be-verb 
 0 nominative-case
 0 accusative-case
-0 genitive-case
 0 parent
 1 dad
 2 mom
@@ -11,15 +10,18 @@
 0 grandparent
 7 hungry
 1 the 56271872
+0 genitive-case
 2 of 33950064
 0 adjective
 3 and 29944184
 4 to 25956096
+0 destination-case
 0 dative-case
 5 in 17420636
-0 in-subcase
+0 interior-deixis
 0 me
 0 first-person
+0 person-deixis
 6 i 11764797
 0 it
 0 third-person
@@ -50,19 +52,21 @@
 0 its
 20 her 5202501
 21 on 5113263
-0 on-subcase
+0 surface-deixis
 22 at 5091841
-0 at-subcase
-0 locative-case
+0 adpositional-case
+0 location-case
+0 space-deixis
 23 by 5061050
-0 via-case
+0 way-case
 0 instrumental-case
 24 which 4580906
 0 interrogative-mood
 25 have 4346500
 26 or 4228287
 27 from 4108111
-0 from-case
+0 source-case
+0 adpositional-case
 0 ablative-case
 28 this 4015425
 0 demonstrative
@@ -86,9 +90,9 @@
 43 them 2509917
 44 we 2491655
 45 who 2472663
-0 social-marker
-0 will
+0 social-deixis
 46 would 2400858
+0 volitive-mood
 0 future-tense
 47 been 2357654
 48 will 2320022
@@ -96,7 +100,6 @@
 50 when 1980046
 0 imperfective-aspect
 51 there 1961200
-0 indicative-mood
 52 if 1951102
 0 conditional-mood
 53 more 1899787
@@ -106,13 +109,15 @@
 56 into 1703963
 0 illative-case
 57 do 1680164
-0 imperative-mood
+0 directive-mood
+0 deontic-mood
 58 any 1665366
 59 your 1658553
 60 what 1605908
 0 question-word
 0 copula
 61 has 1602329
+0 indicative-mood
 0 person
 62 man 1573117
 0 male
@@ -124,12 +129,13 @@
 0 number g
 68 very 1462382
 69 time 1449681
-0 time-marker
+0 time-deixis
 0 temporal-case
 70 upon 1424595
 71 about 1414687
 0 topic-case g
 72 may 1400642
+0 epistemic-mood
 73 its 1373270
 0 literal g
 74 only 1318367
@@ -139,6 +145,7 @@
 78 then 1255636
 79 can 1210074
 80 should 1192154
+0 hortative-mood
 81 made 1188501
 82 did 1185720
 0 retrospective-aspect
@@ -208,6 +215,7 @@
 139 thought 674623
 140 away 673810
 141 under 671168
+0 under-deixis
 142 take 656486
 143 found 654512
 144 hand 648227
@@ -314,6 +322,7 @@
 237 cannot 355656
 238 water 355467
 239 want 354212
+0 desiderative-mood
 240 however 352828
 241 light 351253
 242 quite 350537
@@ -368,6 +377,7 @@
 288 friend 295078
 289 half 293866
 290 order 293593
+0 imperative-mood
 291 round 291647
 292 true 291427
 293 anything 289997
@@ -381,9 +391,8 @@
 301 near 278870
 0 near-case
 302 public 278365
-0 space-marker
 303 state 277682
-0 state-marker
+0 state-deixis
 304 son 277227
 305 hundred 275990
 306 children 275607
@@ -410,7 +419,6 @@
 326 times 260596
 327 least 259916
 328 perhaps 257964
-0 epistemic-mood
 329 sure 255885
 330 indeed 255789
 331 english 255212
@@ -490,6 +498,7 @@
 401 different 211043
 402 making 210031
 403 possible 209099
+0 potential-mood
 404 fell 208344
 405 towards 208199
 0 allative-case
@@ -797,6 +806,7 @@
 694 secret 111678
 695 parts 111194
 696 please 111114
+0 precative-mood
 0 polite-register
 697 appearance 110932
 698 evil 110898
@@ -854,6 +864,7 @@
 749 court 104606
 750 generally 104448
 0 gnomic
+0 gnomic-aspect
 751 grew 104326
 752 showed 104205
 753 getting 103981
@@ -928,6 +939,7 @@
 820 wait 95523.9
 821 greatest 95398.1
 822 permission 95391.0
+0 permissive-mood
 823 success 95371.2
 824 piece 95303.2
 825 british 95149.7
@@ -1090,6 +1102,7 @@
 979 situation 80651.4
 980 looks 80463.1
 981 promise 80426.7
+0 commissive-mood
 982 orders 80294.6
 983 degree 80293.8
 984 middle 80239.2
@@ -1291,6 +1304,7 @@
 1176 thrown 68931.5
 1177 evidence 68904.6
 0 evidential
+0 evidential-mood
 0 evidential-case
 1178 distant 68882.5
 1179 michael 68874.5
@@ -1353,13 +1367,14 @@
 1236 animal 65255.1
 0 zoic-gender
 1237 events 65118.2
+0 eventive-mood
 0 same-event-marker
 1238 there's 65017.8
 1239 fully 64982.2
 1240 delight 64971.9
 1241 rights 64836.6
 1242 amount 64720.3
-0 amount-marker
+0 amount-deixis
 0 multiplicative-case
 1243 obtain 64706.1
 1244 tax 64658.6
@@ -1495,6 +1510,7 @@
 1373 frank 59180.8
 1374 valley 59172.1
 1375 guess 59171.3
+0 speculative-mood
 1376 finding 59160.2
 1377 yellow 59051.8
 1378 heat 58979.8
@@ -1897,6 +1913,7 @@
 1771 car 46691.1
 1772 buried 46646.8
 1773 theory 46621.5
+0 theoretical-mood
 1774 commanded 46561.4
 1775 nobody 46560.6
 1776 minister 46464.9
@@ -2516,6 +2533,7 @@
 2382 materials 33589.9
 2383 luck 33588.4
 2384 derived 33575.7
+0 inductive-mood
 2385 managed 33479.2
 2386 community 33464.9
 2387 apparent 33464.2
@@ -2547,6 +2565,8 @@
 2413 you'd 33008.5
 2414 recent 33000.5
 2415 oh 32957.0
+0 discourse-deixis
+0 vocative-case
 2416 travel 32951.5
 2417 cries 32925.4
 2418 noon 32919.9
@@ -2679,7 +2699,7 @@
 2544 empire 30925.4
 2545 elements 30909.6
 2546 idle 30891.4
-0 continuative-aspect
+0 continuous-aspect
 2547 pen 30885.8
 2548 entering 30872.4
 2549 online 30872.4
@@ -3352,6 +3372,7 @@
 3213 conflict 23227.7
 3214 fed 23220.5
 3215 curse 23215.8
+0 imprecative-mood
 3216 disappointment 23215.8
 3217 helpless 23213.4
 3218 preparing 23208.7
@@ -3394,6 +3415,7 @@
 3255 canada 22872.4
 3256 day's 22868.5
 3257 assume 22844.8
+0 assumptive-mood
 3258 registered 22844.8
 3259 estimate 22841.6
 3260 steep 22823.4
@@ -4244,6 +4266,7 @@
 4094 unity 17210.3
 4095 dealing 17192.9
 4096 prohibition 17169.9
+0 prohibitive-mood
 4097 decent 17166.8
 4098 fiery 17163.6
 4099 images 17163.6
@@ -6439,6 +6462,7 @@
 6282 dominions 9623.36
 6283 sales 9616.24
 6284 energetic 9615.44
+0 energetic-mood
 6285 insignificant 9612.28
 6286 repetition 9610.70
 6287 we'd 9602.00
@@ -7073,6 +7097,7 @@
 6916 employee 8193.78
 6917 employer 8192.19
 6918 hypothesis 8192.19
+0 hypothetical-mood
 6919 steed 8191.40
 6920 width 8189.82
 6921 sweden 8187.45
@@ -8282,6 +8307,7 @@
 8122 inherent 6170.05
 8123 preventing 6169.26
 8124 inference 6168.47
+0 inferential-mood
 0 inferential-evidential
 8125 advertisement 6167.68
 8126 mutton 6167.68
@@ -11791,6 +11817,7 @@
 11621 224 2717.54
 11622 shrewdness 2715.96
 11623 deduction 2715.17
+0 deductive-mood
 11624 crook 2713.59
 11625 intrepid 2712.80
 11626 juvenile 2712.00

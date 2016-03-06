@@ -1,0 +1,156 @@
+nominative-case g 2 ja が 
+accusative-case g 2 ja を 
+parent
+dad
+mom
+hello g
+bye
+ancestor
+grandparent
+hungry
+the g
+genitive-case g 2
+of g
+adjective g
+and g
+to g
+destination-case g 2
+dative-case g 2 en of
+in g
+me g
+first-person g
+i
+it g
+third-person g
+that g
+relativizer g
+perfective-aspect g 2
+past-tense g 2
+his
+he
+masculine-gender g
+with g
+comitative-case g
+present-tense g 2
+for g
+benefactive-case g
+as g
+essive-case g
+you g
+second-person g
+not g
+negation g
+be g
+its
+her g
+on g
+at g
+adpositional-case g 2
+location-case g 2 en at
+space-deixis g 2
+by g
+way-case g 2
+instrumental-case g 2 
+which
+interrogative-mood g
+have
+or g
+from g
+source-case g 2 en from
+ablative-case g 
+this g
+demonstrative g
+him g
+but g
+all g
+she
+feminine-gender g
+they
+plural-number g
+my
+one
+their
+so g
+an g
+them g
+we g
+who
+social-deixis g 2
+would
+volitive-mood g
+future-tense g 2
+will
+no g
+when
+imperfective-aspect g 2
+there g
+if g
+conditional-mood g 2
+more g
+out
+elative-case g
+up g
+into
+illative-case g
+do
+directive-mood g
+deontic-mood g 2
+any g
+your
+what g
+question-word g 2
+copula g
+indicative-mood g
+person g
+man
+male g
+could
+other g
+than g
+our
+some
+number g
+very g
+time g
+time-deixis g 2
+temporal-case g
+upon g
+about g
+topic-case g 2 ja は 
+may g
+epistemic-mood g 2
+only g
+now g
+like g
+little
+then g
+can
+should g
+hortative-mood g
+did g
+retrospective-aspect g
+us
+such g
+a
+great
+before g
+must
+two
+these
+see
+know
+over g
+much
+down g
+after g
+subordinator g
+first
+mr
+good
+own g
+alienable-possession g
+never
+inalienable-possession g
+most g
+old
+shall

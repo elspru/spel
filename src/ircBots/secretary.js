@@ -3,14 +3,25 @@ var io = require("../lib/io"),
     irc = require('irc'),
     botb = require("./ircBotBase"),
     initObj = JSON.parse(io.fileRead("/etc/spel/bots.conf")),
-    bot;
+    initBitlObj = JSON.parse(io.fileRead
+        ("/etc/spel/bitlBots.conf")),
+    bot,
+    bitlBot;
 initObj.name = "sris";
 initObj.title = "SPEL Secretary";
+initBitlObj.name = "elspru";
+initBitlObj.title = "SPEL Secretary";
 console.log("connecting");
 bot = botb(initObj);
 bot.connect();
+/* bitllbee start */
+bitlBot = botb(initBitlObj);
+bitlBot.connect();
+bitlBot.addListener("registered", function () {
+    bot.say("nickserv", "identify " + initBitlObj.password);
+    console.log("identified");
+});
 /* log channels */
-
 function unique(wordArray) {
     "use strict";
     return wordArray.filter(function (elem, index, array) {
@@ -47,13 +58,6 @@ function topSixWords(wordArray) {
     title = wordArray.slice(0, 6).join(" ");
     return title;
 }
-function main() {
-    var fileContents = io.fileRead("lorumIpsum.txt"),
-        wordArray = fileContents.split(" ");
-    console.log("testing");
-    console.log(topSixWords(wordArray));
-}
-
 initObj.channels.forEach(function (channel) {
     bot.addListener("message" + channel, function (from, message) {
         "use strict";
@@ -68,6 +72,12 @@ initObj.channels.forEach(function (channel) {
             line = "." + timeStamp + ".mu." + from + ".nwo " +
                 message;
         console.log(line);
+        initBitlObj.channels.forEach(function (channel) {
+            if (channel !== "&bitlbee") {
+                bitlBot.say(channel, from + " " + message);
+                console.log("cross posted to " + channel);
+            }
+        });
         if (fileWords.length > 720) {
             title = topSixWords(fileWords);
             io.fileWrite(logDir + logName + "-" + timeStamp + 

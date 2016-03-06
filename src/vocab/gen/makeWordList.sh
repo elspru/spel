@@ -1,6 +1,8 @@
 #!/bin/bash
 # make an initial word list
-cat glossingAbbreviations.txt > comboWordList.txt
+cat coreGrammar.txt > comboWordList.txt
+echo -e "\n" >> comboWordList.txt
+cat glossingAbbreviations.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
 cat UNLRelat.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt

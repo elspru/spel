@@ -102,6 +102,17 @@ var io = require("../../lib/io"),
         //});
     };
 
+function removeBlacklisted(wordLines, blacklist) {
+    return wordLines.filter(function (line) {
+        var word = line[0];
+        if (blacklist.indexOf(word) === -1) {
+            return true;
+        } else {
+            console.log(word + " removed");
+            return false;
+        }
+    });
+}
 function stringToWordLines(string) {
     function lineToWords(line) {
         return line.split(" ");
@@ -147,7 +158,8 @@ function returnIfUnique(transEntry, allDefinObj, index,
         if (word === "") {
             //console.log(key + " " + word + " blank");
             foundBlanks += 1;
-            thesaurusEntry.push(key + " blank");
+            thesaurusEntry.push(word + ": (blank in) ")
+            thesaurusEntry.push(key);
         }
         matchingDefs = 
                 values.expand(function (defWord, defIndex) {
@@ -158,6 +170,7 @@ function returnIfUnique(transEntry, allDefinObj, index,
                 if (thesaurusEntry.indexOf(thesaurusWord) < 0 &&
                         thesaurusWord &&
                         thesaurusWord.toLowerCase() !== enDef) {
+                    thesaurusEntry.push(key + ":");
                     thesaurusEntry.push(thesaurusWord);
                 } 
                 return defIndex;
@@ -196,7 +209,7 @@ function returnIfUnique(transEntry, allDefinObj, index,
         //}
     } else {
         blacklist[enDef] = thesaurusEntry;
-        console.log(enDef + " blackListed");
+        //console.log(enDef + " blackListed");
         //console.log(thesaurusEntry);
         result = null;
     }
@@ -240,9 +253,37 @@ function formatThesaurus(thesaurus, mainWords) {
     return result;
 }
 
+function formatSuggestList(thesaurus, blacklist, mainWords) {
+    "use strict";
+    function approvedWords(word) {
+        if (thesaurus[word] !== undefined) {
+            return true;
+        }
+        return false;
+    }
+    var result = "";
+    mainWords.forEach(function (word) { 
+        var bentry = blacklist[word];
+        if (thesaurus[word]) {
+        } else if (blacklist[word]) {
+            result += word + ": ";
+            if (Array.isArray(bentry)) {
+                result += bentry.filter(approvedWords).join(", ");
+            }
+            result += "\n";
+        }
+    });
+    return result;
+}
+
 function main() {
     var fileContents = io.fileRead("sortedComboList.txt"),
+    //var fileContents = io.fileRead("testyList.txt"),
+        blackFileContents = io.fileRead("sortBlacklist.txt"),
+        blackLines = stringToWordLines(blackFileContents),
+        blacklist = wordOfEachLine(0, blackLines),
         wordLines = stringToWordLines(fileContents),
+        wordLines = removeBlacklisted(wordLines, blacklist),
         mainWords = wordOfEachLine(0, wordLines),
         transJSON = io.fileRead("genTrans2.json"),
         transObj = JSON.parse(transJSON),
@@ -277,13 +318,14 @@ function main() {
     io.fileWrite("genTransUniq.json", JSON.stringify(uniqObj));
     uniqText = Object.keys(uniqObj).map(function (word) {
         function findIfGram(word, wordLines) {
-            var i;
+            var returnLine, i;
             for (i = 0; i < wordLines.length; i++) {
                 var line = wordLines[i],
                     lineWord = line[0];
                 if (lineWord === word &&
                         line[1] === "g") {
-                    return " g";
+                    returnLine = " "+ line.slice(1).join(" ");
+                    return returnLine;
                 }
             }
             return "";
@@ -291,13 +333,13 @@ function main() {
         var gram = findIfGram(word, wordLines);
         return word + gram;
     }).join("\n");
-    console.log(uniqText);
     io.fileWrite("comboUniqList.txt", uniqText);
     io.fileWrite("thesaurus.txt", formatThesaurus(thesaurus,
             mainWords));
-    console.log(blacklist);
     io.fileWrite("blacklist.txt", formatThesaurus(blacklist,
             mainWords));
+    io.fileWrite("suggestList.txt", formatSuggestList(thesaurus, 
+        blacklist, mainWords));
 }
 
 main();

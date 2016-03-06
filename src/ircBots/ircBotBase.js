@@ -6,7 +6,7 @@ var irc = require('irc'),
     };
 function initBot(obj) {
     "use strict";
-    var server = "irc.freenode.net",
+    var server = obj.server,
         nick = obj.name,
         //admins = obj.admins,
         options =
@@ -24,14 +24,14 @@ function initBot(obj) {
                 selfSigned: false,
                 certExpired: false,
                 floodProtection: false,
-                floodProtectionDelay: 1000,
+                floodProtectionDelay: 5000,
                 sasl: false,
                 stripColors: false,
                 channelPrefixes: "&#",
                 messageSplit: 512,
                 encoding: 'UTF-8',
-                millisecondsOfSilenceBeforePingSent: 15000,
-                millisecondsOfSilenceBeforePingTimeout: 5000
+                millisecondsOfSilenceBeforePingSent: 60000,
+                millisecondsOfSilenceBeforePingTimeout: 30000
             },
         bot = new irc.Client(server, nick, options);
     bot.addListener('pm', function (from, message) {
@@ -49,7 +49,10 @@ function initBot(obj) {
         console.log("identified");
     });
     bot.addListener('raw', function(message) { 
-        console.log(message.args[1]) 
+        //console.log(message) 
+        if (message.command !== "PONG") {
+            console.log(message.args[1]) 
+        }
     });
     console.log("setup listeners");
     return bot;

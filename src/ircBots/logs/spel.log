@@ -1,29 +1,37 @@
-4855B11B73 elspru:hello
-4855B123A4 elspru:awesome so now with day change it will be possible to make good logs
-.4855B16099.mu.elspru.nwoh gotta also make the new stuff
-.4855B16653.mu.elspru.nwoh i mean finish with the cases, that will be good
-.4855B25A67.mu.elspru.nwoh so rather than making it by date, can do it by word count
-.4855B26096.mu.elspru.nwoh something like 720 words.  after that can package it into a blog post.
-.4855B26451.mu.elspru.nwoh the title should be about 6 words long, so can make it consist of the most common words which aren't grammar words.
-.4855B2662B.mu.elspru.nwoh for english that would be words with a length greater than 3.
-.4855B26902.mu.elspru.nwoh or can simply have a blacklist of english grammar words which should not be included.
-.4855B26BAB.mu.elspru.nwoh I guess I'll go set that up.
-.4855B27868.mu.elspru.nwoh 720 is 12 times 60 btw
-.4855B29260.mu.elspru.nwoh javascript is great, works everywhere. web apps, console, even IRC :-D.
-.4856179065.mu.elspru.nwoh okay wrote it now gotta test it
-.4856179531.mu.elspru.nwoh ideally need a way of testing it seperate from reloading the bot..
-4856662233 <elspru> hope this worked
-.485666B989.mu.elspru.nwo okay so gotta finish that grammar words length thing
-.485666BA22.mu.elspru.nwo and then can work on the bots some more
-.3479BB664.mu.elspru.nwo fixed up the seconds
-.3479BB688.mu.elspru.nwo now records in duodecimal unix time
-.3479BB792.mu.elspru.nwo or rather dozenal
-.3479BBA13.mu.elspru.nwo so the idea is the grammar words will have 2 or 3 appended to them, based on if they should be generated in the form of 2 or three letters.
-.3479BBA7A.mu.elspru.nwo also there will be a seperate counter for 2 letter words, so that when get to 1/phi count of them will switch over to next alphabet for generating
-.3479BBB1A.mu.elspru.nwo most of this will occur in rootWordPhon.js with some editing of the text files to enter the grammar word length information thereafter
-.347A06009.mu.elspru.nwo  /names
-.347A06978.mu.elspru.nwo added password check to bots so can upload source code
-.347A06998.mu.elspru.nwo might do it some other way, by simply keeping it in a file outside the actual folder, would be best I think.
-.347A069AA.mu.elspru.nwo maybe in /etc/spelbots or something
-.347A14791.mu.elspru.nwo  /names
-.347A147A9.mu.elspru.nwo seems the bots are now fairly stable
+.347AAB875.mu.elspru.nwo finished cases and aspects
+.347AAB878.mu.elspru.nwo working on moods
+.347AB048B.mu.elspru.nwo okay finished moods
+.347AB0550.mu.elspru.nwo still have to do pro-forms and suffixes, as well as a few minor ones.
+.347B1450A.mu.elspru.nwo evidential-case should be added to caseTable
+.347B14521.mu.elspru.nwo also best to make that initial translation working for ryip
+.347B1454B.mu.elspru.nwo then can also have a seperate security bot, which will be responsible for oping, voicing, kicking and banning.
+.347B14568.mu.elspru.nwo security-guard is xwax
+.347B14591.mu.elspru.nwo military is slin
+.347B14598.mu.elspru.nwo safe is sif
+.347B145A8.mu.elspru.nwo security is synonym of safe and care
+.347B1466A.mu.elspru.nwo I guess security-guard is the most pertinent.
+.347B1913B.mu.elspru.nwo  sortWordBlacklist can be processed in transWordUnique
+.347B19146.mu.elspru.nwo since all translations can be useful.
+.347B19175.mu.elspru.nwo also have to make business cards and meditation course material for tommorrow in case someone shows up
+.347B48749.mu.elspru.nwo so got idea that sris or ryip could cross post to gnusocial via bitlbee
+.347B48754.mu.elspru.nwo also to twitter.
+.347B48766.mu.elspru.nwo it would be possible to crosspost to the various gnusocial instances based on their primary language
+.347B48792.mu.elspru.nwo the key thing would be to pick up responses, which I guess would be the job of ryip
+.347B50436.mu.elspru.nwo anyways it seems like a distraction to be working on that stuff, it's been almost two hours and I've made little headway
+.347B50545.mu.elspru.nwo okay I'll try to get it to simply connect to bitlbee and repost stuff there or something.
+.347B5320B.mu.elspru.nwo okay so if this worked then it should cross post to gnusocial and twitter from IRC
+.347B53403.mu.elspru.nwo testing crosspost
+.347B5359A.mu.elspru.nwo testing crosspost again
+.347B53785.mu.elspru.nwo crosspost test 3
+.347B53860.mu.elspru.nwo w00t w00t crossposting worked :-) now #spel changelog is live
+.347B54371.mu.elspru.nwo so next have to finish specifying grammar word lengths, and make alternatives such as "me" for first-person.
+.347B5462B.mu.elspru.nwo ideally alternatives will also have a language parameter for those grammar words which don't have an English counterpart such as "ga" in Japanese for nominative case marking, and "wa" for topic case marking
+.347B54732.mu.elspru.nwo that would mean the translation part would have to pick up the languages of alternatives and make sure there are translations available for them
+.347B71A29.mu.elspru.nwo seems like the only truly portable form of parallelism is #OpenCl, and thus #WebCl for Javascript. OpenCl works in C and C++ also.
+.347BA8B69.mu.elspru.nwo 180 degrees of appreciation #vipassana #observation_meditation
+.347BB2516.mu.elspru.nwo  /names
+.347BB2559.mu.elspru.nwo seems the bots sometimes quit,  though it's more rare, I'm not sure why they do it.
+.348036979.mu.elspru.nwo okay, so barring any major revelations the language is pretty-much complete. I've decided not to bother with alternative-forms, will probably just use glossing-abbreviations for the SPEL variants of languages. attempting to use something like "with" would them prompt the user asking if they meant "instrumental-case" (ins) or "comitative-case" (com)
+.34803710A.mu.elspru.nwo troclyash /troʃlyaʃ/ is the new name of the language, it means "international-language".　
+.34803714B.mu.elspru.nwo *troclyac
+.3480373B1.mu.elspru.nwo Can have a look at SPEL's core-language, and maybe even learn some TroshLyash at http://wyn.bot.nu/spel/src/vocab/gen/start.html
