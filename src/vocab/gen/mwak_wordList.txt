@@ -33,7 +33,6 @@ about g
 will-be g
 eh? g
 neuter g
-and/or g
 many g
 maybe g
 with g
@@ -55,7 +54,6 @@ on g
 yaor g
 before g
 former g
-from-source g
 for-example g
 binary-value g
 also g
@@ -83,7 +81,6 @@ for g
 floating-point-number g
 at g
 here g
-to-destination g
 few g
 her g
 else g
@@ -1102,3 +1099,36 @@ cogent
 si-units
 virtual
 virtual-machine
+pixel
+kernel
+lambda
+alpha
+beta
+theta
+gamma
+sigma
+component
+sync
+synchronize
+subconscious
+conscious
+tranquil
+ergative-case g 2
+us g 3
+resonance
+vibration
+refine
+nibble
+whitespace
+consonant
+phoneme
+vowel
+morpheme
+syntax
+cache
+align
+parse
+token
+restart
+reboot
+recurse

@@ -126,7 +126,7 @@ function wordOfEachLine(wordIndex, wordLines) {
 }
 
 function translateWord(word, toLangCode) {
-    var execSync = require("exec-sync"),
+    var shelljs = require("shelljs/global"),
         fromLangCode = "en",
         command = "",
         translation = "",
@@ -134,7 +134,8 @@ function translateWord(word, toLangCode) {
     command = "../gtranslate.sh " + fromLangCode + " " +
         toLangCode + " " + word;
     try {
-        translation = execSync(command);
+        console.log("command " + command);
+        translation = exec(command).output;
     } catch (e) {
         console.log("fail for " + command);
         console.log(e.stack);
@@ -165,7 +166,7 @@ function updateTranslationEntry(entry, word) {
 }
 
 function phonateWord(word, inLangCode) {
-    var execSync = require("exec-sync"),
+    var shelljs = require("shelljs/global"),
         command = "",
         translation = "",
         warning;
@@ -176,16 +177,18 @@ function phonateWord(word, inLangCode) {
         inLangCode = "en-us";
     }
     word = word && word.replace(/\"/g,"");
-    command = 'echo "' + word + '" | espeak --stdin --ipa -q ' +
-        " -v " + inLangCode;
+    word = word && word.replace(/\n/g,"");
+    command = 'echo \"' + word.toString() + '\" | espeak --stdin --ipa -q ' +
+        ' -v ' + inLangCode;
     try {
-        translation = execSync(command);
+        translation = exec(command);
+        translation = translation && translation.output;
     } catch (e) {
         console.log("fail for " + command);
         console.log(e.stack);
         console.log(e);
     }
-    if (translation.toLower &&
+    if (translation && translation.toLower &&
             translation.toLower() === word) {
         warning = ("Warning: " + translation +
             " has same definition");
@@ -568,17 +571,17 @@ function main() {
     var fileContents = io.fileRead("sortedComboList.txt"),
         wordLines = stringToWordLines(fileContents),
         mainWords = wordOfEachLine(0, wordLines),
-        transJSON = io.fileRead("genTrans2.json"),
-        transObj = JSON.parse(transJSON),
-        phonJSON = io.fileRead("genPhon2.json"),
-        phonObj = JSON.parse(phonJSON),
+        transJSON = io.fileRead("genTransX.json"),
+        transObjX = JSON.parse(transJSON),
+        phonJSON = io.fileRead("genPhonX.json"),
+        phonObjX = JSON.parse(phonJSON),
         count = 0,
         transEntry,
         phonEntry;
-    // mainWords.map(getTranslations.curry(transObj));
+    // mainWords.map(getTranslations.curry(transObjX));
     mainWords.forEach(function (word) {
-        transEntry = transObj[word];
-        phonEntry = phonObj[word];
+        transEntry = transObjX["X" + word];
+        phonEntry = phonObjX["X" + word];
         if (phonEntry === undefined) {
             phonEntry = new PhonEntry();
         }
@@ -591,17 +594,17 @@ function main() {
         if (transEntry === undefined) {
             console.log(word + " undefined ");
         } else {
-            phonObj[word] = updatePhonemicEntry(phonEntry, 
+            phonObjX["X" + word] = updatePhonemicEntry(phonEntry, 
                 transEntry);
         count += 1;
         if (count > 100) {
-            io.fileWrite("genPhon2.json", 
-                JSON.stringify(phonObj));
+            io.fileWrite("genPhonX.json", 
+                JSON.stringify(phonObjX));
             count = 0;
         }
         }
     });
-    io.fileWrite("genPhon2.json", JSON.stringify(phonObj));
+    io.fileWrite("genPhonX.json", JSON.stringify(phonObjX));
 }
 
 main();

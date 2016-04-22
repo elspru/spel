@@ -188,15 +188,14 @@ alphabet.voicing.checkType = function(glyph,type){
 alphabet.phonemeClass = {
 	".":["."],
 	"H":["h"],
-	"V":["i","a","e","o","u","6"],
 	"C":["p","t","k","f", "s","c","x",
          "b","d","g","v", "z","j",
          "n","m","q","r", "l","y","w"],
-	"F":["p","t","k","f", "s","c","n","m",
-         "q","x"],
 	"S":["f","s","c","y", "r","w","l","x",
          "z","j","v"],
+	"V":["i","a","e","o","u","6"],
 	"T":["7","_"],
+	"F":["p","t","k","f", "s","c","n","m"],
 	"L":["1","8"],
 	"n":["n","m","q"], // nasals
 	"f":["f","s","c","x","h","v","z","j","6"], // fricatives

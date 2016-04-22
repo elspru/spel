@@ -1,0 +1,13 @@
+thereby: inferential-mood, inductive-mood, deductive-mood,
+speculative-mood
+hence: inferential-mood, inductive-mood, deductive-mood,
+speculative-mood
+thus: inferential-mood, inductive-mood, deductive-mood,
+speculative-mood
+so: inferential-mood, inductive-mood, deductive-mood,
+speculative-mood
+should: directive-mood, hortative-mood, imperative-mood
+will: future-tense, volitive-mood, desiderative-mood
+with: comitative-case, instrumental-case
+by: instrumental-case
+may: potential-mood, permissive-mood, speculative-mood

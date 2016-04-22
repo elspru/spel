@@ -1,0 +1,6 @@
+seed.c:29:6:delete_empty_glyph	32	static
+seed.c:48:9:vowel_Q	24	static
+seed.c:57:9:consonant_Q	24	static
+seed.c:67:6:derive_first_word	32	static
+seed.c:104:6:align_word	24	static
+seed.c:126:6:encode_spel_word	24	static

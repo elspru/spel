@@ -1,37 +1,44 @@
-.347AAB875.mu.elspru.nwo finished cases and aspects
-.347AAB878.mu.elspru.nwo working on moods
-.347AB048B.mu.elspru.nwo okay finished moods
-.347AB0550.mu.elspru.nwo still have to do pro-forms and suffixes, as well as a few minor ones.
-.347B1450A.mu.elspru.nwo evidential-case should be added to caseTable
-.347B14521.mu.elspru.nwo also best to make that initial translation working for ryip
-.347B1454B.mu.elspru.nwo then can also have a seperate security bot, which will be responsible for oping, voicing, kicking and banning.
-.347B14568.mu.elspru.nwo security-guard is xwax
-.347B14591.mu.elspru.nwo military is slin
-.347B14598.mu.elspru.nwo safe is sif
-.347B145A8.mu.elspru.nwo security is synonym of safe and care
-.347B1466A.mu.elspru.nwo I guess security-guard is the most pertinent.
-.347B1913B.mu.elspru.nwo  sortWordBlacklist can be processed in transWordUnique
-.347B19146.mu.elspru.nwo since all translations can be useful.
-.347B19175.mu.elspru.nwo also have to make business cards and meditation course material for tommorrow in case someone shows up
-.347B48749.mu.elspru.nwo so got idea that sris or ryip could cross post to gnusocial via bitlbee
-.347B48754.mu.elspru.nwo also to twitter.
-.347B48766.mu.elspru.nwo it would be possible to crosspost to the various gnusocial instances based on their primary language
-.347B48792.mu.elspru.nwo the key thing would be to pick up responses, which I guess would be the job of ryip
-.347B50436.mu.elspru.nwo anyways it seems like a distraction to be working on that stuff, it's been almost two hours and I've made little headway
-.347B50545.mu.elspru.nwo okay I'll try to get it to simply connect to bitlbee and repost stuff there or something.
-.347B5320B.mu.elspru.nwo okay so if this worked then it should cross post to gnusocial and twitter from IRC
-.347B53403.mu.elspru.nwo testing crosspost
-.347B5359A.mu.elspru.nwo testing crosspost again
-.347B53785.mu.elspru.nwo crosspost test 3
-.347B53860.mu.elspru.nwo w00t w00t crossposting worked :-) now #spel changelog is live
-.347B54371.mu.elspru.nwo so next have to finish specifying grammar word lengths, and make alternatives such as "me" for first-person.
-.347B5462B.mu.elspru.nwo ideally alternatives will also have a language parameter for those grammar words which don't have an English counterpart such as "ga" in Japanese for nominative case marking, and "wa" for topic case marking
-.347B54732.mu.elspru.nwo that would mean the translation part would have to pick up the languages of alternatives and make sure there are translations available for them
-.347B71A29.mu.elspru.nwo seems like the only truly portable form of parallelism is #OpenCl, and thus #WebCl for Javascript. OpenCl works in C and C++ also.
-.347BA8B69.mu.elspru.nwo 180 degrees of appreciation #vipassana #observation_meditation
-.347BB2516.mu.elspru.nwo  /names
-.347BB2559.mu.elspru.nwo seems the bots sometimes quit,  though it's more rare, I'm not sure why they do it.
-.348036979.mu.elspru.nwo okay, so barring any major revelations the language is pretty-much complete. I've decided not to bother with alternative-forms, will probably just use glossing-abbreviations for the SPEL variants of languages. attempting to use something like "with" would them prompt the user asking if they meant "instrumental-case" (ins) or "comitative-case" (com)
-.34803710A.mu.elspru.nwo troclyash /troʃlyaʃ/ is the new name of the language, it means "international-language".　
-.34803714B.mu.elspru.nwo *troclyac
-.3480373B1.mu.elspru.nwo Can have a look at SPEL's core-language, and maybe even learn some TroshLyash at http://wyn.bot.nu/spel/src/vocab/gen/start.html
+.348306BA7.mu.elspru.nwo Currently many potential users don't have #OpenCl hardware or software, so MVP must be lowest-common-denomenator (LCD) compatible, single-processor javascript.
+.348307061.mu.elspru.nwo MVP for translations software needs better load time, than currently being offered, which will require a server connection.
+.3483070A0.mu.elspru.nwo MVP for programming language will need a single thread virtual machine.
+.348307902.mu.elspru.nwo  adding server is easier than making virtual machine, so will start with that.
+.348347ABA.mu.elspru.nwo so have to add an upload button to the meditation app, and then set up uploading, test driven development.
+.348352294.mu.elspru.nwo okay added button but the cross domain XHR is giving me some issues, will figure out tommorrow
+.3483B48B7.mu.elspru.nwo connection with server established w00t w00t!
+.348437455.mu.elspru.nwo uploading is working for the meditation app. made new backend format and reintegrating it with app.
+.34863BA51.mu.elspru.nwo added stat for number of mindful activity days, and number of sitting meditation days to meditation app
+.348697645.mu.elspru.nwo it seems I'll have to write a meditation textbook, with all the lessons that I'm teaching, can't really expect to be able to teach everything, nor for students to remember everything from our short weekly sessions together.
+.34869788B.mu.elspru.nwo ideally will write the book in Lyash variant.
+.34869791B.mu.elspru.nwo I'm also hoping on rewriting the Vinaya as I think of it in Lyash
+.348698037.mu.elspru.nwo A gender neutral, family compatible, version of the Vinaya
+.3486A704B.mu.elspru.nwo SPEL may help with #antiradicalization by making language less of an isolation barrier.
+.348789112.mu.elspru.nwo May have to rewrite the irc bots with other libraries, since the node-irc ones  doesn't seem to be possible to stop them from rejoining
+.3488167B7.mu.elspru.nwo Made a garden layout plan in SVG, yard was dry. now with rain it is like a pond, will have to add drainage.
+.34887432A.mu.elspru.nwo submited second set of meditation logs for C.MI. meditation certification am on way to being member of International Association of Meditation Instructors.
+.34892323B.mu.elspru.nwo for meditation screen, can have brain wave setting, length of meditation, with option of stopwatch, and frequency of re-entrainment
+.348923278.mu.elspru.nwo also for hz below a certain level, can have the option of flashing screen.
+.348A69105.mu.elspru_.nwo development meditation app has basic intros and flashing http://wyn.bot.nu/qanim/mediapp2.html
+.348AA6209.mu.elspru_.nwo okay now just need to add username and password login ability to the app
+.348B80350.mu.elspru_.nwo so I am going to be calling the vocab stable 1.0,  and make a new word-adder, which will add new words ontop of the existing ones, so that the base will stay, and new words will be added ontop.
+.348B83224.mu.elspru.nwo I'll be stabilizing the vocab soon, and making translations to the 24 supported languages
+.348B8323B.mu.elspru.nwo I need to add a new script, which will add new words ontop of existing ones, rather than shifting it all around.
+.348B8A069.mu.elspru.nwo can probably make flash cards by harvesting images from wikimedia, might need a scrapebot.
+.348B91735.mu.elspru.nwo generating word lists, suggests lists, thesaurus, objects in #javascript #scripting #auxlang
+.348BAA915.mu.elspru.nwo   /join #nodejs
+.348BAA9A4.mu.elspru.nwo looking for parallel #mapReduce in #nodejs
+.348BB0951.mu.elspru.nwo word lists are now available at http://wyn.bot.nu/spel/src/vocab/gen/allLangs/ in form langCode-gramList.txt and langCode-rootList.txt
+.349010102.mu.elspru.nwo thinking can have single process #vm and a #opencl #webcl version. extra motivation for #firefox
+.349010228.mu.elspru.nwo first have to make a build environment, which has seperate stack size checks for GPU functions and CPU bound ones, #gcc makes possible
+.349010249.mu.elspru.nwo first have to make a build environment, which has seperate stack size checks for GPU functions and CPU bound ones
+.3490141BB.mu.pyic.nwo I think #UNL core vocab is very odd, like "lime tree" is core :-|
+.349014257.mu.pyic.nwo I've had to delete #unl relations and attributes, as they conflict with international glossing standards
+.349014411.mu.pyic.nwo I'm deleting all #UNL dictionaries and word lists to clean things up
+.3490144A2.mu.pyic.nwo #wordnet, #special-english, #oxford-3000, are good quality word lists for #machine_translation
+.349015160.mu.pyic.nwo reduced vocab from 4024 words til 2822 words, that's 30% less of "core words" like art-noveau, a type of art that was trendy in the early 1900's.
+.34903B2A3.mu.pyic.nwo #gcc allows making stack limit with -Wstack-usage=$LIMIT
+.3490B7606.mu.elspru.nwo need scripted way of having short form grammar words for all supported languages
+.3490B7836.mu.elspru.nwo can use either glossing abbreviations, lyash words, or synthesize abbreviations from local language #machine_interlingua
+.349261A40.mu.pyic.nwo for all you fellow #gardeners check out http://pfaf.org for edible and medicinal, plants, shrubs, vines and trees.
+.349266710.mu.pyic.nwo I'm a big fan of #automation, so I hope to #automate #meditation instruction, using videos and a course #webapp. multilingual
+.3493AB100.mu.elspru_.nwo cross-training is important for creativity http://bit.ly/1SNrjW9
+.3493AB245.mu.elspru_.nwo I wonder how windsurfing will help me with #computer_programming

@@ -1,0 +1,2749 @@
+mastar: sonsuz, sonsuzluk
+yalın-dava: 
+ismin--i-hali dava: 
+konu-dava: konu-dava
+ebeveyn: ebeveyn, majör, kıdemli
+baba: baba
+anne: anne, anne, anne
+Merhaba: bye, merhaba, Hey
+ata: öncel, dede
+büyükbaba-veya-büyükanne: dede, büyükanne
+aç: açlık, açlıktan-ölmek
+-in-hali-dava: iyelik-dava
+sıfat: 
+ve: toplam, tarafından
+bana: kendim, ben, benim, biz
+sen: onları, sana, sen
+bize: biz, bizim, bizim
+o: o, o, o, bu, bunlar
+hedef-dava: amaç-dava
+datif-dava: 
+iç-bağlam: 
+kişi-bağlam: 
+bağımlı-fıkra: 
+tamamlanma-belirten-görünüş: 
+geçmiş-gergin: 
+eril-cinsiyet: kısırlaştırmak-cinsiyet
+comitative-dava: 
+mevcut-gergin: 
+benefactive-dava: 
+essive-dava: 
+değil: hayır, olmayan, zorlukla, aciz, olmayan, zift
+onun: onların, onun, ona, onu, bu, onunki, arasında
+yüzey-bağlam: 
+adpositional-dava: 
+yer-dava: 
+uzay-bağlam: 
+yol-dava: 
+enstrümental-dava: 
+hangi: kim, olarak, kimin, herhangi, ne, o, kime, Bu--ki, ne, her, hangisi
+soru-ruh-hali: 
+ve-veya: 
+dışlamalı-veya: 
+kaynak-dava: 
+ablatif-dava: 
+inandırıcı: katı, önemli, beton, inandırıcı, direktif, dramatik
+ama: henüz, ancak
+tüm: herkes, herkes, toplam, tüm, tüm, bütün, her-şey, herhangi, giderek
+kadınsı-cinsiyet: 
+onlar: onları, o, bu, onların, onlarınki, soyadı, bunlar
+çoğul-sayı: 
+bir: tek, bir, içine, yalnız
+gelecek-gergin: 
+sosyal-bağlam: 
+ne-zaman: her-ne-zaman
+bitmemişlik-görünüş: 
+Orada: 
+şartlı-ruh-hali: dilek-kipi-ruh hali, farazi-ruh-hali
+Daha: üzerinde, en, ayrıca, ötesinde, yukarı, yukarı, çok, göre, oldukça, ayrıca, dahası, artı, yine, henüz, başka, birkaç, çoklu
+dışarı: dışında, dış, dış, açık, açık-havada, kapalı, dışında, ötesinde, yukarı, üzerine, üstüne
+göreceli-dava: göreceli-dava
+illative-dava: 
+yapmak: yapmak, yapmak, üstlenmek, kılmak, etkinleştirmek, yaptım, işlemek
+direktif-ruh-hali: gösteren-ruh-hali
+dışsal-bir-ruh hali: 
+soru-sözcük: 
+bağ: konnektör, bağ, demet
+kişi: Man, insanlar, bireysel, birisi, birisi, adam, insan, yüz, ağız, varlık
+erkek: eril, anma, beyefendi, Man
+olabilir: kutu, olabilir, belki, olabilir
+diğer: başka, dinlenme, ikinci, başka, farklı, bir-başka
+numara: miktar, toplam, şekil, sayısal, rakam, miktar
+çok: çok, son-derece, çok, çok, çok, son-derece, geniş-ölçüde, son-derece, gerçekten, kötü, muazzam, önemli, çok, çok, çok, en, oldukça, oldukça, uzak, güzel, tamam, Tamam, pekala
+zaman: süre, an, sırasında, güncel, süre, geçici, gergin, tarife, dönem, hava
+zaman-bağlam: 
+geçici-dava: 
+hakkında: ilişkin, ilişkin, neredeyse, dolaylarında, arasında, tarafından, göre, etrafında, için, kullanıcı, şikayet, üzerinde
+epistemik-ruh-hali: 
+sadece: sadece, sadece, sadece, nokta, sırf, sadece, hapsedilmiş
+küçük: küçük, minik, hafif, hafifçe, bit, küçük, küçük, küçücük, taşınabilir, az
+daha-sonra: tekrar, yeniden, ya, beri, önce, sonra, sonra
+gayretlendirici-ruh-hali: 
+geçmişe-yönelik-görünüş: 
+harika: büyük, büyük, asil, ciddi, geniş, yüksek-sesle, muazzam, dev, muazzam, baskın, iyi, ince, önemli, kocaman, önemli, harika, mükemmel, Optimum, büyük, majör, mükemmel, dikkat-çekici, parlak
+irade-ile-ilgili ruh hali: 
+önce: önce, önceden, önce, önce, kadar, ön, eskiden, karşı
+şart: meli, zorunlu-olarak, gereksiz, zorunda, gerek, -ecek, gerektiğini-arası, istemek, için
+iki: çift, her-ikisi-de
+görmek: bak, görünüm, görme, ihbar, algılamak, izlemek
+bilmek: anlamak, farkında, öğretmek, bayrak, görünür
+aşağı: aşağıya-doğru, aşağıya-doğru, altında, aşağıda, altında, altında, Daha-az, alt, aşağı, alt-katta
+sonra: arka, üzerine, posta, boyut, sonra, sonra, sonradan, aşağıdaki, geçmiş, altında, altında
+ilk: ilk, ilk, beri, ileriye, yumruk
+kendi: kendisi, kendiniz, sahip-olmak, şahsen, onun, kendisi, öz
+devredilebilir-mülk: 
+asla: hiç
+devredilemez-mülk: 
+eski: Kullanılmış, eski, yaşlı, yaşlı, eski, eski, eski, yaş
+ihtiyatlı-ruh-hali: 
+gün: günlük, bugün, bu-gece
+nerede: her-nerede, mademki, yer
+hadi: için, ulaşmak, varış, varmak, olmak, moda, ortaya
+yol: yöntem, metodoloji, araç, yol, rota, sistem, patika, iz, tavır, yol, sokak, şeker, iz, Yörünge, alışkanlık
+iş: iş, atama, aktif, görev, emek, emek, kariyer, işlev, işletmek, fonksiyonel, iş, hareket, egzersiz-yapmak, iş, iş, çalışma, sanat-eseri
+ünlü: ünlü, hayat, hayatta-kalma
+gitmek: yürümek, bilet-ücreti, ayrılmak
+perlative-dava: 
+ilerici-görünüş: 
+uzun: uzun, dayanıklı, uzun-boylu, boyunca
+söylemek: konuşulan, söylemek, konuşmak
+Nasıl: sevmek, olarak, göre
+hatta: ayrıca, ya, kadar, dahası, çok
+geri: arkasında, arka, geriye-doğru, geriye, dönüş, yeniden, geri, geri, tekrar, tekrar, önce, göre
+İşte: 
+düşünmek: düşünme, düşünce, düşünmek, düşünmek, düşünmek, düşünmek, olur, denilen, us
+aynı: özdeş, benzer, eşit, eşdeğer, haklı-olarak, tamam, pekala, kendisi, eşit-olarak, aynı
+son: son, ikincisi, son, nihai, başka, başka, son, son, son, geçmiş, geçmiş, katlanmak, dayanmak, koymak, devam
+uzakta: uzak, uzak, kapalı, ayrı, uzak, sol, ayrılmak, yok
+altında-bağlam: 
+almak: çare, işgal-etmek, almak, benimsemek, kapmak, almak, almak, almak, yakalamak, ele-geçirmek, kabul-etmek, elde-etmek, ücret
+bulundu: bulmak, keşfetmek, keşif, bulma, ulaşılabilir
+el: kol, bilek
+genç: gençlik, genç, genç, genç, yeni
+gerçi: rağmen, yine-de, sabit, firma, katı, sıkıca, rağmen, ancak, birisi
+vermek: ödünç-vermek, sağlamak, teklif, sağlama, teslim-etmek, kılmak, göze, koymak, bağışlamak, let
+Tanrı: 
+delative-dava: 
+hiçbir-şey: bir-şey, nesne, hiç-kimse, her-şey, hiçbiri, kimse
+sağ: çift, doğru, tam-olarak, adil, adalet, haklı, haksız, uygun, yetki-verme, kanun, doğru, gerçek, belli, elbette, adlandırmak, iyi
+bir-Zamanlar: hemen, acilen, yöntem, model, metodoloji, tekrar
+semelfactive-görünüş: 
+bölüm: Bölüm, kısmen, kısım, kısmen, parsel, kesir, pay, bit, parça, geçit, alt-kümesi, bölüm, bölüm, bölüm, kısmi, bölünme, koğuş, sektör, oran, adına
+testere: 
+ev: ev, binaların, tapınak, konut, ev
+Dünya: diyar, global, evren
+kafa: başlık, ana, baş, bölüm, lider, başkan, başkan, yönetmen, Müdür, kıdemli, kalem
+üç: üçüncü
+neo: yeni, yeni
+odak: yönelik, amaç, hedef, amaç, yoğunlaştırmak, Dikkat, konsantrasyon, aksan, birleşmek
+aşk: sevgi, sadaka, sevmek
+her-zaman: sonsuza-dek, sürekli, hiç, olağan
+gece: akşam, akşam-yemeği, öğleden-sonra
+her: başına, her, herhangi
+kral: saltanat, lord, hükümdar, kodaman
+arasında: arasında, arasında, arasında
+kalp: tezahürat, cesaret-verici, devirmek
+paucal-sayı: 
+çünkü: gereken, beri, dava, neden
+nedensel-dava: 
+şey: mesele, mesele, fenomen, şey, ne
+set: grup, koymak, tutmak, koymak, macun, koleksiyon, kombinasyon, dizi, süit, paket, portföy, sentez, birlikte, dizi, dönüş, menzil, sıra, dizi, malzeme, külliyat
+isim: soyadı, isim
+uygun-isim: 
+gayretlendirici: exhortative
+ülke: millet, arazi, toprak, devlet, zemin, kontluk, toprak, parti
+diye-sordu: 
+görünür-ortada: 
+daha-iyi: üstün, en-iyi, mükemmel, ideal, ödenmemiş
+yan: yanal, iyilik, iyilik, adına, dönüş, sayfa, görünüş, yarım, yön
+kurs: müfredat, ders, ders, kesinlikle, elbette, kesinlikle, oran
+kadın: bayan, kadınsı, kadınsı, kadınlar, kız, karı
+yeter: yeterli, yeterince, yeterli, bol, oldukça, bol, yetersiz, oldukça, güzel
+yakında: kısaca, hızlı, istemi, hızla, hızlı, acil, hızlı, acele, acil, bu-yüzden, hemen, kolayca, yakında, erken, çıtçıt
+tam: tamamen, yeterince, kesin, tam, kusurlu, bütün, tam, tam, tam, tam, tam, tüm, kapsamlı, boyut
+oda: oda, dördüncü, yatak-odası, barış
+neredeyse: neredeyse, pratikte, yaklaşık-olarak, dolaylarında, yakın, etrafında, kapat, bitişik, fiilen, yakında, kısaca, proksimal, kabaca, zorlukla
+olamaz: aciz
+su: sıvı, akışkan, dönüm-noktası
+dilek-ruh-hali: 
+ışık: parıltı, parlak, mum, hafif, stil, hafifçe, hafif, çakmak, soluk, açık
+ne: ne, olmayan, henüz, ne, ne, veya
+kelime: sözlük
+kapı: kapı, giriş, Giriş, bölüm, liman
+kullanım: kullanmak, kullanım, tüketim, harcama, tüketici, tutmak, uygulama, yarar, uygulamak, kullanmak
+sabah: sabah, kahvaltı
+terminative-dava: 
+güç: kuvvet, enerji, olabilir, güçlü, kuvvet, güçlü, dinamik, salata, egemenlik, yetki
+kendilerini: kendimizi, kendiniz, kendisi, kendim, kendini, kendisi, öz, benlik, bölüm
+mevcut: akım, mevcut, şimdi, şu-anda, hediye, mevcut, mevcut
+ses: ses, yüksek-sesle, oy-pusulası, ses, oy, madde, söylenti, söylenti
+beyaz: boş, şikâyet
+para: servet, gümüş, mali, nakit, para, maliye, parasal
+Sonraki: yanında, yanında, yanında, aşağıdaki, sonra, boyut, ileriye, sonraki
+fakir: kol, yoksulluk, kötü, en-kötü, çürük, zayıf
+ölüm: ölüm-oranı, ölen, ölü
+form: şekil, kalıp, biçim, çevre, model
+inessive-dava: 
+tür: sınıf, çeşit, tür, çeşitlilik, tip, samimi, madde, iyi, hoş, hoş, eğlenceli
+sık-sık: sık-sık, sürekli, düzenli-olarak, sık, çoğunlukla, normalde, tipik
+yıl: yıllık, yıllık, beş
+arkadaş: müttefik, erkek-arkadaş, adam, Paraguay-çayı
+sipariş: sistem, aranjman, düzenlemek, sözleşme, dizi, komuta, dönüş, sıra, kuyruk
+zorunlu-ruh-hali: 
+yuvarlak: yuvarlak, daire, kucak
+inanmak: güven, saymak, varsaymak, inanç, inanç, güven, kendine-güvenen, iyimserlik, iyimser
+kamu: kamu, genel, seyirci
+devlet-bağlam: 
+oğul: oğul, oğlan
+yüz: yüzüncü, yüz, sent
+çocuklar: çocuk, yavrular, çocuk, bebek
+böylece: böylece, bu-yüzden, bundan-dolayı, böyle, Evet
+umut: dilek, olasılık, beklemek, iyimserlik, iyimser
+yukarıdaki: yukarı, üzerinde, üst-katta, yüksek, üst, ileri, üst, karşısında, ilişkin, üzerinden, üzerine, havai, üstüne, önde, yukarı
+sevgili: sevgili, pahalı
+okumak: okuma, şarkı-söylemek, zambak
+şehir: kasaba, belediyeye-ait, kontluk
+zaten: hazır, hazırlanmış, istekli, zaten
+gerçek: gerçek, gerçeklik, doğruluk, gerçek, gerçek, gerçek, gerçekten, gerçekten, aslında, yaptım
+factive-ortada: 
+duymak: dinlemek, işitme, hissetmek
+en-az: en-az, asgari, küçültmek, eksi, Daha-az
+belki: muhtemelen, olabilir, muhtemelen, olabilir, belki, mümkün, muhtemelen, muhtemel
+açık: açık, düz, açıkça, çıplak, belli-ki, boş, açık, açık, açık, açık, soluk, açıkça, ortaya-çıkarmak
+vücut: et, bedensel, fiziksel, fiziksel-olarak, külliyat, organ, ceset
+hava: rüzgar, esinti, havacılık, hava, havayolu
+doğa: doğal, yerli, doğal-olarak, köken, iniş, yerli, yaban-hayatı, karakter
+Yardım-Edin: yardım, faydalı, yardım, yardım, asistan, koymak
+mektup: posta, yazı-yazıyor
+dört: dördüncü
+dilek-kipi-ruh hali: dilek-kipi-ruh hali
+ateş: sıcak, alev, ateş
+bu-nedenle: bundan-dolayı
+saat: saat, saat, çan
+ücretsiz: özgürlük, özgürlük, muaf, bedava, nafile, serbestçe, boş, gevşek, bırakma
+savaş: savaş, savaş
+olup-olmadığını: eğer, kendisi
+neden: neden, hesap, faktör, oldukça, bahane, gerekçesiyle, yayılma, davacı
+birleşik: tekil, birlik, dahil, birlik, müttefik, müttefik, benzersiz, oybirliği
+çağrı: meydan-okuma, paslanmak, temyiz, üzerinde, bağlantı, kombinasyon, ortak, füzyon, davetiye
+Neden: 
+kayıp: kayıp, eksik
+bin: bininci
+aile: ev, hayatta-kalan
+ruh: ruh, hayalet, beyin
+soru: konu, talep, okuma, mesele
+bakım: ilgili, endişe, Dikkat, meditasyon, hizmet, kefillik, bekçi, güvenlik, koruma, güvenlik, koruma, koruma, kapsama, savunma, Dikkat, kür, tedavi, gözaltı
+realis-ruh-hali: 
+fena: demek, duyu, anlam, anlamlı, belirtmek, orta, ajan, orta, ortalama, ılımlı
+potansiyel-ruh-hali: 
+karşı: karşı, karşı, karşı, karşı, başına, saygı, için
+allative-dava: 
+antropik-cinsiyet: 
+kısa: Daha-az, düşük, kısa, kısaca, kısaca, kart, dar, hafif
+güçlü: kutu, nitelikli, uygun, yetenekli, kapasite, yetenek, aciz, yetkili, potansiyel, olasılık, olasılık, güçlü, güçlü, becerikli, Mayıs
+canlı: hayat, hayatta-kalmak, davranabilir, yaşam, yuva, ilçe, Komşuluk, Komşuluk, canlı, canlı, çiğ, oturmak
+konu: disiplin, tema, konu, ders, madde, konu, nesne, anlam, malzeme, anlamsal, mesele, mesele, başlık
+aynı-konu-işaretleyici: 
+farklı-konu: 
+cevap: kuzeyinde, cevap, yanıt, çözüm, uygun, yanıtlamak
+deniz: okyanus, deniz
+korku: dehşet, korkan, terör, huşu, korkmuş, panik, kaygı, endişe, korku, korkutmak
+iyi-anlamak: anlayış, anlama, algılamak, kavramak, düşünmek, anlaşılmaz, dahil, gerçekleştirmek
+sert: zor, sert, karmaşık, sert, yüksek-sesle, şiddetle, sert, sert, sıkı, meydan-okuma, aldatıcı, ağır, mezar, şiddetli, huzursuz
+şartlar: dönem, terminoloji, konu, merkezli, gerekçesiyle, temel, esasen, esasen, temel-olarak
+şüphe: şüphe, güvensizlik, şüpheli
+kararsızlık-belirten-ruh hali: 
+sormak: dua-etmek, gerektirir, dinlemek, Lütfen
+silâh: silâh, silahsızlandırılması, silâhlı, kol
+siyah: 
+getirmek: almak, taşımak, olur, kurşun
+güzel: iyi, güzel, güzel, güzel, güzelce, güzel, fantezi, güzel, sevimli
+karanlık: kasvet
+ambar: tutmak, korumak, yakalamak, kavrama, sözleşme, sonuçlandırmak, düğüm, onyıl, haczetmek, Bekleyin, sevmek, sürdürmek
+on: onyıl, onuncu, adil
+gösteri: ekran, yapmak, performans, gösteri, tanıtım, belirtmek, belirtmek, olay, projeksiyon
+öykü: efsane, tarih, kurgu, arsa
+ortak: genel, olağan, rutin, genellikle, sıradan, alışılmadık, çoğunlukla, mütevazi, normal, düzensiz, geleneksel, tipik, normalde, tipik, ortak, ortak, ortak, toplam, tüm, karşılıklı, tüzel
+kitap: kaydırma, rezerv, pound, ders-kitabı
+elektronik: elektronik, elektron, yıldırım, elektrik, elektrik, elektrik
+konuşma: konuşma, sohbet, görüşmek, etkileşim, etkileşim, müzakere, konuşmak, konuşma, konuşulan, söylev
+işaret: işaretleyici, iz, iz, Gol, vurgulamak, kene, işaret, işaret, işaret, işaret, marka, karakter, etiket
+faiz: çiçek, ilgili, endişe
+yazmak: oluşturmak, yazı-yazıyor, tip, yazılı
+yatak: 
+gerekli: gerekli, önemli, yararlı, kritik, hayati, önemli, önemsiz, integral, çok-önemli, önemlisi, gerek, zorunlu-olarak, geçişsiz, geçişsiz, geçişsiz
+Fikir: düşünce, düşünce, muhakeme, görüş, kavram, dâhiyane-buluş
+sanat: zanaat, artistik
+vialis-dava: 
+kardeş: kardeş, kardeş
+bazen: nadiren, bazen, bazen
+çizgi: tel, iplik, sıra, Lane, iletme, tire, şerit, vergi, senaryo
+tablo: büro, zamanlamak, katalog
+nehir: yastık, minder, akı
+göz: atamak, etrafında
+bilgi: mesaj, açıklama, tanım, bülten, bilgi, veri
+aniden: ani
+garip: garip-biçimde, şaşırtıcı, işin-garibi, garip, şaşkınlık, harika, dikkat-çekici, olağanüstü, inanılmaz, şaşırtıcı, tuhaf, komik, yabancı, egzotik, garip
+derin: derinden, derinlik, geniş, sığ, tam, detaylı, kapsamlı, ciddi-olarak, derin, içinde, içeride, kapalı, solucan
+değişiklik: değişiklik, varyasyon, dönüşüm, dönüştürmek, mutasyon, vardiya, değiştirmek, değiştirmek, geçiş, yasa-değişikliği, ikame
+duygu: hissetmek, duyum, algı, izlenim, duygu, ruh-hali, etkilendim, duygusal, duyusal, duygusallık, duyu, tutku, bilinçli, bilinç
+karşılamak: almak, birleşmek, karşılaşma, uymak, karşılamak, toplantı
+amaç: nesne, amaç, amaç, hedef, hedef, niyet, yönelik, güdü, hedef
+mutlu: neşeli, eğlenerek, zevk, memnun, sevinç, mutluluk, zevk, memnun-olmak, eğlence, mutlulukla, şanslı, memnun
+görünmek: görünüm, görünmek, görünüşe-göre
+kan: boşaltmak, ceza
+gül: pembe
+güney: güney, öğlen, öğlen
+soğuk: kış, güzel, sakinlikle
+ileri: ayrıca, öteye, önde, görme, ön, ileri, önce, yarasa, üstüne, ileriye
+pozisyon: yer, durum, durum, şans, fırsat, alan, duruş, duruş, yer, posta, madde
+geç: yavaş-yavaş, son
+durmak: istasyon, dikey, tutum, duruş, Dur, duruş, poz, ahır
+zannetmek: varsayım, hipotez, üstlenmek, benimsemek, varsaymak, varsayımda-bulunmak, önermek
+kız: kız, bakire
+mayın: benim
+kesim: eksiklik, eksik, azalma, eksiklik, azaltmak, kıtlık, bayan, kesim, kesmek, pirzola, yırtmaç, ekin, süs, kırık, ihlal-etmek
+kopya: çoğaltmak, kopya, tekrarlamak, transkripsiyon, fotokopi, klon, versiyon, reçete
+koca: Man, eş
+altı: seks
+hatırlamak: Not, geri-çağırma, hatırlatmak, ezberlemek
+etki: etki, etkilemek, izlenim, darbe, egemenlik, verimli, etkin-biçimde, etki, sonuç, sonuç, poz
+düşmek: sonbahar, dava, bulunan, kaza, takla, bozulmak, çöküş, damla, düşüş, azaltmak
+dışında: olmadıkça, dışında, dışında, dışında, ayrı, hariç, yanında, bir-kenara, den-başka
+saç: 
+pas: tarafından, içinden, geçen, üzerinden, yakın, yanında, oluşur, mezun-olmak, pas, çapraz, geçit, ilerlemek
+telif-hakkı: 
+ordu: asker, birlik, evsahibi, asker
+koşmak: kaçmak, akıtmak, koşu, gerçekleştirmek, işletmek, sürücü, cıvık, vites
+at: at-nalı, at
+gelecek: gelecek, sonra, sonradan, sonra
+batısında: batı
+ödeme: ücret, ücret, maaş, itme, ödeme, ödüllendirmek, ücret, maliyet
+kırmızı: 
+altın: 
+arzu: irade, istekli, iştah, dilek, özlemek, dürtü
+oynamak: dans, kumar, oyun, yanak, oyuncak
+usta: lord, birincil, ana, profesör, hükmetmek, yönetmek, Bay, beyefendi, önemli, bay
+ofis: ajans, büro
+hükümet: devlet, sıra
+kilise: 
+uzunluk: yükseklik, irtifa, karış, boyunca, süre
+şirket: firma, şirket, toplum, iş, tüzel, varlık, kurum, ajans, enstitü, girişim
+kâğıt: yaprak, kart, tüzük
+olasılık: olasılık, olasılık, muhtemelen, belki, olası-olmayan, olasılık, şans
+özellikle: özel, özel-olarak, özellikle, özellikle, belirli, tam, başlıca, çoğunlukla, öncelikle, özel
+ayı: taşımak, katlanmak, dayanmak, sabır, tolerans, var, sahip-olmak, göze
+pencere: 
+anlaşma: protokol, yerleşme, ödün, fikir-birliği, antlaşma, anlaşmak, anlaşma, anlaşma, hassas, akort, sözleşme, kongre, aranjman
+güzellik: güzel, parlaklık, estetik
+görev: yükümlülük, sorumluluk, yükümlülük, sorumlu, Gümrük, görev, atama, borç, borçlu, zorunda
+göndermek: iletmek, boyun-eğme, posta, yayın, E-posta
+mesafe: uzaklaştırma, menzil, ayrılık
+Sessizlik: durgunluk
+ayak: bacak, durdurmak, uyluk, parmak, çeyrek, yürümek, yürüme
+vahşi: çılgınca, yasadışı, sert, yaban-hayatı
+ölmek: ölü, ölen
+kurtarmak: tasarruf, koruma, kurtarmak, korumak, koruma, ezberlemek, mağaza, kurtarmak, kurtarma, kayıt
+yeşil: çiğ, ham
+sorun: zahmet, konu, sorun, sıkıntı, zorluk, yoğurmak, acı
+gülümseme: sırıtış
+yanlış: hata, hata, yanlış, kötü, kötü-davranmak, yanlış, hata, başarısızlık, kusur, yanlış, gaf
+çeşitli: farklı, çeşitli, çoklu, menzil, farklı, çok, aksine, varyant, farklılık, değiştirmek, çeşitlilik
+uyku: uykuda, rüya
+quotative-dava: 
+başlangıç: başla, başlangıç, üstlenmek, çizik, başlangıç, erken, ilk, başlatma, ilk, prensip
+eylem: görev, nokta, adım, aşama, hareket, prosedür, aktif, operasyon, işletme, etkinleştirmek, eylemci, hareket, uygulama, uygulama, işletmek, stok, ralli, infaz, gerçekleştirmek
+ziyaret: giriş, görüşme, ulaşılabilir, seyahat, gezi, seyahat, tur
+izleyin: uyma, yapışmak, aşağıdaki, izlemek, iz, eşlik
+denemek: girişim, teşebbüs, çaba, girişim, deney, test, örnek
+varlık: varoluş, mevcut, varlık, varlık
+tatlı: şeker, nazik, mülayim, sevimli
+zengin: bol, bol, zengin
+düşman: 
+gemi: tekne, yelken, filo, yelkencilik, gemi, seyir, feribot
+durum: bahis, bahis, devlet, durum, durum, durum, servet, aşama, seviye, uygunluk, gereklilik
+Dahil: içermek, dahil, dahil, ait
+dahil-kişi: 
+gizli: gizemli, gizem, pim, yeraltı, salgılamak
+precative-ruh-hali: 
+kibar-kayıt: 
+kötülük: zarar, pis, ahlaksız, kötü, kötü
+Mart: geçit-töreni, protesto, gösteri, Mars
+her-neyse: her-şey, hangisi
+kalmak: kalır, oturmak, yerleşmek, hayatta-kalmak, oturmak, Bekleyin
+yerine: yerine, oldukça, yedek, ikame
+mavi: peri
+imkansız: 
+okul: kampus, merdiven
+fırsat: fırsat, olay, olay, şans, cadde, pazarlık
+evli: evlilik, evlenmek, düğün
+Gıda: yemek, diyet, yemek, besleme, besin
+yirmi: 
+sessiz: sakin, sakin, dengelemek, sessiz, huzurlu, yavaş, rahatlamış, usulca
+kolayca: muhtemelen, kolayca, sorumlu, kolay, kolaylık, hafif, hafifçe, hafifçe, uygun, basit
+muhtemel-görünüş: 
+dil: dilbilimsel, dil
+ifade: ekspres, ifade, ifade, ifade, vahiy, poz, söyleyiş
+hafta: Pazar
+salon: sundurma, tiyatro, koridor, alan, oda, salon, salon, koridor, koşucu, lobi
+Tehlike: tehlikeli, risk, saygı, tehdit
+özellik: varlık, ait, mülkiyet, monarşi, mülk, özellik, özellik, arazi, servet, servet
+doğmuş: doğum
+mahkeme: adli, yemek, forum, deneme
+genellikle: olağan, tipik, genel, tüm, geniş-ölçüde, genellikle, çoğunlukla, normalde, geniş
+Gnomic-görünüş: 
+değer: hak-etmek, değer, değerli, geçerlik, hak
+basit: basitlik, basit, uygun, esnek, kolay, sadece, sadece, düz, mütevazi, sadece, sırf, Düz, sıradan
+ağaç: bitki, ahşap, şaft, kereste
+kavga: savaş, savaş, yüzleşme, kavga, mücâdele
+duvar: 
+cennet: gökyüzü
+yeni-başlayan-görünüş: 
+emir-ruh-hali: 
+ton: zift, melodi, ton, ton, gölge
+saygı: saygı, üstlenmek, varsaymak, Dikkat, düşünce, düşünmek, ilişki, dernek, ilişki, ilişkin, ilişkin, dikkat, kapsama
+beklenen: umma
+ay: ay
+deneyim: deneysel, deneyimsel, deneyimli, uzmanlık, lezzet, deney
+tamamen: bütünüyle, kusursuzca, tamamen, tamamen, oldukça, tamamen, kesinlikle, kesin, tüm, iyice, oldukça, sadece, tam
+taze: taze, saf, temiz, tazelenmiş, yeni, acemi
+dük: cetvel, prens
+kapalı: kaplama, kapsama, kapalı, kapalı, kapalı
+bağlı: kapsam, sınırlama, sınır, sınır, kısıtlama, kısıtlı, bağlı, bağlı, bağlamak
+Doğu: doğu, önce, önceki, önce, önceden, şark
+taş: mermer, kaya, taş
+biraz: bir-şey, her-şey, bazı, oldukça, oldukça, hafifçe, kısmen, her-nasılsa
+yön: oryantasyon, boyut, eğilim, yön, talimat
+sandalye: koltuk, koltuk, dışkı
+destek: sürdürmek, desteklemek, yardım, yardım, dirsek, yardım
+tarih: tarih, karşılaşma
+köy: küçük-köy, kırsal-bölge
+alan: küre, diyar, bölge, bölge, alan, bölge, sektör, domain, arena, stadyum, alan, kenar, kırsal-bölge, kamp
+izin: izin-vermek, kulak, izin, açıklık, ayrılmak, lisans, lisans, rıza, baskı
+hoşgörülü-ruh-hali: 
+başarı: başarılı, başarılı-olmak, refah, başarı, zafer, kazanmak, vurmak, kazanan, kazanan
+uygun: uygun-şekilde, doğru, makul, uygun, doğru, kesin, yetki-verme, tam, tam, acilen, içtenlikle, haklı-olarak, doğru, varyans, uygun, uygun, uygun, uygun, uygun, uygun, uygun, mükemmel, yeterli, düzenli-olarak
+tepe: dağ, dağ
+müzik: müzikal
+merkezden-uzak-inandırıcı: 
+öğleden-sonra: öğleden-sonra, öğlen, öğlen, akşam
+ağlamak: ağlamak, bağırmak, çığlık
+onur: onur, saygı, haysiyet, saygın, onurlu, yüceltici, nezaket, şan, oran, fiyat
+Yedi: 
+özel: kişisel, öz, şahsen, öz, özel, gizlilik, özel, özel
+haber: mesaj
+sahne: yer, görme, bağlam, ekran, görsel, aşama, görünüm, olasılık, çadır
+bahçe: park
+yarış: ırksal, yarış, koşu, yarışma, turnuva, hassas, doğurmak, maç
+dağıtım-dava: 
+öğrenmek: çalışma, öğretmek
+siyasi: siyaset, politik-olarak, politikacı, politika
+yalan: yanlış
+döküm: savurmak, atmak, fırlatmak, atmak, biçim, kalıp, başlatmak, dökmek, çıkmak
+yemek: yemek, besleme, yemek, yemek, tüketim
+zemin: halı, zemin, alt, toprak, yürümek, yüksek, uzun-boylu
+hasta: hasta, sabırlı, acıyan, hastalık, yanlış, kötü
+orijinal: köken, aslında, ön, ilk, sentez, başlangıçta, yerli, hakiki, doğuştan, yerli, ana, birincil, prototip
+yaz: ısı
+din: dini, borç
+resim: portre, boyama, görüntü, fotoğraf, fotografik, fotoğrafçılık, fotoğraf, fotokopi, çizim, çıtçıt, film, örnekleme, betimleme, incir, şekil
+kaçış: kaçmak
+yazar: yazar, öğretmen, editör
+kahverengi: gri, gri, bronz-ten, bronz
+kararlı: belirleme, karar-vermek, belirlemek, kesin, iddialı, tasarımcı, belirtilen, anlamak, kararlı, belli
+ağrı: zarar-vermek, ızdırap, acı, keder, acıyan
+bahar: tüy, bizim, bizim
+yüzyıl: yaş
+yumuşak: kabul-ifade-eden, pürüzsüz, ince, hassas, nazikçe, usulca, nazik, mülayim, hafif
+köşe: açı, kama, boğmak
+üretmek: üretim, oluşturmak, üretken, üretmek, üretim, üretim
+gülmek: alay
+unutmak: gözden-kaçırmak
+Avrupa: 
+sekiz: sekizinci
+elbise: kostüm, giyim, cüppe, elbise, giyinmiş, üniforma, birlik
+korkunç: korkunç, korkunç, son-derece, korkutucu, muazzam, trajik, korkutucu, korkutmak, korkunç, çok
+nefes: solunum, nefes-almak, nefes, nefes, benlik, nefesi-kesilmek
+bilge: makul, mantıklı, sağduyulu, düşünceli, zeki, akıllı, akıllı
+iyelik-işaretleyici: 
+bellek: ezberlemek, referans, anıt
+modern: çağdaş, sofistike, modernleştirmek, moda, son, söylev
+spot: nokta, nokta, saat, yer, leke, leke, yama, yer, hiçbir-yerde, binaların, mahal, yer, yerel, yerleştirmek, işaret, zemin
+yükselmek: bitki, tırmanma, ekmek, tırmanış, yukarı, tahta, binmek, iyileştirme, ortaya, yükseltmek, çıkması, büyümek
+mola: sözünü-kesmek, fren, çare, salon, kesinti, aralık, boşluk, parçalamak, kırmak, Dur, durma, kesmek
+elli: 
+ada: 
+dokunma: temas
+söz: işlemek, taahhüt, rehin, randevu
+commissive-ruh-hali: 
+derece: eşit, kapsam, sınıf, kalite
+plan: plan, anlaşma, program, program, girişim, planlamacı, öneri, proje, arsa, kroki, projeksiyon, düzen, düz, çizim, dizayn
+davranış: eğilim, davranış, davranış, davranışsal
+sürpriz: şaşırtıcı, beklenmedik, tesadüfi, şaşırtıcı
+dakika: 
+atış: sürgün, çekim, kurşun, cephane, fotoğraf, fotoğraf, darbe, patlama, darbe, atmak, çerçeve
+daha-da-kötüsü: kötü, en-kötü, kaba, ters, kötü, son-derece, aşağı, yukarı, üst-katta
+bardak: ayna, kristal, kavanoz, gözlük, gözlük
+örnek: örnek, örnekleme, model, model, mecaz, prototip, olarak, göstermek, örnek, dava, örnek, örnek, kip, Örneğin
+kasa: güvenli, güvenlik, güvenlik, güvenli-bir-şekilde, kendine-güvenen, sigorta
+doktor: doktor, terapist, uygulayıcısı, tıbbi
+completive-görünüş: 
+tekrarlanan: sık-sık, düzenli, sürekli, sürekli, bazen, sık, düzenli-olarak, tekrar
+askeri: birlik, militan
+sıcak: sıcak, rahat, ısı, sıcaklık, sıcaklık, ısıtma, gram, bunaltıcı
+içki: içecek
+sorular: 
+öfke: kızgın, öfke, hakaret, kızdırmak, inat
+doğrudan-doğruya: Düz, direkt, dolaylı, otomatik, basit, acil
+şapka: kapak, kask
+köpek: 
+hizmetçi: kamarot, Garson, hizmetçi
+gurur: kibirli, gururlu, gururla
+kalabalık: acele, kalabalık, çete, miktar, miktar, nüfus, evsahibi, kazık
+tren: taşıma, araba, yük-vagonu, araba, demiryolu, demiryolu, eğitmek
+manevi: ahlâk, manevi-olarak, ahlâki, ahlâk, moral, manevi
+ilişkili: ortak, ilgi, ilişki, ilgili, ilgili, endişe, uygun, boyunca, bağlı, ilgili, müttefik
+girmek: log, giriş, devlet, belirtmek, eklemek, dahil
+kural: yönetim, egemenlik, rejim, yargı, karar, yargı, hakem, hakem, yönetmek, kanun, mevzuat, norm
+kılıç: kılıç
+saldırı: istila, saldırmak, saldırganlık, suç, saldırı, suç, grev, başlangıç, saldırgan
+sağlık: sağlıklı, selamlamak
+paragraf: ayet, fıkra, yığın, nokta, tutum, duruş
+sosyal: toplum, sosyal
+geri-ödeme: cevap, yanıtlamak, dönüş
+Üzgünüm: pişmanlık, kutup, Pardon, bahane, özür
+cesaret: koparmak, cesur, kendine-güvenen, sinir, metanet, cesaret
+lütuf: iyilik, iyilik, merhamet, iyilik, yardımseverlik, adına, Pardon
+resmi: resmi, resmen, resmen, memur, kâtip
+sağlanan: sağlamak, teklif, sağlama, tanıtım, mevcut, arz, hüküm, sağlamak, eğer
+istek: namaz, talep, İddia, gerektirir, gereklilik, soruşturma, soruşturma, istemi, teklif, uygulama
+bakış: belirti, görünüm, tutum, algı, görünüm, görme, bak
+hareket: hareket, kampanya, spor, haçlı-seferi, hareket, hareket, hareketlilik, iş, hareketli
+beklemek: beklenti, umma, beklemek, Bekleyin
+karşısında: ön, karşı, ters, karşı, karşısında, sayaç
+oniki: 
+nişanlı: nişan, meşgul, ilgili, katılmak, dolu
+şarap: üzüm, alkol, alkollü
+tat: lezzet, lezzet, lezzetli, yem, lezzet
+demir: çelik, maden
+dağıtmak: iletmek, dağıtmak, yayınlamak, yayıncılık, yayılma, dolaştırmak, dağıtım, ayırmak, pay, bölmek, Bölünmüş, ayırmak, sınıflandırmak
+ticaret: ticari, iş, ticaret, mal, Internet, pazarlık, işlem, tüccar, alışveriş, pazarlama
+avantaj: kazanç, kâr, fayda, yaşayabilir, iyilik, varlık, tercih, egemenlik
+giysi: dolap, bez, giyim, birlik, giysi, takla
+yargıç: yargı, yargı, hakem, hakem
+fark: diferansiyel, farklılaştırmak, farklı, ayrı, farklı, farklılık, varyasyon, ayrı-ayrı, değişkenlik, varyans, bölmek
+endişeli: acil-durum, aciliyet, ilgili, panik, endişeli, kaygı, endişe, endişe, düşünceli, rahatsız, endişe-verici, korkan, keskin, rahatsız-edici, korkutucu, hevesli, istekli, huzursuz, huzursuz
+kaptan: 
+bitmiş: bitirmek, son, sınırlı, hazır
+kesilme-görünüş: 
+meraklı: istekli, ilginç, heyecan-verici
+yabancı: yurt-dışında, yabancı, yabancı, egzotik, yabancı, dış
+koyulaştırıcı: yoğunlaştırmak
+önem: zorunluluk, ilgi, anlam, değer
+nihayet: eninde-sonunda, sonunda, sınırlı, son, nihai, terminal, ince
+fatura: hareket, el-yazması, hesap, hesap
+kanıtlamak: kanıt, onaylamak, onaylamak, göstermek, ifade-vermek
+önlemek: durdurmak, yasaklamak, alıkoymak, bastırmak, kısıtlamak, engellemek, blok, dizginlemek, caydırmak, yasaklamak, önlemek, püskürtmek, bastırmak, askıya-almak
+boyun: boğaz
+yasal: adli, kanun, meşru, çerçeve
+kuru: kök
+servis: hizmet, kazanmak, sağlamak, teklif
+kaybetmek: bayan, misplace
+kanıt: ortada, kanıt, kılavuz, ipucu, rehber, ekran, tanık
+ortada-dava: 
+ilerleme: uzun-adımlarla-yürümek, ilerleme, gelişme, ilerici, gelişmeye-yönelik, ilerlemek, ilerlemek, gelişme, iyileştirme
+bina: yapı, yapı, inşa-etmek, inşaat, binaların
+arama: bulmak, keşfetmek, keşif, arama, bulma, arayan, aramak, araştırma, anket, takip, soruşturma, soruşturma, soruşturma
+üzücü: bunalımlı, ne-yazık-ki, sefil, üzücü, üzgün, pişmanlık, iç-karartıcı
+günah: suçluluk
+otuz: 
+dürüst: samimi, sadık, dürüstçe, dürüst
+kapamak: kapat, kapalı, kapatma, kapalı, install, kapatmak, paket, demet, parsel, paket, paket, haczetmek
+banka: bank, kalay
+kader: servet, şans, sözdizimsel, hedef, çok
+orman: orman
+ölçmek: ölçü, ölçüm, tartmak, metre, metre
+aksi-halde: alternatif-olarak
+dere: akış, fıkra, akım, elektrik, akı, jet
+ekmek: fırında-pişirmek, ekmek, sandviç
+ek: ekstra, yedek, dahası, fazlalık, fazla, ayrıca, ek, tamamlayıcı, eklemek, ek
+seçmek: seçim, seçim, seçmek, seçici, almak, seçilmiş, kadran, oy, sınav, tercih
+hayvan: 
+hayvanlara-ait-cinsiyet: 
+EVENTIVE-ruh-hali: 
+aynı-olay-işaretleyici: 
+çarpımsal-dava: 
+kalın: şişman, sık, yoğun, yağ
+yaratık: organizma, öz
+yağmur: ıslak, yağış-miktarı, duş
+yüzey: yüz, seviye, uçak, alan
+kutsal: kutsal, net, sadece
+Temmuz: 
+rapor: belirleme, ifade, oran, ilişki, ilişki, adil, sergi, deneme, poz, Gol
+sahil: iplik, plaj
+dosya: belge, bobin, loca, profil, arşiv
+omuz: şaft, eksen, betimleme, tarak, kol
+şaşırmış: şaşırmış, şaşkınlık
+royal: imparatorluk, monarşi, krallık, imparatorluk, gerçek, gerçek
+şarkı: melodi, iz, şan, şiir
+konfor: kolaylaştırmak, rahatlamış, rahatlatıcı, teşvik, kolaylık, dinlenme, kabartma
+kimse: kimse, birisi, birisi, kimse, herkes
+çim: saman, ot, ot, çim, gram
+çekmek: sürüklemek, Çek, çekmek, ilginç, temyiz, çekici, çekilmek, heyecan-verici, çekmek, ilginç-biçimde, çizim, Kaldır, çıkarmak
+açılış: ön, ilk, keşif, boşluk, yarık, açıkça
+Haziran: 
+balık: akvaryum
+sermaye: bölüm, fon, varlık
+meme: göğüs
+kar: buz
+Eğitim: eğitmek, ders, eğitici, okur-yazarlık, oluşum, eğitim, tahsilli, akademik
+keskin: parlak, sert, sıkı, keskin, baharatlı, sivri, akut, keskin, gevrek
+yazık: merhamet, merhamet, sempati, sempatik, merhametli, korkunç, penaltı, tüy, şanssız, beğenmemek, zarar, zarar, pişmanlık
+gider: ücret, harcama, maliyet, baskı, çıktı, ücret
+seninki: senin
+milyon: milyonuncu
+yorgun: yorgunluk, yorucu
+öldürmek: cinayet, öldürme
+gölge: gölge
+ağırlık: yük, ağır, ağır, tartmak, baskı
+kitle: kalite, toplu, miktar, yığın, çoğul, çok, yumru, küme, çete, suç, hamur, makarna
+kurulmuş: install, katı, sıkıca, kararlı, oluşturma, kurmak, görevdeki
+cesur: cesur
+ince: sıska, seyreltik, konik, dar, yağsız, ince, ince, ince, hafif, Lanet-olsun, rarefied, narin, ölçü
+memnun: memnun, memnuniyet, hoşnutluk, memnun, karşılamak, tatmin-edici
+ara: ara, bak, izlemek, seçim, incelemek, denetlemek, sınav, test, denetim, ara, anket, araştırmak, anlamak, tashih, kontrol
+erdem: iyilik, erdemli, iyilik, yardımseverlik
+ulusal: millet, milliyet, etnik, yerli
+ilahi: kutsal
+vadi: havza
+tahmin: sonuç, şüpheli, varsaymak, tahmin, tahmin, tahmin, tahmin, tahmin, spekülasyon-yapmak
+spekülatif-ruh-hali: farazi-ruh-hali
+sarı: soluk, kehribar, sarışın
+kalıntılar: kalıntı, artık, kalan, kalanlar, dinlenme
+bükülmüş: kavisli, viraj, kıvrımlı, eğilim, bükülmüş, eğim, eğimli, eğimli, katlama
+kutu: bavul, Çekmece, fon, malzeme, kutu, çöp-kutusu
+sezon: mevsimlik, bölüm, istasyon, çağ
+bilim: ilmi
+delik: delik, matkap, donuk, sıkıcı, delmek, kızdırmak, forum
+amca: 
+liste: indeks, katalog, menü, kayıt
+Ağustos: 
+popüler: yaygınlık, ünlü, önemli, halk
+bilinmeyen: yabancı
+tanıdık: tanıdık, soy, torun
+tanıdık-kayıt: 
+okuyucu: şarkıcı
+yaklaşım: ulaşmak, giriş, teknik, taktik, metodoloji, tutum, tavır, yöntem, moda, prosedür, yaklaşma, arayüzey
+iki-kere: çift
+entellektüel: us, istihbarat, zihinsel, akıllı, psikiyatrik, düşünür, bilgelik, manevi
+gerçekten: gerçekten, gerçekten, tam, aslında, pratikte, fiilen, gerçek, samimi, gerçekçi, kusursuzca, kesinlikle, elbette, kesinlikle, elbette
+rahip: ruhban-sınıfı
+yaralı: yaralı, yara, zarar-vermek
+üzüntü: keder, üzüntü, depresyon, bunalımlı, yas, ızdırap
+saray: 
+dövmek: yenilgi, yumruk, tokat, vurmak, çarpma, ritim, üstesinden-gelmek
+ha?: 
+aptal: aptal, hile, aldatmak, hile, aptal, aptalca, deli, çılgın, deli, şaşırtmak
+kenar: kenar, saçak, marjinal, yoğun, sınır, kenar, tahta
+dokuz: dokuzuncu, yeni
+patlama: üfleme, patlama, patlamak, kırık, patlama, çırpınma, patlama
+acı-çekmek: katlanmak, sürdürmek
+gürültü: gürültülü, bağırmak, yaygara, kükreme
+edebiyat: edebi
+tavsiye: konsey, tavsiye, tavsiye, bildirmek, danışma, tahta, bahşiş
+boş: boş, boş, davul, boş, boş, boşluk, vakum, nafile
+rütbe: posta, sınıf, başarı, kategori, değer, sınıf
+fırtına: 
+cep: çanta, paket
+hayal-gücü: fantezi, düşünmek, varsayım, fantezi, kurgu, hayali
+cümle: yargı, yargı, önerme, teorem, öneri, öneri, ceza, mahkumiyet, ifade, kınamak, kınamak, penaltı
+Kasım: 
+Aralık: 
+yokluk: yok, eksiklik, kıtlık
+teşekkür: şükran, minnettar, teşekkürler, teşekkür-ederim
+adres: 
+kuş: uçuş, uçak, jet, uçak, uçak, havayolu
+mal-sahibi: Müdür, kiraya-veren
+ceket: cüppe, kılıf, kapak, ceket, kürk
+hazırlamak: hazır, hazırlanmış, düzenlemek, hazırlık, hazırlamak
+ilişkiler: ilişki, ilişki, oran, ilgi, ilgili, mesele, iletişim, iletişim-kurmak
+duman: sigara-içme, tütün, yanmak
+Ocak: 
+makine: makinalar, motor, uçak, araç
+içerik: malzeme, şey, uymak, karşılamak, içermek, dahil, oluşur, dahil
+dişler: diş, vites
+utanç: rezalet, mahçup, utangaç, mahçup, utandırıcı, utanma, çıplak, çıplak, hakaret, hakaret
+defne: dut, vajina
+beyin: beyin, ilik
+halka: küçük, kadran, kıvırmak, döngü, lastik, lastik, mühür, kaşe
+ifade-işaretleyici: 
+kare: 
+meyve: 
+çay: 
+açıklamak: açıklama, örneklemek, ekspres, ifade, bildirmek, açıklamak, yorumlamak, yorum
+hoşgeldiniz: selamlama, resepsiyon, eğlendirmek, Hey, merhaba, selamlamak
+şiir: şiir, ayet
+satın-almak: satın-alma, kazanmak, göze, pazar
+sadık: sahtekâr, sadık, içtenlikle, sadık, doğru, güvenilir
+heyecan: uyarım, heyecanlı, yaygara, gerginlik, kışkırtmak, sevinç, uyarılma, floş, kaygı
+kırk: 
+Nisan: 
+nazikçe: Lütfen, samimi, nazikçe
+Ekim: 
+acı: sıkıntı, ızdırap, ızdırap, acı, acı, acı, acı
+köle: kölelik
+gevşek: bağımsız, gevşek, çözmek, çözmek, gevşek, boş, serbestçe
+metin: üslup
+kredi: ipotek, kredi-kartı, borç, ödünç-vermek, ödünç-almak, borç, prestij, geçerlik, güvenilirlik
+onbeş: 
+zalim: sert, sert
+katılmak: katılmak, katılmak, ilgili, atılmak, yapışmak, katılımcı, ilgi, birleştirmek, bağlamak
+süreç: işlemek, prosedür, tedavi-etmek, operasyon, deneme
+suç: suçluluk, suç, suç
+toz: baraj, toz
+pratik: fonksiyonel, pragmatik, pratikte, uygun, fiilen, kullanışlı, uygulamalı
+renk: renk, boya, heves, boya, soluk, renkli, renkli, floş, bitirmek
+yıkmak: enkaz, baltalamak, sabotaj, indirgemek, yıkmak, ezme, parçalamak, harap, yıkmak, silmek, inkâr-etmek, imha
+artırmak: ilerlemek, artırmak, dağ, yükseltmek, eklemek, eklemek, büyüme, büyütmek
+burun: 
+itiraf-etmek: tanıma, kabullenmek, kabul-etmek, tanımak, kabul, onaylayan, desteklemek, hibe, ödül
+dün: yarın
+hesternal-gergin: 
+başarısız: başarısızlık, başarısız, yenilgi, aksilik, aciz, yıkmak, hayal-kırıklığına-uğratmak
+devam-etmek: ilerlemek, sürekli, kalıcı, devam, sürekli, devam
+aşınma: taşımak, kapıcı
+kör: 
+düzine: birkaç
+sinek: uçan, atlama, uçuş, havacılık
+övgü: hayranlık, hayran, itibar, hak, tebrik-etmek, kutlama, şan, şöhret
+şeytan: 
+kademeli-olarak: yavaş-yavaş, kademeli
+kurban: kurban, av, kaza
+egzersiz: atletizm, egzersiz-yapmak, atama, uygulama, uygulama, spor, uygunluk, prova
+vicdan: zamir, bilinç
+teori: prensip, kuramcı, teorem
+bakan: 
+nefret: pis, iğrenç, kin, beğenmeme, önyargı, kin, içerlemek, bıkkın, nefret, iğrenme
+göl: 
+merkez: merkezi, merkez, istasyon, merkez
+soluk: bilinçsiz, umutsuzluk, umutsuz, zayıf, soluk
+akılcı-cinsiyet: 
+dikkatli: düşünceli, dikkatli, yoğunlaştırmak, ihtiyatlı, tam, doğru, kesin, detaylı
+zevk-almak: hoşlanma, takdir-etmek
+ibadet: ayin
+mal: ürün, madde, mal, emtia, şey
+cilt: deri, emme, bağırmak, kabuk, kabuk, kürk, lezzet
+çatı: teras, tavan, kaplama, kapsama, kapak
+taç: 
+kale: kafes, kale, kilit
+taht: 
+ekli: tutmak, şartlı, iliştirmek, bağlı, bağımlı, ortak
+mil: eğilim, eğim, yağsız, eğim, istekli
+aşırı: maksimum, nihai, kutup, kutup, aşırı, ciddi, yoğun, yoğun, uzuv, bahşiş
+hapis: hapis
+fincan: kupa, çanak
+üye: organ, üyelik, uzuv, içerideki
+sivil: yerli, vatandaş, kent, sivil
+her-yerde: boyunca, herhangi-bir-yere
+belirgin: açık, belli-ki, ortada, direkt, bariz, kesinlikle, kesin, açık, açıkça, şeffaf, belirsiz, farkedilebilir
+çift: çift, par, çift, çift, az, birkaç, buhar
+hacim: makara, çok, kapsam, miktar, nispeten, nicel, blok, yığın, modül, yığın, kapasite, kapsama
+görenek: müşteri, isteğe-bağlı, kostüm, Gümrük, uygulama, alışkanlık, alışığım
+yay: kemer, soğan, eğri
+takım-elbise: uygun, kostüm, uygun, anlaşma, uygun, eşleştirme, dava, kovuşturma, dava, cüppe, İddia
+et: et, sığır-eti
+süt: mandıra, musluk, jöle
+bitkisel-cinsiyet: 
+vizyon: görme, trans, kavrama, cephe, görünüm, belirti, olasılık, peyzaj, görünüm
+nadir: nadiren, zorlukla
+kuzen: göreceli
+köprü: sınıf, güverte
+korumak: koruma, koruma, bekçi, kalkan, savunmak, korumak, korumak, korumak, güvenli
+tuz: abartılı, abartmak, tuzlu
+masum: 
+kraliçe: 
+saymak: bölme, saymak, hesaplamak, güvenmek, hayal-kırıklığı, hesap
+merak: gözetlemek
+dans: davul, dans, atlama, atlamak
+otel: konaklama, Han
+doldurmak: 
+tutuklu: 
+mağaza: mağaza, ahır, iş, anlaşma, alışveriş
+merdivenler: merdiven, basamak, merdiven, Çekmece
+dilenmek: arayan, üstlenmek, savunmak
+kum: 
+şiddetli: şiddet, sert, çalkantılı, harika, şiddetli, güçlü, yoğun, dinç, çılgınca, yoğun
+Eylül: 
+kalkış: ayrılmak, ayrılmak, çıkış, çıktı
+harabe: imha, yıkılma, zarar, yağma, afet, yıkıntı
+beceri: yetenek, yetenekli, kapasite, etki, yeterlik, zanaat, uzmanlık
+sığırlar: inek
+ekipman: cihaz, cihaz, malzeme, vites, birlik, ele-almak, donanım, teknik, teknoloji, tesis, fikstür
+mutfak: yemek-pişirme, ocak
+satmak: satış, yarı
+hız: hız, hız, moment, keskin
+Sonuç: sonuç, para-çekme, çıktı, içerme, Çözünürlük, sonuç, sonuç, koleksiyon, sonuçlandırmak, öneri
+bilgisayar: bilişim
+sonsuz: hiç, sonsuza-dek, sonsuz
+sınırlı: sınırlı, hapsedilmiş, hapsetmek, ayrılmış, kısıtlı, sınırlamak
+kütüphane: kitaplık
+baz: vakıf, temel, merkezli, temel, birincil, temel, çekirdek, temel, alt
+karışıklık: karışıklık, kaos, yaygara, kafa-karıştırıcı
+şanlı: parlak, güzel, asil
+aynı-şekilde: aynı, ayrıca, eşit-olarak
+korkmuş: korkan, korkmuş, dehşet, korkutmak
+mutsuz: şanssız, şanssız, sefil
+makale: deneme, madde
+pişirmek: yemek-pişirme, fırında-pişirmek, çıban
+bant: kemer, kurdele, bant, takım, grup, şerit, şerit, bölge, iplik, demet, küme, Lane
+çöl: çöl, ıssız
+öpücük: 
+top: kauçuk, küre, top, kurşun
+sopa: stok, baston, yapışmak, ahşap, kereste, yarasa, işaret
+tartışma: mantık, hareket, muhakeme, tartışma, tartışma, tartışma, ihtilaf, sistem
+gözlemek: denetlemek, incelemek, keşfetmek, araştırmak, gözlem
+kutsama-ruh-hali: 
+çarpıcı: ödenmemiş, çarpıcı, grev, önemli, önemli, önemli, farkedilebilir, etkileyici, şaşırtıcı, şaşırtıcı, açık, parlak
+suçlu: suçluluk, borçlu, gücendirmek, suçlu, hükümlü
+tabanca: tüfek, silâh, top, kale
+polis: zorlamak, denetlemek
+gizlemek: gizlemek, salgılamak, gizlemek
+sefer: kampanya, sürücü, gezi, seyahat, yolculuk, tur
+cahil: cehalet, habersiz, cahil, aptalca, aptal, aptal, gülünç
+cömert: liberal, misafirperverlik, yardımseverlik
+bulut: 
+atık: yararsız, gereksiz, çöp, ret, ret, kalıntı, kalanlar, çöp
+Şubat: 
+hastalık: hastalık, hastalık, koroner, tatmin-edici, tatmin-edici, sendrom
+harcamak: çiçek, kullanmak, harcama, izlemek, atlamak, bayan
+kaynak: kaynak, çiğ, çeşme
+girişim-dava: 
+teyze: 
+gecikme: ertelemek
+gecikmiş-zorunlu: 
+rapor-ortada: 
+gece-yarısı: kuzeyinde
+kahraman: savaşçı, şampiyon
+felsefe: felsefi
+parmak: parmak
+rahat: iyi, iyice, uygun-şekilde, düzgünce, rahatça, uygun, rahatlatıcı, hoş, rahat, kullanışlı
+bir-yerde: herhangi-bir-yere
+basın: medya, dergi, dergi, baskı, tip, formül
+personel: mürettebat, kişisel
+ödül: ödül, hediye, ödül, bonus
+suçlama: hata, kusur, kusur, borç, suçluluk, haddini-bildirmek, dava-açmak, yükümlülük, sorumluluk
+sefalet: sıkıntı, acı, ızdırap, sefil, can-sıkıntısı
+alın: 
+ilan: reklâm, reklâm, duyurmak, ilan, duyuru, tanıtım, ihbar, beyan
+melek: toprak-sahibi, peri
+Tekil-sayı: 
+şafak: alaca-karanlık
+ticari: iş, reklâm, ticari, iş
+affetmek: bahane, Pardon, katlanmak, muaf, rahatlatmak, reddetmek
+koyun: Kuzu
+sabır: metanet, sabır
+çiftlik: çiftlik, yetiştirmek, fidanlık, tarım
+tutarlılığına: referans, başvurmak
+Mısır: buğday, boynuz
+anahtar: bağ, düğme, İngiliz-anahtarı, anahtar, ana, hayati, önemli, duyarlı, majör, niş, ana, ipucu
+çoğunluk: birçoğu, en
+zayıflık: yetersizlik
+atmosfer: çevre, gökyüzü, havacılık, uzaysal
+iç-çekiş: nefesi-kesilmek
+insanlık: insan
+muhalefet: karşı, karşı-çıkmak, karşı, kontrast, direnmek, protesto, ters, direnç, sayaç, rakip, onaylamama, anti, dayanıklı, anti, itiraz
+disk: disk, dilim, sayaç, silindir, plaka, kayıt, tepsi, sürücü
+yalnız: yalnız, yalnızlık, ayrı-ayrı, tek, sadece
+sanatçı: sanatçı, ressam, şovmen
+şövalye: binici
+çekicilik: etkileyici, cazibe, sihirli, büyü
+karar: karar-vermek, yargı, karar, yargı, belirleme, Çözünürlük, çözüm
+vali: muhafazakâr, cetvel
+şube: 
+eğilim: aranjman, yapılandırma, eğilim, eğilim, hüküm, düzen, ruh-hali, zamanlamak, tarife
+coşku: heves, sıcaklık, hevesli, lezzet, öfori, tutku, coşku, tezahürat
+tümevarımsal-ruh-hali: anlaşılan-ruh-hali, tümdengelimli-ruh-hali
+topluluk: toplum, kategori, insanlar
+yağ: yağ, yakıt, fosil, ilik, termal, tereyağı
+boru: tüp, musluk, musluk, yormak, kanal
+baskı: baskı, baskı, baskı, eksen, kalıp, izlenim
+aman: ya
+söylev-bağlam: 
+vokatif-dava: 
+kabin: kulübe, çadır, loca
+alarm: çan, uyanık, korkutmak, dehşete-düşürmek
+sinir: gergin, şaşkın, rahatsız-etmek, üzgün, mahçup, rahatsız-edici, taciz-etmek, üzücü, sinirsel, endişeli, sinir
+kalıcı: süre, sık-sık, düzenli-olarak, kalıcı, sürekli, sabit, sürekli
+bıçak: bağırmak, kılıç
+ipek: 
+hakaret: küçümsemek, kin, beğenmeme, iğrenme, nefret, haddini-bildirmek, hakaret, hakaret, ihmal
+cehennem: 
+ayrılmış: ayrı, bir-kenara, ayrı, farklı, farklılık, ayrı-ayrı, uzak, ayrık, izolasyon, dışlanır, ayrılmış, ayrılık
+ağır: ciddi, içtenlikle, ağır, ağır, keskin, aktif
+karışık: karışım, kombinasyon, bileşik, karıştırmak, ortak
+ahşap: ahşap, kereste
+tercih: tercih
+uyarı: Dikkat, uyarmak, uyanık, anıt, ihbar
+öğüt-ruh-hali: 
+dürtü: ilham, nabız, yığın, dürtü, moment, itme
+hırs: hayal-kırıklığına-uğramış, hayal-kırıklığı, şehvet, açgözlü, vazgeçirmek, hırslı
+reddetmek: ret, reddetmek, inkâr, ret, olumsuzluk, çöp, inkâr-etmek, düşüş, onaylamamak, reddetmek, yasaklamak, yasak, yasaklamak, çelişmek
+anayasa: tüzük, anayasal
+enstrüman: alet, gemi, varlık, organ, konteyner, yarar
+sürekli-görünüş: 
+gelgit: dalga, çıtçıt
+kolej: fakülte, akademi, kampus, üniversite
+kuyruk: kuyruk
+nesil: torun
+kedi: 
+direkt-ortada: 
+terkedilmiş: ihmal, ayrılmak, ıssız, çıkmak, terketmek
+on-bir: 
+içgüdü: doğal
+karakteristik: özellik, uzmanlık, karakter, alışkanlık, eğilim, davranış, davranış, özellik, tanımlama, nitel, tipik
+kabile: gövde, kök, yük
+endişeli-ruh-hali: 
+barınak: çare, konut, yerleşme, yetişme-ortamı, yerleşim, koruma, yurt, iltica
+kaba: terbiyesizce, kaba, kırıcı
+binme: binmek, binici
+sallamak: dâhiyane-buluş
+sanayi: sektör, üretim, sanayi, sanayileştirmek
+meslek: iş, kariyer, işgal, profesyonel
+lamba: ampul
+Kahve: kafe
+itaat-etmek: boyun-eğme, uymak, dinlemek
+kuzey: kuzeyinde
+hemşire: 
+sağlamak: güvence, garanti, rehin, garanti, sigortalamak, sağlamak, anlamak, onaylamak, sağlamak, sağlamak, elbette, ikna-etmek, onaylamak, güvenli
+zincir: dizi, dizi, dizi, hapis
+öğretim: talimat, eğitmek, eğitim
+ayakkabı: ayakkabı, sandalet
+yarda: kod, sayfa, kur
+belirsiz: belirsizlik, belirsiz, belirsiz, belirsiz, gizemli, belirsiz, belirsiz, dalga, boş
+başka-yerde: başka
+daire: düz, daire, bölme, süit
+etkinlik: işlem, işlev
+Cumartesi: tatil-günü
+güneş: güneş
+dul: 
+eleman: görünüş, özellik, madde, bileşen, organ
+yansıma: niyet
+organizasyon: doku, organizasyon, düzenlemek, birlik, şirket, yarar, ajans, varlık, sistem, yapı, doku, düzen, kurum, enstitü
+star: 
+olay: olay, olay, fenomen, oran, kaza, dava
+konuk: yabancı, ziyaretçi, yabancı, yabancı, yeni-gelen, müşteri, müşteri, evsahibi
+bar: çıplak, bar, yük, navlun, kafe, baryum
+şişe: kavanoz
+kutsamak: nimet
+karıştırma: idare, karıştırmak, uyandırmak, isyan
+iç: içinde, içeride, iç, iç, yerel, yerli, kapalı, zihinsel, içerideki
+düzeltmek: sabit, ayarlamak, tashih, çözüm, çözmek, çözmek, çare, iyileştirmek, düzeltmek, tamam, Tamam, sürekli, sürekli, bakıyorum, doğru, belirlemek, kurmak, belirlemek, anlamak
+türetmek: elde-etmek, kazanmak, türev, almak, almak
+oyuk: düz, çıplak, boş, kablo
+il: il
+medeniyet: 
+asmak: 
+şok: darbe, aksilik, travma, şok-edici, çatışma
+istisna: kısmi, ayırt-etme, klişe, muafiyet
+gerginlik: stres, gerginlik, yük, yorgunluk, çaba, yoğunluk
+standart: kriter, kriterler, oran, seviye, varsayılan, norm, sabit, sürekli, sürekli, kararlı, statik, sürdürülebilir, standartlaştırmak, model
+sürücü: sürücü, sürücü, kılavuz, yönetim, binmek
+kurtulmuş: Kaldır, çekilmek, elemek, eliminasyon, muaf, rahatlatmak, aklamak
+küfretmek: küfür
+hazine: mücevher
+tohum: sperm, somun, parçacık
+kule: kale
+favori: favori
+geçenlerde: son, taze, yeni
+son-geçmiş-gergin: 
+uyanık: bilinçli, moral, uyanmak, uyanık
+mobilya: 
+halat: kordon, dizi, kayış
+macera: girişim, kumar
+kraliyet: saltanat
+bayram: parti, kutlama, ziyafet, tatil
+tanımlamak: tanım, tanımlama, tasvir, tanımlamak, tanımlamak
+altmış: 
+ölçek: çerçeve, ölçü, oran, merdiven, merdiven, basamak
+tören: ayin, işlev
+avcılık: av, kurban, av, kovalamak, çekim
+fısıltı: fısıltı
+genelde: esasen, önemli-ölçüde, en, başlıca, çoğunlukla, çok, geniş-ölçüde, ağırlıklı-olarak
+Hristiyanlık: 
+avukat: avukat, avukat
+detay: yayılma, uzatmak, uzatma, genişleme, genişletmek, derinden, detaylı
+prenses: 
+altar: mabet
+ağ: ağ, net, ızgara, doku, tuval, afiş
+mor: eflatun
+toplamak: toplamak, biriktirmek, küçültmek, kadran
+seçim: seçim, seçilmiş, iz, anket, balina, seçim, oy-pusulası
+gebe-kalma: kavram, kavram, düşünmek, algı, algılamak, kavramsal, dizayn, yakalamak, tutuklama, ele-geçirmek
+sarhoş: alkollü
+dökmek: devirmek, dökmek, dökmek, devirmek
+asansör: asansör, yükseltmek, iyileştirme, yükseltmek, yürüyüş
+jest: işaret, işaret, sembol, sembolik, tutum, duruş
+yönetmek: yönetim, denetlemek, işlemek, yönetim, yönetmek, yönlendirmek, kontrol
+takas: takas, karşılıklı, takas, yedek
+kesin-makale: 
+imparator: hükümdar
+uzak: uzak, uzak, uzak
+çirkin: pis, iğrenç
+zararsız: 
+rulo: kaydırma, bobin
+inç: Gümrük, başparmak
+gazete: dergi, bildirmek, günlük
+sakal: bahşiş, çene
+gözyaşı: kapmak
+komisyon: komite, tahta
+oysa: süre, sırasında
+geçit: çapraz, kavşak, geçit, geçen, geçiş, koridor
+bağımsızlık: bağımsız, özgürlük, serbestçe, özgürlük, özerklik
+koku: pis-koku, parfüm
+onsekiz: 
+tarihi: tarihsel, tarih, tarihçi
+brüt: toplam, toplam, kirli, çiğ, ham
+kök: kök, taze
+çamur: toprak, balçık, kil, kir, çiçek
+gelin: büyükanne
+peçe: perde, yelken, yelkencilik
+tiyatro: tiyatro
+karşılaştırma: karşılaştırmak, kıyaslamalı, ilişki, oran, yüzleşme
+rakip: rakip, muhalif, yarışma, rekabetçi, yarışmak
+denge: denge, eşit-olarak, eşitlik, yatay, orantılı, par, bütçe
+koç: eğitimci, uygulayıcısı, öğretmen, akıl-hocası
+mizah: mizah, komik, ruh-hali, komedi
+yeni: kurgu, yeni, yeni
+intikam: kin
+kıskanç: kıskançlık, imrenme
+tekerlek: bisiklet, daire
+yanmış: yanmak, alevlendi
+flaş: yıldırım, parıltı, parlaklık
+oluşturmak: oluşturma, yapı, inşa-etmek, yapıcı, yapmak, üretmek, oluşturmak, oluşturmak, oluşturmak
+çatışma: çatışma, savaş, yüzleşme, kontrast, kaza, darbe
+lanet: 
+lanet-ruh-hali: 
+çaresiz: sefil
+pozitif: pozitif-olarak
+kulüp: yarasa, log
+sel: 
+tahıl: tahıl, buğday
+kayıtsızlık: ilgisizlik, dikkatsiz, ihmal
+ufuk: 
+assumptive-ruh-hali: farazi-ruh-hali
+dik: yükseklik, eğimli
+armoni: ödün, melodi
+gök-gürültüsü: 
+çocukluk: 
+diz: kucak
+yazılım: uygulama, repertuar
+hasar: zarar-vermek, zarar, zarar, yaralamak, yara, travma, yaralı, ihlal
+makbuz: almak, Giriş, resepsiyon, kabul, kabul, fiş, benimseme
+etkinleştirmek: yetenekli, yetkili, etkinleştirmek, izin-vermek, adlandırmak, taşımak, zorlamak, let, yetki-vermek
+protasis: 
+kayma: kaygan, slayt, kayma
+devrim: devrimci, darbe, rotasyon, isyan, isyan
+çiftçi: köylü
+inme: darbe, darbe, acele, mücâdele
+platform: aşama, forum, vakıf
+haberci: temsilci, büyükelçi, diplomat
+ayrıcalık: ayrıcalıklı, tercih, kota, imtiyaz, teklif, imtiyaz
+örgütlü: kurum, düzenlemek, enstitü, aranjman, düzenlemek
+öğrenci: öğrenci, bilgin, lisans
+mağara: 
+gelenek: geleneksel, geleneksel, Gümrük, teslim
+trajedi: salgın, üzüntü
+veda: Güle-güle, bye
+eleştiri: eleştirmek, eleştiri, yorum
+pamuk: yün
+hastane: iltica
+kira: bilet-ücreti, kiralama, vergi, haraç, kiralama, kullanmak, tutmak, kiralanmış, tüzük
+gaz: 
+kaçınılmaz: kaçınılmaz
+ölümcül: 
+yaprak: yaprak, kılıç
+yayın: yayınlamak, yayıncılık, baskı, ilan-etmek, yayın, bırakma, çıktı, yayılma, baskı, duyurmak
+düşmanca: düşmanca, düşmanlık
+çeviri: çevirmek, çevirmek, yorumlama, salgın, transfer
+cenaze: defin, mezarlık
+un: toz, hamur, tam, doğru, kesin, yemek
+yazışma: uygun, temas, iletişim, konuşkan
+romantik: 
+kulübe: kulübe, loca
+önermek: poz, teklif, hareket, önerme, öneri, önermek, tavsiye, öneri, teklif, atamak
+taklit-eden: 
+dolar: 
+gün-ışığı: 
+on-altı: 
+montaj: toplantı, konferans, kongre, yapılandırma
+koloni: 
+kanat: koğuş, süit
+aslan: 
+kültür: kültürel
+sütun: dizi, tabaka, kutup, geçit
+kurnaz: aldatıcı, hile, becerikli
+dram: taklit, dramatik
+şaka: alay, espri
+sis: sis
+tıp: ilaç, çare, sprey, reçete
+on-dört: 
+asit: ekşi, asidik
+yani: herhangi, yani, belirli
+gelir: dantel
+piskopos: 
+turuncu: 
+banyo: banyo, duş, küvet
+ilkel: erken, ilk
+sepet: çöp-kutusu, çanta
+sekreter: 
+saman: saman
+sabırsız: istekli
+kurtuluş: güvenlik, kurtuluş, merhaba
+hodiernal-gergin: 
+niyetinde: yönelik, niyet, ilgili, keskin, güdü, isteksiz, adamak, adamak
+buhar: buhar
+zehir: zehirli, toksik, herbisit
+yetenek: parlaklık, yetenekli, vasıf, yetenek, repertuar
+iklim: hava
+etkili: geçerli, etkin-biçimde, verimli, etki, etkili, yararlı, yaşayabilir
+ayırmak: farklılaştırmak, fark-gözetmek, ayırt-etme, farklılaştırma, ayırmak, ayırmak, reddetmek, dışlamak, salgılamak
+yıkama: yıkama
+itiraf: kabul, inanç, tanıma
+saçmalık: çöp, mantıksız, yersiz
+kömür: karbon
+kano: 
+geçici: aralık, süre, geçici, tesadüfi, süre
+delimitative-görünüş: 
+kemik: bacak
+Pazartesi: 
+Salı: üçüncü
+Çarşamba: dördüncü
+federal: federasyon, merkezi
+çekici: çekici, olumlu
+temsilci: göstermek, adına, temsilci, avukat, milletvekili, sözcü
+keten: keten, iç-çamaşırı
+lavabo: boğmak, havza, çinko
+yeğen: yeğen, erkek-torun, torun
+kanlı: kan-dökme, boşaltmak
+kuşatma: kuşatma, koltuk
+mide: göbek, karın, karın, matris
+pirinç: bronz, bakır, pirinç
+zirve: zirve, üst, bahşiş
+beşinci: beş
+ucuz: ucuza, düşük
+özel-kişi: 
+kaçırmamak: ele-almak, hapsetmek, alıkoymak, rezervasyon, kapmak, dolu, işgal-etmek, haczetmek, kapmak, kavramak
+çit: çit
+heykel: heykel
+ağır-silahlar: top
+kucaklamak: emmek, sokulmak
+çevreleyen: etrafında, Komşuluk, komşu, komşu, Komşuluk, periferik, çevre, bitişik, yakında
+kesinlikle: sıkı, tutarlı, tam-olarak, sıkı, şiddetli, kesinlikle, kesinlikle, kesinlikle, sıkıca, sert
+geyik: 
+çalı: 
+demiryolu: demiryolu, demiryolu
+deşarj: kurtuluş, boşaltmak, bırakma, vazgeçmek, çıkarmak
+mirasçı: miras
+meşe: 
+tatsız: zevk, hoş, huzursuz, sinirlenmiş, üzücü, pis, rahatsız
+buluş: icat-etmek, keşif, yenilik
+piyano: 
+ikna-etmek: ikna-etmek, kutlamak, anmak
+görünmez: gizemli
+tanınmış: ünlü, adı-çıkmış, önemli
+zulüm: 
+ayartma: 
+bitmişlik-görünüş: 
+ekonomik: ekonomi, ekonomik-biçimde, iktisatçı, mali
+uluslararası: global, çok-uluslu
+müdahale-etmek: girişim, müdahale, müdahale, rahatsız-etmek, zahmet, rahatsız-edici, kesmek, kızdırmak, kızdırmak, taciz-etmek, çatışma
+filozof: felsefi
+zarif: moda, narin
+refah: yardımseverlik, refah, hüküm
+balık-tutma: 
+çalmak: hırsızlık, soymak, soygun, tokatlamak
+dudak: gaga, oral, kenar
+emekli-olmak: emeklilik, emekli, emekli, geri-çekilme, dinlenme, boş, çekilmek, istifa-etmek
+germek: düzeltmek, uzatmak, sistem, özellik, parça, geçit, fragman, yığın
+galeri: koleksiyon
+paralel: yanında, uyumlu, ortak, iliştirmek
+atelic-görünüş: 
+kıta: kıta
+yasaklayıcı-ruh-hali: yasaklayıcı-ruh-hali
+kravat: kravat, kartal
+hücre: öz, çekirdek, kafes, versiyon, hareketli, cep-telefonu, cep-telefonu
+yumurta: testis
+yapay: sentetik
+bu-arada: aynı-anda
+kriz: çökme, yargı, yargı, acil-durum
+kibar: nezaket, tahsilli
+öğle-yemeği: kahvaltı, akşam-yemeği
+çam: çene
+it: sıkmak, sürücü, teşvik-etmek, desteklemek, itme, baskı
+ittifak: birlik, lig, koalisyon, birleştirmek, ortaklık
+bel: kalça, hayat, yaşam, orta, orta, orta
+mucize: şaşkınlık
+denizci: 
+saflık: iffet
+cumhuriyet: demokrasi
+telefon: telefon, hareketli
+kırbaç: 
+gömlek: t-shirt
+tanıtmak: tanıtım, tanıtım, kurmak, başlatmak, kılmak, hüküm, tavsiye, Referans, enjekte-etmek, teslim-etmek, teslim, tasvir, tanımlamak
+kanepe: koltuk
+süpürme: silme, tırmık, taramak
+hırsız: Müdür
+tutmak: korumak, rezerv, rezervasyon, geri, tutmak, dizginlemek, alıkoymak, dayanmak, tutmak, koruma, sürdürmek, korumak, korumak, yapışmak
+kanal: kanal
+kişilik: karakter
+reform: gelişme, düzeltme, evrim, değiştirmek
+tehdit: tehdit, tehdit-etmek, tehlikeli, korkutucu
+palmiye: akçaağaç
+konuşmacı: sözcü
+eşik: bariyer
+uyarmak: lobi, dürtü, neden, uyarmak, heyecanlandırmak, poz, kurşun, özendirmek, uyandırmak
+mızrak: yedek
+temiz: düzenli, temiz, gergin
+oturum: toplantı, konferans
+işkence: acı
+nemli: kir, ıslak, cıvık, bunaltıcı
+sırt: üst, örgü, yığın, tarak
+gezgin: ziyaretçi, gezgin, turist, yolcu
+değirmen: fabrika, üretim, bitki
+harita: kart, diyagram, grafik, bilet-ücreti, bilet
+yaka: kuşatma
+değiştirmek: yedek, çıkarmak, yedek, alternatif, vekil, ikame, deplasman, değiştirmek, değiştirmek, değiştirmek, alt
+kasten: kasıtlı, kasıtlı, farkında, bilinçli, maksatlı
+bira: pint
+kadife: 
+yerçekimi: cazibe, ezme
+vaaz: vaaz-vermek
+taciz: yanlış, yanlış
+sürü: grup, sürü, yığın, oğul
+on-üç: 
+haklı-çıkarmak: garanti, savunmak, avukat, gerekçe, haklı
+Cuma: gümüş, Venüs
+fırça: tarak
+indir: 
+krem: dondurma
+uçurum: kaya, kenar
+jüri: 
+canavar: dev, korkunç
+dondurulmuş: dondurmak
+pot: tava, kavanoz, konteyner
+kuruş: sent
+ısrar: yüksek-sesle, itme, savunmak, altını-çizmek, vurgulamak, devam, ısrar, gerektirir, tartışmak
+elma: 
+tartışmak: tartışma, görüşmek, tartışmak
+arka-plân: 
+uyarlamak: uyarlamak, yeniden-yazmak
+periyodik: düzenli, halkalı
+eğlence: rekreasyon, şovmen, boş, eğlenceli, eğlendirmek, eğlence, hobi
+virüs: 
+çocukça: soprano
+yansıtmak: niyet, meditasyon, düşünmek, örneklemek, tasvir
+dönüştürmek: değiştirmek, dönüştürmek, anahtar, mutasyon
+taslak: profil, çevre, özet, kroki, ortaya-çıkarmak, genel-bakış, taslak
+opera: 
+onay: onaylayan, onaylamayan, rıza, kabul, iddia, onaylamak, desteklemek, benimseme, alkış
+açığa-vurmak: açığa-vurmak, aldatmak, hayal-kırıklığına-uğratmak
+cezalandırmak: hükümlü
+dirsek: dirsek
+haciz: ek, bağlantı, yama, bağlantı, konnektör
+onarım: restorasyon, gelişme, yeniden-kurmak, düzeltme
+şüpheli: şüphe, şüpheli
+yetmiş: 
+yazı: İncil, senaryo
+çukur: delik, kazı, havuz
+düzensizlik: kaos, anarşi, huzursuzluk, rahatsızlık, karışıklık, üzücü, girişim, utanma
+ikili: diyadik
+manastır: manastır
+ok: 
+eğilimi: sorumlu, genellikle, normalde, tipik
+ayrıntılı: detaylı, tanımlamak, açıklamak, geliştirmek, karmaşık, aldatıcı, egzersiz-yapmak
+bağlılık: sadık, sadık, güven, içtenlikle, dürüstçe, güvensizlik, güvenilirlik, inanç, inanç
+sikke: para
+titreme: ürperti
+sürgün: sürgün, yurt-dışında
+mekanik: makinalar, mekanik, mühendis
+tuzak: kavrama, hükümlü
+kek: turta, kurabiye, hamur
+bayım: Bay, bay, lord, beyefendi
+tereddüt: vurmak, uğrak, frekans, duraksamak
+on-yedi: 
+bal: 
+kazık: bahis, oran, kama, kazık, pay, kesir, katkı
+basmak: hareket, hile, yürümek, yürüme, pedal, adım, uzun-adımlarla-yürümek, basamak
+tuğla: karo
+seksen: 
+ne-yazık-ki: şanssız, şanssız, ne-yazık-ki
+danışmak: danışma, başvurmak
+efsane: efsane
+hasat: ekin
+tanıtım: yükseltmek, desteklemek, tanıtım, tanıtım, tanıtım
+soba: ocak, levha, fırın
+asi: isyan, isyan
+eski-moda: eski
+kabarma: şişirmek, şişmiş, enflasyon, şişme, büyütmek
+bataklık: bataklık
+pansuman: sos, bandaj
+sofu: keşiş
+müdür: kamarot, baş, Müdür, yönetici, yönetmen, arabulucu, lider, yönetici
+koro: sürücü, takım
+akılcı: haklı, mantık, mantıksal, mantıksız, mantıklı, oldukça, makul
+işleme: 
+kurt: 
+halı: halı
+eskilik: 
+bereketli: 
+düdük: flüt
+peynir: 
+ısırık: pirzola, oymak, acı
+davet-etmek: davetiye
+katedral: tapınak
+liman: liman
+dolaşmak: gezinti, göç, yürüyüş
+bitkileri: ekin
+donanma: deniz, filo
+maske: cephe, solucan
+kalem: kalem
+sebze: vejetaryen
+sergi: sergi, teklif, ekran, tanıtım, semptom, poz
+pantolon: pantolon, pantolon
+rüşvet: skandal, kirlenme
+kabine: dolap, dolap, dolap, tuvalet
+çorba: 
+cerrah: cerrahlık, cerrahi, operasyon
+ödenek: yedek, vekil, tazminat, appozisyon, tahsis, ek
+casus: 
+pervasız: dikkatsiz, düzensiz
+dedikodu: söylenti, söylenti
+simge: 
+soyut: özet, müfredat
+Perşembe: 
+trafik: dolaşım, taşıma, taşımacılık
+mimari: 
+çatlak: çatlak, kırık, ayrılmak, çıkmak, kırık
+süs: dekorasyon, dekoratif, süslemek, takı, süs
+ters: ters, ters, anahtar, evirmek, ters, başaşağı, arka
+eğlendirmek: eğlendirmek, eğlenceli, eğlenerek
+kurtarma: restorasyon, kurtarma, gelişme, canlanma, kurtarmak, geri, yeniden-kurmak
+kaldırım: frenlemek, zift, katran, balçık, kapak
+belirleyici: çok-önemli, hayati, belirlemek, karar-vermek, iddialı
+negatif: ters
+festival: konser
+azaltmak: azalma, azaltmak, kolaylaştırmak, rahatlatmak, küçültmek, indirgemek, yırtmaç, süs, çıkarmak, hapsetmek, kısıtlamak
+vatan-hainliği: 
+avcı: 
+yılan: sürüngen
+pil: 
+balmumu: mum
+dedektif: araştırmacı
+analiz: analiz-etmek, araştırma, çalışma, incelemek, denetlemek, keşif, Çözünürlük, bozulmak, bozulmak
+vurgu: vurgulu, baskı, altını-çizmek, vurgulamak, vurguladı, aksan, iddia, Dikkat
+yüzmek: yüzme
+zarf: durum, zarf, kılıf
+her-kim: kim, birisi, kime, kimse
+sigara: sigara-içme, tütün
+motor: otomobil, motor, güdü, motosiklet
+gönüllü: adamak, gönüllü
+reaksiyon: tepkili, yanıt, yanıtlamak, tepki, geribesleme
+bagaj: bagaj, navlun, gövde, bavul
+SAĞIR: 
+meyve-suyu: özüt
+tevazu: basitlik, mütevazi
+bakanlık: 
+cinsel: seks, cinsellik
+çap: 
+balta: 
+elmas: 
+alternatif: yedek, alternatif, vekil, seçenek, milletvekili, yedek, nakli
+yankı: 
+kısıtlama: dizginlemek, frenlemek, sınırlama, kısıtlama, sınırlama
+kimlik: belirlemek, kimlik, sembolik
+ekran: ekran, perde
+tembel: çürük
+momentane-görünüş: 
+kompakt: anlaşma, katı, yoğun
+sürüklenme: operasyon, sapma, eğilim, eğilim
+kaybolmak: soyu-tükenmiş
+ışın: kiriş, koridor, yarıçap
+mürekkep: 
+masif: büyük, büyük, kocaman, muazzam, muazzam, büyük, çok
+kiler: 
+unutulmaz: önemli
+parıltı: parıltı, parlaklık, parlaklık
+senato: parlamento
+tabut: 
+affetme: 
+yutmak: yudum
+şımartmak: izlemek, karşılamak
+salıncak: 
+çayır: otlak, önceden, çim
+karmaşık: karmaşık, zorlaştırmak, sofistike, bileşik, aldatıcı
+istifa: istifa-etmek, emeklilik
+mütevazi-kayıt: 
+komplo: arsa
+biber: 
+midilli: 
+aday: başvuru-sahibi
+tilki: 
+baca: şömine, yığın
+yargı: yetki, yargı, yargı, yeterlik
+tarım: tarım, tarım
+doğruluk: hassas, iffet, tam-olarak, doğru, doğruluk
+eski-merhum: 
+demokratik: 
+tomurcuk: tokmak, filiz
+battaniye: tavan, kapak, halı, kapsama
+dolu: dolu, selamlamak
+domuz: ekmek
+şeklinde: şekil, şekil, incir, yön
+fildişi: 
+klasik: klasik, geleneksel
+gözlemci: gözetmen, ziyaretçi
+fil: 
+çiviler: tırnak
+arı: 
+gömmek: defin, gömmek
+aktör: aktris, sanatçı, davacı
+ter: 
+lehçe: lehçe
+yanılsama: dolandırıcılık
+belirsizlik: belirsiz, belirsizlik
+ikincil: küçük, orta, ortalama, ılımlı, ana, orta
+kat: katlama
+kırsal: il, kırsal-bölge, köylü
+inilti: 
+benzemek: benzer, benzerlik, hatırlatmak
+alıntı: özüt, alıntı, tırnak-işareti-koymak, ödünç-vermek, ödünç-almak, borç
+çuval: reddetmek, işten-çıkarma, çanta
+sıkıntı: rahatsızlık, girişim, kesinti, sıkıntı, can-sıkıntısı, zahmet
+iğne: enjeksiyon, şırınga, pikap-iğnesi, pim
+kontrollü: kontrol
+tavuk: tavuk
+tutarlı: kalıcı, uyumlu, beton, üstü-kapalı, uygun, niş, uygun, tutarlı, ardışık, dengeli, sürekli
+varil: Kova
+alışılmış-görünüş: 
+uzman: uzman, deneyimli, özel, özel
+etkilemek: etkilemek, izlenim, çekmek
+zeytin: 
+kamyonet: valf
+engel: kesmek, sınırlama, handikap, bariyer, aksilik
+kafa-sallama: 
+beslemek: yetiştirmek, ıspanak, desteklemek, kolaylaştırmak, besleme, iyilik, iyilik
+tanım: yorum, kimlik, tanım, belirleme
+doğum-günü: yıldönümü
+çekiç: 
+kokulu: 
+tekrarlama: ağır, hedef, tekrar, tekrarlamak, prova
+önemsiz: küçük, önemsiz
+tekme: vurmak, çarpmak, futbol, kalsiyum, futbol, darbe
+kazmak: kazmak, matkap, kazı
+evcil-hayvan: 
+kafatası: 
+yasama-organı: parlamento, yasama, mevzuat
+topuk: atlama
+kaşlarını-çatmak: 
+patent: 
+milyar: 
+kimyasal: kimya, kimyasallar, kimyager
+pilot: deney, deneysel
+taklit-etmek: benzetmek, simülasyon, tekrarlamak, çoğaltmak
+etek: kaya
+alışılmadık: alışılmadık, Anormal, garip, dikkat-çekici, olağanüstü, inanılmaz, düzensiz, olağanüstü, inanılmaz, son-derece, işin-garibi
+haftalık: 
+teknik: teknik, teknoloji, teknik-olarak, teknoloji
+bitki-örtüsü: 
+karga: kale
+gündoğumu: 
+ömür: hayat, hayatta-kalma, yaşam-tarzı, yaşam
+katkıda-bulunmak: katkı, bağışlamak, ortaklık, desteklemek, kolaylaştırmak
+kanca: ilgili, bağlamak, ilişki, dirsek
+kaplan: 
+nüfuz: delmek, içinden, etkili
+kol: kol
+karayolu: yol
+milis: 
+hendek: siper, şaft
+bütünlük: 
+on-dokuz: 
+organik: 
+ilahiyat: 
+şamandıra: tekne, duraksamak, filo
+cadı: 
+sıkılmış: sıkıcı, can-sıkıntısı
+diplomatik: diplomat
+stüdyo: etiket, atölye, çalışma
+aşmak: saldırganlık, kolza, üstesinden-gelmek, çapraz
+Şampanya: 
+ilham-vermek: teşvik-etmek, ilham, cesaret-verici, solumak
+afiş: bayrak, afiş, bilet
+boşanma: boşanmış
+sürgü: yıldırım, tırnak, bükülme, vida
+damar: sinir
+pasif: seyirci, engelli
+köpük: kabarcık
+çakıl: 
+apron: kucak
+gezegen: 
+raf: raf, dolap
+fan: 
+tropikal: 
+faz: fotografik, aşama, dönem, inşa-etmek, adım
+keyfi: doğal
+telaffuz: telaffuz, aksan, söyleyiş, tam
+Merkür: 
+sürünme: yavaş-ilerleme, tırmanma, Kuzu
+intihar: 
+muhabir: gazeteci
+yoksun-bırakmak: yoksunluk, iptal-etmek, dışlamak, çıkarmak
+yetenekli: becerikli, verimli, yetenekli, yetenekli, deneyimli, nitelikli, zeki
+balkon: teras, sundurma
+çatal: 
+işçi: işçi, emekçi, çalışma, faktör, bağımlı, kâtip
+işveren: Müdür
+genişlik: geniş, arz, geniş, yarı
+tedirgin: sinirlenmiş, heyecanlı, kızdırmak, kışkırtmak, uyarım
+suçlamak: kınamak
+emeklilik: emeklilik, sözdizimi
+fiil: hareket, tepki
+maymun: 
+kabul-edilebilir: kabul-etmek, kabul, makul
+imza: 
+Ortodoks: muhafazakâr
+alay: alay, bükülme
+fidanlık: fidanlık
+isteksizlik: beğenmeme
+ithalat: tanıtım
+meşale: 
+dilbilgisi: gramatik
+mevduat: biriktirmek
+sömürge: 
+yat: feribot, tekne
+önemli: sonuç, bölüm, önemli, önemli, önemli, önemli, önemli, önemli, önemli, anlamlı
+kubbe: 
+kalınlık: 
+inatçı: iddialı
+kas: 
+kadir: boyut, yığın, genlik, ölçü, miktar
+ovmak: 
+korkakça: 
+koşum: birleştirmek, birleşmek, birleştirmek, kullanmak, kemer
+tost: aperatif
+fare: sıçan
+hece: 
+sıvazlama: alkış, vurmak
+diyalog: iletişim-kurmak, konuşma
+nötr: kısırlaştırmak
+çalışkanlık: heves, gözaltı
+çelişki: çelişkili, tartışma, belirsiz, kafa-karıştırıcı, tartışmalı, belirsizlik, paradoks, çelişmek, varyans, itiraz
+başarmak: gerçekleştirmek, ulaşmak, varmak
+keçi: 
+güzelleşmek: refah, başarılı-olmak, patlama, mücevher, taş
+yüklemek: kuvvet, zorlamak, belirlemek
+anonim: 
+resmi-kayıt: 
+buzağı: acele
+manuel: kılavuz, ilke, marka, liderlik, ders-kitabı, talimat, lider, gözetmen
+eriyik: buharlaştırmak, erime, füzyon
+silmek: silmek, eritmek, iptal, Kaldır, dışlamak, ortadan-kaldırmak, elemek, eliminasyon
+şemsiye: paraşüt
+çizme: ayakkabı, gövde
+mineral: iyot, besin, maden
+ateşkes: ateşkes
+ördek: 
+planlama: 
+sabun: 
+bebek: bebek, oyuncak
+iskelet: 
+villa: peri
+dikiş: dikiş, dikmek
+uzlaştırmak: aracılık-etmek, birleştirmek, birleştirmek
+çaydanlık: 
+olgun: yetişkin
+tavşan: 
+kondüktör: merdiven, başkomiser, sürücü, lider
+bağımlılık: bağlı, güven, bağımlı, bağımlı, benzeşme, tutum
+oyuncu: sanatçı
+böcek: haşere
+restoran: 
+baykuş: 
+radikal: militan, aşırı, ilerici
+yerli: oturan, yerli, yerli, yerli
+Ejderha: uçurtma
+işitsel-ortada: 
+susuz: 
+oyalanmak: uzun
+hesaplama: hesaplamak, hesaplama, bilişim, hesap, saymak, hesap, nüfus-sayımı
+düzenleme: sansür, kontrol, sınırlama, kısıtlama, yerleşme
+belediye-başkanı: 
+azınlık: 
+edinme: elde-etmek, kazanç, kazanmak, giriş, kullanılabilirliği
+emektar: kıdemli
+orkestra: 
+domuz-pastırması: 
+dezavantaj: kayıp, yoksunluk, ters, kusur, handikap
+kumaş: bez, giyim, havlu, tuval, doku
+müzisyen: besteci, müzikal
+zihinsel-olarak: manevi, zihinsel, moral, doğaüstü-güç, öznel
+bağlaç: işbirliği-yapmak, bağlantı, bileşik, dernek, ortak, birleştirmek, tutarlı, yanında, süreklilik, bağlayıcı
+yetersiz: eksik, yetersiz, eksiklik, sefil, aşağı, garip, bol, şanssız, yersiz, uygunsuz
+mimar: 
+limon: 
+öksürük: öksürme
+başağrısı: 
+kiracı: planlamacı
+doğurganlık: üreme
+iyileşmek: kür, iyileştirmek, artırmak, gelişme, tedavi-etmek
+doksan: 
+rasgele: rastgele, rasgele-seçmek, tesadüfi
+kaşık: Kova
+balon: 
+tebeşir: Alçı
+anlaşılan-ortada: 
+yayımcı: editör
+sirke: 
+kül: gri, gri
+küfür: küfür
+canlandırmak: canlanma
+duyarlı: savunmasız, duyarlı, mantıklı, duygusal, sorumlu
+tünel: metro
+bulmaca: şaşırtmak, kafa-karıştırıcı
+mekanizma: prosedür, rutin, sistematik, makinalar
+matematik: matematik, matematiksel
+karartmak: 
+karaciğer: 
+sublative-dava: 
+daldırma: dalış, gömmek, damla, takla, oran, eğim, eğim, eğimli, eğim, emmek
+birim: birlik, varlık, modül, gaga, tekil
+tekel: özel
+kumar: kumar, oyun, maç, açıklık, oyuncak
+denizaltı: sualtı
+deprem: çırpınma
+laboratuvar: laboratuvar
+mantar: mantar, mantar, kapak
+öz-kontrol: 
+Buda: 
+örme: örme, dokuma, itme, örgü, düğüm, düğüm, örgü
+elçilik: 
+en-uzak: 
+bildiren-ruh-hali: 
+uyarıcı: teşvik, özendirici, yemek-tarifi, motivasyon, güdü
+çikolata: şeker
+tesadüf: şans, kombinasyon, şanssız, rastgele, tesadüfi, maç
+eldiven: 
+diz-çökmek: 
+coğrafya: 
+yatırım: yatırım-yapmak, girişim
+sözlü: konuşulan, oral, aşağılayıcı
+analoji: eşitlik, benzerlik, benzeşme, akrabalık, oran
+laik: koymak
+şahin: kartal
+psikoloji: 
+tutturmak: ilgili, bağlamak, bağlamak, bandaj, tutuklama, iliştirmek
+hurda: iptal, çöp, çöp, fragman
+rol: kasnak, pay, stok, katılımcı
+doz: miktar
+somon: 
+puding: 
+manyetik: çekici
+pompa: bomba
+oksijen: 
+sertifika: 
+madalya: 
+belâgat: 
+sıyrık: çizik, sıyrık
+kürek: kürek, yüzgeç
+teleskop: mikroskop
+kolye: yenilgi, macun
+yazım: büyü
+viski: 
+Söğüt: otlak
+deve: 
+amatör: 
+çıkış: ihracat, çıkış, çıkması, çıktı
+biyografi: 
+eşek: 
+aylık: 
+aldırmamak: ihmal, gözden-kaçırmak, reddetmek, cehalet
+tatil: ayrılmak, tatil, rekreasyon, dinlenme
+tık: klik, çıtçıt
+oval: 
+elastik: kauçuk, esnek
+sözlük: sözlük, kelime-hazinesi
+jambon: uyluk, kalça
+gökkuşağı: 
+tüketmek: tüketim, kullanmak, dağıtmak
+tükürmek: Paraguay-çayı, dil
+tank: rezervuar, konteyner, fıçı
+meslektaş: kooperatif, adam, Paraguay-çayı, ortak
+kelebek: 
+grafik: diyagram, grafik, grafik, grafik, zamanlamak, plan
+ikiz: çift, çift
+bağımsız: bağımsız, serbestçe, ayrı
+bambu: 
+satıcı: perakendeci, satıcı, satış-elemanı, tüccar
+birikim: biriktirmek, koleksiyon, konsantrasyon
+müfettiş: denetçi, başkomiser
+lokma: fragman, dilim, bit
+karabasan: rüya
+reçel: jöle
+müze: 
+alfabe: alfabetik
+dağılım: dağıtmak, yayılma
+baskın: işgal, istila, saldırı, saldırgan, başlangıç, baskın, kovmak
+ifşa: duyurmak, açığa-vurmak, bulma, ortaya-çıkarmak, geri, yayınlamak, keşfetmek
+çürüme: çürüme, bozmak
+agresif: rahatsız-etmek, karışıklık, işgal, saldırganlık, saldırgan, iddialı
+sürtünme: 
+iskele: 
+örümcek: 
+patates: 
+revizyon: ayarlamak, yasa-değişikliği, tashih, düzeltme, değiştirmek, yorum, denetim
+açgözlülük: açgözlü
+erken: erken, çarpmak
+çarpmak: vurmak, doğurmak, çarpmak
+dönme: döndürmek, rotasyon, sarmal, iplik, bükülme
+istatistik: istatistiksel, şekil, sohbet
+takvim: zamanlamak, tarife, günlük, görünüm
+adaylık: atamak, randevu, seçim, nişan
+trilyon: 
+çatı-katı: rüzgar
+olumlu-ruh-hali: 
+uygulamaları: 
+nominal: 
+memnuniyetsizlik: 
+enfeksiyon: bulaştırmak, enfekte, geçiş, transmisyon, bulaşıcı
+sürahi: kavanoz
+omuz-silkme: seğirme
+öncü: majör, öncü
+ihmal: varsayılan, gaf, eksiklik, ihmal, ihmal, eliminasyon
+lahana: 
+atletik: atletizm, matematiksel, atlet
+sarhoşluk: şeker
+idiophone: 
+manivela: gözetlemek
+senatör: 
+iris: 
+karınca: 
+böcek: 
+hamile: anne
+çökelti: yağış, tortu, hız, acil, hızlandırmak
+ayak-bileği: 
+sınıflandırma: çeşit, sınıflandırmak, sınıflandırıcı
+değişken: değiştirmek
+sarmak: paket, parsel, paket, paket, makara, sarma, kapak, kaplama
+Kıvırcık: kıvırmak, savurmak, bobin, kaydırma, helezon
+sülfür: sülfür, kırık
+dikte: 
+çıkmak: görünmek, görünüm, ortaya, çıkması, çıkmak
+kurbağa: 
+aşırı-dava: 
+sünger: mantar, mantar
+can-sıkıcı: üzücü, rahatsız-etmek, zahmet, yaygara, kızdırmak, sıkıcı, titiz, rahatsız-edici
+sincap: 
+eziyet: yarım, yarı
+irrealis-ruh-hali: 
+volkan: 
+içeriye: kapalı, içeride, içinde, binaların
+sömürmek: kullanmak, emmek, başarı, keşfetmek
+jeolojik: 
+pasaport: 
+ahlaksız: ahlaksız, çürük
+bisküvi: kurabiye
+işbirliği: işbirliği-yapmak, ortaklık, bütünleşme, yardım
+tablet: kurşun, hap, levha
+gevşeme: gevşek, rahatlamış, boş, Rahatlayın, rahatlatıcı, rekreasyon
+atom: atom, parçacık, bireysel
+AİDS: yardım, kabartma, yardımcı
+piramit: 
+devir: daire, dolaşım, frekans, rotasyon, döndürmek, bisiklet, bisiklet
+şekerleme: 
+yasadışı: yasadışı
+pençe: pençe, parmak
+utangaçlık: utangaç, daralma
+tutulma: belirsiz
+ut: eğimli
+süpürge: 
+panel: plaka, levha, boyama, tahta, grup, komite
+astronomi: 
+labirent: 
+burs: kefillik
+kaplumbağa: 
+danışman: akıl-hocası, bildirmek
+lif: lif, demet
+kriket: 
+güvercin: 
+adaptasyon: uyarlamak, fikstür, uyma, değişiklik, ayarlamak
+üçgen: 
+veznedar: 
+hidrojen: 
+kırılgan: narin, gevrek
+yazıcı: 
+boğma: 
+kronik: dayanıklı
+başa-çıkmak: karşılaşma, uyarlamak, karşı-koymak, dengelemek, üstesinden-gelmek, ele-almak, contrastive, işlemek
+ikilem: 
+mühendislik: teknik, teknik-olarak
+kamera: oda
+özür-dilemek: özür, Pardon
+yalamak: 
+dansçı: 
+göç: göç, göç
+tenis: 
+omurga: 
+kızartma: 
+dokuma-tezgâhı: kapalı, kapatma
+bıçaklama: acı, delmek, kapmak, girişim, teşebbüs
+parola: işaret, işaret, slogan
+yarımküre: sivri, bahşiş
+strateji: stratejik
+kuvars: 
+makas: Çek, sürüklemek
+devriye: 
+buzul: 
+yarım: yarım, kısmen, yarı, orta, orta
+muhtıra: antlaşma, sözleşme, kongre, anlaşma, garanti
+koni: konik
+simetri: 
+üretici: üretken, yapımcı, yapıcı
+sanık: avukat
+cami: 
+satranç: 
+Geçiş-ücreti: ücret, ücret, kurban, şekil, komplikasyon
+Kiraz: 
+yaygın: geniş, geniş-ölçüde, yayılma, geniş, geniş
+yanılmak: takla
+kamyon: kamyon, navlun, yük-gemisi
+hardal: 
+yüzde: yüzde, sent
+açık-artırma: satış
+elek: 
+kararsız: kararsız, kararsızlık, belirsiz, huzursuz
+mıknatıs: 
+emmek: emmek, emmek
+İslâm: 
+heyecanla: parmak, hazır, istekli
+zar: 
+tıraş: 
+gitar: 
+parlak: parlak, sabah, parlak
+karaağaç: 
+uçmak: yürüyüş, duraksamak, boğaz, uçuş
+zamir-işaretleyici: 
+zımba: klips, dirsek, gerekli, temel, temel, ana, majör, nihai, birincil
+baharat: lezzet
+kefalet: bağ, güvence, rehin, garanti
+taşıyıcı: vektör, davacı, kapıcı
+titreşim: rezonans
+kızdırmak: özendirmek, kızdırmak, kızdırmak, cezbetmek
+pulluk: çözmek, çapa, kaçırmak
+fizyolojik: bedensel
+oluk: akıtmak
+kuyrukluyıldız: suçlu
+ortaçağ: orta
+serçe: 
+tazmin-etmek: ödüllendirmek, tazminat, dengelemek, kurtarmak, makyaj, makyaj
+plastik: 
+dipnot: 
+yörünge: sınıf, sınıf, Yörünge
+tutumlu: mütevazi
+golf: 
+sıfır: boş
+yonga: parça, fragman, dilim, yığın
+ezmek: bastırmak, bastırmak, bastırmak, boğmak
+esnemek: buharlaştırmak
+eşitsizlik: 
+mol: susam, kil
+çanak-çömlek: 
+ev-hanımı: 
+çavdar: 
+uymamak: ihlal-etmek
+hoşgörülü: tolerans
+embriyo: lastik, lastik, cenin, cenin, çekirdek
+madenci: küçük
+alkışlamak: takdir-etmek, alkış, alkış
+maya: enzim, hamur
+prim: bonus, ödül, ödül
+Erik: 
+iflas: başarısızlık
+sulama: 
+nane: şeker
+kapitalist: kapitalizm
+elastikiyet: esneklik
+Köpekbalığı: 
+acemi: hile, acemi
+depolama: korumak, korumak, mağaza, tasarruf
+gerçekçilik: 
+zencefil: 
+ambulans: 
+karşılaştırılabilir: orantılı, benzer
+cüzdan: portföy
+yüz-buruşturma: kupa, sırıtış, sıyrılmak
+bilim-adamı: ilmi, bilgin, araştırmacı, araştırmacı
+bağırsak: bağırsaklar, bağırsak
+ağırbaşlılık: 
+radyo: radyum
+ilgisiz: çelişkili, uygunsuz, yersiz, önemsiz
+fasulye: somun, bezelye, fıstık, tahıl
+resmi-olmayan: 
+torun: erkek-torun, torun, yeğen, torun
+anlaşmazlık: itiraz, tartışma, ihtilaf, katılmıyorum
+biftek: pirzola
+azot: 
+jilet: 
+zıt: kontrast, contrastive, çelişkili, karşı, ters
+propaganda: ilan-etmek, tanıtım, reklâm, reklâm, duyurmak
+havai-fişek-gösterisi: 
+pop: çıtçıt, patlama
+soyunmak: 
+kırışık: 
+zararlı: zarar, tehlikeli, ters
+Yahudilik: 
+tamamlayıcı: tamamlayıcı, donatmak, ek
+mercek: mercimek, el-feneri
+pegative-dava: 
+kanser: 
+piyon: ipotek, asker, rehin
+okutman: 
+sızıntı: dökmek, kayıp, damla
+nitelemek: uygun, hak, hak-etmek, nitelikli, vasıf
+yoğunluk: kalabalık, yoğunluk
+indüksiyon: 
+çiğnemek: 
+konuşkan: konuşkan
+Istakoz: 
+indirim: muafiyet, satış, imtiyaz
+taksi: 
+hiyerarşi: liderlik, sistem
+yeşim-taşı: 
+söylenmek: 
+kertenkele: 
+çağlayan: 
+hayal-kırıklığı: iç-karartıcı, hayal-kırıklığı, hayal-kırıklığına-uğratmak, hayal-kırıklığına-uğramış, pis
+veto: çöp, iz, reddetmek, reddetmek, onaylamama, bahis, çekiş
+başkanlık: başkanlık
+alıcı: müşteri
+galon: 
+sivrisinek: 
+sapma: sapma, çarpıtma, dengelemek
+güreşmek: yarışmak
+mozaik: 
+fiş: konnektör, fiş
+bodur: çömelme
+bakkal: 
+komünist: 
+şaşırtmak: şaşırtıcı, şaşırtıcı, çarpıcı, şaşırtmak, şaşırtmak, şaşırtmak, yıkmak
+prosecutive-dava: 
+takımyıldız: gökada
+diktatör: 
+kaygı: iş, kaygı, endişe, endişe
+uydu: 
+terlik: sandalet
+ünsüz: 
+yaklaşık: yaklaşma, yaklaşık-olarak, tahmini
+işsiz: iş
+destekçi: asistan, yardımcı, katlanmak, dirsek
+lotus: 
+marul: salata, ıspanak
+klorid: 
+bakteriler: mantar, bakteri
+yapışkan: viskoz
+bileşen: 
+çekirdek: 
+uydurmak: taklit, benzetmek
+bayt: 
+salgı: salgılamak
+açıkça: açıkça, açıkça, görünüşe-göre, belli-ki, kesinlikle
+rastlamak: maç, uygun, uygun, anlaşma, eşleştirme
+bale: yüzgeç
+idrar: işemek
+sarımsak: 
+geçen: geçmiş, geçen
+ekonomi-bilimi: ekonomi, durgunluk, tasarruf
+orta-sınıf: 
+çevik: hızlı, hızlı, hızlı, istemi
+maşa: kürek, klips
+çamaşır: yıkama
+çilek: 
+kentsel: kent
+utandırmak: vazgeçirmek, handikap, utandırıcı, yıkmak, şaşırtmak
+not-defteri: 
+albüm: 
+beyzbol: 
+koklama: 
+büfe: 
+ortaç: katılımcı, yarışmacı
+garaj: 
+tanı: Arıza-tespit, teşhis-etmek, bilişsel, tanımak
+koltuk-değneği: 
+koparmak: şantaj, koparmak, sınırlamak
+kayıt: kayıt, kayıt, kayıt, log
+çözünür: eritmek
+fosfor: 
+yapısal: yapı, yapılandırma, yapılandırma
+tutkal: 
+tez: tez
+esnaf: mekanik
+muz: 
+aksiyom: teorem, dürüst, bariz, açık, açık, prensip
+kaburga: vites
+nikel: hiçbiri
+pi-sayısı: bye, turta, silikon
+otobüs: let
+sansürcü: sansür
+füze: roket
+sosis: sosisli
+hile: işletmek, idare, işletme, hile, hile, işlemek
+domates: 
+güçlendirmek: pekiştirmek, yoğunlaştırmak, onaylamak
+soket: para-çekme, çıkış, konnektör, yuva
+potasyum: 
+geri-almak: almak, kurtarmak, geri, restorasyon
+sanal: gerçek, gerçek, hakiki
+cebir: 
+dişçi: diş
+optik: görsel
+hareket-ettirmek: imtiyaz, kabul-ifade-eden, hareket, hareketli, çıkarmak
+biyoloji: 
+işsizlik: 
+tırtıl: 
+solo: ayrı, olağanüstü, ayrık, toprak, yalnız
+tarayıcı: 
+uzak-geçmiş-gergin: 
+tarihi-gergin: 
+nükleer: çekirdek, atom
+spektrum: 
+sodyum: 
+histeri: 
+yediemin: yönetici
+rehin: ipotek, rehin
+sukabağı: kabak, ilik
+kırışıklık: kusur
+şeffaflık: şeffaf, açık, basit
+başak: kama, dantel, bahşiş, tırnak
+öncelik: Dikkat
+yaya: yürüme
+ateizm: 
+izlemek: iz, denetlemek, izlemek, izlemek
+seçim-bölgesi: seçmen, seçmenler
+kontrolsüz: 
+sonda: sınav, soruşturma, soruşturma, araştırmak, soruşturma, keşif, deneme
+platin: 
+çift-sayı: 
+akciğer: 
+Süper: olağanüstü, çok, inanılmaz
+tramvay: taşıma, araba, yük-vagonu
+lokal-olarak: yerel
+tahrik: heyecanlandırmak, kızdırmak
+benzin: benzin
+böbrek: 
+yağma: soygun, yağma, av, yağma, soymak, çekmek
+değerlendirme: tahmin, tahmin, değerlendirmek, sınıf
+arsenik: 
+salyangoz: helezon
+çekirge: 
+denklem: formül, eşitlik
+sosyalist: akrabalık
+filtre: 
+duyusal-ortada-ruh hali: 
+genişletmek: genişletmek, geniş, eklemek, yükseltmek, artırmak, uzatmak, geniş, Çözünürlük, uzatma, genişleme
+yaymak: başlatmak, atmak, nefes, sürgün, let
+tasma-kayışı: kiralama, kayış
+mandalina: 
+jokey: 
+zatürree: 
+dayanışma: birleştirmek, ralli, benzeşme, birlik, benzerlik
+menteşe: detaylı, döngü
+uzunlamasına: dikey
+kâr-payı: tahsis
+paten: kayak
+üs: indeks, üstel
+sakatlık: handikap, yetersizlik, kusur, kusurlu, engelli, kusur, leke
+takıntı: taciz-etmek
+tahsis: tahsis, ayırmak, hüküm, kota, atama
+fotoğrafçı: fotografik
+delta: katılmak
+dijital: şekil, rakam, sayısal
+orospu: 
+gözkapağı: 
+diyagonal: 
+bilinçaltı: 
+kaş: 
+hapşırma: 
+neşeli: neşeli, eğlence, memnun, komik, eğlenceli, eğlenceli, eğlenerek, komik, gülünç
+Hinduizm: 
+mülteci: göçmen
+mekik: uzay-gemisi, taşıma, taşıma, taşımacılık
+protein: yumurta-akı
+çöplük: kazık, yığın, kovmak, çöp, çöp
+arıtmak: 
+kusmuk: 
+gen: genetik, genetik
+birinci-sınıf-öğrencisi: 
+sosyoloji: 
+kabak: kabak, ezme
+balıkçı: 
+bölgesel: kontluk, alan, bölge, koğuş, küre, sektör, periferik
+hareket-yokuş-yukarı: 
+geçmişe-yönelik: geçmiş, içgözlem
+kasırga: 
+ters-çevirme: evirmek, ters, karşılıklı, ters
+TV: televizyon, film
+küp: 
+verimlilik: performans, çıktı
+havuç: 
+moleküler: molekül, Yüzey
+holding: klik, grup, küme
+muhasebeci: denetçi
+salatalık: seçenek, boğaz
+alem: 
+çözücü: eritmek
+fosfat: 
+astar-boya: yem, tanıdık, tanıtım
+alkalik: 
+Jimnastik: uygunluk
+virgül: koma, parti
+hareket-yokuş-aşağı: 
+düşük: kürtaj, düşük, başarısızlık
+koza: kabuk, kılıf, kabuk
+verici: 
+manganez: 
+psikolog: 
+klor: 
+klavye: 
+seçkinler: 
+parantez: 
+Ragbi: 
+ülser: acıyan, yara, travma, çıban
+çekimli: 
+kemirmek: 
+kuantum: miktar, miktar, kota, oran
+kazak: ceket
+evrimsel: gelişmeye-yönelik, evrim
+notasyonu: işaret, sembol, Not
+sıçrama: patlama, atlama
+teşrih: ayırmak, Bölüm
+önbellek: 
+doğrusal: basit
+antimon: 
+superessive-dava: 
+tümör: tümör, yığın, çarpmak
+erozyon: 
+alfa: 
+göbek: göbek, kutup
+bağışık: nefes, dayanıklı
+grip: grip, cıvık, ateş, etki
+bira-fabrikası: 
+basitleştirmek: 
+kısaltmak: sınır, hapsetmek, kısıtlamak
+göçük: yumru, çarpmak, diş
+cezbetmek: ele-geçirmek, cezbetmek
+zorlamak: sınırlamak, kuvvet, zorlamak, uygulama
+çorap: 
+film: film, sinema, kurdele, bant, şerit
+kozmos: evren
+kirletmek: kirlenme, bulaştırmak
+sokulgan: 
+penis: seks
+ormancılık: 
+alüminyum: alüminyum
+salınım: dalgalanma
+burç: 
+çıkarmak: jet, çıkarmak, yerinden-etmek, dışlamak, salgılamak, çıkarmak, çıkarmak
+içerme: kayıt, bütünleşme, gömmek, kapak, dahil, kaplama, içerme, dahil, ilgi
+hak-sahibi: görevdeki, kullanıcı
+yunus: 
+katil: 
+memeli: 
+gösterge: duruş, indeks, kriterler, işaret-parmağı, ölçü
+dioksit: 
+kolon: 
+bürokrasi: bürokratik
+çarpıtmak: şaşırtmak, mücâdele, çarpıtma
+buzdolabı: buzdolabı
+arkeolojik: arkeoloji, arkeoloji, fosil
+kabul-edilemez: onaylamayan
+şartname: norm, standartlaştırmak
+broşür: bülten, sadaka, yaprak
+antropoloji: 
+lezzetli: lezzetli
+geçişli: bahane, geçiş
+çömelmek: yavaş-ilerleme
+ayçiçeği: 
+bit: kene, bit
+iyon: 
+turizm: turist, seyahat
+modem: 
+hızlanma: desteklemek, kolaylaştırmak, uyarım
+tahrif-etmek: yıkmak, oluşturmak
+emisyon: kirli, konu
+kaçırmak: kaçırmak, iletme, kapmak
+üst-üste-gelme: etkileşim, interaktif
+kuaför: 
+folklor: buğday
+kılcal: 
+milliyetçilik: milliyet
+kalça: kalça, kalça
+motif: tema, konu, güdü, gerekçesiyle
+yüceltmek: 
+hüsran: aksilik, umutsuzluk, hayal-kırıklığı, şaşkın, iptal
+kobalt: 
+yulaf: 
+hareket-akıntıya-karşı: 
+anüs: 
+sığır: 
+çevirmek: çevirmek, çevirmek
+fazlalık: bol, artık, fazlalık, reddetmek, işten-çıkarma, muafiyet
+video: 
+boykot: kontluk, dışlanır, ihmal
+bilgi-yarışması: girişim, sınav, anket
+hokey: 
+gerilla: 
+magnezyum: 
+radar: 
+şempanze: 
+güvenilirlik: güvenilirlik
+dikdörtgen: 
+varek: 
+genellemek: genelleme
+sokağa-çıkma-yasağı: 
+homoseksüel: 
+senaryo: senaryo, peyzaj
+formülasyon: yapı, inşa-etmek, yapıcı, üslup, oluşturma, oluşum, hazırlamak
+reenkarnasyon: 
+tutuşturmak: 
+uranyum: 
+yakalayan-şey: reseptör
+koordinat: koordinasyon
+vergi-mükellefi: 
+entegre: integral
+opined: görünüm, görüş, dikkat
+gama: 
+safari: binmek, yolculuk, gezi, seyahat
+hareket-akıntı-yönünde: 
+katsayı: sınıf, faktör
+başlık: başlık, konu
+analist: analiz-etmek
+mat: 
+alışveriş-Merkezi: süpermarket
+bizmut: 
+kartpostal: selamlama
+yakınsama: yaklaşma, birleşmek
+sapmak: geri-çekilme, ayrılmak
+hissedar: ortak
+mikrop: 
+jenital: 
+morfolojik: genetik, morfoloji
+beta: 
+kot: 
+veritabanı: 
+hesap-makinesi: bilişim
+X-ışını: 
+ayrıştırmak: 
+çevre: peyzaj, çevre, çevre, bağlam, ekolojik, Komşuluk, Komşuluk, çevre
+sigma: 
+parçalanma: izolasyon, ayrılık, bozulmak, bozulmak
+gündem: program, program, müfredat
+Visa: 
+altyapı: 
+ateş-böceği: 
+detektör: 
+adaptif: 
+biyolog: 
+ek-yeri: iliştirmek, değiştirmek, iliştirmek, bağlamak
+brom: 
+palladyum: 
+hıçkırık: 
+pastel: soluk
+hayvanat-bahçesi: 
+klinik: 
+çağrışım: içerme, anlam, anlamsal, kavram, kavram, duyu, bağlam
+yoga: toplam
+kitapçı: kitaplık
+tedavi: tedavi, tedavi-etmek, kür, çare, terapist
+milliyetçi: etnik
+kafasını-kesmek: 
+Evet: Evet
+sorunsal: konu, sorun, komplikasyon
+caz: 
+tungsten: 
+terörist: militan, terör
+salya: balçık
+metabolizma: 
+nafaka: 
+hafta-sonu: 
+krizantem: 
+aşı: yorum, kapsama
+motosiklet: motosiklet
+mantra: 
+yarıyıl: dönem
+eroin: 
+Klasör: 
+katot: 
+ideoloji: düşünce
+otopark: 
+teta: 
+düş-kırıklığı: hayal-kırıklığı
+selenyum: 
+bisiklete-binme: dolaşım, döngü, halkalı, bisiklet, bisiklet
+korteks: bağırmak, kabuk, kabuk
+denklik: eşitlik
+akım-ilgi-işaretleyici: 
+havalimanı: 
+kesmek: kesmek
+basketbol: 
+taklitçi: 
+hamamböceği: 
+krom: 
+litre: litre
+yine-de: yine-de, henüz, ancak, zaten
+hormon: 
+kusurlu: eksiklik, eksiklik, kusurlu, yanlış, yanlış, eksik
+delmek: delmek
+animizm: 
+çokgen: açı
+feminist: 
+eşlenik: eğim, bağlı
+euro: 
+jinseng: 
+algoritma: 
+lazer: 
+eczane: 
+milimetre: milimetre
+esnek: viraj, kavisli, esnek, olumlu, kablo
+anot: 
+nüans: gölge
+yarı-zamanlı: 
+duyarlılık: 
+gösterici: 
+helyum: 
+iki-dil-bilen: 
+kısaltması: kısa, kısaca, küçültmek
+initialism: 
+ulaç: 
+plazma: 
+kromozom: 
+sıra: kavşak, sıra, düzenli, ardışık
+kilometre: kilometre
+faks: 
+genetik: genetik, genetik
+çil: 
+tornavida: İngiliz-anahtarı
+brokoli: 
+geçmiş-zaman: 
+vitamin: 
+kadmiyum: 
+bombardıman-uçağı: 
+grafiksel: 
+titanyum: 
+savurganlık: övünmek
+lambda: 
+kız-arkadaş: ortak, erkek-arkadaş, sevgili, kız
+çiftleşmek: 
+kum-saati: 
+empati: sempati, merhamet, anlayış
+bor: 
+helikopter: 
+tellür: skandiyum, lantan
+son-tarih: dönem
+hizalamak: 
+santimetre: 
+molibden: 
+lityum: 
+multimedya: 
+güncelleştirme: modernleştirmek, tazelenmiş
+kalori: 
+robot: 
+ev-ödevi: 
+logaritma: 
+peygamber-devesi: 
+instal: dağ, install, sentez
+amino: 
+kabartma: kabartma
+aorist: belirsiz
+ekoloji: ekolojik
+kaşarlanmak: yağma
+esrar: 
+mikro: ince, küçük, minik, küçücük, mikrofon
+kilogram: 
+çok-yemek: 
+tahmin-edilebilir: tahmin, tahmin, tahmin
+pizza: 
+kulak-misafiri-olmak: 
+dilbilim: dilbilimsel
+saç-kesimi: 
+iridyum: 
+ırkçılık: ırksal
+optimum: üst, Optimum
+sanayileşme: sanayileştirmek, sanayi, üretim
+Merkezi: merkez, koltuk
+seryum: 
+uyumlu: samimi, uygun, olumlu, uyumlu, benzer
+bir-parçayı-belirten dava: 
+kaset: bant
+irade: irade, irade
+boyutlu: boyut, şekil, boyut, uzaysal
+parametre: 
+senkronize-etmek: senkronize-etmek
+maksimuma-çıkarmak: maksimum, artırmak, abartmak
+seminer: atölye
+disko: plaka
+neon: 
+osmiyum: 
+görünüş: 
+çalıntı-yapmak: hırsızlık
+eser: 
+reaktör: 
+keklikotu: 
+plutonyum: 
+itriyum: 
+büyüten: 
+kullanıcı-adı: 
+doktora: 
+sağ-kanat: 
+argon: 
+fobi: dehşet, huşu, uğrak, iğrenme
+sosyalleştirmek: iletişim-kurmak, etkileşim
+küreselleşme: 
+dalga-boyu: 
+kodlamak: kod
+geri-dönüşüm: Kullanılmış
+tekrar-başlat: reboot
+hepatit: 
+yumru: yumru
+kemoterapi: dini
+modülo: kalıp, modül
+proton: 
+disket: 
+miligram: 
+piksel: 
+tantal: 
+çözünen: karar-vermek
+soykırım: 
+yırtıcı-hayvan: sert
+galyum: 
+zirkonyum: 
+belirteç: belirlemek, tanımlamak, araştırmacı
+doğrusal-olmayan: 
+böcek-zehiri: 
+berilyum: 
+nöron: 
+doğrulayıcı: iddialı
+külot: iç-çamaşırı
+faktöryel: fakülte
+nötron: 
+niyobyum: 
+germanyum: 
+metaloid: metal-olmayan
+koymak-üzerinde: 
+uzatan-dava: 
+biyoçeşitlilik: 
+joystick: 
+antibiyotik: 
+aktinyum: 
+astronot: alan
+dünya-dışı: yabancı
+çılgın: aptal, deli, çılgın, deli, Anormal
+maraton: 
+iterbiyum: 
+otizm: 
+iyonlaştırmak: 
+radon: 
+nerium: 
+epidemioloji: 
+ihtiyarlık: yaşlı
+kamp: kamp
+çizgili: şerit, plan, planlamacı
+indiyum: 
+gerçeğe-uygun: samimi, saf, net
+web-sitesi: web-sitesi, yer, profil
+Kuran: 
+sofra-takımı: 
+nth-kök: 
+lavrensiyum: 
+insan-hakları: 
+cep-telefonu: cep-telefonu, cep-telefonu
+felçli: 
+protaktinyum: 
+radyasyon: parıltı
+bağlı-üzerinde: 
+toryum-atom: tülyum-atom, terbiyum-atom, rodyum-atom, rubidyum-atom, vanadyum-atom, florin-atom, polonyum-atom, talyum-atom, stronsiyum-atom, rutenyum-atom
+Mavi---jean: 
+ev-bitkisi: 
+bireysel: şahsen, bireysel, kişisel, ayrı-ayrı
+Akış---akım: 
+Üç-nokta: 
+insan-vücudu: 
+fizik: fiziksel, fiziksel-olarak
+perakende-mağaza: 
+sezyum: 
+uzun-önce: 
+tablo: 
+Birim-kütle: 
+derlemek: 
+ikili-değer: 
+insan-varlık: 
+tarafından-araç-arasında: 
+depan-dari: 
+praseodim: 
+karton: kart
+sınırlı-fiil: 
+Deneme-sayı: 
+profesyonel-cümle: profesyonel-ifade
+eleştirmen: kritik, ciddi-olarak
+paketleme: sarma, paket
+geçiciliktir: kararsız
+En-en: 
+tanımlayıcı: tanım
+neodimyum: 
+dostluk: samimi, müttefik
+okumak-sadece: 
+kurar: 
+Gnomic-ruh-hali: 
+fonem: 
+rasyonellik: bilinç, mantık
+fonolojik: 
+yemek-oda: 
+yaşam-oda: 
+merkezi-dava: 
+ön-hodiernal: 
+sabırlı-dava: 
+eğik-dava: 
+kırsal-alan: 
+recurse: 
+orta-ses: 
+meitnerium: 
+mail-taşıyıcı: 
+çekimser: düz
+stok-pazar: 
+teşhis-edilebilir: kimlik, belirlemek
+hedef-tetik: 
+bir-saniye: 
+yasama-dava: 
+tayın: kısım
+olmayan-insan: 
+yaşam-şey: 
+çok-küçük: 
+sinema: sinema
+hassiyum: 
+soğurma: 
+multal-sayı: 
+sütlü-yol: 
+neptunyum: 
+Hayalet-Yazar: 
+trans-rakam: 
+Takılmak: 
+americium: 
+sabah-şan: 
+itfaiyeci: 
+berkelyum: 
+gökada-cinsiyet: 
+nobelium: 
+güle-güle: bye, Güle-güle, kadar
+Budizm: 
+fermium: 
+camgöbeği: eflatun
+soya: 
+distribütör: 
+strikebreaker: 
+işlemci: 
+abessive-dava: 
+adessive-dava: 
+için-dava: En-dava, rastgele
+agentive-dava: 
+rutherfordiyum: 
+antikor: 
+olarak-çok-olarak: 
+ajan-tetik: 
+aktör-rol: 
+ethidium: 
+ortak-cinsiyet: 
+yakınının-bulunmasını: 
+aspir: 
+francium: 
+erbiyum: 
+pasif-ses: 
+astatin: 
+çiğneme-sakız: 
+star-cinsiyet: 
+alıntı-form: 
+curium: 
+çizgi-roman: 
+renk-körü: 
+euler's-numarası: 
+bak-En: 
+yaya-geçidi: patika
+savaş-alanı: 
+araba-kullanan-kimse: sürücü
+kısa-devre: 
+sözlü-isim: 
+ağlamak-dışarı: 
+istatistiksel: istatistiksel
+yoğurt: 
+ksenon: 
+uyutmak: 
+almak-kapalı: 
+fıkra---tail: 
+direkt-nesne: dolaylı-nesne
+bakkal-mağaza: 
+oluşur-arasında: 
+kılıcısız-dava: 
+in--dili: 
+ilk-elden: direkt
+lokatif-dava: 
+yüzme-havuzu: havuz, havza
+zarf-dava: 
+gezi: gezi, denetlemek, dolaşım
+televizyon-set: 
+son-parçacık: 
+evitative-dava: 
+rehabilitasyon: 
+gerileme: dönüş, para-çekme, geri-çekilme, aksilik
+blok-arasında-yassı: 
+uyanmak-yukarı: 
+polis-subay: 
+yemin--in: 
+görüşmeci: görüşme
+renyum: 
+aerosol: 
+iyelik-dava: iyelik-dava
+adlaştırma: isim
+deli-dava: 
+abartma: 
+yardımcı-fiil: 
+birincil-nesne: 
+bilgisayar-virüsü: 
+iş-adamı: iş-kişi, tüccar
+bir-insanlar: insanlar, halk
+antessive-dava: 
+Başbakan: 
+lutesyum: 
+öropiyum: 
+emote: 
+Halk-Müziği: 
+şair: 
+Postane: posta, posta
+sözde: varsayım, varsayımda-bulunmak, muhtemelen, görünüşe-göre, muhtemelen
+hareketlendirmek-cinsiyet: 
+subessive-dava: 
+gaz-pedalı: 
+polarite: kutup
+araç-cinsiyet: 
+mineral-cinsiyet: 
+fiil---eki: 
+tutkulu: duygu, duygusal, duyusal
+samaryum: 
+kolaylaştırıcı: arabulucu
+hayali-birim: 
+ışık-hızı: 
+hava-Kuvveti: 
+empatik-sevinç: 
+kritik-nokta: 
+tam-zamanlı: 
+hafniyum: 
+engelleme: dizginlemek, frenlemek, engellemek, yasaklamak
+değişim-arasında-olay: 
+holmiyum: 
+farklı-olay: 
+Evren-cinsiyet: 
+yer-cinsiyet: 
+sanal-makine: 
+araştırma-cinsiyet: 
+artistik-cinsiyet: 
+crastinal-gergin: 
+soyut-cinsiyet: 
+exocentric-dava: 
+geçişli-fiil: 
+morfem: 
+şovenist: 
+geçmiş-tamamlanma-belirten: 
+mesleki: uzmanlık, iş, işgal, zanaat, profesyonel
+dolaylı-konuşma: 
+ikinci-dil: 
+için-olmak: 
+mezarlık-vardiya: 
+toplu-isim: 
+absolutive-dava: 
+sabırlı-tetik: 
+öz-güven: 
+dışkı: dışkı, yormak, kir
+dönüşlü-ses: 
+kişiliksiz-fiil: 
+seaborgiyum: 
+beyaz-boşluk: 
+tipik-dava: 
+cansız-cinsiyet: 
+ettirgen: 
+propositive-ruh-hali: 
+elektrik-akım: 
+ilişkisel-dava: 
+üstün-dava: 
+çok-çok: 
+gezegen-cinsiyet: 
+canlandırılmış-karikatür: 
+karşılıklı-ses: 
+yasamak: mevzuat, yasama, düzenlemek, düzenlemek
+En-en-az: 
+dilbilgisi-durum: 
+kullanıcı: 
+çekirdek-benefactive: 
+kaleci: 
+:-except-for: 
+payda: 
+else-if: 
+yanlamasına: bir-kenara
+herbiri: bir-başka, karşılıklı
+ardışık-fıkra: 
+aşınma--out: 
+şort: 
+disporsiyum: 
+yakında-gelecek-gergin: 
+si-birimler: 
+kripton: 
+mendelevyum: 
+uygulamalı-ses: 
+antipassive-ses: 
+continuative-görünüş: 
+radyasyon-hastalığı: 
+necessitative-ruh-hali: 
+tek-eylem-fiil: 
+vagon: 
+üstün-derece: 
+varoluşsal-fıkra: 
+kaliforniyum: 
+mevcut-ortaç: 
+aydınlık-yoğunluk: 
+singulative-sayı: 
+dilbilgisi-nesne: 
+pasif-ortaç: 
+aşırı-süre: 
+süper-kritik-akışkan: 
+miktar-arasında-madde: 
+İlgeç-dava: 
+seçmeli-nicelik: 
+gadolinyum: 
+epenthetic-morfem: 
+olumsuz-nicelik: 
+aynştaynyum: 
+yapay-dil: 
+bağlayıcı-parçacık: 
+uzak-gelecek-gergin: 
+tekrarlama-bildiren-görünüş: 
+dağıtım-zamir: 
+hitabe-anlaşma: 
+kel: çıplak
+banliyö: küçük-köy, kırsal-bölge
+evrensel-nicelik: 
+bilgisayar-programlama: 
+televizyon-program: 
+kayan-noktalı-sayı: 
+varoluşsal-nicelik: 
+gün-sonra-yarın: 
+alternatif-nicelik: 
+kötü-huylu: kaba
+geçmiş-pasif-ortaç: 
+gün-önce-dün: 
+lokatif-yönlü-dava: 
+counterfactual-şartlı: 

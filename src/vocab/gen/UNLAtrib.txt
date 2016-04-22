@@ -1,339 +1,339 @@
-first-person g
-second-person g
-third-person g
-ability g
-about g
-above g
-according-to g
-across g
-active g
-adjective g
-adverb g
-advice g
-after g
-again g
-against g
-agreement g
-all g
-alliteration g
-almost g
-along g
-also g
-although g
-among g
-anacoluthon g
-anadiplosis g
-anaphora g
-anastrophe g
-and g
-anger g
-angle-bracket g
-antanaclasis g
-anterior g
-anthropomorphism g
-anticlimax g
-antimetabole g
-antiphrasis g
-antithesis g
-antonomasia g
-any g
-apposition g
-archaic g
-around g
-as g
-as-far-as g
-as-of g
-as-per g
-as-regards g
-as-well-as g
-as-if g
-assertion g
-assonance g
-assumption g
-asyndeton g
-at g
-attention g
-back g
-barring g
-because g
-because-of g
-before g
-behind g
-belief g
-below g
-beside g
-besides g
-between g
-beyond g
-both g
-bottom g
-brace g
-brachylogia g
-but g
-by g
-by-means-of g
-catachresis g
-causative g
-certain g
-chiasmus g
-circa g
-climax g
-clockwise g
-colloquial g
-command g
-comment g
-concerning g
-conclusion g
-condition g
-confirmation g
-consent g
-consequence g
-consonance g
-contact g
-contentment g
-continuative g
-conviction g
-decision g
-deduction g
-definitive g
-desire g
-despite g
-determination g
-dialect g
-disagreement g
-discontentment g
-dissent g
-distal g
-double-negative g
-double-parenthesis g
-double-quote g
-doubt g
-down g
-dual g
-due-to g
-during g
-dysphemism g
-each g
-either g
-ellipsis g
-emphasis g
-enough g
-entire g
-entry g
-epanalepsis g
-epanorthosis g
-equal g
-equivalent g
-euphemism g
-even g
-even-if g
-except g
-except-for g
-except-if g
-exclamation g
-excluding g
-exhortation g
-expectation g
-experiential g
-extra g
-failing g
-familiar g
-far g
-fear g
-female g
-focus g
-following g
-for g
-from g
-front g
-future g
-generic g
-given g
-habitual g
-half g
-hesitation g
-hope g
-hyperbole g
-hypothesis g
-if g
-if-only g
-imperfective g
-in g
-in-accordance-with g
-in-addition-to g
-in-case g
-in-case-of g
-in-front-of g
-in-place-of g
-in-spite-of g
-inceptive g
-inchoative g
-including g
-indefinitive g
-inferior g
-inside g
-instead-of g
-intention g
-interrogation g
-intimate g
-invitation g
-irony g
-iterative g
-jargon g
-judgement g
-least g
-left g
-less g
-like g
-literary g
-majority g
-male g
-maybe g
-medial g
-metaphor g
-metonymy g
-minority g
-minus g
-more g
-most g
-multal g
-narrative g
-near g
-near-to g
-necessity g
-neither g
-neutral g
-no g
-not g
-notwithstanding g
-noun g
-obligation g
-of g
-off g
-on g
-on-account-of g
-on-behalf-of g
-on-top-of g
-only g
-onomatopoeia g
-opinion g
-opposite g
-or g
-ordinal g
-other g
-outside g
-over g
-owing-to g
-own g
-oxymoron g
-pace g
-pain g
-paradox g
-parallelism g
-parenthesis g
-paronomasia g
-part g
-passive g
-past g
-paucal g
-pejorative g
-per g
-perfect g
-perfective g
-periphrasis g
-permission g
-permissive g
-persistent g
-person g
-plural g
-pleonasm g
-plus g
-polite g
-polyptoton g
-polysyndeton g
-possibility g
-posterior g
-prediction g
-present g
-presumption g
-prior-to g
-probability g
-progressive g
-prohibition g
-promise g
-prospective g
-proximal g
-pursuant-to g
-qua g
-quadrual g
-recent g
-reciprocal g
-reflexive g
-regarding g
-regardless-of g
-regret g
-relative g
-relief g
-remote g
-repetition g
-request g
-result g
-reverential g
-right g
-round g
-same g
-save g
-side g
-since g
-single-quote g
-singular g
-slang g
-so g
-speculation g
-speech g
-square-bracket g
-subsequent-to g
-such g
-suggestion g
-superior g
-surprise g
-symploce g
-synecdoche g
-synesthesia g
-taboo g
-terminative g
-than g
-thanks-to g
-that-of g
-thing g
-threat g
-through g
-throughout g
-times g
-title g
-to g
-top g
-topic g
-towards g
-trial g
-tuple g
-under g
-unit g
-unless g
-unlike g
-until g
-up g
-upon g
-verb g
-versus g
-vocative g
-warning g
-weariness g
-with g
-with-regard-to g
-with-respect-to g
-within g
-without g
-worth g
-yes g
-zoomorphism g
+first-person
+second-person
+third-person
+ability
+about
+above
+according-to
+across
+active
+adjective
+adverb
+advice
+after
+again
+against
+agreement
+all
+alliteration
+almost
+along
+also
+although
+among
+anacoluthon
+anadiplosis
+anaphora
+anastrophe
+and
+anger
+angle-bracket
+antanaclasis
+anterior
+anthropomorphism
+anticlimax
+antimetabole
+antiphrasis
+antithesis
+antonomasia
+any
+apposition
+archaic
+around
+as
+as-far-as
+as-of
+as-per
+as-regards
+as-well-as
+as-if
+assertion
+assonance
+assumption
+asyndeton
+at
+attention
+back
+barring
+because
+because-of
+before
+behind
+belief
+below
+beside
+besides
+between
+beyond
+both
+bottom
+brace
+brachylogia
+but
+by
+by-means-of
+catachresis
+causative
+certain
+chiasmus
+circa
+climax
+clockwise
+colloquial
+command
+comment
+concerning
+conclusion
+condition
+confirmation
+consent
+consequence
+consonance
+contact
+contentment
+continuative
+conviction
+decision
+deduction
+definitive
+desire
+despite
+determination
+dialect
+disagreement
+discontentment
+dissent
+distal
+double-negative
+double-parenthesis
+double-quote
+doubt
+down
+dual
+due-to
+during
+dysphemism
+each
+either
+ellipsis
+emphasis
+enough
+entire
+entry
+epanalepsis
+epanorthosis
+equal
+equivalent
+euphemism
+even
+even-if
+except
+except-for
+except-if
+exclamation
+excluding
+exhortation
+expectation
+experiential
+extra
+failing
+familiar
+far
+fear
+female 
+focus
+following
+for
+from
+front
+future
+generic
+given
+habitual
+half
+hesitation
+hope
+hyperbole
+hypothesis
+if
+if-only
+imperfective
+in
+in-accordance-with
+in-addition-to
+in-case
+in-case-of
+in-front-of
+in-place-of
+in-spite-of
+inceptive
+inchoative
+including
+indefinitive
+inferior
+inside
+instead-of
+intention
+interrogation
+intimate
+invitation
+irony
+iterative
+jargon
+judgement
+least
+left
+less
+like
+literary
+majority
+male 
+maybe
+medial
+metaphor
+metonymy
+minority
+minus
+more
+most
+multal
+narrative
+near
+near-to
+necessity
+neither
+neutral
+no
+not
+notwithstanding
+noun
+obligation
+of
+off
+on
+on-account-of
+on-behalf-of
+on-top-of
+only
+onomatopoeia
+opinion
+opposite
+or
+ordinal
+other
+outside
+over
+owing-to
+own
+oxymoron
+pace
+pain
+paradox
+parallelism
+parenthesis
+paronomasia
+part
+passive
+past
+paucal
+pejorative
+per
+perfect
+perfective
+periphrasis
+permission
+permissive
+persistent
+person
+plural
+pleonasm
+plus
+polite
+polyptoton
+polysyndeton
+possibility
+posterior
+prediction
+present
+presumption
+prior-to
+probability
+progressive
+prohibition
+promise
+prospective
+proximal
+pursuant-to
+qua
+quadrual
+recent
+reciprocal
+reflexive
+regarding
+regardless-of
+regret
+relative
+relief
+remote
+repetition
+request
+result
+reverential
+right
+round
+same
+save
+side
+since
+single-quote
+singular
+slang
+so
+speculation
+speech
+square-bracket
+subsequent-to
+such
+suggestion
+superior
+surprise
+symploce
+synecdoche
+synesthesia
+taboo
+terminative
+than
+thanks-to
+that-of
+thing
+threat
+through
+throughout
+times
+title
+to
+top
+topic
+towards
+trial
+tuple
+under
+unit
+unless
+unlike
+until
+up
+upon
+verb
+versus
+vocative
+warning
+weariness
+with
+with-regard-to
+with-respect-to
+within
+without
+worth
+yes
+zoomorphism

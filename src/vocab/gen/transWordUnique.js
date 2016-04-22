@@ -54,6 +54,7 @@
 
 var io = require("../../lib/io"),
     hof = require("../../lib/hof"),
+    rootBlacklist,
     Entry = function () {
     //      ob Chinese (Sino-Tibetan) 1030 and
         this.zh = "";
@@ -132,6 +133,7 @@ function wordLinesToString(wordLines) {
 }
 
 function wordOfEachLine(wordIndex, wordLines) {
+    console.log("wordLines " + Array.isArray(wordLines));
     return wordLines.map(function (line) {
         return line[wordIndex];
     });
@@ -158,8 +160,7 @@ function returnIfUnique(transEntry, allDefinObj, index,
         if (word === "") {
             //console.log(key + " " + word + " blank");
             foundBlanks += 1;
-            thesaurusEntry.push(word + ": (blank in) ")
-            thesaurusEntry.push(key);
+            thesaurusEntry.push("(blank in) " + key + ":");
         }
         matchingDefs = 
                 values.expand(function (defWord, defIndex) {
@@ -179,7 +180,6 @@ function returnIfUnique(transEntry, allDefinObj, index,
             }
         });
         if (word.toLowerCase() === enDef && key !== "en") {
-            //console.log(key + " direct borrowed " + word);
             directBorrows += 1;
         }
         if (matchingDefs.length <= 0 ||
@@ -198,9 +198,19 @@ function returnIfUnique(transEntry, allDefinObj, index,
     });
     if (foundBlanks > 0) {
         result = "BLANK"; 
+        thesaurusEntry.push("BLANK:");
         blacklist[enDef] = thesaurusEntry;
         //console.log(enDef + " blank");
         //console.log(thesaurusEntry);
+    } else if (directBorrows >=
+            Math.floor(allTransLangs.length/1.618)) {
+        result = "BORROW"; 
+        thesaurusEntry.push("OVER_BORROWED:");
+        blacklist[enDef] = thesaurusEntry;
+    } else if (rootBlacklist.indexOf(enDef) !== -1) {
+        result = "BLIST"; 
+        thesaurusEntry.push("BLIST:");
+        blacklist[enDef] = thesaurusEntry;
     } else if (foundDuplicateDefs === 0) {
         result = transEntry;
         thesaurus[enDef] = thesaurusEntry;
@@ -208,6 +218,7 @@ function returnIfUnique(transEntry, allDefinObj, index,
         //    console.log(thesaurusEntry);
         //}
     } else {
+        thesaurusEntry.push("DUPLICATE:");
         blacklist[enDef] = thesaurusEntry;
         //console.log(enDef + " blackListed");
         //console.log(thesaurusEntry);
@@ -223,7 +234,7 @@ function makeAllDefinObj(transObj, mainWords) {
         definObj[langCode] = [];
     });
     mainWords.forEach(function (word) {
-        transEntry = transObj[word];
+        transEntry = transObj["X"+word];
         if (transEntry !== undefined) {
             allTransLangs.forEach(function (langCode) {
                 definObj[langCode].push(transEntry[langCode]);
@@ -278,14 +289,13 @@ function formatSuggestList(thesaurus, blacklist, mainWords) {
 
 function main() {
     var fileContents = io.fileRead("sortedComboList.txt"),
-    //var fileContents = io.fileRead("testyList.txt"),
-        blackFileContents = io.fileRead("sortBlacklist.txt"),
+        blackFileContents = io.fileRead("rootBlacklist.txt"),
         blackLines = stringToWordLines(blackFileContents),
-        blacklist = wordOfEachLine(0, blackLines),
+        blacklistWords = wordOfEachLine(0, blackLines),
         wordLines = stringToWordLines(fileContents),
-        wordLines = removeBlacklisted(wordLines, blacklist),
+        //wordLines = removeBlacklisted(wordLines, blacklist),
         mainWords = wordOfEachLine(0, wordLines),
-        transJSON = io.fileRead("genTrans2.json"),
+        transJSON = io.fileRead("genTransX.json"),
         transObj = JSON.parse(transJSON),
         transEntry,
         uniqObj = {},
@@ -293,10 +303,16 @@ function main() {
         uniqText,
         thesaurus = {},
         blacklist = {},
+        outObj = {},
         allDefObj = makeAllDefinObj(transObj, mainWords);
+    rootBlacklist = blacklistWords;
+    if (Array.isArray(rootBlacklist) === false) {
+        console.log("bl " + JSON.stringify(blacklistWords));
+        throw "blist not array";
+    }
     mainWords.forEach(function (word, index) {
         uniqEntry = undefined;
-        transEntry = transObj[word];
+        transEntry = transObj["X" +word];
         // be add ob sub entry for each lang ya
         if (transEntry === undefined) {
             console.log(word + " undefined ");
@@ -307,6 +323,10 @@ function main() {
         }
         if (uniqEntry === "BLANK") {
             console.log(word + " blank ");
+            mainWords[mainWords.indexOf(word)] = null;
+            allDefObj = makeAllDefinObj(transObj, mainWords);
+        } else if (uniqEntry === "BORROW") {
+            console.log(word + " over borrowed ");
             mainWords[mainWords.indexOf(word)] = null;
             allDefObj = makeAllDefinObj(transObj, mainWords);
         } else if (uniqEntry !== null) {
@@ -340,6 +360,10 @@ function main() {
             mainWords));
     io.fileWrite("suggestList.txt", formatSuggestList(thesaurus, 
         blacklist, mainWords));
+    outObj.mainWords = mainWords;
+    outObj.thesaurus = thesaurus;
+    outObj.blacklist = blacklist;
+    io.fileWrite("unique.json", JSON.stringify(outObj));
 }
 
 main();

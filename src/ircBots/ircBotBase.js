@@ -24,14 +24,15 @@ function initBot(obj) {
                 selfSigned: false,
                 certExpired: false,
                 floodProtection: false,
-                floodProtectionDelay: 5000,
+                floodProtectionDelay: 30000,
                 sasl: false,
                 stripColors: false,
                 channelPrefixes: "&#",
                 messageSplit: 512,
                 encoding: 'UTF-8',
-                millisecondsOfSilenceBeforePingSent: 60000,
-                millisecondsOfSilenceBeforePingTimeout: 30000
+                millisecondsOfSilenceBeforePingSent: 120000,
+                millisecondsOfSilenceBeforePingTimeout: 60000,
+                retryCount: null
             },
         bot = new irc.Client(server, nick, options);
     bot.addListener('pm', function (from, message) {
@@ -41,7 +42,15 @@ function initBot(obj) {
         console.log('error: ', message);
     });
     bot.addListener('close', function (message) {
-        console.log('error: ', message);
+        console.log('close: ', message);
+        bot.disconnect();
+    });
+    bot.addListener('abort', function (message) {
+        console.log('abort: ', message);
+        bot.disconnect();
+    });
+    bot.addListener('netError', function (message) {
+        console.log('netError: ', message);
         bot.disconnect();
     });
     bot.addListener("registered", function () {

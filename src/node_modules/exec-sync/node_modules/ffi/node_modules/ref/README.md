@@ -2,7 +2,7 @@ ref
 ===
 ### Turn Buffer instances into "pointers"
 [![Build Status](https://secure.travis-ci.org/TooTallNate/ref.svg)](https://travis-ci.org/TooTallNate/ref)
-[![Build Status](https://ci.appveyor.com/api/projects/status/n8mswogp2im4uot8)](https://ci.appveyor.com/project/TooTallNate/ref)
+[![Build Status](https://ci.appveyor.com/api/projects/status/n8mswogp2im4uot8?svg=true)](https://ci.appveyor.com/project/TooTallNate/ref)
 
 
 This module is inspired by the old `Pointer` class from node-ffi, but with the
@@ -81,6 +81,10 @@ properties:
 | `set`         | Function (buffer, offset, value) | The function to invoke when setting a value to a buffer instance.
 | `name`        | String                           | _(optional)_ The name to use during debugging for this type.
 | `alignment`   | Number                           | _(optional)_ The alignment of this type when placed in a struct. Defaults to the type's `size`.
+
+Be sure to check out the Wiki page of ["Known
+Types"](https://github.com/TooTallNate/ref/wiki/Known-%22types%22), for the list
+of built-in ref types, as well as known external type implementations.
 
 For example, you could define a "bigint" type that dereferences into a
 [`bigint`](https://github.com/substack/node-bigint) instance:

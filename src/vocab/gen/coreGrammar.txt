@@ -1,94 +1,97 @@
+infinitive g 2
 nominative-case g 2 ja が 
 accusative-case g 2 ja を 
 dative-case g 2 en of
 topic-case g 2 ja は 
-instrumental-case g 2 
+instrumental-case g 2
 adpositional-case g 2
 location-case g 2 en at
 source-case g 2 en from
-space-deixis g 2
+space-context g 2
 destination-case g 2
 way-case g 2
 realis-mood g 2
 irrealis-mood g 2
-interior-deixis g 2 en in
-surface-deixis g 2 en on
-under-deixis g 2 en under
-state-deixis g 2 
-social-deixis g 2
-discourse-deixis g 2 
-space-deixis g 2
-time-deixis g 2
-person-deixis g 2
-question-word g 2
+interior-context g 2 en in
+surface-context g 2 en on
+under-context g 2 en under
+state-context g 2 
+social-context g 2
+discourse-context g 2 
+space-context g 2
+time-context g 2
+person-context g 2
+question-word g 3
 genitive-case g 2
-ablative-case g 
-locative-case g 
-posessive-case g 
-possessed-case g 
+ablative-case g 3
+locative-case g 3
+posessive-case g 3
+possessed-case g 3
 vocative-case g 2
-infinitive g 2
 perfective-aspect g 2
 imperfective-aspect g 2
-inchoative-aspect g
-cessative-aspect g
-gnomic-aspect g
-habitual-aspect g
-momentane-aspect g
-continuous-aspect g 
-completive-aspect g
-progressive-aspect g
-delimitative-aspect g
-retrospective-aspect g
-prospective-aspect g
+inchoative-aspect g 2
+cessative-aspect g 2
+gnomic-aspect g 2
+habitual-aspect g 2
+momentane-aspect g 3
+continuous-aspect g 3
+completive-aspect g 3
+progressive-aspect g 3
+delimitative-aspect g 3
+retrospective-aspect g 3
+prospective-aspect g 3
 past-tense g 2
 present-tense g 2
 future-tense g 2
-soon-future-tense g
-remote-future-tense g
-remote-past-tense g
-recent-past-tense g
+soon-future-tense g 3
+remote-future-tense g 3
+remote-past-tense g 3
+recent-past-tense g 3
 deontic-mood g 2
 epistemic-mood g 2
 conditional-mood g 2
 eventive-mood g 
-permissive-mood g
-commissive-mood g
-permissive-mood g
-prhobitive-mood g
-directive-mood g
-imeprative-mood g
-hortative-mood g
-precative-mood g
-jussive-mood g
-volitive-mood g
-desiderative-mood g
-optative-mood g
-benedictive-mood g
-imprecative-mood g
-interrogative-mood g
-speculative-mood g
-atelic-aspect g
-telic-aspect g
-inferential-mood g
-inductive-mood g
-relativizer g
-evidential-case g
-plural g 2
-singular g
-dual-number g
-trial-number g
-paucal-number g
-multal-number g
-collective-noun g
-distributive-pronoun g
-inclusive g 
-exclusive g
-number g
+permissive-mood g 3
+commissive-mood g 2
+prhobitive-mood g 3
+directive-mood g 2
+imperative-mood g 3
+hortative-mood g 3
+precative-mood g 3
+jussive-mood g 3
+volitive-mood g 2
+desiderative-mood g 3
+optative-mood g 3
+benedictive-mood g 3
+imprecative-mood g 3
+interrogative-mood g 2
+speculative-mood g 2
+assumptive-mood g 3
+dubitative-mood g 3
+potential-mood g 3
+atelic-aspect g 3
+telic-aspect g 3
+inferential-mood g 2
+inductive-mood g 3
+deductive-mood g 3
+relativizer g 3
+evidential-case g 3
+plural-number g 2
+singular-number g 2
+dual-number g 3
+trial-number g 3
+paucal-number g 3
+multal-number g 3
+collective-noun g 3
+distributive-pronoun g 3
+inclusive g  3
+exclusive g 3
+number g 2
 length g
 mass g
 time g
-name g
+name g 2
 electric-current g
 temperature g
 amount-of-substance g
@@ -99,12 +102,9 @@ universal-quantifier g
 negatory-quantifier g
 alternative-quantifier g
 conjunction g
-inclusive-disjunction g
-exclusive-disjunction g
-specific-article g
+and-or g 
+exclusive-or g 
 definite-article g
-indefinite-article g
-unspecific-article g
 abstract-gender g
 vegetal-gender g
 mineral-gender g
@@ -118,12 +118,37 @@ planetary-gender g
 star-gender g
 galaxy-gender g
 universe-gender g
-neuter-gender g
-masculine-gender g
-feminine-gender g
+neuter-gender g 
+masculine-gender g 2
+feminine-gender g 2
 anthropic-gender g
 diminutive g
 augmentative g
-inanimate-gender g
-animate-gender g
+inanimate-gender g 3
+animate-gender g 3
 topic-case g 2
+it g 2
+and g 2
+you g 2
+not g 2
+here g 3
+there g 3
+more g 3
+elative-case g 3
+illative-case g 3
+copula g 3
+person g 3
+other g 3
+very g 3
+temporal-case g 3
+only g 3
+then g 3
+comitative-case g 3
+causal-case g 3
+alienable-possession g 3
+inalienable-possession g 3
+semelfactive-aspect g 3
+delative-case g 3
+prolative-case g 3
+its g 3
+neo g 

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1>TroshLyash Encoding for Virtual Machine </h1>
+<img class="alignnone size-full wp-image-1229" src="https://joylifecoop.files.wordpress.com/2016/03/640px-arithmetic_coding_example-svg.png" alt="640px-arithmetic_coding_example-svg" width="640" height="453" />
+
+The virtual machine uses variable-length-instruction-word (VLIW),  loosely inspired by <a href="http://scale.eecs.berkeley.edu/papers/hat-cases2001.pdf">head and tails instruction format</a>(HTF).  HTF uses VLIW's which are 128 or 256 bits long, however there can be multiple instructions per major instruction word.
+<h3>VLIW's Head Index</h3>
+The head is really a parse index, to show the phrase boundaries. In TroshLyash each bit represents a word, each of which is 16bits, when a phrase boundary is met then the bits flip from 1 to 0 or vice-versa.  Let's look at a simple hello example: "hnatkapyatno" meaning "print hello!", breaks down into the words "hnat ka pyat no" and the phrases "hnatka pyatno".
+Thus since there are two words each, the index for it is 0011 or 1100 depending on place within the index.
+The real index for a VLIW that only contains the above sentence would be 0110011111111111 since the index takes up the first 16bits of the VLIW.
+This would lead to 256bit (32Byte) VLIW's.
+
+The real advantage of the indexing occurs when there either multiple sentences per VLIW, or when there are complex sentences in the VLIW's.
+Having the VLIW's broken up into 32Byte chunks, makes it easier to address function entry points, which can be placed at the beginning of a VLIW.
+
+Can fit 16 VLIWS in a POSIX page, 128 VLIW's in a Linux page, so would only need 1 byte (8bits) for addressing functions that are within 1 page distance.
+<h3>Word Compression</h3>
+Now for the slightly more interesting issue of packing as many as 5 glyphs into a mere 16 bits. Why this is particularly interesting is that there is an alphabet of 32 glyphs, which would typically required 5 bits each, and thus 25bits in total. However the 16 bit compression is mostly possible due to the rather strict phonotactics of TroshLyash, as only certain classes of letters can occur in any exact place.
+
+The encoding supports 4 kinds of words, 2 grammar word classes and 2 root word classes. Where C is a consonant, T is a tone and V is a vowel, they are CVT, CCVT, and CVTC, CCVTC respectively.
+<h4>CCVTC or CSVTF</h4>
+I'll start with explaining the simplest case of the CCVTC word pattern.
+To make it easier to understand the word classes can call is the CSVTF pattern, where S stands for Second consonant, and F stands for Final Consonant.
+
+The first C represents 22 consonants, so there needs to be at least 5 bits to represent them.
+Here are the various classes
+
+"C":["p","t","k","f", "s","c","x", "b","d","g","v", "z","j", "n","m","q","r", "l","y","w"],
+"S":["f","s","c","y", "r","w","l","x", "z","j","v"],
+"V":["i","a","e","o","u","6"],
+"T":["7","_"],
+"F":["p","t","k","f", "s","c","n","m"],
+
+(can check the <a href="http://wyn.bot.nu/spel/src/vocab/gen/phonology.html">phonology</a> page for pronunciation)
+
+C needs 5 bits,
+S would need 4 bits, however the phonotactics means that if the initial C is voiced, then the S must be voiced, thus "c" would turn into "j", "s" into "z" and "f" into "v", also none of the ambigiously voiced phonemes (l, m, n, q, y, w, r) can come before a fricative because they have a higher sonority, thus must be closer to the vowel. So S only needs 3 bits.
+V needs 3 bits
+T needs 2 bits
+and F needs 3 bits
+which is a total of 16 bits.
+5+3+3+2+3 = 16
+
+However there are other kinds of words also. we'll see how those work.
+<h3>HCVTF</h3>
+So here we have to realize that CVC or CVTC is actually HCVTF due to alignment.
+So what we do is make a three bit trigger from the first word,
+the trigger is 0, which can be three binary 0's, 0b000
+3+5+3+2+3 = 16
+H+C+V+T+C
+
+this does mean that now 0b1000, 0b10000 and 0b11000 is no longer useable consonant representation, however since there are only 22 consonants, and only 2 of those are purely for syntax so aren't necessary, so that's okay, simply can skip the assignment of 8, 16 and 24.
+<h3>CSVT</h3>
+This is similar to the above, except we use 0b111 as the trigger,
+meaning have to also skip assignment of 15, 23 and 31.
+3+5+3+3+2 = 16
+?+C+S+V+T
+<h3>CVT</h3>
+For this one can actually simply have a special number, such as 30,
+which indicates that the word represents a 2 letter word.
+5+5+3+2+1
+?+C+V+T+P
+
+what is P? P can be a parity-bit for the phrase, or simply unassigned.
+<h3>Quotes</h3>
+Now with VM encodings, it is also necessary to make reference to binary numbers and things like that. The nice thing with this encoding is that we can represent several different things.
+Currently with the above words, we have 1 number undefined in the initial 5 bits.
+
+29 can be an initial dot or the final one, can call the the quote-flag (QF), depending on if parser works forwards or backwards. Though for consistency it is best that it is kept as a suffix (final one), as most other things are suffixes. 
+5+3+8 = 16
+Q+L+B
+QF has a 3 bit argument of Length.
+The Length is the number of 16bit fields which are quoted,  if the length is 0, then the B is used as a raw byte of binary.
+Otherwise the B represents the encoding of the quoted bytes, mostly so that it is easier to display when debugging. 
+
+The type information is external to the quotes themselves, being expressed via the available TroshLyash words. So in theory it would be possible to have a number that is encoded in UTF-8, or a string that is encoded as a floating-point-number. Though if the VM interpreter is smart then it will make sure the encoding is compatible with the type Lyash type, and throw an error otherwise.
+
+<h3>Extension</h3>
+This encoding already can represent over 17,000 words, which if they were all assigned would take 15bits, so it is a fairly efficient encoding. However the amount of words can be extended by increasing number of vowels, as well as tones. And it may even be possible to add an initial consonant if only one or two of the quote types is necessary.
+
+However this extension isn't likely to be necessary anytime in the near future, because adult vocabulary goes up to around 17,000 words, which includes a large number of synonyms. For instance the Lyash core words were generated by combining several different word-lists, which were all meant to be orthogonal, yet it turns out about half were internationally synonyms, so were cut down from around eight thousand to around four thousand words.
+
+It will be possible to flesh out the vocabulary with compound words and more technical words later on. Also it might make sense to supplant or remove some words like proper-names of countries.
+
+<h2 id="values">Table of Values</h2>
+<table class="table">
+<tr><th>#</th><th>C</th><th>S</th><th>V</th><th>T</th><th>F</th></tr>
+<tr><td>0</td><td>SRF</td><td>y</td><td>i</td><td>MT</td><td>m</td></tr>
+<tr><td>1</td><td>m</td><td>w</td><td>a</td><td>7</td><td>k</td></tr>
+<tr><td>2</td><td>k</td><td>s z</td><td>u</td><td>_</td><td>p</td></tr>
+<tr><td>3</td><td>y</td><td>l</td><td>e</td><td>U</td><td>n</td></tr>
+<tr><td>4</td><td>p</td><td>f v</td><td>o</td><td></td><td>s</td></tr>
+<tr><td>5</td><td>w</td><td>c j</td><td>6</td><td></td><td>t</td></tr>
+<tr><td>6</td><td>n</td><td>r</td><td>U</td><td></td><td>f</td></tr>
+<tr><td>7</td><td>LGF</td><td>x</td><td>U</td><td></td><td>c</td></tr>
+<tr><td>8</td><td>SRO</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>s</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>t</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>l</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>f</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>c</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>r</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>LGO</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>SRO</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>b</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>g</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>d</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>z</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>j</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>v</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>LGO</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>24</td><td>SRO</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>25</td><td>q</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>26</td><td>x</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>27</td><td>1</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>28</td><td>8</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>29</td><td>QF</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>30</td><td>SGF</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>31</td><td>LGO</td><td></td><td></td><td></td><td></td></tr>
+</table>
+<dl>
+<dt></dt>
+<dd>blank means out of bounds</dd>
+<dt>U</dt>
+<dd>undefined</dd>
+<dt>MT</dt>
+<dd>middle tone, no marking</dd>
+<dt>QF</dt>
+<dd>quote flag</dd>
+<dt>SGF</dt>
+<dd>short grammar word flag</dd>
+<dt>SRF</dt>
+<dd>short root word flag</dd>
+<dt>LGF</dt>
+<dd>long grammar word flag</dd>
+<dt>SRO</dt>
+<dd>short root word flag overflow</dd>
+<dt>LGO</dt>
+<dd>long grammar word flag overflow</dd>
+</dl>
+</body>
+</html>

@@ -1,0 +1,301 @@
+ABE 	abessive case (AKA caritive case or privative case: 'without')
+ABL 	ablative case ('from')
+ABS 	absolutive case
+ACC 	accusative case
+ACCOM 	accompanier
+ACT 	active voice, actor role ( in role and reference grammar
+ADJ 	adjective
+ADE 	adessive case ('at'; more specific than LOC)
+ADM 	admonitive mood (warning)
+ADV 	adverb(ial), adverbial case
+AFF 	affirmative
+AGT 	agentive case (cf ACT)
+AGR 	agreement
+ALLA 	allative case ('to')
+ALLOC 	allocutive agreement
+ALIEN 	alienable possession
+ANI 	animate gender (cf R)
+ANDA 	andative (going towards: cf venitive)
+ANTR 	anterior tense (used for PRF in some traditions)
+ANTE 	antessive case ('before')
+ANTIC 	anticausative
+ANTIP 	antipassive voice
+AOR 	aorist (= PFV or PST.PFV)
+APP 	apposition
+APPL 	applicative voice
+APPR 	apprehensive mood
+APRX 	approximative
+ARTI 	article
+ASP 	aspect
+ASSU 	assumptive mood, assertive
+ATT 	attenuative; attributive (= ATTR)
+AUD 	auditory evidential
+AUG 	augmentative
+AUX 	auxiliary verb
+BE 	    'be' verb (a conflation of EXIST and COP)
+BEN 	benefactive case ('for')
+COG 	common gender
+CAP 	(cap)ability, modal case
+CAUS 	causative
+CENTI 	centric case
+CF 	    counterfactual conditional
+CIRC 	circumfix
+CIT 	citation form
+CLF 	classifier
+CNJ 	conjunction (= CONJ)
+CNSQ 	consequential
+COL 	collective plural
+COM 	comitative case ('together with')
+COMP 	comparative; complementizer
+COMPL 	completive aspect
+CONC 	concessive
+COND 	conditional mood
+CONJ 	conjunction (= CNJ)
+CONN 	connective particle
+CONT 	continuative aspect
+CNTR 	contrastive
+COP 	copula
+COR 	coreference
+CRAS 	crastinal tense ('tomorrow')
+CRS 	current relevance marker (as in the perfect)
+CVB 	converb
+DAT 	dative case
+DE 	    different event, change of event (cf DS)
+DECL 	declarative mood
+DEF 	definite
+DEIX 	deixis, deictic
+DEL 	delayed imperative (a command to do s.t. later)
+DEL 	delative case ('off of'), deliberative mood
+DEM 	demonstrative
+DEO 	deontic mood
+DEP 	dependent (as in DEP.FUT)
+DESI 	desiderative mood
+DEST 	destinative aspect
+DET 	determiner
+DETR 	detransitive
+DH 	    motion downhill, seaward (cf DR)
+DIM 	diminutive
+DIR 	direct evidential (= EXP); directional (= LAT); direct case
+DISJ 	disjunction
+DIST 	distal demonstrative
+DISTR 	distributive case
+DITR 	ditransitive
+DLM 	delimited
+DM 	    discourse marker
+DO 	    direct object
+DR 	    motion downriver (cf DH)
+DS 	    different-subject (change of subject) marker (cf DE)
+DU 	    dual number
+DUB 	dubitative mood
+DUR 	durative aspect, continuous aspect
+DYAD 	dyadic
+DYN 	dynamic aspect
+ELA 	elative case ('out of')
+EMP 	emphatic
+EPIS 	epistemic mood, epistemic modality
+ERG 	ergative case
+ESS 	essive case
+EVID 	evidential
+EVIT 	evitative case (= aversive case)
+EXCL 	exclusive person
+EXCLAM 	exclamative
+EXDUR 	excessive duration
+EXESS 	exessive case
+EXH 	exhortative
+EXIST 	existential ('there is')
+EXO 	exocentric case
+EXPER 	experiential, eyewitness, = direct evidential
+EXPL 	expletive (dummy / meaningless form)
+FEM 	feminine gender
+FACT 	factive evidential
+FAM 	familiar register (as the T–V distinction)
+FIN 	finite verb
+FOC 	focus
+FORM 	formal register (as the T–V distinction)
+FP 	    final particle (joshi)
+FREQ 	frequentative aspect
+FMR 	former, deceased
+FUT 	future tense
+GEN 	genitive case
+GER 	gerund
+GNO 	gnomic (generic) aspect
+GT 	    goal trigger (Austronesian; = GV goal voice)
+HAB 	habitual aspect
+HBL 	humble register
+HEST 	hesternal tense ('yesterday')
+HIST 	historic(al), as in historical present or past historic tense
+HOD 	hodiernal tense ('today')
+HON 	honorific
+HORT 	hortative,
+HSY 	hearsay, reported evidential
+HUM 	human, anthropic gender (cf. HBL; R)
+HYP 	hypothetical mood
+ID 	    identical (~ NID)
+IDENTIF 	identifiable
+IDEO 	ideophone (≈ MIM)
+IGNOR 	ignorative
+ILLA 	illative case ('into')
+IMM 	immediate, as in immediate imperative mood, near future tense
+IMP 	imperative mood
+IMPERF 	imperfect (= PST.IPFV)
+IMPREC 	imprecative mood
+IMPRS 	impersonal verb
+INCL 	inclusive person
+INAL 	inalienable possession
+INAN 	inanimate gender
+INCHO 	inchoative aspect, inceptive aspect
+INCL 	inclusive person (= IN)
+IND 	indicative mood
+NDEF 	indefinite
+INE 	inessive case ('in')
+INF 	infinitive
+INFER 	inferential evidential
+INEL 	inelative case ('from within')
+INS 	instrumental case
+INT 	intensifier; interrogative (= Q)
+INTEN 	intentional
+INTR 	intransitive (covers an intransitive case for the S argument)
+INV 	inverse
+IO 	    indirect object
+IPFV 	imperfective aspect (= NPFV)
+IRR 	irrealis mood
+IS 	    indirect speech
+ITER 	iterative aspect
+JUS 	jussive mood
+L2 	    second language (code-switching)
+LAT 	lative case (= MVMT, direction)
+LD 	    locative case + directional
+LK 	    linker
+LOC 	locative case (includes essive case)
+LOG 	logophoric
+MASC 	masculine gender
+MAN 	manner
+MID 	middle voice
+MIM 	mimetic (≈ IDEO)
+MIR 	(ad)mirative
+MLTP 	multiplicative case
+MOD 	mood, modal, modal case
+MOM 	single action verb (not iterative)
+MVT 	movement
+NEUT 	neuter gender
+NEG 	negation, negative
+NH 	    non-human
+NOMI 	nominalizer/nominalization
+NOM 	nominative case
+NS 	    non-subject (Latin 'oblique case')
+INTR 	intransitive (covers an intransitive case for the S argument)
+NUM 	numeral
+O 	    patient-like argument (object) of canonical transitive verb (= P)
+OBJ 	object; objective case
+OBL 	oblique case
+OBV 	obviative
+OPT 	optative mood
+PART 	participle (= PTCP,PCP); particle (= PTCL); partitive case (= PTV)
+PAS 	passive voice
+PAT 	patientive (= UND)
+PAU 	paucal number
+PEG 	pegative case (a special case for the giver)
+PER 	perlative case ('per', using)
+PERF 	perfect (= RET)
+PERS 	personal
+PFV 	perfective aspect
+PL 	    plural
+PLUR 	pluractional
+PM 	    phrase marker, predicate marker
+PRO 	pronoun
+PO 	    primary object
+POL 	polite register
+POSS 	possessive marker
+POST 	postposition, postpositional case
+POSTE 	postessive case ('after')
+POT 	potential mood (a possible conditional)
+PP 	    past / passive participle
+PPP 	past passive participle
+PPFV 	past perfective
+PR 	    proper noun
+PRED 	predicative
+PREC 	precative mood (requests)
+PREP 	preposition, prepositional case
+PRESP 	present participle
+PRET 	preterite (= PFV.PST)
+PERF 	perfect (= RET)
+PRIV 	privative case
+PRES 	present tense
+PROB 	probability
+PROG 	progressive aspect
+PROH 	prohibitive mood ('don't!')
+PROL 	prolative case (= VIA)
+PROP 	propositive mood
+PROS 	prosecutive case ('across', 'along')
+PROSP 	prospective aspect
+PROT 	protasis
+PROX 	proximal/proximate
+PST 	past tense
+PT 	    patient trigger
+PTCL 	particle
+PTCP 	participle
+PTV 	partitive case ('some of')
+PURP 	purposive
+Q 	    question word or particle (= INT)
+QUOT 	quotative case or mood (marks quoted speech)
+R 	    rational gender (thinking beings)
+REAL 	realis mood
+REC 	recent past tense
+RECP 	reciprocal voice
+REF 	referential
+REFL 	reflexive voice
+REL 	relative(izer)
+REM 	remote past tense
+REP 	reported evidential (= HSY); repetitive (cf ITER)
+RES 	resultative; resumptive
+RET 	retrospective (synonym for 'perfect' in some traditions)
+RFR 	referential
+SBJ 	subject
+SBJV 	subjunctive mood
+SE 	    same event (cf SS)
+SEM 	semelfactive aspect ('once')
+SENS 	sensory evidential mood (= VIS+AUD
+SEQ 	sequential
+SG 	    singular (but 1.SG = 1s, 3MASC.SG = 3ms)
+SGV 	singulative number
+SIM 	simultaneous aspect; similative
+SPEC 	specifier; speculative mood
+SS 	    same-subject marker (cf SE)
+STAT 	stative aspect, stative verb
+SU 	    subject
+SUBORD 	subordinator
+SUBE 	subessive case ('under')
+SUBL 	sublative case ('onto', 'down onto')
+SUC 	successive ('then')
+SUPL 	superlative (SUPL); supine; supplicative
+SUPE 	superessive case ('on')
+TAM 	tense, aspect, or mood
+TEL 	telic aspect (cf PFV)
+TEMP 	temporal case
+TERM 	terminative case
+TNS 	tense
+TOP 	topic
+TRANS 	transitive verb, transitive case (rare)
+TRANSL 	translative case (becoming)
+TRI 	trial number
+TRN 	trans-numeral (neither SG nor PL)
+TVF 	truth-value focus
+U 	    uninflected
+UH 	    motion uphill, inland (cf UR)
+UND 	undergoer role (cf PAT)
+UR 	    motion upriver (cf UH)
+USIT 	usitative
+VB 	    verb(al)
+VBZ 	verbalizer
+VD 	    verb, ditransitive
+VEN 	venitive (coming towards; cf andative)
+VER 	veridical, veridical mood (a certain conditional)
+VIA 	vialis case
+VIS 	visible, visual
+VI 	    verb, intransitive
+VN 	    verbal noun
+VOC 	vocative case
+VOL 	volitive mood
+VT 	    verb, transitive
+WHQ 	wh- question
+ZO 	    zoic gender (animals)

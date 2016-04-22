@@ -5,3 +5,4 @@
 ./transWordPhon.js & ./transWordUnique.js;
 wait;
 ./rootWordPhon.js
+./transAllLists.js

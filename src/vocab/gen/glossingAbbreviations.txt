@@ -3,7 +3,7 @@ second-person g
 third-person g
 agent g
 abessive-case g
-ablative-case g
+ablative-case g 3
 absolutive-case g
 accusative-case g
 accompanier g
@@ -22,10 +22,10 @@ animate-gender g
 andative g
 antessive-case g
 anticausative g
-antipassive-voice g
+antipassive-voice g 3
 aorist g
 apposition g
-applicative-voice g
+applicative-voice g 3
 apprehensive-mood g
 approximative g
 article g
@@ -33,11 +33,11 @@ aspect g
 associative-case g
 agent-trigger g
 attenuative g
-auditory-evidential g
+auditory-evidential g 3
 augmentative g
 auxiliary-verb g
 core-benefactive g
-benefactive-case g
+benefactive-case g 3
 common-gender g
 modal-case g
 causative g
@@ -49,7 +49,7 @@ classifier g
 conjunction g
 consequential g
 collective-noun g
-comitative-case g
+comitative-case g 3
 comparative g
 completive-aspect g
 concessive g
@@ -64,7 +64,8 @@ crastinal-tense g
 current-relevance-marker g
 converb g
 dative-case g
-erent-event-change-of-event g
+different-event g
+change-of-event g
 declarative-mood g
 definite g
 deixis g
@@ -77,9 +78,9 @@ dependent g
 desiderative-mood g
 determiner g
 detransitive g
-motion-downhill g
+motion-downhill g 3
 diminutive g
-direct-evidential g
+direct-evidential g 3
 disjunction g
 distal-demonstrative g
 distributive-case g
@@ -87,7 +88,7 @@ ditransitive g
 delimited g
 discourse-marker g
 direct-object g
-motion-downriver g
+motion-downriver g 3
 different-subject g
 dual-number g
 dubitative-mood g
@@ -98,8 +99,8 @@ elative-case g
 emphatic g
 epistemic-mood g
 ergative-case g
-essive-case g
-evidential g
+essive-case g 3
+evidential g 3
 evitative-case g
 exclusive-person g
 exclamative g
@@ -111,7 +112,7 @@ exocentric-case g
 experiential g
 expletive g
 feminine-gender g
-factive-evidential g
+factive-evidential g 3
 familiar-register g
 finite-verb g
 focus g
@@ -131,7 +132,7 @@ historic-tense g
 hodiernal-tense g
 honorific g
 hortative g
-reported-evidential g
+reported-evidential g 3
 anthropic-gender g
 hypothetical-mood g
 inflected g
@@ -153,9 +154,9 @@ indicative-mood g
 indefinite g
 inessive-case g
 infinitive g
-inferential-evidential g
+inferential-evidential g 3
 inelative-case g
-instrumental-case g
+instrumental-case g 3
 intensifier g
 intentional g
 intransitive g
@@ -173,11 +174,11 @@ locative-case g
 logophoric g
 masculine-gender g
 manner g
-middle-voice g
+middle-voice g 3 
 mimetic g
 mirative g
 multiplicative-case g
-single-action-verb g
+single-action-verb g 3
 movement g
 neuter-gender g
 negation g
@@ -194,7 +195,7 @@ obviative g
 optative-mood g
 prehodiernal g
 participle g
-passive-voice g
+passive-voice g 3
 patientive g
 paucal-number g
 pegative-case g
@@ -243,26 +244,24 @@ rational-gender g
 realis-mood g
 recent-past-tense g
 soon-future-tense g
-reciprocal-voice g
+reciprocal-voice g 3
 referential g
-reflexive-voice g
-relativizer g
+reflexive-voice g 3
 remote-past-tense g
 remote-future-tense g
-reported-evidential g
+reported-evidential g 3
 resultative g
 retrospective g
 referential g
 subject-case g
 subjunctive-mood g
 same-event-marker g
-sensory-evidential-mood g
+sensory-evidential-mood g 2
 sequential g
 singular-number g
 singulative-number g
 speculative-mood g
 same-subject-marker g
-subordinator g
 subessive-case g
 sublative-case g
 successive-clause g
@@ -279,16 +278,16 @@ topic-case g
 transitive-verb g
 translative g
 trans-numeral g
-motion-uphill g
-motion-upriver g
+motion-uphill g 3
+motion-upriver g 3
 usitative g
 verbal g
 verbalizer g
 ditransitive g
 venitive g
-veridical g
+veridical g 3
 vialis-case g
-visible-evidential g
+visible-evidential g 3
 verbal-noun g
 vocative-case g
 volitive-mood g
@@ -322,9 +321,6 @@ causal-case g
 mineral-gender g
 abstract-gender g
 benedictive-mood g
-person-deixis g
-time-deixis g
-space-deixis g
-discourse-deixis g
 pro-phrase g
 pro-sentence g
+dependent-clause g 2

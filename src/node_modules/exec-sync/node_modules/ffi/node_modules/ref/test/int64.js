@@ -1,4 +1,3 @@
-
 var assert = require('assert')
 var ref = require('../')
 
@@ -21,6 +20,38 @@ describe('int64', function () {
     ref.writeInt64(buf, 0, val)
     var rtn = ref.readInt64(buf, 0)
     assert.equal(val, rtn)
+  })
+
+  it('should allow a hex String to be input (signed)', function () {
+    var buf = new Buffer(ref.sizeof.int64)
+    var val = '-0x1234567890'
+    ref.writeInt64(buf, 0, val)
+    var rtn = ref.readInt64(buf, 0)
+    assert.equal(parseInt(val, 16), rtn)
+  })
+
+  it('should allow an octal String to be input (signed)', function () {
+    var buf = new Buffer(ref.sizeof.int64)
+    var val = '-0777'
+    ref.writeInt64(buf, 0, val)
+    var rtn = ref.readInt64(buf, 0)
+    assert.equal(parseInt(val, 8), rtn)
+  })
+
+  it('should allow a hex String to be input (unsigned)', function () {
+    var buf = new Buffer(ref.sizeof.uint64)
+    var val = '0x1234567890'
+    ref.writeUInt64(buf, 0, val)
+    var rtn = ref.readUInt64(buf, 0)
+    assert.equal(parseInt(val, 16), rtn)
+  })
+
+  it('should allow an octal String to be input (unsigned)', function () {
+    var buf = new Buffer(ref.sizeof.uint64)
+    var val = '0777'
+    ref.writeUInt64(buf, 0, val)
+    var rtn = ref.readUInt64(buf, 0)
+    assert.equal(parseInt(val, 8), rtn)
   })
 
   it('should return a Number when reading JS_MIN_INT', function () {
@@ -66,13 +97,49 @@ describe('int64', function () {
     assert.equal(0, rtn)
   })
 
+  it('should throw a "no digits" Error when writing an invalid String (signed)', function () {
+    assert.throws(function () {
+      var buf = new Buffer(ref.sizeof.int64)
+      ref.writeInt64(buf, 0, 'foo')
+    }, /no digits we found in input String/)
+  })
+
+  it('should throw a "no digits" Error when writing an invalid String (unsigned)', function () {
+    assert.throws(function () {
+      var buf = new Buffer(ref.sizeof.uint64)
+      ref.writeUInt64(buf, 0, 'foo')
+    }, /no digits we found in input String/)
+  })
+
+  it('should throw an "out of range" Error when writing an invalid String (signed)', function () {
+    var e;
+    try {
+      var buf = new Buffer(ref.sizeof.int64)
+      ref.writeInt64(buf, 0, '10000000000000000000000000')
+    } catch (_e) {
+      e = _e;
+    }
+    assert(/input String numerical value out of range/.test(e.message));
+  })
+
+  it('should throw an "out of range" Error when writing an invalid String (unsigned)', function () {
+    var e;
+    try {
+      var buf = new Buffer(ref.sizeof.uint64)
+      ref.writeUInt64(buf, 0, '10000000000000000000000000')
+    } catch (_e) {
+      e = _e;
+    }
+    assert(/input String numerical value out of range/.test(e.message));
+  })
+
   it('should throw an Error when reading an int64_t from the NULL pointer', function () {
     assert.throws(function () {
       ref.readInt64(ref.NULL)
     })
   })
 
-  it('should throw an Error when reading a uint64_t from the NULL pointer', function () {
+  it('should throw an Error when reading an uint64_t from the NULL pointer', function () {
     assert.throws(function () {
       ref.readUInt64(ref.NULL)
     })

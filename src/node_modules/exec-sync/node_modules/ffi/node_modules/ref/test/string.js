@@ -72,14 +72,25 @@ describe('C string', function () {
       buf.writePointer(ref.NULL)
       assert.strictEqual(null, buf.deref())
 
+      // another version of the same test
       assert.strictEqual(null, ref.get(ref.NULL_POINTER, 0, ref.types.CString))
     })
 
     it('should read a utf8 string from a Buffer', function () {
       var str = 'hello world'
       var buf = ref.alloc(ref.types.CString)
-      buf.writePointer(Buffer(str + '\0'))
+      buf.writePointer(new Buffer(str + '\0'))
       assert.strictEqual(str, buf.deref())
+    })
+
+    // https://github.com/node-ffi/node-ffi/issues/169
+    it('should set a Buffer as backing store', function () {
+      var str = 'hey!'
+      var store = new Buffer(str + '\0')
+      var buf = ref.alloc(ref.types.CString)
+      ref.set(buf, 0, store)
+
+      assert.equal(str, ref.get(buf, 0))
     })
 
   })

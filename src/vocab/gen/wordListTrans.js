@@ -89,7 +89,7 @@ var io = require("../../lib/io"),
     },
     allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt","es"];
+        "fi", "el", "ka", "cy", "pl", "sr", "lt","es" ];
 
 function stringToWordLines(string) {
     function lineToWords(line) {
@@ -116,7 +116,7 @@ function wordOfEachLine(wordIndex, wordLines) {
 }
 
 function translateWord(word, toLangCode) {
-    var execSync = require("exec-sync"),
+    var shelljs = require("shelljs/global"),
         fromLangCode = "en",
         command = "",
         translation = "",
@@ -127,7 +127,7 @@ function translateWord(word, toLangCode) {
     command = "../gtranslate.sh " + fromLangCode + " " +
         toLangCode + " '" + word +"'";
     try {
-        translation = execSync(command);
+        translation = exec(command).output;
     } catch (e) {
         console.log("fail for " + command);
         console.log(e.stack);
@@ -150,7 +150,7 @@ function updateTranslationEntry(entry, word) {
     Object.keys(entry).forEach(function (key) {
         if (entry[key] === "") {
             translation = translateWord(word, key);
-            console.log(translation);
+            console.log(word + " " + translation);
             entry[key] = translation;
         }
     });
@@ -161,13 +161,12 @@ function main() {
     var fileContents = io.fileRead("sortedComboList.txt"),
         wordLines = stringToWordLines(fileContents),
         mainWords = wordOfEachLine(0, wordLines),
-        transJSON = io.fileRead("genTrans2.json"),
-        transObj = JSON.parse(transJSON),
+        transJSON = io.fileRead("genTransX.json"),
+        transObjX = JSON.parse(transJSON),
         count = 0,
         entry;
-    // mainWords.map(getTranslations.curry(transObj));
     mainWords.forEach(function (word) {
-        entry = transObj[word];
+        entry = transObjX["X" + word];
         if (entry === undefined) {
             entry = new Entry();
         }
@@ -177,16 +176,21 @@ function main() {
                 entry[langCode] = "";
             }
         });
-        transObj[word] = updateTranslationEntry(entry, word);
+        transObjX["X" + word] = updateTranslationEntry(entry, word);
         count += 1;
         if (count > 100) {
-            io.fileWrite("genTrans2.json", 
-                JSON.stringify(transObj));
+            io.fileWrite("genTransX.json", 
+                JSON.stringify(transObjX));
             count = 0;
         }
     });
-    //console.log(JSON.stringify(transObj));
-    io.fileWrite("genTrans2.json", JSON.stringify(transObj));
+  //  mainWords.forEach(function (word) {
+  //      transObjX["X" + word] = transObj[word];
+  //  });
+    console.log("writing genTransX.json");
+    io.fileWrite("genTransX.json", JSON.stringify(transObjX));
+//    console.log("writing genTrans2.json");
+ //   io.fileWrite("genTrans2.json", JSON.stringify(transObj));
 }
 
 main();

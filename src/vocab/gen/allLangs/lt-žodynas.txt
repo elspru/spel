@@ -1,0 +1,2749 @@
+bendratis: begalinis, begalybė
+vardininkas-atvejis: 
+galininko-atvejis: 
+tema-atvejis: tema-atvejis
+pirminis: tėvų, pagrindinis, vyresnysis
+tėtis: tėvas
+mama: mama, motina, motinos
+Labas: Ate, Labas, ei
+protėvis: pirmtakas, senelis
+senelių: senelis, senelė
+alkanas: alkis, badauti
+kilmininko-atvejis: savininkiškas-atvejis
+būdvardis: 
+ir: suma, pagal
+man: pats, aš, mano, mes
+Jūs: jiems, tave, tu
+mums: mes, mūsų, mūsų
+tai: jis, kad, ji, tai, tai
+paskirties-vieta-atvejis: tikslas-atvejis
+naudininkas-atvejis: 
+interjeras-kontekstas: 
+asmuo-kontekstas: 
+priklausomas-išlyga: 
+Tobulas-aspektas: 
+praeitis-įtempti: 
+vyriškas-lytis: bevardė-giminė-lytis
+comitative-atvejis: 
+dovana-įtempti: 
+benefactive-atvejis: 
+essive-atvejis: 
+ne: ne, ne, vargu-ar, negali, Ne, pikis
+jos: jų, jo, jai, jam, tie, jai-priklaisantis, apie
+paviršius-kontekstas: 
+adpositional-atvejis: 
+vieta-atvejis: 
+erdvė-kontekstas: 
+būdas-atvejis: 
+instrumentinis-atvejis: 
+kuris: kas, kaip, kurio, bet-koks, nė-vienas, kad, kurį, kad---kuri, ką, kiekvienas, kuris
+klausiamasis-nuotaika: 
+ir-arba: 
+išskirtinė---arba: 
+šaltinis-atvejis: 
+įnagininko-atvejis: 
+demonstratyvus: kietas, esminis, betono, nenuginčijamas, direktyva, dramatiškas
+bet: dar, tačiau
+visi: visi, visi, Iš-viso, visas, bendras, visa, viskas, bet-koks, vis-labiau
+moteriškas-lytis: 
+jie: jiems, ji, tie, jų, jiems, pavardė, tai
+daugiskaitos-skaičius: 
+vienas: vienvietis, , į, vienas
+ateitis-įtempti: 
+socialinis-kontekstas: 
+kada: kada
+imperfective-aspektas: 
+ten: 
+sąlyginis-nuotaika: tariamoji-nuosaka-nuotaika, hipotetinis-nuotaika
+daugiau: per, dauguma, toliau, už, į-viršų, į-viršų, kelių, kaip, gana, taip-pat, be-to, plius, dar, dar, kitas, keletas, kartotinis
+iš: už, išorinis, išorinis, lauko, lauke, nuo, ne---iš, už, į-viršų, ant, ant
+santykinis-atvejis: santykinis-atvejis
+Išreiškia-išvada-atvejis: 
+padaryti: padaryti, atlikti, įsipareigoti, padaryti, aktyvinti, darė, įsipareigoti
+direktyva-nuotaika: orientacinis-nuotaika
+deontic-nuotaika: 
+klausimas-žodis: 
+copula: jungtis, ryšys, puokštė
+asmuo: vyras, žmonės, individualus, kas-nors, nors, vaikinas, žmogaus, veidas, burna, subjektas
+Vyras: vyriškas, paminėti, džentelmenas, vyras
+galėtų: galima, galia, galbūt, galbūt
+kitas: kitas, likusieji, antra, kitas, kitoks, vienas-kitą
+skaičius: suma, suma, figūra, skaitmeninis, skaitvardis, kiekis
+labai: labai, labai, siaubingai, daug, per-daug, beprotiškai, plačiai, labai, tikrai, blogai, didžiulis, žymiai, daug, kelių, nepaprastai, dauguma, gana, gana, toli, gana, Gerai, Gerai, gerai
+laikas: o, momentas, metu, laiku, trukmė, laiko, įtempti, tvarkaraštis, laikotarpis, oras
+laikas-kontekstas: 
+laiko-atvejis: 
+apie: apie, dėl, beveik, maždaug, apie, pagal, kaip, aplink, už, vartotojas, skųstis, apie
+episteminis-nuotaika: 
+tik: tiesiog, tik, tiesiog, taškas, tik, grynai, tik
+mažai: mažas, mažytis, nežymus, nežymiai, tiek, nepilnametis, smulkus, mažybinis, portatyvus, nedaugelis
+tada: vėl, iš-naujo, ya, nuo, prieš, vėliau, paskui
+Hortative-nuotaika: 
+retrospektyvus-aspektas: 
+puikus: didelis, didelis, kilnus, rimtas, didžiulis, garsiai, milžiniškas, milžinas, didžiulis, dominuojantis, geras, bauda, didelis, didžiulis, esminis, nuostabus, puikus, optimalus, didysis, pagrindinis, puikus, puikus, puikus
+Volitive-nuotaika: 
+prieš: prieš, iš-anksto, prieš, būti-anksčiau, iki, priekinis, anksčiau, prieš
+turi: turėtų, būtinai, nereikalingas, privalau, reikėti, turi, turėtų, norėti, į
+du: dvigubas, abu
+pamatyti: žiūrėti, vaizdas, reginys, pranešimas, suvokti, žiūrėti
+žinoti: nustatyti, žinoti, mokyti, vėliava, matomas
+žemyn: žemyn, žemyn, pagal, žemiau, po, po, mažiau, dugnas, menkesnis, žemyn
+po: galinis, ant, paštas, dimensija, vėliau, paskui, vėliau, po, praeitis, po, po
+pirmas: debiutas, pradinis, nuo, toliau, kumštis
+nuosavas: pats, sau, turėti, asmeniškai, jo, pati, savarankiškai
+nusavinamas-turėjimas: 
+niekada: kada-nors
+neatimamas-turėjimas: 
+senas: naudotas, senovės, senas, senyvo-amžiaus, buvęs, ex, ex, amžius
+svarstymo-nuotaika: 
+diena: kasdien, šiandien, šiąnakt
+kur: kur-tik, pagal-kurį, vieta
+ateiti: į, pasiekti, atvykimas, atvykti, tapti, mada, įvykti
+būdas: metodas, metodika, priemonė, kelias, maršrutas, traktas, kelias, takas, būdas, kelias, gatvė, cukrus, takelis, trajektorija, įprotis
+darbas: darbas, paskyrimas, aktyvus, užduotis, darbo, darbo, karjera, funkcija, veikti, funkcinis, verslas, aktas, sportuoti, užimtumas, profesinis, darbo, iliustracijos
+balsis: garsus, gyvenimas, išlikimas
+eiti: vaikščioti, kaina, nukrypti
+perlative-atvejis: 
+progresuojantis-aspektas: 
+ilgai: ilgai-trunkantis, ilgalaikis, aukštas, palei
+pasakyti: šnekamasis, pasakyti, kalbėti
+kaip: patikti, kaip, kaip
+net: taip-pat, arba, iki, be-to, per-daug
+atgal: už, galinis, atgal, atgalinis, sugrįžimas, iš-naujo, atkurti, anuliuoti, vėl, pakartojimas, prieš, pagal---į
+čia: 
+galvoti: mąstymas, mintis, apsvarstyti, įsivaizduoti, pastoti, medituoti, būtų, vadinamas, protas
+tas-pats: identiškas, panašus, lygus, lygiavertis, teisingai, Gerai, gerai, pats, vienodai, panašiai
+paskutinis: pabaiga, pastarasis, galutinis, pagrindinis, kitas, kitas, paskutinis, naujas, pabaiga, praeitis, praeitis, ištverti, atlaikyti, sudėti, išlikti
+toli: toli, tolimas, nuo, išskyrus, nuošaliai, į-kairę, palikti, nėra
+pagal-kontekstas: 
+imti: poilsiavietė, užimti, atnešti, priimti, patraukti, gauti, gauti, pasirinkti, laimikis, užfiksuoti, priimti, gauti, imti
+rasti: rasti, atrasti, atradimas, aptikimas, prieinamas
+ranka: ranka, riešas
+jaunas: jaunimas, jaunesnysis, paauglys, paauglys, Naujas
+nors: nors, vis-dėlto, fiksuotas, firma, kietas, stipriai, nepaisant, tačiau, nors
+duoti: skolinti, suteikti, pasiūlymas, jei, pristatyti, padaryti, turėti, sudėti, dovanoti, leisti
+dievas: 
+delative-atvejis: 
+niekas: kažkas, objektas, niekas, kas, nė-vienas, niekas
+teisė: pora, teisingas, kruopščiai, mugė, teisingumas, pateisinamas, nesąžiningas, tinkamas, teisė, teisė, teisingai, tiesa, tikras, tikrai, teisę, gerai
+kartą: tuojau, skubiai, metodas, modelis, metodika, vėl
+semelfactive-aspektas: 
+dalis: skyrius, iš-dalies, dalis, iš-dalies, sklypas, frakcija, dalis, tiek, gabalas, ištrauka, poaibis, skyrius, skyrius, epizodas, dalinis, skyrius, globotinis, sektorius, dalis, vardu
+pjūklas: 
+namas: namo, patalpos, šventykla, korpusas, namų
+pasaulis: karalystė, pasaulinis, visata
+galva: pavadinimas, pagrindinis, vyriausiasis, skyrius, vadovas, prezidentas, pirmininkas, direktorius, bosas, vyresnysis, rašiklis
+trys: trečias
+Neo: Naujas, naujai
+fokusas: skirtas, tikslas, tikslas, tikslas, sutelkti, Dėmesio, koncentracija, akcentas, susilieti
+meilė: prisirišimas, labdara, patikti
+visada: amžinai, nuolat, kada-nors, įprastas
+naktis: vakaras, vakarienė, po-pusiaudienio
+kiekvienas: už, kiekvienas, bet-koks
+karalius: karaliauti, valdovas, monarchas, magnatas
+tarp: tarp, tarp, apie
+širdis: nudžiuginti, padrąsinantis, pulti
+paucal-skaičius: 
+nes: dėl, nuo, atvejis, priežastis
+priežastinis-atvejis: 
+dalykas: klausimas, reikalas, reiškinys, medžiaga, ką
+rinkinys: grupė, sudėti, laikyti, padėti, pasta, kolekcija, derinys, masyvas, rinkinys, paketas, portfelis, sintezė, kartu, serija, posūkis, diapazonas, eilė, styga, komplektas, rinkinys
+Pavadinimas: pavardė, daiktavardis
+tinkamas-daiktavardis: 
+Hortative: raginimasis
+šalis: tauta, žemės, žemė, būklė, žemės, apygarda, dirvožemis, šalis
+paklausė: 
+matomas-pagrįstas-įrodymu: 
+geriau: pranašesnis, geriausias, puikus, idealus, neišspręstas
+pusė: šoninis, palaikyti, palaikyti, vardu, posūkis, puslapis, aspektas, pusė, aspektas
+kursas: mokymo-planas, pamoka, paskaita, tikrai, tikrai, aiškiai, kursas
+patelė: ponia, moteriškas, moteriškas, moterys, mergina, žmona
+pakankamai: pakankamas, pakankamai, pakankamas, didelis, gana, daug, nepakankamas, gana, gana
+greitai: netrukus, greitai, greitai, greitai, greitai, tiesioginis, greitas, skubėti, skubus, taip, tuojau, lengvai, netoliese, anksti, greitai
+pilnas: visiškai, pakankamai, absoliutus, pilnas, netobulas, visa, tiksliai, tiksli, pratarti, tiksliai, kruopštus, visas, išsamus, dydis
+kambarys: kamera, ketvirtas, miegamasis, taika
+beveik: beveik, praktiškai, maždaug, maždaug, netoli, aplink, Uždaryti, gretimas, iš-esmės, netoliese, netrukus, proksimalinio, maždaug, vargu-ar
+negali: negali
+vanduo: skystis, skystis, takoskyra
+desiderative-nuotaika: 
+šviesa: švytėti, šviesus, žvakė, nežymus, stilius, lengvai, švelnus, žiebtuvėlis, išblyškęs, aiškus
+nei: nė-vienas, Ne, dar, ką, atsitikti, arba
+žodis: leksikos
+durys: vartai, tarpduris, įėjimas, skyrius, uostas
+naudojimas: panaudoti, naudojimas, vartojimas, išlaidos, vartotojas, užsiimti, taikymas, naudingumas, taikyti, įdarbinti
+rytas: iš-ryto, pusryčiai
+terminative-atvejis: 
+galia: stiprumas, energija, galia, stiprus, jėga, galingas, dinaminis, salotos, dominavimas, valdžia
+patys: patys, sau, pats, pats, pati, pati, savarankiškai, ego, skyrius
+dabartis: dabartinis, dovana, dabar, šiuo-metu, dovana, egzistuoti, pasiekiamas
+balsas: garso, garsiai, balsavimas, garso, balsas, punktas, gandas, gandas
+baltas: tuščias, skundas
+pinigai: turtas, sidabras, finansinis, pinigai, valiuta, finansai, piniginis
+Kitas: šalia, šalia, šalia, po, vėliau, dimensija, toliau, vėlesnis
+prastas: ranka, skurdas, blogas, blogiausia, supuvęs, silpnas
+mirtis: mirtingumas, mirtis, miręs
+forma: forma, pelėsiai, formatas, kontūras, modelis
+inessive-atvejis: 
+malonus: klasė, rūšiuoti, rūšis, įvairovė, tipas, draugiškas, punktas, geras, malonus, malonus, malonus
+dažnai: dažnai, nuolat, reguliariai, dažnas, dažniausiai, paprastai, paprastai
+metai: metinis, kasmet, penki
+draugas: sąjungininkas, draugas, vaikinas, draugas
+tvarka: sistema, išdėstymas, susitarti, sutartis, masyvas, komanda, posūkis, eilė, eilė
+imperatyvas-nuotaika: 
+turas: apvalus, ratas, etapas
+tikėti: pasitikėjimas, skaitytis, daryti-prielaidą, tikėjimas, tikėjimas, pasitikėjimas, tikras, optimizmas, optimistiškas
+visuomenės: visuomenės, bendras, auditorija
+valstybės-kontekstas: 
+sūnus: spiečius, berniukas
+šimtas: šimtasis, veidas, centas
+vaikai: vaikas, palikuonis, vaikas, kūdikis
+taip: tuo-būdu, taip, taigi, toks, taip
+tikiuosi: palinkėti, perspektyva, numatyti, optimizmas, optimistiškas
+aukščiau: į-viršų, per, laiptais-į-viršų, aukštas, viršus, pažangus, viršutinis, per, dėl, per, ant, virš-galvos, ant, į-priekį, į-viršų
+brangusis: meilužis, brangus
+skaityti: skaitymas, dainuoti, lelija
+miestas: miestas, savivaldybės, apygarda
+jau: paruoštas, parengtas, pasiruošęs, vistiek
+faktas: tiesa, realybė, tikroviškumas, tiesa, nekilnojamasis, faktinis, išties, tikrai, tikrai, darė
+priežastinis-pagrįstas-įrodymu: 
+Klausyk: klausyti, klausa, pajusti
+mažiau: minimalus, minimalus, minimizuoti, minusas, mažiau
+gal: tikriausiai, galbūt, galimas-daiktas, galia, galbūt, galimas, tikėtinas, tikėtinas
+atviras: aiškus, paprastas, aiškiai, plikas, akivaizdžiai, laisvas, aiškus, akivaizdus, lauko, deficitas, išblyškęs, atvirai, atskleisti
+kūnas: kūnas, kūno, fizinis, fiziškai, rinkinys, vargonai, lavonas
+oro: vėjas, vėjas, aviacija, oras, oro
+pobūdis: natūralus, gimtasis, natūraliai, kilmė, nusileidimas, vietinis, Gyvūnijos, pobūdis
+padėti: padėti, naudingas, pagalba, pagalba, asistentas, padėti
+laiškas: paštas, rašymas
+keturi: ketvirtas
+geidžiamoji-nuosaka-nuotaika: tariamoji-nuosaka-nuotaika
+ugnis: karštas, liepsna, karščiavimas
+todėl: taigi
+valanda: laikrodis, valanda, varpas
+nemokamai: laisvė, laisvė, atleisti, nemokamai, tuščias, laisvai, laisvas, laisvai, paleidimas
+karas: mūšis, kova
+ar: jei, pati
+priežastis: priežastis, sąskaita, veiksnys, pagrįstai, pasiteisinimas, pagrindai, paplitimas, ieškovas
+vieningas: vienaskaitos, vienybė, imtinai, sąjunga, sąjungininkų, sąjungininkas, unikalus, vieningas
+kvietimas: iššūkis, oksiduoti, apeliacija, apie, ryšys, derinys, bendras, sintezė, kvietimas
+kodėl: 
+prarastas: nuostolis, dingęs
+tūkstantis: tūkstantasis
+šeimos: namų, maitintojo
+siela: dvasia, vaiduoklis, Mastermind
+klausimas: emisija, paklausa, skaitymas, klausimas
+priežiūra: susirūpinęs, rūpestis, Dėmesio, meditacija, tarnyba, rėmimas, apsauga, saugumas, apsauga, saugumas, išsaugojimas, išsaugojimas, apimtis, gynyba, atsargumas, išgydyti, gydymas, globa
+REALIS-nuotaika: 
+vidutinis: reikšti, jausmas, reikšmė, reikšmingas, pažymėti, vidurys, agentas, vidutinis, vidutinis, vidutinis
+potencialas-nuotaika: 
+link: link, prieš, palyginti, priešintis, už, pagarba, už
+allative-atvejis: 
+žmogaus-veiklos-lytis: 
+trumpas: mažiau, žemas, trumpas, netrukus, trumpai, korta, siauras, nežymus
+pajėgus: galima, kvalifikuotas, tinkamas, galintis, talpa, gebėjimas, neveiksnus, kompetentingas, potencialas, galimybė, tikimybė, stiprus, galingas, sumanus, Gegužė
+gyventi: gyvenimas, išgyventi, elgtis, gyvenimas, lizdas, rajonas, kaimynystė, kaimynystė, gyvas, gyvas, žalias, gyventi
+tema: disciplina, tema, tema, pamoka, medžiaga, emisija, objektas, reikšmė, medžiaga, semantinis, klausimas, reikalas, pavadinimas
+tas-pats-tema žymeklis: 
+kitoks-tema: 
+atsakymas: į-šiaurę, atsakyti, atsakymas, sprendimas, atitikti, atsakyti
+jūra: vandenynas, jūrų
+baimė: bijojimas, baiminasi, siaubas, baimė, išsigandęs, panika, nerimas, Angst, siaubas, panika
+suprasti: supratimas, supratimas, suvokti, suvokti, pastoti, nesuprantamas, įtraukti, suvokti
+sunku: sunkus, standus, sudėtingas, šiurkštus, garsiai, smarkiai, nuožmus, kietas, griežtas, sudėtinga, sudėtingas, sunkus, kapas, sunkus, neramus
+sąlygos: terminas, terminologija, emisija, remiantis, pagrindai, pagrindas, iš-esmės, iš-esmės, iš-esmės
+abejonė: įtarimas, nepasitikėjimas, įtarti
+dubitative-nuotaika: 
+paklausti: melstis, reikalauti, klausyti, Prašom
+ginklai: ginklas, nusiginkluoti, ginkluotas, ranka
+juodas: 
+atnešti: atnešti, vežti, būtų, vadovauti
+gražus: geras, gražus, mielas, gražiai, gražiai, gana, išgalvotas, kietas, mielas
+tamsus: tamsa
+laikyti: laikyti, palaikyti, laimikis, rankena, sutartis, sudaryti, mazgas, dešimtmetis, įginti, laukti, patikti, palaikyti
+dešimt: dešimtmetis, dešimtas, mugė
+Rodyti: displėjus, atlikti, spektaklis, demonstravimas, pristatymas, nurodyti, pažymėti, renginys, projekcija
+istorija: mitas, istorija, fikcija, sklypas
+bendras: bendras, įprastas, rutina, paprastai, paprastas, neįprastas, dažniausiai, kuklus, normalus, nereguliarus, sutartinis, tipiškas, paprastai, paprastai, bendras, partneris, bendradarbis, bendras, bendras, abipusis, bendras
+knyga: ritinys, rezervas, svaras, vadovėlis
+elektroninis: elektronika, elektronas, žaibas, elektros, elektra, elektros
+kalbėti: pokalbis, kalbėtis, tartis, sąveika, bendrauti, derybos, kalbėti, kalbos, šnekamasis, diskursas
+ženklas: žymeklis, pėdsakas, takas, rezultatas, pabrėžti, erkė, ženklas, signalas, indikacija, lazda, markė, pobūdis, etiketė
+palūkanos: gėlė, suinteresuotas, rūpestis
+rašyti: sukomponuoti, rašymas, tipas, parašyta
+lova: 
+būtinas: esminis, svarbus, naudingas, kritinis, gyvybiškai-svarbus, reikšmingas, nesvarbus, integralas, lemiamas, svarbiau, reikėti, būtinai, negalininkinis, negalininkinis, negalininkinis
+idėja: mintis, svarstymas, samprotavimas, nuomonė, sąvoka, Brainstorm
+menas: amatas, meninis
+VIALIS-atvejis: 
+brolis: Giminystės, sesuo
+kartais: retai, retkarčiais, kažkada
+linija: viela, sriegis, eilė, juosta, laidumo, brūkšnys, juosta, mokestis, scenarijus
+lentelė: rašomasis-stalas, grafikas, katalogas
+upė: pagalvė, pagalvėlė, fliusas
+akis: paskirti, aplink
+informacija: žinutė, paaiškinimas, aprašymas, biuletenis, žinios, duomenys
+staiga: staigus
+keistas: keistai, stebinantis, keistai, keistas, stebėtis, nuostabus, puikus, nepaprastas, neįtikėtinas, nuostabus, keistas, juokingas, nepažįstamasis, egzotiškas, keblus
+giliai: giliai, gylis, platus, seklus, kruopštus, detalus, išsamus, kritiškai, gilus, per, viduje, Vidinis, kirminas
+pokytis: modifikacija, variacija, transformacija, transformuoti, mutacija, perėjimas, pakeisti, iš-dalies-pakeisti, perėjimas, pataisa, pakeitimas
+jausmas: pajusti, sensacija, suvokimas, įspūdis, emocija, nuotaika, sužavėtas, emocinis, sensorinis, sentimentas, jausmas, aistra, sąmoningas, sąmonė
+susitikti: gauti, susilieti, susitikimas, laikytis, Patenkinti, susitikimas
+tikslas: objektas, tikslas, tikslas, tikslas, paskirties-vieta, ketinimas, skirtas, motyvas, taikinys
+laimingas: linksmas, linksmins, malonumas, džiaugiuosi, džiaugsmas, laimė, malonumas, malonu, Pramogos, laimingai, laimingas, patenkintas
+atrodyti: išvaizda, pasirodyti, matyt
+kraujas: kraujuoti, nusikaltėlis
+rožė: rožinis
+į-pietus: pietų, vidurdienis, vidurdienis
+šaltas: žiema, kietas, šaltai
+Pirmyn: toliau, toliau, į-priekį, reginys, priekinis, pažangus, prieš, šikšnosparnis, ant, toliau
+pozicija: vieta, situacija, statusas, tikimybė, galimybė, plotas, pozicija, laikysena, vieta, paštas, punktas
+vėlai: lėtai, pabaiga
+stovėti: stotis, vertikalus, požiūris, pozicija, sustabdyti, laikysena, pozuoti, gardas
+tarkime: prielaida, hipotezė, prisiimti, priimti, daryti-prielaidą, Statyti-hipotezė, pasiūlyti
+dukra: mergina, mergelė
+mano: mano
+supjaustyti: trūkumas, trūkstamas, mažinimas, trūkumas, sumažinti, trūkumas, praleisti, pjovimas, pertraukti, pjaustyti, įžambus-brūkšnys, derlius, apkarpyti, sugedęs, pažeisti
+kopija: atgaminti, replikacijos, atkartoti, transkripcija, fotokopija, klonas, versija, receptas
+vyras: vyras, sutuoktinis
+šeši: seksas
+prisiminti: pastaba, prisiminti, priminti, įsiminti
+poveikis: įtaka, paveikti, įspūdis, poveikis, dominavimas, efektyvus, efektyviai, veiksmingumas, pasekmė, rezultatas, poveikis
+kristi: ruduo, atvejis, yra, avarija, kristi, palaužti, žlugimas, lašas, mažėjimas, sumažinti
+išskyrus: nebent, už, ne---iš, išskyrus, išskyrus, išskiriant, šalia, į-šalį, Neskaitant-to
+plaukai: 
+pereiti: pagal, per, perėjimas, per, netoli, šalia, būti, absolventas, rūdys, kirsti, ištrauka, pereiti
+autorinės-teisės: 
+kariuomenė: kariuomenė, būrys, kariuomenė, karys
+paleisti: bėgti, nusausinti, bėgimas, vykdyti, veikti, vairuoti, sloga, įranga
+arklys: pasaga, prie
+ateitis: ateitis, vėliau, vėliau, paskui
+į-vakarus: vakarų
+mokėti: užmokestis, darbo-užmokestis, atlyginimas, trauka, mokėjimas, atlyginti, rinkliava, kaina
+raudonas: 
+auksas: 
+noras: valia, trokštantis, apetitas, palinkėti, kankintis, paraginti
+Groti: šokiai, lošti, žaidimas, skruostas, žaislas
+meistras: valdovas, pagrindinis, pagrindinis, profesorius, dominuoti, valdyti, Ponas, džentelmenas, pirmaujantis, ponas
+biuras: agentūra, rašomasis-stalas
+vyriausybė: būklė, eilė
+bažnyčia: 
+ilgis: aukštis, aukštis, trukmė, palei, trukmė
+įmonė: firma, korporacija, visuomenė, verslas, bendras, subjektas, institucija, agentūra, institutas, įmonė
+popierius: lapas, korta, chartija
+tikimybė: galimybė, tikimybė, tikėtinas, galbūt, nepanašu, perspektyva, tikimybė
+ypač: specialus, specialiai, konkrečiai, ypač, ypatingas, tiksliai, daugiausia, dažniausiai, visų-pirma, specifinis
+turėti: vežti, ištverti, atlaikyti, pakantumas, tolerancija, turėti, turėti, turėti
+langas: 
+susitarimas: protokolas, atsiskaitymas, kompromisas, sutarimas, sutartis, sutikti, sandoris, akordas, pasiūlymas, styga, sutartis, konvencija, išdėstymas
+grožis: gražiai, spindesys, estetinis
+pareiga: atsakomybė, atsakomybė, įsipareigojimas, atsakingas, muitinės, užduotis, paskyrimas, skola, skolingas, privalau
+siųsti: perduoti, pateikimas, paštas, transliacija, siųsti
+atstumas: pašalinimas, diapazonas, atskyrimas
+tyla: ramumas
+pėda: koja, sustabdyti, šlaunis, pirštas, ketvirtis, vaikščioti, vaikščiojimas
+laukinis: nepaprastai, neteisėtas, nuožmus, Gyvūnijos
+mirti: miręs, mirtis
+sutaupyti: taupymas, išsaugojimas, susigrąžinti, tausoti, išsaugojimas, įsiminti, parduotuvė, išpirkti, gelbėjimas, įrašas
+žalias: žalias, žalias
+bėda: rūpintis, emisija, problema, sunkumas, sunkumas, minkyti, kančia
+šypsena: šypsnys
+neteisus: klaida, klaida, klaidingas, blogai, Znęcać, netikras, kaltė, nesėkmė, škvalas, neteisingai, netaktas
+įvairus: kitoks, įvairus, kartotinis, diapazonas, įvairus, kelių, skirtingai-nuo, variantas, skirtis, skirtis, įvairovė
+miegas: miegantis, svajoti
+quotative-atvejis: 
+pradžia: pradėti, pradžia, įsipareigoti, įdrėskimas, pradžia, anksti, pradinis, pradžia, debiutas, principas
+veiksmas: užduotis, taškas, žingsnis, etapas, aktas, procedūra, aktyvus, operacija, veiklos, aktyvinti, aktyvistas, žingsnis, praktika, praktika, veikti, ištekliai, mitingas, vykdymas, vykdyti
+apsilankymas: priėjimas, interviu, prieinamas, kelionė, kelionė, kelionė, kelionė
+sekti: laikymasis, prisijungti, po, siekti, takelis, lydėti
+pabandyti: bandymas, mėgino, pastanga, iniciatyva, eksperimentas, testas, pavyzdys
+buvimas: egzistavimas, egzistuoti, subjektas, turtas
+saldus: saldainiai, švelnus, nuobodus, mielas
+turtingas: daug, gausus, turtingas
+priešas: 
+laivas: valtis, burė, laivynas, buriavimas, laivas, kruizas, keltas
+būklė: lažybos, lažybų, būklė, situacija, aplinkybė, statusas, turtas, etapas, lygis, fitnesas, reikalavimas
+įskirtinai: būti, įtraukti, įtraukti, priklausyti
+imtinai-asmuo: 
+paslaptis: paslaptingas, paslaptis, kaištis, po-žeme, išskirti
+precative-nuotaika: 
+mandagus-registruotis: 
+blogis: žala, bjaurus, piktas, blogas, blogai
+Kovas: paradas, protestas, demonstravimas, Marsas
+kokia: kas, kuris
+pasilikti: išlikti, sėdėti, atsiskaityti, išgyventi, gyventi, laukti
+užuot: vietoj, gana, pakeitimas, pakeitimas
+mėlynas: fėja
+neįmanomas: 
+mokykla: universiteto-miestelis, kopėčios
+proga: galimybė, renginys, įvykis, tikimybė, alėja, sandėris
+vedęs: santuoka, tuoktis, vestuvės
+maistas: miltai, dieta, patiekalas, pašaras, maistingas
+dvidešimt: 
+ramus: ramus, ramus, stabilizuotis, tylus, ramus, lėtas, atsipalaidavęs, minkštai
+lengvai: tikėtinas, lengvai, atsakingas, lengvas, patogumas, nežymus, nežymiai, lengvai, patogus, paprastas
+būsimas-aspektas: 
+kalba: kalbinis, liežuvis
+išraiška: išreikšti, pareiškimas, frazė, artikuliuoti, apreiškimas, poveikis, pasisakymas
+savaitė: sekmadienis
+salė: veranda, teatras, prieškambario, plotas, kamera, salonas, poilsio, perėjimas, bėgikas, fojė
+pavojus: pavojingas, rizika, pagarba, grėsmė
+turtas: turtas, priklausyti, nuosavybė, monarchija, turėjimas, ypatybė, bruožas, turtas, turtas, turtas
+gimęs: gimimas
+teismas: teisminis, patiekalas, forumas, bandomasis
+paprastai: įprastas, paprastai, bendras, bendras, plačiai, paprastai, dažniausiai, paprastai, plačiai
+Gnomiczny-aspektas: 
+vertas: nusipelnyti, vertė, vertingas, galiojimas, nuopelnas
+paprastas: paprastumas, paprastas, patogus, lankstus, lengvas, tiesiog, tiesiog, paprastas, kuklus, tik, tik, tiesiai, paprastas
+medis: augalas, mediena, velenas, mediena
+kova: kova, mūšis, konfrontacija, ginčytis, peštynės
+sienos: 
+dangus: dangus
+inchoative-aspektas: 
+Liepiamoji-nuotaika: 
+tonas: pikis, melodija, tona, tona, atspalvis
+atsižvelgti: pagarba, prisiimti, daryti-prielaidą, Dėmesio, svarstymas, apsvarstyti, santykis, asociacija, santykis, dėl, apie, pastaba, apimtis
+laukiamas: numatymas
+mėnuo: mėnulis
+patirtis: empirinis, patirtinis, patyręs, ekspertizė, įkarštis, eksperimentas
+visiškai: visai, puikiai, visiškai, visiškai, gana, visiškai, visiškai, absoliutus, visas, kruopščiai, gana, grynai, tiksliai
+šviežias: šviežiai, grynas, švarus, pailsėję, Naujas, naujokas
+kunigaikštis: valdovas, princas
+taikoma: danga, apimtis, nuo, uždarytas, Vidinis
+riba: apimtis, apribojimas, riba, siena, apribojimas, ribotas, sujungtas, priklausyti, įpareigoti
+į-rytus: rytų, prieš, ankstesnis, prieš, iš-anksto, orientuotis
+akmuo: marmuras, Rokas, perlas
+šiek-tiek: kažkas, kas, keletas, gana, gana, nežymiai, iš-dalies, kažkaip
+kryptis: orientacija, dimensija, tendencija, aspektas, mokymas
+kėdė: sėdynė, fotelis, taburetė
+parama: palaikyti, patvirtinti, pagalba, padėti, gembė, pagalba
+data: istorija, susitikimas
+kaimas: kaimelis, kaimas
+laukas: sfera, karalystė, regionas, teritorija, plotas, zona, sektorius, domenas, arena, stadionas, plotas, marža, kaimas, stovykla
+leidimas: leisti, ausis, leidimas, klirensas, palikti, licencija, licencija, sutikimas, leidimas
+liberalus-nuotaika: 
+sėkmė: sėkmingas, pavykti, gerovė, pasiekimas, pergalė, laimėjimas, smogti, laimėjimas, nugalėtojas
+tinkamas: tinkamai, teisingas, protingas, tinkamas, tikslus, tikslus, teisė, tiksli, tiksliai, skubiai, ištikimai, teisingai, teisingai, variantiškumas, tikti, tinkamas, patogus, tinkamas, atitikti, tinkamas, aktualus, puikus, pakankamas, reguliariai
+kalnas: kalnas, stovas
+muzika: muzikinis
+distalinės-demonstratyvus: 
+popietė: po-pusiaudienio, vidurdienis, vidurdienis, vakaras
+šauksmas: gedėti, šaukti, rėkti
+garbė: garbė, pagarba, orumas, garbingas, garbingas, Garbės, mandagumas, šlovė, kursas, kaina
+septyni: 
+privatus: asmens, savarankiškai, asmeniškai, automatinis, specialus, slaptumas, specifinis, išskirtinis
+naujienos: žinutė
+scena: Svetainės, reginys, kontekstas, displėjus, regėjimo, etapas, vaizdas, perspektyva, palapinė
+sodas: parkas
+varžybos: rasinis, lenktynių, bėgimas, konkursas, turnyras, pasiūlymas, veisti, rungtynės
+skirstomasis-atvejis: 
+sužinoti: studija, mokyti
+politinis: politika, politiškai, politikas, politika
+melas: netikras
+mesti: drėbti, mesti, mesti, krestelėjimas, formatas, pelėsiai, pradėti, mesti, mesti
+valgyti: miltai, pašaras, patiekalas, papietauti, vartojimas
+aukštas: kilimas, žemės, dugnas, dirvožemis, vaikščioti, aukštas, aukštas
+blogai: sergantis, pacientas, žaizda, liga, netikras, blogai
+originalus: kilmė, iš-pradžių, išankstinis, pradinis, sintezė, iš-pradžių, gimtasis, tikras, įgimtas, vietinis, pagrindinis, pagrindinis, prototipas
+vasara: šiluma
+religija: religinis, skola
+nuotrauka: portretas, tapyba, vaizdas, nuotrauka, fotografinis, fotografija, nuotrauka, fotokopija, brėžinys, greitai, filmas, iliustracija, vaizdavimas, figmedis, figūra
+pabėgti: bėgti
+autorius: rašytojas, mokytojas, redaktorius
+rudas: pilkas, pilkas, įdegimas, bronza
+Atkaklus: nustatymas, nuspręsti, nustatyti, neabejotinas, užsispyręs, dizaineris, nurodyta, nustatyti, stabilus, tikras
+skausmas: sužeistas, skausmas, skausmingas, sielvartas, žaizda
+pavasaris: plunksna, mūsų, mūsų
+amžius: amžius
+minkštas: nuolaidus, sklandžiai, smulkiai, pasiūlymas, švelniai, minkštai, švelnus, nuobodus, švelnus
+kampas: kampas, pleištas, nuskęsti
+gaminti: gamyba, generuoti, produktyvus, išsigalvoti, gamyba, gamyba
+juokas: juokas
+pamiršti: nepastebėti
+Europa: 
+aštuoni: aštuntas
+suknelė: kostiumas, apranga, suknelė, apdaras, apsirengęs, vienodas, apranga
+baisus: baisus, siaubingas, beprotiškai, bauginantis, didžiulis, tragiška, nerimą, panika, išsigimęs, siaubingai
+kvėpavimas: kvėpavimo, kvėpuoti, kvėpavimas, iškvėpti, ego, aiktelėti
+protingas: protingas, protingas, diskretiškas, mąstantis, protingas, sumanus, protingas
+savininkiškas-žymeklis: 
+atmintis: įsiminti, nuoroda, paminklas
+modernus: šiuolaikinis, sudėtingas, modernizuoti, madingas, naujas, diskursas
+vieta: taškas, taškas, valanda, vieta, dėmė, trūkumas, lopas, vieta, niekur, patalpos, lokus, Svetainės, vietinis, įsikurti, ženklas, žemės
+pakilti: augalas, vijoklinis, paršavedė, lipti, į-viršų, lenta, važiuoti, pakilimas, kilti, kelti, pasirodymas, augti
+pertrauka: įsilaužti, stabdys, poilsiavietė, poilsio, pertraukimas, intervalas, atotrūkis, sutriuškinti, subyrėti, sustabdyti, pauzė, pertraukti
+penkiasdešimt: 
+sala: 
+liesti: kontaktas
+pažadas: įsipareigoti, įsipareigojimas, įsipareigojimas, paskyrimas
+commissive-nuotaika: 
+laipsnis: lygus, apimtis, klasė, kokybė
+planas: schema, sandoris, programa, programa, iniciatyva, planuotojas, pasiūlymas, projektas, sklypas, eskizas, projekcija, maketavimas, butas, brėžinys, dizainas
+elgesys: tendencija, elgesys, elgesys, elgesio
+staigmena: stebinantis, netikėtas, atsitiktinis, stebinantis
+minutė: 
+kadras: šaudyti, šaudymas, kulka, šaudmenys, nuotrauka, nuotrauka, smūgis, trenksmas, perversmo, mesti, kadras
+blogiau: blogas, blogiausia, šiurkštus, nepalankus, blogai, beprotiškai, menkesnis, į-viršų, laiptais-į-viršų
+stiklas: veidrodis, kristalas, stiklainis, akiniai, akiniai
+instancija: pavyzdys, iliustracija, modelis, modelis, metafora, prototipas, kaip, atstovauti, pavyzdys, atvejis, precedentas, pavyzdys, paradigma, pavyzdžiui
+saugus: užtikrinti, saugumas, saugumas, saugiai, tikras, draudimas
+gydytojas: gydytojas, gydytojas, specialistas, medicinos
+Kompletywny-aspektas: 
+pakartotinis: dažnai, reguliarus, pastovus, nuolat, retkarčiais, dažnas, reguliariai, pakartojimas
+karinis: būrys, karingas
+šiltas: karštas, kambarėlis, šiluma, šiluma, temperatūra, šildymas, gramas, tvankus
+gėrimas: gėrimas
+klausimai: 
+pyktis: piktas, pyktis, išniekinimas, dirginti, pyktis
+tiesiogiai: tiesiai, tiesioginis, netiesioginis, automatinis, paprastas, tiesioginis
+skrybėlė: kepurė, šalmas
+šuo: 
+tarnas: prievaizdas, padavėjas, tarnaitė
+pasididžiavimas: arogantiškas, išdidus, išdidžiai
+minia: skubėti, perpildytas, minia, suma, kiekis, gyventojai, kariuomenė, krūva
+traukinys: vežimas, automobilis, vežimėlis, į-krepšelį, geležinkelis, bėgis, šviesti
+moralinis: moralė, moraliai, etinis, etika, nuotaika, dvasinis
+susijęs: bendradarbis, aktualumas, santykiauti, susijęs, susirūpinęs, rūpestis, aktualus, palei, sujungtas, susieti, sąjungininkų
+įeiti: registruoti, įrašas, būklė, nurodyti, įterpti, įtraukti
+taisyklė: administracija, viešpatavimas, režimas, sprendimas, verdiktas, sprendimas, teisėjauti, teisėjas, valdyti, teisė, įstatymai, norma
+kardas: ašmenys
+ataka: invazija, įsiveržti, agresija, nusikaltimas, užpuolimas, nusikaltimas, streikas, pradžia, įžeidžiantis
+sveikata: sveikas, pasveikinti
+pastraipa: eilėraštis, išlyga, riekė, taškas, požiūris, pozicija
+socialinis: visuomenė, socialiai
+pinigų-grąžinimas: atsakyti, atsakyti, sugrįžimas
+atsiprašau: apgailestauti, polius, malonė, pasiteisinimas, atsiprašymas
+drąsa: pešti, drąsus, tikras, nervas, tvirtumas, išdrįsti
+malonė: palaikyti, palaikyti, gailestingumas, gerumas, palankumas, vardu, malonė
+oficialus: formalus, oficialiai, oficialiai, pareigūnas, klerkas
+jei: suteikti, pasiūlymas, jei, Įvadas, pasiekiamas, tiekimas, nuostata, aptarnauti, jei
+prašymas: malda, paklausa, reikalavimas, reikalauti, reikalavimas, tyrimas, tyrimas, greitai, kainos-pasiūlymas, taikymas
+pažvelgti: blykstelėjimas, vaizdas, požiūris, suvokimas, perspektyva, reginys, žiūrėti
+judėjimas: judėjimas, kampanija, sportas, kryžiaus-žygis, aktas, žingsnis, judrumas, verslas, judantis
+tikėtis: lūkestis, numatymas, numatyti, laukti
+priešais: priekinis, palyginti, priešingas, priešintis, per, skaitiklis
+dvylika: 
+užsiima: įsipareigojimas, užimta, įtrauktas, dalyvauti, užimtas
+vyno: vynuogė, alkoholis, alkoholikas
+skonis: skonis, skonis, skanus, masalas, įkarštis
+geležies: plieno, metalinis
+paskirstyti: perduoti, dislokuoti, paskelbti, leidyba, paplitimas, cirkuliuoti, pasiskirstymas, paskirstyti, dalis, takoskyra, skilimas, Skilti, klasifikuoti
+prekyba: prekybos, verslas, komercija, prekės, Internetas, sandėris, sandoris, pirklys, apsipirkimas, prekyba
+pranašumas: pelnas, pelnas, nauda, perspektyvi, gėris, turtas, pirmenybė, dominavimas
+drabužiai: drabužių-spinta, audinys, apranga, apranga, drabužis, kristi
+teisėjas: sprendimas, sprendimas, teisėjauti, teisėjas
+skirtumas: diferencialas, diferencijuoti, kitoks, atskiras, atskiras, skirtis, variacija, atskirai, kintamumas, variantiškumas, takoskyra
+neramus: avarinis, skubumas, susirūpinęs, sunerimęs, susirūpinęs, nerimas, rūpestis, nerimauti, mąstantis, nemalonus, nerimą, baiminasi, entuziastingas, nerimą, nerimą, entuziastingas, trokštantis, neramus, neramus
+kapitonas: 
+gatavas: apdaila, pabaiga, baigtinis, paruoštas
+nutraukimas-aspektas: 
+smalsus: trokštantis, įdomus, jaudinantis
+užsienio: užsienyje, svetimas, užsienietis, egzotiškas, nepažįstamasis, išorinis
+stiprinimo: suintensyvinti
+svarba: būtinybė, aktualumas, reikšmė, vertė
+pagaliau: galiausiai, ilgainiui, baigtinis, galutinis, pagrindinis, terminalas, smulkiai
+sąskaita: aktas, rankraštis, sąskaita, skaičiavimas
+įrodyti: įrodymas, patvirtinti, patvirtinti, įrodyti, liudyti
+užkirsti-kelią: nustoti, uždrausti, sulaikyti, slopinti, apriboti, slopinti, blokas, sulaikyti, sulaikyti, uždrausti, išvengti, atstumti, slopinti, sustabdyti
+kaklas: gerklė
+juridinis: teisminis, teisė, teisėtas, kadras
+sausas: stiebas
+tarnauti: tarnyba, uždirbti, aptarnauti, pasiūlymas
+prarasti: praleisti, nudėti
+įrodymas: pagrįstas-įrodymu, įrodymas, vadovas, raktas, katalogas, displėjus, liudytojas
+pagrįstas-įrodymu-atvejis: 
+pažanga: žingsnis, progresija, plėtra, progresuojantis, raidos, paankstinti, pereiti, tobulinimas, pakilimas
+pastatas: statyti, struktūra, statyti, statyba, patalpos
+Ieškoti: rasti, atrasti, atradimas, ieškojimas, aptikimas, ieškau, ieškoti, tyrimas, apklausa, siekimas, tyrimas, tyrimas, tyrimas
+liūdnas: prislėgtas, deja, nelaimingas, Sutrikimas, liūdnas, gailestis, slegia
+nuodėmė: kaltė
+trisdešimt: 
+sąžiningas: nuoširdus, lojalus, dorai, Frankas
+uždaryti: Uždaryti, uždarytas, uždarymas, nuo, diegti, Uždaryti, paketas, pluoštas, sklypas, paketas, paketas, įginti
+bankas: suolas, skarda
+likimas: turtas, laimė, sintaksinis, paskirties-vieta, daug
+miškas: džiunglės
+matuoti: matuoklis, matavimas, sverti, matuoklis, matuoklis
+kitaip: alternatyviai
+srautas: tekėti, išlyga, dabartinis, elektra, fliusas, reaktyvinis
+duona: apkepas, paršavedė, sumuštinis
+papildomas: papildomai, atsarginis, be-to, perteklius, perteklius, toliau, papildymas, papildomas, papildyti, priedas
+pasirinkti: pasirinkimas, pasirinkimas, pasirinkti, selektyvus, pasirinkti, išrinktasis, surinkti, balsas, egzaminas, pirmenybė
+gyvūnas: 
+geologinƳ-lytis: 
+eventive-nuotaika: 
+tas-pats-renginys žymeklis: 
+dauginamasis-atvejis: 
+storas: nutukęs, tankiai, tankus, riebalai
+padaras: organizmas, esmė
+lietus: šlapias, kritulių-kiekis, dušas
+paviršius: veidas, lygis, lėktuvas, plotas
+šventas: šventas, neto, grynai
+liepa: 
+ataskaita: nustatymas, pareiškimas, santykis, santykis, santykis, mugė, paroda, esė, poveikis, rezultatas
+pakrantė: gija, paplūdimys
+byla: dokumentas, ritė, namelis, profilis, archyvas
+petys: velenas, ašis, vaizdavimas, šukos, ranka
+nustebino: nustebęs, stebėtis
+karališkas: imperinis, monarchija, karalystė, imperija, nekilnojamasis, faktinis
+daina: melodija, takelis, dainavimas, eilėraštis
+komfortas: palengvinti, atsipalaidavęs, atpalaiduojantis, paskatinimas, patogumas, likusieji, reljefas
+bet-kas: kas, kas-nors, nors, niekas, visi
+žolė: šienas, piktžolė, žolė, veja, gramas
+atkreipti: vilkti, traukti, gabenimas, įdomus, apeliacija, patrauklus, atšaukti, jaudinantis, pritraukti, Įdomu, brėžinys, pašalinti, atimti
+atidarymas: išankstinis, pradinis, atradimas, atotrūkis, anga, atvirai
+birželis: 
+žuvis: akvariumas
+kapitalas: skyrius, fondas, turtas
+krūtinė: skrynia
+sniegas: ledas
+švietimas: šviesti, pamoka, mokymo, raštingumas, formavimas, mokymas, išsilavinęs, akademinis
+aštrus: šviesus, nuožmus, griežtas, aštriai, aštrus, smailus, stiprus, entuziastingas, traškus
+gailestis: gailestingumas, užuojauta, užuojauta, užjaučiantis, gailestingas, baisus, bausmė, plunksna, netinkamas, apgailestauti, žala, žala, gailestis
+išlaidos: rinkliava, išlaidos, kaina, leidimas, produkcija, imti
+tavo: savo
+milijonas: milijoninis
+pavargęs: nuovargis, varginantis
+nužudyti: nužudymas, nužudymas
+šešėlis: atspalvis
+svoris: apkrova, sunkus, stipriai, sverti, slėgis
+masė: kokybė, kolektyvas, kiekis, didžioji-dalis, daugiskaitos, daug, gumbas, klasteris, minia, nusikaltimas, tešla, makaronai
+nustatytas: diegti, kietas, stipriai, stabilus, kūrimas, nustatyti, dabartinis
+drąsus: drąsus
+plonas: liesas, skiesti, nusmailintas, siauras, liesas, bauda, subtilus, smulkiai, nežymus, prakeiktas, praretinta, subtilus, matuoklis
+patenkintas: patenkintas, pasitenkinimas, pasitenkinimas, džiaugiuosi, Patenkinti, sotus
+patikrinti: Tikrinti, žiūrėti, žiūrėti, pasirinkimas, ištirti, tikrinti, egzaminas, testas, auditas, tarpinis, apklausa, tirti, nustatyti, peržiūrėti, kontrolė
+dorybė: gerumas, dorybingas, gėris, palankumas
+nacionalinis: tauta, tautybė, etninis, vidaus
+dieviškas: šventas
+slėnis: baseinas
+atspėti: išvada, įtarti, daryti-prielaidą, įvertinimas, vertinimas, prognozė, numatyti, prognozė, spėlioti
+spekuliacinis-nuotaika: hipotetinis-nuotaika
+geltonas: išblyškęs, gintaras, šviesiaplaukis
+palaikai: likutis, liekamasis, likusi, užsiliko, likusieji
+smilga: kreivas, sulenkti, Vingiuotos, tendencija, vytos, nuolydis, Šlaitinių, nuožulnus, sudedamas
+dėžė: lagaminas, stalčius, fondas, komplektas, galima, dėžė
+sezonas: sezoninis, skyrius, stotis, era
+mokslas: mokslinis
+gręžinys: skylė, grąžtas, bukas, nuobodus, perverti, erzinti, forumas
+dėdė: 
+sąrašas: rodiklis, katalogas, meniu, registruotis
+Rugpjūtis: 
+populiarus: paplitimas, garsus, garsus, liaudies
+nežinomas: nepažįstamasis
+susipažinęs: pažintis, kilmė, palikuonis
+susipažinęs-registruotis: 
+skaitytojas: dainininkė
+požiūris: pasiekti, priėjimas, technika, taktika, metodika, požiūris, būdas, metodas, mada, procedūra, Įstatymų, sąsaja
+dvigubai: dvigubai
+intelektinis: protas, intelektas, protinis, protingas, psichiatrijos, mąstytojas, išmintis, dvasinis
+tikrai: tikrai, išties, tiksliai, tikrai, praktiškai, iš-esmės, tiesa, nuoširdus, realus, puikiai, aiškiai, tikrai, tikrai, tikrai
+kunigas: dvasininkai
+sužeistas: nukentėjęs, žaizda, sužeistas
+liūdesys: sielvartas, liūdesys, depresija, prislėgtas, gedulas, skausmas
+rūmai: 
+įveikti: pralaimėjimas, punšas, tėkšti, trankyti, trankymas, ritmas, įveikti
+eh?: 
+kvailas: kvailas, triukas, apgauti, apgauti, kvailas, kvailas, beprotis, kvailai, psichiškai-nesveikas, suklaidinti
+kraštas: kraštas, pakraštys, ribinis, intensyvus, siena, marža, lenta
+devyni: devintas, Naujas
+sprogimas: sprogimas, sprogimas, sprogti, įtrūkęs, bumas, konvulsija, trenksmas
+kentėti: ištverti, palaikyti
+triukšmas: triukšmingas, šaukti, nervinimasis, kriokimas
+literatūra: literatūros
+patarimas: taryba, rekomenduoti, rekomendacija, patarti, konsultacija, lenta, patarimas
+tuščias: tuščias, laisvas, būgnas, laisvalaikis, negaliojantis, tuštuma, vakuuminis, tuščias
+rangas: paštas, klasė, pasiekimas, kategorija, vertė, klasė
+audra: 
+kišenė: krepšys, paketas
+vaizduotė: išgalvotas, įsivaizduoti, prielaida, fantazija, fikcija, įsivaizduojamas
+sakinys: sprendimas, sprendimas, pasiūlymas, teorema, pasiūlymas, pasiūlymas, bausmė, įsitikinimas, frazė, smerkti, denonsuoti, bausmė
+lapkritis: 
+gruodis: 
+nebuvimas: nėra, trūkumas, trūkumas
+dėkoti: dėkingumas, dėkingas, dėkoju, Ačiū
+adresas: 
+paukštis: skrydis, lėktuvas, reaktyvinis, lėktuvas, lėktuvas, oro
+savininkas: bosas, dvarininkas
+kailis: suknelė, apvalkalas, dangtis, striukė, kailis
+parengti: paruoštas, parengtas, organizuoti, rengimas, formuluoti
+santykiai: santykis, santykis, santykis, aktualumas, susieti, reikalas, bendravimas, bendrauti
+dūmai: rūkymas, tabakas, deginti
+sausis: 
+mašina: mašinos, variklis, lėktuvas, transporto-priemonė
+turinys: medžiaga, medžiaga, laikytis, Patenkinti, būti, įtraukti, būti, įtraukti
+dantys: dantis, įranga
+gėda: gėda, sugėdintas, drovus, drovus, nepatogus, varžymasis, plikas, nuogas, įžeidimas, išniekinimas
+įlanka: uoga, makštis
+smegenys: Mastermind, čiulpai
+žiedas: smulkus, surinkti, garbanės, kilpa, padanga, padanga, tarpiklis, antspaudas
+frazė-žymeklis: 
+aikštė: 
+vaisiai: 
+arbata: 
+paaiškinti: paaiškinimas, iliustruoti, išreikšti, artikuliuoti, deklaruoti, paaiškinti, interpretuoti, komentaras
+Sveiki: sveikinimas, priėmimas, linksminti, ei, Labas, pasveikinti
+poezija: eilėraštis, eilėraštis
+nupirkti: pirkti, įsigyti, turėti, rinka
+ištikimas: nesąžiningas, lojalus, ištikimai, atsidavęs, teisingas, patikimas
+sujaudinimas: stimuliavimas, susijaudinęs, nervinimasis, įtampa, išprovokuoti, džiaugsmas, susijaudinimas, vandens-nuleidimas, nerimas
+keturiasdešimt: 
+Balandis: 
+maloniai: Prašom, draugiškas, švelniai
+spalis: 
+kartus: sunkumas, agonija, skausmas, kad, kančia, skausmingas, geluonis
+vergas: vergija
+laisvas: nepriklausomas, laisvai, išspręsti, išspręsti, laisvumas, laisvas, laisvai
+tekstas: formuluotė
+kreditas: hipoteka, Kreditinė-kortelė, skola, skolinti, skolintis, paskola, prestižas, galiojimas, patikimumas
+penkiolika: 
+žiaurus: nuožmus, kietas
+prisijungti: dalyvauti, dalyvauti, įtrauktas, pradėti, prisijungti, dalyvis, dalyvavimas, suvienyti, prisijungti
+procesas: rankena, procedūra, gydyti, operacija, bandomasis
+nusikaltimas: kaltė, nusikaltimas, nusikaltimas
+dulkės: užtvanka, milteliai
+praktinis: funkcinis, pragmatiškas, praktiškai, patogus, iš-esmės, patogus, taikomas
+spalva: spalva, dažai, užgaida, dažai, išblyškęs, spalvotas, spalvingas, vandens-nuleidimas, apdaila
+sunaikinti: avarija, pakenkti, diversija, degraduoti, nugriauti, traiškyti, sutriuškinti, žlugęs, pritrenkti, ištrinti, paneigti, naikinimas
+padidinti: pereiti, padidinti, stovas, kelti, papildyti, įterpti, augimas, padidinti
+nosis: 
+pripažinti: pripažinimas, pripažinti, priimti, pripažinti, pripažinti, tvirtinant, patvirtinti, suteikti, apdovanojimas
+vakar: rytoj
+hesternal-įtempti: 
+žlugti: nesėkmė, nesėkmingas, pralaimėjimas, nesėkmė, negali, pritrenkti, nuvilti
+Tęsti: pereiti, nepertraukiamas, nuolatinis, tęsinys, nuolat, išlikti
+dėvėti: vežti, porteris
+aklas: 
+tuzinas: keletas
+skraidyti: skraidantis, šuolis, skrydis, aviacija
+pagyrimas: susižavėjimas, grožėtis, reputacija, nuopelnas, pasveikinti, sveikinimas, šlovė, garsas
+velnias: 
+palaipsniui: lėtai, laipsniškas
+auka: auka, auka, auka
+pratimas: atletika, sportuoti, paskyrimas, praktika, praktika, sportas, fitnesas, repeticija
+sąžinė: įvardis, sąmonė
+teorija: principas, teoretikas, teorema
+ministras: 
+nekęsti: bjaurus, bjaurus, neapykanta, nemėgimas, išankstinis-nusistatymas, gailėti, piktintis, šlykštėtis, neapykanta, šlykštumas
+ežeras: 
+centras: centrinis, centras, stotis, štabas
+nualpti: be-sąmonės, neviltis, beviltiškas, silpnas, išblyškęs
+racionalus-lytis: 
+atsargus: mąstantis, prisimindama, sutelkti, atsargus, tiksli, tikslus, tikslus, detalus
+mėgautis: malonumas, vertiname
+garbinimas: ritualas
+prekės: produktas, punktas, prekės, prekė, medžiaga
+oda: oda, absorbcija, žievė, apvalkalas, žievelė, kailis, įkarštis
+stogas: terasa, lubos, danga, apimtis, dangtis
+karūna: 
+pilis: narvas, bokštas, spyna
+sostas: 
+pridedamas: užsiimti, sąlyginis, pridėti, sujungtas, priklausomas, bendradarbis
+mylia: tendencija, nuolydis, liesas, gradientas, pasiruošęs
+kraštutinis: maksimalus, pagrindinis, polius, poliarinis, ekstremistas, rimtas, intensyvus, intensyvus, galūnė, patarimas
+kalėjimas: kalėjimas
+taurė: puodelis, dubuo
+narys: vargonai, narystė, galūnė, viešai
+civilinis: vidaus, pilietis, pilietinis, civilinis
+visur: per, bet-kur
+akivaizdus: akivaizdus, akivaizdžiai, pagrįstas-įrodymu, tiesioginis, akivaizdus, aiškiai, neabejotinas, aiškus, aiškiai, skaidrus, neaišku, pastebimas
+pora: pora, nominali, dvigubai, dvigubas, nedaugelis, keletas, garai
+apimtis: ritė, daug, apimtis, suma, palyginti, kiekybinis, blokas, partija, modulis, didžioji-dalis, talpa, apimtis
+paprotys: klientas, neprivalomas, kostiumas, muitinės, praktika, įprotis, įpratęs
+lankas: arka, svogūnas, kreivė
+kostiumas: tikti, kostiumas, tinkamas, akordas, atitikti, atitikimo, atvejis, baudžiamasis-persekiojimas, bylinėjimasis, suknelė, reikalavimas
+mėsa: kūnas, jautiena
+pienas: pieninė, čiaupas, želė
+augalinis-lytis: 
+vizija: reginys, transas, įžvalga, fasadas, vaizdas, blykstelėjimas, perspektyva, kraštovaizdis, perspektyva
+retas: retai, vargu-ar
+pusbrolis: santykinis
+tiltas: klasė, denis
+apsaugoti: apsauga, išsaugojimas, apsauga, apsaugoti, ginti, išsaugoti, palaikyti, tausoti, užtikrinti
+druska: perdėtas, perdėti, sūrus
+nekaltas: 
+karalienė: 
+skaičiuoti: pertvara, skaitytis, apskaičiuoti, pasikliauti, nusivylimas, sąskaita
+smalsumas: smalsauti
+šokis: būgnas, šokiai, šuolis, praleisti
+viešbutis: būstas, užeigos-namai
+pildyti: 
+kalinys: 
+parduotuvė: parduotuvė, gardas, verslas, sandoris, apsipirkimas
+laiptai: laiptai, laiptelis, kopėčios, stalčius
+elgetauti: ieškau, prisiimti, teisintis
+smėlis: 
+smurtinis: smurtas, nuožmus, turbulentinis, nuostabus, sunkus, stiprus, intensyvus, energingas, nepaprastai, intensyvus
+rugsėjis: 
+išvykimas: palikti, nukrypti, anga, produkcija
+griuvėsiai: naikinimas, ardomoji-veikla, žala, sugadinti, nelaimė, nuolaužos
+įgūdis: gebėjimas, galintis, talpa, veiksmingumas, kompetencija, amatas, ekspertizė
+galvijai: karvė
+įranga: aparatūra, prietaisas, komplektas, įranga, apranga, spręsti, techninė-įranga, technika, technologija, įranga, įranga
+virtuvė: virimas, viryklė
+parduoti: pardavimas, pusiau
+greitis: greitis, tempas, impulsas, aštriai
+išvada: išvada, atšaukimas, produkcija, reikšmė, rezoliucija, rezultatas, pasekmė, kolekcija, sudaryti, pasiūlymas
+kompiuteris: Kompiuterija
+amžinas: kada-nors, amžinai, begalinis
+ribotas: baigtinis, tik, apsiriboti, aptverti, ribotas, suvaržyti
+biblioteka: knygų-spinta
+bazė: pamatas, pagrindas, remiantis, pagrindinis, pagrindinis, elementarus, šerdis, pagrindinis, dugnas
+painiava: netvarka, chaosas, nervinimasis, painu
+šlovingas: puikus, mielas, kilnus
+taip-pat: panašiai, taip-pat, vienodai
+išsigandęs: baiminasi, išsigandęs, bijojimas, panika
+nepatenkintas: netinkamas, nelaimingas, nelaimingas
+straipsnis: esė, punktas
+virėjas: virimas, apkepas, virti
+juosta: diržas, kaspinas, kasetė, būrys, grupė, juostelė, juosta, zona, gija, puokštė, klasteris, juosta
+dykuma: dykuma, apleistas
+bučinys: 
+kamuolys: guma, sfera, patranka, kulka
+lazda: ištekliai, nendrė, prisijungti, mediena, mediena, šikšnosparnis, lazda
+argumentas: logika, žingsnis, samprotavimas, ginčas, diskusija, diskusija, ginčas, traktas
+stebėti: tikrinti, ištirti, tyrinėti, tirti, stebėjimas
+palaiminimas-nuotaika: 
+ryškus: neišspręstas, stulbinantis, streikas, didelis, reikšmingas, esminis, pastebimas, įspūdingas, stebinantis, stebinantis, aiškus, šviesus
+kaltas: kaltė, skolingas, įžeisti, nusikaltėlis, nuteistasis
+pistoletas: šautuvas, ginklas, patranka, bokštas
+policija: vykdyti, prižiūrėti
+paslėpti: paslėpti, išskirti, užmaskuoti
+ekspedicija: kampanija, vairuoti, kelionė, kelionė, kelionė, kelionė
+neišmanantis: nežinojimas, nežino, neišmanantis, kvailas, kvailas, kvailas, juokingas
+dosnus: liberalus, svetingumas, palankumas
+debesis: 
+atliekos: nenaudingas, nereikalingas, atsisakyti, atsisakymas, atmetimas, likutis, užsiliko, atliekos
+vasaris: 
+liga: liga, liga, koronarinis, patenkinamas, sotus, sindromas
+praleisti: gėlė, panaudoti, išlaidos, siekti, praleisti, praleisti
+šaltinis: išteklių, žalias, fontanas
+iniciatyva-atvejis: 
+teta: 
+delsimas: atidėti
+atidėtas-imperatyvas: 
+pranešė-pagrįstas-įrodymu: 
+vidurnakčio: į-šiaurę
+herojus: karys, čempionas
+filosofija: filosofinis
+pirštas: pirštas
+patogus: gerai, kruopščiai, tinkamai, sklandžiai, patogiai, patogus, atpalaiduojantis, malonus, kambarėlis, patogus
+kažkur: bet-kur
+spauda: žiniasklaida, žurnalas, žurnalas, spausdinimas, tipas, formulė
+personalas: įgula, asmens
+apdovanojimas: prizas, dovana, apdovanojimas, premija
+kaltė: kaltė, defektas, škvalas, skola, kaltė, paniekinti, patraukti-baudžiamojon-atsakomybėn, atsakomybė, atsakomybė
+vargas: sunkumas, kančia, skausmas, nelaimingas, nuobodulys
+kakta: 
+skelbimas: reklama, reklaminis, reklamuoti, skelbimas, skelbimas, reklama, pranešimas, deklaracija
+angelas: dvarininkas, fėja
+vienaskaitos-skaičius: 
+aušra: prieblanda
+prekybos: profesinis, reklama, prekybos, verslas
+atleisti: pasiteisinimas, malonė, toleruoti, atleisti, atleisti, atleisti
+avis: ėriena
+kantrybė: tvirtumas, pakantumas
+ferma: ranča, ugdyti, plantacija, žemės-ūkio
+referuoto: nuoroda, kreiptis
+kukurūzai: kviečiai, ragas
+raktas: ryšys, mygtukas, veržliaraktis, jungiklis, pagrindinis, gyvybiškai-svarbus, garsus, jautrus, pagrindinis, niša, lavinimo, raktas
+dauguma: daug, dauguma
+silpnumas: nesugebėjimas
+atmosfera: aplinka, dangus, aviacija, erdvinis
+atodūsis: aiktelėti
+žmonija: žmogaus
+opozicija: palyginti, priešintis, priešintis, kontrastas, atsispirti, protestas, priešingas, atsparumas, skaitiklis, priešininkas, nepritarimas, anti-, atsparus, kovos, prieštaravimas
+diskas: diskas, gabalas, skaitiklis, cilindras, plokštė, įrašas, dėklas, vairuoti
+vienišas: vienas, vienišumas, atskirai, vienvietis, tik
+menininkas: atlikėjas, dailininkas, linksmintojas
+riteris: raitelis
+žavesys: charizmatiškas, atrakcionas, magija, reikšti
+sprendimas: nuspręsti, sprendimas, verdiktas, sprendimas, nustatymas, rezoliucija, sprendimas
+gubernatorius: konservatyvus, valdovas
+filialas: 
+dispozicija: išdėstymas, konfigūracija, tendencija, tendencija, nuostata, maketavimas, nuotaika, grafikas, tvarkaraštis
+entuziazmas: uolumas, šiluma, entuziastingas, įkarštis, euforija, aistra, ekstazis, nudžiuginti
+indukcinis-nuotaika: Netiesiogiai-nuotaika, dedukcinis-nuotaika
+bendruomenė: visuomenė, kategorija, žmonės
+alyva: riebalai, kuras, iškastinio, čiulpai, terminis, sviestas
+vamzdis: vamzdis, čiaupas, čiaupas, Kakutis, kanalas
+spausdinti: leidimas, slėgis, spausdinimas, ašis, pelėsiai, įspūdis
+oi: ya
+diskursas-kontekstas: 
+šauksmininko-atvejis: 
+kabina: kotedžas, palapinė, namelis
+žadintuvas: varpas, budrus, gąsdinti, įvaryti-siaubą
+nervų: įtempti, sumišęs, sutrikdyti, liūdnas, drovus, nerimą, priekabiauti, Sutrikimas, nervų, susirūpinęs, nervas
+nuolatinis: trukmė, dažnai, reguliariai, nuolatinis, pastovus, fiksuotas, pastovus
+peilis: šaukti, ašmenys
+šilkas: 
+panieka: niekinti, neapykanta, nemėgimas, šlykštumas, neapykanta, paniekinti, įžeidimas, išniekinimas, nerūpestingumas
+pragaras: 
+atskirti: atskiras, į-šalį, išskyrus, atskiras, skirtis, atskirai, nuošaliai, diskretus, izoliacija, atstumtas, aptverti, atskyrimas
+rimtai: rimtas, nuoširdžiai, sunkus, stipriai, aštriai, aktyviai
+mišrus: mišinys, derinys, sudėtinis, maišyti, bendras
+medinis: mediena, mediena
+teikti-pirmenybę: pirmenybė
+įspėjimas: atsargumas, įspėti, budrus, paminklas, pranešimas
+perspėjimas-nuotaika: 
+impulsas: įkvėpimas, pulsas, partija, paraginti, impulsas, trauka
+ambicija: nusivylęs, nusivylimas, geismas, godus, neskatinti, ambicingas
+neigti: atsisakymas, atmesti, atsisakymas, atmetimas, paneigimas, atsisakyti, paneigti, mažėjimas, nepritarti, atleisti, uždrausti, draudimas, uždrausti, prieštarauti
+konstitucija: chartija, konstitucinis
+instrumentas: įrankis, laivas, subjektas, vargonai, konteineris, naudingumas
+nepertraukiamas-aspektas: 
+banga: banga, greitai
+kolegija: fakultetas, akademija, universiteto-miestelis, universitetas
+uodega: eilė
+karta: palikuonis
+katė: 
+tiesioginis-pagrįstas-įrodymu: 
+apleistas: nepriežiūra, palikti, apleistas, mesti, palikti
+vienuolika: 
+instinktas: spontaniškas
+charakteristika: bruožas, specialybė, pobūdis, įprotis, tendencija, elgesys, elgesys, ypatybė, charakteristika, kokybinis, tipiškas
+gentis: bagažinė, stiebas, apkrova
+sumanus-nuotaika: 
+pastogė: poilsiavietė, gyvenamoji-vieta, atsiskaitymas, arealas, gyvenamasis, apsauga, bendrabučio, prieglobstis
+grubus: šiurkščiai, šiurkštus, negeras
+jodinėjimas: važiuoti, raitelis
+purtyti: Brainstorm
+pramonė: sektorius, gamyba, pramonės, industrinti
+profesija: profesinis, karjera, okupacija, profesionalus
+lempa: lemputė
+kava: kavinė
+paklusti: pateikimas, laikytis, klausyti
+šiaurinis: į-šiaurę
+slaugytoja: 
+užtikrinti: užtikrinimas, orderis, įsipareigojimas, garantija, apdrausti, užtikrinti, nustatyti, patvirtinti, suteikti, aptarnauti, tikrai, įtikinti, patvirtinti, užtikrinti
+grandinė: seka, serija, styga, kalėjimas
+mokymas: mokymas, šviesti, mokymas
+avalynė: batas, sandalas
+kiemas: kodas, puslapis, meilikavimas
+neaiškus: dviprasmybė, neaiškus, dviprasmiškas, neaišku, paslaptingas, neaiškus, neterminuota, banga, laisvas
+kitur: kitas
+butas: butas, ratas, skyrius, rinkinys
+veikla: sandoris, funkcija
+šeštadienis: šabas
+saulės-šviesa: saulės
+našlė: 
+elementas: aspektas, ypatybė, punktas, ingredientas, vargonai
+atspindys: kontempliacija
+organizacija: audinys, organizacija, organizuoti, apranga, korporacija, naudingumas, agentūra, subjektas, sistema, struktūra, tekstūra, maketavimas, institucija, institutas
+žvaigždė: 
+incidentas: renginys, įvykis, reiškinys, dažnumas, avarija, atvejis
+svečias: nepažįstamasis, lankytojas, svetimas, užsienietis, ateivis, klientas, klientas, kariuomenė
+baras: plikas, baras, apkrova, kroviniai, kavinė, baris
+butelis: stiklainis
+palaiminti: palaiminimas
+sąmyšis: manipuliuoti, maišyti, sukelti, riaušės
+vidinis: per, viduje, interjeras, vidaus, vietinis, vidaus, Vidinis, protinis, viešai
+nustatyti: fiksuotas, reguliuoti, peržiūrėti, sprendimas, išspręsti, išspręsti, priemonė, pagerinti, ištiesinti, Gerai, Gerai, pastovus, pastovus, spoksojimas, teisingas, nustatyti, nustatyti, nustatyti, nustatyti
+gauti: gauti, įsigyti, darinys, gauti, gauti
+tuščiaviduris: paprastas, plikas, tuščias, kabelis
+provincija: provincijos
+civilizacija: 
+padvisinti: 
+šokas: smūgis, nesėkmė, trauma, šokiruojantis, susidūrimas
+išimtis: dalinis, diskriminacija, stereotipas, atleidimas
+padermė: stresas, įtampa, apkrova, nuovargis, pastanga, intensyvumas
+standartas: kriterijus, kriterijai, kursas, lygis, numatytasis, norma, fiksuotas, pastovus, pastovus, stabilus, statinis, tvarus, standartizuoti, modelis
+vairavimas: vairuoti, vairuotojas, vadovas, valdymas, važiuoti
+atsikratyti: pašalinti, atšaukti, pašalinti, pašalinimas, atleisti, atleisti, išteisinti
+prisiekti: barimas
+lobis: brangakmenis
+sėklos: sperma, veržlė, dalelė
+bokštas: bokštas
+mėgstamas: mėgstamas
+neseniai: naujas, šviežiai, naujai
+naujas-praeitis-įtempti: 
+budrus: sąmoningas, nuotaika, pažadinti, budrus
+baldai: 
+virvė: laidas, styga, dirželis
+nuotykis: įmonė, lošti
+"Royalty: karaliauti
+šventė: šalis, šventimas, banketas, atostogų
+apibūdinti: aprašymas, charakteristika, vaizduoti, vaizduoti, apibrėžti
+šešiasdešimt: 
+skalė: kadras, matuoklis, santykis, kopėčios, laiptai, laiptelis
+ceremonija: ritualas, funkcija
+medžioklė: medžioklė, auka, auka, vytis, šaudymas
+šnabždesys: burzdėti
+daugiausia: iš-esmės, žymiai, dauguma, daugiausia, dažniausiai, labai, plačiai, daugiausia
+krikščionybė: 
+teisininkas: advokatas, advokatas
+detalė: paplitimas, išplėsti, pratęsimas, plėtra, išplėsti, giliai, detalus
+princesė: 
+altorius: šventovė
+tinklas: tinklas, neto, tinklelis, audinys, drobė, plakatas
+purpurinis: Magenta
+surinkti: rinkti, kaupti, trauktis, surinkti
+rinkimai: pasirinkimas, išrinktasis, takas, apklausa, banginis, pasirinkimas, balsavimas
+samprata: sąvoka, sąvoka, pastoti, suvokimas, suvokti, konceptualus, dizainas, laimikis, suimti, užfiksuoti
+girtas: alkoholikas
+pilti: pulti, mesti, išsiliejimas, nuvertimas
+keltuvas: Liftas, pakelti, pakilimas, kelti, žygis
+gestas: ženklas, signalas, simbolis, simbolinis, požiūris, laikysena
+valdyti: valdymas, prižiūrėti, rankena, administracija, valdyti, vairuoti, kontrolė
+mainai: mainai, abipusis, apmainyti, pakeitimas
+neabejotinas-straipsnis: 
+imperatorius: monarchas
+nuotolinis: tolimas, toli, nuošaliai
+bjaurus: bjaurus, bjaurus
+nekenksmingas: 
+ritinys: ritinys, ritė
+colis: muitinės, nykštys
+laikraštis: žurnalas, informuoti, dienoraštis
+barzda: patarimas, smakras
+ašara: stverti
+komisija: komitetas, lenta
+o: o, metu
+sankryža: kirsti, mazgas, ištrauka, perėjimas, perėjimas, perėjimas
+nepriklausomumas: nepriklausomas, laisvė, laisvai, laisvė, autonomija
+kvapas: tvaikas, kvepalai
+aštuoniolika: 
+istorinis: istoriškai, istorija, istorikas
+bruto: Iš-viso, bendras, purvinas, žalias, žalias
+šaknis: stiebas, šviežiai
+purvas: dirvožemis, dumblas, molis, purvas, gėlė
+nuotaka: senelė
+šydas: užuolaida, burė, buriavimas
+teatras: teatras
+palyginimas: palyginti, lyginamasis, koreliacija, santykis, konfrontacija
+varžovų: priešininkas, disidentas, konkurencija, konkurencinis, konkuruoti
+balansas: pusiausvyra, vienodai, lygybė, horizontalus, proporcingas, nominali, biudžetas
+treneris: treneris, specialistas, mokytojas, mentorius
+humoras: humoras, humoristinis, nuotaika, komedija
+romanas: fikcija, Naujas, naujai
+kerštas: gailėti
+pavydus: pavydas, pavydas
+ratas: dviratis, ratas
+sudegino: deginti, į-apačią-išplatėjęs
+blykstė: žaibas, švytėti, spindesys
+kurti: kūrimas, statyti, statyti, konstruktyvus, padaryti, išsigalvoti, sukomponuoti, kalvė, generuoti
+konfliktas: susidūrimas, kova, konfrontacija, kontrastas, avarija, poveikis
+prakeikimas: 
+prakeikiantis-nuotaika: 
+bejėgis: nelaimingas
+teigiamas: teigiamai
+klubas: šikšnosparnis, registruoti
+potvynis: 
+grūdai: javai, kviečiai
+abejingumas: apatija, neatsargus, nerūpestingumas
+horizontas: 
+arogantiškas-nuotaika: hipotetinis-nuotaika
+status: aukštis, Šlaitinių
+harmonija: kompromisas, melodija
+perkūnas: 
+vaikystė: 
+kelis: etapas
+programinė-įranga: taikymas, repertuaras
+sužalojimas: sužeistas, žala, žala, sužeisti, žaizda, trauma, nukentėjęs, pažeidimas
+gavimas: gauti, įėjimas, priėmimas, priėmimas, priėmimas, kvitas, priėmimas
+leisti: galintis, kompetentingas, aktyvinti, leisti, teisę, vežti, vykdyti, leisti, leisti
+Protasis: 
+slydimas: slidus, skaidrė, glaidas
+revoliucija: revoliucinis, perversmo, rotacija, sukilimas, sukilimas
+ūkininkas: valstietis
+insultas: smūgis, perversmo, skubėti, peštynės
+platforma: etapas, forumas, pamatas
+pasiuntinys: delegatas, ambasadorius, diplomatas
+privilegija: privilegijuotas, pirmenybė, kvota, frančizė, pasiūlymas, nuolaida
+organizuotas: institucija, organizuoti, institutas, išdėstymas, susitarti
+studentas: mokinys, mokslininkas, diplomantas
+urvas: 
+tradicija: tradicinis, pagal-tradiciją, muitinės, pasidavimas
+tragedija: epidemija, liūdesys
+atsisveikinimas: sudie, Ate
+kritika: kritikuoti, kritika, apžvalga
+medvilnė: vilna
+ligoninė: prieglobstis
+nuoma: kaina, nuoma, mokestis, duoklė, nuoma, įdarbinti, užsiimti, nuomojamas, chartija
+dujos: 
+neišvengiamas: neišvengiamai
+mirtinas: 
+lapas: lapas, ašmenys
+leidinys: paskelbti, leidyba, spausdinimas, skelbti, transliacija, paleidimas, produkcija, paplitimas, leidimas, paskelbti
+priešiškas: nedraugiškas, priešiškumas
+vertimas: išversti, išversti, aiškinimas, epidemija, perdavimas
+laidotuvės: laidotuvės, kapinės
+miltai: milteliai, tešla, tiksli, tikslus, tikslus, miltai
+korespondencija: atitikti, kontaktas, bendravimas, komunikabilus
+romantiškas: 
+namelis: kotedžas, namelis
+pasiūlyti: pozuoti, pasiūlymas, judėjimas, pasiūlymas, pasiūlymas, pasiūlyti, rekomenduoti, pasiūlymas, kainos-pasiūlymas, paskirti
+mimezinis: 
+doleris: 
+dienos-šviesa: 
+šešiolika: 
+surinkimas: susitikimas, konferencija, suvažiavimas, konfigūracija
+kolonija: 
+sparnas: globotinis, rinkinys
+liūtas: 
+kultūra: kultūrinis
+kolona: masyvas, sluoksnis, polius, ištrauka
+gudrus: sudėtingas, triukas, sumanus
+drama: apsimesti, dramatiškas
+anekdotas: juokas, sąmojis
+rūkas: rūkas
+medicina: narkotikas, priemonė, purkšti, receptas
+keturiolika: 
+rūgštis: rūgštus, rūgštingas
+būtent: bet-koks, t.y., ypatingas
+pajamos: nėriniai
+vyskupas: 
+oranžinis: 
+vonia: vonia, dušas, vonia
+primityvus: anksti, pradinis
+krepšys: dėžė, krepšys
+sekretorius: 
+šiaudų: šienas
+nekantrus: trokštantis
+išgelbėjimas: saugumas, išsivadavimas, Labas
+hodiernal-įtempti: 
+skirti: skirtas, ketinimas, suinteresuotas, entuziastingas, motyvas, nenorintis, skirti, skirti
+garas: garai
+nuodai: nuodingas, nuodingas, herbicidas
+talentas: spindesys, talentingas, kvalifikacija, gebėjimas, repertuaras
+klimatas: oras
+veiksmingas: galiojantis, efektyviai, efektyvus, veiksmingumas, įtakingas, naudingas, perspektyvi
+išskirti: diferencijuoti, diskriminuoti, diskriminacija, diferenciacija, paskirstyti, Skilti, atleisti, išskirti, išskirti
+skalbimas: skalbimas
+išpažintis: pripažinti, tikėjimas, pripažinimas
+nesąmonė: šiukšlės, neprotingas, netinkamas
+anglis: anglis
+kanoja: 
+laikinas: intervalas, trukmė, laiko, atsitiktinis, o
+delimitative-aspektas: 
+kaulas: koja
+pirmadienis: 
+antradienis: trečias
+trečiadienis: ketvirtas
+federalinis: federacija, centrinis
+pageidaujamas: patrauklus, palankus
+atstovas: atstovauti, vardu, delegatas, advokatas, pavaduotojas, atstovas
+linas: linai, baltiniai
+kriauklė: nuskęsti, baseinas, cinkas
+sūnėnas: dukterėčia, anūkas, vaikaitis
+kruvinas: kraujo-praliejimas, kraujuoti
+apgula: apvadas, sėdynė
+skrandis: pilvas, pilvas, pilvo, matrica
+žalvaris: bronza, varis, ryžiai
+viršūnė: piko, viršus, patarimas
+penktas: penki
+pigus: pigiai, žemas
+išskirtinis-asmuo: 
+pasinaudoti: spręsti, apsiriboti, sulaikyti, rezervavimas, stverti, užimtas, užimti, įginti, patraukti, suvokti
+tvora: gyvatvorė
+statula: skulptūra
+artilerija: patranka
+apkabinti: absorbuoti, prisiglausti
+supantis: aplink, kaimynystė, kaimynas, kaimynas, kaimynystė, periferinis, aplinka, gretimas, netoliese
+griežtai: griežtas, nuoseklus, kruopščiai, įtemptas, sunkus, tikrai, visiškai, aiškiai, tvirtai, šiurkštus
+elnias: 
+krūmas: 
+geležinkelis: geležinkelis, bėgis
+iškrovimas: išsivadavimas, iškrauti, paleidimas, atsisakyti, išvaryti
+įpėdinis: paveldėti
+ąžuolas: 
+nemalonus: malonumas, malonus, neramus, Sapīcis, Sutrikimas, bjaurus, nemalonus
+išradimas: sugalvoti, atradimas, naujovė
+pianinas: 
+įtikinti: įtikinti, švęsti, įamžinti
+nematomas: paslaptingas
+garsus: garsus, pagarsėjęs, garsus
+žiaurumas: 
+pagunda: 
+TELIC-aspektas: 
+ekonominis: ekonomika, ekonomiškai, ekonomistas, finansinis
+tarptautinis: pasaulinis, daugiatautis
+trukdyti: trukdžiai, intervencija, įsikišti, sutrikdyti, rūpintis, nerimą, pertraukti, erzinti, dirginti, priekabiauti, susidūrimas
+filosofas: filosofinis
+elegantiškas: madingas, subtilus
+gerovė: palankumas, gerovė, nuostata
+žvejyba: 
+pavogti: vagystė, apiplėšti, apiplėšimas, nudžiauti
+lūpa: snapas, oralinis, kraštas
+išeiti-į-pensiją: išėjimas-į-pensiją, išėjęs-į-pensiją, pensininkas, trauktis, likusieji, laisvalaikis, atšaukti, atsistatydinti
+ruožas: ištiesinti, išplėsti, traktas, bruožas, gabalas, ištrauka, fragmentas, riekė
+galerija: kolekcija
+lygiagretus: šalia, suderinamas, bendradarbis, pritvirtinti
+atelic-aspektas: 
+žemynas: žemyninis
+neįperkamas-nuotaika: neįperkamas-nuotaika
+kaklaraištis: kaklaraištis, erelis
+ląstelė: esmė, branduolys, narvas, versija, mobilus, Mobilusis-telefonas, Mobilusis-telefonas
+kiaušinis: sėklidė
+dirbtinis: sintetinis
+tuo-tarpu: tuo-pat-metu
+krizė: kritimas, sprendimas, sprendimas, avarinis
+mandagus: mandagumas, išsilavinęs
+pietūs: pusryčiai, vakarienė
+pušis: žandikaulis
+stumti: spaudimas, vairuoti, paskatinti, skatinti, trauka, slėgis
+aljansas: sąjunga, lyga, koalicija, derinti, partnerystė
+juosmuo: Hip, gyvenimas, gyvenimas, vidurys, vidurio, vidurys
+stebuklas: stebėtis
+jūreivis: 
+grynumas: skaistybė
+respublika: demokratija
+telefonas: telefonas, mobilus
+plakti: 
+marškiniai: marškinėliai
+pristatyti: Įvadas, pristatymas, nustatyti, inicijuoti, padaryti, nuostata, rekomenduoti, kreipimosi, švirkšti, pristatyti, pristatymas, vaizduoti, vaizduoti
+sofa: fotelis
+valymas: valymas, grėblys, skenavimas
+vagis: bosas
+išlaikyti: išsaugoti, rezervas, rezervavimas, atkurti, laikyti, sulaikyti, sulaikyti, atlaikyti, užsiimti, išsaugojimas, palaikyti, tausoti, palaikyti, prisijungti
+kanalas: kanalas
+asmenybė: pobūdis
+reforma: tobulinimas, taisymas, evoliucija, iš-dalies-pakeisti
+grasinantis: grėsmė, grasinti, pavojingas, bauginantis
+palmė: klevas
+garsiakalbis: atstovas
+slenkstis: barjeras
+sukelti: fojė, paraginti, priežastis, įspėti, sužadinti, pozuoti, vadovauti, gundyti, sukelti
+ietis: atsarginis
+tvarkingas: tvarkingas, švarus, tvarkingas
+sesija: susitikimas, konferencija
+kankinimas: kančia
+drėgnas: purvas, šlapias, sloga, tvankus
+kraigas: viršus, juostelė, kaminas, šukos
+keliautojas: lankytojas, keliautojas, turistas, keleivių
+malūnas: gamykla, gamyba, augalas
+žemėlapis: korta, schema, grafikas, kaina, bilietas
+apykaklė: apvadas
+pakeisti: pakeitimas, išstumti, atsarginis, alternatyva, pakaitalas, pakeitimas, poslinkis, pakeisti, skirtis, iš-dalies-pakeisti, Sub
+sąmoningai: tyčinis, tyčinis, žinoti, sąmoningas, tikslinis
+alus: pinta
+aksomas: 
+gravitacija: atrakcionas, traiškyti
+pamokslas: pamokslauti
+piktnaudžiavimas: klaidingas, neteisingai
+pulkas: grupė, banda, partija, spiečius
+trylika: 
+pateisinti: orderis, teisintis, advokatas, pateisinimas, pateisinamas
+penktadienis: sidabras, Venera
+šepetys: šukos
+parsisiųsti: 
+kremas: ledai
+uola: Rokas, kraštas
+žiuri: 
+pabaisa: milžinas, išsigimęs
+užšalęs: užšaldyti
+puodas: lėkštė, stiklainis, konteineris
+centas: centas
+primygtinai-reikalauti: garsiai, trauka, teigti, pabrėžti, pabrėžti, išlikti, atkaklumas, reikalauti, ginčytis
+obuolys: 
+aptarti: diskusija, tartis, ginčytis
+fonas: 
+transkribuoti: prisitaikyti, perrašyti
+periodinis: reguliarus, ciklinis
+pramoga: poilsis, linksmintojas, laisvalaikis, linksmas, linksminti, Pramogos, hobis
+virusas: 
+vaikiškas: sopranas
+atspindėti: kontempliacija, meditacija, medituoti, iliustruoti, vaizduoti
+konvertuoti: pakeisti, transformuoti, jungiklis, mutacija
+kontūras: profilis, kontūras, santrauka, eskizas, atskleisti, apžvalga, projektas
+opera: 
+pritarimas: tvirtinant, nepritariama, sutikimas, priėmimas, tvirtinimas, patvirtinti, patvirtinti, priėmimas, plojimai
+išdavinėti: atskleisti, apgauti, nuvilti
+nubausti: nuteistasis
+alkūnė: gembė
+areštas: priedas, ryšys, lopas, ryšys, jungtis
+remontas: Restauravimas, tobulinimas, rekonstruoti, taisymas
+įtartinas: įtarimas, įtarti
+septyniasdešimt: 
+Šventasis-Raštas: Biblija, scenarijus
+duobė: skylė, kasinėjimas, baseinas
+sutrikimas: chaosas, anarchija, neramumai, trikdymas, netvarka, Sutrikimas, trukdžiai, varžymasis
+dvejetainis: Dvejetainė
+abatija: vienuolynas
+rodyklė: 
+linkę: atsakingas, paprastai, paprastai, paprastai
+detalizuoti: detalus, apibrėžti, paaiškinti, plėtoti, sudėtingas, sudėtingas, sportuoti
+lojalumas: atsidavęs, lojalus, pasitikėjimas, ištikimai, dorai, nepasitikėjimas, patikimumas, tikėjimas, tikėjimas
+moneta: valiuta
+drebėti: drebulys
+tremtis: šaudyti, užsienyje
+mechaninis: mašinos, mechanikas, inžinierius
+gaudyklė: rankena, nuteistasis
+tortas: pyragas, sausainis, tešla
+seras: Ponas, ponas, valdovas, džentelmenas
+nesiryžti: trankyti, vaidentis, dažnis, tvyroti
+septyniolika: 
+medus: 
+kuolas: lažybos, dalis, pleištas, krūva, dalis, frakcija, įnašas
+protektorius: žingsnis, triukas, vaikščioti, vaikščiojimas, pedalas, žingsnis, žingsnis, skersinis
+plyta: čerpė
+aštuoniasdešimt: 
+deja: netinkamas, nelaimingas, deja
+konsultuotis: konsultacija, kreiptis
+legenda: mitas
+derlius: derlius
+skatinimas: pakelti, skatinti, Įvadas, pristatymas, reklama
+viryklė: viryklė, plokštė, orkaitė
+sukilėlių: sukilimas, sukilimas
+senamadiškas: senovės
+bangavimas: išpūsti, ištinęs, infliacija, patinimas, padidinti
+pelkė: pelkė
+padažas: padažas, tvarstis
+asketiškas: atsiskyrėlis
+vadybininkas: prievaizdas, vyriausiasis, bosas, administratorius, direktorius, moderatorius, vadovas, vykdomasis
+choras: vairuoti, komanda
+racionalus: pateisinamas, logika, logiškas, neprotingas, protingas, pagrįstai, protingas
+apdorojimas: 
+vilkas: 
+kilimas: kilimas
+senovė: 
+derlingas: 
+švilpukas: fleita
+sūris: 
+įkąsti: pjaustyti, drožti, geluonis
+pakviesti: kvietimas
+katedra: šventykla
+uostas: uostas
+nuklysti: pasivaikščiojimas, migruoti, žygis
+augalai: derlius
+karinis-jūrų-laivynas: jūrų, laivynas
+kaukė: fasadas, kirminas
+pieštukas: rašiklis
+daržovių: vegetariškas
+eksponatas: paroda, pasiūlymas, displėjus, pristatymas, simptomas, poveikis
+kelnės: kelnių, kelnės
+korupcija: skandalas, tarša
+kabinetas: spinta, sieninė-spinta, drabužių-spinta, tualetas
+sriuba: 
+chirurgas: chirurgija, chirurginis, operacija
+pašalpa: pakeitimas, pakaitalas, kompensacija, apozicija, paskirstymas, priedas
+šnipas: 
+neapgalvotas: neatsargus, nesutvarkytas
+paskalos: gandas, gandas
+žetonas: 
+abstraktus: santrauka, programa
+ketvirtadienis: 
+eismas: cirkuliacija, transportas, transportas
+architektūra: 
+krekas: įskilimas, įtrūkęs, nukrypti, mesti, lūžis
+ornamentas: apdaila, dekoratyvinis, papuošti, juvelyriniai-dirbiniai, apkarpyti
+atvirkštinis: priešingas, atvirkštinis, jungiklis, invertuoti, nepalankus, aukštyn-kojomis, galinis
+linksmintis: linksminti, linksmas, linksmins
+atsigavimas: Restauravimas, gelbėjimas, tobulinimas, atgimimas, susigrąžinti, atkurti, rekonstruoti
+šaligatvis: bordiūras, pikis, degutas, dumblas, dangtis
+lemiamas: lemiamas, gyvybiškai-svarbus, nustatyti, nuspręsti, užsispyręs
+neigiamas: nepalankus
+festivalis: koncertas
+sumažinti: mažinimas, sumažinti, palengvinti, atleisti, minimizuoti, degraduoti, įžambus-brūkšnys, apkarpyti, atimti, apsiriboti, apriboti
+išdavystė: 
+medžiotojas: 
+gyvatė: roplys
+baterija: 
+vaškas: žvakė
+detektyvas: tyrėjas
+analizė: analizuoti, tyrimas, studija, ištirti, tikrinti, tyrinėjimas, rezoliucija, palaužti, palaužti
+pabrėžimas: emfatinis, slėgis, pabrėžti, pabrėžti, pabrėžtas, akcentas, tvirtinimas, Dėmesio
+plaukti: plaukimas
+vokas: aplinkybė, prieveiksmis, apvalkalas
+kas-tik: kas, kas-nors, kurį, kas
+cigaretė: rūkymas, tabakas
+variklis: automobilių, variklis, motyvas, motociklas
+savanoris: skirti, savanoriškas
+reakcija: reaktyvus, atsakymas, atsakyti, reaguoti, grįžtamasis-ryšys
+bagažas: bagažas, kroviniai, bagažinė, lagaminas
+kurčias: 
+sultys: ekstraktas
+nuolankumas: paprastumas, kuklus
+ministerija: 
+seksualinis: seksas, seksualumas
+skersmuo: 
+kirvis: 
+deimantas: 
+atsarginis: atsarginis, alternatyva, pakaitalas, pasirinkimas, pavaduotojas, pakeitimas, persodinimas
+aidas: 
+apribojimas: sulaikyti, bordiūras, apribojimas, apribojimas, suvaržymas
+tapatybė: nustatyti, identifikacija, simbolinis
+ekranas: displėjus, užuolaida
+tingus: supuvęs
+momentane-aspektas: 
+kompaktiškas: akordas, kietas, tankus
+dreifas: operacija, įlinkis, tendencija, tendencija
+išnykti: užgesęs
+spindulys: sija, perėjimas, spindulys
+rašalas: 
+masinis: didelis, didysis, didžiulis, milžiniškas, didžiulis, didelis, nepaprastai
+rūsys: 
+įsimintinas: garsus
+žvilgsnis: švytėti, spindesys, spindesys
+senatas: parlamentas
+karstas: 
+atleidimas: 
+nuryti: gurkšnoti
+atsiduoti: siekti, Patenkinti
+sūpynės: 
+pieva: ganykla, iš-anksto, veja
+kompleksas: sudėtingas, komplikuoti, sudėtingas, junginys, sudėtingas
+atsistatydinimas: atsistatydinti, išėjimas-į-pensiją
+nuolankus-registruotis: 
+sąmokslas: sklypas
+paprika: 
+ponis: 
+kandidatas: prašytojas
+lapė: 
+kaminas: židinys, kaminas
+jurisdikcija: valdžia, sprendimas, sprendimas, kompetencija
+Žemdirbystė: žemės-ūkis, žemės-ūkio
+tikslumas: tikslumas, skaistybė, kruopščiai, teisingai, tikroviškumas
+buvęs-velionis: 
+demokratinis: 
+pumpuras: rankena, atauga
+antklodė: lubos, dangtis, kilimas, apimtis
+kruša: užimtas, pasveikinti
+kiaulė: paršavedė
+formos: figūra, forma, figmedis, aspektas
+dramblio-kaulas: 
+klasikinis: klasikinis, tradicinis
+stebėtojas: vadovas, lankytojas
+dramblys: 
+nagai: vinis
+bitė: 
+palaidoti: laidotuvės, įdėti
+aktorius: aktorė, atlikėjas, ieškovas
+prakaitas: 
+lenkų: tarmė
+iliuzija: sukčiavimas
+neapibrėžtumas: neaiškus, dviprasmybė
+antrinis: nepilnametis, vidutinis, vidutinis, vidutinis, lavinimo, vidurys
+sulankstyti: sudedamas
+kaimo: provincijos, kaimas, kaimietis
+dejavimas: 
+priminti: panašus, panašumas, priminti
+citata: ekstraktas, citata, citatos-pabaiga, skolinti, skolintis, paskola
+maišas: atleisti, atleidimas, krepšys
+susierzinimas: trikdymas, trukdžiai, pertraukimas, sunkumas, nuobodulys, rūpintis
+adata: įpurškimas, švirkštas, plunksna, kaištis
+kontroliuojamomis: kontrolė
+vištiena: višta
+nuoseklus: nuolatinis, suderinamas, betono, numanomas, tinkamas, niša, aktualus, nuoseklus, nuoseklus, subalansuotas, pastovus
+statinė: kibiras
+įprastas-aspektas: 
+ekspertas: specialistas, patyręs, specialus, specifinis
+įteigti: paveikti, įspūdis, pritraukti
+alyvmedis: 
+furgonas: vožtuvas
+kliūtis: pertraukti, suvaržymas, kliūtis, barjeras, nesėkmė
+kinkuoti: 
+skatinti: ugdyti, špinatai, skatinti, palengvinti, pašaras, palaikyti, palaikyti
+apibrėžimas: komentaras, identifikacija, aprašymas, nustatymas
+gimimo-diena: jubiliejus
+plaktukas: 
+gardus: 
+kartojimas: sunkus, paskirties-vieta, pakartojimas, atkartoti, repeticija
+trivialus: smulkus, nesvarbus
+smūgis: smogti, guzas, futbolas, kalcis, futbolas, smūgis
+kasti: iškasti, grąžtas, kasinėjimas
+glamonėti: 
+kaukolė: 
+teisės-aktų-leidėjas: parlamentas, teisėkūros, įstatymai
+kulnas: šuolis
+raukytis: 
+patentas: 
+milijardų: 
+cheminis: chemija, cheminių-medžiagų, chemikas
+pilotas: eksperimentas, eksperimentinis
+imituoti: imituoti, modeliavimas, atkartoti, atgaminti
+sijonas: Rokas
+itin: neįprastas, nenormalus, keistas, puikus, nepaprastas, neįtikėtinas, nereguliarus, fenomenalus, neįtikėtinai, labai, keistai
+kas-savaitę: 
+techninis: technika, technologija, techniškai, technologijų
+augmenija: 
+varna: bokštas
+saulėtekis: 
+gyvenimas: gyvenimas, išlikimas, gyvenimo-būdas, gyvenimas
+prisidėti: įnašas, dovanoti, partnerystė, skatinti, palengvinti
+kablys: susieti, prisijungti, santykiauti, gembė
+tigras: 
+prasiskverbti: perverti, per, įtakingas
+įvorė: ranka
+greitkelis: kelias
+milicija: 
+griovys: griovys, velenas
+vientisumas: 
+devyniolika: 
+organinis: 
+teologija: 
+plūdė: valtis, tvyroti, laivynas
+ragana: 
+Padovanok-dovaną-Pasiūlyk savaitės: nuobodus, nuobodulys
+diplomatinis: diplomatas
+studija: etiketė, dirbtuvė, studija
+viršyti: agresija, rapsas, įveikti, kirsti
+šampanas: 
+įkvėpti: paskatinti, įkvėpimas, padrąsinantis, įkvėpti
+vėliava: vėliava, plakatas, bilietas
+skyrybos: išsiskyręs
+varžtas: žaibas, vinis, sukti, varžtas
+vena: nervas
+pasyvus: auditorija, neįgalusis
+puta: burbulas
+žvyras: 
+prijuostė: etapas
+planeta: 
+lentyna: stovas, spinta
+ventiliatorius: 
+tropinis: 
+fazė: fotografinis, etapas, laikotarpis, statyti, žingsnis
+savavališkas: spontaniškas
+ištarti: tarimas, akcentas, pasisakymas, pratarti
+gyvsidabris: 
+slinkti: rėplioti, vijoklinis, ėriena
+savižudybė: 
+reporteris: žurnalistas
+atimti: atėmimas, atšaukti, išskirti, atimti
+kvalifikuotas: sumanus, efektyvus, galintis, talentingas, patyręs, kvalifikuotas, protingas
+balkonas: terasa, veranda
+šakės: 
+darbuotojas: darbuotojas, darbininkas, darbo, veiksnys, priklausomas, klerkas
+darbdavys: bosas
+plotis: plačiai, tiekimas, platus, pusiau
+suirzęs: Sapīcis, susijaudinęs, dirginti, išprovokuoti, stimuliavimas
+apkaltinti: denonsuoti
+pensija: išėjimas-į-pensiją, sintaksė
+veiksmažodis: aktas, reaguoti
+beždžionė: 
+priimtinas: priimti, priėmimas, tikėtinas
+parašas: 
+ortodoksinis: konservatyvus
+ironija: juokas, sukti
+medelynas: plantacija
+nenoras: nemėgimas
+importas: Įvadas
+deglas: 
+gramatika: gramatinis
+užstatas: kaupti
+kolonijinis: 
+jachta: keltas, valtis
+logiškai: pasekmė, epizodas, svarbus, didelis, pirmaujantis, garsus, žymiai, reikšmingas, esminis, reikšmingas
+kupolas: 
+storis: 
+užsispyręs: užsispyręs
+raumuo: 
+dydis: dydis, didžioji-dalis, amplitudė, matuoklis, kiekis
+patrinti: 
+bailiai: 
+reikmenys: suvienyti, susijungti, suvienodinti, panaudoti, diržas
+skrebutis: užkandis
+pelė: žiurkė
+skiemuo: 
+paglostyti: ploti, trankyti
+dialogas: bendrauti, pokalbis
+neutralus: bevardė-giminė
+darbštumas: uolumas, globa
+prieštaravimas: prieštaringas, ginčas, dviprasmiškas, painu, prieštaringas, dviprasmybė, paradoksas, prieštarauti, variantiškumas, prieštaravimas
+pasiekti: suvokti, pasiekti, atvykti
+ožka: 
+klestėti: gerovė, klestėti, bumas, brangakmenis, perlas
+primesti: jėga, vykdyti, nustatyti
+anoniminis: 
+formalus-registruotis: 
+veršelis: skubėti
+vadovas: vadovas, Gairės, markė, vadovavimas, vadovėlis, mokymas, vadovas, vadovas
+išlydyti: išgaruoti, atodrėkis, sintezė
+panaikinti: ištrinti, tirpinti, atšaukti, pašalinti, išskirti, panaikinti, pašalinti, pašalinimas
+skėtis: parašiutas
+bagažinė: batas, bagažinė
+mineralinis: jodas, maistingas, metalinis
+paliaubos: ugnies-nutraukimas
+antis: 
+planavimas: 
+muilas: 
+lėlė: kūdikis, žaislas
+skeletas: 
+vila: fėja
+siuvimas: dygsnis, siūti
+suderinti: tarpininkauti, suvienyti, suvienodinti
+virdulys: 
+brandus: suaugęs
+triušis: 
+dirigentas: kopėčios, komendantas, vairuotojas, vadovas
+priklausomybė: priklausyti, priklausomybė, priklausomas, priklausomas, giminingumas, požiūris
+žaidėjas: atlikėjas
+vabzdys: kenkėjas
+restoranas: 
+pelėda: 
+radikalus: karingas, ekstremistas, progresuojantis
+gyventojas: gyventojas, gimtasis, vidaus, vietinis
+drakonas: aitvaras
+girdimasis-pagrįstas-įrodymu: 
+ištroškęs: 
+užgaišti: ilgai-trunkantis
+skaičiavimas: apskaičiuoti, skaičiavimas, Kompiuterija, skaičiavimas, skaitytis, sąskaita, surašymas
+reguliavimas: cenzūra, kontrolė, suvaržymas, apribojimas, atsiskaitymas
+meras: 
+mažuma: 
+įsigijimas: gauti, pelnas, įsigyti, priėjimas, Prieinamumas
+veteranas: vyresnysis
+orkestras: 
+bekonas: 
+nenauda: nuostolis, atėmimas, nepalankus, škvalas, kliūtis
+audinys: audinys, apranga, rankšluostis, drobė, audinys
+muzikantas: kompozitorius, muzikinis
+protiškai: dvasinis, protinis, nuotaika, Mana, subjektyvus
+jungtukas: bendradarbiauti, ryšys, junginys, asociacija, bendradarbis, derinti, nuoseklus, šalia, nenutrūkstamumas, tiltelis
+netinkamas: trūkstamas, nepakankamas, trūkumas, nelaimingas, menkesnis, keblus, didelis, netinkamas, netinkamas, netinkamas
+architektas: 
+citrina: 
+kosulys: kosulys
+galvos-skausmas: 
+nuomininkas: planuotojas
+vaisingumas: reprodukcija
+išgydyti: išgydyti, pagerinti, padidinti, tobulinimas, gydyti
+devyniasdešimt: 
+atsitiktinis: atsitiktinai, lošimai, atsitiktinis
+šaukštas: kibiras
+balionas: 
+kreida: tinkas
+Netiesiogiai-pagrįstas-įrodymu: 
+leidėjas: redaktorius
+actas: 
+uosis: pilkas, pilkas
+užpildantis: barimas
+atgaivinti: atgimimas
+jautrus: pažeidžiamas, jautrus, protingas, emocinis, atsakingas
+tunelis: metro
+dėlionės: supainioti, painu
+mechanizmas: procedūra, rutina, sistemingas, mašinos
+matematika: matematikos, matematinis
+blukinti: 
+kepenys: 
+sublative-atvejis: 
+panirti: nardyti, įdėti, lašas, kristi, dažnumas, nuolydis, nuolydis, Šlaitinių, gradientas, mirkymas
+vienetas: vienybė, subjektas, modulis, snapas, vienaskaitos
+monopolija: išskirtinis
+lošimas: lošti, žaidimas, rungtynės, klirensas, žaislas
+povandeninis-laivas: povandeninis
+žemės-drebėjimas: konvulsija
+laboratorija: Lab
+kamštis: grybų, grybelis, kepurė
+savarankiškai-kontrolė: 
+Buda: 
+megzti: mezgimas, pynimas, trauka, megztas, mazgas, mazgas, juostelė
+ambasada: 
+toliausiai: 
+deklaratyvus-nuotaika: 
+stimulas: paskatinimas, paskata, receptas, motyvacija, motyvas
+šokoladas: saldainiai
+sutapimas: tikimybė, derinys, netinkamas, atsitiktinai, atsitiktinis, rungtynės
+pirštinė: 
+atsiklaupti: 
+geografija: 
+investicija: investuoti, įmonė
+žodinis: šnekamasis, oralinis, įžeidžiantis
+analogija: lygybė, panašumas, giminingumas, giminystė, santykis
+pasaulietinis: padėti
+vanagas: erelis
+psichologija: 
+įkabinti: susieti, įpareigoti, prisijungti, tvarstis, suimti, pridėti
+metalo-laužas: atšaukti, šiukšlės, atliekos, fragmentas
+vaidmuo: skriemulys, dalis, ištekliai, dalyvis
+dozė: kiekis
+lašiša: 
+pudingas: 
+magnetinis: patrauklus
+siurblys: bomba
+deguonis: 
+pažymėjimas: 
+medalis: 
+retorika: 
+džiržginti: įdrėskimas, ganyti
+irkluotojas: kastuvas, pelekas
+teleskopas: mikroskopas
+karoliai: pralaimėjimas, pasta
+rašyba: reikšti
+viskis: 
+gluosnis: ganykla
+kupranugaris: 
+mėgėjas: 
+išeiti: eksportas, anga, pasirodymas, produkcija
+biografija: 
+asilas: 
+kas-mėnesį: 
+ignoruoti: nepriežiūra, nepastebėti, atleisti, nežinojimas
+atostogos: palikti, atostogų, poilsis, likusieji
+spragtelėjimas: klika, greitai
+ovalus: 
+elastingas: guma, lankstus
+žodynas: leksikos, žodynas
+kumpis: šlaunis, sėdmuo
+vaivorykštė: 
+vartoti: vartojimas, panaudoti, dislokuoti
+nerija: draugas, liežuvis
+bakas: rezervuaras, konteineris, kubilas
+kolega: kooperatyvas, vaikinas, draugas, bendradarbis
+drugys: 
+schema: schema, grafikas, grafinis, grafika, grafikas, schema
+dvynys: dvigubai, dvigubas
+nepriklausomai: nepriklausomas, laisvai, išskyrus
+bambukas: 
+prekiautojas: mažmenininkas, pardavėjas, pardavėjas, pirklys
+kaupimas: kaupti, kolekcija, koncentracija
+inspektorius: auditorius, komendantas
+kąsnelis: fragmentas, gabalas, tiek
+košmaras: svajoti
+uogienė: želė
+muziejus: 
+abėcėlė: alfabetinis
+sklaida: dislokuoti, paplitimas
+reidas: okupacija, invazija, užpuolimas, įžeidžiantis, pradžia, dominuojantis, tremti
+atskleisti: paskelbti, atskleisti, aptikimas, atskleisti, anuliuoti, paskelbti, atrasti
+puvinys: ėduonis, pablogėti
+agresyvus: sutrikdyti, netvarka, okupacija, agresija, įžeidžiantis, užsispyręs
+trintis: 
+prieplauka: 
+voras: 
+bulvės: 
+peržiūrėjimas: reguliuoti, pataisa, peržiūrėti, taisymas, iš-dalies-pakeisti, apžvalga, auditas
+godumas: godus
+pirmalaikis: anksti, guzas
+daugintis: smogti, veisti, guzas
+sukinys: sukti, rotacija, spiralė, sriegis, sukti
+statistika: statistinis, figūra, kalbėtis
+kalendorius: grafikas, tvarkaraštis, dienoraštis, vaizdas
+skyrimas: paskirti, paskyrimas, pasirinkimas, įsipareigojimas
+trilijonas: 
+mansarda: vėjas
+teigiamas-nuotaika: 
+programos: 
+nominalus: 
+nepasitenkinimas: 
+infekcija: užkrėsti, užsikrėtę, perėjimas, transmisija, užkrečiamas
+ąsotis: stiklainis
+trūkčioti-pečiais: tampyti
+pradininkas: pagrindinis, avangardas
+praleidimas: numatytasis, netaktas, trūkumas, nerūpestingumas, nepriežiūra, pašalinimas
+kopūstai: 
+Atletiškas: atletika, matematinis, sportininkas
+girtumas: cukrus
+saviskambių: 
+svirtis: smalsauti
+senatorius: 
+rainelė: 
+skruzdė: 
+klaidą: 
+nėščia: motinos
+nusodinti: krituliai, nuosėdos, greitis, skubus, paspartinti
+kulkšnis: 
+klasifikacija: rūšiuoti, klasifikuoti, klasifikatorius
+kintamas: skirtis
+suvynioti: paketas, sklypas, paketas, paketas, ritė, vyniojimas, dangtis, danga
+garbanotas: garbanės, drėbti, ritė, ritinys, sraigtas
+siera: siera, sugedęs
+diktuoti: 
+atsirasti: pasirodyti, išvaizda, kilti, pasirodymas, mesti
+varlė: 
+perdėtas-atvejis: 
+kempinė: grybelis, grybų
+erzina: Sutrikimas, sutrikdyti, rūpintis, nervinimasis, erzinti, nuobodus, išrankus, nerimą
+voverė: 
+šlifuoti: pusė, pusiau
+irrealis-nuotaika: 
+vulkanas: 
+patalpoje: Vidinis, viduje, per, patalpos
+išnaudoti: panaudoti, absorbuoti, pasiekimas, tyrinėti
+geologinis: 
+pasas: 
+amoralus: piktas, supuvęs
+biskvitas: sausainis
+bendradarbiavimas: bendradarbiauti, partnerystė, integracija, padėti
+tabletė: kulka, piliulė, plokštė
+poilsis: laisvumas, atsipalaidavęs, laisvalaikis, atsipalaiduoti, atpalaiduojantis, poilsis
+atomas: atominis, dalelė, individualus
+AIDS: pagalba, reljefas, pagalbinis
+piramidė: 
+ciklas: ratas, cirkuliacija, dažnis, rotacija, sukti, dviratis, dviratis
+plaukeliai: 
+neteisėtas: neteisėtas
+letena: letena, pirštas
+drovumas: drovus, susitraukimas
+užtemimas: neaiškus
+liutnia: nuožulnus
+šluota: 
+skydas: plokštė, plokštė, tapyba, lenta, grupė, komitetas
+astronomija: 
+labirintas: 
+stipendija: rėmimas
+vėžlys: 
+patarėjas: mentorius, patarti
+pluoštas: pluoštas, pluoštas
+Kriketas: 
+karvelis: 
+pritaikymas: prisitaikyti, įranga, laikymasis, modifikacija, reguliuoti
+trikampis: 
+iždininkas: 
+vandenilis: 
+trapus: subtilus, traškus
+spausdintuvas: 
+droselinė-sklendė: 
+lėtinis: atsparus
+susidoroti: susitikimas, prisitaikyti, susidurti, kompensuoti, įveikti, spręsti, kontrastinga, rankena
+dilema: 
+inžinerija: technika, techniškai
+fotoaparatas: kamera
+atsiprašyti: atsiprašymas, malonė
+laižymas: 
+šokėjas: 
+migracija: migruoti, imigracija
+tenisas: 
+stuburas: 
+mailius: 
+staklės: uždarytas, uždarymas
+dūris: geluonis, perverti, patraukti, bandymas, mėgino
+slaptažodis: signalas, lazda, šūkis
+pusrutulis: smailus, patarimas
+strategija: strateginis
+kvarcas: 
+žirklės: traukti, vilkti
+patrulis: 
+ledynas: 
+pusiaukelėje: pusė, iš-dalies, pusiau, vidurys, vidurio
+memorandumas: sutartis, sutartis, konvencija, akordas, orderis
+kūgis: nusmailintas
+simetrija: 
+gamintojas: produktyvus, gamintojas, konstruktyvus
+atsakovas: advokatas
+mečetė: 
+Šachmatai: 
+rinkliava: imti, rinkliava, auka, figūra, komplikacija
+vyšnių: 
+paplitęs: platus, plačiai, paplitimas, platus, platus
+suklupti: kristi
+sunkvežimis: sunkvežimis, kroviniai, krovininis-laivas
+garstyčių: 
+procentų: už-procento, centas
+aukcionas: pardavimas
+sietas: 
+netvirtas: nestabilus, nestabilumas, neaiškus, neramus
+magnetas: 
+žįsti: absorbuoti, mirkymas
+islamas: 
+pasistiebus: pirštas, paruoštas, pasiruošęs
+membrana: 
+skustis: 
+gitara: 
+blizgus: šviesus, iš-ryto, puikus
+guoba: 
+sklęsti: žygis, tvyroti, gerklė, skrydis
+įvardis-žymeklis: 
+pagrindinis: klipas, gembė, esminis, pagrindinis, pagrindinis, pagrindinis, pagrindinis, pagrindinis, pagrindinis
+prieskonis: įkarštis
+perdarynė: ryšys, užtikrinimas, įsipareigojimas, garantija
+vežėjas: vektorius, ieškovas, porteris
+vibracija: rezonansas
+erzinti: gundyti, erzinti, dirginti, žavėti
+plūgas: išspręsti, išpurenti, užgrobimas
+fiziologinis: kūno
+latakas: nusausinti
+kometa: nusikaltėlis
+viduramžių: vidurio
+žvirblis: 
+kompensuoti: atlyginti, kompensacija, kompensuoti, išpirkti, makiažas, makiažas
+plastmasinis: 
+išnaša: 
+orbita: klasė, klasė, trajektorija
+kuklus: kuklus
+golfas: 
+nulis: negaliojantis
+lustas: gabalas, fragmentas, gabalas, riekė
+engti: slopinti, slopinti, nuspausti, sukrėsti
+žiovulys: išgaruoti
+nelygybė: 
+molis: sezamas, molis
+keramika: 
+namų-šeimininkė: 
+rugiai: 
+nepaklusti: pažeisti
+tolerantiškas: tolerancija
+embrionas: padanga, padanga, embrioninis, vaisius, branduolys
+kalnakasys: nepilnametis
+ploti: vertiname, plojimai, ploti
+mielės: fermentas, tešla
+premija: premija, prizas, apdovanojimas
+slyva: 
+bankrotas: nesėkmė
+drėkinimas: 
+mėta: saldainiai
+kapitalistas: kapitalizmas
+elastingumas: lankstumas
+ryklys: 
+naujokas: triukas, naujokas
+saugojimas: išsaugoti, tausoti, parduotuvė, taupymas
+realizmas: 
+imbieras: 
+greitosios-pagalbos-automobilis: 
+panašus: proporcingas, panašus
+piniginė: portfelis
+kraipytis: puodelis, šypsnys, kraipytis
+mokslininkas: mokslinis, mokslininkas, tyrėjas, tyrėjas
+nusiaubti: žarnos, žarnyno
+šaltakraujiškumas: 
+radijo: radis
+nesvarbus: prieštaringas, netinkamas, netinkamas, nesvarbus
+pupa: veržlė, žirnis, žemės-riešutas, javai
+neoficialus: 
+dukraitė: anūkas, vaikaitis, dukterėčia, palikuonis
+nesutarimas: prieštaravimas, diskusija, ginčas, nesutikti
+kepsnys: pjaustyti
+azotas: 
+skustuvas: 
+kontrastingos: kontrastas, kontrastinga, prieštaringas, palyginti, priešingas
+propaganda: skelbti, reklama, reklama, reklaminis, reklamuoti
+fejerverkas: 
+popmuzika: greitai, trenksmas
+nusirengti: 
+vaga: 
+žalingas: žala, pavojingas, nepalankus
+judaizmas: 
+papildymas: papildomas, aprūpinti, papildymas
+lęšis: lęšis, žibintuvėlis
+pegative-atvejis: 
+Vėžys: 
+pėstininkas: hipoteka, karys, įsipareigojimas
+lektorius: 
+nutekėjimas: išsiliejimas, nuostolis, lašas
+kvalifikuoti: tinkamas, nuopelnas, nusipelnyti, kvalifikuotas, kvalifikacija
+tankis: perpildytas, intensyvumas
+indukcija: 
+kramtyti: 
+kalbus: komunikabilus
+omaras: 
+nuolaida: atleidimas, pardavimas, nuolaida
+taksi: 
+hierarchija: vadovavimas, sistema
+nuvarytas: 
+urzgimas: 
+driežas: 
+krioklys: 
+apviliantis: slegia, nusivylimas, nuvilti, nusivylęs, bjaurus
+veto: atsisakyti, pėdsakas, atmesti, atleisti, nepritarimas, lažybos, trauka
+pirmininkavimas: prezidento
+pirkėjas: klientas
+galonas: 
+uodas: 
+nukrypimas: įlinkis, iškraipymas, kompensuoti
+ristis: konkuruoti
+mozaika: 
+kištukas: jungtis, kvitas
+pritūpęs: pritūpti
+bakalėjos: 
+komunistas: 
+stebinti: stebinantis, nuostabus, stulbinantis, suklaidinti, supainioti, apsvaiginti, pritrenkti
+prosecutive-atvejis: 
+žvaigždynas: galaktika
+diktatorius: 
+susirūpinimas: užimtumas, nerimas, nerimauti, rūpestis
+palydovas: 
+šlepetė: sandalas
+priebalsis: 
+apytikslis: Įstatymų, maždaug, apytikslės
+bedarbis: užimtumas
+rėmėjas: asistentas, pagalbinis, ištverti, gembė
+lotosas: 
+salotos: salotos, špinatai
+chloridas: 
+bakterijos: grybelis, bakterijų
+lipnus: klampus
+komponentas: 
+branduolys: 
+apsimesti: apsimesti, imituoti
+baitų: 
+sekrecija: išskirti
+aiškiai: aiškiai, atvirai, matyt, akivaizdžiai, aiškiai
+sutapti: rungtynės, tinkamas, tinkamas, akordas, atitikimo
+baletas: pelekas
+šlapimas: myžti
+česnakas: 
+praėjo: praeitis, perėjimas
+ekonomika: ekonomika, nuosmukis, taupymas
+vidurinė-klasė: 
+judrus: greitai, greitai, greitas, greitai
+žnyplės: kastuvas, klipas
+skalbiniai: skalbimas
+žemuogė: 
+miesto: pilietinis
+varžyti: neskatinti, kliūtis, nepatogus, pritrenkti, supainioti
+užrašų-knygutė: 
+albumas: 
+beisbolas: 
+šnirpštimas: 
+bufetas: 
+dalyvis: dalyvis, dalyvis
+garažas: 
+diagnozė: diagnostinis, diagnozuoti, pažintinis, pripažinti
+ramentas: 
+iškvosti: šantažas, pešti, suvaržyti
+Registracija: įrašas, registruotis, įrašymo, registruoti
+tirpus: tirpinti
+fosforas: 
+struktūrinis: struktūra, konfigūracija, konfigūracijos
+klijai: 
+disertacija: disertacija
+amatininkas: mechanikas
+bananas: 
+aksioma: teorema, Frankas, akivaizdus, akivaizdus, aiškus, principas
+šonkaulis: įranga
+nikelis: nė-vienas
+Pi: Ate, pyragas, silicis
+autobusas: leisti
+cenzūruoti: cenzūra
+raketa: raketa
+dešra: dešrainis
+manipuliacijos: veikti, manipuliuoti, veiklos, triukas, apgauti, rankena
+pomidoras: 
+sustiprinti: konsoliduoti, suintensyvinti, patvirtinti
+lizdas: atšaukimas, anga, jungtis, lizdas
+kalis: 
+atgauti: atnešti, susigrąžinti, atkurti, Restauravimas
+virtualus: nekilnojamasis, faktinis, tikras
+algebros: 
+dantistas: dantis
+optinis: regėjimo
+judintis: nuolaida, nuolaidus, žingsnis, judantis, išstumti
+biologija: 
+nedarbas: 
+vikšras: 
+solo: atskiras, fenomenalus, diskretus, dirvožemis, vienas
+naršyklė: 
+Nuotolinis-praeitis-įtempti: 
+istorinis-įtempti: 
+branduolinis: branduolys, atominis
+spektras: 
+natris: 
+isterija: 
+globėjas: administratorius
+įkaitas: hipoteka, įsipareigojimas
+moliūgas: moliūgas, čiulpai
+raukšlėtis: defektas
+skaidrumas: skaidrus, aiškus, paprastas
+smaigalys: pleištas, nėriniai, patarimas, vinis
+prioritetas: Dėmesio
+pėsčiasis: vaikščiojimas
+ateizmas: 
+monitorius: takelis, prižiūrėti, žiūrėti, siekti
+rinkimų-apygarda: rinkėjas, rinkėjai
+nekontroliuojamas: 
+zondas: egzaminas, tyrimas, tyrimas, tirti, tyrimas, tyrinėjimas, bandomasis
+platina: 
+dvigubas-skaičius: 
+plaučių: 
+Super: fenomenalus, nepaprastai, neįtikėtinai
+vežimėlis: vežimas, į-krepšelį, vežimėlis
+vietoje: vietinis
+kurstyti: sužadinti, erzinti
+benzinas: benzinas
+inkstas: 
+plėšikauti: apiplėšimas, plėšimas, auka, sugadinti, apiplėšti, gabenimas
+įvertinimas: įvertinimas, vertinimas, įvertinti, klasė
+arsenas: 
+sraigė: sraigtas
+žiogas: 
+lygtis: formulė, lygybė
+socialistinė: giminystė
+filtras: 
+sensorinis-pagrįstas-įrodymu nuotaika: 
+išplėsti: išplėsti, platus, papildyti, kelti, padidinti, išplėsti, plačiai, rezoliucija, pratęsimas, plėtra
+skleisti: pradėti, mesti, iškvėpti, šaudyti, leisti
+pasaitėlis: nuoma, dirželis
+mandarinas: 
+menestrelis: 
+plaučių-uždegimas: 
+solidarumas: suvienyti, mitingas, giminingumas, vienybė, panašumas
+vyris: detalus, kilpa
+išilginis: vertikalus
+dividendas: paskirstymas
+raja: slidinėti
+eksponentė: rodiklis, eksponentinis
+nedarbingumas: kliūtis, nesugebėjimas, defektas, netobulas, neįgalusis, škvalas, trūkumas
+manija: priekabiauti
+paskirstymas: paskirstymas, paskirstyti, nuostata, kvota, paskyrimas
+fotografas: fotografinis
+delta: dalyvauti
+skaitmeninis: figūra, skaitvardis, skaitmeninis
+kalė: 
+akies-vokas: 
+įstrižainė: 
+pasąmonė: 
+antakis: 
+čiaudėti: 
+labai-linksmas: linksmas, Pramogos, džiaugiuosi, juokingas, linksmas, juokingas, linksmins, humoristinis, juokingas
+induizmas: 
+pabėgėlis: imigrantas
+Pervežimas: erdvėlaivis, vežimas, transportas, transportas
+baltymas: baltas-kiaušinis
+sąvartynas: krūva, kaminas, tremti, šiukšlės, atliekos
+tobulinti: 
+vemti: 
+genas: genetiškai, genetinis
+pirmakursis: 
+sociologija: 
+skvošas: moliūgas, traiškyti
+žvejys: 
+regioninis: apygarda, plotas, zona, globotinis, sfera, sektorius, periferinis
+judėjimas-į-kalną: 
+retrospektyvus: praeitis, savistaba
+tornadas: 
+inversija: invertuoti, priešingas, abipusis, atvirkštinis
+televizija: televizija, filmas
+kubas: 
+produktyvumas: spektaklis, produkcija
+morka: 
+Molekulinė: molekulė, pagrindas
+konglomeratas: klika, grupė, klasteris
+buhalteris: auditorius
+agurkas: pasirinkimas, gerklė
+orgija: 
+tirpiklis: tirpinti
+fosfatas: 
+gruntas: masalas, pažintis, Įvadas
+šarminis: 
+gimnastika: fitnesas
+kablelis: koma, šalis
+judėjimas-žemyn: 
+persileidimas: abortas, žemas, nesėkmė
+ankštis: apvalkalas, apvalkalas, žievelė
+donoras: 
+manganas: 
+psichologas: 
+chloras: 
+klaviatūra: 
+elitas: 
+įterptinys: 
+Regbis: 
+opa: žaizda, žaizda, trauma, virti
+fleksyjnych: 
+kandinėti: 
+Quantum: suma, kiekis, kvota, dalis
+megztinis: striukė
+evoliucinis: raidos, evoliucija
+užrašymas: ženklas, simbolis, pastaba
+atšokti: bumas, šuolis
+skrodimas: paskirstyti, skyrius
+slėptuvė: 
+linijinis: paprastas
+stibis: 
+superessive-atvejis: 
+navikas: navikas, didžioji-dalis, guzas
+erozija: 
+alfa: 
+bamba: pilvas, polius
+imuninis: kvėpavimas, atsparus
+gripas: gripas, sloga, karščiavimas, įtaka
+alaus-darykla: 
+supaprastinti: 
+sutrumpinti: riba, apsiriboti, apriboti
+apmažinti: gumbas, guzas, dantis
+sužavėti: užfiksuoti, žavėti
+priversti: suvaržyti, jėga, vykdyti, vykdymas
+puskojinė: 
+filmas: filmas, kino-teatras, kaspinas, kasetė, juosta
+kosmosas: visata
+teršti: tarša, užkrėsti
+visuomeniškas: 
+varpa: seksas
+miškininkystė: 
+aliuminis: aliuminis
+svyravimas: svyravimas
+horoskopas: 
+kraustyti: reaktyvinis, išvaryti, išstumti, ištremti, išskirti, išstumti, atimti
+įtraukimas: įrašymo, integracija, įdėti, dangtis, įtraukti, danga, reikšmė, įtraukti, dalyvavimas
+gavėjas: dabartinis, vartotojas
+delfinas: 
+žudikas: 
+žinduolis: 
+rodiklis: laikysena, rodiklis, kriterijai, rodomasis-pirštas, matuoklis
+dvideginis: 
+dvitaškis: 
+biurokratija: biurokratiškas
+iškreipti: suklaidinti, peštynės, iškraipymas
+šaldytuvas: šaldytuvas
+archeologinis: archeologija, archeologija, iškastinio
+nepriimtinas: nepritariama
+detalizavimas: norma, standartizuoti
+lapelis: biuletenis, padalomosios-medžiagos, lapas
+antropologija: 
+skanus: skanus
+pereinamas: pasiteisinimas, perėjimas
+susigūžti: rėplioti
+saulėgrąža: 
+utėlė: erkė, tiek
+jonų: 
+turizmas: turistas, kelionė
+modemas: 
+pagreitis: skatinti, palengvinti, stimuliavimas
+klastoti: pritrenkti, kalvė
+emisija: purvinas, emisija
+pagrobti: užgrobimas, laidumo, stverti
+iš-dalies-sutapti: sąveika, interaktyvus
+kirpėjas: 
+folkloras: kviečiai
+kapiliarinis: 
+nacionalizmas: tautybė
+užpakalis: Hip, sėdmuo
+motyvas: tema, tema, motyvas, pagrindai
+sublimuoti: 
+nusivylimas: nesėkmė, neviltis, nusivylimas, sumišęs, atšaukti
+kobaltas: 
+aviža: 
+judėjimas-Prieš-srovę: 
+išangės: 
+jaučio: 
+atvirkštinė: išversti, išversti
+atleidimas: daug, liekamasis, perteklius, atleisti, atleidimas, atleidimas
+video: 
+boikotas: apygarda, atstumtas, nepriežiūra
+viktorina: bandymas, egzaminas, anketa
+ledo-ritulys: 
+partizanas: 
+magnis: 
+radaras: 
+šimpanzė: 
+patikimumas: patikimumas
+stačiakampis: 
+rusvieji-dumbliai: 
+apibendrinti: apibendrinimas
+komendanto-valanda: 
+homoseksualus: 
+scenarijus: scenarijus, kraštovaizdis
+formulavimas: statyti, statyti, konstruktyvus, formuluotė, kūrimas, formavimas, formuluoti
+reinkarnacija: 
+užsidegti: 
+uranas: 
+gaudytojas: receptorius
+koordinuoti: koordinavimas
+mokesčių-mokėtojas: 
+integruota: integralas
+išreiškė-nuomonę,: vaizdas, nuomonė, pastaba
+gama: 
+Safari: važiuoti, kelionė, kelionė, kelionė
+judėjimas-srovę: 
+koeficientas: klasė, veiksnys
+antraštė: pavadinimas, tema
+analitikas: analizuoti
+matas: 
+prekybos-centras: prekybos-centras
+bismuto: 
+atvirukas: sveikinimas
+konvergencija: Įstatymų, susilieti
+nutolti: trauktis, nukrypti
+akcininkas: partneris
+mikrobas: 
+lyties: 
+morfologinis: genetinis, morfologija
+beta: 
+džinsai: 
+duomenų-bazė: 
+skaičiuoklė: Kompiuterija
+rentgeno: 
+išnagrinėti: 
+aplinkos: kraštovaizdis, aplinka, aplinka, kontekstas, ekologinis, kaimynystė, kaimynystė, kontūras
+Sigma: 
+Padalijimas: izoliacija, atskyrimas, palaužti, palaužti
+darbotvarkė: programa, programa, mokymo-planas
+viza: 
+infrastruktūra: 
+žibukas: 
+detektorius: 
+prisitaikanti: 
+biologė: 
+sudurti: pritvirtinti, iš-dalies-pakeisti, pridėti, prisijungti
+bromas: 
+paladis: 
+žagsėti: 
+pastelė: išblyškęs
+zoologijos-sodas: 
+klinika: 
+konotacija: reikšmė, reikšmė, semantinis, sąvoka, sąvoka, jausmas, kontekstas
+joga: suma
+knygynas: knygų-spinta
+terapija: gydymas, gydyti, išgydyti, priemonė, gydytojas
+nacionalistas: etninis
+nukirsti-galvą: 
+Taip: taip
+problemiškas: emisija, problema, komplikacija
+džiazas: 
+volframas: 
+teroristas: karingas, siaubas
+driblingas: dumblas
+medžiagų-apykaita: 
+alimentai: 
+savaitgalis: 
+chrizantema: 
+vakcina: komentaras, apimtis
+motociklas: motociklas
+Mantra: 
+semestras: terminas
+heroinas: 
+aplankas: 
+katodas: 
+ideologija: mintis
+automobilių-stovėjimo-aikštelė: 
+teta: 
+atoslūgis: nusivylimas
+selenas: 
+dviračių: cirkuliacija, kilpa, ciklinis, dviratis, dviratis
+žievė: žievė, apvalkalas, žievelė
+lygiavertiškumas: lygybė
+dabartinis-aktualumas-žymeklis: 
+oro-uostas: 
+amputuoti: pertraukti
+krepšinis: 
+apgavikai: 
+tarakonas: 
+chromas: 
+litras: litras
+vis-dėlto: vis-dėlto, dar, tačiau, vistiek
+hormonas: 
+su-trūkumais: trūkumas, trūkumas, netobulas, klaidingas, netikras, trūkstamas
+pradurti: perverti
+Animizmas: 
+poligonas: kampas
+feministų: 
+sujungtas: nuolydis, sujungtas
+euras: 
+ženšenis: 
+algoritmas: 
+lazeris: 
+vaistinė: 
+milimetras: milimetras
+lankstytis: sulenkti, kreivas, lankstus, palankus, kabelis
+anodas: 
+niuansas: atspalvis
+ne-visą-darbo laiką: 
+jautrumas: 
+demonstruotojas: 
+helis: 
+dvikalbis: 
+akronimas: trumpas, trumpai, trauktis
+Sukurti: 
+gerundijus: 
+plazma: 
+chromosoma: 
+kelintinis: mazgas, eilė, reguliarus, nuoseklus
+kilometras: kilometras
+faksas: 
+genetika: genetinis, genetiškai
+šlakelis: 
+atsuktuvas: veržliaraktis
+Brokoliai: 
+būtasis-laikas: 
+vitaminas: 
+kadmio: 
+bombonešis: 
+grafinis: 
+titanas: 
+švaistytis: girtis
+Lambda: 
+draugė: partneris, draugas, meilužis, mergina
+poruotis: 
+smėlio-laikrodis: 
+empatija: užuojauta, užuojauta, supratimas
+boro: 
+sraigtasparnis: 
+telūras: skandis, lantano
+terminas: terminas
+lygiuoti: 
+centimetras: 
+molibdeno: 
+ličio: 
+daugialypė-terpė: 
+atnaujinimas: modernizuoti, pailsėję
+kalorija: 
+robotas: 
+namų-darbai: 
+logaritmas: 
+Mantis: 
+įrengti: stovas, diegti, sintezė
+amino: 
+glifas: reljefas
+aoristas: neterminuota
+ekologija: ekologinis
+padirbinėti: sugadinti
+marihuana: 
+mikro: subtilus, mažas, mažytis, mažybinis, mikrofonas
+kilogramas: 
+persivalgyti: 
+nuspėjamas: prognozė, numatyti, prognozė
+pica: 
+nusiklausyti: 
+kalbotyra: kalbinis
+kirpimas: 
+iridis: 
+rasizmas: rasinis
+optimalus: viršus, optimalus
+industrializacija: industrinti, pramonės, gamyba
+Buveinės: štabas, sėdynė
+cerio: 
+kongruentinis: draugiškas, tinkamas, palankus, suderinamas, panašus
+dalijamasis-atvejis: 
+kasetė: kasetė
+valios: valia, valia
+erdvinis: dydis, forma, dimensija, erdvinis
+parametras: 
+sinchronizuoti: sinchronizuoti
+maksimizuoti: maksimalus, padidinti, perdėti
+seminaras: dirbtuvė
+diskoteka: plokštė
+neonas: 
+osmis: 
+Trys-karaliai: 
+plagijuoti: vagystė
+artefaktas: 
+reaktorius: 
+raudonėlis: 
+plutonis: 
+itris: 
+patobulintus: 
+Vartotojo-vardas: 
+magistrantas: 
+Dešinysis-sparnas: 
+argonas: 
+fobija: bijojimas, baimė, vaidentis, šlykštumas
+bendrauti: bendrauti, bendrauti
+globalizacija: 
+bangos-ilgis: 
+koduoti: kodas
+pakartotinai-panaudoti: naudotas
+perkrauti: perkrovimo
+hepatito: 
+toras: gumbas
+chemoterapija: religinis
+modulį: pelėsiai, modulis
+protonų: 
+diskelyje: 
+miligramas: 
+pikselių: 
+tantalas: 
+tirpinys: nuspręsti
+genocidas: 
+plėšrūnas: nuožmus
+galio: 
+cirkonio: 
+nulėmėjas: nustatyti, apibrėžti, tyrėjas
+netiesinė: 
+pesticidas: 
+Berilis: 
+neuronas: 
+predikatinis: užsispyręs
+apatinės-kelnaitės: baltiniai
+faktorialas: fakultetas
+neutronas: 
+niobio: 
+germanis: 
+Nemetāls: ne-metaliniai
+sudėti-apie: 
+prolative-atvejis: 
+biologinė-įvairovė: 
+kreiptuką: 
+antibiotikas: 
+Actinium: 
+astronautas: plotas
+esantis-už-žemės ribų: svetimas
+Głupek: kvailas, beprotis, kvailai, psichiškai-nesveikas, nenormalus
+maratonas: 
+iterbis: 
+autizmas: 
+jonizuoti: 
+radonas: 
+Nerium: 
+epidemiologija: 
+senatvė: senyvo-amžiaus
+stovyklavietė: stovykla
+dryžuotas: juosta, schema, planuotojas
+indžio: 
+Teisingą: nuoširdus, grynas, neto
+Interneto-svetainė: Interneto-svetainė, Svetainės, profilis
+Koranas: 
+stalo-įrankiai: 
+n-ojo-šaknis: 
+lawrencium: 
+civilines---teises: 
+Mobilusis-telefonas: Mobilusis-telefonas, Mobilusis-telefonas
+paralyžiuotas: 
+Protactinium: 
+radiacija: švytėti
+priklausyti-apie: 
+toris-atomas: tulis-atomas, terbis-atomas, rodis-atomas, rubidžio-atomas, vanadžio-atomas, fluoras-atomas, polonis-atomas, talis-atomas, stroncio-atomas, rutenis-atomas
+mėlyna--Jean: 
+namas-augalas: 
+atskirai: asmeniškai, individualus, asmens, atskirai
+srauto-srovė: 
+trigubas-taškas: 
+Žmogaus-kūnas: 
+fizika: fizinis, fiziškai
+mažmeninė-prekyba-parduotuvė: 
+cezio: 
+ilgai-prieš: 
+skaičiuoklės: 
+vienetas--of--mas: 
+sudaryti: 
+dvejetainis-vertė: 
+žmogaus-esamas: 
+iki-priemonė-iš: 
+depan-dari: 
+praseodymium: 
+kartonas: korta
+baigtinis-veiksmažodis: 
+bandomasis-skaičius: 
+už-sakinys: už-frazė
+kritikas: kritinis, kritiškai
+pakavimas: vyniojimas, paketas
+nepastovumą: nestabilus
+prie-dauguma: 
+deskriptorius: aprašymas
+neodimio: 
+draugystė: draugiškas, sąjungininkas
+skaityti-tik: 
+steigia: 
+Gnomiczny-nuotaika: 
+fonema: 
+racionalumas: sąmonė, logika
+fonologinis: 
+valgomasis-kambarys: 
+gyvenimas-kambarys: 
+orientuotas-atvejis: 
+prieš-hodiernal: 
+pacientas-atvejis: 
+įstrižas-atvejis: 
+kaimo-plotas: 
+recurse: 
+vidurys-balsas: 
+meitnerium: 
+pašto-vežėjas: 
+neįpareigojanti: butas
+ištekliai-rinka: 
+atpažįstami: identifikacija, nustatyti
+tikslas-gaidukas: 
+viena-sekundė: 
+liacinės-atvejis: 
+racionas: dalis
+ne-žmogaus: 
+gyvenimas-dalykas: 
+per-daug-mažai: 
+kino-teatras: kino-teatras
+hasis: 
+attenuative: 
+multal-skaičius: 
+pieniškas-būdas: 
+neptūnus: 
+svetimų-kalboje: 
+Trans-skaitvardis: 
+kvailioti: 
+americį: 
+rytas-šlovė: 
+gaisrininkas: 
+berkelium: 
+galaktika-lytis: 
+Nobelium: 
+iki: Ate, sudie, iki
+budizmas: 
+fermis: 
+žydra: Magenta
+soja: 
+skirstytuvas: 
+streiklaužys: 
+procesorius: 
+abessive-atvejis: 
+adessive-atvejis: 
+į-atvejis: prie-atvejis, atsitiktinai
+agentive-atvejis: 
+Rutherfordium: 
+antikūno: 
+kaip-daug-kaip: 
+agentas-gaidukas: 
+aktorius-vaidmuo: 
+etidžio: 
+bendras-lytis: 
+accompanier: 
+dygminų: 
+francis: 
+erbis: 
+pasyvus-balsas: 
+astatas: 
+kramtomas-guma: 
+žvaigždė-lytis: 
+citata-forma: 
+Curie: 
+komiksų-juostelės: 
+neskiriantis-spalvų: 
+euler's-numeris: 
+žiūrėti-prie: 
+Crosswalk: kelias
+mūšio-laukas: 
+automobilistas: vairuotojas
+trumpas-sujungimas: 
+žodinis-daiktavardis: 
+šauksmas-iš: 
+statistiškai: statistinis
+jogurtas: 
+xenon: 
+hipnotizuoti: 
+imti-nuo: 
+sąlyga-uodegą: 
+tiesioginis-objektas: netiesioginis-objektas
+bakalėjos-parduotuvė: 
+būti-apie: 
+ergatyvinis-atvejis: 
+in--kalba: 
+iš-pirmų-rankų: tiesioginis
+vietininkas-atvejis: 
+plaukiojimo-baseinas: baseinas, baseinas
+prieveiksminis-atvejis: 
+sightsee: kelionė, tikrinti, cirkuliacija
+televizija-rinkinys: 
+galutinis-dalelė: 
+evitative-atvejis: 
+reabilitacija: 
+regresija: sugrįžimas, atšaukimas, trauktis, nesėkmė
+blokas-apie-Butai: 
+pažadinti-aukštyn: 
+policija-pareigūnas: 
+prisiekiu--in: 
+pašnekovas: interviu
+renis: 
+aerozolio: 
+savininkiškas-atvejis: savininkiškas-atvejis
+nominalization: daiktavardis
+apsėstas-atvejis: 
+užprašyti: 
+pagalbinis-veiksmažodis: 
+pagrindinis-objektas: 
+kompiuterių-virusų: 
+verslo-žmogus: verslas-asmuo, pirklys
+žmonės: žmonės, liaudies
+antessive-atvejis: 
+ministras-Pirmininkas: 
+lutecis: 
+Europis: 
+įsijausti: 
+liaudies-muzika: 
+poetas: 
+paštas: paštas, paštas
+manoma: prielaida, Statyti-hipotezė, galimas-daiktas, matyt, tikėtinas
+pagyvinti-lytis: 
+subessive-atvejis: 
+greičio-pedalas: 
+poliškumas: poliarinis
+transporto-priemonė-lytis: 
+mineralinis-lytis: 
+veiksmažodžio-priesaga--: 
+aistringas: emocija, emocinis, sensorinis
+samariu: 
+pagalbininkas: moderatorius
+įsivaizduojama-vienetų: 
+greitis-nuo-šviesos: 
+oro-pajėgos: 
+empatiškas-džiaugsmas: 
+kritinis-taškas: 
+pilnas-laikas: 
+hafnio: 
+slopinimas: sulaikyti, bordiūras, slopinti, uždrausti
+pokytis-iš-renginys: 
+holmis: 
+kitoks-renginys: 
+visata-lytis: 
+vietovė-lytis: 
+virtualus-mašina: 
+tyrimas-lytis: 
+meninis-lytis: 
+crastinal-įtempti: 
+abstraktus-lytis: 
+exocentric-atvejis: 
+pereinamas-veiksmažodis: 
+Morpheme: 
+šovinistas: 
+praeitis-Tobulas: 
+profesinis: specialybė, profesinis, okupacija, amatas, profesionalus
+netiesioginis-kalbos: 
+antra-kalba: 
+į-būti: 
+kapinės-perėjimas: 
+kolektyvas-daiktavardis: 
+absolutive-atvejis: 
+pacientas-gaidukas: 
+savarankiškai-pasitikėjimas: 
+išmatos: taburetė, Kakutis, purvas
+sangrąžinis-balsas: 
+beasmenis-veiksmažodis: 
+seaborgium: 
+balta-erdvė: 
+modalinis-atvejis: 
+negyvas-lytis: 
+priežastinis: 
+propositive-nuotaika: 
+elektros-dabartinis: 
+asociatyvus-atvejis: 
+aukščiausias-atvejis: 
+per-daug-daug: 
+planetinis-lytis: 
+animacinis-karikatūra: 
+abipusis-balsas: 
+leisti-įstatymus: įstatymai, teisėkūros, susitarti, organizuoti
+prie-mažiau: 
+gramatinė-atvejis: 
+vartotojas: 
+šerdis-benefactive: 
+vartininkas: 
+:-except-for: 
+vardiklis: 
+dar---jei: 
+į-šoną: į-šalį
+vienas-kitą: vienas-kitą, abipusis
+nuoseklus-išlyga: 
+susidėvėti: 
+šortai: 
+dysprosium: 
+greitai-ateitis-įtempti: 
+si-vienetai: 
+kriptonas: 
+Mendelevis: 
+TAIKOMOSIOS-balsas: 
+antipassive-balsas: 
+Continuative-aspektas: 
+radiacijos-ligos: 
+necessitative-nuotaika: 
+vienas-veiksmas-veiksmažodis: 
+Torpeda: 
+aukščiausias-laipsnis: 
+egzistencinis-išlyga: 
+kalifornis: 
+dovana-dalyvis: 
+šviečiantis-intensyvumas: 
+singulative-skaičius: 
+gramatinė-objektų: 
+pasyvus-dalyvis: 
+perdėtas-trukmė: 
+superkritinis-skystis--: 
+suma-iš-medžiaga: 
+postpositional-atvejis: 
+pasirenkamas-quantifier: 
+gadolinio: 
+epentetinis-morpheme: 
+Neigiamai-quantifier: 
+einšteinis: 
+dirbtinis-kalba: 
+jungiamasis-dalelė: 
+Nuotolinis-ateitis-įtempti: 
+dažninis-aspektas: 
+skirstomasis-įvardis: 
+Kreipimasis-susitarimas: 
+nuplikęs: plikas
+priemiestis: kaimelis, kaimas
+universalus-quantifier: 
+kompiuteris-programavimas: 
+televizija-programa: 
+slankaus-kablelio-numeris: 
+egzistencinis-quantifier: 
+diena-po-rytoj: 
+alternatyva-quantifier: 
+Gderliwy: šiurkštus
+praeitis-pasyvus-dalyvis: 
+diena-prieš-vakar: 
+vietininkas-krypties-atvejis: 
+priešingos-sąlyginis: 

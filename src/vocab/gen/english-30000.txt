@@ -1,6 +1,7 @@
-0 be-verb 
+0 infinitive
 0 nominative-case
 0 accusative-case
+0 topic-case g
 0 parent
 1 dad
 2 mom
@@ -14,19 +15,22 @@
 2 of 33950064
 0 adjective
 3 and 29944184
+0 me
+0 you
+0 us
+0 it
 4 to 25956096
 0 destination-case
 0 dative-case
 5 in 17420636
-0 interior-deixis
-0 me
+0 interior-context
 0 first-person
-0 person-deixis
+0 person-context
 6 i 11764797
 0 it
 0 third-person
 7 that 11073318
-0 relativizer
+0 dependent-clause
 8 was 10078245
 0 perfective-aspect
 0 past-tense
@@ -44,19 +48,18 @@
 15 as 7037543
 0 essive-case
 16 had 6139336
-17 you 6048903
 0 second-person
+17 you 6048903
 18 not 5741803
-0 negation
 19 be 5662527
 0 its
 20 her 5202501
 21 on 5113263
-0 surface-deixis
+0 surface-context
 22 at 5091841
 0 adpositional-case
 0 location-case
-0 space-deixis
+0 space-context
 23 by 5061050
 0 way-case
 0 instrumental-case
@@ -64,6 +67,8 @@
 0 interrogative-mood
 25 have 4346500
 26 or 4228287
+0 and-or
+0 exclusive-or
 27 from 4108111
 0 source-case
 0 adpositional-case
@@ -90,10 +95,9 @@
 43 them 2509917
 44 we 2491655
 45 who 2472663
-0 social-deixis
-46 would 2400858
-0 volitive-mood
 0 future-tense
+0 social-context
+46 would 2400858
 47 been 2357654
 48 will 2320022
 49 no 2241145
@@ -129,11 +133,10 @@
 0 number g
 68 very 1462382
 69 time 1449681
-0 time-deixis
+0 time-context
 0 temporal-case
 70 upon 1424595
 71 about 1414687
-0 topic-case g
 72 may 1400642
 0 epistemic-mood
 73 its 1373270
@@ -153,6 +156,7 @@
 84 such 1136757
 85 a 1135294
 86 great 1120163
+0 volitive-mood
 87 before 1117089
 88 must 1108116
 89 two 1093366
@@ -163,7 +167,7 @@
 94 much 1021822
 95 down 989808
 96 after 978575
-0 subordinator
+0 subordinate-clause 
 97 first 978196
 98 mr 974419
 99 good 966602
@@ -184,6 +188,7 @@
 111 himself 863478
 112 way 860027
 113 work 829823
+0 vowel
 114 life 825485
 115 without 819684
 116 go 816536
@@ -215,7 +220,7 @@
 139 thought 674623
 140 away 673810
 141 under 671168
-0 under-deixis
+0 under-context
 142 take 656486
 143 found 654512
 144 hand 648227
@@ -252,6 +257,8 @@
 173 three 502146
 174 took 501669
 175 new 498040
+0 neo
+0 focus
 176 love 496496
 177 always 495834
 178 mrs 495443
@@ -392,7 +399,7 @@
 0 near-case
 302 public 278365
 303 state 277682
-0 state-deixis
+0 state-context
 304 son 277227
 305 hundred 275990
 306 children 275607
@@ -1374,7 +1381,7 @@
 1240 delight 64971.9
 1241 rights 64836.6
 1242 amount 64720.3
-0 amount-deixis
+0 amount-context
 0 multiplicative-case
 1243 obtain 64706.1
 1244 tax 64658.6
@@ -2565,7 +2572,7 @@
 2413 you'd 33008.5
 2414 recent 33000.5
 2415 oh 32957.0
-0 discourse-deixis
+0 discourse-context
 0 vocative-case
 2416 travel 32951.5
 2417 cries 32925.4
@@ -3152,6 +3159,7 @@
 2993 pronounced 25410.4
 2994 exchange 25408.0
 2995 definite 25393.8
+0 definite-article
 2996 emperor 25366.9
 2997 tendency 25363.7
 2998 remote 25339.2
@@ -8131,6 +8139,7 @@
 7946 register 6419.26
 7947 heroine 6416.89
 7948 indefinite 6412.14
+0 indefinite-article
 7949 console 6408.19
 7950 defensive 6408.19
 7951 perceptible 6406.60
