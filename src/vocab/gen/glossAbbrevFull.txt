@@ -186,6 +186,7 @@ NS 	    non-subject (Latin 'oblique case')
 INTR 	intransitive (covers an intransitive case for the S argument)
 NUM 	numeral
 O 	    patient-like argument (object) of canonical transitive verb (= P)
+ORD     ordinal number
 OBJ 	object; objective case
 OBL 	oblique case
 OBV 	obviative

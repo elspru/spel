@@ -607,6 +607,9 @@ friendship g
 oppress g
 ignorant g
 compassion g
+hubris g
+humble g
+honour g
 
 
 be g
@@ -1146,7 +1149,7 @@ stop
 noun
 adult
 electricity
-ordinal
+ordinal g
 desire
 pleasure
 belong

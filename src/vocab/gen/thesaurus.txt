@@ -620,7 +620,7 @@ guess: hi:, inference, de:, suspect, de:, presume, tr:, estimate, tr:, estimatio
 speculative-mood: hi:, hypothetical-mood
 yellow: hi:, pale, de:, amber, cy:, blonde
 remains: sw:, residue, sw:, residual, id:, remaining, id:, leftovers, fa:, rest
-bent: zh:, curved, zh:, bend, zh:, meandering, vi:, trend, tr:, twisted, el:, slope, el:, sloped, el:, slant, cy:, folding
+bent: zh:, curved, zh:, meandering, zh:, bend, vi:, trend, tr:, twisted, el:, slope, el:, sloped, el:, slant, cy:, folding
 box: sw:, suitcase, sv:, drawer, ar:, fund, id:, kit, tr:, can, pt:, bin
 season: sw:, seasonal, fa:, chapter, pt:, station, el:, era
 science: zh:, scientific
@@ -819,6 +819,7 @@ spend: zh:, flower, sw:, utilize, vi:, expenditure, ru:, pursue, lt:, skip, lt:,
 source: zh:, resource, ta:, raw, pt:, fountain
 initiative-case: 
 aunt: 
+humble: 
 delay: id:, postpone
 delayed-imperative: 
 reported-evidential: 
@@ -1813,7 +1814,7 @@ mosque:
 chess: 
 toll: zh:, charge, ar:, fee, id:, victim, ta:, figure, fa:, complication
 cherry: 
-widespread: zh:, extensive, zh:, widely, sw:, spread, cy:, wide, cy:, broad
+widespread: zh:, extensive, zh:, widely, sw:, spread, cy:, broad, cy:, wide
 stumble: ar:, tumble
 truck: sw:, lorry, ka:, freight, ka:, freighter
 mustard: 
@@ -2033,7 +2034,7 @@ probe: hi:, examination, hi:, inquiry, hi:, investigation, hi:, investigate, hi:
 platinum: 
 dual-number: 
 lung: 
-super: fa:, phenomenal, fa:, enormously, fa:, incredibly
+super: fa:, phenomenal, fa:, incredibly, fa:, enormously
 trolley: de:, carriage, de:, cart, sv:, wagon
 locally: zh:, local
 incite: fa:, excite, fa:, annoy
@@ -2072,7 +2073,7 @@ diagonal:
 subconscious: 
 eyebrow: 
 sneeze: 
-hilarious: ar:, cheerful, ar:, fun, vi:, glad, fa:, funny, pt:, entertaining, pt:, amusing, pt:, amused, ka:, humorous, sr:, ridiculous
+hilarious: ar:, cheerful, ar:, fun, vi:, glad, fa:, funny, pt:, amused, pt:, amusing, pt:, entertaining, ka:, humorous, sr:, ridiculous
 hinduism: 
 refugee: fa:, immigrant
 shuttle: ta:, spaceship, pt:, carriage, pt:, transport, pt:, transportation
@@ -2396,6 +2397,7 @@ epiphany:
 plagiarize: ta:, theft
 artifact: 
 reactor: 
+hubris: 
 oregano: 
 plutonium: 
 yttrium: 
@@ -2451,299 +2453,299 @@ ytterbium:
 autism: 
 ionize: 
 radon: 
-netium: 
-epidemiology: 
-old-age: zh:, elderly
-camping: sw:, camp
-striped: zh:, stripe, ar:, scheme, ar:, planner
-indium: 
-veridical: id:, sincere, fa:, pure, fa:, net
-web-site: zh:, website, sw:, site, ka:, profile
-koran: 
-flatware: 
+living-thing: 
+website: zh:, web-site, sw:, site, ka:, profile
+bald: cy:, bare
+aerosol: 
+emote: 
+critic: fr:, critical, fr:, critically
+packaging: de:, wrapping, sr:, pack
 nth-root: 
-lawrencium: 
-civil-rights: 
 mobile-phone: sv:, cell-phone, sv:, cellphone
+veridical: id:, sincere, fa:, pure, fa:, net
+friendship: ta:, friendly, ta:, ally
+meitnerium: 
+flatware: 
+hafnium: 
+old-age: zh:, elderly
+buddhism: 
+nobelium: 
 paralyzed: 
-protactinium: 
-radiation: fa:, glow
-depend-on: 
-thorium-atom: vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, strontium-atom, vi:, ruthenium-atom
-blue-jean: 
+bad-tempered: ar:, rough
+epidemiology: 
+gas-pedal: 
+full-time: 
+verb-affix: 
+holmium: 
 houseplant: 
-individually: hi:, personally, vi:, individual, vi:, personal, ru:, separately
-flow-current: 
-triple-point: 
 human-body: 
-physics: zh:, physical, zh:, physically
-retail-store: 
-cesium: 
 long-ago: 
 spreadsheet: 
-unit-of-mass: 
-compile: 
-binary-value: 
+radiation: fa:, glow
 human-being: 
 by-means-of: 
 in-front-of: 
-praseodymium: 
-cardboard: sw:, card
-finite-verb: 
-trial-number: 
-pro-sentence: fr:, pro-phrase
-critic: fr:, critical, fr:, critically
-packaging: de:, wrapping, sr:, pack
+civil-rights: 
 impermanence: ta:, unstable
-at-most: 
-descriptor: id:, description
+individually: hi:, personally, vi:, individual, vi:, personal, ru:, separately
+flow-current: 
+poet: 
+mendelevium: 
+einsteinium: 
+retail-store: 
+californium: 
+unit-of-mass: 
 neodymium: 
-friendship: ta:, friendly, ta:, ally
-read-only: 
-founds: 
-gnomic-mood: 
-phoneme: 
-rationality: hi:, consciousness, el:, logic
+binary-value: 
+antibody: 
+soya: 
+protactinium: 
+thorium-atom: vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, strontium-atom, vi:, ruthenium-atom
+pro-sentence: fr:, pro-phrase
+compile: 
+praseodymium: 
+trial-number: 
+star-gender: 
+yogurt: 
+accompanier: 
+attenuative: 
+rural-area: 
+netium: 
+one-second: 
 phonological: 
-dining-room: 
-living-room: 
-centric-case: 
+to-be: 
 prehodiernal: 
+actor-role: 
 patient-case: 
 oblique-case: 
-rural-area: 
-recurse: 
+dining-room: 
+living-room: 
 middle-voice: 
-meitnerium: 
-mail-carrier: 
-nonremittal: id:, flat
-stock-market: 
+centric-case: 
+railcar: 
 identifiable: zh:, identification, sr:, identify
+nonremittal: id:, flat
 goal-trigger: 
-one-second: 
-lative-case: 
-ration: cy:, portion
+mail-carrier: 
+stock-market: 
+read-only: 
 non-human: 
-living-thing: 
+motorist: zh:, driver
+descriptor: id:, description
+finite-verb: 
+sideways: id:, aside
+gnomic-mood: 
+a-people: ru:, people, fa:, folk
 too-little: 
-movie-theater: de:, cinema
-hassium: 
-attenuative: 
-multal-number: 
+at-most: 
+rationality: hi:, consciousness, el:, logic
+ration: cy:, portion
 milky-way: 
 neptunium: 
-ghostwriter: 
-trans-numeral: 
-fool-around: 
 americium: 
-morning-glory: 
-firefighter: 
+lative-case: 
+trans-numeral: 
+movie-theater: de:, cinema
 berkelium: 
-galaxy-gender: 
-nobelium: 
-byebye: zh:, bye, zh:, goodbye, lt:, until
-buddhism: 
-fermium: 
-cyan: sr:, magenta
-soya: 
-distributor: 
-strikebreaker: 
-processor: 
-abessive-case: 
-adessive-case: 
-to-case: fr:, at-case, it:, randomly
-agentive-case: 
-rutherfordium: 
-antibody: 
-as-much-as: 
-agent-trigger: 
-actor-role: 
-ethium: 
-common-gender: 
-accompanier: 
-safflower: 
-francium: 
+suburb: sw:, hamlet, fa:, countryside
 erbium: 
+to-case: fr:, at-case, it:, randomly
+multal-number: 
+lutetium: 
+francium: 
+processor: 
+cesium: 
+galaxy-gender: 
+ghostwriter: 
+fool-around: 
+locative-case: 
+xenon: 
+firefighter: 
+europium: 
+recurse: 
+abessive-case: 
+indium: 
+phoneme: 
+safflower: 
+adessive-case: 
+as-much-as: 
+agentive-case: 
+hassium: 
+distributor: 
+crosswalk: ar:, pathway
+morning-glory: 
+agent-trigger: 
 passive-voice: 
-astatine: 
-chewing-gum: 
-star-gender: 
+krypton: 
+common-gender: 
+strikebreaker: 
+eulers-number: 
+verbal-noun: 
+byebye: zh:, bye, zh:, goodbye, lt:, until
 citation-form: 
-curium: 
+swimming-pool: de:, pool, ru:, basin
+sightsee: tr:, trip, ru:, inspect, fa:, circulation
+clause-tail: 
+koran: 
+in-language: 
+grocery-store: 
+statistically: de:, statistical
+wear-out: 
+interviewer: fa:, interview
+rutherfordium: 
+seaborgium: 
+hypnothize: 
+direct-object: sw:, indirect-object
+chewing-gum: 
+consist-of: 
+facilitator: de:, moderator
+ergative-case: 
+short-circuit: 
 comic-strip: 
 color-blind: 
-eulers-number: 
-look-at: 
-crosswalk: ar:, pathway
-battlefield: 
-motorist: zh:, driver
-short-circuit: 
-verbal-noun: 
-cry-out: 
-statistically: de:, statistical
-yogurt: 
-xenon: 
-hypnothize: 
-take-off: 
-clause-tail: 
-direct-object: sw:, indirect-object
-grocery-store: 
-consist-of: 
-ergative-case: 
-in-language: 
+air-force: 
 first-hand: cy:, direct
-locative-case: 
-swimming-pool: de:, pool, ru:, basin
-adverbial-case: 
-sightsee: tr:, trip, ru:, inspect, fa:, circulation
-television-set: 
-final-particle: 
 evitative-case: 
-rehabilitation: 
-regression: hi:, return, hi:, withdrawal, ar:, retreat, ta:, setback
-block-of-flats: 
-wake-up: 
-police-officer: 
-swear-in: 
-interviewer: fa:, interview
-rhenium: 
-aerosol: 
-posessive-case: hi:, postessive-case
-nominalization: zh:, noun
-possessed-case: 
-overcharge: 
-auxiliary-verb: 
-primary-object: 
+fermium: 
+modal-case: 
+critical-point: 
 computer-virus: 
-businessperson: ta:, business-person, fa:, merchant
-a-people: ru:, people, fa:, folk
+speed-of-light: 
+police-officer: 
+block-of-flats: 
+battlefield: 
+samarium: 
+auxiliary-verb: 
+nominalization: zh:, noun
+overcharge: 
+primary-object: 
 antessive-case: 
 prime-minister: 
-lutetium: 
-europium: 
-emote: 
-folk-music: 
-poet: 
-post-office: de:, post, de:, mail
-supposedly: vi:, assumption, vi:, hypothesize, ru:, presumably, fa:, apparently, ka:, likely
+adverbial-case: 
+dysprosium: 
+cyan: sr:, magenta
+final-particle: 
+ethium: 
 animate-gender: 
-subessive-case: 
-gas-pedal: 
-polarity: zh:, polar
-vehicle-gender: 
-mineral-gender: 
-verb-affix: 
-passionate: ta:, emotion, ta:, emotional, ta:, sensory
-samarium: 
-facilitator: de:, moderator
-imaginary-unit: 
-speed-of-light: 
-air-force: 
 empathetic-joy: 
-critical-point: 
-full-time: 
-hafnium: 
-inhibition: zh:, restrain, zh:, curb, zh:, inhibit, hi:, prohibit
-change-of-event: 
-holmium: 
-different-event: 
+vehicle-gender: 
+rehabilitation: 
+mineral-gender: 
+folk-music: 
+subessive-case: 
+polarity: zh:, polar
+businessperson: ta:, business-person, fa:, merchant
+posessive-case: hi:, postessive-case
+television-set: 
+astatine: 
+physics: zh:, physical, zh:, physically
+passionate: ta:, emotion, ta:, emotional, ta:, sensory
+possessed-case: 
+user-: 
+imaginary-unit: 
+swear-in: 
+reflexive-voice: 
 universe-gender: 
+different-event: 
 locality-gender: 
-virtual-machine: 
 research-gender: 
 artistic-gender: 
+inhibition: zh:, restrain, zh:, curb, zh:, inhibit, hi:, prohibit
 crastinal-tense: 
+gadolinium: 
 abstract-gender: 
 exocentric-case: 
-transitive-verb: 
 morpheme: 
+self-confidence: 
+indirect-speech: 
+virtual-machine: 
 chauvinist: 
 past-perfective: 
-vocational: zh:, specialty, de:, occupational, vi:, occupation, vi:, craft, fr:, professional
-indirect-speech: 
-second-language: 
-to-be: 
-graveyard-shift: 
 collective-noun: 
 absolutive-case: 
-patient-trigger: 
-self-confidence: 
-feces: sw:, stool, sw:, poop, id:, dirt
-reflexive-voice: 
+vocational: zh:, specialty, de:, occupational, vi:, occupation, vi:, craft, fr:, professional
+transitive-verb: 
+cardboard: sw:, card
+second-language: 
+take-off: 
+camping: sw:, camp
+legislate: zh:, legislation, zh:, legislative, id:, arrange, id:, organize
 impersonal-verb: 
-seaborgium: 
-whitespace: 
-modal-case: 
-inanimate-gender: 
-causative: 
-propositive-mood: 
+patient-trigger: 
+shorts: 
+blue-jean: 
+change-of-event: 
+graveyard-shift: 
+reciprocal-voice: 
+post-office: de:, post, de:, mail
 electric-current: 
-associative-case: 
 superlative-case: 
-too-much: 
+associative-case: 
 planetary-gender: 
 animated-cartoon: 
-reciprocal-voice: 
-legislate: zh:, legislation, zh:, legislative, id:, arrange, id:, organize
-at-least: 
+whitespace: 
+look-at: 
+causative: 
+propositive-mood: 
 grammatical-case: 
-user-: 
+depend-on: 
+too-much: 
+cry-out: 
 core-benefactive: 
-goalkeeper: 
-except-for: 
-denominator: 
 else-if: 
-sideways: id:, aside
-each-other: hi:, one-another, de:, mutual
-successive-clause: 
-wear-out: 
-shorts: 
-dysprosium: 
-soon-future-tense: 
-si-units: 
-krypton: 
-mendelevium: 
-applicative-voice: 
+inanimate-gender: 
+at-least: 
+curium: 
+denominator: 
+goalkeeper: 
 antipassive-voice: 
-continutive-aspect: 
-radiation-sickness: 
-necessitative-mood: 
-single-action-verb: 
-railcar: 
-superlative-degree: 
+except-for: 
+applicative-voice: 
+each-other: hi:, one-another, de:, mutual
+founds: 
+successive-clause: 
+soon-future-tense: 
+lawrencium: 
+si-units: 
+wake-up: 
+regression: hi:, return, hi:, withdrawal, ar:, retreat, ta:, setback
+passive-participle: 
 existential-clause: 
-californium: 
 present-participle: 
 luminous-intensity: 
 singulative-number: 
-grammatical-object: 
-passive-participle: 
 excessive-duration: 
-supercritical-fluid: 
-amount-of-substance: 
-postpositional-case: 
-elective-quantifier: 
-gadolinium: 
-epenthetic-morpheme: 
+single-action-verb: 
+grammatical-object: 
+necessitative-mood: 
+continutive-aspect: 
+radiation-sickness: 
+superlative-degree: 
 negatory-quantifier: 
-einsteinium: 
-artificial-language: 
-connective-particle: 
+supposedly: vi:, assumption, vi:, hypothesize, ru:, presumably, fa:, apparently, ka:, likely
 remote-future-tense: 
+epenthetic-morpheme: 
+amount-of-substance: 
+feces: sw:, stool, sw:, poop, id:, dirt
+elective-quantifier: 
+supercritical-fluid: 
+connective-particle: 
+artificial-language: 
+postpositional-case: 
 frequentative-aspect: 
+television-programme: 
+computer-programming: 
+universal-quantifier: 
 distributive-pronoun: 
 allocutive-agreement: 
-bald: cy:, bare
-suburb: sw:, hamlet, fa:, countryside
-universal-quantifier: 
-computer-programming: 
-television-programme: 
+triple-point: 
 floating-point-number: 
-existential-quantifier: 
 the-day-after-tomorrow: 
+existential-quantifier: 
 alternative-quantifier: 
-bad-tempered: ar:, rough
+rhenium: 
 past-passive-participle: 
+striped: zh:, stripe, ar:, scheme, ar:, planner
 the-day-before-yesterday: 
 locative-directional-case: 
 counterfactual-conditional: 

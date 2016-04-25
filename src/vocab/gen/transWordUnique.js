@@ -108,10 +108,9 @@ function removeBlacklisted(wordLines, blacklist) {
         var word = line[0];
         if (blacklist.indexOf(word) === -1) {
             return true;
-        } else {
-            console.log(word + " removed");
-            return false;
-        }
+        } 
+        console.log(word + " removed");
+        return false;
     });
 }
 function stringToWordLines(string) {
@@ -144,13 +143,13 @@ function returnIfUnique(transEntry, allDefinObj, index,
     var word,
         values,
         matchingDefs,
-        maxDefs = 1,
-        newTransEntry = {},
+        //maxDefs = 1,
+        //newTransEntry = {},
         foundDuplicateDefs = 0,
         result,
         foundBlanks = 0,
-        transDefs,
-        enDef = transEntry["en"].toLowerCase(),
+        //transDefs,
+        enDef = transEntry.en.toLowerCase(),
         directBorrows = 0,
         thesaurusEntry = [],
         thesaurusWord = "";
@@ -175,15 +174,16 @@ function returnIfUnique(transEntry, allDefinObj, index,
                     thesaurusEntry.push(thesaurusWord);
                 } 
                 return defIndex;
-            } else {
-                return null;
             }
+            return null;
+           
         });
         if (word.toLowerCase() === enDef && key !== "en") {
             directBorrows += 1;
         }
         if (matchingDefs.length <= 0 ||
                 matchingDefs[0] === index) {
+            Function.prototype();
         } else {
             //console.log(key + " " + word + " " +
             //    matchingDefs + " " + index);
@@ -265,7 +265,6 @@ function formatThesaurus(thesaurus, mainWords) {
 }
 
 function formatSuggestList(thesaurus, blacklist, mainWords) {
-    "use strict";
     function approvedWords(word) {
         if (thesaurus[word] !== undefined) {
             return true;
@@ -276,6 +275,7 @@ function formatSuggestList(thesaurus, blacklist, mainWords) {
     mainWords.forEach(function (word) { 
         var bentry = blacklist[word];
         if (thesaurus[word]) {
+            Function.prototype();
         } else if (blacklist[word]) {
             result += word + ": ";
             if (Array.isArray(bentry)) {
@@ -332,16 +332,15 @@ function main() {
         } else if (uniqEntry !== null) {
              console.log(word + " is unique");
             uniqObj[word] = uniqEntry;
-        } else {
-        }
+        } 
     });
     io.fileWrite("genTransUniq.json", JSON.stringify(uniqObj));
     uniqText = Object.keys(uniqObj).map(function (word) {
         function findIfGram(word, wordLines) {
-            var returnLine, i;
+            var returnLine, i, line, lineWord;
             for (i = 0; i < wordLines.length; i++) {
-                var line = wordLines[i],
-                    lineWord = line[0];
+                line = wordLines[i];
+                lineWord = line[0];
                 if (lineWord === word &&
                         line[1] === "g") {
                     returnLine = " "+ line.slice(1).join(" ");

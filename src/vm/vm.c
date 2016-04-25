@@ -7,8 +7,6 @@
 #include <stdint.h>
 #include "seed/seed.h"
 
-#define  SENTENCE_LENGTH 0xFF
-#define  WORD_LENGTH 0x04
 
 /*int main(int argc, char *argv[]) { */
 int main() { 

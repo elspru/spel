@@ -486,7 +486,7 @@ music
 distal-demonstrative g
 afternoon
 cry
-honour
+honour g
 seven
 private
 news
@@ -881,6 +881,7 @@ spend
 source
 initiative-case g
 aunt
+humble g
 delay
 delayed-imperative g
 reported-evidential g 3
@@ -2394,7 +2395,7 @@ initialism g
 gerund g
 plasma
 chromosome
-ordinal
+ordinal g
 kilometre
 fax
 genetics
@@ -2465,6 +2466,7 @@ epiphany g
 plagiarize
 artifact
 reactor
+hubris g
 oregano
 plutonium
 yttrium
@@ -2520,310 +2522,310 @@ ytterbium
 autism
 ionize
 radon
-netium
-epidemiology
-old-age
-from-case g
-camping
-striped
-indium
-veridical g 3
-web-site
-koran
-flatware
-have-to
+living-thing
+website
+bald
+aerosol
+emote
+critic
+packaging
 nth-root
-lawrencium
-civil-rights
 mobile-phone
-via g
+veridical g 3
+friendship g
+meitnerium
+flatware
+hafnium
+old-age
+buddhism
+nobelium
 paralyzed
-protactinium
-radiation
-depend-on
-thorium-atom
-blue-jean
+bad-tempered
+epidemiology
+gas-pedal
+full-time
+verb-affix g
+holmium
 houseplant
-individually
-flow-current
-triple-point
 human-body
-physics
-retail-store
-cesium
 long-ago
 spreadsheet
-unit-of-mass
-compile
-binary-value g
+radiation
+miss
 human-being
 by-means-of
 in-front-of
-praseodymium
-cardboard
-finite-verb g
-trial-number g 3
+civil-rights
+impermanence
+individually
+flow-current
+poet
+mendelevium
+einsteinium
+retail-store
+californium
+unit-of-mass
+neodymium
+binary-value g
+antibody
+soya
+protactinium
+thorium-atom
 pro-sentence g
-critic
 state-marker g
 space-marker g
-packaging
-impermanence
-at-most
-descriptor
-neodymium
-friendship g
-read-only
-founds
-gnomic-mood g
-phoneme
-rationality
+compile
+praseodymium
+trial-number g 3
+star-gender g
+yogurt
+accompanier g
+attenuative g
+rural-area
+netium
+one-second
 phonological
-dining-room
-living-room
-centric-case g
+via g
+to-be
 prehodiernal g
+actor-role g
 patient-case g
 oblique-case g
-rural-area
-recurse
+dining-room
+living-room
 middle-voice g 3 
-meitnerium
-mail-carrier
-nonremittal
-stock-market
+centric-case g
+railcar
 identifiable g
+nonremittal
 goal-trigger g
-one-second
-lative-case g
-ration
+mail-carrier
+stock-market
+read-only
 non-human g
-living-thing
+motorist
+descriptor
+finite-verb g
+sideways
+gnomic-mood g
+a-people
 too-little
-movie-theater
-hassium
-attenuative g
-multal-number g 3
-amount-marker g
-social-marker g
+at-most
+rationality
+ration
 milky-way
 neptunium
-ghostwriter
-trans-numeral g
-fool-around
+amount-marker g
+social-marker g
 americium
-morning-glory
-firefighter
+lative-case g
+trans-numeral g
+movie-theater
 berkelium
-galaxy-gender g
-nobelium
-byebye g
-buddhism
-fermium
-cyan
-soya
-distributor
-strikebreaker
-processor
-abessive-case g
-adessive-case g
-to-case g
-agentive-case g
-rutherfordium
-antibody
-as-much-as
-agent-trigger g
-actor-role g
-ethium
-common-gender g
-accompanier g
-safflower
-francium
+suburb
+etc.
 erbium
+to-case g
+multal-number g 3
+lutetium
+francium
+processor
+cesium
+galaxy-gender g
+ghostwriter
+fool-around
+locative-case g 3
+xenon
+firefighter
+europium
+recurse
+abessive-case g
+indium
+phoneme
+safflower
+adessive-case g
+as-much-as
+agentive-case g
+hassium
+distributor
+crosswalk
+morning-glory
+agent-trigger g
 passive-voice g 3
-astatine
-chewing-gum
-star-gender g
+krypton
+common-gender g
+strikebreaker
+eulers-number
+will-be g
+verbal-noun g
+byebye g
 citation-form g
-curium
+swimming-pool
+sightsee
+clause-tail g
+koran
+in-language g
+grocery-store
+statistically
+wear-out
+interviewer
+rutherfordium
+seaborgium
+hypnothize
+direct-object g
+chewing-gum
+consist-of
+facilitator
+ergative-case g
+short-circuit
 comic-strip
 color-blind
-eulers-number
-look-at
-crosswalk
-battlefield
-motorist
-short-circuit
-verbal-noun g
-cry-out
-statistically
-yogurt
-xenon
-hypnothize
-take-off
-clause-tail g
-direct-object g
-grocery-store
-consist-of
-ergative-case g
-in-language g
+air-force
 first-hand
-locative-case g 3
-swimming-pool
-adverbial-case g
-sightsee
-television-set
-final-particle g
 evitative-case g
-rehabilitation
-regression
-block-of-flats
-wake-up
-police-officer
-swear-in
-will-be g
-interviewer
-rhenium
-aerosol
-posessive-case g 3
-nominalization g
-possessed-case g 3
-overcharge
-auxiliary-verb g
-primary-object g
+fermium
+modal-case g
+critical-point
 computer-virus
-businessperson
-a-people
+speed-of-light
+police-officer
+block-of-flats
+battlefield
+samarium
+auxiliary-verb g
+nominalization g
+overcharge
+primary-object g
 antessive-case g
 prime-minister
-lutetium
-europium
-emote
-folk-music
-poet
-post-office
-supposedly
+adverbial-case g
+dysprosium
+cyan
+final-particle g
+ethium
 animate-gender g 3
-subessive-case g
-gas-pedal
-polarity
-vehicle-gender g
-mineral-gender g
-verb-affix g
-passionate
-samarium
-facilitator
-imaginary-unit
-speed-of-light
-air-force
 empathetic-joy g
-critical-point
-full-time
-hafnium
-inhibition
-change-of-event g
-holmium
-different-event g
+vehicle-gender g
+rehabilitation
+mineral-gender g
+folk-music
+subessive-case g
+polarity
+businessperson
+posessive-case g 3
+television-set
+astatine
+physics
+passionate
+possessed-case g 3
+user-
+imaginary-unit
+swear-in
+reflexive-voice g 3
 universe-gender g
+different-event g
 locality-gender g
-virtual-machine
 research-gender g
 artistic-gender g
+inhibition
 crastinal-tense g
+gadolinium
 abstract-gender g
 exocentric-case g
-transitive-verb g
 morpheme
+self-confidence g
+indirect-speech g
+virtual-machine
 chauvinist
 past-perfective g
-vocational
-indirect-speech g
-second-language g
-to-be
-graveyard-shift
 collective-noun g 3
 absolutive-case g
-patient-trigger g
-self-confidence g
-feces
-reflexive-voice g 3
+vocational
+transitive-verb g
+cardboard
+second-language g
+take-off
+camping
+legislate
 impersonal-verb g
-seaborgium
+patient-trigger g
+shorts
+blue-jean
+change-of-event g
+graveyard-shift
+reciprocal-voice g 3
+post-office
+electric-current g
+superlative-case g
+associative-case g
+planetary-gender g
+animated-cartoon
 whitespace
-modal-case g
-inanimate-gender g 3
+look-at
 causative g
 propositive-mood g
-electric-current g
-associative-case g
-superlative-case g
-too-much
-planetary-gender g
-etc.
-animated-cartoon
-reciprocal-voice g 3
-miss
-legislate
-at-least
 grammatical-case
-user-
+depend-on
+too-much
+cry-out
 core-benefactive g
-goalkeeper
-except-for
-denominator
 else-if g
-sideways
-each-other
-successive-clause g
-wear-out
-shorts
-dysprosium
-soon-future-tense g 3
-si-units
-krypton
-mendelevium
-applicative-voice g 3
+inanimate-gender g 3
+at-least
+curium
+denominator
+goalkeeper
 antipassive-voice g 3
-continutive-aspect g
-radiation-sickness
-necessitative-mood g
-single-action-verb g 3
-railcar
-superlative-degree g
+except-for
+applicative-voice g 3
+each-other
+founds
+successive-clause g
+soon-future-tense g 3
+lawrencium
+si-units
+have-to
+wake-up
+regression
+passive-participle g
 existential-clause g
-californium
 present-participle g
-prepositional-case g
 luminous-intensity g
 singulative-number g
-grammatical-object
-passive-participle g
 excessive-duration g
-supercritical-fluid
-amount-of-substance g
-postpositional-case g
-elective-quantifier g
-gadolinium
-epenthetic-morpheme g
+single-action-verb g 3
+grammatical-object
+prepositional-case g
+necessitative-mood g
+continutive-aspect g
+radiation-sickness
+superlative-degree g
 negatory-quantifier g
-einsteinium
-artificial-language
-connective-particle g
+supposedly
 remote-future-tense g 3
+epenthetic-morpheme g
+amount-of-substance g
+feces
+elective-quantifier g
+supercritical-fluid
+connective-particle g
+artificial-language
+postpositional-case g
 frequentative-aspect g
+television-programme
+computer-programming
+universal-quantifier g
+from-case g
 distributive-pronoun g 3
 allocutive-agreement g
-bald
-suburb
-universal-quantifier g
-computer-programming
-television-programme
+triple-point
 floating-point-number g
-existential-quantifier g
 the-day-after-tomorrow
+existential-quantifier g
 alternative-quantifier g
-bad-tempered
+rhenium
 past-passive-participle g
+striped
 the-day-before-yesterday
 locative-directional-case g
 counterfactual-conditional g

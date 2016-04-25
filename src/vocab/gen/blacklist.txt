@@ -434,7 +434,7 @@ fancy: zh:, fantasy, hi:, imagine, hi:, imagination, hi:, assumption, sw:, notio
 quick: hi:, soon, hi:, prompt, sw:, quickly, sw:, fast, sw:, immediate, sw:, rapid, sw:, hurry, sw:, urgent, vi:, promptly, ka:, agile, lt:, snap, DUPLICATE:
 yes: zh:, be, hi:, yeah, fa:, ya, lt:, so, lt:, thus, DUPLICATE:
 liberty: zh:, free, zh:, freedom, hi:, independence, sw:, freely, sw:, autonomy, DUPLICATE:
-interesting: zh:, fun, zh:, entertaining, zh:, amusing, zh:, interestingly, sw:, attractive, sw:, attract, sw:, impressive, id:, draw, id:, appeal, id:, withdraw, id:, exciting, ka:, curious, DUPLICATE:
+interesting: zh:, fun, zh:, amusing, zh:, interestingly, zh:, entertaining, sw:, attractive, sw:, attract, sw:, impressive, id:, draw, id:, appeal, id:, withdraw, id:, exciting, ka:, curious, DUPLICATE:
 aside: hi:, separate, hi:, apart, hi:, distinct, hi:, separated, hi:, differ, hi:, separately, hi:, aloof, hi:, discrete, sw:, beside, id:, sideways, ka:, except, ka:, aside-from, ka:, excluding, DUPLICATE:
 pure: hi:, purely, sw:, fresh, sw:, clean, sv:, mere, fa:, net, fa:, veridical, DUPLICATE:
 concerning: zh:, related, de:, above, de:, across, de:, via, ar:, regarding, id:, about, vi:, involve, ru:, relatively, it:, approximately, it:, circa, fi:, relate, ka:, regard, lt:, due, DUPLICATE:
@@ -758,7 +758,7 @@ win: sw:, victory, de:, gain, tr:, earn, tr:, acquire, ta:, success, ta:, hit, t
 maid: sw:, girl, tr:, servant, DUPLICATE:
 softly: zh:, lightly, hi:, slow, hi:, gently, sv:, smoothly, id:, soft, id:, tender, ta:, slowly, fa:, gentle, fa:, mild, cy:, quiet, cy:, silent, cy:, calm, pl:, finely, DUPLICATE:
 reality: sw:, fact, sw:, truth, sw:, truthfulness, vi:, actual, ta:, indeed, ta:, really, ta:, actually, DUPLICATE:
-site: zh:, scene, sw:, web-site, sw:, website, sv:, place, sv:, location, vi:, spot, fa:, premises, pt:, local, pt:, locus, DUPLICATE:
+site: zh:, scene, sw:, website, sw:, web-site, sv:, place, sv:, location, vi:, spot, fa:, premises, pt:, local, pt:, locus, DUPLICATE:
 sail: sw:, ship, sw:, fleet, sw:, sailing, fr:, veil, pt:, candle, DUPLICATE:
 store: hi:, shop, hi:, stall, de:, business, ar:, storage, id:, save, fi:, transaction, DUPLICATE:
 remark: hi:, comment, ar:, commentary, ar:, suspend, id:, utterance, vi:, note, vi:, attention, vi:, caution, fa:, opine, pt:, observation, cy:, regard, cy:, coverage, DUPLICATE:
@@ -1009,7 +1009,7 @@ bag: sw:, fund, sw:, package, de:, pocket, ru:, sack, lt:, basket, DUPLICATE:
 repeat: de:, replicate, tr:, again, ru:, repetition, ta:, back, ta:, re-, ka:, repeated, DUPLICATE:
 track: zh:, trace, sw:, monitor, de:, pursue, de:, haunt, ar:, path, ar:, trajectory, id:, lane, tr:, trail, ta:, song, fa:, way, fa:, route, pt:, clue, fi:, follow, fi:, accompany, ka:, singing, sr:, pathway, DUPLICATE:
 residence: zh:, residential, sw:, shelter, sw:, settlement, sw:, habitat, tr:, housing, fa:, accommodation, ka:, dorm, DUPLICATE:
-fun: zh:, interesting, zh:, entertaining, zh:, amusing, zh:, interestingly, sw:, happy, sw:, pleasure, sw:, glad, sw:, joy, sw:, happiness, sw:, delight, sw:, delighted, sw:, happily, ar:, cheerful, ar:, hilarious, tr:, entertainment, fa:, hobby, fr:, funny, cy:, cheer, DUPLICATE:
+fun: zh:, interesting, zh:, amusing, zh:, interestingly, zh:, entertaining, sw:, happy, sw:, pleasure, sw:, glad, sw:, joy, sw:, happiness, sw:, delight, sw:, delighted, sw:, happily, ar:, cheerful, ar:, hilarious, tr:, entertainment, fa:, hobby, fr:, funny, cy:, cheer, DUPLICATE:
 defend: hi:, rescue, vi:, protect, tr:, assert, tr:, plead, ta:, secure, ta:, preserve, fa:, defence, cy:, protection, DUPLICATE:
 heavily: zh:, grave, zh:, serious, zh:, severe, hi:, heavy, de:, strong, de:, greatly, id:, weight, tr:, seriously, fa:, sharply, cy:, drum, pl:, firmly, pl:, tight, DUPLICATE:
 stuff: hi:, material, hi:, content, sw:, crazy, id:, goods, id:, item, tr:, thing, lt:, substance, DUPLICATE:
@@ -1496,7 +1496,7 @@ warrant: zh:, assure, zh:, assurance, zh:, pledge, zh:, guarantee, zh:, insure, 
 complaint: zh:, complain, de:, appeal, cy:, white, DUPLICATE:
 convention: hi:, conference, sw:, treaty, sw:, contract, sw:, accord, sw:, memorandum, tr:, congress, fi:, agreement, fi:, deal, DUPLICATE:
 angle: id:, corner, ta:, polygon, DUPLICATE:
-widely: zh:, extensive, zh:, widespread, sw:, very, sw:, greatly, sw:, extremely, sw:, terribly, de:, far, de:, vast, sv:, generally, id:, really, id:, highly, id:, badly, id:, tremendous, id:, considerably, id:, awfully, ru:, broadly, pt:, largely, cy:, wide, cy:, broad, DUPLICATE:
+widely: zh:, extensive, zh:, widespread, sw:, very, sw:, greatly, sw:, extremely, sw:, terribly, de:, far, de:, vast, sv:, generally, id:, really, id:, highly, id:, badly, id:, tremendous, id:, considerably, id:, awfully, ru:, broadly, pt:, largely, cy:, broad, cy:, wide, DUPLICATE:
 cow: sw:, cattle, vi:, crawl, DUPLICATE:
 prejudice: sw:, hate, sw:, hatred, sw:, dislike, sw:, grudge, fa:, zeal, DUPLICATE:
 porch: sw:, hall, sw:, theater, pt:, balcony, DUPLICATE:
@@ -2084,7 +2084,7 @@ lump: zh:, block, zh:, bulk, zh:, chunk, hi:, knot, ar:, mass, ar:, cluster, tr:
 accidental: sw:, crash, sw:, accident, de:, random, sv:, temporary, id:, coincidence, vi:, surprise, vi:, unexpected, ru:, randomize, DUPLICATE:
 premises: hi:, house, hi:, home, sv:, local, id:, place, id:, spot, id:, nowhere, id:, location, id:, locus, vi:, facility, ta:, campus, fa:, site, el:, building, ka:, indoors, DUPLICATE:
 delivery: hi:, distribution, sw:, provision, vi:, deliver, tr:, surrender, ka:, supply, cy:, introduce, lt:, presentation, DUPLICATE:
-curved: zh:, bent, zh:, bend, zh:, meandering, hi:, curve, vi:, flex, DUPLICATE:
+curved: zh:, bent, zh:, meandering, zh:, bend, hi:, curve, vi:, flex, DUPLICATE:
 productive: hi:, manufacturer, hi:, producer, sw:, production, vi:, produce, ta:, manufacture, ta:, manufacturing, DUPLICATE:
 swollen: vi:, swell, ta:, swelling, DUPLICATE:
 cultivate: zh:, foster, hi:, develop, de:, maintain, sv:, farm, ar:, transplant, vi:, crop, el:, grow, DUPLICATE:
@@ -2462,7 +2462,7 @@ plural: sw:, mass, sw:, quantity, sw:, bulk, fa:, total, cy:, multiple, DUPLICAT
 initiative: sw:, deal, sw:, plan, sw:, scheme, sw:, program, sw:, programme, tr:, attempt, tr:, venture, tr:, interference, ta:, try, ta:, effort, ta:, attempted, DUPLICATE:
 jelly: hi:, rake, pt:, jam, ka:, milk, DUPLICATE:
 anarchy: hi:, chaos, sw:, disorder, sw:, unrest, DUPLICATE:
-profile: zh:, outline, zh:, contour, vi:, file, ka:, web-site, ka:, website, DUPLICATE:
+profile: zh:, outline, zh:, contour, vi:, file, ka:, website, ka:, web-site, DUPLICATE:
 finance: zh:, financial, sw:, money, sw:, silver, sw:, cash, sw:, currency, sw:, monetary, ta:, fund, fa:, asset, el:, economically, DUPLICATE:
 basic: sw:, based, sw:, base, sw:, foundation, sw:, basis, sw:, fundamental, sw:, primary, sw:, elementary, sw:, core, sv:, essential, ru:, staple, ta:, criteria, cy:, fundamentally, lt:, main, lt:, major, lt:, ultimate, DUPLICATE:
 banish: hi:, deport, sw:, abolish, id:, dump, it:, ban, ka:, raid, DUPLICATE:
@@ -2868,7 +2868,7 @@ sector: hi:, field, hi:, region, hi:, territory, hi:, area, hi:, sphere, hi:, re
 surname: sw:, name, vi:, they, vi:, them, vi:, theirs, DUPLICATE:
 institute: sw:, institution, sv:, initiate, vi:, organized, vi:, organize, ta:, company, ta:, firm, ta:, entity, ta:, agency, cy:, organization, cy:, organisation, DUPLICATE:
 urgency: zh:, anxious, zh:, emergency, vi:, urgent, fa:, necessity, DUPLICATE:
-enjoyable: zh:, amused, hi:, pleasant, de:, pleasing, vi:, interestingly, tr:, entertaining, tr:, amusing, fr:, nice, pt:, nicely, lt:, kind, DUPLICATE:
+enjoyable: zh:, amused, hi:, pleasant, de:, pleasing, vi:, interestingly, tr:, amusing, tr:, entertaining, fr:, nice, pt:, nicely, lt:, kind, DUPLICATE:
 deter: sw:, prevent, sw:, block, sw:, restrain, sw:, prohibit, sw:, restrict, sw:, inhibit, sv:, discourage, ta:, retreat, fa:, frighten, fa:, scare, cy:, suppress, cy:, suspend, lt:, detain, DUPLICATE:
 negation: zh:, negate, hi:, deny, hi:, refusal, hi:, denial, DUPLICATE:
 winner: tr:, winning, ta:, success, ta:, victory, ta:, win, ta:, hit, ta:, succeed, DUPLICATE:
@@ -3427,7 +3427,7 @@ swipe: ar:, slap, it:, steal, fi:, grab, ka:, blow, sr:, hit, DUPLICATE:
 purposive: id:, deliberately, vi:, deliberate, ru:, intentional, DUPLICATE:
 semi: zh:, half, zh:, partly, zh:, halfway, vi:, sell, ta:, grind, fa:, mid, cy:, width, DUPLICATE:
 neural: zh:, nerve, ar:, nervous, DUPLICATE:
-anti: zh:, resist, zh:, anti-, hi:, opposed, ta:, opposition, ta:, resistance, ta:, protest, ta:, resistant, fa:, dissident, fa:, contrary, fa:, opposing, DUPLICATE:
+anti: zh:, resist, zh:, anti-, hi:, opposed, ta:, opposition, ta:, resistance, ta:, protest, ta:, resistant, fa:, dissident, fa:, opposing, fa:, contrary, DUPLICATE:
 lentil: de:, lens, DUPLICATE:
 proximal: vi:, almost, vi:, near, DUPLICATE:
 nutrient: sw:, mineral, sw:, iodine, ka:, food, DUPLICATE:
@@ -3445,7 +3445,7 @@ reactive: zh:, reaction, vi:, response, vi:, react, ru:, jet, DUPLICATE:
 timetable: zh:, schedule, fr:, calendar, it:, time, sr:, disposition, sr:, layout, DUPLICATE:
 syntactic: zh:, syntax, ar:, grammatical, ta:, fate, DUPLICATE:
 stabilize: zh:, steady, zh:, stable, hi:, fixed, hi:, constant, hi:, static, sw:, quiet, tr:, offset, DUPLICATE:
-dissident: sw:, rival, sw:, opponent, fa:, opposed, fa:, anti, fa:, contrary, fa:, opposing, DUPLICATE:
+dissident: sw:, rival, sw:, opponent, fa:, opposed, fa:, anti, fa:, opposing, fa:, contrary, DUPLICATE:
 feedback: hi:, response, hi:, reaction, hi:, respond, hi:, react, sw:, opinion, sw:, comment, ta:, suggestion, ta:, notion, ta:, concept, ta:, perception, ka:, connection, ka:, union, DUPLICATE:
 questionnaire: tr:, survey, tr:, poll, pt:, quiz, DUPLICATE:
 oxidize: fa:, call, DUPLICATE:
@@ -3525,238 +3525,238 @@ spokesperson: sw:, speaker, el:, representative, pl:, advocate, DUPLICATE:
 hijack: de:, kidnap, id:, plow, fa:, snatch, fi:, capture, DUPLICATE:
 nonmetal: zh:, metalloid, DUPLICATE:
 runny: sw:, influenza, sw:, flu, id:, wet, id:, damp, fa:, runner, cy:, run, cy:, running, DUPLICATE:
-facet: hi:, aspect, tr:, direction, fa:, figure, fa:, shape, fa:, shaped, fa:, fig, fi:, side, fi:, half, cy:, attitude, DUPLICATE:
-from-case: BLIST:
-goodness: sw:, virtue, sw:, kindness, sw:, virtuous, id:, favour, id:, favor, ta:, advantage, ta:, benefit, el:, benevolence, DUPLICATE:
-loosely: de:, loose, tr:, slack, ru:, free, ru:, freely, DUPLICATE:
-afterward: zh:, afterwards, hi:, later, sw:, future, id:, then, tr:, after, ka:, following, DUPLICATE:
-difficulty: id:, trouble, id:, hardship, vi:, tough, sr:, problem, DUPLICATE:
-squad: hi:, shaft, hi:, knob, sv:, troop, ar:, band, id:, troops, tr:, team, ta:, matrix, fi:, group, fi:, array, DUPLICATE:
-broadly: hi:, roughly, sw:, width, de:, wide, de:, broad, id:, vast, id:, extensive, id:, comprehensive, vi:, widen, ru:, widely, el:, generally, DUPLICATE:
-correlate: zh:, associated, zh:, associate, zh:, relevance, id:, relate, id:, hook, id:, connect, tr:, relation, tr:, relationship, tr:, correlation, DUPLICATE:
-according-to: tr:, than, it:, second, fi:, by, cy:, back, cy:, ago, cy:, backwards, cy:, backward, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-bulletin: zh:, announcement, ar:, leaflet, vi:, information, ru:, ballot, DUPLICATE:
+easy: zh:, easily, zh:, likely, zh:, readily, zh:, liable, sw:, simple, sw:, convenient, sw:, flexible, de:, just, de:, simply, de:, straightforward, sv:, plain, sr:, lightly, DUPLICATE:
+hotdog: el:, sausage, DUPLICATE:
 disapproving: zh:, disapproval, zh:, disapprove, hi:, approval, hi:, approving, ka:, unacceptable, DUPLICATE:
-bathtub: vi:, bath, lt:, bathroom, DUPLICATE:
-entertaining: zh:, interesting, zh:, fun, zh:, amusing, zh:, interestingly, sw:, leisure, sw:, entertainment, sw:, recreation, id:, entertain, id:, amuse, tr:, enjoyable, fa:, entertainer, pt:, hilarious, pt:, amused, it:, funny, lt:, cheerful, DUPLICATE:
-aside-from: zh:, apart-from, fi:, excluding, ka:, except, ka:, beside, ka:, aside, ka:, apart, DUPLICATE:
-emergence: zh:, appear, zh:, appearance, zh:, arise, zh:, emerge, fa:, exit, pt:, emergency, pl:, rise, DUPLICATE:
+bulletin: zh:, announcement, ar:, leaflet, vi:, information, ru:, ballot, DUPLICATE:
+loosely: de:, loose, tr:, slack, ru:, free, ru:, freely, DUPLICATE:
+difficulty: id:, trouble, id:, hardship, vi:, tough, sr:, problem, DUPLICATE:
+freshly: zh:, fresh, sv:, recent, sv:, recently, id:, newly, ta:, scratch, it:, just, fi:, root, DUPLICATE:
 null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-cheek: fr:, play, DUPLICATE:
-have-to: sv:, must, id:, should, vi:, shall, ru:, ought-to, ta:, want, fr:, duty, fr:, owe, ka:, to, ka:, need, BLIST:
-per-cent: zh:, percent, vi:, cent, DUPLICATE:
+ignorative: hi:, ignorant, hi:, unaware, sw:, foolish, id:, silly, id:, stupid, id:, ridiculous, ta:, ignorance, DUPLICATE:
+retired: zh:, retire, zh:, retirement, zh:, retiree, ta:, rest, ta:, leisure, DUPLICATE:
+concessive: zh:, concession, zh:, budge, hi:, soft, DUPLICATE:
+aside-from: zh:, apart-from, fi:, excluding, ka:, except, ka:, beside, ka:, aside, ka:, apart, DUPLICATE:
+entrant: sw:, participant, lt:, participle, DUPLICATE:
+critique: hi:, criticism, sw:, criticize, el:, review, DUPLICATE:
+wildlife: it:, nature, ka:, wild, DUPLICATE:
 litigation: sw:, claim, sw:, assertion, tr:, case, ta:, suit, ta:, prosecution, it:, quarrel, fi:, trial, pl:, controversy, DUPLICATE:
 null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-via: zh:, by, zh:, through, zh:, pass, zh:, passing, de:, above, de:, across, de:, concerning, it:, off, it:, pathway, sr:, over, lt:, within, lt:, throughout, BLIST:
 soprano: sw:, childish, DUPLICATE:
-amusing: zh:, interesting, zh:, fun, zh:, entertaining, zh:, interestingly, sv:, funny, id:, humorous, tr:, enjoyable, ta:, silly, fa:, entertainer, pt:, hilarious, pt:, amused, lt:, ridiculous, DUPLICATE:
+outside-of: de:, outside, ar:, out, tr:, except, tr:, apart-from, fi:, beyond, ka:, outdoor, ka:, outdoors, DUPLICATE:
 p.m.: zh:, afternoon, ta:, night, ta:, dinner, ka:, a.m., ka:, o'clock, DUPLICATE:
-egg-white: zh:, protein, DUPLICATE:
-bloodshed: zh:, bleed, sw:, bloody, DUPLICATE:
-thulium-atom: ar:, thallium-atom, vi:, thorium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, polonium-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
-bend: zh:, bent, zh:, curved, zh:, meandering, hi:, turn, hi:, twist, sv:, flex, ta:, curve, cy:, folding, DUPLICATE:
-linker: zh:, link, sr:, conjunction, DUPLICATE:
-exhortative: vi:, intentional, pt:, hortative, DUPLICATE:
-terbium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, rhodium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
-rented: vi:, rent, vi:, employ, vi:, engage, fa:, lease, DUPLICATE:
+to-close: vi:, closed, vi:, shut, fa:, close, fi:, exclude, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
 make-up: zh:, makeup, it:, trick, sr:, compensate, DUPLICATE:
-wisecrack: id:, joke, DUPLICATE:
-config: vi:, configuration, ta:, structural, DUPLICATE:
-the-past: hi:, past, fa:, last, ka:, put, ka:, recent, DUPLICATE:
-to-split: tr:, distinguish, tr:, allocate, pt:, divide, fi:, share, fi:, distribute, fi:, split, DUPLICATE:
+according-to: tr:, than, it:, second, fi:, by, cy:, back, cy:, ago, cy:, backwards, cy:, backward, DUPLICATE:
+euphoria: hi:, enthusiasm, hi:, zeal, fa:, satisfaction, fa:, consent, DUPLICATE:
 professor: fa:, master, pt:, teacher, DUPLICATE:
-rhodium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
-state-marker: BLIST:
-space-marker: BLIST:
+amazed: hi:, surprised, vi:, wonder, DUPLICATE:
+suntan: ta:, brown, DUPLICATE:
+motorbike: zh:, motorcycle, fa:, engine, fa:, motor, DUPLICATE:
+dyadic: fa:, binary, DUPLICATE:
+miss: hi:, cut, hi:, lack, hi:, lacking, hi:, reduction, hi:, deficiency, hi:, decrease, hi:, shortage, sv:, ms, id:, lose, tr:, mrs, tr:, lady, lt:, spend, lt:, skip, BLIST:
+wisecrack: id:, joke, DUPLICATE:
 bureaucratic: zh:, bureaucracy, DUPLICATE:
-belt: zh:, band, ar:, strap, tr:, arch, el:, zone, sr:, harness, DUPLICATE:
+to-split: tr:, distinguish, tr:, allocate, pt:, divide, fi:, share, fi:, distribute, fi:, split, DUPLICATE:
+armed: sw:, arms, sw:, weapon, sw:, disarm, DUPLICATE:
+the-past: hi:, past, fa:, last, ka:, put, ka:, recent, DUPLICATE:
+infected: zh:, infection, zh:, infect, ar:, injured, ta:, infectious, DUPLICATE:
+feminine-: hi:, feminine, sw:, female, id:, lady, DUPLICATE:
+referral: sw:, appeal, vi:, introduce, vi:, recommend, ta:, note, ta:, reference, DUPLICATE:
+amused: zh:, enjoyable, hi:, happy, ru:, glad, ru:, pleased, fa:, delighted, pt:, hilarious, pt:, amusing, pt:, entertaining, cy:, amuse, DUPLICATE:
+lanthanum: vi:, tellurium, vi:, scandium, DUPLICATE:
+constructive: sw:, build, sw:, create, sw:, construct, vi:, formulation, fa:, manufacturer, DUPLICATE:
+broad: hi:, vast, hi:, extensive, hi:, comprehensive, sw:, wide, de:, broadly, pt:, ample, cy:, widely, cy:, widespread, DUPLICATE:
 null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
 salesperson: hi:, dealer, hi:, seller, vi:, clerk, DUPLICATE:
+clique: zh:, conglomerate, sv:, click, fa:, bunch, fa:, batch, DUPLICATE:
+socially: sw:, social, vi:, society, DUPLICATE:
+incredibly: de:, incredible, id:, remarkable, id:, extraordinary, id:, unusual, id:, irregular, id:, unusually, id:, phenomenal, fa:, super, fa:, enormously, cy:, amazing, sr:, unlikely, DUPLICATE:
+thulium-atom: ar:, thallium-atom, vi:, thorium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, polonium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
+state-marker: BLIST:
+space-marker: BLIST:
+correlate: zh:, associated, zh:, associate, zh:, relevance, id:, relate, id:, hook, id:, connect, tr:, relation, tr:, relationship, tr:, correlation, DUPLICATE:
+terbium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, rhodium-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
 null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-lanthanum: vi:, tellurium, vi:, scandium, DUPLICATE:
-subject-case: hi:, topic-case, DUPLICATE:
-constructive: sw:, build, sw:, create, sw:, construct, vi:, formulation, fa:, manufacturer, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-feminine-: hi:, feminine, sw:, female, id:, lady, DUPLICATE:
-auditor: sw:, inspector, sv:, accountant, DUPLICATE:
+rhodium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
 microphone: fr:, micro, DUPLICATE:
-outside-of: de:, outside, ar:, out, tr:, except, tr:, apart-from, fi:, beyond, ka:, outdoor, ka:, outdoors, DUPLICATE:
-recording: zh:, record, de:, inclusion, tr:, register, tr:, registration, ru:, entry, ta:, log, DUPLICATE:
+landlord: hi:, landowner, ru:, host, ta:, owner, sr:, boss, DUPLICATE:
+subject-case: hi:, topic-case, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+web-site: zh:, website, sw:, site, ka:, profile, DUPLICATE:
+config: vi:, configuration, ta:, structural, DUPLICATE:
 index-finger: it:, index, el:, indicator, DUPLICATE:
-sponsorship: sw:, scholarship, ar:, care, DUPLICATE:
-ignorative: hi:, ignorant, hi:, unaware, sw:, foolish, id:, silly, id:, stupid, id:, ridiculous, ta:, ignorance, DUPLICATE:
+via: zh:, by, zh:, through, zh:, pass, zh:, passing, de:, above, de:, across, de:, concerning, it:, off, it:, pathway, sr:, over, lt:, within, lt:, throughout, BLIST:
+contrastive: vi:, contrast, vi:, contrasting, fa:, cope, DUPLICATE:
+refreshed: sw:, energy, id:, fresh, ka:, update, DUPLICATE:
 null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
 standardize: zh:, specification, zh:, norm, ar:, unify, fa:, standard, DUPLICATE:
-o'clock: zh:, point, zh:, spot, zh:, dot, sw:, hour, sw:, clock, de:, watch, ta:, at, ka:, a.m., ka:, p.m., DUPLICATE:
-landlord: hi:, landowner, ru:, host, ta:, owner, sr:, boss, DUPLICATE:
-investigator: de:, determiner, sv:, scholar, sv:, scientist, sv:, researcher, it:, detective, DUPLICATE:
-flared: pl:, burnt, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-authorise: sw:, approving, sw:, endorse, sv:, approve, id:, allow, lt:, let, lt:, enable, DUPLICATE:
-defence: sw:, protection, ta:, care, ta:, guard, ta:, safety, ta:, security, ta:, preservation, ta:, conservation, ta:, coverage, fa:, defend, DUPLICATE:
-hallway: sv:, hall, ar:, entrance, ar:, doorway, id:, aisle, vi:, lobby, pt:, entry, DUPLICATE:
-negotiation: zh:, negotiate, hi:, talk, hi:, conversation, hi:, chat, hi:, interaction, hi:, interact, fi:, consultation, DUPLICATE:
-refreshed: sw:, energy, id:, fresh, ka:, update, DUPLICATE:
-meandering: zh:, bent, zh:, curved, zh:, bend, DUPLICATE:
-onwards: de:, farther, sv:, ahead, ta:, first, ta:, since, fa:, next, fa:, later, fa:, dimension, el:, front, cy:, forward, cy:, onto, pl:, further, DUPLICATE:
-breathing: zh:, breathe, zh:, respiratory, sw:, immune, ar:, breath, tr:, exhale, cy:, inhale, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-progression: hi:, progress, hi:, stride, sw:, development, sw:, progressive, sw:, developmental, ar:, advance, ar:, proceed, cy:, sequence, DUPLICATE:
-detransitive: zh:, intransitive, zh:, ditransitive, fa:, necessary, DUPLICATE:
-euphoria: hi:, enthusiasm, hi:, zeal, fa:, satisfaction, fa:, consent, DUPLICATE:
-wide: hi:, widen, sw:, broad, de:, broadly, id:, width, vi:, extensive, tr:, vast, ta:, comprehensive, cy:, widely, cy:, widespread, DUPLICATE:
-ditransitive: zh:, intransitive, zh:, detransitive, fa:, necessary, DUPLICATE:
-contrastive: vi:, contrast, vi:, contrasting, fa:, cope, DUPLICATE:
-amazed: hi:, surprised, vi:, wonder, DUPLICATE:
-referral: sw:, appeal, vi:, introduce, vi:, recommend, ta:, note, ta:, reference, DUPLICATE:
-descendent: sw:, familiar, sw:, lineage, id:, descent, id:, offspring, tr:, granddaughter, tr:, grandchild, fa:, generation, DUPLICATE:
-ice-cream: de:, ice, vi:, cream, DUPLICATE:
-radius: fr:, ray, fr:, aisle, DUPLICATE:
-alternatively: zh:, possibly, cy:, otherwise, DUPLICATE:
-neighbourhood: zh:, neighborhood, sw:, surrounding, sw:, neighbour, sw:, neighbor, ar:, live, ar:, district, id:, surroundings, id:, environmental, fr:, ward, DUPLICATE:
-used-to: id:, usually, id:, normally, cy:, practice, cy:, habit, cy:, custom, DUPLICATE:
-embarrassment: sw:, shame, sw:, ashamed, sw:, disgrace, sw:, shy, sw:, embarrassed, sw:, embarrassing, ka:, disorder, DUPLICATE:
-substantially: zh:, sharply, hi:, largely, sw:, substantial, de:, essentially, vi:, considerable, vi:, considerably, vi:, significantly, tr:, fundamentally, fi:, importantly, lt:, virtually, lt:, basically, DUPLICATE:
-freshly: zh:, fresh, sv:, recent, sv:, recently, id:, newly, ta:, scratch, it:, just, fi:, root, DUPLICATE:
-dancing: sw:, play, ar:, dance, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-amount-marker: BLIST:
-social-marker: BLIST:
-critique: hi:, criticism, sw:, criticize, el:, review, DUPLICATE:
-rubidium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
-struggle: zh:, fight, hi:, conflict, hi:, clash, sw:, confrontation, tr:, war, tr:, battle, ru:, scramble, DUPLICATE:
-complain: zh:, complaint, ka:, about, ka:, user, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-vanadium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, rubidium-atom, vi:, fluorine-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
-neuter-gender: ta:, masculine-gender, DUPLICATE:
-fluorine-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
-journey: hi:, visit, hi:, travel, hi:, trip, sw:, ride, sw:, voyage, sw:, safari, ar:, flight, vi:, cruise, ta:, expedition, fa:, tour, DUPLICATE:
+sponsorship: sw:, scholarship, ar:, care, DUPLICATE:
 masculine-: hi:, noun, de:, male, ta:, neuter, DUPLICATE:
 null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-developmental: zh:, evolutionary, sw:, progress, sw:, development, sw:, progressive, sw:, progression, vi:, develop, vi:, expand, ta:, growth, fa:, expansion, DUPLICATE:
-applied: fa:, practical, fa:, pragmatic, DUPLICATE:
-to-close: vi:, closed, vi:, shut, fa:, close, fi:, exclude, DUPLICATE:
-brag: ar:, splurge, DUPLICATE:
-backward: zh:, trail, sw:, back, sw:, behind, sw:, rear, sw:, backwards, cy:, ago, cy:, according-to, DUPLICATE:
-the-present: hi:, present, hi:, current, tr:, exist, tr:, available, sr:, gift, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-randomize: zh:, random, zh:, randomly, ru:, accidental, DUPLICATE:
-cooperative: hi:, colleague, vi:, cooperate, DUPLICATE:
-retired: zh:, retire, zh:, retirement, zh:, retiree, ta:, rest, ta:, leisure, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-amused: zh:, enjoyable, hi:, happy, ru:, glad, ru:, pleased, fa:, delighted, pt:, hilarious, pt:, entertaining, pt:, amusing, cy:, amuse, DUPLICATE:
-approximative: fa:, approximate, DUPLICATE:
-dyadic: fa:, binary, DUPLICATE:
-supplementary: zh:, complement, id:, additional, id:, addition, id:, extra, ta:, deputy, ta:, sub, ta:, auxiliary, ka:, further, DUPLICATE:
-communicative: sw:, contact, sw:, communication, sw:, correspondence, de:, talkative, ar:, frank, ar:, explicit, vi:, communicate, ta:, interaction, ta:, interact, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-at-case: fr:, to-case, it:, randomly, DUPLICATE:
-polonium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, thallium-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
-break-down: zh:, breakdown, hi:, division, hi:, partition, sw:, brake, ar:, disjunction, id:, damage, id:, decay, fa:, differentiation, pt:, demolish, fi:, degrade, el:, resolution, el:, analysis, DUPLICATE:
-suntan: ta:, brown, DUPLICATE:
-problem: zh:, issue, zh:, problematic, sv:, trouble, id:, matter, sr:, difficulty, DUPLICATE:
-translative: zh:, translation, zh:, translate, sw:, interpret, vi:, epidemic, tr:, flip, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-thallium-atom: ar:, thulium-atom, vi:, thorium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, polonium-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
-clique: zh:, conglomerate, sv:, click, fa:, bunch, fa:, batch, DUPLICATE:
-easy: zh:, easily, zh:, likely, zh:, readily, zh:, liable, sw:, simple, sw:, convenient, sw:, flexible, de:, just, de:, simply, de:, straightforward, sv:, plain, sr:, lightly, DUPLICATE:
-moderator: zh:, president, zh:, chairperson, hi:, mediate, sw:, administrator, sw:, supervisor, de:, facilitator, fa:, manager, fa:, director, DUPLICATE:
-socially: sw:, social, vi:, society, DUPLICATE:
-matching: zh:, match, de:, vote, de:, ballot, id:, suit, id:, appropriate, id:, accord, id:, correspond, vi:, suitable, vi:, suited, vi:, coincide, ka:, relevant, DUPLICATE:
-accident: hi:, crash, hi:, casualty, sw:, accidental, ar:, incident, id:, wreck, DUPLICATE:
-that-which: fa:, that, fa:, which, fa:, whom, fa:, whose, DUPLICATE:
-interestingly: zh:, interesting, zh:, fun, zh:, entertaining, zh:, amusing, sw:, attractive, sw:, attract, sw:, impressive, id:, draw, id:, appeal, id:, withdraw, id:, exciting, vi:, pleasant, vi:, enjoyable, ka:, wonder, DUPLICATE:
-upside-down: id:, inverse, ta:, reverse, DUPLICATE:
-herbicide: sw:, poison, sw:, poisonous, sw:, toxic, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-entrant: sw:, participant, lt:, participle, DUPLICATE:
-for-example: ka:, instance, ka:, example, DUPLICATE:
-tumour: zh:, tumor, el:, bulk, pl:, bump, DUPLICATE:
-decay: id:, damage, id:, break-down, tr:, rot, pl:, resolution, pl:, breakdown, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-website: zh:, web-site, sw:, site, ka:, profile, DUPLICATE:
-enormously: zh:, huge, zh:, enormous, zh:, tremendous, hi:, extremely, vi:, big, vi:, massive, tr:, very, tr:, much, tr:, too, tr:, lot, tr:, greatly, tr:, awfully, tr:, multi, fa:, super, fa:, phenomenal, fa:, incredibly, lt:, wildly, DUPLICATE:
-will-be: hi:, would, hi:, will, ar:, shall, ta:, be, ta:, remain, BLIST:
-inelative-case: zh:, elative-case, DUPLICATE:
-objective-case: id:, destination-case, DUPLICATE:
-remunerate: zh:, compensate, id:, pay, DUPLICATE:
-mistreat: sw:, wrong, sw:, badly, DUPLICATE:
-braid: zh:, weave, hi:, top, hi:, ridge, ar:, cue, tr:, knitted, ta:, knitting, el:, knit, lt:, strip, DUPLICATE:
-instead-of: zh:, instead, DUPLICATE:
-archeology: zh:, archaeology, vi:, archaeological, DUPLICATE:
-connector: hi:, copula, de:, plug, vi:, connect, ta:, connection, ta:, attachment, ta:, patch, ta:, link, fa:, junction, el:, socket, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-generalization: zh:, generalize, DUPLICATE:
-strontium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, ruthenium-atom, DUPLICATE:
-ruthenium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, strontium-atom, DUPLICATE:
-excluding: zh:, exclude, de:, without, ta:, except, ta:, apart, fi:, aside-from, ka:, beside, ka:, aside, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-retreat: hi:, digress, de:, withdrawal, ar:, regression, id:, retire, ta:, deter, lt:, shrink, DUPLICATE:
-retiree: zh:, retire, zh:, retirement, zh:, retired, DUPLICATE:
-one-another: zh:, another, hi:, each-other, pt:, else, ka:, other, DUPLICATE:
-broad: hi:, vast, hi:, extensive, hi:, comprehensive, sw:, wide, de:, broadly, pt:, ample, cy:, widely, cy:, widespread, DUPLICATE:
-computing: zh:, calculate, zh:, calculation, zh:, computation, sw:, computer, vi:, calculator, DUPLICATE:
-business-person: ta:, businessperson, DUPLICATE:
-hotdog: el:, sausage, DUPLICATE:
-dominance: hi:, effect, hi:, influence, hi:, impression, hi:, impact, de:, reign, ar:, domination, id:, power, ta:, dominate, pt:, domain, el:, prevalence, pl:, advantage, DUPLICATE:
-unquote: ta:, quote, ta:, quotation, DUPLICATE:
-postessive-case: zh:, genitive-case, hi:, posessive-case, DUPLICATE:
-genetically: zh:, gene, de:, genetic, tr:, genetics, DUPLICATE:
-concessive: zh:, concession, zh:, budge, hi:, soft, DUPLICATE:
-indirect-object: sw:, direct-object, DUPLICATE:
-prhobitive-mood: zh:, prohibitive-mood, DUPLICATE:
-work-out: hi:, exercise, hi:, athletics, id:, work, ru:, elaborate, fa:, working, DUPLICATE:
-delimited: de:, limited, ar:, specified, tr:, separated, DUPLICATE:
-contrary: zh:, reverse, hi:, opposition, hi:, contrast, hi:, resist, hi:, protest, sw:, opposite, sw:, opposed, ar:, inversion, ar:, invert, tr:, adverse, tr:, inverse, ta:, rather, fa:, anti, fa:, dissident, fa:, opposing, el:, contrasting, cy:, violation, sr:, unlike, DUPLICATE:
-climb: sw:, rise, sw:, plant, sw:, climbing, sw:, sow, ru:, uplift, ka:, ladder, DUPLICATE:
-incredibly: de:, incredible, id:, remarkable, id:, extraordinary, id:, unusual, id:, irregular, id:, unusually, id:, phenomenal, fa:, super, fa:, enormously, cy:, amazing, sr:, unlikely, DUPLICATE:
+meandering: zh:, bent, zh:, curved, zh:, bend, DUPLICATE:
+alarming: zh:, astonishing, zh:, amazing, sw:, terrible, sw:, awful, sw:, horrible, sw:, tragic, sw:, frightening, ru:, anxious, ru:, disturbing, ta:, dangerous, el:, upsetting, lt:, worrying, DUPLICATE:
 null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
 closure: zh:, close, zh:, closed, zh:, shut, sw:, loom, DUPLICATE:
-cheaply: de:, cheap, id:, low, DUPLICATE:
-canvas: ar:, cloth, ar:, fabric, it:, web, DUPLICATE:
-educated: hi:, educate, vi:, education, vi:, educational, pt:, polite, DUPLICATE:
-wildlife: it:, nature, ka:, wild, DUPLICATE:
-opposing: zh:, opposition, zh:, opposed, zh:, oppose, sw:, resist, sw:, interrupt, sv:, opposite, vi:, protest, vi:, counter, vi:, opponent, vi:, disapproval, tr:, against, tr:, towards, tr:, toward, ru:, resistance, fa:, anti, fa:, dissident, fa:, contrary, DUPLICATE:
+excluding: zh:, exclude, de:, without, ta:, except, ta:, apart, fi:, aside-from, ka:, beside, ka:, aside, DUPLICATE:
 null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-excavate: zh:, excavation, sv:, dig, ar:, drill, DUPLICATE:
-infected: zh:, infection, zh:, infect, ar:, injured, ta:, infectious, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-armed: sw:, arms, sw:, weapon, sw:, disarm, DUPLICATE:
-i.e.: ar:, any, ar:, namely, DUPLICATE:
-no-one: hi:, none, sv:, nobody, id:, nothing, ru:, anybody, DUPLICATE:
-swearing: sv:, swear, tr:, expletive, DUPLICATE:
-tapered: hi:, thin, hi:, skinny, hi:, dilute, de:, cone, DUPLICATE:
-entertainer: hi:, entertainment, hi:, recreation, fa:, entertaining, fa:, amusing, fr:, artist, ka:, worker, DUPLICATE:
-etc.: BLIST:
-apart-from: zh:, aside-from, hi:, addition, tr:, except, tr:, outside, tr:, outside-of, ka:, separate, lt:, apart, DUPLICATE:
-contour: zh:, outline, zh:, profile, tr:, surroundings, tr:, environment, tr:, environmental, fi:, form, fi:, shape, fi:, format, DUPLICATE:
-cell-phone: zh:, cellphone, sv:, mobile-phone, fr:, portable, pl:, cell, DUPLICATE:
-miss: hi:, cut, hi:, lack, hi:, lacking, hi:, reduction, hi:, deficiency, hi:, decrease, hi:, shortage, sv:, ms, id:, lose, tr:, mrs, tr:, lady, lt:, spend, lt:, skip, BLIST:
-alarming: zh:, astonishing, zh:, amazing, sw:, terrible, sw:, awful, sw:, horrible, sw:, tragic, sw:, frightening, ru:, anxious, ru:, disturbing, ta:, dangerous, el:, upsetting, lt:, worrying, DUPLICATE:
-the-future: hi:, future, DUPLICATE:
-subjunctive-mood: ar:, conditional-mood, tr:, optative-mood, DUPLICATE:
-ought-to: zh:, should, ru:, must, ru:, shall, ru:, have-to, DUPLICATE:
-motorbike: zh:, motorcycle, fa:, engine, fa:, motor, DUPLICATE:
-credit-card: vi:, credit, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-the-public: tr:, public, fa:, general, DUPLICATE:
-cellphone: zh:, cell-phone, sv:, mobile-phone, pl:, cell, DUPLICATE:
-null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
-intestines: zh:, bowel, hi:, gut, DUPLICATE:
-deploy: sv:, distribute, ar:, publish, ar:, publishing, ar:, diffusion, ar:, circulate, id:, scatter, fa:, extension, cy:, consume, cy:, utilize, pl:, develop, DUPLICATE:
-deport: hi:, banish, ar:, expel, ar:, eject, ar:, oust, id:, repel, tr:, exclude, DUPLICATE:
-proportion: hi:, ratio, sw:, balanced, sw:, correlation, de:, stake, vi:, rate, vi:, prevalence, vi:, incidence, ru:, share, ru:, fraction, fi:, part, fi:, portion, el:, quota, el:, quantum, DUPLICATE:
-competence: hi:, capacity, hi:, potential, sv:, qualification, ta:, capable, ta:, skill, ta:, ability, ta:, effectiveness, fr:, expertise, sr:, jurisdiction, DUPLICATE:
-landowner: hi:, landlord, ar:, angel, DUPLICATE:
-prepositional-case: BLIST:
-allocation: zh:, distribution, zh:, assignment, zh:, allocate, hi:, allotment, sw:, dividend, ta:, provision, ta:, quota, fr:, allowance, fi:, division, ka:, separation, DUPLICATE:
-worrying: hi:, anxiety, hi:, concern, hi:, worry, sw:, anxious, sw:, concerned, sw:, alarmed, sw:, thoughtful, sw:, uncomfortable, sw:, worried, ar:, disturbing, ka:, upsetting, lt:, alarming, DUPLICATE:
-all-right: hi:, okay, sw:, same, sw:, equal, sw:, similar, sw:, equivalent, sw:, rightly, sw:, ok, de:, good, ru:, excellent, fi:, distinct, fi:, definite, cy:, very, cy:, highly, pl:, fine, lt:, well, DUPLICATE:
-enforcement: sw:, execution, ar:, apply, ar:, application, vi:, execute, vi:, enforce, tr:, practice, tr:, practise, cy:, coerce, DUPLICATE:
-pro-phrase: fr:, pro-sentence, DUPLICATE:
+investigator: de:, determiner, sv:, scholar, sv:, scientist, sv:, researcher, it:, detective, DUPLICATE:
+detransitive: zh:, intransitive, zh:, ditransitive, fa:, necessary, DUPLICATE:
+exhortative: vi:, intentional, pt:, hortative, DUPLICATE:
+ditransitive: zh:, intransitive, zh:, detransitive, fa:, necessary, DUPLICATE:
+negotiation: zh:, negotiate, hi:, talk, hi:, conversation, hi:, chat, hi:, interaction, hi:, interact, fi:, consultation, DUPLICATE:
+egg-white: zh:, protein, DUPLICATE:
+connector: hi:, copula, de:, plug, vi:, connect, ta:, connection, ta:, attachment, ta:, patch, ta:, link, fa:, junction, el:, socket, DUPLICATE:
+embarrassment: sw:, shame, sw:, ashamed, sw:, disgrace, sw:, shy, sw:, embarrassed, sw:, embarrassing, ka:, disorder, DUPLICATE:
 receptor: fa:, catcher, DUPLICATE:
-inject: sw:, insert, ru:, introduce, fa:, injection, cy:, spray, DUPLICATE:
+polonium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, thallium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
+thallium-atom: ar:, thulium-atom, vi:, thorium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, polonium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
+amount-marker: BLIST:
+social-marker: BLIST:
+cheek: fr:, play, DUPLICATE:
+complain: zh:, complaint, ka:, about, ka:, user, DUPLICATE:
+progression: hi:, progress, hi:, stride, sw:, development, sw:, progressive, sw:, developmental, ar:, advance, ar:, proceed, cy:, sequence, DUPLICATE:
+educated: hi:, educate, vi:, education, vi:, educational, pt:, polite, DUPLICATE:
 stunning: sv:, tremendous, ar:, astonishing, id:, surprising, id:, amazing, id:, amaze, tr:, striking, pt:, impressive, cy:, shocking, sr:, lovely, DUPLICATE:
+etc.: BLIST:
+neighbourhood: zh:, neighborhood, sw:, surrounding, sw:, neighbour, sw:, neighbor, ar:, live, ar:, district, id:, surroundings, id:, environmental, fr:, ward, DUPLICATE:
+backward: zh:, trail, sw:, back, sw:, behind, sw:, rear, sw:, backwards, cy:, ago, cy:, according-to, DUPLICATE:
+at-case: fr:, to-case, it:, randomly, DUPLICATE:
+rubidium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
+vanadium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, rubidium-atom, vi:, fluorine-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
+facet: hi:, aspect, tr:, direction, fa:, figure, fa:, shape, fa:, shaped, fa:, fig, fi:, side, fi:, half, cy:, attitude, DUPLICATE:
+neuter-gender: ta:, masculine-gender, DUPLICATE:
+fluorine-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, strontium-atom, vi:, ruthenium-atom, DUPLICATE:
+squad: hi:, shaft, hi:, knob, sv:, troop, ar:, band, id:, troops, tr:, team, ta:, matrix, fi:, group, fi:, array, DUPLICATE:
+randomize: zh:, random, zh:, randomly, ru:, accidental, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+communicative: sw:, contact, sw:, communication, sw:, correspondence, de:, talkative, ar:, frank, ar:, explicit, vi:, communicate, ta:, interaction, ta:, interact, DUPLICATE:
+amusing: zh:, interesting, zh:, fun, zh:, interestingly, zh:, entertaining, sv:, funny, id:, humorous, tr:, enjoyable, ta:, silly, fa:, entertainer, pt:, hilarious, pt:, amused, lt:, ridiculous, DUPLICATE:
+descendent: sw:, familiar, sw:, lineage, id:, descent, id:, offspring, tr:, granddaughter, tr:, grandchild, fa:, generation, DUPLICATE:
+canvas: ar:, cloth, ar:, fabric, it:, web, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
 coughing: zh:, cough, DUPLICATE:
+approximative: fa:, approximate, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+ice-cream: de:, ice, vi:, cream, DUPLICATE:
+the-present: hi:, present, hi:, current, tr:, exist, tr:, available, sr:, gift, DUPLICATE:
+moderator: zh:, president, zh:, chairperson, hi:, mediate, sw:, administrator, sw:, supervisor, de:, facilitator, fa:, manager, fa:, director, DUPLICATE:
+translative: zh:, translation, zh:, translate, sw:, interpret, vi:, epidemic, tr:, flip, DUPLICATE:
+afterward: zh:, afterwards, hi:, later, sw:, future, id:, then, tr:, after, ka:, following, DUPLICATE:
+wide: hi:, widen, sw:, broad, de:, broadly, id:, width, vi:, extensive, tr:, vast, ta:, comprehensive, cy:, widely, cy:, widespread, DUPLICATE:
+break-down: zh:, breakdown, hi:, division, hi:, partition, sw:, brake, ar:, disjunction, id:, damage, id:, decay, fa:, differentiation, pt:, demolish, fi:, degrade, el:, resolution, el:, analysis, DUPLICATE:
+substantially: zh:, sharply, hi:, largely, sw:, substantial, de:, essentially, vi:, considerable, vi:, considerably, vi:, significantly, tr:, fundamentally, fi:, importantly, lt:, virtually, lt:, basically, DUPLICATE:
+cooperative: hi:, colleague, vi:, cooperate, DUPLICATE:
+will-be: hi:, would, hi:, will, ar:, shall, ta:, be, ta:, remain, BLIST:
+applied: fa:, practical, fa:, pragmatic, DUPLICATE:
+supplementary: zh:, complement, id:, additional, id:, addition, id:, extra, ta:, deputy, ta:, sub, ta:, auxiliary, ka:, further, DUPLICATE:
+accident: hi:, crash, hi:, casualty, sw:, accidental, ar:, incident, id:, wreck, DUPLICATE:
+alternatively: zh:, possibly, cy:, otherwise, DUPLICATE:
+all-right: hi:, okay, sw:, same, sw:, equal, sw:, similar, sw:, equivalent, sw:, rightly, sw:, ok, de:, good, ru:, excellent, fi:, distinct, fi:, definite, cy:, very, cy:, highly, pl:, fine, lt:, well, DUPLICATE:
+herbicide: sw:, poison, sw:, poisonous, sw:, toxic, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+for-example: ka:, instance, ka:, example, DUPLICATE:
+interestingly: zh:, interesting, zh:, fun, zh:, amusing, zh:, entertaining, sw:, attractive, sw:, attract, sw:, impressive, id:, draw, id:, appeal, id:, withdraw, id:, exciting, vi:, pleasant, vi:, enjoyable, ka:, wonder, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+tumour: zh:, tumor, el:, bulk, pl:, bump, DUPLICATE:
+developmental: zh:, evolutionary, sw:, progress, sw:, development, sw:, progressive, sw:, progression, vi:, develop, vi:, expand, ta:, growth, fa:, expansion, DUPLICATE:
+onwards: de:, farther, sv:, ahead, ta:, first, ta:, since, fa:, next, fa:, later, fa:, dimension, el:, front, cy:, forward, cy:, onto, pl:, further, DUPLICATE:
 next-to: sv:, beside, id:, alongside, vi:, next, DUPLICATE:
+deport: hi:, banish, ar:, expel, ar:, eject, ar:, oust, id:, repel, tr:, exclude, DUPLICATE:
+problem: zh:, issue, zh:, problematic, sv:, trouble, id:, matter, sr:, difficulty, DUPLICATE:
+worrying: hi:, anxiety, hi:, concern, hi:, worry, sw:, anxious, sw:, concerned, sw:, alarmed, sw:, thoughtful, sw:, uncomfortable, sw:, worried, ar:, disturbing, ka:, upsetting, lt:, alarming, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+pro-phrase: fr:, pro-sentence, DUPLICATE:
+computing: zh:, calculate, zh:, calculation, zh:, computation, sw:, computer, vi:, calculator, DUPLICATE:
+swearing: sv:, swear, tr:, expletive, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+inelative-case: zh:, elative-case, DUPLICATE:
+remunerate: zh:, compensate, id:, pay, DUPLICATE:
+objective-case: id:, destination-case, DUPLICATE:
+cheaply: de:, cheap, id:, low, DUPLICATE:
+work-out: hi:, exercise, hi:, athletics, id:, work, ru:, elaborate, fa:, working, DUPLICATE:
+genetically: zh:, gene, de:, genetic, tr:, genetics, DUPLICATE:
+mistreat: sw:, wrong, sw:, badly, DUPLICATE:
+archeology: zh:, archaeology, vi:, archaeological, DUPLICATE:
+instead-of: zh:, instead, DUPLICATE:
+upside-down: id:, inverse, ta:, reverse, DUPLICATE:
+unquote: ta:, quote, ta:, quotation, DUPLICATE:
+enormously: zh:, huge, zh:, enormous, zh:, tremendous, hi:, extremely, vi:, big, vi:, massive, tr:, very, tr:, much, tr:, too, tr:, lot, tr:, greatly, tr:, awfully, tr:, multi, fa:, super, fa:, phenomenal, fa:, incredibly, lt:, wildly, DUPLICATE:
+no-one: hi:, none, sv:, nobody, id:, nothing, ru:, anybody, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+strontium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, ruthenium-atom, DUPLICATE:
+generalization: zh:, generalize, DUPLICATE:
+radius: fr:, ray, fr:, aisle, DUPLICATE:
+ruthenium-atom: vi:, thorium-atom, vi:, thulium-atom, vi:, terbium-atom, vi:, rhodium-atom, vi:, polonium-atom, vi:, thallium-atom, vi:, rubidium-atom, vi:, vanadium-atom, vi:, fluorine-atom, vi:, strontium-atom, DUPLICATE:
+auditor: sw:, inspector, sv:, accountant, DUPLICATE:
+journey: hi:, visit, hi:, travel, hi:, trip, sw:, ride, sw:, voyage, sw:, safari, ar:, flight, vi:, cruise, ta:, expedition, fa:, tour, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+braid: zh:, weave, hi:, top, hi:, ridge, ar:, cue, tr:, knitted, ta:, knitting, el:, knit, lt:, strip, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+linker: zh:, link, sr:, conjunction, DUPLICATE:
+breathing: zh:, breathe, zh:, respiratory, sw:, immune, ar:, breath, tr:, exhale, cy:, inhale, DUPLICATE:
+recording: zh:, record, de:, inclusion, tr:, register, tr:, registration, ru:, entry, ta:, log, DUPLICATE:
+opposing: zh:, opposition, zh:, opposed, zh:, oppose, sw:, resist, sw:, interrupt, sv:, opposite, vi:, protest, vi:, counter, vi:, opponent, vi:, disapproval, tr:, against, tr:, towards, tr:, toward, ru:, resistance, fa:, anti, fa:, dissident, fa:, contrary, DUPLICATE:
+retreat: hi:, digress, de:, withdrawal, ar:, regression, id:, retire, ta:, deter, lt:, shrink, DUPLICATE:
+retiree: zh:, retire, zh:, retirement, zh:, retired, DUPLICATE:
+brag: ar:, splurge, DUPLICATE:
+delimited: de:, limited, ar:, specified, tr:, separated, DUPLICATE:
+business-person: ta:, businessperson, DUPLICATE:
+postessive-case: zh:, genitive-case, hi:, posessive-case, DUPLICATE:
+indirect-object: sw:, direct-object, DUPLICATE:
+defence: sw:, protection, ta:, care, ta:, guard, ta:, safety, ta:, security, ta:, preservation, ta:, conservation, ta:, coverage, fa:, defend, DUPLICATE:
+contrary: zh:, reverse, hi:, opposition, hi:, contrast, hi:, resist, hi:, protest, sw:, opposite, sw:, opposed, ar:, inversion, ar:, invert, tr:, adverse, tr:, inverse, ta:, rather, fa:, anti, fa:, dissident, fa:, opposing, el:, contrasting, cy:, violation, sr:, unlike, DUPLICATE:
+o'clock: zh:, point, zh:, spot, zh:, dot, sw:, hour, sw:, clock, de:, watch, ta:, at, ka:, a.m., ka:, p.m., DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+enforcement: sw:, execution, ar:, apply, ar:, application, vi:, execute, vi:, enforce, tr:, practice, tr:, practise, cy:, coerce, DUPLICATE:
+landowner: hi:, landlord, ar:, angel, DUPLICATE:
+emergence: zh:, appear, zh:, appearance, zh:, arise, zh:, emerge, fa:, exit, pt:, emergency, pl:, rise, DUPLICATE:
+bathtub: vi:, bath, lt:, bathroom, DUPLICATE:
+prhobitive-mood: zh:, prohibitive-mood, DUPLICATE:
+bloodshed: zh:, bleed, sw:, bloody, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+subjunctive-mood: ar:, conditional-mood, tr:, optative-mood, DUPLICATE:
+matching: zh:, match, de:, vote, de:, ballot, id:, suit, id:, appropriate, id:, accord, id:, correspond, vi:, suitable, vi:, suited, vi:, coincide, ka:, relevant, DUPLICATE:
+excavate: zh:, excavation, sv:, dig, ar:, drill, DUPLICATE:
+broadly: hi:, roughly, sw:, width, de:, broad, de:, wide, id:, vast, id:, extensive, id:, comprehensive, vi:, widen, ru:, widely, el:, generally, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+decay: id:, damage, id:, break-down, tr:, rot, pl:, resolution, pl:, breakdown, DUPLICATE:
+per-cent: zh:, percent, vi:, cent, DUPLICATE:
+dancing: sw:, play, ar:, dance, DUPLICATE:
+one-another: zh:, another, hi:, each-other, pt:, else, ka:, other, DUPLICATE:
+used-to: id:, usually, id:, normally, cy:, practice, cy:, habit, cy:, custom, DUPLICATE:
+null: hi:, zero, ar:, none, tr:, empty, tr:, leisure, tr:, blank, tr:, vacant, DUPLICATE:
+apart-from: zh:, aside-from, hi:, addition, tr:, except, tr:, outside, tr:, outside-of, ka:, separate, lt:, apart, DUPLICATE:
+cell-phone: zh:, cellphone, sv:, mobile-phone, fr:, portable, pl:, cell, DUPLICATE:
+the-future: hi:, future, DUPLICATE:
+authorise: sw:, approving, sw:, endorse, sv:, approve, id:, allow, lt:, let, lt:, enable, DUPLICATE:
+credit-card: vi:, credit, DUPLICATE:
+cellphone: zh:, cell-phone, sv:, mobile-phone, pl:, cell, DUPLICATE:
+flared: pl:, burnt, DUPLICATE:
+dominance: hi:, effect, hi:, influence, hi:, impression, hi:, impact, de:, reign, ar:, domination, id:, power, ta:, dominate, pt:, domain, el:, prevalence, pl:, advantage, DUPLICATE:
+deploy: sv:, distribute, ar:, publish, ar:, publishing, ar:, diffusion, ar:, circulate, id:, scatter, fa:, extension, cy:, consume, cy:, utilize, pl:, develop, DUPLICATE:
+inject: sw:, insert, ru:, introduce, fa:, injection, cy:, spray, DUPLICATE:
+the-public: tr:, public, fa:, general, DUPLICATE:
+entertainer: hi:, entertainment, hi:, recreation, fa:, amusing, fa:, entertaining, fr:, artist, ka:, worker, DUPLICATE:
+have-to: sv:, must, id:, should, vi:, shall, ru:, ought-to, ta:, want, fr:, duty, fr:, owe, ka:, to, ka:, need, BLIST:
+climb: sw:, rise, sw:, plant, sw:, climbing, sw:, sow, ru:, uplift, ka:, ladder, DUPLICATE:
+intestines: zh:, bowel, hi:, gut, DUPLICATE:
+belt: zh:, band, ar:, strap, tr:, arch, el:, zone, sr:, harness, DUPLICATE:
+proportion: hi:, ratio, sw:, balanced, sw:, correlation, de:, stake, vi:, rate, vi:, prevalence, vi:, incidence, ru:, share, ru:, fraction, fi:, part, fi:, portion, el:, quota, el:, quantum, DUPLICATE:
+rented: vi:, rent, vi:, employ, vi:, engage, fa:, lease, DUPLICATE:
+ought-to: zh:, should, ru:, must, ru:, shall, ru:, have-to, DUPLICATE:
+allocation: zh:, distribution, zh:, assignment, zh:, allocate, hi:, allotment, sw:, dividend, ta:, provision, ta:, quota, fr:, allowance, fi:, division, ka:, separation, DUPLICATE:
+competence: hi:, capacity, hi:, potential, sv:, qualification, ta:, capable, ta:, skill, ta:, ability, ta:, effectiveness, fr:, expertise, sr:, jurisdiction, DUPLICATE:
+goodness: sw:, virtue, sw:, kindness, sw:, virtuous, id:, favour, id:, favor, ta:, advantage, ta:, benefit, el:, benevolence, DUPLICATE:
+prepositional-case: BLIST:
+contour: zh:, outline, zh:, profile, tr:, surroundings, tr:, environment, tr:, environmental, fi:, form, fi:, shape, fi:, format, DUPLICATE:
+i.e.: ar:, any, ar:, namely, DUPLICATE:
+struggle: zh:, fight, hi:, conflict, hi:, clash, sw:, confrontation, tr:, war, tr:, battle, ru:, scramble, DUPLICATE:
+that-which: fa:, that, fa:, which, fa:, whom, fa:, whose, DUPLICATE:
+hallway: sv:, hall, ar:, entrance, ar:, doorway, id:, aisle, vi:, lobby, pt:, entry, DUPLICATE:
+tapered: hi:, thin, hi:, skinny, hi:, dilute, de:, cone, DUPLICATE:
+from-case: BLIST:
+bend: zh:, bent, zh:, curved, zh:, meandering, hi:, turn, hi:, twist, sv:, flex, ta:, curve, cy:, folding, DUPLICATE:
+entertaining: zh:, interesting, zh:, fun, zh:, amusing, zh:, interestingly, sw:, leisure, sw:, entertainment, sw:, recreation, id:, entertain, id:, amuse, tr:, enjoyable, fa:, entertainer, pt:, hilarious, pt:, amused, it:, funny, lt:, cheerful, DUPLICATE:

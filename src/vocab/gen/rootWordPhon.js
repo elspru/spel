@@ -576,6 +576,7 @@ function genRoot(rootPhonEntry) {
 function addWordToList(word, phonEntry, wordArray,
         availList, typeList) {
     /* if  already in list then don't add it */
+    Function.prototype(phonEntry);
     var i = 0,
         wordArrayLength = wordArray.length,
         langWordElem,
@@ -604,8 +605,8 @@ function addWordToList(word, phonEntry, wordArray,
         }
     }
     if (i >= (wordArrayLength - 1)){
-        throw new Error(wordArrayLength + " '" + word 
-            + "' undefined " + JSON.stringify(typeList["X" +
+        throw new Error(wordArrayLength + " '" + word +
+            "' undefined " + JSON.stringify(typeList["X" +
             word]));
     }
     console.log(word + " " + typeList["X" + word]);
@@ -630,10 +631,9 @@ function removeBlacklisted(wordLines, blacklist) {
         var word = line[0];
         if (blacklist.indexOf(word) === -1) {
             return true;
-        } else {
-            console.log(word + " removed");
-            return false;
-        }
+        } 
+        //console.log(word + " removed");
+        return false;
     });
 }
 
@@ -642,8 +642,8 @@ function main() {
         blackFileContents = io.fileRead("rootBlacklist.txt"),
         blackLines = stringToWordLines(blackFileContents),
         blacklist = wordOfEachLine(0, blackLines),
-        wordLines = stringToWordLines(fileContents),
-        wordLines = removeBlacklisted(wordLines, blacklist),
+        wordLinesRaw = stringToWordLines(fileContents),
+        wordLines = removeBlacklisted(wordLinesRaw, blacklist),
         //Glyph16File = io.fileRead("16GlyphWordList.txt"),
         //G16Lines = stringToWordLines(Glyph16File),
         //G16List = wordOfEachLine(0, G16Lines),
@@ -653,7 +653,9 @@ function main() {
         mainWords = wordOfEachLine(0, wordLines),
         phonJSON = io.fileRead("genPhonX.json"),
         phonObjX = JSON.parse(phonJSON),
-        //rootPhonJSON = io.fileRead("langWords.json"),
+        langWordJSON = io.fileRead("langWords.json"),
+        langWordObj = JSON.parse(langWordJSON),
+        rootPhonJSON = io.fileRead("rootPhon.json"),
         rootPhonObjX = JSON.parse(rootPhonJSON),
         //transEntry,
         phonEntry,
@@ -676,6 +678,8 @@ function main() {
         shortGramCount = 0,
         rootCount = 0,
         someWords = ["liberia", "litre", "brachylogia", "gamma"];
+    gramList = langWordObj.gramList;
+    rootList = langWordObj.rootList;
     // mainWords.map(getTranslations.curry(transObj));
     wordLines.forEach(function (line) {
         var word = line[0],
@@ -704,7 +708,8 @@ function main() {
             phonWord = phonEntry[langCode];
             if (phonWord !==  undefined) {
                 /*jslint bitwise:true*/
-                if (someWords.indexOf(word) > -1 || (gram && (gramCount > ((G28GramMax / 1.61) |
+                if (someWords.indexOf(word) > -1 || (gram &&
+                        (gramCount > ((G28GramMax / 1.61) |
                         0))) || rootCount > ((G28RootMax / 1.61) |
                         0) || (gram && (shortGramCount >
                         ((G28ShortGramMax / 1.61) | 0)))) {
@@ -731,29 +736,34 @@ function main() {
             addGlyphs(rootPhonEntry, glyphWord,
                 langWeights[langCode]);
         });
-        if (gram === "g") {
+        if (gram === "g" && 
+            gramList["X" + word] === undefined) { /* grammar word*/
             if (gramLength !== undefined) {
+                Function.prototype();
                // console.log(word + " " + gramLength);
             }
             genedGram =  genGram(rootPhonEntry, gramLength);
-            if (word === "future-tense") {
-                //console.log(gramLength !== 2);
-                //console.log(genedGram);
-            }
+            //if (word === "future-tense") {
+            //    //console.log(gramLength !== 2);
+            //    //console.log(genedGram);
+            //}
             G24List = addWordToList(word, phonEntry,
                 genedGram, G24List, gramList);
         /* if including all gram words as roots */
             G24List = addWordToList(word, phonEntry,
                 genRoot(rootPhonEntry), G24List, rootList);
-        } else {
+        } else if (rootList["X" + word] === undefined) { 
+            /* root word*/ 
             G24List = addWordToList(word, phonEntry,
                 genRoot(rootPhonEntry), G24List, rootList);
+        } else {
+            console.log(word + " present"); 
         }
         rootPhonObjX["X" + word] = rootPhonEntry;
     });
     //console.log(gramList);
     //console.log(rootList);
-    //io.fileWrite("rootPhon.json", JSON.stringify(rootPhonObj));
+    io.fileWrite("rootPhon.json", JSON.stringify(rootPhonObjX));
     outObj.mainWords = mainWords;
     outObj.gramList = gramList;
     outObj.rootList = rootList;

@@ -8,12 +8,10 @@ extern "C" {
 #include <stdint.h>
 #include "seed/seed.h"
 
-#define  SENTENCE_LENGTH 0xFF
-#define  WORD_LENGTH 0x04
 
 /*int main(int argc, char *argv[]) { */
 int main() { 
-    const char* text = " t cat ca clah kxih";
+    const char* text = " tcat ca clah kxih";
     const uint16_t length = 17;
     char DAT_text[SENTENCE_LENGTH];
     uint16_t DAT_GEN_length = SENTENCE_LENGTH;
