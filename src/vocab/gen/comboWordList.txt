@@ -96,7 +96,7 @@ electric-current g
 temperature g
 amount-of-substance g
 luminous-intensity g
-existential-quantifier g
+assertive-quantifier g
 elective-quantifier g
 universal-quantifier g
 negatory-quantifier g
@@ -610,6 +610,9 @@ compassion g
 hubris g
 humble g
 honour g
+accomplished g
+success g
+belongingness g
 
 
 be g
@@ -14495,6 +14498,7 @@ patience
 meditation
 ethics
 reincarnation
+rebirth
 tranquil
 benevolence
 forbearance
@@ -14515,6 +14519,7 @@ emptiness
 impermanence
 god
 soul
+mindstream
 illusion
 mana
 animism
@@ -14600,5 +14605,14 @@ bar
 status
 radio
 select
+bit
+octet
+digit
+binary
+trinary
+setup
+assign
+encode
+decode
 
 

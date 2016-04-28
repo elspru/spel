@@ -649,7 +649,7 @@ function main() {
         //G16List = wordOfEachLine(0, G16Lines),
         Glyph24File = io.fileRead("32GlyphWordList.txt"),
         G24Lines = stringToWordLines(Glyph24File),
-        G24List = wordOfEachLine(0, G24Lines),
+        availableList = wordOfEachLine(0, G24Lines),
         mainWords = wordOfEachLine(0, wordLines),
         phonJSON = io.fileRead("genPhonX.json"),
         phonObjX = JSON.parse(phonJSON),
@@ -678,8 +678,15 @@ function main() {
         shortGramCount = 0,
         rootCount = 0,
         someWords = ["liberia", "litre", "brachylogia", "gamma"];
-    gramList = langWordObj.gramList;
-    rootList = langWordObj.rootList;
+    if (langWordObj.gramList) {
+        gramList = langWordObj.gramList;
+    }
+    if (langWordObj.rootList) {
+        rootList = langWordObj.rootList;
+    }
+    if (langWordObj.availableList) {
+        availableList = langWordObj.availableList;
+    }
     // mainWords.map(getTranslations.curry(transObj));
     wordLines.forEach(function (line) {
         var word = line[0],
@@ -747,15 +754,15 @@ function main() {
             //    //console.log(gramLength !== 2);
             //    //console.log(genedGram);
             //}
-            G24List = addWordToList(word, phonEntry,
-                genedGram, G24List, gramList);
+            availableList = addWordToList(word, phonEntry,
+                genedGram, availableList, gramList);
         /* if including all gram words as roots */
-            G24List = addWordToList(word, phonEntry,
-                genRoot(rootPhonEntry), G24List, rootList);
+            availableList = addWordToList(word, phonEntry,
+                genRoot(rootPhonEntry), availableList, rootList);
         } else if (rootList["X" + word] === undefined) { 
             /* root word*/ 
-            G24List = addWordToList(word, phonEntry,
-                genRoot(rootPhonEntry), G24List, rootList);
+            availableList = addWordToList(word, phonEntry,
+                genRoot(rootPhonEntry), availableList, rootList);
         } else {
             console.log(word + " present"); 
         }
@@ -767,6 +774,7 @@ function main() {
     outObj.mainWords = mainWords;
     outObj.gramList = gramList;
     outObj.rootList = rootList;
+    outObj.availableList = availableList;
     io.fileWrite("gramWords.txt",
             formatDictionary(gramList, mainWords));
     io.fileWrite("rootWords.txt",

@@ -1,0 +1,2 @@
+virtual-machine.c:70:13:delete_empty_glyph_check	280	static
+virtual-machine.c:105:5:main	40	static

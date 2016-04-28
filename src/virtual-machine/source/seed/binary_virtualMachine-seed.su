@@ -1,0 +1,4 @@
+seed.c:142:6:delete_empty_glyph	24	static
+seed.c:173:6:derive_first_word	24	static
+seed.c:471:6:encode_ACC_word_DAT_number	48	static
+seed.c:551:6:align_word	56	static

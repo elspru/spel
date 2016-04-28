@@ -21,6 +21,7 @@ function formatMWordList(wordArray) {
 
 function updateWord(transWord, transLang) {
     transWord = transWord.replace(/\n/,"");
+    transWord = transWord.replace(/\s/g,"");
     if (transLang === "zh" || transLang === "hi") {
         transWord = transWord.replace(/ /,"");
         transWord = transWord.replace(/ /,"");
@@ -70,8 +71,8 @@ function main() {
             }, []);
         console.log("writing rootList for " + transLang);
         io.fileWrite(outPath + transLang + "-" +
-                transObj["Xroot"][transLang] + "_" +
-                transObj["Xlist"][transLang] + ".txt",
+                transObj.Xroot[transLang] + "_" +
+                transObj.Xlist[transLang] + ".txt",
             formatWordList(allLists[transLang].rootList));
         allLists[transLang].gramList = 
             mainWords.reduce(function (result, enWord) {
@@ -95,8 +96,8 @@ function main() {
             }, []);
         console.log("writing gramList for " + transLang);
         io.fileWrite(outPath + transLang + "-" +
-                transObj["Xgrammar"][transLang] + "_" +
-                transObj["Xlist"][transLang] + ".txt",
+                transObj.Xgrammar[transLang] + "_" +
+                transObj.Xlist[transLang] + ".txt",
             formatWordList(allLists[transLang].gramList));
     });
     allTransLangs.forEach(function (transLang) {
@@ -114,9 +115,9 @@ function main() {
             allWords.reduce(function (result, enWord) {
                 var bentry =  uniqueObj.blacklist[enWord],
                     entry = [],
-                    transWord;
+                    transWord = "";
+                Function.prototype(entry, transWord);
                 if (bentry) {
-                    transWord = 
                     entry.push(updateWord(transObj["X" +
                         enWord][transLang], transLang));
                     bentry = bentry.filter(approvedWords);
@@ -130,15 +131,14 @@ function main() {
             }, []);
         console.log("writing suggestList for " + transLang);
         io.fileWrite(outPath + transLang + "-" +
-                transObj["Xpropose"][transLang] + "_" +
-                transObj["Xlist"][transLang] + ".txt",
+                transObj.Xpropose[transLang] + "_" +
+                transObj.Xlist[transLang] + ".txt",
             formatMWordList(allLists[transLang].suggest));
     /* gen thesauruses/dictionary */
         allLists[transLang].thesaurus =
             mainWords.reduce(function (result, enWord) {
-                var bentry =  uniqueObj.blacklist[enWord],
-                    transArray = [];
-                    entry = [],
+                var transArray = [],
+                    entry = [];
                 entry.push(updateWord(transObj["X" +
                     enWord][transLang]));
                 transArray = uniqueObj.thesaurus[enWord];
@@ -158,7 +158,7 @@ function main() {
             }, []);
         console.log("writing thesaurus for " + transLang);
         io.fileWrite(outPath + transLang + "-" +
-                transObj["Xdictionary"][transLang] + ".txt",
+                transObj.Xdictionary[transLang] + ".txt",
             formatMWordList(allLists[transLang].thesaurus));
     });
     io.fileWrite("allLists.json", JSON.stringify(allLists));

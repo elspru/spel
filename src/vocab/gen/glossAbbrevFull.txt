@@ -14,6 +14,7 @@ AGR 	agreement
 ALLA 	allative case ('to')
 ALLOC 	allocutive agreement
 ALIEN 	alienable possession
+ALQ     alternative quantifier
 ANI 	animate gender (cf R)
 ANDA 	andative (going towards: cf venitive)
 ANTR 	anterior tense (used for PRF in some traditions)
@@ -28,7 +29,9 @@ APRX 	approximative
 ARTI 	article
 ASP 	aspect
 ASSU 	assumptive mood, assertive
+ASQ     assertive quantifier
 ATT 	attenuative; attributive (= ATTR)
+ATEL    atelic aspect
 AUD 	auditory evidential
 AUG 	augmentative
 AUX 	auxiliary verb
@@ -69,6 +72,7 @@ DEL 	delative case ('off of'), deliberative mood
 DEM 	demonstrative
 DEO 	deontic mood
 DEP 	dependent (as in DEP.FUT)
+DEPC    dependent-clause
 DESI 	desiderative mood
 DEST 	destinative aspect
 DET 	determiner
@@ -91,6 +95,7 @@ DUR 	durative aspect, continuous aspect
 DYAD 	dyadic
 DYN 	dynamic aspect
 ELA 	elative case ('out of')
+ELQ     elective quantifier
 EMP 	emphatic
 EPIS 	epistemic mood, epistemic modality
 ERG 	ergative case
@@ -106,6 +111,7 @@ EXIST 	existential ('there is')
 EXO 	exocentric case
 EXPER 	experiential, eyewitness, = direct evidential
 EXPL 	expletive (dummy / meaningless form)
+EXQ     existential quantifier
 FEM 	feminine gender
 FACT 	factive evidential
 FAM 	familiar register (as the T–V distinction)
@@ -179,6 +185,7 @@ MOM 	single action verb (not iterative)
 MVT 	movement
 NEUT 	neuter gender
 NEG 	negation, negative
+NEQ     negatory quantifier
 NH 	    non-human
 NOMI 	nominalizer/nominalization
 NOM 	nominative case
@@ -206,6 +213,7 @@ PM 	    phrase marker, predicate marker
 PRO 	pronoun
 PO 	    primary object
 POL 	polite register
+POSC    possessed case
 POSS 	possessive marker
 POST 	postposition, postpositional case
 POSTE 	postessive case ('after')
@@ -284,6 +292,7 @@ TVF 	truth-value focus
 U 	    uninflected
 UH 	    motion uphill, inland (cf UR)
 UND 	undergoer role (cf PAT)
+UNQ     universal quantifier
 UR 	    motion upriver (cf UH)
 USIT 	usitative
 VB 	    verb(al)

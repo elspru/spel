@@ -3,8 +3,8 @@ BINARY="vm"
 FLAGS="-Wall -Wextra -Wpedantic"
 CFLAGS="-std=c11"
 CXXFLAGS="-std=c++11"
-CFILES="vm.c seed/seed.c"
-FILES="vm seed/seed"
+CFILES="source/vm.c source/seed/seed.c"
+FILES="source/vm source/seed/seed"
 GPU_FILES="seed/seed"
 PURE_FILES=""
 CACHE_LIMIT=1024
@@ -31,11 +31,11 @@ DEBUGFLAGS="-gdwarf-4 -UNDEBUG -Wall -Wpedantic -Werror\
  -Woverlength-strings  -Wmissing-declarations"
 
 echo "cleaning"
-rm *.su
-rm build/*.map
-rm *.cpp
-rm build/vm*html
-rm build/vm*js
+rm source/*.su
+rm create/*.map
+rm source/*.cpp
+rm create/vm*html
+rm create/vm*js
 
 for FILE in $FILES
 do
@@ -48,35 +48,35 @@ done
 # checks
     
     # soure code checks
-    splint  vm.c -exportlocal && \
+    splint  source/vm.c -exportlocal && \
             echo "vm splint" &
-    #splint  seed/seed.c -exportlocal && \
+    #splint  source/seed/seed.c -exportlocal && \
     #        echo "seed split " &
-    cppcheck vm.c vmlib && echo "vmlib cppcheck" &
-    #scan-build $FILE
+    cppcheck source/vm.c vmlib && echo "vmlib cppcheck" &
+    #scan-create $FILE
     
 # compilation
-clang -Wglobal-constructors $CFLAGS $FLAGS vmlib.c -c \
-         -o build/vmlib.o && echo "vmlib clang" &
-gcc $GCCDEBUGFLAGS $CFLAGS $FLAGS vmlib.c -c -o build/vmlib.o && \
+clang -Wglobal-constructors $CFLAGS $FLAGS source/vmlib.c -c \
+         -o create/vmlib.o && echo "vmlib clang" &
+gcc $GCCDEBUGFLAGS $CFLAGS $FLAGS source/vmlib.c -c -o create/vmlib.o && \
         echo "vmlib gcc" &
 
-clang -Wglobal-constructors $CFLAGS $FLAGS seed/seed.c -c \
-         -o build/seed.o && echo "seed clang" &
-gcc $GCCDEBUGFLAGS $CFLAGS $FLAGS $GPUFLAGS seed/seed.c -c \
-        -o build/seed.o && \
+clang -Wglobal-constructors $CFLAGS $FLAGS source/seed/seed.c -c \
+         -o create/seed.o && echo "seed clang" &
+gcc $GCCDEBUGFLAGS $CFLAGS $FLAGS $GPUFLAGS source/seed/seed.c -c \
+        -o create/seed.o && \
         echo "seed gcc" &
 
-clang -S -emit-llvm -Wglobal-constructors -o build/$BINARY.ll \
-        $FLAGS $CXXFLAGS vm.cpp  && echo "clang vm"&
-gcc  $GXXDEBUGFLAGS $FLAGS vm.cpp build/seed.o -o build/vm \
+clang -S -emit-llvm -Wglobal-constructors -o create/$BINARY.ll \
+        $FLAGS $CXXFLAGS source/vm.cpp  && echo "clang vm"&
+gcc  $GXXDEBUGFLAGS $FLAGS source/vm.cpp create/seed.o -o create/vm \
        $CXXFLAGS && echo "vm gcc" &
 
 # echo "module.exports = Module; Module.inspect = function() {\
 #return '[Module]'; }; " | cat >> vm.js 
-emcc  vm.cpp seed/seed.c -o build/$BINARY.html  $FLAGS -s \
+emcc  source/vm.cpp source/seed/seed.c -o create/$BINARY.html  $FLAGS -s \
         EXPORTED_FUNCTIONS="['_run']" && echo "emcc HTML" &
-#emcc  vm.cpp lank-worker.cpp vmlib.c \
+#emcc  source/vm.cpp lank-worker.cpp vmlib.c \
 #        -o $BINARY-worker.js $FLAGS  -s \
 #        EXPORTED_FUNCTIONS="['_work']" && echo "emcc worker" &
 #emcc  lank-prez.cpp -o $BINARY-prez.html   $FLAGS -s \

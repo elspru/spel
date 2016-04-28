@@ -96,7 +96,7 @@ electric-current g
 temperature g
 amount-of-substance g
 luminous-intensity g
-existential-quantifier g
+assertive-quantifier g
 elective-quantifier g
 universal-quantifier g
 negatory-quantifier g

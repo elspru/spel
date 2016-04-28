@@ -49,3 +49,12 @@ bar
 status
 radio
 select
+bit
+octet
+digit
+binary
+trinary
+setup
+assign
+encode
+decode

@@ -1,0 +1,11 @@
+vmlib.c:8:6:error	16	static
+vmlib.c:13:6:nibbleToLankGlyph	24	static
+vmlib.c:40:9:lankGlyphToNibble	24	static
+vmlib.c:73:6:aUint16ToLankGlyphs	48	static
+vmlib.c:91:6:aUint32ToLankGlyphs	48	static
+vmlib.c:109:6:uint32ArrayToLankGlyphs	48	static
+vmlib.c:143:6:lankGlyphsToChar8Array	40	static
+vmlib.c:156:6:lankGlyphsToUint16Array	40	static
+vmlib.c:173:6:lankGlyphsToUint32Array	40	static
+vmlib.c:192:6:uint16ArrayToCharArray	32	static
+vmlib.c:210:6:charArrayToUint16Array	32	static

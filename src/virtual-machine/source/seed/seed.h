@@ -3,8 +3,21 @@
 
 #define GLOTTAL_STOP 0xC
 #define MAX_LENGTH 0xFFU
-#define  SENTENCE_LENGTH 0xFF
-#define  WORD_LENGTH 0x04
+#define SENTENCE_LENGTH 0xFF
+#define WORD_LENGTH 0x05
+#define WRONG_TYPE 0
+#define LONG_ROOT 1
+#define SHORT_ROOT 2
+#define LONG_GRAMMAR 3
+#define SHORT_GRAMMAR 4
+#define CONSONANT_ONE_WIDTH 5
+#define BANNER_WIDTH 3
+#define CONSONANT_TWO_WIDTH 3
+#define VOWEL_WIDTH 3
+#define TONE_WIDTH 2
+typedef int v4si __attribute__ ((vector_size (16)));
+typedef uint8_t v16uc __attribute__ ((vector_size (16)));
+typedef uint16_t v8us __attribute__ ((vector_size (16)));
 /*#define NULL 0*/
 
 

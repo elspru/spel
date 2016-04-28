@@ -89,7 +89,8 @@ var io = require("../../lib/io"),
     },
     allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt","es" ];
+        "fi", "el", "ka", "cy", "pl", "sr", "lt","es", "bn",
+        "pa", "he", "ja", "jv", "te", "ko", "mr" ];
 
 function stringToWordLines(string) {
     function lineToWords(line) {
@@ -116,7 +117,8 @@ function wordOfEachLine(wordIndex, wordLines) {
 }
 
 function translateWord(word, toLangCode) {
-    var shelljs = require("shelljs/global"),
+    var exec = require("shelljs").exec,
+        //exec = require("child_process").execSync,
         fromLangCode = "en",
         command = "",
         translation = "",
@@ -124,14 +126,17 @@ function translateWord(word, toLangCode) {
     word = word.replace(/\'/g, "");
     word = word.replace(/\-/g, " ");
     word = word.replace(/_/g, " ");
+    if (word === "") {
+        return "";
+    }
     command = "../gtranslate.sh " + fromLangCode + " " +
         toLangCode + " '" + word +"'";
     try {
-        translation = exec(command).output;
+        translation = exec(command, {timeout: 20000}).output;
     } catch (e) {
-        console.log("fail for " + command);
         console.log(e.stack);
         console.log(e);
+        console.log("fail for " + command);
     }
     if (translation.toLower &&
             translation.toLower() === word) {
@@ -189,6 +194,7 @@ function main() {
   //  });
     console.log("writing genTransX.json");
     io.fileWrite("genTransX.json", JSON.stringify(transObjX));
+    io.fileWrite("genTransX.json.bak", JSON.stringify(transObjX));
 //    console.log("writing genTrans2.json");
  //   io.fileWrite("genTrans2.json", JSON.stringify(transObj));
 }
