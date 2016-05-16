@@ -329,12 +329,14 @@ SUBDIRS = .
 noinst_LIBRARIES = library/library_seed.a
 library_library_seed_a_SOURCES = source/seed/seed.c
 library_library_seed_a_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS)\
-         -Wstack-usage=256
+         -Wstack-usage=256 # data bytes per warp
 
 binary_virtual_machine_SOURCES = \
     source/virtual-machine.c 
 
-binary_virtual_machine_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS) 
+binary_virtual_machine_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS) \
+         -Wstack-usage=32768  #L1 Cache
+
 binary_virtual_machine_LDADD = library/library_seed.a
 all: config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-recursive

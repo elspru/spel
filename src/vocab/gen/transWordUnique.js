@@ -92,7 +92,7 @@ var io = require("../../lib/io"),
     allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
         "fi", "el", "ka", "cy", "pl", "sr", "lt", "bn", "pa", 
-        "he"],
+        "he", "ja", "jv", "te", "ko", "mr", "hu" ],
     allPhonLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
         "fi", "el", "ka", "cy", "pl", "sr", "lt", "zhy", "es",
@@ -179,11 +179,15 @@ function returnIfUnique(transEntry, allDefinObj, index,
             return null;
            
         });
-        //word = word.replace(/\s/g, "");
+        if (word === undefined) {
+            return;
+        }
+        word = word.replace(/\s/g, "");
         //word = word.replace(/-/g, "");
-        //enDef = enDef.replace(/\s/g, "");
+        enDef = enDef.replace(/\s/g, "");
         //enDef = enDef.replace(/-/g, "");
-        if (word.toLowerCase() === enDef.toLowerCase() &&
+        if (word && enDef &&
+                word.toLowerCase() === enDef.toLowerCase() &&
                 key !== "en") {
             directBorrows += 1;
         }
@@ -208,13 +212,14 @@ function returnIfUnique(transEntry, allDefinObj, index,
         blacklist[enDef] = thesaurusEntry;
         //console.log(enDef + " blank");
         //console.log(thesaurusEntry);
-    } else if (directBorrows >=
-            Math.floor(allTransLangs.length /
-            Math.pow(1.618, 4))) {
+    } else if (directBorrows >
+            Math.round(allTransLangs.length /
+            Math.pow(1.618, 3))) {
         result = "BORROW"; 
-        thesaurusEntry.push("OVER_BORROWED:");
+        thesaurusEntry.push("OVER_BORROWED:" + directBorrows);
         blacklist[enDef] = thesaurusEntry;
-    } else if (rootBlacklist.indexOf(enDef) !== -1) {
+    } else if (rootBlacklist.indexOf(enDef) !== -1 ||
+        /\W/.test(enDef.replace(/-/,""))) {
         result = "BLIST"; 
         thesaurusEntry.push("BLIST:");
         blacklist[enDef] = thesaurusEntry;
@@ -324,6 +329,7 @@ function main() {
         // be add ob sub entry for each lang ya
         if (transEntry === undefined) {
             console.log(word + " undefined ");
+            uniqEntry = "UNDEF";
         } else {
             uniqEntry = 
                 returnIfUnique(transEntry, allDefObj, index, 
@@ -335,6 +341,10 @@ function main() {
             allDefObj = makeAllDefinObj(transObj, mainWords);
         } else if (uniqEntry === "BORROW") {
             console.log(word + " over borrowed ");
+            usedWords[usedWords.indexOf(word)] = null;
+            allDefObj = makeAllDefinObj(transObj, mainWords);
+        } else if (uniqEntry === "UNDEF") {
+            console.log(word + " undefined ");
             usedWords[usedWords.indexOf(word)] = null;
             allDefObj = makeAllDefinObj(transObj, mainWords);
         } else if (uniqEntry === "BLIST") {

@@ -10,7 +10,7 @@
 static const char consonant_group[] = {
     'p','t','k','f', 's','c','x','b', 
     'd','g','v','z', 'j','n','m','q', 
-    'r','l','y','w', '1','8','h'};
+    'r','l','y','w', '1','8','h','.'};
 static const uint8_t consonant_group_length = 23;
 static const char vowel_group[] = {'i','a','u','e','o','6'};
 static const uint8_t vowel_group_length = 6;
@@ -149,6 +149,7 @@ void delete_empty_glyph(const char* restrict text,
     assert(ACC_GEN_length <= *DAT_length);
     assert(text != NULL);
     assert(DAT_text != NULL);
+    assert(text != DAT_text);
     for (i = 0; i < ACC_GEN_length; i += 1) {
         glyph = text[i];
         if(consonant_Q(glyph) == TRUE ||
@@ -156,19 +157,23 @@ void delete_empty_glyph(const char* restrict text,
                 tone_Q(glyph) == TRUE) {
             DAT_text[j] = glyph;
             j += 1;
+        } else {
         }
     }
     *DAT_length = j;
 }
 
-static void text_copy(const char* restrict ACC_text, 
-    const uint8_t ABL_start, const uint8_t ALLA_end, 
-    char* restrict DAT_text) {
+void text_copy(const char* restrict ACC_text, 
+    const uint8_t length, char* restrict DAT_text) {
     uint8_t i;
-    for (i = 0; i + ABL_start < ALLA_end; i++) {
-        DAT_text[i] = ACC_text[i + ABL_start];
+    for (i = 0; i < length; i++) {
+        DAT_text[i] = ACC_text[i];
     }
 }
+
+#define derive_first_word_exit \
+    *DAT_GEN_length = 0; \
+    return; 
 
 void derive_first_word(const char* restrict ACC_sentence,
         const uint8_t ACC_GEN_length,
@@ -176,9 +181,12 @@ void derive_first_word(const char* restrict ACC_sentence,
         uint8_t* restrict DAT_GEN_length) {
     uint8_t start = 0;
     assert(ACC_sentence != NULL);
-    assert(ACC_GEN_length > 0);
+    if (ACC_GEN_length < 2) {
+        derive_first_word_exit;
+    }
+    assert(ACC_GEN_length > 1);
     assert(DAT_word != NULL);
-    assert(*DAT_GEN_length >= 4);
+    assert(*DAT_GEN_length >= WORD_LENGTH);
 /* algorithm:
     if glyph zero ESS vowel
     then if glyph two not ESS consonant
@@ -200,33 +208,48 @@ void derive_first_word(const char* restrict ACC_sentence,
     assert(vowel_Q(ACC_sentence[start + 0]) == TRUE ||
             consonant_Q(ACC_sentence[start + 0]) == TRUE);
     if (vowel_Q(ACC_sentence[start]) == TRUE) {
+        if (consonant_Q(ACC_sentence[start + 1]) == FALSE ||
+            consonant_Q(ACC_sentence[start + 2]) == FALSE) {
+                derive_first_word_exit;
+        }
         assert(consonant_Q(ACC_sentence[start + 1]) == TRUE);
         assert(consonant_Q(ACC_sentence[start + 2]) == TRUE);
         start = 2;
     } 
     if (consonant_Q(ACC_sentence[start]) == TRUE) {
         if (consonant_Q(ACC_sentence[start + 1]) == TRUE) {
+            if (vowel_Q(ACC_sentence[start + 2]) == FALSE) {
+                derive_first_word_exit;
+            }
             assert(vowel_Q(ACC_sentence[start + 2]) == TRUE);
             if (tone_Q(ACC_sentence[start + 3]) == TRUE) {
+                if (consonant_Q(ACC_sentence[start + 4]) ==
+                        FALSE) {
+                    derive_first_word_exit; 
+                }
                 assert(consonant_Q(ACC_sentence[start + 4]) ==
                     TRUE);
-                text_copy(ACC_sentence, start, start + 5,
+                text_copy(ACC_sentence + start, start + 5,
                     DAT_word);
                 *DAT_GEN_length = 5;
             } else {
+                if(consonant_Q(ACC_sentence[start + 3]) ==
+                        FALSE) {
+                    derive_first_word_exit; 
+                }
                 assert(consonant_Q(ACC_sentence[start + 3]) ==
                     TRUE);
-                text_copy(ACC_sentence, start, start + 4,
+                text_copy(ACC_sentence + start, start + 4,
                     DAT_word);
                 *DAT_GEN_length = 4;
             }
         } else if (vowel_Q(ACC_sentence[start + 1]) == TRUE) {
             if (tone_Q(ACC_sentence[start + 2]) == TRUE) {
-                text_copy(ACC_sentence, start, start + 3,
+                text_copy(ACC_sentence + start, start + 3,
                     DAT_word);
                 *DAT_GEN_length = 3;
             } else {
-                text_copy(ACC_sentence, start, start + 2,
+                text_copy(ACC_sentence + start, start + 2,
                     DAT_word);
                 *DAT_GEN_length = 2;
             }
@@ -471,6 +494,9 @@ static inline void encode_ACC_consonant_three(
     }
     assert(consonant_number != CONSONANT_THREE_ENCODE_LENGTH);
 }
+#define encode_exit \
+    *DAT_number = 0; \
+    return;
 void encode_ACC_word_DAT_number(const char* restrict word,
         const uint8_t ACC_GEN_length,
         uint16_t* restrict DAT_number){
@@ -505,19 +531,34 @@ void encode_ACC_word_DAT_number(const char* restrict word,
     //printf("type %X\n", (unsigned int) number);
     /* TEL fill ACC glyph variable PL */
     consonant_one = (uint8_t) word[0];
+    if (consonant_Q((char) consonant_one) == FALSE) {
+        encode_exit;
+    }
     assert(consonant_Q((char) consonant_one) == TRUE);
     if (ACC_GEN_length == 2) {
         vowel =  (uint8_t) word[1];
+        if(vowel_Q((char) vowel) == FALSE) {
+            encode_exit;
+        }
         assert(vowel_Q((char) vowel) == TRUE);
     } else if (ACC_GEN_length == 3) {
         vowel =  (uint8_t) word[1];
         tone =  (uint8_t) word[2];
+        if (vowel_Q((char) vowel) == FALSE ||
+                tone_Q((char) tone) == FALSE) {
+            encode_exit;
+        }
         assert(vowel_Q((char) vowel) == TRUE);
         assert(tone_Q((char) tone) == TRUE);
     } else if (ACC_GEN_length == 4) {
         consonant_two   = (uint8_t) word[1];
         vowel           = (uint8_t) word[2];
         consonant_three = (uint8_t) word[3];
+        if (consonant_Q((char) consonant_two) == FALSE ||
+                vowel_Q((char) vowel) == FALSE ||
+                consonant_Q((char) consonant_three) ==  FALSE) {
+            encode_exit;
+        }
         assert(consonant_Q((char) consonant_two) == TRUE);
         assert(vowel_Q((char) vowel) == TRUE);
         assert(consonant_Q((char) consonant_three) == TRUE);
@@ -526,6 +567,12 @@ void encode_ACC_word_DAT_number(const char* restrict word,
         vowel           = (uint8_t) word[2];
         tone            = (uint8_t) word[3];
         consonant_three = (uint8_t) word[4];
+        if (consonant_Q((char) consonant_two) == FALSE ||
+                vowel_Q((char) vowel) ==  FALSE ||
+                tone_Q((char) tone) == FALSE ||
+                consonant_Q((char) consonant_three) == FALSE) {
+            encode_exit;
+        }
         assert(consonant_Q((char) consonant_two) == TRUE);
         assert(vowel_Q((char) vowel) == TRUE);
         assert(tone_Q((char) tone) == TRUE);
@@ -553,42 +600,52 @@ void encode_ACC_word_DAT_number(const char* restrict word,
     *DAT_number = number;
 }
 
-void align_word(const char* restrict ACC_sentence, 
+void encode_ACC_word_PL(const char* restrict ACC_sentence, 
         const uint8_t ACC_GEN_length,
         uint16_t* restrict DAT_encode_sentence,
-        uint8_t* restrict DAT_GEN_length) {
+        uint8_t* restrict DAT_GEN_length,
+        uint8_t* restrict DAT_GEN_remainder) {
 /* identify if two glyph or four glyph word
-    if there is a three glyph word or bad parse
+    if there is a bad parse
     then return an error message, 
         which indicates the location of the error. 
-    if there is a two or four glyph word
-    then convert it to a uint32_t and store in DAT_sentence
 assumptions:
-    this is used in a reduce like manner, so many function
-    together, the last two glyphs can overlap with next 
-    sentence, so if they are a four glyph word then keep them, 
-    otherwise ignore. 
+    this is can be used in a reduce like manner, 
+    so many function together, which is enabled if length is
+    full width, or 0xFF the last two glyphs can 
+    overlap with next sentence, so if they are a four glyph word
+    then keep them, otherwise ignore. 
 algorithm:
-       
 */
     char DAT_word[WORD_LENGTH];
     uint8_t DAT_word_GEN_length = WORD_LENGTH;
     uint8_t i = 0;
     uint8_t j = 0;
     uint16_t number = 0;
+    uint8_t length = ACC_GEN_length;
+    if (ACC_GEN_length == 0xFF) { // see assumptions
+        length = 0xFF - 2;
+    }
     memset(DAT_word, 0, WORD_LENGTH);
     assert(ACC_sentence != NULL);
     assert(ACC_GEN_length > 0);
     assert(DAT_encode_sentence != NULL);
     assert(*DAT_GEN_length >= ACC_GEN_length / 2);
-    for(; i < ACC_GEN_length / 2; j++) {
+    for(; i < ACC_GEN_length; j++) { 
         derive_first_word(ACC_sentence + i, ACC_GEN_length - i,
             DAT_word, &DAT_word_GEN_length);
-            encode_ACC_word_DAT_number(DAT_word, 
-                DAT_word_GEN_length, &number);
-            i += DAT_word_GEN_length;
-            DAT_word_GEN_length = 4;
-            DAT_encode_sentence[j] = number;
+        printf("%s %d \n", ACC_sentence +i, 
+            (int) DAT_word_GEN_length);
+        if (DAT_word_GEN_length == 0) {
+            *DAT_GEN_remainder = ACC_GEN_length - i;
+            break;
+        }
+        encode_ACC_word_DAT_number(DAT_word, 
+            DAT_word_GEN_length, &number);
+        i += DAT_word_GEN_length;
+        DAT_encode_sentence[j] = number;
+        DAT_word_GEN_length = WORD_LENGTH;
     }
+    *DAT_GEN_length = j;
 }
 

@@ -1132,3 +1132,4 @@ token
 restart
 reboot
 recurse
+manually

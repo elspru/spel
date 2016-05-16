@@ -90,7 +90,8 @@ var io = require("../../lib/io"),
     allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
         "fi", "el", "ka", "cy", "pl", "sr", "lt","es", "bn",
-        "pa", "he", "ja", "jv", "te", "ko", "mr" ];
+        "pa", "he", "ja", "jv", "te", "ko", "mr", "hu", "nl",
+"da", "tl", "th" ];
 
 function stringToWordLines(string) {
     function lineToWords(line) {
@@ -126,13 +127,14 @@ function translateWord(word, toLangCode) {
     word = word.replace(/\'/g, "");
     word = word.replace(/\-/g, " ");
     word = word.replace(/_/g, " ");
-    if (word === "") {
+    word = word.replace(/\W/g, " ");
+    if (word === "" || /^\ *$/.test(word)) {
         return "";
     }
     command = "../gtranslate.sh " + fromLangCode + " " +
         toLangCode + " '" + word +"'";
     try {
-        translation = exec(command, {timeout: 20000}).output;
+        translation = exec(command, {timeout: 30000}).output;
     } catch (e) {
         console.log(e.stack);
         console.log(e);

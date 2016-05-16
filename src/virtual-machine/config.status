@@ -618,8 +618,8 @@ S["am__EXEEXT_FALSE"]=""
 S["am__EXEEXT_TRUE"]="#"
 S["LTLIBOBJS"]=""
 S["LIBOBJS"]=""
-S["MY_CFLAGS"]="-O2 -Iinclude -Wpedantic -std=c11 -Wno-coverage-mismatch -fstack-usage -Wstack-usage=1024 -Wlogical-op -Wno-aggressive-loop-optimizations -Wunsafe-l"\
-"oop-optimizations -Wdouble-promotion -Wmaybe-uninitialized  -Waggregate-return"
+S["MY_CFLAGS"]="-O2 -Iinclude -Wpedantic -std=c11 -Wno-coverage-mismatch -fstack-usage  -Wlogical-op -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations "\
+"-Wdouble-promotion -Wmaybe-uninitialized  -Waggregate-return"
 S["ac_ct_AR"]="ar"
 S["AR"]="ar"
 S["RANLIB"]="ranlib"

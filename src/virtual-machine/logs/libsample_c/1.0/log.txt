@@ -1,8 +1,0 @@
-Temporary header file '/tmp/PepQEOAGFo/dump1.h' with the following content will be compiled to create GCC translation unit dump:
-
-  // add includes
-  #include "/home/elspru/Desktop/0/5/lang/hapli/js/spel/src/virtual-machine/libsample_c/libsample.h"
-
-The GCC parameters:
-  gcc -fdump-translation-unit -fkeep-inline-functions -c -fpreprocessed -x c++-header -fpermissive -w "/tmp/PepQEOAGFo/dump1.i"
-

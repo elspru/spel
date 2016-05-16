@@ -3,7 +3,8 @@
 var io = require("../../lib/io"),
     allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt", "es"];
+        "fi", "el", "ka", "cy", "pl", "sr", "lt", "es", "bn",
+        "pa", "he", "ja", "jv", "te", "ko", "mr", "hu" ];
 
 function formatWordList(wordArray) {
         return wordArray.reduce(function(result, wordLine) {
@@ -57,9 +58,9 @@ function main() {
                     transWord;
                 if (word) {
                     word = word[0];
-                    if (word.length === 3) {
-                        word = "h" + word;
-                    }
+                    //if (word.length === 3) {
+                    //    word = "h" + word;
+                    //}
                     transWord = transObj["X" +
                         enWord][transLang];
                     transWord = updateWord(transWord, transLang);
@@ -82,9 +83,9 @@ function main() {
                     entry = [];
                 if (word) {
                     word = word[0];
-                    if (word.length === 3) {
-                        word = word + "h";
-                    }
+                    //if (word.length === 3) {
+                    //    word = word + "h";
+                    //}
                     transWord = transObj["X" +
                         enWord][transLang];
                     transWord = updateWord(transWord, transLang);

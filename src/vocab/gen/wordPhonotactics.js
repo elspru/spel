@@ -9,7 +9,6 @@
 /// su speakable programming for every language be title ya
 /// su la AGPL-3 be license ya
 /// be end of head ya
-"use strict";
 
 var highOrd = require("../../lib/hof");
 /// su hello be public function de
@@ -62,7 +61,7 @@ var alphabet = Bit3Alphabet;
 //var alphabet = Bit4Alphabet;
 //var alphabet = Glyph19Alphabet;
 var alphabet = Glyph24Alphabet;
-var alphabet = Glyph28Alphabet;
+//var alphabet = Glyph28Alphabet;
 //var alphabet = Glyph31Alphabet;
 //var alphabet = Bit5Alphabet;
 var comment = "C16G kya";
@@ -81,9 +80,6 @@ var initialSonorityDifference = 0;
 var totalSonorityDifference = 0;
 var yAfterI = false;
 var wAfterU = false;
-if (noPhonotactics) noPhonotacticsSet();
-if (loosePhonotactics) loosePhonotacticsSet();
-if (strictPhonotactics) strictPhonotacticsSet();
 function noPhonotacticsSet(){
 	initialAffricates = true;
 	finalAffricates = true;
@@ -126,6 +122,15 @@ function strictPhonotacticsSet(){
     yAfterI = false;
     wAfterU = false;
 }
+if (noPhonotactics) {
+    noPhonotacticsSet();
+}
+if (loosePhonotactics) {
+    loosePhonotacticsSet();
+}
+if (strictPhonotactics) {
+    strictPhonotacticsSet();
+}
 // su phoneme sonority be dictionary of glyph with unit8 ya
 /*Dict<glyph,uint8>*/ alphabet.sonority = {
 	"i":0x70,
@@ -167,15 +172,18 @@ alphabet.voicing = {
 		"r","l","w","m","n","1","2","q","4","5","1","8"],
 	"un":["p","t","k","f","s","c","x"],
 	"vo":["b","d","g","v","z","j","6"]
-}
+};
 alphabet.voicing.getType = function(glyph){
 	var voicing = alphabet.voicing;
-	if(voicing["al"].indexOf(glyph)!==-1)
+	if(voicing.al.indexOf(glyph)!==-1) {
 		return "al";
-	if(voicing["un"].indexOf(glyph)!==-1)
+    }
+	if(voicing.un.indexOf(glyph)!==-1) {
 		return "un";
-	if(voicing["vo"].indexOf(glyph)!==-1)
+    }
+	if(voicing.vo.indexOf(glyph)!==-1) {
 		return "vo";
+    }
 	 /*else*/ return null;
 };
 alphabet.voicing.checkType = function(glyph,type){
@@ -200,28 +208,37 @@ alphabet.phonemeClass = {
 	"n":["n","m","q"], // nasals
 	"f":["f","s","c","x","h","v","z","j","6"], // fricatives
 	"p":["p","t","k","b","d","g"], // plosives
+    "a":["y","w","l"], // approximants
 	"l":["l"], //liquids
 	"t":["r"], // trills
 	"g":["y","w"] // glides
-}
+};
 alphabet.phonemeClass.getType = function(glyph){
 	var phonCla = alphabet.phonemeClass;
-	if(phonCla["V"].indexOf(glyph)!==-1)
+	if(phonCla.V.indexOf(glyph)!==-1) {
 		return "V";
-	if(phonCla["C"].indexOf(glyph)!==-1)
+    }
+	if(phonCla.C.indexOf(glyph)!==-1) {
 		return "C";
-	if(phonCla["F"].indexOf(glyph)!==-1)
+    }
+	if(phonCla.F.indexOf(glyph)!==-1) {
 		return "F";
-	if(phonCla["S"].indexOf(glyph)!==-1)
+    }
+	if(phonCla.S.indexOf(glyph)!==-1) {
 		return "S";
-	if(phonCla["g"].indexOf(glyph)!==-1)
+    }
+	if(phonCla.g.indexOf(glyph)!==-1) {
 		return "g";
-	if(phonCla["H"].indexOf(glyph)!==-1)
+    }
+	if(phonCla.H.indexOf(glyph)!==-1) {
 		return "H";
-	if(phonCla["T"].indexOf(glyph)!==-1)
+    }
+	if(phonCla.T.indexOf(glyph)!==-1) {
 		return "T";
-	if(phonCla["."].indexOf(glyph)!==-1)
+    }
+	if(phonCla["."].indexOf(glyph)!==-1) {
 		return ".";
+    }
 	 /*else*/ return null;
 };
 alphabet.phonemeClass.checkType = function(type,glyph){
@@ -232,24 +249,32 @@ alphabet.phonemeClass.checkType = function(type,glyph){
 
 // su syllable weight be array of string ya
 var /*array<String>*/ syllableWeight = [
-	[".","V"],
+/*	[".","V"],
 	["H","V"],
-	["V","T"],
+	["H","V","T"],*/
 	["C","V"],
+	["L","V"],
 	["C","V","T"],
-	["C","S","V"],
-	["C","S","V","T"],
-   	["C","V","F"],
-   	["C","V","T","F"],
+	["L","V","T"],
+	["C","S","V","H"],
+	["L","g","V","H"],
+	["C","S","V","T","H"],
+	["L","g","V","T","H"],
+   	["H","C","V","F"],
+   	["H","L","V","F"],
+   	["H","C","V","T","F"],
+   	["H","L","V","T","F"],
 	["C","S","V","F"],
+	["L","g","V","F"],
 	["C","S","V","T","F"],
+	["L","g","V","T","F"],
 /*	["C","V","C","C"],
 	["C","V","T","C","C","H"] */
 ];
 
 // su words generate be generate bo word array for syllable with
 function alphabetCheck(type,glyph){
-	return alphabet.phonemeClass.checkType(type,glyph);};
+	return alphabet.phonemeClass.checkType(type,glyph);}
 // alphabet ya
 function /*array<String>*/ wordsGenerate(
 		/*String*/ alphabet, /*String*/ syllable){
@@ -258,41 +283,45 @@ function /*array<String>*/ wordsGenerate(
 	
 	function alphabetFilter(alphabet,type){
 		return alphabet.filter(alphabetCheck.curry(type));
-	};
+	}
 	var alphabetConsonants = alphabetFilter(alphabet,"C");
 	var alphabetFinals = alphabetFilter(alphabet,"F");
 	var alphabetSeconds = alphabetFilter(alphabet,"S");
 	var alphabetGlides = alphabetFilter(alphabet,"g");
 	var alphabetVowels = alphabetFilter(alphabet,"V");
 	var alphabetPauses = alphabetFilter(alphabet,".");
+	var alphabetApprox = alphabetFilter(alphabet,"a");
+	var alphabetClicks = alphabetFilter(alphabet,"L");
 	var alphabetTones = alphabetFilter(alphabet,"T");
 	var alphabetHyphens = alphabetFilter(alphabet,"H");
 	//console.log(alphabetConsonants);
 	//console.log(alphabetVowels);
 	//console.log(alphabetPauses);
 /// be create bo word for each element with glyph appended ya
-	var result = new Array("");
+	var result = [""];
 	function appendNext(glyphs, elem, index, elemString){
+        Function.prototype(index);
 		// expand glyphs by prepending elem
 		// can check that it is compatible type
 		// i.e. if glyph pripriority of last of elem is
 		// higher or vowel then can append.
 		// if following a vowel then reverse.
 		var previousGlyph = ""; 
-		if (elem.length>0) 
+		if (elem.length>0) {
 			previousGlyph = elem[elem.length-1];
+        }
 		//if (alphabetVowels.indexOf(previousElement)!==-1){
 		//	&& alphabet.previous
 		//	&& alphabet.phonemePhonotactics(previousElement) >=
 		//	&& alphabet.
 		var sonority = alphabet.sonority;
-		var vowels = alphabetVowels;
-		var conson = alphabetConsonants;
+		//var vowels = alphabetVowels;
+		//var conson = alphabetConsonants;
 		function glyphTypes(glyphs){
 			var glyphsArray = glyphs.split("");
 			return glyphsArray.expand(alphabet.
 					phonemeClass.getType);
-		};
+		}
 		var hasVowel = false;
 		var elemStringTypes; 
 		if (elemString.length>=1){
@@ -303,24 +332,26 @@ function /*array<String>*/ wordsGenerate(
 		}
 		function appendGlyph(glyph){
 		// if previous same then none;
-			if (!samePhonemeTwice 
-			     && previousGlyph === glyph)
+			if (!samePhonemeTwice && previousGlyph === glyph) {
 				return null;
+            }
 		// if previous vowel then return proper
 		//	if (alphabetCheck("V",previousGlyph))
 		//		return elem+glyph;
 		// if hyphen return proper
-			if (alphabetCheck("H",glyph))
+			if (alphabetCheck("H",glyph)) {
 				return elem+glyph;
+            }
 		// if this or previous tone return proper
-			if (alphabetCheck("T",glyph)|| 
-			    alphabetCheck("T",previousGlyph))
+			if (alphabetCheck("T",glyph)||  
+			    alphabetCheck("T",previousGlyph)) {
 				return elem+glyph;
+            }
 		// no glides together
-			if (!adjacentGlides
-			    && alphabetCheck("g",glyph)
-			    && alphabetCheck("g",previousGlyph))
+			if (!adjacentGlides && alphabetCheck("g",glyph) &&
+                    alphabetCheck("g",previousGlyph)) {
 				return null;
+            }
 		// no "pm" initials
 		//	if (previousGlyph==="p" && glyph === "m")
 		//		return null;
@@ -328,16 +359,19 @@ function /*array<String>*/ wordsGenerate(
 			
 			if (!plosiveNasalInitials && !hasVowel &&
 			    alphabetCheck("p",previousGlyph)&&
-			    alphabetCheck("n",glyph))
+			    alphabetCheck("n",glyph)) {
 				return null;
+            }
 			if (!yAfterI && hasVowel &&
-			    previousGlyph == 'i' &&
-			    glyph == 'y' )
+			    previousGlyph === 'i' &&
+			    glyph === 'y' ) {
 				return null;
+            }
 			if (!wAfterU && hasVowel &&
-			    previousGlyph == 'u' &&
-			    glyph == 'w' )
+			    previousGlyph === 'u' &&
+			    glyph === 'w' ) {
 				return null;
+            }
 		// no plosive-nasal finals
 		//	if (hasVowel &&
 		//	    alphabetCheck("n",previousGlyph)&&
@@ -349,109 +383,135 @@ function /*array<String>*/ wordsGenerate(
 			//	previousLevel = 0xFF;
 
 		 //if sonority plateau then none
-			if (!sonorityPlateau 
-				&& thisLevel === previousLevel
-				&& !alphabetCheck("V",glyph))
+			if (!sonorityPlateau &&
+                    previousGlyph !== "h" &&
+                    thisLevel === previousLevel &&
+                    !alphabetCheck("V",glyph)) {
 				return null;
+            }
 
 		// if elem contains this glyph then none
-		if (uniquePhonemes && elem.indexOf(glyph)!==-1)
+		if (uniquePhonemes && elem.indexOf(glyph)!==-1) {
 				return null;
+        }
 		// if sonority difference less than some amount
 		//		then return none
-			if (!hasVowel 
-			   && initialSonorityDifference > 0
-			   && !alphabetCheck("V",glyph)
-			   //&& !alphabetCheck("V",previousGlyph)
-			   && Math.abs(thisLevel-previousLevel)
-			   < initialSonorityDifference)
+			if (!hasVowel && previousGlyph !== "h" && 
+                    initialSonorityDifference > 0 &&
+                    !alphabetCheck("V",glyph) &&
+                    Math.abs(thisLevel-previousLevel) <
+                    initialSonorityDifference) {
 				return null;
-			if (totalSonorityDifference > 0
-			   && !alphabetCheck("V",glyph)
-			   && !alphabetCheck("V",previousGlyph)
-			   && Math.abs(thisLevel-previousLevel)
-			   <totalSonorityDifference)
+            }
+			if (totalSonorityDifference > 0 &&
+                    !alphabetCheck("H",previousGlyph) &&
+                    !alphabetCheck("V",glyph) &&
+                    !alphabetCheck("V",previousGlyph) &&
+                    Math.abs(thisLevel-previousLevel) <
+                    totalSonorityDifference) {
 				return null;
+            }
 
 		// if previous higher before vowel then none;
-			if (!sonorityInversion
-			   && !hasVowel && previousLevel > thisLevel)
+			if (!sonorityInversion && !hasVowel &&
+                    previousGlyph !== "h" &&
+                    previousLevel > thisLevel) {
 				return null;
+            }
 		// if previous lower after vowel then none;
-			if (!sonorityInversion
-			   && hasVowel && previousLevel < thisLevel){
+			if (!sonorityInversion && hasVowel &&
+                    previousLevel < thisLevel){
 		// unless final affricates
-				if (!finalAffricates)
+				if (!finalAffricates) {
 					return null;
+                }
 		// then allow affricates
-				if (!alphabetCheck("p",previousGlyph)
-				  || !alphabetCheck("f",glyph))
+				if (!alphabetCheck("p",previousGlyph) ||
+                        !alphabetCheck("f",glyph)) {
 					return null;
+                }
 			}
 		// if previous with different voice then none;
 			var alvoice = alphabet.voicing;
 			var thisVoice =	alvoice.getType(glyph);
 			var previousVoice;
 		// if previous is none set to all voice
-			if (previousGlyph==="")
+			if (previousGlyph==="") {
 				previousVoice="al";
-			else previousVoice=alvoice.getType(previousGlyph);
+            } else { 
+                previousVoice=alvoice.getType(previousGlyph);
+            }
 
 		// if neither is all voice and have different
 		// voices then return null ya
 			if (thisVoice !== "al" && previousVoice!=="al" &&
-					previousVoice !== thisVoice)
+					previousVoice !== thisVoice) {
 				return null;
+            }
 		// else return elem with glyph;
-			return elem+glyph
-		};
+			return elem + glyph;
+		}
 		return glyphs.expand(appendGlyph);
 	}
 	var i;
 	for (i=0;i<syllable.length;i++){
 	//for (i in syllable){
-	if (syllable[i]=="C"){
+	if (syllable[i]==="C"){
 		result = result.expand(appendNext.curry(alphabetConsonants));
-	}else if(syllable[i]=="V"){
+	}else if(syllable[i]==="V"){
 		result = result.expand(appendNext.curry(alphabetVowels));
-	}else if(syllable[i]=="F"){
+	}else if(syllable[i]==="F"){
 		result = result.expand(appendNext.curry(alphabetFinals));
-	}else if(syllable[i]=="S"){
+	}else if(syllable[i]==="S"){
 		result = result.expand(appendNext.curry(alphabetSeconds));
-	}else if(syllable[i]=="g"){
+	}else if(syllable[i]==="g"){
 		result = result.expand(appendNext.curry(alphabetGlides));
-	}else if(syllable[i]=="."){
+	}else if(syllable[i]==="a"){
+		result = result.expand(appendNext.curry(alphabetApprox));
+	}else if(syllable[i]==="L"){
+		result = result.expand(appendNext.curry(alphabetClicks));
+	}else if(syllable[i]==="."){
 		result = result.expand(appendNext.curry(alphabetPauses));
-	}else if(syllable[i]=="H"){
+	}else if(syllable[i]==="H"){
 		result = result.expand(appendNext.curry(alphabetHyphens));
-	}else if(syllable[i]=="T"){
+	}else if(syllable[i]==="T"){
 		result = result.expand(appendNext.curry(alphabetTones));
 	}
 	}
 	return result;
-};
+}
 
 // su main be function ya
 function main(alphabet, syllableWeight){
-	var single = true; // if  single word per line
 	"use strict";
+	var single = true; // if  single word per line
 	// generate all words based on syllable weight
-	var allWords = syllableWeight.expand(wordsGenerate.curry(alphabet));
+	var allWords = syllableWeight.expand(wordsGenerate.
+            curry( alphabet));
 	loosePhonotacticsSet();
-	var looseWords = syllableWeight.expand(wordsGenerate.curry(alphabet));
+	var looseWords = syllableWeight.expand(wordsGenerate.
+            curry(alphabet));
 	var userWords = allWords.expand(function(word){
-		if (looseWords.indexOf(word)!==-1)
+		if (looseWords.indexOf(word)!==-1) {
 			return null;
+        }
 		return word;
 	});
-	if (userWords.length>0) allWords=userWords;
+	if (userWords.length>0) {
+        allWords=userWords;
+    }
 	// print 12 words per row
 	var wordsPerRow = 12;
-	if (single) wordsPerRow = 1;
+	if (single) {
+        wordsPerRow = 1;
+    }
 	var allWordsLength = allWords.length;
-	var fullRowsAmount = parseInt(allWordsLength /wordsPerRow);
-	if (!single) fullRowsAmount++; 
-	var remainingAmount = allWordsLength % wordsPerRow;
+	var fullRowsAmount = parseInt(allWordsLength / wordsPerRow,
+        10);
+	if (!single) { 
+        fullRowsAmount++; 
+    }
+	//var remainingAmount = allWordsLength % wordsPerRow;
 	var out;
 	var i;
 	for (i = 0; i < fullRowsAmount; i++){
@@ -459,8 +519,10 @@ function main(alphabet, syllableWeight){
             wordsPerRow);
 		out = out.join(" ");
 		// quote grammar words
-		if (alphabetCheck("V",out[out.length-1])
-|| alphabetCheck("T",out[out.length-1])) out = out ;//+ " li";
+		if (alphabetCheck("V",out[out.length-1]) ||
+            alphabetCheck("T",out[out.length-1])) {
+            Function.prototype();//+ " li";
+        }
 		// if single make into nominative
 		//if (single ) out = out + " hu "+comment+" ya";
 		console.log(out);

@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1>SPEL Instruction Set Architecture</h1>
+<h2>Points of Compatibility</h2>
+<p>
+CPU's inherenatly are very capable, so don't offer many
+limitations to what can be done, so being compatible with them
+is easy, though certainly still an important consideration. 
+</p>
+
+<p>
+Because GPU's currently have the best price to giga-flops ratio, 
+(around $0.08 per Gigaflop as of Jan 2015), 
+they are the most important type of device to be compatible
+with.
+</p>
+<p>
+Wheras GPU's are very fast, FPGA's are very maleable, in fact
+the most maleable, so it good to be compatible with them. To
+that end, we'll seek SystemC compatibility. 
+</p>
+<p>
+However considering that other important technologies are likely
+going to eventually replace GPU's as price performance leaders,
+it is good to keep those possiblities in mind. 
+</p>
+<p>
+Quantum Computers is where we are headed, and they offer many
+new and wonderful opportunities.  They also have a unique way of
+doing computations, which is most easily emulated in current
+hardware with reversible circuits. 
+</p>
+<p>Reversible circuits may be a step that we may experience once
+three dimensional processors are commonplace, and before Quantum
+Computer are as reversible cirucits can lower the amount of heat
+ that is generated.
+</p>
+
+<p>Mutation compatability is also important for generating
+algorithms automatically. There is a sweet spot between the
+simplicity of the language, and the functionality that it gives,
+where it is both easy to generate correct programs, and they
+have sufficient ability to accomplish a variety of tasks.</p>
+
+<p>Javascript compatability is important because Javascript is
+the most portable programming language in the world, as it works
+on all devices enabled with a modern web browser.</p>
+
+<h3>CPU Compatability</h3>
+Modern CPU's have a wide slew of abilities. 
+One underutilized by a majority of programming languages is many
+SIMD or vector operations which are provided. 
+
+So certainly have to have support for vector operations. 
+
+<h3>GPU compatability</h3>
+Notably OpenCl does not support goto or jump instructions,
+thus we are limited to loop instructions for any repetitive
+activities. OpenCl also tends to inline all functions as far as
+I understand, so there is no call and return which are jump
+based. In fact there is no traditional "return" value, as used
+in much of functional-paradigm programming, instead some of the
+input parameters are written to in order to make output. 
+
+<ul>
+<li>64KB consonant memory </li>
+<li>32KB working memory per device</li>
+<li>32B of registers per compute unit</li>
+</ul>
+
+<h4>for SPEL</h4>
+<ul>
+<li>64KB fits data and complete code size of loaded functions</li>
+<li>32KB working memory available for loaded functions</li>
+<li>32B is sentence size</li>
+</ul>
+
+
+
+<h3>memory partition:</h3>
+32KB of constant memory for code segment
+32KB of shared memory for data and bss
+
+<h3>FPGA and SystemC compatibility</h3>
+<p>
+One notable limitation of SystemC is a lack of
+floating-point-numbers. there are only fixed point numbers
+enabled by default, since floating-point-numbers require a large
+number of circuits to implement. 
+
+</p><p>
+This somewhat opens the door to exploration of various kinds of
+partial number representation schemes.  though it is safe to say
+that we should stick to unsigned ints as much as possible, with
+signed ones possible if necessary. 
+
+</p><p>
+Another limitation is that FPGA's don't have true loops, as all
+loops are unrolled and inlined. So it is necessary to have a
+limited number of iterations for any loop in order to fit on the
+hardware. 
+
+</p><p>
+Thus while and until loops aren't viable, only for loops, with
+well defined iteration and boundaries, so they can be unrolled. 
+
+</p><p>
+Somewhat of a feature of FPGA programming is that input and
+output are expressely defined. This is similar to human
+languages where the dative is the output. 
+</p>
+
+<h3>Quantum Computer and Reversible Circuit Compatibility</h3>
+<p>
+Fredkin and Toffoli gates are universal gates with which all
+other gates can be constructed. 
+
+</p><p>
+Toffoli Gate is a controlled flip of bits,
+and Fredkin Gate is a control switch of bits.
+both of them can be supported. 
+</p><p>
+It may also be possible to in source mark something as
+reversible, in which case could arrive at the input based on the
+output. 
+</p><p>
+This may save some hassle as if one writes a reversible encoder,
+then it can likely also decode simply by pushing the bits
+backwards. 
+</p><p>
+For implementing reversible computing on a functional level it
+is somewhat similar to dataflow programming, in terms that each
+function "consumes" the input, however to make it reversible
+the output has to have enough information to reverse the
+operations. For-example an addition would modify one of the
+input values, but leave the other one unmodified, thus making it
+possible to "undo" the the addition using subtraction. 
+</p>
+
+<hr/>
+<h3>Mutation Compatability</h3>
+In order to be useable for AI's to easily evolve algorithms as
+accomplished by <a
+href="http://www.primaryobjects.com/2015/01/05/self-programming-artificial-intelligence-learns-to-use-functions/">Kory
+Becker</a> the code at some level has to support mutation. 
+
+For instance in Kory's Brainplus has few opportunities for
+parsing errors, so generating proper code is fairly easy. 
+
+The easiest way of demonstrating it, is by showing that
+brainplus can be mapped to SPEL.
+
+<table>
+<tr><th>Brainplus command</th>
+    <th>meaning</th>
+    <th>C command</th>
+    <th>SPEL command</th>
+</tr>
+<tr>
+<td>program start</td>
+<td>
+establishes a modifiable array for processing
+</td>
+<td>
+char array[0x8000] = {0};
+char *ptr=array;
+</td>
+<td>
+</td>
+</tr>
+<tr><td>&gt;</td><td>increment data pointer</td>
+    <td>++ptr;</td><td></td></tr>
+<tr><td>&lt;</td><td>decrement data pointer</td>
+    <td>--ptr;</td><td></td></tr>
+<tr><td>+</td><td>increment byte at data pointer</td>
+              <td>++*ptr;</td><td></td></tr>
+<tr><td>-</td><td>decrement byte at data pointer</td>
+              <td>--*ptr;</td><td></td></tr>
+<tr><td>[</td><td>if byte at data pointer is zero then jump to
+matching closing square bracket.</td><td>while (*ptr) {</td>
+        <td></td></tr>
+<tr><td>]</td><td>if byte at data pointer is non-zero, 
+    jump to preceding matching opening square bracket.</td>
+    <td>}</td><td></td></tr>
+<tr><td>.</td><td>output byte at data pointer</td>
+        <td>putchar(*ptr);</td><td></td></tr>
+<tr><td>,</td><td>input byte to data pointer</td>
+        <td>*ptr=getchar();</td><td></td></tr>
+<tr><td>$</td>overwrite byte in storage with byte at pointer<td>
+        </td><td></td></td></tr>
+<tr><td>!</td>overwrite byte at pointer with byte in storage<td>
+        </td><td></td></td></tr>
+<tr><td>0-F</td><td>sets value of pointer to multiple of 16</td>
+        <td></td></td></tr>
+<tr><td>a-z</td><td>call function a-z based on location in code</td>        <td></td></td></tr>
+<tr><td>@</td><td>exit program, or if in function, return to last
+position in main program and restore state</td><td></td></td></tr>
+<tr><td></td><td></td><td></td></td></tr>
+<tr><td></td><td></td><td></td></td></tr>
+<tr><td></td><td></td><td></td></td></tr>
+<tr><td></td><td></td><td></td></td></tr>
+</table>
+
+<hr/>
+<h2>Commands</h2>
+
+<h3>verbs</h3>
+<dl>
+<dt>flip</dt>
+<dd>like NOT, and CNOT this is a Toffoli Gate</dd>
+<dt>switch</dt>
+<dd>like exchange, this is a Fredkin Gate</dd>
+<dt>Add</dt>
+<dt>Subtract</dt>
+<dt>Loop</dt>
+<dt>Label</dt>
+<dt>Multiply</dt>
+<dt>Divide</dt>
+<dt>logical not</dt>
+<dt>logical and</dt>
+<dt>logical and-or</dt>
+<dt>logical exclusive-or</dt>
+<dt>logical shift up</dt>
+<dt>logical shift down</dt>
+</li>
+</dl>
+<h3>Cases</h3>
+<dl>
+<dt>Conditional</dt>
+<dd>there can be a condition that must be satisfied before
+the sentence is performed</dd>
+<dt>Accusative</dt>
+<dd>The main object or input the sentence</dd>
+<dt>Dative</dt>
+<dd>The destination or output of the sentence</dd>
+<dt>Instrumental case</dt>
+<dd>an additional input for the sentence</dd>
+</dl>
+<h3>Conjunctions</h3>
+<dl>
+<dt>unconditional then</dt>
+<dt>conditional and</dt>
+<dt>conditional and-or</dt>
+</dl>
+<h3>Data Types</h3>
+<dl>
+    <dt>unsigned integer</dt>
+    <dd>8bit, 16bit, 32bit. <br/> 
+        Also used for text, such as UTF-8, UTF-16 and UTF-32
+    </dd>
+    <dt>signed integer</dt>
+    <dd>8bit, 16bit, 32bit</dd>
+</dl>
+<h4>Extended Types</h4>
+</dl>
+    <dt>large unsigned integer</dt>
+    <dd>64bit, 128bit, 256bit</dd>
+    <dt>large signed integer</dt>
+    <dd>64bit, 128bit, 256bit</dd>
+    <dt>floating point</dt>
+    <dd>32bit, 64bit, 128bit, 256bit</dd>
+    <dt>unsigned fixed point</dt>
+    <dd>32bit, 64bit, 128bit, 256bit</dd>
+    <dt>signed fixed point</dt>
+    <dd>32bit, 64bit, 128bit, 256bit</dd>
+</dl>
+
+Those basics will be enough for turing completeness, and maximum
+compatability. 
+
+For ease of writing source code can have a call and return, 
+knowing that it will be inlined for both GPU's and FPGA's. 
+
+<hr/>
+<h3>Basics</h3>
+using SSA static-single-assignment
+
+<p>
+each warp gets a sentence, or several sentences,
+those parts of it which are numbers it can solve immediately, 
+those of it which are variables it has to wait on. 
+Once a sentence has been solved, and it's SSA output variable 
+has been filled by a number, other 
+</p>
+
+<p>
+for purposes of source-code can use compound words for variable names,
+but for bytecode purposes those compounds will be converted to click-words, 
+so there will only be a single word per variable. 
+There are at least 100's, possibly thousands of SPEL-legal click-words so there should be quite a sufficient amount. though would have to have enough space in order for the full variable to be expressed in the code. 
+</p>
+
+<p>
+tould also have pointers to the data in the code, though may need something like pointer inactive and pointer active. for instance it could be a variable name when inactive, and a pointer when active.
+</p>
+
+
+<hr/>
+<h3>Chapters</h3>
+<p>
+code segment is a chapter.
+The idea is that any output to global memory would occur at the end of the chapter, and any input from global memory would occur at the begining of a chapter. 
+</p>
+
+<p>
+For instance a Reduce instruction, at the begining each warp may load an appropriate variable from global memory.  But then some of them will have to wait while others compute earlier results. 
+Then the final sentence would write the result to global memory. 
+</p>
+
+<p>
+However in a map operation, each warp would write to their corresponding global memory. So begining and end refering to time rather than place. 
+</p>
+<p>
+In any case the idea is that there should be no cross-chapter references, except via global memory input at start, or global memory output at end.
+</p>
+
+<hr/>
+<h3>Loops</h3>
+<p>
+traditionally implemented with jumps for control flow. but can do it by using different variables, ones starting with a lateral click "8", are a loop, and once loop is finished they can be replaced with a dental click "!".
+</p>
+<p>
+To show that are within a loop, the initial bit of the index can
+be a 0. With the final line of the loop having an initial bit of
+1. 
+Also for blocks which have no dependancies also have an initial
+index bit of 1. 
+</p>
+
+<hr/>
+<h3>Pointers to Shared Memory:</h3>
+<p>
+a 16bit pointer could address the whole shared memory space, and
+half the constant space. considering some GPU's don't have
+constant space, or split constant and shared space, 
+it should be sufficient.  CPU's have L1 cache, which is usually
+around 32KB nowadays, so having 16bit addressing should be more
+than enough.
+</p>
+<p>
+It may actually be best to limit ourselved to only
+the first 32KB to fit in the L1 cache, so that would be 16KB of
+code or around 512 blocks, with up to 16 instructions per block,
+though more realistically 8.  so approximately 4096 instructions
+or phrases per chapter, average sentence consists of 3 phrases,
+so around a thousand sentences per chapter. 
+</p>
+<p>
+For human reading, a chapter is best kept between the 5 minute
+attention span of a toddler and the 20 minute attention span of
+a focused adult. Often a rule of thumb used is 10 minutes. 
+</p>
+<p>
+Reading speed for most languages is between 155-213 words per
+minute, and there are up to 15 words per block, so a human could
+read about 12 blocks a minute, or a 120 blocks in 10 minutes, or
+240 blocks in 20 minutes. So would only need 8KB even for a 20
+minute chapter. 
+</p>
+<p>
+currently the encoder and it's tests combined come to around 6
+thousand words or 31 minute read. though a bunch of those are 
+compound names of variables and functions, and there are several
+stages in the program. a 16KB code area would allow for 40 
+minute chapters if necessary.
+</p>
+<p>
+can have the code held in constant space, allowing for probably even 32KB of code,  and simply have a listing of the variables in the shared memory space.   
+</p>
+for instance could give a number for the variable, and a length,
+could also have a bit index at the start of the code in order to more quickly find where the variable is. 
+that way wouldn't have to do search and replace in multiple locations,  once the variable is initialized, it is done. 
+there would also have to be a flag to indicate that a variable has been initialized.  
+</p>
+<p>
+Admitedly this kind of system would be harder to debug than the afformentioned one -- and would be less elegant.  However the aforementioned one would require that the sentence have enough space for the whole variable.
+</p>
+<p>
+Also the variable lookup table version would mean the code doesn't get modified,  as modifying the code can be problematic,  though sometimes it is good, such as for reflective metaprogramming.
+</p>
+<h2>High Level Overview</h2>
+There can be different sections or parts to the code:
+<dl>
+    <dt>Main Thread</dt>
+    <dd>the entry and exit point of the program. 
+Also where all input and output occurs</dd>
+    <dt>Worker Thread</dt>
+    <dd>These is for functions optimized to run on other CPU cores.</dd>
+    <dt>GPU Thread</dt>
+    <dd>This is for functions that are optimized for GPU.
+    <dt>FPGA Thread</dt>
+    <dd>This optional at this point, but would be for functions
+that would be implemented on the FPGA</dd>
+</dl>
+
+<p>
+Each level has more restrictions than the previous level, so one
+of the most restricted level will work on the previous levels.  
+</p>
+<p>
+The main chapter is the only one that will have input and
+output.  The compiler will complain if the main chapter is too
+large, and suggest making other chapters. 
+</p>
+<p>
+Also each function has limits also. Ideally no function should
+comprise no more than 60 rows and 60 columns, with the ideal
+being closer to 56 on both counts,  as that is the most stable
+isotope of iron, and also how many lines fit on a page, and how
+many characters per line is conducive to quickest reading. So
+that a maximum of about 52 blocks per function, though SPEL is
+highly compressed language, so can round down to 48 blocks,
+-- which is an even number in dozenal and hexadecimal -- and
+probably would still have slightly more words than would fit on
+a piece of paper when translated to just about any language
+other than SPEL's interlingua. 
+</p>
+<p>
+considering that can fit at least 10 functions or pages in a
+chapter. 
+</p>
+
+<h2>Error Reporting</h2>
+<p>
+Since except for the main chapter, there is no input or output,
+there has to be a different way of reporting errors and making
+assertions. One way, so to have an output variable which will
+take any error messages, similar to an stderr.  These could be
+channeled up like exceptions until they reach the main chapter. 
+</p><p>
+Exceptions are thrown using apprehensive-mood.
+try is deliberative-mood.
+and catch is hypothetical-mood. 
+</p><p>
+Error reporting in this way does have some overhead, so it may
+be possible to turn off, like assertions, at least for
+production code. 
+</p><p>
+Also unlike exceptions, it will probably take a bit longer to
+propogate to the main thread, as there would be a check
+installed at each output of a function, to see if it has
+produced an error, if so, then the function itself will exit,
+forwarding the error, until it is caught somewhere up the stack.
+
+<h2>Quotes</h2>
+<p>
+The quote is probably the most complicated part of the encoding. 
+It is best for it to come at the begining of the phrase, that
+way can know how long the rest of it is, and load it all up,
+before assigning it to a register designated by the case.
+</p><p>
+The quote starts with the Quote Flag, which is 30. which takes
+up 5 bits. The following 3 bits gives the length.
+<ol start="0">
+<li>unsigned 8 bit quote</li>
+<li>signed 8 bit quote</li>
+<li>pointer</li>
+<li>16 bit quote</li>
+<li>32 bit quote</li>
+<li>64 bit quote</li>
+<li>128 bit quote</li>
+<li>256 bit quote</li>
+</ol>
+The next 8 bits are either the 8 bit quote, or they provide more
+type information. The first bit shows weather it is constant data,
+or is a pointer to the data, the remaining 7 bits are type
+information.
+<ol start="0">
+<li>constant</li>
+<li>pointer</li>
+</ol>
+<ol start="0">
+<li>constant</li>
+<li>constant</li>
+<li>constant</li>
+<li>constant</li>
+<li>constant</li>
+<li>constant</li>
+<li>constant</li>
+<li>constant</li>
+<li>constant</li>
+<li>unsigned integer</li>
+<li>signed integer</li>
+<li>floating point</li>
+<li>fixed point</li>
+<li>rational number</li>
+<li>complex number</li>
+<li>ASCII</li>
+<li>UTF-8</li>
+<li>UTF-16</li>
+<li>UTF-32</li>
+<li>SPEL encoding</li>
+</ol>
+
+<h2>Internationalization</h2>
+<p>
+Probably one of the main points of this programming language is
+that can write a program in one language, and it becomes
+available in all other languages. 
+</p><p>
+Taking the example of gettext, simply by having a different kind
+of quote, such as one that quotes legal SPEL utterances can be
+translated automatically based on locality. 
+</p>
+
+<h2>Syntax</h2>
+<dl>
+    <dt>infinintive ni</dt>
+    <dd>for verbs</dd>
+    <dt>accusative-case ka</dt>
+    <dd>for input</dd>
+    <dt>dative-case pa</dt>
+    <dd>for output, only holds pointers. 
+    though it can point to a register, 
+    which is assumed to be the first several byte locations 
+    of memory</dd>
+    <dt>instrumental-case se</dt>
+    <dd>for extra (constant) input</dd>
+    <dt>quote</dt>
+    <dd>for various input types</dd>
+</dl>
+
+<h2>Linear Genetic Programming</h2>
+<p>Core operations</p>
+<ol start="0">
+    <li>load accusative</li>
+    <li>load instrumental</li>
+    <li>load dative</li>
+    <li>add</li>
+    <li>subtract</li>
+    <li>conditional</li>
+    <li>label or start-codon starts a function</li>
+    <li>jump to forward label</li>
+    <li>function end or stop-codon 
+        stops a function and returns to main thread</li>
+</ol>
+<p>extended operations depending on domain. 
+also could use other library functions.
+here are some examples of builtins that are provided my assembly
+languages: </p>
+<ul>
+    <li>loop to previous label</li>
+    <li>no operation</li>
+    <li>multiply</li>
+    <li>divide</li>
+    <li>modulo</li>
+    <li>and</li>
+    <li>and-or</li>
+    <li>shift up</li>
+    <li>shift down</li>
+    <li>exclusive-or</li>
+    <li>absolute value</li>
+    <li>negate</li>
+    <li>exponent</li>
+    <li>logarithm</li>
+    <li>square root</li>
+    <li>cube root</li>
+    <li>power</li>
+    <li>hypoteneuse</li>
+    <li>sine</li>
+    <li>arc sine</li>
+    <li>cosine</li>
+    <li>arc cos</li>
+    <li>tangent</li>
+    <li>arc tangent</li>
+    <li>round</li>
+    <li>max</li>
+    <li>min</li>
+    <li>truncate</li>
+    <li>gamma function</li>
+    <li>random number</li>
+</ul>
+<p>
+and others which may be listed on <a
+href="https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html#Other-Builtins"
+>GCC builtins</a>
+
+<p>
+The idea is to have only around 20 functions.
+</p>
+
+<h2>Evolutionary Computer-programming</h2>
+
+<h3>steady constraints</h3>
+<ul>
+    <li>input and conclusion elements</li>
+    <li>words provided for genetics</li>
+    <li>information kinds provided</li>
+    <li>working memory provided</li>
+    <li>resources use weight of information kinds</li>
+    <li>resources use weight of words</li>
+</ul>
+<h3>work constraints</h3>
+<ul>
+    <li>check set of inputs and conclusions</li>
+    <li>economy coefficient recipe</li>
+</ul>
+<h3>crowd constraints</h3>
+<ul>
+    <li>208 member can be maximum for crowd</li>
+    <li>56 member can be begining for crowd</li>
+    <li>migration luck can be near 2%</li>
+    <li>fertility rate near 6</li>
+</ul>
+
+<h3>evolutionary processing</h3>
+<ol>
+    <li>use steady constraints for create first crowd</li>
+    <li>different crowd island(s) for each compute unit.
+        each crowd can have different subset of instructions. 
+        the number of functions can be between golden-ratio and
+1 over golden-ratio,  the functions would then be added to the
+roster at random, so some functions may be there more than once,
+making them more likely to occur in the crowd population.</li>
+    <li>per crowd 
+    <ol>
+        <li>choose two set of random persons.<br/>
+            enough so those that fail are replaced by children
+            of the heros. 4 per set. </li>
+        <li>account economy coefficient for set</li>
+        <li>account growth luck for crowd. 
+            50-atan(crowd length - 56)*31</li>
+        <li>per person on GPU
+            <ol>
+            <li>evaluate economy of full person</li>
+            <li>detect of waste and effective expressions</li>
+            <li>evaluation of fit for effective expressions</li>
+            <li>return fit and effective expressions</li>
+            </ol>
+        </li>
+        <li>championship
+            <ol>
+                <li>detect person from each set that maximum fit
+                </li>
+            </ol>
+        </li>
+        <li>produce children
+            <ol>
+                <li>do crossover of random or effective
+                expressions between parents to make children</li>
+                <li>do mutations, can replace functions with
+                    those functions which are available for a
+                    crowd. new migrants can add new functions.
+                <li>replace those that fail with children</li>
+                <li>can add additional children if growth
+                    luck succeeds</li>
+                <li>if some of the removed persons had unique
+                    functions, they can be removed from mutation
+                    possiblity for that crowd. </li>
+                <li>can remove some children if growth
+                    luck fails</li>
+            </ol>
+        </li>
+        <li>children and-or parents may migrate to other 
+            crowd. no copy remains in old crowd of those that
+            migrate.</li>
+     </ol>
+    </li>
+</ol>
+
+</body>
+</html>

@@ -3,8 +3,8 @@ var io = require("../lib/io"),
     irc = require('irc'),
     botb = require("./ircBotBase"),
     initObj = JSON.parse(io.fileRead("/etc/spel/bots.conf")),
-    initBitlObj = JSON.parse(io.fileRead
-        ("/etc/spel/bitlBots.conf")),
+    initBitlObj = JSON.parse(io.fileRead(
+        "/etc/spel/bitlBots.conf")),
     bot,
     bitlBot;
 initObj.name = "sris";
@@ -71,10 +71,13 @@ initObj.channels.forEach(function (channel) {
             fileWords = fileContents.split(" "),
             line = "." + timeStamp + ".mu." + from + ".nwo " +
                 message;
+        if (/^\ *\//.test(line)) {
+            return;
+        }
         console.log(line);
         initBitlObj.channels.forEach(function (channel) {
             if (channel !== "&bitlbee") {
-                bitlBot.say(channel, from + " " + message);
+                bitlBot.say(channel, /*from + ":" + */ message);
                 console.log("cross posted to " + channel);
             }
         });

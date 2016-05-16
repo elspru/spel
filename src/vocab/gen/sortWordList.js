@@ -66,7 +66,7 @@ function compareToWordListIndex(wordList, mainWordLine,
             matchEx,
             index = -1;
         word = word.replace(/\./,"");
-        matchEx = new RegExp("^" + word + "$")
+        matchEx = new RegExp("^" + word + "$");
         while (match === null) {
             index += 1;
             match = wordList[index].match(matchEx);
@@ -116,27 +116,25 @@ function uniqueLines(wordLines) {
         allFirstWords = wordLines.map(function (wordLine) {
             return wordLine[0];
         }),
-        uniqueLines;
-    uniqueLines = wordLines.filter(function (wordLine, index) {
+        uniqueLinesV;
+    uniqueLinesV = wordLines.filter(function (wordLine, index) {
         var word = wordLine[0];
         matchingWords = 
                 allFirstWords.expand(function (defWord, defIndex) {
             if (word === defWord) {
                 return defIndex;
-            } else {
-                return null;
             }
+            return null;
         });
         if (matchingWords.length >= 1 &&
                 matchingWords[0] !== index){
             //console.log(word + " " + matchingWords);
             return false;
-        } else {
-            return true;
         }
+        return true;
             
     });
-    return uniqueLines;
+    return uniqueLinesV;
 }
 
 

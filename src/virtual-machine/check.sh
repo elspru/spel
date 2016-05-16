@@ -1,1 +1,1 @@
-make clean && make && ./binary/virtual-machine
+make clean && make && valgrind -q binary/virtual-machine 

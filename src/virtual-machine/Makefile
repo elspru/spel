@@ -267,7 +267,7 @@ LIBS =
 LTLIBOBJS = 
 MAKEINFO = ${SHELL} /home/elspru/spel/src/virtual-machine/missing makeinfo
 MKDIR_P = /bin/mkdir -p
-MY_CFLAGS = -O2 -Iinclude -Wpedantic -std=c11 -Wno-coverage-mismatch -fstack-usage -Wstack-usage=1024 -Wlogical-op -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations -Wdouble-promotion -Wmaybe-uninitialized  -Waggregate-return
+MY_CFLAGS = -O2 -Iinclude -Wpedantic -std=c11 -Wno-coverage-mismatch -fstack-usage  -Wlogical-op -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations -Wdouble-promotion -Wmaybe-uninitialized  -Waggregate-return
 OBJEXT = o
 PACKAGE = vm
 PACKAGE_BUGREPORT = 
@@ -329,12 +329,14 @@ SUBDIRS = .
 noinst_LIBRARIES = library/library_seed.a
 library_library_seed_a_SOURCES = source/seed/seed.c
 library_library_seed_a_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS)\
-         -Wstack-usage=256
+         -Wstack-usage=256 # data bytes per warp
 
 binary_virtual_machine_SOURCES = \
     source/virtual-machine.c 
 
-binary_virtual_machine_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS) 
+binary_virtual_machine_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS) \
+         -Wstack-usage=32768  #L1 Cache
+
 binary_virtual_machine_LDADD = library/library_seed.a
 all: config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-recursive

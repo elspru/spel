@@ -6,9 +6,8 @@ AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile])
 
 # Custom Define
-CACHE_LIMIT=1024
 MY_CFLAGS="-O2 -Iinclude -Wpedantic -std=c11 -Wno-coverage-mismatch\
- -fstack-usage -Wstack-usage=$CACHE_LIMIT -Wlogical-op\
+ -fstack-usage  -Wlogical-op\
  -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations\
  -Wdouble-promotion -Wmaybe-uninitialized \
  -Waggregate-return"
