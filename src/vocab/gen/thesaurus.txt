@@ -18,6 +18,11 @@ us: zh:, we, ar:, our, ar:, ours, hu:, ourselves
 it: ar:, he, tr:, that, tr:, she, fr:, this, lt:, these, te:, which
 destination-case: id:, objective-case
 dative-case: 
+realis-mood: 
+deontic-mood: 
+conditional-mood: ar:, subjunctive-mood, el:, hypothetical-mood
+epistemic-mood: 
+instrumental-case: 
 interior-context: 
 person-context: 
 dependent-clause: 
@@ -35,7 +40,6 @@ adpositional-case:
 location-case: 
 space-context: 
 way-case: 
-instrumental-case: 
 interrogative-mood: 
 and-or: 
 exclusive-or: 
@@ -54,14 +58,12 @@ social-context:
 when: ka:, whenever, mr:, ever
 imperfective-aspect: hu:, continuous-aspect
 there: jv:, exist, jv:, thursday
-conditional-mood: ar:, subjunctive-mood, el:, hypothetical-mood
 more: sw:, over, sw:, most, sw:, further, sw:, beyond, sw:, upward, sw:, upwards, de:, multi, vi:, than, vi:, rather, ta:, also, ta:, moreover, fr:, plus, pl:, still, pl:, yet, pl:, else, sr:, several, sr:, multiple, pa:, other, pa:, otherwise, jv:, another, jv:, rest
 elative-case: zh:, inelative-case
 up: zh:, upward, zh:, upwards, hi:, over, hi:, above, hi:, upstairs, de:, overhead, id:, rise, id:, board, id:, ride, vi:, onto, vi:, increasingly, ta:, until, ta:, till, ta:, unless, fa:, high, fa:, top, fa:, upper, it:, out, it:, upon, sr:, worse, mr:, on
 illative-case: 
 do: sw:, make, sw:, perform, sw:, undertake, de:, render, ar:, activate, id:, did, id:, commit, bn:, put, pa:, what, pa:, react, jv:, anything, jv:, whether, jv:, whatever, jv:, working
 directive-mood: zh:, indicative-mood
-deontic-mood: 
 question-word: 
 person: zh:, man, zh:, people, hi:, individual, sw:, somebody, sw:, someone, ar:, guy, ru:, human, el:, face, ka:, mouth, ka:, entity, ja:, personality, jv:, him, jv:, them, jv:, personally, jv:, pedestrian, ko:, fellow
 male: de:, masculine-, ar:, mention, id:, gentleman, ta:, man, jv:, gentle, te:, female
@@ -72,7 +74,6 @@ time: sw:, while, sw:, moment, sw:, during, sw:, timely, vi:, duration, vi:, tem
 time-context: 
 temporal-case: 
 about: zh:, regarding, id:, concerning, ru:, nearly, ru:, circa, it:, of, it:, by, it:, than, fi:, around, el:, for, ka:, user, ka:, complain, lt:, on, bn:, almost, ja:, approximately, jv:, thing, jv:, respect, jv:, chapter, ko:, drug
-epistemic-mood: 
 literal: cy:, literally, pa:, real, pa:, original, pa:, absolute, he:, verbal, te:, literary, ko:, exact, ko:, accurate, ko:, precise
 only: hi:, just, hi:, merely, hi:, simply, vi:, point, vi:, mere, tr:, purely, lt:, confined, pa:, barely, ko:, bay, mr:, alone, mr:, bare
 little: zh:, small, zh:, tiny, hi:, slight, hi:, slightly, id:, bit, tr:, minor, tr:, petty, ta:, diminutive, ta:, portable, cy:, few, pa:, lightly, te:, short
@@ -161,7 +162,6 @@ morning: hi:, a.m., ta:, breakfast
 terminative-case: 
 power: hi:, strength, hi:, energy, sw:, might, sw:, strong, sw:, force, sw:, powerful, sw:, dynamic, ar:, salad, id:, dominance, el:, authority
 themselves: sw:, ourselves, de:, yourself, id:, himself, id:, myself, id:, herself, id:, itself, id:, self, id:, ego, ka:, chapter, jv:, alone
-present: hi:, current, sw:, now, sw:, currently, de:, gift, tr:, exist, tr:, available, pa:, incumbent, jv:, nowadays, jv:, queue, mr:, attend
 voice: sw:, sound, sw:, aloud, id:, ballot, tr:, audio, ru:, vote, it:, item, it:, rumour, it:, rumor, mr:, noise
 white: fr:, blank, cy:, complaint
 money: hi:, wealth, sw:, silver, sw:, financial, sw:, cash, sw:, currency, sw:, finance, sw:, monetary
@@ -218,7 +218,6 @@ thousand: sw:, thousandth, ko:, clothes, ko:, cloth
 family: zh:, household, fi:, survivor
 soul: hi:, spirit, fa:, ghost, fi:, mastermind
 care: zh:, concerned, zh:, concern, hi:, attention, hi:, meditation, sw:, service, ar:, sponsorship, ta:, guard, ta:, safety, ta:, protection, ta:, security, ta:, defense, ta:, preservation, ta:, conservation, ta:, coverage, ta:, defence, pt:, caution, it:, cure, fi:, treatment, pl:, custody, mr:, worry, mr:, worried, mr:, worrying, hu:, providing
-realis-mood: 
 mean: zh:, imply, sw:, sense, sw:, meaning, sw:, meaningful, fi:, denote, el:, middle, el:, agent, lt:, medium, lt:, average, lt:, moderate, jv:, essentially, te:, understand
 different: zh:, distinct, zh:, differ, hi:, various, hi:, varied, hi:, multiple, sw:, difference, sw:, separate, sw:, variation, sw:, separately, sw:, variability, sw:, differential, ar:, unlike, ar:, variant, id:, vary, id:, diverse, vi:, other, vi:, else, ru:, another, ka:, variety, bn:, several, jv:, differently
 potential-mood: 
@@ -1778,6 +1777,7 @@ artisan: sw:, mechanic, sw:, plumber
 banana: bn:, tissue
 rib: fa:, gear
 nickel: ka:, none
+currently: sw:, now, sw:, present, sw:, current, he:, nowadays, jv:, queue
 bus: sw:, let
 censor: zh:, censorship, bn:, critic
 missile: de:, rocket

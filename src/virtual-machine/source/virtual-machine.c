@@ -99,23 +99,49 @@ static void derive_first_word_check() {
 }
 
 static void encode_word_PL_check() {
-   /* load file of words
-        delete the spaces
-        loop through them
-        encode all the words 
-        one L1 cache at a time
-    */
-    const char text[] = "tcatkahsacpc";
+    const char text[] = "hyinkahtutsuhkakpanyiktu";
     const uint8_t text_length = strlen(text);
     uint16_t encode_sentence[SENTENCE_LENGTH/WORD_LENGTH];
     uint8_t encode_sentence_length = SENTENCE_LENGTH/WORD_LENGTH;
     uint8_t remainder = 0;
+    uint8_t i = 0;
     memset(encode_sentence, 0, encode_sentence_length);
     encode_ACC_word_PL(text, text_length, encode_sentence,
         &encode_sentence_length, &remainder);
     printf("encode_word_PL %X remainder %X \n", 
         (unsigned int) encode_sentence_length,
         (unsigned int) remainder);
+    for (i = 0; i < encode_sentence_length; i++) {
+        printf("0x%X ", (unsigned int) encode_sentence[i]);
+    }
+    printf("\n");
+}
+
+static void lump_encode_check() {
+    const char text[] = "hyinkahtutsuhkakpanyiktu";
+    const uint8_t text_length = strlen(text);
+    uint16_t encode_sentence[SENTENCE_LENGTH/WORD_LENGTH];
+    uint8_t encode_sentence_length = SENTENCE_LENGTH/WORD_LENGTH;
+    uint8_t remainder = 0;
+    uint16_t lump[LUMP_WORD_LENGTH * MAX_SENTENCE_LUMP];
+    uint8_t lump_length = LUMP_WORD_LENGTH * MAX_SENTENCE_LUMP;
+    uint8_t i = 0;
+    memset(encode_sentence, 0, encode_sentence_length*2);
+    memset(lump, 0, lump_length*2);
+    encode_ACC_word_PL(text, text_length, encode_sentence,
+        &encode_sentence_length, &remainder);
+    printf("encode_word_PL %X remainder %X \n", 
+        (unsigned int) encode_sentence_length,
+        (unsigned int) remainder);
+    lump_encode(encode_sentence, encode_sentence_length,
+        lump, &lump_length, &remainder);
+    printf("lump_length %X remainder %X \n", 
+        (unsigned int) lump_length,
+        (unsigned int) remainder);
+    for (i = 0; i < lump_length; i++) {
+        printf("0x%X ", (unsigned int) lump[i]);
+    }
+    printf("\n");
 }
 
 static void read_paper(const char *file_name,
@@ -217,8 +243,6 @@ static void full_encode_check() {
             derive_first_word(DAT_storage + i, derive_length, word,
                 &word_length);
             i += word_length;
-            word[word_length] = (char) 0;
-            //printf("%s %X\n", word, (unsigned int) word_length); 
             if (word_length > 0) {
                 encode_ACC_word_DAT_number(word, word_length, 
                     &number);
@@ -266,19 +290,21 @@ static void full_encode_check() {
     }
 }
     
-static void check_hello_word() {
-    /*const char* text = "tcatkahsac";
+static void check_hello_world() {
+    /*const char* text = "tcatkahsactu";
     const uint8_t text_length = strlen(text); */
 }
+
 
 static void check_ACC_all() {
     delete_empty_glyph_check();
     derive_first_word_check();
     encode_check();
     encode_word_PL_check();
+    lump_encode_check();
     /* full encode check */
     full_encode_check();
-    check_hello_word();
+    check_hello_world();
 }
 
 int main(int argc, char *argv[]) { 

@@ -49,7 +49,7 @@ our: spring, us
 some: nothing
 upon: up
 may: capable, could
-now: present, anymore
+now: currently, anymore
 like: love, hold, resemble
 can: could, box, capable, know
 should: must, send
@@ -139,6 +139,7 @@ until: even, before, up
 since: then, first, because
 used: old, recycle, familiar
 rather: instead, more, not
+present: currently
 less: low, down, least
 within: inner, deep, between
 together: collective, set, conjunction
@@ -691,7 +692,7 @@ kindly: please
 dignity: honour
 catch: hold, arrest, take
 amongst: between
-current: present, stream
+current: currently, stream
 possibly: probability, perhaps, could
 slave: slavery, servant, addicted
 separate: separated, different, individually, specialty
@@ -823,7 +824,7 @@ record: recording, disk, save
 fat: oil, thick, province
 flat: apartment, nonremittal, plan
 departure: go, exit
-gift: reward, present, visit
+gift: reward, visit
 skill: capable
 temple: house, cathedral, church
 license: permission, patent
@@ -927,7 +928,7 @@ indicate: enter, show, think
 poem: poetry, song
 arise: appear, happen
 voyage: expedition, traveller
-attend: join, present
+attend: join
 afford: capable, buy, give, bear
 donate: contribute, give
 job: work, day
@@ -956,7 +957,7 @@ spare: additional, replace
 domestic: civil, inner, resident, national, servant
 farm: agricultural, form, field
 reference: referential, memory, quote
-exist: presence, present, stand, there
+exist: presence, stand, there
 alike: trademark
 issue: terms, trouble, theme, matter
 providing: provided, give, care
@@ -1125,7 +1126,7 @@ row: line, set, government, order
 poverty: poor
 bottle: glass
 intense: edge, violent, gross
-available: provided, present, availability, effective
+available: provided, availability, effective
 fix: improve, steady, stare
 unusual: abnormal, irregular, strange
 derive: derivative, derived
@@ -2287,7 +2288,7 @@ jar: glass, pot
 sauce: dressing
 rotten: lazy, immoral, poor
 behavior: behaviour
-nowadays: yesterday, recently, present, modern
+nowadays: yesterday, currently, recently, modern
 pamphlet: trademark
 loan: credit, quote
 unreasonable: rational, nonsense, irrational, reckless
@@ -3034,7 +3035,7 @@ windy: trademark
 survival: lifestyle, vowel
 freeze: frozen
 weave: knit
-incumbent: established, present
+incumbent: established
 apathy: indifference
 daytime: trademark
 organize: organization, prepare, legislate, manage, composition
@@ -3482,7 +3483,6 @@ axiom: prove
 skim: trademark
 pest: insect
 pill: tablet, ball
-currently: present
 media: press
 wreckage: ruin
 corpus: body, set
@@ -3753,7 +3753,7 @@ intensify: reinforce, intensifier, chronic
 notation: mark
 typically: generally, irregular, often, tend, especially
 commitment: promise
-queue: tail, order, present
+queue: tail, order, currently
 bracket: clip, elbow, hook, supporter, support, parenthesis
 disruption: trademark
 spa: trademark

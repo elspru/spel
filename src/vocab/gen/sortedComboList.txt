@@ -23,6 +23,11 @@ to g
 destination-case g 2
 dative-case g 2 en of
 in g
+realis-mood g 2
+deontic-mood g 2
+conditional-mood g 2
+epistemic-mood g 2
+instrumental-case g 2
 interior-context g 2 en in
 first-person g
 person-context g 2
@@ -55,7 +60,6 @@ location-case g 2 en at
 space-context g 2
 by g
 way-case g 2
-instrumental-case g 2
 which
 interrogative-mood g 2
 have
@@ -91,7 +95,6 @@ when
 imperfective-aspect g 2
 there g 3
 if g
-conditional-mood g 2
 more g 3
 out
 elative-case g 3
@@ -100,7 +103,6 @@ into
 illative-case g 3
 do
 directive-mood g 2
-deontic-mood g 2
 any
 your
 what g
@@ -123,7 +125,6 @@ temporal-case g 3
 upon
 about g
 may g
-epistemic-mood g 2
 literal
 only g 3
 now g
@@ -412,7 +413,6 @@ care
 truth
 ground
 really
-realis-mood g 2
 rest
 mean
 different

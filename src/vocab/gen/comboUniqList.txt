@@ -18,6 +18,11 @@ us g 3
 it g 2
 destination-case g 2
 dative-case g 2 en of
+realis-mood g 2
+deontic-mood g 2
+conditional-mood g 2
+epistemic-mood g 2
+instrumental-case g 2
 interior-context g 2 en in
 person-context g 2
 dependent-clause g 2
@@ -35,7 +40,6 @@ adpositional-case g 2
 location-case g 2 en at
 space-context g 2
 way-case g 2
-instrumental-case g 2
 interrogative-mood g 2
 and-or g 
 exclusive-or g 
@@ -54,14 +58,12 @@ social-context g 2
 when
 imperfective-aspect g 2
 there g 3
-conditional-mood g 2
 more g 3
 elative-case g 3
 up
 illative-case g 3
 do
 directive-mood g 2
-deontic-mood g 2
 question-word g 3
 person g 3
 male
@@ -72,7 +74,6 @@ time g
 time-context g 2
 temporal-case g 3
 about g
-epistemic-mood g 2
 literal
 only g 3
 little
@@ -161,7 +162,6 @@ morning
 terminative-case g
 power
 themselves
-present
 voice
 white
 money
@@ -218,7 +218,6 @@ thousand
 family
 soul
 care
-realis-mood g 2
 mean
 different
 potential-mood g 3
@@ -1778,6 +1777,7 @@ artisan
 banana
 rib
 nickel
+currently
 bus
 censor
 missile

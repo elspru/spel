@@ -73,6 +73,7 @@ input parameters are written to in order to make output.
 <li>64KB consonant memory </li>
 <li>32KB working memory per device</li>
 <li>32B of registers per compute unit</li>
+<li>32B or 256bit bus width</li>
 </ul>
 
 <h4>for SPEL</h4>
@@ -261,16 +262,17 @@ the sentence is performed</dd>
 <h4>Extended Types</h4>
 </dl>
     <dt>large unsigned integer</dt>
-    <dd>64bit, 128bit, 256bit</dd>
+    <dd>64bit, 128bit, 256bit*</dd>
     <dt>large signed integer</dt>
-    <dd>64bit, 128bit, 256bit</dd>
+    <dd>64bit, 128bit, 256bit*</dd>
     <dt>floating point</dt>
-    <dd>32bit, 64bit, 128bit, 256bit</dd>
+    <dd>32bit, 64bit, 128bit, 256bit*</dd>
     <dt>unsigned fixed point</dt>
-    <dd>32bit, 64bit, 128bit, 256bit</dd>
+    <dd>32bit, 64bit, 128bit, 256bit*</dd>
     <dt>signed fixed point</dt>
-    <dd>32bit, 64bit, 128bit, 256bit</dd>
+    <dd>32bit, 64bit, 128bit, 256bit*</dd>
 </dl>
+*256 bit maybe added later if needed. 
 
 Those basics will be enough for turing completeness, and maximum
 compatability. 
@@ -466,7 +468,7 @@ up 5 bits. The following 3 bits gives the length.
 <li>32 bit quote</li>
 <li>64 bit quote</li>
 <li>128 bit quote</li>
-<li>256 bit quote</li>
+<li>256 bit quote* (maybe later)</li>
 </ol>
 The next 8 bits are either the 8 bit quote, or they provide more
 type information. The first bit shows weather it is constant data,
@@ -477,15 +479,6 @@ information.
 <li>pointer</li>
 </ol>
 <ol start="0">
-<li>constant</li>
-<li>constant</li>
-<li>constant</li>
-<li>constant</li>
-<li>constant</li>
-<li>constant</li>
-<li>constant</li>
-<li>constant</li>
-<li>constant</li>
 <li>unsigned integer</li>
 <li>signed integer</li>
 <li>floating point</li>
@@ -520,7 +513,9 @@ translated automatically based on locality.
     <dd>for output, only holds pointers. 
     though it can point to a register, 
     which is assumed to be the first several byte locations 
-    of memory</dd>
+    of memory. generally for genetic programming it would point
+to either storage or accusative, so that next operation can
+function without needing to exchange registers</dd>
     <dt>instrumental-case se</dt>
     <dd>for extra (constant) input</dd>
     <dt>quote</dt>

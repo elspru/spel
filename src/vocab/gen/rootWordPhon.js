@@ -699,7 +699,8 @@ function main() {
         shortGramCount = 0,
         rootCount = 0,
         someWords = ["liberia", "litre", "brachylogia", 
-            "gamma", "astatine", "xml", "wiki", "topos"];
+            "gamma", "astatine", "xml", "wiki", "topos",
+            "trademark"];
     if (langWordObj.gramList) {
         gramList = langWordObj.gramList;
     }

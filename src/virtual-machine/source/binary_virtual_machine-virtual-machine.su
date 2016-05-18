@@ -1,3 +1,3 @@
 virtual-machine.c:72:13:delete_empty_glyph_check	280	static
-virtual-machine.c:172:13:full_encode_check	12368	static
-virtual-machine.c:284:5:main	160	static
+virtual-machine.c:198:13:full_encode_check	12368	static
+virtual-machine.c:310:5:main	296	static

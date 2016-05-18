@@ -649,3 +649,93 @@ algorithm:
     *DAT_GEN_length = j;
 }
 
+/* remember if binary_phrase_list beginning is one
+    then is last lump or only of sentence
+    else if binary_phrase_list begining is zero,
+    then is part lump of sentence
+*/
+static inline void establish_ACC_binary_phrase_list(
+        const uint16_t* restrict encode_text,
+        const uint8_t sentence_length, 
+        uint16_t* binary_phrase_list,
+        uint16_t* lump) {
+    uint8_t current = 0;
+    uint8_t i = 0;
+    assert(encode_text != NULL);
+    assert(sentence_length != 0);
+    assert(sentence_length <= LUMP_WORD_LENGTH *
+        MAX_SENTENCE_LUMP + 1);
+    assert(binary_phrase_list != NULL);
+    if (*binary_phrase_list == 0) {
+        current = ~current;
+    }
+    for (i = 0; i < sentence_length; i++) {
+        if (current == 2) break;
+        switch (current) {
+            case 0: 
+                *binary_phrase_list |= 0 << (i + 1);
+                break;
+            case 0xFF: 
+                *binary_phrase_list |= 1 << (i + 1);
+                break;
+            default: 
+                break;
+        }
+        printf("%X \n", (unsigned int) current);
+        lump[i + 1] = encode_text[i];
+        switch (encode_text[i]) {
+            case ACCUSATIVE_CASE:
+                current = ~current; 
+                break;
+            case INSTRUMENTAL_CASE:
+                current = ~current; 
+                break;
+            case DATIVE_CASE:
+                current = ~current; 
+                break;
+            case DEONTIC_MOOD:
+                current = 2;
+                break;
+            default: 
+                break;
+        }
+        
+    }
+    
+    lump[0] = *binary_phrase_list;
+}
+void lump_encode(
+        const uint16_t* encode_text,
+        const uint8_t encode_text_length,
+        uint16_t* lump,
+        uint8_t* lump_length,
+        uint8_t* remainder) {
+    uint16_t binary_phrase_list = 0;
+    uint8_t i = 0;
+    uint8_t sentence_length = 0;
+    assert(encode_text != NULL);
+    assert(encode_text_length > 0);
+    assert(lump != NULL);
+    assert(lump_length != NULL);
+    assert(remainder != NULL);
+    assert(*lump_length >= 16);
+    /* algorithm:
+        detect end of sentence marker deontic-mood,
+        set remainder as the rest.
+        determine if can fit in one lump or need multiple*/
+    for (i = 0; i < encode_text_length; i++) {
+        if (encode_text[i] == DEONTIC_MOOD) {
+            sentence_length = i;
+            break;
+        }
+    }
+    assert(sentence_length > 0);
+    if (sentence_length < 16) {
+        binary_phrase_list = 1;
+        establish_ACC_binary_phrase_list(encode_text,
+            sentence_length, &binary_phrase_list, lump);
+    }
+    *remainder = encode_text_length + 1 - sentence_length;
+    *lump_length = LUMP_LENGTH;
+    assert(sentence_length < 16 /*need to implement remainder*/);
+}
