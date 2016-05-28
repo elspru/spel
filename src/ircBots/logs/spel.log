@@ -8,3 +8,25 @@
 .34A0B1558.mu.elspru.nwo maybe a #geneticprogramming goal of water-based life in the galaxy, is to make solid based life, to populate less habitable planets
 .34A0B53B5.mu.elspru.nwo NeuroEvolution of Augmenting Topologies #NEAT evolving #neuronets with #geneticprogramming
 .34A0B5728.mu.elspru.nwo Oxygen is third most common element in the galaxy, its most stable isotope has 16 elements, can have 16 functions #geneticprogramming
+.34A1B6829.mu.elspru.nwo console trans stopped working, so #SPEL vocab is stable (unless someone wants to pay for a Google API key to extend it further).
+.34A1B6865.mu.elspru.nwo console trans stopped working, so #SPEL vocab is stable (unless someone wants to pay for a Google API key to extend it
+.34A1B6895.mu.elspru.nwo #SPEL lump_encode now works for sentences greater than 16 words long, (max 60 words).
+.34A1B69A6.mu.elspru.nwo console trans stopped working, so #SPEL vocab is stable (unless someone wants to pay for a Google API key to extend it
+.34A1B8941.mu.elspru.nwo bitlbee upgrade means I have to upgrade my secretary bot
+.34A1B8A29.mu.elspru.nwo bitlbee upgrade means I have to upgrade my secretary bot
+.34A1B8B74.mu.elspru.nwo imagine porting to new hardware by running a #machinelearning algorithm to find the machine instructions, and rewrite libraries
+.34A1B9228.mu.elspru.nwo imagine there is a hardware fault, the OS detects it, and #geneticprogramming rebuilds affected libraries around the fault
+.34A23AA70.mu.elspru.nwo the next part to write for #SPEL is the encoding of quotes, the most complex part, so may need partial rewrite of whole encoder.
+.34A23AB29.mu.elspru.nwo #TPU's used by #Google, use #integermath. So avoid floating points in your #machinelearning algorithms, to be #TPU compatible.
+.34A23B42B.mu.elspru.nwo #SPEL virtual-machine algorithms use uintN_t family of types, making it easier to implement with fewer circuits in #FPGA and #ASIC
+.34A26503B.mu.elspru.nwo __private memory in #opencl should not amount that fits in registers which is usually 32B, use -Wstack-usage=32 on #GCC
+.34A348126.mu.elspru.nwo hmmm, seems that assigning to a pointer takes up 8 bytes on the stack. so is not same as __private memory usage.
+.34A388B92.mu.elspru.nwo mina hdesbwih jyinhyanci gjakpa hlatfali I for independance to dairy-way galaxy, came.
+.34A3A384B.mu.elspru.nwo mina hdesbwih jyinhyanci gjakpa hlatfali I for independance to dairy-way galaxy, came. #scifi
+.34A40A195.mu.elspru.nwo write a mostly correct program, and then have #geneticprogramming tweak it till it works perfectly. #programming
+.34A473420.mu.elspru.nwo as robots we could sit still in #meditation without feeling physical discomfort #transhumanism #singularity
+.34A474940.mu.elspru.nwo #AdaptiveResonanceTheory (ART) could be used for identifying #speciation in #NEAT #machinelearning
+.34A474A52.mu.elspru.nwo The breaking problems into subproblems part of #dynamicProgramming can be used for more scalable #programSynthesis
+.34A4918B8.mu.elspru.nwo #geneticprogramming the mother of my #brainchild
+.34A492948.mu.elspru.nwo modified #SPEL #encoding binary indexing, now flips a bit for case and sentence endings, easier implemention.
+.34A493245.mu.elspru.nwo #AntColonyOptimization could be used in #GridComputing where users/nodes can pick/pheremone stages and types of solvers to run.

@@ -10,7 +10,7 @@ MY_CFLAGS="-O2 -Iinclude -Wpedantic -std=c11 -Wno-coverage-mismatch\
  -fstack-usage  -Wlogical-op\
  -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations\
  -Wdouble-promotion -Wmaybe-uninitialized \
- -Waggregate-return"
+ -Waggregate-return -Werror -Wextra"
 
 AC_CHECK_LIB(OpenCl, clGetDeviceIDs)
 

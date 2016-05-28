@@ -91,11 +91,11 @@ var io = require("../../lib/io"),
     },
     allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt", "bn", "pa", 
+        "fi", "el", /*"ka",*/ "cy", "pl", "sr", "lt", "bn", "pa", 
         "he", "ja", "jv", "te", "ko", "mr", "hu" ],
     allPhonLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt", "zhy", "es",
+        "fi", "el", /*"ka",*/ "cy", "pl", "sr", "lt", "zhy", "es",
         "th"],
     PhonEntry = function () {
         this.en = "";

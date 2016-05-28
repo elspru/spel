@@ -18,8 +18,9 @@ bot.connect();
 bitlBot = botb(initBitlObj);
 bitlBot.connect();
 bitlBot.addListener("registered", function () {
-    bot.say("nickserv", "identify " + initBitlObj.password);
+    bitlBot.say("nickserv", "identify " + initBitlObj.password);
     console.log("identified");
+    setTimeout(bitlBot.say("nickserv", "yes"), 8000);
 });
 /* log channels */
 function unique(wordArray) {
@@ -79,6 +80,9 @@ initObj.channels.forEach(function (channel) {
             if (channel !== "&bitlbee") {
                 bitlBot.say(channel, /*from + ":" + */ message);
                 console.log("cross posted to " + channel);
+            } else {
+                bitlBot.say("nickserv", "yes");
+                console.log("yes");
             }
         });
         if (fileWords.length > 720) {

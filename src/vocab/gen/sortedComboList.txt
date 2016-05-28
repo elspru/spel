@@ -289,7 +289,7 @@ however
 light
 quite
 nor
-word
+word g
 whose
 door
 best
@@ -1252,7 +1252,7 @@ breakfast
 population
 thank g
 series
-address
+address g
 relief
 bird
 owner
@@ -1334,7 +1334,7 @@ possibly
 slave
 separate
 loose
-text
+text g
 worst
 credit
 terror
@@ -4237,6 +4237,7 @@ pro
 monthly
 ignore
 junior
+re
 psychological
 knitting
 indirect
@@ -4478,7 +4479,6 @@ curly
 diversity
 prestige
 negligence
-self-
 sulphur
 discrimination
 continental
@@ -4887,7 +4887,6 @@ beverage
 mindful
 articulate
 tolerant
-re-
 amend
 embryo
 diagram
@@ -5655,7 +5654,6 @@ bracket
 dissection
 disruption
 spa
-ex-
 inverse g
 evaporate
 aviation
@@ -5687,7 +5685,6 @@ brewery
 simplify
 endorse
 genre
-non-
 abridge
 credibility
 acclaim
@@ -5964,7 +5961,6 @@ slump
 gamma
 cater
 server
-anti-
 safari
 algebraic
 resistant
@@ -6108,7 +6104,6 @@ managerial
 reflexive
 weekend
 exam
-mid-
 makeup
 discrete
 inhibit
@@ -6585,711 +6580,710 @@ finalize
 gigabyte
 ionize
 radon
-defence
-accident
-reassure
-full-time
-strategies
-etc.
-landlord
-authorise
-caps-lock
-projector
-logistic
-complain
-gas-pedal
-expansions
-at-case g
-excavate
-problem
-modal-case g
-accompanier g
-post-office
-dominance
-ethium
-verbal-noun g
-pythagoras
-to-close
-runtime
-phishing
-genetically
-salesperson
-educated
-redesign
-familiarize
-worthwhile
-coworker
-donut
-lutetium
-yaor g
-professor
+critique
+si-units
+redecorate
+belt
 amused
-referral
-microphone
-robb
-podcast
-importe
-holmium
-europium
-authentic
-have-to
-recording
-consignment
-samarium
-rounding
-wear-out
-byebye g
-coordinator
-o'clock
-web-site
-hafnium
-star-gender g
-concessive g
-café
-avogadro's
-translative g
-electrician
-regression
-efficiently
-allocation
-checkup
-interviewer
-presenter
-relocate
-drastically
-stochastic
-bitmap
+headphone
+announcer
 venitive g
-litigation
-riemannian
-wildlife
-projective
-to-case g
-renovate
-fundraise
-storeroom
-bend
-trojan-horse
-toner
-phoneme
-work-out
-dancing
-reviewer
-malware
-receptor
-detransitive g
-lurking
-retail-store
-epidemiology
-log-out
-keyword
-terabyte
-packaging
-downsize
-break-down
-angles
-inbox
+mudita g
+mindstream
+credit-card
+bohrium
+camping
+amazed
+exclamative g
+exhortative g
+deport
+converb g
+qwerty
+advisory
+finite-verb g
+winn
+enrollment
+sightsee
+infected
+krypton
+gnomic-mood g
+costly
+shift-key
+yaor g
+squares
+backward
+hallway
+connector
+meitnerium
+p.m.
+feminine-
+getaway
+checkup
+salesperson
+seaborgium
+airfare
+lawrencium
+will-be g
+rhenium
+cell-phone
+sideways
+renewal
+ignorative g
+modal-case g
+affordable
+readme
+correlate
+junk-mail
 recurse
-friendship g
-i.e.
-bureaucratic
-bloodshed
-phonological
-status-bar
-prehodiernal g
-triple-point
-disapproving
-chauvinist
+railcar
+clip-art
+moderator
+fundraise
+hotdog
 goodness
+bookmark
+usitative g
+hafnium
+regression
+bathtub
+proportion
+precalculus
+samsara
+hyperlink
+wiki
+home-page
+deixis g
+bulletin
+litigation
+break-down
+veridical g 3
+holmium
+easy
+advertiser
+lative-case g
+stunning
+remunerate
+braid
+alarming
+emote
+nth-root
+allocation
+flowchart
+according-to
+dominance
+middle-voice g 3 
+old-age
+rounding
+rhodium-atom
+podcast
+next-to
+each-other
+bad-tempered
+andative g
+unit-of-mass
+oblique-case g
+catalog
+identifiable g
+patient-case g
+emergence
+byebye g
+remodel
+rented
+from-case g
+etc.
+patientive g
+concessive g
+prehodiernal g
+automotive
+distributive
+archeology
+unplug
+bald
+goal-trigger g
+dubnium
+praseodymium
+paralyzed
+fluctuate
+aside-from
+flextime
+rental
+showroom
+exabyte
+complain
+outdate
+to-case g
+fermium
+reviewer
+terbium-atom
+inject
+canvas
+bitmap
+supposedly
+radiation
+indium
+dysprosium
+actor-role g
+inventory
+euphoria g
+avogadro's
+motorbike
+cheeseburger
+thulium-atom
+instead-of
+retired
+gadolinium
+strategies
+ditransitive g
+dvd
+robb
+radius
+professor
+caps-lock
+stochastic
+loosely
+whitespace
+dramatically
+chauvinist
+renovate
+computing
+paralegal
+cheaply
+amusing
+optimization
+bureaucratic
+detransitive g
+dependable
+riemannian
+web-site
+thorium-atom
+disapproving
+surprisingly
+houseplant
+coding
+civil-rights
+protactinium
+projective
+binary-value g
+ration
+departmental
+landlord
+goalkeeper
+retail-store
+apart-from
+relocate
+friendship g
+status-bar
+herbicide
+affine
+distractor
+squad
+cheek
+healthcare
+repairperson
+microphone
+shopper
+entertaining
+worthwhile
+human-body
+swear-in
+mail-carrier
+centric-case g
+trojan-horse
+redesign
 scroll-bar
 screenshot
-terbium-atom
-smartphone
-skateboard
-winn
-dvd
-blue-jean
+reassure
+struggle
+dissatisfy
+authorise
+raincoat
+contrary
+triple-point
+nobelium
+read-only
 investigator
-competence
-berkelium
-ip-address
-downturn
-flatware
-air-force
-ice-cream
-masculine-
-index-finger
-according-to
-mobile-phone
-that-which g
-cellphone
-dot-matrix
-patientive g
-supposedly
-rhenium
-infected
-cybercrime
-inexperience
-instead-of
-clip-board
-showroom
-optimization
-cesium
-middle-voice g 3 
-americium
-inhibition
-web-host
-state-marker g
-outage
-suntan
-arctan
-verb-affix g
-dramatically
-thorium-atom
-space-marker g
-exabyte
-subject-case g
-renovation
-hiker
-repairperson
-braid
-cyan
-anew
-mistreat
-p.m.
-captcha
-oblique-case g
-protactinium
-thulium-atom
-poet
-supplier
-neptunium
-euphoria g
-mail-carrier
-ignorative g
-outside-of g
-mindstream
-refundable
-blogger
-contour
-bulletin
-redecorate
-surprisingly
-timeline
-meitnerium
-each-other
-goal-trigger g
-seaborgium
-lawrencium
-toiletry
-hypnothize
-binary-value g
-whitespace
-fluctuate
-rhodium-atom
-human-body
-houseplant
-announcer
-topos
-trinary
-vocational
-flextime
-cheeseburger
-non-human g
-patient-case g
-correlate
-distributive
-founds
-loosely
-indium
-extinguisher
-netium
-egg-white
-hallway
-squad
-impermanence
-archeology
-applied
-civil-rights
-workforce
-dysprosium
-advisory
-blog
-ration
-praseodymium
-goalkeeper
-gadolinium
-motorist
-underway
-
-converb g
-sightsee
-sender
-scalar
-first-hand
-emote
-folk-music
-compile
 recreational
-xenon
-receptionist
-theorems
-fool-around
-canvas
-entertaining
-firefighter
-centric-case g
-fourier
-lative-case g
-ditransitive g
 constructive
-retreat
-subtend
-retiree
+outside-of g
+extinguisher
+wisecrack
+receptionist
+sunscreen
+decay
+subject-case g
+impermanence
+downturn
+poet
+hourly
+phonological
+hypnothize
+trial-number g 3
+index-finger
+downsize
+unused
+receptor
+masculine-
+verb-affix g
+non-human g
+flow-current
+facet
+expansions
+landowner
+that-which g
+francium
+clause-tail g
+upside-down
+for-example g
+o'clock
+to-split
+arctan
+inexperience
+critic
+ip-address
+onwards
+website
+dealership
+in-language g
+armed
+individually
 descendent
 descriptor
-antibody
-ghostwriter
-trial-number g 3
-departmental
-bad-tempered
-mudita g
-purchaser
-unit-of-mass
+mobile-phone
 make-up
-flow-current
-advisable
-identifiable g
-individually
-inventory
-difficulty
-fermium
-auditor
-easy
+importe
+renovation
 pro-sentence g
-curium
-will-be g
-clique
-radian
-rubidium-atom
-schadenfreude g
-neuter-gender g 
-fibonacci
-vanadium-atom
-assemble
-interestingly
-fluorine-atom
-eulers-number
-galaxy-gender g
+mistreat
 résumé
-usitative g
-trans-numeral g
-unplug
-motorbike
-dubnium
-connector
-thallium-atom
-polonium-atom
-unused
-californium
-rutherfordium
-einsteinium
-complimentary
-distributor
-mendelevium
-cheaply
-purser
-automatically
-bohrium
-hassium
-amusing
-affine
-deport
-wellness
-swearing
-poisson
-attendee
-herbicide
-institutional
-inject
-audition
-to-split
-enormously
-abessive-case g
+verbalizer g
+epidemiology
 unavailable
 unauthorize
-samsara
-incoming
-adessive-case g
-workbook
-per-cent
-wisecrack
-automate
-alternatively
-andative g
-pro-phrase g
-substantially
-internship
-modeling
-freshly
-agentive-case g
-short-circuit
-coughing
-instructor
-dyadic g
-cooperative
-koran
-onwards
-anticausative g
-social-marker g
-amount-marker g
-linker g
-spreadsheet
-locative-case g 3
-moderator
-swimming-pool
-architectural
-gnomic-mood g
-critic
-finite-verb g
-veridical g 3
-approximative g
-physics
-stunning
-boardroom
-agent-trigger g
-unquote g
-bathtub
-used-to
-entertainer
-causative g
-wiki
-passive-voice g 3
-shift-key
-data-mining
-domain-name
-common-gender g
-retired
-healthcare
-multal-number g 3
-neodymium
-distributions
-belongingness g
-nth-power g
-read-only
-flash-drive
-floppy-disk
-ought-to
-embarrassment g
-exhortative g
+space-marker g
+excluding
+legislate
+state-marker g
 striped
-catalog
-exclamative g
-restatement
-citation-form g
-clause-tail g
-factorisation
-coding
-armed
-standardize
-opposing
-lanthanum
-for-example g
 strikebreaker
-from-case g
-paralegal
-proportion
-motherboard
-computability
-neighbourhood
-statistically
-supplementary
-alarming
-config
-comic-strip
-laser-printer
-color-blind
-shopper
-movie-theater
-deploy
+outage
+astatine
+overcharge
+else-if g
+angles
+socially
+wear-out
+curium
 delimited g
-developmental
+citation-form g
+architectural
+standardize
+unquote g
+sponsorship
+battlefield
 ergative-case g
+institutional
+fluorine-atom
+suburb
+auditor
+tumour
+wildlife
+founds
+recruiter
+reimbursement
+used-to
+substantially
+communicative
+common-gender g
+supercomputer
+fibonacci
+direct-object g
+motorist
+rubidium-atom
+statistically
+lutetium
+work-out
+fourier
+rationality
+educated
+passive-voice g 3
+causative g
+cesium
+search-engine
+toolbar
+automatically
+californium
+einsteinium
+complimentary
+have-to
+mendelevium
+progression
+cellphone
+agent-trigger g
+at-case g
+restatement
+enormously
+approximative g
+logistic
+entrant
+belongingness g
+europium
+color-blind
+comic-strip
+teminal
+topos
+toner
+dot-matrix
+samarium
+anticausative g
+café
+entrée
+short-circuit
+relativizer g 3
+recruitment
+compile
+applied
+add-
+passionate
+agentive-case g
+problem
+accident
+thallium-atom
+goldbach
+vanadium-atom
+fractals
+multal-number g 3
+embarrassment g
+to-close
+fermat
+polonium-atom
+broad
+adessive-case g
+cooperative
+eulers-number
+laser-printer
+purchaser
+supplementary
+packaging
+competence
+trans-numeral g
+blog
 combinatorial
 combinatorics
-no-one
-reimbursement
-communicative
-landowner
-broad
-direct-object g
-nth-root
-recruitment
-search-engine
-verbalizer g
-in-language g
-enrollment
-sponsorship
-supercomputer
-beginner
-housekeep
-closure
-complementizer g
-brownian
-rented
-animate-gender g 3
-strontium-atom
-posessive-case g 3
-feminine-
-cheek
-possessed-case g 3
-remunerate
-incredibly
-adverbial-case g
-radius
-text-editor
-facet
-morpheme
-distractor
-by-law
-costly
-final-particle g
-dissatisfy
-godel's
-homeowner
-computer-virus
-legislate
-else-if g
-tumour
-rental
-soprano
-miss
-add-
-evitative-case g
-objective-case g
-nominalization g
-dynamical
-imaginary-unit
-police-officer
-vehicle-gender g
-variables
-denominator
+pythagoras
+via g
+abessive-case g
+dancing
+locative-case g 3
+swimming-pool
+interestingly
+developmental
+circumfix g
+cybercrime
+difficulty
 photocopier
-mineral-gender g
-auxiliary-verb g
-battlefield
-fractals
-empathetic-joy g
-facilitator
+post-office
 personalize
-nobelium
-subessive-case g
-prime-minister
-enumerative
-dependable
-primary-object g
+supplier
+distributions
+malware
+inhibition
+spyware
+recording
+interviewer
+clip-board
+anew
+xenon
+suntan
+schadenfreude g
+spreadsheet
+nth-power g
+lurking
+movie-theater
+inbox
+per-cent
+aerosol
+storeroom
+distributor
+dynamical
+coworker
+one-second
+by-law
+subtend
+boardroom
+alternatively
+neighbourhood
+rutherfordium
+amount-marker g
+brownian
+star-gender g
+galaxy-gender g
+cyan
+factorisation
+cardboard
+computability
+social-marker g
+neuter-gender g 
+genetically
+one-another
+misidentify
+pro-phrase g
+police-officer
 speed-of-light
 generalization
-critical-point
-website
-deixis g
-antessive-case g
-multilinear
-goldbach
-mathematicians
-rehabilitation
-dealership
-ruthenium-atom
-cardboard
-old-age
-user-
-professionally
-world-wide-web
-word-processor
-camping
-businessperson
-virtual-memory
-user-interface
-railcar
-getaway
-crosswalk
-inelative-case g
-exocentric-case g
-different-event g
-broadly
-postessive-case g
-cell-phone
-prhobitive-mood g 3
-indirect-speech g
-belt
-virtual-reality
-coreference g
-entrant
-contrastive g
-renewal
-abstract-gender g
-absolutive-case g
-remodel
-indirect-object g
-second-language g
-recruiter
-artistic-gender g
-bald
-change-of-event g
-virtual-machine
-squares
-past-perfective g
-research-gender g
-reflexive-voice g 3
-krypton
-climb
-suburb
-universe-gender g
-via g
-self-confidence g
-crastinal-tense g
-decay
-rationality
-relativizer g 3
-misidentify
-sunscreen
-junk-mail
-transitive-verb g
-webpage
-brag
-locality-gender g
-cloud-computing
-radiation
-business-person
-progression
-journey
-toolbar
-videoconference
-impersonal-verb g
-francium
-one-another
-collective-noun g 3
-patient-trigger g
-superlative-case g
-upside-down
-charitable
-astatine
-enforcement
-planetary-gender g
-centimeter
-enthusiastically
-headphone
-core-benefactive g
-computer-program
-shorts
-propositive-mood g
-precalculus
-associative-case g
-aerosol
-socially
-inanimate-gender g 3
-electric-current g
-aside-from
-erbium
-computing
-actor-role g
-credit-card
-worrying
-contrary
-reciprocal-voice g 3
-hyperlink
-apart-from
-bookmark
-grammatical-case
-critique
-operating-system
-home-page
-attenuative g
-negotiation
-subjunctive-mood g
-si-units
-read-only-memory
-clip-art
-next-to
-notebook-computer
-nonremittal
-sideways
-teminal
-hotdog
-backward
-applicative-voice g 3
-afterward
-soon-future-tense g 3
-randomize
-antipassive-voice g 3
-telecommunication
-automotive
-wide
-fermat
-flowchart
-successive-clause g
-entrée
-all-right
-breathing
-struggle
-matching
-social-networking
-hourly
-outdate
-paralyzed
-prepositional-case g
-spyware
-singulative-number g
-passive-participle g
-grammatical-object
-luminous-intensity g
-necessitative-mood g
-airfare
-superlative-degree g
-continutive-aspect g
-equations
-radiation-sickness
-domain-name-system
-passionate
-single-action-verb g 3
-spammer
-present-participle g
+primary-object g
+presenter
+animate-gender g 3
+strontium-atom
 processor
+bend
+complementizer g
+businessperson
+workbook
+wellness
+evitative-case g
+vehicle-gender g
+soprano
+incredibly
+berkelium
+data-mining
+possessed-case g 3
+americium
+mineral-gender g
+advisable
+inelative-case g
+cordless
+ruthenium-atom
+breathing
+domain-name
+imaginary-unit
+ought-to
+randomize
+i.e.
+enforcement
+neptunium
+opposing
+verbal-noun g
+mathematicians
+posessive-case g 3
+modeling
+worrying
+workforce
+final-particle g
+flash-drive
+floppy-disk
+firefighter
+nominalization g
+world-wide-web
+critical-point
+empathetic-joy g
+word-processor
+prime-minister
+virtual-memory
+objective-case g
+adverbial-case g
+professionally
+ethium
+shorts
+fool-around
+equations
+subessive-case g
+defence
+log-out
+spammer
+antessive-case g
+crosswalk
+poisson
+internship
+user-interface
+deploy
+ghostwriter
+denominator
+computer-virus
+facilitator
+accompanier g
+homeowner
+rehabilitation
+translative g
+contour
+auxiliary-verb g
+captcha
+no-one
+sender
+first-hand
+journey
+trinary
+instructor
+motherboard
+patient-trigger g
+miss
+excavate
+donut
+blogger
+runtime
+purser
+coughing
+collective-noun g 3
+koran
+business-person
+transitive-verb g
+cloud-computing
+virtual-machine
+absolutive-case g
+virtual-reality
+videoconference
+variables
+past-perfective g
+impersonal-verb g
+broadly
+crastinal-tense g
+reflexive-voice g 3
+egg-white
+underway
+abstract-gender g
+prhobitive-mood g 3
+keyword
+dyadic g
+familiarize
+different-event g
+exocentric-case g
+change-of-event g
+second-language g
+artistic-gender g
+self-confidence g
+research-gender g
+indirect-speech g
+projector
+locality-gender g
+indirect-object g
+physics
+postessive-case g
+attenuative g
+resultative g
+beginner
+hassium
+hiker
+universe-gender g
+closure
+bloodshed
+superlative-case g
+matching
+retreat
+smartphone
+afterward
+theorems
+subjunctive-mood g
+computer-program
+antibody
+full-time
+referral
+retiree
+skateboard
+authentic
+propositive-mood g
+associative-case g
+electrician
+inanimate-gender g 3
+efficiently
+text-editor
+clique
+read-only-memory
+refundable
+planetary-gender g
+operating-system
+ice-cream
+grammatical-case
+drastically
+electric-current g
+reciprocal-voice g 3
+flatware
+entertainer
+core-benefactive g
+vocational
+freshly
+climb
+web-host
+enthusiastically
+radian
+applicative-voice g 3
+erbium
+swearing
+toiletry
+godel's
+phoneme
+successive-clause g
+charitable
+notebook-computer
+timeline
+config
+centimeter
+telecommunication
+gas-pedal
+all-right
+soon-future-tense g 3
+antipassive-voice g 3
+automate
+
+folk-music
+terabyte
+contrastive g
+coreference g
+social-networking
+negotiation
+nonremittal
+morpheme
+linker g
+audition
+neodymium
+prepositional-case g
+radiation-sickness
+attendee
+present-participle g
+domain-name-system
+necessitative-mood g
+single-action-verb g 3
 existential-clause g
 excessive-duration g
-epenthetic-morpheme g
-qwerty
-remote-future-tense g 3
-negatory-quantifier g
-connective-particle g
-emergence
-amount-of-substance g
-overcharge
+passive-participle g
+grammatical-object
+continutive-aspect g
+singulative-number g
+luminous-intensity g
+superlative-degree g
+lanthanum
+blue-jean
 elective-quantifier g
 supercritical-fluid
-affordable
-raincoat
-readme
-circumfix g
+epenthetic-morpheme g
+housekeep
+amount-of-substance g
+webpage
+remote-future-tense g 3
 postpositional-case g
-frequentative-aspect g
-advertiser
-amazed
-distributive-pronoun g 3
-swear-in
-random-access-memory
-assertive-quantifier g
-allocutive-agreement g
-computer-programming
+assemble
+negatory-quantifier g
+enumerative
+coordinator
+connective-particle g
+brag
+netium
 universal-quantifier g
+air-force
+wide
+allocutive-agreement g
+random-access-memory
+computer-programming
+consignment
+assertive-quantifier g
+frequentative-aspect g
+distributive-pronoun g 3
 floating-point-number g
-resultative g
 alternative-quantifier g
-one-second
+multilinear
+phishing
+incoming
 past-passive-participle g
-excluding
 central-processing-unit
-cordless
+scalar
 locative-directional-case g
 counterfactual-conditional g
 frequently-asked-questions

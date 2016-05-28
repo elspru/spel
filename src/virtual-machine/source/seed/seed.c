@@ -111,7 +111,7 @@ static const char last_group[] = {'p','t','k','f', 's','c','n','m'};
 */
 
 
-static uint8_t vowel_Q(const char glyph) {
+static inline uint8_t vowel_Q(const char glyph) {
     uint8_t i;
     for (i = 0; i < vowel_group_length; i++) {
        if (vowel_group[i] == glyph) {
@@ -120,7 +120,7 @@ static uint8_t vowel_Q(const char glyph) {
     }
     return FALSE;
 }
-static uint8_t tone_Q(const char glyph) {
+static inline uint8_t tone_Q(const char glyph) {
     uint8_t i;
     for (i = 0; i < tone_group_length; i++) {
        if (tone_group[i] == glyph) {
@@ -129,7 +129,7 @@ static uint8_t tone_Q(const char glyph) {
     }
     return FALSE;
 }
-static uint8_t consonant_Q(const char glyph) {
+static inline uint8_t consonant_Q(const char glyph) {
     uint8_t i;
     for (i = 0; i < consonant_group_length; i += 1) {
        if (consonant_group[i] == glyph) {
@@ -166,8 +166,33 @@ void delete_empty_glyph(const char* restrict text,
 void text_copy(const char* restrict ACC_text, 
     const uint8_t length, char* restrict DAT_text) {
     uint8_t i;
+    assert(ACC_text != NULL);
+    assert(length > 0);
+    assert(DAT_text != NULL);
     for (i = 0; i < length; i++) {
         DAT_text[i] = ACC_text[i];
+    }
+}
+static inline void copy_ACC_text_DAT_lump(
+        const char* restrict text, 
+        const uint8_t text_length, 
+        uint16_t* restrict lump,
+        const uint8_t lump_length) {
+    uint8_t text_spot;
+    uint8_t lump_spot = 0;
+    assert(lump_length >= text_length/2);
+    for (text_spot = 0; text_spot < text_length; ++text_spot) {
+        printf("text_spot %X %X ", (unsigned int) text_spot, 
+            (unsigned int) text_length);
+        if (text_length > text_spot + 1) {
+            lump[lump_spot] = (uint16_t) text[text_spot] |
+                (((uint16_t) text[text_spot + 1]) << 8);
+            ++text_spot;
+        printf("lump %X \n", (unsigned int) lump[lump_spot]);
+        } else {
+            lump[lump_spot] = (uint16_t) text[text_spot];
+        }
+        ++lump_spot;
     }
 }
 
@@ -175,7 +200,7 @@ void text_copy(const char* restrict ACC_text,
     *DAT_GEN_length = 0; \
     return; 
 
-void derive_first_word(const char* restrict ACC_sentence,
+inline void derive_first_word(const char* restrict ACC_sentence,
         const uint8_t ACC_GEN_length,
         char* restrict DAT_word,
         uint8_t* restrict DAT_GEN_length) {
@@ -503,11 +528,11 @@ void encode_ACC_word_DAT_number(const char* restrict word,
 /* Algorithm:
     TEL set ACC NUM zero DAT number DEO
     identify type of word
-    if ACC word kind ESS short root word
+    if ACC word class ESS short root word
     then TEL mark ACC first three binary DAT NUM zero
-    else-if ACC word kind ESS long grammar word
+    else-if ACC word class ESS long grammar word
     then TEL mark ACC first three binary DAT NUM one 
-    else-if ACC word kind ESS short grammar word
+    else-if ACC word class ESS short grammar word
     then TEL mark ACC first byte DAT NUM thirty 
     UNQ glyph INE spot POSC word QUOT process
     ATEL search ACC encode table BEN glyph DAT glyph number DEO
@@ -634,8 +659,8 @@ algorithm:
     for(; i < ACC_GEN_length; j++) { 
         derive_first_word(ACC_sentence + i, ACC_GEN_length - i,
             DAT_word, &DAT_word_GEN_length);
-        printf("%s %d \n", ACC_sentence +i, 
-            (int) DAT_word_GEN_length);
+        //printf("%s %d \n", ACC_sentence +i, 
+        //    (int) DAT_word_GEN_length);
         if (DAT_word_GEN_length == 0) {
             *DAT_GEN_remainder = ACC_GEN_length - i;
             break;
@@ -672,16 +697,15 @@ static inline void establish_ACC_binary_phrase_list(
     for (i = 0; i < sentence_length; i++) {
         if (current == 2) break;
         switch (current) {
-            case 0: 
+            /*case 0: 
                 *binary_phrase_list |= 0 << (i + 1);
-                break;
+                break; */
             case 0xFF: 
                 *binary_phrase_list |= 1 << (i + 1);
                 break;
             default: 
                 break;
         }
-        printf("%X \n", (unsigned int) current);
         lump[i + 1] = encode_text[i];
         switch (encode_text[i]) {
             case ACCUSATIVE_CASE:
@@ -701,8 +725,8 @@ static inline void establish_ACC_binary_phrase_list(
         }
         
     }
-    
     lump[0] = *binary_phrase_list;
+    
 }
 void lump_encode(
         const uint16_t* encode_text,
@@ -713,6 +737,7 @@ void lump_encode(
     uint16_t binary_phrase_list = 0;
     uint8_t i = 0;
     uint8_t sentence_length = 0;
+    uint8_t lump_number = 0;
     assert(encode_text != NULL);
     assert(encode_text_length > 0);
     assert(lump != NULL);
@@ -725,17 +750,254 @@ void lump_encode(
         determine if can fit in one lump or need multiple*/
     for (i = 0; i < encode_text_length; i++) {
         if (encode_text[i] == DEONTIC_MOOD) {
-            sentence_length = i;
+            sentence_length = i + 1;
             break;
         }
     }
     assert(sentence_length > 0);
-    if (sentence_length < 16) {
-        binary_phrase_list = 1;
-        establish_ACC_binary_phrase_list(encode_text,
-            sentence_length, &binary_phrase_list, lump);
+    for (i = 0; i < sentence_length; i += LUMP_WORD_LENGTH) {
+        if (sentence_length - i >  LUMP_WORD_LENGTH) {
+            binary_phrase_list = 0;
+        } else {
+            binary_phrase_list = 1;
+        }
+        establish_ACC_binary_phrase_list(encode_text + i,
+            sentence_length - i, &binary_phrase_list, lump +
+            lump_number);
+        ++lump_number;
     }
-    *remainder = encode_text_length + 1 - sentence_length;
-    *lump_length = LUMP_LENGTH;
-    assert(sentence_length < 16 /*need to implement remainder*/);
+    *remainder = encode_text_length - sentence_length;
+    *lump_length = LUMP_LENGTH * lump_number;
+}
+
+static inline void detect_ACC_quote_length(const char* text,
+    const uint8_t text_length,
+    uint8_t* quote_spot,
+    uint8_t* quote_length) {
+    uint8_t class_length = 0;
+    uint8_t text_spot = 0;
+    uint8_t class_spot = 0;
+    uint8_t found = FALSE;
+    assert(text != NULL);
+    assert(text_length > 0);
+    assert(quote_spot != 0);
+    assert(quote_length != NULL);
+    /* algorithm:
+        detect silence glyph surrounding quote class word
+        search for same word to conclude quote
+        answer quote_spot and quote_length*/
+    // assure silence glyph at zero spot
+    assert(text[0] == '.');
+    ++class_length;
+    // detect length of class word
+    for(text_spot = 1; text_spot < text_length; ++text_spot) {
+        ++class_length;
+        if (text[text_spot] == '.') {
+            break;
+        } 
+    }
+    printf("class word length found\n");
+    *quote_spot = class_length;
+    // detect next class word COM quote word
+    for(text_spot = class_length; text_spot < text_length; 
+            ++text_spot) {
+        if (text_spot + class_length > text_length) {
+            *quote_length = 0;
+            break;
+        }
+        for(class_spot = 0; class_spot <= class_length; 
+                ++class_spot) {
+            if (class_spot == class_length) {
+                // found
+                *quote_length = text_spot - class_length;
+                found = TRUE;
+            }
+            if (text[text_spot + class_spot] != 
+                    text[class_spot]) {
+                break;
+            }
+        }
+        if (found == TRUE) {
+            break;
+        }
+    }
+    
+}
+
+static inline void derive_quote_word(
+    const uint8_t quote_length,
+    uint16_t* restrict quote_word) {
+    assert(quote_length > 0);
+    assert(quote_length < 16);
+    assert(quote_word != NULL);
+    if (quote_length == 1) {
+        *quote_word = 0x1D;
+    } else if (quote_length == 2) {
+        *quote_word = (uint16_t) 0x1D | (TWO_BYTE_QUOTE <<
+            CONSONANT_ONE_WIDTH);
+    } else if (quote_length > 2 && quote_length <= 4) {
+        *quote_word = (uint16_t) 0x1D | (FOUR_BYTE_QUOTE <<
+            CONSONANT_ONE_WIDTH);
+    } else if (quote_length > 4 && quote_length <= 8) {
+        *quote_word = (uint16_t) 0x1D | (EIGHT_BYTE_QUOTE <<
+            CONSONANT_ONE_WIDTH);
+    } else if (quote_length > 8 && quote_length <= 16) {
+        *quote_word = (uint16_t) 0x1D | (SIXTEEN_BYTE_QUOTE <<
+            CONSONANT_ONE_WIDTH);
+    }
+}
+    
+static inline void fit_quote_length(
+    const uint8_t quote_length,
+    uint8_t* restrict quote_lump_length) {
+    assert(quote_lump_length != NULL);
+    assert(quote_length > 0);
+    assert(quote_length < 16);
+    if (quote_length == 1) {
+        *quote_lump_length = 0x0;
+    } else if (quote_length == 2) {
+        *quote_lump_length = 0x1;
+    } else if (quote_length > 2 && quote_length <= 4) {
+        *quote_lump_length = 0x2;
+    } else if (quote_length > 4 && quote_length <= 8) {
+        *quote_lump_length = 0x4;
+    } else if (quote_length > 8 && quote_length <= 16) {
+        *quote_lump_length = 0x8;
+    }
+}
+    
+void sentence_encode(
+    const char* text,
+    const uint8_t text_length,
+    uint16_t* lump,
+    uint8_t* lump_length,
+    uint8_t* remainder) {
+/* algorithm:
+    loop through glyphs, 
+    derive words
+    if word is quote then add it to lump, 
+        and add proper quote identifier.
+    if word is accusative, instrumental, or dative,
+        flip the index representation for it.
+    if word is deontic-mood then set as ending lump. 
+*/
+    char glyph;
+    uint8_t text_spot = 0;
+    uint8_t lump_spot = 1;
+    uint8_t quote_spot = 0;
+    char word[WORD_LENGTH];
+    uint8_t word_length = 0;
+    char derived_word[WORD_LENGTH];
+    uint8_t derived_word_length = WORD_LENGTH;
+    uint16_t number = 0;
+    uint16_t quote_word = 0;
+    uint16_t binary_phrase_list = (uint16_t) ~0 ^ 1;
+    uint8_t quote_length = 0;
+    uint8_t quote_lump_length = 0;
+    uint8_t current = 0xFF;
+    memset(word, 0, WORD_LENGTH);
+    memset(derived_word, 0, WORD_LENGTH);
+    assert(text != NULL);
+    assert(text_length > 0 );
+    assert(lump != NULL);
+    assert(lump_length != NULL);
+    assert(remainder != NULL);
+    assert(*lump_length >= LUMP_LENGTH * MAX_SENTENCE_LUMP);
+    printf("sentence encoding\n");
+    for (text_spot = 0; text_spot < text_length; 
+            ++text_spot) {
+        glyph = text[text_spot];
+        if(consonant_Q(glyph) == TRUE ||
+                vowel_Q(glyph) == TRUE ||
+                tone_Q(glyph) == TRUE) {
+            word[word_length] = glyph;
+            //printf("%c", glyph);
+            word_length += 1;
+        } 
+        if (word_length >= 2) {
+            //printf("wl %X\n", (unsigned int) word_length);
+            derived_word_length = WORD_LENGTH;
+            derive_first_word(word, word_length, derived_word, 
+                &derived_word_length);
+            if (derived_word_length > 0) {
+                encode_ACC_word_DAT_number(derived_word,
+                    derived_word_length, &number);
+                printf("n 0x%X \n", (unsigned int) number);
+                if(number != 0) {
+                switch(number) {
+                    case QUOTE_WORD:
+                        printf("detected quote word %X\n",
+                            (unsigned int) text_spot);
+                        ++text_spot;
+                        detect_ACC_quote_length(
+                            text + text_spot, 
+                            text_length - text_spot, 
+                            &quote_spot,
+                            &quote_length);
+                        printf("detected quote length %X\n",
+                            (unsigned int) quote_length);
+                        derive_quote_word(quote_length, 
+                            &quote_word);
+                        lump[lump_spot] = quote_word;
+                        ++lump_spot;
+                        copy_ACC_text_DAT_lump(
+                            text + quote_spot + 2, 
+                            quote_length, 
+                            lump + lump_spot, 
+                            *lump_length - lump_spot);
+                        text_spot += (quote_spot - text_spot) *
+                            2 + quote_length + 5;
+                        word_length = 0;
+                        fit_quote_length(quote_length, 
+                            &quote_lump_length);
+                        //if (current == 0xFF) {
+                        //    binary_phrase_list |= (uint16_t)
+                        //        (0xFFFF >> (0x10 -
+                        //        (quote_lump_length + 1))) <<
+                        //        (lump_spot - 1);
+                        //}
+                        printf("qll %X\n", (unsigned int)
+                            quote_lump_length);
+                        lump_spot += quote_lump_length;
+                        printf("ls %X\n", (unsigned int)
+                            lump_spot);
+                        break;
+                    case ACCUSATIVE_CASE:
+                        binary_phrase_list ^= 
+                            1 << lump_spot;
+                        lump[lump_spot] = number;
+                        ++lump_spot;
+                        break;
+                    case INSTRUMENTAL_CASE:
+                        binary_phrase_list ^= 
+                            1 << lump_spot;
+                        lump[lump_spot] = number;
+                        ++lump_spot;
+                        break;
+                    case DATIVE_CASE:
+                        binary_phrase_list ^= 
+                            1 << lump_spot;
+                        lump[lump_spot] = number;
+                        ++lump_spot;
+                        break;
+                    case DEONTIC_MOOD:
+                        binary_phrase_list ^= 
+                            1 << lump_spot;
+                        current = 2;
+                        ++lump_spot;
+                        break;
+                    default:
+                        lump[lump_spot] = number;
+                        ++lump_spot;
+                        break;
+                }
+                if (current == 2) break;
+                word_length = 0;
+                } else {
+                    
+                }
+            }
+        }
+    }
+    lump[0] = binary_phrase_list;
 }

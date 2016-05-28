@@ -267,7 +267,7 @@ LIBS =
 LTLIBOBJS = 
 MAKEINFO = ${SHELL} /home/elspru/spel/src/virtual-machine/missing makeinfo
 MKDIR_P = /bin/mkdir -p
-MY_CFLAGS = -O2 -Iinclude -Wpedantic -std=c11 -Wno-coverage-mismatch -fstack-usage  -Wlogical-op -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations -Wdouble-promotion -Wmaybe-uninitialized  -Waggregate-return
+MY_CFLAGS = -O2 -Iinclude -Wpedantic -std=c11 -Wno-coverage-mismatch -fstack-usage  -Wlogical-op -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations -Wdouble-promotion -Wmaybe-uninitialized  -Waggregate-return -Werror -Wextra
 OBJEXT = o
 PACKAGE = vm
 PACKAGE_BUGREPORT = 

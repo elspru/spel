@@ -476,7 +476,7 @@ secular
 always
 ceiling
 to-split
-word
+word g
 stairs
 sublimate
 listen
@@ -488,7 +488,7 @@ tremble
 decay
 again
 three
-address
+address g
 cold
 translate
 direction
@@ -932,7 +932,7 @@ develop
 theater
 think
 tense
-text
+text g
 represent
 label
 technology

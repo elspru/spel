@@ -60,7 +60,7 @@ function initBot(obj) {
     bot.addListener('raw', function(message) { 
         //console.log(message) 
         if (message.command !== "PONG") {
-            console.log(message.args[1]) 
+            console.log(message.args) ;
         }
     });
     console.log("setup listeners");

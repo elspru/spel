@@ -118,7 +118,7 @@ static void encode_word_PL_check() {
 }
 
 static void lump_encode_check() {
-    const char text[] = "hyinkahtutsuhkakpanyiktu";
+    const char text[] = "wukahtutsuhkakpanyiktu";
     const uint8_t text_length = strlen(text);
     uint16_t encode_sentence[SENTENCE_LENGTH/WORD_LENGTH];
     uint8_t encode_sentence_length = SENTENCE_LENGTH/WORD_LENGTH;
@@ -281,6 +281,7 @@ static void full_encode_check() {
         //printf("%X write_spot\n", (unsigned int) 
          //       write_spot);
         //if (DAT_length > i) break;
+        if (remains_length > 0) 
         text_copy(DAT_storage + i, remains_length, DAT_storage);
         DAT_length = MAXIMUM_PAPER_LENGTH+WORD_LENGTH+1 - 
             remains_length;
@@ -290,11 +291,32 @@ static void full_encode_check() {
     }
 }
     
+
+static void check_quote() {
+    const char text[] = 
+        "wu.htet.hello world!.htet.wuka hlucpa hsactu";
+    const uint8_t text_length = strlen(text);
+    uint8_t remainder = 0;
+    uint8_t lump_spot = 0;
+    uint8_t lump_length = LUMP_LENGTH * MAX_SENTENCE_LUMP;
+    uint16_t lump[LUMP_LENGTH * MAX_SENTENCE_LUMP];
+    memset(lump, 0, lump_length*2);
+    sentence_encode(text, text_length, lump, &lump_length,
+        &remainder);
+    for (lump_spot = 0; lump_spot < text_length; ++lump_spot) {
+        printf("%X ", (unsigned int) text[lump_spot]);
+    }
+    printf(": text\n");
+    for (lump_spot = 0; lump_spot < lump_length; ++lump_spot) {
+        printf("%X ", (unsigned int) lump[lump_spot]);
+    }
+    
+}
+
 static void check_hello_world() {
     /*const char* text = "tcatkahsactu";
     const uint8_t text_length = strlen(text); */
 }
-
 
 static void check_ACC_all() {
     delete_empty_glyph_check();
@@ -305,6 +327,8 @@ static void check_ACC_all() {
     /* full encode check */
     full_encode_check();
     check_hello_world();
+    printf("----\n");
+    check_quote();
 }
 
 int main(int argc, char *argv[]) { 

@@ -12,9 +12,11 @@
 
 The virtual machine uses variable-length-instruction-word (VLIW),  loosely inspired by <a href="http://scale.eecs.berkeley.edu/papers/hat-cases2001.pdf">head and tails instruction format</a>(HTF).  HTF uses VLIW's which are 128 or 256 bits long, however there can be multiple instructions per major instruction word.
 <h3>VLIW's Head Index</h3>
-The head is really a parse index, to show the phrase boundaries. In TroshLyash each bit represents a word, each of which is 16bits, when a phrase boundary is met then the bits flip from 1 to 0 or vice-versa.  Let's look at a simple hello example: "hnatkapyatno" meaning "print hello!", breaks down into the words "hnat ka pyat no" and the phrases "hnatka pyatno".
-Thus since there are two words each, the index for it is 0011 or 1100 depending on place within the index.
-The real index for a VLIW that only contains the above sentence would be 0110011111111111 since the index takes up the first 16bits of the VLIW.
+The head is really a parse index, to show the phrase boundaries.
+In TroshLyash each bit represents a word, each of which is
+16bits, when a phrase boundary is met then the bits flip from 1
+to 0 or vice-versa at the phrase boundary word. 
+index takes up the first 16bits of the VLIW.
 This would lead to 256bit (32Byte) VLIW's.
 
 The real advantage of the indexing occurs when there either multiple sentences per VLIW, or when there are complex sentences in the VLIW's.

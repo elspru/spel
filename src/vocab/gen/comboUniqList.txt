@@ -155,7 +155,7 @@ room
 water
 desiderative-mood g 3
 light
-word
+word g
 door
 use
 morning
@@ -171,7 +171,6 @@ death
 form
 inessive-case g
 matter
-kind
 often
 year
 friend
@@ -236,6 +235,7 @@ black
 beautiful
 dark
 hold
+sort
 ten
 show
 story
@@ -324,7 +324,9 @@ visit
 follow
 try
 presence
+heavy
 sweet
+mouth
 rich
 enemy
 ship
@@ -354,12 +356,11 @@ expression
 week
 hall
 danger
+usual
 born
 court
-generally
 gnomic-aspect g 2
 worth
-simple
 tree
 wall
 heaven
@@ -428,8 +429,10 @@ sake
 breath
 wise g
 possessive-marker g
+pleasant
 perfectly
 memory
+grave
 modern
 spot
 break
@@ -449,6 +452,7 @@ glass
 instance
 safe
 doctor
+class
 completive-aspect g 3
 repeated
 military
@@ -493,7 +497,6 @@ anxious g
 captain
 cessative-aspect g 2
 foreign
-intensifier g
 importance
 finally
 prove
@@ -527,6 +530,7 @@ animal
 zoic-gender g
 eventive-mood g 
 multiplicative-case g
+obtain
 cross
 thick
 grow
@@ -535,6 +539,7 @@ quietly
 surface
 holy
 july
+fashion
 report
 file
 shoulder
@@ -557,7 +562,6 @@ pray
 tired
 kill
 shadow
-weight
 established
 satisfied g
 check
@@ -574,6 +578,7 @@ bent
 box
 season
 science
+apparently
 bore
 uncle
 list
@@ -583,7 +588,7 @@ popular
 unknown
 familiar
 familiar-register g
-approach
+walking
 twice
 intellectual
 priest
@@ -607,7 +612,7 @@ december
 happen
 absence
 thank g
-address
+address g
 bird
 coat
 prepare
@@ -636,7 +641,8 @@ april
 october
 bitter
 loose
-text
+text g
+worst
 credit
 features
 capable
@@ -649,16 +655,15 @@ colour
 destroy
 increase
 nose
+friendly
 yesterday
 hesternal-tense g
 fail
 remove
 wear
 blind
-rough
 fly
 praise
-gain
 mission
 sacrifice
 exercise
@@ -686,6 +691,7 @@ cup
 member
 civil
 everywhere
+comply
 whilst
 volume
 custom
@@ -712,6 +718,7 @@ ruin
 cattle
 equipment
 perceived
+anywhere
 kitchen
 sell
 speed
@@ -759,6 +766,7 @@ misery g
 forehead
 ad
 angel
+fame
 singular-number g 2
 dawn
 forgive g
@@ -770,6 +778,7 @@ key
 majority
 ignorance
 weakness
+profit
 bell
 atmosphere
 humanity
@@ -822,6 +831,7 @@ instinct
 tribe
 apprehensive-mood g
 shelter
+rude
 riding
 profession
 lamp
@@ -833,7 +843,6 @@ shoes
 crew
 yard
 vague
-elsewhere
 apartment
 activity
 saturday
@@ -900,6 +909,7 @@ beard
 tear
 resist
 commission
+merchant
 independence
 smell
 eighteen
@@ -907,6 +917,7 @@ historical
 gross
 root
 mud
+simplicity
 veil
 theatre
 comparison
@@ -915,6 +926,7 @@ rival
 realize
 balance
 coach
+criminal
 humour
 novel
 revenge
@@ -923,6 +935,7 @@ jealous g
 wheel
 burnt
 flash
+suggest
 imprecative-mood g 3
 helpless
 groups
@@ -949,6 +962,7 @@ student
 cave
 tradition
 tragedy
+inn
 virgin
 farewell
 criticism
@@ -967,7 +981,6 @@ flour
 roar
 romantic
 hut
-propose
 mimetic g
 dollar
 assembly
@@ -982,6 +995,7 @@ medicine
 fourteen
 acid
 namely g
+user
 bishop
 orange
 bath
@@ -990,6 +1004,7 @@ primitive
 basket
 secretary
 salvation
+today
 hodiernal-tense g
 intend
 steam
@@ -1036,7 +1051,6 @@ discharge
 heir
 oak
 unpleasant
-piano
 persuade
 invisible
 well-known
@@ -1066,6 +1080,7 @@ inspiration
 meanwhile
 crisis
 polite
+seal
 lunch
 despite
 landscape
@@ -1092,6 +1107,7 @@ palm
 encourage
 speaker
 threshold
+induce
 neat
 session
 torture g
@@ -1106,6 +1122,7 @@ deliberately
 beer
 velvet
 positively
+gravity
 sermon
 partner
 abuse
@@ -1139,6 +1156,7 @@ outline
 elbow
 attachment
 repair
+fist
 suspicious
 seventy
 scripture
@@ -1163,17 +1181,16 @@ seventeen
 feminine
 honey
 stake
-tread
 brick
 eighty
 legend
-irregular
 harvest
 stove
 rebel
 old-fashioned
 swell
 improve
+bowl
 stare
 industrial
 dressing
@@ -1208,6 +1225,7 @@ gossip
 systems
 token
 abstract
+accent
 sincerely
 approve
 architecture
@@ -1215,7 +1233,6 @@ crack
 pavement
 decisive
 negative
-festival
 treason
 hunter
 snake
@@ -1232,7 +1249,6 @@ reaction
 baggage
 deaf
 juice
-humility
 sexual
 diamond
 echo
@@ -1245,14 +1261,12 @@ imaginary
 ray
 climbing
 ink
-massive
 memorable
 noisy
 senate
 transport
 coffin
 swallow
-comfortably
 indulge
 agricultural
 swing
@@ -1260,8 +1274,6 @@ meadow
 complex
 resignation
 humble-register g
-roughly
-pub
 pepper
 pony
 candidate
@@ -1273,6 +1285,7 @@ democratic
 blanket
 pig
 ivory
+lighter
 observer
 nails
 bee
@@ -1292,6 +1305,7 @@ sack
 annoyance g
 needle
 controlled
+barrier
 rely
 chicken
 barrel
@@ -1317,6 +1331,7 @@ pulse
 pilot
 skirt
 technical
+vehicle
 scope
 vegetation
 sunrise
@@ -1348,7 +1363,6 @@ tropical
 phase
 arbitrary
 ecstasy g
-pronounce
 mercury
 suicide
 reporter
@@ -1367,6 +1381,7 @@ signature
 singer
 orthodox
 nursery
+adoption
 reluctance
 import
 torch
@@ -1406,7 +1421,6 @@ soap
 doll
 sewing
 reconcile
-layer
 kettle
 rabbit
 conductor
@@ -1418,9 +1432,10 @@ resident
 dragon
 auditory-evidential g 3
 linger
-routine
+lid
 mayor
 junction
+hardware
 creative
 minority
 trench
@@ -1450,10 +1465,10 @@ revive
 susceptible
 tunnel
 puzzle
+mechanism
 mathematics
 fade
 balanced
-liver
 sublative-case g
 dip
 unit
@@ -1492,6 +1507,7 @@ oxygen
 certificate
 medal
 rhetoric
+rung
 scrape
 login
 telescope
@@ -1505,7 +1521,6 @@ adult
 biography
 donkey
 perspective
-pro
 monthly
 vacation
 click
@@ -1522,7 +1537,6 @@ chart
 twin
 insulting
 independently
-dealer
 accumulation
 marsh
 nightmare
@@ -1565,7 +1579,6 @@ pregnant
 everyday
 precipitate
 ankle
-classification
 variable
 curly
 sulphur
@@ -1584,7 +1597,6 @@ collective
 cooperation
 tablet
 forge
-constraint
 fastidious
 pyramid
 unlawful
@@ -1615,13 +1627,14 @@ spiral
 camera
 dancer
 migration
-tennis
 addicted
 spine
 fry
+facilitate
 stab
 password
 hemisphere
+depressing
 strategy
 scissors
 patrol
@@ -1664,7 +1677,6 @@ innovation
 medieval
 plastic
 footnote
-orbit
 dairy
 zero
 zip
@@ -1724,12 +1736,12 @@ discount
 taxi
 hierarchy
 snarl
-disappointing
 naive
 presidency
 buyer
 gallon
 mosquito
+deplore
 deviation
 mosaic
 plug
@@ -1741,8 +1753,10 @@ prosecutive-case g
 dictator
 preoccupation g
 satellite
+approximate
 unemployed
 implement
+bulb
 supporter
 lotus
 chloride
@@ -1752,7 +1766,6 @@ biological
 feign
 byte
 secretion
-explicitly
 ballet
 urine
 garlic
@@ -1762,7 +1775,6 @@ characterize
 strawberry
 notebook
 transcendental
-baseball
 piracy
 buffet
 participle g
@@ -1788,7 +1800,6 @@ reinforce
 convex
 socket
 potassium
-algebra
 jewellery
 optical
 unemployment
@@ -1905,7 +1916,6 @@ alpha
 navel
 immune
 molecule
-simplify
 abridge
 captivate
 sock
@@ -1929,7 +1939,6 @@ bureaucracy
 distort
 galaxy
 clinical
-radium
 refrigerator
 harmonic
 archaeological
@@ -1945,7 +1954,6 @@ analytic
 simulation
 vagina
 tourism
-acceleration
 trigonometry
 kidnap
 overlap
@@ -1958,13 +1966,13 @@ nationalism
 buttocks
 sublimate
 buffer
+frustration g
 cobalt
 subtraction
 motion-upriver g 3
 coordinates
 anus
 redundancy
-video
 boycott
 quiz
 guerrilla
@@ -1982,6 +1990,7 @@ taxpayer
 integrated
 opine
 server
+algebraic
 motion-downriver g 3
 coefficient
 bismuth
@@ -2005,6 +2014,7 @@ consultant
 zoo
 clinic
 bookstore
+retailer
 barium
 behead
 yeah
@@ -2019,7 +2029,6 @@ input
 makeup
 vaccine
 axiomatic
-heroin
 folder
 cathode
 flu
@@ -2062,8 +2071,8 @@ kilometre
 genetics
 broccoli
 permutation
-spam
 vector
+tactic
 alright
 vitamin
 cadmium
@@ -2099,7 +2108,6 @@ hypotenuse
 desktop
 headquarter
 misplace
-congruent
 partitive-case g
 cassette
 supermarket
@@ -2108,14 +2116,14 @@ dimensional
 offline
 encryption
 synchronize
+seminar
 semantic
 disco
 real-time
+epiphany g
 lifestyle
-pasta
 cosine
 artifact
-plutonium
 workstation
 augmentative g
 username
@@ -2142,7 +2150,6 @@ polynomial
 beryllium
 predicative g
 factorial
-widget
 niobium
 germanium
 metalloid
@@ -2160,260 +2167,261 @@ marathon
 plug-in
 topology
 ionize
-accident
-full-time
-caps-lock
-gas-pedal
-at-case g
-modal-case g
-post-office
-ethium
-verbal-noun g
-to-close
-runtime
-microphone
-recording
-rounding
-wear-out
-web-site
-star-gender g
-regression
-projective
-trojan-horse
-phoneme
-malware
-receptor
-retail-store
-epidemiology
-log-out
-angles
-inbox
-friendship g
-phonological
-status-bar
-prehodiernal g
-triple-point
-chauvinist
-scroll-bar
-terbium-atom
-blue-jean
-ip-address
-air-force
-mobile-phone
-that-which g
-dot-matrix
+si-units
+camping
+finite-verb g
+gnomic-mood g
+shift-key
+squares
+salesperson
 rhenium
-cybercrime
-clip-board
-cesium
-middle-voice g 3 
-inhibition
-web-host
-verb-affix g
-dramatically
-oblique-case g
-poet
-euphoria g
-mail-carrier
-goal-trigger g
-hypnothize
-binary-value g
-whitespace
-human-body
-houseplant
-non-human g
-patient-case g
-netium
-impermanence
-civil-rights
-goalkeeper
-motorist
-scalar
-first-hand
-folk-music
-compile
-fool-around
-firefighter
-centric-case g
+cell-phone
+sideways
+modal-case g
+junk-mail
+clip-art
+bookmark
+regression
+home-page
 lative-case g
-antibody
-ghostwriter
+nth-root
+flowchart
+middle-voice g 3 
+old-age
+rounding
+rhodium-atom
+bad-tempered
+oblique-case g
+patient-case g
+prehodiernal g
+bald
+goal-trigger g
+paralyzed
+complain
+to-case g
+radiation
+actor-role g
+euphoria g
+caps-lock
+whitespace
+dramatically
+chauvinist
+web-site
+houseplant
+civil-rights
+projective
+binary-value g
+goalkeeper
+retail-store
+status-bar
+microphone
+human-body
+swear-in
+mail-carrier
+centric-case g
+trojan-horse
+scroll-bar
+triple-point
+read-only
+decay
+impermanence
+poet
+phonological
+hypnothize
 trial-number g 3
+receptor
+verb-affix g
+non-human g
 flow-current
+that-which g
+clause-tail g
+upside-down
+for-example g
+ip-address
+in-language g
 individually
 pro-sentence g
-eulers-number
-galaxy-gender g
-trans-numeral g
-distributor
+epidemiology
+legislate
+striped
+overcharge
+angles
+wear-out
+citation-form g
+ergative-case g
+suburb
+common-gender g
+supercomputer
+direct-object g
+motorist
+statistically
+rationality
+passive-voice g 3
+causative g
+cesium
+search-engine
+toolbar
 automatically
-abessive-case g
-adessive-case g
-per-cent
-modeling
-agentive-case g
+agent-trigger g
+color-blind
+comic-strip
+teminal
+dot-matrix
 short-circuit
+compile
+agentive-case g
+accident
+multal-number g 3
+to-close
+broad
+adessive-case g
 cooperative
-koran
-spreadsheet
+eulers-number
+laser-printer
+trans-numeral g
+combinatorial
+abessive-case g
 locative-case g 3
 swimming-pool
-gnomic-mood g
-finite-verb g
-physics
-agent-trigger g
-causative g
-passive-voice g 3
-shift-key
-data-mining
-domain-name
-common-gender g
-multal-number g 3
-neodymium
+cybercrime
+post-office
+malware
+inhibition
+recording
+clip-board
+spreadsheet
 nth-power g
-read-only
+movie-theater
+inbox
+per-cent
+aerosol
+distributor
+dynamical
+one-second
+brownian
+star-gender g
+galaxy-gender g
+cardboard
+one-another
+police-officer
+primary-object g
+animate-gender g 3
+evitative-case g
+vehicle-gender g
+data-mining
+possessed-case g 3
+mineral-gender g
+domain-name
+imaginary-unit
+verbal-noun g
+mathematicians
+modeling
+final-particle g
 flash-drive
 floppy-disk
-striped
-citation-form g
-clause-tail g
-motherboard
-statistically
-comic-strip
-laser-printer
-color-blind
-movie-theater
-ergative-case g
-combinatorial
-broad
-direct-object g
-nth-root
-search-engine
-in-language g
-supercomputer
-closure
-brownian
-animate-gender g 3
-possessed-case g 3
-adverbial-case g
-text-editor
-morpheme
-final-particle g
-computer-virus
-legislate
-else-if g
-evitative-case g
-dynamical
-imaginary-unit
-police-officer
-vehicle-gender g
-denominator
-mineral-gender g
-auxiliary-verb g
-empathetic-joy g
-facilitator
-subessive-case g
-prime-minister
-primary-object g
+firefighter
 critical-point
-antessive-case g
-mathematicians
-rehabilitation
-cardboard
-old-age
-user-
+empathetic-joy g
 word-processor
-camping
-businessperson
+prime-minister
 virtual-memory
-user-interface
+adverbial-case g
+ethium
+shorts
+fool-around
+equations
+subessive-case g
+log-out
+antessive-case g
 crosswalk
-exocentric-case g
-different-event g
-indirect-speech g
-virtual-reality
-abstract-gender g
+user-interface
+ghostwriter
+denominator
+computer-virus
+facilitator
+rehabilitation
+auxiliary-verb g
+first-hand
+motherboard
+patient-trigger g
+runtime
+collective-noun g 3
+koran
+business-person
+transitive-verb g
+cloud-computing
+virtual-machine
 absolutive-case g
+virtual-reality
+past-perfective g
+impersonal-verb g
+crastinal-tense g
+reflexive-voice g 3
+abstract-gender g
+different-event g
+exocentric-case g
 second-language g
 artistic-gender g
-bald
-virtual-machine
-squares
-past-perfective g
-research-gender g
-reflexive-voice g 3
-suburb
-universe-gender g
 self-confidence g
-crastinal-tense g
-decay
-rationality
-junk-mail
-transitive-verb g
+research-gender g
+indirect-speech g
 locality-gender g
-cloud-computing
-radiation
-toolbar
-impersonal-verb g
-one-another
-collective-noun g 3
-patient-trigger g
+physics
+universe-gender g
+closure
 superlative-case g
-upside-down
-planetary-gender g
-core-benefactive g
 computer-program
-shorts
+antibody
+full-time
 propositive-mood g
 associative-case g
-aerosol
 inanimate-gender g 3
-electric-current g
-actor-role g
-reciprocal-voice g 3
-bookmark
-grammatical-case
+text-editor
+planetary-gender g
 operating-system
-home-page
-negotiation
-si-units
-clip-art
-notebook-computer
-nonremittal
-sideways
-teminal
+grammatical-case
+electric-current g
+reciprocal-voice g 3
+core-benefactive g
+web-host
 applicative-voice g 3
-antipassive-voice g 3
-flowchart
+phoneme
 successive-clause g
+notebook-computer
+gas-pedal
+antipassive-voice g 3
+folk-music
 social-networking
-paralyzed
-singulative-number g
-passive-participle g
-grammatical-object
-luminous-intensity g
-necessitative-mood g
-superlative-degree g
-continutive-aspect g
-equations
+negotiation
+nonremittal
+morpheme
+neodymium
 radiation-sickness
 present-participle g
+necessitative-mood g
 existential-clause g
 excessive-duration g
-epenthetic-morpheme g
-negatory-quantifier g
-connective-particle g
-overcharge
+passive-participle g
+grammatical-object
+continutive-aspect g
+singulative-number g
+luminous-intensity g
+superlative-degree g
+blue-jean
 elective-quantifier g
 supercritical-fluid
+epenthetic-morpheme g
 postpositional-case g
-frequentative-aspect g
-distributive-pronoun g 3
-swear-in
-assertive-quantifier g
+negatory-quantifier g
+connective-particle g
+netium
+universal-quantifier g
+air-force
 allocutive-agreement g
 computer-programming
-universal-quantifier g
+assertive-quantifier g
+frequentative-aspect g
+distributive-pronoun g 3
 alternative-quantifier g
-one-second
+scalar
 counterfactual-conditional g
