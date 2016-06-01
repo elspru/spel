@@ -103,12 +103,11 @@ static const uint8_t
     {(uint8_t) 'f', 3},
     {(uint8_t) 'c', 3}
 };
-/*static const char secondary_group[] = {'f','s','c','y', 
-    'r','w','l','x', 'z','j','v'};
-#define SECONDARY_SET_LENGTH 11
-static const char last_group[] = {'p','t','k','f', 's','c','n','m'};
-#define LAST_SET_LENGTH 8
-*/
+//static const char secondary_group[] = {'f','s','c','y', 
+//    'r','w','l','x', 'z','j','v'};
+//#define SECONDARY_SET_LENGTH 11
+//static const char last_group[] = {'p','t','k','f', 's','c','n','m'};
+//#define LAST_SET_LENGTH 8
 
 
 static inline uint8_t vowel_Q(const char glyph) {
@@ -432,10 +431,10 @@ static inline void encode_ACC_type(const char* word,
         *type = LONG_ROOT;
         *number = 0;
     } else {
-        *type = WRONG_TYPE;
+        *type = WRONG_WORD;
         *number = 0;
     }
-    assert(*type != WRONG_TYPE);
+    assert(*type != WRONG_WORD);
 }
 
 static inline void encode_ACC_tone(const uint8_t type,
@@ -891,10 +890,10 @@ void sentence_encode(
     uint8_t derived_word_length = WORD_LENGTH;
     uint16_t number = 0;
     uint16_t quote_word = 0;
-    uint16_t binary_phrase_list = (uint16_t) ~0 ^ 1;
+    uint16_t binary_phrase_list = (uint16_t) 1;
     uint8_t quote_length = 0;
     uint8_t quote_lump_length = 0;
-    uint8_t current = 0xFF;
+    uint8_t current = 0x0;
     memset(word, 0, WORD_LENGTH);
     memset(derived_word, 0, WORD_LENGTH);
     assert(text != NULL);
@@ -980,7 +979,14 @@ void sentence_encode(
                         lump[lump_spot] = number;
                         ++lump_spot;
                         break;
+                    case CONDITIONAL_MOOD:
+                        lump[lump_spot] = number;
+                        binary_phrase_list ^= 
+                            1 << lump_spot;
+                        ++lump_spot;
+                        break;
                     case DEONTIC_MOOD:
+                        lump[lump_spot] = number;
                         binary_phrase_list ^= 
                             1 << lump_spot;
                         current = 2;
@@ -1000,4 +1006,43 @@ void sentence_encode(
         }
     }
     lump[0] = binary_phrase_list;
+}
+inline void realize(
+        const uint16_t* lump,
+        const uint16_t* grammaticalCase_list,
+        const uint8_t* hook_list,
+        const uint8_t grammaticalCase_spot,
+        const uint16_t verb) {
+    uint16_t quote = 0;
+    uint8_t quote_spot = 0;
+    uint8_t quote_length = 0;
+    uint8_t lump_spot = 0;
+    uint16_t word = 0;
+    assert(lump != NULL);
+    assert(grammaticalCase_list != NULL);
+    assert(hook_list != NULL);
+    assert(grammaticalCase_spot != 0);
+    assert(verb != 0);
+    switch (verb) {
+        case SAY_VERB:
+            quote_spot = hook_list[ACCUSATIVE_SPOT];
+            assert(quote_spot != 0);
+            quote = lump[quote_spot];
+            quote_length = (uint8_t) 1 << ((quote >> 
+                CONSONANT_ONE_WIDTH) & 7 /* three bit mask */);
+            assert(quote_length != 1);
+            for (lump_spot = quote_spot + 1; 
+                        lump_spot < (quote_length/2 +
+                            quote_spot + 1); ++lump_spot) {
+                word = lump[lump_spot];
+                printf("%c%c", (unsigned char) word & 0xFF,
+                    (unsigned char) (word >> 8));
+            }
+            break;
+        default: 
+            printf("unrecognized verb %X\n", 
+                (unsigned int) verb);
+            assert(1 == 0);
+            break;
+    }
 }

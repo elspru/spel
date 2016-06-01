@@ -5,12 +5,13 @@
 #define MAX_LENGTH 0xFFU
 #define SENTENCE_LENGTH 0xFF
 #define WORD_LENGTH 0x05
-#define WRONG_TYPE 0
+#define WRONG_WORD 0
 #define LONG_ROOT 1
 #define SHORT_ROOT 2
 #define LONG_GRAMMAR 3
 #define SHORT_GRAMMAR 4
 #define CONSONANT_ONE_WIDTH 5
+#define CONSONANT_ONE_MASK 0x1F
 #define BANNER_WIDTH 3
 #define CONSONANT_TWO_WIDTH 3
 #define VOWEL_WIDTH 3
@@ -20,16 +21,34 @@
 #define LUMP_WORD_LENGTH 0xF
 #define MAX_SENTENCE_LUMP 0x4
 #define QUOTE_INDICATOR 0x1D
-#define TWO_BYTE_QUOTE 0x3
-#define FOUR_BYTE_QUOTE 0x4
-#define EIGHT_BYTE_QUOTE 0x5
-#define SIXTEEN_BYTE_QUOTE 0x6
+#define TWO_BYTE_QUOTE 0x1
+#define FOUR_BYTE_QUOTE 0x2
+#define EIGHT_BYTE_QUOTE 0x3
+#define SIXTEEN_BYTE_QUOTE 0x4
 
 #define DEONTIC_MOOD 0x95E
 #define ACCUSATIVE_CASE 0x45E
 #define DATIVE_CASE 0x49E
 #define INSTRUMENTAL_CASE 0x93E
+#define CONDITIONAL_MOOD 0X87E
 #define QUOTE_WORD 0x8BE
+#define MAX_GRAMMATICALCASE_INE_SENTENCE 8
+#define HOOK_LIST_LENGTH 5
+#define VERB_SPOT 4
+#define ACCUSATIVE_SPOT 3
+#define INSTRUMENTAL_SPOT 2
+#define DATIVE_SPOT 1
+#define NOMINATIVE_SPOT 0
+
+#define SAY_VERB 0x1948
+#define SUBTRACTION_VERB 0x1B2D
+#define INCREASE_VERB 0x19EA /* add */
+#define EXCLUSIVEOR_VERB 0x1810
+#define ANDOR_VERB 0x150
+#define NOT_VERB 0x1830 
+#define UP_VERB 0x1118 /* shift up */
+#define DOWN_VERB 0x1868 /* shift down */
+#define EXCHANGE_VERB 0x1BEA /* fredkin gate */
 
 typedef int v4si __attribute__ ((vector_size (16)));
 typedef uint8_t v16uc __attribute__ ((vector_size (16)));
@@ -68,8 +87,14 @@ extern void encode_PL_word(const uint32_t* PL_word,
     uint8_t* lump_length,
     uint8_t* remainder);
 /*@unused@*/ extern void sentence_encode(
-    const char* text,
-    const uint8_t text_length,
-    uint16_t* lump,
-    uint8_t* lump_length,
-    uint8_t* remainder);
+        const char* text,
+        const uint8_t text_length,
+        uint16_t* lump,
+        uint8_t* lump_length,
+        uint8_t* remainder);
+/*@unused@*/ extern void realize(
+        const uint16_t* lump,
+        const uint16_t* grammaticalCase_list,
+        const uint8_t* hook_list,
+        const uint8_t grammaticalCase_spot,
+        const uint16_t verb);

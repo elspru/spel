@@ -30,3 +30,7 @@
 .34A4918B8.mu.elspru.nwo #geneticprogramming the mother of my #brainchild
 .34A492948.mu.elspru.nwo modified #SPEL #encoding binary indexing, now flips a bit for case and sentence endings, easier implemention.
 .34A493245.mu.elspru.nwo #AntColonyOptimization could be used in #GridComputing where users/nodes can pick/pheremone stages and types of solvers to run.
+.34A572048.mu.elspru.nwo figuring out memory layout implementation
+.34A61AA29.mu.elspru.nwo #aging and #death is inevitable, so creating ever better host bodies and environments is fruitful
+.34A682589.mu.elspru.nwo made a bare minimum #helloWorld interpreter of the encoding for #SPEL
+.34A682876.mu.elspru.nwo next have to add some more verbs, and support dependant execution for #SPEL

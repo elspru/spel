@@ -462,13 +462,13 @@ The quote starts with the Quote Flag, which is 30. which takes
 up 5 bits. The following 3 bits gives the length.
 <ol start="0">
 <li>unsigned 8 bit quote</li>
-<li>signed 8 bit quote</li>
-<li>pointer</li>
 <li>16 bit quote</li>
 <li>32 bit quote</li>
 <li>64 bit quote</li>
 <li>128 bit quote</li>
 <li>256 bit quote* (maybe later)</li>
+<li>signed 8 bit quote</li>
+<li>pointer</li>
 </ol>
 The next 8 bits are either the 8 bit quote, or they provide more
 type information. The first bit shows weather it is constant data,
