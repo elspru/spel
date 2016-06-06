@@ -62,7 +62,8 @@ extern void delete_empty_glyph(const char*  letter,
         const uint16_t  length,
         char*  neatLetter,
         uint16_t*  fresh_length);
-/*@unused@*/ extern void derive_first_word(const char* sentence,
+/*@unused@*/ extern void derive_first_word(
+        const char* sentence,
         const uint8_t length,
         char* word,
         uint8_t* fresh_length);

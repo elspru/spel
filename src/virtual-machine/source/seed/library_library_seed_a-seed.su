@@ -2,8 +2,8 @@ seed.c:202:13:1	8	static
 seed.c:141:6:delete_empty_glyph	24	static
 seed.c:165:6:text_copy	8	static
 seed.c:202:13:derive_first_word	32	static
-seed.c:524:6:encode_ACC_word_DAT_number	32	static
-seed.c:627:6:encode_ACC_word_PL	72	static
-seed.c:730:6:lump_encode	72	static
-seed.c:868:6:sentence_encode	104	static
-seed.c:1015:13:realize	24	static
+seed.c:525:6:encode_ACC_word_DAT_number	32	static
+seed.c:628:6:encode_ACC_word_PL	72	static
+seed.c:732:6:lump_encode	72	static
+seed.c:876:6:sentence_encode	104	static
+seed.c:1021:13:realize	24	static

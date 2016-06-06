@@ -130,7 +130,7 @@ static inline uint8_t tone_Q(const char glyph) {
 }
 static inline uint8_t consonant_Q(const char glyph) {
     uint8_t i;
-    for (i = 0; i < consonant_group_length; i += 1) {
+    for (i = 0; i < consonant_group_length; ++i) {
        if (consonant_group[i] == glyph) {
             return TRUE;
        } 
@@ -149,13 +149,13 @@ void delete_empty_glyph(const char* restrict text,
     assert(text != NULL);
     assert(DAT_text != NULL);
     assert(text != DAT_text);
-    for (i = 0; i < ACC_GEN_length; i += 1) {
+    for (i = 0; i < ACC_GEN_length; ++i) {
         glyph = text[i];
         if(consonant_Q(glyph) == TRUE ||
                 vowel_Q(glyph) == TRUE ||
                 tone_Q(glyph) == TRUE) {
             DAT_text[j] = glyph;
-            j += 1;
+            ++j;
         } else {
         }
     }
@@ -184,8 +184,8 @@ static inline void copy_ACC_text_DAT_lump(
         printf("text_spot %X %X ", (unsigned int) text_spot, 
             (unsigned int) text_length);
         if (text_length > text_spot + 1) {
-            lump[lump_spot] = (uint16_t) text[text_spot] |
-                (((uint16_t) text[text_spot + 1]) << 8);
+            lump[lump_spot] = (uint16_t) (text[text_spot] |
+                (text[text_spot + 1] << 8));
             ++text_spot;
         printf("lump %X \n", (unsigned int) lump[lump_spot]);
         } else {
@@ -196,7 +196,7 @@ static inline void copy_ACC_text_DAT_lump(
 }
 
 #define derive_first_word_exit \
-    *DAT_GEN_length = 0; \
+    *DAT_GEN_length = (uint8_t) 0; \
     return; 
 
 inline void derive_first_word(const char* restrict ACC_sentence,
@@ -253,9 +253,10 @@ inline void derive_first_word(const char* restrict ACC_sentence,
                 }
                 assert(consonant_Q(ACC_sentence[start + 4]) ==
                     TRUE);
-                text_copy(ACC_sentence + start, start + 5,
+                text_copy(ACC_sentence + start, (uint8_t)(start
++ 5),
                     DAT_word);
-                *DAT_GEN_length = 5;
+                *DAT_GEN_length = (uint8_t) 5;
             } else {
                 if(consonant_Q(ACC_sentence[start + 3]) ==
                         FALSE) {
@@ -263,19 +264,19 @@ inline void derive_first_word(const char* restrict ACC_sentence,
                 }
                 assert(consonant_Q(ACC_sentence[start + 3]) ==
                     TRUE);
-                text_copy(ACC_sentence + start, start + 4,
-                    DAT_word);
-                *DAT_GEN_length = 4;
+                text_copy(ACC_sentence + start,(uint8_t)(start +
+                    4), DAT_word);
+                *DAT_GEN_length = (uint8_t) 4;
             }
         } else if (vowel_Q(ACC_sentence[start + 1]) == TRUE) {
             if (tone_Q(ACC_sentence[start + 2]) == TRUE) {
-                text_copy(ACC_sentence + start, start + 3,
-                    DAT_word);
-                *DAT_GEN_length = 3;
+                text_copy(ACC_sentence + start,(uint8_t)(start +
+                    3), DAT_word);
+                *DAT_GEN_length = (uint8_t) 3;
             } else {
-                text_copy(ACC_sentence + start, start + 2,
-                    DAT_word);
-                *DAT_GEN_length = 2;
+                text_copy(ACC_sentence + start,(uint8_t)(start +
+                    2), DAT_word);
+                *DAT_GEN_length = (uint8_t) 2;
             }
         }
     } 
@@ -298,12 +299,12 @@ static inline void encode_ACC_consonant_one(const uint8_t type,
                     *number = consonant_number;
                     break;
                 } else if (type == LONG_GRAMMAR) {
-                    *number |= (uint16_t)
-                        consonant_number << BANNER_WIDTH;
+                    *number |= (uint16_t)(
+                        consonant_number << BANNER_WIDTH);
                     break;
                 } else if (type == SHORT_GRAMMAR) {
-                    *number |= (uint16_t)
-                        consonant_number << CONSONANT_ONE_WIDTH;
+                    *number |= (uint16_t)(
+                        consonant_number << CONSONANT_ONE_WIDTH);
                     break;
                 }
             }
@@ -326,9 +327,9 @@ static inline void encode_ACC_consonant_two(const uint8_t type,
                     consonant_one_encode_group[i][1];
                 assert(consonant_number <
                     CONSONANT_ONE_ENCODE_LENGTH);
-                *number |= (uint16_t)
+                *number |= (uint16_t)(
                     consonant_number << 
-                    BANNER_WIDTH;
+                    BANNER_WIDTH);
                 break;
             }
         }
@@ -343,14 +344,14 @@ static inline void encode_ACC_consonant_two(const uint8_t type,
                 assert(consonant_number <
                     CONSONANT_TWO_ENCODE_LENGTH);
                 if (type == LONG_ROOT) {
-                    *number |= (uint16_t)
+                    *number |= (uint16_t)(
                         consonant_number <<
-                        CONSONANT_ONE_WIDTH;
+                        CONSONANT_ONE_WIDTH);
                     break;
                 } else if (type == LONG_GRAMMAR) {
-                    *number |= (uint16_t)
+                    *number |= (uint16_t)(
                         consonant_number << 
-                        (BANNER_WIDTH + CONSONANT_ONE_WIDTH);
+                        (BANNER_WIDTH + CONSONANT_ONE_WIDTH));
                     break;
                 }
             }
@@ -371,25 +372,25 @@ static inline void encode_ACC_vowel(const uint8_t type,
                 vowel_number = vowel_encode_group[i][1];
                 assert(vowel_number < VOWEL_ENCODE_LENGTH);
                 if (type == LONG_ROOT) {
-                    *number |= (uint16_t) vowel_number <<
+                    *number |= (uint16_t)(vowel_number <<
                         (CONSONANT_ONE_WIDTH +
-                            CONSONANT_TWO_WIDTH);
+                            CONSONANT_TWO_WIDTH));
                     break;
                 } else if (type == SHORT_ROOT) {
-                    *number |= (uint16_t)
+                    *number |= (uint16_t)(
                         vowel_number << 
-                        (BANNER_WIDTH + CONSONANT_ONE_WIDTH);
+                        (BANNER_WIDTH + CONSONANT_ONE_WIDTH));
                     break;
                 } else if (type == LONG_GRAMMAR) {
-                    *number |= (uint16_t)
+                    *number |= (uint16_t)(
                         vowel_number << 
                         (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
-                            CONSONANT_TWO_WIDTH);
+                            CONSONANT_TWO_WIDTH));
                     break;
                 } else if (type == SHORT_GRAMMAR) {
-                    *number |= (uint16_t)
+                    *number |= (uint16_t)(
                         vowel_number << 
-                        (CONSONANT_ONE_WIDTH * 2);
+                        (CONSONANT_ONE_WIDTH * 2));
                     break;
                 }
             }
@@ -448,23 +449,23 @@ static inline void encode_ACC_tone(const uint8_t type,
             if (tone_encode_group[i][0] == tone) {
                 tone_number = tone_encode_group[i][1];
                 if (type == LONG_ROOT) {
-                    *number |= (uint16_t) tone_number <<
+                    *number |= (uint16_t)(tone_number <<
                         (CONSONANT_ONE_WIDTH +
-                            CONSONANT_TWO_WIDTH + VOWEL_WIDTH);
+                            CONSONANT_TWO_WIDTH + VOWEL_WIDTH));
                     break;
                 } else if (type == SHORT_ROOT) {
-                    *number |= (uint16_t) tone_number << 
+                    *number |= (uint16_t)(tone_number << 
                         (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
-                            VOWEL_WIDTH);
+                            VOWEL_WIDTH));
                     break;
                 } else if (type == LONG_GRAMMAR) {
-                    *number |= (uint16_t) tone_number << 
+                    *number |= (uint16_t)(tone_number << 
                         (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
-                            CONSONANT_TWO_WIDTH + VOWEL_WIDTH);
+                            CONSONANT_TWO_WIDTH + VOWEL_WIDTH));
                     break;
                 } else if (type == SHORT_GRAMMAR) {
-                    *number |= (uint16_t) tone_number << 
-                        (CONSONANT_ONE_WIDTH * 2 + VOWEL_WIDTH);
+                    *number |= (uint16_t)(tone_number << 
+                        (CONSONANT_ONE_WIDTH * 2 + VOWEL_WIDTH));
                     break;
                 }
             }
@@ -488,29 +489,29 @@ static inline void encode_ACC_consonant_three(
                 consonant_number = 
                     consonant_three_encode_group[i][1];
                 if (type == LONG_ROOT && tone == 0) {
-                    *number |= (uint16_t) 
+                    *number |= (uint16_t)(
                         consonant_number <<
                         (CONSONANT_ONE_WIDTH +
-                            CONSONANT_TWO_WIDTH + VOWEL_WIDTH);
+                            CONSONANT_TWO_WIDTH + VOWEL_WIDTH));
                     break;
                 } else if (type == SHORT_ROOT && tone == 0) {
-                    *number |= (uint16_t)
+                    *number |= (uint16_t)(
                         consonant_number << 
                         (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
-                            VOWEL_WIDTH);
+                            VOWEL_WIDTH));
                     break;
                 } else if (type == LONG_ROOT && tone != 0) {
-                    *number |= (uint16_t)
+                    *number |= (uint16_t)(
                         consonant_number << 
                         (CONSONANT_ONE_WIDTH +
                             CONSONANT_TWO_WIDTH +
-                            VOWEL_WIDTH + TONE_WIDTH);
+                            VOWEL_WIDTH + TONE_WIDTH));
                     break;
                 } else if (type == SHORT_ROOT && tone != 0) {
-                    *number |= (uint16_t)
+                    *number |= (uint16_t)(
                         consonant_number << 
                         (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
-                            VOWEL_WIDTH + TONE_WIDTH);
+                            VOWEL_WIDTH + TONE_WIDTH));
                     break;
                 }
             }
@@ -646,27 +647,28 @@ algorithm:
     uint8_t i = 0;
     uint8_t j = 0;
     uint16_t number = 0;
-    uint8_t length = ACC_GEN_length;
-    if (ACC_GEN_length == 0xFF) { // see assumptions
-        length = 0xFF - 2;
-    }
+    //uint8_t length = ACC_GEN_length;
+    //if (ACC_GEN_length == 0xFF) { // see assumptions
+    //    length = 0xFF - 2;
+    //}
     memset(DAT_word, 0, WORD_LENGTH);
     assert(ACC_sentence != NULL);
     assert(ACC_GEN_length > 0);
     assert(DAT_encode_sentence != NULL);
     assert(*DAT_GEN_length >= ACC_GEN_length / 2);
     for(; i < ACC_GEN_length; j++) { 
-        derive_first_word(ACC_sentence + i, ACC_GEN_length - i,
+        derive_first_word(ACC_sentence + i,(uint8_t)
+            (ACC_GEN_length - i),
             DAT_word, &DAT_word_GEN_length);
         //printf("%s %d \n", ACC_sentence +i, 
         //    (int) DAT_word_GEN_length);
         if (DAT_word_GEN_length == 0) {
-            *DAT_GEN_remainder = ACC_GEN_length - i;
+            *DAT_GEN_remainder =(uint8_t)(ACC_GEN_length - i);
             break;
         }
         encode_ACC_word_DAT_number(DAT_word, 
             DAT_word_GEN_length, &number);
-        i += DAT_word_GEN_length;
+        i = (uint8_t)(i + DAT_word_GEN_length);
         DAT_encode_sentence[j] = number;
         DAT_word_GEN_length = WORD_LENGTH;
     }
@@ -691,7 +693,7 @@ static inline void establish_ACC_binary_phrase_list(
         MAX_SENTENCE_LUMP + 1);
     assert(binary_phrase_list != NULL);
     if (*binary_phrase_list == 0) {
-        current = ~current;
+        current =(uint8_t) ~current;
     }
     for (i = 0; i < sentence_length; i++) {
         if (current == 2) break;
@@ -700,7 +702,7 @@ static inline void establish_ACC_binary_phrase_list(
                 *binary_phrase_list |= 0 << (i + 1);
                 break; */
             case 0xFF: 
-                *binary_phrase_list |= 1 << (i + 1);
+                *binary_phrase_list |=(uint16_t)(1 << (i + 1));
                 break;
             default: 
                 break;
@@ -708,13 +710,13 @@ static inline void establish_ACC_binary_phrase_list(
         lump[i + 1] = encode_text[i];
         switch (encode_text[i]) {
             case ACCUSATIVE_CASE:
-                current = ~current; 
+                current =(uint8_t)(~current); 
                 break;
             case INSTRUMENTAL_CASE:
-                current = ~current; 
+                current =(uint8_t)(~current); 
                 break;
             case DATIVE_CASE:
-                current = ~current; 
+                current =(uint8_t)(~current); 
                 break;
             case DEONTIC_MOOD:
                 current = 2;
@@ -749,24 +751,25 @@ void lump_encode(
         determine if can fit in one lump or need multiple*/
     for (i = 0; i < encode_text_length; i++) {
         if (encode_text[i] == DEONTIC_MOOD) {
-            sentence_length = i + 1;
+            sentence_length =(uint8_t)(i + 1);
             break;
         }
     }
     assert(sentence_length > 0);
-    for (i = 0; i < sentence_length; i += LUMP_WORD_LENGTH) {
+    for (i = 0; i < sentence_length; i =(uint8_t)(i +
+            LUMP_WORD_LENGTH)) {
         if (sentence_length - i >  LUMP_WORD_LENGTH) {
             binary_phrase_list = 0;
         } else {
             binary_phrase_list = 1;
         }
         establish_ACC_binary_phrase_list(encode_text + i,
-            sentence_length - i, &binary_phrase_list, lump +
-            lump_number);
+            (uint8_t)(sentence_length - i), &binary_phrase_list,
+            lump + lump_number);
         ++lump_number;
     }
-    *remainder = encode_text_length - sentence_length;
-    *lump_length = LUMP_LENGTH * lump_number;
+    *remainder = (uint8_t)(encode_text_length - sentence_length);
+    *lump_length =(uint8_t)(LUMP_LENGTH * lump_number);
 }
 
 static inline void detect_ACC_quote_length(const char* text,
@@ -808,7 +811,8 @@ static inline void detect_ACC_quote_length(const char* text,
                 ++class_spot) {
             if (class_spot == class_length) {
                 // found
-                *quote_length = text_spot - class_length;
+                *quote_length =(uint8_t)
+                    (text_spot - class_length);
                 found = TRUE;
             }
             if (text[text_spot + class_spot] != 
@@ -824,8 +828,12 @@ static inline void detect_ACC_quote_length(const char* text,
 }
 
 static inline void derive_quote_word(
+    const char* quote_class,
+    const uint8_t quote_class_length,
     const uint8_t quote_length,
     uint16_t* restrict quote_word) {
+    assert(quote_class != NULL);
+    assert(quote_class_length > 0);
     assert(quote_length > 0);
     assert(quote_length < 16);
     assert(quote_word != NULL);
@@ -911,7 +919,7 @@ void sentence_encode(
                 tone_Q(glyph) == TRUE) {
             word[word_length] = glyph;
             //printf("%c", glyph);
-            word_length += 1;
+            word_length = (uint8_t)(word_length + 1);
         } 
         if (word_length >= 2) {
             //printf("wl %X\n", (unsigned int) word_length);
@@ -921,21 +929,23 @@ void sentence_encode(
             if (derived_word_length > 0) {
                 encode_ACC_word_DAT_number(derived_word,
                     derived_word_length, &number);
-                printf("n 0x%X \n", (unsigned int) number);
+               // printf("n 0x%X \n", (unsigned int) number);
                 if(number != 0) {
                 switch(number) {
                     case QUOTE_WORD:
-                        printf("detected quote word %X\n",
-                            (unsigned int) text_spot);
+                       // printf("detected quote word %X\n",
+                       //     (unsigned int) text_spot);
                         ++text_spot;
                         detect_ACC_quote_length(
                             text + text_spot, 
-                            text_length - text_spot, 
+                            (uint8_t)(text_length - text_spot), 
                             &quote_spot,
                             &quote_length);
                         printf("detected quote length %X\n",
                             (unsigned int) quote_length);
-                        derive_quote_word(quote_length, 
+                        derive_quote_word(text + text_spot,
+                            (uint8_t)(quote_spot - text_spot), 
+                            quote_length, 
                             &quote_word);
                         lump[lump_spot] = quote_word;
                         ++lump_spot;
@@ -943,52 +953,48 @@ void sentence_encode(
                             text + quote_spot + 2, 
                             quote_length, 
                             lump + lump_spot, 
-                            *lump_length - lump_spot);
-                        text_spot += (quote_spot - text_spot) *
-                            2 + quote_length + 5;
+                            (uint8_t)(*lump_length - lump_spot));
+                        text_spot = (uint8_t) (text_spot + 
+                            (quote_spot - text_spot) *
+                            2 + quote_length + 5);
                         word_length = 0;
                         fit_quote_length(quote_length, 
                             &quote_lump_length);
-                        //if (current == 0xFF) {
-                        //    binary_phrase_list |= (uint16_t)
-                        //        (0xFFFF >> (0x10 -
-                        //        (quote_lump_length + 1))) <<
-                        //        (lump_spot - 1);
-                        //}
-                        printf("qll %X\n", (unsigned int)
+                       // printf("qll %X\n", (unsigned int)
+                       //     quote_lump_length);
+                        lump_spot = (uint8_t)(lump_spot +
                             quote_lump_length);
-                        lump_spot += quote_lump_length;
-                        printf("ls %X\n", (unsigned int)
-                            lump_spot);
+                    //    printf("ls %X\n", (unsigned int)
+                    //        lump_spot);
                         break;
                     case ACCUSATIVE_CASE:
-                        binary_phrase_list ^= 
-                            1 << lump_spot;
+                        binary_phrase_list ^=  (uint16_t)(
+                            1 << lump_spot);
                         lump[lump_spot] = number;
                         ++lump_spot;
                         break;
                     case INSTRUMENTAL_CASE:
-                        binary_phrase_list ^= 
-                            1 << lump_spot;
+                        binary_phrase_list ^= (uint16_t)(
+                            1 << lump_spot);
                         lump[lump_spot] = number;
                         ++lump_spot;
                         break;
                     case DATIVE_CASE:
-                        binary_phrase_list ^= 
-                            1 << lump_spot;
+                        binary_phrase_list ^= (uint16_t)(
+                            1 << lump_spot);
                         lump[lump_spot] = number;
                         ++lump_spot;
                         break;
                     case CONDITIONAL_MOOD:
                         lump[lump_spot] = number;
-                        binary_phrase_list ^= 
-                            1 << lump_spot;
+                        binary_phrase_list ^= (uint16_t)(
+                            1 << lump_spot);
                         ++lump_spot;
                         break;
                     case DEONTIC_MOOD:
                         lump[lump_spot] = number;
-                        binary_phrase_list ^= 
-                            1 << lump_spot;
+                        binary_phrase_list ^= (uint16_t)(
+                            1 << lump_spot);
                         current = 2;
                         ++lump_spot;
                         break;
@@ -1015,9 +1021,9 @@ inline void x1948009D00000000(char* text) {
 inline void realize(
         const v4us encoded_name,
         v8us* hook_list) {
-    void *accusative = NULL;
-    void *instrumental = NULL;
-    void *dative =  NULL;
+    //void *accusative = NULL;
+    //void *instrumental = NULL;
+    //void *dative =  NULL;
     assert(encoded_name[VERB_SPOT] != 0);
     assert(hook_list != NULL);
     switch (*((uint64_t*) &encoded_name)) {

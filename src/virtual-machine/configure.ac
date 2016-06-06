@@ -7,7 +7,7 @@ AC_CONFIG_FILES([Makefile])
 
 # Custom Define
 MY_CFLAGS="-O2 -Iinclude -Wpedantic -std=c11 -Wno-coverage-mismatch\
- -fstack-usage  -Wlogical-op\
+ -fstack-usage  -Wlogical-op -Wunused -Wconversion\
  -Wno-aggressive-loop-optimizations -Wunsafe-loop-optimizations\
  -Wdouble-promotion -Wmaybe-uninitialized \
  -Waggregate-return -Werror -Wextra"
