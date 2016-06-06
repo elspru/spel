@@ -1,1 +1,2 @@
-virtual-machine.c:484:5:main	536	static
+virtual-machine.c:199:13:full_encode_check	12368	static
+virtual-machine.c:493:5:main	712	static

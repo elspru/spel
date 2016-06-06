@@ -1,6 +1,7 @@
 #ifndef _SEED_H
 #define _SEED_H
 
+#define WORD_WIDTH 2
 #define GLOTTAL_STOP 0xC
 #define MAX_LENGTH 0xFFU
 #define SENTENCE_LENGTH 0xFF
@@ -33,12 +34,12 @@
 #define CONDITIONAL_MOOD 0X87E
 #define QUOTE_WORD 0x8BE
 #define MAX_GRAMMATICALCASE_INE_SENTENCE 8
-#define HOOK_LIST_LENGTH 5
-#define VERB_SPOT 4
-#define ACCUSATIVE_SPOT 3
-#define INSTRUMENTAL_SPOT 2
-#define DATIVE_SPOT 1
-#define NOMINATIVE_SPOT 0
+#define HOOK_LIST_LENGTH 3
+#define HOOK_LIST_WIDTH 8
+#define VERB_SPOT 3
+#define ACCUSATIVE_SPOT 2
+#define INSTRUMENTAL_SPOT 1
+#define DATIVE_SPOT 0
 
 #define SAY_VERB 0x1948
 #define SUBTRACTION_VERB 0x1B2D
@@ -53,6 +54,7 @@
 typedef int v4si __attribute__ ((vector_size (16)));
 typedef uint8_t v16uc __attribute__ ((vector_size (16)));
 typedef uint16_t v8us __attribute__ ((vector_size (16)));
+typedef uint16_t v4us __attribute__ ((vector_size (8)));
 /*#define NULL 0*/
 
 
@@ -93,8 +95,6 @@ extern void encode_PL_word(const uint32_t* PL_word,
         uint8_t* lump_length,
         uint8_t* remainder);
 /*@unused@*/ extern void realize(
-        const uint16_t* lump,
-        const uint16_t* grammaticalCase_list,
-        const uint8_t* hook_list,
-        const uint8_t grammaticalCase_spot,
-        const uint16_t verb);
+        const v4us encoded_name,
+        v8us* hook_list);
+        

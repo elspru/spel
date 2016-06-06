@@ -472,25 +472,45 @@ up 5 bits. The following 3 bits gives the length.
 </ol>
 The next 8 bits are either the 8 bit quote, or they provide more
 type information. The first bit shows weather it is constant data,
-or is a pointer to the data, the remaining 7 bits are type
-information.
-<ol start="0">
+or is a pointer to the data.<ol start="0">
 <li>constant</li>
 <li>pointer</li>
-</ol>
+</ol> 
+<p>The next bit indicates if it is a signed or unsigned
+value</p>
 <ol start="0">
-<li>unsigned integer</li>
-<li>signed integer</li>
+    <li>unsigned</li>
+    <li>signed</li>
+</ol>
+<p>The next two bits show width of vector if it is one.
+    otherwise if scalar is point of redundancy and is 
+    same width as the width previously pointed to.</p>
+<ol start="0">
+<li>1 byte, 8bit (char)</li>
+<li>2 byte, 16bit (short)</li>
+<li>4 byte, 32bit (int or float)</li>
+<li>8 byte, 64bit (long long or double)</li>
+</ol>
+<p>the last 4 bits give the named type information</p>
+<ol start="0">
+<li>text (ASCII or UTF)</li>
+<li>integer</li>
+<li>rational number</li>
 <li>floating point</li>
 <li>fixed point</li>
-<li>rational number</li>
 <li>complex number</li>
-<li>ASCII</li>
-<li>UTF-8</li>
-<li>UTF-16</li>
-<li>UTF-32</li>
-<li>SPEL encoding</li>
 </ol>
+
+<p>
+An example is some ASCII text "hello world\n", 
+it's width is 12bytes, closest container is 16 bytes,
+it is a constant, signed value, vector of 8bits, that is text.
+</p>
+<p>
+If it was in UTF-8, then it would be an unsigned value. 
+UTF-16 wouldn't fit the whole statement in 16bytes, 
+though would be a text vector made of 16bit width scalars.
+</p>
 
 <h2>Internationalization</h2>
 <p>

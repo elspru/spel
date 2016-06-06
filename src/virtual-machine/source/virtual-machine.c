@@ -126,8 +126,9 @@ static void lump_encode_check() {
     uint16_t lump[LUMP_WORD_LENGTH * MAX_SENTENCE_LUMP];
     uint8_t lump_length = LUMP_WORD_LENGTH * MAX_SENTENCE_LUMP;
     uint8_t i = 0;
-    memset(encode_sentence, 0, encode_sentence_length*2);
-    memset(lump, 0, lump_length*2);
+    memset(encode_sentence, 0, encode_sentence_length *
+        WORD_WIDTH);
+    memset(lump, 0, lump_length * WORD_WIDTH);
     encode_ACC_word_PL(text, text_length, encode_sentence,
         &encode_sentence_length, &remainder);
     printf("encode_word_PL %X remainder %X \n", 
@@ -215,7 +216,7 @@ static void full_encode_check() {
     memset(paper_storage, 0, paper_length);
     memset(word, 0, word_length);
     memset(DAT_storage, 0, DAT_length);
-    memset(encode_text, 0, encode_text_length * 2);
+    memset(encode_text, 0, encode_text_length * WORD_WIDTH);
     file_spot = fopen( "check/encode.lyac" , "w" );
     assert(file_spot != NULL);
     answer = fclose(file_spot);
@@ -268,7 +269,7 @@ static void full_encode_check() {
         file_spot = fopen( "check/encode.lyac" , "a" );
         assert(file_spot != NULL);
         //answer = fseek(file_spot, 
-        //        (int) write_spot*2,
+        //        (int) write_spot * WORD_WIDTH,
         //        SEEK_SET);
         //assert(answer == 0);
         answer = (int) fwrite(encode_text, 2, 
@@ -320,24 +321,28 @@ static void check_hello_world(const uint16_t* restrict lump,
         when get to verb,
         match to available functions by number of cases,
         match to available functions by case list, 
+        make 64bit hash key, ACC DAT INS verb,
+        with appropriate quotes filling in place of ACC DAT INS
+        or a 0 if there is none. 
         execute proper function.
     */
     uint16_t indicator_list = 0;
+    //uint64_t encoded_name = 0;
+    v4us encoded_name = {0, 0, 0, 0};
     uint8_t indicator = 0;
     uint8_t lump_number = 0;
     uint8_t lump_spot = 0;
     uint8_t check_spot = 0;
-    uint8_t grammaticalCase_spot = 0;
+    uint8_t quote_length = 0;
     uint16_t verb = 0;
     uint16_t word = 0;
     uint8_t quote_spot = 0;
-    uint16_t
-        grammaticalCase_list[MAX_GRAMMATICALCASE_INE_SENTENCE];
-    uint8_t hook_list[HOOK_LIST_LENGTH];
+    uint16_t quote_word = 0;
+    v8us quote_fill = {0, 0, 0, 0, 0, 0, 0, 0};
+    v8us hook_list[HOOK_LIST_LENGTH];
     //uint8_t hook_spot = 0;
-    memset(grammaticalCase_list, 0, 
-        MAX_GRAMMATICALCASE_INE_SENTENCE*2);
-    memset(hook_list, 0, HOOK_LIST_LENGTH);
+    memset(hook_list, 0, (HOOK_LIST_WIDTH * HOOK_LIST_LENGTH *
+        WORD_WIDTH));
     indicator_list = lump[0];
     indicator = (uint8_t) 1 & indicator_list;
     printf("indicator %X\n", (unsigned int) indicator);
@@ -354,12 +359,19 @@ static void check_hello_world(const uint16_t* restrict lump,
                 if ((word & CONSONANT_ONE_MASK) ==
                     QUOTE_INDICATOR) {
                     // then is quote
-                    printf("quote detected\n");
-                    grammaticalCase_list[
-                        grammaticalCase_spot] = word;
-                    quote_spot = lump_spot;
-                    //hook_list[grammaticalCase_spot] = lump_spot;
-                    ++grammaticalCase_spot;
+                    quote_word = word;
+                    quote_length = (uint8_t) 1 << 
+                        (((quote_word >> CONSONANT_ONE_WIDTH) & 
+                        7) - 1 /* 3 bit mask */);
+                    printf("quote_fill ");
+                    for (quote_spot = lump_spot + 1;
+                            quote_spot < lump_spot +
+                            quote_length + 1; ++quote_spot) {
+                        printf("%X ", (unsigned int)
+                            lump[quote_spot]); 
+                        quote_fill[quote_spot - lump_spot -1] = 
+                            lump[quote_spot];
+                    }
                 }
             }
             // if current is indicated then check if is case or
@@ -370,50 +382,51 @@ static void check_hello_world(const uint16_t* restrict lump,
                 printf("word %X\n", (unsigned int) word);
                 switch (word) {
                     case ACCUSATIVE_CASE:
-                        grammaticalCase_list[
-                            grammaticalCase_spot] = word;
                         if (quote_spot != 0) {
-                            hook_list[ACCUSATIVE_SPOT] =
-                                quote_spot;
+                            //encoded_name |= 
+                            //    ((uint64_t) quote_word) <<
+                            //    (ACCUSATIVE_SPOT * 16);
+                            encoded_name[ACCUSATIVE_SPOT] =
+                                quote_word;
+                            hook_list[ACCUSATIVE_SPOT] = 
+                                quote_fill;
+                            quote_word = 0;
                             quote_spot = 0;
                         }
-                        ++grammaticalCase_spot;
                         break;
                     case DATIVE_CASE:
-                        grammaticalCase_list[
-                            grammaticalCase_spot] = word;
-                        ++grammaticalCase_spot;
                         if (quote_spot != 0) {
-                            hook_list[DATIVE_SPOT] =
-                                quote_spot;
+                            //encoded_name |= 
+                            //    (uint64_t) quote_word <<
+                            //    (DATIVE_SPOT * 16);
+                            encoded_name[DATIVE_SPOT] = 
+                                quote_word;
+                            quote_word = 0;
                             quote_spot = 0;
                         }
                         break;
                     case INSTRUMENTAL_CASE:
-                        grammaticalCase_list[
-                            grammaticalCase_spot] = word;
-                        ++grammaticalCase_spot;
                         if (quote_spot != 0) {
-                            hook_list[INSTRUMENTAL_SPOT] =
-                                quote_spot;
+                            //  encoded_name |= 
+                            //      (uint64_t) quote_word <<
+                            //      (INSTRUMENTAL_SPOT * 16);
+                            encoded_name[INSTRUMENTAL_SPOT] = 
+                                quote_word;
+                            quote_word = 0;
                             quote_spot = 0;
                         }
                         break;
                     case CONDITIONAL_MOOD:
-                        grammaticalCase_list[
-                            grammaticalCase_spot] = word;
                         // realize ();
-                        ++grammaticalCase_spot;
                         break;
                     case DEONTIC_MOOD:
-                        grammaticalCase_list[
-                            grammaticalCase_spot] = word;
                         // checking verb
-                        verb =  lump[lump_spot - 1];
-                        ++grammaticalCase_spot;
-                        realize(lump, grammaticalCase_list, 
-                            hook_list, grammaticalCase_spot, 
-                            verb);
+                        word = lump[lump_spot - 1];
+                        verb = word;
+                        //encoded_name |= 
+                        //    (uint64_t) word << (VERB_SPOT * 16);
+                        encoded_name[VERB_SPOT] = word;
+                        realize(encoded_name, hook_list);
                         break;
                     case WRONG_WORD:
                         assert(WRONG_WORD != WRONG_WORD);
@@ -428,26 +441,22 @@ static void check_hello_world(const uint16_t* restrict lump,
         if (indicator == 1) break;
     }
     assert(indicator == 1); /* must finish properly */
-    printf("grammaticalCase_spot %X\n", (unsigned int) 
-        grammaticalCase_spot);
-    assert(grammaticalCase_spot < 
-            MAX_GRAMMATICALCASE_INE_SENTENCE);
     // checking grammtical-case list
-    printf("grammaticalCase_list ");
-    for (check_spot = 0; check_spot < grammaticalCase_spot;
-            ++check_spot) {
-        printf(" %X", (unsigned int) 
-            grammaticalCase_list[check_spot]);
-    }
     printf("\n");
     // checking hook list
     printf("hook_list ");
-    for (check_spot = 0; check_spot < grammaticalCase_spot;
-            ++check_spot) {
+    for (check_spot = 0; check_spot < HOOK_LIST_LENGTH * 
+            HOOK_LIST_WIDTH; ++check_spot) {
         printf(" %X", (unsigned int) 
-            hook_list[check_spot]);
+            hook_list[0][check_spot]);
     }
     printf("\n");
+    // checking hash key name
+    printf("verb %X\n", (unsigned int) verb);
+    printf("encoded_name %04X%04X%04X%04X\n",  (unsigned int)
+        encoded_name[3], (unsigned int) encoded_name[2],
+        (unsigned int) encoded_name[1],
+        (unsigned int) encoded_name[0]);
     /* next have to figure out the memory architecture,
         have to pass it something like 256Bytes, 
         which will contain the input, that wil become output,
@@ -467,7 +476,7 @@ static void check_hello_world(const uint16_t* restrict lump,
 static void check_ACC_all() {
     uint8_t lump_length = LUMP_LENGTH * MAX_SENTENCE_LUMP;
     uint16_t lump[LUMP_LENGTH * MAX_SENTENCE_LUMP];
-    memset(lump, 0, lump_length*2);
+    memset(lump, 0, lump_length * WORD_WIDTH);
     delete_empty_glyph_check();
     derive_first_word_check();
     encode_check();
@@ -482,8 +491,14 @@ static void check_ACC_all() {
 }
 
 int main(int argc, char *argv[]) { 
+    //const float floater = 0.3;
+    //float floater2 = 0;
+    //uint8_t floatStr[4] = "    ";
     assert(argc > 0);
     assert(argv != NULL);
     check_ACC_all();
+    //memcpy(floatStr, (const char *) &floater, sizeof(floater));
+    //memcpy((char *) &floater2, floatStr, sizeof(floater));
+    //printf("floater2 %f\n", (double) floater2);
     return 0;
 }
