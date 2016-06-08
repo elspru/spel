@@ -683,8 +683,10 @@ function main() {
         //consonantArray,
         //vowelArray,
         phonWord,
-        glyphWord,
+        rootGlyphWord,
+        gramGlyphWord,
         rootPhonEntry,
+        gramPhonEntry,
         G16GramMax = 144,
         G16ShortGramMax = 33,
         G16RootMax = 960,
@@ -730,41 +732,56 @@ function main() {
             rootCount += 1;
         }
         rootPhonEntry = rootPhonObjX["X" + word];
+        gramPhonEntry = rootPhonObjX["X" + word];
         if (rootPhonEntry === undefined) {
             rootPhonEntry = new RootPhonEntry();
+        }
+        if (gramPhonEntry === undefined) {
+            gramPhonEntry = new RootPhonEntry();
         }
         // be add ob sub entry for each lang ya
         allPhonLangs.forEach(function (langCode) {
             phonWord = phonEntry[langCode];
             if (phonWord !==  undefined) {
                 /*jslint bitwise:true*/
+                if (someWords.indexOf(word) > -1 ||
+                        rootCount > ((G28RootMax / 1.61) | 0)) {
+                    rootGlyphWord = ipaTo32Glyph(phonWord);
+                } else if (rootCount > ((G24RootMax / 1.61) | 0)
+                        ) {
+                    rootGlyphWord = ipaTo28Glyph(phonWord);
+                } else if (rootCount > ((G16RootMax / 1.61) | 0) 
+                        ) {
+                    rootGlyphWord = ipaTo24Glyph(phonWord);
+                } else {
+                    rootGlyphWord = ipaTo16Glyph(phonWord);
+                }
                 if (someWords.indexOf(word) > -1 || (gram &&
                         (gramCount > ((G28GramMax / 1.61) |
-                        0))) || rootCount > ((G28RootMax / 1.61) |
-                        0) || (gram && (shortGramCount >
+                        0))) || (gram && (shortGramCount >
                         ((G28ShortGramMax / 1.61) | 0)))) {
-                    glyphWord = ipaTo32Glyph(phonWord);
+                    gramGlyphWord = ipaTo32Glyph(phonWord);
                 } else if ((gram && (gramCount > ((G24GramMax /
-                        1.61) | 0))) || rootCount > ((G24RootMax /
-                        1.61) | 0) || (gram && (shortGramCount >
+                        1.61) | 0))) || (gram && (shortGramCount >
                         ((G24ShortGramMax / 1.61) | 0)))) {
-                    glyphWord = ipaTo28Glyph(phonWord);
+                    gramGlyphWord = ipaTo28Glyph(phonWord);
                 } else if ((gram && (gramCount >
-                        ((G16GramMax / 1.61) | 0))) || rootCount >
-                        ((G16RootMax / 1.61) | 0) || (gram &&
-                        (shortGramCount > ((G16ShortGramMax /
-                                1.61) | 0)))) {
-                    glyphWord = ipaTo24Glyph(phonWord);
+                        ((G16GramMax / 1.61) | 0))) ||
+                        (gram && (shortGramCount >
+                        ((G16ShortGramMax / 1.61) | 0)))) {
+                    gramGlyphWord = ipaTo24Glyph(phonWord);
                 } else {
-                    glyphWord = ipaTo16Glyph(phonWord);
+                    gramGlyphWord = ipaTo16Glyph(phonWord);
                 }
             }
             if (langWeights[langCode] === undefined) {
                 throw new Error("undefined langWeight for " +
                     langCode);
             }
-            addGlyphs(rootPhonEntry, glyphWord,
+            addGlyphs(gramPhonEntry, gramGlyphWord,
                 langWeights[langCode]);
+            addGlyphs(rootPhonEntry, rootGlyphWord,
+                    langWeights[langCode]);
         });
         if (gram === "g" && 
             gramList["X" + word] === undefined) { /* grammar word*/
@@ -772,7 +789,7 @@ function main() {
                 Function.prototype();
                // console.log(word + " " + gramLength);
             }
-            genedGram =  genGram(rootPhonEntry, gramLength);
+            genedGram =  genGram(gramPhonEntry, gramLength);
             //if (word === "future-tense") {
             //    //console.log(gramLength !== 2);
             //    //console.log(genedGram);

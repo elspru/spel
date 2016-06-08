@@ -41,15 +41,21 @@
 #define INSTRUMENTAL_SPOT 1
 #define DATIVE_SPOT 0
 
-#define SAY_VERB 0x1948
-#define SUBTRACTION_VERB 0x1B2D
+#define SAY_VERB 0x1848
+#define SUBTRACTION_VERB 0x1D2D
 #define INCREASE_VERB 0x19EA /* add */
-#define EXCLUSIVEOR_VERB 0x1810
+#define EXCLUSIVEOR_VERB 0x1806
 #define ANDOR_VERB 0x150
-#define NOT_VERB 0x1830 
-#define UP_VERB 0x1118 /* shift up */
-#define DOWN_VERB 0x1868 /* shift down */
-#define EXCHANGE_VERB 0x1BEA /* fredkin gate */
+#define NOT_VERB 0x1830 /* with conditional ESS toffoli gate  */
+#define UP_VERB 0x1118 /* shift up (left) */
+#define DOWN_VERB 0x1868 /* shift down (right) */
+#define EXCHANGE_VERB 0x1BEA /* with conditional ESS fredkin gate */
+#define TEXT_CLASS 0x1A4A
+#define NUMBER_CLASS 0x1930
+#define FLOAT_CLASS 0x1A8C
+#define RATIONAL_CLASS 0x1C0E
+#define INTEGER_CLASS 0x1A2A
+#define COMPLEX_CLASS 0x1C82
 
 typedef int v4si __attribute__ ((vector_size (16)));
 typedef uint8_t v16uc __attribute__ ((vector_size (16)));
@@ -67,12 +73,14 @@ extern void delete_empty_glyph(const char*  letter,
         const uint8_t length,
         char* word,
         uint8_t* fresh_length);
-extern void encode_ACC_word_PL(const char* restrict ACC_sentence,
+extern void encode_ACC_word_PL(
+        const char* restrict ACC_sentence,
         const uint8_t ACC_GEN_length,
         uint16_t* restrict DAT_encode_sentence,
         uint8_t* restrict DAT_GEN_length,
         uint8_t* restrict DAT_GEN_remainder);
-/*@unused@*/extern void encode_ACC_word_DAT_number(const char* word,
+/*@unused@*/extern void encode_ACC_word_DAT_number(
+        const char* word,
         const uint8_t word_length,
         uint16_t*  number);
 extern void encode_PL_word(const uint32_t* PL_word,

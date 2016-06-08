@@ -828,15 +828,26 @@ static inline void detect_ACC_quote_length(const char* text,
 }
 
 static inline void derive_quote_word(
-    const char* quote_class,
-    const uint8_t quote_class_length,
-    const uint8_t quote_length,
-    uint16_t* restrict quote_word) {
+        const char* quote_class,
+        const uint8_t quote_class_length,
+        const uint8_t quote_length,
+        uint16_t* restrict quote_word) {
+    char word[WORD_LENGTH];
+    uint16_t quote_number = 0;
+    uint8_t word_length = WORD_LENGTH;
+    memset(word, 0, WORD_LENGTH);
     assert(quote_class != NULL);
     assert(quote_class_length > 0);
     assert(quote_length > 0);
     assert(quote_length < 16);
     assert(quote_word != NULL);
+    derive_first_word(
+        quote_class, quote_class_length,
+        word, &word_length);
+    encode_ACC_word_DAT_number(
+        word, word_length,
+        &quote_number);
+    printf("quote_number %X\n", (unsigned int) quote_number);
     if (quote_length == 1) {
         *quote_word = 0x1D;
     } else if (quote_length == 2) {
@@ -943,8 +954,8 @@ void sentence_encode(
                             &quote_length);
                         printf("detected quote length %X\n",
                             (unsigned int) quote_length);
-                        derive_quote_word(text + text_spot,
-                            (uint8_t)(quote_spot - text_spot), 
+                        derive_quote_word(text + text_spot + 1,
+                            (uint8_t)(quote_spot - text_spot - 1), 
                             quote_length, 
                             &quote_word);
                         lump[lump_spot] = quote_word;
@@ -1013,7 +1024,7 @@ void sentence_encode(
     }
     lump[0] = binary_phrase_list;
 }
-inline void x1948009D00000000(char* text) {
+inline void x1848009D00000000(char* text) {
     assert(text != NULL);
     printf("%s", text);
 }
@@ -1027,8 +1038,8 @@ inline void realize(
     assert(encoded_name[VERB_SPOT] != 0);
     assert(hook_list != NULL);
     switch (*((uint64_t*) &encoded_name)) {
-        case 0x1948009D00000000:
-            x1948009D00000000(
+        case 0x1848009D00000000:
+            x1848009D00000000(
                 (char*) &(hook_list[ACCUSATIVE_SPOT]));
             break;
         default: 

@@ -102,7 +102,7 @@ static void derive_first_word_check() {
 }
 
 static void encode_word_PL_check() {
-    const char text[] = "hyinkahtutsuhkakpanyiktutcen";
+    const char text[] = "hyinkahtutsuhkakpanyiktuhsin";
     const uint8_t text_length = (uint8_t) strlen(text);
     uint16_t encode_sentence[SENTENCE_LENGTH/WORD_LENGTH];
     uint8_t encode_sentence_length = SENTENCE_LENGTH/WORD_LENGTH;
@@ -306,7 +306,7 @@ static void lump_encode_check() {
 static void check_quote(uint16_t* restrict lump, 
     uint8_t* lump_length) {
     const char text[] = 
-        "wu.htet.hello world!\n.htet.wuka hsactu";
+        "wu.tsus.hello world!\n.tsus.wuka hsintu";
     const uint8_t text_length = (uint8_t) strlen(text);
     uint8_t remainder = 0;
     uint8_t lump_spot = 0;
@@ -491,13 +491,13 @@ static void check_ACC_all() {
     derive_first_word_check();
     encode_check();
     printf("encode_word_PL_check:\n");
-    encode_word_PL_check();
     lump_encode_check(); 
     /* full encode check */
     //full_encode_check(); /* deprecated implementation */
     check_quote(lump, &lump_length);
     printf("----\n");
     check_hello_world(lump, lump_length);
+    encode_word_PL_check();
 }
 
 int main(int argc, char *argv[]) { 
