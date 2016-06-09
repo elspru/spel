@@ -22,10 +22,18 @@
 #define LUMP_WORD_LENGTH 0xF
 #define MAX_SENTENCE_LUMP 0x4
 #define QUOTE_INDICATOR 0x1D
+#define SINGLE_BYTE_QUOTE 0x0
 #define TWO_BYTE_QUOTE 0x1
 #define FOUR_BYTE_QUOTE 0x2
 #define EIGHT_BYTE_QUOTE 0x3
 #define SIXTEEN_BYTE_QUOTE 0x4
+
+#define QUOTE_LITERAL_XOR_ADDRESS_SPOT 8
+#define QUOTE_LITERAL 0
+#define QUOTE_ADDRESS 1
+#define QUOTE_INTEGER_SPOT 9
+#define QUOTE_GLYPH_WIDTH_SPOT 0xA
+#define QUOTE_CLASS_SPOT 0xC
 
 #define DEONTIC_MOOD 0x95E
 #define ACCUSATIVE_CASE 0x45E
@@ -50,12 +58,21 @@
 #define UP_VERB 0x1118 /* shift up (left) */
 #define DOWN_VERB 0x1868 /* shift down (right) */
 #define EXCHANGE_VERB 0x1BEA /* with conditional ESS fredkin gate */
-#define TEXT_CLASS 0x1A4A
-#define NUMBER_CLASS 0x1930
-#define FLOAT_CLASS 0x1A8C
-#define RATIONAL_CLASS 0x1C0E
-#define INTEGER_CLASS 0x1A2A
-#define COMPLEX_CLASS 0x1C82
+#define TEXT_WORD 0x1A4A
+#define NUMBER_WORD 0x1930
+#define FLOAT_WORD 0x1A8C
+#define RATIONAL_WORD 0x1C0E
+#define INTEGER_WORD 0x1A2A
+#define COMPLEX_WORD 0x1C82
+#define TEXT_CLASS 0x0
+#define NUMBER_CLASS 0x1
+#define INTEGER_CLASS 0x2
+#define FLOAT_CLASS 0x3
+#define RATIONAL_CLASS 0x4
+#define COMPLEX_CLASS 0x5
+
+#define UNSIGNED_CHAR_QUOTE 0x009D
+#define SIGNED_CHAR_QUOTE 0x029D
 
 typedef int v4si __attribute__ ((vector_size (16)));
 typedef uint8_t v16uc __attribute__ ((vector_size (16)));

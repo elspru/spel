@@ -102,7 +102,7 @@ static void derive_first_word_check() {
 }
 
 static void encode_word_PL_check() {
-    const char text[] = "hyinkahtutsuhkakpanyiktuhsin";
+    const char text[] = "hyinkahtutsuhkakpanyiktuklos";
     const uint8_t text_length = (uint8_t) strlen(text);
     uint16_t encode_sentence[SENTENCE_LENGTH/WORD_LENGTH];
     uint8_t encode_sentence_length = SENTENCE_LENGTH/WORD_LENGTH;

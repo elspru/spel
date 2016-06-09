@@ -841,6 +841,25 @@ static inline void derive_quote_word(
     assert(quote_length > 0);
     assert(quote_length < 16);
     assert(quote_word != NULL);
+    if (quote_length == 1) {
+        *quote_word = QUOTE_INDICATOR;
+    } else if (quote_length == 2) {
+        *quote_word = (uint16_t) QUOTE_INDICATOR |
+                (TWO_BYTE_QUOTE << CONSONANT_ONE_WIDTH);
+    } else if (quote_length > 2 && quote_length <= 4) {
+        *quote_word = (uint16_t) QUOTE_INDICATOR |
+            (FOUR_BYTE_QUOTE << CONSONANT_ONE_WIDTH);
+    } else if (quote_length > 4 && quote_length <= 8) {
+        *quote_word = (uint16_t) QUOTE_INDICATOR |
+            (EIGHT_BYTE_QUOTE << CONSONANT_ONE_WIDTH);
+    } else if (quote_length > 8 && quote_length <= 16) {
+        *quote_word = (uint16_t) QUOTE_INDICATOR |
+            (SIXTEEN_BYTE_QUOTE << CONSONANT_ONE_WIDTH);
+    }
+    // constant data
+    *quote_word |= QUOTE_LITERAL <<
+        QUOTE_LITERAL_XOR_ADDRESS_SPOT;
+    *quote_word |= TRUE << QUOTE_INTEGER_SPOT;
     derive_first_word(
         quote_class, quote_class_length,
         word, &word_length);
@@ -848,20 +867,20 @@ static inline void derive_quote_word(
         word, word_length,
         &quote_number);
     printf("quote_number %X\n", (unsigned int) quote_number);
-    if (quote_length == 1) {
-        *quote_word = 0x1D;
-    } else if (quote_length == 2) {
-        *quote_word = (uint16_t) 0x1D | (TWO_BYTE_QUOTE <<
-            CONSONANT_ONE_WIDTH);
-    } else if (quote_length > 2 && quote_length <= 4) {
-        *quote_word = (uint16_t) 0x1D | (FOUR_BYTE_QUOTE <<
-            CONSONANT_ONE_WIDTH);
-    } else if (quote_length > 4 && quote_length <= 8) {
-        *quote_word = (uint16_t) 0x1D | (EIGHT_BYTE_QUOTE <<
-            CONSONANT_ONE_WIDTH);
-    } else if (quote_length > 8 && quote_length <= 16) {
-        *quote_word = (uint16_t) 0x1D | (SIXTEEN_BYTE_QUOTE <<
-            CONSONANT_ONE_WIDTH);
+    switch (quote_number) {
+        case TEXT_WORD:
+            *quote_word |= SINGLE_BYTE_QUOTE <<
+                QUOTE_GLYPH_WIDTH_SPOT;
+            *quote_word |= TEXT_CLASS << QUOTE_CLASS_SPOT;
+            break;
+        case NUMBER_WORD:
+            *quote_word |= NUMBER_CLASS << QUOTE_CLASS_SPOT;
+            break;
+        default:
+            printf("unknown quote_number %X",(unsigned int)
+                quote_number);
+            assert(1 == 0);
+            break;
     }
 }
     
@@ -1024,7 +1043,11 @@ void sentence_encode(
     }
     lump[0] = binary_phrase_list;
 }
-inline void x1848009D00000000(char* text) {
+inline void x1848009D00000000(unsigned char* text) {
+    assert(text != NULL);
+    printf("%s", text);
+}
+inline void x1848029D00000000(signed char* text) {
     assert(text != NULL);
     printf("%s", text);
 }
@@ -1032,15 +1055,29 @@ inline void x1848009D00000000(char* text) {
 inline void realize(
         const v4us encoded_name,
         v8us* hook_list) {
-    //void *accusative = NULL;
+    void *accusative = NULL;
     //void *instrumental = NULL;
     //void *dative =  NULL;
     assert(encoded_name[VERB_SPOT] != 0);
     assert(hook_list != NULL);
+    switch (encoded_name[ACCUSATIVE_SPOT]) {
+        case UNSIGNED_CHAR_QUOTE:
+            accusative = (unsigned char*)
+                &(hook_list[ACCUSATIVE_SPOT]);
+            break;
+        case SIGNED_CHAR_QUOTE:
+            accusative = (char*)
+                &(hook_list[ACCUSATIVE_SPOT]);
+            break;
+        default:
+            break;
+    }
     switch (*((uint64_t*) &encoded_name)) {
         case 0x1848009D00000000:
-            x1848009D00000000(
-                (char*) &(hook_list[ACCUSATIVE_SPOT]));
+            x1848009D00000000(accusative);
+            break;
+        case 0x1848029D00000000:
+            x1848029D00000000(accusative);
             break;
         default: 
             break;

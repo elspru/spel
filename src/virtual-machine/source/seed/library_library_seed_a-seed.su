@@ -5,5 +5,5 @@ seed.c:202:13:derive_first_word	32	static
 seed.c:525:6:encode_ACC_word_DAT_number	32	static
 seed.c:628:6:encode_ACC_word_PL	72	static
 seed.c:732:6:lump_encode	72	static
-seed.c:887:6:sentence_encode	120	static
-seed.c:1032:13:realize	24	static
+seed.c:906:6:sentence_encode	120	static
+seed.c:1055:13:realize	24	static

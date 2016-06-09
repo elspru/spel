@@ -470,11 +470,11 @@ up 5 bits. The following 3 bits gives the length.
 <li>signed 8 bit quote</li>
 <li>pointer</li>
 </ol>
-The next 8 bits are either the 8 bit quote, or they provide more
-type information. The first bit shows weather it is constant data,
-or is a pointer to the data.<ol start="0">
-<li>constant</li>
-<li>pointer</li>
+The first 8 bits are either the 8 bit quote, or they provide more
+type information. The first bit shows weather it is literal data,
+or is an address to the data.<ol start="0">
+<li>literal</li>
+<li>address</li>
 </ol> 
 <p>The next bit indicates if it is a signed or unsigned
 value</p>
