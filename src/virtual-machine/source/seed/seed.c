@@ -158,7 +158,7 @@ void text_copy(const char *restrict ACC_text, const uint8_t length,
   assert(ACC_text != NULL);
   assert(length > 0);
   assert(DAT_text != NULL);
-  for (i = 0; i < length; i++) {
+  for (i = 0; i < length; ++i) {
     DAT_text[i] = ACC_text[i];
   }
 }
@@ -382,10 +382,10 @@ static inline void encode_ACC_type(const char *word,
     *type = LONG_ROOT;
     *number = 0;
   } else {
-    *type = WRONG_WORD;
+    *type = WRONG_BINARY;
     *number = 0;
   }
-  assert(*type != WRONG_WORD);
+  assert(*type != WRONG_BINARY);
 }
 
 static inline void encode_ACC_tone(const uint8_t type, const uint8_t tone,
@@ -943,6 +943,22 @@ inline void x1848029D00000000(signed char *text) {
   assert(text != NULL);
   printf("%s", text);
 }
+inline void x1124000000000000(v8us* hook_list) {
+  if (memcmp((char*)&hook_list[ACCUSATIVE_SPOT],
+        (char*)&hook_list[INSTRUMENTAL_SPOT], 16) == 0) {
+    hook_list[DATIVE_SPOT][0] = FACT_WORD;
+  } else {
+    hook_list[DATIVE_SPOT][0] = WRONG_WORD;
+  }
+}
+inline void x18EA000000000000(v8us* hook_list) {
+  if (memcmp((char*)&hook_list[ACCUSATIVE_SPOT],
+        (char*)&hook_list[INSTRUMENTAL_SPOT], 16) != 0) {
+    hook_list[DATIVE_SPOT][0] = FACT_WORD;
+  } else {
+    hook_list[DATIVE_SPOT][0] = WRONG_WORD;
+  }
+}
 
 inline void realize(const v4us encoded_name, v8us *hook_list) {
   void *accusative = NULL;
@@ -950,6 +966,10 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
   // void *dative =  NULL;
   assert(encoded_name[VERB_SPOT] != 0);
   assert(hook_list != NULL);
+  // checking hash key name
+  printf("encoded_name %04X%04X%04X%04X\n", (unsigned int)encoded_name[3],
+         (unsigned int)encoded_name[2], (unsigned int)encoded_name[1],
+         (unsigned int)encoded_name[0]);
   switch (encoded_name[ACCUSATIVE_SPOT]) {
   case UNSIGNED_CHAR_QUOTE:
     accusative = (unsigned char *)&(hook_list[ACCUSATIVE_SPOT]);
@@ -957,17 +977,33 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
   case SIGNED_CHAR_QUOTE:
     accusative = (char *)&(hook_list[ACCUSATIVE_SPOT]);
     break;
+  case WRONG_BINARY:
+    break;
   default:
+    printf("unrecognized type 0x%04X", (unsigned int)
+          encoded_name[ACCUSATIVE_SPOT]);
+    assert(0 != 0);
     break;
   }
   switch (*((uint64_t *)&encoded_name)) {
-  case 0x1848009D00000000:
+  case 0x1848009D00000000: /* say unsigned char* */
     x1848009D00000000(accusative);
     break;
-  case 0x1848029D00000000:
+  case 0x1848029D00000000: /* say signed char* */
     x1848029D00000000(accusative);
     break;
+  case 0x1124000000000000: /* equal */
+    x1124000000000000(hook_list);
+    break;
+  case 0x18EA000000000000: /* different */
+    x18EA000000000000(hook_list);
+    break;
   default:
+  printf("unrecognized encoded_name %04X%04X%04X%04X\n",
+         (unsigned int)encoded_name[3],
+         (unsigned int)encoded_name[2], (unsigned int)encoded_name[1],
+         (unsigned int)encoded_name[0]);
+    assert(0 != 0);
     break;
   }
 }
@@ -1013,6 +1049,7 @@ inline void realize_sentence(const uint16_t *restrict lump,
   uint8_t indicator = 0;
   uint8_t lump_number = 0;
   uint8_t lump_spot = 0;
+  uint8_t exit = FALSE;
   uint16_t word = 0;
   uint16_t quote_word = 0;
   v8us quote_fill = {0, 0, 0, 0, 0, 0, 0, 0};
@@ -1058,16 +1095,23 @@ inline void realize_sentence(const uint16_t *restrict lump,
           }
           break;
         case CONDITIONAL_MOOD:
-          // realize ();
+          word = lump[lump_spot - 1];
+          encoded_name[VERB_SPOT] = word;
+          realize(encoded_name, hook_list);
+          // if dative is WRONG_WORD then skip to next sentence
+          if(hook_list[DATIVE_SPOT][0] == WRONG_WORD) {
+            exit = TRUE;
+          }
           break;
         case DEONTIC_MOOD:
           // checking verb
           word = lump[lump_spot - 1];
           encoded_name[VERB_SPOT] = word;
           realize(encoded_name, hook_list);
+          exit = TRUE;
           break;
-        case WRONG_WORD:
-          assert(WRONG_WORD != WRONG_WORD);
+        case WRONG_BINARY:
+          assert(WRONG_BINARY != WRONG_BINARY);
           break;
         default:
           printf("lump_spot %X\n", (unsigned int)lump_spot);
@@ -1075,15 +1119,13 @@ inline void realize_sentence(const uint16_t *restrict lump,
           break;
         }
       }
+      if (exit == TRUE) break;
     }
-    if (indicator == 1)
+    if (indicator == 1 || exit == TRUE)
       break;
+    
   }
   assert(indicator == 1); /* must finish properly */
   // checking grammtical-case list
   printf("\n");
-  // checking hash key name
-  printf("encoded_name %04X%04X%04X%04X\n", (unsigned int)encoded_name[3],
-         (unsigned int)encoded_name[2], (unsigned int)encoded_name[1],
-         (unsigned int)encoded_name[0]);
 }

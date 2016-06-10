@@ -88,7 +88,7 @@ static void derive_first_word_check() {
 }
 
 static void encode_word_PL_check() {
-  const char text[] = "hyinkahtutsuhkakpanyiktupwaphsin";
+  const char text[] = "tcinkahtutsuhkakpanyiktutcin";
   const uint8_t text_length = (uint8_t)strlen(text);
   uint16_t encode_sentence[SENTENCE_LENGTH / WORD_LENGTH];
   uint8_t encode_sentence_length = SENTENCE_LENGTH / WORD_LENGTH;
@@ -100,7 +100,7 @@ static void encode_word_PL_check() {
   printf("encode_word_PL %X remainder %X \n",
          (unsigned int)encode_sentence_length, (unsigned int)remainder);
   for (i = 0; i < encode_sentence_length; i++) {
-    printf("0x%X ", (unsigned int)encode_sentence[i]);
+    printf("0x%04X ", (unsigned int)encode_sentence[i]);
   }
   printf("\n");
 }
@@ -130,64 +130,100 @@ static void lump_encode_check() {
   printf("\n");
 }
 
-// static void read_paper(const char *file_name,
-//        const size_t paper_number, char *paper_storage,
-//        uint16_t *paper_length) {
-//    FILE *file_spot = NULL;
-//    int answer = 0;
-//    uint16_t text_spot = 0;
-//    uint16_t length = 0;
-//    int glyph = (char) 0;
-//    assert(file_name != 0);
-//    assert(strlen(file_name) > 0);
-//    assert(paper_storage != NULL);
-//    assert(*paper_length >= MAXIMUM_PAPER_LENGTH);
-//    file_spot = fopen(file_name, "r");
-//    assert(file_spot != NULL);
-//    if (file_spot != NULL) {
-//        answer = fseek(file_spot,
-//                (int) paper_number*MAXIMUM_PAPER_LENGTH,
-//                SEEK_SET);
-//        //assert(answer == 0);
-//        if (answer == 0) {
-//            length = (uint16_t) (fread(paper_storage,
-//                MAXIMUM_PAPER_LENGTH, 1, file_spot));
-//            //printf("%X length \n", (unsigned int) length);
-//            if (length != 0) {
-//                length = (uint8_t)(length *
-//                    MAXIMUM_PAPER_LENGTH);
-//            } else {
-//                answer = fseek(file_spot, (int)
-//                    paper_number*MAXIMUM_PAPER_LENGTH,
-//                    SEEK_SET);
-//                assert(answer == 0);
-//                for (text_spot = 0; text_spot <
-//                    MAXIMUM_PAPER_LENGTH; ++text_spot) {
-//                    glyph = fgetc(file_spot);
-//                    if (glyph == EOF) break;
-//                    paper_storage[text_spot] = (char) glyph;
-//                    ++length;
-//                }
-//            }
-//        } else {
-//            printf("fseek fail PFV");
-//            length = 0;
-//        }
-//        answer = fclose(file_spot);
-//        assert(answer == 0);
-//    } else {
-//        printf("file open fail PFV");
-//        length = 0;
-//    }
-//    *paper_length = length;
-//    //assert(*paper_length != 0);
+//static void read_paper(const char *file_name,
+//       const size_t paper_number, char *paper_storage,
+//       uint16_t *paper_length) {
+//   FILE *file_spot = NULL;
+//   int answer = 0;
+//   uint16_t text_spot = 0;
+//   uint16_t length = 0;
+//   int glyph = (char) 0;
+//   assert(file_name != 0);
+//   assert(strlen(file_name) > 0);
+//   assert(paper_storage != NULL);
+//   assert(*paper_length >= MAXIMUM_PAPER_LENGTH);
+//   file_spot = fopen(file_name, "r");
+//   assert(file_spot != NULL);
+//   if (file_spot != NULL) {
+//       answer = fseek(file_spot,
+//               (int) paper_number*MAXIMUM_PAPER_LENGTH,
+//               SEEK_SET);
+//       //assert(answer == 0);
+//       if (answer == 0) {
+//           length = (uint16_t) (fread(paper_storage,
+//               MAXIMUM_PAPER_LENGTH, 1, file_spot));
+//           if (length != 0) {
+//               length = (uint16_t)(length *
+//                   MAXIMUM_PAPER_LENGTH);
+//           } else {
+//               answer = fseek(file_spot, (int)
+//                   paper_number*MAXIMUM_PAPER_LENGTH,
+//                   SEEK_SET);
+//               assert(answer == 0);
+//               for (text_spot = 0; text_spot <
+//                   MAXIMUM_PAPER_LENGTH; ++text_spot) {
+//                   glyph = fgetc(file_spot);
+//                   if (glyph == EOF) break;
+//                   paper_storage[text_spot] = (char) glyph;
+//                   ++length;
+//               }
+//           }
+//           //printf("%X length \n", (unsigned int) length);
+//       } else {
+//           printf("fseek fail PFV");
+//           length = 0;
+//       }
+//       answer = fclose(file_spot);
+//       assert(answer == 0);
+//   } else {
+//       printf("file open fail PFV");
+//       length = 0;
+//   }
+//   *paper_length = length;
+//   //assert(*paper_length != 0);
 //}
 
-// static void full_encode_check() {
+//static void full_encode_check() {
+//  //const char text[] = "hyinkahtutsuhkakpanyiktuclathfak";
+//  //const uint8_t text_length = (uint8_t)strlen(text);
+//  char paper_storage[MAXIMUM_PAPER_LENGTH+1];
+//  uint16_t paper_length = 0;
+//  uint16_t paper_number = 0;
+//  uint16_t encode_sentence[0x100/2];
+//  uint8_t encode_sentence_length = 0x100/2;
+//  uint8_t remainder = 0;
+//  uint8_t i = 0;
+//  uint16_t paper_spot = 0;
+//  uint8_t text_length = 0;
+//  memset(encode_sentence, 0, encode_sentence_length);
+//
+//  for (; paper_number < 0x1000; ++paper_number) {
+//    paper_length = MAXIMUM_PAPER_LENGTH+1;
+//    read_paper("check/check.pyac", paper_number, paper_storage,
+//              &paper_length);
+//    printf("paper_length %X\n", (unsigned int) paper_length);
+//    if (paper_length == 0) break;
+//    for (paper_spot = 0; paper_spot < paper_length;) {
+//      if (paper_length - paper_spot < 0xFF) {
+//        text_length = (uint8_t) (paper_length - paper_spot);
+//      } else {
+//        text_length = 0xFF;
+//      }
+//        encode_ACC_word_PL(paper_storage + paper_spot, text_length, 
+//                          encode_sentence, &encode_sentence_length, &remainder);
+//      paper_spot = (uint16_t) (paper_spot + text_length - remainder);
+//      printf("encode_word_PL %X remainder %X \n",
+//             (unsigned int)encode_sentence_length, (unsigned int)remainder);
+//      for (i = 0; i < encode_sentence_length; i++) {
+//        printf("0x%X ", (unsigned int)encode_sentence[i]);
+//      }
+//    }
+//    printf("\n");
+//  }
 //}
 
 static void check_quote(uint16_t *restrict lump, uint8_t *lump_length) {
-  const char text[] = "crofyuwu.tsus.hello world!\n.tsus.wuka hsintu";
+  const char text[] = "tcinyuwu.tsus.hello world!\n.tsus.wuka hsintu";
   const uint8_t text_length = (uint8_t)strlen(text);
   uint8_t remainder = 0;
   uint8_t lump_spot = 0;
@@ -242,6 +278,8 @@ static void check_ACC_all() {
   lump_encode_check();
   /* full encode check */
   // full_encode_check(); /* deprecated implementation */
+  //printf("full encode check\n");
+  //full_encode_check();
   check_quote(lump, &lump_length);
   printf("----\n");
   check_hello_world(lump, lump_length);
