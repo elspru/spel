@@ -223,7 +223,7 @@ static void lump_encode_check() {
 //}
 
 static void check_quote(uint16_t *restrict lump, uint8_t *lump_length) {
-  const char text[] = "tcinyuwu.tsus.hello world!\n.tsus.wuka hsintu";
+  const char text[] = "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
   const uint8_t text_length = (uint8_t)strlen(text);
   uint8_t remainder = 0;
   uint8_t lump_spot = 0;
@@ -237,13 +237,36 @@ static void check_quote(uint16_t *restrict lump, uint8_t *lump_length) {
   }
 }
 
+static void check_text(v16us *restrict lump, uint16_t *lump_length) {
+  const char text[] = "zrunnuka hyinnusu nyistu"
+                      "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
+  const uint16_t text_length = (uint16_t)strlen(text);
+  uint16_t remainder = 0;
+  uint8_t lump_spot = 0;
+  text_encode(text, text_length, lump, lump_length, &remainder);
+  for (lump_spot = 0; lump_spot < text_length; ++lump_spot) {
+    printf("%X ", (unsigned int)text[lump_spot]);
+  }
+  printf(": text\n");
+  for (lump_spot = 0; lump_spot < *lump_length; ++lump_spot) {
+    printf("%X ", (unsigned int)lump[0][lump_spot]);
+  }
+}
+
 static void check_hello_world(const uint16_t *restrict lump,
                               const uint8_t lump_length) {
   uint8_t check_spot = 0;
+  v4us encoded_name = {0, 0, 0, 0};
   v8us hook_list[HOOK_LIST_LENGTH];
   memset(hook_list, 0, (HOOK_LIST_WIDTH * HOOK_LIST_LENGTH * WORD_WIDTH));
-  realize_sentence(lump, lump_length, hook_list);
+  realize_sentence(lump, lump_length, &encoded_name, hook_list);
 
+  // checking encoded name
+  printf("encoded_name ");
+  for (check_spot = 0; check_spot < 4; ++check_spot) {
+    printf(" %X", (unsigned int)encoded_name[check_spot]);
+  }
+  printf("\n");
   // checking hook list
   printf("hook_list ");
   for (check_spot = 0; check_spot < HOOK_LIST_LENGTH * HOOK_LIST_WIDTH;
@@ -270,7 +293,10 @@ static void check_hello_world(const uint16_t *restrict lump,
 static void check_ACC_all() {
   uint8_t lump_length = LUMP_LENGTH * MAX_SENTENCE_LUMP;
   uint16_t lump[LUMP_LENGTH * MAX_SENTENCE_LUMP];
+  uint16_t lump_two_length = MAX_SENTENCE_LUMP * 2;
+  v16us lump_two[MAX_SENTENCE_LUMP * 2];
   memset(lump, 0, (uint8_t)(lump_length * WORD_WIDTH));
+  memset(lump_two, 0, (uint8_t)(lump_two_length * WORD_WIDTH));
   delete_empty_glyph_check();
   derive_first_word_check();
   encode_check();
@@ -283,6 +309,7 @@ static void check_ACC_all() {
   check_quote(lump, &lump_length);
   printf("----\n");
   check_hello_world(lump, lump_length);
+  check_text(lump_two, &lump_two_length);
   encode_word_PL_check();
 }
 

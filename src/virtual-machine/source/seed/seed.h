@@ -1,6 +1,8 @@
 #ifndef _SEED_H
 #define _SEED_H
 
+#define MAX_WRITE_MEMORY 0x8000 // GPU comput unit memory limit
+
 #define WORD_WIDTH 2
 #define GLOTTAL_STOP 0xC
 #define MAX_LENGTH 0xFFU
@@ -84,6 +86,7 @@
 
 typedef int v4si __attribute__((vector_size(16)));
 typedef uint8_t v16uc __attribute__((vector_size(16)));
+typedef uint16_t v16us __attribute__((vector_size(32)));
 typedef uint16_t v8us __attribute__((vector_size(16)));
 typedef uint16_t v4us __attribute__((vector_size(8)));
 /*#define NULL 0*/
@@ -111,13 +114,20 @@ extern void encode_PL_word(const uint32_t *PL_word, const uint8_t *length,
 
 /*@unused@*/ extern void lump_encode(const uint16_t *encode_text,
                                      const uint8_t encode_text_length,
-                                     uint16_t *lump, uint8_t *lump_length,
+                                     uint16_t *lump,
+                                     uint8_t *lump_length,
                                      uint8_t *remainder);
 /*@unused@*/ extern void sentence_encode(const char *text,
                                          const uint8_t text_length,
                                          uint16_t *lump, uint8_t *lump_length,
                                          uint8_t *remainder);
+/*@unused@*/ extern void text_encode(const char *text,
+                                     const uint16_t text_length,
+                                     v16us *lump,
+                                     uint16_t *lump_length,
+                                     uint16_t *text_remainder);
 /*@unused@*/ extern void realize(const v4us encoded_name, v8us *hook_list);
 /*@unused@*/ extern void realize_sentence(const uint16_t *lump,
                                           const uint8_t lump_length,
+                                          v4us* encoded_name,
                                           v8us *hook_list);

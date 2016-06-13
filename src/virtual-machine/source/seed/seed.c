@@ -1,7 +1,7 @@
-#include <stdint.h>
-#include <stdio.h>
+#include <stdint.h> // opencl compatible
+#include <stdio.h> // NOT opencl compatible
 #include <assert.h>
-#include <string.h>
+#include <string.h> // NOT opencl compatible// uses memset and memcmp
 #include "seed.h"
 
 #define TRUE 1
@@ -1030,7 +1030,9 @@ static inline void realize_quote(const uint16_t *lump,
   }
 }
 inline void realize_sentence(const uint16_t *restrict lump,
-                             const uint8_t lump_length, v8us *hook_list) {
+                             const uint8_t lump_length, 
+                             v4us* encoded_name,
+                             v8us *hook_list) {
   /* go through encoded sentence,
       loading quotes into temporary register,
       append to case list,
@@ -1045,7 +1047,6 @@ inline void realize_sentence(const uint16_t *restrict lump,
       execute proper function.
   */
   uint16_t indicator_list = 0;
-  v4us encoded_name = {0, 0, 0, 0};
   uint8_t indicator = 0;
   uint8_t lump_number = 0;
   uint8_t lump_spot = 0;
@@ -1074,7 +1075,7 @@ inline void realize_sentence(const uint16_t *restrict lump,
         case ACCUSATIVE_CASE:
           printf("detected accusative case\n");
           if (quote_word != 0) {
-            encoded_name[ACCUSATIVE_SPOT] = quote_word;
+            (*encoded_name)[ACCUSATIVE_SPOT] = quote_word;
             hook_list[ACCUSATIVE_SPOT] = quote_fill;
             printf("hl %X\n", (unsigned int)hook_list[ACCUSATIVE_SPOT][0]);
             quote_word = 0;
@@ -1082,22 +1083,22 @@ inline void realize_sentence(const uint16_t *restrict lump,
           break;
         case DATIVE_CASE:
           if (quote_word != 0) {
-            encoded_name[DATIVE_SPOT] = quote_word;
+            (*encoded_name)[DATIVE_SPOT] = quote_word;
             hook_list[DATIVE_SPOT] = quote_fill;
             quote_word = 0;
           }
           break;
         case INSTRUMENTAL_CASE:
           if (quote_word != 0) {
-            encoded_name[INSTRUMENTAL_SPOT] = quote_word;
+            (*encoded_name)[INSTRUMENTAL_SPOT] = quote_word;
             hook_list[INSTRUMENTAL_SPOT] = quote_fill;
             quote_word = 0;
           }
           break;
         case CONDITIONAL_MOOD:
           word = lump[lump_spot - 1];
-          encoded_name[VERB_SPOT] = word;
-          realize(encoded_name, hook_list);
+          (*encoded_name)[VERB_SPOT] = word;
+          realize(*encoded_name, hook_list);
           // if dative is WRONG_WORD then skip to next sentence
           if(hook_list[DATIVE_SPOT][0] == WRONG_WORD) {
             exit = TRUE;
@@ -1106,8 +1107,8 @@ inline void realize_sentence(const uint16_t *restrict lump,
         case DEONTIC_MOOD:
           // checking verb
           word = lump[lump_spot - 1];
-          encoded_name[VERB_SPOT] = word;
-          realize(encoded_name, hook_list);
+          (*encoded_name)[VERB_SPOT] = word;
+          realize((*encoded_name), hook_list);
           exit = TRUE;
           break;
         case WRONG_BINARY:
@@ -1128,4 +1129,21 @@ inline void realize_sentence(const uint16_t *restrict lump,
   assert(indicator == 1); /* must finish properly */
   // checking grammtical-case list
   printf("\n");
+}
+
+
+inline void text_encode(const char *text,
+                        const uint16_t text_length,
+                        v16us *lump,
+                        uint16_t *lump_length,
+                        uint16_t *text_remainder) {
+  assert(text != NULL);
+  assert(text_length != 0);
+  assert(lump != NULL);
+  assert(lump_length != NULL);
+  assert(*lump_length * LUMP_BYTE_LENGTH <= MAX_WRITE_MEMORY);
+  assert(text_remainder != NULL);
+  /* find end of sentence for each,
+    then pass each sentence to sentence encode,
+    return the result */
 }
