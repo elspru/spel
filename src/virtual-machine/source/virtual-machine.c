@@ -222,8 +222,8 @@ static void lump_encode_check() {
 //  }
 //}
 
-static void check_quote(uint16_t *restrict lump, uint8_t *lump_length) {
-  const char text[] = "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
+static void check_quote(v16us *restrict lump, uint8_t *lump_length) {
+  const char text[] = "wu.tsus.hello world!\n.tsus.wuka hsintu";
   const uint8_t text_length = (uint8_t)strlen(text);
   uint8_t remainder = 0;
   uint8_t lump_spot = 0;
@@ -232,9 +232,10 @@ static void check_quote(uint16_t *restrict lump, uint8_t *lump_length) {
     printf("%X ", (unsigned int)text[lump_spot]);
   }
   printf(": text\n");
-  for (lump_spot = 0; lump_spot < *lump_length; ++lump_spot) {
-    printf("%X ", (unsigned int)lump[lump_spot]);
+  for (lump_spot = 0; lump_spot < LUMP_LENGTH; ++lump_spot) {
+    printf("%X ", (unsigned int)lump[0][lump_spot]);
   }
+  printf(": lump");
 }
 
 static void check_text(v16us *restrict lump, uint16_t *lump_length) {
@@ -253,7 +254,7 @@ static void check_text(v16us *restrict lump, uint16_t *lump_length) {
   }
 }
 
-static void check_hello_world(const uint16_t *restrict lump,
+static void check_hello_world(const v16us *restrict lump,
                               const uint8_t lump_length) {
   uint8_t check_spot = 0;
   v4us encoded_name = {0, 0, 0, 0};
@@ -262,7 +263,7 @@ static void check_hello_world(const uint16_t *restrict lump,
   realize_sentence(lump, lump_length, &encoded_name, hook_list);
 
   // checking encoded name
-  printf("encoded_name ");
+  printf("encoded_name at end ");
   for (check_spot = 0; check_spot < 4; ++check_spot) {
     printf(" %X", (unsigned int)encoded_name[check_spot]);
   }
@@ -291,12 +292,12 @@ static void check_hello_world(const uint16_t *restrict lump,
 }
 
 static void check_ACC_all() {
-  uint8_t lump_length = LUMP_LENGTH * MAX_SENTENCE_LUMP;
-  uint16_t lump[LUMP_LENGTH * MAX_SENTENCE_LUMP];
+  uint8_t lump_length = MAX_SENTENCE_LUMP;
+  v16us lump[MAX_SENTENCE_LUMP];
   uint16_t lump_two_length = MAX_SENTENCE_LUMP * 2;
   v16us lump_two[MAX_SENTENCE_LUMP * 2];
-  memset(lump, 0, (uint8_t)(lump_length * WORD_WIDTH));
-  memset(lump_two, 0, (uint8_t)(lump_two_length * WORD_WIDTH));
+  memset(lump, 0, (uint8_t)(lump_length * WORD_WIDTH * LUMP_LENGTH));
+  memset(lump_two, 0, (uint16_t)(lump_two_length * WORD_WIDTH * LUMP_LENGTH));
   delete_empty_glyph_check();
   derive_first_word_check();
   encode_check();

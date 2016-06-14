@@ -164,22 +164,31 @@ void text_copy(const char *restrict ACC_text, const uint8_t length,
 }
 static inline void copy_ACC_text_DAT_lump(const char *restrict text,
                                           const uint8_t text_length,
-                                          uint16_t *restrict lump,
+                                          v16us* restrict lump,
+                                          const uint8_t lump_offset,
                                           const uint8_t lump_length) {
   uint8_t text_spot;
   uint8_t lump_spot = 0;
-  assert(lump_length >= text_length / 2);
+  assert(lump_length >= text_length / 2 / LUMP_LENGTH);
+  assert(text != NULL);
+  assert(lump != NULL);
+  //printf("copy_ACC_text_DAT_lump "); 
+  //printf("text_length %X ", (unsigned int) text_length);
+  //printf("lump_length %X ", (unsigned int) lump_length);
+  //printf("lump %04X ", (unsigned int) (*lump)[0]);
+  //printf("text %s ", (char*) text);
+  //printf("\n");
   for (text_spot = 0; text_spot < text_length; ++text_spot) {
     // printf("text_spot %X %X ", (unsigned int) text_spot,
     //    (unsigned int) text_length);
     if (text_length > text_spot + 1) {
-      lump[lump_spot] =
+      (*lump)[lump_spot + lump_offset] =
           (uint16_t)(text[text_spot] | (text[text_spot + 1] << 8));
       ++text_spot;
-      // printf("lump %X \n", (unsigned int) lump[lump_spot]);
     } else {
-      lump[lump_spot] = (uint16_t)text[text_spot];
+      (*lump)[lump_spot + lump_offset] = (uint16_t)text[text_spot];
     }
+    //printf("lump %04X \n", (unsigned int) lump[0][lump_spot + lump_offset]);
     ++lump_spot;
   }
 }
@@ -689,7 +698,7 @@ void lump_encode(const uint16_t *encode_text, const uint8_t encode_text_length,
     ++lump_number;
   }
   *remainder = (uint8_t)(encode_text_length - sentence_length);
-  *lump_length = (uint8_t)(LUMP_LENGTH * lump_number);
+  *lump_length = (uint8_t)(lump_number);
 }
 
 static inline void detect_ACC_quote_length(const char *text,
@@ -810,7 +819,7 @@ static inline void fit_quote_length(const uint8_t quote_length,
 }
 
 void sentence_encode(const char *text, const uint8_t text_length,
-                     uint16_t *lump, uint8_t *lump_length, uint8_t *remainder) {
+                     v16us *lump, uint8_t *lump_length, uint8_t *remainder) {
   /* algorithm:
       loop through glyphs,
       derive words
@@ -841,8 +850,8 @@ void sentence_encode(const char *text, const uint8_t text_length,
   assert(lump != NULL);
   assert(lump_length != NULL);
   assert(remainder != NULL);
-  assert(*lump_length >= LUMP_LENGTH * MAX_SENTENCE_LUMP);
-  printf("sentence encoding\n");
+  assert(*lump_length >= MAX_SENTENCE_LUMP);
+  //printf("sentence encoding\n");
   for (text_spot = 0; text_spot < text_length; ++text_spot) {
     glyph = text[text_spot];
     if (consonant_Q(glyph) == TRUE || vowel_Q(glyph) == TRUE ||
@@ -864,7 +873,7 @@ void sentence_encode(const char *text, const uint8_t text_length,
           memset(word, 0, WORD_LENGTH);
           switch (number) {
           case QUOTE_WORD:
-            printf("detected quote word %X\n", (unsigned int)text_spot);
+            //printf("detected quote word %X\n", (unsigned int)text_spot);
             ++text_spot;
             detect_ACC_quote_length(text + text_spot,
                                     (uint8_t)(text_length - text_spot),
@@ -875,15 +884,18 @@ void sentence_encode(const char *text, const uint8_t text_length,
                 text + text_spot + SILENCE_GLYPH_LENGTH,
                 (uint8_t)(quote_spot - text_spot - SILENCE_GLYPH_LENGTH),
                 quote_length, &quote_word);
-            printf("quote_length %X\n", (unsigned int)quote_length);
-            lump[lump_spot] = quote_word;
+            //printf("quote_length %X\n", (unsigned int)quote_length);
+            lump[0][lump_spot] = quote_word;
             ++lump_spot;
-            copy_ACC_text_DAT_lump(text + text_spot + quote_spot, quote_length,
-                                   lump + lump_spot,
-                                   (uint8_t)(*lump_length - lump_spot));
-            printf("text_spot %X, quote_spot %X, quote_length %X\n",
-                   (unsigned int)text_spot, (unsigned int)quote_spot,
-                   (unsigned int)quote_length);
+            copy_ACC_text_DAT_lump(text + text_spot + quote_spot,
+                                   quote_length,
+                                   lump,
+                                   lump_spot,
+                                   (uint8_t)(*lump_length*LUMP_LENGTH -
+                                             lump_spot));
+            //printf("text_spot %X, quote_spot %X, quote_length %X\n",
+            //       (unsigned int)text_spot, (unsigned int)quote_spot,
+            //       (unsigned int)quote_length);
             text_spot = (uint8_t)(text_spot + (quote_spot)*2 +
                                   QUOTE_WORD_LENGTH + quote_length - 1);
             word_length = 0;
@@ -896,32 +908,32 @@ void sentence_encode(const char *text, const uint8_t text_length,
             break;
           case ACCUSATIVE_CASE:
             binary_phrase_list ^= (uint16_t)(1 << lump_spot);
-            lump[lump_spot] = number;
+            lump[0][lump_spot] = number;
             ++lump_spot;
             break;
           case INSTRUMENTAL_CASE:
             binary_phrase_list ^= (uint16_t)(1 << lump_spot);
-            lump[lump_spot] = number;
+            lump[0][lump_spot] = number;
             ++lump_spot;
             break;
           case DATIVE_CASE:
             binary_phrase_list ^= (uint16_t)(1 << lump_spot);
-            lump[lump_spot] = number;
+            lump[0][lump_spot] = number;
             ++lump_spot;
             break;
           case CONDITIONAL_MOOD:
-            lump[lump_spot] = number;
+            lump[0][lump_spot] = number;
             binary_phrase_list ^= (uint16_t)(1 << lump_spot);
             ++lump_spot;
             break;
           case DEONTIC_MOOD:
-            lump[lump_spot] = number;
+            lump[0][lump_spot] = number;
             binary_phrase_list ^= (uint16_t)(1 << lump_spot);
             current = 2;
             ++lump_spot;
             break;
           default:
-            lump[lump_spot] = number;
+            lump[0][lump_spot] = number;
             ++lump_spot;
             break;
           }
@@ -933,10 +945,11 @@ void sentence_encode(const char *text, const uint8_t text_length,
       }
     }
   }
-  lump[0] = binary_phrase_list;
+  lump[0][0] = binary_phrase_list;
 }
 inline void x1848009D00000000(unsigned char *text) {
   assert(text != NULL);
+  //printf("ini %02X\n", (unsigned int) text[3]);
   printf("%s", text);
 }
 inline void x1848029D00000000(signed char *text) {
@@ -967,9 +980,9 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
   assert(encoded_name[VERB_SPOT] != 0);
   assert(hook_list != NULL);
   // checking hash key name
-  printf("encoded_name %04X%04X%04X%04X\n", (unsigned int)encoded_name[3],
-         (unsigned int)encoded_name[2], (unsigned int)encoded_name[1],
-         (unsigned int)encoded_name[0]);
+  //printf("encoded_name4 %04X%04X%04X%04X\n", (unsigned int)encoded_name[3],
+  //       (unsigned int)encoded_name[2], (unsigned int)encoded_name[1],
+  //       (unsigned int)encoded_name[0]);
   switch (encoded_name[ACCUSATIVE_SPOT]) {
   case UNSIGNED_CHAR_QUOTE:
     accusative = (unsigned char *)&(hook_list[ACCUSATIVE_SPOT]);
@@ -999,37 +1012,41 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
     x18EA000000000000(hook_list);
     break;
   default:
-  printf("unrecognized encoded_name %04X%04X%04X%04X\n",
-         (unsigned int)encoded_name[3],
-         (unsigned int)encoded_name[2], (unsigned int)encoded_name[1],
-         (unsigned int)encoded_name[0]);
+  //printf("unrecognized encoded_name %04X%04X%04X%04X\n",
+  //       (unsigned int)encoded_name[3],
+  //       (unsigned int)encoded_name[2], (unsigned int)encoded_name[1],
+  //       (unsigned int)encoded_name[0]);
     assert(0 != 0);
     break;
   }
 }
-static inline void realize_quote(const uint16_t *lump,
-                                 const uint8_t lump_length,
-                                 uint16_t *quote_word, v8us *quote_fill) {
+static inline void realize_quote(const v16us *lump,
+                                 const uint8_t lump_spot,
+                                 const uint8_t lump_length, 
+                                 uint16_t *quote_word,
+                                 v8us *quote_fill) {
   uint16_t word;
   uint8_t quote_spot = 0;
   uint8_t quote_length;
-  word = lump[0];
-  printf("quote checking\n");
+  word = lump[0][lump_spot];
+  //printf("quote checking, word %04X\n", (unsigned int) (*lump)[lump_spot]);
   if ((word & CONSONANT_ONE_MASK) == QUOTE_INDICATOR) {
     // then is quote
+    //printf("quote detected \n");
     *quote_word = word;
     quote_length = (uint8_t)(
         1 << (((*quote_word >> CONSONANT_ONE_WIDTH) & 7) - 1 /* 3 bit mask */));
-    printf("quote_fill ");
-    assert(quote_length < lump_length);
-    for (quote_spot = (uint8_t)(1); quote_spot < quote_length + 1;
+    //printf("quote_fill ");
+    assert(quote_length < lump_length * LUMP_LENGTH);
+    for (quote_spot = (uint8_t)(lump_spot + 1); quote_spot < quote_length + 1;
          ++quote_spot) {
-      printf("%X ", (unsigned int)lump[quote_spot]);
-      (*quote_fill)[quote_spot - 1] = lump[quote_spot];
+      //printf("%X ", (unsigned int)(*lump)[quote_spot]);
+      (*quote_fill)[quote_spot - lump_spot - 1] = (*lump)[quote_spot];
     }
+    //printf("\n");
   }
 }
-inline void realize_sentence(const uint16_t *restrict lump,
+inline void realize_sentence(const v16us *restrict lump,
                              const uint8_t lump_length, 
                              v4us* encoded_name,
                              v8us *hook_list) {
@@ -1054,30 +1071,36 @@ inline void realize_sentence(const uint16_t *restrict lump,
   uint16_t word = 0;
   uint16_t quote_word = 0;
   v8us quote_fill = {0, 0, 0, 0, 0, 0, 0, 0};
-  indicator_list = lump[0];
+  indicator_list = lump[0][0];
   indicator = (uint8_t)1 & indicator_list;
   // printf("indicator %X\n", (unsigned int) indicator);
   // printf("indicator_list %X\n", (unsigned int) indicator_list);
   for (lump_number = 0; lump_number < MAX_SENTENCE_LUMP; ++lump_number) {
-    for (lump_spot = 1; lump_spot < lump_length; ++lump_spot) {
+    for (lump_spot = 1; lump_spot < LUMP_LENGTH; ++lump_spot) {
       // if previous is indicated then check if is quote
       if (((indicator_list & (1 << (lump_spot - 1))) >> (lump_spot - 1)) ==
           indicator) {
-        realize_quote(lump + lump_spot, (uint8_t)(lump_length - lump_spot),
-                      &quote_word, &quote_fill);
+        // printf("lump_spot %X \n", (unsigned int) (lump)[0][lump_spot]);
+        realize_quote(lump, lump_spot, lump_length, &quote_word, &quote_fill);
       }
       // if current is indicated then check if is case or
       // verb
       if (((indicator_list & (1 << lump_spot)) >> lump_spot) == indicator) {
-        word = lump[lump_spot];
-        // printf("word %X\n", (unsigned int) word);
+        word = lump[0][lump_spot];
+        //printf("word %X\n", (unsigned int) word);
         switch (word) {
         case ACCUSATIVE_CASE:
-          printf("detected accusative case\n");
+          //printf("detected accusative case\n");
           if (quote_word != 0) {
             (*encoded_name)[ACCUSATIVE_SPOT] = quote_word;
+  //printf("encoded_name ACC %04X%04X%04X%04X\n", (unsigned int)(*encoded_name)[3],
+   //      (unsigned int)(*encoded_name)[2], (unsigned int)(*encoded_name)[1],
+   //      (unsigned int)(*encoded_name)[0]);
             hook_list[ACCUSATIVE_SPOT] = quote_fill;
-            printf("hl %X\n", (unsigned int)hook_list[ACCUSATIVE_SPOT][0]);
+            //printf("quote_fill %X\n",
+            //       (unsigned int)quote_fill[0]);
+            //printf("hook_list %X\n",
+            //       (unsigned int)hook_list[ACCUSATIVE_SPOT][0]);
             quote_word = 0;
           }
           break;
@@ -1096,8 +1119,12 @@ inline void realize_sentence(const uint16_t *restrict lump,
           }
           break;
         case CONDITIONAL_MOOD:
-          word = lump[lump_spot - 1];
+          word = lump[0][lump_spot - 1];
           (*encoded_name)[VERB_SPOT] = word;
+          (*encoded_name)[VERB_SPOT] = word;
+  //printf("encoded_name3 %04X%04X%04X%04X\n", (unsigned int)(*encoded_name)[3],
+  //       (unsigned int)(*encoded_name)[2], (unsigned int)(*encoded_name)[1],
+  //       (unsigned int)(*encoded_name)[0]);
           realize(*encoded_name, hook_list);
           // if dative is WRONG_WORD then skip to next sentence
           if(hook_list[DATIVE_SPOT][0] == WRONG_WORD) {
@@ -1106,7 +1133,10 @@ inline void realize_sentence(const uint16_t *restrict lump,
           break;
         case DEONTIC_MOOD:
           // checking verb
-          word = lump[lump_spot - 1];
+          word = lump[0][lump_spot - 1];
+  //printf("encoded_name2 %04X%04X%04X%04X\n", (unsigned int)(*encoded_name)[3],
+  //       (unsigned int)(*encoded_name)[2], (unsigned int)(*encoded_name)[1],
+  //       (unsigned int)(*encoded_name)[0]);
           (*encoded_name)[VERB_SPOT] = word;
           realize((*encoded_name), hook_list);
           exit = TRUE;
@@ -1128,7 +1158,7 @@ inline void realize_sentence(const uint16_t *restrict lump,
   }
   assert(indicator == 1); /* must finish properly */
   // checking grammtical-case list
-  printf("\n");
+  //printf("\n");
 }
 
 

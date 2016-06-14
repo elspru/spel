@@ -119,7 +119,8 @@ extern void encode_PL_word(const uint32_t *PL_word, const uint8_t *length,
                                      uint8_t *remainder);
 /*@unused@*/ extern void sentence_encode(const char *text,
                                          const uint8_t text_length,
-                                         uint16_t *lump, uint8_t *lump_length,
+                                         v16us *lump,
+                                         uint8_t *lump_length,
                                          uint8_t *remainder);
 /*@unused@*/ extern void text_encode(const char *text,
                                      const uint16_t text_length,
@@ -127,7 +128,7 @@ extern void encode_PL_word(const uint32_t *PL_word, const uint8_t *length,
                                      uint16_t *lump_length,
                                      uint16_t *text_remainder);
 /*@unused@*/ extern void realize(const v4us encoded_name, v8us *hook_list);
-/*@unused@*/ extern void realize_sentence(const uint16_t *lump,
+/*@unused@*/ extern void realize_sentence(const v16us *lump,
                                           const uint8_t lump_length,
                                           v4us* encoded_name,
                                           v8us *hook_list);
