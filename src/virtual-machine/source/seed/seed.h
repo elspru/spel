@@ -118,10 +118,10 @@ extern void encode_PL_word(const uint32_t *PL_word, const uint8_t *length,
                                      uint8_t *lump_length,
                                      uint8_t *remainder);
 /*@unused@*/ extern void sentence_encode(const char *text,
-                                         const uint8_t text_length,
+                                         const uint16_t text_length,
                                          v16us *lump,
                                          uint8_t *lump_length,
-                                         uint8_t *remainder);
+                                         uint16_t *remainder);
 /*@unused@*/ extern void text_encode(const char *text,
                                      const uint16_t text_length,
                                      v16us *lump,

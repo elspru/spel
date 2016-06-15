@@ -223,9 +223,9 @@ static void lump_encode_check() {
 //}
 
 static void check_quote(v16us *restrict lump, uint8_t *lump_length) {
-  const char text[] = "wu.tsus.hello world!\n.tsus.wuka hsintu";
-  const uint8_t text_length = (uint8_t)strlen(text);
-  uint8_t remainder = 0;
+  const char text[] = "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
+  const uint16_t text_length = (uint16_t)strlen(text);
+  uint16_t remainder = 0;
   uint8_t lump_spot = 0;
   sentence_encode(text, text_length, lump, lump_length, &remainder);
   for (lump_spot = 0; lump_spot < text_length; ++lump_spot) {
@@ -239,19 +239,23 @@ static void check_quote(v16us *restrict lump, uint8_t *lump_length) {
 }
 
 static void check_text(v16us *restrict lump, uint16_t *lump_length) {
-  const char text[] = "zrunnuka hyinnusu nyistu"
+  const char text[] = "zrunnuka hyinnusu nyistu "
                       "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
   const uint16_t text_length = (uint16_t)strlen(text);
+  printf("text_length %X\n",(unsigned int)text_length);
   uint16_t remainder = 0;
   uint8_t lump_spot = 0;
+  printf("check_text \n");
   text_encode(text, text_length, lump, lump_length, &remainder);
-  for (lump_spot = 0; lump_spot < text_length; ++lump_spot) {
-    printf("%X ", (unsigned int)text[lump_spot]);
-  }
-  printf(": text\n");
-  for (lump_spot = 0; lump_spot < *lump_length; ++lump_spot) {
+  //for (lump_spot = 0; lump_spot < text_length; ++lump_spot) {
+  //  printf("%X ", (unsigned int)text[lump_spot]);
+  //}
+  //printf(": text\n");
+  for (lump_spot = 0; lump_spot < (*lump_length * LUMP_LENGTH); 
+       ++lump_spot) {
     printf("%X ", (unsigned int)lump[0][lump_spot]);
   }
+  printf(":lump\n");
 }
 
 static void check_hello_world(const v16us *restrict lump,
