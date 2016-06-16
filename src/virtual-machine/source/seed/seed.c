@@ -1205,11 +1205,30 @@ inline void text_encode(const char *text,
       break;
     }
     text_spot = (uint16_t)(max_text_length - *text_remainder);
-    printf("ct text_spot %X, text %s\n", (unsigned int)text_spot, 
-      text + text_spot);
-    printf("ct text_remainder %X\n",(unsigned int)*text_remainder);
-    printf("ct lump_length %X\n",(unsigned int)*lump_length);
+    //printf("ct text_spot %X, text %s\n", (unsigned int)text_spot, 
+    //  text + text_spot);
+    //printf("ct text_remainder %X\n",(unsigned int)*text_remainder);
+    //printf("ct lump_length %X\n",(unsigned int)*lump_length);
   }
-  printf("ctf text_remainder %X\n",(unsigned int)*text_remainder);
-  printf("ctf lump_length %X\n",(unsigned int)*lump_length);
+  //printf("ctf text_remainder %X\n",(unsigned int)*text_remainder);
+  //printf("ctf lump_length %X\n",(unsigned int)*lump_length);
+}
+inline void realize_text(const v16us *lump,
+                         const uint16_t max_lump_length,
+                         v4us* encoded_name,
+                         v8us *hook_list) {
+  /* 
+    identify sentence lump,
+    then pass to sentence_realize,
+    and so on until reach end.
+  */
+  uint16_t lump_spot = 0;
+  assert(lump != NULL);
+  assert(max_lump_length > 0);
+  assert(encoded_name != NULL);
+  assert(hook_list != NULL);
+  for (;lump_spot < max_lump_length; ++lump_spot) {
+    realize_sentence(&lump[lump_spot], (uint8_t)(max_lump_length - lump_spot),
+                     encoded_name, hook_list);
+  }
 }

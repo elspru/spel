@@ -132,3 +132,7 @@ extern void encode_PL_word(const uint32_t *PL_word, const uint8_t *length,
                                           const uint8_t lump_length,
                                           v4us* encoded_name,
                                           v8us *hook_list);
+/*@unused@*/ extern void realize_text(const v16us *lump,
+                                          const uint16_t lump_length,
+                                          v4us* encoded_name,
+                                          v8us *hook_list);

@@ -257,6 +257,28 @@ static void check_text(v16us *restrict lump, uint16_t *lump_length) {
   }
   printf(":lump\n");
 }
+static void check_realize_text(const v16us *restrict lump,
+                              const uint16_t lump_length) {
+  uint8_t check_spot = 0;
+  v4us encoded_name = {0, 0, 0, 0};
+  v8us hook_list[HOOK_LIST_LENGTH];
+  memset(hook_list, 0, (HOOK_LIST_WIDTH * HOOK_LIST_LENGTH * WORD_WIDTH));
+  realize_text(lump, lump_length, &encoded_name, hook_list);
+
+  // checking encoded name
+  printf("encoded_name at end ");
+  for (check_spot = 0; check_spot < 4; ++check_spot) {
+    printf(" %X", (unsigned int)encoded_name[check_spot]);
+  }
+  printf("\n");
+  // checking hook list
+  printf("hook_list ");
+  for (check_spot = 0; check_spot < HOOK_LIST_LENGTH * HOOK_LIST_WIDTH;
+       ++check_spot) {
+    printf(" %X", (unsigned int)hook_list[0][check_spot]);
+  }
+  printf("\n");
+}
 
 static void check_hello_world(const v16us *restrict lump,
                               const uint8_t lump_length) {
@@ -315,6 +337,7 @@ static void check_ACC_all() {
   printf("----\n");
   check_hello_world(lump, lump_length);
   check_text(lump_two, &lump_two_length);
+  check_realize_text(lump_two, lump_two_length);
   encode_word_PL_check();
 }
 
