@@ -88,7 +88,7 @@ static void derive_first_word_check() {
 }
 
 static void encode_word_PL_check() {
-  const char text[] = "tcinkahtutsuhkakpanyiktutcin";
+  const char text[] = "tcinkahtutsuhkakpanyiktutcinnu";
   const uint8_t text_length = (uint8_t)strlen(text);
   uint16_t encode_sentence[SENTENCE_LENGTH / WORD_LENGTH];
   uint8_t encode_sentence_length = SENTENCE_LENGTH / WORD_LENGTH;
@@ -239,13 +239,13 @@ static void check_quote(v16us *restrict lump, uint8_t *lump_length) {
 }
 
 static void check_text(v16us *restrict lump, uint16_t *lump_length) {
-  const char text[] = "zrunnuka hyinnusu nyistu "
-                      "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
+  const char text[] = "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
+                      //"zrunnuka hyinnusu nyistu "
   const uint16_t text_length = (uint16_t)strlen(text);
-  printf("text_length %X\n",(unsigned int)text_length);
   uint16_t remainder = 0;
   uint8_t lump_spot = 0;
   printf("check_text \n");
+  //printf("text_length %X\n",(unsigned int)text_length);
   text_encode(text, text_length, lump, lump_length, &remainder);
   //for (lump_spot = 0; lump_spot < text_length; ++lump_spot) {
   //  printf("%X ", (unsigned int)text[lump_spot]);
@@ -265,6 +265,12 @@ static void check_realize_text(const v16us *restrict lump,
   memset(hook_list, 0, (HOOK_LIST_WIDTH * HOOK_LIST_LENGTH * WORD_WIDTH));
   realize_text(lump, lump_length, &encoded_name, hook_list);
 
+  printf("lump ");
+  for (check_spot = 0; check_spot < lump_length * LUMP_LENGTH;
+       ++check_spot) {
+    printf(" %X", (unsigned int)lump[0][check_spot]);
+  }
+  printf("\n");
   // checking encoded name
   printf("encoded_name at end ");
   for (check_spot = 0; check_spot < 4; ++check_spot) {
@@ -286,12 +292,23 @@ static void check_hello_world(const v16us *restrict lump,
   v4us encoded_name = {0, 0, 0, 0};
   v8us hook_list[HOOK_LIST_LENGTH];
   memset(hook_list, 0, (HOOK_LIST_WIDTH * HOOK_LIST_LENGTH * WORD_WIDTH));
+  printf("encoded_name at start ");
+  for (check_spot = 0; check_spot < 4; ++check_spot) {
+    printf(" %X", (unsigned int)encoded_name[check_spot]);
+  }
   realize_sentence(lump, lump_length, &encoded_name, hook_list);
 
   // checking encoded name
   printf("encoded_name at end ");
   for (check_spot = 0; check_spot < 4; ++check_spot) {
     printf(" %X", (unsigned int)encoded_name[check_spot]);
+  }
+  printf("\n");
+  // checking lump
+  printf("lump ");
+  for (check_spot = 0; check_spot < lump_length * LUMP_LENGTH;
+       ++check_spot) {
+    printf(" %X", (unsigned int)lump[0][check_spot]);
   }
   printf("\n");
   // checking hook list
@@ -334,9 +351,11 @@ static void check_ACC_all() {
   //printf("full encode check\n");
   //full_encode_check();
   check_quote(lump, &lump_length);
-  printf("----\n");
+  printf("check_hello_world\n");
   check_hello_world(lump, lump_length);
+  //printf("check_text\n");
   check_text(lump_two, &lump_two_length);
+  //printf("check_realize_text\n");
   check_realize_text(lump_two, lump_two_length);
   encode_word_PL_check();
 }
