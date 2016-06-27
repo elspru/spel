@@ -99,9 +99,14 @@ AM_V_AR = $(am__v_AR_@AM_V@)
 am__v_AR_ = $(am__v_AR_@AM_DEFAULT_V@)
 am__v_AR_0 = @echo "  AR      " $@;
 am__v_AR_1 = 
+library_library_programmer_a_AR = $(AR) $(ARFLAGS)
+library_library_programmer_a_LIBADD =
+am__dirstamp = $(am__leading_dot)dirstamp
+am_library_library_programmer_a_OBJECTS = source/machine_programmer/library_library_programmer_a-programmer.$(OBJEXT)
+library_library_programmer_a_OBJECTS =  \
+	$(am_library_library_programmer_a_OBJECTS)
 library_library_seed_a_AR = $(AR) $(ARFLAGS)
 library_library_seed_a_LIBADD =
-am__dirstamp = $(am__leading_dot)dirstamp
 am_library_library_seed_a_OBJECTS =  \
 	source/seed/library_library_seed_a-seed.$(OBJEXT)
 library_library_seed_a_OBJECTS = $(am_library_library_seed_a_OBJECTS)
@@ -110,7 +115,8 @@ PROGRAMS = $(bin_PROGRAMS)
 am_binary_virtual_machine_OBJECTS =  \
 	source/binary_virtual_machine-virtual-machine.$(OBJEXT)
 binary_virtual_machine_OBJECTS = $(am_binary_virtual_machine_OBJECTS)
-binary_virtual_machine_DEPENDENCIES = library/library_seed.a
+binary_virtual_machine_DEPENDENCIES = library/library_seed.a \
+	library/library_programmer.a
 binary_virtual_machine_LINK = $(CCLD) $(binary_virtual_machine_CFLAGS) \
 	$(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@
 AM_V_P = $(am__v_P_@AM_V@)
@@ -145,9 +151,11 @@ AM_V_CCLD = $(am__v_CCLD_@AM_V@)
 am__v_CCLD_ = $(am__v_CCLD_@AM_DEFAULT_V@)
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(library_library_seed_a_SOURCES) \
+SOURCES = $(library_library_programmer_a_SOURCES) \
+	$(library_library_seed_a_SOURCES) \
 	$(binary_virtual_machine_SOURCES)
-DIST_SOURCES = $(library_library_seed_a_SOURCES) \
+DIST_SOURCES = $(library_library_programmer_a_SOURCES) \
+	$(library_library_seed_a_SOURCES) \
 	$(binary_virtual_machine_SOURCES)
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
 	ctags-recursive dvi-recursive html-recursive info-recursive \
@@ -326,18 +334,22 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 SUBDIRS = .
-noinst_LIBRARIES = library/library_seed.a
+noinst_LIBRARIES = library/library_programmer.a library/library_seed.a
 library_library_seed_a_SOURCES = source/seed/seed.c
 library_library_seed_a_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS)\
          -Wstack-usage=256 # data bytes per warp
 
-binary_virtual_machine_SOURCES = \
-    source/virtual-machine.c 
+library_library_programmer_a_SOURCES = source/machine_programmer/programmer.c
+library_library_programmer_a_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS)\
+         -Wstack-usage=256 # data bytes per warp
 
+binary_virtual_machine_SOURCES = source/virtual-machine.c 
 binary_virtual_machine_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS) \
          -Wstack-usage=32768  #L1 Cache
 
-binary_virtual_machine_LDADD = library/library_seed.a
+binary_virtual_machine_LDADD = library/library_seed.a \
+          library/library_programmer.a
+
 all: config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-recursive
 
@@ -395,6 +407,23 @@ distclean-hdr:
 
 clean-noinstLIBRARIES:
 	-test -z "$(noinst_LIBRARIES)" || rm -f $(noinst_LIBRARIES)
+source/machine_programmer/$(am__dirstamp):
+	@$(MKDIR_P) source/machine_programmer
+	@: > source/machine_programmer/$(am__dirstamp)
+source/machine_programmer/$(DEPDIR)/$(am__dirstamp):
+	@$(MKDIR_P) source/machine_programmer/$(DEPDIR)
+	@: > source/machine_programmer/$(DEPDIR)/$(am__dirstamp)
+source/machine_programmer/library_library_programmer_a-programmer.$(OBJEXT):  \
+	source/machine_programmer/$(am__dirstamp) \
+	source/machine_programmer/$(DEPDIR)/$(am__dirstamp)
+library/$(am__dirstamp):
+	@$(MKDIR_P) library
+	@: > library/$(am__dirstamp)
+
+library/library_programmer.a: $(library_library_programmer_a_OBJECTS) $(library_library_programmer_a_DEPENDENCIES) $(EXTRA_library_library_programmer_a_DEPENDENCIES) library/$(am__dirstamp)
+	$(AM_V_at)-rm -f library/library_programmer.a
+	$(AM_V_AR)$(library_library_programmer_a_AR) library/library_programmer.a $(library_library_programmer_a_OBJECTS) $(library_library_programmer_a_LIBADD)
+	$(AM_V_at)$(RANLIB) library/library_programmer.a
 source/seed/$(am__dirstamp):
 	@$(MKDIR_P) source/seed
 	@: > source/seed/$(am__dirstamp)
@@ -404,9 +433,6 @@ source/seed/$(DEPDIR)/$(am__dirstamp):
 source/seed/library_library_seed_a-seed.$(OBJEXT):  \
 	source/seed/$(am__dirstamp) \
 	source/seed/$(DEPDIR)/$(am__dirstamp)
-library/$(am__dirstamp):
-	@$(MKDIR_P) library
-	@: > library/$(am__dirstamp)
 
 library/library_seed.a: $(library_library_seed_a_OBJECTS) $(library_library_seed_a_DEPENDENCIES) $(EXTRA_library_library_seed_a_DEPENDENCIES) library/$(am__dirstamp)
 	$(AM_V_at)-rm -f library/library_seed.a
@@ -473,12 +499,14 @@ binary/virtual-machine$(EXEEXT): $(binary_virtual_machine_OBJECTS) $(binary_virt
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
 	-rm -f source/*.$(OBJEXT)
+	-rm -f source/machine_programmer/*.$(OBJEXT)
 	-rm -f source/seed/*.$(OBJEXT)
 
 distclean-compile:
 	-rm -f *.tab.c
 
 @AMDEP_TRUE@@am__include@ @am__quote@source/$(DEPDIR)/binary_virtual_machine-virtual-machine.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@source/machine_programmer/$(DEPDIR)/library_library_programmer_a-programmer.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@source/seed/$(DEPDIR)/library_library_seed_a-seed.Po@am__quote@
 
 .c.o:
@@ -496,6 +524,20 @@ distclean-compile:
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='$<' object='$@' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
 @am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(COMPILE) -c -o $@ `$(CYGPATH_W) '$<'`
+
+source/machine_programmer/library_library_programmer_a-programmer.o: source/machine_programmer/programmer.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(library_library_programmer_a_CFLAGS) $(CFLAGS) -MT source/machine_programmer/library_library_programmer_a-programmer.o -MD -MP -MF source/machine_programmer/$(DEPDIR)/library_library_programmer_a-programmer.Tpo -c -o source/machine_programmer/library_library_programmer_a-programmer.o `test -f 'source/machine_programmer/programmer.c' || echo '$(srcdir)/'`source/machine_programmer/programmer.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) source/machine_programmer/$(DEPDIR)/library_library_programmer_a-programmer.Tpo source/machine_programmer/$(DEPDIR)/library_library_programmer_a-programmer.Po
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='source/machine_programmer/programmer.c' object='source/machine_programmer/library_library_programmer_a-programmer.o' libtool=no @AMDEPBACKSLASH@
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(library_library_programmer_a_CFLAGS) $(CFLAGS) -c -o source/machine_programmer/library_library_programmer_a-programmer.o `test -f 'source/machine_programmer/programmer.c' || echo '$(srcdir)/'`source/machine_programmer/programmer.c
+
+source/machine_programmer/library_library_programmer_a-programmer.obj: source/machine_programmer/programmer.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(library_library_programmer_a_CFLAGS) $(CFLAGS) -MT source/machine_programmer/library_library_programmer_a-programmer.obj -MD -MP -MF source/machine_programmer/$(DEPDIR)/library_library_programmer_a-programmer.Tpo -c -o source/machine_programmer/library_library_programmer_a-programmer.obj `if test -f 'source/machine_programmer/programmer.c'; then $(CYGPATH_W) 'source/machine_programmer/programmer.c'; else $(CYGPATH_W) '$(srcdir)/source/machine_programmer/programmer.c'; fi`
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) source/machine_programmer/$(DEPDIR)/library_library_programmer_a-programmer.Tpo source/machine_programmer/$(DEPDIR)/library_library_programmer_a-programmer.Po
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='source/machine_programmer/programmer.c' object='source/machine_programmer/library_library_programmer_a-programmer.obj' libtool=no @AMDEPBACKSLASH@
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(library_library_programmer_a_CFLAGS) $(CFLAGS) -c -o source/machine_programmer/library_library_programmer_a-programmer.obj `if test -f 'source/machine_programmer/programmer.c'; then $(CYGPATH_W) 'source/machine_programmer/programmer.c'; else $(CYGPATH_W) '$(srcdir)/source/machine_programmer/programmer.c'; fi`
 
 source/seed/library_library_seed_a-seed.o: source/seed/seed.c
 @am__fastdepCC_TRUE@	$(AM_V_CC)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(library_library_seed_a_CFLAGS) $(CFLAGS) -MT source/seed/library_library_seed_a-seed.o -MD -MP -MF source/seed/$(DEPDIR)/library_library_seed_a-seed.Tpo -c -o source/seed/library_library_seed_a-seed.o `test -f 'source/seed/seed.c' || echo '$(srcdir)/'`source/seed/seed.c
@@ -857,6 +899,8 @@ distclean-generic:
 	-rm -f library/$(am__dirstamp)
 	-rm -f source/$(DEPDIR)/$(am__dirstamp)
 	-rm -f source/$(am__dirstamp)
+	-rm -f source/machine_programmer/$(DEPDIR)/$(am__dirstamp)
+	-rm -f source/machine_programmer/$(am__dirstamp)
 	-rm -f source/seed/$(DEPDIR)/$(am__dirstamp)
 	-rm -f source/seed/$(am__dirstamp)
 
@@ -870,7 +914,7 @@ clean-am: clean-binPROGRAMS clean-generic clean-noinstLIBRARIES \
 
 distclean: distclean-recursive
 	-rm -f $(am__CONFIG_DISTCLEAN_FILES)
-	-rm -rf source/$(DEPDIR) source/seed/$(DEPDIR)
+	-rm -rf source/$(DEPDIR) source/machine_programmer/$(DEPDIR) source/seed/$(DEPDIR)
 	-rm -f Makefile
 distclean-am: clean-am distclean-compile distclean-generic \
 	distclean-hdr distclean-tags
@@ -918,7 +962,7 @@ installcheck-am:
 maintainer-clean: maintainer-clean-recursive
 	-rm -f $(am__CONFIG_DISTCLEAN_FILES)
 	-rm -rf $(top_srcdir)/autom4te.cache
-	-rm -rf source/$(DEPDIR) source/seed/$(DEPDIR)
+	-rm -rf source/$(DEPDIR) source/machine_programmer/$(DEPDIR) source/seed/$(DEPDIR)
 	-rm -f Makefile
 maintainer-clean-am: distclean-am maintainer-clean-generic
 

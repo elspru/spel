@@ -130,9 +130,10 @@ static inline uint8_t consonant_Q(const char glyph) {
   return FALSE;
 }
 
-void delete_empty_glyph(const char *restrict text,
-                        const uint16_t ACC_GEN_length, char *restrict DAT_text,
-                        uint16_t *restrict DAT_length) {
+void delete_empty_glyph(const uint16_t ACC_GEN_length,
+                        const char *restrict text,
+                        uint16_t *restrict DAT_length,
+                        char *restrict DAT_text) {
   uint16_t i = 0;
   uint16_t j = 0;
   char glyph;
@@ -197,10 +198,10 @@ static inline void copy_ACC_text_DAT_lump(const char *restrict text,
   *DAT_GEN_length = (uint8_t)0;                                                \
   return;
 
-inline void derive_first_word(const char *restrict ACC_sentence,
-                              const uint8_t ACC_GEN_length,
-                              char *restrict DAT_word,
-                              uint8_t *restrict DAT_GEN_length) {
+inline void derive_first_word(const uint8_t ACC_GEN_length,
+                              const char *restrict ACC_sentence,
+                              uint8_t *restrict DAT_GEN_length,
+                              char *restrict DAT_word) {
   uint8_t start = 0;
   assert(ACC_sentence != NULL);
   if (ACC_GEN_length < 2) {
@@ -469,8 +470,8 @@ static inline void encode_ACC_consonant_three(const uint8_t type,
 #define encode_exit                                                            \
   *DAT_number = 0;                                                             \
   return;
-void encode_ACC_word_DAT_number(const char *restrict word,
-                                const uint8_t ACC_GEN_length,
+void encode_ACC_word_DAT_number(const uint8_t ACC_GEN_length,
+                                const char *restrict word,
                                 uint16_t *restrict DAT_number) {
   /* Algorithm:
       TEL set ACC NUM zero DAT number DEO
@@ -564,10 +565,10 @@ void encode_ACC_word_DAT_number(const char *restrict word,
   *DAT_number = number;
 }
 
-void encode_ACC_word_PL(const char *restrict ACC_sentence,
-                        const uint8_t ACC_GEN_length,
-                        uint16_t *restrict DAT_encode_sentence,
+void encode_ACC_word_PL(const uint8_t ACC_GEN_length,
+                        const char *restrict ACC_sentence,
                         uint8_t *restrict DAT_GEN_length,
+                        uint16_t *restrict DAT_encode_sentence,
                         uint8_t *restrict DAT_GEN_remainder) {
   /* identify if two glyph or four glyph word
       if there is a bad parse
@@ -596,15 +597,15 @@ void encode_ACC_word_PL(const char *restrict ACC_sentence,
   assert(DAT_encode_sentence != NULL);
   assert(*DAT_GEN_length >= ACC_GEN_length / 2);
   for (; i < ACC_GEN_length; j++) {
-    derive_first_word(ACC_sentence + i, (uint8_t)(ACC_GEN_length - i), DAT_word,
-                      &DAT_word_GEN_length);
+    derive_first_word((uint8_t)(ACC_GEN_length - i), ACC_sentence + i,
+                      &DAT_word_GEN_length, DAT_word);
     // printf("%s %d \n", ACC_sentence +i,
     //    (int) DAT_word_GEN_length);
     if (DAT_word_GEN_length == 0) {
       *DAT_GEN_remainder = (uint8_t)(ACC_GEN_length - i);
       break;
     }
-    encode_ACC_word_DAT_number(DAT_word, DAT_word_GEN_length, &number);
+    encode_ACC_word_DAT_number(DAT_word_GEN_length, DAT_word, &number);
     i = (uint8_t)(i + DAT_word_GEN_length);
     DAT_encode_sentence[j] = number;
     DAT_word_GEN_length = WORD_LENGTH;
@@ -663,8 +664,8 @@ establish_ACC_binary_phrase_list(const uint16_t *restrict encode_text,
   }
   lump[0] = *binary_phrase_list;
 }
-void lump_encode(const uint16_t *encode_text, const uint8_t encode_text_length,
-                 uint16_t *lump, uint8_t *lump_length, uint8_t *remainder) {
+void lump_encode(const uint8_t encode_text_length, const uint16_t *encode_text,
+                 uint8_t *lump_length, uint16_t *lump, uint8_t *remainder) {
   uint16_t binary_phrase_list = 0;
   uint8_t i = 0;
   uint8_t sentence_length = 0;
@@ -782,8 +783,8 @@ static inline void derive_quote_word(const char *quote_class,
   // constant data
   *quote_word |= QUOTE_LITERAL << QUOTE_LITERAL_XOR_ADDRESS_SPOT;
   *quote_word |= FALSE << QUOTE_INTEGER_SPOT;
-  derive_first_word(quote_class, quote_class_length, word, &word_length);
-  encode_ACC_word_DAT_number(word, word_length, &quote_number);
+  derive_first_word(quote_class_length, quote_class, &word_length, word);
+  encode_ACC_word_DAT_number(word_length, word, &quote_number);
   // printf("quote_number %X\n", (unsigned int) quote_number);
   switch (quote_number) {
   case TEXT_WORD:
@@ -818,8 +819,8 @@ static inline void fit_quote_length(const uint8_t quote_length,
   }
 }
 
-void sentence_encode(const char *text, const uint16_t text_length,
-                     v16us *lump, uint8_t *lump_length,
+void sentence_encode(const uint16_t text_length, const char *text, 
+                     uint8_t *lump_length, v16us *lump,
                      uint16_t *text_remainder) {
   /* algorithm:
       loop through glyphs,
@@ -865,15 +866,17 @@ void sentence_encode(const char *text, const uint16_t text_length,
       //printf("lump_spot %X\n", (unsigned int) lump_spot);
       memset(derived_word, 0, WORD_LENGTH);
       derived_word_length = WORD_LENGTH;
-      derive_first_word(word, word_length, derived_word, &derived_word_length);
+      derive_first_word(word_length, word, &derived_word_length, derived_word);
       if (derived_word_length > 0) {
         number = 0;
-        encode_ACC_word_DAT_number(derived_word, derived_word_length, &number);
+        encode_ACC_word_DAT_number(derived_word_length, derived_word, &number);
         // printf("n 0x%X \n", (unsigned int) number);
         if (number != 0) {
           memset(word, 0, WORD_LENGTH);
           switch (number) {
-          case QUOTE_WORD:
+          case NUMBER_GRAMMAR_WORD:
+            break;
+          case QUOTE_GRAMMAR_WORD:
             //printf("detected quote word %X\n", (unsigned int)text_spot);
             ++text_spot;
             detect_ACC_quote_length(text + text_spot,
@@ -1058,8 +1061,8 @@ static inline void realize_quote(const v16us *lump,
     printf("\n");
   }
 }
-inline void realize_sentence(const v16us *restrict lump,
-                             const uint8_t lump_length, 
+inline void realize_sentence(const uint8_t lump_length, 
+                             const v16us *restrict lump,
                              v4us* encoded_name,
                              v8us *hook_list) {
   /* go through encoded sentence,
@@ -1175,10 +1178,10 @@ inline void realize_sentence(const v16us *restrict lump,
 }
 
 
-inline void text_encode(const char *text,
-                        const uint16_t max_text_length,
-                        v16us *lump,
+inline void text_encode( const uint16_t max_text_length,
+                        const char *text,
                         uint16_t *lump_length,
+                        v16us *lump,
                         uint16_t *text_remainder) {
   /* find end of sentence for each,
     then pass each sentence to sentence encode,
@@ -1200,8 +1203,8 @@ inline void text_encode(const char *text,
     } else {
       sentence_lump_length =  (uint8_t) MAX_SENTENCE_LUMP;
     }
-    sentence_encode(text + text_spot, *text_remainder, &lump[*lump_length],
-                    &sentence_lump_length, text_remainder);
+    sentence_encode(*text_remainder, text + text_spot, &sentence_lump_length,
+                    &lump[*lump_length], text_remainder);
     *lump_length = (uint16_t)(*lump_length + sentence_lump_length);
     if (*text_remainder == 0) {
       break;
@@ -1215,8 +1218,8 @@ inline void text_encode(const char *text,
   //printf("ctf text_remainder %X\n",(unsigned int)*text_remainder);
   //printf("ctf lump_length %X\n",(unsigned int)*lump_length);
 }
-inline void realize_text(const v16us *lump,
-                         const uint16_t max_lump_length,
+inline void realize_text(const uint16_t max_lump_length,
+                         const v16us *lump,
                          v4us* encoded_name,
                          v8us *hook_list) {
   /* 
@@ -1230,7 +1233,7 @@ inline void realize_text(const v16us *lump,
   assert(encoded_name != NULL);
   assert(hook_list != NULL);
   for (;lump_spot < max_lump_length; ++lump_spot) {
-    realize_sentence(&lump[lump_spot], (uint8_t)(max_lump_length - lump_spot),
+    realize_sentence((uint8_t)(max_lump_length - lump_spot), &lump[lump_spot],
                      encoded_name, hook_list);
   }
 }

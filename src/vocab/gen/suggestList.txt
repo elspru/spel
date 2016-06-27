@@ -10,15 +10,15 @@ that: it, that-which, who, key
 his: its, own
 he: it
 with: 
-for: about, ad, because
+for: five, about, ad
 as: who, instance
 second-person: 
 be: happen, stand
 her: its
-on: call, about, up
+on: call, about
 at: horse, here
 by: passing, and, about
-which: who, that-which, whichever, it
+which: who, that-which, every, whichever, it
 have: obtain, bear
 or: 
 from: 
@@ -35,29 +35,28 @@ would: think, manage
 will: willpower
 no: not
 if: provided
-out: outer, up, exit, who
+up: above, rise, out
 into: one, between
-any: whichever, namely, all, each
+any: whichever, namely, every, all
 your: yours
 what: happen, do
-copula: 
 indicative-mood: directive-mood
 man: person, husband, male
 other: second, different, more
 than: more, about, maximum
 our: spring, us
 some: nothing
-upon: up
+upon: above, out
 may: could
 now: currently, anymore
-like: love, hold, resemble
-can: could, box, know
+like: love, keep, resemble
+can: could, box
 should: must, send
 did: do, fact
 such: thus
 a: one, trademark
 these: they, it
-over: up, more, maximum
+over: above, more, maximum
 much: very, volume, crowd, steep
 after: next, then
 mr: sir, master, seed
@@ -78,7 +77,6 @@ how: way
 too: very, even
 again: then, back, anymore
 many: majority, crowd
-every: each, denominator, all
 people: person, community
 same: equal, they
 thought: ideology, idea, think
@@ -89,18 +87,19 @@ place: spot, position, where
 while: time, temporary, whilst
 just: only
 also: even, more
-yet: but, more, even
+yet: but, more
 though: despite, but, whilst
 against: before, opposite
 get: obtain, take, availability, found, derived, seize
 ever: eternal, always, when
-off: distant, covered, closure, die, who
+off: distant, out, covered, closure, die
 face: surface, hundred, person, mouth
 another: one-another, last, different, second, more
 new: novel, fresh, nine, young
 neo: 
 mrs: 
-put: set, give, do, situate, enough
+put: keep, give, do, situate, enough
+each: every
 tell: say
 mind: intellectual, think
 few: little, nothing, minority
@@ -108,7 +107,8 @@ thing: matter, about
 whom: who, that-which
 far: distant, very
 called: think, say
-whole: full, all, radical
+whole: full, all, every, radical
+set: group, keep, synthesis, together, series
 both: second, two
 find: found, search, obtain, address, detect
 look: see, check, glance, appear
@@ -135,40 +135,38 @@ nor: happen, not
 whose: who, that-which, its
 best: better, least
 myself: me, themselves, magnetic
-until: even, before, up
+until: even, before
 since: then, first, because
 used: old, familiar
 rather: instead, more, not
 present: currently
 less: low, down, least
-within: inner, deep, between
-together: collective, set, conjunction
-till: even, come, before, up
+within: inner, deep, indoors, between
+till: even, come, before
 large: great
 kind: class, sort, friendly, pleasant
 certain: determined, right, genuine, nothing
 herself: themselves
+year: annual, five
 half: halfway, grind, side
 true: genuine, realistic, fact, right
 anything: nothing, who, do
-keep: hold, set, retain
 means: way, vehicle, resources
 state: condition, enter, country, government, rule
-alone: lonely, one, girl, themselves, only
-above: up
+alone: lonely, solo, one, girl, themselves, only
 case: matter, fall, instance, prosecution, because
 thee: you
-high: up, floor
+high: above, floor
 sure: assure, right, safe, strictly
 indeed: fact
 itself: themselves, own, even, manually
-along: collective, long, length
+along: together, long, length
 land: country, estate
 return: regression, back
 leave: vacation, abandoned, left, permission
-either: even, whichever
+either: even
 law: right, legal, rule
-lay: set, help, hold, suppose, position
+lay: keep, help, suppose, position
 point: spot, action, only, paragraph
 child: children
 wish: hope, desire, request
@@ -187,7 +185,7 @@ become: come
 dead: die, death, extinct
 earth: country
 boy: son
-forth: next
+forth: out, next
 feel: feeling, realize, hear, think
 spirit: soul
 question: matter, argument
@@ -196,7 +194,7 @@ ground: floor, country
 really: realistic, very, fact
 rest: comfort, retire, remains, vacation, remainder, more
 possible: perhaps, could
-towards: each, side
+towards: every, side
 human: person, humanity
 short: low, brief, narrow, little
 town: city
@@ -204,7 +202,6 @@ following: next, follow
 need: necessary, must
 cause: account, induce, because
 evening: night, afternoon
-five: fifth, year
 strong: power, violent, reinforce, nervous
 able: qualified, capable, could
 lady: feminine, girl
@@ -214,10 +211,11 @@ understand: understanding, realize, know, mean, prove
 around: surrounding, near, about, eye
 ask: pray, please, asked
 arms: disarm, hand
-turn: side, set, order, one
+turn: side, series, order, one
 sense: understanding, mean, feeling, semantic
 bring: lead, take
 close: closure, near, to-close
+hold: keep, knot, wait, continue
 character: behaviour, mark, nature, role
 sight: scene, see, glance, presence, time
 party: feast, comma, adoption, country
@@ -230,18 +228,18 @@ age: adult, old
 else: last, different, one-another, more
 force: power, impose, ball
 art: artistic, show
-across: cross, opposite, right
+across: cross, above, opposite, right
 early: premature, beginning, primitive, soon, opening
 ought: must
-sun: day
+sun: 
 later: future, then, next
-everything: all
+everything: every, all
 past: retrospective, last
 act: action, work
 meet: comply, found, see
 further: more, additional, even, better
 seem: appear, think
-beyond: more, outer
+beyond: more, out
 neither: happen, not
 forward: before, next
 view: opine, glance, see, landscape, scene
@@ -255,20 +253,20 @@ real: genuine, fact, royal, literal, realistic
 nearly: near, about
 knowledge: understanding, information
 toward: 
-bad: worst, evil, poor, wrong
+bad: worst, evil, poor
 living: live, lifestyle
 peace: room, silence
 north: answer, midnight
 natural: nature, landscape
 pretty: beautiful, very, enough
-fair: right, report, ten, neutral, they, honest
+fair: right, report, ten, neutral, they
 service: serve, care
 below: down
 hair: head
 pass: passing, near, graduate, cross, undergo
-pleasure: happy, ecstasy, euphoria
+pleasure: happy, enjoyment, ecstasy, euphoria
 history: story, date, historical
-note: remember
+note: remember, notation
 although: despite, but, whilst
 front: opposite, before
 big: great, broad
@@ -276,9 +274,9 @@ certainly: strictly, course
 wind: air
 receive: obtain, receipt, take, derived, undergo
 attention: care, priority, focus, regard
-strength: intensity, power
+strength: power
 probably: perhaps
-glad: happy, hilarious, satisfied
+glad: happy, hilarious, satisfied, enjoyment
 important: necessary, consequential
 yourself: own, themselves
 fellow: partner, friend, person, cooperative
@@ -286,7 +284,7 @@ opinion: opine, idea
 faith: believe, loyalty
 ago: east, then, before, back
 charge: expense, take
-arm: hand, poor, shoulder
+arm: hand, poor, sleeve, shoulder
 latter: last, modern
 object: purpose, nothing, semantic, resist
 gentleman: male, sir, master
@@ -294,22 +292,22 @@ various: different
 particular: especially, specialty
 hardly: not, rare
 chief: manager, head, principal
-chance: position, occasion, luck, probability, random
+chance: position, occasion, luck, probability
 deal: plan, agreement, treat, cope
 thinking: think, idea
 plain: open, hollow, usual, naive
 immediately: once, soon, directly
 afraid: fear, anxious
 single: one, lonely
-joy: happy, excitement, euphoria
+joy: happy, excitement, enjoyment, euphoria
 broken: sulphur, cut
-unless: except, up
+unless: except
 carry: bear, wear, pregnancy, take
 influence: effect, flu
-outside: outer, except
+outside: out, except
 appearance: appear, demonstrator, scene
 whatever: whichever, do
-stay: sit, stand
+stay: sit, wait, stand, keep
 period: phase, time, long
 sister: brother, nurse
 battle: war
@@ -330,7 +328,7 @@ ancient: old, old-fashioned, antiquity, primitive
 respect: regard, honour, danger, about
 third: three, tuesday
 simple: simplicity, usual
-remain: stand
+remain: stand, keep
 society: social, community, company
 fight: quarrel, war
 result: conclusion, effect, fruit
@@ -343,7 +341,7 @@ perfect: perfectly, great
 street: way, colour, distance
 writing: write, letter
 entirely: perfectly, thoroughly, full, positively
-wood: tree, stick
+wood: wooden, tree, stick
 quickly: soon, rapidly
 notice: see, ad, communication, warning
 bright: sharp, light, shiny
@@ -356,7 +354,6 @@ due: because, right
 reading: read
 agree: agreement, disapproval
 lines: line
-wait: hold
 piece: chip, part, stretch
 ex: old
 conversation: negotiation, speech, call
@@ -364,26 +361,25 @@ proper: fit, optimal, right
 opportunity: occasion, position
 cost: expense, pay, worth
 considerable: great, consequential, striking, enough
-seven: week
-top: optimal, summit, up
+top: optimal, above, summit
 marriage: married
 step: action, phase, rung, foot
-begin: beginning, continuation
-per: each
-individual: person, individually
+begin: beginning, continue
+per: every
+individual: person, individually, atom
 difficult: hard, heavy
 bit: part, little, beat
 authority: jurisdiction, power
 ill: sick, evil
-original: genuine, literal, root
-happiness: happy, luck, ecstasy, euphoria
+original: synthesis, genuine, literal, root
+happiness: happy, luck, ecstasy, enjoyment, euphoria
 provide: provided, give, assure
-study: learn, analysis
+study: learn, analysis, studio
 personal: private, individually, own
 watch: check, monitor, see
-pleased: satisfied, happy
+pleased: satisfied, happy, enjoyment
 hot: warm, fire, summer
-effort: try
+effort: try, strain
 prepared: prepare, already
 attempt: try, quiz, stab
 fast: soon, rapidly
@@ -392,20 +388,20 @@ century: hundred
 intended: intend, focus, purpose, prepare
 straight: directly, live, honest
 likely: easily, probability, perhaps
-justice: right, definition, jurisdiction
+justice: right, definition
 simply: only
 trust: believe, loyalty, rely
 passage: part, passing, stretch
 closed: closure, to-close, covered, pack
-ourselves: themselves, us
+ourselves: themselves
 dress: robe, dressed, rich
 required: necessary
 medium: mean
 possession: permission, seize
 usually: usual, tend
-fixed: steady, determined
+fixed: steady, keep, determined
 troops: army
-rise: climbing, up, grow
+fifty: 
 meeting: session, assembly, visit
 camp: camping, field
 nation: country, national, race
@@ -419,15 +415,15 @@ degree: equal
 middle: mean, centre, between
 winter: cold, future
 allow: permission
-pale: yellow, colour, faint, light
+pale: yellow, colour, faint, pastel, light
 conduct: behaviour, action
 running: race, run, foot
 religious: religion
 move: moving, argument, action
 stop: break, stand
-worse: worst, up, evil
+worse: worst, evil
 spoken: say, speech
-board: up, advice, edge, commission, tablet
+board: rise, group, advice, edge, commission, tablet
 vain: free, empty
 loss: disadvantage, lost, leak
 offer: provided, give, symptom, serve, privilege
@@ -447,9 +443,9 @@ main: head, master, key, inner, principal
 wonderful: strange, violent, great, elegant, neat
 associated: regard
 path: way, course
-meaning: semantic, mean, importance, report
-lot: very, swallow
-seat: chair, siege, headquarter, session
+meaning: semantic, mean, importance
+lot: mass, very, swallow
+seat: chair, siege, headquarter
 game: gambling, play
 statement: expression, report, ad
 grace: please
@@ -459,7 +455,7 @@ special: especially, private, specialty, expert
 movement: mobility, moving, vowel, exercise
 fee: expense, pay
 share: part, stake, role, distribute
-expect: anticipation, hope
+expect: anticipation, wait, hope
 glory: fame, honour
 space: position, hall, field, astronaut
 ordinary: usual, dairy
@@ -469,7 +465,7 @@ advantage: profit, purpose
 officer: official
 rate: honour, course
 clothes: undress, thousand, dressed
-sign: gesture, mark, spot
+sign: notation, gesture, mark, spot
 native: nature, genuine, resident
 difference: different, differentiation, distinction
 working: employee, work, do, day
@@ -482,7 +478,6 @@ method: way, recipe, once, fashion
 excellent: better, great, elegant, very
 confidence: believe
 exactly: especially, full, perfectly, thoroughly, strictly
-intensifier: 
 bill: manuscript, account
 vast: broad, great
 fancy: conceptual, beautiful, imaginary, neat
@@ -490,8 +485,8 @@ quick: soon, rapidly
 yes: yeah, thus, instance
 liberty: free, independence
 aside: separated, sideways, side
-pure: fresh, sublimate, neat
-concerning: about
+pure: fresh, sublimate
+concerning: above, about
 lose: misplace, lost
 evidential: evidence
 similar: resemble, equal, why, they
@@ -502,26 +497,28 @@ mountain: hill, acid
 proud: pride
 clearly: open, transparent, apparently, sharp
 price: honour, worth
+thirty: thirteen
 shut: closure, to-close, pack, die
 fate: luck, duty
 judgment: sentence, rule, judge, jurisdiction, crisis
 accept: acceptable, approve, take
-species: sort, longitudinal
+species: sort, gender, longitudinal
 seek: search
 highest: worst, least
 otherwise: more
 honor: honour
 ear: permission
 bottom: down, floor, low
-aid: help, support, treat
+aid: aids, help, support, treat
 same-event-marker: 
 fully: full, perfectly, thoroughly, enough
-delight: happy, unpleasant, euphoria, treat
+delight: happy, unpleasant, enjoyment, euphoria
 amount: volume, crowd, number, sheep
 tax: rent, line, taxpayer, three
 stranger: guest, strange, foreign, unknown
 dare: courage
-creature: biological, animal
+grow: cultivate, rise
+creature: organism, biological, animal
 false: lie, wrong
 tall: long, floor, length
 gate: door
@@ -531,14 +528,14 @@ coast: beach, shore
 daily: day, diary, everyday
 surprised: surprise
 distribution: distribute
-wealth: money, estate, copy, welfare
+wealth: money, estate, copy
 freedom: free, independence
 advance: progress, before
-gentle: soft, sweet, subtle, male, dear
+gentle: soft, sweet, subtle, male
 surely: course
 secure: safe, obtain, protect, assure
 occupied: seize, engaged
-draw: interesting, remove
+draw: drag, interesting, remove
 stage: action, phase, condition, scene
 portion: part
 tongue: language, spit
@@ -550,17 +547,15 @@ necessity: importance, necessary
 practice: exercise, action, custom
 claim: request, prosecution, confession
 prince: duke, king
-group: set, conglomerate, flock, band, groups
 throughout: everywhere, radical
 pity: sympathy, sorry
 add: widen, additional, increase, improve
 leading: lead, consequential, master, popular, principal
-weight: heavy, gravity
-mass: quality, collective, plural, lump, crowd
+weight: heavy
 gray: brown, ash
 brave: courage
 thin: dilute, narrow, subtle
-numerous: plural, crowd
+numerous: crowd
 frequently: often, repeated, happy
 famous: popular, well-known, vowel, soar
 powerful: power, nervous
@@ -570,7 +565,7 @@ divine: guess, god
 material: hardware, semantic, matter, literature
 frank: honest
 heat: summer, warm
-guard: protect, care
+guard: protect, keep, care
 equally: balance, equal
 naturally: nature
 remarkable: strange, great, elegant, striking
@@ -585,7 +580,7 @@ consequence: consequential, effect, conclusion, fruit, consequently
 tender: soft, agreement, race
 interested: intend, interest
 quarter: foot
-advanced: technical, modern
+advanced: above, technical, modern
 active: work, action, effective
 aware: deliberately, know, perceived
 dangerous: danger, cybercrime
@@ -603,7 +598,7 @@ throw: cast, shot
 wisdom: intellectual
 truly: realistic, perfectly
 numbers: number
-sorrow: sorry
+sorrow: depression, sorry
 drive: driving, vehicle, chorus, expedition, encourage, lead, run
 fault: blame, wrong, disorder
 affair: matter, day
@@ -616,7 +611,7 @@ hurt: injury, pain, wounded
 express: expression, explain, demonstrative
 favour: side, positively, sake
 height: length, kidney
-size: dimensional, full, volume, scale
+size: dimensional, magnitude, full, volume, scale
 task: action, work, duty
 suffer: misery, sorry
 noise: noisy, roar, annoyance, voice
@@ -627,7 +622,7 @@ suffering: torture, misery, bitter, trouble, sorry
 flesh: meat, body
 grand: great
 post: post-office, send, position, postcard
-collection: accumulation, set, gallery, conclusion
+collection: accumulation, group, gallery, synthesis, conclusion
 rank: class, information
 imagine: imaginary, think, idea
 arrival: come
@@ -637,8 +632,7 @@ lovely: beautiful
 extraordinary: strange, abnormal
 breakfast: morning, lunch
 population: crowd
-series: chain, set
-relief: comfort, fabric, help
+relief: aids, comfort, glyph, fabric, help
 owner: master, employer
 impression: effect, feeling, impress, print, mark, seal
 satisfaction: satisfied, euphoria
@@ -649,10 +643,11 @@ content: comply, satisfied, fill
 consideration: idea, regard, think
 regular: steady, repeated, usual, dairy
 busy: engaged
+quality: mass, qualitative
 bay: berry, vagina, only
 discover: found, search, disclose
-inside: inner, deep
-soil: mud, floor, country, pottery
+inside: inner, deep, indoors
+soil: mud, floor, solo, country, pottery
 completely: perfectly, thoroughly, full
 message: information, news
 phrase: expression, sentence, word
@@ -666,31 +661,32 @@ absolutely: strictly, thoroughly, perfectly
 slow: slowly, calm, obtuse
 mercy: sympathy
 contain: including, comprise
-grief: depressing, pain, misery, sorry
+grief: depression, depressing, pain, misery, sorry
 soldier: army, pawn
 previous: east, last, before
 explanation: explain, information
 prayer: request, pray
 belief: believe, loyalty
-constant: repeated, steady, persistent
+constant: repeated, steady
 final: last, finally, decisive
-ride: riding, up, driving, bicycle
+ride: riding, rise, driving, bicycle
 policy: political, mechanism, strategy
 drawing: picture, plan
 dying: death, die
 demand: request
-upper: up
-sum: and, number
+upper: above
+sum: and, yoga, number
 motion: mobility, moving, vowel, exercise, speed
 assistance: support, help
+forty: 
 kindly: please, friendly
 dignity: honour
-catch: hold, arrest, take
+catch: arrest, take
 amongst: between
 current: currently, stream
 possibly: probability, perhaps, could
 slave: slavery, servant, addicted
-separate: separated, different, individually, specialty
+separate: separated, different, solo, individually, specialty
 terror: fear, terrorist
 control: controlled, check, manage, master
 firm: company, organization
@@ -698,7 +694,6 @@ superior: better, elite
 spiritual: mentally, moral, intellectual
 proof: prove, evidence
 process: treat, progress, way, processing
-crime: criminal, sin
 relation: communication, report, regard
 concerned: care, anxious, regard
 deeply: deep
@@ -709,7 +704,6 @@ supply: width, provided, resources
 clean: fresh, neat, innocent
 useful: necessary, effective, capable
 delicate: subtle, fastidious, elegant, soft, feminine
-continue: persistent, continuation, hold
 choice: choose, election, check, option
 huge: great, heavy
 unable: not, fail
@@ -717,11 +711,11 @@ cover: lid, coat, blanket, covered
 double: twin, twice, multiply
 victory: success, profit, beat
 dozen: twelve
-constantly: often, repeated, always, steady, persistent
+constantly: often, repeated, always, continuity, steady, continue
 level: condition, surface, scale
 release: discharge, publication, free
 rough: worst, bad-tempered, rude
-ahead: before, next
+ahead: above, before, next
 connected: bound, attached, conjugate
 gain: obtain, profit
 addition: additional, complement
@@ -734,14 +728,14 @@ car: train, vehicle, tea
 nobody: anyone, nothing
 closely: carefully
 energy: power
-bare: open, shame, hollow, bald, empty, only
+bare: open, bar, shame, hollow, bald, empty, only
 partly: halfway, part
 color: colour
 safety: safe, salvation, care
-description: information, definition, specification
+description: information, definition
 asleep: sleep
 careful: carefully
-enjoy: happy
+enjoy: enjoyment, happy
 drop: dip, fall, leak
 brilliant: shiny, great, wise
 tale: story
@@ -750,13 +744,13 @@ highly: very
 excited: excitement, irritated
 despair: frustration, faint
 ease: comfort, facilitate, low
-total: gross, all, plural, full
+total: gross, all
 kindness: virtue
 circle: circulation, apartment, round, wheel
 dull: bore, low
 extreme: maximum, polar, very, radical, chronic
 intention: intend, purpose
-term: terms, deadline, word, expression
+term: terms, deadline, word
 apply: use, applications, take
 labor: work, employee
 intelligence: intellectual
@@ -764,20 +758,20 @@ strike: attack, striking, beat
 fairly: thoroughly, enough, very
 event: occasion, show
 gently: soft, slowly
-connection: conjunction, attachment, junction, call
+connection: attachment, call
 protection: protect, shelter, care, save
 conscious: awake, deliberately, feeling
 edition: expense, print, permission
-flight: bird, fly, soar, air, set, wing
+flight: bird, fly, soar, air, wing
 evident: transparent, evidence, apparently
 couple: twin, two
 variety: sort, different
 apart: separated, distant, except, independently, two
 awful: terrible, evil
-everybody: all, anyone, denominator
+everybody: all, anyone, every
 labour: work, employee
 lover: dear
-suit: fit, prosecution
+suit: fit, matching, prosecution
 singing: song
 eager: desire, anxious, prepare, gross
 require: request, insist, necessary
@@ -785,12 +779,12 @@ whenever: when
 milk: dairy, breast
 successful: success
 vision: landscape, focus
-raise: improve, widen, lift, increase
+raise: improve, widen, lift, increase, rise
 development: progress, evolutionary
 cool: cold, beautiful
 trial: try
 abroad: foreign, exile
-devoted: loyalty, faithful, engaged
+devoted: loyalty, faithful
 literary: literature, literal
 writer: author, lighter
 stock: stick, role, action
@@ -817,10 +811,10 @@ seldom: sometimes, rare
 record: recording, disk, save
 fat: oil, thick, province
 flat: apartment, nonremittal, plan
-departure: go, exit
+departure: outlet, go
 gift: reward, visit
 skill: capable
-temple: house, church
+temple: house
 license: permission, patent
 consent: approve, euphoria, permission
 sufficiently: full, enough, coffee
@@ -835,8 +829,8 @@ extremely: very
 treatment: treat, care
 throat: neck, soar
 patient: sick, patience
-growth: increase, progress, grow
-quantity: plural, crowd, dose, number
+growth: increase, progress
+quantity: mass, crowd, dose, number, magnitude
 severe: grave, heavy, strictly, violent, chronic, gross
 excuse: forgive, transitive, sorry
 origin: nature, infinitive, root
@@ -857,16 +851,17 @@ unhappy: unfortunate, happy, sad
 store: storage, save
 remark: opine, regard, comments, horse
 pause: break
+band: ribbon, group
 valuable: worth
 hence: thus
-plant: climbing, tree, mill, vegetation
+plant: rise, tree, mill, vegetation
 absolute: full, literal, perfectly, radical
 readily: easily, soon
 fierce: sharp, violent, hard, cruel, wild
 rage: anger
 discovery: found, search, opening, innovation
 related: regard
-punishment: criminal, sentence
+punishment: sentence
 slightly: little, easily
 mysterious: secret, vague, invisible, strange
 shade: shadow, tone, nuance
@@ -877,17 +872,17 @@ horror: fear
 local: locally, inner, spot
 ignorant: ignorance, fool
 generous: liberal, rich
-range: distance, set, scope
+range: distance, series, scope
 host: army, guest, crowd
 wet: rain, damp
 mystery: secret
-possess: own, bear, heir, hold
+possess: own, bear, heir
 consciousness: rationality, feeling, conscience, ceremony
 formerly: before
-spend: expense, fill
+spend: expense
 production: produce
 source: fountain, resources, infinitive
-deck: bridge, lid, groups
+deck: bridge, lid
 aunt: uncle
 reign: king, royalty, rule
 compliance: follow, adaptation, harmonic, comply
@@ -901,7 +896,7 @@ comfortable: thoroughly, pleasant
 market: buy, mayor
 cap: hat, lid
 somewhere: anywhere, everywhere
-delighted: happy
+delighted: happy, enjoyment
 household: family, house, economy, suppose
 fleet: ship, navy, float
 baby: children, doll
@@ -919,13 +914,13 @@ meal: food, eat, flour, lunch
 status: position, condition
 indicate: enter, show, think, suggest
 poem: poetry, song
-arise: appear, happen
+arise: appear, happen, rise, cultivate
 voyage: expedition, traveller
 attend: join
 afford: capable, buy, give, bear
 donate: contribute, give
 job: work, day
-proceed: increase, persistent, progress, walking, continuation, next
+proceed: continue, increase, progress, walking, next
 regret: sorry, deplore
 risk: danger
 rapid: soon, rapidly
@@ -937,7 +932,7 @@ reputation: praise, fame
 appeal: interesting, call
 strongly: very
 lack: cut, absence, tribe
-violence: violent, torture, rape
+violence: violent, torture
 render: do, introduce, give
 career: profession, work, lifestyle
 design: plan
@@ -947,12 +942,12 @@ utter: forge, full
 resolution: conclusion, analysis, decay
 spare: additional, replace
 domestic: civil, inner, resident, national, servant
-farm: agricultural, form, field
+farm: cultivate, agricultural, form, field
 reference: referential, memory, quote
 exist: presence, stand, there
 alike: trademark
 issue: terms, trouble, theme, matter
-providing: provided, give, care
+providing: provided, give
 flame: fire, fireworks
 occasionally: sometimes, repeated
 flying: fly
@@ -966,12 +961,12 @@ reasonable: wise, rational, enough
 sugar: way
 replacement: replace, instead, allowance, exchange
 sigh: breath
-thrust: insist, knit, pay, squeeze
+thrust: insist, pay, squeeze
 frame: scale, legal, shot
 opposition: resist, resistance, disapproval, opposite
 substance: semantic, matter, nucleus
 email: send, electronic
-division: partition, part, dissection, class
+division: partition, part, dissection
 verse: poetry, paragraph
 decision: determined
 probable: perhaps, probability
@@ -980,7 +975,7 @@ forever: always, eternal
 ocean: sea
 rear: back
 leader: head, manager, conductor, manual
-keen: intend, anxious, sharp, persistent
+keen: intend, anxious, sharp
 enthusiasm: euphoria, ecstasy, excitement
 apparent: demonstrative, rational, disclose
 hurry: soon, calf
@@ -994,7 +989,6 @@ build: building, formulation, generalize, prepare
 attempted: try, stab
 equivalent: equal
 recent: recently, modern, last
-oh: 
 travel: visit, tourism, traveller
 noon: afternoon, south
 located: fall, position
@@ -1008,9 +1002,9 @@ aloud: voice, noisy
 independent: independence, loose, independently, its
 essential: necessary, organic
 observation: observe
-permanent: persistent, steady, eternal, retain
+permanent: steady, eternal
 gratitude: thank
-preserve: retain, storage, obtain, protect, save
+preserve: storage, obtain, protect, keep, save
 aspect: side
 knife: sword
 dread: fear
@@ -1029,7 +1023,6 @@ hit: multiply, success
 enormous: great, heavy
 defective: trademark
 conviction: sentence
-wooden: tree
 prefer: option, happy, priority
 fever: fire, flu
 impulse: inspiration, pulse, feeling
@@ -1039,18 +1032,17 @@ ideal: better, abnormal
 rush: crowd, stroke
 deny: forget
 correct: right, faithful, optimal
-perform: show, do, manage, continuation
+perform: show, do, manage, continue
 accordingly: trademark
 counsel: consultant, advice, lawyer
 notion: conceptual, idea, feeling
 discussion: discuss, argument
 firmly: established
 empire: royal
-continuous-aspect: imperfective-aspect
 pen: pencil, head
 permit: permission
-maintain: hold, protect, retain, manage
-crowded: squeeze, crowd
+maintain: keep, cultivate, protect, manage
+crowded: squeeze, crowd, density
 limitation: bound
 horrible: terrible
 port: door
@@ -1063,27 +1055,28 @@ occur: happen, come
 seeking: search
 practically: practical, approximate
 trace: mark, disapproval, memory
-characteristic: specialty, behaviour, virtue, symptom
+characteristic: specialty, behaviour, qualitative, virtue, symptom
 cheerful: happy, hilarious, ugly
 arrangement: order, disposition, agreement
 western: west
-pressure: print, squeeze, stress
+pressure: print, squeeze
 politics: political
 scientific: science, scientist
 shake: trademark
 industry: industrial, industrialize, trademark
-merit: praise, qualified, worth, acquit, quality
-interview: visit
+merit: praise, qualified, worth, acquit
+interview: visit, interviewer
 territory: field
-sex: penis, sexual, six
-creation: formulation, established, produce
+sex: sexual, six, gender
+creation: organism, formulation, established, produce
 trail: mark, election, way, tail
 prospect: hope, probability, landscape, scene, hopefully
 obey: comply, follow
 operation: drift, action, surgeon, manipulation, manual
 northern: answer
 profound: deep
-match: gambling, race
+match: matching, gambling, race
+chain: series, necklace
 uniform: robe, dressed
 debt: blame, religion, duty, credit
 teaching: education
@@ -1112,10 +1105,8 @@ element: elements
 shed: pour, cast, hut
 somebody: who, person, anyone
 incident: accident, constitution
-bar: barium
-row: line, set, government, order
+row: line, series, government, order
 poverty: poor
-bottle: glass
 intense: edge, violent, gross
 available: provided, availability, effective
 fix: improve, steady, stare
@@ -1123,7 +1114,7 @@ unusual: abnormal, usual, strange
 derive: obtain, derivative, derived, induce
 deserted: abandoned, desert, lonely
 establishment: formulation, established
-vote: choose, voice
+vote: matching, choose, voice
 endure: bear, supporter, last, resist
 succeed: success, successfully
 leg: foot, bone, bridge
@@ -1131,7 +1122,6 @@ bid: request
 interior: inner
 lightly: easily, light, little
 display: show, symptom, scene, evidence, demonstrator
-strain: stress, intensity, embrace, tribe
 confined: only
 aim: purpose, focus
 critical: necessary, decisive, grave
@@ -1161,24 +1151,25 @@ possibility: probability, could
 butter: oil
 hatred: contempt, hate
 pursuit: prosecution, search
-pull: scissors, remove
+pull: drag, remove
 signal: gesture, mark, password
 safely: safe
 burn: burnt, smoke
 describe: explain
 lesson: education, course
-annual: year
 card: cardboard, map, brief, paper
 application: use, software, request, applications
 intelligent: intellectual, wise
 county: boycott, regional, city, province, military
 format: form, cast, permutation
 flow: stream, drift
+sixty: sixteen
 damage: ruin, injury, decay
 moreover: additional, even, more
 commerce: trade
 southern: south
-average: mean, each
+outer: out
+average: mean, every
 naked: shame
 obvious: transparent, apparently, open
 concern: care, anxious, interest, preoccupation
@@ -1192,7 +1183,7 @@ operations: activity, run
 detail: spread, specification
 shortly: soon, brief
 blessing: bless
-tiny: little, subtle
+tiny: little
 sharply: speed, sharp, very
 chest: breast
 depth: deep, room
@@ -1224,7 +1215,7 @@ inquiry: request, search, evaluation
 roll: play
 wherever: where, anywhere
 owe: guilty, duty, give
-handle: manage, manipulation, lever
+handle: manage, manipulation
 trip: visit, expedition
 shoot: shot, exile, take
 fortunate: luck
@@ -1233,7 +1224,7 @@ employment: unemployed, preoccupation, work
 cutting: cut
 determine: determined, decisive, impose
 whereas: whilst
-crossing: cross, junction, passing
+crossing: intersection, cross, passing
 lively: live
 breeze: air
 relative: cousin
@@ -1245,13 +1236,13 @@ ruined: destroy
 deliver: give, introduce, send
 unexpected: surprise, suddenly
 desk: table, office
-lane: line, band
+lane: line, ribbon
 represent: representative, instance, say
 respectable: honour
 bride: princess
 responsibility: duty, blame
 disappointed: ambition, frustration
-suitable: fit, right
+suitable: fit, matching, right
 depend: bound, rely
 giant: great, monster
 grasp: understanding, squeeze, realize, seize, silk
@@ -1266,7 +1257,8 @@ examine: observe, check, analysis
 prize: reward, premium
 purchase: buy
 someone: person, anyone
-defeat: beat, fail, frustration, humble
+defeat: beat, necklace, fail, frustration, humble
+criminal: crime
 silly: fool
 recall: remember
 occupation: profession, aggressive
@@ -1284,14 +1276,14 @@ disappointment: frustration, ambition, anticlimax
 construction: building, architecture, composition
 zeal: euphoria, excitement
 responsible: duty
-positive: positively, sheep
+groups: group
+positive: positively, pro, sheep
 cure: treat, care, improve
 include: including, enter, comprise
 satisfy: satisfied, comply, indulge, decode
 agony: bitter, pain
 stupid: ignorance, fool
 grain: corn
-enjoyment: treat
 precisely: full, thoroughly, strictly
 assume: suppose, regard
 estimate: guess, quote
@@ -1301,7 +1293,7 @@ non: not, unlawful, rain
 wire: line
 mostly: especially, largely
 unconscious: faint
-external: outer, foreign
+external: out, foreign
 universe: cosmos, world
 clock: bell
 instruction: recipe, direction, manual, dictate, education
@@ -1314,15 +1306,15 @@ confused: nervous, frustration, confusion, dilemma
 wedding: married
 silently: trademark
 behalf: representative, side, part, instead
-reckon: believe, rely, account, compute
+reckon: believe, rely, account
 uncertain: uncertainty, unsteady, vague
-engagement: engaged
+engagement: engaged, nomination
 dirty: gross
 platform: foundation
 messenger: ambassador, angel
 physician: doctor
 organized: organization
-covering: covered, roof, lid
+covering: covered, roof
 convey: trademark
 sincere: honest, realistic, sincerely, friendly, yeah, genuine
 sensation: feeling, excitement
@@ -1341,7 +1333,7 @@ satisfactory: disease
 ridiculous: ignorance, hilarious
 sheet: paper, leaf, leaflet
 disgrace: shame, insulting
-originally: largely
+originally: synthesis, largely
 wages: pay
 extensive: broad, deep
 leisure: entertainment, empty, retire, relax
@@ -1355,11 +1347,11 @@ eastern: east
 citizen: civil
 feature: features
 correspondence: communication
-reserve: retain, book
+reserve: book
 strangely: strange
 propose: suggest
 bark: cortex, skin
-reception: welcome, receipt, adoption, buy
+reception: welcome, receipt, adoption
 pleasing: pleasant, unpleasant, hilarious
 wake: awake
 research: analysis, search
@@ -1371,7 +1363,6 @@ jest: laugh
 comment: explain, comments
 metal: iron, mineral
 solution: answer
-sixteen: sixty
 entity: instrument, unit, presence, organization, company
 depart: digress, crack, go, wander
 bitterly: bitter
@@ -1382,22 +1373,22 @@ culture: cultural, civilization
 trick: subtle, fool, manipulation, cunning, makeup
 column: genuine
 financial: money
-preparation: prepare, maker, formulation
-joke: humour
+preparation: prepare, maker
+joke: wisecrack, humour
 shell: cortex, skin
 proofread: trademark
-nest: live, socket
+nest: live
 conceive: pregnancy, think, pregnant
-appointment: promise
+appointment: nomination, promise
 fetch: take, obtain, derived, tactic
 candle: light, lamp
-offence: insulting, attack
+offence: insulting, attack, crime, mass
 mixture: mixed
 model: instance
 defect: blame, wrinkle, disability
 hint: gesture
 objection: resistance
-craft: subtle, name, ship
+craft: subtle, name
 neglect: abandoned, omission, boycott, indifference
 data: information
 weapon: disarm, gun
@@ -1414,22 +1405,22 @@ shout: noisy, roar, cry
 careless: reckless, indifference
 doorway: door
 convenient: practical, easily, fit
-mail: post-office, letter
+mail: post-office, letter, matching
 paint: colour
 surrender: tradition
 establish: introduce, established
 mild: soft, constituency, dilute
 promptly: once
-department: part, class
+department: part
 deserve: worth, qualified
-quit: abandoned, crack, cast, closure, exit, resignation
+quit: abandoned, crack, cast, closure, out, resignation
 assurance: assure, bail, rely, promise
 mirror: glass
 plot: plan, story
-upward: up, more
+upward: more, rise
 sadly: sad, sin
 modest: usual, humble
-dish: court, food, eat, bowl
+dish: court, food, eat
 straw: grass
 net: web
 impatient: patience
@@ -1450,19 +1441,19 @@ unlike: different, opposite
 recover: save, alright, back
 mate: spit, partner, friend
 arrange: order, legislate, manage
-committee: commission
+committee: group, commission
 aged: old, adult
 ghost: soul
 distinguish: differentiation, characterize, distinction, contrasting, separated, disclose
 recognition: realize, confession, identity, perceived
 clay: mud, mole, pottery
 trunk: tribe, baggage, boot, great
-management: manage, driving
-restore: retain, back
+management: manage
+restore: back
 protest: resist, march, disapproval, resistance
-pile: dump, stake, lump, crowd
+pile: dump, stake, crowd
 moderate: mean, usual
-spell: charm, spelling, conjunction, order
+spell: charm, spelling, order
 area: field, regional, surface
 formal: official, informal
 editor: author, publisher, secretary
@@ -1474,7 +1465,7 @@ vital: necessary, decisive, key, deadly
 president: head, chairman
 ward: wing, regional, part
 ms: 
-cheer: heart, encourage
+cheer: heart, encourage, enjoyment
 bloody: blood
 justified: rational, right, justify
 admire: praise
@@ -1482,28 +1473,29 @@ openly: apparently, open, opening
 abide: trademark
 modification: change, adaptation
 dramatic: roar, drama, demonstrative, dramatically
-upstairs: up
+upstairs: above
 varied: different
 descent: nature
 envy: jealous
-load: pregnancy, tribe, burden, open
+load: strain, pregnancy, bar, tribe, burden, open
 pretend: feign, drama
 internal: inner
 curtain: veil
 healthy: health
 obscure: vague, nonremittal
+fifth: five
 center: centre
 cheap: low
 contest: race
 alter: convert, change, replace
 glimpse: glance
-contract: memorandum, order, hold, agreement
+contract: memorandum, order, knot, agreement
 saving: save, storage, economy
-string: rope, chain, set
-combination: mixed, set, call
+string: rope, series
+combination: mixed, group, call
 temperature: warm, mercury
 strict: strictly, sharp, hard
-professional: profession
+professional: profession, pro
 injured: wounded, injury
 neighborhood: surrounding, live
 smoking: smoke, cigarette
@@ -1511,14 +1503,15 @@ medical: doctor
 inform: information
 prominent: popular, memorable, consequential, key, well-known
 institution: company, organization
+embrace: snuggle, strain
 anguish: bitter, misery, pain, torture, sorry
 obviously: open, apparently, transparent
-capture: captivate, arrest, take, intercept
+capture: captivate, arrest, take
 inquire: trademark
 ample: enough, broad, crowd
 bedroom: room
 purely: only, thoroughly
-joint: collective, partner, mixed, call, mutual, united
+joint: together, partner, mixed, call, mutual, united
 refer: referential, see
 identify: identity, realize, detect
 bench: bank
@@ -1528,7 +1521,6 @@ expectation: anticipation, hopefully, hope
 incomplete: trademark
 program: plan, agenda
 invention: invent, innovation, search
-piano: 
 purse: wallet, trademark
 electric: electronic
 interval: temporary, break
@@ -1547,7 +1539,7 @@ machinery: mechanical, machine, mechanism
 attractive: interesting, magnetic, desirable
 product: goods, produce
 economic: economy, brief
-sickness: disease, sick
+sickness: disease, sick, bottle
 engine: motor, machine
 theirs: they
 leather: skin
@@ -1556,7 +1548,7 @@ worry: anxious, preoccupation, care
 violently: hard
 donation: trademark
 specified: determined, nominal
-timber: stick, tree
+timber: wooden, stick, tree
 calculate: account
 killing: kill
 funny: strange, hilarious
@@ -1569,7 +1561,7 @@ appetite: desire, greed
 courtesy: polite, honour
 sphere: field, ball, regional, round
 honorific: honour
-guilt: guilty, blame, sin
+guilt: guilty, crime, blame, sin
 delicious: tasty, taste
 infant: ball
 wheat: folklore, corn, brown, mill
@@ -1584,7 +1576,7 @@ continent: continental, volume
 knock: hesitate, beat, click
 unity: united, unit, solidarity
 major: pioneer, key, parent, great, principal, inner
-preliminary: opening
+preliminary: opening, synthesis
 cell: nucleus, cell-phone, vagina, cabin
 border: bound, edge
 breathe: breath
@@ -1599,8 +1591,8 @@ wagon: train, trolley, apartment
 lend: give, credit, quote
 undertake: beginning, do
 clergy: priest
-mount: instal, increase, hill, acid
-array: set, order, permutation, align
+mount: increase, hill, acid
+array: group, series, order, permutation, align, oh
 magazine: press, monthly
 loudly: trademark
 harsh: hard, strictly, rude
@@ -1610,7 +1602,7 @@ sue: trademark
 abandon: abandoned
 mainly: especially, largely
 loyal: loyalty, honest, faithful, trustee
-suited: friendly, fit, optimal
+suited: friendly, fit, matching, optimal
 advise: advice
 waist: romantic
 stable: steady, established, determined
@@ -1628,15 +1620,16 @@ sailor: salt
 response: reaction, answer
 imperial: royal
 blank: empty, hollow, white
-minor: secondary, little, miner, retail
+minor: secondary, little, miner
 ma'am: trademark
 bargain: trade, occasion, agreement
-fatigue: tired
+fatigue: tired, strain
 dislike: contempt, hate, reluctance
 normal: usual
 sketch: outline, plan, show
 anyway: already
 driver: motorist, driving, conductor, pilot
+retain: keep
 declaration: ad
 personality: person
 excess: additional, redundancy
@@ -1644,19 +1637,19 @@ separation: class, distance, separated
 disgust: contempt
 accomplish: realize, obtain, cope, full
 rightly: equal
-mob: crowd
+mob: crowd, mass
 unnecessary: waste, must
 fur: skin, coat
 tribute: rent
 relieve: acquit, forgive, facilitate, replace, relax
 legislation: legislate, rule, legislature
 project: plan
-corresponding: resemble, regard, fit
-fairy: angel
-conclude: hold, conclusion
+corresponding: resemble, matching, regard
+fairy: angel, villa
+conclude: knot, conclusion
 lucky: luck, happy
 lap: knee, round, adoption
-ridge: summit, spine
+ridge: summit
 spoil: loot, ruin, sophisticate
 liable: easily, tend, susceptible
 thoughtful: anxious, wise
@@ -1669,12 +1662,12 @@ convention: memorandum, agreement, summit
 angle: corner, polygon, angles, broad
 widely: very, largely, broad
 cow: cattle
-prejudice: hate, bias, fibre
+prejudice: hate, bias, fibre, knot
 surprising: strange, amaze, surprise, striking
-appropriate: fit, right
+appropriate: matching, fit, right
 confident: courage, safe, believe, genuine, course
 organ: instrument, member, body
-selection: choose, option, election, secretion
+selection: choose, nomination, option, election
 awe: fear
 beforehand: trademark
 compare: comparison
@@ -1682,12 +1675,12 @@ relate: hook, communication, regard, say
 presume: believe, guess, suppose, regard
 missing: extinct, lost
 fashionable: fashion, modern, elegant
-disturb: nervous, aggressive, interfere, barrier, confusion
-association: conjunction, regard, organization
+disturb: nervous, aggressive, interfere, barrier
+association: regard, organization
+flock: group
 niece: nephew, granddaughter
 bodily: body
 faculty: college, factorial
-thirteen: thirty
 sailing: ship, veil
 smart: wise
 petty: ring, trivial, little
@@ -1696,7 +1689,7 @@ warrior: hero
 liquid: water
 concept: conceptual, feeling
 specially: especially
-jump: fly, dance, bounce
+jump: fly, dance, heel, bounce
 unwilling: intend, prepare
 extra: additional
 pitch: pavement, tone, not
@@ -1721,23 +1714,22 @@ differ: different, separated, distinction, individually
 disaster: ruin, inversion
 bet: stake, condition, fireworks
 periodic: give
-raw: live, gross, green, bald
+raw: live, gross, green, knot, bald
 log: enter, recording, login
 hospitality: entertainment
 cart: train, vehicle, trolley
 aboard: trademark
-engage: attached, use, rent, retain, comprise, engaged
-herd: flock, crew, crowd
+engage: attached, use, rent, keep, comprise, engaged
+herd: group, crew, crowd
 attain: trademark
 collect: gather, compile
 pan: pot, bread
-opera: 
 assault: attack
 deceive: fool, lie
 mourning: sorry
 compliment: trademark
 approval: approve, adoption, applause, permission
-withdraw: remove, interesting, retire, back
+withdraw: remove, drag, interesting, retire, back
 tune: song, harmony
 compassion: sympathy
 betray: sell
@@ -1746,9 +1738,9 @@ transcription: copy, derivative
 document: file, manual
 neighbour: surrounding, near
 punish: sentence
-block: lump, prevent, volume, barrier, black
+block: prevent, volume, barrier, black
 obligation: duty
-decline: fall, dip, decay
+decline: fall, dip
 ambitious: ambition
 holiday: vacation, feast
 eagle: hawk, tie
@@ -1758,11 +1750,12 @@ functions: features
 dense: thick
 fiction: novel, imaginary, story
 recommend: suggest, introduce, advice
+seventy: 
 educational: education
-upwards: up, more
+upwards: more, rise
 horn: corn
 fund: box, capital, ray, accumulation
-lodge: hut, file, cabin
+lodge: hut, file, cabin, villa
 costume: custom
 fare: rent, go, map
 remind: remember, resemble
@@ -1774,7 +1767,7 @@ essence: nucleus, elements, pet
 elevation: steep
 realm: field, world, scope
 staircase: stairs, scale
-accord: memorandum, agreement, fit, arbitrary
+accord: memorandum, matching, agreement, fit, arbitrary
 lace: race, pulse
 scholar: student, scientist
 ruler: duke, governor
@@ -1795,7 +1788,8 @@ incredible: strange, elegant
 arch: bow
 elect: election, choose
 shy: shyness, shame
-prime: principal, first
+prime: principal
+eighty: 
 unfortunately: unfortunate
 fog: mist
 coloured: colour
@@ -1845,18 +1839,17 @@ scenery: trademark
 essentially: terms, largely, mean
 oppose: resist
 specimen: instance
-drag: scissors, resistance
-crop: harvest, cut, produce
+crop: harvest, cultivate, cut, produce
 accurate: flour, literal
 resort: take, shelter, break
 refusal: waste
-bond: key, bail, slavery
+bond: key, bail, copula, slavery
 sympathetic: sympathy
 salary: pay
-continuous: persistent, steady
+continuous: continue, steady
 excite: induce, incite, stir, awake
 wildly: wild, violent
-sadness: tragedy, sorry
+sadness: depression, tragedy, sorry
 allied: united
 ceiling: blanket, roof
 confirmation: certificate, trademark
@@ -1894,22 +1887,22 @@ appreciation: trademark
 acquire: obtain, buy
 offensive: attack, insulting, aggressive
 coldly: cold
-lecture: speech, course, sermon, show
+lecture: speech, course, sermon
 whereby: where
 perception: feeling, glance, bent, perceived, understanding
-develop: elaborate
+develop: cultivate, elaborate, evolve
 function: ceremony, work, activity
 bullet: tablet, shot, lead, ball
 excessive: trademark
 bind: bound, rope
 identical: equal
 substantial: demonstrative, great, consequential, striking, enough
-bulk: lump, plural, volume, tumor, crowd
+bulk: mass, magnitude, volume, tumor, crowd
 prolonged: long, linger, longitudinal
 annoyed: irritated, unpleasant, anger
 upset: nervous, sad
 cab: taxi, trademark
-bunch: crew, band
+bunch: copula, group, crew
 exhibit: symptom, show
 hay: grass
 debate: argument
@@ -1920,7 +1913,7 @@ repeating: time, repeated
 attendant: trademark
 unite: solidarity, merge, reconcile, join, melt
 blade: leaf, sword
-factory: mill, workshop
+factory: mill
 logophoric: 
 attendance: participation, availability, presence
 journal: press, diary
@@ -1934,21 +1927,20 @@ limb: member, wing
 disposal: trademark
 steward: manager, servant
 fantastic: elegant
-evolution: reform, evolutionary
+evolution: reform, evolutionary, evolve
 reverse: upside-down, opposite
 survey: check, search
 amuse: entertainment
 contemporary: modern, synchronize, temporary
 scandal: corruption
 deliberate: deliberately
-symbol: gesture, map, mark
+symbol: notation, gesture, map, mark
 recovery: salvation
 washing: wash, laundry
 wisely: trademark
 precise: flour, fit, literal
 occurrence: happen, occasion, presence, constitution
 shaft: shoulder, tree
-festival: epiphany
 exclusively: trademark
 stem: dry, tribe, root
 corporation: company, organization
@@ -1961,18 +1953,19 @@ accessible: visit, found
 comedy: humour
 flush: colour, excitement
 code: yard, encode, password
-adequate: enough, coffee, fit
+adequate: enough, coffee
 split: distribute
 newsletter: trademark
 historian: historical
+intensity: density, strain, magnitude
 democracy: republic, democratic
 creed: confession, religion, way
 attraction: charm, gravity
-concert: ceremony
+concert: festival, ceremony
 downward: down
 prompt: soon, request
 paperwork: trademark
-emphasis: accent, stress, insist, importance
+emphasis: accent, insist, importance
 bronze: copper, brown
 garment: robe
 remorse: sad
@@ -1980,9 +1973,9 @@ thrill: trademark
 exclusive: monopoly, private, fourteen, specialty
 porter: wear
 dash: line, dashboard
-strip: band, undress
+strip: ribbon, bar, undress
 ultimately: finally
-team: crew
+team: crew, group
 whoever: who, whichever, anyone
 expensive: dear
 headquarters: headquarter, centre
@@ -1994,12 +1987,12 @@ plane: bird, surface, machine, soar
 partially: part
 proudly: pride
 terrace: balcony, roof
-grip: hold, trap, fist, squeeze, silk
+grip: trap, fist, squeeze, outlet, silk
 humility: simplicity
 blast: burst
 ministry: office
 diameter: article
-troop: army
+troop: army, group
 tightly: strictly
 penalty: sentence
 alternate: option, exchange
@@ -2007,7 +2000,7 @@ restraint: patience
 screen: veil
 dirt: damp, mud, dust
 era: season, antiquity, long, solidarity
-breed: multiply, race, fertility, sort
+breed: multiply, race, fertility
 interference: interfere, annoyance, disorder
 consist: comprise, including, tend
 acceptance: acceptable, adoption, receipt
@@ -2019,9 +2012,10 @@ compact: brief, abridge
 disappear: extinct, invisible, lost
 counter: disk, disapproval, opposite, rival
 venus: friday
+climbing: rise, creep
 attract: interesting, impress, captivate
 astonishing: surprise, striking
-competition: rival, race
+competition: rival
 crystal: glass
 shower: bath, rain
 await: trademark
@@ -2043,12 +2037,12 @@ constitute: comprise, composition
 controversy: controversial, argument
 guidance: trademark
 roughly: usual, approximate
-overhead: up
+overhead: above
 repeatedly: trademark
 conspiracy: cut
-restrain: inhibition, prevent, retain
-preservation: save, care, retain
-pub: inn
+restrain: inhibition, prevent
+preservation: save, care, keep
+pub: bar, inn
 basin: valley, swimming-pool, sink
 melody: tone
 profitable: trademark
@@ -2065,7 +2059,7 @@ prior: east, before, old
 complicated: complex, hard, elaborate
 apology: sorry, apple
 scared: fear
-substitute: option, allowance, replace, vice
+substitute: option, allowance, replace
 usage: use
 restoration: repair
 hedge: fence
@@ -2085,7 +2079,7 @@ conventional: usual, orthodox
 plead: justify
 cord: rope
 classical: classic, music
-alongside: parallel, next, conjunction
+alongside: parallel, next, together
 extract: quote, juice
 pint: beer
 tube: pipe
@@ -2100,13 +2094,13 @@ tenth: ten
 comparative: comparison
 a.m.: morning, shiny
 cage: castle
-cargo: goods, trademark
-jail: prison, chain
+cargo: goods, bar, trademark
+jail: prison
 skilful: cunning, capable
 scream: cry
 compromise: agreement, harmony
 ammunition: shot
-assistant: supporter, help, vice
+assistant: supporter, help
 cane: stick
 fold: engaged
 boundary: bound
@@ -2114,8 +2108,9 @@ processes: applications, processing
 argue: discuss, quarrel, insist
 logic: argument, rational, rationality
 panic: fear
+stress: strain, depression
 consumption: use, eat
-sustain: support, obtain, retain, hold
+sustain: support, obtain
 crash: accident, fall
 lacking: cut, tribe
 gradual: slowly
@@ -2127,11 +2122,11 @@ monarchy: royal
 behave: live, treat
 curve: bow
 convenience: easily, comfort
-lamb: sheep
+lamb: sheep, creep
 logical: rational
 diet: food, dose
 judicial: court, legal
-consistent: persistent, balanced, steady, align
+consistent: balanced, steady, align
 distrust: doubt, loyalty
 feather: spring
 habitual: usual, trademark
@@ -2148,12 +2143,12 @@ compensation: allowance, reward
 conjecture: guess
 waiter: servant
 promote: facilitate, encourage, ad
-devote: intend, deplore
+devote: intend
 hostility: resist
 obstacle: barrier, disorder, trouble
 sleepy: trademark
 plantation: estate, nursery
-foster: facilitate, religion, pet
+foster: cultivate, facilitate, religion, pet
 expose: outline, disclose, open
 patch: spot, attachment
 interruption: break, annoyance, barrier
@@ -2168,15 +2163,14 @@ tip: hemisphere, summit, advice
 kick: football, shot
 threat: threatening
 jungle: forest, wild
-heel: ankle, corner
 typical: usual
 fortunately: trademark
 fuel: oil
 tranquil: calm
 destination: purpose, floor, disposition
-pin: secret, needle, penis
+pin: secret, needle
 mars: march
-associate: partner, conjunction, parallel, attached, friend, cooperative
+associate: partner, parallel, attached, friend, cooperative
 vicious: immoral, evil
 banquet: feast
 detailed: elaborate, deep, hinge
@@ -2184,21 +2178,19 @@ closet: cabinet
 legislative: legislate, legislature
 margin: edge, field
 champion: hero, championship
-maintenance: retain
+maintenance: keep
 explanatory: trademark
 differently: distinction, individually, different
 flee: run, escape
 clause: stream, paragraph, article, volume
 resume: trademark
-compound: derivative, conjunction, complex
-knot: lump, hold, knit, junction
+compound: derivative, complex
 relationship: communication, report, regard
 agency: organization, company, office
 grin: smile, grimace
 unusually: abnormal, very
 intently: trademark
 demonstration: show, march, demonstrator
-depression: stress
 weekly: week
 borrow: credit, quote, pray
 swelling: swell
@@ -2212,16 +2204,14 @@ attribute: virtue
 penetrate: cross, spread
 identification: identity, definition, detect
 housekeeper: trademark
-sleeve: retail, finger
 spacious: trademark
 photograph: picture, shot
 ally: friend, friendly, united, elements
 ditch: trench, pit
 tract: way, stretch, argument, coffin
-ribbon: band, movie
 plus: more
 perfume: smell, fragrant
-bother: trouble, interfere, annoyance, confusion
+bother: trouble, interfere, annoyance
 essay: article, report
 renew: trademark
 rider: riding
@@ -2258,9 +2248,8 @@ shrink: gather
 expenditure: expense, use
 encouraging: heart
 diplomatic: cunning
-studio: workshop
 exposure: expression, report, effect, light, reaction
-crude: gross, green
+crude: gross, green, knot
 exceed: rape, cross, maximum
 inspire: encourage, inspiration
 ticket: banner, map
@@ -2269,7 +2258,7 @@ shoe: shoes, boot
 fraud: illusion, manipulation
 explosion: burst
 fireplace: chimney, brother, fire, stove
-jar: glass, pot
+jar: glass, bottle, pot
 sauce: dressing
 rotten: lazy, immoral
 behavior: behaviour
@@ -2278,7 +2267,7 @@ pamphlet: trademark
 loan: credit, quote
 unreasonable: rational, nonsense, irrational, reckless
 lust: ambition, desire
-annually: year
+annually: annual
 detach: trademark
 fluid: water
 kid: children
@@ -2292,12 +2281,11 @@ pronounce: accent
 familiarity: trademark
 terrific: trademark
 parliament: legislature, senate
-creep: climbing
 emergency: anxious, crisis
 parcel: pack, part
-drawer: box, stairs
+drawer: box, stairs, drag
 contribution: contribute, stake, cooperation
-link: attachment
+link: linker, attachment, copula
 pluck: courage, berry, extort
 printing: publication, print, seal, press
 advocate: lawyer, justify, defendant
@@ -2335,7 +2323,7 @@ antique: trademark
 electricity: electronic, stream, biography
 alien: foreign, guest, extraterrestrial
 cracked: burst, crack
-depressed: sad, depressing
+depressed: sad, depression, depressing
 irony: misery
 thickly: thick
 reasonably: rational
@@ -2361,6 +2349,7 @@ tutor: coach, disapproval
 robbery: loot, steal, exploit
 trading: trade
 excursion: trademark
+lump: knot, mass
 accidental: accident, random, temporary, surprise, deliberately
 premises: house, spot, building
 delivery: introduce, ball
@@ -2369,9 +2358,7 @@ curved: bent, flex
 productive: produce
 variations: distinction, differentiation, change
 swollen: swell
-cultivate: grow
 variation: change, different, distinction
-magnitude: intensity
 opponent: rival, disapproval, enemy
 grandson: granddaughter, nephew
 nail: nails, bolt
@@ -2385,22 +2372,23 @@ dialogue: negotiation, communication
 belly: stomach, navel, ship
 diligence: try
 disgusted: hate
-compose: write, forge, generalize, compile
+compose: write, forge, generalize
 icy: trademark
 inconvenience: trademark
 contradiction: controversial, resist
 banker: trademark
 passenger: traveller
 sting: stab, bitter, bite
-simultaneously: meanwhile, collective
+simultaneously: together, meanwhile
 episode: consequential, part
 achieve: realize, derived, obtain, comprise
+persistent: continue
 starve: hungry
 consultation: advice, negotiation
 goat: sheep, chlorine
 tailor: trademark
 sour: acid
-underline: stress, insist
+underline: insist
 parade: march
 helmet: hat
 proclaim: publication
@@ -2409,7 +2397,7 @@ spray: medicine, communication, aerosol
 formally: official, informal
 discontinue: trademark
 disturbing: nervous, interfere, anxious, annoyance
-grade: bridge, class, quality, coefficient
+grade: bridge, class, coefficient
 stool: chair
 justification: justify
 foreigner: foreign, guest
@@ -2423,10 +2411,9 @@ temporal: temporary, time
 nicely: beautiful, pleasant, successfully, neat
 enforce: comply, impose, police, implement
 skeleton: bone, building
-comprehensive: broad, deep, full, surrounding, hypotenuse
+comprehensive: broad, deep, full, surrounding
 threaten: threatening
 progressive: progress, radical
-villa: 
 resource: resources
 confine: seize, abridge, narrow, bound
 congratulate: praise
@@ -2449,7 +2436,7 @@ imply: mean, suggest
 attach: attached, splice
 posture: gesture, indicator, position, stand
 owl: bird
-suite: wing, set, apartment
+suite: wing, synthesis, apartment
 jewel: treasure, flourish, bail
 permanently: trademark
 secondly: second
@@ -2457,9 +2444,9 @@ violin: trademark
 rainy: trademark
 emotional: feeling, susceptible
 concrete: demonstrative
-combine: alliance, merge, conjunction
+combine: alliance, merge, together
 respectively: distinction
-peak: summit, vertex
+peak: summit
 currency: money, coin, exchange
 objective: purpose, focus
 memorial: memory, warning
@@ -2472,7 +2459,7 @@ thirsty: thirst
 charter: constitution, paper, rent
 item: goods, article, voice, sort, position, neck
 termination: trademark
-calculation: account, census, cosine, compute, counting
+calculation: account, census, cosine, counting
 expansion: spread, widen
 twist: bolt
 traditional: tradition, orthodox
@@ -2485,10 +2472,11 @@ politician: political
 renown: trademark
 regulation: rule
 violation: injury
+junction: intersection, knot
 boss: manager, employer, head
 peer: homework, duke
 outcome: successfully, effect
-strand: beach, band, shore
+strand: beach
 circus: trademark
 brink: edge, lip, shore
 merchandise: trade, goods, merchant
@@ -2503,7 +2491,6 @@ riot: stir
 veteran: popular
 advancement: trademark
 testify: prove, evidence
-orchestra: band
 maternal: pregnant, mom
 sculpture: statue
 completion: trademark
@@ -2514,18 +2501,19 @@ luggage: baggage
 rubbish: nonsense, scrap, dump, waste, worst
 tool: instrument
 chaos: disorder, confusion
-tense: nervous, time, long, stress
+tense: nervous, time, long
 interpreter: trademark
 hen: chicken
 discreet: wise, subtle
 mourn: cry, deplore, sorry
 dialect: accent, polish
 elementary: foundation
-freight: baggage, goods
+freight: baggage, bar, goods
 wipe: sweep, remove
 denial: negative
 underground: secret, geological
 instruct: trademark
+conjunction: continuity, linker, together
 intermediate: check
 formula: recipe, press, ceremony
 cheat: fool, manipulation, lie
@@ -2535,7 +2523,7 @@ register: list, recording, enter
 indefinite: vague
 surplus: additional, redundancy
 shiver: tremble
-tissue: organization, web, fabric, banana
+tissue: organization, web, fabric, weave, banana
 draft: outline, conceptual
 toy: doll, play
 stair: stairs, rung, scale
@@ -2546,11 +2534,12 @@ tenant: resident
 unkind: unfriendly, rude, cruel
 programme: plan, agenda
 manufacturing: industrial, mill, produce, maker, manual
-zone: field, regional, band, collar
+zone: field, regional, collar
 ninth: nine, three
 alcohol: wine
 heal: improve, treat
 spectator: trademark
+ninety: 
 imperative: trademark
 carpenter: trademark
 steer: lead, manage, storm, conjugate, ship
@@ -2558,9 +2547,9 @@ influential: effective
 surround: collar, siege
 drown: sink
 slide: slip
-sow: climbing, bread, pig
+sow: rise, bread, pig
 dominant: great
-leadership: lead, hierarchy, manual, map, driving
+leadership: lead, hierarchy, manual, map
 celebrate: persuade
 chalk: plaster, prepare, choke
 fuss: excitement, confusion
@@ -2577,7 +2566,7 @@ advertisement: ad
 theft: steal
 spontaneous: instinct, arbitrary, random
 utility: organization, use, instrument, facilitate
-connect: hook, junction, splice, merge, join
+connect: hook, splice, merge, join, continue
 downwards: down
 intervention: interfere
 revival: revive
@@ -2591,13 +2580,13 @@ index: exponent, list, indicator
 liver: heavy
 transmit: send, distribute
 dispatch: trademark
-onto: up
+onto: above, out
 chat: negotiation, gossip
 amber: yellow
 ton: tone
 perpendicular: steep
 smoothly: thoroughly
-tension: stress, excitement, intensity
+tension: strain, excitement
 whale: election
 poisonous: poison
 omit: trademark
@@ -2606,18 +2595,19 @@ worker: employee
 incline: dip, conjugate
 toilet: cabinet
 buddha: fire
-offense: insulting, attack
+offense: insulting, attack, crime
 grudge: hate, revenge
 fortitude: patience, courage
 anticipate: hope, anticipation
 rhythm: beat
 rat: mouse
-correspond: comply, fit, answer, regard
-detain: prevent, seize, retain, arrest
+knit: weave, knitted, knot
+correspond: comply, matching, fit, answer, regard
+detain: prevent, seize, arrest, keep
 interpret: explain
 salon: hall
 operate: manipulation, work, run, action, manage
-drain: gutter, run, exit, channel
+drain: gutter, run, channel
 wage: pay
 nasty: hate, evil, unpleasant, worst, ugly
 cemetery: funeral, grave
@@ -2631,7 +2621,7 @@ define: elaborate
 restricted: bound, barrier
 cupboard: cabinet, shelf
 stimulus: recipe, irritated, inspiration
-rack: shelf, torture, stand
+rack: shelf, torture
 superintendent: conductor
 presentation: introduce, show, symptom, demonstrator
 rubber: ball, elastic
@@ -2646,7 +2636,7 @@ insure: assure
 cylinder: disk
 summary: outline, abstract, conclusion
 unlikely: probability
-swarm: flock, son
+swarm: son
 systematic: mechanism
 virtually: near, practical
 client: custom, guest
@@ -2656,7 +2646,7 @@ verbal: insulting, literal, directly
 chemistry: chemical
 infer: trademark
 secular: neutral
-bake: bread, cook, fry
+bake: bread, cook
 pierce: stab, bore, perforate
 snatch: tear, seize, kidnap
 launch: cast
@@ -2665,17 +2655,17 @@ farming: agricultural
 fasten: arrest, alright
 actress: actor
 theater: theatre, hall
-drug: medicine, about
+drug: medicine, drag, about
 adverse: worst, disadvantage, negative, unfriendly
 candy: sweet
-paste: set
+paste: keep, necklace
 convict: trap, guilty, prisoner
 investigate: observe, check, evaluation
-package: pack, set
-snap: click, picture, tide, soon
+package: pack, synthesis
+snap: pop, click, picture, tide, soon
 tire: ring
 noticeable: striking, glance
-core: foundation, nucleus, seed
+core: foundation, nucleus
 predecessor: ancestor, old
 similarly: why
 dam: dust
@@ -2684,7 +2674,7 @@ transformation: change, convert
 fringe: edge
 foreman: trademark
 location: position, spot
-cluster: conglomerate, lump, band
+cluster: group, mass
 quotation: quote
 custody: care
 plausible: acceptable
@@ -2694,7 +2684,6 @@ handy: practical
 bait: taste, primer
 diverse: different, mosaic, contrasting
 slice: chip, disk
-necklace: chain
 courier: trademark
 drill: bore, dig, exercise
 respond: reaction, refund, answer
@@ -2706,15 +2695,15 @@ mathematical: mathematics, athlete
 morally: moral
 gasp: breath
 racing: race
+exit: outlet, out
 isolation: separated
 sometime: sometimes
 hardship: bitter, misery, trouble, annoyance, sorry
 rumour: gossip, voice, fame
-pro: 
 ignore: indifference
 junior: young
 psychological: psychology, mentally
-knitting: knit, junction, web
+knitting: weave, knitted, web
 indirect: directly, consequential
 precedent: instance
 aisle: ray, hall, passing
@@ -2722,7 +2711,7 @@ contradict: opposite
 redeem: save
 pathway: way, crosswalk, pier
 gear: equipment, teeth, rib, run
-celebration: feast, ceremony
+celebration: feast, ceremony, festival
 publishing: publication, distribute, publisher
 customer: guest, buyer
 rug: carpet, floor, blanket
@@ -2731,9 +2720,8 @@ outlook: glance, landscape, perspective
 aesthetic: beauty, charm
 consume: use
 resent: hate, resistance, anger
-pose: induce, stand
+pose: induce, stand, cultivate
 contentment: satisfied
-organism: organization
 unintelligible: vague
 emphatic: elegant
 factors: elements
@@ -2743,8 +2731,7 @@ lily: read, lotus
 noun: name, word
 folding: bent
 helpful: help
-persist: insist, continuation, last, follow
-outlet: exit, socket
+persist: insist, continue, last, follow
 inherit: heir
 velocity: speed, precipitate
 colleague: cooperative, partner, brother
@@ -2761,12 +2748,12 @@ thigh: ham, foot
 fiscal: trademark
 inspector: observer
 wardrobe: cabinet, robe
-texture: organization, architecture
+texture: organization, weave, architecture
 adjustment: reconcile
 turbulent: violent
 unaware: realize
 vase: pot, trademark
-initial: opening, beginning, first, primitive
+initial: opening, synthesis, beginning, first, primitive
 minimum: least
 correction: reform, repair
 morsel: bread, bite
@@ -2814,6 +2801,7 @@ comb: brush, shoulder
 translate: translation
 recreation: entertainment
 sample: instance, try
+plural: mass
 initiative: plan, try
 jelly: jam
 administrative: trademark
@@ -2835,12 +2823,11 @@ spin: spiral, play
 traveler: traveller
 unfamiliar: trademark
 conform: trademark
-particle: seed
+particle: atom, seed
 innate: genuine, soft, born
 inhabitant: resident, live
 calendar: diary
 flute: whistle
-nomination: mark
 reproduction: fertility
 span: length
 salad: power
@@ -2856,8 +2843,9 @@ annoy: interfere, tease, incite, bore
 glide: slip
 trait: specialty, stretch, virtue
 composer: musician
-partnership: cooperation, alliance, collective, contribute
-sequence: chain, order
+partnership: cooperation, alliance, contribute
+continuation: continue, continuity
+sequence: series, order
 athletic: athlete, exercise
 drunkenness: drunk, drink
 assign: decisive, take
@@ -2865,7 +2853,7 @@ tackle: seize, cope, equipment, intercept
 curb: inhibition, pavement
 invaluable: trademark
 advertising: ad, fame
-withdrawal: regression, socket, conclusion
+withdrawal: regression, conclusion
 mortgage: hostage, credit, pawn
 forbearance: patience, bear
 repress: prevent, oppress
@@ -2873,7 +2861,7 @@ spouse: wife, husband, partner
 valid: effective, qualified, alright
 valve: van, bulb, lid
 accommodate: trademark
-bug: insect, epiphany
+bug: insect
 construct: building, formulation, phase, comprise, composition
 bat: stick, club
 contradictory: irrelevant, contrasting, controversial, rival
@@ -2882,9 +2870,10 @@ explicit: open, transparent, realistic
 effectively: effective, effect
 reliance: addicted, rely
 inspect: observe, check, analysis
+ankle: heel
 classification: sort
 oddly: strange
-haul: transport, loot, hall
+haul: transport, drag, loot, hall
 embarrassing: shame
 disabled: disability, passive
 arrogant: pride
@@ -2895,13 +2884,13 @@ wrap: pack
 diversity: distinction
 prestige: credit, fame
 negligence: omission, contempt, reckless
-discrimination: differentiation, exception, distinction
+discrimination: differentiation, exception
 target: purpose
 stall: stand
 sidewalk: pavement, trademark
 invest: investment, buy
 cruise: ship
-rally: solidarity, collective, assembly
+rally: solidarity, assembly
 rumor: gossip, voice, fame
 actively: perfectly, positively
 cheque: check
@@ -2912,15 +2901,14 @@ compartment: partition, apartment, cabin, room
 specifically: especially
 framework: scale
 annoying: fastidious, narrow, interfere
-bang: burst, shot
+bang: pop, burst, shot
 unreal: trademark
-aggregate: gross, collective, counting, gravel
+aggregate: gross, counting, gravel
 fraction: part, stake, fountain
 illegal: unlawful, wild, improper
 dissolve: solvent, abandoned
 volcano: hill
 equilibrium: balance
-indoors: covered
 scarf: trademark
 picnic: tourism, trademark
 vacancy: trademark
@@ -2930,10 +2918,10 @@ stationary: steady, write
 onion: bow, bulb
 affinity: analogy, solidarity
 dishonest: faithful, honest
-supplement: additional, complement
+supplement: widget, additional
 clash: shock, interfere
 armchair: chair, sofa
-dough: flour, yeast, cake
+dough: flour, mass, yeast, cake
 embark: join, beginning
 trance: ecstasy
 rejection: waste
@@ -2943,23 +2931,22 @@ apprehensive: trademark
 terminate: trademark
 conveniently: trademark
 cleanliness: trademark
+collective: mass, together
 timely: time, behead
 invade: attack
 dismissal: sack, redundancy
 significantly: largely, enough
 experimental: pilot
-film: movie, picture
+film: cinema, tv, picture, ribbon
 distraction: trademark
 publicity: ad, fame
 relaxation: relax, entertainment
 expand: widen, spread, decompress
 tumble: stumble, fall, dip
 fossil: oil, archaeological, organic
-atom: atomic
 constraint: barrier
 mechanics: mechanical, engineering, dynamical, epidemiology
 vanilla: trademark
-aids: 
 zest: spice, experience, taste, skin
 cycle: circulation, bicycle, wheel, give
 nap: sleep, nod
@@ -2968,6 +2955,7 @@ paw: foot
 boom: flourish, bounce, burst
 reproduce: copy, yield
 congress: assembly
+workshop: studio
 decrease: cut, fall, low
 broom: rain
 incur: trademark
@@ -2976,7 +2964,7 @@ judgement: sentence, rule, judge, jurisdiction, crisis
 concentrate: focus
 undo: disclose, back
 ferry: yacht, ship
-panel: dashboard, tablet
+panel: dashboard, group, tablet
 straightforward: directly, easily, transparent, live
 descriptive: trademark
 hazardous: trademark
@@ -2984,18 +2972,18 @@ altitude: length
 adviser: consultant, torture
 cumulative: trademark
 denote: show, mean
-export: exit, glass
-offender: comet, guilty, criminal
+export: glass
+offender: comet, guilty
 par: equal, balance, paragraph, nominal, evaluation
 abolish: remove
 adjust: adaptation, optimal, fit, reconcile, justify
 membership: member
-gauge: measure, scale, indicator
+gauge: measure, scale, magnitude, indicator
 tolerate: forgive, bear
 badge: simulation, trademark
 hip: buttocks, romantic
-adhere: follow, join, stick, retain, comply
-stimulate: irritated, incite
+adhere: follow, join, stick, keep, comply
+stimulate: irritated
 unrest: disorder, anxious
 chastity: purity
 contraction: shyness
@@ -3006,7 +2994,7 @@ refresh: trademark
 apologize: apple
 basement: trademark
 celebrity: trademark
-ballot: voice, ballet
+ballot: matching, voice, ballet
 lick: me
 potential: capable
 eligible: qualified, right, fit
@@ -3018,11 +3006,9 @@ relinquish: discharge
 ego: themselves, breath
 jet: bird, stream
 violate: cut
-tennis: 
 windy: trademark
 survival: lifestyle, vowel
 freeze: frozen
-weave: knit
 incumbent: established
 apathy: indifference
 daytime: trademark
@@ -3051,24 +3037,25 @@ portal: door
 expiration: trademark
 insert: enter, increase, introduce
 meditate: reflect, think
+scissors: drag
 flexible: flex, elastic
 slab: tablet, stove
 qualification: qualified, talent
 switch: convert, key, replace
 theoretical: theory
 towel: fabric
-decade: ten, hold
-multiple: different, plural, more
+decade: ten, knot
+multiple: different, more
 healthful: trademark
-bandage: dressing
+bandage: dressing, bar
 tidy: neat
 hack: hawk
 clap: applause
 emptiness: empty, ball
 marrow: oil, brain, pumpkin
-absorb: exploit, embrace, remove
+absorb: exploit, suck, remove
 prediction: anticipation, guess
-educate: education, train
+educate: education, train, cultivate
 enquiry: request, search, evaluation
 domination: rule
 parental: parent
@@ -3088,13 +3075,12 @@ tow: trademark
 percent: per-cent, percentage
 bomb: pump
 critically: deep
-reservation: retain, seize
+reservation: seize
 sew: sewing
 chemist: chemical
 lounge: break, hall, chair
 occupant: trademark
 onset: beginning, attack
-suck: heart
 bankrupt: trademark
 dive: dip
 transit: trademark
@@ -3105,12 +3091,11 @@ slap: beat
 courtship: yard
 commodity: goods
 consistently: trademark
-continuity: continuation, conjunction
 reciprocal: exchange, mutual, inversion
 shave: artillery
 prescription: medicine, recipe, copy, rule
 utilize: exploit, use
-durable: long, persistent
+durable: long
 lineage: familiar
 evenly: trademark
 zinc: sink
@@ -3122,7 +3107,6 @@ tyre: ring
 consumer: use, user
 validity: worth, credit
 approximately: approximate, about
-knitted: knit
 microscope: telescope
 civilian: civil
 strap: leash, rope, whip
@@ -3135,7 +3119,7 @@ wrongly: wrong, abuse
 broker: trademark
 discourage: ambition, depressing
 staple: clip, principal
-newcomer: guest, join, freshman
+newcomer: guest, join
 infinity: infinitive, mathematics
 graphic: chart, graphical
 fig: picture
@@ -3146,7 +3130,6 @@ designate: trademark
 projection: plan, show, reflect
 liberation: discharge, salvation, acquit, independence
 vibration: resonance, tremble, oscillation
-java: 
 enclose: trademark
 franchise: privilege
 incongruous: nonsense, irrelevant, unfortunate, improper
@@ -3155,7 +3138,7 @@ physiological: psychology
 metre: measure
 restriction: bound, barrier
 category: community, class
-racial: race, racism
+racial: race, racism, strain
 substitution: instead, replace, option
 confront: cope
 ban: barrier
@@ -3176,13 +3159,11 @@ academy: college
 prescribe: trademark
 novice: fresh
 divorced: divorce
-golf: 
 reservoir: tank
 shopping: buy
 homeless: trademark
 implicit: full
 strategic: strategy
-trigger: cunning
 mold: form, print, cast, mushroom, vowel, template
 rehearsal: exercise
 fulfill: full
@@ -3219,12 +3200,12 @@ crusade: expedition
 epidemic: tragedy, translation
 technique: technical, tactic, engineering
 terminal: finally, teminal
-output: expense, conclusion, publication, productivity, exit
+output: expense, conclusion, publication, outlet, productivity
 html: 
-locate: spot, detect, situate
+locate: spot, detect
 default: omission
 context: landscape, scene
-recruit: candidate, freshman
+recruit: candidate
 trash: worst, waste
 cashier: treasurer, box, trademark
 punctual: trademark
@@ -3236,27 +3217,27 @@ concede: thank
 broadcast: publication, send
 dial: choose, ring, gather
 prevalence: popular, circulation, spread
-increasingly: up, all, largely
+increasingly: all, largely
 transform: change, convert
 kite: dragon
 ambiguous: vague, controversial, nonremittal
-cafe: coffee
+cafe: coffee, bar
 award: reward, premium, give, scholarship
 comparable: comparison
-label: mark
+label: studio, mark
 approving: approve
 kinship: analogy, socialist
 reptile: snake
-outdoor: outer, open
-radio: wireless
+outdoor: out, open
+radio: radium, wireless
 politically: political
 cite: quote
 residue: remains
 urgently: trademark
-tape: cassette, band, ice, movie
+tape: cassette, ribbon, ice
 bland: soft, sweet
 verify: trademark
-oral: lip, mouth
+oral: lip, mouth, wisecrack
 disagreement: quarrel
 speculate: guess
 enthusiast: trademark
@@ -3280,7 +3261,6 @@ sine: fourteen
 accumulate: accumulation, deposit, gather
 poop: pipe
 implication: conclusion, effect
-pop: 
 incentive: encourage, irritated
 reunion: trademark
 harmful: cybercrime, unfriendly
@@ -3294,11 +3274,11 @@ reminder: trademark
 disc: disk, diskette
 qualify: qualified
 trend: direction, bent, disposition, drift, tend
-density: intensity
 induction: inspiration, induce
 corporate: company
+retail: sleeve
 unstable: unsteady, impermanence
-compatible: parallel, fit, optimal
+compatible: parallel, fit, optimal, matching
 phone: telephone, call
 postal: trademark
 vacuum: empty, pump
@@ -3307,7 +3287,7 @@ grab: stab, take, seize
 convulsion: earthquake, burst, hysteria
 booth: trademark
 boring: bore
-portfolio: set, wallet
+portfolio: synthesis, wallet
 crevice: crack
 complication: complexity
 intervene: interfere
@@ -3333,7 +3313,7 @@ disappointing: depressing, frustration
 deter: prevent, frighten, inhibition
 negation: negative
 winner: success, championship
-composite: mixed, united, complex
+composite: mixed, united
 veto: disapproval, inhibition
 impact: effect, shock
 fiber: fibre
@@ -3355,10 +3335,10 @@ advisor: trademark
 untidy: reckless
 infectious: infection
 postage: trademark
-emphasize: stress, insist
+emphasize: insist
 pants: trousers
 confuse: puzzle, amaze
-dedicate: volunteer, intend, deplore
+dedicate: volunteer, intend
 surgical: surgeon
 truthfulness: fact
 authorize: trademark
@@ -3387,18 +3367,18 @@ forecast: guess, anticipation
 disapprove: disapproval
 exotic: foreign, strange
 enhance: improve, widen, increase, decompress
-fusion: merge, melt, call, mixed
+fusion: merge, melt, call, synthesis, mixed
 poll: election
 talented: talent, capable
 thaw: melt
 sticky: necessary
 component: composition, elements, partition
-kernel: nucleus, seed
+kernel: nucleus
 straighten: stretch, directly
 decorate: decoration
 explicitly: apparently
 presidential: presidency
-coincide: fit
+coincide: matching, fit
 congratulation: praise
 cartridge: trademark
 scan: sweep
@@ -3414,11 +3394,11 @@ librarian: library, trademark
 diffusion: circulation, distribute, spread, publication
 graze: scrape, nominal
 agile: talkative
-kit: equipment, box, set
+kit: equipment, box
 practitioner: doctor, coach
-soak: dip, induce
+soak: suck, dip, induce
 competitor: rival
-conservation: protect, save, care
+conservation: protect, save, care, keep
 slime: mud, pavement, dribble
 reflex: reflection
 challenging: hard
@@ -3427,8 +3407,6 @@ embarrass: trouble
 proficiency: trademark
 pollution: pollute, corruption
 chemicals: chemical
-album: 
-baseball: 
 sniff: breath
 mum: mom
 crutch: support
@@ -3471,7 +3449,7 @@ pest: insect
 pill: tablet, ball
 media: press
 wreckage: ruin
-corpus: body, set
+corpus: body
 menu: list
 fracture: crack, bone
 pi: silicon
@@ -3483,24 +3461,24 @@ slant: lute, bent, hypotenuse, dip
 tile: brick, box
 hacker: pirate
 bookcase: library, bookstore
-computation: account, cosine, compute, counting
+computation: account, cosine, counting
 producer: maker
 monetary: money, exchange
 depict: introduce, reflect
 inflation: swell
-marginal: edge, trivial, retail
+marginal: edge, trivial
 fantasy: imaginary
 concierge: trademark
 chef: cook, trademark
 auto: trademark
 undermine: destroy
-coherent: strictly, conjunction
+socket: outlet
+coherent: strictly
 frustrate: trademark
 fundamentally: terms, infrastructure, foundation
 retrieve: salvation, derived, back, detect
 intentional: deliberately, learn
 virtual: genuine
-algebra: algebraic
 survivor: family
 flux: river, stream
 generic: usual, trademark
@@ -3516,13 +3494,12 @@ militant: radical, terrorist
 crucial: necessary, decisive, importance
 assignment: work, exercise, duty
 quota: privilege
-solo: 
 excavation: pit, dig, trench
 calcium: football
 commemorate: persuade
 historically: historical
 remote-past-tense: 
-nuclear: nucleus, atomic
+nuclear: nucleus, molecular
 versus: opposite, before, enemy, stand
 hi: hello, welcome, salvation
 elimination: remove, omission
@@ -3532,13 +3509,13 @@ caller: trademark
 effectiveness: effective, effect, capable, availability
 handbook: trademark
 vulnerable: susceptible
-stripe: striped, line, band, movie
+stripe: striped, ribbon, line
 transparency: transparent
-facade: mask, outer
+facade: mask
 rehearse: trademark
 prototype: instance
 offset: cope, deviation
-ya: then, yeah, you, who
+ya: then, oh, yeah, you, who
 nutrition: trademark
 restrict: prevent, abridge
 tick: mark, moving
@@ -3554,26 +3531,23 @@ marketing: trade
 probe: evaluation, satellite
 quarterly: trademark
 economically: economy
-gender: compute, penis, not
 administrator: manager, trustee
 cleaner: fresh, trademark
 portray: introduce, long
 grandchild: granddaughter, nephew
 dual: two, twin
 periodically: trademark
-synthesis: instal, set
 bizarre: strange
 culinary: trademark
 applicant: candidate
 linguistic: language
 tag: mark
-super: 
 illogical: trademark
 collaboration: trademark
 unattended: trademark
-uplift: lift, progress
+uplift: lift, rise, progress
 thunderstorm: trademark
-phenomenal: elegant, abnormal
+phenomenal: solo, super, elegant, abnormal
 assessment: evaluation, guess
 dynamic: power, dynamical
 revise: check
@@ -3589,7 +3563,7 @@ pluractional:
 stimulation: facilitate, excitement, irritated, inspiration
 censorship: censor
 equip: complement, prepare
-nominate: suggest
+nominate: nomination, suggest
 equation: equations, expression
 segment: part, stretch
 cancel: scrap, frustration, abandoned
@@ -3599,6 +3573,7 @@ tablecloth: trademark
 depress: oppress
 mister: sir, master
 reconstruct: repair
+atomic: atom, molecular
 sophisticated: complex, modern
 emit: discharge
 twitch: shrug
@@ -3610,13 +3585,12 @@ specify: referential, decisive
 criticize: criticism, visit
 discrepancy: trademark
 boredom: annoyance, misery
-cooperate: cooperation, conjunction, cooperative
+cooperate: cooperation, cooperative
 overseas: foreign
 analyse: analysis
 sewer: trademark
 rainfall: rain
-aircraft: bird, set, soar
-intersection: junction
+aircraft: bird, soar
 spicy: sharp
 certify: trademark
 flexibility: elasticity
@@ -3633,7 +3607,7 @@ morale: awake, moral, mentally
 optimistic: hope, believe
 classify: sort, distribute
 curriculum: course, agenda
-outdoors: outer
+outdoors: out
 react: reaction, do
 script: manuscript, line, scripture
 blackmail: extort
@@ -3658,7 +3632,6 @@ fungus: bacteria, mushroom, umbrella
 wording: formulation, text, word
 shuttle: transport
 shipment: trademark
-evolve: flourish
 refine: reform, sublimate
 diplomat: ambassador
 initiate: introduce, beginning
@@ -3677,7 +3650,6 @@ habitat: shelter
 evoke: stir, induce
 goodbye: farewell
 demolish: destroy, ruin
-tv: television
 congestion: trademark
 hash: discuss
 horseshoe: horse
@@ -3686,9 +3658,9 @@ inexpensive: trademark
 slam: beat
 relevant: fit, regard
 functional: practical, work
-molecular: molecule, atomic
 teller: trademark
 displace: oust, replace
+conglomerate: group
 autonomy: independence
 cucumber: option
 undergraduate: foundation, student
@@ -3700,9 +3672,9 @@ diploma: trademark
 waive: trademark
 literacy: education, capability
 waitress: servant, trademark
-synthetic: artificial
+synthetic: artificial, synthesis
 trainer: coach
-conserve: storage, save, protect, retain
+conserve: storage, save, protect
 garbage: scrap, dump, waste, worst
 humidity: trademark
 photo: picture, shot
@@ -3726,18 +3698,17 @@ cogent: demonstrative
 app: applications, programmer
 debut: first, beginning
 thousandth: thousand
-indoor: inner, deep, covered
-revoke: deprive
+indoor: inner, deep, indoors, covered
+revoke: drag, deprive
 unreliable: trademark
-amplitude: spread
+amplitude: magnitude, spread
 yen: trademark
 dimension: direction, dimensional, next, scale
 bible: scripture
 quantum: adoption, part
 poster: banner
 accelerate: precipitate, speed
-intensify: reinforce, chronic
-notation: mark
+intensify: reinforce, intensifier, chronic
 typically: usual, often, especially
 commitment: promise
 queue: tail, order, currently
@@ -3748,7 +3719,8 @@ inverse: upside-down, inversion, engaged
 evaporate: melt, yawn
 aviation: atmosphere, air, fly, wing
 correlation: balanced, comparison, communication
-ethnic: national
+compute: gender
+ethnic: national, strain
 linear: naive
 compress: zip, jam
 slash: cut
@@ -3756,11 +3728,12 @@ erosion: decay, tear
 tricky: cunning, elaborate, complex, hard, angel
 characterization: characterize
 affix: splice, parallel, induce
+molecule: molecular
 configuration: disposition, structural, assembly, composition
 interaction: negotiation, overlap, communication, mutual
 quantitative: volume
 introspection: retrospective
-orient: east, dawn
+orient: east
 sperm: seed
 brewery: mill
 simplify: facilitate
@@ -3774,14 +3747,17 @@ deflection: drift, deviation, bias
 injection: needle, vaccine
 coerce: extort
 sandal: shoes
-chunk: lump, chip, paragraph, stretch
+chunk: chip, paragraph, stretch
+television: tv
 cereal: bean
 container: instrument, tank, pot
+movie: cinema, ribbon
 documentary: trademark
 migrate: migration, wander, moving, go
 terminology: terms
 components: features, elements, partition
 electorate: constituency
+penis: gender
 erase: remove, destroy
 mediate: reconcile
 capitalism: capitalist
@@ -3796,8 +3772,8 @@ converge: merge, focus
 global: international, world, variable
 eject: oust, exhaust
 economize: trademark
-casualty: accident, sacrifice, injury
-ok: equal, very, alright
+casualty: accident, sacrifice
+ok: equal, very
 pragmatic: practical, realistic, engaged
 referee: rule, judge
 inclusion: recording, comprise
@@ -3807,7 +3783,7 @@ exhale: breath
 watershed: water
 fixture: adaptation, equipment, goods
 expedite: trademark
-install: instal, established
+install: established
 traditionally: tradition
 classroom: class
 stationery: equipment, trademark
@@ -3821,10 +3797,9 @@ browse: trademark
 adolescent: young
 decimal: minority
 knead: squeeze, trouble
-radium: 
 complementary: complement
-airplane: bird, set, soar
-circa: about, approximate, year
+airplane: bird, soar
+circa: about, approximate
 sponsor: bail
 flashlight: flash
 suitcase: box, baggage
@@ -3844,9 +3819,9 @@ topple: pour, heart
 sensory: feeling
 consensus: agreement
 supervise: manage, monitor, police, hang
-underlie: foundation
+underlie: subtend, foundation
 ideally: trademark
-transplant: exchange
+transplant: cultivate, exchange
 aluminium: aluminum
 organizer: trademark
 bakery: unemployment, trademark
@@ -3856,7 +3831,7 @@ overdue: trademark
 complicate: complex
 mentor: coach, consultant
 sedan: then, trademark
-slot: opening
+slot: opening, outlet
 manipulate: manipulation, stir, lie
 authorization: trademark
 vegetarian: vegetable
@@ -3866,7 +3841,6 @@ subway: tunnel
 respiratory: breath
 mutation: change, convert
 underwear: linen
-ion: 
 modem: 
 acceleration: facilitate
 differentiate: differentiation, distinction, contrasting
@@ -3882,7 +3856,7 @@ classmate: trademark
 vacate: trademark
 vendor: trademark
 itinerary: trademark
-supervisor: observer, manual
+supervisor: observer, manual, super
 microwave: trademark
 audit: check
 deduct: trademark
@@ -3891,7 +3865,7 @@ hike: soar, wander, lift, walking, increase
 plumber: artisan, trademark
 locus: spot, position
 rebirth: born, reincarnation
-recession: economy
+recession: depression, economy
 mileage: trademark
 looting: loot
 motif: theme
@@ -3909,20 +3883,19 @@ cd:
 theorist: theory
 aquarium: fish
 grill: trademark
-traction: insist
+traction: drag, insist
 parachute: umbrella
 importantly: necessary, especially
-overall: all, gross, hypotenuse
+overall: all, gross
 deteriorate: distort
 mirative: 
 dynamics: dynamical, speed, epidemiology
-sexuality: sexual
+sexuality: sexual, gender
 predominantly: largely
 stockbroker: trademark
 flip: opposite
 provider: trademark
 bowel: gut
-video: 
 dental: trademark
 archaeology: archaeological
 peanut: bean
@@ -3931,12 +3904,10 @@ cooker: stove, kitchen, pot
 trouser: trousers
 criteria: indicator
 oversee: trademark
-radar: 
 geometric: geometry
 overview: outline, brief
 awareness: understanding, perceived
 pharmacy: trademark
-qualitative: quality
 chimpanzee: monkey
 enroll: trademark
 booklet: leaflet, manual, trademark
@@ -3964,21 +3935,20 @@ cognitive: diagnosis, mentally
 coordinate: coordinates
 clarify: elaborate, explain
 toxic: poison
-stressed: stress, insist
-slump: crisis, dip
-gamma: 
+stressed: insist
+slump: depression, crisis, dip
 cater: serve, provided, assure, full
 safari: 
-resistant: chronic, persistent, resistance, immune
+algebraic: algebra
+resistant: chronic, resistance, immune
 snack: toast
-cinema: movie, movie-theater
 mower: trademark
 faucet: pipe, mill
 marker: mark
 heater: trademark
 peripheral: surrounding, regional
 assertive: determined, predicative, decisive, stubborn
-node: junction, knit
+node: knot
 headline: line
 obese: thick
 subtract: remove, deprive, subtraction
@@ -4025,20 +3995,18 @@ lorry: truck
 homemade: trademark
 additionally: trademark
 stadium: field
-visa: 
 cancellation: trademark
 coordination: coordinates
 bacterial: bacteria
 devastate: trademark
 implementation: implement
-adaptive: optimal, adaptation
+adaptive: optimal, adaptation, pro
 biologist: scientist
 appraisal: trademark
-interface: communication, surface
+interface: communication
 palladium: assure
 cosmetic: decoration, makeup, trademark
 memorize: memory, save, remember, realize
-pastel: 
 diagnostic: diagnosis, symptom, analysis
 barbecue: trademark
 stockholder: trademark
@@ -4052,22 +4020,21 @@ venue: trademark
 unsure: trademark
 conduction: line, kidnap, transport, circulation, inversion
 millionth: million
-yoga: 
 therapy: treat
 nationalist: national
+barium: bar
 mainstream: usual, key
 meaningful: mean, consequential, semantic
 problematic: trouble
 firework: trademark
 footwear: trademark
-jazz: 
 audio: voice
 rebate: trademark
 vend: trademark
 gym: trademark
 brochure: trademark
 metabolism: ambassador
-grid: web, box, lattice
+grid: web, box
 taker: trademark
 spatial: atmosphere, dimensional, individually
 specialize: expert, specialty
@@ -4075,7 +4042,7 @@ managerial: trademark
 reflexive: trademark
 weekend: saturday
 exam: graduate, quiz, try
-discrete: separated
+discrete: separated, solo
 inhibit: inhibition, prevent, intercept
 documentation: manual
 motorcycle: motor
@@ -4083,7 +4050,6 @@ mantra:
 multi: more, very
 semester: session
 muggy: damp, warm
-heroin: 
 morphology: morphological, science, form
 disconnect: trademark
 diagnose: diagnosis, realize
@@ -4115,7 +4081,7 @@ nonetheless: then, whilst
 stance: stand, position, paragraph, drift, role
 minimal: least, low
 cyclic: circulation
-substrate: molecule, surface
+substrate: molecular, surface
 commute: trademark
 nationwide: trademark
 payroll: trademark
@@ -4129,19 +4095,16 @@ icon: map, mark
 ord: 
 electron: electronic
 interactive: overlap, mutual
-initially: first
+initially: synthesis, first
 sabotage: destroy
 interact: negotiation, communication, socialize
 math: mathematics
 fetal: nucleus
 modernize: modern
-euro: 
 extremist: radical, terrorist
 associative: vice
-laser: 
 piss: urine
 disrupt: trademark
-snuggle: embrace
 anytime: trademark
 okay: very, alright
 tuna: tone, trademark
@@ -4151,15 +4114,12 @@ purposive: deliberately
 semi: halfway, sell, grind, width
 acronym: brief
 initialism: 
-plasma: 
 ongoing: trademark
-ordinal: junction
+ordinal: intersection
 neural: nervous
 anti: resist, resistance, rival, opposite
 internationally: trademark
-integrate: synchronize, conjunction, join, radical
-fax: 
-freckle: spot
+integrate: synchronize, join, radical
 proximal: near
 entrepreneur: trademark
 appetizer: trademark
@@ -4170,7 +4130,6 @@ trauma: shock, injury, ulcer
 adapter: trademark
 pharmaceutical: trademark
 swop: exchange
-spam: 
 weekday: trademark
 evaluate: evaluation, guess
 mana: mentally
@@ -4207,12 +4166,10 @@ workplace: trademark
 boron: pit
 questionnaire: quiz
 oxidize: call
-analog: 
 millimetre: millimeter
 update: reform
 memo: trademark
-numerator: molecule
-robot: 
+numerator: molecular
 setup: prepare, established
 pharmacist: trademark
 psychiatric: intellectual, mentally
@@ -4223,28 +4180,26 @@ paradigm: conceptual, instance
 sticker: trademark
 cafeteria: trademark
 mini: trademark
+instal: synthesis
 upgrade: trademark
 amino: 
-glyph: 
 aorist: 
 activate: do, action
 micro: subtle, microphone
 renter: trademark
-randomly: random, to-case, persistent
+randomly: random, to-case
 takeover: trademark
 ostracize: separated, boycott
 copier: trademark
 predictable: guess
 statistic: statistics
-freeware: 
 subset: part
 methodology: way, tactic, once
 artwork: work, artistic
 pizza: 
 sequential: order
 linguistics: science
-impound: hold, seize
-iridium: 
+impound: seize
 organizational: trademark
 industrialization: industrialize, industrial
 kilometer: kilometre
@@ -4254,11 +4209,10 @@ dialog: communication
 exponential: exponent
 shareware: 
 carton: cardboard, box, trademark
-cerium: 
 congruent: friendly
 upload: download
 researcher: scientist
-allocate: distribute, dissection, continuation
+allocate: distribute, dissection, continue
 blueprint: manual, striped, plan, copy, trademark
 -ish: 
 modulus: coefficient
@@ -4285,20 +4239,18 @@ freelance: trademark
 insider: inner, member
 tonne: tone
 prestigious: trademark
-neon: 
 streamline: trademark
 newsstand: trademark
 cryptography: encryption
 module: unit, volume
-osmium: 
 enzyme: yeast
-pasta: 
+epiphany: festival
+pasta: mass
 opt: trademark
 plagiarize: steal
 briefcase: trademark
 dorm: shelter
 deluxe: trademark
-firewall: 
 teenager: young
 motivate: inspiration
 highlight: mark
@@ -4310,14 +4262,12 @@ behavioral: behaviour
 hubris: pride
 lunchtime: trademark
 malfunction: trademark
-plutonium: 
 www: 
 escalator: trademark
 thank-you: thank
 lifeguard: trademark
 mastermind: brain, soul, master
 overcrowd: trademark
-yttrium: 
 ecological: ecology
 immigrant: refugee, colonial
 laptop: distant, cell-phone, notebook
@@ -4327,20 +4277,18 @@ photocopy: copy, picture
 recursion: hierarchy
 letterhead: letter, trademark
 salespeople: trademark
-argon: 
 phobia: fear
 promotional: trademark
 activist: action
 dishwasher: trademark
 t-shirt: shirt
 therapist: doctor, treat
-asymptote: 
 backpack: trademark
 emoticon: happy
 seafood: sea, trademark
 paycheck: trademark
 trainee: trademark
-tycoon: king, flock
+tycoon: king
 arousal: excitement, gross
 sync: synchronize, sink
 typeface: scripture, syllable
@@ -4349,9 +4297,7 @@ environmentally: trademark
 realtor: trademark
 chemotherapy: chemical
 lexical: dictionary, word
-modulo: denominator
-proton: 
-pixel: 
+modulo: 
 preview: trademark
 break-in: break
 wheelchair: trademark
@@ -4364,25 +4310,20 @@ publicize: trademark
 avant-garde: pioneer
 chairperson: head, chairman
 condominium: trademark
-gallium: 
 handout: leaflet
 charismatic: charm
 determiner: determined
 hotline: trademark
 scandium: tellurium
 configure: manage, composition
-neuron: 
-router: 
 guideline: manual
 hypothesize: suppose
 volleyball: trademark
-widget: 
 debug: sieve
 fridge: refrigerator
 reboot: restart
 wristwatch: trademark
 broadband: bandwidth
-neutron: 
 allergy: trademark
 brainstorm: inspiration, idea
 customize: trademark
@@ -4394,12 +4335,10 @@ ceasefire: truce
 encrypt: encryption
 firmware: 
 gaffe: omission, wrong, slip
-joystick: 
 sibling: brother
 conditioner: trademark
 spokesperson: speaker, representative
 stapler: clip, trademark
-actinium: 
 sauna: trademark
 checkout: check, trademark
 crackpot: abnormal
@@ -4408,11 +4347,10 @@ nonmetal: metalloid
 reschedule: trademark
 ytterbium: 
 finalize: trademark
-gigabyte: 
 radon: 
 critique: criticism
 redecorate: trademark
-belt: band
+belt: bar
 amused: happy, hilarious, option
 headphone: trademark
 announcer: trademark
@@ -4432,12 +4370,11 @@ winn:
 enrollment: trademark
 sightsee: circulation, bore
 infected: infection
-krypton: 
 costly: trademark
 yaor: 
 backward: back
 hallway: hall
-connector: plug, attachment, junction, socket
+connector: copula, plug, attachment
 meitnerium: 
 p.m.: afternoon, night
 feminine-: feminine
@@ -4453,13 +4390,11 @@ affordable: trademark
 readme: 
 correlate: hook
 recurse: 
-railcar: 
 moderator: facilitator, manager
 fundraise: trademark
 hotdog: sausage
 goodness: virtue
 usitative: 
-hafnium: 
 bathtub: bath
 proportion: balanced, stake, part, stretch
 precalculus: 
@@ -4476,7 +4411,7 @@ easy: easily
 advertiser: trademark
 stunning: amaze, striking
 remunerate: pay
-braid: knit
+braid: weave, knitted
 alarming: terrible, anxious
 emote: 
 allocation: dividend, allowance
@@ -4489,7 +4424,7 @@ andative:
 unit-of-mass: 
 catalog: list, table, chart
 identifiable: identity
-emergence: appear, exit, epiphany
+emergence: appear, rise
 byebye: farewell
 remodel: trademark
 rented: rent
@@ -4498,11 +4433,10 @@ etc.: guitar
 patientive: 
 concessive: soft
 automotive: trademark
-distributive: distribute, distributor
+distributive: distribute
 archeology: archaeological
 unplug: trademark
 dubnium: 
-praseodymium: 
 fluctuate: trademark
 aside-from: except
 flextime: trademark
@@ -4514,10 +4448,9 @@ fermium:
 reviewer: trademark
 terbium-atom: rhodium-atom
 inject: introduce
-canvas: fabric, web, linen
+canvas: fabric, web
 bitmap: 
 supposedly: apparently, perhaps, suppose
-indium: 
 dysprosium: 
 inventory: trademark
 avogadro's: 
@@ -4536,7 +4469,7 @@ professor: master
 stochastic: random
 loosely: loose, free, independently, circumstances
 renovate: trademark
-computing: computer, calculator, compute
+computing: computer, calculator
 paralegal: trademark
 cheaply: low, buy
 amusing: interesting, hilarious, ugly
@@ -4549,7 +4482,6 @@ thorium-atom: rhodium-atom
 disapproving: disapproval
 surprisingly: surprise
 coding: encryption, colour
-protactinium: 
 ration: dose
 departmental: trademark
 landlord: employer
@@ -4559,7 +4491,7 @@ friendship: friendly
 herbicide: poison
 affine: 
 distractor: trademark
-squad: band
+squad: group
 cheek: play
 healthcare: trademark
 repairperson: trademark
@@ -4578,9 +4510,8 @@ nobelium:
 investigator: scientist, detective
 recreational: trademark
 constructive: formulation
-outside-of: except
+outside-of: out, except
 extinguisher: trademark
-wisecrack: 
 receptionist: receptor, trademark
 sunscreen: sunshine, trademark
 subject-case: topic-case
@@ -4599,7 +4530,7 @@ to-split: distribute
 arctan: 
 inexperience: trademark
 critic: censor
-onwards: first, next, hold
+onwards: first, next, continue
 website: web-site
 dealership: trademark
 armed: disarm
@@ -4617,10 +4548,7 @@ unauthorize: trademark
 space-marker: 
 excluding: except, including
 state-marker: 
-strikebreaker: 
 outage: trademark
-astatine: 
-else-if: 
 socially: social
 curium: 
 delimited: separated
@@ -4642,20 +4570,17 @@ substantially: largely, enough
 communicative: communication, talkative
 fibonacci: 
 rubidium-atom: rhodium-atom
-lutetium: 
 work-out: exercise, work, elaborate
 fourier: fertile
 educated: education, polite
-californium: 
 einsteinium: 
 complimentary: trademark
 have-to: must, duty
-mendelevium: 
 progression: progress, evolutionary
 cellphone: cell-phone
 at-case: to-case
 restatement: trademark
-enormously: very
+enormously: very, super
 approximative: approximate
 logistic: baggage
 entrant: participle
@@ -4663,7 +4588,6 @@ belongingness:
 europium: 
 topos: 
 toner: ink, trademark
-samarium: 
 anticausative: 
 café: trademark
 entrée: trademark
@@ -4676,18 +4600,15 @@ problem: trouble, matter
 thallium-atom: rhodium-atom
 goldbach: 
 vanadium-atom: rhodium-atom
-fractals: 
-embarrassment: shame, trouble, confusion
+embarrassment: shame, trouble
 fermat: 
 polonium-atom: rhodium-atom
 purchaser: trademark
 supplementary: complement, additional
 packaging: pack, pavement
 competence: capable, jurisdiction, qualified, capability
-blog: 
 combinatorics: combinatorial
-pythagoras: 
-via: passing
+via: passing, above
 dancing: play, dance
 interestingly: interesting, pleasant, matter
 developmental: evolutionary, progress
@@ -4695,19 +4616,16 @@ circumfix:
 difficulty: trouble, disadvantage
 photocopier: trademark
 personalize: trademark
-supplier: doubt, supporter
+supplier: doubt
 distributions: distribute
-spyware: 
-interviewer: reporter
 anew: trademark
-xenon: 
 suntan: brown
 schadenfreude: 
 lurking: cache
+movie-theater: cinema
 storeroom: trademark
 coworker: trademark
 by-law: trademark
-subtend: 
 boardroom: trademark
 alternatively: instead
 neighbourhood: surrounding, live
@@ -4715,7 +4633,6 @@ rutherfordium:
 amount-marker: 
 cyan: blue
 factorisation: 
-computability: 
 social-marker: 
 neuter-gender: masculine-gender
 genetically: gene, genetics
@@ -4732,9 +4649,8 @@ businessperson: business-person, merchant
 workbook: trademark
 wellness: trademark
 soprano: childish
-incredibly: very
+incredibly: super, very
 berkelium: 
-americium: 
 advisable: trademark
 inelative-case: elative-case
 cordless: trademark
@@ -4744,9 +4660,7 @@ ought-to: must
 randomize: random
 i.e.: namely
 enforcement: implement
-neptunium: 
 opposing: resist, opposite, disapproval, resistance, defendant
-posessive-case: genitive-case
 worrying: anxious, care
 workforce: trademark
 nominalization: 
@@ -4754,10 +4668,10 @@ world-wide-web:
 objective-case: destination-case
 professionally: trademark
 defence: care, protect
-spammer: 
 poisson: poison
 internship: trademark
 deploy: distribute, indulge
+denominator: every
 accompanier: 
 homeowner: trademark
 translative: translation
@@ -4771,7 +4685,7 @@ instructor: trademark
 miss: cut, not
 excavate: dig
 donut: trademark
-blogger: 
+blogger: blog
 purser: trademark
 coughing: cough
 videoconference: trademark
@@ -4786,14 +4700,13 @@ familiarize: trademark
 change-of-event: 
 projector: trademark
 indirect-object: direct-object
-postessive-case: genitive-case
+postessive-case: genitive-case, posessive-case
 attenuative: decay
 resultative: 
 beginner: trademark
 hassium: 
 hiker: trademark
 bloodshed: blood
-matching: fit
 retreat: digress, regression, retire, resignation
 smartphone: trademark
 afterward: future, then, recently, next
@@ -4805,18 +4718,16 @@ skateboard: trademark
 authentic: trademark
 electrician: electronic, trademark
 efficiently: trademark
-clique: conglomerate, click
+clique: click
 read-only-memory: 
 refundable: trademark
 ice-cream: ice, cream
 drastically: trademark
-flatware: 
 entertainer: entertainment, artist
 vocational: specialty, profession
 freshly: fresh, recently, root
-climb: climbing
+climb: rise
 enthusiastically: trademark
-radian: 
 erbium: 
 swearing: swear, expletive
 toiletry: trademark
@@ -4829,10 +4740,8 @@ telecommunication: trademark
 all-right: equal, very
 soon-future-tense: 
 automate: trademark
-terabyte: 
 contrastive: contrasting, cope
 coreference: 
-linker: conjunction
 audition: trademark
 prepositional-case: nominative-case
 attendee: trademark
@@ -4852,7 +4761,6 @@ random-access-memory:
 consignment: trademark
 floating-point-number: 
 multilinear: 
-phishing: 
 incoming: trademark
 past-passive-participle: 
 central-processing-unit: 

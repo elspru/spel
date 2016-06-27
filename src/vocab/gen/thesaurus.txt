@@ -9,12 +9,12 @@ hello: hi:, bye, hi:, hi, de:, hey
 ancestor: hi:, predecessor, sw:, grandfather
 grandparent: ar:, grandfather, pt:, grandmother
 hungry: zh:, hunger, hi:, starve
-genitive-case: zh:, postessive-case, hu:, posessive-case
+genitive-case: zh:, postessive-case
 adjective: 
 and: zh:, sum, sw:, by, jv:, an
 me: zh:, myself, ar:, i, id:, my, sr:, we, te:, lick
 you: de:, them, sv:, thee, ar:, thou, ko:, ya
-us: zh:, we, ar:, our, ar:, ours, hu:, ourselves
+us: zh:, we, ar:, our, ar:, ours
 it: ar:, he, tr:, that, tr:, she, fr:, this, lt:, these, te:, which
 destination-case: id:, objective-case
 dative-case: 
@@ -33,7 +33,7 @@ comitative-case:
 present-tense: 
 benefactive-case: 
 essive-case: 
-not: hi:, no, de:, non, id:, hardly, id:, unable, fr:, pitch, bn:, never, bn:, nor, bn:, none, pa:, rather, pa:, neither, te:, cannot, mr:, miss, hu:, gender
+not: hi:, no, de:, non, id:, hardly, id:, unable, fr:, pitch, bn:, never, bn:, nor, bn:, none, pa:, rather, pa:, neither, te:, cannot, mr:, miss
 its: zh:, their, de:, his, id:, her, ru:, him, fa:, those, it:, hers, el:, of, ja:, whose, jv:, independent
 surface-context: 
 adpositional-case: 
@@ -47,24 +47,25 @@ source-case:
 ablative-case: 
 demonstrative: hi:, solid, hi:, substantial, hi:, concrete, hi:, cogent, vi:, directive, fa:, dramatic, pa:, express, pa:, apparent, pa:, articulate
 but: sw:, yet, ar:, however, pa:, though, pa:, although, pa:, nevertheless
-all: de:, everyone, sv:, everybody, vi:, total, tr:, entire, tr:, overall, ru:, whole, ru:, everything, fi:, any, sr:, increasingly, jv:, altogether, hu:, every
+all: de:, everyone, sv:, everybody, vi:, total, tr:, entire, tr:, overall, ru:, whole, ru:, everything, fi:, any, sr:, increasingly, jv:, altogether
 feminine-gender: 
 they: zh:, them, de:, she, sv:, those, id:, their, id:, theirs, vi:, surname, el:, these, jv:, same, jv:, fair, jv:, similar, mr:, to
 plural-number: 
 one: hi:, single, de:, a, ta:, into, lt:, alone, pa:, an, jv:, turn, ko:, however
-who: zh:, somebody, zh:, whoever, hi:, which, sw:, whose, sv:, as, id:, whom, lt:, anything, lt:, anybody, jv:, that, jv:, their, jv:, those, jv:, sing, mr:, ya, hu:, out, hu:, off
+who: zh:, somebody, zh:, whoever, hi:, which, sw:, whose, sv:, as, id:, whom, lt:, anything, lt:, anybody, jv:, that, jv:, their, jv:, those, jv:, sing, mr:, ya
 future-tense: 
 social-context: 
 when: lt:, whenever, mr:, ever
-imperfective-aspect: hu:, continuous-aspect
+imperfective-aspect: 
 there: jv:, exist, jv:, thursday
 more: sw:, over, sw:, most, sw:, further, sw:, beyond, sw:, upward, sw:, upwards, de:, multi, vi:, than, vi:, rather, ta:, also, ta:, moreover, fr:, plus, pl:, still, pl:, yet, pl:, else, sr:, several, sr:, multiple, pa:, other, pa:, otherwise, jv:, another, jv:, rest
+out: hi:, outside, sw:, outer, sw:, external, sw:, outdoor, sw:, outdoors, de:, off, ar:, outside-of, vi:, beyond, it:, up, it:, upon, it:, onto, pa:, forth, jv:, quit, jv:, exit
 elative-case: zh:, inelative-case
-up: zh:, upward, zh:, upwards, hi:, over, hi:, above, hi:, upstairs, de:, overhead, id:, rise, id:, board, id:, ride, vi:, onto, vi:, increasingly, ta:, until, ta:, till, ta:, unless, fa:, high, fa:, top, fa:, upper, it:, out, it:, upon, sr:, worse, mr:, on
 illative-case: 
 do: sw:, make, sw:, perform, sw:, undertake, de:, render, ar:, activate, id:, did, id:, commit, bn:, put, pa:, what, pa:, react, jv:, anything, jv:, whether, jv:, whatever, jv:, working
 directive-mood: zh:, indicative-mood
 question-word: 
+copula: hi:, connector, tr:, bond, ru:, bunch, mr:, link
 person: zh:, man, zh:, people, hi:, individual, sw:, somebody, sw:, someone, ar:, guy, ru:, human, el:, face, ja:, personality, jv:, him, jv:, them, jv:, personally, jv:, pedestrian, ko:, fellow
 male: de:, masculine-, ar:, mention, id:, gentleman, ta:, man, jv:, gentle, te:, female
 could: id:, can, vi:, might, vi:, possibly, tr:, maybe, ja:, possibility, ja:, likelihood, jv:, may, jv:, possible, jv:, able
@@ -86,15 +87,15 @@ before: sw:, prior, sw:, pre, tr:, ago, tr:, precede, ru:, until, ru:, till, ta:
 must: hi:, should, sw:, necessarily, sw:, unnecessary, sv:, have-to, vi:, need, ru:, shall, ru:, ought-to, ta:, want, he:, ought
 two: sw:, dual, ta:, both, jv:, apart, ko:, couple
 see: hi:, look, sv:, view, id:, sight, id:, notice, id:, perceive, ta:, watch, jv:, gaze, te:, refer, ko:, meet
-know: sw:, ascertain, ar:, aware, ar:, teach, ar:, flag, ta:, visible, jv:, understand, hu:, can
+know: sw:, ascertain, ar:, aware, ar:, teach, ar:, flag, ta:, visible, jv:, understand
 down: zh:, downward, zh:, downwards, hi:, under, hi:, below, hi:, beneath, hi:, underneath, sw:, less, sw:, bottom, tr:, inferior, ta:, downstairs
-first: sw:, debut, tr:, initial, ta:, since, ta:, onwards, pa:, firstly, jv:, initially, hu:, prime
+first: sw:, debut, tr:, initial, ta:, since, ta:, onwards, pa:, firstly, jv:, initially
 own: sw:, himself, sw:, yourself, de:, possess, id:, personally, fa:, his, fa:, itself, fa:, self, ko:, personal
 alienable-possession: 
 inalienable-possession: 
 old: zh:, used, de:, ancient, de:, aged, id:, elderly, tr:, former, tr:, ex, cy:, age, pa:, prior, pa:, predecessor
 deliberative-mood: 
-day: sw:, daily, bn:, let, ko:, working, ko:, affair, ko:, job, hu:, sun
+day: sw:, daily, bn:, let, ko:, working, ko:, affair, ko:, job
 where: zh:, wherever, sw:, whereby, cy:, place
 come: vi:, to, vi:, till, vi:, reach, vi:, arrival, vi:, arrive, fi:, become, sr:, occur
 way: zh:, method, zh:, methodology, hi:, walkway, sw:, means, sw:, path, sw:, route, sw:, tract, sw:, pathway, de:, trail, sv:, manner, ar:, road, vi:, street, vi:, sugar, fa:, track, fa:, trajectory, fi:, habit, ko:, how, ko:, process, ko:, mode, mr:, creed
@@ -105,10 +106,11 @@ perlative-case:
 progressive-aspect: 
 long: sw:, prolonged, sw:, durable, sv:, tall, it:, along, te:, period, te:, era, te:, tense, mr:, away, mr:, portray
 say: zh:, spoken, hi:, tell, sw:, speak, ko:, represent, ko:, relate, mr:, called
-even: hi:, also, hi:, either, ar:, until, ar:, till, id:, moreover, vi:, too, pa:, likewise, ja:, further, ja:, furthermore, te:, itself, hu:, yet
+even: hi:, also, hi:, either, ar:, until, ar:, till, id:, moreover, vi:, too, pa:, likewise, ja:, further, ja:, furthermore, te:, itself
 back: sw:, behind, sw:, rear, sw:, backwards, sw:, backward, id:, return, tr:, restore, tr:, undo, ta:, again, ta:, repeat, cy:, ago, cy:, according-to, pa:, withdraw, te:, recover, te:, retrieve
 here: mr:, at
 think: hi:, thinking, vi:, thought, tr:, consider, tr:, imagine, tr:, conceive, tr:, meditate, ta:, would, ta:, called, cy:, mind, bn:, feel, bn:, seem, pa:, indicate, mr:, consideration
+every: zh:, everything, sw:, each, fa:, any, fi:, which, bn:, towards, bn:, per, pa:, everybody, pa:, denominator, he:, whole, jv:, average
 last: sw:, end, sw:, latter, sw:, final, sw:, ultimate, ar:, another, ar:, else, ar:, latest, tr:, recent, tr:, ending, ta:, past, fi:, endure, pl:, persist, pa:, previous, jv:, late
 under-context: 
 take: zh:, resort, sw:, occupy, id:, fetch, id:, adopt, id:, grab, tr:, get, tr:, receive, tr:, pick, fa:, catch, fa:, capture, lt:, charge, bn:, accept, pa:, bring, pa:, carry, jv:, shoot, mr:, apply, mr:, assign, mr:, applied
@@ -132,14 +134,12 @@ focus: sw:, intended, sw:, aim, sw:, goal, sw:, objective, ar:, concentrate, ta:
 love: sw:, affection, sw:, charity, fr:, like, jv:, crush
 always: hi:, forever, id:, constantly, ta:, ever
 night: id:, evening, ta:, dinner, ta:, p.m., pa:, tonight
-each: zh:, per, sw:, every, el:, any, bn:, towards, jv:, average
 king: ar:, reign, id:, lord, id:, monarch, id:, tycoon, mr:, prince
 between: id:, among, id:, amongst, tr:, of, bn:, in, bn:, into, bn:, within, te:, middle, te:, mid, mr:, during
-heart: sw:, cheer, sw:, encouraging, ar:, topple, mr:, coronary, hu:, suck
+heart: sw:, cheer, sw:, encouraging, ar:, topple, mr:, coronary
 paucal-number: 
-because: ar:, due, fi:, since, cy:, case, cy:, cause, bn:, reason, hu:, for
+because: ar:, due, fi:, since, cy:, case, cy:, cause, bn:, reason
 causal-case: 
-set: zh:, group, sw:, put, sw:, keep, sw:, lay, sw:, paste, ar:, collection, ar:, combination, ar:, array, vi:, suite, ta:, package, ta:, portfolio, ta:, synthesis, fr:, together, fi:, series, el:, turn, el:, range, el:, row, el:, string, pl:, kit, lt:, corpus, jv:, flight, jv:, aircraft, jv:, airplane
 name: sw:, surname, tr:, noun, mr:, craft
 proper-noun: 
 country: zh:, nation, sw:, land, sw:, earth, id:, state, fi:, ground, sr:, soil, lt:, party, pa:, countryside
@@ -150,7 +150,7 @@ side: zh:, lateral, hi:, favour, hi:, favor, hi:, behalf, sw:, turn, de:, page, 
 course: zh:, curriculum, ar:, lesson, id:, lecture, ta:, certainly, ta:, surely, ta:, definitely, lt:, rate, bn:, path, jv:, confident
 enough: hi:, sufficient, hi:, sufficiently, hi:, adequate, sw:, ample, id:, fairly, id:, plenty, id:, insufficient, fr:, quite, fr:, pretty, pa:, considerable, pa:, considerably, pa:, substantial, pa:, significantly, pa:, substantially, jv:, reasonable, te:, put, ko:, fully
 soon: zh:, shortly, hi:, quick, hi:, prompt, sw:, quickly, sw:, fast, sw:, immediate, sw:, rapid, sw:, hurry, sw:, urgent, ar:, so, id:, immediately, id:, readily, tr:, nearby, it:, early, lt:, snap
-full: zh:, fully, zh:, sufficiently, hi:, absolute, sw:, complete, sw:, imperfect, ar:, whole, tr:, exactly, tr:, exact, tr:, utter, tr:, precisely, tr:, thorough, ta:, entire, fr:, comprehensive, fi:, size, pa:, entirely, pa:, completely, pa:, totally, te:, finished, mr:, accomplished, mr:, accomplish, mr:, implicit, mr:, fulfill, mr:, cater, hu:, total
+full: zh:, fully, zh:, sufficiently, hi:, absolute, sw:, complete, sw:, imperfect, ar:, whole, tr:, exactly, tr:, exact, tr:, utter, tr:, precisely, tr:, thorough, ta:, entire, fr:, comprehensive, fi:, size, pa:, entirely, pa:, completely, pa:, totally, te:, finished, mr:, accomplished, mr:, accomplish, mr:, implicit, mr:, fulfill, mr:, cater
 room: zh:, chamber, pt:, fourth, pt:, bedroom, pl:, peace, jv:, compartment, te:, cellar, mr:, depth
 water: sw:, liquid, sw:, fluid, sw:, watershed
 desiderative-mood: 
@@ -170,13 +170,14 @@ poor: de:, arm, vi:, poverty, fi:, bad, sr:, weak
 death: zh:, mortality, hi:, dying, sv:, dead
 form: de:, shape, de:, mold, ar:, format, fi:, contour, sr:, pattern, pa:, farm, ja:, shaped, ko:, morphology
 inessive-case: 
+together: hi:, simultaneously, sw:, along, sw:, joint, sw:, collective, fr:, set, te:, alongside, te:, conjunction, mr:, combine
 matter: hi:, case, hi:, affair, sw:, thing, sw:, phenomenon, id:, problem, fa:, material, fa:, substance, pt:, subject, cy:, issue, lt:, question, te:, stuff, te:, topic, mr:, interestingly
 often: zh:, frequently, zh:, constantly, zh:, regularly, id:, frequent, vi:, commonly, vi:, normally, vi:, typically
-year: sw:, annual, sw:, annually, vi:, five, jv:, circa
 friend: hi:, ally, de:, boyfriend, vi:, fellow, cy:, mate, he:, associate
 order: hi:, system, hi:, arrangement, hi:, arrange, de:, contract, pt:, array, cy:, command, sr:, turn, sr:, row, sr:, queue, pa:, sequence, pa:, sequential, he:, invite, jv:, so, jv:, let, jv:, avoid, ko:, spell
 imperative-mood: 
 round: id:, rounded, sr:, circle, sr:, lap, mr:, sphere
+keep: zh:, hold, zh:, maintain, hi:, lay, sw:, put, sw:, set, sw:, paste, de:, retain, id:, guard, tr:, engage, fi:, like, el:, preservation, el:, conservation, cy:, preserve, cy:, detain, cy:, adhere, jv:, stay, jv:, remain, jv:, fixed, ko:, maintenance
 wife: sw:, spouse, fa:, female
 believe: zh:, trust, hi:, reckon, hi:, presume, sv:, faith, sv:, belief, ta:, confidence, ta:, confident, ta:, optimism, ta:, optimistic, mr:, dependence
 near: hi:, pass, hi:, beside, sw:, almost, sw:, around, sw:, close, sw:, nearly, sw:, adjacent, sw:, virtually, sw:, nearby, vi:, proximal, it:, neighbour, it:, neighbor
@@ -187,7 +188,8 @@ hundred: sw:, hundredth, tr:, face, fr:, cent, he:, century
 children: zh:, kid, sw:, offspring, sv:, child, sv:, baby
 thus: zh:, thereby, sw:, so, sw:, hence, sr:, such, lt:, yes, pa:, therefore
 hope: zh:, wish, hi:, prospect, hi:, anticipate, sw:, optimism, sw:, optimistic, pa:, expected, pa:, expect, ko:, expectation
-dear: tr:, lover, it:, expensive, hu:, gentle
+above: hi:, up, hi:, over, hi:, upstairs, sw:, high, sw:, top, sw:, advanced, sw:, upper, de:, across, de:, concerning, de:, via, id:, upon, id:, overhead, id:, onto, ta:, ahead
+dear: tr:, lover, it:, expensive
 read: hi:, reading, fa:, sing, fr:, lily, jv:, reader
 city: hi:, town, id:, municipal, fa:, county, jv:, urban
 already: sw:, ready, sw:, prepared, sw:, willing, tr:, anyway, jv:, pre
@@ -216,12 +218,13 @@ lost: tr:, loss, jv:, lose, jv:, missing, jv:, disappear
 thousand: sw:, thousandth, ko:, clothes, ko:, cloth
 family: zh:, household, fi:, survivor
 soul: hi:, spirit, fa:, ghost, fi:, mastermind
-care: zh:, concerned, zh:, concern, hi:, attention, hi:, meditation, sw:, service, ar:, sponsorship, ta:, guard, ta:, safety, ta:, protection, ta:, security, ta:, defense, ta:, preservation, ta:, conservation, ta:, coverage, ta:, defence, pt:, caution, it:, cure, fi:, treatment, pl:, custody, mr:, worry, mr:, worried, mr:, worrying, hu:, providing
+care: zh:, concerned, zh:, concern, hi:, attention, hi:, meditation, sw:, service, ar:, sponsorship, ta:, guard, ta:, safety, ta:, protection, ta:, security, ta:, defense, ta:, preservation, ta:, conservation, ta:, coverage, ta:, defence, pt:, caution, it:, cure, fi:, treatment, pl:, custody, mr:, worry, mr:, worried, mr:, worrying
 mean: zh:, imply, sw:, sense, sw:, meaning, sw:, meaningful, fi:, denote, el:, middle, el:, agent, lt:, medium, lt:, average, lt:, moderate, jv:, essentially, te:, understand
 different: zh:, distinct, zh:, differ, hi:, various, hi:, varied, hi:, multiple, sw:, difference, sw:, separate, sw:, variation, sw:, separately, sw:, variability, sw:, differential, ar:, unlike, ar:, variant, id:, vary, id:, diverse, vi:, other, vi:, else, ru:, another, bn:, several, jv:, differently, te:, variety
 potential-mood: 
 allative-case: 
 anthropic-gender: 
+five: sw:, fifth, vi:, year, ta:, for
 live: zh:, life, sw:, survive, sw:, behave, de:, living, sv:, nest, ar:, district, ar:, neighborhood, ar:, neighbourhood, id:, alive, vi:, lively, vi:, raw, pa:, straight, pa:, straightforward, jv:, inhabitant, te:, direct
 different-subject: 
 answer: hi:, north, hi:, reply, sv:, response, cy:, solution, pl:, correspond, pl:, respond, mr:, northern, mr:, replication
@@ -234,15 +237,14 @@ dubitative-mood:
 black: te:, block
 beautiful: sw:, good, sw:, nice, de:, lovely, de:, beautifully, de:, nicely, ar:, pretty, id:, fancy, tr:, cool, ta:, cute
 dark: vi:, gloom, pa:, darkness
-hold: zh:, keep, zh:, maintain, hi:, catch, hi:, grip, ar:, contract, ar:, conclude, ar:, knot, ar:, decade, fa:, impound, pt:, wait, fi:, like, cy:, sustain, bn:, lay, he:, possess, jv:, continue, jv:, onwards
-sort: zh:, classification, zh:, classify, zh:, classifier, hi:, kind, sw:, species, sw:, variety, el:, item, hu:, breed
+sort: zh:, classification, zh:, classify, zh:, classifier, hi:, kind, sw:, species, sw:, variety, el:, item
 ten: zh:, decade, sw:, tenth, cy:, fair
-show: zh:, display, hi:, perform, hi:, performance, hi:, demonstration, hi:, presentation, id:, indicate, id:, denote, ta:, event, el:, projection, he:, exhibit, jv:, art, jv:, image, jv:, sketch, jv:, screenshot, hu:, lecture
+show: zh:, display, hi:, perform, hi:, performance, hi:, demonstration, hi:, presentation, id:, indicate, id:, denote, ta:, event, el:, projection, he:, exhibit, jv:, art, jv:, image, jv:, sketch, jv:, screenshot
 story: sw:, myth, de:, history, sv:, narrative, fa:, fiction, pl:, plot, pa:, tale, ko:, talk, ko:, topic
 book: sw:, scroll, sv:, reserve, fr:, pound, el:, textbook
 electronic: zh:, electronics, zh:, electron, sw:, lightning, sw:, electric, sw:, electricity, sw:, electrical, sw:, electrician, he:, email, ko:, former
 account: hi:, reason, hi:, cause, ar:, calculate, ar:, computation, tr:, calculus, pt:, bill, el:, calculation, cy:, count, cy:, reckon, he:, arithmetic
-mark: zh:, marker, hi:, trace, hi:, trail, sw:, score, sw:, logo, sv:, highlight, ar:, tick, id:, tag, tr:, sign, tr:, signal, tr:, indication, tr:, cue, pt:, brand, fi:, character, sr:, label, bn:, impression, pa:, symbolic, jv:, alert, mr:, symbol, mr:, icon, hu:, nomination, hu:, notation
+mark: zh:, marker, hi:, trace, hi:, trail, sw:, score, sw:, logo, sv:, highlight, ar:, tick, id:, tag, tr:, sign, tr:, signal, tr:, indication, tr:, cue, pt:, brand, fi:, character, sr:, label, bn:, impression, pa:, symbolic, jv:, alert, mr:, symbol, mr:, icon
 interest: id:, flower, ta:, interested, fa:, concern
 write: hi:, compose, sw:, writing, ar:, type, fr:, written, jv:, stationary
 bed: 
@@ -268,7 +270,7 @@ rose: it:, pink
 south: hi:, southern, pl:, noon, pl:, midday
 cold: sw:, winter, sw:, cool, de:, coldly
 position: zh:, location, hi:, situation, hi:, status, sw:, chance, sw:, opportunity, sw:, space, pt:, stance, it:, posture, el:, place, el:, post, pl:, item, pa:, orientation, ko:, lay, ko:, located, mr:, locus
-stand: zh:, station, hi:, vertical, ar:, attitude, ar:, stance, el:, stop, el:, posture, el:, pose, pl:, stall, bn:, be, bn:, stay, bn:, remain, bn:, exist, ko:, versus, hu:, rack
+stand: zh:, station, hi:, vertical, ar:, attitude, ar:, stance, el:, stop, el:, posture, el:, pose, pl:, stall, bn:, be, bn:, stay, bn:, remain, bn:, exist, ko:, versus
 suppose: zh:, assumption, zh:, hypothesis, sw:, assume, sv:, adopt, ar:, presume, ar:, hypothesize, he:, lay, ko:, household, ko:, supposedly
 mine: sw:, my
 cut: hi:, lack, hi:, lacking, hi:, reduction, hi:, deficiency, hi:, decrease, hi:, shortage, hi:, miss, sw:, cutting, ar:, interrupt, id:, chop, id:, slash, pt:, crop, cy:, broken, cy:, violate, mr:, conspiracy
@@ -294,7 +296,7 @@ play: sw:, dancing, de:, gamble, fa:, game, fr:, cheek, el:, toy, jv:, roll, jv:
 master: zh:, lord, zh:, primary, ar:, main, fa:, professor, pt:, dominate, fi:, govern, el:, mr, el:, gentleman, el:, leading, el:, mister, bn:, owner, pa:, mastermind, he:, control
 office: fi:, agency, el:, desk, he:, ministry
 government: ta:, state, pl:, row
-church: hu:, temple
+church: 
 length: sw:, height, sw:, altitude, fa:, span, cy:, along, cy:, duration, bn:, tall
 company: zh:, firm, zh:, corporation, de:, society, sv:, business, id:, corporate, ta:, entity, ta:, institution, ta:, agency, ta:, institute, lt:, venture, jv:, enterprise
 paper: sw:, sheet, it:, card, it:, charter, he:, newspaper
@@ -315,7 +317,7 @@ save: zh:, saving, zh:, preservation, sw:, recover, de:, conserve, ar:, conserva
 green: lt:, raw, lt:, crude
 trouble: zh:, bother, sv:, issue, sv:, problem, id:, hardship, id:, difficulty, fi:, knead, el:, suffering, pa:, problematic, jv:, obstacle, te:, embarrass, te:, embarrassment
 smile: zh:, grin
-wrong: zh:, mistake, zh:, error, zh:, mistaken, sw:, badly, sw:, mistreat, de:, false, sv:, fault, sv:, failure, sv:, flaw, id:, wrongly, fa:, gaffe, hu:, bad
+wrong: zh:, mistake, zh:, error, zh:, mistaken, sw:, badly, sw:, mistreat, de:, false, sv:, fault, sv:, failure, sv:, flaw, id:, wrongly, fa:, gaffe
 sleep: vi:, asleep, fa:, dream, jv:, nap
 quotative-case: 
 beginning: zh:, begin, zh:, start, hi:, undertake, sw:, scratch, sw:, onset, id:, early, id:, initial, vi:, initiation, fr:, debut, el:, principle, pa:, embark, pa:, initiate
@@ -329,7 +331,7 @@ sweet: tr:, dessert, pt:, candy, it:, gentle, pl:, bland, sr:, cute
 mouth: vi:, oral, vi:, mug, ta:, sip, bn:, face
 rich: zh:, plenty, zh:, abundant, hi:, wealthy, jv:, dress, ko:, generous
 enemy: pa:, hostile, jv:, opponent, jv:, versus
-ship: zh:, boat, sw:, sail, sw:, fleet, sw:, sailing, de:, vessel, ta:, cruise, fa:, ferry, ko:, belly, mr:, steer, hu:, craft
+ship: zh:, boat, sw:, sail, sw:, fleet, sw:, sailing, de:, vessel, ta:, cruise, fa:, ferry, ko:, belly, mr:, steer
 condition: hi:, bet, hi:, betting, sw:, state, sw:, situation, sw:, circumstance, tr:, status, ru:, fortune, ta:, stage, ta:, level, fi:, fitness, sr:, requirement
 including: zh:, contain, hi:, include, hi:, involve, id:, belong, jv:, consist, jv:, excluding
 inclusive-person: 
@@ -352,8 +354,8 @@ twenty:
 easily: zh:, likely, zh:, readily, zh:, liable, zh:, easy, sw:, convenience, de:, slight, de:, slightly, de:, lightly, id:, convenient, id:, straightforward, ja:, briefly
 prospective-aspect: 
 language: zh:, linguistic, tr:, tongue, jv:, base
-expression: zh:, express, tr:, statement, tr:, phrase, tr:, articulate, ta:, exposure, it:, utterance, pa:, equation, ja:, representation, hu:, term
-week: sr:, sunday, jv:, weekly, hu:, seven
+expression: zh:, express, tr:, statement, tr:, phrase, tr:, articulate, ta:, exposure, it:, utterance, pa:, equation, ja:, representation
+week: sr:, sunday, jv:, weekly
 hall: sw:, theater, sv:, hallway, id:, space, id:, chamber, tr:, salon, tr:, lounge, pt:, aisle, pt:, runner, el:, lobby, ja:, hole, ja:, haul
 danger: zh:, dangerous, sw:, risk, sw:, hazard, de:, respect
 usual: zh:, generally, hi:, general, hi:, common, hi:, routine, hi:, generic, sw:, usually, sw:, ordinary, sw:, unusual, sw:, commonly, sw:, modest, sw:, normal, sw:, irregular, sw:, conventional, sw:, typical, sw:, casual, sw:, normally, sw:, typically, sv:, mainstream, id:, regular, id:, habitual, fi:, plain, pa:, roughly, te:, simple, ko:, moderate
@@ -361,7 +363,7 @@ born: hi:, birth, pa:, rebirth, ko:, innate
 court: sw:, judicial, de:, dish, el:, forum, jv:, litigation
 gnomic-aspect: 
 worth: hi:, deserve, sw:, value, sw:, valuable, vi:, validity, el:, merit, bn:, cost, bn:, price
-tree: vi:, plant, ru:, wood, fr:, shaft, sr:, timber, hu:, wooden
+tree: vi:, plant, ru:, wood, fr:, shaft, sr:, timber
 wall: 
 heaven: de:, sky
 inchoative-aspect: 
@@ -373,7 +375,7 @@ experience: zh:, empirical, zh:, experiential, sw:, experienced, ar:, expertise,
 circumstances: bn:, scenario, pa:, circumstance, ja:, situation, jv:, loosely
 fresh: zh:, freshly, sw:, pure, sw:, clean, sw:, cleaner, ta:, new, ta:, novice, pa:, latest
 duke: hi:, ruler, pl:, prince, mr:, peer
-covered: zh:, covering, zh:, coverage, tr:, off, tr:, closed, tr:, indoor, pa:, cover, ko:, govern, hu:, indoors
+covered: zh:, covering, zh:, coverage, tr:, off, tr:, closed, tr:, indoor, pa:, cover, ko:, govern
 bound: hi:, extent, hi:, limitation, hi:, limit, hi:, border, hi:, restriction, ar:, restricted, tr:, connected, tr:, depend, cy:, bind, ko:, boundary, ko:, confine
 east: zh:, eastern, hi:, ago, hi:, previous, hi:, prior, hi:, pre, fa:, orient
 stone: sw:, marble, sv:, rock, tr:, gem
@@ -383,6 +385,7 @@ support: zh:, sustain, hi:, endorse, sw:, assistance, vi:, assist, it:, bracket,
 date: ar:, history, pt:, encounter
 village: ar:, hamlet, sr:, countryside
 field: zh:, sphere, zh:, realm, hi:, region, hi:, territory, hi:, area, hi:, zone, hi:, sector, sw:, domain, sw:, arena, sw:, stadium, tr:, space, ru:, margin, pt:, countryside, it:, camp, mr:, farm
+wait: vi:, expect, pt:, hold, cy:, stay
 permission: zh:, allow, ar:, ear, id:, permit, id:, clearance, el:, leave, el:, license, el:, licence, cy:, consent, lt:, edition, he:, possession, te:, approval
 permissive-mood: 
 success: zh:, successful, zh:, succeed, sw:, prosperity, sw:, achievement, ta:, victory, ta:, win, ta:, hit, ta:, winning, ta:, winner, mr:, prosper
@@ -392,12 +395,13 @@ distal-demonstrative:
 afternoon: zh:, p.m., hi:, noon, hi:, midday, el:, evening
 cry: hi:, mourn, fr:, shout, el:, scream
 honour: zh:, honor, sw:, respect, sw:, dignity, sw:, respectable, sw:, honorable, vi:, honorific, ta:, courtesy, fi:, glory, el:, rate, el:, price
+seven: 
 private: sw:, personal, sw:, self, sw:, personally, ar:, special, id:, privacy, tr:, specific, tr:, exclusive
 sit: sw:, stay, sw:, settle
 news: ta:, message
 scene: zh:, site, ar:, sight, vi:, context, ta:, display, ta:, visual, fa:, stage, fi:, view, fi:, prospect, el:, tent, mr:, appearance
 garden: sw:, gardener, id:, park
-race: zh:, racial, hi:, racing, sw:, running, fa:, contest, fa:, tournament, it:, tender, fi:, breed, el:, match, bn:, nation, pa:, scramble, ja:, lace, hu:, competition
+race: zh:, racial, hi:, racing, sw:, running, fa:, contest, fa:, tournament, it:, tender, fi:, breed, el:, match, bn:, nation, pa:, scramble, ja:, lace
 distributive-case: 
 learn: id:, study, cy:, teach, mr:, intentional
 political: zh:, politics, zh:, politically, ar:, politician, fr:, policy
@@ -416,7 +420,7 @@ determined: zh:, determination, sw:, decide, sw:, determine, sv:, definite, sv:,
 pain: vi:, hurt, ru:, anguish, ta:, painful, fr:, grief, pl:, sore, mr:, agony
 spring: de:, feather, sv:, our, sv:, ours
 soft: hi:, concessive, sw:, smooth, sw:, finely, id:, tender, id:, gently, id:, softly, vi:, gentle, vi:, bland, ru:, mild, jv:, delicate, jv:, innate
-corner: id:, angle, jv:, wide, hu:, heel
+corner: id:, angle, jv:, wide
 trademark: zh:, lately, zh:, alike, zh:, electronically, zh:, applicable, zh:, defective, zh:, accordingly, zh:, steadily, zh:, silently, zh:, convey, zh:, furnish, zh:, proofread, zh:, meantime, zh:, abide, zh:, inquire, zh:, incomplete, zh:, donation, zh:, loudly, zh:, sue, zh:, ma'am, zh:, beforehand, zh:, subscribe, zh:, aboard, zh:, attain, zh:, compliment, zh:, anyhow, zh:, sunny, zh:, excellence, zh:, scenery, zh:, monument, zh:, escort, zh:, appreciation, zh:, excessive, zh:, attendant, zh:, petition, zh:, disposal, zh:, wisely, zh:, exclusively, zh:, newsletter, zh:, paperwork, zh:, thrill, zh:, await, zh:, guidance, zh:, repeatedly, zh:, profitable, zh:, patron, zh:, inspection, zh:, luncheon, zh:, popularity, zh:, baker, zh:, sleepy, zh:, payable, zh:, circuit, zh:, energetic, zh:, fortunately, zh:, explanatory, zh:, resume, zh:, intently, zh:, superb, zh:, confidential, zh:, housekeeper, zh:, spacious, zh:, renew, zh:, dispose, zh:, oblige, zh:, pamphlet, zh:, detach, zh:, familiarity, zh:, terrific, zh:, attire, zh:, antique, zh:, founder, zh:, exceptional, zh:, excursion, zh:, snowy, zh:, accomplishment, zh:, icy, zh:, inconvenience, zh:, banker, zh:, discontinue, zh:, signify, zh:, yearly, zh:, permanently, zh:, rainy, zh:, beneficial, zh:, reluctant, zh:, termination, zh:, renown, zh:, circus, zh:, advancement, zh:, completion, zh:, unlimited, zh:, interpreter, zh:, instruct, zh:, spectator, zh:, imperative, zh:, refreshment, zh:, temporarily, zh:, dispatch, zh:, omit, zh:, dock, zh:, infer, zh:, foreman, zh:, courier, zh:, cloudy, zh:, hereby, zh:, editorial, zh:, fiscal, zh:, willingness, zh:, poorly, zh:, administer, zh:, economical, zh:, chilly, zh:, administrative, zh:, subscription, zh:, unfamiliar, zh:, conform, zh:, affirmative, zh:, considerate, zh:, invaluable, zh:, accommodate, zh:, apprentice, zh:, unreal, zh:, vacancy, zh:, needy, zh:, apprehensive, zh:, terminate, zh:, conveniently, zh:, cleanliness, zh:, distraction, zh:, incur, zh:, descriptive, zh:, hazardous, zh:, cumulative, zh:, refresh, zh:, basement, zh:, celebrity, zh:, windy, zh:, daytime, zh:, drought, zh:, collector, zh:, dedication, zh:, expiration, zh:, healthful, zh:, cooler, zh:, translator, zh:, tow, zh:, occupant, zh:, bankrupt, zh:, transit, zh:, consistently, zh:, evenly, zh:, broker, zh:, designate, zh:, enclose, zh:, protective, zh:, prescribe, zh:, homeless, zh:, faulty, zh:, jewelry, zh:, query, zh:, punctual, zh:, distract, zh:, lengthy, zh:, urgently, zh:, verify, zh:, enthusiast, zh:, recur, zh:, introductory, zh:, shorten, zh:, journalism, zh:, reunion, zh:, recipient, zh:, reminder, zh:, postal, zh:, duplicate, zh:, booth, zh:, overnight, zh:, consecutive, zh:, expire, zh:, fluent, zh:, explorer, zh:, advisor, zh:, postage, zh:, authorize, zh:, drawback, zh:, seaside, zh:, cartridge, zh:, proficiency, zh:, intonation, zh:, contractor, zh:, notify, zh:, accessory, zh:, ballroom, zh:, unpaid, zh:, discard, zh:, generator, zh:, skim, zh:, inefficient, zh:, salesman, zh:, concierge, zh:, auto, zh:, frustrate, zh:, tuition, zh:, installation, zh:, accustom, zh:, caller, zh:, handbook, zh:, rehearse, zh:, nutrition, zh:, junk, zh:, quarterly, zh:, periodically, zh:, culinary, zh:, illogical, zh:, collaboration, zh:, unattended, zh:, thunderstorm, zh:, serial, zh:, tablecloth, zh:, discrepancy, zh:, sewer, zh:, certify, zh:, paraphrase, zh:, locker, zh:, reconsider, zh:, pant, zh:, evacuate, zh:, graduation, zh:, occupancy, zh:, hygiene, zh:, shipment, zh:, seeker, zh:, downtown, zh:, jog, zh:, congestion, zh:, inexpensive, zh:, teller, zh:, diploma, zh:, waive, zh:, humidity, zh:, subscriber, zh:, unreliable, zh:, yen, zh:, disruption, zh:, spa, zh:, genre, zh:, acclaim, zh:, documentary, zh:, auditorium, zh:, economize, zh:, expedite, zh:, browse, zh:, disable, zh:, ideally, zh:, organizer, zh:, overdue, zh:, authorization, zh:, reopen, zh:, broaden, zh:, classmate, zh:, vacate, zh:, vendor, zh:, itinerary, zh:, deduct, zh:, warranty, zh:, mileage, zh:, appliance, zh:, overtime, zh:, invoice, zh:, provider, zh:, dental, zh:, oversee, zh:, pharmacy, zh:, enroll, zh:, rearrange, zh:, reimburse, zh:, revolutionize, zh:, worldwide, zh:, teen, zh:, respondent, zh:, debit, zh:, amenity, zh:, mower, zh:, diner, zh:, caterer, zh:, flyer, zh:, mandatory, zh:, coupon, zh:, turnover, zh:, someday, zh:, hesitant, zh:, homemade, zh:, additionally, zh:, cancellation, zh:, devastate, zh:, appraisal, zh:, stockholder, zh:, certification, zh:, businessman, zh:, hardworking, zh:, venue, zh:, unsure, zh:, firework, zh:, footwear, zh:, rebate, zh:, vend, zh:, gym, zh:, brochure, zh:, taker, zh:, managerial, zh:, disconnect, zh:, merger, zh:, contestant, zh:, commute, zh:, nationwide, zh:, payroll, zh:, developer, zh:, placement, zh:, disrupt, zh:, anytime, zh:, refinery, zh:, ongoing, zh:, internationally, zh:, entrepreneur, zh:, medication, zh:, adapter, zh:, pharmaceutical, zh:, weekday, zh:, unspecified, zh:, knowledgeable, zh:, doorman, zh:, subsidize, zh:, informative, zh:, factual, zh:, intern, zh:, technician, zh:, cookbook, zh:, creativity, zh:, e-book, zh:, workplace, zh:, memo, zh:, innovative, zh:, sticker, zh:, cafeteria, zh:, mini, zh:, upgrade, zh:, renter, zh:, takeover, zh:, copier, zh:, organizational, zh:, obligate, zh:, lightweight, zh:, overpay, zh:, stereo, zh:, paperback, zh:, relocation, zh:, penalize, zh:, upcoming, zh:, freelance, zh:, prestigious, zh:, streamline, zh:, newsstand, zh:, opt, zh:, deluxe, zh:, validate, zh:, lunchtime, zh:, malfunction, zh:, overcrowd, zh:, salespeople, zh:, promotional, zh:, paycheck, zh:, trainee, zh:, environmentally, zh:, realtor, zh:, preview, zh:, layoff, zh:, publicize, zh:, condominium, zh:, hotline, zh:, wristwatch, zh:, allergy, zh:, customize, zh:, restroom, zh:, reschedule, zh:, finalize, zh:, redecorate, zh:, headphone, zh:, announcer, zh:, advisory, zh:, enrollment, zh:, costly, zh:, getaway, zh:, airfare, zh:, renewal, zh:, affordable, zh:, fundraise, zh:, advertiser, zh:, remodel, zh:, automotive, zh:, unplug, zh:, fluctuate, zh:, flextime, zh:, rental, zh:, showroom, zh:, outdate, zh:, reviewer, zh:, inventory, zh:, cheeseburger, zh:, renovate, zh:, paralegal, zh:, dependable, zh:, departmental, zh:, relocate, zh:, distractor, zh:, healthcare, zh:, repairperson, zh:, shopper, zh:, worthwhile, zh:, redesign, zh:, reassure, zh:, dissatisfy, zh:, recreational, zh:, downturn, zh:, hourly, zh:, downsize, zh:, unused, zh:, inexperience, zh:, dealership, zh:, renovation, zh:, résumé, zh:, unavailable, zh:, unauthorize, zh:, outage, zh:, architectural, zh:, recruiter, zh:, reimbursement, zh:, complimentary, zh:, restatement, zh:, café, zh:, entrée, zh:, recruitment, zh:, purchaser, zh:, photocopier, zh:, personalize, zh:, anew, zh:, storeroom, zh:, coworker, zh:, by-law, zh:, boardroom, zh:, misidentify, zh:, workbook, zh:, wellness, zh:, advisable, zh:, cordless, zh:, workforce, zh:, professionally, zh:, internship, zh:, homeowner, zh:, sender, zh:, instructor, zh:, donut, zh:, purser, zh:, videoconference, zh:, underway, zh:, familiarize, zh:, beginner, zh:, hiker, zh:, smartphone, zh:, authentic, zh:, efficiently, zh:, refundable, zh:, drastically, zh:, enthusiastically, zh:, charitable, zh:, timeline, zh:, telecommunication, zh:, automate, zh:, audition, zh:, attendee, zh:, housekeep, zh:, webpage, zh:, assemble, zh:, coordinator, zh:, consignment, zh:, incoming, hi:, the, ru:, an, ru:, a, cy:, submit, cy:, strengthen, bn:, checkup, bn:, raincoat, bn:, extinguisher, bn:, receptionist, bn:, sunscreen, bn:, presenter, bn:, projector, bn:, skateboard, bn:, electrician, bn:, toiletry, bn:, centimeter, pa:, purse, pa:, hesitation, pa:, confirmation, pa:, cab, pa:, cargo, pa:, habitual, pa:, casual, pa:, hazard, pa:, tailor, pa:, violin, pa:, gardener, pa:, carpenter, pa:, vase, pa:, gum, pa:, periodical, pa:, sidewalk, pa:, hurricane, pa:, scarf, pa:, picnic, pa:, vanilla, pa:, badge, pa:, dessert, pa:, arc, pa:, prospective, pa:, warehouse, pa:, cashier, pa:, pad, pa:, pastry, pa:, librarian, pa:, gymnasium, pa:, crane, pa:, chef, pa:, generic, pa:, cleaner, pa:, waitress, pa:, counselor, pa:, stationery, pa:, massage, pa:, bakery, pa:, sedan, pa:, microwave, pa:, plumber, pa:, grill, pa:, stockbroker, pa:, booklet, pa:, hamburger, pa:, heater, pa:, cosmetic, pa:, barbecue, pa:, popcorn, pa:, reflexive, pa:, logo, pa:, tuna, pa:, appetizer, pa:, timer, pa:, pharmacist, pa:, commuter, pa:, carton, pa:, blueprint, pa:, briefcase, pa:, escalator, pa:, lifeguard, pa:, letterhead, pa:, dishwasher, pa:, backpack, pa:, seafood, pa:, wheelchair, pa:, walkway, pa:, volleyball, pa:, conditioner, pa:, stapler, pa:, sauna, pa:, checkout, pa:, toner, ja:, industry, jv:, shake
 produce: zh:, production, sw:, generate, vi:, productive, tr:, fabricate, ta:, manufacture, ta:, manufacturing, ja:, crop, ja:, crops, te:, product, mr:, creation, mr:, formation
 laugh: lt:, jest, ja:, laughter
@@ -434,13 +438,13 @@ perfectly: hi:, entirely, hi:, fully, hi:, completely, hi:, totally, sw:, active
 memory: zh:, memorize, sw:, reference, sw:, memorial, he:, trace
 grave: zh:, serious, zh:, severe, zh:, heavily, ta:, cemetery, mr:, critical
 modern: sw:, contemporary, sw:, sophisticated, sw:, modernize, sv:, fashionable, ar:, recent, ar:, discourse, bn:, latter, te:, advanced, ko:, nowadays
-spot: zh:, point, zh:, dot, zh:, o'clock, hi:, location, sw:, stain, ar:, patch, id:, place, id:, nowhere, id:, premises, id:, locus, vi:, site, pt:, local, it:, locate, el:, sign, jv:, colon, hu:, freckle
+spot: zh:, point, zh:, dot, zh:, o'clock, hi:, location, sw:, stain, ar:, patch, id:, place, id:, nowhere, id:, premises, id:, locus, vi:, site, pt:, local, it:, locate, el:, sign, jv:, colon
+rise: sw:, plant, sw:, climbing, sw:, sow, sw:, climb, id:, up, id:, board, id:, ride, ru:, uplift, fi:, arise, el:, raise, pl:, emergence, sr:, grow, jv:, upward, jv:, upwards
 break: zh:, break-in, hi:, brake, sw:, resort, sw:, lounge, de:, interruption, ta:, interval, ta:, gap, fr:, smash, fr:, shatter, pt:, stop, fi:, pause, el:, interrupt, te:, restless
-fifty: 
 island: 
 touch: el:, contact, jv:, tap
 equal: hi:, equivalent, sw:, same, sw:, similar, sw:, rightly, sw:, ok, sw:, all-right, sv:, equally, vi:, degree, ta:, par, ko:, identical
-shore: ar:, backup, pa:, brink, ja:, coast, hu:, strand
+shore: ar:, backup, pa:, brink, ja:, coast
 promise: zh:, commit, zh:, commitment, sw:, pledge, id:, appointment, he:, assurance
 commissive-mood: 
 plan: hi:, scheme, sw:, deal, sw:, program, sw:, programme, sw:, initiative, vi:, planner, ru:, blueprint, ta:, proposal, ta:, project, fa:, plot, fa:, sketch, fa:, projection, fa:, layout, pt:, flat, el:, drawing, el:, design, jv:, proposition, te:, planning, mr:, contemplation
@@ -448,11 +452,11 @@ surprise: id:, astonishing, vi:, unexpected, vi:, accidental, ta:, surprising, b
 minute: 
 shot: zh:, shoot, zh:, shooting, sw:, bullet, sw:, ammunition, fa:, photograph, fa:, photo, fr:, blow, fr:, bang, fr:, coup, el:, throw, lt:, frame, he:, kick
 lead: hi:, leadership, ar:, leading, ar:, steer, tr:, bullet, fr:, drive, cy:, guide, sr:, bring, jv:, lean
-glass: sw:, mirror, sw:, crystal, de:, jar, ta:, glasses, jv:, page, jv:, export, hu:, bottle
+glass: sw:, mirror, sw:, crystal, de:, jar, ta:, glasses, jv:, page, jv:, export
 instance: zh:, example, hi:, illustration, sw:, model, sw:, pattern, sw:, metaphor, sw:, prototype, ar:, as, ar:, represent, id:, specimen, vi:, case, tr:, precedent, tr:, sample, el:, paradigm, pa:, illustrate, ko:, yes
 safe: zh:, secure, zh:, safety, zh:, security, sw:, safely, sv:, confident, pt:, insurance, he:, sure, jv:, harmless, jv:, removal
 doctor: hi:, physician, hi:, therapist, sw:, practitioner, pt:, medical, pa:, dentist
-class: zh:, kind, hi:, orbit, hi:, classroom, de:, grade, ar:, separation, vi:, layer, fi:, category, el:, rank, cy:, district, hu:, division, hu:, department
+class: zh:, kind, hi:, orbit, hi:, classroom, de:, grade, ar:, separation, vi:, layer, fi:, category, el:, rank, cy:, district
 completive-aspect: 
 repeated: sw:, frequently, sw:, regular, sw:, constant, sw:, constantly, sw:, occasionally, sw:, frequent, sw:, regularly, sw:, periodical, te:, repetition, ko:, repeat, ko:, repeating, mr:, revision, mr:, iteration
 military: ko:, county
@@ -464,11 +468,11 @@ hat: hi:, cap, sw:, helmet
 dog: 
 servant: id:, steward, id:, waiter, id:, waitress, tr:, maid, jv:, slave, ko:, domestic
 pride: sw:, arrogant, ta:, proud, it:, proudly, pa:, hubris
-crowd: hi:, rush, hi:, crowded, hi:, mob, de:, amount, de:, quantity, fa:, population, el:, host, sr:, pile, jv:, much, jv:, many, jv:, numerous, jv:, seriously, jv:, ample, jv:, bulk, ko:, herd, hu:, mass
+crowd: hi:, rush, hi:, crowded, hi:, mob, de:, amount, de:, quantity, fa:, population, el:, host, sr:, pile, jv:, much, jv:, many, jv:, numerous, jv:, seriously, jv:, ample, jv:, bulk, ko:, herd
 train: hi:, carriage, hi:, car, hi:, wagon, hi:, cart, ta:, railway, ta:, rail, fi:, educate
 moral: zh:, morality, zh:, morally, hi:, ethical, sw:, ethics, id:, morale, tr:, spiritual
 greek: 
-fit: zh:, suit, id:, suitable, id:, suited, id:, compatible, tr:, proper, tr:, convenient, tr:, appropriate, tr:, correspond, tr:, eligible, tr:, relevant, cy:, accord, he:, adjust, jv:, exact, jv:, precise, jv:, coincide, hu:, corresponding, hu:, adequate, hu:, matching
+fit: zh:, suit, id:, suitable, id:, suited, id:, compatible, tr:, proper, tr:, convenient, tr:, appropriate, tr:, correspond, tr:, eligible, tr:, relevant, cy:, accord, he:, adjust, jv:, exact, jv:, precise, jv:, coincide
 enter: sw:, log, sw:, entry, sv:, state, sv:, indicate, ar:, insert, id:, include, te:, register, te:, registration
 rule: sw:, administration, sw:, domination, sw:, regime, ar:, judgment, ar:, verdict, ar:, judgement, ar:, referee, ta:, govern, fa:, law, fa:, legislation, el:, norm, pa:, state, jv:, regulate, te:, reign, mr:, regulation, mr:, prescription
 sword: tr:, blade, te:, knife
@@ -486,7 +490,7 @@ glance: zh:, glimpse, sw:, view, sw:, attitude, sw:, perception, sw:, outlook, r
 spread: hi:, detail, hi:, extend, hi:, extension, hi:, expansion, hi:, expand, sw:, widespread, ar:, prevalence, tr:, diffusion, pt:, scatter, te:, penetrate, te:, amplitude, mr:, circulate
 opposite: hi:, front, sw:, opposed, sw:, contrary, sv:, opposing, ar:, versus, tr:, across, ta:, counter, pa:, unlike, pa:, contradict, pa:, invert, pa:, flip, he:, against, ja:, opposition, te:, anti, mr:, reverse
 twelve: jv:, dozen
-engaged: zh:, engagement, hi:, busy, sw:, involved, cy:, participate, pl:, occupied, jv:, engage, jv:, fold, ko:, pragmatic, mr:, inverse, hu:, devoted
+engaged: zh:, engagement, hi:, busy, sw:, involved, cy:, participate, pl:, occupied, jv:, engage, jv:, fold, ko:, pragmatic, mr:, inverse
 wine: vi:, alcohol, ta:, alcoholic
 taste: zh:, flavor, zh:, flavour, sw:, delicious, ar:, bait, it:, zest
 iron: sw:, steel, sw:, metal
@@ -497,6 +501,7 @@ anxious: zh:, emergency, zh:, urgency, hi:, concerned, hi:, alarmed, hi:, worrie
 captain: 
 cessative-aspect: 
 foreign: zh:, abroad, hi:, alien, hi:, foreigner, hi:, exotic, tr:, stranger, fa:, external, pa:, overseas
+intensifier: ar:, intensify
 importance: sw:, necessity, sw:, relevance, de:, meaning, pa:, significance, jv:, crucial, ko:, emphasis
 finally: hi:, ultimately, sw:, eventually, de:, finite, vi:, final, vi:, ultimate, vi:, terminal, ta:, finely, pa:, end, pa:, overthrow
 prove: zh:, proof, sw:, confirm, sw:, affirm, vi:, demonstrate, fi:, testify, ko:, understand, mr:, axiom
@@ -514,10 +519,9 @@ narrow: sw:, thin, ar:, tight, ta:, short, pt:, confine, pa:, annoying, he:, min
 building: ar:, build, ar:, structure, ar:, construct, pt:, construction, el:, premises, mr:, skeleton
 search: hi:, find, hi:, discover, hi:, discovery, hi:, quest, hi:, detection, id:, seeking, fr:, seek, pt:, research, pt:, survey, it:, pursuit, el:, inquiry, el:, investigation, el:, enquiry, pa:, exploration, mr:, invention
 sad: hi:, depressed, de:, sadly, id:, miserable, tr:, upsetting, ta:, upset, ta:, remorse, mr:, unhappy
-sin: fa:, guilt, te:, sadly, mr:, commit, hu:, crime
-thirty: pa:, thirteen
+sin: fa:, guilt, te:, sadly, mr:, commit
 sick: zh:, ill, id:, sore, vi:, illness, fa:, patient, ja:, sickness
-honest: hi:, sincere, sw:, loyal, de:, honestly, id:, frank, he:, straight, jv:, dishonest, hu:, fair
+honest: hi:, sincere, sw:, loyal, de:, honestly, id:, frank, he:, straight, jv:, dishonest
 bank: de:, bench, ru:, tin
 forest: tr:, jungle, te:, forestry
 measure: zh:, gauge, zh:, measurement, sw:, weigh, el:, metre, el:, meter
@@ -533,14 +537,13 @@ multiplicative-case:
 obtain: zh:, gain, zh:, acquire, zh:, acquisition, hi:, receive, sw:, get, sw:, find, sw:, secure, de:, preserve, de:, sustain, id:, derive, ru:, fetch, cy:, have, he:, accomplish, he:, achieve, ko:, marry
 cross: hi:, across, sw:, crossing, ta:, pass, fi:, exceed, pa:, penetrate
 thick: hi:, obese, de:, thickly, el:, dense, pl:, fat
-grow: el:, cultivate, sr:, rise, ko:, growth
 rain: sw:, wet, sw:, rainfall, ta:, shower, jv:, precipitation, ko:, non, ko:, broom
 quietly: 
-surface: sw:, face, fa:, level, fa:, plane, pl:, area, te:, substrate, hu:, interface
+surface: sw:, face, fa:, level, fa:, plane, pl:, area, te:, substrate
 holy: sw:, sacred, ko:, glorious
 july: 
 fashion: sw:, fashionable, fa:, manner, fa:, method, fa:, approach, fa:, procedure
-report: ar:, determination, ta:, statement, fr:, ratio, it:, relation, it:, relationship, el:, fair, el:, exhibition, el:, essay, el:, exposure, hu:, meaning
+report: ar:, determination, ta:, statement, fr:, ratio, it:, relation, it:, relationship, el:, fair, el:, exhibition, el:, essay, el:, exposure
 file: zh:, document, id:, lodge, vi:, profile, pt:, archive
 shoulder: sv:, shaft, sv:, axis, vi:, portrayal, fa:, comb, pl:, arm
 royal: sw:, imperial, sw:, monarchy, id:, kingdom, id:, empire, pt:, real, pt:, actual
@@ -555,6 +558,7 @@ capital: el:, chapter, el:, fund, el:, asset
 breast: de:, chest, jv:, milk
 education: zh:, educate, hi:, lesson, sw:, educational, sw:, literacy, de:, formation, sv:, training, vi:, educated, ta:, academic, pa:, instruction, mr:, teach, mr:, teaching
 sharp: sw:, bright, sw:, fierce, sw:, strict, de:, sharply, de:, spicy, ar:, pointed, ar:, acute, id:, keen, fi:, crisp, jv:, clearly, mr:, glare
+group: zh:, set, hi:, cluster, hi:, conglomerate, sw:, flock, sw:, herd, ar:, collection, ar:, combination, ar:, array, id:, troop, ru:, band, ta:, board, ta:, committee, ta:, panel, pt:, bunch, fi:, squad, el:, team, ja:, groups
 expense: zh:, fee, hi:, expenditure, sw:, cost, de:, edition, de:, output, id:, charge, mr:, spend
 yours: zh:, your
 million: sw:, millionth
@@ -562,6 +566,7 @@ pray: sv:, ask, ta:, prayer, bn:, beg, ko:, borrow
 tired: sw:, fatigue, ar:, tiring
 kill: hi:, murder, ar:, killing, ko:, eliminate
 shadow: hi:, shade
+mass: zh:, quality, hi:, collective, sw:, quantity, sw:, bulk, sw:, plural, sv:, lot, ar:, lump, ar:, cluster, id:, mob, fa:, offence, pt:, dough, pt:, pasta
 established: hi:, install, sw:, solid, sw:, firmly, sw:, stable, fa:, creation, fa:, establish, fi:, incumbent, ja:, founds, te:, establishment, te:, formation, te:, setup
 satisfied: zh:, pleased, zh:, satisfaction, zh:, contentment, tr:, glad, ta:, satisfy, ta:, satisfying, bn:, content
 check: zh:, cheque, sw:, look, sw:, watch, sv:, checkup, ar:, choice, id:, examine, id:, inspect, vi:, examination, vi:, test, vi:, audit, vi:, checkout, tr:, intermediate, fa:, survey, fa:, investigate, fr:, ascertain, fi:, revise, el:, control
@@ -612,6 +617,7 @@ december:
 happen: zh:, occur, zh:, occurrence, hi:, be, sw:, arise, tr:, what, tr:, nor, tr:, neither, fr:, arrive
 absence: zh:, absent, ru:, lack, pl:, shortage
 thank: zh:, gratitude, zh:, grateful, hi:, thanks, hi:, thank-you, he:, admit, he:, acknowledge, he:, concede, ko:, appreciate, ko:, auditor
+series: ar:, chain, tr:, string, tr:, array, tr:, sequence, fi:, set, el:, turn, el:, range, el:, row
 address: pa:, find
 bird: sw:, flight, sw:, plane, sw:, jet, sw:, aircraft, sw:, airplane, sw:, airline, jv:, owl
 coat: sw:, gown, sv:, cover, ar:, jacket, lt:, fur
@@ -623,7 +629,6 @@ machine: sw:, machinery, id:, engine, fi:, plane
 moving: zh:, move, zh:, mobile, id:, budge, el:, movement, el:, motion, ja:, migrate, jv:, tick
 teeth: hi:, tooth, id:, gear, ko:, this, ko:, louse
 shame: zh:, disgrace, sw:, ashamed, sw:, shy, sw:, embarrassed, sw:, embarrassing, sw:, embarrassment, ar:, bare, ar:, naked, ta:, insult, sr:, outrage
-quality: zh:, mass, sw:, qualitative, sv:, grade, mr:, merit
 brain: tr:, mastermind, fa:, marrow
 ring: sv:, petty, sv:, dial, fa:, curl, fa:, loop, fi:, tire, fi:, tyre
 phrase-marker: 
@@ -633,10 +638,9 @@ tea: pa:, yearn, ko:, car, ko:, quadratic
 explain: zh:, explanation, zh:, illustrate, sw:, express, sw:, articulate, de:, declare, id:, clarify, vi:, interpret, fa:, comment, pa:, interpretation, ja:, describe, ko:, descriptor
 welcome: zh:, greeting, hi:, reception, sw:, entertain, ar:, hey, ar:, hi, id:, greet
 poetry: zh:, poem, zh:, verse, ko:, municipal, ko:, o'clock
-buy: sw:, purchase, vi:, acquire, ta:, afford, el:, market, he:, shop, jv:, cheaply, ko:, invest, mr:, shopping, hu:, reception
+buy: sw:, purchase, vi:, acquire, ta:, afford, el:, market, he:, shop, jv:, cheaply, ko:, invest, mr:, shopping
 faithful: sw:, dishonest, de:, loyal, de:, faithfully, id:, devoted, ru:, correct, fi:, reliable
 excitement: hi:, stimulation, sw:, excited, de:, fuss, sv:, tension, ar:, provoke, id:, joy, pt:, arousal, el:, flush, pa:, enthusiasm, pa:, zeal, pa:, enthusiastic, pa:, urgency, mr:, sensation
-forty: 
 april: 
 october: 
 bitter: zh:, hardship, sw:, agony, sw:, anguish, id:, bitterly, tr:, suffering, tr:, painful, tr:, sting, ko:, written
@@ -649,6 +653,7 @@ capable: hi:, enable, hi:, competent, sw:, able, sw:, capacity, sw:, ability, sw
 fifteen: 
 cruel: ru:, fierce, el:, tough, pa:, unkind
 join: id:, participate, vi:, attend, vi:, involved, vi:, embark, vi:, adhere, vi:, participant, vi:, involvement, el:, unite, lt:, connect, pa:, newcomer, jv:, integrate
+crime: hi:, guilt, ar:, offence, ar:, offense, te:, criminal
 dust: sv:, dam, tr:, powder, te:, dirt
 practical: zh:, functional, hi:, pragmatic, de:, practically, de:, convenient, de:, virtually, de:, handy, fa:, applied
 colour: zh:, color, hi:, paint, hi:, dye, sw:, pale, sw:, coloured, sw:, colorful, fi:, flush, jv:, street, jv:, coding
@@ -659,6 +664,7 @@ friendly: hi:, suited, hi:, favorable, hi:, congruent, de:, kindly, tr:, sincere
 yesterday: hi:, tomorrow, pa:, nowadays
 hesternal-tense: 
 fail: zh:, failure, hi:, unsuccessful, sw:, defeat, cy:, unable, pl:, confound, pl:, disappoint
+continue: zh:, proceed, sw:, continuous, sw:, persistent, vi:, continuation, ta:, constantly, fa:, persist, pa:, allocate, jv:, hold, jv:, onwards, ko:, connect, mr:, begin, mr:, perform
 remove: sw:, rid, sw:, withdraw, sw:, eliminate, sw:, elimination, id:, wipe, id:, erase, ru:, delete, fi:, abolish, el:, subtract, cy:, draw, cy:, pull, pl:, expel, ko:, absorb
 wear: de:, carry, fr:, porter
 blind: 
@@ -707,7 +713,7 @@ innocent: jv:, clean
 queen: 
 dance: sw:, drum, ar:, dancing, vi:, jump, vi:, skip
 hotel: ta:, accommodation
-fill: jv:, content, jv:, contents, hu:, spend
+fill: jv:, content, jv:, contents
 prisoner: he:, convict
 stairs: zh:, staircase, zh:, stair, sw:, ladder, ar:, drawer
 gay: pa:, homosexual
@@ -726,10 +732,9 @@ conclusion: id:, inference, ru:, withdrawal, ru:, output, ru:, implication, ta:,
 computer: sw:, computing
 eternal: sw:, ever, sw:, forever, tr:, infinite, te:, permanent
 library: sw:, librarian, fr:, bookcase
-confusion: tr:, mess, ta:, chaos, it:, fuss, it:, confusing, pa:, confused, mr:, anarchy, hu:, disturb, hu:, bother, hu:, embarrassment
+confusion: tr:, mess, ta:, chaos, it:, fuss, it:, confusing, pa:, confused, mr:, anarchy
 article: zh:, essay, de:, item, he:, section, he:, clause, te:, diameter, ko:, engineer
 cook: zh:, chef, id:, cooking, fa:, bake, pl:, boil
-band: zh:, belt, de:, ribbon, de:, tape, ar:, squad, ru:, group, fr:, strip, fr:, stripe, el:, zone, pl:, strand, sr:, bunch, sr:, cluster, lt:, lane, hu:, orchestra
 desert: id:, wilderness, pt:, deserted
 kiss: 
 ice: de:, ice-cream, vi:, tape, ta:, snow
@@ -758,7 +763,7 @@ reported-evidential:
 unfortunate: zh:, unfortunately, hi:, unlucky, sw:, coincidence, sv:, unhappy, ru:, miserable, lt:, inadequate, lt:, incongruous, lt:, inappropriate
 midnight: pl:, north
 hero: sw:, warrior, ar:, champion
-finger: tr:, toe, ko:, digit, hu:, sleeve
+finger: tr:, toe, ko:, digit
 press: sw:, media, ta:, magazine, ta:, journal, it:, printing, el:, type, el:, formula, ja:, push
 reward: hi:, prize, sw:, gift, tr:, award, fa:, bonus, ko:, compensation, ko:, compensate
 blame: hi:, fault, hi:, defect, hi:, flaw, de:, debt, de:, guilt, fa:, snub, fi:, prosecute, el:, liability, el:, responsibility, pa:, accuse, pa:, allege, ko:, condemn, ko:, denounce
@@ -768,7 +773,7 @@ ad: zh:, advertisement, zh:, advertising, zh:, advertise, zh:, advert, sw:, anno
 angel: ar:, landowner, ta:, fairy, jv:, tough, jv:, tricky, te:, messenger
 fame: ru:, glory, ta:, reputation, el:, rumour, el:, rumor, he:, advertising, he:, publicity, ko:, prestige
 singular-number: 
-dawn: de:, twilight, hu:, orient
+dawn: de:, twilight
 forgive: zh:, excuse, sv:, pardon, vi:, tolerate, lt:, exempt, lt:, relieve, lt:, dismiss, ko:, forgiveness
 sheep: sw:, lamb, jv:, goat, ko:, amount, ko:, positive
 patience: hi:, fortitude, sw:, forbearance, jv:, patient, jv:, impatient, jv:, tolerant, te:, tolerance, mr:, restraint
@@ -797,18 +802,20 @@ community: sw:, society, sw:, category, id:, people
 oil: sw:, fat, sw:, fuel, sw:, fossil, sw:, marrow, sw:, thermal, ru:, butter
 pipe: zh:, tube, sw:, tap, sw:, faucet, ar:, poop
 print: tr:, edition, tr:, pressure, tr:, printing, ta:, axis, ta:, mold, fr:, impression
+oh: ar:, ya, mr:, array
 discourse-context: 
 vocative-case: 
 cabin: sv:, cottage, vi:, tent, vi:, lodge, he:, chamber, he:, cell, he:, compartment
 nervous: zh:, tense, hi:, confused, hi:, disturb, hi:, upset, hi:, embarrassed, hi:, disturbing, hi:, harass, hi:, upsetting, ar:, neural, vi:, worried, tr:, nerve, ko:, strong, ko:, powerful, ko:, intensive
-distinction: zh:, respectively, sw:, differently, sw:, variations, id:, diversity, bn:, differ, pa:, distinguish, pa:, gap, pa:, differentiate, mr:, difference, mr:, contrast, mr:, variation, mr:, variance, hu:, discrimination
+distinction: zh:, respectively, sw:, differently, sw:, variations, id:, diversity, bn:, differ, pa:, distinguish, pa:, gap, pa:, differentiate, mr:, difference, mr:, contrast, mr:, variation, mr:, variance
 burden: bn:, perceive, bn:, load
 silk: te:, grasp, te:, grip
 contempt: zh:, despise, hi:, hatred, hi:, dislike, hi:, disgust, hi:, loathing, id:, snub, tr:, insult, tr:, outrage, ta:, negligence
 hell: 
 separated: zh:, separate, hi:, aside, hi:, apart, hi:, distinct, hi:, differ, hi:, separately, hi:, aloof, hi:, discrete, sw:, isolation, sw:, ostracize, tr:, delimited, cy:, separation, te:, distinguish, ko:, isolate, ko:, disjunction
 mixed: sw:, mixture, sw:, combination, vi:, composite, fa:, mix, fr:, joint, jv:, fusion
-treat: zh:, treatment, zh:, therapy, hi:, cure, sv:, process, ru:, consider, ta:, therapist, fa:, remedy, fr:, deal, sr:, heal, bn:, behave, te:, aid, ko:, chin, ko:, jaw, hu:, delight, hu:, enjoyment
+wooden: zh:, wood, sw:, timber
+treat: zh:, treatment, zh:, therapy, hi:, cure, sv:, process, ru:, consider, ta:, therapist, fa:, remedy, fr:, deal, sr:, heal, bn:, behave, te:, aid, ko:, chin, ko:, jaw
 warning: zh:, caution, zh:, warn, hi:, alert, id:, memorial, cy:, notice
 admonitive-mood: 
 ambition: sw:, disappointed, sw:, disappointment, sw:, lust, sw:, discourage, ar:, ambitious
@@ -818,6 +825,7 @@ constitution: sw:, charter, ta:, constitutional, mr:, incident, mr:, occurrence
 instrument: hi:, tool, sw:, vessel, sw:, entity, sw:, organ, sw:, container, fa:, utility, bn:, device
 steady: zh:, stable, zh:, stabilize, hi:, regular, hi:, regularly, ar:, fixed, ar:, constant, tr:, constantly, tr:, continuous, ru:, sustainable, ta:, standard, ta:, static, fa:, fix, cy:, consistent, pl:, permanent, he:, stationary, jv:, relaxed
 elements: sw:, factors, bn:, element, bn:, component, bn:, ingredient, bn:, components, pa:, essence, mr:, ally, mr:, factor, mr:, parameter
+continuous-aspect: 
 online: 
 tide: ru:, wave, sr:, snap
 college: zh:, faculty, zh:, academy, sw:, campus, vi:, university
@@ -828,7 +836,7 @@ direct-evidential:
 abandoned: sw:, neglect, de:, leave, de:, deserted, de:, quit, de:, abandon, te:, dissolve, te:, cancel
 eleven: 
 instinct: hi:, spontaneous
-tribe: de:, trunk, sv:, stem, cy:, load, ko:, lack, ko:, lacking, ko:, deficiency, ko:, deficit, ko:, shortage, hu:, strain
+tribe: de:, trunk, sv:, stem, cy:, load, ko:, lack, ko:, lacking, ko:, deficiency, ko:, deficit, ko:, shortage
 apprehensive-mood: 
 shelter: hi:, resort, sw:, residence, sw:, settlement, sw:, habitat, sw:, residential, de:, protection, ta:, dorm, cy:, asylum, bn:, harbor
 rude: zh:, rudely, id:, rough, id:, unkind, ko:, harsh
@@ -838,7 +846,6 @@ lamp: bn:, candle
 coffee: fr:, cafe, pa:, sufficient, pa:, sufficiently, pa:, adequate
 nurse: he:, sister
 assure: zh:, assurance, zh:, warrant, zh:, pledge, zh:, guarantee, zh:, insure, sv:, ensure, id:, ascertain, id:, confirm, tr:, provide, tr:, cater, ta:, sure, fi:, convince, fi:, affirm, cy:, secure, ko:, palladium
-chain: sw:, sequence, ar:, series, vi:, string, pt:, jail, he:, necklace
 shoes: zh:, shoe, sw:, sandal
 crew: sw:, staff, sv:, herd, vi:, team, cy:, bunch, te:, personnel
 yard: zh:, code, id:, page, fr:, courtship
@@ -851,24 +858,27 @@ sunshine: tr:, solar, tr:, sunscreen, pa:, shine, ja:, daylight
 widow: 
 communication: sw:, contact, sw:, correspondence, sw:, communicative, vi:, communicate, ta:, interaction, ta:, interact, fa:, relation, fa:, relate, fa:, relationship, fa:, correlation, fa:, relevance, el:, notice, el:, announcement, pa:, transaction, pa:, spray, jv:, occupational, mr:, dialogue, mr:, interface, mr:, dialog
 reflection: de:, contemplation, ja:, reflex, jv:, imagination
-organization: zh:, tissue, zh:, organisation, zh:, organize, hi:, outfit, sw:, corporation, sw:, utility, vi:, agency, ru:, entity, ta:, system, ta:, structure, ta:, texture, ta:, layout, cy:, institution, cy:, institute, he:, association, te:, firm, te:, enterprise, te:, airline, ko:, organized, hu:, organism
+organization: zh:, tissue, zh:, organisation, zh:, organize, hi:, outfit, sw:, corporation, sw:, utility, vi:, agency, ru:, entity, ta:, system, ta:, structure, ta:, texture, ta:, layout, cy:, institution, cy:, institute, he:, association, te:, firm, te:, enterprise, te:, airline, ko:, organized
 star: 
 guest: sw:, stranger, sw:, visitor, sw:, alien, sw:, foreigner, sw:, newcomer, fr:, client, fr:, customer, it:, host
+bar: sv:, bare, tr:, pub, fa:, load, fa:, cargo, fa:, freight, it:, cafe, pl:, barium, pa:, strip, pa:, bandage, pa:, belt
+bottle: id:, jar, ko:, sickness
 bless: fa:, blessing, he:, greet
 stir: id:, manipulate, fr:, mix, fi:, evoke, el:, riot, he:, excite
 quarrel: hi:, variance, de:, dispute, tr:, fight, it:, litigation, lt:, argue, mr:, disagreement
 inner: zh:, within, zh:, inside, hi:, interior, hi:, internal, sw:, local, sw:, domestic, sw:, indoor, id:, mental, ta:, insider, jv:, main, jv:, major
-resistance: sw:, opposition, ru:, opposing, ta:, protest, ta:, resistant, ta:, anti, pa:, resent, he:, objection, hu:, drag
+resistance: sw:, opposition, ru:, opposing, ta:, protest, ta:, resistant, ta:, anti, pa:, resent, he:, objection
 hollow: ta:, plain, ta:, bare, ta:, blank, it:, cable, ko:, hole
 province: vi:, provincial, he:, district, he:, county, ko:, fat
 civilization: he:, culture
 hang: bn:, supervise
 shock: hi:, blow, ar:, trauma, ta:, shocking, fr:, clash, ko:, impact, ko:, stun
 exception: sw:, partial, sw:, discrimination, sw:, stereotype, cy:, exemption, pa:, conflict, he:, outstanding, te:, exempt, te:, deduction
-driving: hi:, drive, tr:, driver, it:, guide, sr:, ride, hu:, management, hu:, leadership
+strain: hi:, stress, hi:, tension, sw:, load, fr:, fatigue, it:, effort, el:, intensity, bn:, embrace, te:, racial, te:, ethnic
+driving: hi:, drive, tr:, driver, it:, guide, sr:, ride
 swear: sv:, swearing, jv:, pledge
 treasure: zh:, jewel
-seed: sw:, sperm, vi:, nut, vi:, particle, ko:, mr, hu:, core, hu:, kernel
+seed: sw:, sperm, vi:, nut, vi:, particle, ko:, mr
 tower: 
 favourite: zh:, favorite
 recently: zh:, recent, sv:, freshly, ar:, newly, ja:, nowadays, jv:, afterward
@@ -878,10 +888,9 @@ rope: zh:, cord, sw:, string, sw:, strap, jv:, bind
 adventure: zh:, venture, zh:, hazard, ar:, gamble
 royalty: el:, reign
 feast: id:, party, ru:, celebration, ta:, banquet, he:, holiday, te:, dinner
-sixty: pa:, sixteen
+annual: sw:, year, sw:, annually
 scale: de:, frame, de:, framework, ar:, gauge, vi:, ratio, fr:, ladder, it:, staircase, it:, stair, jv:, size, jv:, criterion, jv:, dimension, te:, level, mr:, extent, mr:, proportional
 consequently: te:, consequence, ko:, therefore
-outer: zh:, outside, hi:, external, sw:, out, sw:, outdoor, sw:, outdoors, id:, beyond, mr:, facade
 foundation: zh:, base, zh:, basis, sw:, based, sw:, fundamental, sw:, primary, sw:, elementary, sw:, core, sw:, basic, sv:, shallow, sv:, undergraduate, ar:, grounds, vi:, platform, pa:, foundations, jv:, fundamentally, ko:, underlie
 ceremony: zh:, ritual, hi:, function, bn:, celebration, pa:, concert, ja:, formula, ko:, consciousness
 hunting: hi:, hunt, hi:, victim, hi:, prey, fr:, chase, el:, shooting
@@ -926,7 +935,6 @@ rival: zh:, opponent, sw:, dissident, ta:, competition, ta:, competitive, pl:, c
 realize: zh:, achieve, sw:, recognize, sw:, recognition, sw:, identify, sw:, diagnose, id:, unaware, tr:, execute, ta:, feel, ta:, perceive, fi:, understand, fi:, grasp, bn:, accomplish, mr:, memorize
 balance: zh:, equilibrium, sw:, equally, sw:, equality, sw:, horizontal, vi:, proportional, fa:, par, it:, budget
 coach: de:, trainer, ta:, practitioner, fa:, tutor, fa:, mentor
-criminal: tr:, punishment, ru:, offender, te:, crime
 humour: zh:, humor, zh:, humorous, sv:, mood, ta:, comedy, mr:, joke
 novel: zh:, fiction, tr:, new, tr:, newly
 revenge: id:, grudge
@@ -938,9 +946,9 @@ flash: fi:, lightning, el:, glow, el:, shine, ko:, flashlight
 suggest: zh:, suggestion, zh:, recommendation, sw:, propose, sw:, recommend, vi:, proposal, el:, nominate, cy:, imply, pa:, feedback, te:, indicate, ko:, proposition
 imprecative-mood: 
 helpless: 
-groups: ja:, group, jv:, deck
 club: fi:, bat
 flood: he:, overwhelm
+enjoyment: zh:, enjoy, de:, pleasure, fa:, joy, fa:, delight, jv:, happiness, mr:, glad, mr:, pleased, mr:, delighted, mr:, cheer
 indifference: hi:, apathy, sw:, careless, mr:, neglect, mr:, ignore, mr:, overlook
 horizon: 
 assumptive-mood: fa:, hypothetical-mood
@@ -950,7 +958,7 @@ childhood:
 knee: sv:, lap
 mutual: de:, each-other, sv:, reciprocal, sr:, common, sr:, joint, te:, interaction, te:, interactive
 software: fa:, application, fi:, repertoire
-injury: hi:, hurt, sv:, harm, sv:, damage, sv:, injure, ar:, wound, ru:, trauma, ta:, injured, sr:, violation, hu:, casualty
+injury: hi:, hurt, sv:, harm, sv:, damage, sv:, injure, ar:, wound, ru:, trauma, ta:, injured, sr:, violation
 receipt: sw:, receive, de:, entrance, id:, reception, id:, admission, id:, acceptance, ta:, voucher
 discipline: zh:, subject
 slip: zh:, slippery, sv:, slide, sv:, glide, he:, gaffe
@@ -983,11 +991,12 @@ romantic: pa:, waist, pa:, hip
 hut: hi:, cottage, de:, lodge, ja:, shed
 mimetic: 
 dollar: 
+sixteen: pa:, sixty
 assembly: sw:, meeting, sw:, conference, sw:, congress, fi:, configuration, bn:, rally
 colony: 
 wing: ar:, ward, ar:, suite, bn:, limb, bn:, fin, ko:, flight, ko:, aviation
 lion: 
-cunning: zh:, tricky, fr:, trick, it:, skilful, pa:, clever, mr:, diplomatic, hu:, trigger
+cunning: zh:, tricky, fr:, trick, it:, skilful, pa:, clever, mr:, diplomatic
 drama: hi:, pretend, vi:, dramatic
 mist: sw:, fog
 hypertext: tr:, hyperlink
@@ -1015,7 +1024,7 @@ wash: hi:, washing
 confession: sw:, acknowledge, sv:, creed, ar:, recognition, bn:, admission, jv:, claim
 nonsense: hi:, rubbish, vi:, unreasonable, vi:, incongruous
 coal: sv:, carbon
-vice: ta:, associative, pa:, bye, he:, deputy, hu:, substitute, hu:, assistant
+vice: ta:, associative, pa:, bye, he:, deputy
 temporary: sw:, interval, sw:, duration, sw:, temporal, sv:, casual, sv:, accidental, ar:, timer, id:, while, ko:, contemporary
 delimitative-aspect: 
 bone: sv:, leg, pa:, fracture, jv:, skeleton
@@ -1025,13 +1034,12 @@ wednesday: vi:, fourth
 federal: zh:, federation, ta:, central
 desirable: tr:, attractive, fa:, favorable
 representative: zh:, represent, zh:, behalf, zh:, delegate, hi:, attorney, id:, deputy, el:, spokesperson
-linen: pl:, underwear, hu:, canvas
+linen: pl:, underwear
 sink: sw:, drown, fi:, basin, cy:, zinc, pa:, sync
 nephew: sw:, niece, vi:, grandson, it:, grandchild
 siege: tr:, surround, fr:, seat
 stomach: hi:, belly, sw:, abdominal, sw:, matrix
 summit: hi:, peak, id:, top, sr:, tip, pa:, convention, te:, ridge
-fifth: sw:, five
 exclusive-person: 
 seize: hi:, tackle, ar:, confine, ar:, detain, ar:, reservation, id:, snatch, vi:, occupied, vi:, occupy, it:, impound, el:, grab, pl:, grasp, he:, perceive, jv:, get, jv:, assert, te:, possession
 fence: id:, hedge
@@ -1039,7 +1047,6 @@ statue: id:, sculpture
 luxury: 
 artillery: bn:, shave
 arrest: id:, catch, id:, capture, fa:, detain, pt:, fasten, it:, halt, el:, conception
-embrace: fi:, absorb, sr:, snuggle, bn:, strain
 pack: zh:, parcel, zh:, packet, zh:, package, zh:, wrap, ar:, bundle, fa:, closed, fa:, shut, sr:, wrapping, sr:, packaging
 surrounding: zh:, around, sw:, neighborhood, sw:, neighbour, sw:, neighbor, sw:, neighbourhood, id:, peripheral, ta:, surroundings, cy:, adjacent, he:, comprehensive, jv:, environment, jv:, environmental
 strictly: zh:, strict, sw:, coherent, ar:, accurately, id:, tight, vi:, severe, tr:, certainly, tr:, absolutely, tr:, definitely, fi:, tightly, cy:, harsh, te:, sure, te:, exactly, te:, precisely
@@ -1051,6 +1058,7 @@ discharge: hi:, liberation, de:, unload, id:, release, id:, relinquish, ta:, exp
 heir: hi:, inherit, pa:, possess
 oak: 
 unpleasant: id:, delight, id:, pleasing, vi:, uneasy, vi:, annoyed, vi:, upsetting, ru:, nasty, fi:, uncomfortable
+piano: 
 persuade: zh:, convince, hi:, celebrate, hi:, commemorate
 invisible: id:, mysterious, bn:, disappear
 well-known: ar:, famous, sr:, notorious, lt:, prominent
@@ -1059,10 +1067,10 @@ temptation: ko:, tempt
 telic-aspect: 
 international: sw:, global, sw:, multinational
 interfere: zh:, interference, hi:, intervention, sw:, intervene, id:, disturb, id:, bother, id:, disturbing, id:, interrupt, id:, annoy, id:, irritate, id:, harass, pl:, clash, jv:, annoying, ko:, let, ko:, disturbance
-subtle: hi:, micro, sw:, trick, sw:, craft, id:, delicate, id:, smooth, id:, finely, tr:, fine, tr:, thin, fi:, discreet, he:, gentle, hu:, tiny
+subtle: hi:, micro, sw:, trick, sw:, craft, id:, delicate, id:, smooth, id:, finely, tr:, fine, tr:, thin, fi:, discreet, he:, gentle
 philosopher: hi:, philosophical
 elegant: pt:, fashionable, cy:, delicate, pa:, wonderful, pa:, excellent, pa:, remarkable, pa:, glorious, pa:, incredible, pa:, fantastic, pa:, emphatic, pa:, phenomenal
-welfare: ar:, benevolence, tr:, prosperity, ru:, provision, hu:, wealth
+welfare: ar:, benevolence, tr:, prosperity, ru:, provision
 fishing: 
 steal: ar:, theft, ta:, rob, fa:, robbery, it:, swipe, he:, plagiarize, mr:, mistreat
 lip: sw:, beak, sw:, oral, el:, brink
@@ -1098,7 +1106,6 @@ introduce: zh:, introduction, zh:, presentation, sw:, establish, sw:, initiate, 
 sofa: ar:, armchair
 sweep: ar:, wipe, vi:, scan
 thief: 
-retain: zh:, preserve, zh:, reserve, zh:, reservation, sw:, restore, de:, keep, id:, restrain, id:, detain, tr:, engage, fa:, preservation, fa:, sustain, fr:, conserve, el:, maintain, cy:, adhere, ko:, maintenance, mr:, permanent
 channel: jv:, drain
 reform: hi:, improvement, hi:, correction, sw:, evolution, cy:, amend, bn:, amendment, pa:, refine, ko:, revision, mr:, update
 thirst: mr:, thirsty
@@ -1108,8 +1115,8 @@ encourage: zh:, encouragement, sw:, inspire, id:, drive, id:, push, id:, promote
 speaker: sw:, spokesperson, bn:, lecturer
 threshold: te:, entrance, te:, admission
 induce: sw:, lobby, ar:, urge, id:, cause, tr:, warn, ta:, excite, fi:, pose, sr:, tempt, lt:, evoke, he:, soak, ko:, derive, ko:, induction, mr:, affix
-neat: ar:, tidy, tr:, clean, jv:, good, jv:, wonderful, jv:, fancy, jv:, beautifully, jv:, nicely, hu:, pure
-session: zh:, meeting, zh:, conference, mr:, semester, hu:, seat
+neat: ar:, tidy, tr:, clean, jv:, good, jv:, wonderful, jv:, fancy, jv:, beautifully, jv:, nicely
+session: zh:, meeting, zh:, conference, mr:, semester
 torture: sw:, suffering, bn:, anguish, te:, violence, ko:, rack, ko:, adviser
 damp: sw:, dirt, id:, wet, ru:, muggy
 traveller: zh:, visitor, zh:, traveler, zh:, tourist, hi:, passenger, pa:, voyage, pa:, travel
@@ -1122,11 +1129,11 @@ deliberately: zh:, intentional, sw:, deliberate, de:, aware, de:, conscious, id:
 beer: pt:, pint
 velvet: 
 positively: hi:, positive, vi:, actively, ta:, favour, ta:, favor, ko:, entirely, ko:, totally
-gravity: ta:, attraction, ta:, crush, pa:, seriously, hu:, weight
+gravity: ta:, attraction, ta:, crush, pa:, seriously
 sermon: pl:, preach, te:, discourse, te:, lecture
 partner: hi:, fellow, hi:, associate, sw:, girlfriend, sw:, boyfriend, id:, pair, id:, mate, tr:, common, tr:, joint, ta:, shareholder, pa:, colleague, pa:, spouse
 abuse: ta:, mistaken, ta:, wrongly, te:, damn
-flock: sw:, group, sw:, herd, id:, swarm, ko:, tycoon
+thirteen: pa:, thirty
 justify: de:, warrant, vi:, plead, vi:, advocate, fa:, justification, cy:, justified, pa:, legitimate, mr:, adjust
 manuscript: sw:, bill, id:, script, ko:, plaintiff
 friday: ta:, silver, ta:, venus
@@ -1153,12 +1160,12 @@ robe: sw:, garment, tr:, dress, it:, gown, cy:, uniform, cy:, outfit, bn:, wardr
 reflect: sw:, contemplation, sw:, meditation, sw:, meditate, pa:, reveal, jv:, projection, jv:, depict
 convert: hi:, alter, sw:, transform, ar:, switch, ar:, mutation, bn:, transition, ja:, transformation
 outline: zh:, profile, zh:, contour, sw:, summary, de:, sketch, sv:, expose, sv:, overview, tr:, draft
+opera: 
 elbow: tr:, bracket
 attachment: id:, appendix, ta:, connection, ta:, patch, ta:, link, ta:, connector
 repair: hi:, restoration, id:, improvement, fa:, reconstruct, fi:, correction, he:, amend, mr:, amendment
 fist: sw:, punch, ar:, grip
 suspicious: sw:, suspicion, tr:, suspect
-seventy: 
 scripture: zh:, bible, de:, typeface, el:, script
 pit: sw:, hole, ta:, excavation, cy:, pool, pa:, ditch, he:, boron
 disorder: sw:, chaos, sw:, anarchy, sw:, unrest, de:, disturbance, id:, mess, ru:, upsetting, fi:, interference, ja:, fault, ja:, obstacle
@@ -1182,7 +1189,6 @@ feminine: hi:, feminine-, sw:, female, id:, lady, mr:, delicate
 honey: 
 stake: zh:, bet, de:, proportion, tr:, pile, ru:, share, ru:, fraction, fi:, contribution, he:, gamble, jv:, shareholder
 brick: vi:, tile
-eighty: 
 legend: ar:, myth
 harvest: hi:, crop, bn:, crops
 stove: sv:, cooker, ru:, slab, sr:, oven, ko:, fireplace
@@ -1190,13 +1196,14 @@ rebel: zh:, revolt, ta:, rebellion, te:, coup
 old-fashioned: id:, ancient
 swell: zh:, inflate, vi:, swollen, fa:, inflation, cy:, swelling, cy:, enlarge
 improve: zh:, raise, zh:, enhance, id:, fix, id:, remedy, fi:, cure, fi:, heal, cy:, improvement, jv:, add, jv:, add-, ko:, circulate
-bowl: hu:, dish
+bowl: 
 stare: it:, fix, mr:, gaze
 industrial: sw:, manufacturing, sw:, industrialization, id:, industry
 dressing: ar:, sauce, ru:, bandage
 theme: zh:, topic, zh:, motif, hi:, subject, el:, issue, pl:, motive
 ascetic: 
 manager: hi:, steward, sv:, chief, sv:, boss, ar:, administrator, vi:, director, fa:, moderator, fi:, leader, fi:, executive
+drag: hi:, draw, de:, pull, sv:, haul, ar:, withdraw, ar:, revoke, vi:, scissors, ta:, traction, bn:, drawer, ja:, drug
 chorus: sv:, drive
 rational: zh:, justified, sw:, logic, sw:, logical, sw:, unreasonable, vi:, sensible, fa:, reasonably, el:, reasonable, jv:, apparent
 processing: el:, edit, he:, processor, mr:, process, mr:, processes, mr:, procedure
@@ -1233,10 +1240,10 @@ crack: hi:, crevice, id:, cracked, fa:, depart, fa:, quit, pl:, fracture
 pavement: hi:, curb, sw:, pitch, sw:, slime, sv:, sidewalk, ta:, walkway, ko:, packaging
 decisive: de:, crucial, sv:, vital, id:, determine, vi:, decide, cy:, assertive, jv:, assign, jv:, specify, ko:, final, ko:, critical, mr:, coup
 negative: fr:, adverse, ko:, denial, ko:, negation, ko:, negate
+festival: sw:, concert, te:, epiphany, mr:, celebration
 treason: 
 hunter: bn:, predator
 snake: hi:, reptile
-intensity: zh:, strength, ar:, density, el:, strain, el:, tension, pa:, magnitude
 battery: 
 detective: ta:, deduction, it:, investigator
 analysis: zh:, analyse, vi:, research, ta:, study, ta:, examine, ta:, inspect, ta:, exploration, el:, resolution, el:, breakdown, el:, break-down, pa:, analyze, te:, diagnostic, mr:, parse
@@ -1259,7 +1266,6 @@ momentane-aspect:
 drift: sv:, operation, ar:, deflection, el:, tendency, el:, trend, bn:, flow, pa:, stance
 imaginary: vi:, fancy, vi:, imagine, ta:, imagination, ta:, fiction, ta:, fantasy, mr:, subjective
 ray: de:, beam, fr:, aisle, fr:, radius, he:, fund
-climbing: sw:, rise, sw:, plant, sw:, sow, sw:, climb, vi:, creep
 ink: vi:, toner
 memorable: ar:, prominent
 noisy: hi:, noise, sw:, shout, de:, loud, de:, aloud
@@ -1271,7 +1277,7 @@ indulge: sw:, pursue, el:, satisfy, pa:, incorporate, pa:, embed, pa:, deploy
 agricultural: hi:, agriculture, sw:, farming, ta:, farm
 swing: 
 meadow: id:, pasture, fr:, pre, it:, lawn
-complex: zh:, complicated, zh:, complicate, hi:, sophisticated, vi:, compound, ru:, tricky, hu:, composite
+complex: zh:, complicated, zh:, complicate, hi:, sophisticated, vi:, compound, ru:, tricky
 resignation: zh:, resign, id:, retirement, jv:, backwards, jv:, retreat, te:, quit
 humble-register: 
 pepper: 
@@ -1279,7 +1285,7 @@ pony:
 candidate: pt:, applicant, el:, prospective, te:, recruit
 fox: 
 chimney: hi:, fireplace, sr:, stack
-jurisdiction: sw:, authority, tr:, judgment, tr:, judgement, sr:, competence, hu:, justice
+jurisdiction: sw:, authority, tr:, judgment, tr:, judgement, sr:, competence
 former-deceased: 
 democratic: mr:, democracy
 blanket: de:, ceiling, fr:, cover, fr:, rug, fr:, coverage
@@ -1297,7 +1303,6 @@ uncertainty: zh:, uncertain, tr:, ambiguity
 secondary: zh:, minor
 rural: ar:, provincial, id:, countryside, fa:, villager
 circulation: zh:, loop, zh:, cycling, zh:, cyclic, hi:, prevalence, hi:, diffusion, sw:, circle, sw:, cycle, sw:, frequency, sw:, rotation, sw:, rotate, de:, traffic, fa:, sightsee, te:, conduction
-stress: zh:, underline, zh:, emphasize, zh:, stressed, hi:, strain, hi:, tension, ta:, depression, bn:, emphasis, te:, pressure, mr:, tense
 groan: 
 resemble: zh:, similar, ar:, similarity, fi:, remind, bn:, corresponding, pa:, like
 quote: hi:, extract, hi:, quotation, ta:, unquote, fi:, lend, fi:, borrow, fi:, loan, pa:, reference, ja:, estimate, ko:, cite
@@ -1323,13 +1328,16 @@ dig: sv:, excavate, ar:, drill, fa:, excavation
 pet: jv:, essence, te:, foster
 skull: 
 legislature: sw:, parliament, sr:, legislation, pa:, legislative
+heel: pt:, jump, bn:, ankle
 frown: 
 patent: ko:, license, ko:, licence
 billion: 
 chemical: zh:, chemistry, sw:, chemicals, pt:, chemist, mr:, chemotherapy
 pulse: de:, impulse, pt:, wrist, it:, momentum, mr:, lace
 pilot: sw:, experiment, sw:, experimental, bn:, driver
+knot: hi:, lump, de:, node, ar:, hold, ar:, contract, ar:, conclude, ar:, decade, fa:, knit, pl:, junction, te:, raw, te:, crude, mr:, prejudice
 skirt: de:, rock
+depression: hi:, recession, hi:, slump, sw:, sorrow, sw:, grief, sw:, sadness, sw:, depressed, ta:, stress
 technical: zh:, technique, zh:, technology, de:, technically, ta:, tech, pa:, advanced
 vehicle: sw:, drive, sw:, car, sw:, cart, tr:, means, mr:, automobile
 scope: hi:, expansions, he:, domain, he:, realm, ja:, range, ko:, reach, ko:, extent
@@ -1338,8 +1346,10 @@ sunrise:
 contribute: hi:, contribution, sw:, donate, fa:, partnership
 hook: id:, relate, id:, connect, id:, correlate, fa:, bracket
 tiger: 
+sleeve: sv:, arm, ko:, retail
 highway: sw:, road
 militia: 
+ribbon: de:, band, de:, tape, ar:, stripe, el:, film, el:, movie, sr:, lane, sr:, strip
 integrity: mr:, concentration
 transparent: sw:, transparency, id:, clear, id:, clearly, id:, evident, id:, obvious, id:, obviously, id:, unclear, vi:, explicit, vi:, straightforward
 nineteen: 
@@ -1349,6 +1359,7 @@ organic: pa:, fossil, ko:, essential
 theology: 
 float: hi:, boat, de:, hover, fr:, fleet
 witch: 
+studio: sw:, label, fa:, workshop, it:, study
 champagne: 
 banner: sw:, flag, tr:, poster, fi:, ticket
 divorce: zh:, divorced
@@ -1364,8 +1375,9 @@ phase: zh:, photographic, id:, stage, vi:, period, ta:, construct, fi:, step
 arbitrary: ta:, spontaneous, ja:, optional, jv:, treaty, jv:, accord, mr:, uncontrolled
 ecstasy: ar:, trance, tr:, enthusiasm, pa:, pleasure, pa:, happiness
 mercury: pa:, temperature
+creep: vi:, climbing, ta:, lamb
 suicide: 
-reporter: zh:, journalist, hu:, interviewer
+reporter: zh:, journalist
 deprive: zh:, deprivation, id:, revoke, fa:, exclude, lt:, subtract, he:, negate, ja:, rob
 balcony: zh:, terrace, jv:, attic
 fork: ja:, folk
@@ -1392,19 +1404,19 @@ yacht: hi:, ferry, ta:, boat
 frighten: hi:, scare, de:, terrify, fa:, deter, el:, alarm, cy:, alarmed, pl:, haunt
 consequential: zh:, consequence, de:, episode, tr:, important, tr:, considerable, tr:, leading, tr:, prominent, tr:, considerably, tr:, significant, tr:, substantial, sr:, meaningful, ja:, indirect
 extinct: fr:, missing, cy:, disappear, mr:, dead
-lump: zh:, block, zh:, bulk, zh:, chunk, hi:, knot, ar:, mass, ar:, cluster, fa:, pile
 dome: 
 thickness: 
 stubborn: lt:, assertive
 muscle: 
+cultivate: zh:, foster, hi:, develop, de:, maintain, sv:, farm, ar:, transplant, vi:, crop, el:, grow, pa:, arise, pa:, pose, ko:, educate
+magnitude: sw:, size, ar:, bulk, vi:, amplitude, fa:, gauge, cy:, quantity, pa:, intensity
 rub: 
 toast: ta:, snack
 mouse: sw:, rat
 syllable: sr:, typeface, te:, alphabet
 neutral: zh:, neuter, pa:, fair, pa:, secular
 detect: tr:, assess, bn:, identification, he:, recognize, he:, identify, ja:, detection, te:, locate, ko:, retrieve, mr:, find
-persistent: zh:, consistent, sw:, continue, sw:, proceed, sw:, continuous, tr:, permanent, ru:, resistant, ta:, constantly, pl:, durable, pa:, constant, pa:, randomly, jv:, keen
-flourish: zh:, prosperity, zh:, prosper, zh:, boom, el:, jewel, el:, gem, pa:, flower, hu:, evolve
+flourish: zh:, prosperity, zh:, prosper, zh:, boom, el:, jewel, el:, gem, pa:, flower
 impose: ar:, force, ar:, enforce, fi:, determine
 anonymous: 
 formal-register: 
@@ -1419,6 +1431,7 @@ truce: hi:, ceasefire
 duck: 
 soap: 
 doll: tr:, baby, ta:, toy
+villa: sr:, fairy, ko:, lodge
 sewing: sw:, stitch, sw:, sew
 reconcile: sw:, mediate, sv:, unite, sv:, unify, ja:, adjust, ko:, adjustment
 kettle: 
@@ -1432,28 +1445,26 @@ resident: zh:, inhabitant, tr:, native, tr:, domestic, tr:, indigenous, ko:, ten
 dragon: de:, kite
 auditory-evidential: 
 linger: vi:, prolonged
-lid: zh:, cover, sv:, cap, fi:, deck, jv:, valve, hu:, covering
+lid: zh:, cover, sv:, cap, fi:, deck, jv:, valve
 mayor: ko:, market
-junction: sw:, intersection, sw:, ordinal, de:, crossing, ru:, node, fa:, connection, fa:, connect, fa:, connector, pl:, knot, bn:, knitting
 hardware: sw:, material
 creative: 
 minority: ja:, few, ko:, decimal
 trench: zh:, ditch, fi:, excavation
+orchestra: 
 bacon: 
 prosecution: vi:, prosecute, ta:, case, ta:, suit, ta:, litigation, fr:, pursuit, he:, claim, mr:, plaintiff
 disadvantage: hi:, loss, hi:, deprivation, vi:, adverse, ru:, flaw, pt:, handicap, bn:, difficulty
 fabric: zh:, cloth, hi:, clothing, sw:, towel, ar:, canvas, ru:, tissue, ko:, relief, ko:, structure
 musician: hi:, composer, ar:, musical
 mentally: de:, spiritual, de:, mental, vi:, morale, ta:, mana, fa:, subjective, mr:, psychological, mr:, cognitive, mr:, psychiatric
-conjunction: sw:, cooperate, de:, connection, de:, compound, ar:, association, vi:, associate, vi:, combine, vi:, coherent, ta:, alongside, fa:, continuity, sr:, linker, pa:, spell, pa:, integrate, te:, together
 improper: pa:, mistaken, pa:, unacceptable, pa:, flawed, he:, incongruous, jv:, expected, te:, illegal, ko:, inadequate, ko:, inappropriate, mr:, unfair
 architect: 
 wed: 
 lemon: 
 cough: zh:, coughing
 fertility: sw:, reproduction, pa:, breed, pa:, genital
-ninety: 
-random: zh:, randomly, zh:, randomize, de:, accidental, lt:, casual, te:, spontaneous, te:, stochastic, hu:, chance
+random: zh:, randomly, zh:, randomize, de:, accidental, lt:, casual, te:, spontaneous, te:, stochastic
 spoon: de:, bucket
 diary: tr:, daily, fr:, newspaper, fr:, journal, el:, calendar
 balloon: 
@@ -1481,7 +1492,6 @@ laboratory: zh:, lab
 comments: bn:, comment, pa:, remark, pa:, commentary, ko:, reply
 undergo: he:, pass, jv:, experienced, ko:, receive
 self-control: 
-knit: zh:, knitting, hi:, weave, sv:, thrust, vi:, knitted, fa:, knot, fa:, node, el:, braid
 embassy: 
 plaster: ta:, finish, fa:, chalk
 chairman: he:, chairperson, mr:, president
@@ -1511,16 +1521,17 @@ rung: id:, stair, fi:, tread, he:, step
 scrape: zh:, scratch, ar:, graze, ko:, offend
 login: jv:, invasion, te:, log
 telescope: sw:, microscope
+necklace: hi:, defeat, pt:, paste, he:, chain
 spelling: ta:, spell
 surf: 
 whiskey: 
 camel: 
 amateur: 
-exit: zh:, export, tr:, outlet, fa:, emergence, sr:, output, pa:, drain, he:, departure, jv:, out, jv:, quit
 adult: id:, mature, ta:, age, ta:, aged
 biography: ko:, electricity
 donkey: 
 perspective: mr:, outlook
+pro: ja:, professional, te:, positive, te:, adaptive
 monthly: mr:, magazine
 vacation: hi:, leave, hi:, holiday, sr:, rest
 click: sv:, clique, ru:, snap, he:, knock
@@ -1530,7 +1541,9 @@ dictionary: tr:, lexical, lt:, vocabulary, ko:, pre
 partition: zh:, divide, hi:, division, hi:, breakdown, hi:, break-down, sw:, count, tr:, compartment, ru:, section, pa:, fragment, pa:, component, pa:, components
 ham: hi:, thigh
 rainbow: 
+organism: zh:, creature, sw:, creation
 spit: sw:, mate, cy:, tongue
+outlet: tr:, exit, fa:, socket, fr:, output, pt:, departure, it:, grip, lt:, slot
 tank: ar:, reservoir, fi:, container, el:, vat
 butterfly: 
 chart: de:, diagram, id:, graph, tr:, graphic, tr:, graphics, lt:, scheme, bn:, catalogue, bn:, catalog
@@ -1549,7 +1562,6 @@ aggressive: sw:, disturb, sw:, mess, ta:, occupation, ta:, aggression, el:, offe
 friction: te:, confrontation
 participation: tr:, attendance, bn:, participate, ko:, involvement
 pier: mr:, pathway
-plural: sw:, mass, sw:, quantity, sw:, bulk, fa:, total, cy:, multiple, he:, numerous
 spider: mr:, fisher
 potato: 
 maker: he:, manufacturer, he:, producer, te:, preparation, te:, manufacture, te:, manufacturing
@@ -1557,6 +1569,7 @@ greed: bn:, hunger, bn:, appetite
 premature: sw:, early
 multiply: ar:, hit, id:, breed, pa:, multiplication, he:, double
 statistics: zh:, statistical, sw:, figure, pa:, statistic
+nomination: zh:, nominate, sw:, appointment, sw:, selection, fa:, engagement
 trillion: 
 affirmative-mood: 
 applications: zh:, app, pa:, processes, jv:, apply, jv:, application
@@ -1565,20 +1578,18 @@ dissatisfaction:
 infection: zh:, infect, zh:, infected, hi:, transition, sw:, transmission, ta:, infectious
 shrug: de:, twitch
 football: zh:, soccer, it:, kick, it:, calcium
-continuation: vi:, continue, tr:, persist, ta:, continuity, fa:, proceed, pa:, allocate, mr:, begin, mr:, perform
 pioneer: ar:, major, tr:, avant-garde
 abnormal: zh:, unusual, zh:, unusually, ru:, crackpot, ta:, extraordinary, pa:, exaggerated, te:, phenomenal, ko:, ideal, mr:, singular
 omission: hi:, default, hi:, gaffe, sw:, deficiency, id:, negligence, tr:, neglect, fa:, elimination
 squeeze: zh:, crowded, de:, push, id:, knead, ta:, reduction, fa:, thrust, fa:, pressure, fr:, crush, pt:, grasp, pt:, grip
 percentage: te:, cent, te:, percent
 ideophone: 
-lever: hu:, handle
+lever: 
 senator: 
 ant: 
 pregnant: sw:, maternal, pa:, conceive
 everyday: ko:, daily
 precipitate: zh:, precipitation, zh:, sediment, hi:, velocity, ar:, urgent, sr:, accelerate
-ankle: bn:, heel
 variable: sw:, vary, pa:, variables, jv:, global, ko:, mobile
 curly: zh:, curl, vi:, hurl, ta:, scroll, ta:, helix
 sulphur: zh:, sulfur, fi:, broken
@@ -1588,20 +1599,21 @@ frog:
 exessive-case: 
 grind: ta:, half, ta:, semi
 irrealis-mood: 
+indoors: vi:, indoor, fr:, inside, fi:, within
 exploit: zh:, utilize, sw:, absorb, fr:, achievement, pt:, explore, te:, robbery, mr:, absorption
 geological: te:, underground
 passport: 
 immoral: tr:, vicious, fa:, rotten
 biscuit: zh:, cookie
-collective: hi:, mass, sw:, together, sw:, along, sw:, joint, vi:, rally, vi:, aggregate, ta:, partnership, jv:, simultaneously
 cooperation: zh:, cooperate, sw:, partnership, sw:, integration, fa:, assist, te:, contribution
 tablet: hi:, bullet, hi:, pill, ar:, slab, he:, board, he:, panel
 forge: hi:, make, sw:, utter, ar:, formation, tr:, create, tr:, compose, tr:, generate, fi:, falsify, pa:, font, te:, replicate
+atom: zh:, atomic, sw:, particle, el:, individual
+aids: sw:, aid, sw:, relief
 fastidious: fr:, delicate, it:, annoying
 pyramid: 
 unlawful: sv:, illegal, pa:, non
 shyness: zh:, shy, el:, contraction
-workshop: fa:, studio, bn:, factory
 lute: sv:, slant
 astronomy: 
 maze: jv:, ambiguity
@@ -1627,16 +1639,17 @@ spiral: zh:, helix, ta:, spin
 camera: ru:, chamber
 dancer: 
 migration: zh:, migrate, sw:, immigration
+tennis: 
 addicted: sv:, dependent, sv:, dependence, sv:, reliance, te:, slave
-spine: hu:, ridge
-fry: te:, boil, hu:, bake
+weave: zh:, braid, hi:, knit, hi:, knitting, fa:, tissue, fa:, texture
+spine: 
+fry: te:, boil
 facilitate: zh:, promote, zh:, stimulation, zh:, acceleration, sv:, foster, tr:, ease, bn:, simplify, pa:, facility, pa:, utility, he:, relieve
 stab: de:, sting, de:, pierce, sv:, grab, ru:, attempt, ru:, attempted
 password: el:, signal, el:, cue, el:, slogan, jv:, my, ko:, code
 hemisphere: sw:, pointed, sw:, tip
 depressing: hi:, disappointing, vi:, depressed, vi:, discourage, ta:, grief, pa:, provoke
 strategy: zh:, strategic, bn:, strategies, mr:, policy
-scissors: vi:, pull, vi:, drag
 patrol: ar:, periodical, te:, petrol
 glacier: 
 halfway: zh:, half, zh:, partly, zh:, semi
@@ -1655,20 +1668,24 @@ wireless: ja:, radio
 auction: zh:, sale
 sieve: he:, debug
 unsteady: zh:, unstable, zh:, instability, de:, uncertain, ar:, uneasy, bn:, restless
+suck: tr:, absorb, tr:, soak
 unfriendly: de:, unkind, tr:, hostile, el:, adverse, ko:, harmful
 census: cy:, calculation
 tiptoe: sv:, toe, ta:, ready, ta:, willing
 relax: zh:, relaxing, vi:, relaxed, cy:, relaxation, te:, leisure, mr:, relieve
+continuity: vi:, constantly, ta:, continuation, fa:, conjunction
 bubble: 
 guitar: ko:, etc.
 bias: bn:, preference, pa:, prejudice, he:, deflection
 shiny: vi:, bright, vi:, a.m., tr:, brilliant
-whichever: zh:, any, it:, whatever, lt:, which, bn:, whoever, ko:, among, ko:, underwater, hu:, either
+whichever: zh:, any, it:, whatever, lt:, which, bn:, whoever, ko:, among, ko:, underwater
+knitted: id:, knitting, vi:, knit, tr:, braid
 soar: sw:, hike, sv:, hover, ar:, throat, el:, flight, jv:, famous, mr:, plane, mr:, aircraft, mr:, airplane, mr:, airline
 pronoun-marker: 
 spice: sv:, zest
 bail: sw:, bond, id:, assurance, ru:, pledge, fa:, guarantee, bn:, sponsor, ko:, jewel, ko:, gem
 tease: id:, tempt, tr:, annoy, tr:, irritate, cy:, fascinate
+java: 
 recipe: hi:, method, sw:, stimulus, de:, prescription, vi:, formula, fa:, instruction, pa:, consonant
 plow: hi:, solve, id:, hijack
 gutter: hi:, drain
@@ -1678,8 +1695,10 @@ medieval: id:, mid
 plastic: 
 footnote: 
 dairy: sw:, milk, jv:, ordinary, jv:, regular
+golf: 
 zero: hi:, null, bn:, vacant
 zip: zh:, compress
+trigger: 
 chip: hi:, piece, hi:, fragment, hi:, slice, hi:, chunk
 oppress: de:, suppress, de:, repress, ru:, depress, pt:, overwhelm, pa:, mistreat
 yawn: id:, evaporate
@@ -1690,7 +1709,7 @@ housewife:
 irrational: bn:, unreasonable
 miner: fr:, minor
 yeast: ar:, enzyme, el:, dough, el:, pastry
-intercept: he:, inhibit, jv:, tackle, hu:, capture
+intercept: he:, inhibit, jv:, tackle
 premium: fr:, bonus, pt:, prize, pt:, award
 option: hi:, alternative, hi:, substitute, sv:, alternate, ar:, cucumber, id:, choice, id:, selection, ru:, variant, bn:, prefer, jv:, preference, jv:, optional, mr:, substitution, mr:, amused
 graduate: sv:, exam, id:, pass
@@ -1720,17 +1739,18 @@ mutter: tr:, whisper
 berry: id:, pluck, fr:, bay
 contrasting: zh:, contrast, vi:, contrastive, ta:, contradictory, el:, opposed, el:, contrary, jv:, distinguish, jv:, discriminate, jv:, differentiate, te:, distinct, te:, diverse
 fireworks: bn:, bet, bn:, betting, ko:, flame
+pop: ar:, snap, ar:, bang
 undress: he:, strip, te:, clothes
-complement: zh:, supplementary, id:, equip, lt:, addition, he:, complementary, hu:, supplement
+complement: zh:, supplementary, id:, equip, lt:, addition, he:, complementary
 pegative-case: 
 cancer: 
 pawn: ar:, mortgage, ta:, soldier, fa:, pledge
 leak: ar:, spill, it:, loss, cy:, drop
+density: sw:, crowded, ar:, intensity
 chew: 
 complexity: bn:, complication
 talkative: de:, communicative, te:, agile
 acquit: id:, exempt, ta:, liberation, sr:, rid, sr:, relieve, he:, merit
-retail: ko:, sleeve, mr:, minor, mr:, marginal
 polar: vi:, extreme, vi:, pole
 discount: hi:, exemption, ar:, sale, lt:, concession, he:, assumption
 taxi: zh:, cab
@@ -1741,7 +1761,7 @@ presidency: vi:, presidential
 buyer: sr:, customer
 gallon: 
 mosquito: 
-deplore: el:, mourn, sr:, condemn, lt:, regret, hu:, devote, hu:, dedicate
+deplore: el:, mourn, sr:, condemn, lt:, regret
 deviation: tr:, deflection, ta:, distortion, fa:, offset, jv:, something
 mosaic: bn:, diverse
 plug: de:, connector, tr:, voucher
@@ -1757,15 +1777,15 @@ approximate: zh:, approximation, sw:, approximately, fa:, approximative, pa:, al
 unemployed: sw:, employment
 implement: vi:, implementation, pa:, enforce, pa:, enforcement, te:, execution, te:, execute
 bulb: fa:, onion, ja:, valve
-supporter: sw:, assistant, fr:, endure, pt:, bracket, hu:, supplier
+supporter: sw:, assistant, fr:, endure, pt:, bracket
 lotus: mr:, lily
 chloride: 
 bacteria: zh:, fungus, ar:, bacterial
-lattice: jv:, pattern, hu:, grid
+lattice: jv:, pattern
 biological: pa:, creature, pa:, biology
 feign: zh:, pretend, el:, simulate
 byte: 
-secretion: zh:, secrete, hu:, selection
+secretion: zh:, secrete
 ballet: fa:, fin, te:, ballot
 urine: ru:, piss
 garlic: 
@@ -1775,6 +1795,8 @@ characterize: bn:, distinguish, mr:, characterization
 strawberry: 
 notebook: ko:, laptop
 transcendental: 
+album: 
+baseball: 
 piracy: 
 buffet: 
 participle: lt:, participant, lt:, entrant
@@ -1798,12 +1820,13 @@ manipulation: zh:, operate, zh:, manipulate, zh:, operational, tr:, trick, tr:, 
 tomato: 
 reinforce: sw:, consolidate, sw:, intensify, fi:, confirm, pa:, strong, pa:, strengthen
 convex: 
-socket: sv:, withdrawal, fa:, outlet, el:, connector, lt:, nest
 potassium: 
+algebra: jv:, algebraic
 jewellery: 
 optical: ar:, visual
 unemployment: bn:, bakery
 disarm: sw:, arms, sw:, weapon, sw:, armed
+solo: ta:, separate, ta:, phenomenal, ta:, discrete, pt:, soil, fi:, alone
 browser: tr:, scanner
 historic-tense: 
 capability: ta:, efficiency, ta:, potentially, pa:, capacity, pa:, quotient, ja:, ability, ja:, competence, ko:, literacy
@@ -1817,18 +1840,21 @@ wrinkle: sw:, defect, pa:, commit
 comprise: ru:, incorporate, cy:, contents, bn:, constitute, bn:, construct, pa:, involved, pa:, engage, pa:, involve, pa:, inclusion, ja:, consist, jv:, contain, ko:, achieve, mr:, include
 clip: de:, staple, de:, bracket, el:, stapler
 priority: sw:, attention, te:, preference, mr:, prefer
-rape: hi:, outrage, fa:, exceed, fa:, aggression, hu:, violence
+rape: hi:, outrage, fa:, exceed, fa:, aggression
 monitor: sw:, track, sv:, supervise, tr:, watch, tr:, pursue
 constituency: zh:, voter, zh:, electorate, pa:, mild
 cultural: zh:, culture
+gender: vi:, compute, bn:, sex, pa:, penis, he:, species, ko:, sexuality
 platinum: 
 dual-number: 
+synthesis: sw:, original, sw:, originally, sw:, preliminary, sw:, initial, sw:, initially, ar:, instal, ta:, set, ta:, collection, ta:, suite, ta:, package, ta:, portfolio, lt:, fusion, ja:, synthetic
 specialty: zh:, vocational, hi:, characteristic, hi:, trait, id:, particular, id:, special, tr:, expertise, ta:, specialist, te:, separate, te:, exclusive, ko:, specialize
 lung: 
+super: fa:, phenomenal, fa:, enormously, fa:, incredibly, ko:, supervisor
 trolley: de:, carriage, de:, cart, sv:, wagon
 mushroom: de:, fungus, jv:, mold
 locally: zh:, local
-incite: fa:, excite, fa:, annoy, hu:, stimulate
+incite: fa:, excite, fa:, annoy
 gasoline: zh:, petrol
 pumpkin: tr:, squash, fi:, marrow
 kidney: ko:, height, ko:, extension
@@ -1839,12 +1865,12 @@ infinitesimal:
 socialist: sw:, kinship
 filter: 
 widen: zh:, expand, hi:, wide, sw:, add, sw:, raise, sw:, enhance, de:, extend, vi:, broadly, cy:, expansion
-atomic: zh:, atom, de:, nuclear, mr:, molecular
 controversial: sw:, controversy, sw:, contradiction, sw:, ambiguous, sw:, confusing, sw:, ambiguity, lt:, contradictory
 leash: hi:, lease, hi:, strap
 jockey: 
 pneumonia: 
-situate: ja:, put, hu:, locate
+situate: ja:, put
+intersection: zh:, crossing, sw:, junction, sw:, ordinal
 solidarity: zh:, unite, zh:, rally, sw:, affinity, ta:, unity, ta:, similarity, ko:, era
 hinge: ar:, detailed, ru:, loop, he:, axis
 longitudinal: vi:, vertical, pa:, prolonged, ko:, species
@@ -1866,9 +1892,10 @@ hilarious: ar:, cheerful, ar:, fun, vi:, glad, fa:, funny, pt:, amused, pt:, amu
 refugee: fa:, immigrant
 protein: zh:, egg-white
 dump: hi:, pile, hi:, stack, id:, banish, fa:, rubbish, fa:, garbage, jv:, hurl
+evolve: ko:, evolution, mr:, develop
 vomit: 
 gene: zh:, genetically, ta:, genetic
-freshman: hu:, newcomer, hu:, recruit
+freshman: 
 merge: hi:, fusion, sw:, unite, sw:, unify, ar:, combine, ar:, consolidate, ar:, integration, tr:, converge, pl:, connect
 sociology: 
 mobility: vi:, mobile, vi:, portable, ta:, movement, ta:, motion
@@ -1877,11 +1904,12 @@ motion-uphill:
 dilute: hi:, thin, mr:, mild
 retrospective: vi:, past, ta:, introspection
 inversion: hi:, invert, ar:, contrary, ta:, reciprocal, ta:, inverse, bn:, disaster, ko:, conduction
+tv: zh:, television, sw:, film
 cube: mr:, solid
 syntax: zh:, syntactic, el:, pension, mr:, layout
 productivity: pl:, performance, pl:, output
 carrot: 
-conglomerate: zh:, clique, hi:, group, hi:, cluster
+molecular: zh:, molecule, zh:, numerator, ta:, substrate, mr:, nuclear, mr:, atomic
 accountant: sv:, auditor
 differentiation: zh:, discrimination, hi:, discriminate, vi:, distinguish, vi:, differentiate, fa:, break-down, pa:, difference, pa:, contrast, pa:, variations, pa:, variance
 availability: sw:, access, sw:, acquisition, ta:, get, ta:, available, bn:, attendance, ko:, effectiveness
@@ -1905,26 +1933,22 @@ nibble:
 abortion: zh:, miscarriage
 sweater: fa:, jacket
 evolutionary: zh:, developmental, vi:, evolution, pa:, development, pa:, progression
+notation: zh:, sign, zh:, symbol, id:, note
 bounce: hi:, boom, sr:, jump
 dissection: cy:, allocate, pl:, section, te:, division, te:, divide
 cache: fr:, lurking
-compute: vi:, gender, he:, reckon, ja:, calculation, ja:, computation, ko:, computing
 antimony: 
 superessive-case: 
 tumor: zh:, tumour, el:, bulk
 alpha: 
 navel: tr:, belly, fi:, pole
 immune: sw:, breathing, pl:, resistant
-molecule: zh:, molecular, zh:, numerator, ta:, substrate
 abridge: id:, limit, id:, confine, id:, restrict, bn:, summarize, mr:, compact
 captivate: ar:, capture, tr:, fascinate, he:, hunt, mr:, attract
 sock: 
-television: zh:, tv
-movie: zh:, film, zh:, cinema, el:, ribbon, el:, tape, el:, stripe
 cosmos: zh:, universe
 pollute: zh:, pollution, fa:, infect
 gregarious: 
-penis: hi:, sex, pa:, gender, he:, pin
 aluminum: zh:, aluminium
 oscillation: fa:, fluctuation, ko:, vibration
 alphabetical: cy:, alphabet
@@ -1939,10 +1963,11 @@ bureaucracy: zh:, bureaucratic
 distort: sw:, mislead, sv:, scramble, pa:, deteriorate, he:, falsify, he:, skew, ko:, distortion
 galaxy: ta:, constellation
 clinical: 
+radium: pt:, radio
 refrigerator: zh:, fridge
 harmonic: bn:, musical, jv:, compliance
 archaeological: vi:, archaeology, vi:, archeology, ta:, fossil
-specification: zh:, norm, zh:, standardize, mr:, detail, hu:, description
+specification: zh:, norm, zh:, standardize, mr:, detail
 interpolation: 
 leaflet: de:, booklet, ar:, bulletin, fa:, handout, cy:, sheet
 incompleteness: te:, imperfect
@@ -1953,6 +1978,7 @@ cower:
 analytic: zh:, parse, vi:, analyze
 simulation: zh:, simulate, bn:, badge
 vagina: el:, bay, bn:, cell
+ion: 
 tourism: sw:, tourist, vi:, travel, ta:, picnic
 trigonometry: 
 kidnap: de:, hijack, ta:, conduction, fi:, snatch
@@ -1973,26 +1999,30 @@ motion-upriver:
 coordinates: sw:, ordinate, mr:, coordinate, mr:, coordination
 anus: 
 redundancy: ar:, plenty, vi:, residual, tr:, excess, cy:, dismiss, cy:, dismissal, lt:, exemption, ko:, surplus
+video: 
 boycott: ar:, county, vi:, ostracize, ta:, neglect
 quiz: sw:, attempt, fa:, exam, pt:, questionnaire
 guerrilla: 
 magnesium: 
+radar: 
+qualitative: sw:, quality, ta:, characteristic
 reliability: tr:, credibility
 rectangle: 
 generalize: zh:, generalization, pa:, build, pa:, create, pa:, compose
 anymore: pa:, now, jv:, again
 curfew: 
-formulation: vi:, build, vi:, construct, vi:, constructive, ru:, wording, ta:, creation, ta:, formation, cy:, formulate, pa:, establishment, hu:, preparation
+formulation: vi:, build, vi:, construct, vi:, constructive, ru:, wording, ta:, creation, ta:, formation, cy:, formulate, pa:, establishment
 reincarnation: te:, rebirth
 ignite: 
 uranium: 
 taxpayer: pa:, tax
 integrated: ta:, integral
 opine: hi:, view, hi:, opinion, fa:, remark
+gamma: 
 server: 
-algebraic: jv:, algebra
 motion-downriver: 
 coefficient: ar:, grade, vi:, factor, ja:, modulus
+cinema: zh:, film, zh:, movie, de:, movie-theater
 bismuth: 
 postcard: pa:, post, pa:, postgraduate
 digress: hi:, retreat, sv:, depart
@@ -2004,6 +2034,7 @@ calculator: vi:, computing
 investor: 
 x-ray: 
 agenda: pl:, program, pl:, programme, pl:, curriculum
+visa: 
 infrastructure: pa:, fundamental, pa:, basic, pa:, fundamentally
 detector: 
 splice: ar:, affix, pt:, amend, el:, attach, el:, connect
@@ -2011,13 +2042,15 @@ bromine:
 silicon: fi:, pi
 hiccup: 
 consultant: vi:, counsel, pa:, adviser, pa:, mentor
+pastel: ta:, pale
 zoo: 
 clinic: 
+yoga: hi:, sum
 bookstore: it:, bookcase, pa:, shop
 retailer: zh:, dealer, sw:, seller, jv:, shop, jv:, nearby
-barium: pl:, bar
 behead: pa:, timely
 yeah: hi:, yes, id:, ya, he:, sincere
+jazz: 
 tungsten: 
 terrorist: hi:, militant, vi:, terror, pa:, extremist
 conceptual: sw:, fancy, sw:, notion, sw:, concept, sw:, assumption, sw:, paradigm, ta:, conception, jv:, draft
@@ -2029,6 +2062,7 @@ input:
 makeup: zh:, make-up, ta:, cosmetic, it:, trick, sr:, compensate
 vaccine: hi:, commentary, sw:, coverage, pa:, injection
 axiomatic: 
+heroin: 
 folder: 
 cathode: 
 flu: ta:, fever, it:, influence
@@ -2039,7 +2073,7 @@ anticlimax: de:, disappointment
 selenium: 
 cortex: sv:, bark, ar:, shell, sr:, peel
 equivalence: ar:, equality
-vertex: hu:, peak
+vertex: 
 airport: 
 amputate: tr:, interrupt
 imposter: 
@@ -2052,12 +2086,15 @@ animism:
 polygon: ta:, angle
 feminist: 
 conjugate: el:, incline, lt:, connected, he:, steer
+euro: 
 algorithm: 
+laser: 
 drugstore: 
 millimeter: zh:, millimetre
 flex: sv:, bend, vi:, curved, tr:, flexible, ta:, favorable, el:, cable
 anode: 
 nuance: sr:, shade
+snuggle: sr:, embrace
 part-time: 
 sensitivity: 
 mainframe: 
@@ -2065,15 +2102,19 @@ demonstrator: te:, appearance, te:, display, te:, performance, te:, demonstratio
 helium: 
 bilingual: 
 gerund: 
+plasma: 
 chromosome: 
 integer: pa:, digit, pa:, numeral
 kilometre: zh:, kilometer
+fax: 
 genetics: tr:, genetic, tr:, genetically
+freckle: 
 broccoli: 
 permutation: bn:, format, bn:, array, bn:, layout, he:, apposition
+spam: 
 vector: it:, carrier
 tactic: hi:, device, sw:, approach, sw:, technique, sw:, methodology, ko:, fetch
-alright: pa:, recover, pa:, correctly, pa:, fasten, pa:, valid, pa:, okay, hu:, ok
+alright: pa:, recover, pa:, correctly, pa:, fasten, pa:, valid, pa:, okay
 vitamin: 
 cadmium: 
 graphical: bn:, graphic, jv:, graphics
@@ -2084,14 +2125,16 @@ helicopter:
 tellurium: vi:, scandium, vi:, lanthanum
 deadline: lt:, term
 align: pa:, consistent, ko:, array
+analog: 
 centimetre: zh:, centimeter
 molybdenum: 
 lithium: 
 multimedia: 
 calorie: 
+robot: 
 homework: jv:, peer
 logarithm: 
-instal: zh:, mount, zh:, install, ar:, synthesis
+glyph: tr:, relief
 ecology: zh:, ecological, pa:, environmental
 sophisticate: sr:, spoil
 template: mr:, mold
@@ -2099,15 +2142,18 @@ euclidean:
 kilogram: 
 overeat: 
 divisor: 
+freeware: 
 eavesdrop: 
 haircut: 
+iridium: 
 racism: sw:, racial
 bandwidth: fa:, broadband
 optimal: zh:, top, zh:, optimum, bn:, favorable, pa:, suited, pa:, adjust, pa:, adapt, pa:, compatible, pa:, adaptive, te:, proper, te:, correct, te:, sensible
-hypotenuse: fa:, chord, he:, slant, hu:, comprehensive, hu:, overall
+hypotenuse: fa:, chord, he:, slant
 desktop: 
 headquarter: hi:, headquarters, sr:, seat
 misplace: de:, embarrassed, sr:, lose
+cerium: 
 partitive-case: 
 cassette: sw:, tape
 supermarket: lt:, mall
@@ -2119,44 +2165,59 @@ synchronize: zh:, sync, ta:, integrate, pa:, contemporary
 seminar: 
 semantic: hi:, meaning, hi:, connotation, ta:, subject, ta:, object, ta:, material, ta:, substance, pa:, sense, pa:, meaningful
 disco: 
+neon: 
 real-time: 
-epiphany: te:, festival, ko:, emergence, mr:, bug
+osmium: 
 lifestyle: sw:, life, sw:, lifetime, sw:, survival, ta:, living, ta:, career
+firewall: 
 cosine: pa:, calculation, pa:, computation
 artifact: 
+plutonium: 
 workstation: 
+yttrium: 
 augmentative: 
 username: 
 right-wing: 
+argon: 
 socialize: ru:, communicate, lt:, interact
 globalization: 
 secant: 
 wavelength: jv:, wave
 encode: sv:, code
 recycle: 
+asymptote: 
 decode: ko:, satisfy, ko:, solve
 restart: sv:, reboot, pa:, operational
 hepatitis: 
+proton: 
 diskette: pa:, disc
 milligram: 
+pixel: 
 tantalum: 
 solute: 
 genocide: 
+gallium: 
 pop-up: 
 zirconium: 
 nonlinear: 
 pesticide: 
 polynomial: 
 beryllium: 
+neuron: 
 predicative: el:, assertive
+router: 
 factorial: de:, faculty
+widget: sr:, supplement
+neutron: 
 niobium: 
 germanium: 
 metalloid: zh:, nonmetal
 prolative-case: 
 biodiversity: 
 industrialize: zh:, industrialization, ta:, industry
+joystick: 
 antibiotic: 
+actinium: 
 astronaut: ta:, space
 decompress: te:, expand, te:, enhance
 extrapolation: 
@@ -2166,10 +2227,12 @@ open-source:
 marathon: 
 plug-in: 
 topology: 
+gigabyte: 
 ionize: 
 si-units: 
 camping: sw:, camp
 finite-verb: 
+krypton: 
 gnomic-mood: 
 shift-key: 
 squares: pa:, square
@@ -2179,8 +2242,10 @@ cell-phone: zh:, cellphone, sv:, mobile-phone, fr:, portable, fr:, laptop, pl:, 
 sideways: id:, aside
 modal-case: 
 junk-mail: 
+railcar: 
 clip-art: 
 bookmark: 
+hafnium: 
 regression: hi:, return, hi:, withdrawal, ar:, retreat
 home-page: 
 lative-case: 
@@ -2196,10 +2261,12 @@ patient-case:
 prehodiernal: 
 bald: cy:, bare, ko:, raw
 goal-trigger: 
+praseodymium: 
 paralyzed: 
 complain: zh:, complaint
 to-case: fr:, at-case, it:, randomly, bn:, from-case
 radiation: fa:, glow, ko:, emission
+indium: 
 actor-role: 
 euphoria: hi:, enthusiasm, hi:, zeal, fa:, satisfaction, fa:, consent, te:, pleasure, te:, joy, te:, happiness, te:, delight
 caps-lock: 
@@ -2209,6 +2276,7 @@ chauvinist:
 web-site: zh:, website, sw:, site
 houseplant: 
 civil-rights: 
+protactinium: 
 projective: 
 binary-value: 
 goalkeeper: 
@@ -2223,7 +2291,8 @@ trojan-horse:
 scroll-bar: 
 triple-point: 
 read-only: 
-decay: id:, damage, id:, break-down, pl:, resolution, pl:, breakdown, bn:, erosion, ja:, attenuative, hu:, decline
+wisecrack: id:, joke, ko:, oral
+decay: id:, damage, id:, break-down, pl:, resolution, pl:, breakdown, bn:, erosion, ja:, attenuative
 impermanence: ta:, unstable, bn:, instability
 poet: 
 phonological: 
@@ -2244,7 +2313,10 @@ pro-sentence: fr:, pro-phrase
 epidemiology: ko:, mechanics, ko:, dynamics
 legislate: zh:, legislation, zh:, legislative, id:, arrange, id:, organize
 striped: zh:, stripe, ar:, scheme, ar:, planner, ar:, blueprint
+strikebreaker: 
+astatine: 
 overcharge: 
+else-if: 
 angles: bn:, angle, te:, pointed
 wear-out: 
 citation-form: 
@@ -2255,6 +2327,7 @@ supercomputer:
 direct-object: sw:, indirect-object
 motorist: zh:, driver
 statistically: de:, statistical, mr:, numerical
+lutetium: 
 rationality: hi:, consciousness, el:, logic
 passive-voice: 
 causative: 
@@ -2262,15 +2335,19 @@ cesium:
 search-engine: 
 toolbar: 
 automatically: jv:, automatic
+californium: 
+mendelevium: 
 agent-trigger: 
 color-blind: 
 comic-strip: 
 teminal: bn:, terminal
 dot-matrix: 
+samarium: 
 short-circuit: 
-compile: jv:, collect, hu:, compose
+compile: jv:, collect
 agentive-case: 
 accident: hi:, crash, hi:, casualty, sw:, accidental, ar:, incident, id:, wreck
+fractals: 
 multal-number: 
 to-close: vi:, closed, vi:, shut, fa:, close, fi:, exclude
 broad: hi:, vast, hi:, extensive, hi:, comprehensive, sw:, wide, de:, broadly, pt:, ample, cy:, widely, cy:, widespread, jv:, big, jv:, angle
@@ -2279,7 +2356,9 @@ cooperative: hi:, colleague, vi:, cooperate, mr:, fellow, mr:, associate
 eulers-number: 
 laser-printer: 
 trans-numeral: 
+blog: zh:, blogger
 combinatorial: vi:, combinatorics
+pythagoras: 
 abessive-case: 
 locative-case: 
 swimming-pool: de:, pool, ru:, basin
@@ -2287,21 +2366,25 @@ cybercrime: jv:, dangerous, jv:, harmful
 post-office: de:, post, de:, mail
 malware: 
 inhibition: zh:, restrain, zh:, curb, zh:, inhibit, hi:, prohibit, bn:, veto, pa:, deter, ko:, forbid
+spyware: 
 recording: zh:, record, de:, inclusion, tr:, register, tr:, registration, ru:, entry, ta:, log
+interviewer: fa:, interview
 clip-board: 
+xenon: 
 spreadsheet: 
 nth-power: 
-movie-theater: de:, cinema
 inbox: 
 per-cent: zh:, percent, vi:, cent
 aerosol: he:, spray
-distributor: hu:, distributive
+distributor: 
 dynamical: vi:, dynamics, ja:, mechanics, ko:, dynamic
 one-second: 
+subtend: fr:, underlie
 brownian: 
 star-gender: 
 galaxy-gender: 
 cardboard: sw:, card, de:, carton
+computability: 
 one-another: zh:, another, hi:, each-other, pt:, else
 police-officer: 
 primary-object: 
@@ -2310,11 +2393,14 @@ evitative-case:
 vehicle-gender: 
 data-mining: 
 possessed-case: 
+americium: 
 mineral-gender: 
 domain-name: 
 imaginary-unit: 
+neptunium: 
 verbal-noun: 
 mathematicians: 
+posessive-case: hi:, postessive-case
 modeling: 
 final-particle: 
 flash-drive: 
@@ -2332,11 +2418,11 @@ fool-around:
 equations: bn:, equation
 subessive-case: 
 log-out: 
+spammer: 
 antessive-case: 
 crosswalk: ar:, pathway, el:, walkway
 user-interface: 
 ghostwriter: 
-denominator: pa:, every, pa:, everybody, mr:, modulo
 computer-virus: 
 facilitator: zh:, presenter, de:, moderator
 rehabilitation: 
@@ -2370,6 +2456,7 @@ physics: zh:, physical, zh:, physically
 universe-gender: 
 closure: zh:, close, zh:, closed, zh:, shut, pa:, off, pa:, cease, pa:, quit, pa:, halt
 superlative-case: 
+matching: zh:, match, de:, vote, de:, ballot, id:, suit, id:, appropriate, id:, accord, id:, correspond, vi:, suitable, vi:, suited, vi:, coincide, pa:, mail, he:, corresponding, he:, compatible
 computer-program: 
 antibody: 
 full-time: 
@@ -2382,8 +2469,10 @@ operating-system:
 grammatical-case: 
 electric-current: 
 reciprocal-voice: 
+flatware: 
 core-benefactive: 
 web-host: 
+radian: 
 applicative-voice: 
 phoneme: 
 successive-clause: 
@@ -2391,10 +2480,12 @@ notebook-computer:
 gas-pedal: 
 antipassive-voice: 
 folk-music: 
+terabyte: 
 social-networking: 
 negotiation: zh:, negotiate, hi:, talk, hi:, conversation, hi:, chat, hi:, interaction, hi:, interact, fi:, consultation, pa:, communicate, pa:, dialogue
 nonremittal: id:, flat, ja:, obscure, ja:, ambiguous
 morpheme: 
+linker: zh:, link, sr:, conjunction
 neodymium: 
 radiation-sickness: 
 present-participle: 
@@ -2423,5 +2514,6 @@ assertive-quantifier:
 frequentative-aspect: 
 distributive-pronoun: 
 alternative-quantifier: 
+phishing: 
 scalar: 
 counterfactual-conditional: 

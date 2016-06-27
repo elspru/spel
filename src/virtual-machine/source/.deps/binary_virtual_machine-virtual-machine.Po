@@ -18,7 +18,7 @@ source/binary_virtual_machine-virtual-machine.o: source/virtual-machine.c \
  /usr/include/arm-linux-gnueabihf/bits/string3.h \
  /usr/lib/gcc/arm-linux-gnueabihf/4.8/include/stdint.h \
  /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
- source/seed/seed.h
+ source/seed/seed.h source/machine_programmer/programmer.h
 
 /usr/include/stdc-predef.h:
 
@@ -73,3 +73,5 @@ source/binary_virtual_machine-virtual-machine.o: source/virtual-machine.c \
 /usr/include/arm-linux-gnueabihf/bits/wchar.h:
 
 source/seed/seed.h:
+
+source/machine_programmer/programmer.h:

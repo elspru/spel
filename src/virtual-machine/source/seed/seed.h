@@ -1,5 +1,5 @@
-#ifndef _SEED_H
-#define _SEED_H
+#ifndef SEED_H
+#define SEED_H
 
 #define MAX_WRITE_MEMORY 0x8000 // GPU comput unit memory limit
 
@@ -44,7 +44,8 @@
 #define DATIVE_CASE 0x49E
 #define INSTRUMENTAL_CASE 0x93E
 #define CONDITIONAL_MOOD 0X87E
-#define QUOTE_WORD 0x8BE
+#define QUOTE_GRAMMAR_WORD 0x8BE
+#define NUMBER_GRAMMAR_WORD 0x8DE
 #define QUOTE_WORD_LENGTH 2
 #define MAX_GRAMMATICALCASE_INE_SENTENCE 8
 #define HOOK_LIST_LENGTH 3
@@ -83,6 +84,28 @@
 
 #define UNSIGNED_CHAR_QUOTE 0x009D
 #define SIGNED_CHAR_QUOTE 0x029D
+// numbers
+#define ZERO_WORD 0x1B34
+#define ONE_WORD  0x1818
+#define TWO_WORD  0x1A0A
+#define THREE_WORD  0x1942
+#define FOUR_WORD   0x1809
+#define FIVE_WORD   0x18E2
+#define SIX_WORD    0x192B
+#define SEVEN_WORD  0x1A26
+#define EIGHT_WORD  0x190A
+#define NINE_WORD   0x1B1B
+#define TEN_WORD    0x190A
+#define ELEVEN_WORD 0x1B2A
+#define TWELVE_WORD 0x1C10
+#define THIRTEEN_WORD 0x18A4
+#define FOURTEEN_WORD 0x1C48
+#define FIFTEEN_WORD  0x1B09
+#define SIXTEEN_WORD  0x1B98
+#define SEVENTEEN_WORD  0x1873
+#define EIGHTEEN_WORD 
+#define NINETEEN_WORD
+#define TWENTY_WORD
 
 typedef int v4si __attribute__((vector_size(16)));
 typedef uint8_t v16uc __attribute__((vector_size(16)));
@@ -91,48 +114,47 @@ typedef uint16_t v8us __attribute__((vector_size(16)));
 typedef uint16_t v4us __attribute__((vector_size(8)));
 /*#define NULL 0*/
 
-extern void delete_empty_glyph(const char *letter, const uint16_t length,
-                               char *neatLetter, uint16_t *fresh_length);
-/*@unused@*/ extern void derive_first_word(const char *sentence,
-                                           const uint8_t length, char *word,
-                                           uint8_t *fresh_length);
-extern void encode_ACC_word_PL(const char *restrict ACC_sentence,
-                               const uint8_t ACC_GEN_length,
-                               uint16_t *restrict DAT_encode_sentence,
+extern void delete_empty_glyph(const uint16_t length, const char *letter,
+                               uint16_t *fresh_length, char *neatLetter);
+/*@unused@*/ extern void derive_first_word(const uint8_t length, 
+                                           const char *sentence,
+                                           uint8_t *fresh_length,
+                                           char *word);
+extern void encode_ACC_word_PL(const uint8_t ACC_GEN_length,
+                               const char *restrict ACC_sentence,
                                uint8_t *restrict DAT_GEN_length,
+                               uint16_t *restrict DAT_encode_sentence,
                                uint8_t *restrict DAT_GEN_remainder);
-/*@unused@*/ extern void encode_ACC_word_DAT_number(const char *word,
-                                                    const uint8_t word_length,
+/*@unused@*/ extern void encode_ACC_word_DAT_number(const uint8_t word_length,
+                                                    const char *word,
                                                     uint16_t *number);
-extern void encode_PL_word(const uint32_t *PL_word, const uint8_t *length,
-                           uint16_t *PL_number);
 
 /*@unused@*/ extern void text_copy(const char *restrict ACC_text,
                                    const uint8_t ALLA_end,
                                    char *restrict DAT_text);
-#endif
 
-/*@unused@*/ extern void lump_encode(const uint16_t *encode_text,
-                                     const uint8_t encode_text_length,
-                                     uint16_t *lump,
+/*@unused@*/ extern void lump_encode(const uint8_t encode_text_length,
+                                     const uint16_t *encode_text,
                                      uint8_t *lump_length,
+                                     uint16_t *lump,
                                      uint8_t *remainder);
-/*@unused@*/ extern void sentence_encode(const char *text,
-                                         const uint16_t text_length,
-                                         v16us *lump,
+/*@unused@*/ extern void sentence_encode(const uint16_t text_length,
+                                         const char *text,
                                          uint8_t *lump_length,
+                                         v16us *lump,
                                          uint16_t *remainder);
-/*@unused@*/ extern void text_encode(const char *text,
-                                     const uint16_t text_length,
-                                     v16us *lump,
+/*@unused@*/ extern void text_encode(const uint16_t text_length,
+                                     const char *text,
                                      uint16_t *lump_length,
+                                     v16us *lump,
                                      uint16_t *text_remainder);
 /*@unused@*/ extern void realize(const v4us encoded_name, v8us *hook_list);
-/*@unused@*/ extern void realize_sentence(const v16us *lump,
-                                          const uint8_t lump_length,
+/*@unused@*/ extern void realize_sentence(const uint8_t lump_length,
+                                          const v16us *lump,
                                           v4us* encoded_name,
                                           v8us *hook_list);
-/*@unused@*/ extern void realize_text(const v16us *lump,
-                                          const uint16_t lump_length,
-                                          v4us* encoded_name,
-                                          v8us *hook_list);
+/*@unused@*/ extern void realize_text(const uint16_t lump_length,
+                                      const v16us *lump,
+                                      v4us* encoded_name,
+                                      v8us *hook_list);
+#endif

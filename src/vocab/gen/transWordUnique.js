@@ -91,8 +91,8 @@ var io = require("../../lib/io"),
     },
     allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", /*"ka",*/ "cy", "pl", "sr", "lt", "bn", "pa", 
-        "he", "ja", "jv", "te", "ko", "mr", "hu" ],
+        "fi", "el", /*"ka",*/ "cy", "pl", "sr", "lt", "bn", "pa",
+        "he", "ja", "jv", "te", "ko", "mr" ],
     allPhonLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
         "fi", "el", /*"ka",*/ "cy", "pl", "sr", "lt", "zhy", "es",
@@ -214,7 +214,7 @@ function returnIfUnique(transEntry, allDefinObj, index,
         //console.log(thesaurusEntry);
     } else if (directBorrows >
             Math.round(allTransLangs.length /
-            Math.pow(1.618, 3))) {
+            Math.pow(1.618, 2))) {
         result = "BORROW"; 
         thesaurusEntry.push("OVER_BORROWED:" + directBorrows);
         blacklist[enDef] = thesaurusEntry;

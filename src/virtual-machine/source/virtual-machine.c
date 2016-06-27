@@ -5,6 +5,7 @@
 #include <string.h>
 #include <stdint.h>
 #include "seed/seed.h"
+#include "machine_programmer/programmer.h"
 
 #define MAXIMUM_PAPER_LENGTH 0x1000
 
@@ -21,38 +22,38 @@ static void encode_check() {
   uint8_t length = 4;
   uint16_t number = 0;
   /* LONG_ROOT */
-  encode_ACC_word_DAT_number(long_root, length, &number);
+  encode_ACC_word_DAT_number(length, long_root, &number);
   // printf("%X\n", (unsigned int) number);
   assert(number == 0x19EA);
   /* SHORT_ROOT */
-  encode_ACC_word_DAT_number(short_root, length, &number);
+  encode_ACC_word_DAT_number(length, short_root, &number);
   // printf("short_root %X\n", (unsigned int) number);
   assert(number == 0x1358);
   /* LONG_GRAMMAR */
-  encode_ACC_word_DAT_number(long_grammar, length, &number);
+  encode_ACC_word_DAT_number(length, long_grammar, &number);
   // printf("long_grammar %X\n", (unsigned int) number);
   assert(number == 0x298F);
   /* SHORT_GRAMMAR */
   length = 2;
-  encode_ACC_word_DAT_number(short_grammar, length, &number);
+  encode_ACC_word_DAT_number(length, short_grammar, &number);
   // printf("short_grammar %X\n", (unsigned int) number);
   assert(number == 0xA7E);
   /* LONG_TONE_ROOT */
   length = 5;
-  encode_ACC_word_DAT_number(long_tone_root, length, &number);
+  encode_ACC_word_DAT_number(length, long_tone_root, &number);
   // printf("%X\n", (unsigned int) number);
   assert(number == 0x7171);
   /* SHORT_TONE_ROOT */
-  encode_ACC_word_DAT_number(short_tone_root, length, &number);
+  encode_ACC_word_DAT_number(length, short_tone_root, &number);
   // printf("%X\n", (unsigned int) number);
   assert(number == 0x6BD8);
   /* LONG_TONE_GRAMMAR */
-  encode_ACC_word_DAT_number(long_tone_grammar, length, &number);
+  encode_ACC_word_DAT_number(length, long_tone_grammar, &number);
   // printf("%X\n", (unsigned int) number);
   assert(number == 0xA98F);
   /* SHORT_TONE_GRAMMAR */
   length = 3;
-  encode_ACC_word_DAT_number(short_tone_grammar, length, &number);
+  encode_ACC_word_DAT_number(length, short_tone_grammar, &number);
   // printf("%X\n", (unsigned int) number);
   assert(number == 0x2A7E);
   printf("%s%s\n", "NOM encode_ACC_word_DAT_number PFV check ESS success",
@@ -66,7 +67,7 @@ static void delete_empty_glyph_check() {
   uint16_t DAT_GEN_length = SENTENCE_LENGTH;
   memset(DAT_text, 0, SENTENCE_LENGTH);
   /* testing delete empty glyph */
-  delete_empty_glyph(text, length, DAT_text, &DAT_GEN_length);
+  delete_empty_glyph(length, text, &DAT_GEN_length, DAT_text);
   // printf("%s\n", DAT_text);
   assert(strcmp(DAT_text, "tcatcaclahkxih") == 0);
   assert(DAT_GEN_length == 14);
@@ -80,7 +81,7 @@ static void derive_first_word_check() {
   char DAT_word[WORD_LENGTH + 1];
   uint8_t DAT_word_GEN_length = (uint8_t)WORD_LENGTH;
   memset(DAT_word, 0, WORD_LENGTH + 1);
-  derive_first_word(text, length, DAT_word, &DAT_word_GEN_length);
+  derive_first_word(length, text, &DAT_word_GEN_length, DAT_word);
   // printf("%s\n", DAT_word);
   assert(strcmp(DAT_word, "tcat") == 0);
   assert(DAT_word_GEN_length == (uint8_t)4);
@@ -88,15 +89,20 @@ static void derive_first_word_check() {
 }
 
 static void encode_word_PL_check() {
-  const char text[] = "tcinkahtutsuhkakpanyiktutcinnu";
+  const char text[] = "zrunhyintyuttyinnu"
+                      "ksatpwankcissyicnu"
+                      "lwatnwuntyashyecnu"
+                      "tyaftrenhkospfinnu"
+                      "hsossyethdetdzinnu"
+                      "tsis";
   const uint8_t text_length = (uint8_t)strlen(text);
   uint16_t encode_sentence[SENTENCE_LENGTH / WORD_LENGTH];
   uint8_t encode_sentence_length = SENTENCE_LENGTH / WORD_LENGTH;
   uint8_t remainder = 0;
   uint8_t i = 0;
   memset(encode_sentence, 0, encode_sentence_length);
-  encode_ACC_word_PL(text, text_length, encode_sentence,
-                     &encode_sentence_length, &remainder);
+  encode_ACC_word_PL(text_length, text, &encode_sentence_length,
+                     encode_sentence, &remainder);
   printf("encode_word_PL %X remainder %X \n",
          (unsigned int)encode_sentence_length, (unsigned int)remainder);
   for (i = 0; i < encode_sentence_length; i++) {
@@ -116,11 +122,11 @@ static void lump_encode_check() {
   uint8_t i = 0;
   memset(encode_sentence, 0, (uint8_t)(encode_sentence_length * WORD_WIDTH));
   memset(lump, 0, (uint8_t)(lump_length * WORD_WIDTH));
-  encode_ACC_word_PL(text, text_length, encode_sentence,
-                     &encode_sentence_length, &remainder);
+  encode_ACC_word_PL(text_length, text, &encode_sentence_length,
+                     encode_sentence, &remainder);
   printf("encode_word_PL %X remainder %X \n",
          (unsigned int)encode_sentence_length, (unsigned int)remainder);
-  lump_encode(encode_sentence, encode_sentence_length, lump, &lump_length,
+  lump_encode(encode_sentence_length, encode_sentence, &lump_length, lump,
               &remainder);
   printf("lump_length %X remainder %X \n", (unsigned int)lump_length,
          (unsigned int)remainder);
@@ -209,8 +215,8 @@ static void lump_encode_check() {
 //      } else {
 //        text_length = 0xFF;
 //      }
-//        encode_ACC_word_PL(paper_storage + paper_spot, text_length, 
-//                          encode_sentence, &encode_sentence_length, &remainder);
+//        encode_ACC_word_PL(text_length, paper_storage + paper_spot, 
+//                          &encode_sentence_length, encode_sentence,  &remainder);
 //      paper_spot = (uint16_t) (paper_spot + text_length - remainder);
 //      printf("encode_word_PL %X remainder %X \n",
 //             (unsigned int)encode_sentence_length, (unsigned int)remainder);
@@ -227,7 +233,7 @@ static void check_quote(v16us *restrict lump, uint8_t *lump_length) {
   const uint16_t text_length = (uint16_t)strlen(text);
   uint16_t remainder = 0;
   uint8_t lump_spot = 0;
-  sentence_encode(text, text_length, lump, lump_length, &remainder);
+  sentence_encode(text_length, text, lump_length, lump, &remainder);
   for (lump_spot = 0; lump_spot < text_length; ++lump_spot) {
     printf("%X ", (unsigned int)text[lump_spot]);
   }
@@ -239,14 +245,15 @@ static void check_quote(v16us *restrict lump, uint8_t *lump_length) {
 }
 
 static void check_text(v16us *restrict lump, uint16_t *lump_length) {
-  const char text[] = "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
-                      //"zrunnuka hyinnusu nyistu "
+  const char text[] = //"zrunnuka hyinnusu nyistu " 
+                      "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
+                      
   const uint16_t text_length = (uint16_t)strlen(text);
   uint16_t remainder = 0;
   uint8_t lump_spot = 0;
   printf("check_text \n");
   //printf("text_length %X\n",(unsigned int)text_length);
-  text_encode(text, text_length, lump, lump_length, &remainder);
+  text_encode(text_length, text, lump_length, lump, &remainder);
   //for (lump_spot = 0; lump_spot < text_length; ++lump_spot) {
   //  printf("%X ", (unsigned int)text[lump_spot]);
   //}
@@ -263,7 +270,7 @@ static void check_realize_text(const v16us *restrict lump,
   v4us encoded_name = {0, 0, 0, 0};
   v8us hook_list[HOOK_LIST_LENGTH];
   memset(hook_list, 0, (HOOK_LIST_WIDTH * HOOK_LIST_LENGTH * WORD_WIDTH));
-  realize_text(lump, lump_length, &encoded_name, hook_list);
+  realize_text(lump_length, lump, &encoded_name, hook_list);
 
   printf("lump ");
   for (check_spot = 0; check_spot < lump_length * LUMP_LENGTH;
@@ -296,7 +303,7 @@ static void check_hello_world(const v16us *restrict lump,
   for (check_spot = 0; check_spot < 4; ++check_spot) {
     printf(" %X", (unsigned int)encoded_name[check_spot]);
   }
-  realize_sentence(lump, lump_length, &encoded_name, hook_list);
+  realize_sentence(lump_length, lump, &encoded_name, hook_list);
 
   // checking encoded name
   printf("encoded_name at end ");
@@ -360,6 +367,15 @@ static void check_ACC_all() {
   encode_word_PL_check();
 }
 
+static void check_programmer() {
+  const uint8_t activity_elements_length = 4;
+  v8us activity_elements[4];
+  const uint8_t plan_length = 1;
+  v8us plan;
+  create_plan(activity_elements_length, activity_elements, plan_length, &plan);
+  
+}
+
 int main(int argc, char *argv[]) {
   // const float floater = 0.3;
   // float floater2 = 0;
@@ -367,6 +383,7 @@ int main(int argc, char *argv[]) {
   assert(argc > 0);
   assert(argv != NULL);
   check_ACC_all();
+  check_programmer();
   // memcpy(floatStr, (const char *) &floater, sizeof(floater));
   // memcpy((char *) &floater2, floatStr, sizeof(floater));
   // printf("floater2 %f\n", (double) floater2);
