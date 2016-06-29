@@ -44,8 +44,6 @@
 #define DATIVE_CASE 0x49E
 #define INSTRUMENTAL_CASE 0x93E
 #define CONDITIONAL_MOOD 0X87E
-#define QUOTE_GRAMMAR_WORD 0x8BE
-#define NUMBER_GRAMMAR_WORD 0x8DE
 #define QUOTE_WORD_LENGTH 2
 #define MAX_GRAMMATICALCASE_INE_SENTENCE 8
 #define HOOK_LIST_LENGTH 3
@@ -55,32 +53,35 @@
 #define INSTRUMENTAL_SPOT 1
 #define DATIVE_SPOT 0
 
-#define SAY_VERB 0x1848
-#define SUBTRACTION_VERB 0x1D2D
-#define INCREASE_VERB 0x19EA /* add */
-#define EXCLUSIVEOR_VERB 0x1806
-#define ANDOR_VERB 0x150
-#define NOT_VERB 0x1830      /* with conditional ESS toffoli gate  */
+#define QUOTE_GRAMMAR_WORD 0x8BE
+#define NUMBER_GRAMMAR_WORD 0x8DE
+#define SAY_VERB 0x6048
+#define SUBTRACTION_VERB 0xA2CD
+#define INCREASE_VERB 0x8006 /* add */
+#define EXCLUSIVEOR_VERB 0xA010
+#define ANDOR_VERB 0x0150
+#define NOT_VERB 0xE030      /* with conditional ESS toffoli gate  */
 #define UP_VERB 0x1118       /* shift up (left) */
-#define DOWN_VERB 0x1868     /* shift down (right) */
-#define EXCHANGE_VERB 0x1BEA /* with conditional ESS fredkin gate */
-#define TEXT_WORD 0x1A4A
-#define NUMBER_WORD 0x1930
-#define FLOAT_WORD 0x1A8C
-#define RATIONAL_WORD 0x1C0E
-#define INTEGER_WORD 0x1A2A
-#define COMPLEX_WORD 0x1C82
+#define DOWN_VERB 0x6068 //hcin     /* shift down (right) */
+#define EXCHANGE_VERB 0x63AA //tcen /* with conditional ESS fredkin gate */
+#define TEXT_WORD 0x822A //twus
+#define NUMBER_WORD 0xE130 //hnac
+#define FLOAT_WORD 0xA26C //flut
+#define RATIONAL_WORD 0x640E //ryon
+#define INTEGER_WORD 0xC24A //tsuf
+#define COMPLEX_WORD 0x8462 //klos
+
+#define EQUAL_WORD 0x4124 //pwap
+#define DIFFERENT_WORD 0x60AA //tcin
+#define FACT_WORD 0x2160 //hfak
+#define WRONG_WORD 0xA16D //clat
+
 #define TEXT_CLASS 0x0
 #define NUMBER_CLASS 0x1
 #define INTEGER_CLASS 0x2
 #define FLOAT_CLASS 0x3
 #define RATIONAL_CLASS 0x4
 #define COMPLEX_CLASS 0x5
-
-#define EQUAL_WORD 0x1124
-#define DIFFERENT_WORD 0x18EA
-#define FACT_WORD 0x0960
-#define WRONG_WORD 0x198D
 
 #define UNSIGNED_CHAR_QUOTE 0x009D
 #define SIGNED_CHAR_QUOTE 0x029D
@@ -129,8 +130,8 @@ extern void encode_ACC_word_PL(const uint8_t ACC_GEN_length,
                                                     const char *word,
                                                     uint16_t *number);
 
-/*@unused@*/ extern void text_copy(const char *restrict ACC_text,
-                                   const uint8_t ALLA_end,
+/*@unused@*/ extern void text_copy(const uint8_t length,
+                                   const char *restrict ACC_text,
                                    char *restrict DAT_text);
 
 /*@unused@*/ extern void lump_encode(const uint8_t encode_text_length,

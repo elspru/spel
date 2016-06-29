@@ -92,10 +92,10 @@ static const uint8_t
         {(uint8_t)'k', 1},
         {(uint8_t)'p', 2},
         {(uint8_t)'n', 3},
-        {(uint8_t)'s', 3},
-        {(uint8_t)'t', 3},
-        {(uint8_t)'f', 3},
-        {(uint8_t)'c', 3}};
+        {(uint8_t)'s', 4},
+        {(uint8_t)'t', 5},
+        {(uint8_t)'f', 6},
+        {(uint8_t)'c', 7}};
 // static const char secondary_group[] = {'f','s','c','y',
 //    'r','w','l','x', 'z','j','v'};
 //#define SECONDARY_SET_LENGTH 11
@@ -153,7 +153,7 @@ void delete_empty_glyph(const uint16_t ACC_GEN_length,
   *DAT_length = j;
 }
 
-void text_copy(const char *restrict ACC_text, const uint8_t length,
+void text_copy(const uint8_t length, const char *restrict ACC_text,
                char *restrict DAT_text) {
   uint8_t i;
   assert(ACC_text != NULL);
@@ -250,25 +250,28 @@ inline void derive_first_word(const uint8_t ACC_GEN_length,
           derive_first_word_exit;
         }
         assert(consonant_Q(ACC_sentence[start + 4]) == TRUE);
-        text_copy(ACC_sentence + start, (uint8_t)(start + 5), DAT_word);
+        text_copy((uint8_t)(start + 5), ACC_sentence + start, DAT_word);
         *DAT_GEN_length = (uint8_t)5;
       } else {
         if (consonant_Q(ACC_sentence[start + 3]) == FALSE) {
           derive_first_word_exit;
         }
         assert(consonant_Q(ACC_sentence[start + 3]) == TRUE);
-        text_copy(ACC_sentence + start, (uint8_t)(start + 4), DAT_word);
+        text_copy((uint8_t)(start + 4), ACC_sentence + start, DAT_word);
         *DAT_GEN_length = (uint8_t)4;
       }
     } else if (vowel_Q(ACC_sentence[start + 1]) == TRUE) {
       if (tone_Q(ACC_sentence[start + 2]) == TRUE) {
-        text_copy(ACC_sentence + start, (uint8_t)(start + 3), DAT_word);
+        text_copy((uint8_t)(start + 3), ACC_sentence + start, DAT_word);
         *DAT_GEN_length = (uint8_t)3;
       } else {
-        text_copy(ACC_sentence + start, (uint8_t)(start + 2), DAT_word);
+        text_copy((uint8_t)(start + 2), ACC_sentence + start, DAT_word);
         *DAT_GEN_length = (uint8_t)2;
       }
     }
+  }
+  if (ACC_GEN_length < *DAT_GEN_length) {
+    *DAT_GEN_length = 0;
   }
 }
 
@@ -302,6 +305,9 @@ static inline void encode_ACC_consonant_two(const uint8_t type,
                                             const uint8_t consonant_two,
                                             uint16_t *restrict number) {
   uint8_t i, consonant_number = CONSONANT_TWO_ENCODE_LENGTH;
+  uint16_t start_number = *number;
+  //printf("n %04X, t %X c2 %c \n", (unsigned int) *number,
+  //       (unsigned int) type, (char) consonant_two);
   assert(consonant_Q((char)consonant_two) == TRUE);
   if (consonant_two != 0 && type == SHORT_ROOT) {
     for (i = 0; i < CONSONANT_ONE_ENCODE_LENGTH; i++) {
@@ -316,9 +322,12 @@ static inline void encode_ACC_consonant_two(const uint8_t type,
   if (consonant_two != 0 && type != SHORT_ROOT && type != SHORT_GRAMMAR) {
     for (i = 0; i < CONSONANT_TWO_ENCODE_LENGTH; i++) {
       if (consonant_two_encode_group[i][0] == consonant_two) {
-        consonant_number = consonant_one_encode_group[i][1];
+        consonant_number = consonant_two_encode_group[i][1];
         assert(consonant_number < CONSONANT_TWO_ENCODE_LENGTH);
         if (type == LONG_ROOT) {
+          //printf("C2LR cn %04X\n", (unsigned int) consonant_number);
+          //printf("C2LR %04X\n", (unsigned int) consonant_number << 
+          //       (CONSONANT_ONE_WIDTH));
           *number |= (uint16_t)(consonant_number << CONSONANT_ONE_WIDTH);
           break;
         } else if (type == LONG_GRAMMAR) {
@@ -329,12 +338,16 @@ static inline void encode_ACC_consonant_two(const uint8_t type,
       }
     }
   }
+  assert(consonant_number == 0 || *number != start_number);
   assert(consonant_number != CONSONANT_ONE_ENCODE_LENGTH);
 }
 
 static inline void encode_ACC_vowel(const uint8_t type, const uint8_t vowel,
                                     uint16_t *restrict number) {
   uint8_t i, vowel_number = VOWEL_ENCODE_LENGTH;
+  //uint16_t start_number = *number;
+  //printf("n %04X, t %X v %c \n", (unsigned int) *number,
+  //       (unsigned int) type, (char) vowel);
   assert(vowel_Q((char)vowel) == TRUE);
   if (vowel != 0) {
     for (i = 0; i < VOWEL_ENCODE_LENGTH; i++) {
@@ -342,6 +355,8 @@ static inline void encode_ACC_vowel(const uint8_t type, const uint8_t vowel,
         vowel_number = vowel_encode_group[i][1];
         assert(vowel_number < VOWEL_ENCODE_LENGTH);
         if (type == LONG_ROOT) {
+          //printf("VLR %04X\n", (unsigned int) vowel_number << (
+          //       CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH));
           *number |= (uint16_t)(vowel_number
                                 << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH));
           break;
@@ -350,6 +365,8 @@ static inline void encode_ACC_vowel(const uint8_t type, const uint8_t vowel,
               (uint16_t)(vowel_number << (BANNER_WIDTH + CONSONANT_ONE_WIDTH));
           break;
         } else if (type == LONG_GRAMMAR) {
+          //printf("VLG %04X\n", (unsigned int) vowel_number << (BANNER_WIDTH + 
+          //       CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH));
           *number |=
               (uint16_t)(vowel_number << (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
                                           CONSONANT_TWO_WIDTH));
@@ -361,6 +378,7 @@ static inline void encode_ACC_vowel(const uint8_t type, const uint8_t vowel,
       }
     }
   }
+  //assert(vowel_number == 0 || *number != start_number);
   assert(vowel_number != VOWEL_ENCODE_LENGTH);
 }
 
@@ -401,14 +419,18 @@ static inline void encode_ACC_type(const char *word,
 static inline void encode_ACC_tone(const uint8_t type, const uint8_t tone,
                                    uint16_t *restrict number) {
   uint8_t i, tone_number = TONE_ENCODE_LENGTH;
+  uint16_t start_number = *number;
+  //printf("n %04X, t %X tn %c \n", (unsigned int) *number,
+  //       (unsigned int) type, (char) tone);
   assert(tone_Q((char)tone) == TRUE);
   if (tone != 0) {
     for (i = 0; i < TONE_ENCODE_LENGTH; i++) {
       if (tone_encode_group[i][0] == tone) {
         tone_number = tone_encode_group[i][1];
         if (type == LONG_ROOT) {
-          *number |=
-              (uint16_t)(tone_number << (CONSONANT_ONE_WIDTH +
+          //printf("TLR %X\n", (unsigned int)(tone_number << 
+          //       (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH + VOWEL_WIDTH)));
+          *number |= (uint16_t)(tone_number << (CONSONANT_ONE_WIDTH +
                                          CONSONANT_TWO_WIDTH + VOWEL_WIDTH));
           break;
         } else if (type == SHORT_ROOT) {
@@ -429,6 +451,7 @@ static inline void encode_ACC_tone(const uint8_t type, const uint8_t tone,
       }
     }
   }
+  assert(tone_number == 0 || *number != start_number);
   assert(tone_number != TONE_ENCODE_LENGTH);
 }
 
@@ -437,19 +460,28 @@ static inline void encode_ACC_consonant_three(const uint8_t type,
                                               const uint8_t tone,
                                               uint16_t *number) {
   uint8_t i, consonant_number = CONSONANT_THREE_ENCODE_LENGTH;
+  uint16_t start_number = *number;
+  //printf("n %04X, t %X c %c  tn %c\n", (unsigned int) *number,
+  //       (unsigned int) type, (char) consonant_three, (char) tone);
   if (consonant_three != 0 && type != SHORT_GRAMMAR && type != LONG_GRAMMAR) {
     for (i = 0; i < CONSONANT_THREE_ENCODE_LENGTH; i++) {
       if (consonant_three_encode_group[i][0] == consonant_three) {
         consonant_number = consonant_three_encode_group[i][1];
         if (type == LONG_ROOT && tone == 0) {
+          //printf("C3LR %04X \n", (unsigned int) (consonant_number
+          //               << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH +
+          //                  VOWEL_WIDTH + TONE_WIDTH)));
           *number |= (uint16_t)(
               consonant_number
-              << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH + VOWEL_WIDTH));
+              << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH +
+                  VOWEL_WIDTH + TONE_WIDTH));
           break;
         } else if (type == SHORT_ROOT && tone == 0) {
-          *number |=
-              (uint16_t)(consonant_number
-                         << (BANNER_WIDTH + CONSONANT_ONE_WIDTH + VOWEL_WIDTH));
+          //printf("SR %04X \n", (unsigned int) (consonant_number
+          //               << (BANNER_WIDTH + CONSONANT_ONE_WIDTH + VOWEL_WIDTH)));
+          *number |= (uint16_t)(consonant_number
+                         << (BANNER_WIDTH + CONSONANT_ONE_WIDTH + VOWEL_WIDTH +
+                            TONE_WIDTH));
           break;
         } else if (type == LONG_ROOT && tone != 0) {
           *number |= (uint16_t)(consonant_number
@@ -465,6 +497,7 @@ static inline void encode_ACC_consonant_three(const uint8_t type,
       }
     }
   }
+  assert(consonant_number == 0 || *number != start_number);
   assert(consonant_number != CONSONANT_THREE_ENCODE_LENGTH);
 }
 #define encode_exit                                                            \
@@ -795,7 +828,7 @@ static inline void derive_quote_word(const char *quote_class,
     *quote_word |= NUMBER_CLASS << QUOTE_CLASS_SPOT;
     break;
   default:
-    printf("unknown quote_number %X", (unsigned int)quote_number);
+    printf("unknown quote_number %X\n", (unsigned int)quote_number);
     assert(1 == 0);
     break;
   }
@@ -955,16 +988,16 @@ void sentence_encode(const uint16_t text_length, const char *text,
   *text_remainder = (uint16_t)(text_length - text_spot);
   lump[0][0] = binary_phrase_list;
 }
-inline void x1848009D00000000(unsigned char *text) {
+inline void x6048009D00000000(unsigned char *text) {
   assert(text != NULL);
   printf("ini %02X\n", (unsigned int) text[0]);
   printf("%s", text);
 }
-inline void x1848029D00000000(signed char *text) {
+inline void x6048029D00000000(signed char *text) {
   assert(text != NULL);
   printf("%s", text);
 }
-inline void x1124000000000000(v8us* hook_list) {
+inline void x4124000000000000(v8us* hook_list) {
   if (memcmp((char*)&hook_list[ACCUSATIVE_SPOT],
         (char*)&hook_list[INSTRUMENTAL_SPOT], 16) == 0) {
     hook_list[DATIVE_SPOT][0] = FACT_WORD;
@@ -972,7 +1005,7 @@ inline void x1124000000000000(v8us* hook_list) {
     hook_list[DATIVE_SPOT][0] = WRONG_WORD;
   }
 }
-inline void x18EA000000000000(v8us* hook_list) {
+inline void x60AA000000000000(v8us* hook_list) {
   if (memcmp((char*)&hook_list[ACCUSATIVE_SPOT],
         (char*)&hook_list[INSTRUMENTAL_SPOT], 16) != 0) {
     hook_list[DATIVE_SPOT][0] = FACT_WORD;
@@ -1007,17 +1040,17 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
     break;
   }
   switch (*((uint64_t *)&encoded_name)) {
-  case 0x1848009D00000000: /* say unsigned char* */
-    x1848009D00000000(accusative);
+  case 0x6048009D00000000: /* say unsigned char* */
+    x6048009D00000000(accusative);
     break;
-  case 0x1848029D00000000: /* say signed char* */
-    x1848029D00000000(accusative);
+  case 0x6048029D00000000: /* say signed char* */
+    x6048029D00000000(accusative);
     break;
-  case 0x1124000000000000: /* equal */
-    x1124000000000000(hook_list);
+  case 0x4124000000000000: /* equal */
+    x4124000000000000(hook_list);
     break;
-  case 0x18EA000000000000: /* different */
-    x18EA000000000000(hook_list);
+  case 0x60AA000000000000: /* different */
+    x60AA000000000000(hook_list);
     break;
   default:
     printf("unrecognized encoded_name %04X%04X%04X%04X\n",

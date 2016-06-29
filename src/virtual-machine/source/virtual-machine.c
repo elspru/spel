@@ -24,15 +24,15 @@ static void encode_check() {
   /* LONG_ROOT */
   encode_ACC_word_DAT_number(length, long_root, &number);
   // printf("%X\n", (unsigned int) number);
-  assert(number == 0x19EA);
+  assert(number == 0x61AA);
   /* SHORT_ROOT */
   encode_ACC_word_DAT_number(length, short_root, &number);
   // printf("short_root %X\n", (unsigned int) number);
-  assert(number == 0x1358);
+  assert(number == 0x4358);
   /* LONG_GRAMMAR */
   encode_ACC_word_DAT_number(length, long_grammar, &number);
   // printf("long_grammar %X\n", (unsigned int) number);
-  assert(number == 0x298F);
+  assert(number == 0x2E8F);
   /* SHORT_GRAMMAR */
   length = 2;
   encode_ACC_word_DAT_number(length, short_grammar, &number);
@@ -42,15 +42,15 @@ static void encode_check() {
   length = 5;
   encode_ACC_word_DAT_number(length, long_tone_root, &number);
   // printf("%X\n", (unsigned int) number);
-  assert(number == 0x7171);
+  assert(number == 0x7151);
   /* SHORT_TONE_ROOT */
   encode_ACC_word_DAT_number(length, short_tone_root, &number);
   // printf("%X\n", (unsigned int) number);
-  assert(number == 0x6BD8);
+  assert(number == 0xEBD8);
   /* LONG_TONE_GRAMMAR */
   encode_ACC_word_DAT_number(length, long_tone_grammar, &number);
   // printf("%X\n", (unsigned int) number);
-  assert(number == 0xA98F);
+  assert(number == 0xAE8F);
   /* SHORT_TONE_GRAMMAR */
   length = 3;
   encode_ACC_word_DAT_number(length, short_tone_grammar, &number);
@@ -136,45 +136,85 @@ static void lump_encode_check() {
   printf("\n");
 }
 
-//static void read_paper(const char *file_name,
-//       const size_t paper_number, char *paper_storage,
-//       uint16_t *paper_length) {
+static void read_paper(const char *file_name,
+                       const size_t paper_number, 
+                       uint16_t *paper_length,
+                       char *paper_storage) {
+   FILE *file_spot = NULL;
+   int answer = 0;
+   uint16_t text_spot = 0;
+   uint16_t length = 0;
+   int glyph = (char) 0;
+   assert(file_name != 0);
+   assert(strlen(file_name) > 0);
+   assert(paper_storage != NULL);
+   assert(*paper_length >= MAXIMUM_PAPER_LENGTH);
+   file_spot = fopen(file_name, "r");
+   assert(file_spot != NULL);
+   if (file_spot != NULL) {
+       answer = fseek(file_spot,
+               (int) paper_number*MAXIMUM_PAPER_LENGTH,
+               SEEK_SET);
+       //assert(answer == 0);
+       if (answer == 0) {
+           length = (uint16_t) (fread(paper_storage,
+               MAXIMUM_PAPER_LENGTH, 1, file_spot));
+           if (length != 0) {
+               length = (uint16_t)(length *
+                   MAXIMUM_PAPER_LENGTH);
+           } else {
+               answer = fseek(file_spot, (int)
+                   paper_number*MAXIMUM_PAPER_LENGTH,
+                   SEEK_SET);
+               assert(answer == 0);
+               for (text_spot = 0; text_spot <
+                   MAXIMUM_PAPER_LENGTH; ++text_spot) {
+                   glyph = fgetc(file_spot);
+                   if (glyph == EOF) break;
+                   paper_storage[text_spot] = (char) glyph;
+                   ++length;
+               }
+           }
+           //printf("%X length \n", (unsigned int) length);
+       } else {
+           printf("fseek fail PFV");
+           length = 0;
+       }
+       answer = fclose(file_spot);
+       assert(answer == 0);
+   } else {
+       printf("file open fail PFV");
+       length = 0;
+   }
+   *paper_length = length;
+   //assert(*paper_length != 0);
+}
+
+//static void write_paper(const char *file_name,
+//                        const size_t paper_number, 
+//                        uint16_t paper_length,
+//                        char *paper_storage) {
 //   FILE *file_spot = NULL;
 //   int answer = 0;
-//   uint16_t text_spot = 0;
 //   uint16_t length = 0;
-//   int glyph = (char) 0;
 //   assert(file_name != 0);
 //   assert(strlen(file_name) > 0);
 //   assert(paper_storage != NULL);
-//   assert(*paper_length >= MAXIMUM_PAPER_LENGTH);
-//   file_spot = fopen(file_name, "r");
+//   assert(paper_length <= MAXIMUM_PAPER_LENGTH);
+//   file_spot = fopen(file_name, "w");
 //   assert(file_spot != NULL);
 //   if (file_spot != NULL) {
 //       answer = fseek(file_spot,
-//               (int) paper_number*MAXIMUM_PAPER_LENGTH,
-//               SEEK_SET);
+//                      (int) paper_number*MAXIMUM_PAPER_LENGTH,
+//                      SEEK_SET);
 //       //assert(answer == 0);
 //       if (answer == 0) {
-//           length = (uint16_t) (fread(paper_storage,
-//               MAXIMUM_PAPER_LENGTH, 1, file_spot));
-//           if (length != 0) {
-//               length = (uint16_t)(length *
-//                   MAXIMUM_PAPER_LENGTH);
-//           } else {
-//               answer = fseek(file_spot, (int)
-//                   paper_number*MAXIMUM_PAPER_LENGTH,
-//                   SEEK_SET);
-//               assert(answer == 0);
-//               for (text_spot = 0; text_spot <
-//                   MAXIMUM_PAPER_LENGTH; ++text_spot) {
-//                   glyph = fgetc(file_spot);
-//                   if (glyph == EOF) break;
-//                   paper_storage[text_spot] = (char) glyph;
-//                   ++length;
-//               }
+//           length = (uint16_t) (fwrite(paper_storage,
+//               paper_length, 1, file_spot));
+//           if (length != paper_length) {
+//            printf("write to file failed");
 //           }
-//           //printf("%X length \n", (unsigned int) length);
+//           
 //       } else {
 //           printf("fseek fail PFV");
 //           length = 0;
@@ -185,51 +225,75 @@ static void lump_encode_check() {
 //       printf("file open fail PFV");
 //       length = 0;
 //   }
-//   *paper_length = length;
-//   //assert(*paper_length != 0);
 //}
 
-//static void full_encode_check() {
-//  //const char text[] = "hyinkahtutsuhkakpanyiktuclathfak";
-//  //const uint8_t text_length = (uint8_t)strlen(text);
-//  char paper_storage[MAXIMUM_PAPER_LENGTH+1];
-//  uint16_t paper_length = 0;
-//  uint16_t paper_number = 0;
-//  uint16_t encode_sentence[0x100/2];
-//  uint8_t encode_sentence_length = 0x100/2;
-//  uint8_t remainder = 0;
-//  uint8_t i = 0;
-//  uint16_t paper_spot = 0;
-//  uint8_t text_length = 0;
-//  memset(encode_sentence, 0, encode_sentence_length);
-//
-//  for (; paper_number < 0x1000; ++paper_number) {
-//    paper_length = MAXIMUM_PAPER_LENGTH+1;
-//    read_paper("check/check.pyac", paper_number, paper_storage,
-//              &paper_length);
-//    printf("paper_length %X\n", (unsigned int) paper_length);
-//    if (paper_length == 0) break;
-//    for (paper_spot = 0; paper_spot < paper_length;) {
-//      if (paper_length - paper_spot < 0xFF) {
-//        text_length = (uint8_t) (paper_length - paper_spot);
-//      } else {
-//        text_length = 0xFF;
-//      }
-//        encode_ACC_word_PL(text_length, paper_storage + paper_spot, 
-//                          &encode_sentence_length, encode_sentence,  &remainder);
-//      paper_spot = (uint16_t) (paper_spot + text_length - remainder);
-//      printf("encode_word_PL %X remainder %X \n",
-//             (unsigned int)encode_sentence_length, (unsigned int)remainder);
-//      for (i = 0; i < encode_sentence_length; i++) {
-//        printf("0x%X ", (unsigned int)encode_sentence[i]);
-//      }
-//    }
-//    printf("\n");
-//  }
-//}
+static void full_encode_check() {
+  //const char text[] = "hyinkahtutsuhkakpanyiktuclathfak";
+  //const uint8_t text_length = (uint8_t)strlen(text);
+  char paper[MAXIMUM_PAPER_LENGTH+WORD_LENGTH+1];
+  uint16_t paper_length = 0;
+  uint16_t paper_number = 0;
+  uint16_t encode_sentence[0x100/2];
+  uint8_t encode_sentence_length = 0x100/2;
+  uint16_t paper_spot = 0;
+  uint8_t word_length_start = WORD_LENGTH;
+  uint8_t word_length = WORD_LENGTH;
+  uint16_t number = 0;
+  char word[WORD_LENGTH + 1];
+  FILE * outfile;
+  outfile = fopen("check/check-out.txt", "w+");
+  memset(encode_sentence, 0, encode_sentence_length);
+    memset(paper, 0, MAXIMUM_PAPER_LENGTH+WORD_LENGTH+1);
+  for (; paper_number < 0x1000; ++paper_number) {
+    //printf("paper_number 0x%04X\n", (unsigned int) paper_number);
+    paper_length = MAXIMUM_PAPER_LENGTH;
+    read_paper("check/check.pyac", paper_number, &paper_length, paper +
+               paper_spot);
+    if (paper_length == 0) break;
+    //printf("paper_spot %X\n", (unsigned int) paper_spot);
+    paper_length = (uint16_t)(paper_spot + paper_length);
+    paper_spot = 0;
+    //printf("paper_length %X\n", (unsigned int) paper_length);
+    //printf("paper glyph %02X \n", (unsigned int) paper[0]);
+    if (paper_length == 0) break;
+    assert(paper_length <  MAXIMUM_PAPER_LENGTH + WORD_LENGTH);
+    for (paper_spot = 0; paper_spot < paper_length; ++paper_spot) {
+      if (paper_length - paper_spot > WORD_LENGTH) {
+        word_length_start = WORD_LENGTH;
+      } else {
+        word_length_start = (uint8_t)(paper_length - paper_spot);
+      }
+      word_length = WORD_LENGTH;
+      memset(word, 0, WORD_LENGTH + 1);
+      derive_first_word(word_length_start, paper + paper_spot,
+                        &word_length, word);
+      assert(word_length > 0 || paper_length - paper_spot < WORD_LENGTH);
+      if (word_length == 0) {// copy remainder to start of paper and exit loop
+        text_copy((uint8_t)(paper_length - paper_spot), paper + paper_spot,
+                 paper);
+      //printf("paper_spot %04X paper_length %04X\n", (unsigned int) paper_spot,
+      //      (unsigned int) paper_length);
+        paper_spot = (uint16_t)(paper_length - paper_spot);
+        break;
+      }
+      //printf("word_length %X ", (unsigned int) word_length);
+      //if (word_length == 4) { printf("\n word %s \n", word); }
+      //printf("paper_spot %04X paper_length %04X\n", (unsigned int) paper_spot,
+      //       (unsigned int) paper_length);
+      encode_ACC_word_DAT_number(word_length, word, &number);
+      fprintf(outfile, "0x%04X %s \n", (unsigned int) number, word);
+      number = 0;
+      paper_spot = (uint16_t)(paper_spot + word_length - 1);
+    }
+    if (paper_spot == paper_length) {
+      paper_spot = 0;
+    }
+  }
+  fclose(outfile);
+}
 
 static void check_quote(v16us *restrict lump, uint8_t *lump_length) {
-  const char text[] = "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
+  const char text[] = "pwapyu wu.twus.hello world!\n.twus.wuka hsintu";
   const uint16_t text_length = (uint16_t)strlen(text);
   uint16_t remainder = 0;
   uint8_t lump_spot = 0;
@@ -246,7 +310,7 @@ static void check_quote(v16us *restrict lump, uint8_t *lump_length) {
 
 static void check_text(v16us *restrict lump, uint16_t *lump_length) {
   const char text[] = //"zrunnuka hyinnusu nyistu " 
-                      "pwapyu wu.tsus.hello world!\n.tsus.wuka hsintu";
+                      "pwapyu wu.twus.hello world!\n.twus.wuka hsintu";
                       
   const uint16_t text_length = (uint16_t)strlen(text);
   uint16_t remainder = 0;
@@ -348,6 +412,7 @@ static void check_ACC_all() {
   v16us lump_two[MAX_SENTENCE_LUMP * 2];
   memset(lump, 0, (uint8_t)(lump_length * WORD_WIDTH * LUMP_LENGTH));
   memset(lump_two, 0, (uint16_t)(lump_two_length * WORD_WIDTH * LUMP_LENGTH));
+  full_encode_check();
   delete_empty_glyph_check();
   derive_first_word_check();
   encode_check();
@@ -356,7 +421,6 @@ static void check_ACC_all() {
   /* full encode check */
   // full_encode_check(); /* deprecated implementation */
   //printf("full encode check\n");
-  //full_encode_check();
   check_quote(lump, &lump_length);
   printf("check_hello_world\n");
   check_hello_world(lump, lump_length);
