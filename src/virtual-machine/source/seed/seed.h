@@ -39,7 +39,7 @@
 #define QUOTE_GLYPH_WIDTH_SPOT 0xA
 #define QUOTE_CLASS_SPOT 0xC
 
-#define DEONTIC_MOOD 0x95E
+#define DEONTIC_MOOD 0x095E
 #define ACCUSATIVE_CASE 0x45E
 #define DATIVE_CASE 0x49E
 #define INSTRUMENTAL_CASE 0x93E
@@ -57,11 +57,11 @@
 #define NUMBER_GRAMMAR_WORD 0x8DE
 #define SAY_VERB 0x6048
 #define SUBTRACTION_VERB 0xA2CD
-#define INCREASE_VERB 0x8006 /* add */
+#define INCREASE_VERB 0x8006 //nyis /* add */
 #define EXCLUSIVEOR_VERB 0xA010
-#define ANDOR_VERB 0x0150
-#define NOT_VERB 0xE030      /* with conditional ESS toffoli gate  */
-#define UP_VERB 0x1118       /* shift up (left) */
+#define ANDOR_VERB 0x0150 //htam
+#define NOT_VERB 0xE030 //hnic     /* with conditional ESS toffoli gate  */
+#define ABOVE_VERB 0xC118   // hyaf    /* shift above (left) */
 #define DOWN_VERB 0x6068 //hcin     /* shift down (right) */
 #define EXCHANGE_VERB 0x63AA //tcen /* with conditional ESS fredkin gate */
 #define TEXT_WORD 0x822A //twus

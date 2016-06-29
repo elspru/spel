@@ -433,10 +433,19 @@ static void check_ACC_all() {
 
 static void check_programmer() {
   const uint8_t activity_elements_length = 4;
-  v8us activity_elements[4];
+  v8us activity_elements[4] =  { {0xA2CD, 0x095E}, {0x8006, 0x095E}, 
+                                 {0x0150, 0x095E}, {0xE030, 0x095E} };
   const uint8_t plan_length = 1;
+  uint64_t random_seed = 0x1;
   v8us plan;
-  create_plan(activity_elements_length, activity_elements, plan_length, &plan);
+  create_plan(activity_elements_length, activity_elements, plan_length,
+              &random_seed, &plan);
+  printf("plant %04X random_seed %08X\n", (unsigned int) plan[0], (unsigned int)
+         (random_seed));
+  create_plan(activity_elements_length, activity_elements, plan_length,
+              &random_seed, &plan);
+  printf("plant %04X random_seed %04X\n", (unsigned int) plan[0], (unsigned int)
+         (random_seed));
   
 }
 
