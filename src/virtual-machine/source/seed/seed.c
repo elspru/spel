@@ -761,7 +761,7 @@ static inline void detect_ACC_quote_length(const char *text,
       break;
     }
   }
-  // printf("class word length found\n");
+  printf("class_length %X\n", (unsigned int) class_length );
   *quote_spot = class_length;
   // detect next class word COM quote word
   for (text_spot = class_length; text_spot < text_length; ++text_spot) {
@@ -785,14 +785,15 @@ static inline void detect_ACC_quote_length(const char *text,
   }
 }
 
-static inline void derive_quote_word(const char *quote_class,
-                                     const uint8_t quote_class_length,
+static inline void derive_quote_word(const uint8_t quote_class_length,
+                                     const char *quote_class,
                                      const uint8_t quote_length,
                                      uint16_t *restrict quote_word) {
   char word[WORD_LENGTH];
   uint16_t quote_number = 0;
   uint8_t word_length = WORD_LENGTH;
   memset(word, 0, WORD_LENGTH);
+  printf("quote_class_length %X\n", (unsigned int) quote_class_length);
   assert(quote_class != NULL);
   assert(quote_class_length > 0);
   assert(quote_length > 0);
@@ -817,7 +818,13 @@ static inline void derive_quote_word(const char *quote_class,
   *quote_word |= QUOTE_LITERAL << QUOTE_LITERAL_XOR_ADDRESS_SPOT;
   *quote_word |= FALSE << QUOTE_INTEGER_SPOT;
   derive_first_word(quote_class_length, quote_class, &word_length, word);
-  encode_ACC_word_DAT_number(word_length, word, &quote_number);
+  assert(word_length > 0 && "to derive type of quote"); 
+  if (word_length > 0) 
+    encode_ACC_word_DAT_number(word_length, word, &quote_number);
+  else {
+    *quote_word = 0;
+    return; 
+  }
   // printf("quote_number %X\n", (unsigned int) quote_number);
   switch (quote_number) {
   case TEXT_WORD:
@@ -885,7 +892,8 @@ void sentence_encode(const uint16_t text_length, const char *text,
   assert(lump != NULL);
   assert(lump_length != NULL);
   assert(text_remainder != NULL);
-  assert(*lump_length >= MAX_SENTENCE_LUMP);
+  //printf("lump_length %X text %s\n",(unsigned int) *lump_length, text);
+  //assert(*lump_length >= text_length/2/15 /*MAX_SENTENCE_LUMP*/);
   //printf("sentence encoding\n");
   for (text_spot = 0; text_spot < text_length; ++text_spot) {
     glyph = text[text_spot];
@@ -915,13 +923,14 @@ void sentence_encode(const uint16_t text_length, const char *text,
             detect_ACC_quote_length(text + text_spot,
                                     (uint8_t)(text_length - text_spot),
                                     &quote_spot, &quote_length);
-            // printf("detected quote length %X\n",
-            //   (unsigned int) quote_length);
+            //printf("detected quote length %X\n", (unsigned int) quote_length);
+            //printf("quote_spot %X\n", (unsigned int) quote_spot - text_spot);
+            //printf("quote %s\n", text + text_spot + SILENCE_GLYPH_LENGTH);
             derive_quote_word(
+                (uint8_t)(quote_spot - SILENCE_GLYPH_LENGTH),
                 text + text_spot + SILENCE_GLYPH_LENGTH,
-                (uint8_t)(quote_spot - text_spot - SILENCE_GLYPH_LENGTH),
                 quote_length, &quote_word);
-            //printf("quote_length %X\n", (unsigned int)quote_length);
+            printf("quote_word %X\n", (unsigned int)quote_word);
             lump[0][lump_spot] = quote_word;
             ++lump_spot;
             copy_ACC_text_DAT_lump(text + text_spot + quote_spot,
@@ -983,7 +992,7 @@ void sentence_encode(const uint16_t text_length, const char *text,
     }
   }
   ++text_spot;
-  printf("se text_spot %X\n", (unsigned int)text_spot);
+  //printf("se text_spot %X\n", (unsigned int)text_spot);
   *lump_length = 1;
   *text_remainder = (uint16_t)(text_length - text_spot);
   lump[0][0] = binary_phrase_list;
@@ -1211,7 +1220,7 @@ inline void realize_sentence(const uint8_t lump_length,
 }
 
 
-inline void text_encode( const uint16_t max_text_length,
+inline void text_encode(const uint16_t max_text_length,
                         const char *text,
                         uint16_t *lump_length,
                         v16us *lump,
@@ -1232,9 +1241,9 @@ inline void text_encode( const uint16_t max_text_length,
   *text_remainder = max_text_length;
   for (;*lump_length < max_lump_length;) {
     if ((max_lump_length - *lump_length) < MAX_SENTENCE_LUMP) {
-      sentence_lump_length =  (uint8_t)(max_lump_length - *lump_length);
+      sentence_lump_length = (uint8_t)(max_lump_length - *lump_length);
     } else {
-      sentence_lump_length =  (uint8_t) MAX_SENTENCE_LUMP;
+      sentence_lump_length = (uint8_t) MAX_SENTENCE_LUMP;
     }
     sentence_encode(*text_remainder, text + text_spot, &sentence_lump_length,
                     &lump[*lump_length], text_remainder);

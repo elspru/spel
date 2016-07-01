@@ -293,7 +293,7 @@ static void full_encode_check() {
 }
 
 static void check_quote(v16us *restrict lump, uint8_t *lump_length) {
-  const char text[] = "pwapyu wu.twus.hello world!\n.twus.wuka hsintu";
+  const char text[] = "wu.twus.hello world!\n.twus.wuka hsintu";
   const uint16_t text_length = (uint16_t)strlen(text);
   uint16_t remainder = 0;
   uint8_t lump_spot = 0;
@@ -322,11 +322,13 @@ static void check_text(v16us *restrict lump, uint16_t *lump_length) {
   //  printf("%X ", (unsigned int)text[lump_spot]);
   //}
   //printf(": text\n");
+  printf("lump start \n");
   for (lump_spot = 0; lump_spot < (*lump_length * LUMP_LENGTH); 
        ++lump_spot) {
-    printf("%X ", (unsigned int)lump[0][lump_spot]);
+    if (lump_spot % 0x10 == 0) printf("\n");
+    printf("%04X ", (unsigned int)lump[0][lump_spot]);
   }
-  printf(":lump\n");
+  printf("\n:lump\n");
 }
 static void check_realize_text(const v16us *restrict lump,
                               const uint16_t lump_length) {
@@ -432,20 +434,36 @@ static void check_ACC_all() {
 }
 
 static void check_programmer() {
-  const uint8_t activity_elements_length = 4;
-  v8us activity_elements[4] =  { {0xA2CD, 0x095E}, {0x8006, 0x095E}, 
-                                 {0x0150, 0x095E}, {0xE030, 0x095E} };
-  const uint8_t plan_length = 1;
+  const char* activity_elements_text = "nyistu cruttu hnictu htamtu";
+  const uint16_t activity_elements_text_length = 
+                   (uint16_t)(strlen(activity_elements_text));
+  const char* check_sentence_list_text = //"zrunnuka hyinnusu hyinnupa nyistu"
+                                         //"hyinnuka tyutnusu tyinnupa nyistu"
+                                         //"tyutnuka tyutnusu hkutnupa nyistu";
+       // "wu.twus.hello world!.twus.wuka nyistu";
+                      " wu.twus.hello world!\n.twus.wuka hsintu";
+  const uint16_t check_sentence_list_text_length = 
+                   (uint16_t)strlen(check_sentence_list_text);
+  uint16_t check_sentence_list_length = 8;
+  v16us check_sentence_list[8];
+  uint16_t activity_elements_length = MAX_SENTENCE_LUMP*1;
+  v16us activity_elements[MAX_SENTENCE_LUMP*1];
+  uint16_t text_remainder = 0;
+  uint16_t plan_worth = 0;
+  const uint16_t plan_length = 1;
   uint64_t random_seed = 0x1;
-  v8us plan;
-  create_plan(activity_elements_length, activity_elements, plan_length,
-              &random_seed, &plan);
-  printf("plant %04X random_seed %08X\n", (unsigned int) plan[0], (unsigned int)
+  v16us plan;
+  text_encode(activity_elements_text_length, activity_elements_text,
+      &activity_elements_length, activity_elements, &text_remainder);
+  assert(text_remainder == 0);
+  text_encode(check_sentence_list_text_length, check_sentence_list_text,
+      &check_sentence_list_length, check_sentence_list, &text_remainder);
+  create_plan((uint8_t) activity_elements_length, activity_elements, 
+              plan_length, &random_seed, &plan);
+  printf("plan %04X random_seed %08X\n", (unsigned int) plan[1], (unsigned int)
          (random_seed));
-  create_plan(activity_elements_length, activity_elements, plan_length,
-              &random_seed, &plan);
-  printf("plant %04X random_seed %04X\n", (unsigned int) plan[0], (unsigned int)
-         (random_seed));
+  check_plan(check_sentence_list_length, check_sentence_list, plan_length,
+                &plan, &plan_worth);
   
 }
 

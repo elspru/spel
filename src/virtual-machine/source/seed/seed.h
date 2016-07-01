@@ -53,10 +53,10 @@
 #define INSTRUMENTAL_SPOT 1
 #define DATIVE_SPOT 0
 
-#define QUOTE_GRAMMAR_WORD 0x8BE
-#define NUMBER_GRAMMAR_WORD 0x8DE
-#define SAY_VERB 0x6048
-#define SUBTRACTION_VERB 0xA2CD
+#define QUOTE_GRAMMAR_WORD 0x8BE // wu
+#define NUMBER_GRAMMAR_WORD 0x8DE // nu
+#define SAY_VERB 0x6048 //hsin
+#define SUBTRACTION_VERB 0xA2CD // crut
 #define INCREASE_VERB 0x8006 //nyis /* add */
 #define EXCLUSIVEOR_VERB 0xA010
 #define ANDOR_VERB 0x0150 //htam
