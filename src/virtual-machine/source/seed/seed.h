@@ -19,10 +19,10 @@
 #define CONSONANT_TWO_WIDTH 3
 #define VOWEL_WIDTH 3
 #define TONE_WIDTH 2
-#define LUMP_BYTE_LENGTH 0x20
-#define LUMP_LENGTH 0x10
-#define LUMP_WORD_LENGTH 0xF
-#define MAX_SENTENCE_LUMP 0x4
+#define BRICK_BYTE_LENGTH 0x20
+#define BRICK_LENGTH 0x10
+#define BRICK_WORD_LENGTH 0xF
+#define MAX_SENTENCE_BRICK 0x4
 #define QUOTE_INDICATOR 0x1D
 #define SINGLE_BYTE_QUOTE 0x0
 #define TWO_BYTE_QUOTE 0x1
@@ -34,11 +34,13 @@
 
 #define QUOTE_LITERAL_XOR_ADDRESS_SPOT 8
 #define QUOTE_LITERAL 0
+#define QUOTE_LITERAL_SPOT 8
 #define QUOTE_ADDRESS 1
 #define QUOTE_INTEGER_SPOT 9
 #define QUOTE_GLYPH_WIDTH_SPOT 0xA
 #define QUOTE_CLASS_SPOT 0xC
 
+#define REALIS_MOOD 0x017E
 #define DEONTIC_MOOD 0x095E
 #define ACCUSATIVE_CASE 0x45E
 #define DATIVE_CASE 0x49E
@@ -86,28 +88,29 @@
 #define UNSIGNED_CHAR_QUOTE 0x009D
 #define SIGNED_CHAR_QUOTE 0x029D
 // numbers
-#define ZERO_WORD 0x1B34
-#define ONE_WORD  0x1818
-#define TWO_WORD  0x1A0A
-#define THREE_WORD  0x1942
-#define FOUR_WORD   0x1809
-#define FIVE_WORD   0x18E2
-#define SIX_WORD    0x192B
-#define SEVEN_WORD  0x1A26
-#define EIGHT_WORD  0x190A
-#define NINE_WORD   0x1B1B
-#define TEN_WORD    0x190A
-#define ELEVEN_WORD 0x1B2A
-#define TWELVE_WORD 0x1C10
-#define THIRTEEN_WORD 0x18A4
-#define FOURTEEN_WORD 0x1C48
-#define FIFTEEN_WORD  0x1B09
-#define SIXTEEN_WORD  0x1B98
-#define SEVENTEEN_WORD  0x1873
-#define EIGHTEEN_WORD 
-#define NINETEEN_WORD
-#define TWENTY_WORD
+#define ZERO_WORD 0x62D4
+#define ONE_WORD  0x6018
+#define TWO_WORD  0xA20A
+#define THREE_WORD  0x600A
+#define FOUR_WORD   0xA210
+#define FIVE_WORD   0x6124
+#define SIX_WORD    0x80A2
+#define SEVEN_WORD  0xE009
+#define EIGHT_WORD  0xA12B
+#define NINE_WORD   0x6226
+#define TEN_WORD    0x810A
+#define ELEVEN_WORD 0xE318
+#define TWELVE_WORD 0xC10A
+#define THIRTEEN_WORD 0x63CA
+#define FOURTEEN_WORD 0x8410
+#define FIFTEEN_WORD  0xE184
+#define SIXTEEN_WORD  0x8448
+#define SEVENTEEN_WORD  0xA309
+#define EIGHTEEN_WORD 0xA398
+#define NINETEEN_WORD 0x6053
+#define TWENTY_WORD 0x804A
 
+typedef unsigned int uint;
 typedef int v4si __attribute__((vector_size(16)));
 typedef uint8_t v16uc __attribute__((vector_size(16)));
 typedef uint16_t v16us __attribute__((vector_size(32)));
@@ -134,28 +137,28 @@ extern void encode_ACC_word_PL(const uint8_t ACC_GEN_length,
                                    const char *restrict ACC_text,
                                    char *restrict DAT_text);
 
-/*@unused@*/ extern void lump_encode(const uint8_t encode_text_length,
+/*@unused@*/ extern void brick_encode(const uint8_t encode_text_length,
                                      const uint16_t *encode_text,
-                                     uint8_t *lump_length,
-                                     uint16_t *lump,
+                                     uint8_t *brick_length,
+                                     uint16_t *brick,
                                      uint8_t *remainder);
 /*@unused@*/ extern void sentence_encode(const uint16_t text_length,
                                          const char *text,
-                                         uint8_t *lump_length,
-                                         v16us *lump,
+                                         uint8_t *brick_length,
+                                         v16us *brick,
                                          uint16_t *remainder);
 /*@unused@*/ extern void text_encode(const uint16_t text_length,
                                      const char *text,
-                                     uint16_t *lump_length,
-                                     v16us *lump,
+                                     uint16_t *brick_length,
+                                     v16us *brick,
                                      uint16_t *text_remainder);
 /*@unused@*/ extern void realize(const v4us encoded_name, v8us *hook_list);
-/*@unused@*/ extern void realize_sentence(const uint8_t lump_length,
-                                          const v16us *lump,
+/*@unused@*/ extern void realize_sentence(const uint8_t brick_length,
+                                          const v16us *brick,
                                           v4us* encoded_name,
                                           v8us *hook_list);
-/*@unused@*/ extern void realize_text(const uint16_t lump_length,
-                                      const v16us *lump,
+/*@unused@*/ extern void realize_text(const uint16_t brick_length,
+                                      const v16us *brick,
                                       v4us* encoded_name,
                                       v8us *hook_list);
 #endif

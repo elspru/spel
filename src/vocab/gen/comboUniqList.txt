@@ -439,7 +439,6 @@ memory
 grave
 modern
 spot
-rise
 break
 island
 touch
@@ -453,6 +452,7 @@ minute
 shot
 lead
 glass
+board
 instance
 safe
 doctor
@@ -537,6 +537,7 @@ multiplicative-case g
 obtain
 cross
 thick
+grow
 rain
 quietly
 surface
@@ -558,7 +559,6 @@ capital
 breast
 education
 sharp
-group
 expense
 yours
 million
@@ -601,13 +601,12 @@ wounded g
 palace
 beat
 fool
-edge
 nine
 sympathy
 burst
 dressed
 literature
-advice
+collection
 empty
 storm
 pocket
@@ -728,13 +727,13 @@ anywhere
 kitchen
 sell
 speed
-conclusion
 computer
 eternal
 library
 confusion
 article g
 cook
+band
 desert
 kiss
 ice
@@ -776,6 +775,7 @@ singular-number g 2
 dawn
 forgive g
 sheep
+resolution
 patience g
 referential g
 corn
@@ -821,6 +821,7 @@ admonitive-mood g
 ambition g
 yield
 somehow
+counsel
 constitution
 instrument
 steady
@@ -896,7 +897,6 @@ ceremony
 hunting
 liberal
 largely
-lawyer
 princess
 altar
 web
@@ -911,13 +911,13 @@ manage
 exchange
 definite-article g
 emperor
+finish
 ugly
 genuine
 inch
 beard
 tear
 resist
-commission
 merchant
 independence
 smell
@@ -946,6 +946,7 @@ flash
 suggest
 imprecative-mood g 3
 helpless
+groups
 club
 flood
 enjoyment
@@ -1077,7 +1078,6 @@ lip
 retire
 economy
 stretch
-gallery
 parallel
 atelic-aspect g 3
 prohibitive-mood g
@@ -1133,6 +1133,7 @@ gravity
 sermon
 partner
 abuse
+flock
 thirteen
 justify
 manuscript
@@ -1246,7 +1247,6 @@ hunter
 snake
 battery
 detective
-analysis
 swim
 envelope
 cigarette
@@ -1266,6 +1266,7 @@ momentane-aspect g 3
 drift
 imaginary
 ray
+climbing
 ink
 memorable
 noisy
@@ -1349,7 +1350,6 @@ tiger
 sleeve
 highway
 militia
-ribbon
 integrity
 transparent
 nineteen
@@ -1375,7 +1375,6 @@ phase
 arbitrary
 ecstasy g
 mercury
-creep
 suicide
 reporter
 deprive
@@ -1408,7 +1407,6 @@ dome
 thickness
 stubborn
 muscle
-cultivate
 magnitude
 rub
 toast
@@ -1493,9 +1491,7 @@ comments
 undergo
 self-control
 embassy
-plaster
 chairman
-decoration
 invent
 declarative-mood g
 glove
@@ -1514,6 +1510,7 @@ pudding
 magnetic
 pump
 oxygen
+fringe
 certificate
 medal
 rhetoric
@@ -1550,7 +1547,6 @@ chart
 twin
 insulting
 independently
-accumulation
 marsh
 nightmare
 jam
@@ -1585,6 +1581,7 @@ squeeze
 percentage
 ideophone g
 lever
+withdrawal
 senator
 ant
 pregnant
@@ -1606,7 +1603,6 @@ passport
 immoral
 biscuit
 cooperation
-tablet
 forge
 atom
 aids
@@ -1692,6 +1688,7 @@ gutter
 comet
 innovation
 medieval
+decorative
 plastic
 footnote
 dairy
@@ -1737,6 +1734,7 @@ steak
 nitrogen
 mutter
 berry
+analyze
 contrasting
 fireworks
 pop
@@ -1847,7 +1845,6 @@ cultural
 gender
 platinum
 dual-number g 3
-synthesis
 specialty
 lung
 super
@@ -1910,6 +1907,7 @@ syntax
 productivity
 carrot
 molecular
+conglomerate
 accountant
 differentiation
 availability
@@ -1946,6 +1944,7 @@ immune
 abridge
 captivate
 sock
+movie
 cosmos
 pollute
 gregarious
@@ -1975,7 +1974,6 @@ anthropology
 tasty
 transitive g
 cower
-analytic
 simulation
 vagina
 ion
@@ -2022,7 +2020,6 @@ gamma
 server
 motion-downriver g 3
 coefficient
-cinema
 bismuth
 postcard
 digress
@@ -2041,7 +2038,6 @@ splice
 bromine
 silicon
 hiccup
-consultant
 pastel
 zoo
 clinic
@@ -2134,6 +2130,7 @@ calorie
 robot
 homework
 logarithm
+instal
 glyph
 ecology
 sophisticate
@@ -2246,7 +2243,6 @@ railcar
 clip-art
 bookmark
 hafnium
-regression
 home-page
 lative-case g
 nth-root
@@ -2292,7 +2288,6 @@ scroll-bar
 triple-point
 read-only
 wisecrack
-decay
 impermanence
 poet
 phonological
@@ -2373,6 +2368,7 @@ clip-board
 xenon
 spreadsheet
 nth-power g
+movie-theater
 inbox
 per-cent
 aerosol

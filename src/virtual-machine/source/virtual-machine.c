@@ -23,38 +23,38 @@ static void encode_check() {
   uint16_t number = 0;
   /* LONG_ROOT */
   encode_ACC_word_DAT_number(length, long_root, &number);
-  // printf("%X\n", (unsigned int) number);
+  // printf("%X\n", (uint) number);
   assert(number == 0x61AA);
   /* SHORT_ROOT */
   encode_ACC_word_DAT_number(length, short_root, &number);
-  // printf("short_root %X\n", (unsigned int) number);
+  // printf("short_root %X\n", (uint) number);
   assert(number == 0x4358);
   /* LONG_GRAMMAR */
   encode_ACC_word_DAT_number(length, long_grammar, &number);
-  // printf("long_grammar %X\n", (unsigned int) number);
+  // printf("long_grammar %X\n", (uint) number);
   assert(number == 0x2E8F);
   /* SHORT_GRAMMAR */
   length = 2;
   encode_ACC_word_DAT_number(length, short_grammar, &number);
-  // printf("short_grammar %X\n", (unsigned int) number);
+  // printf("short_grammar %X\n", (uint) number);
   assert(number == 0xA7E);
   /* LONG_TONE_ROOT */
   length = 5;
   encode_ACC_word_DAT_number(length, long_tone_root, &number);
-  // printf("%X\n", (unsigned int) number);
+  // printf("%X\n", (uint) number);
   assert(number == 0x7151);
   /* SHORT_TONE_ROOT */
   encode_ACC_word_DAT_number(length, short_tone_root, &number);
-  // printf("%X\n", (unsigned int) number);
+  // printf("%X\n", (uint) number);
   assert(number == 0xEBD8);
   /* LONG_TONE_GRAMMAR */
   encode_ACC_word_DAT_number(length, long_tone_grammar, &number);
-  // printf("%X\n", (unsigned int) number);
+  // printf("%X\n", (uint) number);
   assert(number == 0xAE8F);
   /* SHORT_TONE_GRAMMAR */
   length = 3;
   encode_ACC_word_DAT_number(length, short_tone_grammar, &number);
-  // printf("%X\n", (unsigned int) number);
+  // printf("%X\n", (uint) number);
   assert(number == 0x2A7E);
   printf("%s%s\n", "NOM encode_ACC_word_DAT_number PFV check ESS success",
          " REAL");
@@ -104,34 +104,34 @@ static void encode_word_PL_check() {
   encode_ACC_word_PL(text_length, text, &encode_sentence_length,
                      encode_sentence, &remainder);
   printf("encode_word_PL %X remainder %X \n",
-         (unsigned int)encode_sentence_length, (unsigned int)remainder);
+         (uint)encode_sentence_length, (uint)remainder);
   for (i = 0; i < encode_sentence_length; i++) {
-    printf("0x%04X ", (unsigned int)encode_sentence[i]);
+    printf("0x%04X ", (uint)encode_sentence[i]);
   }
   printf("\n");
 }
 
-static void lump_encode_check() {
+static void brick_encode_check() {
   const char text[] = "wukahtutsuhkakpanyiktu";
   const uint8_t text_length = (uint8_t)strlen(text);
   uint16_t encode_sentence[SENTENCE_LENGTH / WORD_LENGTH];
   uint8_t encode_sentence_length = SENTENCE_LENGTH / WORD_LENGTH;
   uint8_t remainder = 0;
-  uint16_t lump[LUMP_WORD_LENGTH * MAX_SENTENCE_LUMP];
-  uint8_t lump_length = LUMP_WORD_LENGTH * MAX_SENTENCE_LUMP;
+  uint16_t brick[BRICK_WORD_LENGTH * MAX_SENTENCE_BRICK];
+  uint8_t brick_length = BRICK_WORD_LENGTH * MAX_SENTENCE_BRICK;
   uint8_t i = 0;
   memset(encode_sentence, 0, (uint8_t)(encode_sentence_length * WORD_WIDTH));
-  memset(lump, 0, (uint8_t)(lump_length * WORD_WIDTH));
+  memset(brick, 0, (uint8_t)(brick_length * WORD_WIDTH));
   encode_ACC_word_PL(text_length, text, &encode_sentence_length,
                      encode_sentence, &remainder);
   printf("encode_word_PL %X remainder %X \n",
-         (unsigned int)encode_sentence_length, (unsigned int)remainder);
-  lump_encode(encode_sentence_length, encode_sentence, &lump_length, lump,
+         (uint)encode_sentence_length, (uint)remainder);
+  brick_encode(encode_sentence_length, encode_sentence, &brick_length, brick,
               &remainder);
-  printf("lump_length %X remainder %X \n", (unsigned int)lump_length,
-         (unsigned int)remainder);
-  for (i = 0; i < lump_length; i++) {
-    printf("0x%X ", (unsigned int)lump[i]);
+  printf("brick_length %X remainder %X \n", (uint)brick_length,
+         (uint)remainder);
+  for (i = 0; i < brick_length; i++) {
+    printf("0x%X ", (uint)brick[i]);
   }
   printf("\n");
 }
@@ -175,7 +175,7 @@ static void read_paper(const char *file_name,
                    ++length;
                }
            }
-           //printf("%X length \n", (unsigned int) length);
+           //printf("%X length \n", (uint) length);
        } else {
            printf("fseek fail PFV");
            length = 0;
@@ -245,16 +245,16 @@ static void full_encode_check() {
   memset(encode_sentence, 0, encode_sentence_length);
     memset(paper, 0, MAXIMUM_PAPER_LENGTH+WORD_LENGTH+1);
   for (; paper_number < 0x1000; ++paper_number) {
-    //printf("paper_number 0x%04X\n", (unsigned int) paper_number);
+    //printf("paper_number 0x%04X\n", (uint) paper_number);
     paper_length = MAXIMUM_PAPER_LENGTH;
     read_paper("check/check.pyac", paper_number, &paper_length, paper +
                paper_spot);
     if (paper_length == 0) break;
-    //printf("paper_spot %X\n", (unsigned int) paper_spot);
+    //printf("paper_spot %X\n", (uint) paper_spot);
     paper_length = (uint16_t)(paper_spot + paper_length);
     paper_spot = 0;
-    //printf("paper_length %X\n", (unsigned int) paper_length);
-    //printf("paper glyph %02X \n", (unsigned int) paper[0]);
+    //printf("paper_length %X\n", (uint) paper_length);
+    //printf("paper glyph %02X \n", (uint) paper[0]);
     if (paper_length == 0) break;
     assert(paper_length <  MAXIMUM_PAPER_LENGTH + WORD_LENGTH);
     for (paper_spot = 0; paper_spot < paper_length; ++paper_spot) {
@@ -271,17 +271,17 @@ static void full_encode_check() {
       if (word_length == 0) {// copy remainder to start of paper and exit loop
         text_copy((uint8_t)(paper_length - paper_spot), paper + paper_spot,
                  paper);
-      //printf("paper_spot %04X paper_length %04X\n", (unsigned int) paper_spot,
-      //      (unsigned int) paper_length);
+      //printf("paper_spot %04X paper_length %04X\n", (uint) paper_spot,
+      //      (uint) paper_length);
         paper_spot = (uint16_t)(paper_length - paper_spot);
         break;
       }
-      //printf("word_length %X ", (unsigned int) word_length);
+      //printf("word_length %X ", (uint) word_length);
       //if (word_length == 4) { printf("\n word %s \n", word); }
-      //printf("paper_spot %04X paper_length %04X\n", (unsigned int) paper_spot,
-      //       (unsigned int) paper_length);
+      //printf("paper_spot %04X paper_length %04X\n", (uint) paper_spot,
+      //       (uint) paper_length);
       encode_ACC_word_DAT_number(word_length, word, &number);
-      fprintf(outfile, "0x%04X %s \n", (unsigned int) number, word);
+      fprintf(outfile, "0x%04X %s \n", (uint) number, word);
       number = 0;
       paper_spot = (uint16_t)(paper_spot + word_length - 1);
     }
@@ -292,103 +292,103 @@ static void full_encode_check() {
   fclose(outfile);
 }
 
-static void check_quote(v16us *restrict lump, uint8_t *lump_length) {
+static void check_quote(v16us *restrict brick, uint8_t *brick_length) {
   const char text[] = "wu.twus.hello world!\n.twus.wuka hsintu";
   const uint16_t text_length = (uint16_t)strlen(text);
   uint16_t remainder = 0;
-  uint8_t lump_spot = 0;
-  sentence_encode(text_length, text, lump_length, lump, &remainder);
-  for (lump_spot = 0; lump_spot < text_length; ++lump_spot) {
-    printf("%X ", (unsigned int)text[lump_spot]);
+  uint8_t brick_spot = 0;
+  sentence_encode(text_length, text, brick_length, brick, &remainder);
+  for (brick_spot = 0; brick_spot < text_length; ++brick_spot) {
+    printf("%X ", (uint)text[brick_spot]);
   }
   printf(": text\n");
-  for (lump_spot = 0; lump_spot < LUMP_LENGTH; ++lump_spot) {
-    printf("%X ", (unsigned int)lump[0][lump_spot]);
+  for (brick_spot = 0; brick_spot < BRICK_LENGTH; ++brick_spot) {
+    printf("%X ", (uint)brick[0][brick_spot]);
   }
-  printf(": lump");
+  printf(": brick");
 }
 
-static void check_text(v16us *restrict lump, uint16_t *lump_length) {
+static void check_text(v16us *restrict brick, uint16_t *brick_length) {
   const char text[] = //"zrunnuka hyinnusu nyistu " 
                       "pwapyu wu.twus.hello world!\n.twus.wuka hsintu";
                       
   const uint16_t text_length = (uint16_t)strlen(text);
   uint16_t remainder = 0;
-  uint8_t lump_spot = 0;
+  uint8_t brick_spot = 0;
   printf("check_text \n");
-  //printf("text_length %X\n",(unsigned int)text_length);
-  text_encode(text_length, text, lump_length, lump, &remainder);
-  //for (lump_spot = 0; lump_spot < text_length; ++lump_spot) {
-  //  printf("%X ", (unsigned int)text[lump_spot]);
+  //printf("text_length %X\n",(uint)text_length);
+  text_encode(text_length, text, brick_length, brick, &remainder);
+  //for (brick_spot = 0; brick_spot < text_length; ++brick_spot) {
+  //  printf("%X ", (uint)text[brick_spot]);
   //}
   //printf(": text\n");
-  printf("lump start \n");
-  for (lump_spot = 0; lump_spot < (*lump_length * LUMP_LENGTH); 
-       ++lump_spot) {
-    if (lump_spot % 0x10 == 0) printf("\n");
-    printf("%04X ", (unsigned int)lump[0][lump_spot]);
+  printf("brick start \n");
+  for (brick_spot = 0; brick_spot < (*brick_length * BRICK_LENGTH); 
+       ++brick_spot) {
+    if (brick_spot % 0x10 == 0) printf("\n");
+    printf("%04X ", (uint)brick[0][brick_spot]);
   }
-  printf("\n:lump\n");
+  printf("\n:brick\n");
 }
-static void check_realize_text(const v16us *restrict lump,
-                              const uint16_t lump_length) {
+static void check_realize_text(const v16us *restrict brick,
+                              const uint16_t brick_length) {
   uint8_t check_spot = 0;
   v4us encoded_name = {0, 0, 0, 0};
   v8us hook_list[HOOK_LIST_LENGTH];
   memset(hook_list, 0, (HOOK_LIST_WIDTH * HOOK_LIST_LENGTH * WORD_WIDTH));
-  realize_text(lump_length, lump, &encoded_name, hook_list);
+  realize_text(brick_length, brick, &encoded_name, hook_list);
 
-  printf("lump ");
-  for (check_spot = 0; check_spot < lump_length * LUMP_LENGTH;
+  printf("brick ");
+  for (check_spot = 0; check_spot < brick_length * BRICK_LENGTH;
        ++check_spot) {
-    printf(" %X", (unsigned int)lump[0][check_spot]);
+    printf(" %X", (uint)brick[0][check_spot]);
   }
   printf("\n");
   // checking encoded name
   printf("encoded_name at end ");
   for (check_spot = 0; check_spot < 4; ++check_spot) {
-    printf(" %X", (unsigned int)encoded_name[check_spot]);
+    printf(" %X", (uint)encoded_name[check_spot]);
   }
   printf("\n");
   // checking hook list
   printf("hook_list ");
   for (check_spot = 0; check_spot < HOOK_LIST_LENGTH * HOOK_LIST_WIDTH;
        ++check_spot) {
-    printf(" %X", (unsigned int)hook_list[0][check_spot]);
+    printf(" %X", (uint)hook_list[0][check_spot]);
   }
   printf("\n");
 }
 
-static void check_hello_world(const v16us *restrict lump,
-                              const uint8_t lump_length) {
+static void check_hello_world(const v16us *restrict brick,
+                              const uint8_t brick_length) {
   uint8_t check_spot = 0;
   v4us encoded_name = {0, 0, 0, 0};
   v8us hook_list[HOOK_LIST_LENGTH];
   memset(hook_list, 0, (HOOK_LIST_WIDTH * HOOK_LIST_LENGTH * WORD_WIDTH));
   printf("encoded_name at start ");
   for (check_spot = 0; check_spot < 4; ++check_spot) {
-    printf(" %X", (unsigned int)encoded_name[check_spot]);
+    printf(" %X", (uint)encoded_name[check_spot]);
   }
-  realize_sentence(lump_length, lump, &encoded_name, hook_list);
+  realize_sentence(brick_length, brick, &encoded_name, hook_list);
 
   // checking encoded name
   printf("encoded_name at end ");
   for (check_spot = 0; check_spot < 4; ++check_spot) {
-    printf(" %X", (unsigned int)encoded_name[check_spot]);
+    printf(" %X", (uint)encoded_name[check_spot]);
   }
   printf("\n");
-  // checking lump
-  printf("lump ");
-  for (check_spot = 0; check_spot < lump_length * LUMP_LENGTH;
+  // checking brick
+  printf("brick ");
+  for (check_spot = 0; check_spot < brick_length * BRICK_LENGTH;
        ++check_spot) {
-    printf(" %X", (unsigned int)lump[0][check_spot]);
+    printf(" %X", (uint)brick[0][check_spot]);
   }
   printf("\n");
   // checking hook list
   printf("hook_list ");
   for (check_spot = 0; check_spot < HOOK_LIST_LENGTH * HOOK_LIST_WIDTH;
        ++check_spot) {
-    printf(" %X", (unsigned int)hook_list[0][check_spot]);
+    printf(" %X", (uint)hook_list[0][check_spot]);
   }
   printf("\n");
   /* next have to figure out the memory architecture,
@@ -408,28 +408,28 @@ static void check_hello_world(const v16us *restrict lump,
 }
 
 static void check_ACC_all() {
-  uint8_t lump_length = MAX_SENTENCE_LUMP;
-  v16us lump[MAX_SENTENCE_LUMP];
-  uint16_t lump_two_length = MAX_SENTENCE_LUMP * 2;
-  v16us lump_two[MAX_SENTENCE_LUMP * 2];
-  memset(lump, 0, (uint8_t)(lump_length * WORD_WIDTH * LUMP_LENGTH));
-  memset(lump_two, 0, (uint16_t)(lump_two_length * WORD_WIDTH * LUMP_LENGTH));
+  uint8_t brick_length = MAX_SENTENCE_BRICK;
+  v16us brick[MAX_SENTENCE_BRICK];
+  uint16_t brick_two_length = MAX_SENTENCE_BRICK * 2;
+  v16us brick_two[MAX_SENTENCE_BRICK * 2];
+  memset(brick, 0, (uint8_t)(brick_length * WORD_WIDTH * BRICK_LENGTH));
+  memset(brick_two, 0, (uint16_t)(brick_two_length * WORD_WIDTH * BRICK_LENGTH));
   full_encode_check();
   delete_empty_glyph_check();
   derive_first_word_check();
   encode_check();
   printf("encode_word_PL_check:\n");
-  lump_encode_check();
+  brick_encode_check();
   /* full encode check */
   // full_encode_check(); /* deprecated implementation */
   //printf("full encode check\n");
-  check_quote(lump, &lump_length);
+  check_quote(brick, &brick_length);
   printf("check_hello_world\n");
-  check_hello_world(lump, lump_length);
+  check_hello_world(brick, brick_length);
   //printf("check_text\n");
-  check_text(lump_two, &lump_two_length);
+  check_text(brick_two, &brick_two_length);
   //printf("check_realize_text\n");
-  check_realize_text(lump_two, lump_two_length);
+  check_realize_text(brick_two, brick_two_length);
   encode_word_PL_check();
 }
 
@@ -437,30 +437,39 @@ static void check_programmer() {
   const char* activity_elements_text = "nyistu cruttu hnictu htamtu";
   const uint16_t activity_elements_text_length = 
                    (uint16_t)(strlen(activity_elements_text));
-  const char* check_sentence_list_text = //"zrunnuka hyinnusu hyinnupa nyistu"
-                                         //"hyinnuka tyutnusu tyinnupa nyistu"
-                                         //"tyutnuka tyutnusu hkutnupa nyistu";
-       // "wu.twus.hello world!.twus.wuka nyistu";
-                      " wu.twus.hello world!\n.twus.wuka hsintu";
+  const char* check_sentence_list_text = "zrunnuka hyinnusu nyisyu hyinnukali"
+                                         "hyinnuka tyutnusu nyisyu tyinnukali"
+                                         "tyutnuka tyutnusu nyisyu hkutnukali"
+        "wu.hnac.2.hnac.wunuka wu.hnac.2.hnac.wunusu nyisyu wu.hnac.4.hnac.wunukali";
   const uint16_t check_sentence_list_text_length = 
                    (uint16_t)strlen(check_sentence_list_text);
   uint16_t check_sentence_list_length = 8;
   v16us check_sentence_list[8];
-  uint16_t activity_elements_length = MAX_SENTENCE_LUMP*1;
-  v16us activity_elements[MAX_SENTENCE_LUMP*1];
+  uint16_t activity_elements_length = MAX_SENTENCE_BRICK*1;
+  v16us activity_elements[MAX_SENTENCE_BRICK*1];
   uint16_t text_remainder = 0;
   uint16_t plan_worth = 0;
   const uint16_t plan_length = 1;
   uint64_t random_seed = 0x1;
+  uint16_t brick_spot = 0;
   v16us plan;
+  memset(check_sentence_list, 0, (size_t)(check_sentence_list_length *
+BRICK_LENGTH * WORD_WIDTH));
   text_encode(activity_elements_text_length, activity_elements_text,
       &activity_elements_length, activity_elements, &text_remainder);
   assert(text_remainder == 0);
   text_encode(check_sentence_list_text_length, check_sentence_list_text,
       &check_sentence_list_length, check_sentence_list, &text_remainder);
+  printf("brick start \n");
+  for (brick_spot = 0; brick_spot < (check_sentence_list_length * BRICK_LENGTH); 
+       ++brick_spot) {
+    if (brick_spot % 0x10 == 0) printf("\n");
+    printf("%04X ", (uint)check_sentence_list[0][brick_spot]);
+  }
+  printf("\n:brick\n");
   create_plan((uint8_t) activity_elements_length, activity_elements, 
               plan_length, &random_seed, &plan);
-  printf("plan %04X random_seed %08X\n", (unsigned int) plan[1], (unsigned int)
+  printf("plan %04X random_seed %08X\n", (uint) plan[1], (uint)
          (random_seed));
   check_plan(check_sentence_list_length, check_sentence_list, plan_length,
                 &plan, &plan_worth);
