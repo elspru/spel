@@ -1,5 +1,23 @@
+/*SPEL virtual machine
+Copyright (C) 2016  Logan Streondj
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+contact: streondj at gmail dot com
+*/
 #include <stdint.h> // opencl compatible
-#include <stdio.h> // NOT opencl compatible
+#include <stdio.h>  // NOT opencl compatible
 #include <assert.h>
 #include <string.h> // NOT opencl compatible// uses memset and memcmp
 #include "seed.h"
@@ -164,21 +182,21 @@ void text_copy(const uint8_t length, const char *restrict ACC_text,
   }
 }
 static inline void copy_ACC_text_DAT_brick(const char *restrict text,
-                                          const uint8_t text_length,
-                                          v16us* restrict brick,
-                                          const uint8_t brick_offset,
-                                          const uint8_t brick_length) {
+                                           const uint8_t text_length,
+                                           v16us *restrict brick,
+                                           const uint8_t brick_offset,
+                                           const uint8_t brick_length) {
   uint8_t text_spot;
   uint8_t brick_spot = 0;
   assert(brick_length >= text_length / 2 / BRICK_LENGTH);
   assert(text != NULL);
   assert(brick != NULL);
-  //printf("copy_ACC_text_DAT_brick "); 
-  //printf("text_length %X ", (uint) text_length);
-  //printf("brick_length %X ", (uint) brick_length);
-  //printf("brick %04X ", (uint) (*brick)[0]);
-  //printf("text %s ", (char*) text);
-  //printf("\n");
+  // printf("copy_ACC_text_DAT_brick ");
+  // printf("text_length %X ", (uint) text_length);
+  // printf("brick_length %X ", (uint) brick_length);
+  // printf("brick %04X ", (uint) (*brick)[0]);
+  // printf("text %s ", (char*) text);
+  // printf("\n");
   for (text_spot = 0; text_spot < text_length; ++text_spot) {
     // printf("text_spot %X %X ", (uint) text_spot,
     //    (uint) text_length);
@@ -189,7 +207,7 @@ static inline void copy_ACC_text_DAT_brick(const char *restrict text,
     } else {
       (*brick)[brick_spot + brick_offset] = (uint16_t)text[text_spot];
     }
-    //printf("brick %04X \n", (uint) brick[0][brick_spot + brick_offset]);
+    // printf("brick %04X \n", (uint) brick[0][brick_spot + brick_offset]);
     ++brick_spot;
   }
 }
@@ -306,7 +324,7 @@ static inline void encode_ACC_consonant_two(const uint8_t type,
                                             uint16_t *restrict number) {
   uint8_t i, consonant_number = CONSONANT_TWO_ENCODE_LENGTH;
   uint16_t start_number = *number;
-  //printf("n %04X, t %X c2 %c \n", (uint) *number,
+  // printf("n %04X, t %X c2 %c \n", (uint) *number,
   //       (uint) type, (char) consonant_two);
   assert(consonant_Q((char)consonant_two) == TRUE);
   if (consonant_two != 0 && type == SHORT_ROOT) {
@@ -325,8 +343,8 @@ static inline void encode_ACC_consonant_two(const uint8_t type,
         consonant_number = consonant_two_encode_group[i][1];
         assert(consonant_number < CONSONANT_TWO_ENCODE_LENGTH);
         if (type == LONG_ROOT) {
-          //printf("C2LR cn %04X\n", (uint) consonant_number);
-          //printf("C2LR %04X\n", (uint) consonant_number << 
+          // printf("C2LR cn %04X\n", (uint) consonant_number);
+          // printf("C2LR %04X\n", (uint) consonant_number <<
           //       (CONSONANT_ONE_WIDTH));
           *number |= (uint16_t)(consonant_number << CONSONANT_ONE_WIDTH);
           break;
@@ -345,8 +363,8 @@ static inline void encode_ACC_consonant_two(const uint8_t type,
 static inline void encode_ACC_vowel(const uint8_t type, const uint8_t vowel,
                                     uint16_t *restrict number) {
   uint8_t i, vowel_number = VOWEL_ENCODE_LENGTH;
-  //uint16_t start_number = *number;
-  //printf("n %04X, t %X v %c \n", (uint) *number,
+  // uint16_t start_number = *number;
+  // printf("n %04X, t %X v %c \n", (uint) *number,
   //       (uint) type, (char) vowel);
   assert(vowel_Q((char)vowel) == TRUE);
   if (vowel != 0) {
@@ -355,7 +373,7 @@ static inline void encode_ACC_vowel(const uint8_t type, const uint8_t vowel,
         vowel_number = vowel_encode_group[i][1];
         assert(vowel_number < VOWEL_ENCODE_LENGTH);
         if (type == LONG_ROOT) {
-          //printf("VLR %04X\n", (uint) vowel_number << (
+          // printf("VLR %04X\n", (uint) vowel_number << (
           //       CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH));
           *number |= (uint16_t)(vowel_number
                                 << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH));
@@ -365,7 +383,7 @@ static inline void encode_ACC_vowel(const uint8_t type, const uint8_t vowel,
               (uint16_t)(vowel_number << (BANNER_WIDTH + CONSONANT_ONE_WIDTH));
           break;
         } else if (type == LONG_GRAMMAR) {
-          //printf("VLG %04X\n", (uint) vowel_number << (BANNER_WIDTH + 
+          // printf("VLG %04X\n", (uint) vowel_number << (BANNER_WIDTH +
           //       CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH));
           *number |=
               (uint16_t)(vowel_number << (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
@@ -378,7 +396,7 @@ static inline void encode_ACC_vowel(const uint8_t type, const uint8_t vowel,
       }
     }
   }
-  //assert(vowel_number == 0 || *number != start_number);
+  // assert(vowel_number == 0 || *number != start_number);
   assert(vowel_number != VOWEL_ENCODE_LENGTH);
 }
 
@@ -420,7 +438,7 @@ static inline void encode_ACC_tone(const uint8_t type, const uint8_t tone,
                                    uint16_t *restrict number) {
   uint8_t i, tone_number = TONE_ENCODE_LENGTH;
   uint16_t start_number = *number;
-  //printf("n %04X, t %X tn %c \n", (uint) *number,
+  // printf("n %04X, t %X tn %c \n", (uint) *number,
   //       (uint) type, (char) tone);
   assert(tone_Q((char)tone) == TRUE);
   if (tone != 0) {
@@ -428,9 +446,10 @@ static inline void encode_ACC_tone(const uint8_t type, const uint8_t tone,
       if (tone_encode_group[i][0] == tone) {
         tone_number = tone_encode_group[i][1];
         if (type == LONG_ROOT) {
-          //printf("TLR %X\n", (uint)(tone_number << 
+          // printf("TLR %X\n", (uint)(tone_number <<
           //       (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH + VOWEL_WIDTH)));
-          *number |= (uint16_t)(tone_number << (CONSONANT_ONE_WIDTH +
+          *number |=
+              (uint16_t)(tone_number << (CONSONANT_ONE_WIDTH +
                                          CONSONANT_TWO_WIDTH + VOWEL_WIDTH));
           break;
         } else if (type == SHORT_ROOT) {
@@ -461,27 +480,27 @@ static inline void encode_ACC_consonant_three(const uint8_t type,
                                               uint16_t *number) {
   uint8_t i, consonant_number = CONSONANT_THREE_ENCODE_LENGTH;
   uint16_t start_number = *number;
-  //printf("n %04X, t %X c %c  tn %c\n", (uint) *number,
+  // printf("n %04X, t %X c %c  tn %c\n", (uint) *number,
   //       (uint) type, (char) consonant_three, (char) tone);
   if (consonant_three != 0 && type != SHORT_GRAMMAR && type != LONG_GRAMMAR) {
     for (i = 0; i < CONSONANT_THREE_ENCODE_LENGTH; i++) {
       if (consonant_three_encode_group[i][0] == consonant_three) {
         consonant_number = consonant_three_encode_group[i][1];
         if (type == LONG_ROOT && tone == 0) {
-          //printf("C3LR %04X \n", (uint) (consonant_number
+          // printf("C3LR %04X \n", (uint) (consonant_number
           //               << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH +
           //                  VOWEL_WIDTH + TONE_WIDTH)));
-          *number |= (uint16_t)(
-              consonant_number
-              << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH +
-                  VOWEL_WIDTH + TONE_WIDTH));
+          *number |= (uint16_t)(consonant_number
+                                << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH +
+                                    VOWEL_WIDTH + TONE_WIDTH));
           break;
         } else if (type == SHORT_ROOT && tone == 0) {
-          //printf("SR %04X \n", (uint) (consonant_number
-          //               << (BANNER_WIDTH + CONSONANT_ONE_WIDTH + VOWEL_WIDTH)));
+          // printf("SR %04X \n", (uint) (consonant_number
+          //               << (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
+          //               VOWEL_WIDTH)));
           *number |= (uint16_t)(consonant_number
-                         << (BANNER_WIDTH + CONSONANT_ONE_WIDTH + VOWEL_WIDTH +
-                            TONE_WIDTH));
+                                << (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
+                                    VOWEL_WIDTH + TONE_WIDTH));
           break;
         } else if (type == LONG_ROOT && tone != 0) {
           *number |= (uint16_t)(consonant_number
@@ -651,10 +670,9 @@ void encode_ACC_word_PL(const uint8_t ACC_GEN_length,
     else if binary_phrase_list begining is zero,
     then is part brick of sentence
 */
-static inline void
-establish_ACC_binary_phrase_list(const uint16_t *restrict encode_text,
-                                 const uint8_t sentence_length,
-                                 uint16_t *binary_phrase_list, uint16_t *brick) {
+static inline void establish_ACC_binary_phrase_list(
+    const uint16_t *restrict encode_text, const uint8_t sentence_length,
+    uint16_t *binary_phrase_list, uint16_t *brick) {
   uint8_t current = 0;
   uint8_t i = 0;
   assert(encode_text != NULL);
@@ -701,7 +719,7 @@ establish_ACC_binary_phrase_list(const uint16_t *restrict encode_text,
   brick[0] = *binary_phrase_list;
 }
 void brick_encode(const uint8_t encode_text_length, const uint16_t *encode_text,
-                 uint8_t *brick_length, uint16_t *brick, uint8_t *remainder) {
+                  uint8_t *brick_length, uint16_t *brick, uint8_t *remainder) {
   uint16_t binary_phrase_list = 0;
   uint8_t i = 0;
   uint8_t sentence_length = 0;
@@ -764,7 +782,7 @@ static inline void detect_ACC_quote_length(const uint8_t text_length,
       break;
     }
   }
-  printf("class_length %X\n", (uint) class_length );
+  printf("class_length %X\n", (uint)class_length);
   *quote_spot = class_length;
   // detect next class word COM quote word
   for (text_spot = class_length; text_spot < text_length; ++text_spot) {
@@ -797,15 +815,16 @@ static inline void derive_quote_word(const uint8_t quote_class_length,
   uint16_t quote_number = 0;
   uint8_t word_length = WORD_LENGTH;
   memset(word, 0, WORD_LENGTH);
-  printf("quote_class_length %X\n", (uint) quote_class_length);
+  printf("quote_class_length %X\n", (uint)quote_class_length);
   assert(quote_class != NULL);
   assert(quote_class_length > 0);
   assert(quote_length > 0);
   assert(quote_length < 16);
   assert(quote_word != NULL);
   if (quote_length == 1) {
-    *quote_word = (uint16_t)(QUOTE_INDICATOR | ((quote_text[0] - 0x30) <<
-                             QUOTE_LITERAL_SPOT)) ; return;
+    *quote_word = (uint16_t)(QUOTE_INDICATOR |
+                             ((quote_text[0] - 0x30) << QUOTE_LITERAL_SPOT));
+    return;
   } else if (quote_length == 2) {
     *quote_word =
         (uint16_t)QUOTE_INDICATOR | (TWO_BYTE_QUOTE << CONSONANT_ONE_WIDTH);
@@ -823,12 +842,12 @@ static inline void derive_quote_word(const uint8_t quote_class_length,
   *quote_word |= QUOTE_LITERAL << QUOTE_LITERAL_XOR_ADDRESS_SPOT;
   *quote_word |= FALSE << QUOTE_INTEGER_SPOT;
   derive_first_word(quote_class_length, quote_class, &word_length, word);
-  assert(word_length > 0 && "to derive type of quote"); 
-  if (word_length > 0) 
+  assert(word_length > 0 && "to derive type of quote");
+  if (word_length > 0)
     encode_ACC_word_DAT_number(word_length, word, &quote_number);
   else {
     *quote_word = 0;
-    return; 
+    return;
   }
   // printf("quote_number %X\n", (uint) quote_number);
   switch (quote_number) {
@@ -864,7 +883,7 @@ static inline void fit_quote_length(const uint8_t quote_length,
   }
 }
 
-static void convert_last_number_to_quote(uint8_t* last_brick_spot, 
+static void convert_last_number_to_quote(uint8_t *last_brick_spot,
                                          v16us *brick) {
   uint8_t brick_spot;
   uint8_t number_spot = 0;
@@ -874,89 +893,90 @@ static void convert_last_number_to_quote(uint8_t* last_brick_spot,
   assert(brick != NULL);
   brick_spot = *last_brick_spot;
   for (; brick_spot > 0; --brick_spot) {
-    //printf("word %X ", (uint) brick[0][brick_spot-1]);
-    switch  (brick[0][brick_spot-1]) {
-      case ZERO_WORD:
-        ++number_spot;
-        break;
-      case ONE_WORD:
-        number |= (uint64_t)(1 << number_spot*4);
-        ++number_spot;
-        break;
-      case TWO_WORD:
-        number |= (uint64_t)(2 << number_spot*4);
-        ++number_spot;
-        break;
-      case THREE_WORD:
-        number |= (uint64_t)(3 << number_spot*4);
-        ++number_spot;
-        break;
-      case FOUR_WORD:
-        number |= (uint64_t)(4 << number_spot*4);
-        ++number_spot;
-        break;
-      case FIVE_WORD:
-        number |= (uint64_t)(5 << number_spot*4);
-        ++number_spot;
-        break;
-      case SIX_WORD:
-        number |= (uint64_t)(6 << number_spot*4);
-        ++number_spot;
-        break;
-      case SEVEN_WORD:
-        number |= (uint64_t)(7 << number_spot*4);
-        ++number_spot;
-        break;
-      case EIGHT_WORD:
-        number |= (uint64_t)(8 << number_spot*4);
-        ++number_spot;
-        break;
-      case NINE_WORD:
-        number |= (uint64_t)(9 << number_spot*4);
-        ++number_spot;
-        break;
-      case TEN_WORD:
-        number |= (uint64_t)(0xA << number_spot*4);
-        ++number_spot;
-        break;
-      case ELEVEN_WORD:
-        number |= (uint64_t)(0xB << number_spot*4);
-        ++number_spot;
-        break;
-      case TWELVE_WORD:
-        number |= (uint64_t)(0xC << number_spot*4);
-        ++number_spot;
-        break;
-      case THIRTEEN_WORD:
-        number |= (uint64_t)(0xD << number_spot*4);
-        ++number_spot;
-        break;
-      case FOURTEEN_WORD:
-        number |= (uint64_t)(0xE << number_spot*4);
-        ++number_spot;
-        break;
-      case FIFTEEN_WORD:
-        number |= (uint64_t)(0xF << number_spot*4);
-        ++number_spot;
-        break;
-      default:
-        finish = TRUE;
-        break;
+    // printf("word %X ", (uint) brick[0][brick_spot-1]);
+    switch (brick[0][brick_spot - 1]) {
+    case ZERO_WORD:
+      ++number_spot;
+      break;
+    case ONE_WORD:
+      number |= (uint64_t)(1 << number_spot * 4);
+      ++number_spot;
+      break;
+    case TWO_WORD:
+      number |= (uint64_t)(2 << number_spot * 4);
+      ++number_spot;
+      break;
+    case THREE_WORD:
+      number |= (uint64_t)(3 << number_spot * 4);
+      ++number_spot;
+      break;
+    case FOUR_WORD:
+      number |= (uint64_t)(4 << number_spot * 4);
+      ++number_spot;
+      break;
+    case FIVE_WORD:
+      number |= (uint64_t)(5 << number_spot * 4);
+      ++number_spot;
+      break;
+    case SIX_WORD:
+      number |= (uint64_t)(6 << number_spot * 4);
+      ++number_spot;
+      break;
+    case SEVEN_WORD:
+      number |= (uint64_t)(7 << number_spot * 4);
+      ++number_spot;
+      break;
+    case EIGHT_WORD:
+      number |= (uint64_t)(8 << number_spot * 4);
+      ++number_spot;
+      break;
+    case NINE_WORD:
+      number |= (uint64_t)(9 << number_spot * 4);
+      ++number_spot;
+      break;
+    case TEN_WORD:
+      number |= (uint64_t)(0xA << number_spot * 4);
+      ++number_spot;
+      break;
+    case ELEVEN_WORD:
+      number |= (uint64_t)(0xB << number_spot * 4);
+      ++number_spot;
+      break;
+    case TWELVE_WORD:
+      number |= (uint64_t)(0xC << number_spot * 4);
+      ++number_spot;
+      break;
+    case THIRTEEN_WORD:
+      number |= (uint64_t)(0xD << number_spot * 4);
+      ++number_spot;
+      break;
+    case FOURTEEN_WORD:
+      number |= (uint64_t)(0xE << number_spot * 4);
+      ++number_spot;
+      break;
+    case FIFTEEN_WORD:
+      number |= (uint64_t)(0xF << number_spot * 4);
+      ++number_spot;
+      break;
+    default:
+      finish = TRUE;
+      break;
     }
-    if (finish == TRUE) break;
+    if (finish == TRUE)
+      break;
   }
   /* set up quote and number if necessary (number_spot > 2)*/
-  printf("number %X, brick_spot %X, number_spot %X\n", (uint) number, 
-         (uint) brick_spot, (uint) number_spot);
+  printf("number %X, brick_spot %X, number_spot %X\n", (uint)number,
+         (uint)brick_spot, (uint)number_spot);
   if (number <= 0x100) {
-    *last_brick_spot = (uint8_t) (brick_spot + 1);
-    brick[0][brick_spot] = (uint16_t)(QUOTE_INDICATOR | ((number) <<
-                             QUOTE_LITERAL_SPOT));
+    *last_brick_spot = (uint8_t)(brick_spot + 1);
+    brick[0][brick_spot] =
+        (uint16_t)(QUOTE_INDICATOR | ((number) << QUOTE_LITERAL_SPOT));
   }
   assert(number_spot <= 2);
 }
 
-void sentence_encode(const uint16_t text_length, const char *text, 
+void sentence_encode(const uint16_t text_length, const char *text,
                      uint8_t *brick_length, v16us *brick,
                      uint16_t *text_remainder) {
   /* algorithm:
@@ -989,9 +1009,9 @@ void sentence_encode(const uint16_t text_length, const char *text,
   assert(brick != NULL);
   assert(brick_length != NULL);
   assert(text_remainder != NULL);
-  //printf("brick_length %X text %s\n",(uint) *brick_length, text);
-  //assert(*brick_length >= text_length/2/15 /*MAX_SENTENCE_BRICK*/);
-  //printf("sentence encoding\n");
+  // printf("brick_length %X text %s\n",(uint) *brick_length, text);
+  // assert(*brick_length >= text_length/2/15 /*MAX_SENTENCE_BRICK*/);
+  // printf("sentence encoding\n");
   for (text_spot = 0; text_spot < text_length; ++text_spot) {
     glyph = text[text_spot];
     if (consonant_Q(glyph) == TRUE || vowel_Q(glyph) == TRUE ||
@@ -1001,7 +1021,7 @@ void sentence_encode(const uint16_t text_length, const char *text,
       word_length = (uint8_t)(word_length + 1);
     }
     if (word_length >= 2) {
-      //printf("brick_spot %X\n", (uint) brick_spot);
+      // printf("brick_spot %X\n", (uint) brick_spot);
       memset(derived_word, 0, WORD_LENGTH);
       derived_word_length = WORD_LENGTH;
       derive_first_word(word_length, word, &derived_word_length, derived_word);
@@ -1013,47 +1033,43 @@ void sentence_encode(const uint16_t text_length, const char *text,
           memset(word, 0, WORD_LENGTH);
           switch (number) {
           case NUMBER_GRAMMAR_WORD:
-          /* if preceded by a quote word, then do as a default.
-             if preceded by numbers then convert them to a quote,
-             and adjust brick_spot accordingly */
-            if ((brick[0][brick_spot - 1] & QUOTE_INDICATOR) == QUOTE_INDICATOR) {
+            /* if preceded by a quote word, then do as a default.
+               if preceded by numbers then convert them to a quote,
+               and adjust brick_spot accordingly */
+            if ((brick[0][brick_spot - 1] & QUOTE_INDICATOR) ==
+                QUOTE_INDICATOR) {
               brick[0][brick_spot] = number;
               ++brick_spot;
               break;
             } else {
               // convert last of brick to number quote
-              printf("pre brick_spot %X\n",(uint) brick_spot);
+              printf("pre brick_spot %X\n", (uint)brick_spot);
               convert_last_number_to_quote(&brick_spot, brick);
-              printf("post brick_spot %X\n",(uint) brick_spot);
+              printf("post brick_spot %X\n", (uint)brick_spot);
               brick[0][brick_spot] = number;
               ++brick_spot;
               break;
             }
           case QUOTE_GRAMMAR_WORD:
-            //printf("detected quote word %X\n", (uint)text_spot);
+            // printf("detected quote word %X\n", (uint)text_spot);
             ++text_spot;
             detect_ACC_quote_length((uint8_t)(text_length - text_spot),
-                                    text + text_spot,
-                                    &quote_length, &quote_spot);
-            //printf("detected quote length %X\n", (uint) quote_length);
-            //printf("quote_spot %X\n", (uint) quote_spot - text_spot);
-            //printf("quote %s\n", text + text_spot + SILENCE_GLYPH_LENGTH);
-            derive_quote_word(
-                (uint8_t)(quote_spot - SILENCE_GLYPH_LENGTH),
-                text + text_spot + SILENCE_GLYPH_LENGTH,
-                quote_length, 
-                text + text_spot + quote_spot,
-                &quote_word);
+                                    text + text_spot, &quote_length,
+                                    &quote_spot);
+            // printf("detected quote length %X\n", (uint) quote_length);
+            // printf("quote_spot %X\n", (uint) quote_spot - text_spot);
+            // printf("quote %s\n", text + text_spot + SILENCE_GLYPH_LENGTH);
+            derive_quote_word((uint8_t)(quote_spot - SILENCE_GLYPH_LENGTH),
+                              text + text_spot + SILENCE_GLYPH_LENGTH,
+                              quote_length, text + text_spot + quote_spot,
+                              &quote_word);
             printf("quote_word %X\n", (uint)quote_word);
             brick[0][brick_spot] = quote_word;
             ++brick_spot;
-            copy_ACC_text_DAT_brick(text + text_spot + quote_spot,
-                                   quote_length,
-                                   brick,
-                                   brick_spot,
-                                   (uint8_t)(*brick_length*BRICK_LENGTH -
-                                             brick_spot));
-            //printf("text_spot %X, quote_spot %X, quote_length %X\n",
+            copy_ACC_text_DAT_brick(
+                text + text_spot + quote_spot, quote_length, brick, brick_spot,
+                (uint8_t)(*brick_length * BRICK_LENGTH - brick_spot));
+            // printf("text_spot %X, quote_spot %X, quote_length %X\n",
             //       (uint)text_spot, (uint)quote_spot,
             //       (uint)quote_length);
             text_spot = (uint8_t)(text_spot + (quote_spot)*2 +
@@ -1112,31 +1128,31 @@ void sentence_encode(const uint16_t text_length, const char *text,
     }
   }
   ++text_spot;
-  //printf("se text_spot %X\n", (uint)text_spot);
+  // printf("se text_spot %X\n", (uint)text_spot);
   *brick_length = 1;
   *text_remainder = (uint16_t)(text_length - text_spot);
   brick[0][0] = binary_phrase_list;
 }
 inline void x6048009D00000000(unsigned char *text) {
   assert(text != NULL);
-  printf("ini %02X\n", (uint) text[0]);
+  printf("ini %02X\n", (uint)text[0]);
   printf("%s", text);
 }
 inline void x6048029D00000000(signed char *text) {
   assert(text != NULL);
   printf("%s", text);
 }
-inline void x4124000000000000(v8us* hook_list) {
-  if (memcmp((char*)&hook_list[ACCUSATIVE_SPOT],
-        (char*)&hook_list[INSTRUMENTAL_SPOT], 16) == 0) {
+inline void x4124000000000000(v8us *hook_list) {
+  if (memcmp((char *)&hook_list[ACCUSATIVE_SPOT],
+             (char *)&hook_list[INSTRUMENTAL_SPOT], 16) == 0) {
     hook_list[DATIVE_SPOT][0] = FACT_WORD;
   } else {
     hook_list[DATIVE_SPOT][0] = WRONG_WORD;
   }
 }
-inline void x60AA000000000000(v8us* hook_list) {
-  if (memcmp((char*)&hook_list[ACCUSATIVE_SPOT],
-        (char*)&hook_list[INSTRUMENTAL_SPOT], 16) != 0) {
+inline void x60AA000000000000(v8us *hook_list) {
+  if (memcmp((char *)&hook_list[ACCUSATIVE_SPOT],
+             (char *)&hook_list[INSTRUMENTAL_SPOT], 16) != 0) {
     hook_list[DATIVE_SPOT][0] = FACT_WORD;
   } else {
     hook_list[DATIVE_SPOT][0] = WRONG_WORD;
@@ -1151,8 +1167,7 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
   assert(hook_list != NULL);
   // checking hash key name
   printf("encoded_name realize %04X%04X%04X%04X\n", (uint)encoded_name[3],
-         (uint)encoded_name[2], (uint)encoded_name[1],
-         (uint)encoded_name[0]);
+         (uint)encoded_name[2], (uint)encoded_name[1], (uint)encoded_name[0]);
   switch (encoded_name[ACCUSATIVE_SPOT]) {
   case UNSIGNED_CHAR_QUOTE:
     accusative = (unsigned char *)&(hook_list[ACCUSATIVE_SPOT]);
@@ -1163,8 +1178,7 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
   case WRONG_BINARY:
     break;
   default:
-    printf("unrecognized type 0x%04X", (uint)
-          encoded_name[ACCUSATIVE_SPOT]);
+    printf("unrecognized type 0x%04X", (uint)encoded_name[ACCUSATIVE_SPOT]);
     assert(0 != 0);
     break;
   }
@@ -1183,18 +1197,15 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
     break;
   default:
     printf("unrecognized encoded_name %04X%04X%04X%04X\n",
-         (uint)encoded_name[3],
-         (uint)encoded_name[2], (uint)encoded_name[1],
-         (uint)encoded_name[0]);
+           (uint)encoded_name[3], (uint)encoded_name[2], (uint)encoded_name[1],
+           (uint)encoded_name[0]);
     assert(0 != 0);
     break;
   }
 }
-static inline void realize_quote(const v16us *brick,
-                                 const uint8_t brick_spot,
-                                 const uint8_t brick_length, 
-                                 uint16_t *quote_word,
-                                 v8us *quote_fill) {
+static inline void realize_quote(const v16us *brick, const uint8_t brick_spot,
+                                 const uint8_t brick_length,
+                                 uint16_t *quote_word, v8us *quote_fill) {
   uint16_t word;
   uint8_t quote_spot = 0;
   uint8_t quote_length;
@@ -1204,15 +1215,15 @@ static inline void realize_quote(const v16us *brick,
   assert(quote_word != NULL);
   assert(quote_fill != NULL);
   word = brick[0][brick_spot];
-  //printf("quote checking, word %04X\n", (uint) (*brick)[brick_spot]);
+  // printf("quote checking, word %04X\n", (uint) (*brick)[brick_spot]);
   if ((word & CONSONANT_ONE_MASK) == QUOTE_INDICATOR) {
     // then is quote
-    //printf("quote detected \n");
+    // printf("quote detected \n");
     *quote_word = word;
     quote_length = (uint8_t)(
-        1 << (((*quote_word >> CONSONANT_ONE_WIDTH) & 7/* 3 bit mask */)-1 ));
-    printf("quote_length %X \n", (uint) quote_length);
-    printf("brick_spot %X \n", (uint) brick_spot);
+        1 << (((*quote_word >> CONSONANT_ONE_WIDTH) & 7 /* 3 bit mask */) - 1));
+    printf("quote_length %X \n", (uint)quote_length);
+    printf("brick_spot %X \n", (uint)brick_spot);
     printf("quote_fill ");
     assert(quote_length < brick_length * BRICK_LENGTH * WORD_WIDTH);
     printf("quote_length %X \n", (uint)(quote_length));
@@ -1223,9 +1234,8 @@ static inline void realize_quote(const v16us *brick,
     printf("\n");
   }
 }
-inline void realize_sentence(const uint8_t brick_length, 
-                             const v16us *restrict brick,
-                             v4us* encoded_name,
+inline void realize_sentence(const uint8_t brick_length,
+                             const v16us *restrict brick, v4us *encoded_name,
                              v8us *hook_list) {
   /* go through encoded sentence,
       loading quotes into temporary register,
@@ -1258,25 +1268,27 @@ inline void realize_sentence(const uint8_t brick_length,
       if (((indicator_list & (1 << (brick_spot - 1))) >> (brick_spot - 1)) ==
           indicator) {
         // printf("brick_spot %X \n", (uint) (brick)[0][brick_spot]);
-        realize_quote(brick, brick_spot, brick_length, &quote_word, &quote_fill);
+        realize_quote(brick, brick_spot, brick_length, &quote_word,
+                      &quote_fill);
       }
       // if current is indicated then check if is case or
       // verb
       if (((indicator_list & (1 << brick_spot)) >> brick_spot) == indicator) {
         word = brick[brick_number][brick_spot];
-        printf("word %X\n", (uint) word);
+        printf("word %X\n", (uint)word);
         switch (word) {
         case ACCUSATIVE_CASE:
-          //printf("detected accusative case\n");
+          // printf("detected accusative case\n");
           if (quote_word != 0) {
             (*encoded_name)[ACCUSATIVE_SPOT] = quote_word;
-  //printf("encoded_name ACC %04X%04X%04X%04X\n", (uint)(*encoded_name)[3],
-   //      (uint)(*encoded_name)[2], (uint)(*encoded_name)[1],
-   //      (uint)(*encoded_name)[0]);
+            // printf("encoded_name ACC %04X%04X%04X%04X\n",
+            // (uint)(*encoded_name)[3],
+            //      (uint)(*encoded_name)[2], (uint)(*encoded_name)[1],
+            //      (uint)(*encoded_name)[0]);
             hook_list[ACCUSATIVE_SPOT] = quote_fill;
-            //printf("quote_fill %X\n",
+            // printf("quote_fill %X\n",
             //       (uint)quote_fill[0]);
-            //printf("hook_list %X\n",
+            // printf("hook_list %X\n",
             //       (uint)hook_list[ACCUSATIVE_SPOT][0]);
             quote_word = 0;
           }
@@ -1297,14 +1309,15 @@ inline void realize_sentence(const uint8_t brick_length,
           break;
         case CONDITIONAL_MOOD:
           word = brick[0][brick_spot - 1];
-          //printf("COND word %04X \n", (uint) word);
+          // printf("COND word %04X \n", (uint) word);
           encoded_name[0][VERB_SPOT] = word;
-  //printf("encoded_name COND %04X%04X%04X%04X\n", (uint)(*encoded_name)[3],
-  //       (uint)(*encoded_name)[2], (uint)(*encoded_name)[1],
-  //       (uint)(*encoded_name)[0]);
+          // printf("encoded_name COND %04X%04X%04X%04X\n",
+          // (uint)(*encoded_name)[3],
+          //       (uint)(*encoded_name)[2], (uint)(*encoded_name)[1],
+          //       (uint)(*encoded_name)[0]);
           realize(*encoded_name, hook_list);
           // if dative is WRONG_WORD then skip to next sentence
-          if(hook_list[DATIVE_SPOT][0] == WRONG_WORD) {
+          if (hook_list[DATIVE_SPOT][0] == WRONG_WORD) {
             exit = TRUE;
           }
           break;
@@ -1312,9 +1325,9 @@ inline void realize_sentence(const uint8_t brick_length,
           // checking verb
           word = brick[0][brick_spot - 1];
           (*encoded_name)[VERB_SPOT] = word;
-  printf("encoded_name DEO %04X%04X%04X%04X\n", (uint)(*encoded_name)[3],
-         (uint)(*encoded_name)[2], (uint)(*encoded_name)[1],
-         (uint)(*encoded_name)[0]);
+          printf("encoded_name DEO %04X%04X%04X%04X\n",
+                 (uint)(*encoded_name)[3], (uint)(*encoded_name)[2],
+                 (uint)(*encoded_name)[1], (uint)(*encoded_name)[0]);
           printf("realizing");
           realize((*encoded_name), hook_list);
           exit = TRUE;
@@ -1323,9 +1336,9 @@ inline void realize_sentence(const uint8_t brick_length,
           // checking verb
           word = brick[0][brick_spot - 1];
           (*encoded_name)[VERB_SPOT] = word;
-  printf("encoded_name REAL %04X%04X%04X%04X\n", (uint)(*encoded_name)[3],
-         (uint)(*encoded_name)[2], (uint)(*encoded_name)[1],
-         (uint)(*encoded_name)[0]);
+          printf("encoded_name REAL %04X%04X%04X%04X\n",
+                 (uint)(*encoded_name)[3], (uint)(*encoded_name)[2],
+                 (uint)(*encoded_name)[1], (uint)(*encoded_name)[0]);
           printf("realizing");
           realize((*encoded_name), hook_list);
           exit = TRUE;
@@ -1339,22 +1352,19 @@ inline void realize_sentence(const uint8_t brick_length,
           break;
         }
       }
-      if (exit == TRUE) break;
+      if (exit == TRUE)
+        break;
     }
     if (indicator == 1 || exit == TRUE)
       break;
-    
   }
   assert(indicator == 1); /* must finish properly */
-  // checking grammtical-case list
-  //printf("\n");
+                          // checking grammtical-case list
+  // printf("\n");
 }
 
-
-inline void text_encode(const uint16_t max_text_length,
-                        const char *text,
-                        uint16_t *brick_length,
-                        v16us *brick,
+inline void text_encode(const uint16_t max_text_length, const char *text,
+                        uint16_t *brick_length, v16us *brick,
                         uint16_t *text_remainder) {
   /* find end of sentence for each,
     then pass each sentence to sentence encode,
@@ -1370,11 +1380,11 @@ inline void text_encode(const uint16_t max_text_length,
   assert(text_remainder != NULL);
   *brick_length = 0;
   *text_remainder = max_text_length;
-  for (;*brick_length < max_brick_length;) {
+  for (; *brick_length < max_brick_length;) {
     if ((max_brick_length - *brick_length) < MAX_SENTENCE_BRICK) {
       sentence_brick_length = (uint8_t)(max_brick_length - *brick_length);
     } else {
-      sentence_brick_length = (uint8_t) MAX_SENTENCE_BRICK;
+      sentence_brick_length = (uint8_t)MAX_SENTENCE_BRICK;
     }
     sentence_encode(*text_remainder, text + text_spot, &sentence_brick_length,
                     &brick[*brick_length], text_remainder);
@@ -1383,19 +1393,17 @@ inline void text_encode(const uint16_t max_text_length,
       break;
     }
     text_spot = (uint16_t)(max_text_length - *text_remainder);
-    //printf("ct text_spot %X, text %s\n", (uint)text_spot, 
+    // printf("ct text_spot %X, text %s\n", (uint)text_spot,
     //  text + text_spot);
-    //printf("ct text_remainder %X\n",(uint)*text_remainder);
-    //printf("ct brick_length %X\n",(uint)*brick_length);
+    // printf("ct text_remainder %X\n",(uint)*text_remainder);
+    // printf("ct brick_length %X\n",(uint)*brick_length);
   }
-  //printf("ctf text_remainder %X\n",(uint)*text_remainder);
-  //printf("ctf brick_length %X\n",(uint)*brick_length);
+  // printf("ctf text_remainder %X\n",(uint)*text_remainder);
+  // printf("ctf brick_length %X\n",(uint)*brick_length);
 }
-inline void realize_text(const uint16_t max_brick_length,
-                         const v16us *brick,
-                         v4us* encoded_name,
-                         v8us *hook_list) {
-  /* 
+inline void realize_text(const uint16_t max_brick_length, const v16us *brick,
+                         v4us *encoded_name, v8us *hook_list) {
+  /*
     identify sentence brick,
     then pass to sentence_realize,
     and so on until reach end.
@@ -1405,8 +1413,8 @@ inline void realize_text(const uint16_t max_brick_length,
   assert(max_brick_length > 0);
   assert(encoded_name != NULL);
   assert(hook_list != NULL);
-  for (;brick_spot < max_brick_length; ++brick_spot) {
-    realize_sentence((uint8_t)(max_brick_length - brick_spot), &brick[brick_spot],
-                     encoded_name, hook_list);
+  for (; brick_spot < max_brick_length; ++brick_spot) {
+    realize_sentence((uint8_t)(max_brick_length - brick_spot),
+                     &brick[brick_spot], encoded_name, hook_list);
   }
 }

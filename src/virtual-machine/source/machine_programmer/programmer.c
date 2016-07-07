@@ -1,26 +1,42 @@
+/*SPEL virtual machine
+Copyright (C) 2016  Logan Streondj
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+contact: streondj at gmail dot com
+*/
 #include <stdint.h>
 #include <assert.h>
 #include <string.h>
+#include <stdio.h>
 #include "../seed/seed.h"
 #include "programmer.h"
 #include "prng.h"
 /*
   algorithm:
-  
-  load the program elements list, 
+
+  load the program elements list,
   generate the DNA of the initial population by using various elements,
-  
+
   load the check list and check the population for fitness
-*/ 
+*/
 
-
-
-
-
-void create_plan(const uint8_t activity_elements_length, const v16us* restrict
-                 activity_elements, const uint16_t plan_length,
-                 uint64_t* random_seed, v16us* restrict plan) {
-  /*algorithm: 
+void create_plan(const uint8_t activity_elements_length,
+                 const v16us *restrict activity_elements,
+                 const uint16_t plan_length, uint64_t *random_seed,
+                 v16us *restrict plan) {
+  /*algorithm:
       select a random element,
       add it to the plan.*/
   uint8_t nomination;
@@ -29,24 +45,98 @@ void create_plan(const uint8_t activity_elements_length, const v16us* restrict
   assert(plan_length > 0);
   assert(plan != NULL);
   assert(random_seed != 0);
-  nomination = (uint8_t)(splitMix64(random_seed) % 
-                        ((uint8_t)(activity_elements_length - 1))) ;
+  nomination = (uint8_t)(splitMix64(random_seed) %
+                         ((uint8_t)(activity_elements_length - 1)));
   *plan = activity_elements[nomination];
-  
 }
 
-void check_plan(const uint16_t check_sentence_length,
-                   const v16us* restrict check_sentence_list,
-                   const uint16_t plan_length,
-                   const v16us* restrict plan,
-                   uint16_t* plan_worth) {
+static void obtain_first_sentence(const uint16_t check_sentence_list_length,
+                                  const v16us *restrict check_sentence_list,
+                                  uint8_t *sentence_length) {
+  assert(check_sentence_list_length != 0);
+  assert(check_sentence_list != NULL);
+  assert(sentence_length != NULL);
+  *sentence_length = 1;
+  assert(*sentence_length < MAX_SENTENCE_BRICK);
+}
+
+static void obtain_import(const uint8_t sentence_length,
+                          const v16us *restrict check_sentence_list,
+                          uint8_t *import_length) {
+  uint8_t sentence_spot = 0;
+  assert(sentence_length > 0);
+  assert(check_sentence_list != NULL);
+  assert(import_length != NULL);
+  for (sentence_spot = 0; sentence_spot < sentence_length * BRICK_LENGTH;
+       ++sentence_spot) {
+    if (check_sentence_list[0][sentence_spot] == CONDITIONAL_MOOD) {
+      *import_length = (uint8_t)(sentence_spot + 1);
+      break;
+    }
+  }
+}
+static void obtain_export(const uint8_t sentence_length,
+                          const v16us *restrict check_sentence_list,
+                          const uint8_t import_length, uint8_t *export_length) {
+  uint8_t sentence_spot = 0;
+  assert(sentence_length > 0);
+  assert(check_sentence_list != NULL);
+  assert(export_length != NULL);
+  for (sentence_spot = import_length;
+       sentence_spot < sentence_length * BRICK_LENGTH; ++sentence_spot) {
+    if (check_sentence_list[0][sentence_spot] == REALIS_MOOD) {
+      *export_length = (uint8_t)(sentence_spot + 1);
+      break;
+    }
+  }
+}
+
+void check_plan(const uint16_t check_sentence_list_length,
+                const v16us *restrict check_sentence_list,
+                const uint16_t plan_length, const v16us *restrict plan,
+                uint16_t *plan_worth) {
   /* algorithm:
-    for each check sentence feed the plan inputs, 
+    for each check sentence feed the plan inputs,
       and if the output is correct then add one to the plan_worth.
   */
-  assert(check_sentence_length > 0);
+  uint16_t worth = 0;
+  uint16_t check_sentence_spot;
+  uint8_t sentence_length = 0;
+  uint8_t import_length = 0;
+  uint8_t export_length = 0;
+  uint8_t check_spot = 0;
+  assert(check_sentence_list_length > 0);
   assert(check_sentence_list != NULL);
   assert(plan_length > 0);
   assert(plan != NULL);
   assert(plan_worth != NULL);
+  for (check_sentence_spot = 0;
+       check_sentence_spot < check_sentence_list_length;
+       ++check_sentence_spot) {
+    // obtain_first_sentence(); // for multi brick sentences
+    obtain_first_sentence(
+        (uint16_t)(check_sentence_list_length - check_sentence_spot),
+        check_sentence_list + check_sentence_spot, &sentence_length);
+    // obtain_import
+    obtain_import(sentence_length, check_sentence_list + check_sentence_spot,
+                  &import_length);
+    printf("import: ");
+    for (check_spot = 0; check_spot < import_length; ++check_spot) {
+      printf("%04X ",
+             (uint)(check_sentence_list + check_sentence_spot)[0][check_spot]);
+    }
+    printf("\n");
+    // realize_plan
+    // obtain_export
+    obtain_export(sentence_length, check_sentence_list + check_sentence_spot,
+                  import_length, &export_length);
+    printf("export: ");
+    for (check_spot = import_length; check_spot < export_length; ++check_spot) {
+      printf("%04X ",
+             (uint)(check_sentence_list + check_sentence_spot)[0][check_spot]);
+    }
+    printf("\n");
+    // compare plan_export to check_export
+  }
+  *plan_worth = worth;
 }

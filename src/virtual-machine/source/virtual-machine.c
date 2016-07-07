@@ -1,4 +1,21 @@
-/* Hello World program */
+/*SPEL virtual machine
+Copyright (C) 2016  Logan Streondj
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+contact: streondj at gmail dot com
+*/
 
 #include <assert.h>
 #include <stdio.h>
@@ -103,8 +120,8 @@ static void encode_word_PL_check() {
   memset(encode_sentence, 0, encode_sentence_length);
   encode_ACC_word_PL(text_length, text, &encode_sentence_length,
                      encode_sentence, &remainder);
-  printf("encode_word_PL %X remainder %X \n",
-         (uint)encode_sentence_length, (uint)remainder);
+  printf("encode_word_PL %X remainder %X \n", (uint)encode_sentence_length,
+         (uint)remainder);
   for (i = 0; i < encode_sentence_length; i++) {
     printf("0x%04X ", (uint)encode_sentence[i]);
   }
@@ -124,10 +141,10 @@ static void brick_encode_check() {
   memset(brick, 0, (uint8_t)(brick_length * WORD_WIDTH));
   encode_ACC_word_PL(text_length, text, &encode_sentence_length,
                      encode_sentence, &remainder);
-  printf("encode_word_PL %X remainder %X \n",
-         (uint)encode_sentence_length, (uint)remainder);
+  printf("encode_word_PL %X remainder %X \n", (uint)encode_sentence_length,
+         (uint)remainder);
   brick_encode(encode_sentence_length, encode_sentence, &brick_length, brick,
-              &remainder);
+               &remainder);
   printf("brick_length %X remainder %X \n", (uint)brick_length,
          (uint)remainder);
   for (i = 0; i < brick_length; i++) {
@@ -136,62 +153,57 @@ static void brick_encode_check() {
   printf("\n");
 }
 
-static void read_paper(const char *file_name,
-                       const size_t paper_number, 
-                       uint16_t *paper_length,
-                       char *paper_storage) {
-   FILE *file_spot = NULL;
-   int answer = 0;
-   uint16_t text_spot = 0;
-   uint16_t length = 0;
-   int glyph = (char) 0;
-   assert(file_name != 0);
-   assert(strlen(file_name) > 0);
-   assert(paper_storage != NULL);
-   assert(*paper_length >= MAXIMUM_PAPER_LENGTH);
-   file_spot = fopen(file_name, "r");
-   assert(file_spot != NULL);
-   if (file_spot != NULL) {
-       answer = fseek(file_spot,
-               (int) paper_number*MAXIMUM_PAPER_LENGTH,
-               SEEK_SET);
-       //assert(answer == 0);
-       if (answer == 0) {
-           length = (uint16_t) (fread(paper_storage,
-               MAXIMUM_PAPER_LENGTH, 1, file_spot));
-           if (length != 0) {
-               length = (uint16_t)(length *
-                   MAXIMUM_PAPER_LENGTH);
-           } else {
-               answer = fseek(file_spot, (int)
-                   paper_number*MAXIMUM_PAPER_LENGTH,
-                   SEEK_SET);
-               assert(answer == 0);
-               for (text_spot = 0; text_spot <
-                   MAXIMUM_PAPER_LENGTH; ++text_spot) {
-                   glyph = fgetc(file_spot);
-                   if (glyph == EOF) break;
-                   paper_storage[text_spot] = (char) glyph;
-                   ++length;
-               }
-           }
-           //printf("%X length \n", (uint) length);
-       } else {
-           printf("fseek fail PFV");
-           length = 0;
-       }
-       answer = fclose(file_spot);
-       assert(answer == 0);
-   } else {
-       printf("file open fail PFV");
-       length = 0;
-   }
-   *paper_length = length;
-   //assert(*paper_length != 0);
+static void read_paper(const char *file_name, const size_t paper_number,
+                       uint16_t *paper_length, char *paper_storage) {
+  FILE *file_spot = NULL;
+  int answer = 0;
+  uint16_t text_spot = 0;
+  uint16_t length = 0;
+  int glyph = (char)0;
+  assert(file_name != 0);
+  assert(strlen(file_name) > 0);
+  assert(paper_storage != NULL);
+  assert(*paper_length >= MAXIMUM_PAPER_LENGTH);
+  file_spot = fopen(file_name, "r");
+  assert(file_spot != NULL);
+  if (file_spot != NULL) {
+    answer =
+        fseek(file_spot, (int)paper_number * MAXIMUM_PAPER_LENGTH, SEEK_SET);
+    // assert(answer == 0);
+    if (answer == 0) {
+      length =
+          (uint16_t)(fread(paper_storage, MAXIMUM_PAPER_LENGTH, 1, file_spot));
+      if (length != 0) {
+        length = (uint16_t)(length * MAXIMUM_PAPER_LENGTH);
+      } else {
+        answer = fseek(file_spot, (int)paper_number * MAXIMUM_PAPER_LENGTH,
+                       SEEK_SET);
+        assert(answer == 0);
+        for (text_spot = 0; text_spot < MAXIMUM_PAPER_LENGTH; ++text_spot) {
+          glyph = fgetc(file_spot);
+          if (glyph == EOF)
+            break;
+          paper_storage[text_spot] = (char)glyph;
+          ++length;
+        }
+      }
+      // printf("%X length \n", (uint) length);
+    } else {
+      printf("fseek fail PFV");
+      length = 0;
+    }
+    answer = fclose(file_spot);
+    assert(answer == 0);
+  } else {
+    printf("file open fail PFV");
+    length = 0;
+  }
+  *paper_length = length;
+  // assert(*paper_length != 0);
 }
 
-//static void write_paper(const char *file_name,
-//                        const size_t paper_number, 
+// static void write_paper(const char *file_name,
+//                        const size_t paper_number,
 //                        uint16_t paper_length,
 //                        char *paper_storage) {
 //   FILE *file_spot = NULL;
@@ -214,7 +226,7 @@ static void read_paper(const char *file_name,
 //           if (length != paper_length) {
 //            printf("write to file failed");
 //           }
-//           
+//
 //       } else {
 //           printf("fseek fail PFV");
 //           length = 0;
@@ -228,35 +240,37 @@ static void read_paper(const char *file_name,
 //}
 
 static void full_encode_check() {
-  //const char text[] = "hyinkahtutsuhkakpanyiktuclathfak";
-  //const uint8_t text_length = (uint8_t)strlen(text);
-  char paper[MAXIMUM_PAPER_LENGTH+WORD_LENGTH+1];
+  // const char text[] = "hyinkahtutsuhkakpanyiktuclathfak";
+  // const uint8_t text_length = (uint8_t)strlen(text);
+  char paper[MAXIMUM_PAPER_LENGTH + WORD_LENGTH + 1];
   uint16_t paper_length = 0;
   uint16_t paper_number = 0;
-  uint16_t encode_sentence[0x100/2];
-  uint8_t encode_sentence_length = 0x100/2;
+  uint16_t encode_sentence[0x100 / 2];
+  uint8_t encode_sentence_length = 0x100 / 2;
   uint16_t paper_spot = 0;
   uint8_t word_length_start = WORD_LENGTH;
   uint8_t word_length = WORD_LENGTH;
   uint16_t number = 0;
   char word[WORD_LENGTH + 1];
-  FILE * outfile;
+  FILE *outfile;
   outfile = fopen("check/check-out.txt", "w+");
   memset(encode_sentence, 0, encode_sentence_length);
-    memset(paper, 0, MAXIMUM_PAPER_LENGTH+WORD_LENGTH+1);
+  memset(paper, 0, MAXIMUM_PAPER_LENGTH + WORD_LENGTH + 1);
   for (; paper_number < 0x1000; ++paper_number) {
-    //printf("paper_number 0x%04X\n", (uint) paper_number);
+    // printf("paper_number 0x%04X\n", (uint) paper_number);
     paper_length = MAXIMUM_PAPER_LENGTH;
-    read_paper("check/check.pyac", paper_number, &paper_length, paper +
-               paper_spot);
-    if (paper_length == 0) break;
-    //printf("paper_spot %X\n", (uint) paper_spot);
+    read_paper("check/check.pyac", paper_number, &paper_length,
+               paper + paper_spot);
+    if (paper_length == 0)
+      break;
+    // printf("paper_spot %X\n", (uint) paper_spot);
     paper_length = (uint16_t)(paper_spot + paper_length);
     paper_spot = 0;
-    //printf("paper_length %X\n", (uint) paper_length);
-    //printf("paper glyph %02X \n", (uint) paper[0]);
-    if (paper_length == 0) break;
-    assert(paper_length <  MAXIMUM_PAPER_LENGTH + WORD_LENGTH);
+    // printf("paper_length %X\n", (uint) paper_length);
+    // printf("paper glyph %02X \n", (uint) paper[0]);
+    if (paper_length == 0)
+      break;
+    assert(paper_length < MAXIMUM_PAPER_LENGTH + WORD_LENGTH);
     for (paper_spot = 0; paper_spot < paper_length; ++paper_spot) {
       if (paper_length - paper_spot > WORD_LENGTH) {
         word_length_start = WORD_LENGTH;
@@ -265,23 +279,23 @@ static void full_encode_check() {
       }
       word_length = WORD_LENGTH;
       memset(word, 0, WORD_LENGTH + 1);
-      derive_first_word(word_length_start, paper + paper_spot,
-                        &word_length, word);
+      derive_first_word(word_length_start, paper + paper_spot, &word_length,
+                        word);
       assert(word_length > 0 || paper_length - paper_spot < WORD_LENGTH);
-      if (word_length == 0) {// copy remainder to start of paper and exit loop
+      if (word_length == 0) { // copy remainder to start of paper and exit loop
         text_copy((uint8_t)(paper_length - paper_spot), paper + paper_spot,
-                 paper);
-      //printf("paper_spot %04X paper_length %04X\n", (uint) paper_spot,
-      //      (uint) paper_length);
+                  paper);
+        // printf("paper_spot %04X paper_length %04X\n", (uint) paper_spot,
+        //      (uint) paper_length);
         paper_spot = (uint16_t)(paper_length - paper_spot);
         break;
       }
-      //printf("word_length %X ", (uint) word_length);
-      //if (word_length == 4) { printf("\n word %s \n", word); }
-      //printf("paper_spot %04X paper_length %04X\n", (uint) paper_spot,
+      // printf("word_length %X ", (uint) word_length);
+      // if (word_length == 4) { printf("\n word %s \n", word); }
+      // printf("paper_spot %04X paper_length %04X\n", (uint) paper_spot,
       //       (uint) paper_length);
       encode_ACC_word_DAT_number(word_length, word, &number);
-      fprintf(outfile, "0x%04X %s \n", (uint) number, word);
+      fprintf(outfile, "0x%04X %s \n", (uint)number, word);
       number = 0;
       paper_spot = (uint16_t)(paper_spot + word_length - 1);
     }
@@ -309,29 +323,30 @@ static void check_quote(v16us *restrict brick, uint8_t *brick_length) {
 }
 
 static void check_text(v16us *restrict brick, uint16_t *brick_length) {
-  const char text[] = //"zrunnuka hyinnusu nyistu " 
-                      "pwapyu wu.twus.hello world!\n.twus.wuka hsintu";
-                      
+  const char text[] = //"zrunnuka hyinnusu nyistu "
+      "pwapyu wu.twus.hello world!\n.twus.wuka hsintu";
+
   const uint16_t text_length = (uint16_t)strlen(text);
   uint16_t remainder = 0;
   uint8_t brick_spot = 0;
   printf("check_text \n");
-  //printf("text_length %X\n",(uint)text_length);
+  // printf("text_length %X\n",(uint)text_length);
   text_encode(text_length, text, brick_length, brick, &remainder);
-  //for (brick_spot = 0; brick_spot < text_length; ++brick_spot) {
+  // for (brick_spot = 0; brick_spot < text_length; ++brick_spot) {
   //  printf("%X ", (uint)text[brick_spot]);
   //}
-  //printf(": text\n");
+  // printf(": text\n");
   printf("brick start \n");
-  for (brick_spot = 0; brick_spot < (*brick_length * BRICK_LENGTH); 
+  for (brick_spot = 0; brick_spot < (*brick_length * BRICK_LENGTH);
        ++brick_spot) {
-    if (brick_spot % 0x10 == 0) printf("\n");
+    if (brick_spot % 0x10 == 0)
+      printf("\n");
     printf("%04X ", (uint)brick[0][brick_spot]);
   }
   printf("\n:brick\n");
 }
 static void check_realize_text(const v16us *restrict brick,
-                              const uint16_t brick_length) {
+                               const uint16_t brick_length) {
   uint8_t check_spot = 0;
   v4us encoded_name = {0, 0, 0, 0};
   v8us hook_list[HOOK_LIST_LENGTH];
@@ -339,8 +354,7 @@ static void check_realize_text(const v16us *restrict brick,
   realize_text(brick_length, brick, &encoded_name, hook_list);
 
   printf("brick ");
-  for (check_spot = 0; check_spot < brick_length * BRICK_LENGTH;
-       ++check_spot) {
+  for (check_spot = 0; check_spot < brick_length * BRICK_LENGTH; ++check_spot) {
     printf(" %X", (uint)brick[0][check_spot]);
   }
   printf("\n");
@@ -379,8 +393,7 @@ static void check_hello_world(const v16us *restrict brick,
   printf("\n");
   // checking brick
   printf("brick ");
-  for (check_spot = 0; check_spot < brick_length * BRICK_LENGTH;
-       ++check_spot) {
+  for (check_spot = 0; check_spot < brick_length * BRICK_LENGTH; ++check_spot) {
     printf(" %X", (uint)brick[0][check_spot]);
   }
   printf("\n");
@@ -413,7 +426,8 @@ static void check_ACC_all() {
   uint16_t brick_two_length = MAX_SENTENCE_BRICK * 2;
   v16us brick_two[MAX_SENTENCE_BRICK * 2];
   memset(brick, 0, (uint8_t)(brick_length * WORD_WIDTH * BRICK_LENGTH));
-  memset(brick_two, 0, (uint16_t)(brick_two_length * WORD_WIDTH * BRICK_LENGTH));
+  memset(brick_two, 0,
+         (uint16_t)(brick_two_length * WORD_WIDTH * BRICK_LENGTH));
   full_encode_check();
   delete_empty_glyph_check();
   derive_first_word_check();
@@ -422,58 +436,60 @@ static void check_ACC_all() {
   brick_encode_check();
   /* full encode check */
   // full_encode_check(); /* deprecated implementation */
-  //printf("full encode check\n");
+  // printf("full encode check\n");
   check_quote(brick, &brick_length);
   printf("check_hello_world\n");
   check_hello_world(brick, brick_length);
-  //printf("check_text\n");
+  // printf("check_text\n");
   check_text(brick_two, &brick_two_length);
-  //printf("check_realize_text\n");
+  // printf("check_realize_text\n");
   check_realize_text(brick_two, brick_two_length);
   encode_word_PL_check();
 }
 
 static void check_programmer() {
-  const char* activity_elements_text = "nyistu cruttu hnictu htamtu";
-  const uint16_t activity_elements_text_length = 
-                   (uint16_t)(strlen(activity_elements_text));
-  const char* check_sentence_list_text = "zrunnuka hyinnusu nyisyu hyinnukali"
-                                         "hyinnuka tyutnusu nyisyu tyinnukali"
-                                         "tyutnuka tyutnusu nyisyu hkutnukali"
-        "wu.hnac.2.hnac.wunuka wu.hnac.2.hnac.wunusu nyisyu wu.hnac.4.hnac.wunukali";
-  const uint16_t check_sentence_list_text_length = 
-                   (uint16_t)strlen(check_sentence_list_text);
+  const char *activity_elements_text = "nyistu cruttu hnictu htamtu";
+  const uint16_t activity_elements_text_length =
+      (uint16_t)(strlen(activity_elements_text));
+  const char *check_sentence_list_text =
+      "zrunnuka hyinnusu nyisyu hyinnukali"
+      "hyinnuka tyutnusu nyisyu tyinnukali"
+      "tyutnuka tyutnusu nyisyu hkutnukali"
+      "wu.hnac.2.hnac.wunuka wu.hnac.2.hnac.wunusu nyisyu "
+      "wu.hnac.4.hnac.wunukali";
+  const uint16_t check_sentence_list_text_length =
+      (uint16_t)strlen(check_sentence_list_text);
   uint16_t check_sentence_list_length = 8;
   v16us check_sentence_list[8];
-  uint16_t activity_elements_length = MAX_SENTENCE_BRICK*1;
-  v16us activity_elements[MAX_SENTENCE_BRICK*1];
+  uint16_t activity_elements_length = MAX_SENTENCE_BRICK * 1;
+  v16us activity_elements[MAX_SENTENCE_BRICK * 1];
   uint16_t text_remainder = 0;
   uint16_t plan_worth = 0;
   const uint16_t plan_length = 1;
   uint64_t random_seed = 0x1;
   uint16_t brick_spot = 0;
   v16us plan;
-  memset(check_sentence_list, 0, (size_t)(check_sentence_list_length *
-BRICK_LENGTH * WORD_WIDTH));
+  memset(check_sentence_list, 0,
+         (size_t)(check_sentence_list_length * BRICK_LENGTH * WORD_WIDTH));
   text_encode(activity_elements_text_length, activity_elements_text,
-      &activity_elements_length, activity_elements, &text_remainder);
+              &activity_elements_length, activity_elements, &text_remainder);
   assert(text_remainder == 0);
   text_encode(check_sentence_list_text_length, check_sentence_list_text,
-      &check_sentence_list_length, check_sentence_list, &text_remainder);
+              &check_sentence_list_length, check_sentence_list,
+              &text_remainder);
   printf("brick start \n");
-  for (brick_spot = 0; brick_spot < (check_sentence_list_length * BRICK_LENGTH); 
+  for (brick_spot = 0; brick_spot < (check_sentence_list_length * BRICK_LENGTH);
        ++brick_spot) {
-    if (brick_spot % 0x10 == 0) printf("\n");
+    if (brick_spot % 0x10 == 0)
+      printf("\n");
     printf("%04X ", (uint)check_sentence_list[0][brick_spot]);
   }
   printf("\n:brick\n");
-  create_plan((uint8_t) activity_elements_length, activity_elements, 
-              plan_length, &random_seed, &plan);
-  printf("plan %04X random_seed %08X\n", (uint) plan[1], (uint)
-         (random_seed));
+  create_plan((uint8_t)activity_elements_length, activity_elements, plan_length,
+              &random_seed, &plan);
+  printf("plan %04X random_seed %08X\n", (uint)plan[1], (uint)(random_seed));
   check_plan(check_sentence_list_length, check_sentence_list, plan_length,
-                &plan, &plan_worth);
-  
+             &plan, &plan_worth);
 }
 
 int main(int argc, char *argv[]) {
