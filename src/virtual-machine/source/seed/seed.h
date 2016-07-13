@@ -62,8 +62,8 @@ contact: streondj at gmail dot com
 #define DEONTIC_MOOD 0x095E
 #define ACCUSATIVE_CASE 0x45E
 #define DATIVE_CASE 0x49E
-#define INSTRUMENTAL_CASE 0x93E
-#define CONDITIONAL_MOOD 0X87E
+#define INSTRUMENTAL_CASE 0x05BE
+#define CONDITIONAL_MOOD 0x87E
 #define QUOTE_WORD_LENGTH 2
 #define MAX_GRAMMATICALCASE_INE_SENTENCE 8
 #define HOOK_LIST_LENGTH 3
@@ -73,14 +73,14 @@ contact: streondj at gmail dot com
 #define INSTRUMENTAL_SPOT 1
 #define DATIVE_SPOT 0
 
-#define QUOTE_GRAMMAR_WORD 0x8BE  // wu
-#define NUMBER_GRAMMAR_WORD 0x8DE // nu
-#define SAY_VERB 0x6048           // hsin
-#define SUBTRACTION_VERB 0xA2CD   // crut
-#define INCREASE_VERB 0x8006      // nyis /* add */
+#define QUOTE_GRAMMAR_WORD 0x0A3E  // bu
+#define NUMBER_GRAMMAR_WORD 0x127E // do
+#define SAY_VERB 0x6048            // hsin
+#define SUBTRACTION_VERB 0xA2CD    // crut
+#define INCREASE_VERB 0x8006       // nyis /* add */
 #define EXCLUSIVEOR_VERB 0xA010
 #define ANDOR_VERB 0x0150 // htam
-#define NOT_VERB 0xE030   // hnic     /* with conditional ESS toffoli gate  */
+#define NOT_VERB 0xA130   // hnat     /* with conditional ESS toffoli gate  */
 #define ABOVE_VERB 0xC118 // hyaf    /* shift above (left) */
 #define DOWN_VERB 0x6068  // hcin     /* shift down (right) */
 #define EXCHANGE_VERB 0x63AA // tcen /* with conditional ESS fredkin gate */
@@ -105,6 +105,7 @@ contact: streondj at gmail dot com
 
 #define UNSIGNED_CHAR_QUOTE 0x009D
 #define SIGNED_CHAR_QUOTE 0x029D
+#define SHORT_NUMBER_QUOTE 0x143D
 // numbers
 #define ZERO_WORD 0x62D4
 #define ONE_WORD 0x6018
@@ -166,6 +167,10 @@ extern void encode_ACC_word_PL(const uint8_t ACC_GEN_length,
                                      const char *text, uint16_t *brick_length,
                                      v16us *brick, uint16_t *text_remainder);
 /*@unused@*/ extern void realize(const v4us encoded_name, v8us *hook_list);
+/*@unused@*/ extern void burden_hook_list(const uint8_t brick_length,
+                                          const v16us *brick,
+                                          uint8_t *brick_spot,
+                                          v4us *encoded_name, v8us *hook_list);
 /*@unused@*/ extern void realize_sentence(const uint8_t brick_length,
                                           const v16us *brick,
                                           v4us *encoded_name, v8us *hook_list);

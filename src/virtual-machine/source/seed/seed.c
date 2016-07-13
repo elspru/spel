@@ -21,6 +21,7 @@ contact: streondj at gmail dot com
 #include <assert.h>
 #include <string.h> // NOT opencl compatible// uses memset and memcmp
 #include "seed.h"
+#include "dictionary.h"
 
 #define TRUE 1
 #define FALSE 0
@@ -782,7 +783,7 @@ static inline void detect_ACC_quote_length(const uint8_t text_length,
       break;
     }
   }
-  printf("class_length %X\n", (uint)class_length);
+  // printf("class_length %X\n", (uint)class_length);
   *quote_spot = class_length;
   // detect next class word COM quote word
   for (text_spot = class_length; text_spot < text_length; ++text_spot) {
@@ -815,7 +816,7 @@ static inline void derive_quote_word(const uint8_t quote_class_length,
   uint16_t quote_number = 0;
   uint8_t word_length = WORD_LENGTH;
   memset(word, 0, WORD_LENGTH);
-  printf("quote_class_length %X\n", (uint)quote_class_length);
+  // printf("quote_class_length %X\n", (uint)quote_class_length);
   assert(quote_class != NULL);
   assert(quote_class_length > 0);
   assert(quote_length > 0);
@@ -966,12 +967,13 @@ static void convert_last_number_to_quote(uint8_t *last_brick_spot,
       break;
   }
   /* set up quote and number if necessary (number_spot > 2)*/
-  printf("number %X, brick_spot %X, number_spot %X\n", (uint)number,
-         (uint)brick_spot, (uint)number_spot);
-  if (number <= 0x100) {
+  // printf("number %X, brick_spot %X, number_spot %X\n", (uint)number,
+  //       (uint)brick_spot, (uint)number_spot);
+  if (number <= 0xFFFF) {
     *last_brick_spot = (uint8_t)(brick_spot + 1);
-    brick[0][brick_spot] =
-        (uint16_t)(QUOTE_INDICATOR | ((number) << QUOTE_LITERAL_SPOT));
+    brick[0][brick_spot] = (uint16_t)(SHORT_NUMBER_QUOTE);
+    ++brick_spot;
+    brick[0][brick_spot] = (uint16_t)(number);
   }
   assert(number_spot <= 2);
 }
@@ -1038,15 +1040,15 @@ void sentence_encode(const uint16_t text_length, const char *text,
                and adjust brick_spot accordingly */
             if ((brick[0][brick_spot - 1] & QUOTE_INDICATOR) ==
                 QUOTE_INDICATOR) {
-              brick[0][brick_spot] = number;
-              ++brick_spot;
+              // brick[0][brick_spot] = number;
+              //++brick_spot;
               break;
             } else {
               // convert last of brick to number quote
-              printf("pre brick_spot %X\n", (uint)brick_spot);
+              // printf("pre brick_spot %X\n", (uint)brick_spot);
               convert_last_number_to_quote(&brick_spot, brick);
-              printf("post brick_spot %X\n", (uint)brick_spot);
-              brick[0][brick_spot] = number;
+              // printf("post brick_spot %X\n", (uint)brick_spot);
+              // brick[0][brick_spot] = number;
               ++brick_spot;
               break;
             }
@@ -1063,7 +1065,7 @@ void sentence_encode(const uint16_t text_length, const char *text,
                               text + text_spot + SILENCE_GLYPH_LENGTH,
                               quote_length, text + text_spot + quote_spot,
                               &quote_word);
-            printf("quote_word %X\n", (uint)quote_word);
+            // printf("quote_word %X\n", (uint)quote_word);
             brick[0][brick_spot] = quote_word;
             ++brick_spot;
             copy_ACC_text_DAT_brick(
@@ -1133,32 +1135,6 @@ void sentence_encode(const uint16_t text_length, const char *text,
   *text_remainder = (uint16_t)(text_length - text_spot);
   brick[0][0] = binary_phrase_list;
 }
-inline void x6048009D00000000(unsigned char *text) {
-  assert(text != NULL);
-  printf("ini %02X\n", (uint)text[0]);
-  printf("%s", text);
-}
-inline void x6048029D00000000(signed char *text) {
-  assert(text != NULL);
-  printf("%s", text);
-}
-inline void x4124000000000000(v8us *hook_list) {
-  if (memcmp((char *)&hook_list[ACCUSATIVE_SPOT],
-             (char *)&hook_list[INSTRUMENTAL_SPOT], 16) == 0) {
-    hook_list[DATIVE_SPOT][0] = FACT_WORD;
-  } else {
-    hook_list[DATIVE_SPOT][0] = WRONG_WORD;
-  }
-}
-inline void x60AA000000000000(v8us *hook_list) {
-  if (memcmp((char *)&hook_list[ACCUSATIVE_SPOT],
-             (char *)&hook_list[INSTRUMENTAL_SPOT], 16) != 0) {
-    hook_list[DATIVE_SPOT][0] = FACT_WORD;
-  } else {
-    hook_list[DATIVE_SPOT][0] = WRONG_WORD;
-  }
-}
-
 inline void realize(const v4us encoded_name, v8us *hook_list) {
   void *accusative = NULL;
   // void *instrumental = NULL;
@@ -1175,10 +1151,12 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
   case SIGNED_CHAR_QUOTE:
     accusative = (char *)&(hook_list[ACCUSATIVE_SPOT]);
     break;
+  case SHORT_NUMBER_QUOTE:
+    break;
   case WRONG_BINARY:
     break;
   default:
-    printf("unrecognized type 0x%04X", (uint)encoded_name[ACCUSATIVE_SPOT]);
+    printf("unrecognized type %04X", (uint)encoded_name[ACCUSATIVE_SPOT]);
     assert(0 != 0);
     break;
   }
@@ -1218,20 +1196,98 @@ static inline void realize_quote(const v16us *brick, const uint8_t brick_spot,
   // printf("quote checking, word %04X\n", (uint) (*brick)[brick_spot]);
   if ((word & CONSONANT_ONE_MASK) == QUOTE_INDICATOR) {
     // then is quote
-    // printf("quote detected \n");
     *quote_word = word;
+    printf("quote detected %04X\n", (uint)word);
     quote_length = (uint8_t)(
         1 << (((*quote_word >> CONSONANT_ONE_WIDTH) & 7 /* 3 bit mask */) - 1));
     printf("quote_length %X \n", (uint)quote_length);
-    printf("brick_spot %X \n", (uint)brick_spot);
-    printf("quote_fill ");
+    // printf("brick_spot %X \n", (uint)brick_spot);
     assert(quote_length < brick_length * BRICK_LENGTH * WORD_WIDTH);
-    printf("quote_length %X \n", (uint)(quote_length));
+    printf("quote_fill ");
+    if (quote_length == 0) {
+      (*quote_fill)[0] = (uint16_t)(word >> QUOTE_LITERAL_SPOT);
+      // printf("%04X ", (uint)(*quote_fill)[0]);
+    }
     for (quote_spot = 0; quote_spot < quote_length; ++quote_spot) {
-      printf("%X ", (uint)(*brick)[brick_spot + quote_spot + 1]);
       (*quote_fill)[quote_spot] = (*brick)[brick_spot + quote_spot + 1];
+      printf("%04X ", (uint)(*quote_fill)[quote_spot]);
     }
     printf("\n");
+  }
+}
+inline void burden_hook_list(const uint8_t brick_length,
+                             const v16us *restrict brick, uint8_t *brick_spot,
+                             v4us *encoded_name, v8us *hook_list) {
+  assert(brick_length != 0);
+  assert(brick != NULL);
+  assert(encoded_name != NULL);
+  assert(hook_list != NULL);
+  assert(brick_spot != NULL);
+  assert(*brick_spot >= 1);
+  uint16_t indicator_list = 0;
+  uint8_t indicator = 0;
+  uint8_t brick_number = 0;
+  uint8_t exit = FALSE;
+  uint16_t word = 0;
+  uint16_t quote_word = 0;
+  v8us quote_fill = {0, 0, 0, 0, 0, 0, 0, 0};
+  indicator_list = brick[0][0];
+  indicator = (uint8_t)1 & indicator_list;
+  // printf("indicator %X\n", (uint) indicator);
+  // printf("indicator_list %X\n", (uint) indicator_list);
+  for (brick_number = 0; brick_number < brick_length; ++brick_number) {
+    for (; *brick_spot < BRICK_LENGTH; ++*brick_spot) {
+      // printf("BHL brick_spot %X\n", (uint)*brick_spot);
+      // if previous is indicated then check if is quote
+      if (((indicator_list & (1 << (*brick_spot - 1))) >> (*brick_spot - 1)) ==
+          indicator) {
+        // printf("quote's word %X \n", (uint)brick[0][*brick_spot]);
+        realize_quote(brick, *brick_spot, brick_length, &quote_word,
+                      &quote_fill);
+      }
+      // if current is indicated then check if is case or
+      // verb
+      if (((indicator_list & (1 << *brick_spot)) >> *brick_spot) == indicator) {
+        word = brick[brick_number][*brick_spot];
+        // printf("BHL word %X\n", (uint)word);
+        switch (word) {
+        case ACCUSATIVE_CASE:
+          // printf("detected accusative case\n");
+          if (quote_word != 0) {
+            (*encoded_name)[ACCUSATIVE_SPOT] = quote_word;
+            // printf("encoded_name ACC %04X%04X%04X%04X\n",
+            //       (uint)(*encoded_name)[3], (uint)(*encoded_name)[2],
+            //       (uint)(*encoded_name)[1], (uint)(*encoded_name)[0]);
+            hook_list[ACCUSATIVE_SPOT] = quote_fill;
+            printf("ACC quote_fill %X\n", (uint)quote_fill[0]);
+            printf("ACC hook_list %X\n", (uint)hook_list[ACCUSATIVE_SPOT][0]);
+            quote_word = 0;
+          }
+          break;
+        case DATIVE_CASE:
+          if (quote_word != 0) {
+            (*encoded_name)[DATIVE_SPOT] = quote_word;
+            hook_list[DATIVE_SPOT] = quote_fill;
+            quote_word = 0;
+          }
+          break;
+        case INSTRUMENTAL_CASE:
+          if (quote_word != 0) {
+            (*encoded_name)[INSTRUMENTAL_SPOT] = quote_word;
+            hook_list[INSTRUMENTAL_SPOT] = quote_fill;
+            quote_word = 0;
+          }
+          break;
+        default:
+          exit = TRUE;
+          break;
+        }
+      }
+      if (exit == TRUE)
+        break;
+    }
+    if (exit == TRUE)
+      break;
   }
 }
 inline void realize_sentence(const uint8_t brick_length,
@@ -1253,72 +1309,49 @@ inline void realize_sentence(const uint8_t brick_length,
   uint16_t indicator_list = 0;
   uint8_t indicator = 0;
   uint8_t brick_number = 0;
-  uint8_t brick_spot = 0;
+  uint8_t brick_spot = 1;
   uint8_t exit = FALSE;
   uint16_t word = 0;
-  uint16_t quote_word = 0;
-  v8us quote_fill = {0, 0, 0, 0, 0, 0, 0, 0};
+  assert(brick_length != 0);
+  assert(brick != NULL);
+  assert(encoded_name != NULL);
+  assert(hook_list != NULL);
   indicator_list = brick[0][0];
   indicator = (uint8_t)1 & indicator_list;
   // printf("indicator %X\n", (uint) indicator);
   // printf("indicator_list %X\n", (uint) indicator_list);
+  burden_hook_list(brick_length, brick, &brick_spot, encoded_name, hook_list);
+  // printf("encoded_name burden %04X%04X%04X%04X\n", (uint)(*encoded_name)[3],
+  //       (uint)(*encoded_name)[2], (uint)(*encoded_name)[1],
+  //       (uint)(*encoded_name)[0]);
   for (brick_number = 0; brick_number < brick_length; ++brick_number) {
-    for (brick_spot = 1; brick_spot < BRICK_LENGTH; ++brick_spot) {
-      // if previous is indicated then check if is quote
-      if (((indicator_list & (1 << (brick_spot - 1))) >> (brick_spot - 1)) ==
-          indicator) {
-        // printf("brick_spot %X \n", (uint) (brick)[0][brick_spot]);
-        realize_quote(brick, brick_spot, brick_length, &quote_word,
-                      &quote_fill);
-      }
+    for (; brick_spot < BRICK_LENGTH; ++brick_spot) {
       // if current is indicated then check if is case or
       // verb
       if (((indicator_list & (1 << brick_spot)) >> brick_spot) == indicator) {
         word = brick[brick_number][brick_spot];
         printf("word %X\n", (uint)word);
         switch (word) {
-        case ACCUSATIVE_CASE:
-          // printf("detected accusative case\n");
-          if (quote_word != 0) {
-            (*encoded_name)[ACCUSATIVE_SPOT] = quote_word;
-            // printf("encoded_name ACC %04X%04X%04X%04X\n",
-            // (uint)(*encoded_name)[3],
-            //      (uint)(*encoded_name)[2], (uint)(*encoded_name)[1],
-            //      (uint)(*encoded_name)[0]);
-            hook_list[ACCUSATIVE_SPOT] = quote_fill;
-            // printf("quote_fill %X\n",
-            //       (uint)quote_fill[0]);
-            // printf("hook_list %X\n",
-            //       (uint)hook_list[ACCUSATIVE_SPOT][0]);
-            quote_word = 0;
-          }
-          break;
-        case DATIVE_CASE:
-          if (quote_word != 0) {
-            (*encoded_name)[DATIVE_SPOT] = quote_word;
-            hook_list[DATIVE_SPOT] = quote_fill;
-            quote_word = 0;
-          }
-          break;
-        case INSTRUMENTAL_CASE:
-          if (quote_word != 0) {
-            (*encoded_name)[INSTRUMENTAL_SPOT] = quote_word;
-            hook_list[INSTRUMENTAL_SPOT] = quote_fill;
-            quote_word = 0;
-          }
-          break;
         case CONDITIONAL_MOOD:
           word = brick[0][brick_spot - 1];
           // printf("COND word %04X \n", (uint) word);
           encoded_name[0][VERB_SPOT] = word;
           // printf("encoded_name COND %04X%04X%04X%04X\n",
-          // (uint)(*encoded_name)[3],
-          //       (uint)(*encoded_name)[2], (uint)(*encoded_name)[1],
-          //       (uint)(*encoded_name)[0]);
+          //       (uint)(*encoded_name)[3], (uint)(*encoded_name)[2],
+          //       (uint)(*encoded_name)[1], (uint)(*encoded_name)[0]);
           realize(*encoded_name, hook_list);
           // if dative is WRONG_WORD then skip to next sentence
           if (hook_list[DATIVE_SPOT][0] == WRONG_WORD) {
             exit = TRUE;
+          } else {
+            ++brick_spot;
+            burden_hook_list(brick_length, brick, &brick_spot, encoded_name,
+                             hook_list);
+            printf("encoded_name burden2 %04X%04X%04X%04X\n",
+                   (uint)(*encoded_name)[3], (uint)(*encoded_name)[2],
+                   (uint)(*encoded_name)[1], (uint)(*encoded_name)[0]);
+            printf("brick_spot %X\n", (uint)brick_spot);
+            --brick_spot;
           }
           break;
         case DEONTIC_MOOD:
@@ -1347,8 +1380,8 @@ inline void realize_sentence(const uint8_t brick_length,
           assert(WRONG_BINARY != WRONG_BINARY);
           break;
         default:
-          printf("brick_spot %X\n", (uint)brick_spot);
-          assert(1 == 0); // indicated wrong point
+          // printf("brick_spot %X\n", (uint)brick_spot);
+          // assert(1 == 0); // indicated wrong point
           break;
         }
       }

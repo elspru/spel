@@ -18,7 +18,8 @@ source/seed/library_library_seed_a-seed.o: source/seed/seed.c \
  /usr/include/arm-linux-gnueabihf/bits/stdio2.h /usr/include/assert.h \
  /usr/include/string.h /usr/include/arm-linux-gnueabihf/bits/string.h \
  /usr/include/arm-linux-gnueabihf/bits/string2.h \
- /usr/include/arm-linux-gnueabihf/bits/string3.h source/seed/seed.h
+ /usr/include/arm-linux-gnueabihf/bits/string3.h source/seed/seed.h \
+ source/seed/dictionary.h
 
 /usr/include/stdc-predef.h:
 
@@ -73,3 +74,5 @@ source/seed/library_library_seed_a-seed.o: source/seed/seed.c \
 /usr/include/arm-linux-gnueabihf/bits/string3.h:
 
 source/seed/seed.h:
+
+source/seed/dictionary.h:

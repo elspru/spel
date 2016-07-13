@@ -99,9 +99,15 @@ AM_V_AR = $(am__v_AR_$(V))
 am__v_AR_ = $(am__v_AR_$(AM_DEFAULT_VERBOSITY))
 am__v_AR_0 = @echo "  AR      " $@;
 am__v_AR_1 = 
+library_library_dictionary_a_AR = $(AR) $(ARFLAGS)
+library_library_dictionary_a_LIBADD =
+am__dirstamp = $(am__leading_dot)dirstamp
+am_library_library_dictionary_a_OBJECTS =  \
+	source/seed/library_library_dictionary_a-dictionary.$(OBJEXT)
+library_library_dictionary_a_OBJECTS =  \
+	$(am_library_library_dictionary_a_OBJECTS)
 library_library_prng_a_AR = $(AR) $(ARFLAGS)
 library_library_prng_a_LIBADD =
-am__dirstamp = $(am__leading_dot)dirstamp
 am_library_library_prng_a_OBJECTS = source/machine_programmer/library_library_prng_a-prng.$(OBJEXT)
 library_library_prng_a_OBJECTS = $(am_library_library_prng_a_OBJECTS)
 library_library_programmer_a_AR = $(AR) $(ARFLAGS)
@@ -120,7 +126,8 @@ am_binary_virtual_machine_OBJECTS =  \
 	source/binary_virtual_machine-virtual-machine.$(OBJEXT)
 binary_virtual_machine_OBJECTS = $(am_binary_virtual_machine_OBJECTS)
 binary_virtual_machine_DEPENDENCIES = library/library_seed.a \
-	library/library_programmer.a library/library_prng.a
+	library/library_programmer.a library/library_prng.a \
+	library/library_dictionary.a
 binary_virtual_machine_LINK = $(CCLD) $(binary_virtual_machine_CFLAGS) \
 	$(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@
 AM_V_P = $(am__v_P_$(V))
@@ -155,11 +162,13 @@ AM_V_CCLD = $(am__v_CCLD_$(V))
 am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(library_library_prng_a_SOURCES) \
+SOURCES = $(library_library_dictionary_a_SOURCES) \
+	$(library_library_prng_a_SOURCES) \
 	$(library_library_programmer_a_SOURCES) \
 	$(library_library_seed_a_SOURCES) \
 	$(binary_virtual_machine_SOURCES)
-DIST_SOURCES = $(library_library_prng_a_SOURCES) \
+DIST_SOURCES = $(library_library_dictionary_a_SOURCES) \
+	$(library_library_prng_a_SOURCES) \
 	$(library_library_programmer_a_SOURCES) \
 	$(library_library_seed_a_SOURCES) \
 	$(binary_virtual_machine_SOURCES)
@@ -360,11 +369,17 @@ top_srcdir = .
 #
 SUBDIRS = .
 noinst_LIBRARIES = library/library_programmer.a library/library_seed.a \
-                    library/library_prng.a
+                    library/library_prng.a library/library_dictionary.a
 
-library_library_seed_a_SOURCES = source/seed/seed.c
+library_library_seed_a_SOURCES = source/seed/seed.c source/seed/seed.h
 library_library_seed_a_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS)\
          -Wstack-usage=256 # data bytes per warp
+
+library_library_dictionary_a_SOURCES = source/seed/dictionary.c \
+                source/seed/dictionary.h
+
+library_library_dictionary_a_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS)\
+         -Wstack-usage=32 # data bytes per warp
 
 library_library_programmer_a_SOURCES = source/machine_programmer/programmer.c
 library_library_programmer_a_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS)\
@@ -379,7 +394,8 @@ binary_virtual_machine_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS) \
          -Wstack-usage=32768  #L1 Cache
 
 binary_virtual_machine_LDADD = library/library_seed.a \
-          library/library_programmer.a library/library_prng.a
+          library/library_programmer.a library/library_prng.a \
+          library/library_dictionary.a
 
 all: config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-recursive
@@ -438,6 +454,23 @@ distclean-hdr:
 
 clean-noinstLIBRARIES:
 	-test -z "$(noinst_LIBRARIES)" || rm -f $(noinst_LIBRARIES)
+source/seed/$(am__dirstamp):
+	@$(MKDIR_P) source/seed
+	@: > source/seed/$(am__dirstamp)
+source/seed/$(DEPDIR)/$(am__dirstamp):
+	@$(MKDIR_P) source/seed/$(DEPDIR)
+	@: > source/seed/$(DEPDIR)/$(am__dirstamp)
+source/seed/library_library_dictionary_a-dictionary.$(OBJEXT):  \
+	source/seed/$(am__dirstamp) \
+	source/seed/$(DEPDIR)/$(am__dirstamp)
+library/$(am__dirstamp):
+	@$(MKDIR_P) library
+	@: > library/$(am__dirstamp)
+
+library/library_dictionary.a: $(library_library_dictionary_a_OBJECTS) $(library_library_dictionary_a_DEPENDENCIES) $(EXTRA_library_library_dictionary_a_DEPENDENCIES) library/$(am__dirstamp)
+	$(AM_V_at)-rm -f library/library_dictionary.a
+	$(AM_V_AR)$(library_library_dictionary_a_AR) library/library_dictionary.a $(library_library_dictionary_a_OBJECTS) $(library_library_dictionary_a_LIBADD)
+	$(AM_V_at)$(RANLIB) library/library_dictionary.a
 source/machine_programmer/$(am__dirstamp):
 	@$(MKDIR_P) source/machine_programmer
 	@: > source/machine_programmer/$(am__dirstamp)
@@ -447,9 +480,6 @@ source/machine_programmer/$(DEPDIR)/$(am__dirstamp):
 source/machine_programmer/library_library_prng_a-prng.$(OBJEXT):  \
 	source/machine_programmer/$(am__dirstamp) \
 	source/machine_programmer/$(DEPDIR)/$(am__dirstamp)
-library/$(am__dirstamp):
-	@$(MKDIR_P) library
-	@: > library/$(am__dirstamp)
 
 library/library_prng.a: $(library_library_prng_a_OBJECTS) $(library_library_prng_a_DEPENDENCIES) $(EXTRA_library_library_prng_a_DEPENDENCIES) library/$(am__dirstamp)
 	$(AM_V_at)-rm -f library/library_prng.a
@@ -463,12 +493,6 @@ library/library_programmer.a: $(library_library_programmer_a_OBJECTS) $(library_
 	$(AM_V_at)-rm -f library/library_programmer.a
 	$(AM_V_AR)$(library_library_programmer_a_AR) library/library_programmer.a $(library_library_programmer_a_OBJECTS) $(library_library_programmer_a_LIBADD)
 	$(AM_V_at)$(RANLIB) library/library_programmer.a
-source/seed/$(am__dirstamp):
-	@$(MKDIR_P) source/seed
-	@: > source/seed/$(am__dirstamp)
-source/seed/$(DEPDIR)/$(am__dirstamp):
-	@$(MKDIR_P) source/seed/$(DEPDIR)
-	@: > source/seed/$(DEPDIR)/$(am__dirstamp)
 source/seed/library_library_seed_a-seed.$(OBJEXT):  \
 	source/seed/$(am__dirstamp) \
 	source/seed/$(DEPDIR)/$(am__dirstamp)
@@ -547,6 +571,7 @@ distclean-compile:
 include source/$(DEPDIR)/binary_virtual_machine-virtual-machine.Po
 include source/machine_programmer/$(DEPDIR)/library_library_prng_a-prng.Po
 include source/machine_programmer/$(DEPDIR)/library_library_programmer_a-programmer.Po
+include source/seed/$(DEPDIR)/library_library_dictionary_a-dictionary.Po
 include source/seed/$(DEPDIR)/library_library_seed_a-seed.Po
 
 .c.o:
@@ -564,6 +589,20 @@ include source/seed/$(DEPDIR)/library_library_seed_a-seed.Po
 #	$(AM_V_CC)source='$<' object='$@' libtool=no \
 #	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
 #	$(AM_V_CC_no)$(COMPILE) -c -o $@ `$(CYGPATH_W) '$<'`
+
+source/seed/library_library_dictionary_a-dictionary.o: source/seed/dictionary.c
+	$(AM_V_CC)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(library_library_dictionary_a_CFLAGS) $(CFLAGS) -MT source/seed/library_library_dictionary_a-dictionary.o -MD -MP -MF source/seed/$(DEPDIR)/library_library_dictionary_a-dictionary.Tpo -c -o source/seed/library_library_dictionary_a-dictionary.o `test -f 'source/seed/dictionary.c' || echo '$(srcdir)/'`source/seed/dictionary.c
+	$(AM_V_at)$(am__mv) source/seed/$(DEPDIR)/library_library_dictionary_a-dictionary.Tpo source/seed/$(DEPDIR)/library_library_dictionary_a-dictionary.Po
+#	$(AM_V_CC)source='source/seed/dictionary.c' object='source/seed/library_library_dictionary_a-dictionary.o' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(AM_V_CC_no)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(library_library_dictionary_a_CFLAGS) $(CFLAGS) -c -o source/seed/library_library_dictionary_a-dictionary.o `test -f 'source/seed/dictionary.c' || echo '$(srcdir)/'`source/seed/dictionary.c
+
+source/seed/library_library_dictionary_a-dictionary.obj: source/seed/dictionary.c
+	$(AM_V_CC)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(library_library_dictionary_a_CFLAGS) $(CFLAGS) -MT source/seed/library_library_dictionary_a-dictionary.obj -MD -MP -MF source/seed/$(DEPDIR)/library_library_dictionary_a-dictionary.Tpo -c -o source/seed/library_library_dictionary_a-dictionary.obj `if test -f 'source/seed/dictionary.c'; then $(CYGPATH_W) 'source/seed/dictionary.c'; else $(CYGPATH_W) '$(srcdir)/source/seed/dictionary.c'; fi`
+	$(AM_V_at)$(am__mv) source/seed/$(DEPDIR)/library_library_dictionary_a-dictionary.Tpo source/seed/$(DEPDIR)/library_library_dictionary_a-dictionary.Po
+#	$(AM_V_CC)source='source/seed/dictionary.c' object='source/seed/library_library_dictionary_a-dictionary.obj' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(AM_V_CC_no)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(library_library_dictionary_a_CFLAGS) $(CFLAGS) -c -o source/seed/library_library_dictionary_a-dictionary.obj `if test -f 'source/seed/dictionary.c'; then $(CYGPATH_W) 'source/seed/dictionary.c'; else $(CYGPATH_W) '$(srcdir)/source/seed/dictionary.c'; fi`
 
 source/machine_programmer/library_library_prng_a-prng.o: source/machine_programmer/prng.c
 	$(AM_V_CC)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(library_library_prng_a_CFLAGS) $(CFLAGS) -MT source/machine_programmer/library_library_prng_a-prng.o -MD -MP -MF source/machine_programmer/$(DEPDIR)/library_library_prng_a-prng.Tpo -c -o source/machine_programmer/library_library_prng_a-prng.o `test -f 'source/machine_programmer/prng.c' || echo '$(srcdir)/'`source/machine_programmer/prng.c

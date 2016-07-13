@@ -19,10 +19,15 @@
 SUBDIRS = .
 
 noinst_LIBRARIES =  library/library_programmer.a library/library_seed.a \
-                    library/library_prng.a
-library_library_seed_a_SOURCES = source/seed/seed.c
+                    library/library_prng.a library/library_dictionary.a
+library_library_seed_a_SOURCES = source/seed/seed.c source/seed/seed.h
 library_library_seed_a_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS)\
          -Wstack-usage=256 # data bytes per warp
+
+library_library_dictionary_a_SOURCES = source/seed/dictionary.c \
+                source/seed/dictionary.h
+library_library_dictionary_a_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS)\
+         -Wstack-usage=32 # data bytes per warp
 
 library_library_programmer_a_SOURCES = source/machine_programmer/programmer.c
 library_library_programmer_a_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS)\
@@ -38,7 +43,8 @@ binary_virtual_machine_SOURCES = source/virtual-machine.c
 binary_virtual_machine_CFLAGS = -I$(top_srcdir) $(MY_CFLAGS) \
          -Wstack-usage=32768  #L1 Cache
 binary_virtual_machine_LDADD = library/library_seed.a \
-          library/library_programmer.a library/library_prng.a
+          library/library_programmer.a library/library_prng.a \
+          library/library_dictionary.a
 
 # TESTS
 #TESTS = check_vm

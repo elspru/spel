@@ -307,7 +307,7 @@ static void full_encode_check() {
 }
 
 static void check_quote(v16us *restrict brick, uint8_t *brick_length) {
-  const char text[] = "wu.twus.hello world!\n.twus.wuka hsintu";
+  const char text[] = "bu.twus.hello world!\n.twus.buka hsintu";
   const uint16_t text_length = (uint16_t)strlen(text);
   uint16_t remainder = 0;
   uint8_t brick_spot = 0;
@@ -323,8 +323,8 @@ static void check_quote(v16us *restrict brick, uint8_t *brick_length) {
 }
 
 static void check_text(v16us *restrict brick, uint16_t *brick_length) {
-  const char text[] = //"zrunnuka hyinnusu nyistu "
-      "pwapyu wu.twus.hello world!\n.twus.wuka hsintu";
+  const char text[] = //"zrunnuka hyindosu nyistu "
+      "pwapyu bu.twus.hello world!\n.twus.buka hsintu";
 
   const uint16_t text_length = (uint16_t)strlen(text);
   uint16_t remainder = 0;
@@ -336,14 +336,14 @@ static void check_text(v16us *restrict brick, uint16_t *brick_length) {
   //  printf("%X ", (uint)text[brick_spot]);
   //}
   // printf(": text\n");
-  printf("brick start \n");
+  printf("check_text brick start \n");
   for (brick_spot = 0; brick_spot < (*brick_length * BRICK_LENGTH);
        ++brick_spot) {
     if (brick_spot % 0x10 == 0)
       printf("\n");
     printf("%04X ", (uint)brick[0][brick_spot]);
   }
-  printf("\n:brick\n");
+  printf("\n:brick check_text\n");
 }
 static void check_realize_text(const v16us *restrict brick,
                                const uint16_t brick_length) {
@@ -442,21 +442,22 @@ static void check_ACC_all() {
   check_hello_world(brick, brick_length);
   // printf("check_text\n");
   check_text(brick_two, &brick_two_length);
-  // printf("check_realize_text\n");
+  printf("CRT check_realize_text\n");
   check_realize_text(brick_two, brick_two_length);
+  printf("ECRT end check_realize_text\n");
   encode_word_PL_check();
 }
 
 static void check_programmer() {
-  const char *activity_elements_text = "nyistu cruttu hnictu htamtu";
+  const char *activity_elements_text = "nyistu cruttu hnattu htamtu";
   const uint16_t activity_elements_text_length =
       (uint16_t)(strlen(activity_elements_text));
   const char *check_sentence_list_text =
-      "zrunnuka hyinnusu nyisyu hyinnukali"
-      "hyinnuka tyutnusu nyisyu tyinnukali"
-      "tyutnuka tyutnusu nyisyu hkutnukali"
-      "wu.hnac.2.hnac.wunuka wu.hnac.2.hnac.wunusu nyisyu "
-      "wu.hnac.4.hnac.wunukali";
+      "zrundoka hyindocayu hyindokali"
+      "hyindoka tyutdocayu tyindokali"
+      "tyutdoka tyutdocayu hkutdokali"
+      "bu.hnac.2.hnac.buka bu.hnac.2.hnac.buca yu "
+      "bu.hnac.4.hnac.bukali";
   const uint16_t check_sentence_list_text_length =
       (uint16_t)strlen(check_sentence_list_text);
   uint16_t check_sentence_list_length = 8;
@@ -477,7 +478,7 @@ static void check_programmer() {
   text_encode(check_sentence_list_text_length, check_sentence_list_text,
               &check_sentence_list_length, check_sentence_list,
               &text_remainder);
-  printf("brick start \n");
+  printf("check_programmer brick start \n");
   for (brick_spot = 0; brick_spot < (check_sentence_list_length * BRICK_LENGTH);
        ++brick_spot) {
     if (brick_spot % 0x10 == 0)
