@@ -1137,7 +1137,7 @@ void sentence_encode(const uint16_t text_length, const char *text,
 }
 inline void realize(const v4us encoded_name, v8us *hook_list) {
   void *accusative = NULL;
-  // void *instrumental = NULL;
+  void *instrumental = NULL;
   // void *dative =  NULL;
   assert(encoded_name[VERB_SPOT] != 0);
   assert(hook_list != NULL);
@@ -1152,6 +1152,24 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
     accusative = (char *)&(hook_list[ACCUSATIVE_SPOT]);
     break;
   case SHORT_NUMBER_QUOTE:
+    accusative = (uint16_t *)&(hook_list[ACCUSATIVE_SPOT]);
+    break;
+  case WRONG_BINARY:
+    break;
+  default:
+    printf("unrecognized type %04X", (uint)encoded_name[ACCUSATIVE_SPOT]);
+    assert(0 != 0);
+    break;
+  }
+  switch (encoded_name[INSTRUMENTAL_SPOT]) {
+  case UNSIGNED_CHAR_QUOTE:
+    instrumental = (unsigned char *)&(hook_list[INSTRUMENTAL_SPOT]);
+    break;
+  case SIGNED_CHAR_QUOTE:
+    instrumental = (char *)&(hook_list[INSTRUMENTAL_SPOT]);
+    break;
+  case SHORT_NUMBER_QUOTE:
+    instrumental = (uint16_t *)&(hook_list[INSTRUMENTAL_SPOT]);
     break;
   case WRONG_BINARY:
     break;
@@ -1172,6 +1190,9 @@ inline void realize(const v4us encoded_name, v8us *hook_list) {
     break;
   case 0x60AA000000000000: /* different */
     x60AA000000000000(hook_list);
+    break;
+  case 0xA130143D143D0000: /* not CCNOT */
+    xA130143D143D0000(accusative, instrumental);
     break;
   default:
     printf("unrecognized encoded_name %04X%04X%04X%04X\n",
@@ -1197,22 +1218,22 @@ static inline void realize_quote(const v16us *brick, const uint8_t brick_spot,
   if ((word & CONSONANT_ONE_MASK) == QUOTE_INDICATOR) {
     // then is quote
     *quote_word = word;
-    printf("quote detected %04X\n", (uint)word);
+    // printf("quote detected %04X\n", (uint)word);
     quote_length = (uint8_t)(
         1 << (((*quote_word >> CONSONANT_ONE_WIDTH) & 7 /* 3 bit mask */) - 1));
-    printf("quote_length %X \n", (uint)quote_length);
+    // printf("quote_length %X \n", (uint)quote_length);
     // printf("brick_spot %X \n", (uint)brick_spot);
     assert(quote_length < brick_length * BRICK_LENGTH * WORD_WIDTH);
-    printf("quote_fill ");
+    // printf("quote_fill ");
     if (quote_length == 0) {
       (*quote_fill)[0] = (uint16_t)(word >> QUOTE_LITERAL_SPOT);
       // printf("%04X ", (uint)(*quote_fill)[0]);
     }
     for (quote_spot = 0; quote_spot < quote_length; ++quote_spot) {
       (*quote_fill)[quote_spot] = (*brick)[brick_spot + quote_spot + 1];
-      printf("%04X ", (uint)(*quote_fill)[quote_spot]);
+      // printf("%04X ", (uint)(*quote_fill)[quote_spot]);
     }
-    printf("\n");
+    // printf("\n");
   }
 }
 inline void burden_hook_list(const uint8_t brick_length,
@@ -1259,8 +1280,9 @@ inline void burden_hook_list(const uint8_t brick_length,
             //       (uint)(*encoded_name)[3], (uint)(*encoded_name)[2],
             //       (uint)(*encoded_name)[1], (uint)(*encoded_name)[0]);
             hook_list[ACCUSATIVE_SPOT] = quote_fill;
-            printf("ACC quote_fill %X\n", (uint)quote_fill[0]);
-            printf("ACC hook_list %X\n", (uint)hook_list[ACCUSATIVE_SPOT][0]);
+            // printf("ACC quote_fill %X\n", (uint)quote_fill[0]);
+            // printf("ACC hook_list %X\n",
+            // (uint)hook_list[ACCUSATIVE_SPOT][0]);
             quote_word = 0;
           }
           break;
@@ -1330,7 +1352,7 @@ inline void realize_sentence(const uint8_t brick_length,
       // verb
       if (((indicator_list & (1 << brick_spot)) >> brick_spot) == indicator) {
         word = brick[brick_number][brick_spot];
-        printf("word %X\n", (uint)word);
+        // printf("word %X\n", (uint)word);
         switch (word) {
         case CONDITIONAL_MOOD:
           word = brick[0][brick_spot - 1];
@@ -1358,10 +1380,10 @@ inline void realize_sentence(const uint8_t brick_length,
           // checking verb
           word = brick[0][brick_spot - 1];
           (*encoded_name)[VERB_SPOT] = word;
-          printf("encoded_name DEO %04X%04X%04X%04X\n",
-                 (uint)(*encoded_name)[3], (uint)(*encoded_name)[2],
-                 (uint)(*encoded_name)[1], (uint)(*encoded_name)[0]);
-          printf("realizing");
+          // printf("encoded_name DEO %04X%04X%04X%04X\n",
+          //       (uint)(*encoded_name)[3], (uint)(*encoded_name)[2],
+          //       (uint)(*encoded_name)[1], (uint)(*encoded_name)[0]);
+          // printf("realizing");
           realize((*encoded_name), hook_list);
           exit = TRUE;
           break;

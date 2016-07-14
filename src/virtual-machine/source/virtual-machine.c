@@ -452,15 +452,15 @@ static void check_programmer() {
   const char *activity_elements_text = "nyistu cruttu hnattu htamtu";
   const uint16_t activity_elements_text_length =
       (uint16_t)(strlen(activity_elements_text));
-  const char *check_sentence_list_text =
-      "zrundoka hyindocayu hyindokali"
-      "hyindoka tyutdocayu tyindokali"
-      "tyutdoka tyutdocayu hkutdokali"
-      "bu.hnac.2.hnac.buka bu.hnac.2.hnac.buca yu "
-      "bu.hnac.4.hnac.bukali";
+  const char *check_sentence_list_text = "zrundoka hwindocayu hwindokali"
+                                         "hwindoka tyutdocayu tyindokali"
+                                         "tyutdoka tyutdocayu hfutdokali"
+                                         "tyindoka fwandocayu nyatdokali";
+  //"bu.hnac.2.hnac.buka bu.hnac.2.hnac.buca yu "
+  //"bu.hnac.4.hnac.bukali";
   const uint16_t check_sentence_list_text_length =
       (uint16_t)strlen(check_sentence_list_text);
-  uint16_t check_sentence_list_length = 8;
+  uint16_t check_sentence_list_length = 4;
   v16us check_sentence_list[8];
   uint16_t activity_elements_length = MAX_SENTENCE_BRICK * 1;
   v16us activity_elements[MAX_SENTENCE_BRICK * 1];

@@ -62,22 +62,22 @@ static void obtain_first_sentence(const uint16_t check_sentence_list_length,
 
 static void obtain_import(const uint8_t sentence_length,
                           const v16us *restrict check_sentence_list,
-                          v4us *encoded_name, v8us *hook_list) {
-  uint8_t brick_spot = 1;
+                          uint8_t *brick_spot, v4us *encoded_name,
+                          v8us *hook_list) {
   // uint16_t grammar_indicator = check_sentence_list[0][0];
   // uint8_t indicator = (uint8_t)(1 & grammar_indicator);
-  uint8_t check_spot = 0;
+  // uint8_t check_spot = 0;
   // uint8_t import_length = 0;
   assert(sentence_length > 0);
   assert(check_sentence_list != NULL);
   assert(hook_list != NULL);
-  burden_hook_list(sentence_length, check_sentence_list, &brick_spot,
+  burden_hook_list(sentence_length, check_sentence_list, brick_spot,
                    encoded_name, hook_list);
-  printf("OI hook_list: ");
-  for (check_spot = 0; check_spot < HOOK_LIST_LENGTH; ++check_spot) {
-    printf("%04X ", (uint)hook_list[check_spot][0]);
-  }
-  printf("\n");
+  // printf("OI hook_list: ");
+  // for (check_spot = 0; check_spot < HOOK_LIST_LENGTH; ++check_spot) {
+  //  printf("%04X ", (uint)hook_list[check_spot][0]);
+  //}
+  // printf("\n");
   // for (brick_spot = 0; brick_spot < sentence_length * BRICK_LENGTH;
   //     ++brick_spot) {
   //  if (((grammar_indicator & (1 << brick_spot)) >> brick_spot) == indicator
@@ -90,21 +90,29 @@ static void obtain_import(const uint8_t sentence_length,
 }
 static void obtain_export(const uint8_t sentence_length,
                           const v16us *restrict check_sentence_list,
-                          const uint8_t import_length, uint8_t *export_length) {
-  uint8_t brick_spot = 0;
-  uint16_t grammar_indicator = check_sentence_list[0][0];
-  uint8_t indicator = (uint8_t)(1 & grammar_indicator);
+                          uint8_t *brick_spot, v4us *encoded_name,
+                          v8us *hook_list) {
+  //  uint8_t brick_spot = 0;
+  //  uint16_t grammar_indicator = check_sentence_list[0][0];
+  //  uint8_t indicator = (uint8_t)(1 & grammar_indicator);
+  //  assert(sentence_length > 0);
+  //  assert(check_sentence_list != NULL);
+  //  assert(export_length != NULL);
   assert(sentence_length > 0);
   assert(check_sentence_list != NULL);
-  assert(export_length != NULL);
-  for (brick_spot = import_length; brick_spot < sentence_length * BRICK_LENGTH;
-       ++brick_spot) {
-    if (((grammar_indicator & (1 << brick_spot)) >> brick_spot) == indicator &&
-        check_sentence_list[0][brick_spot] == REALIS_MOOD) {
-      *export_length = (uint8_t)(brick_spot + 1);
-      break;
-    }
-  }
+  assert(hook_list != NULL);
+  burden_hook_list(sentence_length, check_sentence_list, brick_spot,
+                   encoded_name, hook_list);
+  //  for (brick_spot = import_length; brick_spot < sentence_length *
+  //  BRICK_LENGTH;
+  //       ++brick_spot) {
+  //    if (((grammar_indicator & (1 << brick_spot)) >> brick_spot) == indicator
+  //    &&
+  //        check_sentence_list[0][brick_spot] == REALIS_MOOD) {
+  //      *export_length = (uint8_t)(brick_spot + 1);
+  //      break;
+  //    }
+  //  }
 }
 
 void check_plan(const uint16_t check_sentence_list_length,
@@ -119,11 +127,14 @@ void check_plan(const uint16_t check_sentence_list_length,
   uint16_t check_sentence_spot;
   uint8_t sentence_length = 0;
   v4us encoded_name = {0, 0, 0, 0};
-  uint8_t import_length = 0;
-  uint8_t export_length = 0;
+  // uint8_t import_length = 0;
+  // uint8_t export_length = 0;
   uint8_t check_spot = 0;
+  uint8_t brick_spot = 1;
   v8us hook_list[HOOK_LIST_LENGTH];
+  v8us export_hook_list[HOOK_LIST_LENGTH];
   memset(hook_list, 0, HOOK_LIST_LENGTH * HOOK_LIST_WIDTH * WORD_WIDTH);
+  memset(export_hook_list, 0, HOOK_LIST_LENGTH * HOOK_LIST_WIDTH * WORD_WIDTH);
   assert(check_sentence_list_length > 0);
   assert(check_sentence_list != NULL);
   assert(plan_length > 0);
@@ -132,37 +143,57 @@ void check_plan(const uint16_t check_sentence_list_length,
   for (check_sentence_spot = 0;
        check_sentence_spot < check_sentence_list_length;
        ++check_sentence_spot) {
+    brick_spot = 1;
     // obtain_first_sentence(); // for multi brick sentences
+    printf("ITERATION %X\n", check_sentence_spot);
+    // memset((char *)&encoded_name, 0, 8);
+    memset(hook_list, 0, V8US_LENGTH * HOOK_LIST_LENGTH);
+    memset(export_hook_list, 0, V8US_LENGTH * HOOK_LIST_LENGTH);
     obtain_first_sentence(
         (uint16_t)(check_sentence_list_length - check_sentence_spot),
         check_sentence_list + check_sentence_spot, &sentence_length);
     // obtain_import
     obtain_import(sentence_length, check_sentence_list + check_sentence_spot,
-                  &encoded_name, hook_list);
-    printf("encoded_name burden3 %04X%04X%04X%04X\n", (uint)(encoded_name)[3],
-           (uint)(encoded_name)[2], (uint)(encoded_name)[1],
-           (uint)(encoded_name)[0]);
+                  &brick_spot, &encoded_name, hook_list);
     printf("hook_list: ");
     for (check_spot = 0; check_spot < HOOK_LIST_LENGTH; ++check_spot) {
       printf("%04X ", (uint)hook_list[check_spot][0]);
     }
     printf("\n");
+    memcpy((char *)&export_hook_list, (char *)&hook_list,
+           V8US_LENGTH * HOOK_LIST_LENGTH);
+    // obtain_export
+    // printf("pre export hook_list: ");
+    // for (check_spot = 0; check_spot < HOOK_LIST_LENGTH; ++check_spot) {
+    //  printf("%04X ", (uint)export_hook_list[check_spot][0]);
+    //}
+    // printf("\n");
+    ++brick_spot;
+    // printf("brick_spot %X\n", (uint)brick_spot);
+    obtain_export(sentence_length, check_sentence_list + check_sentence_spot,
+                  &brick_spot, &encoded_name, export_hook_list);
+    printf("export hook_list: ");
+    for (check_spot = 0; check_spot < HOOK_LIST_LENGTH; ++check_spot) {
+      printf("%04X ", (uint)export_hook_list[check_spot][0]);
+    }
+    printf("\n");
+    // printf("encoded_name burden3 %04X%04X%04X%04X\n",
+    // (uint)(encoded_name)[3],
+    //        (uint)(encoded_name)[2], (uint)(encoded_name)[1],
+    //        (uint)(encoded_name)[0]);
     // realize_plan
     realize_text(plan_length, plan, &encoded_name, hook_list);
     printf("hook_list-after: ");
     for (check_spot = 0; check_spot < HOOK_LIST_LENGTH; ++check_spot) {
       printf("%04X ", (uint)hook_list[check_spot][0]);
     }
-    // obtain_export
-    obtain_export(sentence_length, check_sentence_list + check_sentence_spot,
-                  import_length, &export_length);
-    printf("export: ");
-    for (check_spot = import_length; check_spot < export_length; ++check_spot) {
-      printf("%04X ",
-             (uint)(check_sentence_list + check_sentence_spot)[0][check_spot]);
-    }
     printf("\n");
+    if (memcmp((char *)&export_hook_list, (char *)&hook_list,
+               V8US_LENGTH * HOOK_LIST_LENGTH) == 0) {
+      ++worth;
+    }
     // compare plan_export to check_export
   }
+  printf("worth: %X\n", (uint)worth);
   *plan_worth = worth;
 }

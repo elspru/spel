@@ -107,21 +107,21 @@ contact: streondj at gmail dot com
 #define SIGNED_CHAR_QUOTE 0x029D
 #define SHORT_NUMBER_QUOTE 0x143D
 // numbers
-#define ZERO_WORD 0x62D4
-#define ONE_WORD 0x6018
-#define TWO_WORD 0xA20A
-#define THREE_WORD 0x600A
-#define FOUR_WORD 0xA210
-#define FIVE_WORD 0x6124
+#define ZERO_WORD 0x62D4  // zrun
+#define ONE_WORD 0x6028   // hwin
+#define TWO_WORD 0xA20A   // tyut
+#define THREE_WORD 0x600A // tyin
+#define FOUR_WORD 0xA260  // hfut
+#define FIVE_WORD 0x612C  // fwan
 #define SIX_WORD 0x80A2
 #define SEVEN_WORD 0xE009
-#define EIGHT_WORD 0xA12B
+#define EIGHT_WORD 0xA106 // nyat
 #define NINE_WORD 0x6226
 #define TEN_WORD 0x810A
 #define ELEVEN_WORD 0xE318
 #define TWELVE_WORD 0xC10A
 #define THIRTEEN_WORD 0x63CA
-#define FOURTEEN_WORD 0x8410
+#define FOURTEEN_WORD 0x8410 // krot
 #define FIFTEEN_WORD 0xE184
 #define SIXTEEN_WORD 0x8448
 #define SEVENTEEN_WORD 0xA309
@@ -135,6 +135,7 @@ typedef uint8_t v16uc __attribute__((vector_size(16)));
 typedef uint16_t v16us __attribute__((vector_size(32)));
 typedef uint16_t v8us __attribute__((vector_size(16)));
 typedef uint16_t v4us __attribute__((vector_size(8)));
+#define V8US_LENGTH 16
 /*#define NULL 0*/
 
 extern void delete_empty_glyph(const uint16_t length, const char *letter,
