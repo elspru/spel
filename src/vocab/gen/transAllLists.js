@@ -1,10 +1,20 @@
 #!/usr/bin/nodejs
 
 var io = require("../../lib/io"),
-    allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
-        "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt", "es", "bn",
-        "pa", "he", "ja", "jv", "te", "ko", "mr", "hu" ];
+    allTransLangs = [
+        "en", "hi", "zh", "sw",   "ar", "es", "id", "tr", 
+        "ru", "fr", "ta", "fa",   "pt", "de", "vi", "it",  
+
+        "jv", "pl", "sr", "fi",   "sv", "el", "ka", "cy", 
+        "bn", "pa", "he", "ja",   "te", "ko", "mr", "lt",
+
+        "hu", "nl", "da", "tl",   "th", "te", "ur", "gu", 
+        "kn", "ml", "ps", "jv",   "su", "ha", "my", "uk",
+        
+        "yo", "am", "ro", "uz",   "sd", "mi", "ig", "mg",
+        "si", "ne", "km", "so",   "zu", "ny", "ku", "mn",
+
+        "lo", "zu", "xh", "az",   "cs"];
 
 function formatWordList(wordArray) {
         return wordArray.reduce(function(result, wordLine) {
@@ -132,7 +142,7 @@ function main() {
             }, []);
         console.log("writing suggestList for " + transLang);
         io.fileWrite(outPath + transLang + "-" +
-                transObj.Xpropose[transLang] + "_" +
+                transObj.Xsuggest[transLang] + "_" +
                 transObj.Xlist[transLang] + ".txt",
             formatMWordList(allLists[transLang].suggest));
     /* gen thesauruses/dictionary */

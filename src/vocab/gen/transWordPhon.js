@@ -90,10 +90,12 @@ var io = require("../../lib/io"),
     allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
         "fi", "el", "ka", "cy", "pl", "sr", "lt"],
-    allPhonLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
-        "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt", "zhy", "es",
-        "th"],
+    allPhonLangs = [
+        "zh", "es", "en", "hi",   "ar", "bn", "ru", "pa",
+        "de", "id", "te", "ta",   "vi", "ko", "fr", "ur", 
+        "tr", "zhy", "gu", "fa",  "pl", "ml", "sw", "am",
+        "az", "ne", "hu", "cs",   "ka"
+        ],
     PhonEntry = function () {
         this.en = "";
         //allPhonLangs.forEach(function (code) {
@@ -126,7 +128,8 @@ function wordOfEachLine(wordIndex, wordLines) {
 }
 
 function translateWord(word, toLangCode) {
-    var shelljs = require("shelljs/global"),
+   // var shelljs = require("shelljs/global"),
+    var exec = require("shelljs").exec,
         fromLangCode = "en",
         command = "",
         translation = "",
@@ -135,7 +138,7 @@ function translateWord(word, toLangCode) {
         toLangCode + " " + word;
     try {
         console.log("command " + command);
-        translation = exec(command).output;
+        translation = exec(command, {timeout: 5000}).output;
     } catch (e) {
         console.log("fail for " + command);
         console.log(e.stack);
@@ -158,7 +161,7 @@ function updateTranslationEntry(entry, word) {
     Object.keys(entry).forEach(function (key) {
         if (entry[key] === "") {
             translation = translateWord(word, key);
-            console.log(translation);
+            //console.log(translation);
             entry[key] = translation;
         }
     });
@@ -166,7 +169,8 @@ function updateTranslationEntry(entry, word) {
 }
 
 function phonateWord(word, inLangCode) {
-    var shelljs = require("shelljs/global"),
+    //var shelljs = require("shelljs/global"),
+    var exec = require("shelljs").exec,
         command = "",
         translation = "",
         warning;
@@ -176,12 +180,14 @@ function phonateWord(word, inLangCode) {
     if (inLangCode === "en") {
         inLangCode = "en-us";
     }
+    if (word === undefined) { return;}
     word = word && word.replace(/\"/g,"");
     word = word && word.replace(/\n/g,"");
-    command = 'echo \"' + word.toString() + '\" | espeak --stdin --ipa -q ' +
+    console.log("word " + word);
+    command = 'echo \"' + word.toString() + '\" | espeak-ng --stdin --ipa -q ' +
         ' -v ' + inLangCode;
     try {
-        translation = exec(command);
+        translation = exec(command, {timeout: 5000});
         translation = translation && translation.output;
     } catch (e) {
         console.log("fail for " + command);
@@ -194,6 +200,8 @@ function phonateWord(word, inLangCode) {
             " has same definition");
         console.log(warning);
     }
+    if (translation === null) { translation = ""; 
+        console.log("translation was null");}
     return translation;
 }
 
@@ -214,6 +222,8 @@ function arabicToIPA(word) {
   //  }
   //  word = translation;
   //  console.log(translation);
+    word = word.replace(String.fromCharCode(0x64b),"n");
+    word = word.replace(String.fromCharCode(0x64f),"u");
     word = word.replace("ا","a");
     word = word.replace("ﺍ","a");
     word = word.replace("ﺍ","a");
@@ -222,6 +232,8 @@ function arabicToIPA(word) {
     word = word.replace("ﻜ","k");
     word = word.replace("ﻰ","ji");
     word = word.replace("ﺼ","ts");
+    word = word.replace("ف","f");
+    word = word.replace("ﺼ","sˤ");
     word = word.replace("ﺎ","a");
     word = word.replace("ﻟ","l");
     word = word.replace("ﻤ","m");
@@ -240,26 +252,59 @@ function arabicToIPA(word) {
     word = word.replace("ﺣ","ħ");
     word = word.replace("ﺯ","z");
     word = word.replace("ﺤ","ħ");
-    word = word.replace("ﻼ﻿","lo");
+    word = word.replace("ﻼ","lo");
+    word = word.replace("ﻺ","lo");
+    word = word.replace("ﻷ", "lo");
     word = word.replace("ﻨ","n");
     word = word.replace("ﻙ","k");
     word = word.replace("ﺺ","ts");
     word = word.replace("ﺱ","s");
     word = word.replace("ﺟ","ʒ");
+    word = word.replace("ﻟ","l");
+    word = word.replace("ﺔ","t");
+    word = word.replace("ﺬ", "d");
+    word = word.replace("ﺚ", "t");
+    word = word.replace("ﺒ", "b");
+    word = word.replace("و", "w");
+    word = word.replace("ﺰ", "z");
+    word = word.replace("ل", "l");
+    word = word.replace("ا", "a");
+    word = word.replace("ة", "t");
+    word = word.replace("ﺥ", "x");
+    word = word.replace("ي", "aj");
+    word = word.replace("ى", "aj");
+    word = word.replace("ﺶ", "s");
+    word = word.replace("ﺷ", "s");
+    word = word.replace("ﺷ", "s");
+    word = word.replace("ت", "t");
+    word = word.replace("ن", "n");
+    word = word.replace("ﺗ", "t");
+    word = word.replace("س", "s");
+    word = word.replace("ؤ", "ʔ");
+    word = word.replace("ﺃ", "ʔ");
+    word = word.replace("ﻜ", "k");
+    word = word.replace("ط", "tˤ");
     word = word.replace("ﻋ","ʒ");
     word = word.replace("ب","b");
     word = word.replace("ت","t");
+    word = word.replace("ث","t");
     word = word.replace("ﻄ","tˤ");
     word = word.replace("ﻃ","tˤ");
     word = word.replace("ث","θ");
     word = word.replace("ﺜ","θ");
     word = word.replace("ﺩ","d");
     word = word.replace("ﻖ","q");
-    word = word.replace("ﻷ﻿","la");
+    word = word.replace("ﻗ","q");
+    word = word.replace("ﻷ","la");
     word = word.replace("ج","ʒ");
     word = word.replace("ﺞ","dʒ");
+    word = word.replace("ﺟ","dʒ");
+    word = word.replace("ﺠ","dʒ");
+    word = word.replace("ﻲ","j");
+    word = word.replace("ﻠ","l");
     word = word.replace("ﺠ","ʒ");
     word = word.replace("ح","ħ");
+    word = word.replace("ﺤ","ħ");
     word = word.replace("ﺣ","ħ");
     word = word.replace("ﻞ","l");
     word = word.replace("ﻄ","t");
@@ -270,6 +315,7 @@ function arabicToIPA(word) {
     word = word.replace("خ","x");
     word = word.replace("د","d");
     word = word.replace("ذ","ð");
+    word = word.replace("ﺫ","ð");
     word = word.replace("ر","r");
     word = word.replace("ﺭ","r");
     word = word.replace("ز","z");
@@ -290,10 +336,12 @@ function arabicToIPA(word) {
     word = word.replace("ﺛ","θ");
     word = word.replace("ﻓ","f");
     word = word.replace("ﻁ","t");
-    word = word.replace("ﻹ﻿","la");
+    word = word.replace("ﻹ","la");
     word = word.replace("ﻇ","ðˤ");
     word = word.replace("ﻈ","ðˤ");
     word = word.replace("ﻆ","ðˤ");
+    word = word.replace("ﻀ","ð");
+    word = word.replace("ﻮ","w");
     word = word.replace("ﺪ","d");
     word = word.replace("ﺫ","ð");
     word = word.replace("ﻲ","ji");
@@ -304,27 +352,46 @@ function arabicToIPA(word) {
     word = word.replace("ﺳ","s");
     word = word.replace("ﻱ","ji");
     word = word.replace("ﻂ","tˤ");
+    word = word.replace("ﻃ","tˤ");
+    word = word.replace("ح","h");
+    word = word.replace("ﺯ","z");
     word = word.replace("ﻣ","m");
-    word = word.replace("ﺆ","w");
-    word = word.replace("ﻵ﻿","la");
+    word = word.replace("ﺆ","ʔ");
+    word = word.replace("ﺈ","aʔ");
+    word = word.replace("ﻵ","la");
     word = word.replace("ﻀ","d");
     word = word.replace("ﺖ","t");
     word = word.replace("ﻪ","h");
     word = word.replace("ﺾ","d");
     word = word.replace("ع","ʕ");
+    word = word.replace("ع","ʕ");
+    word = word.replace("م","ʕ");
+    word = word.replace("ﻔ","f");
+    word = word.replace("ﺨ","x");
     word = word.replace("ﺗ","t");
-    word = word.replace("ﻻ﻿","lo");
+    word = word.replace("ﻝ","l");
+    word = word.replace("ج","dʒ");
+    word = word.replace("ﻱ","j");
+    word = word.replace("ق","g");
+    word = word.replace("ق","g");
+    word = word.replace("ﺧ","x");
+    word = word.replace("ﺜ","");
+    word = word.replace("ﻥ","n");
+    word = word.replace("ﻻ","lo");
+    word = word.replace("ﺎ","a");
     word = word.replace("ﺻ","ts");
     word = word.replace("ﺑ","ts");
     word = word.replace("ﺩ","d");
     word = word.replace("غ","ɣ");
     word = word.replace("ﺽ","dˤ");
+    word = word.replace("ﺽ","zˤ");
     word = word.replace("ﺦ","x");
-    word = word.replace("ﺲ","s");
+    word = word.replace("ﺲ","ʃ");
     word = word.replace("ﻔ","f");
     word = word.replace("ﻋ","ɣ");
     word = word.replace("ﻎ","ɣ");
     word = word.replace("ﻍ","ɣ");
+    word = word.replace("ﻐ","ɣ");
     word = word.replace("ﺉ","ji");
     word = word.replace("ﻠ","l");
     word = word.replace("ﺏ","b");
@@ -335,6 +402,8 @@ function arabicToIPA(word) {
     word = word.replace("ق","q");
     word = word.replace("ﻘ","q");
     word = word.replace("ك","k");
+    word = word.replace("ك", "k");
+    word = word.replace("ﺴ", "ʃ");
     word = word.replace("ل","l");
     word = word.replace("ﻝ","l");
     word = word.replace("م","m");
@@ -345,7 +414,6 @@ function arabicToIPA(word) {
     word = word.replace("ﺑ","b");
     word = word.replace("ه","h");
     word = word.replace("و","w");
-    word = word.replace("ﻮ","w");
     word = word.replace("ي","j");
     word = word.replace("ﻩ","h");
     word = word.replace("ﻬ","h");
@@ -358,7 +426,12 @@ function arabicToIPA(word) {
     word = word.replace("ﻗ","q");
     word = word.replace("ﺔ","q");
     word = word.replace("ﺮ","r");
+    word = word.replace("ﺮ","r");
     word = word.replace("أ","ʔ");
+    word = word.replace("ﺋ","ʔ");
+    word = word.replace("ﺂ","ʔa:");
+    word = word.replace("ﺸ","ʃ");
+    word = word.replace("ﺍ","a");
     word = word.replace("ﺘ","t");
     word = word.replace("ﻴ","ji");
     word = word.replace("ﻮ","w");
@@ -378,19 +451,24 @@ function arabicToIPA(word) {
     word = word.replace("ﺘ","t");
     word = word.replace("ﻤ","m");
     word = word.replace("ء","ʔ");
-    word = word.replace("ﻼ﻿","la");
+    word = word.replace("ﻼ","la");
     word = word.replace("ئ","ʔ");
     word = word.replace("ﻉ","ʔ");
     word = word.replace("ﺕ","t");
     word = word.replace("ﻥ","n");
+    word = word.replace("ﻦ","n");
+    word = word.replace("ﻨ","n");
     word = word.replace("ﻡ","m");
     word = word.replace("ﺐ","b");
+    word = word.replace("ب","b");
     word = word.replace("د","d");
     word = word.replace("ص","sˤ");
+    word = word.replace("ﺻ","sˤ");
     word = word.replace("ض","dˤ");
     word = word.replace("ط","tˤ");
     word = word.replace("ظ","zˤ");
     word = word.replace("ﺧ","x");
+    word = word.replace("ر","r");
     word = word.replace("ﺳ","s");
     word = word.replace("ﻑ","f");
     word = word.replace("ﺷ","ʃ");
@@ -568,7 +646,8 @@ function updatePhonemicEntry(phonEntry, transEntry) {
 }
 
 function main() {
-    var fileContents = io.fileRead("sortedComboList.txt"),
+    var //fileContents = io.fileRead("sortedComboList.txt"),
+        fileContents = io.fileRead("comboUniqList-mid.txt"),
         wordLines = stringToWordLines(fileContents),
         mainWords = wordOfEachLine(0, wordLines),
         transJSON = io.fileRead("genTransX.json"),
@@ -582,6 +661,7 @@ function main() {
     mainWords.forEach(function (word) {
         transEntry = transObjX["X" + word];
         phonEntry = phonObjX["X" + word];
+        console.log("word " + word);
         if (phonEntry === undefined) {
             phonEntry = new PhonEntry();
         }
@@ -598,8 +678,8 @@ function main() {
                 transEntry);
         count += 1;
         if (count > 100) {
-            io.fileWrite("genPhonX.json", 
-                JSON.stringify(phonObjX));
+            io.fileWrite("genPhonX.json", JSON.stringify(phonObjX));
+            io.fileWrite("genPhonX.json.2", JSON.stringify(phonObjX));
             count = 0;
         }
         }

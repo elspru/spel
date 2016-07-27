@@ -55,25 +55,256 @@
 var io = require("../../lib/io"),
     hof = require("../../lib/hof"),
     es6 = require("es6-shim"),
-    allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
-        "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt", "es"],
-    allPhonLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
-        "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt", "zhy", "es"],
+    allTransLangs = [
+        "zh", "en", "hi", "sw",   "id", "es", "ar", "bn", 
+        "ru", "ko", "pt", "tr",   "pa", "vi", "de", "fa", 
+
+        "fr", "mr", "ta", "te",   "gu", "ur", "am", "it", 
+        "pl", "kn", "ml", "my",   "ro", "az", "nl", "hu", 
+
+        "ku", "si", "ne", "el",   "cs", "sv", "ka"
+        ],
+    //allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
+    //    "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
+    //    "fi", "el", "ka", "cy", "pl", "sr", "lt", "es"],
+    //allPhonLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
+    //    "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
+    //    "fi", "el", "ka", "cy", "pl", "sr", "lt", "zhy", "es"],
+    allPhonLangs = [
+        "zh", "en", "hi", "sw",   "id", "es", "ar", "bn", 
+        "ru", "ko", "pt", "tr",   "pa", "vi", "de", "fa", 
+
+        "fr", "mr", "ta", "te",   "gu", "ur", "am", "it", 
+        "pl", "kn", "ml", "my",   "ro", "az", "nl", "hu", 
+
+        "ku", "si", "ne", "el",   "cs", "sv", "ka", "zhy"
+        ],
+    /* 
+      Indo-European 45.72% {
+        Indo-Aryan 18.76% {
+          Central {
+            Hindi   (hi)  4.46%,
+            Urdu    (ur)  0.99%,
+            Haryanvi  (bgc) 0.21%,
+            Awadhi    (awa) 0.33%,
+            Chhattisgarhi (hne) 0.19%,
+            Dakhini   (dcc) 0.17%
+          }
+          Eastern {
+            Bengali (bn)  3.05%,
+            Odia    (or)  0.50%,
+            Maithili  (mai) 0.45%,
+            Bhojpuri (bho) 0.43%,
+            Chittagonian (ctg) 0.24%,
+            Assamese    (as)  0.23%,
+            Magadhi   (mag) 0.21%,
+            Sylheti   (syl) 0.16%,
+          }
+          North Western {
+            Punjabi (pa)  1.44%,
+            Saraiki   (skr) 0.26%,
+            Sindhi    (sd)  0.39%,
+          }
+          Western {
+            Gujarati (gu)  0.74%,
+            Marwari   (mwr) 0.21%,
+            Dhundari  (dhd) 0.15%,
+          }
+          Southern {
+            Marathi (mr)  1.1%,
+            Sinhalese (si)  0.25%, 
+            Konkani (kok) 0.11%,
+          }
+          Northern {
+            Nepali    (ne)  0.25%,
+          }
+          Indo-Aryan Remainder (IAR) 2.24
+        }
+        Germanic {
+          English (en)  5.52%,
+          German  (de)  1.39%,
+          Dutch   (nl)  0.32%,
+          Swedish (sv)  0.13%
+        }
+        Italic {
+          Spanish   (es)  5.85%
+          Portuguese (pt) 3.08%
+          French    (fr)  1.12% 
+            Haitian Creole (ht) 0.15%
+          Italian   (it)  0.9%
+          Romanian  (ro)  0.37%
+        }
+        Iranian {
+          Persian (fa)  0.68%,
+          Pashto  (ps)  0.58%,
+          Kurdish (ku)  0.31%,
+          Balochi (bal) 0.11%,
+          
+        }
+        Slavic {
+          Russian   (ru)  2.42%
+          Polish    (pl)  0.61%
+          Ukranian  (uk) 0.46%
+          Serbo-Croation (hbs)  0.28%
+          Czech     (cs)  0.15%
+          Belarussian (be) 0.11%
+        }
+        Hellenic {
+          Greek   (el)  0.18%
+        }
+        European Remainder  2.24
+      }
+      Sino-Tibetan 21.12% {
+        Mandarin  (zh)  14.1%,
+        Wu        (wu)  1.2%,
+        Cantonese (zhy) 0.89%,
+        Jin       (cjy) 0.72%,
+        South Min (nan) 0.71%,
+        Xiang     (hsn) 0.58%,
+        Myanmar   (my)  0.50%,
+        Hakka     (hak) 0.46%,
+        Gan       (gan) 0.33%,
+        North Min (mnp) 0.16%,
+        East Min  (cdo) 0.14%,
+        Sino-Tiberan Remainder (STR)  1.33
+      }
+      Hmong-Mien {
+        Hmong   (hmx) 0.13%
+      }
+      Niger-Congo 6.93% {
+        Swahili
+        Yoruba    (yo)  0.42%,
+        Fula      (ff)  0.37%,
+        Igbo      (ig)  0.36%,
+        Chewa     (ny)  0.17%,
+        Akan      (ak)  0.17%,
+        Zulu      (zu)  0.16%,
+        Kinyarwanda (rw)  0.15%,
+        Kirundi   (rn)  0.13%,
+        Shona     (sn)  0.13%,
+        Mossi     (mos) 0.11%,
+        Xhosa     (xh)  0.11%,
+        Niger-Congo Remainder (NCR) 4.65
+      }
+      Afro-asiatic 6.33% {
+        Arabic    (ar)  4.23%,
+        Hausa     (ha)  0.52%,
+        Amharic   (am)  0.37%,
+        Oromo     (om)  0.36%,
+        Somali    (so)  0.22%,
+        Afro-Asiatic Remainder (AR) 0.63
+      }
+      Austronesian 4.99% {
+        Indonesian  (id)  1.16%,
+        Javanese    (jv)  1.25%,
+        Sundanese   (su)  0.57%,
+        Tagalog     (tl)  0.42%,
+        Cebuano     (ceb) 0.32%,
+        Malagasy    (mg)  0.28%,
+        Madurese    (mad) 0.23%,
+        Ilocano     (ilo) 0.14%,
+        Hiligaynon  (hil) 0.12%,
+        Austronesian Remainder (ANR) 0.5
+      }
+      Dravidian   3.5% {
+        Telugu    (tl) 1.15%,
+        Tamil     (ta) 1.06%,
+        Kannada   (kn) 0.58%,
+        Malaylam  (ml) 0.57%
+        Dravidian Remainder (DR) 0.14
+      }
+      Turkic 2.64% {
+        Turkish   (tr)  0.95%,
+        Uzbek     (uz)  0.39%,
+        Azerbajani (az) 0.34%, 
+        Turkmen   (tk)  0.24%, 
+        Kazakh    (kk)  0.17%,
+        Uyghur    (ug)  0.12%,
+        Turkic Remainder (TR) 0.43
+      }
+      Japonic 1.99% {
+        Japanese  (jp)  1.92%
+        Japonic Remainder (JR) 0.07
+      }
+      Austro-Asiatic 1.58% {
+        Vietnamese  (vi)  1.14%,
+        Khmer       (km)  0.24%
+        Austro Asiatic Remainder (AAR) 0.2
+      }
+      Tai-Kadai 1.24% {
+        Thai  (th) 0.86% 
+        Zhuang (za) 0.24%
+        Tai-Kadai Remainder (TKR) 0.14
+      }
+      Koreanic 1.19% {
+        Korean  1.14%
+        Koreanic Remainer (KR)  0.05
+      }
+      Uralic 0.32% {
+        Hungarian   (hu)  0.19
+        Uralic Remainder (UR)   0.13
+      }
+      Kartvelian 0.08% {
+        Georgian
+      }
+      total 97.63%
+      
+      Native Speakers
+      
+    */
+    NativeWeights = {
+      "zh": 14.1 + /*wu*/ 1.2% + /*cjy*/ 0.72 + /*hsn*/ 0.58 + /*hak*/ 0.46 +
+            /*gan*/ 0.33 + /*mnp*/ 0.16 +/*cdo*/ 0.14 + /*hmx*/ 0.13 + 
+            /*STR*/ 1.33,
+      "es": 5.85, 
+      "en": 5.52 + /*ER*/ 2.24, 
+      "hi": 4.46  + /*awa*/ 0.33 + /*bgc*/ 0.21 + /*hne*/ 0.19 + 
+            /*dcc*/  0.17 + /*IAR*/ 2.24,
+      "ar": 4.23 + /*ha*/ 0.52 + /*AR*/ 0.63, "pt": 3.08, 
+      "bn": 3.05 + /*ctg*/ 0.24 + /*as*/ 0.23 + /*bho*/ 0.43 + /*mai*/ 0.45 +
+           /*or*/ 0.5  + /*mag*/ 0.21,
+      "ru": 2.42 + /*uk*/ 0.46 + /*be*/ 0.11 + /*hbs*/ 0.28,
+      "pa": 1.44 + /*skr*/ 0.26 + /*sd*/ 0.39 , 
+      "de": 1.39, 
+      "id": 1.16 + /*jv*/ 1.25 + /*th*/ 0.86 + /*su*/ 0.57 + /*tl*/ 0.42 +
+            /*ceb*/ 0.32 + /*mg*/ 0.28 + /*mad*/ 0.23 + /*ilo*/ 0.14 + 
+            /*hil*/ 0.12 + /*ANR*/ 0.5 + /*TKR*/ 0.14,
+      "te": 1.15,
+      "ta": 1.06 + /*DR*/ 0.14,
+      "vi": 1.14 + /*km*/ 0.24 + /*AAR*/ 0.2,
+      "ko": 1.14 + /*jp*/ 1.92 + /*JR*/ 0.07 + /*KR*/ 0.05, 
+      "fr": 1.12 + /*ht*/ 0.15, "mr": 1.1 + /*kok*/ 0.11, 
+      "ur": 0.99, 
+      "tr": 0.95 + /*uz*/ 0.39 + /*tk*/ 0.24 + /*ug*/ 0.12 +/*TR*/ 0.43, 
+      "it": 0.9, 
+      "zhy": 0.89 + /*nan*/ 0.71, 
+      "gu": 0.74 + /*mwr*/ 0.21 + /*dhd*/ 0.15, 
+      "fa": 0.68 + /*ps*/ 0.58 + /*bal*/ 0.11, 
+      "pl": 0.61, "kn": 0.58, 
+      "ml": 0.57, "my": 0.50, 
+      "sw": /*yo*/ 0.42 + /*ff*/ 0.37 + /*ny*/ 0.17 + /*ak*/ 0.17 + 
+            /*rw*/ 0.15 + /*rn*/ 0.13 + /*sn*/ 0.13 + /*mos*/ 0.11 +
+            /*xh*/ 0.11 + /*NCR*/ 4.65,
+      "am": 0.37 + /*om*/ 0.36 + /*so*/ 0.22, "ro": 0.37,  
+      "az": 0.34, "nl": 0.32, "ku": 0.31,
+      "ne": 0.25, "si": 0.25, 
+      "hu": 0.19 + /*UR*/ 0.13, "el": 0.18,
+      "cs": 0.15, "sv": 0.13, "ka": 0.08
+    },
     EuroWeights = {"hi": 0, "zh": 0, "en": 840, "sw": 0,
         "ar": 0, "es":  490, "id": 0, "tr": 0, "ru": 325,
         "fr":  220, "ta": 0, "fa": 0, "pt": 200, "de": 145,
         "zhy": 0, "vi": 0, "it": 64, "pl": 57, "sr": 32,
         "fi": 28, "sv": 21, "ka": 5, "el": 13, "lt": 5, "cy": 2
         },
-    WorldWeights = {"hi": 1500, "zh": 1300, "en": 942, "sw": 600,
-        "es":  518, "ar": 490, "id": 486, "tr": 377, "ru": 325,
-        "fr":  229, "ta": 210, "fa": 200, "pt": 200, "de": 145,
-        "zhy": 70, "vi": 70, "it": 64, "pl": 57, "sr": 32,
-        "fi": 28, "sv": 21, "ka": 5, "el": 13, "lt": 5, "cy": 2
+    WorldWeights = {"en": 2000, "hi": 1500/*indo-aryan*/, "zh": 1300,
+        "sw": 850/*niger-congo*/, "ar": 585, "es":  560, "id": 486, 
+        "tr": 377, "ru": 325, "fr":  229, "ta": 210, "fa": 200, 
+        "pt": 200, "de": 145, "zhy": 70, "vi": 70, "it": 64, 
+        "pl": 57, "sr": 32, "fi": 28, "sv": 21, "ka": 5, 
+        "el": 13, "lt": 5, "cy": 2
         },
-    langWeights = WorldWeights,
+    langWeights = NativeWeights,
     gramList = {},
     rootList = {},
     consonantList = "mkypwnstlhf.crbgdzjvqx18",
@@ -145,20 +376,59 @@ var Bit4Alphabet =     ["m","k","i","a","y","u","p","w",
 // h = /h/
 //  note su glyph h ob only used for grammar ya
 */
-    var matchReplaceArray = [
+  word = word.toLowerCase();
+    var Bit4Alphabet =     ["m","k","i","a","y","u","p","w",
+                           "n","s","t","l","h","f",".","c"],
+        matchReplaceArray = [
+  /* arabic overflow */
+        ["ي", "aj"], ["ﺶ", "s"], ["ﺷ", "s"], ["ﺷ", "s"],
+        ["ت", "t"], ["ؤ", ""], ["ن", "n"], ["ﺗ", "t"], 
+        ["س", "s"], ["ط", "tˤ"], ["ﻷ", "lo"], ["ا", "a"], 
+        ["ﺔ", "t"], ["ﺃ", "ʔ"],  ["ﺒ", "p"], ["ﺬ", "t"], 
+
+        ["ﺚ", "t"], ["ة", "t"], ["ل", "l"],["ﻟ", "l"],
+        ["ﺰ", "s"], ["ﺥ", "k"], ["ﻜ", "k"], ["ﺻ","sˤ"],
+        ["ب","b"], ["ﻨ","n"], ["ر","r"], ["ﻦ","n"], 
+        ["ى", "aj"],["ﻗ","q"], ["ث","t"], ["ﺤ","ħ"], 
+
+        ["ك", "k"], ["ﺴ", "s"],["ع","ʕ"], ["م","ʕ"], 
+        ["ﻔ","f"], ["ﺨ","x"], ["ﻝ","l"], ["ج","dʒ"],
+        ["ﻱ","j"], ["ق","g"], ["ﺧ","x"], ["ﺜ",""],
+        ["ﻥ","n"], [String.fromCharCode(0x64b),"n"],
+        ["ﺎ","a"], ["ﺋ","ʔ"], ["ﺸ","ʃ"], ["ﺍ","a"],
+        ["ﻀ","ð"], ["ﻮ","w"], ["ﻃ","tˤ"], ["ح","h"],
+        ["ﺯ","z"], ["ﺟ","dʒ"],["ﺠ","dʒ"], ["ﻲ","j"],
+        ["ﻠ","l"], ["ﻻ","lo"],["و", "w"], ["ﻤ","m"],
+        ["ﻴ","ji"], ["ﻅ","zˤ"],  ["ﺂ","ʔa:"],
+        [String.fromCharCode(0x64f),"u"],
+        ["ﻸ","lo"], ["ف","f"],   ["ﺼ","sˤ"], ["ﺆ","ʔ"],
+        ["ﺈ","aʔ"],  ["ﻺ","lo"],  ["ﺫ","ð"], ["ﻐ","ɣ"],
+        ["ﺮ","r"], ["ﻰ","ji"], ["ش","ʃ"],  ["ز","z"],
+        ["ص","sˤ"],  ["خ","x"], ["ﻳ","ja"], ["ذ","ð"],
+        ["ه","h"],   ["ض","dˤ"],
+        ["4",""],  ["ئ","ʔ"],
     /* punctuation */
         ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
         ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["-", ""],
-        ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
+        ["_", ""], ['"', ""], ["ː", ""], [" ", ""], 
+        ["\n", ""], [":", ""], [String.fromCharCode(797), ""],
+        [String.fromCharCode(0x27), ""],
+        [String.fromCharCode(778), ""], ["7", ""], ["\\+", ""],
+        ["`", ""], [String.fromCharCode(771), ""],
+        ["1", ""], [String.fromCharCode(809), ""],
+        [String.fromCharCode(1548), ""],
+        [String.fromCharCode(0xfeff), ""],
+        [String.fromCharCode(0x32a), ""],
         /* vowels */
         ["y", "i"], ["Y", "i"], ["ɪ", "i"], ["ĩ", "i"],
-        ["ɨ", "i"], ["e", "i"],
+        ["ɨ", "i"], ["e", "i"], ["i̪", "i"], ["ʏ", "i"],
+        ["E", "i"], ["I", "i"], ["ᵻ", "i"],
         ["ɛ", "a"], ["ɜ", "a"], ["æ", "a"], ["ɑ̃", "a"],
         ["ã", "a"], ["ʌ", "a"], ["ɑ", "a"], ["ɐ̃", "a"],
-        ["ɐ", "a"],
+        ["ɐ", "a"], ["ɒ", "a"], ["A", "a"], 
         ["o", "u"], ["ɵ", "u"], ["ɔ", "u"], ["ʉ", "u"],
         ["ø", "u"], ["œ̃", "u"], ["œ", "u"], ["ũ", "u"],
-        ["ɯ", "u"], ["õ", "u"],
+        ["ɯ", "u"], ["õ", "u"], ["U", "u"],
         ["ə", ""],
         /* tones */
         ["˨", ""], ["˩", ""],
@@ -170,22 +440,24 @@ var Bit4Alphabet =     ["m","k","i","a","y","u","p","w",
         ["ð", "t"], ["ʈ", "t"], ["ɗ", "t"], ["ɖ", "t"],
         ["t̪", "t"], ["ʈ", "t"], ["d", "t"],
         ["c", "k"], ["ɟ", "k"], ["ʔ", "k"], ["q", "k"],
-        ["ɡ", "k"], ["ˀ", "k"],
+        ["ɡ", "k"], ["ˀ", "k"], ["g", "k"],
         /* approximants */
-        ["ʊ", "w"],/* w like vowel */
+        ["ɥ", "yw"],
+        ["ʊ", "w"], /* w like vowel */ 
         ["v", "w"], ["β", "f"], ["w̃", "w"], ["ʋ", "w"],
         ["l̩", "l"], ["ɫ", "l"], ["ɬ", "l"], ["ɭ", "l"],
-        ["ʎ", "l"],
+        ["ʎ", "l"], ["L", "l"], 
         ["j", "y"], ["ʲ", "y"], ["ʁ", "y"], ["ɾ", "y"],
         ["ɹ", "y"], ["ɻ", "y"], ["ɚ", "y"], ["r", "y"],
+        ["R", "y"],
         /* fricatives */
         ["θ", "f"],
-        ["z", "s"],
+        ["z", "s"], ["S", "s"],
         ["ʃ", "c"], ["ʃ", "c"], ["ʒ", "c"], ["ʂ", "c"],
         ["ʐ", "c"], ["ç", "c"], ["ʝ", "c"], ["ɕ", "c"],
         ["ʑ", "c"], ["ɣ", "c"], ["x", "c"], ["ħ", "c"],
         ["ʰ", "c"], ["h", "c"], ["ʕ", "c"], ["ʕ", "c"],
-        ["؟", "c"], ["ˤ", "c"],
+        ["؟", "c"], ["ˤ", "c"], ["χ", "c"], 
         /* nasals */
         ["m̩", "m"],
         ["ŋ", "n"], ["ɳ", "n"], ["ɲ", "n"]
@@ -195,7 +467,33 @@ var Bit4Alphabet =     ["m","k","i","a","y","u","p","w",
             replace = tuple[1];
         word = word.replace(match, replace);
     });
+    word.split("").forEach(function (glyph) {
+      if(Bit4Alphabet.indexOf(glyph) < 0) {
+        console.log("glyph `" + glyph + "' #" + 
+                    glyph.charCodeAt(0).toString(16));
+        throw new Error("16bit word not fully converted " + word);
+      }
+    });
     return word;
+}
+
+function finalConsonantConvert(glyphAr) {
+  var matchReplaceArray = [
+    ["q","n"], 
+    ["b","p"], ["d", "t"], ["g", "k"],
+    ["v","f"], ["z", "s"], ["j", "c"]
+  ];
+  matchReplaceArray.forEach(function (tuple) {
+    var match = tuple[0],
+        replace = tuple[1];
+    glyphAr = glyphAr.map(function (glyph){
+      if (glyph === match) {
+        return replace;
+      } 
+      return glyph;
+    });
+  });
+  return glyphAr;
 }
 
 function addGlyphs(obj, glyphWord, weight) {
@@ -209,8 +507,8 @@ function addGlyphs(obj, glyphWord, weight) {
                 slice(initialStart, segmentLength)),
         middleSegment = arrayUnique(glyphAr.slice(middleStart,
             (segmentLength + middleStart))),
-        finalSegment = arrayUnique(glyphAr.slice(finalStart,
-            length));
+        finalSegment = arrayUnique(finalConsonantConvert(
+                  glyphAr.slice(finalStart, length)));
             //arrayUnique(ipaTo16Glyph(glyphAr
             //.slice(finalStart, length).join("")).split(""));
     /* consonants */
@@ -252,22 +550,62 @@ var Glyph24Alphabet =     ["m","k","i","a","y","u","p","w",
 // h = /h/
 //  note su glyph h ob only used for grammar ya
 */
-    var matchReplaceArray = [
+  word = word.toLowerCase();
+    var Glyph24Alphabet =     ["m","k","i","a","y","u","p","w",
+                        "n","s","t","l","h","f",".","c",
+                    "e","o","r","b","g","d","z","j"],
+        matchReplaceArray = [
+  /* arabic overflow */
+        ["ي", "aj"], ["ﺶ", "s"], ["ﺷ", "s"], ["ﺷ", "s"],
+        ["ت", "t"], ["ؤ", ""], ["ن", "n"], ["ﺗ", "t"], 
+        ["س", "s"], ["ط", "tˤ"], ["ﻷ", "lo"], ["ا", "a"], 
+        ["ﺔ", "t"], ["ﺃ", "ʔ"],  ["ﺒ", "p"], ["ﺬ", "t"], 
+
+        ["ﺚ", "t"], ["ة", "t"], ["ل", "l"],["ﻟ", "l"],
+        ["ﺰ", "s"], ["ﺥ", "k"], ["ﻜ", "k"], ["ﺻ","sˤ"],
+        ["ب","b"], ["ﻨ","n"], ["ر","r"], ["ﻦ","n"], 
+        ["ى", "aj"],["ﻗ","q"], ["ث","t"], ["ﺤ","ħ"], 
+
+        ["ك", "k"], ["ﺴ", "s"],["ع","ʕ"], ["م","ʕ"], 
+        ["ﻔ","f"], ["ﺨ","x"], ["ﻝ","l"], ["ج","dʒ"],
+        ["ﻱ","j"], ["ق","g"], ["ﺧ","x"], ["ﺜ",""],
+        ["ﻥ","n"], [String.fromCharCode(0x64b),"n"],
+        ["ﺎ","a"], ["ﺋ","ʔ"], ["ﺸ","ʃ"], ["ﺍ","a"],
+        ["ﻀ","ð"], ["ﻮ","w"], ["ﻃ","tˤ"], ["ح","h"],
+        ["ﺯ","z"], ["ﺟ","dʒ"],["ﺠ","dʒ"], ["ﻲ","j"],
+        ["ﻠ","l"], ["ﻻ","lo"],["و", "w"], ["ﻤ","m"],
+        ["ﻴ","ji"],  ["ﻅ","zˤ"],  ["ﺂ","ʔa:"],
+        [String.fromCharCode(0x64f),"u"],
+        ["ﻸ","lo"],  ["ف","f"], ["ﺼ","sˤ"],  ["ﺆ","ʔ"],
+        ["ﺈ","aʔ"], ["ﻺ","lo"],  ["ﺫ","ð"], ["ﻐ","ɣ"],
+        ["ﺮ","r"], ["ﻰ","ji"],  ["ش","ʃ"], ["ز","z"],
+        ["ص","sˤ"], ["خ","x"],  ["ﻳ","ja"],  ["ذ","ð"],
+ 
+        ["ه","h"],  ["ض","dˤ"],
+        ["4",""],  ["ئ","ʔ"],
         /* punctuation */
         ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
         ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["\\-", ""],
         ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
+        ["\n", ""], [":", ""], [String.fromCharCode(797), ""],
+        [String.fromCharCode(0x27), ""],
+        [String.fromCharCode(778), ""], ["7", ""], ["\\+", ""],
+        ["`", ""], [String.fromCharCode(771), ""],
+        ["1", ""], [String.fromCharCode(809), ""],
+        [String.fromCharCode(1548), ""],
+        [String.fromCharCode(0xfeff), ""],
+        [String.fromCharCode(0x32a), ""],
         /* vowels */
         ["y", "i"], ["Y", "i"], ["ɪ", "i"], ["ĩ", "i"],
-        ["ɨ", "i"],
+        ["ɨ", "i"], ["ᵻ", "i"], ["I", "i"], ["ʏ", "i"],
         ["e", "e"], ["ɛ", "e"], ["ɜ", "e"], ["ø", "e"],
-        ["œ̃", "e"], ["œ", "e"],
+        ["œ̃", "e"], ["œ", "e"], ["E", "e"], 
         ["æ", "a"], ["ɑ̃", "a"], ["ã", "a"], ["ɑ", "a"],
-        ["ɐ̃", "a"], ["ɐ", "a"],
+        ["ɐ̃", "a"], ["ɐ", "a"], ["A", "a"], ["ɒ", "o"], 
         ["ʌ", "o"], ["o", "o"], ["ɔ", "o"], ["ɵ", "o"],
-        ["õ", "o"],
+        ["õ", "o"], ["O", "o"],
         ["ʊ", "u"], ["ʉ", "u"], ["ũ", "u"], ["ɯ", "u"],
-        ["ə", ""],
+        ["ə", ""], ["U", "u"],
         /* tones */
         ["˨", ""], ["˩", ""],
         ["˥", ""], ["˦", ""],
@@ -280,20 +618,22 @@ var Glyph24Alphabet =     ["m","k","i","a","y","u","p","w",
         ["c", "k"], ["q", "k"], ["ʔ", "k"], ["ˀ", "k"],
         ["ɟ", "g"], ["g", "g"], ["ɡ", "g"],
         /* approximants */
+        ["ɥ", "yw"],
         ["v", "w"], ["β", "w"], ["w̃", "w"], ["ʋ", "w"],
         ["l̩", "l"], ["ɫ", "l"], ["ɬ", "l"], ["ɭ", "l"],
-        ["ʎ", "l"],
+        ["ʎ", "l"], ["L", "l"], 
         ["j", "y"], ["ʲ", "y"],
         ["ɾ", "r"], ["ɹ", "r"], ["ɻ", "r"], ["ɚ", "r"],
-        ["ʁ", "r"],/* espeak for ʀ */
+        ["ʁ", "r"], /* espeak for ʀ */ ["R", "r"], 
         /* fricatives */
+        ["S", "s"],
         ["θ", "f"],
         ["ʰ", "c"], ["ʃ", "c"], ["ʃ", "c"], ["ʂ", "c"],
         ["ç", "c"], ["ɕ", "c"], ["x", "c"], ["ħ", "c"],
         ["h", "c"],
         ["ʒ", "j"], ["ʐ", "j"], ["ʑ", "j"], ["ʝ", "j"],
         ["ɣ", "j"], ["ʕ", "j"], ["ʕ", "j"], ["؟", "j"],
-        ["ˤ", "j"],
+        ["ˤ", "j"], ["χ", "j"],
         /* nasals */
         ["m̩", "m"],
         ["ŋ", "n"], ["ɳ", "n"], ["ɲ", "n"],
@@ -303,15 +643,18 @@ var Glyph24Alphabet =     ["m","k","i","a","y","u","p","w",
             replace = tuple[1];
         word = word.replace(match, replace);
     });
+    word.split("").forEach(function (glyph) {
+      if(Glyph24Alphabet.indexOf(glyph) < 0) {
+        console.log("glyph `" + glyph + "' #" + 
+                    glyph.charCodeAt(0).toString(16));
+        throw new Error("24Glyph word not fully converted " + word);
+      }
+    });
     return word;
 }
 
 function ipaTo28Glyph(word) {
 /*
-var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
-                        "n","s","t","l","h","f",".","c",
-                    "e","o","r","b","g","d","z","j",
-             "v","q","6","x"];
 // c = /ʃ/
 // j = /ʒ/
 // y = /j/
@@ -320,22 +663,64 @@ var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
 // . = /ʔ/ // glotal stop only used for grammar ya
 // h = /h/ // glotal fricative only used for grammar ya
 */
-    var matchReplaceArray = [
+  word = word.toLowerCase();
+    var Glyph28Alphabet = [ "m","k","i","a", "y","u","p","w",
+                            "n","s","t","l", "h","f",".","c",
+  
+                         "e","o","r","b", "g","d","z","j",
+                         "v","q","6","x"],
+        matchReplaceArray = [
+  /* arabic overflow */
+        ["ي", "aj"], ["ﺶ", "s"], ["ﺷ", "s"], ["ﺷ", "s"],
+        ["ت", "t"], ["ؤ", ""], ["ن", "n"], ["ﺗ", "t"], 
+        ["س", "s"], ["ط", "tˤ"], ["ﻷ", "lo"], ["ا", "a"], 
+        ["ﺔ", "t"], ["ﺃ", "ʔ"],  ["ﺒ", "p"], ["ﺬ", "t"], 
+
+        ["ﺚ", "t"], ["ة", "t"], ["ل", "l"],["ﻟ", "l"],
+        ["ﺰ", "s"], ["ﺥ", "k"], ["ﻜ", "k"], ["ﺻ","sˤ"],
+        ["ب","b"], ["ﻨ","n"], ["ر","r"], ["ﻦ","n"], 
+        ["ى", "aj"],["ﻗ","q"], ["ث","t"], ["ﺤ","ħ"], 
+
+        ["ك", "k"], ["ﺴ", "s"],["ع","ʕ"], ["م","ʕ"], 
+        ["ﻔ","f"], ["ﺨ","x"], ["ﻝ","l"], ["ج","dʒ"],
+        ["ﻱ","j"], ["ق","g"], ["ﺧ","x"], ["ﺜ",""],
+        ["ﻥ","n"], [String.fromCharCode(0x64b),"n"],
+        ["ﺎ","a"], ["ﺋ","ʔ"], ["ﺸ","ʃ"], ["ﺍ","a"],
+        ["ﻀ","ð"], ["ﻮ","w"], ["ﻃ","tˤ"], ["ح","h"],
+        ["ﺯ","z"], ["ﺟ","dʒ"],["ﺠ","dʒ"], ["ﻲ","j"],
+        ["ﻠ","l"], ["ﻻ","lo"],["و", "w"], ["ﻤ","m"],
+        ["ﻴ","ji"], ["ﻅ","zˤ"], ["ﺂ","ʔa:"],
+        [String.fromCharCode(0x64f),"u"],
+        ["ﻸ","lo"], ["ف","f"],  ["ﺼ","sˤ"],  ["ﺆ","ʔ"],
+        ["ﺈ","aʔ"],  ["ﻺ","lo"],  ["ﺫ","ð"], ["ﻐ","ɣ"],
+        ["ﺮ","r"], ["ﻰ","ji"],  ["ش","ʃ"],  ["ز","z"],
+        ["ص","sˤ"],  ["خ","x"],  ["ﻳ","ja"],  ["ذ","ð"],
+
+        ["ه","h"], ["ئ","ʔ"],
+        ["4",""],  ["ض","dˤ"],
         /* punctuation */
         ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
         ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["\\-", ""],
         ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
+        ["\n", ""], [":", ""], [String.fromCharCode(797), ""],
+        [String.fromCharCode(0x27), ""],
+        [String.fromCharCode(778), ""], ["7", ""], ["\\+", ""],
+        ["`", ""], [String.fromCharCode(771), ""],
+        ["1", ""], [String.fromCharCode(809), ""],
+        [String.fromCharCode(1548), ""],
+        [String.fromCharCode(0xfeff), ""],
+        [String.fromCharCode(0x32a), ""],
         /* vowels */
         ["y", "i"], ["Y", "i"], ["ɪ", "i"], ["ĩ", "i"],
-        ["ɨ", "i"],
+        ["ɨ", "i"], ["ᵻ", "i"], ["I", "i"], ["ʏ", "i"],
         ["e", "e"], ["ɛ", "e"], ["ɜ", "e"], ["ø", "e"],
-        ["œ̃", "e"], ["œ", "e"],
+        ["œ̃", "e"], ["œ", "e"], ["E", "e"],
         ["æ", "a"], ["ɑ̃", "a"], ["ã", "a"], ["ɑ", "a"],
-        ["ɐ̃", "a"], ["ɐ", "a"],
+        ["ɐ̃", "a"], ["ɐ", "a"], ["A", "a"], ["ɒ", "o"], 
         ["ʌ", "o"], ["o", "o"], ["ɔ", "o"], ["ɵ", "o"],
-        ["õ", "o"],
+        ["õ", "o"], ["O", "o"],
         ["ʊ", "u"], ["ʉ", "u"], ["ũ", "u"], ["ɯ", "u"],
-        ["ə", "6"],
+        ["ə", "6"], ["U", "u"],
         /* tones */
         ["˨", ""], ["˩", ""],
         ["˥", ""], ["˦", ""],
@@ -348,13 +733,15 @@ var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
         ["c", "k"], ["q", "k"], ["ʔ", "k"], ["ˀ", "k"],
         ["ɟ", "g"], ["g", "g"], ["ɡ", "g"],
         /* approximants */
+        ["ɥ", "yw"],
         ["w̃", "w"], ["ʋ", "w"],
         ["l̩", "l"], ["ɫ", "l"], ["ɬ", "l"], ["ɭ", "l"],
-        ["ʎ", "l"],
+        ["ʎ", "l"], ["L", "l"],
         ["j", "y"], ["ʲ", "y"],
         ["ɾ", "r"], ["ɹ", "r"], ["ɻ", "r"], ["ɚ", "r"],
-        ["ʁ", "r"],/* espeak for ʀ */
+        ["ʁ", "r"],/* espeak for ʀ */ ["R", "r"], 
         /* fricatives */
+        ["S", "s"],
         ["v", "v"], ["β", "b"],
         ["θ", "f"],
         ["ʃ", "c"], ["ʃ", "c"], ["ʂ", "c"], ["ç", "c"],
@@ -362,7 +749,7 @@ var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
         ["ʒ", "j"], ["ʐ", "j"], ["ʑ", "j"], ["ʝ", "j"],
         ["x", "x"], ["ħ", "x"], ["h", "x"], ["ʰ", "x"],
         ["ɣ", "x"], ["ʕ", "x"], ["ʕ", "x"], ["؟", "x"],
-        ["ˤ", "x"],
+        ["ˤ", "x"], ["χ", "x"],
         /* nasals */
         ["m̩", "m"],
         ["ɳ", "n"],
@@ -373,15 +760,18 @@ var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
             replace = tuple[1];
         word = word.replace(match, replace);
     });
+    word.split("").forEach(function (glyph) {
+      if(Glyph28Alphabet.indexOf(glyph) < 0) {
+        console.log("glyph `" + glyph + "' #" + 
+                    glyph.charCodeAt(0).toString(16));
+        throw new Error("28Glyph word not fully converted " + word);
+      }
+    });
     return word;
 }
 
 function ipaTo32Glyph(word) {
 /*
-var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
-                        "n","s","t","l","h","f",".","c",
-                    "e","o","r","b","g","d","z","j",
-             "v","q","7","_","6","x","1","8"];
 // c = /ʃ/
 // j = /ʒ/
 // y = /j/
@@ -394,18 +784,59 @@ var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
 // . = /ʔ/ // glotal stop only used for grammar ya
 // h = /h/ // glotal fricative only used for grammar ya
 */
-    var matchReplaceArray = [
+  word = word.toLowerCase();
+    var Bit5Alphabet =  ["m","k","i","a", "y","u","p","w",
+                         "n","s","t","l", "h","f",".","c",
+                         "e","o","r","b", "g","d","z","j",
+                         "v","q","7","_", "6","x","1","8"],
+        matchReplaceArray = [
+  /* arabic overflow */
+        ["ي", "aj"], ["ﺶ", "s"], ["ﺷ", "s"], ["ﺷ", "s"],
+        ["ت", "t"], ["ؤ", ""], ["ن", "n"], ["ﺗ", "t"], 
+        ["س", "s"], ["ط", "tˤ"], ["ﻷ", "lo"], ["ا", "a"], 
+        ["ﺔ", "t"], ["ﺃ", "ʔ"],  ["ﺒ", "p"], ["ﺬ", "t"], 
+
+        ["ﺚ", "t"], ["ة", "t"], ["ل", "l"],["ﻟ", "l"],
+        ["ﺰ", "s"], ["ﺥ", "k"], ["ﻜ", "k"], ["ﺻ","sˤ"],
+        ["ب","b"], ["ﻨ","n"], ["ر","r"], ["ﻦ","n"], 
+        ["ى", "aj"],["ﻗ","q"], ["ث","t"], ["ﺤ","ħ"], 
+
+        ["ك", "k"], ["ﺴ", "s"],["ع","ʕ"], ["م","ʕ"], 
+        ["ﻔ","f"], ["ﺨ","x"], ["ﻝ","l"], ["ج","dʒ"],
+        ["ﻱ","j"], ["ق","g"], ["ﺧ","x"], ["ﺜ",""],
+        ["ﻥ","n"], [String.fromCharCode(0x64b),"n"],
+        ["ﺎ","a"], ["ﺋ","ʔ"], ["ﺸ","ʃ"], ["ﺍ","a"],
+        ["ﻀ","ð"], ["ﻮ","w"], ["ﻃ","tˤ"], ["ح","h"],
+        ["ﺯ","z"], ["ﺟ","dʒ"],["ﺠ","dʒ"], ["ﻲ","j"],
+        ["ﻠ","l"], ["ﻻ","lo"],["و", "w"], ["ﻤ","m"],
+        ["ﻴ","ji"],  ["ﻅ","zˤ"],  ["ﺂ","ʔa:"],
+        [String.fromCharCode(0x64f),"u"],
+        ["ﻸ","lo"], ["ف","f"],  ["ﺼ","sˤ"], ["ﺆ","ʔ"],
+        ["ﺈ","aʔ"],  ["ﻺ","lo"],  ["ﺫ","ð"], ["ﻐ","ɣ"],
+        ["ﺮ","r"], ["ﻰ","ji"],  ["ش","ʃ"],  ["ز","z"],
+        ["ص","sˤ"],  ["خ","x"],  ["ﻳ","ja"],  ["ذ","ð"],
+
+        ["ه","h"],  ["ض","dˤ"],
+        ["4",""],  ["ئ","ʔ"],
         /* punctuation */
         ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
         ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["\\-", ""],
         ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
+        ["\n", ""], [":", ""], [String.fromCharCode(797), ""],
+        [String.fromCharCode(0x27), ""],
+        [String.fromCharCode(778), ""], ["7", ""], ["\\+", ""],
+        ["`", ""], [String.fromCharCode(771), ""],
+        ["1", ""], [String.fromCharCode(809), ""],
+        [String.fromCharCode(1548), ""],
+        [String.fromCharCode(0xfeff), ""],
+        [String.fromCharCode(0x32a), ""],
         /* vowels */
         ["y", "i"], ["Y", "i"], ["ɪ", "i"], ["ĩ", "i"],
-        ["ɨ", "i"],
+        ["ɨ", "i"], ["ᵻ", "i"], ["I", "i"], ["ʏ", "i"],
         ["e", "e"], ["ɛ", "e"], ["ɜ", "e"], ["ø", "e"],
-        ["œ̃", "e"], ["œ", "e"],
+        ["œ̃", "e"], ["œ", "e"], ["E", "e"],
         ["æ", "a"], ["ɑ̃", "a"], ["ã", "a"], ["ɑ", "a"],
-        ["ɐ̃", "a"], ["ɐ", "a"],
+        ["ɐ̃", "a"], ["ɐ", "a"], ["A", "a"], ["ɒ", "o"], 
         ["ʌ", "o"], ["o", "o"], ["ɔ", "o"], ["ɵ", "o"],
         ["õ", "o"],
         ["ʊ", "u"], ["ʉ", "u"], ["ũ", "u"], ["ɯ", "u"],
@@ -422,13 +853,15 @@ var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
         ["c", "k"], ["q", "k"], ["ʔ", "k"], ["ˀ", ""],
         ["ɟ", "g"], ["g", "g"], ["ɡ", "g"],
         /* approximants */
+        ["ɥ", "yw"],
         ["w̃", "w"], ["ʋ", "w"],
         ["l̩", "l"], ["ɫ", "l"], ["ɬ", "l"], ["ɭ", "l"],
-        ["ʎ", "l"],
+        ["ʎ", "l"], ["L", "l"],
         ["j", "y"], ["ʲ", "y"],
         ["ɾ", "r"], ["ɹ", "r"], ["ɻ", "r"], ["ɚ", "r"],
-        ["ʁ", "r"],/* espeak for ʀ */
+        ["ʁ", "r"],/* espeak for ʀ */ ["R", "r"],
         /* fricatives */
+        ["S", "s"],
         ["v", "v"], ["β", "b"],
         ["θ", "f"],
         ["ʃ", "c"], ["ʃ", "c"], ["ʂ", "c"], ["ç", "c"],
@@ -436,7 +869,7 @@ var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
         ["ʒ", "j"], ["ʐ", "j"], ["ʑ", "j"], ["ʝ", "j"],
         ["x", "x"], ["ħ", "x"], ["h", "x"], ["ʰ", ""],
         ["ɣ", "x"], ["ʕ", "x"], ["ʕ", "x"], ["؟", "x"],
-        ["ˤ", ""],
+        ["ˤ", ""],  ["χ", "x"],
         /* nasals */
         ["m̩", "m"],
         ["ɳ", "n"],
@@ -446,6 +879,13 @@ var Bit5Alphabet =     ["m","k","i","a","y","u","p","w",
         var match = new RegExp(tuple[0], "g"),
             replace = tuple[1];
         word = word.replace(match, replace);
+    });
+    word.split("").forEach(function (glyph) {
+      if(Bit5Alphabet.indexOf(glyph) < 0) {
+        console.log("glyph `" + glyph + "' #" + 
+                    glyph.charCodeAt(0).toString(16));
+        throw new Error("32Glyph word not fully converted " + word);
+      }
     });
     return word;
 }
@@ -528,23 +968,21 @@ function genGram(rootPhonEntry, gramLength) {
     if (gramLength !== 3) {
         cvList = cvList.expand(addWeighted.curry(vowelsList));
         wordList = wordList.concat(cvList);
-        if (tonesList && tonesList.length > 0) {
-            cvtList = cvList.expand(addWeighted.
-                curry(tonesList));
+        if (tonesList && Object.keys(tonesList).length > 0) {
+            cvtList = cvList.expand(addWeighted.  curry(tonesList));
             wordList = wordList.concat(cvtList);
         }
     }
     if (gramLength !== 2) {
         csvList = csvList.expand(addWeighted.curry(secondList));
         csvList = csvList.expand(addWeighted.curry(vowelsList));
-        csvList = csvList.map(addH);
-        wordList = wordList.concat(csvList);
-        if (tonesList && tonesList.length > 0) {
-            csvtList = csvList.expand(addWeighted.
-                curry(tonesList));
-            csvList = csvList.map(addH);
+        if (tonesList && Object.keys(tonesList).length > 0) {
+            csvtList = csvList.expand(addWeighted.curry(tonesList));
+            csvtList = csvtList.map(addH);
             wordList = wordList.concat(csvtList);
         }
+        csvList = csvList.map(addH);
+        wordList = wordList.concat(csvList);
     }
     averageWeight(wordList);
     wordList = wordList.sort(function (first, match) {
@@ -573,7 +1011,7 @@ function genRoot(rootPhonEntry) {
     cvfList = cvfList.expand(addWeighted.curry(vowelsList));
     csvfList = csvfList.expand(addWeighted.curry(secondList));
     csvfList = csvfList.expand(addWeighted.curry(vowelsList));
-    if (tonesList && tonesList.length > 0) {
+    if (tonesList && Object.keys(tonesList).length > 0) {
         cvtfList = cvfList.expand(addWeighted.curry(tonesList));
         csvtfList = csvfList.expand(addWeighted.curry(tonesList));
         cvtfList = cvtfList.expand(addWeighted.curry(finalList));
@@ -594,8 +1032,7 @@ function genRoot(rootPhonEntry) {
     return wordList;
 }
 
-function addWordToList(word, phonEntry, wordArray,
-        availList, typeList) {
+function addWordToList(word, phonEntry, wordArray, availList, typeList) {
     /* if  already in list then don't add it */
     Function.prototype(phonEntry);
     var i = 0,
@@ -604,15 +1041,11 @@ function addWordToList(word, phonEntry, wordArray,
         langWord,
         weight,
         availIndex;
-   //     oldWord;
- //       oldWordIndex;
     for (i = 0; i < wordArrayLength; i += 1) {
         langWordElem = wordArray[i];
         langWord = langWordElem[0];
         weight = langWordElem[1];
         availIndex =  availList.indexOf(langWord);
-//        oldWord = typeList["X" + word] && typeList["X" + word][0];
-//        oldWordIndex = availList.indexOf(oldWord);
         if (availIndex > -1) {
             if (typeList["X" + word] === undefined) {
                 typeList["X" + word] = [langWord, weight];
@@ -625,10 +1058,10 @@ function addWordToList(word, phonEntry, wordArray,
             }
         }
     }
+    console.log("ADtL i " + i + " wordArrayLength " + wordArrayLength);
     if (i >= (wordArrayLength - 1)){
         throw new Error(wordArrayLength + " '" + word +
-            "' undefined " + JSON.stringify(typeList["X" +
-            word]));
+            " "  + JSON.stringify(typeList["X" + word]) + " " + wordArray);
     }
     console.log(word + " " + typeList["X" + word]);
     return availList;
@@ -659,29 +1092,9 @@ function removeBlacklisted(wordLines, blacklist) {
 }
 
 function main() {
-    var fileContents = io.fileRead("comboUniqList.txt"),
-        blackFileContents = io.fileRead("rootBlacklist.txt"),
-        blackLines = stringToWordLines(blackFileContents),
-        blacklist = wordOfEachLine(0, blackLines),
-        wordLinesRaw = stringToWordLines(fileContents),
-        wordLines = removeBlacklisted(wordLinesRaw, blacklist),
-        //Glyph16File = io.fileRead("16GlyphWordList.txt"),
-        //G16Lines = stringToWordLines(Glyph16File),
-        //G16List = wordOfEachLine(0, G16Lines),
-        Glyph24File = io.fileRead("32GlyphWordList.txt"),
-        G24Lines = stringToWordLines(Glyph24File),
-        availableList = wordOfEachLine(0, G24Lines),
-        mainWords = wordOfEachLine(0, wordLines),
-        phonJSON = io.fileRead("genPhonX.json"),
-        phonObjX = JSON.parse(phonJSON),
-        langWordJSON = "{}", //io.fileRead("langWords.json"),
-        langWordObj = JSON.parse(langWordJSON),
-        //rootPhonJSON = "", //io.fileRead("rootPhon.json"),
-        rootPhonObjX = {}, //JSON.parse(rootPhonJSON),
-        //transEntry,
-        phonEntry,
-        //consonantArray,
-        //vowelArray,
+    function makeWord(line, phonObjX, rootPhonObjX, availableList, rootCount,
+                      gramCount, shortGramCount){
+        var phonEntry,
         phonWord,
         rootGlyphWord,
         gramGlyphWord,
@@ -696,40 +1109,19 @@ function main() {
         G28ShortGramMax = 120,
         G28GramMax = 666,
         G28RootMax = 5898,
-        gramCount = 0,
-        outObj = {},
-        shortGramCount = 0,
-        rootCount = 0,
-        someWords = ["liberia", "litre", "brachylogia", 
+        someWords = [/*"liberia", "litre", "brachylogia", 
             "gamma", "astatine", "xml", "wiki", "topos",
-            "trademark"];
-    if (langWordObj.gramList) {
-        gramList = langWordObj.gramList;
-    }
-    if (langWordObj.rootList) {
-        rootList = langWordObj.rootList;
-    }
-    if (langWordObj.availableList) {
-        availableList = langWordObj.availableList;
-    }
-    // mainWords.map(getTranslations.curry(transObj));
-    wordLines.forEach(function (line) {
+            "trademark", "antessive-case", "cocoa", "meter", "bromine", 
+            "canada", "adam"*/];
         var word = line[0],
             gram = line[1],
             gramLength = line[2] && parseInt(line[2], 10),
-            genedGram;
+            genedGram,
+            present = false;
         phonEntry = phonObjX["X" + word];
         if (phonEntry === undefined) {
             console.log(word + " undefined");
             return false;
-        }
-        if (gram !== undefined) {
-            gramCount += 1;
-            if (gramLength && gramLength === 2) {
-                shortGramCount += 1;
-            }
-        } else {
-            rootCount += 1;
         }
         rootPhonEntry = rootPhonObjX["X" + word];
         gramPhonEntry = rootPhonObjX["X" + word];
@@ -744,8 +1136,12 @@ function main() {
             phonWord = phonEntry[langCode];
             if (phonWord !==  undefined) {
                 /*jslint bitwise:true*/
+                //console.log("langCode " + langCode);
                 if (someWords.indexOf(word) > -1 ||
                         rootCount > ((G28RootMax / 1.61) | 0)) {
+                    if (someWords.indexOf(word) > -1) {
+                      console.log("convering " + word + " to 32Glyph");
+                    }
                     rootGlyphWord = ipaTo32Glyph(phonWord);
                 } else if (rootCount > ((G24RootMax / 1.61) | 0)
                         ) {
@@ -778,10 +1174,16 @@ function main() {
                 throw new Error("undefined langWeight for " +
                     langCode);
             }
-            addGlyphs(gramPhonEntry, gramGlyphWord,
-                langWeights[langCode]);
-            addGlyphs(rootPhonEntry, rootGlyphWord,
-                    langWeights[langCode]);
+            addGlyphs(gramPhonEntry, gramGlyphWord, langWeights[langCode]);
+            addGlyphs(rootPhonEntry, rootGlyphWord, langWeights[langCode]);
+            if (someWords.indexOf(word) > -1) {
+              addGlyphs(gramPhonEntry, "7", 0.02);
+              addGlyphs(gramPhonEntry, "_", 0.01);
+              addGlyphs(rootPhonEntry, "7", 0.02);
+              addGlyphs(rootPhonEntry, "_", 0.01);
+              console.log("vowels " + JSON.stringify(rootPhonEntry.vowels));
+              console.log("tones " + JSON.stringify(rootPhonEntry.tone));
+            }
         });
         if (gram === "g" && 
             gramList["X" + word] === undefined) { /* grammar word*/
@@ -799,14 +1201,128 @@ function main() {
         /* if including all gram words as roots */
             availableList = addWordToList(word, phonEntry,
                 genRoot(rootPhonEntry), availableList, rootList);
+            if (rootList["X" + word] === undefined ||
+                gramList["X" + word] === undefined) {
+              throw new Error(word + " not added properly");
+            }
         } else if (rootList["X" + word] === undefined) { 
             /* root word*/ 
             availableList = addWordToList(word, phonEntry,
                 genRoot(rootPhonEntry), availableList, rootList);
+            if (rootList["X" + word] === undefined) {
+              throw new Error(word + " not added properly");
+            }
         } else {
             console.log(word + " present"); 
+            present = true;
+        }
+        if (present === false) { 
+          if (gram !== undefined) {
+              gramCount += 1;
+              if (gramLength && gramLength === 2) {
+                  shortGramCount += 1;
+              }
+          }
+          rootCount += 1;
         }
         rootPhonObjX["X" + word] = rootPhonEntry;
+        console.log("shortGramCount " + shortGramCount);
+        console.log("gramCount " + gramCount);
+        console.log("rootCount " + rootCount);
+        return {"gramCount": gramCount, "rootCount": rootCount,
+                "shortGramCount": shortGramCount, 
+                 "availableList":availableList};
+    }
+    var fileContents = io.fileRead("comboUniqList.txt"),
+        midFileContents = io.fileRead("comboUniqList-mid.txt"),
+        //blackFileContents = io.fileRead("rootBlacklist.txt") + 
+         //                   io.fileRead("nationTerms.txt"),
+        //blackLines = stringToWordLines(blackFileContents),
+        //blacklist = [], //wordOfEachLine(0, blackLines),
+        //wordLinesRaw = stringToWordLines(fileContents),
+        wordLines = stringToWordLines(fileContents),
+        midWordLines = stringToWordLines(midFileContents),
+       // wordLines = removeBlacklisted(wordLinesRaw, blacklist),
+        //Glyph16File = io.fileRead("16GlyphWordList.txt"),
+        //G16Lines = stringToWordLines(Glyph16File),
+        //G16List = wordOfEachLine(0, G16Lines),
+        Glyph24File = io.fileRead("32GlyphWordList.txt"),
+        G24Lines = stringToWordLines(Glyph24File),
+        availableList = wordOfEachLine(0, G24Lines),
+        mainWords = wordOfEachLine(0, wordLines),
+        midMainWords = wordOfEachLine(0, midWordLines),
+        phonJSON = io.fileRead("genPhonX.json"),
+        phonObjX = JSON.parse(phonJSON),
+        //langWordJSON = "{}", //
+        langWordJSON = io.fileRead("langWords-core.json"),
+        langWordObj = JSON.parse(langWordJSON),
+        //rootPhonJSON = "", //io.fileRead("rootPhon.json"),
+        rootPhonObjX = {},
+        gramCount = 0,
+        rootCount = 0,
+        shortGramCount = 0,
+        //i = 0,
+        //line = [],
+        tmpObj = {},
+        outObj = {}; //JSON.parse(rootPhonJSON);
+        //transEntry,
+        //consonantArray,
+        //vowelArray,
+    if (langWordObj.gramList) {
+        gramList = langWordObj.gramList;
+    }
+    if (langWordObj.rootList) {
+        rootList = langWordObj.rootList;
+    }
+    if (langWordObj.availableList) {
+        availableList = langWordObj.availableList;
+    }
+    if (langWordObj.gramCount) {
+        gramCount = langWordObj.gramCount;
+    }
+    if (langWordObj.shortGramCount) {
+        shortGramCount = langWordObj.shortGramCount;
+    }
+    if (langWordObj.rootCount) {
+        rootCount = langWordObj.rootCount;
+    }
+    // mainWords.map(getTranslations.curry(transObj));
+    //for (i = 0; i << wordLines.length; i++) {
+    wordLines.forEach(function (line) {
+      console.log("word lines");
+     // line = wordLines[i];
+      if (!rootList["X" + line[0]]) {
+        tmpObj = makeWord(line, phonObjX, rootPhonObjX, availableList, rootCount,
+                gramCount, shortGramCount);
+        gramCount = tmpObj.gramCount;
+        rootCount = tmpObj.rootCount;
+        shortGramCount = tmpObj.shortGramCount;
+        availableList = tmpObj.availableList;
+      }
+    });
+    outObj.mainWords = mainWords;
+    outObj.gramList = gramList;
+    outObj.rootList = rootList;
+    outObj.availableList = availableList;
+    outObj.gramCount = gramCount;
+    outObj.rootCount = rootCount;
+    outObj.shortGramCount = shortGramCount;
+    io.fileWrite("gramWords-core.txt",
+            formatDictionary(gramList, mainWords));
+    io.fileWrite("rootWords-core.txt",
+            formatDictionary(rootList, mainWords));
+    io.fileWrite("langWords-core.json", JSON.stringify(outObj));
+   // }
+    midWordLines.forEach(function (line) {
+      console.log("mid words");
+      if (wordLines[0].indexOf(line[0]) < 0) {
+        tmpObj = makeWord(line, phonObjX, rootPhonObjX, availableList, rootCount,
+                  gramCount, shortGramCount);
+        gramCount = tmpObj.gramCount;
+        rootCount = tmpObj.rootCount;
+        shortGramCount = tmpObj.shortGramCount;
+        availableList = tmpObj.availableList;
+      }
     });
     //console.log(gramList);
     //console.log(rootList);
@@ -815,11 +1331,11 @@ function main() {
     outObj.gramList = gramList;
     outObj.rootList = rootList;
     outObj.availableList = availableList;
-    io.fileWrite("gramWords.txt",
-            formatDictionary(gramList, mainWords));
-    io.fileWrite("rootWords.txt",
-            formatDictionary(rootList, mainWords));
-    io.fileWrite("langWords.json", JSON.stringify(outObj));
+    io.fileWrite("gramWords-mid.txt",
+            formatDictionary(gramList, midMainWords));
+    io.fileWrite("rootWords-mid.txt",
+            formatDictionary(rootList, midMainWords));
+    io.fileWrite("langWords-mid.json", JSON.stringify(outObj));
 }
 
 main();

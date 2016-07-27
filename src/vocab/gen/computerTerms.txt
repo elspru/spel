@@ -295,3 +295,4 @@ contents
 pointer
 list
 hash
+commands

@@ -2,9 +2,9 @@
 0 nominative-case
 0 accusative-case
 0 topic-case g
-0 parent
 1 dad
 2 mom
+0 parent
 3 hello
 4 bye
 0 ancestor
@@ -2565,6 +2565,7 @@
 2401 print 33203.1
 2402 smooth 33167.5
 2403 solid 33148.5
+0 solid-matter
 2404 pursued 33135.0
 2405 necessarily 33108.1
 2406 build 33084.4

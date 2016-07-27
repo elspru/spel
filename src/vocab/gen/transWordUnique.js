@@ -89,10 +89,15 @@ var io = require("../../lib/io"),
     //      ob Greek (IE, Hellenic) ya
         this.el = "";
     },
-    allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
-        "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", /*"ka",*/ "cy", "pl", "sr", "lt", "bn", "pa",
-        "he", "ja", "jv", "te", "ko", "mr" ],
+    allTransLangs = [
+        "zh", "en", "hi", "sw",   "id", "es", "ar", "bn", 
+        "ru", "ko", "pt", "tr",   "pa", /*"vi",*/ "de", "fa", 
+
+        "fr", "mr", "ta", "te",   "gu", "ur", "am", "it", 
+        "pl", "kn", "ml", "my",   "ro", "az", "nl", "hu", 
+
+        "ku", "si", "ne", "el",   "cs", "sv", /*"ka"*/
+        ],
     allPhonLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
         "fi", "el", /*"ka",*/ "cy", "pl", "sr", "lt", "zhy", "es",
@@ -140,7 +145,7 @@ function wordOfEachLine(wordIndex, wordLines) {
 }
 
 function returnIfUnique(transEntry, allDefinObj, index,
-        mainWords, thesaurus, blacklist) {
+        mainWords, thesaurus, blacklist, transObj) {
     var word,
         values,
         matchingDefs,
@@ -171,8 +176,11 @@ function returnIfUnique(transEntry, allDefinObj, index,
                 if (thesaurusEntry.indexOf(thesaurusWord) < 0 &&
                         thesaurusWord &&
                         thesaurusWord.toLowerCase() !== enDef) {
-                    thesaurusEntry.push(key + ":");
-                    thesaurusEntry.push(thesaurusWord);
+                    if (transObj["X" + enDef][key] !== undefined &&
+                        transObj["X" + enDef][key] !== "") {
+                      thesaurusEntry.push(key + ":");
+                      thesaurusEntry.push(thesaurusWord);
+                    }
                 } 
                 return defIndex;
             }
@@ -200,16 +208,17 @@ function returnIfUnique(transEntry, allDefinObj, index,
             /* check if preceding words are implemented */
             matchingDefs.forEach(function (defIndex) {
                 var defWord = mainWords[defIndex];
-                if (thesaurus[defWord] !== undefined) {
+                if (thesaurus["X" + defWord] !== undefined) {
                     foundDuplicateDefs += 1;
                 }
             });
         }
     });
+
     if (foundBlanks > 0) {
         result = "BLANK"; 
         thesaurusEntry.push("BLANK:");
-        blacklist[enDef] = thesaurusEntry;
+        blacklist["X" + enDef] = thesaurusEntry;
         //console.log(enDef + " blank");
         //console.log(thesaurusEntry);
     } else if (directBorrows >
@@ -217,24 +226,24 @@ function returnIfUnique(transEntry, allDefinObj, index,
             Math.pow(1.618, 2))) {
         result = "BORROW"; 
         thesaurusEntry.push("OVER_BORROWED:" + directBorrows);
-        blacklist[enDef] = thesaurusEntry;
+        blacklist["X" + enDef] = thesaurusEntry;
+    } else if (thesaurusEntry.length/2 > 
+                allTransLangs.length/Math.pow(1.618,2)) {
+        result = "AMBIGIOUS"; 
+        thesaurusEntry.push("AMBIGIOUS:" + thesaurusEntry.length);
+        blacklist["X" + enDef] = thesaurusEntry;
     } else if (rootBlacklist.indexOf(enDef) !== -1 ||
         /\W/.test(enDef.replace(/-/,""))) {
         result = "BLIST"; 
         thesaurusEntry.push("BLIST:");
-        blacklist[enDef] = thesaurusEntry;
+        blacklist["X" + enDef] = thesaurusEntry;
     } else if (foundDuplicateDefs === 0) {
         result = transEntry;
-        thesaurus[enDef] = thesaurusEntry;
-        //if (thesaurusEntry.length > 0) {
-        //    console.log(thesaurusEntry);
-        //}
+        thesaurus["X" + enDef] = thesaurusEntry;
     } else {
         thesaurusEntry.push("DUPLICATE:");
-        blacklist[enDef] = thesaurusEntry;
-        //console.log(enDef + " blackListed");
-        //console.log(thesaurusEntry);
-        result = null;
+        blacklist["X" + enDef] = thesaurusEntry;
+        result = "DUPLICATE";
     }
     return result;
 }
@@ -264,8 +273,8 @@ function makeAllDefinObj(transObj, mainWords) {
 function formatThesaurus(thesaurus, mainWords) {
     var result = "";
     mainWords.forEach(function (word) { 
-        var entry = thesaurus[word];
-        if (thesaurus[word]) {
+        var entry = thesaurus["X" + word];
+        if (thesaurus["X" + word]) {
             result += word + ": ";
             if (Array.isArray(entry)) {
                 result += entry.join(", ");
@@ -278,17 +287,17 @@ function formatThesaurus(thesaurus, mainWords) {
 
 function formatSuggestList(thesaurus, blacklist, mainWords) {
     function approvedWords(word) {
-        if (thesaurus[word] !== undefined) {
+        if (thesaurus["X" + word] !== undefined) {
             return true;
         }
         return false;
     }
     var result = "";
     mainWords.forEach(function (word) { 
-        var bentry = blacklist[word];
-        if (thesaurus[word]) {
+        var bentry = blacklist["X" + word];
+        if (thesaurus["X" + word]) {
             Function.prototype();
-        } else if (blacklist[word]) {
+        } else if (blacklist["X" + word]) {
             result += word + ": ";
             if (Array.isArray(bentry)) {
                 result += bentry.filter(approvedWords).join(", ");
@@ -300,15 +309,16 @@ function formatSuggestList(thesaurus, blacklist, mainWords) {
 }
 
 function main() {
-    var fileContents = io.fileRead("sortedComboList.txt"),
-        blackFileContents = io.fileRead("rootBlacklist.txt"),
+    var fileContents = io.fileRead("sortedComboList-core.txt"),
+        blackFileContents = io.fileRead("rootBlacklist.txt") + 
+                            io.fileRead("nationTerms.txt"),
         blackLines = stringToWordLines(blackFileContents),
         blacklistWords = wordOfEachLine(0, blackLines),
         wordLines = stringToWordLines(fileContents),
         //wordLines = removeBlacklisted(wordLines, blacklist),
         mainWords = wordOfEachLine(0, wordLines),
-        usedWords = mainWords.slice(0),
-        transJSON = io.fileRead("genTransX.json"),
+        //usedWords = mainWords.slice(0),
+        transJSON = io.fileRead("genTransX.json.2"),
         transObj = JSON.parse(transJSON),
         transEntry,
         uniqObj = {},
@@ -328,32 +338,40 @@ function main() {
         transEntry = transObj["X" +word];
         // be add ob sub entry for each lang ya
         if (transEntry === undefined) {
-            console.log(word + " undefined ");
+            //console.log(word + " undefined ");
             uniqEntry = "UNDEF";
         } else {
             uniqEntry = 
                 returnIfUnique(transEntry, allDefObj, index, 
-                    mainWords, thesaurus, blacklist); 
+                    mainWords, thesaurus, blacklist, transObj); 
         }
         if (uniqEntry === "BLANK") {
             console.log(word + " blank ");
-            usedWords[usedWords.indexOf(word)] = null;
+            //usedWords[usedWords.indexOf(word)] = null;
             allDefObj = makeAllDefinObj(transObj, mainWords);
         } else if (uniqEntry === "BORROW") {
             console.log(word + " over borrowed ");
-            usedWords[usedWords.indexOf(word)] = null;
+            //usedWords[usedWords.indexOf(word)] = null;
             allDefObj = makeAllDefinObj(transObj, mainWords);
         } else if (uniqEntry === "UNDEF") {
             console.log(word + " undefined ");
-            usedWords[usedWords.indexOf(word)] = null;
+            //usedWords[usedWords.indexOf(word)] = null;
             allDefObj = makeAllDefinObj(transObj, mainWords);
         } else if (uniqEntry === "BLIST") {
-            console.log(word + " black listed ");
-            usedWords[usedWords.indexOf(word)] = null;
+            console.log(word + " BLIST");
+            //usedWords[usedWords.indexOf(word)] = null;
+            allDefObj = makeAllDefinObj(transObj, mainWords);
+        } else if (uniqEntry === "DUPLICATE") {
+            console.log(word + " DUPLICATE");
+            //usedWords[usedWords.indexOf(word)] = null;
+            allDefObj = makeAllDefinObj(transObj, mainWords);
+        } else if (uniqEntry === "AMBIGIOUS") {
+            console.log(word + " AMBIGIOUS");
+            //usedWords[usedWords.indexOf(word)] = null;
             allDefObj = makeAllDefinObj(transObj, mainWords);
         } else if (uniqEntry !== null) {
              console.log(word + " is unique");
-            uniqObj[word] = uniqEntry;
+            uniqObj["X" + word] = uniqEntry;
         } 
     });
     io.fileWrite("genTransUniq.json", JSON.stringify(uniqObj));
@@ -371,6 +389,7 @@ function main() {
             }
             return "";
         }
+        word = word.substring(1);
         var gram = findIfGram(word, wordLines);
         return word + gram;
     }).join("\n");
@@ -382,9 +401,10 @@ function main() {
     io.fileWrite("suggestList.txt", formatSuggestList(thesaurus, 
         blacklist, mainWords));
     outObj.mainWords = mainWords;
-    outObj.usedWords = usedWords;
+    //outObj.usedWords = usedWords;
     outObj.thesaurus = thesaurus;
     outObj.blacklist = blacklist;
+    outObj.uniqObj = uniqObj;
     io.fileWrite("unique.json", JSON.stringify(outObj));
 }
 

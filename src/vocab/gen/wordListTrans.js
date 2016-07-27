@@ -87,11 +87,19 @@ var io = require("../../lib/io"),
     //      ob Greek (IE, Hellenic) ya
         this.el = "";
     },
-    allTransLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
-        "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
-        "fi", "el", "ka", "cy", "pl", "sr", "lt","es", "bn",
-        "pa", "he", "ja", "jv", "te", "ko", "mr", "hu", "nl",
-"da", "tl", "th" ];
+    allTransLangs = [
+        "zh", "en", "hi", "sw",     "id","es", "ar","bn",  
+        "ru", "ko", "pt", "tr",     "pa", "vi", "de", "fa", 
+
+        "fr", "mr", "ta", "te",     "gu","ur","am", "it",  
+        "pl","kn","ml","my",      "ro", "az","nl","hu", 
+
+        "ku","si","ne","el",    "cs", "sv", "ka", "jv",  
+        "uk","sr","fi","cy",    "he", "ja", "lt", "da", "tl", 
+
+        "th","te","ps","jv",    "su", "ha",   "yo", 
+        "uz","sd","mi","ig",    "mg", "km", "so",  "zu", 
+        "ny","mn","lo","zu",    "xh",    ];
 
 function stringToWordLines(string) {
     function lineToWords(line) {
@@ -120,7 +128,7 @@ function wordOfEachLine(wordIndex, wordLines) {
 function translateWord(word, toLangCode) {
     var exec = require("shelljs").exec,
         //exec = require("child_process").execSync,
-        fromLangCode = "en",
+        //fromLangCode = "en",
         command = "",
         translation = "",
         warning;
@@ -128,13 +136,15 @@ function translateWord(word, toLangCode) {
     word = word.replace(/\-/g, " ");
     word = word.replace(/_/g, " ");
     word = word.replace(/\W/g, " ");
+    word = word.replace(/ /g, "%20");
+    console.log(toLangCode + " " + word);
     if (word === "" || /^\ *$/.test(word)) {
         return "";
     }
-    command = "../gtranslate.sh " + fromLangCode + " " +
-        toLangCode + " '" + word +"'";
+    command = "./trans.sh " + toLangCode + " '" + word +"'";
     try {
-        translation = exec(command, {timeout: 30000}).output;
+        translation = JSON.parse(exec(command, {timeout: 5000}).output).
+                      translatedText;
     } catch (e) {
         console.log(e.stack);
         console.log(e);
@@ -165,11 +175,15 @@ function updateTranslationEntry(entry, word) {
 }
 
 function main() {
-    var fileContents = io.fileRead("sortedComboList.txt"),
-        wordLines = stringToWordLines(fileContents),
-        mainWords = wordOfEachLine(0, wordLines),
+    var megaFileContents = io.fileRead("sortedComboList-mega.txt"),
+        megaWordLines = stringToWordLines(megaFileContents),
+        megaMainWords = wordOfEachLine(0, megaWordLines),
+        coreFileContents = io.fileRead("sortedComboList-med.txt"),
+        coreWordLines = stringToWordLines(coreFileContents),
+        coreMainWords = wordOfEachLine(0, coreWordLines),
         transJSON = io.fileRead("genTransX.json"),
         transObjX = JSON.parse(transJSON),
+        mainWords = coreMainWords,
         count = 0,
         entry;
     mainWords.forEach(function (word) {
@@ -188,12 +202,30 @@ function main() {
         if (count > 100) {
             io.fileWrite("genTransX.json", 
                 JSON.stringify(transObjX));
+            io.fileWrite("genTransX.json.2", 
+                JSON.stringify(transObjX));
             count = 0;
         }
     });
-  //  mainWords.forEach(function (word) {
-  //      transObjX["X" + word] = transObj[word];
-  //  });
+    allTransLangs.forEach(function (langCode) {
+      megaMainWords.forEach(function (word) {
+        entry = transObjX["X" + word];
+        if (entry === undefined) {
+          entry = new Entry();
+        }
+        if (entry[langCode] === undefined) {
+          entry[langCode] = translateWord(word, langCode);
+          count += 1;
+          if (count > 100) {
+              io.fileWrite("genTransX.json", 
+                  JSON.stringify(transObjX));
+              io.fileWrite("genTransX.json.2", 
+                  JSON.stringify(transObjX));
+              count = 0;
+          }
+        }
+      });
+    });
     console.log("writing genTransX.json");
     io.fileWrite("genTransX.json", JSON.stringify(transObjX));
     io.fileWrite("genTransX.json.bak", JSON.stringify(transObjX));

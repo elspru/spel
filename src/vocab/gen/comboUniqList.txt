@@ -2,12 +2,10 @@ infinitive g 2
 nominative-case g 2 ja が 
 accusative-case g 2 ja を 
 topic-case g 2 ja は 
-parent
 dad
 mom
 hello g
 ancestor
-grandparent
 hungry
 genitive-case g 2
 adjective g
@@ -34,7 +32,6 @@ present-tense g 2
 benefactive-case g 3
 essive-case g 3
 not g 2
-its g 3
 surface-context g 2 en on
 adpositional-case g 2
 location-case g 2 en at
@@ -49,379 +46,327 @@ demonstrative g
 but g
 all
 feminine-gender g 2
-they
 plural-number g 2
 one
+their
 who
 future-tense g 2
 social-context g 2
 when
 imperfective-aspect g 2
 there g 3
-more g 3
-out
 elative-case g 3
 illative-case g 3
-do
 directive-mood g 2
+what g
 question-word g 3
 copula g 3
 person g 3
 male
 could
+other g 3
 number g 2
-very g 3
-time g
 time-context g 2
 temporal-case g 3
-about g
-literal
 only g 3
-little
-then g 3
 hortative-mood g 3
 retrospective-aspect g 3
-great
 volitive-mood g 2
-before g
 must
 two
 see
 know
 down
 first
-own
 alienable-possession g 3
 inalienable-possession g 3
 old
 deliberative-mood g
 day
-where
 come
-way
-work
 vowel
 go
 perlative-case g
 progressive-aspect g 3
 long
 say
+how
 even
-back
+again
 here g 3
 think
-every
-last
 under-context g 2 en under
-take
 found
 hand
 young
-give
+against
 god
 delative-case g 3
 nothing
-right
 once
 semelfactive-aspect g 3
 left
-part
+saw
 house
 world
-head
 three
+neo g 
 focus g
 love g
 always
 night
 king
 between
+mind
 heart
 paucal-number g 3
 because g
 causal-case g 3
+done
 name g 2
 proper-noun g
 country
-asked
 visible-evidential g 3
 better
-side
+having
+moment
 course
-enough
 soon
-full
-room
-water
 desiderative-mood g 3
 light
 word g
+given
 door
-use
 morning
 terminative-case g
-power
-themselves
-voice
 white
 money
-next
 poor
 death
 form
 inessive-case g
 together
-matter
 often
 friend
-order
+half
 imperative-mood g 3
 round
-keep
+sent
 wife
 believe g
-near g
 public
 state-context g 2 
 son
-hundred
 children
 thus
 hope g
-above
 dear
+high
 read
 city
 already
-fact
 factive-evidential g 3
 girl
 hear
 least
 perhaps
-open
+indeed
 body
+return
 air
-nature
+law
 help
 letter
 four
 optative-mood g 3
 fire
-free
+hour
 war
-second
-united
-call
-why
 lost
+forth
 thousand
 family
 soul
-care
-mean
-different
+question
+truth
+ground
+making
 potential-mood g 3
 allative-case g
 anthropic-gender g
+following
+need
 five
-live
 different-subject g
 answer
 sea
-fear g
-hard
+understand
 terms
 doubt g
 dubitative-mood g 3
 black
+bring
 beautiful
-dark
+character
 sort
 ten
-show
 story
 book
 electronic
 account
-mark
 interest g
 write
 bed
-necessary
-idea
+age
+art
 vialis-case g
 brother
-sometimes
 line
 table
 river
 eye
 information
+later
 suddenly
-strange g
+past
 deep
-change g
-feeling
 purpose
-happy g
 blood
 rose
-south
 cold
-position
-stand
+road
+late
 suppose
+nearly
 mine
-cut
+bad
 copy
 husband
 six
-low
+living
+peace
 remember
-effect
+natural
 fall
+service
 except g
+hair
 copyright
 army
-run
 horse
-future
 west
 pay
 red
-gold
 desire g
 play
-master
 office
 government
 church
-length g
+strength
 company
 paper
 probability g
 especially
 bear
+opinion
 window
-agreement g
 beauty
 duty
-send
 distance
-silence
 foot
 wild
-die
-save
 green
 trouble g
 smile
-wrong
 sleep
 quotative-case g
-beginning
-action
-visit
-follow
-try
 presence
-heavy
 sweet
 mouth
 rich
+afraid
 enemy
+broken
 ship
-condition
-including
 inclusive-person g
+influence
 appear
 secret
 please
 precative-mood g 3
 polite-register g
-evil
 march
-slowly
+places
+stay
 instead
 blue
 impossible
 school
-occasion
 married
 food
+reach
 twenty
-easily
+quiet
 prospective-aspect g 3
+giving
+stopped
 language
-expression
 week
 hall
 danger
-usual
+wonder g
 born
-court
 gnomic-aspect g 2
 worth
 tree
 wall
+result
 heaven
 inchoative-aspect g 2
+command
 jussive-mood g 3
-tone
-regard
 month
+perfect
 experience
 circumstances
 fresh
 duke
 covered
-bound
 east
 stone
-direction
+noble
 chair
-support
-date
+waiting
 village
-field
-wait
-permission
+agree
 permissive-mood g 3
 success g
+trying
 hill
 music
 distal-demonstrative g
-afternoon
 cry
 honour g
-seven
 private
-sit
 news
 scene
 garden
-race
+begin
 distributive-case g
 learn
 political
-speech
 lie
-cast
-eat
-floor
+authority
 summer
 religion
-picture
 escape
 author
 brown
-determined g
 pain g
 spring
 soft
 corner
-trademark
+justice
 produce
 laugh
 forget
@@ -429,136 +374,121 @@ europe
 eight
 passing
 terrible
-sake
 breath
 wise g
 possessive-marker g
 pleasant
-perfectly
-memory
 grave
 modern
-spot
-break
 island
+meeting
+camp
 touch
-equal
+fortune
 shore
-promise
+domain
 commissive-mood g 2
-plan
-surprise g
+degree
+conduct
+running
 minute
 shot
-lead
 glass
 board
-instance
+vain
+affairs
 safe
 doctor
 class
 completive-aspect g 3
 repeated
-military
+darkness
 warm
 drink
 anger g
+spite
 directly
 hat
 dog
 servant
 pride g
-crowd
 train
 moral
-greek
-fit
 enter
-rule
 sword
 attack
 health
 paragraph
 social
 refund
-sorry g
-courage g
 official
-provided
-request
 glance
-spread
-opposite
 twelve
-engaged
 wine
 taste
 iron
 distribute
 trade
+using
 judge
-anxious g
 captain
 cessative-aspect g 2
+curious
 foreign
 intensifier g
 importance
-finally
-prove
-prevent
+yes g
 neck
-interesting
-legal
+liberty
+sides
 dry
-serve
-evidence
+evidential g 3
 evidential-case g 3
 distant
 progress
 narrow
 building
-search
+page
+holding
 sad g
 sin
 sick
 honest
-bank
+accept
 forest
 measure
 stream
 carefully
+ear
 bread
-additional
 choose
 animal
 zoic-gender g
 eventive-mood g 
 multiplicative-case g
-obtain
 cross
 thick
+dare
 grow
 rain
-quietly
 surface
 holy
 july
 fashion
-report
 file
 shoulder
-royal
 song
 comfort
 anyone
 grass
+occupied
+draw
 opening
 june
-fish
 capital
 breast
-education
-sharp
+practice
+claim
 expense
 yours
 million
@@ -566,21 +496,21 @@ pray
 tired
 kill
 shadow
-mass g
-established
+brave
 satisfied g
-check
-virtue g
 golden
+numerous
+telling
 national
-principal
+weak
 valley
-guess
 speculative-mood g 2
 yellow
 remains
-bent
+equally
 box
+pointed
+principle
 season
 science
 apparently
@@ -588,245 +518,229 @@ bore
 uncle
 list
 august
-calm
 popular
 unknown
 familiar
 familiar-register g
+reader
 walking
 twice
-intellectual
+wisdom
 priest
 wounded g
 palace
-beat
 fool
-nine
+favour
+size
 sympathy
 burst
+putting
 dressed
+noise
 literature
-collection
-empty
 storm
 pocket
-sentence
 november
 december
-happen
 absence
+population
 thank g
 series
 address g
 bird
+owner
 coat
-prepare
 rapidly
 smoke
 january
 machine
-moving
 teeth
+burning
 shame g
-brain
+quality
 ring
+phrase
 phrase-marker g
-understanding
-fruit
-tea
-explain
-welcome
+sunday
 poetry
 buy
-faithful g
-excitement g
+final
+fields
 april
 october
+objects
 bitter
 loose
 text g
-worst
 credit
 features
-capable
+control
 fifteen
 cruel
 join
-crime
 dust
-practical
 colour
-destroy
-increase
 nose
 friendly
+supply
 yesterday
 hesternal-tense g
 fail
-continue
-remove
 wear
 blind
+dozen
 fly
 praise
+devil
+gradually
 mission
 sacrifice
-exercise
 conscience
-theory
 minister
 hate g
-lake
 centre
-faint
 rational-gender g
+enjoy
 brief
 worship
-goods
 skin
 roof
 crown
 castle
-throne
-attached
+excited
+despair g
 mile
+circle
 prison
-thoroughly
 cup
 member
 civil
 everywhere
-comply
-whilst
-volume
+directed
 custom
-bow
 meat
+milk
 vegetal-gender g
 rare
 cousin
 bridge
-protect
+devoted
+stock
 salt
 innocent
+avoid
 queen
+count
 dance
 hotel
 fill
+guide
 prisoner
+shop
 stairs
+pardon
 gay
+record
 sand
 violent
 september
 ruin
-cattle
-equipment
-perceived
-anywhere
+license
+witness
 kitchen
 sell
+treatment
 speed
 computer
 eternal
 library
+base
 confusion
-article g
 cook
-band
 desert
 kiss
+plant
 ice
-ball
-stick
 argument
-observe
 benedictive-mood g 3
-striking
 guilty g
+punishment
 gun
 police
 hide
 expedition
+ignorant g
 cloud
 waste
 february
 disease
 initiative-case g
-universal
-estate
+aunt
 humble g
-delay
+compliance
 delayed-imperative g
 reported-evidential g 3
-unfortunate
 midnight
-hero
+philosophy
 finger
+somewhere
 press
+region
+melancholy g
+staff
 reward
-blame g
-misery g
+donate
 forehead
-ad
 angel
 fame
-singular-number g 2
+singular g
+breaking
 dawn
-forgive g
 sheep
-resolution
+spare
 patience g
 referential g
 corn
-key
 majority
-ignorance
-weakness
-profit
-bell
-atmosphere
+sugar
 humanity
-disk
+frame
 lonely g
 artist
 charm g
+email
 slavery
+decision
 governor
 branch
-disposition
-luck
-derived
+rear
 inductive-mood g 3
-community
 oil
 pipe
 print
 oh
 discourse-context g 2 
 vocative-case g 2
+noon
 cabin
+alarm
 nervous
-distinction
 burden
 silk
-contempt g
+cent
+agent g
+union
 hell
-separated
 mixed
-wooden
-treat
-warning
 admonitive-mood g
+mistaken
 ambition g
-yield
+rush
+deny
 somehow
 counsel
 constitution
-instrument
-steady
-elements
-continuous-aspect g 3
+firmly
 online
 tide
 college
@@ -834,7 +748,7 @@ tail
 generation
 cat
 direct-evidential g 3
-abandoned
+treaty
 eleven
 instinct
 tribe
@@ -842,136 +756,125 @@ apprehensive-mood g
 shelter
 rude
 riding
+industry
 profession
-lamp
+interview
 coffee
 nurse
-assure
 shoes
-crew
-yard
 vague
-apartment
 activity
 saturday
-holder
-sunshine
+capacity
 widow
-communication
-reflection
-organization
+shed
 star
 guest
-bar
-bottle
+poverty
 bless
 stir
-quarrel
 inner
+available
 resistance
+derive
 hollow
 province
 civilization
 hang
 shock g
-exception
-strain
-driving
-swear
-treasure
 seed
-tower
-favourite
+overcome
 recently
 awake
 furniture
 rope
 adventure
-royalty
 feast
 annual
-scale
-consequently
-foundation
+southern
+average
 ceremony
 hunting
 liberal
-largely
+christianity
 princess
 altar
+tiny
 web
+cardinal
 purple
 gather
 election
 drunk
-pour
 lift
-gesture
-manage
 exchange
 definite-article g
 emperor
-finish
+administration
+previously
 ugly
 genuine
+harmless
+roll
 inch
+newspaper
+cutting
 beard
 tear
-resist
-merchant
-independence
-smell
 eighteen
 historical
-gross
-root
 mud
+bride
+depend
+giant
 simplicity
 veil
 theatre
 comparison
 composition
 rival
-realize
-balance
 coach
 humour
 novel
 revenge
-resources
 jealous g
-wheel
+invitation
 burnt
 flash
+portrait
 suggest
+curse
 imprecative-mood g 3
 helpless
-groups
 club
 flood
-enjoyment
 indifference g
 horizon
 assumptive-mood g 3
 steep
 harmony
+thunder
 childhood
 knee
+unconscious
 mutual
 software
-injury g
+institutions
 receipt
+enable
 discipline
 slip
 revolution
 farmer
-stroke
+platform
 privilege
+organized
 student
 cave
 tradition
+submit
 tragedy
-inn
+accompany
 virgin
 farewell
 criticism
@@ -981,246 +884,233 @@ rent
 gas
 inevitable
 deadly
+emotions
 leaf
-publication
 translation
-beach
 funeral
 flour
-roar
+correspondence
 romantic
-hut
-mimetic g
 dollar
+jest
 sixteen
-assembly
 colony
 wing
 lion
 cunning
-drama
+preparation
 mist
-hypertext
 medicine
+nest
 fourteen
+objection
 acid
 namely g
 user
-bishop
 orange
 bath
-derivative
 primitive
+establish
 basket
 secretary
-salvation
 today
 hodiernal-tense g
-intend
-steam
 poison
+shield
+employ
 talent
-effective
+climate
+mate
 wash
-confession
 nonsense
-coal
+restore
+canoe
 vice
 temporary
 delimitative-aspect g 3
+pile
 bone
+instruments
 monday
 tuesday
 wednesday
 federal
 desirable
-representative
+pole
 linen
 sink
-nephew
+president
+bloody
 siege
 stomach
+upstairs
+varied
+brass
 summit
+cheap
+contest
 exclusive-person g
 seize
-fence
+landing
 statue
-luxury
 artillery
-arrest
+professional
+neighborhood
+embrace
 pack
-surrounding
-strictly
-remainder
 deer
+bedroom
 bush
-railroad
 discharge
+bench
 heir
 oak
 unpleasant
+program
 piano
 persuade
 invisible
 well-known
 cruelty
+assigned
 temptation
 telic-aspect g 3
 international
-interfere
-subtle
 philosopher
-elegant
+representation
+sensitive
 welfare
 fishing
 steal
+infant
 lip
 retire
 economy
-stretch
+gallery
 parallel
 atelic-aspect g 3
+continent
+knock
+prohibition
 prohibitive-mood g
 tie
+cell
 egg
 artificial
 inspiration
 meanwhile
 crisis
-polite
-seal
+searching
 lunch
-despite
-landscape
-artistic
-alliance
-maximum
-miracle
-copper
-purity
-republic
-telephone
+pine
+push
+abandon
+extend
+sailor
+imperial
 whip
 shirt
-introduce
-sofa
 sweep
+sketch
+virtuous
 thief
 channel
 reform
 thirst
 threatening
 palm
-encourage
 speaker
 threshold
-induce
-neat
-session
+traces
+spear
 torture g
 damp
+spoil
 traveller
-mill
+complaint
+cow
 map
-fountain
 collar
-replace
 deliberately
 beer
 velvet
-positively
 gravity
 sermon
-partner
-abuse
 flock
+niece
 thirteen
 justify
 manuscript
+warrior
 friday
+liquid
 brush
 download
-cream
-monster
+jury
 frozen
 pot
-rice
-behaviour
 coin
-revenue
 insist
 leap
 apple
+visiting
+twisted
 discuss
 background
 transcribe
-entertainment
+bet
 virus
-childish
+hospitality
 robe
 reflect
-convert
-outline
 opera
+hiding
 elbow
-attachment
 repair
-fist
 suspicious
-scripture
+educational
 pit
 disorder
 applause
 binary
 abbey
-arrow
-tend
-elaborate
-loyalty g
-tremble
 exile
 mechanical
 successfully
 trap
 cake
+entertain
 sir
-hesitate
 seventeen
 feminine
 honey
-stake
-brick
+unfortunately
 legend
-harvest
 stove
 rebel
-old-fashioned
 swell
-improve
-bowl
-stare
-industrial
+swamp
+earn
 dressing
 theme
-ascetic
-manager
-drag
-chorus
 rational
+crop
 processing
 wolf
 carpet
-antiquity
+despise
 fertile
 whistle
 cheese
 bite
-cathedral
+exclamation
 wander
+imperfect g
 navy
-mask
+whereby
+develop
 pencil
-vegetable
+exhibit
 trousers
 corruption
 cabinet
@@ -1229,50 +1119,55 @@ surgeon
 allowance
 spy
 reckless
-gossip
-systems
 token
 abstract
 accent
-sincerely
-approve
+thursday
+traffic
 architecture
 crack
+ornament
+recovery
 pavement
-decisive
 negative
-festival
+code
 treason
 hunter
 snake
+democracy
 battery
-detective
+wax
+analysis
+sharing
 swim
+strip
 envelope
 cigarette
 motor
 volunteer
 reaction
-baggage
-deaf
-juice
+partially
+ministry
 sexual
+axe
 diamond
 echo
 identity
 ambassador
+interference
+consist
 lazy
 momentane-aspect g 3
-drift
+alternative
+encoding
 imaginary
 ray
-climbing
-ink
+cellar
 memorable
-noisy
+device
 senate
-transport
 coffin
+eventually
 swallow
 indulge
 agricultural
@@ -1280,331 +1175,345 @@ swing
 meadow
 complex
 resignation
-humble-register g
+conspiracy
 pepper
-pony
+melody
+speculation
 candidate
 fox
 chimney
-jurisdiction
+hedge
+accuracy
 former-deceased g
-democratic
+bud
 blanket
 pig
 ivory
-lighter
+extract
 observer
+avenue
 nails
 bee
 actor
 sweat
-polish
-illusion
 uncertainty
-secondary
-rural
-circulation
+stress
+consumption
 groan
 resemble
-quote g
 sack
-annoyance g
 needle
-controlled
-barrier
-rely
+phenomenon
+behave
+curve
 chicken
 barrel
 habitual-aspect g 2
 expert
+impressive
 impress
+bounded
+olive
 van
-nod
-definition
+expose
 birthday
-hammer
 fragrant
 trivial
-dig
 pet
 skull
 legislature
-heel
-frown
-patent
+margin
+champion
 billion
 chemical
 pulse
 pilot
 knot
 skirt
-depression g
+weekly
 technical
 vehicle
-scope
-vegetation
-sunrise
-contribute
+strengthen
+crow
+attribute
 hook
 tiger
-sleeve
-highway
 militia
 integrity
+plus
 transparent
 nineteen
-counting
 qualified
+essay
+efficiency
+unique
 organic
 theology
-float
+insight
+shift
 witch
 studio
 champagne
 banner
 divorce
 bolt
+captivity
 vein
 passive
+foam
+fraud
 gravel
+apron
 planet
 shelf
 fan
 tropical
-phase
 arbitrary
 ecstasy g
 mercury
+creep
 suicide
+pluck
 reporter
-deprive
+expend
 balcony
-fork
-employee
-employer
-width
-flaming
-irritated
+stain
+offend
 classic
+accuse
+pension
+verb
 monkey
-acceptable
 signature
-singer
+fling
 orthodox
-nursery
-adoption
 reluctance
-import
+notorious
 torch
+worm
 grammar
-deposit
-colonial
 yacht
-frighten
 consequential g
 extinct
 dome
-thickness
 stubborn
-muscle
-magnitude
-rub
+cowardly
 toast
 mouse
-syllable
-neutral
-detect
+dialogue
+disgusted
+goat
 flourish
 impose
-anonymous
+proclaim
 formal-register g
+sports
 calf
-manual
-anticipation
 melt
+delete
 umbrella
-boot
 mineral
 truce
 duck
+director
 soap
 doll
 villa
 sewing
+congratulate
 reconcile
-kettle
+suppress
 rabbit
-conductor
+guarantee
 player
-insect
-restaurant
-radical
+posture
+owl
+secondly
 resident
+respectively
 dragon
 auditory-evidential g 3
+tray
+exporting
 linger
-lid
 mayor
+violation
 hardware
-creative
 minority
-trench
 orchestra
 bacon
-prosecution
+brand
+defending
 disadvantage
-fabric
+deliberation
 musician
 mentally
-improper
+underground
+inadequate
 architect
-wed
 lemon
 cough
+headache
 fertility
 random
 spoon
-diary
 balloon
+chalk
+preventing
 inferential-evidential g 3
 publisher
+vinegar
+utility
 ash
-expletive g
-revive
-susceptible
 tunnel
 puzzle
-mechanism
 mathematics
 fade
 balanced
+liver
 sublative-case g
-dip
 unit
 monopoly
-gambling
+ton
 submarine
 regardless
 earthquake
 laboratory
-comments
-undergo
-self-control
+cork
+worker
+incline
+rhythm
+interpret
+disgraceful
 embassy
-chairman
-invent
+inability
 declarative-mood g
+rubber
+chocolate
+hermit
+scratch
 glove
 kneel
 geography
 investment
-analogy
+verbal g
+secular
 hawk
+pierce
 psychology
+regulate
 scrap
-pirate
-role
 dose
 salmon
 pudding
 magnetic
 pump
+similarly
 oxygen
-fringe
-certificate
-medal
+cluster
 rhetoric
 rung
-scrape
+oar
 login
 telescope
-necklace
 spelling
 surf
 whiskey
+relatively
+willow
 camel
 amateur
-adult
+sometime
 biography
 donkey
 perspective
 pro
 monthly
-vacation
+precedent
 click
-oval
-elastic
 dictionary
-partition
 ham
 rainbow
-organism
-spit
-outlet
+occurring
+corporal
 tank
-butterfly
 chart
-twin
-insulting
-independently
-marsh
+operating
+bamboo
+dealer
+accumulation
+unanimous
 nightmare
+carbon
+crisp
 jam
 listener
 museum
+scatter
+punch
+scare
+nut
 stability
-disclose
+solar
+rot
 aggressive
 friction
-participation
-pier
 spider
 potato
-maker
+profile
 greed
-premature
 multiply
-statistics
+spin
+particle g
+calendar
 nomination
 trillion
+salad
 affirmative-mood g
-applications
 nominal
+demonstrate
 dissatisfaction g
-infection
 shrug
 football
+partnership
 pioneer
-abnormal
-omission
-squeeze
-percentage
+cabbage
 ideophone g
 lever
-withdrawal
 senator
+proximity
+valve
 ant
+bug
+vapor
+bat
+effectively
 pregnant
+reliance
 everyday
-precipitate
+ankle
 variable
-curly
+diversity
 sulphur
-continental
-dictate
+discrimination
+rally
 frog
 exessive-case g
-grind
+atonement
+sponge
+squirrel
 irrealis-mood g 2
-indoors
+scarcity
+volcano
+equilibrium
+earnings
 exploit
-geological
 passport
+onion
 immoral
 biscuit
-cooperation
-forge
-atom
+film
+tablet
 aids
 fastidious
 pyramid
@@ -1614,132 +1523,134 @@ lute
 astronomy
 maze
 scholarship
-fibre
+turtle
 cricket
+denote
 pigeon
-adaptation g
-disapproval
 operator
+stimulate
 triangle
 treasurer
 hydrogen
 printer
 choke
-chronic
-cope
-dilemma
-symptom
 bicycle
 engineering
-spiral
-camera
+transmission
 dancer
 migration
+slang
 tennis
-addicted
 weave
 spine
-fry
-facilitate
-stab
-password
-hemisphere
-depressing
+chord
+loom
+thinker
+budget
 strategy
+quartz
+scissors
+flexible
+switch
+theoretical
+towel
+tidy
 patrol
 glacier
-halfway
-memorandum
-cone
-symmetry
+completeness
+prediction
+parental
+manufacturer
+lateral
 defendant
-mosque
 exhaust
 chess
-nucleus
 cherry
+metaphor
 stumble
 truck
+surpassing
+mustard
 wireless
 auction
-sieve
+rust
 unsteady
-suck
-unfriendly
+islam
 census
+explosive
 tiptoe
-relax
+suspend
+courtship
+commodity
 continuity
-bubble
 guitar
 bias
+zinc
 shiny
-whichever
+elm
 knitted
-soar
 pronoun-marker g
 spice
-bail
+fig
 tease
-java
-recipe
-plow
-gutter
+incongruous
+racial
 comet
 innovation
 medieval
-decorative
-plastic
+sparrow
 footnote
-dairy
+ratification
+frugal
 golf
 zero
-zip
-trigger
 chip
-oppress g
 yawn
-inequality
 mole
 pottery
 housewife
-irrational
-miner
+disobey
+embryo
+deduction
+predicament
 yeast
-intercept
-premium
-option
+reporting
+plum
+terminal
 graduate
 bankruptcy
+anterior
 irrigation
 capitalist
 elasticity
-geometry
 shark
 storage
-hopefully
 realism
+increasingly
 ambulance
 wallet
 grimace
 scientist
-gut
+kinship
 equanimity g
 realistic
-irrelevant
-bean
+outdoor
+radio
+cite
 informal
-granddaughter
 steak
 nitrogen
+observable
+razor
 mutter
-berry
-analyze
 contrasting
-fireworks
-pop
 undress
+furrow
+wrench
+judaism
+degrade
 complement
+lens
 pegative-case g
 cancer
 pawn
@@ -1748,380 +1659,392 @@ density
 chew
 complexity
 talkative
-acquit
-polar
+sufficiency
+retail
+vacuum
 discount
 taxi
 hierarchy
+jade
+hover
+abusing
 snarl
-naive
-presidency
+lizard
+waterfall
 buyer
 gallon
 mosquito
-deplore
 deviation
+wrestle
 mosaic
 plug
+infectious
+squat
 pregnancy
 grocery
 communist
 amaze
+contrition
 prosecutive-case g
 dictator
 preoccupation g
 satellite
+proportional
+consonant
 approximate
 unemployed
-implement
-bulb
-supporter
-lotus
+hobby
+criterion
+enhance
 chloride
 bacteria
-lattice
-biological
+sticky
 feign
-byte
 secretion
 ballet
 urine
 garlic
 middle-class
-laundry
-characterize
+tongs
+challenging
 strawberry
-notebook
-transcendental
+pollution
 album
 baseball
-piracy
 buffet
 participle g
 garage
-diagnosis
-extort
+crutch
 phosphorus
 structural
-glue
-thesis
 artisan
 banana
+antithesis
+photographic
+pest
 rib
 nickel
-currently
 bus
 censor
+hacker
 missile
 sausage
-manipulation
 tomato
-reinforce
-convex
+coherent
 potassium
 algebra
-jewellery
+survivor
+concepts
 optical
+budge
+biology
 unemployment
 disarm
-solo
-browser
+caterpillar
 historic-tense g
-capability
+nuclear
 spectrum
+taut
 sodium
-hysteria g
 trustee
 hostage
-athlete
+namesake
+gourd
 wrinkle
-comprise
 clip
-priority
-rape
+spike
+atheism
 monitor
-constituency
-cultural
-gender
+conditional
+probe
 platinum
 dual-number g 3
-specialty
 lung
+scouring
+tag
 super
 trolley
-mushroom
 locally
-incite
 gasoline
-pumpkin
 kidney
-loot
 arsenic
-snail
-infinitesimal
-socialist
+statistical
+facial
+grasshopper
 filter
-widen
 controversial
 leash
+sediment
+snub
 jockey
+cooperate
 pneumonia
 situate
-intersection
-solidarity
-hinge
-longitudinal
 dividend
-obtuse
 skate
-crouch
 exponent
-disability
-championship
-photographer
+obsession
+allotment
 digital
 bitch
 eyelid
+diagonal
 subconscious
 eyebrow
 sneeze
 hilarious
+hinduism
 refugee
+shuttle
 protein
-dump
-evolve
 vomit
 gene
 freshman
-merge
+shatter
 sociology
+pulley
+squash
+voter
 mobility
 regional
 motion-uphill g 3
-dilute
-retrospective g
-inversion
-tv
+evoke
 cube
-syntax
-productivity
 carrot
-molecular
-conglomerate
+displace
 accountant
-differentiation
-availability
+stink
 orgy
 solvent
 phosphate
+fascinate
 primer
+alkaline
+gymnastics
+verification
+economist
 comma
-premise
+wriggle
 motion-downhill g 3
+miscarriage
+pod
+designer
+bragging
 donor
-psychologist
-chlorine
 keyboard
+revoke
 elite
 parenthesis
 rugby
+bible
+causation
 ulcer
 inflected g
 nibble
-abortion
+quantum
 sweater
 evolutionary
-notation
-bounce
 dissection
-cache
+inverse g
+linear
 antimony
 superessive-case g
-tumor
 alpha
-navel
 immune
+molecule
+kidnapping
+brewery
 abridge
-captivate
+coerce
 sock
-movie
+television
+cereal
 cosmos
-pollute
-gregarious
+penis
 aluminum
-oscillation
-alphabetical
 horoscope
-tangent
+beneficiary
 dolphin
 killer
-resonance
-indicator
+mammal
+protocol
 dioxide
 bureaucracy
 distort
 galaxy
 clinical
-radium
+rarefied
 refrigerator
-harmonic
+advert
 archaeological
+idiosyncrasy
 specification
-interpolation
 leaflet
-incompleteness
+underlie
 anthropology
 tasty
-transitive g
 cower
+vegetarian
+sunflower
 simulation
-vagina
 ion
+extradition
 tourism
-trigonometry
-kidnap
+falsify
+emission
 overlap
-finder
-oust
+invert
 hairdresser
 folklore
 capillary
-nationalism
 buttocks
+controller
+terrorism
+slogan
 sublimate
-buffer
-frustration g
+hyperbole
 cobalt
-subtraction
+predominantly
+oat
 motion-upriver g 3
-coordinates
 anus
+bovine
+bowel
 redundancy
 video
 boycott
-quiz
+hockey
+alliteration
 guerrilla
 magnesium
-radar
-qualitative
+awareness
 reliability
 rectangle
+kelp
 generalize
-anymore
 curfew
-formulation
-reincarnation
+theorem
 ignite
 uranium
+assess
+coordinate
 taxpayer
-integrated
-opine
+ellipsis
 gamma
-server
-motion-downriver g 3
 coefficient
+analyst
+intransitive g
+mall
 bismuth
 postcard
+convergence
 digress
+shareholder
+microbe
+helix
 morphological
-evaluation
 jeans
+ambient
+alignment
 database
 calculator
 investor
 x-ray
-agenda
+orientation
+amalgamate
+disjunction g
 visa
 infrastructure
+firefly
 detector
+implementation
+euphemism
 splice
 bromine
+palladium
 silicon
 hiccup
-pastel
+consultant
 zoo
-clinic
+connotation
+collocation
 yoga
-bookstore
-retailer
+barium
 behead
-yeah
 jazz
+audio
 tungsten
 terrorist
-conceptual
-cartesian
 dribble
 alimony
 programmer
 input
+chrysanthemum
 makeup
+documentation
 vaccine
-axiomatic
+semester
+medial
 heroin
+diagnose
 folder
 cathode
-flu
 ideology
 parking
-snapshot
-anticlimax g
+accessibility
 selenium
+distal
 cortex
+trajectory
 equivalence
-vertex
 airport
 amputate
 imposter
+cockroach
 chromium
 litre
-dashboard
+nonetheless
+cyclic
 hormone
-perforate
-animism
 polygon
 feminist
-conjugate
-euro
 algorithm
+anthropomorphism
 laser
 drugstore
 millimeter
-flex
+modifier
 anode
-nuance
 snuggle
 part-time
 sensitivity
-mainframe
-demonstrator
+rejuvenation
 helium
 bilingual
-gerund g
 plasma
 chromosome
-integer
+ordinal g
 kilometre
 fax
-genetics
-freckle
 broccoli
-permutation
 spam
 vector
-tactic
 alright
+clone
 vitamin
-cadmium
-graphical
-manually
+viable
+simultaneity
 titanium
-splurge
+copulate
+hourglass
+syntactic
+schema
+boron
 helicopter
+questionnaire
 tellurium
 deadline
-align
-analog
+oxidize
 centimetre
 molybdenum
 lithium
@@ -2129,387 +2052,330 @@ multimedia
 calorie
 robot
 homework
+locative
 logarithm
-instal
 glyph
 ecology
+pejorative
 sophisticate
-template
-euclidean
 kilogram
 overeat
-divisor
-freeware
+ostracize
+subset
 eavesdrop
-haircut
-iridium
-racism
-bandwidth
-optimal
-hypotenuse
+metonymy
+industrialization
 desktop
 headquarter
 misplace
-cerium
+partitive
 partitive-case g
 cassette
 supermarket
 willpower
-dimensional
-offline
-encryption
 synchronize
 seminar
-semantic
+onomatopoeia
 disco
 neon
-real-time
-osmium
-lifestyle
-firewall
-cosine
+pasta
+clockwise
 artifact
+oregano
 plutonium
-workstation
 yttrium
 augmentative g
-username
-right-wing
-argon
-socialize
 globalization
-secant
 wavelength
-encode
 recycle
-asymptote
-decode
 restart
 hepatitis
-proton
-diskette
+torus
+arousal g
+oxymoron
 milligram
 pixel
 tantalum
+thermodynamic
 solute
 genocide
+triggering
+firefighting
 gallium
-pop-up
 zirconium
 nonlinear
-pesticide
-polynomial
+scandium
 beryllium
 neuron
 predicative g
-router
 factorial
-widget
 neutron
+quantified
 niobium
 germanium
 metalloid
 prolative-case g 3
 biodiversity
-industrialize
-joystick
 antibiotic
+immobilization
 actinium
 astronaut
-decompress
-extrapolation
 extraterrestrial
-octet
-open-source
+crackpot
 marathon
-plug-in
-topology
-gigabyte
+autism
 ionize
+radon
+invading
+emanating
+arraignment
+xenon
+professor
+accident
+swearing
+credit-card
+misdeed
+rescuing
+compile
+redirecting
+poet
+entourage
+forging
+actor-role g
+to-close
+maturation
+physics
+one-second
+nonremittal
+receptor
+blue-jean
+air-force
 si-units
-camping
-finite-verb g
-krypton
-gnomic-mood g
-shift-key
-squares
-salesperson
-rhenium
-cell-phone
-sideways
-modal-case g
-junk-mail
+tapered
+obviousness
+striped
+yogurt
 railcar
-clip-art
-bookmark
-hafnium
-home-page
-lative-case g
+post-office
+phoneme
+fool-around
+next-to
+volubility
+web-site
+soya
+supplier
+intoxicants
+rashness
+modal-case g
+roles
+ethium
 nth-root
-flowchart
-middle-voice g 3 
-old-age
-rounding
+comic-strip
+color-blind
+quarreling
+bald
+krypton
+safflower
+polarity
+non-human g
+timespan
+microphone
+amounting
+pro-phrase g
+trial-number g 3
+disembarking
+index-finger
+centric-case g
+delimitation
+meandering
+inceptive
+notification
+attaching
+mobile-phone
+mail-carrier
+goal-trigger g
+lanthanum
 rhodium-atom
-bad-tempered
+middle-voice g 3 
 oblique-case g
 patient-case g
-prehodiernal g
-bald
-goal-trigger g
+chatting
+feces
 praseodymium
-paralyzed
-complain
-to-case g
-radiation
-indium
-actor-role g
-euphoria g
-caps-lock
-whitespace
-dramatically
-chauvinist
-web-site
-houseplant
-civil-rights
-protactinium
-projective
-binary-value g
-goalkeeper
-retail-store
-status-bar
-microphone
-human-body
-swear-in
-mail-carrier
-centric-case g
-trojan-horse
-scroll-bar
-triple-point
-read-only
-wisecrack
-impermanence
-poet
-phonological
-hypnothize
-trial-number g 3
-receptor
+thulium-atom
 verb-affix g
-non-human g
-flow-current
-that-which g
-clause-tail g
-upside-down
-for-example g
-ip-address
-in-language g
-individually
-pro-sentence g
-epidemiology
-legislate
-striped
-strikebreaker
-astatine
-overcharge
-else-if g
-angles
-wear-out
-citation-form g
-ergative-case g
-suburb
-common-gender g
-supercomputer
-direct-object g
-motorist
-statistically
-lutetium
-rationality
-passive-voice g 3
-causative g
+thorium-atom
+swear-in
+disapproving
+applied
 cesium
-search-engine
-toolbar
-automatically
-californium
-mendelevium
-agent-trigger g
-color-blind
-comic-strip
-teminal
-dot-matrix
-samarium
-short-circuit
-compile
-agentive-case g
-accident
-fractals
-multal-number g 3
-to-close
-broad
-adessive-case g
-cooperative
-eulers-number
-laser-printer
-trans-numeral g
-blog
-combinatorial
-pythagoras
-abessive-case g
-locative-case g 3
-swimming-pool
-cybercrime
-post-office
-malware
-inhibition
-spyware
-recording
-interviewer
-clip-board
-xenon
-spreadsheet
-nth-power g
-movie-theater
-inbox
-per-cent
-aerosol
-distributor
-dynamical
-one-second
-subtend
-brownian
-star-gender g
-galaxy-gender g
-cardboard
-computability
-one-another
-police-officer
-primary-object g
-animate-gender g 3
-evitative-case g
-vehicle-gender g
-data-mining
-possessed-case g 3
-americium
-mineral-gender g
-domain-name
-imaginary-unit
-neptunium
-verbal-noun g
-mathematicians
-posessive-case g 3
-modeling
-final-particle g
-flash-drive
-floppy-disk
-firefighter
-critical-point
-empathetic-joy g
-word-processor
-prime-minister
-virtual-memory
-adverbial-case g
-ethium
-shorts
-fool-around
-equations
-subessive-case g
-log-out
-spammer
-antessive-case g
-crosswalk
-user-interface
-ghostwriter
-computer-virus
-facilitator
-rehabilitation
-auxiliary-verb g
-first-hand
-motherboard
-patient-trigger g
-runtime
-collective-noun g 3
-koran
-business-person
-transitive-verb g
-cloud-computing
-virtual-machine
-absolutive-case g
-virtual-reality
-past-perfective g
-impersonal-verb g
-crastinal-tense g
-reflexive-voice g 3
-abstract-gender g
-different-event g
-exocentric-case g
-second-language g
-artistic-gender g
-self-confidence g
-research-gender g
-indirect-speech g
-locality-gender g
-physics
-universe-gender g
-closure
-superlative-case g
-matching
-computer-program
-antibody
-full-time
-propositive-mood g
-associative-case g
-inanimate-gender g 3
-text-editor
-planetary-gender g
-operating-system
-grammatical-case
-electric-current g
-reciprocal-voice g 3
-flatware
-core-benefactive g
-web-host
-radian
-applicative-voice g 3
-phoneme
-successive-clause g
-notebook-computer
-gas-pedal
-antipassive-voice g 3
-folk-music
-terabyte
-social-networking
-negotiation
-nonremittal
+contacting
+binary-value g
+retail-store
+connectors
+triple-point
+chauvinist
+flow-current
+subsisting
+dramatically
 morpheme
-linker g
-neodymium
-radiation-sickness
-present-participle g
-necessitative-mood g
-existential-clause g
-excessive-duration g
+bad-tempered
+phonological
+else-if g
+civil-rights
+unquote g
+suburb
+surprisingly
+according-to
+surrendering
+individually
+relationships
+first-hand
+old-age
+legality
+undressing
+goalkeeper
+galaxy-gender g
+eulers-number
+folk-music
+short-circuit
+automatically
+used-to
+lative-case g
+netium
+swimming-pool
+spreadsheet
+trans-numeral g
+polonium-atom
+multal-number g 3
+paralyzed
+locative-case g 3
+indium
+abessive-case g
+adessive-case g
+agentive-case g
+reverential
+erasing
+passive-voice g 3
+agent-trigger g
+periphrasis
+euphoria g
+common-gender g
+citation-form g
+fluorine-atom
+movie-theater
+koran
+referring
+rubidium-atom
+star-gender g
+counterattack
+ergative-case g
+direct-object g
+vanadium-atom
+strontium-atom
+final-particle g
+ruthenium-atom
+police-officer
+prime-minister
+antessive-case g
+primary-object g
+adverbial-case g
+flats
+possessed-case g 3
+reshaping
+subessive-case g
+evitative-case g
+retaining
+shorts
+businessperson
+finite-verb g
+gnomic-mood g
+animate-gender g 3
+empathetic-joy g
+critical-point
+computer-virus
+imaginary-unit
+vehicle-gender g
+mineral-gender g
+corroding
+verbal-noun g
+different-event g
+processor
+crastinal-tense g
+collective-noun g 3
+self-confidence g
+candidness
+work-out
+cardboard
+past-perfective g
+exocentric-case g
+transitive-verb g
+auspicious-
+clause-tail g
+second-language g
+universe-gender g
+indirect-speech g
+reflexive-voice g 3
+locality-gender g
+research-gender g
+artistic-gender g
+virtual-machine
+patient-trigger g
+abstract-gender g
+evaluative
+rationality
+impersonal-verb g
+absolutive-case g
+detaching
+propositive-mood g
+planetary-gender g
+at-case g
+inanimate-gender g 3
+electric-current g
+descriptor
+reciprocal-voice g 3
+associative-case g
+grammatical-case
+core-benefactive g
+aerosol
+buddhism
+superlative-case g
+silencing
+human-body
+soprano
+fining
+summarizing
+successive-clause g
+gas-pedal
+hypnothize
+full-time
+applicative-voice g 3
+antipassive-voice g 3
+luminous-intensity g
+superiors
 passive-participle g
 grammatical-object
+antibody
+necessitative-mood g
 continutive-aspect g
-singulative-number g
-luminous-intensity g
 superlative-degree g
-blue-jean
-elective-quantifier g
-supercritical-fluid
+present-participle g
+excessive-duration g
+existential-clause g
+singulative-number g
 epenthetic-morpheme g
 postpositional-case g
+motorist
 negatory-quantifier g
+supercritical-fluid
 connective-particle g
-netium
-universal-quantifier g
-air-force
-allocutive-agreement g
-computer-programming
+elective-quantifier g
 assertive-quantifier g
 frequentative-aspect g
+universal-quantifier g
+allocutive-agreement g
+projectiles
+computer-programming
 distributive-pronoun g 3
-alternative-quantifier g
-phishing
-scalar
+denominator
 counterfactual-conditional g
