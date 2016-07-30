@@ -56,6 +56,8 @@ cat "weatherVocab.txt" >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
 cat "scienceVocab.txt" >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
+cat "classificationVocab.txt" >> comboWordList.txt
+echo -e "\n" >> comboWordList.txt
 cat "roboticsVocab.txt" >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
 cat "engineeringVocab.txt" >> comboWordList.txt

@@ -54,6 +54,7 @@
 
 var io = require("../../lib/io"),
     hof = require("../../lib/hof"),
+    specialWords = [],
     rootBlacklist,
     Entry = function () {
     //      ob Chinese (Sino-Tibetan) 1030 and
@@ -91,12 +92,13 @@ var io = require("../../lib/io"),
     },
     allTransLangs = [
         "zh", "en", "hi", "sw",   "id", "es", "ar", "bn", 
-        "ru", "ko", "pt", "tr",   "pa", /*"vi",*/ "de", "fa", 
+        "ru", "ko", "pt", "tr",   "pa", "vi", "de", "fa", 
 
         "fr", "mr", "ta", "te",   "gu", "ur", "am", "it", 
         "pl", "kn", "ml", "my",   "ro", "az", "nl", "hu", 
 
-        "ku", "si", "ne", "el",   "cs", "sv", /*"ka"*/
+        "ku", "si", /*"ne",*/ "el",   "cs", "sv", "th", /*"ka"*/
+        "fi",
         ],
     allPhonLangs = ["en", "zh", "hi", "sw", "de", "sv", "ar",
         "id", "vi", "tr", "ru", "ta", "fa", "fr", "pt", "it",
@@ -162,7 +164,7 @@ function returnIfUnique(transEntry, allDefinObj, index,
     allTransLangs.forEach(function (key) {
         values = allDefinObj[key];
         word = transEntry[key];
-        if (word === "") {
+        if (word === "" || word === undefined || /^\s$/.test(word)) {
             //console.log(key + " " + word + " blank");
             foundBlanks += 1;
             thesaurusEntry.push("(blank in) " + key + ":");
@@ -178,8 +180,9 @@ function returnIfUnique(transEntry, allDefinObj, index,
                         thesaurusWord.toLowerCase() !== enDef) {
                     if (transObj["X" + enDef][key] !== undefined &&
                         transObj["X" + enDef][key] !== "") {
-                      thesaurusEntry.push(key + ":");
-                      thesaurusEntry.push(thesaurusWord);
+                        thesaurusEntry.push(key + ": '" + transObj["X" +
+                                          enDef][key].replace(/\s/g,""));
+                        thesaurusEntry.push(thesaurusWord);
                     }
                 } 
                 return defIndex;
@@ -209,7 +212,10 @@ function returnIfUnique(transEntry, allDefinObj, index,
             matchingDefs.forEach(function (defIndex) {
                 var defWord = mainWords[defIndex];
                 if (thesaurus["X" + defWord] !== undefined) {
-                    foundDuplicateDefs += 1;
+                      if ((enDef !== "fish" && key !== "my" )&&
+                          specialWords.indexOf(enDef) === -1) {
+                          foundDuplicateDefs += 1;
+                      }
                 }
             });
         }
@@ -315,6 +321,8 @@ function main() {
         blackLines = stringToWordLines(blackFileContents),
         blacklistWords = wordOfEachLine(0, blackLines),
         wordLines = stringToWordLines(fileContents),
+        atomWords =  (io.fileRead("atoms.txt") +"\n" + 
+                      io.fileRead("numbers.txt")).split("\n"),
         //wordLines = removeBlacklisted(wordLines, blacklist),
         mainWords = wordOfEachLine(0, wordLines),
         //usedWords = mainWords.slice(0),
@@ -328,6 +336,7 @@ function main() {
         blacklist = {},
         outObj = {},
         allDefObj = makeAllDefinObj(transObj, mainWords);
+  specialWords = atomWords;
     rootBlacklist = blacklistWords;
     if (Array.isArray(rootBlacklist) === false) {
         console.log("bl " + JSON.stringify(blacklistWords));

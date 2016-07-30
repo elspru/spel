@@ -168,7 +168,8 @@ key
 keyboard
 keyword
 laptop
-laser-printer
+laser
+printer
 link
 login
 log-out
@@ -188,7 +189,8 @@ multimedia
 net
 network
 node
-notebook-computer
+notebook
+computer
 offline
 online
 open-source

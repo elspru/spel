@@ -58,7 +58,7 @@ conjunction g
 connective-particle g
 continuous-aspect g
 contrastive g
-copula g
+copula g 2
 coreference g
 crastinal-tense g
 current-relevance-marker g
@@ -323,4 +323,5 @@ abstract-gender g
 benedictive-mood g
 pro-phrase g
 pro-sentence g
+independent-clause g
 dependent-clause g 2

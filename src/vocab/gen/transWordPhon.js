@@ -608,7 +608,7 @@ function updatePhonemicEntry(phonEntry, transEntry) {
     var translation,
         word;
     Object.keys(phonEntry).forEach(function (key) {
-        if (phonEntry[key] === "") {
+        if (phonEntry[key] === "" || /^\s$/.test(phonEntry[key])) {
             if (key === "zhy") {
                 word = transEntry.zh;
             } else {
@@ -647,10 +647,10 @@ function updatePhonemicEntry(phonEntry, transEntry) {
 
 function main() {
     var //fileContents = io.fileRead("sortedComboList.txt"),
-        fileContents = io.fileRead("comboUniqList-mid.txt"),
+        fileContents = io.fileRead("comboUniqList-mega.txt"),
         wordLines = stringToWordLines(fileContents),
         mainWords = wordOfEachLine(0, wordLines),
-        transJSON = io.fileRead("genTransX.json"),
+        transJSON = io.fileRead("genTransX.json.bak"),
         transObjX = JSON.parse(transJSON),
         phonJSON = io.fileRead("genPhonX.json"),
         phonObjX = JSON.parse(phonJSON),

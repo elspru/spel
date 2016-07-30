@@ -409,7 +409,7 @@ var Bit4Alphabet =     ["m","k","i","a","y","u","p","w",
         ["4",""],  ["ئ","ʔ"],
     /* punctuation */
         ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
-        ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["-", ""],
+        ["ˌ", ""], [",", ""], ["\\.", ""], ["\\^", ""], ["-", ""],
         ["_", ""], ['"', ""], ["ː", ""], [" ", ""], 
         ["\n", ""], [":", ""], [String.fromCharCode(797), ""],
         [String.fromCharCode(0x27), ""],
@@ -584,7 +584,7 @@ var Glyph24Alphabet =     ["m","k","i","a","y","u","p","w",
         ["ه","h"],  ["ض","dˤ"],
         ["4",""],  ["ئ","ʔ"],
         /* punctuation */
-        ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
+        ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""], [",", ""],
         ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["\\-", ""],
         ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
         ["\n", ""], [":", ""], [String.fromCharCode(797), ""],
@@ -699,7 +699,7 @@ function ipaTo28Glyph(word) {
         ["ه","h"], ["ئ","ʔ"],
         ["4",""],  ["ض","dˤ"],
         /* punctuation */
-        ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
+        ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""], [",", ""],
         ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["\\-", ""],
         ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
         ["\n", ""], [":", ""], [String.fromCharCode(797), ""],
@@ -819,7 +819,7 @@ function ipaTo32Glyph(word) {
         ["ه","h"],  ["ض","dˤ"],
         ["4",""],  ["ئ","ʔ"],
         /* punctuation */
-        ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""],
+        ["\\(..\\)", ""], ["\\(...\\)", ""], ["ˈ", ""], [",", ""],
         ["ˌ", ""], ["\\.", ""], ["\\^", ""], ["\\-", ""],
         ["_", ""], ['"', ""], ["ː", ""], [" ", ""],
         ["\n", ""], [":", ""], [String.fromCharCode(797), ""],
@@ -1109,15 +1109,19 @@ function main() {
         G28ShortGramMax = 120,
         G28GramMax = 666,
         G28RootMax = 5898,
-        someWords = [/*"liberia", "litre", "brachylogia", 
+        someG28Words = ["litre"],
+        someG32Words = [/*"liberia", "litre", "brachylogia", 
             "gamma", "astatine", "xml", "wiki", "topos",
-            "trademark", "antessive-case", "cocoa", "meter", "bromine", 
+            "trademark",*/ "antessive-case",/* "cocoa", "meter", "bromine", 
             "canada", "adam"*/];
         var word = line[0],
             gram = line[1],
             gramLength = line[2] && parseInt(line[2], 10),
             genedGram,
             present = false;
+        if (/^-/.test(word) || /-$/.test(word)) {
+          gram = "g";
+        }
         phonEntry = phonObjX["X" + word];
         if (phonEntry === undefined) {
             console.log(word + " undefined");
@@ -1137,13 +1141,14 @@ function main() {
             if (phonWord !==  undefined) {
                 /*jslint bitwise:true*/
                 //console.log("langCode " + langCode);
-                if (someWords.indexOf(word) > -1 ||
+                if (someG32Words.indexOf(word) > -1 ||
                         rootCount > ((G28RootMax / 1.61) | 0)) {
-                    if (someWords.indexOf(word) > -1) {
+                    if (someG32Words.indexOf(word) > -1) {
                       console.log("convering " + word + " to 32Glyph");
                     }
                     rootGlyphWord = ipaTo32Glyph(phonWord);
-                } else if (rootCount > ((G24RootMax / 1.61) | 0)
+                } else if (someG28Words.indexOf(word) > -1 ||
+                        rootCount > ((G24RootMax / 1.61) | 0)
                         ) {
                     rootGlyphWord = ipaTo28Glyph(phonWord);
                 } else if (rootCount > ((G16RootMax / 1.61) | 0) 
@@ -1152,7 +1157,7 @@ function main() {
                 } else {
                     rootGlyphWord = ipaTo16Glyph(phonWord);
                 }
-                if (someWords.indexOf(word) > -1 || (gram &&
+                if (someG32Words.indexOf(word) > -1 || (gram &&
                         (gramCount > ((G28GramMax / 1.61) |
                         0))) || (gram && (shortGramCount >
                         ((G28ShortGramMax / 1.61) | 0)))) {
@@ -1176,7 +1181,7 @@ function main() {
             }
             addGlyphs(gramPhonEntry, gramGlyphWord, langWeights[langCode]);
             addGlyphs(rootPhonEntry, rootGlyphWord, langWeights[langCode]);
-            if (someWords.indexOf(word) > -1) {
+            if (someG32Words.indexOf(word) > -1) {
               addGlyphs(gramPhonEntry, "7", 0.02);
               addGlyphs(gramPhonEntry, "_", 0.01);
               addGlyphs(rootPhonEntry, "7", 0.02);
@@ -1235,13 +1240,10 @@ function main() {
     }
     var fileContents = io.fileRead("comboUniqList.txt"),
         midFileContents = io.fileRead("comboUniqList-mid.txt"),
-        //blackFileContents = io.fileRead("rootBlacklist.txt") + 
-         //                   io.fileRead("nationTerms.txt"),
-        //blackLines = stringToWordLines(blackFileContents),
-        //blacklist = [], //wordOfEachLine(0, blackLines),
-        //wordLinesRaw = stringToWordLines(fileContents),
+        megaFileContents = io.fileRead("comboUniqList-mega.txt"),
         wordLines = stringToWordLines(fileContents),
         midWordLines = stringToWordLines(midFileContents),
+        megaWordLines = stringToWordLines(megaFileContents),
        // wordLines = removeBlacklisted(wordLinesRaw, blacklist),
         //Glyph16File = io.fileRead("16GlyphWordList.txt"),
         //G16Lines = stringToWordLines(Glyph16File),
@@ -1251,6 +1253,7 @@ function main() {
         availableList = wordOfEachLine(0, G24Lines),
         mainWords = wordOfEachLine(0, wordLines),
         midMainWords = wordOfEachLine(0, midWordLines),
+        megaMainWords = wordOfEachLine(0, megaWordLines),
         phonJSON = io.fileRead("genPhonX.json"),
         phonObjX = JSON.parse(phonJSON),
         //langWordJSON = "{}", //
@@ -1286,6 +1289,7 @@ function main() {
     if (langWordObj.rootCount) {
         rootCount = langWordObj.rootCount;
     }
+// core words
     // mainWords.map(getTranslations.curry(transObj));
     //for (i = 0; i << wordLines.length; i++) {
     wordLines.forEach(function (line) {
@@ -1313,6 +1317,7 @@ function main() {
             formatDictionary(rootList, mainWords));
     io.fileWrite("langWords-core.json", JSON.stringify(outObj));
    // }
+// mid words
     midWordLines.forEach(function (line) {
       console.log("mid words");
       if (wordLines[0].indexOf(line[0]) < 0) {
@@ -1336,6 +1341,30 @@ function main() {
     io.fileWrite("rootWords-mid.txt",
             formatDictionary(rootList, midMainWords));
     io.fileWrite("langWords-mid.json", JSON.stringify(outObj));
+// mega words
+    megaWordLines.forEach(function (line) {
+      console.log("mega words");
+      if (wordLines[0].indexOf(line[0]) < 0) {
+        tmpObj = makeWord(line, phonObjX, rootPhonObjX, availableList, rootCount,
+                  gramCount, shortGramCount);
+        gramCount = tmpObj.gramCount;
+        rootCount = tmpObj.rootCount;
+        shortGramCount = tmpObj.shortGramCount;
+        availableList = tmpObj.availableList;
+      }
+    });
+    //console.log(gramList);
+    //console.log(rootList);
+    io.fileWrite("rootPhon.json", JSON.stringify(rootPhonObjX));
+    outObj.mainWords = mainWords;
+    outObj.gramList = gramList;
+    outObj.rootList = rootList;
+    outObj.availableList = availableList;
+    io.fileWrite("gramWords-mega.txt",
+            formatDictionary(gramList, megaMainWords));
+    io.fileWrite("rootWords-mega.txt",
+            formatDictionary(rootList, megaMainWords));
+    io.fileWrite("langWords-mega.json", JSON.stringify(outObj));
 }
 
 main();

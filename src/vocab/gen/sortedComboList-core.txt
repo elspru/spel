@@ -108,7 +108,7 @@ any
 your
 what g
 question-word g 3
-copula g 3
+copula g 2
 indicative-mood g
 person g 3
 man
@@ -1274,6 +1274,7 @@ arrival
 imagination
 loud
 sentence
+independent-clause g
 lovely
 extraordinary
 november
@@ -5421,6 +5422,7 @@ enhance
 lettuce
 fusion
 poll
+chlorine
 chloride
 talented
 thaw
@@ -5934,7 +5936,6 @@ donor
 manganese
 psychologist
 spinach
-chlorine
 intensive
 synonym
 cogent

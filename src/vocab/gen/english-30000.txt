@@ -35,6 +35,7 @@
 0 it
 0 third-person
 7 that 11073318
+0 independent-clause
 0 dependent-clause
 8 was 10078245
 0 perfective-aspect
@@ -13452,6 +13453,7 @@
 13235 brine 1945.39
 13236 accountable 1943.02
 13237 enigma 1943.02
+0 chlorine
 13238 chloride 1942.23
 13239 magistracy 1942.23
 13240 ottawa 1942.23

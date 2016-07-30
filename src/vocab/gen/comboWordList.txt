@@ -479,6 +479,7 @@ abstract-gender g
 benedictive-mood g
 pro-phrase g
 pro-sentence g
+independent-clause g
 dependent-clause g 2
 
 
@@ -25567,7 +25568,8 @@ key
 keyboard
 keyword
 laptop
-laser-printer
+laser
+printer
 link
 login
 log-out
@@ -25587,7 +25589,8 @@ multimedia
 net
 network
 node
-notebook-computer
+notebook
+computer
 offline
 online
 open-source
@@ -27255,7 +27258,8 @@ celestial
 certify
 change
 clean
-clean-up
+clean
+up
 climate
 coastal
 collection
@@ -27302,7 +27306,8 @@ drastic
 drought
 dynamic
 earth
-eco-friendly
+eco
+friendly
 ecological
 ecology
 ecosystem
@@ -27319,7 +27324,8 @@ efficient
 energy
 star
 enthusiasm
-enviro-home
+enviro
+home
 environment
 environs
 envision
@@ -27384,7 +27390,8 @@ healthy
 heating
 heliotrope
 hemp
-high-efficiency
+high
+efficiency
 humanity
 humidity
 hygiene
@@ -27419,9 +27426,11 @@ leakage
 lifestyle
 light
 limits
-low-flow
+low
+flow
 shower
-low-flow
+low
+flow
 toilet
 maintenance
 management
@@ -27545,7 +27554,8 @@ shelter
 shortages
 skepticism
 slide
-soil-covered
+soil
+covered
 roof
 solar
 solar
@@ -27652,11 +27662,13 @@ wood
 world
 world
 wide
-world-class
+world
+class
 xeriscape
 yield
 zealous
-zero-tolerance
+zero
+tolerance
 zone
 absorption
 abundance
@@ -27664,7 +27676,8 @@ access
 accessibility
 accommodate
 acid
-acid-rain
+acid
+rain
 activist
 adaptation
 admire
@@ -27700,7 +27713,8 @@ barren
 beach
 beachfront
 benefit
-bio-diesel
+bio
+diesel
 biodegradable
 biodiversity
 biota
@@ -27729,7 +27743,8 @@ ceremony
 chemicals
 chemistry
 choked
-clean-up
+clean
+up
 climate
 coastal
 color
@@ -27862,7 +27877,8 @@ fields
 fierce
 filter
 fire
-fire-break
+fire
+break
 fisheries
 flood
 flood
@@ -27913,7 +27929,8 @@ hatred
 hazard
 haze
 herbicide
-high-risk
+high
+risk
 hillside
 homeless
 hubbub
@@ -28274,7 +28291,8 @@ wind
 power
 winner
 world
-world-class
+world
+class
 worldwide
 wreck
 xeriscape
@@ -28282,7 +28300,8 @@ yield
 zealot
 zealous
 zenith
-zero-tolerance
+zero
+tolerance
 zone
 
 
@@ -29405,6 +29424,94 @@ zone
 zygote
 
 
+bacteria
+protista
+plantae
+fungi
+animalia
+archaea
+eukaryota
+prokaryota
+vertebrate
+invertebrate
+fishes
+amphibian
+amphibians
+reptile
+reptiles
+bird
+brids
+mammal
+mammals
+insect
+insects
+mollusc
+molluscs
+crustacean
+crustaceans
+coral
+corals
+arachnid
+arachnids
+horsehoe-crab
+velvet-worm
+rhodophyta
+glaucophyta
+viridiplantae
+phyta
+embryophytes
+streptophyta
+charales
+chlorophyta
+algae
+bryophyte
+pteridophytes
+spermatophyte
+phyte
+cycadophyta
+ginkgophyta
+pinophyta
+gnetophyta
+magnoliophyta
+pteridophyta
+lycopodiophyta
+bryophyta
+anthocerotophyta
+marchantiophyta
+charophyta
+chlorphyta
+heterokonta
+chordata
+tetrapod
+cnidaria
+parazoa
+eumetazoa
+radiata
+bilateria
+mesozoa
+mephrozoa
+deuterostomia
+protostomia
+stomia
+phylum
+ecdysozoa
+platyzoa
+lophotrochozoa
+phylum
+angiosperm
+sperm
+monocot
+poaceae
+poales
+polygonaceae
+amaranthaceae
+brassica
+eudicot
+rosaceae
+rosid
+betulaceae
+
+
 ahead
 analysis
 appropriate
@@ -30320,7 +30427,8 @@ maturation
 maturity
 meadow
 miniature
-miracle-gro
+miracle
+gro
 mites
 mix
 mixture
@@ -31268,7 +31376,7 @@ calcium
 carbonate
 carbon
 dioxide
-carbon-14
+carbon
 dating
 carbonic
 acid
@@ -31535,7 +31643,8 @@ weathering
 wonder
 worldwide
 zealous
-zero-impact
+zero
+impact
 zest
 zigzag
 zone

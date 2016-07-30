@@ -94,12 +94,12 @@ var io = require("../../lib/io"),
         "fr", "mr", "ta", "te",     "gu","ur","am", "it",  
         "pl","kn","ml","my",      "ro", "az","nl","hu", 
 
-        "ku","si","ne","el",    "cs", "sv", "ka", "jv",  
-        "uk","sr","fi","cy",    "he", "ja", "lt", "da", "tl", 
+        "ku","si","ne","el",    "cs", "sv", "ka", "th", "fi", 
+        "mn", "jv",  "uk","cy", "sr", "he", "ja", "lt", "da", "tl", 
 
-        "th","te","ps","jv",    "su", "ha",   "yo", 
+        "te","ps",   "su", "ha",   "yo", 
         "uz","sd","mi","ig",    "mg", "km", "so",  "zu", 
-        "ny","mn","lo","zu",    "xh",    ];
+        "ny","lo","zu",    "xh",    ];
 
 function stringToWordLines(string) {
     function lineToWords(line) {
@@ -144,7 +144,7 @@ function translateWord(word, toLangCode) {
     command = "./trans.sh " + toLangCode + " '" + word +"'";
     try {
         translation = JSON.parse(exec(command, {timeout: 5000}).output).
-                      translatedText;
+                      translatedText.replace(/\n/g,"");
     } catch (e) {
         console.log(e.stack);
         console.log(e);
@@ -165,7 +165,7 @@ function updateTranslationEntry(entry, word) {
         entry.en = word;
     }
     Object.keys(entry).forEach(function (key) {
-        if (entry[key] === "") {
+        if (entry[key] === undefined || /^\s*$/.test(entry[key])) {
             translation = translateWord(word, key);
             console.log(word + " " + translation);
             entry[key] = translation;
