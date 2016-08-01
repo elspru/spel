@@ -322,6 +322,7 @@ function main() {
         blacklistWords = wordOfEachLine(0, blackLines),
         wordLines = stringToWordLines(fileContents),
         atomWords =  (io.fileRead("atoms.txt") +"\n" + 
+                      io.fileRead("calendar.txt") +"\n" +
                       io.fileRead("numbers.txt")).split("\n"),
         //wordLines = removeBlacklisted(wordLines, blacklist),
         mainWords = wordOfEachLine(0, wordLines),

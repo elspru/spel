@@ -137,15 +137,7 @@ function uniqueLines(wordLines) {
     return uniqueLinesV;
 }
 
-
-function main() {
-    var fileContents = io.fileRead("comboWordList.txt"),
-        wordLines = stringToWordLines(fileContents),
-        freqFileContents = io.fileRead("english-30000.txt"),
-        freqWordLines = stringToWordLines(freqFileContents),
-        freqWords = wordOfEachLine(1, freqWordLines),
-        result = "";
-    //console.log("wl " + JSON.stringify(wordLines));
+function sortAll(freqWords, wordLines) {
     console.log("merging compounds");
     wordLines = mergeCompounds(wordLines);
     //console.log(JSON.stringify(wordLines)+ " mc");
@@ -158,10 +150,32 @@ function main() {
     console.log("sorting by frequency list");
     wordLines.sort(compareToWordListIndex.curry(freqWords));
     //console.log(JSON.stringify(wordLines) + " sorted");
-    result = wordLinesToString(wordLines);
-    console.log(result);
-    console.log("writing result");
-    io.fileWrite("sortedComboList.txt", result);
+    return wordLinesToString(wordLines);
+}
+
+function main() {
+    var coreFileContents = io.fileRead("comboWordList-core.txt"),
+        midFileContents = io.fileRead("comboWordList-mid.txt"),
+        megaFileContents = io.fileRead("comboWordList-mega.txt"),
+        coreWordLines = stringToWordLines(coreFileContents),
+        midWordLines = stringToWordLines(midFileContents),
+        megaWordLines = stringToWordLines(megaFileContents),
+        freqFileContents = io.fileRead("english-30000.txt"),
+        freqWordLines = stringToWordLines(freqFileContents),
+        freqWords = wordOfEachLine(1, freqWordLines),
+        sortAll2 = sortAll.curry(freqWords),
+        result = "";
+    //console.log("wl " + JSON.stringify(wordLines));
+    console.log("sorting");
+    result = sortAll2(coreWordLines);
+    console.log("writing core result");
+    io.fileWrite("sortedComboList-core.txt", result);
+    result = sortAll2(midWordLines);
+    console.log("writing mid result");
+    io.fileWrite("sortedComboList-mid.txt", result);
+    result = sortAll2(megaWordLines);
+    console.log("writing mega result");
+    io.fileWrite("sortedComboList-mega.txt", result);
 }
 
 main();

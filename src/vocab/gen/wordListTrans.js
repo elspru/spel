@@ -94,12 +94,13 @@ var io = require("../../lib/io"),
         "fr", "mr", "ta", "te",     "gu","ur","am", "it",  
         "pl","kn","ml","my",      "ro", "az","nl","hu", 
 
-        "ku","si","ne","el",    "cs", "sv", "ka", "th", "fi", 
-        "mn", "jv",  "uk","cy", "sr", "he", "ja", "lt", "da", "tl", 
-
-        "te","ps",   "su", "ha",   "yo", 
+        "ku","si","ne","el",    "cs", "sv", "ka", "th", 
+        "fi", "mn", "jv","uk",  "cy", "sr", "he", "ja", 
+ 
+        "lt", "da", "tl","te",  "ps","su","ha","yo", 
         "uz","sd","mi","ig",    "mg", "km", "so",  "zu", 
-        "ny","lo","zu",    "xh",    ];
+
+        "ny","lo","zu", "xh",    ];
 
 function stringToWordLines(string) {
     function lineToWords(line) {
@@ -178,7 +179,7 @@ function main() {
     var megaFileContents = io.fileRead("sortedComboList-mega.txt"),
         megaWordLines = stringToWordLines(megaFileContents),
         megaMainWords = wordOfEachLine(0, megaWordLines),
-        coreFileContents = io.fileRead("sortedComboList-med.txt"),
+        coreFileContents = io.fileRead("sortedComboList-mid.txt"),
         coreWordLines = stringToWordLines(coreFileContents),
         coreMainWords = wordOfEachLine(0, coreWordLines),
         transJSON = io.fileRead("genTransX.json"),

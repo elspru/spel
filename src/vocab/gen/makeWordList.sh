@@ -28,13 +28,15 @@ cat framenet.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
 cat uld-en.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
+cat atoms.txt >> comboWordList.txt
+echo -e "\n" >> comboWordList.txt
+# core finish
+cp comboWordList.txt comboWordList-core.txt
 cat unl_wl.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
 cat UNLRelat.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
 cat UNLAtrib.txt >> comboWordList.txt
-echo -e "\n" >> comboWordList.txt
-cat atoms.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
 cat spiritualWords.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
@@ -76,5 +78,9 @@ cat "machineLearningVocab.txt" >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
 cat "wordFreqInfo5000.txt" >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
-#cat "english30k.txt" >> comboWordList.txt
-#echo -e "\n" >> comboWordList.txt
+cp comboWordList.txt comboWordList-mid.txt
+# mid finish
+cat "english30k.txt" >> comboWordList.txt
+echo -e "\n" >> comboWordList.txt
+# mega finish
+cp comboWordList.txt comboWordList-mega.txt

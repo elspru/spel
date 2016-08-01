@@ -24,6 +24,7 @@ epistemic-mood:
 instrumental-case: 
 interior-context: 
 person-context: 
+independent-clause: 
 dependent-clause: 
 perfective-aspect: 
 past-tense: az: 'keçmişzaman, preterite
@@ -52,7 +53,7 @@ their: zh: '其, its, hi: 'उनकी, theirs, id: 'mereka, they, id: 'mereka,
 who: zh: '谁, somebody, zh: '谁, whoever, hi: 'कौन, which, sw: 'ambao, whose, id: 'siapa, whom, mr: 'कोण, ya, gu: 'જે, whichever, gu: 'જે, that-which, hu: 'ki, out, hu: 'ki, off, sv: 'som, as
 future-tense: 
 social-context: 
-when: es: 'cuando, whenever, mr: 'कधी, ever, am: 'ጊዜ, time, am: 'ጊዜ, times, am: 'ጊዜ, occasion, th: 'เมื่อ, upon, fi: 'milloin, anytime
+when: es: 'cuando, whenever, mr: 'कधी, ever, am: 'ጊዜ, time, am: 'ጊዜ, occasion, th: 'เมื่อ, upon, fi: 'milloin, anytime
 imperfective-aspect: hu: 'folyamatosvonatkozás, continuous-aspect
 there: gu: 'ત્યાં, wherever, gu: 'ત્યાં, thereby, kn: 'ಅಲ್ಲಿ, where, ku: 'va, that
 elative-case: zh: '相对的外壳, inelative-case
@@ -62,7 +63,7 @@ what: zh: '什么, anything, pt: 'qual, which, tr: 'ne, nor, tr: 'ne, neither, t
 question-word: 
 copula: hi: 'योजक, connector, ru: 'связка, bunch, tr: 'bağ, bond, mr: 'दुवा, link, gu: 'સંયોજક, coordinator
 person: zh: '人, man, zh: '人, people, hi: 'व्यक्ति, individual, sw: 'mtu, somebody, sw: 'mtu, someone, id: 'orang, guy, bn: 'ব্যক্তি, individuals, ru: 'человек, human, ko: '사람, fellow, el: 'πρόσωπο, face
-male: zh: '男, male-, id: 'pria, gentleman, es: 'masculino, masculine-, ar: 'ﺮﻛﺫ, mention, ta: 'ஆண், man, te: 'పురుషుడు, female, ur: 'لڑکا, boy
+male: id: 'pria, gentleman, es: 'masculino, masculine-, ar: 'ﺮﻛﺫ, mention, ta: 'ஆண், man, te: 'పురుషుడు, female, ur: 'لڑکا, boy
 could: id: 'bisa, can, es: 'podría, might, tr: 'olabilir, maybe, vi: 'cóthể, possibly, az: 'bilər, may, si: 'හැකි, possible, si: 'හැකි, able, si: 'හැකි, capable
 other: zh: '其他, others, zh: '其他, else, sw: 'wengine, rest, id: 'lain, another, ko: '다른, different, ko: '다른, variant, pa: 'ਹੋਰ, more, pa: 'ਹੋਰ, otherwise, am: 'ሌላ, beside, am: 'ሌላ, besides, nl: 'anders, unlike, nl: 'anders, differently, sv: 'andra, second
 number: id: 'jumlah, amount, id: 'jumlah, sum, es: 'número, numeral, ko: '번호, numbers, vi: 'consố, figure, ta: 'எண், numerical, am: 'ቁጥር, verse, ku: 'jimare, data, ku: 'jimare, statistics, fi: 'määrä, quantity
@@ -75,13 +76,14 @@ volitive-mood:
 must: hi: 'चाहिए, should, sw: 'lazima, necessarily, sw: 'lazima, unnecessary, sw: 'lazima, mandatory, id: 'harus, have-to, ru: 'должен, shall, ru: 'должен, ought-to, vi: 'cần, need, vi: 'cần, needing, ta: 'வேண்டும், want, te: 'తప్పక, ought, ur: 'لازمی, integral
 two: sw: 'mbili, dual, ko: '두, couple, ta: 'இரண்டு, both, ur: 'دو, let, am: 'ሁለት, pair
 see: hi: 'देखना, look, id: 'melihat, sight, id: 'melihat, view, id: 'melihat, notice, id: 'melihat, perceive, ko: '만나다, meet, mr: 'पहा, refer, ta: 'பார்க்க, watch, ur: 'دیکھیں, similar, ku: 'dîtin, find, ku: 'dîtin, consider, ku: 'dîtin, locate
-know: sw: 'kujua, ascertain, ar: 'ﻢﻠﻋ, aware, ar: 'ﻢﻠﻋ, teach, ar: 'ﻢﻠﻋ, flag, ta: 'தெரியும், visible, ml: 'അറിയുക, intimate, hu: 'tud, can
+know: sw: 'kujua, ascertain, ar: 'ﻢﻠﻋ, aware, ar: 'ﻢﻠﻋ, teach, ar: 'ﻢﻠﻋ, flag, ta: 'தெரியும், visible, hu: 'tud, can
 down: zh: '向下, downward, zh: '向下, downwards, hi: 'नीचे, under, hi: 'नीचे, below, hi: 'नीचे, beneath, hi: 'नीचे, underneath, sw: 'chini, less, sw: 'chini, bottom, sw: 'chini, subordinate, es: 'abajo, downstairs, tr: 'aşağı, inferior, az: 'aşağı, low
+after: zh: '后, rear, es: 'después, afterwards, es: 'después, afterward, ar: 'ﺪﻌﺑ, upon, ar: 'ﺪﻌﺑ, post, ar: 'ﺪﻌﺑ, dimension, tr: 'sonra, later, mr: 'नंतर, then, te: 'తరువాత, next, te: 'తరువాత, subsequently, ur: 'بعد, since, ur: 'بعد, onwards, pl: 'po, past, fi: 'jälkeen, following
 first: sw: 'kwanza, debut, tr: 'ilk, initial, pa: 'ਪਹਿਲੀ, firstly, ta: 'முதல், since, ta: 'முதல், onwards, gu: 'પ્રથમ, fist, az: 'ilk, originally, nl: 'eerste, prime, nl: 'eerste, initially
 alienable-possession: 
 never: ar: 'ﺍﺪﺑﺃ, ever, bn: 'না, not, bn: 'না, no, bn: 'না, nor, bn: 'না, none, mr: 'नाही, neither, mr: 'नाही, miss
 inalienable-possession: 
-old: zh: '旧, used, id: 'tua, elderly, es: 'antiguo, ancient, es: 'antiguo, antique, ko: '늙은, aged, tr: 'eski, former, tr: 'eski, ex, pa: 'ਪੁਰਾਣੇ, prior, pa: 'ਪੁਰਾਣੇ, predecessor, fa: 'ﯽﻤﯾﺪﻗ, archaic, my: 'ဟောင်းနွမ်း, wear-out
+old: zh: '旧, used, id: 'tua, elderly, es: 'antiguo, ancient, es: 'antiguo, antique, ko: '늙은, aged, tr: 'eski, former, tr: 'eski, ex, pa: 'ਪੁਰਾਣੇ, prior, pa: 'ਪੁਰਾਣੇ, predecessor, my: 'ဟောင်းနွမ်း, wear-out
 deliberative-mood: 
 day: hi: 'दिन, daytime, sw: 'siku, daily, bn: 'দিন, let, ko: '일, working, ko: '일, affair, ko: '일, job, am: 'ቀን, date, kn: 'ದಿನ, someday, hu: 'nap, sun
 come: zh: '来, incoming, sw: 'kuja, coming, vi: 'đến, to, vi: 'đến, till, vi: 'đến, reach, vi: 'đến, arrival, vi: 'đến, arrive, vi: 'đến, arriving, mr: 'आले, ginger, ku: 'hatin, income, fi: 'tulla, become
@@ -92,19 +94,19 @@ progressive-aspect:
 long: sw: 'mudamrefu, prolonged, sw: 'mudamrefu, durable, sw: 'mudamrefu, lengthy, es: 'largo, length, ar: 'ﻞﻳﻮﻃ, tall, mr: 'लांब, away, mr: 'लांब, portray, te: 'కాలం, period, te: 'కాలం, era, te: 'కాలం, tense, am: 'ረጅም, continuous, it: 'lungo, along
 say: zh: '说, talking, zh: '说, spoken, hi: 'कहना, tell, sw: 'kusema, speak, ko: '말하다, represent, ko: '말하다, relate, mr: 'म्हणतात, called, my: 'ပွောဆို, remark, az: 'demək, imply
 how: ru: 'как, like, ko: '방법, way, ko: '방법, means, ko: '방법, manner, ko: '방법, method, ko: '방법, process, ko: '방법, mode, am: 'እንዴት, why, pl: 'jak, as, kn: 'ಹೇಗೆ, find, th: 'อย่างไร, whereby
-even: hi: 'भी, also, hi: 'भी, either, id: 'bahkan, moreover, es: 'incluso, including, ar: 'ﻰﺘﺣ, until, ar: 'ﻰﺘﺣ, till, pa: 'ਵੀ, too, pa: 'ਵੀ, likewise, te: 'కూడా, itself, gu: 'પણ, pan, kn: 'ಸಹ, fellow, hu: 'még, yet, th: 'แม้, though
 again: hi: 'फिर, then, hi: 'फिर, ya, id: 'lagi, anew, tr: 'tekrar, repeat, ta: 'மீண்டும், back, gu: 'ફરી, revive, it: 'ancora, still, it: 'ancora, yet, kn: 'ಮತ್ತೆ, reopen, kn: 'ಮತ್ತೆ, renovate, az: 'yenidən, reconsider, az: 'yenidən, redesign, nl: 'weer, weather
 here: mr: 'येथे, at
 think: hi: 'सोच, thinking, bn: 'মনে, feel, bn: 'মনে, seem, tr: 'düşünmek, consider, tr: 'düşünmek, imagine, tr: 'düşünmek, conceive, pa: 'ਲੱਗਦਾਹੈ, indicate, vi: 'nghĩ, thought, mr: 'विचार, consideration, ta: 'என்று, would, ta: 'என்று, called, am: 'ማሰብ, assume
 under-context: 
 found: zh: '发现, find, zh: '发现, discover, zh: '发现, discovery, zh: '发现, detection, sw: 'kupatikana, accessible, bn: 'পাওয়া, get, my: 'တွေ့ရှိရ, founds, my: 'တွေ့ရှိရ, mendelevium, az: 'aşkar, evident, az: 'aşkar, obvious, az: 'aşkar, detect, th: 'พบ, encounter
 hand: sw: 'mkono, arm, sw: 'mkono, wrist, mr: 'हात, arms, gu: 'હાથ, undertake, ur: 'ہاتھ, handy, az: 'əl, manually
+also: hi: 'भी, even, hi: 'भी, either, sw: 'pia, too, id: 'juga, likewise, es: 'además, besides, es: 'además, moreover, tr: 'ayrıca, further, ta: 'மேலும், more, te: 'కూడా, itself, gu: 'પણ, pan, kn: 'ಸಹ, fellow, si: 'තවද, furthermore
 young: sw: 'vijana, youth, id: 'muda, junior, tr: 'genç, adolescent, tr: 'genç, teen, tr: 'genç, teenager, el: 'νέος, new
 against: id: 'terhadap, towards, id: 'terhadap, toward, ru: 'против, versus, tr: 'karşı, opposed, tr: 'karşı, opposing, vi: 'chốnglại, resistant, am: 'ላይ, on, am: 'ላይ, upon, am: 'ላይ, onto, my: 'ဆန့်ကျင်, oppose, my: 'ဆန့်ကျင်, anti, my: 'ဆန့်ကျင်, contrary, az: 'qarşı, opposite, az: 'qarşı, confronting
 god: gu: 'ભગવાન, lord
 delative-case: 
 nothing: sw: 'kitu, something, sw: 'kitu, object, id: 'tidakada, no-one, ko: '아무것도, anything, pa: 'ਕੁਝ, some, pa: 'ਕੁਝ, few, pa: 'ਕੁਝ, certain, pa: 'ਕੁਝ, somewhat, fi: 'eimitään, none
-once: sw: 'maramoja, immediately, sw: 'maramoja, promptly, sw: 'maramoja, overnight, ta: 'முறை, times, ta: 'முறை, method, ta: 'முறை, pattern, ta: 'முறை, methodology, az: 'dəfə, occasion
+once: sw: 'maramoja, immediately, sw: 'maramoja, promptly, sw: 'maramoja, overnight, ta: 'முறை, method, ta: 'முறை, pattern, ta: 'முறை, methodology, az: 'dəfə, occasion
 semelfactive-aspect: 
 left: pa: 'ਨੂੰਛੱਡ, skip, ta: 'விட்டு, away, ta: 'விட்டு, leave, ta: 'விட்டு, leaving, gu: 'બાકી, remaining, gu: 'બાકી, owe, gu: 'બાકી, outstanding, am: 'ግራ, confused, kn: 'ಬಿಟ್ಟು, quit
 saw: gu: 'સો, hundred, gu: 'સો, hundredth
@@ -114,14 +116,14 @@ three: sw: 'tatu, third, ko: '세, tax, pa: 'ਤਿੰਨ, ninth
 neo: zh: '新, new, zh: '新, newly, ur: 'نو, nine
 focus: sw: 'lengo, intended, sw: 'lengo, aim, sw: 'lengo, goal, sw: 'lengo, objective, sw: 'lengo, aiming, es: 'atención, attention, ar: 'ﺰﻛﺮﺗ, concentrate, fa: 'ﺰﮐﺮﻤﺗ, concentration, ta: 'கவனம், focused, te: 'దృష్టి, vision, am: 'ትኩረት, emphasis, pl: 'skupiać, converge, my: 'အာရုံ, sense
 love: sw: 'upendo, affection, sw: 'upendo, charity, fr: 'aimer, like
-always: hi: 'सदैव, forever, id: 'selalu, constantly, es: 'siempre, ever, fr: 'toujours, consistently, my: 'အမြဲ, continuative, ku: 'herdem, permanent, ku: 'herdem, anytime
+always: hi: 'सदैव, forever, id: 'selalu, constantly, es: 'siempre, ever, fr: 'toujours, consistently, ku: 'herdem, permanent, ku: 'herdem, anytime
 night: id: 'malam, evening, pa: 'ਰਾਤਨੂੰ, tonight, ta: 'இரவு, dinner, ta: 'இரவு, p.m., kn: 'ರಾತ್ರಿ, overnight
 king: id: 'raja, lord, id: 'raja, monarch, id: 'raja, tycoon, ar: 'ﻚﻠﻣ, reign, mr: 'राजा, prince, am: 'ንጉሥ, ruler, az: 'kral, royal
 between: id: 'antara, among, id: 'antara, amongst, bn: 'মধ্যে, in, bn: 'মধ্যে, into, bn: 'মধ্যে, within, tr: 'arasında, of, mr: 'दरम्यान, during, te: 'మధ్య, middle, te: 'మధ్య, mid, my: 'အကြား, interval, ku: 'navber, paused, si: 'අතර, while, si: 'අතර, whilst
 mind: sw: 'akili, intellectual, sw: 'akili, intelligence, sw: 'akili, mental, sw: 'akili, intelligent, sw: 'akili, psychiatric, am: 'አእምሮ, memory, am: 'አእምሮ, brain, it: 'mente, mastermind, nl: 'geest, spirit, nl: 'geest, ghost
 heart: sw: 'moyo, cheer, sw: 'moyo, encouraging, ar: 'ﺐﻠﻗ, topple, mr: 'हृदय, coronary, am: 'ልብ, accord, hu: 'szív, suck
 paucal-number: 
-because: id: 'karena, due, es: 'porque, cause, bn: 'কারণ, reason, mr: 'कारण, reasoning, gu: 'કારણકે, as, am: 'ስለ, about, am: 'ስለ, sake, am: 'ስለ, concerning, am: 'ስለ, regarding, am: 'ስለ, behalf, az: 'çünki, since, hu: 'mert, for, si: 'නිසා, owing, si: 'නිසා, caused
+because: id: 'karena, due, es: 'porque, cause, bn: 'কারণ, reason, mr: 'कारण, reasoning, gu: 'કારણકે, as, am: 'ስለ, about, am: 'ስለ, sake, am: 'ስለ, concerning, am: 'ስለ, regarding, am: 'ስለ, behalf, az: 'çünki, since, hu: 'mert, for, si: 'නිසා, caused
 causal-case: 
 done: es: 'hecho, fact, bn: 'সম্পন্ন, completed, tr: 'tamam, ok, vi: 'làmxong, acquit, mr: 'पूर्ण, completion, ta: 'செய்து, doing, gu: 'પૂર્ણ, complete, si: 'සිදු, happen, si: 'සිදු, occur, si: 'සිදු, undertake, si: 'සිදු, committing, cs: 'hotový, finished
 name: sw: 'jina, surname, tr: 'isim, noun, mr: 'नाव, craft, gu: 'નામ, named, am: 'ስም, reputation, az: 'ad, ad, ku: 'nav, inside, ku: 'nav, title, th: 'ชื่อ, namesake
@@ -135,9 +137,9 @@ water: sw: 'maji, liquid, sw: 'maji, fluid, sw: 'maji, watershed, ku: 'av, juice
 desiderative-mood: 
 light: sw: 'mwanga, glow, es: 'luz, daylight, ru: 'легкий, lightweight, vi: 'nhẹ, slight, fa: 'ﮏﺒﺳ, style, fa: 'ﮏﺒﺳ, lightly, am: 'መብራት, lamp, pl: 'jasny, clear, pl: 'jasny, bright, az: 'yüngül, slightly, az: 'yüngül, lighter, ku: 'sivik, easy, sv: 'ljus, candle
 word: bn: 'শব্দ, sound, ta: 'சொல், lexical, te: 'పదం, term, am: 'ቃል, expression
-given: zh: '特定, particular, vi: 'được, be, vi: 'được, being, vi: 'được, ok, th: 'กำหนด, define, th: 'กำหนด, designate, th: 'กำหนด, prescribe, fi: 'tietty, certain
 door: zh: '门, gate, hi: 'द्वार, doorway, sw: 'mlango, entrance, ar: 'ﺏﺎﺑ, chapter, ko: '문, portal, pt: 'porta, port, ku: 'derî, exit
 morning: hi: 'सुबह, a.m., ta: 'காலை, breakfast
+until: zh: '直到, till, hi: 'जबतक, unless, sw: 'mpaka, border, ar: 'ﻰﺘﺣ, even, bn: 'পর্যন্ত, far, ru: 'до, before, ta: 'வரை, up, az: 'qədər, to, az: 'qədər, somewhat
 terminative-case: 
 white: es: 'blanco, blank, az: 'ağ, whitespace, ku: 'spî, pale, ku: 'spî, louse
 money: hi: 'धन, wealth, sw: 'fedha, silver, sw: 'fedha, financial, sw: 'fedha, cash, sw: 'fedha, currency, sw: 'fedha, fiscal, sw: 'fedha, finance, sw: 'fedha, monetary, th: 'เงิน, purse
@@ -152,7 +154,7 @@ half: zh: '半, partly, zh: '半, halfway, zh: '半, semi, ta: 'அரை, grind
 imperative-mood: cs: 'rozkazovacízpůsob, imperative
 round: id: 'bulat, rounded, pt: 'volta, turning, mr: 'गोल, sphere, ta: 'சுற்று, circuit, ml: 'ചുറ്റും, around, nl: 'ronde, lap, cs: 'kolo, wheel, cs: 'kolo, bike
 sent: zh: '发送, send, zh: '发送, transmit, id: 'mengirim, sending, de: 'geschickt, skilful, de: 'geschickt, skilled, ku: 'şandin, deliver, th: 'ส่ง, submitting
-wife: sw: 'mke, spouse, fa: 'ﻥﺯ, female, fa: 'ﻥﺯ, female-, nl: 'vrouw, woman
+wife: sw: 'mke, spouse, fa: 'ﻥﺯ, female, nl: 'vrouw, woman
 believe: zh: '相信, trust, hi: 'मानना, reckon, hi: 'मानना, presume, mr: 'विश्वास, faith, mr: 'विश्वास, belief, mr: 'विश्वास, confident, mr: 'विश्वास, dependence, ta: 'நம்பிக்கை, confidence, ta: 'நம்பிக்கை, optimism, ta: 'நம்பிக்கை, optimistic, ur: 'یقین, definite, ur: 'یقین, certainty, ur: 'یقین, reassuring
 public: pt: 'público, audience, vi: 'côngcộng, publicly, ta: 'பொது, general, gu: 'જાહેર, declare, gu: 'જાહેર, disclose, gu: 'જાહેર, publicize, gu: 'જાહેર, announcer, si: 'පොදු, common
 state-context: 
@@ -160,47 +162,47 @@ son: bn: 'ছেলে, boy, tr: 'oğul, swarm, ur: 'بیٹا, beta
 children: zh: '孩子, kid, sw: 'watoto, offspring, bn: 'শিশু, child, pa: 'ਬੱਚੇ, baby
 thus: zh: '从而, accordingly, zh: '从而, thereby, sw: 'hivyo, so, sw: 'hivyo, hence, pa: 'ਇਸਲਈ, therefore, ro: 'prinurmare, consequently
 hope: zh: '希望, wish, hi: 'आशा, prospect, hi: 'आशा, anticipate, sw: 'matumaini, optimism, sw: 'matumaini, optimistic, ko: '기대, expectation, pa: 'ਉਮੀਦਹੈ, expected, pa: 'ਉਮੀਦਹੈ, expect, ur: 'امیدہےکہ, hopefully, am: 'ተስፋ, promise
-dear: tr: 'sevgili, lover, am: 'ውድ, expensive, hu: 'kedves, gentle, ku: 'hêja, worthwhile
+dear: tr: 'sevgili, lover, am: 'ውድ, expensive, hu: 'kedves, gentle, ku: 'hêja, worthwhile, si: 'ආදරණීය, lovable
 high: zh: '高, tall, sw: 'juu, above, sw: 'juu, top, sw: 'juu, advanced, sw: 'juu, upper, id: 'tinggi, height, id: 'tinggi, altitude, pt: 'alto, loud, pt: 'alto, aloud, pt: 'alto, loudly, vi: 'cao, highly, fa: 'ﻻﺎﺑ, up, ur: 'اعلی, superior, ur: 'اعلی, prestigious
 read: hi: 'पढ़ना, reading, sw: 'kusoma, studying, vi: 'đọc, familiarize, fa: 'ﻥﺪﻧﺍﻮﺧ, sing, fr: 'lis, lily
 city: hi: 'शहर, town, hi: 'शहर, downtown, id: 'kota, municipal, fa: 'ﻥﺎﺘﺳﺮﻬﺷ, county, kn: 'ನಗರ, urban
 already: hi: 'पहलेही, beforehand, sw: 'tayari, ready, sw: 'tayari, prepared, sw: 'tayari, willing, es: 'ya, ya, tr: 'zaten, anyway, am: 'ገና, yet, az: 'artıq, over, az: 'artıq, exceed, az: 'artıq, surplus, az: 'artıq, anymore
 factive-evidential: 
-girl: sw: 'msichana, maid, tr: 'kız, daughter, pa: 'ਕੁੜੀ, alone, ta: 'பெண், female, ta: 'பெண், lady, ta: 'பெண், female-, si: 'දැරිය, afford
+girl: sw: 'msichana, maid, tr: 'kız, daughter, pa: 'ਕੁੜੀ, alone, ta: 'பெண், female, ta: 'பெண், lady, si: 'දැරිය, afford
 hear: zh: '听, listen, sw: 'kusikia, hearing, it: 'sentire, feel, kn: 'ಕೇಳಲು, ask
 least: zh: '最小, minimal, hi: 'कमसेकम, minimum, hi: 'कमसेकम, minimize, es: 'menos, minus, kn: 'ಕನಿಷ್ಠ, marginal
 perhaps: hi: 'शायद, probably, hi: 'शायद, maybe, sw: 'labda, presumably, id: 'mungkin, might, id: 'mungkin, possible, id: 'mungkin, likely, id: 'mungkin, possibly, id: 'mungkin, probable, pa: 'ਸ਼ਾਇਦ, supposedly, si: 'සමහරවිට, sometimes
 indeed: hi: 'वास्तवमें, really, hi: 'वास्तवमें, exactly, hi: 'वास्तवमें, actually, hi: 'वास्तवमें, truly, hi: 'वास्तवमें, practically, hi: 'वास्तवमें, virtually, sw: 'hakika, certainly, sw: 'hakika, surely, sw: 'hakika, certainty, de: 'tatsächlich, actual, ta: 'உண்மையில், fact, ta: 'உண்மையில், reality, th: 'จริง, real
 body: sw: 'mwili, flesh, sw: 'mwili, bodily, es: 'cuerpo, corpus, ta: 'உடல், physical, ta: 'உடல், physically, cs: 'tělo, corpse, fi: 'elin, organ
-return: hi: 'वापसी, withdrawal, hi: 'वापसी, regression, hi: 'वापसी, repayment, id: 'kembali, back, id: 'kembali, re, tr: 'dönüş, turn, te: 'తిరిగి, recover, te: 'తిరిగి, retrieve, gu: 'વળતર, compensation, gu: 'વળતર, compensate, ur: 'واپسی, drawback, ur: 'واپسی, refundable, az: 'qayıtmaq, recur, si: 'ආපසු, reverse
+return: hi: 'वापसी, withdrawal, hi: 'वापसी, repayment, hi: 'वापसी, regression, id: 'kembali, back, id: 'kembali, re, tr: 'dönüş, turn, te: 'తిరిగి, recover, te: 'తిరిగి, retrieve, gu: 'વળતર, compensation, gu: 'વળતર, compensate, ur: 'واپسی, drawback, ur: 'واپسی, refundable, az: 'qayıtmaq, recur, si: 'ආපසු, reverse
 air: hi: 'हवा, wind, hi: 'हवा, breeze, tr: 'hava, weather, pa: 'ਹਵਾਈ, flight, vi: 'hàngkhông, aviation, ta: 'விமான, airfare, am: 'አየር, atmosphere, az: 'hava, motif, az: 'hava, airline, si: 'ගුවන්, carrier
 law: sw: 'sheria, legislation, id: 'hukum, legal, bn: 'আইন, act, de: 'Recht, right, fa: 'ﻥﻮﻧﺎﻗ, rule, ta: 'சட்டம், by-law, gu: 'કાયદો, legislate, pl: 'prawo, entitlement, kn: 'ಕಾನೂನು, prosecution
 help: sw: 'kusaidia, assist, sw: 'kusaidia, supporting, sw: 'kusaidia, helpful, id: 'membantu, aid, ar: 'ﺓﺪﻋﺎﺴﻣ, assistance, mr: 'मदत, relief, ta: 'உதவி, assistant, kn: 'ಸಹಾಯ, concierge, ku: 'alîkarî, support
 letter: id: 'surat, mail, es: 'carta, charter, ru: 'письмо, writing, am: 'ደብዳቤ, letterhead, ml: 'അക്ഷരം, syllable, my: 'အက္ခရာ, alphabet, si: 'ලිපිය, article, el: 'επιστολή, dispatch, th: 'จดหมาย, correspondence
-four: zh: '四, quadrual, sw: 'nne, fourth, ku: 'çar, antonym
+four: sw: 'nne, fourth
 optative-mood: tr: 'dilekkipiruhhali, subjunctive-mood
 fire: sw: 'moto, hot, sw: 'moto, flame, tr: 'ateş, fever
 hour: hi: 'समय, timeline, sw: 'saa, clock, sw: 'saa, o'clock, es: 'hora, time, ta: 'மணி, bell, az: 'saat, watch
 war: sw: 'vita, battle, bn: 'যুদ্ধ, fight, bn: 'যুদ্ধ, fighting, tr: 'savaş, struggle, pa: 'ਜੰਗ, battlefield, my: 'စစ်, refine
-behind: hi: 'पीछे, rear, hi: 'पीछे, posterior, sw: 'nyuma, back, sw: 'nyuma, backwards, sw: 'nyuma, backward, ru: 'за, beyond, ru: 'за, per, pt: 'atrás, ago, mr: 'मागे, withdraw, mr: 'मागे, revoke, am: 'ወደኋላ, hesitate, pl: 'za, a, kn: 'ಹಿಂದೆ, formerly
+several: sw: 'kadhaa, dozen, id: 'beberapa, some, id: 'beberapa, few, es: 'varios, various, bn: 'বিভিন্ন, different, pa: 'ਕਈ, numerous, de: 'mehrere, multiple, fa: 'ﺪﻨﭼ, multi, mr: 'अनेक, many
+behind: hi: 'पीछे, rear, sw: 'nyuma, back, sw: 'nyuma, backwards, sw: 'nyuma, backward, ru: 'за, beyond, ru: 'за, per, pt: 'atrás, ago, mr: 'मागे, withdraw, mr: 'मागे, revoke, am: 'ወደኋላ, hesitate, pl: 'za, a, kn: 'ಹಿಂದೆ, formerly
 lost: tr: 'kayıp, loss, tr: 'kayıp, losses, gu: 'ગુમાવી, lose, am: 'ጠፍቷል, off, my: 'ပျောက်ဆုံး, missing, si: 'අහිමි, losing, si: 'අහිමි, deprive
 thousand: sw: 'elfu, thousandth, ko: '천, clothes, ko: '천, cloth
 family: zh: '家庭, household, fi: 'perhe, survivor
 soul: hi: 'आत्मा, spirit, fa: 'ﺡﻭﺭ, ghost, am: 'ነፍስ, consciousness, fi: 'sielu, mastermind
-question: hi: 'सवाल, query, id: 'pertanyaan, questioning, ru: 'вопрос, issue, ko: '문제, matter, ko: '문제, problem, am: 'ጥያቄ, request, am: 'ጥያቄ, demand, am: 'ጥያቄ, inquiry, am: 'ጥያቄ, enquiry, am: 'ጥያቄ, interrogation, sv: 'fråga, inquire
+question: hi: 'सवाल, query, id: 'pertanyaan, questioning, ru: 'вопрос, issue, ko: '문제, matter, ko: '문제, problem, am: 'ጥያቄ, request, am: 'ጥያቄ, demand, am: 'ጥያቄ, inquiry, am: 'ጥያቄ, enquiry, sv: 'fråga, inquire
 truth: hi: 'सच, true, sw: 'ukweli, fact, sw: 'ukweli, facts, sw: 'ukweli, reality, id: 'kebenaran, correctness, tr: 'gerçek, real, tr: 'gerçek, actual, tr: 'gerçek, factual, am: 'እውነት, truly, ml: 'സത്യം, swear, th: 'ความจริง, axiom
 making: zh: '制造, manufacture, zh: '制造, fabricate, hi: 'निर्माण, build, hi: 'निर्माण, construction, hi: 'निर्माण, construct, sw: 'maamuzi, decisive, sw: 'maamuzi, rulings, es: 'fabricación, manufacturing, pa: 'ਬਣਾਉਣ, creating, vi: 'chếtạo, make, ro: 'luare, taking, th: 'การทำ, doing, fi: 'tehdä, do, fi: 'tehdä, render
 potential-mood: 
 allative-case: 
 anthropic-gender: 
-following: id: 'berikut, subsequent, ru: 'следующий, next, pt: 'Segue, follow, pa: 'ਹੇਠ, below, pa: 'ਹੇਠ, beneath, pa: 'ਹੇਠ, downward, pa: 'ਹੇਠ, downwards, fa: 'ﻥﺩﺮﮐﻝﺎﺒﻧﺩ, pursue, fi: 'jälkeen, after
 five: sw: 'tano, fifth, vi: 'năm, year, ta: 'ஐந்து, for, my: 'ငါး, fish
 different-subject: 
 answer: hi: 'उत्तर, north, hi: 'उत्तर, reply, es: 'responder, respond, ru: 'ответ, response, mr: 'उत्तर, northern, mr: 'उत्तर, replication, pl: 'odpowiadać, correspond, pl: 'odpowiadać, conform, th: 'ตอบ, respondent
 sea: sw: 'bahari, ocean, sw: 'bahari, seaside, id: 'laut, marine, ta: 'கடல், seafood, ro: 'mare, large, ro: 'mare, big, ro: 'mare, grand, ku: 'gol, lake
 fear: zh: '恐惧, dread, sw: 'hofu, afraid, sw: 'hofu, terror, sw: 'hofu, awe, sw: 'hofu, scared, sw: 'hofu, panic, bn: 'ভয়, horror, de: 'Angst, anxiety, de: 'Angst, angst, te: 'భయం, phobia, gu: 'ભય, danger, am: 'ፍርሃት, frightened, nl: 'angst, anguish, ku: 'tirs, scare
 understand: zh: '理解, understanding, zh: '理解, comprehension, hi: 'समझना, perceive, id: 'memahami, grasp, id: 'memahami, conceive, ko: '알다, prove, fr: 'comprendre, include, ta: 'புரிந்து, unintelligible, te: 'అర్థం, mean, te: 'అర్థం, meaning, kn: 'ಅರ್ಥ, realize, th: 'เข้าใจ, presume
-terms: zh: '术语, term, zh: '术语, terminology, sw: 'suala, issue, es: 'condiciones, conditions, pa: 'ਸੰਪਤੀਨੂੰ, property, ta: 'அடிப்படையில், based, ta: 'அடிப்படையில், grounds, ta: 'அடிப்படையில், basis, ta: 'அடிப்படையில், essentially, ta: 'அடிப்படையில், fundamentally, ta: 'அடிப்படையில், basically, az: 'şərt, reservation, ku: 'warê, regards, ku: 'warê, calculus
+terms: zh: '术语, term, zh: '术语, terminology, sw: 'suala, issue, es: 'condiciones, conditions, pa: 'ਸੰਪਤੀਨੂੰ, property, ta: 'அடிப்படையில், based, ta: 'அடிப்படையில், grounds, ta: 'அடிப்படையில், basis, ta: 'அடிப்படையில், essentially, ta: 'அடிப்படையில், fundamentally, ta: 'அடிப்படையில், basically, az: 'şərt, reservation, ku: 'warê, calculus
 doubt: zh: '怀疑, suspicion, zh: '怀疑, distrust, id: 'keraguan, hesitation, vi: 'nghingờ, suspect, ku: 'şik, concern
 dubitative-mood: 
 black: te: 'బ్లాక్, block, am: 'ጥቁር, dark
@@ -211,7 +213,7 @@ ten: zh: '十, decade, sw: 'kumi, tenth, ur: 'دس, millionth
 story: sw: 'hadithi, myth, id: 'cerita, narrative, ru: 'история, history, ko: '이야기, talk, ko: '이야기, tale, ko: '이야기, topic, fa: 'ﻥﺎﺘﺳﺍﺩ, fiction, pl: 'fabuła, plot
 book: sw: 'kitabu, scroll, sw: 'kitabu, handbook, sw: 'kitabu, workbook, fr: 'livre, pound, gu: 'પુસ્તક, textbook, az: 'kitab, scripture, az: 'kitab, bookstore, ku: 'pirtûk, pamphlet, cs: 'rezervovat, reserve, cs: 'rezervovat, reserving
 electronic: zh: '电子, electronically, zh: '电子, electronics, zh: '电子, electron, sw: 'umeme, lightning, sw: 'umeme, electric, sw: 'umeme, electricity, sw: 'umeme, electrical, sw: 'umeme, electrician, ko: '전자, former
-account: hi: 'कारण, reason, hi: 'कारण, cause, hi: 'कारण, owing, es: 'cuenta, bill, ar: 'ﺏﺎﺴﺣ, calculate, ar: 'ﺏﺎﺴﺣ, computation, tr: 'hesap, calculus, am: 'ሒሳብ, calculation, am: 'ሒሳብ, arithmetic, am: 'ሒሳብ, math, az: 'hesab, consider, az: 'hesab, reckon, az: 'hesab, score
+account: hi: 'कारण, reason, hi: 'कारण, cause, es: 'cuenta, bill, ar: 'ﺏﺎﺴﺣ, calculate, ar: 'ﺏﺎﺴﺣ, computation, tr: 'hesap, calculus, am: 'ሒሳብ, calculation, am: 'ሒሳብ, arithmetic, am: 'ሒሳብ, math, az: 'hesab, consider, az: 'hesab, reckon, az: 'hesab, score
 interest: id: 'bunga, flower, ko: '관심, interested, pt: 'interesse, concern, gu: 'રસ, juice, am: 'ዝንባሌ, disposition, am: 'ዝንባሌ, tendency, am: 'ዝንባሌ, inclination, kn: 'ಆಸಕ್ತಿ, anxious, az: 'maraq, curiosity
 write: hi: 'लिखना, compose, sw: 'kuandika, writing, es: 'escribe, type, fr: 'écrit, written, ku: 'nivîsîn, enroll
 bed: tr: 'yatak, bearing
@@ -223,16 +225,14 @@ line: zh: '线, wire, zh: '线, thread, sw: 'mstari, row, sw: 'mstari, lane, id:
 table: vi: 'bàn, desk, ta: 'அட்டவணை, schedule, ta: 'அட்டவணை, catalogue, ta: 'அட்டவணை, catalog, ro: 'masa, mass
 river: sw: 'mto, pillow, sw: 'mto, cushion, de: 'Fluss, flux, az: 'çay, tea
 eye: ar: 'ﻦﻴﻋ, appoint, ko: '눈, snow, tr: 'göz, browse
-later: hi: 'बादमें, afterwards, hi: 'बादमें, afterward, sw: 'baadaye, future, id: 'kemudian, then, tr: 'sonra, after, fa: 'ﺪﻌﺑ, next, fa: 'ﺪﻌﺑ, dimension, fa: 'ﺪﻌﺑ, onwards, te: 'తరువాత, subsequently, az: 'sonra, upon, ku: 'paşan, finally, sv: 'senare, latter, sv: 'senare, subsequent
 suddenly: zh: '突然, sudden, pa: 'ਅਚਾਨਕ, unexpected, ur: 'اچانک, spontaneous, ur: 'اچانک, snap, ro: 'brusc, sharply
-past: zh: '过去, elapse, pa: 'ਪਿਛਲੇ, last, pa: 'ਪਿਛਲੇ, previous, vi: 'quákhứ, retrospective, pl: 'po, after, az: 'keçmiş, former, ku: 'borî, apology
 deep: zh: '深, deeply, sw: 'kina, depth, sw: 'kina, extensive, sw: 'kina, shallow, sw: 'kina, thorough, sw: 'kina, detailed, sw: 'kina, comprehensive, sw: 'kina, critically, id: 'dalam, within, id: 'dalam, inside, id: 'dalam, indoor, es: 'profundo, profound, vi: 'sâu, worm, ur: 'گہری, keen
 purpose: zh: '目的, object, zh: '目的, aim, zh: '目的, objective, id: 'tujuan, goal, id: 'tujuan, destination, bn: 'উদ্দেশ্য, intention, fa: 'ﻑﺪﻫ, target, ta: 'நோக்கம், intended, ta: 'நோக்கம், motive, te: 'ప్రయోజనం, advantage, te: 'ప్రయోజనం, benefit, pl: 'cel, aiming, kn: 'ಉದ್ದೇಶ, intend, my: 'ရည်ရွယ်ချက်, purposive
 blood: sw: 'damu, bleed
 rose: es: 'Rosa, pink, am: 'ተነሣ, rise, am: 'ተነሣ, arise, az: 'gül, flower
 cold: sw: 'baridi, winter, sw: 'baridi, cool, sw: 'baridi, cooler, id: 'dingin, coldly, id: 'dingin, icy, id: 'dingin, chilly, az: 'soyuq, unfriendly
 forward: hi: 'आगे, further, hi: 'आगे, farther, hi: 'आगे, ahead, sw: 'mbele, sight, sw: 'mbele, front, ko: '앞으로, forth, tr: 'ileri, advanced, pa: 'ਅੱਗੇ, before, pa: 'ਅੱਗੇ, advance, mr: 'पुढे, next, mr: 'पुढे, proceed, mr: 'पुढे, onwards, az: 'irəli, nominate
-late: id: 'terlambat, overdue, es: 'tarde, afternoon, te: 'ఆలస్యం, delay, kn: 'ಕೊನೆಯಲ್ಲಿ, end, nl: 'laat, let, el: 'αργά, slowly, th: 'ปลาย, distal
+late: id: 'terlambat, overdue, es: 'tarde, afternoon, te: 'ఆలస్యం, delay, kn: 'ಕೊನೆಯಲ್ಲಿ, end, nl: 'laat, let, el: 'αργά, slowly
 suppose: zh: '假设, assumption, zh: '假设, hypothesis, sw: 'kudhani, assume, ar: 'ﺽﺮﺘﻓﺍ, presume, ar: 'ﺽﺮﺘﻓﺍ, hypothesize, bn: 'অনুমানকরা, infer, ko: '가정, household, ko: '가정, supposedly, am: 'ሐሳብአቀረበ, propose, am: 'ሐሳብአቀረበ, imply, ml: 'സങ്കല്പിക്കുക, conceive, sv: 'anta, adopt
 nearly: zh: '几乎, almost, zh: '几乎, practically, hi: 'लगभग, approximately, hi: 'लगभग, circa, sw: 'karibu, near, sw: 'karibu, around, sw: 'karibu, close, sw: 'karibu, adjacent, sw: 'karibu, virtually, sw: 'karibu, nearby, ar: 'ﺎﺒﻳﺮﻘﺗ, roughly, bn: 'প্রায়, about, it: 'quasi, hardly, si: 'ආසන්න, approximation
 mine: sw: 'yangu, my
@@ -246,10 +246,11 @@ remember: sw: 'kumbuka, note, pt: 'lembrar, remind, tr: 'hatırlamak, rememberin
 natural: zh: '自然, naturally, sw: 'asili, nature, sw: 'asili, native, sw: 'asili, origin, sw: 'asili, descent, sw: 'asili, inherent, sw: 'asili, indigenous, ar: 'ﻲﻌﻴﺒﻃ, normal, tr: 'doğal, spontaneous, mr: 'नैसर्गिक, innate, ta: 'இயற்கை, landscape, am: 'የተለመደ, ordinary, am: 'የተለመደ, typical, el: 'φυσικός, physical
 fall: zh: '秋季, autumn, id: 'jatuh, crash, id: 'jatuh, tumble, id: 'jatuh, breakdown, ar: 'ﻊﻘﺗ, located, tr: 'düşmek, deduct, de: 'Fall, case, fa: 'ﻁﻮﻘﺳ, collapse, pl: 'spadek, decrease, ml: 'വീഴ്ച, omission, el: 'πτώση, drop, el: 'πτώση, decline
 service: zh: '服务, serve, zh: '服务, services, zh: '服务, serving, sw: 'huduma, care, de: 'Bedienung, waiter, az: 'xidmət, maintenance
-except: sw: 'isipokuwa, unless, es: 'excepto, barring, bn: 'ছাড়া, without, ru: 'Кроме, besides, ru: 'Кроме, apart, tr: 'dışında, outside, tr: 'dışında, outside-of, tr: 'dışında, apart-from, pa: 'ਨੂੰਛੱਡਕੇ, excluding, gu: 'સિવાય, aside-from, kn: 'ಹೊರತುಪಡಿಸಿ, exception
+except: sw: 'isipokuwa, unless, bn: 'ছাড়া, without, ru: 'Кроме, besides, ru: 'Кроме, apart, tr: 'dışında, outside, tr: 'dışında, outside-of, tr: 'dışında, apart-from, pa: 'ਨੂੰਛੱਡਕੇ, excluding, gu: 'સિવાય, aside-from, kn: 'ಹೊರತುಪಡಿಸಿ, exception
 copyright: ro: 'drepturideautor, royalty
 army: zh: '军队, troops, hi: 'सेना, troop, sw: 'jeshi, host, id: 'tentara, soldier, nl: 'leger, military
 horse: sw: 'farasi, horseshoe, ko: '말, remark, ko: '말, utterance, tr: 'at, at, te: 'గుర్రం, knight, kn: 'ಕುದುರೆ, pony, cs: 'kůň, mount
+future: zh: '未来, coming, sw: 'baadaye, later, sw: 'baadaye, afterwards, sw: 'baadaye, afterward, es: 'futuro, prospective
 west: zh: '西, western
 pay: zh: '工资, wages, zh: '工资, wage, hi: 'वेतन, salary, id: 'membayar, remunerate, ar: 'ﻊﻓﺩ, thrust, ar: 'ﻊﻓﺩ, payment, tr: 'ödeme, repayment, fa: 'ﺖﺧﺍﺩﺮﭘ, fee, mr: 'द्या, let, ml: 'കൂലി, fare, ku: 'diravdanî, deposit, fi: 'maksaa, cost
 red: 
@@ -267,6 +268,7 @@ especially: zh: '特别, special, zh: '特别, specially, zh: '特别, specifica
 bear: sw: 'kubeba, carry, fa: 'ﻞﻤﺤﺗ, endure, fa: 'ﻞﻤﺤﺗ, tolerance, mr: 'सहन, tolerate, ta: 'தாங்க, withstand, gu: 'સહન, suffer, gu: 'સહન, tolerant, gu: 'સહન, tolerating
 window: ku: 'pace, pace
 beauty: sw: 'uzuri, beautifully, sw: 'uzuri, brilliance, fa: 'ﯽﯾﺎﺒﯾﺯ, aesthetic, am: 'ውበት, aesthetics, az: 'gözəllik, amenity
+latter: sw: 'mwisho, last, sw: 'mwisho, end, sw: 'mwisho, final, sw: 'mwisho, ultimate, es: 'último, latest, bn: 'আধুনিক, modern, pa: 'ਬਾਅਦ, since, pa: 'ਬਾਅਦ, afterwards, pa: 'ਬਾਅਦ, subsequently, pa: 'ਬਾਅਦ, afterward, pa: 'ਬਾਅਦ, onwards, vi: 'cuối, ending, kn: 'ನಂತರದ, subsequent, sv: 'senare, later
 duty: zh: '责任, liability, zh: '责任, responsibility, zh: '责任, obligated, hi: 'कर्तव्य, obligation, sw: 'wajibu, responsible, sw: 'wajibu, obligatory, id: 'tugas, task, id: 'tugas, assignment, es: 'deber, owe, ru: 'долг, debt, fr: 'devoir, have-to, te: 'విధి, fate, am: 'ግዴታ, obligate, hu: 'vám, customs
 distance: id: 'jarak, range, ko: '거리, street, vi: 'khoảngcách, separation, de: 'Entfernung, removal, mr: 'अंतर, gap, ur: 'فاصلے, haul, kn: 'ದೂರ, away, si: 'දුර, far, si: 'දුර, stretch, th: 'ระยะทาง, mileage
 foot: hi: 'पैर, leg, sw: 'mguu, halt, sw: 'mguu, thigh, id: 'kaki, toe, mr: 'पाऊल, step, ta: 'கால், quarter, am: 'እግር, paw, az: 'ayaq, upside, az: 'ayaq, pedal, ku: 'ling, column
@@ -277,8 +279,9 @@ smile: zh: '微笑, grin
 sleep: sw: 'usingizi, sleepy, vi: 'ngủ, asleep, fa: 'ﺏﺍﻮﺧ, dream, ku: 'xew, nap
 quotative-case: 
 visit: zh: '访问, access, zh: '访问, interview, zh: '访问, accessible, hi: 'यात्रा, travel, hi: 'यात्रा, trip, hi: 'यात्रा, journey, sw: 'ziara, tour, id: 'mengunjungi, visiting, bn: 'দর্শন, philosophy, ru: 'посещение, attending, mr: 'भेट, meeting, mr: 'भेट, gift, kn: 'ಭೇಟಿ, meet, kn: 'ಭೇಟಿ, visitor
+follow: sw: 'kufuata, compliance, id: 'mengikuti, adhere, pt: 'Segue, following, pa: 'ਦੀਪਾਲਣਾ, obey, vi: 'theo, conform, fa: 'ﻥﺩﺮﮐﻝﺎﺒﻧﺩ, pursue, fi: 'seurata, track, fi: 'seurata, accompany
 presence: zh: '存在, being, zh: '存在, existence, zh: '存在, exist, sw: 'uwepo, suitability, tr: 'varlık, entity, tr: 'varlık, asset, pa: 'ਮੌਜੂਦਗੀ, occurrence, mr: 'उपस्थिती, attendance, gu: 'હાજરી, attend, gu: 'હાજરી, attending, az: 'iştirak, participation
-sweet: pt: 'doce, candy, tr: 'tatlı, dessert, it: 'dolce, gentle, pl: 'słodki, bland
+sweet: id: 'manis, lovable, pt: 'doce, candy, tr: 'tatlı, dessert, it: 'dolce, gentle, pl: 'słodki, bland
 mouth: bn: 'মুখ, face, bn: 'মুখ, faces, vi: 'miệng, oral, vi: 'miệng, mug, ta: 'வாய், sip
 rich: zh: '丰富, plenty, zh: '丰富, abundance, zh: '丰富, abundant, zh: '丰富, abounding, hi: 'धनी, wealthy, ko: '풍부한, generous, gu: 'સમૃદ્ધ, thriving, nl: 'rijk, empire, nl: 'rijk, realm
 enemy: pa: 'ਦੁਸ਼ਮਣ, hostile, ku: 'dijmin, opponent
@@ -323,6 +326,7 @@ inchoative-aspect:
 command: hi: 'आदेश, directive, bn: 'আদেশ, order, bn: 'আদেশ, ordered, ru: 'команда, team, ko: '명령, dictate, am: 'ትእዛዝ, instruction, it: 'comando, leadership, hu: 'parancs, warrant, ku: 'ferman, arrangement
 jussive-mood: 
 month: id: 'bulan, moon, gu: 'માસ, mass
+perfect: hi: 'उत्तम, superb, ko: '완전한, complete, ko: '완전한, entire, ko: '완전한, integral, tr: 'mükemmel, excellent, de: 'perfekt, perfectly, fa: 'ﻞﻣﺎﮐ, thorough, ta: 'சரியான, proper, ta: 'சரியான, exact, ta: 'சரியான, correct, ta: 'சரியான, correctness, hu: 'tökéletes, accomplished, fi: 'täydellinen, utter, fi: 'täydellinen, inclusive
 experience: zh: '经验, empirical, zh: '经验, experiential, sw: 'uzoefu, experienced, sw: 'uzoefu, familiarity, ar: 'ﺓﺮﺒﺧ, expertise, fa: 'ﻪﺑﺮﺠﺗ, experiment, ta: 'அனுபவம், zest, am: 'ልምድ, habit, am: 'ልምድ, skill, ml: 'പരിചയം, acquaintance, az: 'təcrübə, experimentation, az: 'təcrübə, internship, th: 'ประสบการณ์, exp
 circumstances: bn: 'পরিস্থিতি, scenario, ko: '상황, circumstance, mr: 'परिस्थिती, situation, ur: 'حالات, conditions, am: 'ሁኔታ, state, am: 'ሁኔታ, standing, am: 'ሁኔታ, condition, am: 'ሁኔታ, incident
 fresh: zh: '新鲜, freshly, sw: 'safi, pure, sw: 'safi, clean, sw: 'safi, cleaner, id: 'segar, refreshed, pa: 'ਤਾਜ਼ਾ, latest, ta: 'புதிய, new, ta: 'புதிய, novice, am: 'ትኩስ, passionate, az: 'təzə, newly, nl: 'vers, verse
@@ -362,7 +366,7 @@ religion: zh: '宗教, religious, ar: 'ﻦﻳﺩ, debt, pa: 'ਧਰਮ, creed, p
 escape: zh: '逃逸, escaping, id: 'melarikandiri, flee, id: 'melarikandiri, fleeing, de: 'Flucht, getaway, az: 'xilas, rid, az: 'xilas, salvation, az: 'xilas, rescue, ku: 'rev, run, si: 'පලා, fugitive
 author: hi: 'लेखक, writer, ta: 'ஆசிரியர், teacher, ta: 'ஆசிரியர், editor
 brown: hi: 'भूरा, gray, hi: 'भूरा, grey, ta: 'பழுப்பு, suntan, te: 'గోధుమ, wheat, pl: 'brązowy, bronze
-pain: es: 'dolor, sorrow, es: 'dolor, grief, ru: 'боль, anguish, vi: 'đau, hurt, mr: 'वेदना, agony, ta: 'வலி, painful, pl: 'ból, sore, ku: 'êş, suffering
+pain: es: 'dolor, sorrow, es: 'dolor, grief, ru: 'боль, anguish, vi: 'đau, hurt, vi: 'đau, hurts, mr: 'वेदना, agony, ta: 'வலி, painful, pl: 'ból, sore, ku: 'êş, suffering
 spring: de: 'Feder, feather, am: 'ምንጭ, origin, am: 'ምንጭ, source, am: 'ምንጭ, fountain, am: 'ምንጭ, resource, ro: 'arc, bow, ro: 'arc, arch, ro: 'arc, arc, sv: 'vår, our, sv: 'vår, ours
 soft: hi: 'मुलायम, concessive, sw: 'laini, smooth, sw: 'laini, finely, id: 'lembut, tender, id: 'lembut, gently, id: 'lembut, softly, ru: 'мягкий, mild, ru: 'мягкий, bland, ko: '부드러운, gentle, ro: 'moale, slack
 corner: id: 'sudut, angle, fr: 'coin, wedge, hu: 'sarok, heel, cs: 'roh, horn
@@ -376,13 +380,12 @@ eight: sw: 'nane, eighth
 passing: zh: '通过, by, zh: '通过, through, zh: '通过, pass, zh: '通过, via, es: 'paso, step, es: 'paso, passage, es: 'paso, pace, es: 'paso, stride, tr: 'geçen, elapse, fa: 'ﺭﻮﺒﻋ, crossing, gu: 'પસાર, spend, gu: 'પસાર, undergo, si: 'සම්මත, standard, si: 'සම්මත, adopt
 terrible: zh: '可怕, awful, zh: '可怕, horrible, zh: '可怕, terribly, zh: '可怕, frightening, hi: 'भयानक, tremendous, hi: 'भयानक, terrific, sw: 'kutisha, tragic, sw: 'kutisha, alarming, tr: 'korkunç, monstrous, vi: 'khủngkhiếp, scare, kn: 'ಭಯಾನಕ, horror, ro: 'teribil, awfully, si: 'දරුණු, fierce
 required: ko: '필요, want, ko: '필요, require, pa: 'ਦੀਲੋੜਹੈ, need, mr: 'आवश्यक, necessary, mr: 'आवश्यक, essential, gu: 'જરૂરી, necessity, gu: 'જરૂરી, necessarily, ur: 'ضرورت, needing
-medium: zh: '中, during, zh: '中, mid, hi: 'मध्यम, moderate, hi: 'मध्यम, intermediate, sw: 'kati, central, es: 'medio, means, es: 'medio, middle, es: 'medio, medial, ar: 'ﻂﺳﻮﺘﻣ, average, az: 'mühit, ambient, ku: 'medya, media
+medium: zh: '中, during, zh: '中, mid, hi: 'मध्यम, moderate, hi: 'मध्यम, intermediate, sw: 'kati, central, es: 'medio, means, es: 'medio, middle, ar: 'ﻂﺳﻮﺘﻣ, average, az: 'mühit, ambient, ku: 'medya, media
 breath: hi: 'सांस, respiratory, ar: 'ﺲﻔﻨﺗ, breathe, ar: 'ﺲﻔﻨﺗ, breathing, tr: 'nefes, exhale, pa: 'ਸਾਹ, sigh, pa: 'ਸਾਹ, whisper, pa: 'ਸਾਹ, inhale, fa: 'ﺲﻔﻧ, ego, mr: 'श्वास, sniff, ur: 'سانس, gasp, ku: 'bîn, smell
 wise: zh: '明智, wisely, sw: 'busara, reasonable, sw: 'busara, sensible, sw: 'busara, discreet, id: 'bijaksana, thoughtful, pa: 'ਸਿਆਣੇ, mature, te: 'తెలివైన, brilliant, te: 'తెలివైన, clever, pl: 'mądry, smart, kn: 'ಬುದ್ಧಿವಂತ, intelligent, az: 'ağıllı, subtle, az: 'ağıllı, cute
 possessive-marker: 
 pleasant: zh: '愉快, pleasing, hi: 'सुखद, enjoyable, sw: 'mazuri, favorable, id: 'nyaman, comfortable, id: 'nyaman, comfortably, id: 'nyaman, snug, pt: 'agradável, nicely, pa: 'ਸੋਹਣੀ, beautifully, vi: 'thúvị, interestingly, fr: 'agréable, nice, ur: 'خوشگوار, cheerful, az: 'xoş, welcome
 grave: zh: '严重, serious, zh: '严重, severe, zh: '严重, heavily, zh: '严重, severity, mr: 'गंभीर, critical, ta: 'கல்லறை, cemetery, kn: 'ಸಮಾಧಿ, burial, az: 'ağır, hard, az: 'ağır, heavy, az: 'ağır, seriously, ku: 'gor, aloud
-modern: sw: 'kisasa, contemporary, sw: 'kisasa, sophisticated, sw: 'kisasa, modernize, id: 'modern, fashionable, ar: 'ﺚﻳﺪﺣ, recent, ar: 'ﺚﻳﺪﺣ, discourse, bn: 'আধুনিক, latter, ko: '현대, nowadays, te: 'ఆధునిక, advanced, ur: 'جدید, innovative, ku: 'rojane, daily
 island: 
 camp: sw: 'kambi, camping, de: 'Lager, bearing, de: 'Lager, warehouse, it: 'campo, field
 touch: ko: '접촉, contact
@@ -391,6 +394,7 @@ shore: pa: 'ਕੰਢੇ, brink, te: 'తీరం, coast, my: 'ကမ်း, ba
 domain: sw: 'uwanja, field, sw: 'uwanja, arena, sw: 'uwanja, stadium, es: 'dominio, dominance, ar: 'ﻕﺎﻄﻧ, range, fa: 'ﻪﻨﻣﺍﺩ, amplitude, fr: 'domaine, realm, it: 'dominio, domination, ro: 'domeniu, scope
 commissive-mood: 
 degree: es: 'grado, extent, es: 'grado, grade, ko: '정도, precision, vi: 'bằng, equal, mr: 'पदवी, undergraduate, ta: 'பட்டம், graduation
+winter: sw: 'baridi, cold, sw: 'baridi, cool, sw: 'baridi, cooler
 conduct: zh: '进行, underway, sw: 'mwenendo, trend, ar: 'ﻙﻮﻠﺳ, behaviour, ar: 'ﻙﻮﻠﺳ, behavior, bn: 'আচার, rite, ko: '행위, act, ta: 'நடத்தை, behavioral, am: 'ምግባር, virtue, am: 'ምግባር, ethical, kn: 'ನೀತಿ, policy, ro: 'conduce, lead, ro: 'conduce, drive
 running: zh: '赛跑, racing, sw: 'mbio, race, id: 'menjalankan, run, id: 'menjalankan, execute, ar: 'ﻞﻴﻐﺸﺗ, operational, tr: 'koşu, jog, mr: 'चालू, current, gu: 'ચાલી, underway, th: 'วิ่ง, rush
 minute: 
@@ -402,12 +406,13 @@ affairs: zh: '事务, affair, hi: 'कार्य, action, hi: 'कार्य
 safe: zh: '安全, secure, zh: '安全, safety, zh: '安全, security, sw: 'salama, safely, pt: 'seguro, insurance, pt: 'seguro, dependable, ku: 'emîn, sure, sv: 'säker, confident
 doctor: hi: 'चिकित्सक, physician, hi: 'चिकित्सक, therapist, sw: 'daktari, practitioner, pt: 'médico, medical, pa: 'ਡਾਕਟਰ, dentist
 completive-aspect: 
+repeated: zh: '反复, repeatedly, sw: 'marakwamara, frequently, sw: 'marakwamara, regular, sw: 'marakwamara, constant, sw: 'marakwamara, constantly, sw: 'marakwamara, occasionally, sw: 'marakwamara, frequent, sw: 'marakwamara, regularly, sw: 'marakwamara, periodical, sw: 'marakwamara, periodically, ko: '반복, repeat, mr: 'पुनरावृत्ती, repetition, mr: 'पुनरावृत्ती, revision, si: 'නැවතනැවත, recur
 darkness: bn: 'অন্ধকার, eclipse, pa: 'ਹਨੇਰੇ, dark, kn: 'ಕತ್ತಲೆ, gloom, az: 'qaranlıq, obscure, az: 'qaranlıq, obscurity, az: 'qaranlıq, sombre, si: 'අඳුරු, dull, si: 'අඳුරු, gloomy
 warm: hi: 'गरम, hot, hi: 'गरम, snug, sw: 'joto, heat, sw: 'joto, warmth, sw: 'joto, temperature, sw: 'joto, heating, fa: 'ﻡﺮﮔ, gram, fa: 'ﻡﺮﮔ, muggy
 drink: hi: 'पेय, beverage, ko: '음주, drunkenness
 example: zh: '例, instance, hi: 'उदाहरण, illustration, sw: 'mfano, model, sw: 'mfano, pattern, sw: 'mfano, metaphor, sw: 'mfano, prototype, id: 'contoh, specimen, id: 'contoh, exemplar, ko: '예, yes, tr: 'örnek, precedent, tr: 'örnek, sample, am: 'ለምሳሌ, ex, am: 'ለምሳሌ, for-example, el: 'παράδειγμα, paradigm
 anger: zh: '愤怒, angry, zh: '愤怒, rage, sw: 'hasira, outrage, ar: 'ﺐﻀﻏ, irritate, mr: 'राग, annoyed, ur: 'غصے, angst, ku: 'hêrs, annoyance, ku: 'hêrs, irritated
-spite: zh: '尽管, despite, hi: 'बावजूद, notwithstanding, ko: '악의, grudge, am: 'ቢሆንም, though, am: 'ቢሆንም, however, ku: 'tevî, complete
+spite: zh: '尽管, despite, ko: '악의, grudge, am: 'ቢሆንም, though, am: 'ቢሆንም, however, ku: 'tevî, complete
 directly: hi: 'सीधे, straight, sw: 'mojakwamoja, direct, sw: 'mojakwamoja, indirect, sw: 'mojakwamoja, automatic, sw: 'mojakwamoja, straightforward, pa: 'ਨੂੰਸਿੱਧਾ, straighten, vi: 'trựctiếp, immediate, my: 'တိုက်ရိုက်, literally
 hat: hi: 'टोपी, cap, sw: 'kofia, helmet
 dog: ku: 'seh, hearing, ku: 'seh, audition
@@ -422,7 +427,7 @@ attack: hi: 'आक्रमण, invasion, hi: 'आक्रमण, invade, hi: 
 health: zh: '健康, healthy, zh: '健康, wellness, sw: 'afya, healthful, sw: 'afya, disable, id: 'kesehatan, healthcare, sv: 'hälsa, greet, th: 'สุขภาพ, hygiene
 paragraph: zh: '段, segments, sw: 'aya, verse, id: 'ayat, clause, pa: 'ਪੈਰਾ, par, vi: 'đoạn, chunk, fi: 'kohta, point
 social: zh: '社会, society, sw: 'kijamii, socially, id: 'sosial, charitable, gu: 'સામાજિક, socialize, ku: 'civatî, community
-refund: es: 'reembolso, rebate, es: 'reembolso, reimbursement, es: 'reembolso, repayment, ar: 'ﺩﺭ, reply, ar: 'ﺩﺭ, respond, az: 'geri, back, az: 'geri, withdraw, az: 'geri, reverse, az: 'geri, backwards, az: 'geri, redeem, az: 'geri, backward
+refund: es: 'reembolso, rebate, es: 'reembolso, repayment, es: 'reembolso, reimbursement, ar: 'ﺩﺭ, reply, ar: 'ﺩﺭ, respond, az: 'geri, back, az: 'geri, withdraw, az: 'geri, reverse, az: 'geri, backwards, az: 'geri, redeem, az: 'geri, backward
 official: sw: 'rasmi, formal, sw: 'rasmi, formally, sw: 'rasmi, officially, es: 'oficial, officer, mr: 'अधिकृत, authorise, te: 'అధికారిక, bureaucratic, pl: 'urzędnik, clerk, kn: 'ಅಧಿಕೃತ, authentic
 glance: zh: '一瞥, glimpse, sw: 'mtazamo, view, sw: 'mtazamo, attitude, sw: 'mtazamo, perception, sw: 'mtazamo, outlook, es: 'vistazo, browse, ru: 'взгляд, sight, ko: '섬광, glare, pa: 'ਨਜ਼ਰ, noticeable, az: 'nəzər, stare, el: 'ματιά, look
 glory: ru: 'слава, fame, ko: '영광, honour, ko: '영광, honor, tr: 'şan, singing, te: 'కీర్తి, reputation, gu: 'ગૌરવ, dignity, am: 'ክብር, prestige
@@ -441,6 +446,7 @@ curious: ko: '이상한, strange, ko: '이상한, extraordinary, ko: '이상한,
 foreign: zh: '国外, abroad, hi: 'विदेशी, alien, hi: 'विदेशी, foreigner, hi: 'विदेशी, exotic, es: 'exterior, outer, pt: 'estrangeiro, stranger, tr: 'yabancı, unfamiliar, pa: 'ਵਿਦੇਸ਼ੀ, overseas, fa: 'ﯽﺟﺭﺎﺧ, external, ku: 'xerîb, strange
 intensifier: ar: 'ﻒﻴﺜﻜﺗ, intensify, kn: 'ತೀವ್ರತೆ, intensity
 importance: sw: 'umuhimu, necessity, sw: 'umuhimu, relevance, ko: '중요성, emphasis, tr: 'önem, prominence, pa: 'ਮਹੱਤਤਾ, significance, de: 'Bedeutung, meaning, am: 'ጠቃሚነት, merit
+finally: hi: 'अंतमें, ultimately, sw: 'hatimaye, eventually, pa: 'ਅੰਤ, end, pa: 'ਅੰਤ, overthrow, vi: 'cuốicùng, final, vi: 'cuốicùng, ultimate, vi: 'cuốicùng, terminal, de: 'endlich, finite, ta: 'இறுதியாக, finely, my: 'နောက်ဆုံး, last, my: 'နောက်ဆုံး, latest, ku: 'paşan, then, ku: 'paşan, later, ku: 'paşan, afterwards
 neck: ko: '목, throat, ko: '목, item
 liberty: zh: '自由, free, zh: '自由, freedom, hi: 'स्वतंत्रता, independence, sw: 'uhuru, freely, sw: 'uhuru, autonomy, hu: 'szabadság, leave, hu: 'szabadság, holiday
 sides: id: 'sisi, side
@@ -452,7 +458,7 @@ distant: hi: 'दूर, away, hi: 'दूर, far, sw: 'mbali, off, sw: 'mbali,
 progress: hi: 'प्रगति, stride, hi: 'प्रगति, progression, sw: 'maendeleo, development, sw: 'maendeleo, progressive, sw: 'maendeleo, advancement, sw: 'maendeleo, developmental, ar: 'ﻡﺪﻘﺗ, advance, ar: 'ﻡﺪﻘﺗ, proceed, bn: 'উন্নতি, growth, pa: 'ਤਰੱਕੀ, promotion, ta: 'முன்னேற்றம், improvement, ta: 'முன்னேற்றம், uplift
 narrow: zh: '缩小, downsize, sw: 'nyembamba, thin, ar: 'ﻖﻴﺿ, tight, ko: '제한된, limited, pt: 'limitar, confine, pa: 'ਤੰਗ, annoying, ta: 'குறுகிய, short, ur: 'تنگ, annoy, am: 'ጠባብ, confined, ku: 'teng, closely
 building: id: 'bangunan, buildings, ar: 'ءﺎﻨﺑ, build, ar: 'ءﺎﻨﺑ, structure, ar: 'ءﺎﻨﺑ, construct, pt: 'construção, construction, pa: 'ਇਮਾਰਤ, premises, mr: 'इमारत, skeleton, ml: 'കെട്ടിടം, fabric, ku: 'avahî, creative
-page: id: 'halaman, yard, de: 'Seite, side, fa: 'ﻪﺤﻔﺻ, plate, cs: 'strana, party, th: 'หน้า, anterior
+page: id: 'halaman, yard, de: 'Seite, side, fa: 'ﻪﺤﻔﺻ, plate, cs: 'strana, party
 holding: zh: '保持, keep, zh: '保持, hold, zh: '保持, maintain, tr: 'tutma, containment, pa: 'ਰੱਖਣ, preserving, it: 'detenzione, detaining, kn: 'ಹಿಡಿದ, sideways, az: 'keçirilməsi, conduction, cs: 'podíl, share
 sad: hi: 'उदास, gloomy, hi: 'उदास, depressed, id: 'sedih, miserable, tr: 'üzücü, upsetting, de: 'traurig, sadly, fa: 'ﻦﯿﮕﻤﻏ, upset, mr: 'दु:खी, unhappy, ta: 'வருத்தம், remorse, gu: 'ઉદાસી, sadness, kn: 'ದುಃಖ, sorrow, kn: 'ದುಃಖ, grief, kn: 'ದುಃಖ, misery, kn: 'ದುಃಖ, anguish
 sin: ko: '죄, guilt, vi: 'tội, offenses, mr: 'पाप, commit, te: 'పాపం, sadly, az: 'günah, fault, hu: 'bűn, crime
@@ -482,6 +488,7 @@ file: zh: '文件, document, zh: '文件, documents, id: 'mengajukan, lodge, es:
 shoulder: vi: 'vai, portrayal, fa: 'ﻪﻧﺎﺷ, comb, pl: 'ramię, arm, sv: 'axel, shaft, sv: 'axel, axis
 comfort: hi: 'आराम, ease, hi: 'आराम, relaxed, hi: 'आराम, relaxing, sw: 'faraja, encouragement, id: 'kenyamanan, convenience, ar: 'ﺔﺣﺍﺭ, rest, ar: 'ﺔﺣﺍﺭ, relief, te: 'సౌకర్యం, facility, gu: 'આરામ, relax, am: 'ምቾት, luxury, am: 'ምቾት, amenity
 anyone: zh: '任何人, anybody, es: 'nadie, nobody, pt: 'alguém, somebody, pt: 'alguém, someone, fa: 'ﯽﺴﮐﺮﻫ, everybody, ro: 'oricine, whoever, nl: 'iedereen, everyone
+desired: zh: '期望, expect, zh: '期望, expectation, sw: 'taka, waste, id: 'diinginkan, desirable, ru: 'желательно, advisable, vi: 'mongmuốn, desiring, my: 'ဆန္ဒရှိ, willing, si: 'අපේක්ෂිත, expected
 grass: sw: 'nyasi, hay, es: 'césped, lawn, ar: 'ﺐﺸﻋ, herb, pt: 'grama, gram, de: 'Gras, weed, te: 'గడ్డి, straw, si: 'තෘණ, pasture
 draw: hi: 'खींचना, drag, id: 'menarik, interesting, id: 'menarik, appeal, id: 'menarik, attractive, id: 'menarik, withdraw, id: 'menarik, exciting, id: 'menarik, attract, id: 'menarik, interestingly, tr: 'çekmek, haul, fa: 'ﻢﺳﺭ, drawing, az: 'çəkmək, pull
 opening: hi: 'प्रारंभिक, preliminary, hi: 'प्रारंभिक, initial, ru: 'открытие, discovery, pt: 'abertura, openness, te: 'ప్రారంభ, early, am: 'ቀዳዳ, hole, pl: 'otwarcie, openly, ro: 'deschidere, span, ku: 'dergeh, gate, si: 'විවෘත, open, fi: 'aukko, gap, fi: 'aukko, slot
@@ -494,13 +501,12 @@ expense: zh: '费用, fee, hi: 'व्यय, expenditure, sw: 'gharama, cost, s
 yours: zh: '你的, your
 million: sw: 'milioni, millionth, my: 'သန်း, louse
 pray: bn: 'প্রার্থনাকরা, beg, ko: '빌다, borrow, mr: 'प्रार्थना, prayer, sv: 'be, ask
-tired: sw: 'uchovu, fatigue, sw: 'uchovu, weariness, ar: 'ﺐﻌﺘﻣ, tiring
+tired: sw: 'uchovu, fatigue, ar: 'ﺐﻌﺘﻣ, tiring
 kill: hi: 'हत्या, murder, ar: 'ﻞﺘﻗ, killing, ko: '죽이다, eliminate, gu: 'મારી, myself, th: 'ฆ่า, dispatch
 shadow: hi: 'छाया, shade
 weight: hi: 'भार, load, id: 'berat, heavy, id: 'berat, heavily, vi: 'cânnặng, weigh, am: 'ሚዛን, balance, ml: 'ഭാരം, burden, hu: 'súly, gravity, ku: 'pîvan, extent, ku: 'pîvan, measure
 brave: id: 'berani, bold, id: 'berani, daring, ku: 'jîr, active
 satisfied: zh: '满意, pleased, zh: '满意, satisfaction, zh: '满意, contentment, bn: 'সন্তুষ্ট, content, tr: 'memnun, glad, ta: 'திருப்தி, satisfy, ta: 'திருப்தி, satisfying, am: 'ደስተኛ, happy
-numerous: bn: 'অনেক, considerably, pa: 'ਕਈ, several, te: 'అనేక, many, si: 'බොහෝ, much, si: 'බොහෝ, most
 telling: zh: '告诉, tell, vi: 'nói, speak, de: 'erzählen, relate, fa: 'گفتن, rehearse, fr: 'récit, narrative, az: 'izah, explaining, el: 'αποτελεσματικός, effective, el: 'αποτελεσματικός, efficient, sv: 'talande, talking
 national: id: 'nasional, nationwide, es: 'nacional, domestic, ta: 'தேசிய, nation, ta: 'தேசிய, nationality, te: 'జాతీయ, nationalist, am: 'ብሔራዊ, nationalism, el: 'εθνικός, ethnic
 weak: id: 'lemah, faint, bn: 'দুর্বল, poorly, pa: 'ਕਮਜ਼ੋਰ, vulnerable, ur: 'کمزور, bland, ur: 'کمزور, waver, ur: 'کمزور, undermine, ur: 'کمزور, dilute, ro: 'slab, skinny, si: 'දුර්වල, weakness, th: 'อ่อนแอ, susceptible
@@ -522,7 +528,7 @@ dangerous: zh: '危险, danger, zh: '危险, hazardous, hi: 'ख़तरना�
 august: 
 popular: zh: '流行, prevalence, sw: 'maarufu, famous, sw: 'maarufu, prominent, es: 'popular, pop, vi: 'phổbiến, popularity, vi: 'phổbiến, commonality, fr: 'populaire, folk, te: 'ప్రముఖ, leading, te: 'ప్రముఖ, veteran, am: 'ዝነኛ, celebrity, az: 'məşhur, renown, az: 'məşhur, outstanding, cs: 'oblíbený, favourite, cs: 'oblíbený, favorite
 unknown: es: 'desconocido, stranger, es: 'desconocido, unfamiliar, my: 'အမည်မသိ, anonymous, th: 'ไม่ทราบ, unaware
-familiar: hi: 'परिचित, acquaintance, hi: 'परिचित, familiarize, sw: 'ukoo, lineage, sw: 'ukoo, descendent, ko: '익숙한, used, fr: 'familier, colloquial, gu: 'પરિચિત, aware, ku: 'nas, usual, ku: 'nas, intimate
+familiar: hi: 'परिचित, acquaintance, hi: 'परिचित, familiarize, sw: 'ukoo, lineage, sw: 'ukoo, descendent, ko: '익숙한, used, gu: 'પરિચિત, aware, ku: 'nas, usual
 familiar-register: 
 reader: ko: '리더, leader, fa: 'ﻩﺪﻨﻧﺍﻮﺧ, singer
 walking: zh: '步行, walk, sw: 'kutembea, tread, id: 'berjalan, proceed, vi: 'đangđi, going, fa: 'ﯼﻭﺭﻩﺩﺎﯿﭘ, hike, pl: 'pieszy, pedestrian, az: 'gəzinti, picnic, si: 'ගමන්, moving, si: 'ගමන්, travel, si: 'ගමන්, traveled, fi: 'kävely, stroll
@@ -542,7 +548,6 @@ literature: sw: 'fasihi, literary, mr: 'साहित्य, material, mr: '�
 rank: hi: 'पद, post, pt: 'categoria, category, vi: 'cấp, grade, ta: 'சாதனை, achievement, ta: 'சாதனை, accomplishment, gu: 'ક્રમ, sequence, kn: 'ಶ್ರೇಣಿಯ, range, ml: 'പദവി, status, ml: 'പദവി, privilege, my: 'အဆင့်, ranked, el: 'τάξη, class, fi: 'arvo, value
 storm: id: 'badai, hurricane, es: 'tormenta, thunderstorm, ko: '폭풍, tornado, pa: 'ਤੂਫ਼ਾਨ, steer
 pocket: de: 'Tasche, bag, ta: 'பாக்கெட், packet
-independent-clause: 
 november: 
 december: 
 absence: zh: '缺席, absent, es: 'ausencia, lack, pl: 'brak, shortage
@@ -550,7 +555,7 @@ population: fa: 'ﺖﯿﻌﻤﺟ, crowd, fa: 'ﺖﯿﻌﻤﺟ, mob, ku: 'gelî, 
 thank: zh: '感谢, gratitude, zh: '感谢, grateful, hi: 'धन्यवाद, thanks, hi: 'धन्यवाद, thank-you, ko: '감사, appreciate, ko: '감사, auditor, pt: 'obrigado, obligated, ro: 'mulțumire, contentment
 series: sw: 'mfululizo, consistently, sw: 'mfululizo, consecutive, ar: 'ﺔﻠﺴﻠﺳ, chain, tr: 'dizi, string, tr: 'dizi, array, tr: 'dizi, sequence, ta: 'தொடர், serial, gu: 'શ્રેણી, range, gu: 'શ્રેણી, category, el: 'σειρά, set, el: 'σειρά, turn, el: 'σειρά, row
 bird: sw: 'ndege, flight, sw: 'ndege, plane, sw: 'ndege, jet, sw: 'ndege, aircraft, sw: 'ndege, airplane, sw: 'ndege, airline
-owner: hi: 'मालिक, boss, id: 'pemilik, possessor, es: 'propietario, landlord, bn: 'মালিক, master, fr: 'propriétaire, homeowner, te: 'యజమాని, employer, kn: 'ಮಾಲೀಕರು, employer's, az: 'sahib, holder, ku: 'xwedî, proliferating
+owner: hi: 'मालिक, boss, es: 'propietario, landlord, bn: 'মালিক, master, fr: 'propriétaire, homeowner, te: 'యజమాని, employer, kn: 'ಮಾಲೀಕರು, employer's, az: 'sahib, holder, ku: 'xwedî, proliferating
 coat: sw: 'kanzu, gown, es: 'capa, layer, ar: 'ﻒﻄﻌﻣ, jacket, de: 'Mantel, sheath, ku: 'post, fur, sv: 'täcka, cover
 relations: zh: '关系, relation, zh: '关系, relationship, zh: '关系, relationships, id: 'hubungan, bearing, id: 'hubungan, relevance, pa: 'ਸੰਬੰਧ, regard, pa: 'ਸੰਬੰਧ, relate, vi: 'quanhệ, relational, de: 'Verhältnis, ratio, fr: 'rapports, reporting, am: 'ግንኙነት, connection, th: 'ความสัมพันธ์, correlation
 rapidly: am: 'በፍጥነት, quickly, am: 'በፍጥነት, fast, am: 'በፍጥነት, prompt, ro: 'rapid, quick, ro: 'rapid, rapid
@@ -574,7 +579,7 @@ october: tr: 'Ekim, planting
 objects: sw: 'vitu, items, id: 'benda, thing, ta: 'பொருட்களை, stuff, ml: 'വസ്തുക്കൾ, materials, th: 'วัตถุ, object
 bitter: zh: '苦, hardship, sw: 'uchungu, agony, sw: 'uchungu, anguish, id: 'pahit, bitterly, ko: '쓴, written, tr: 'acı, suffering, tr: 'acı, painful, tr: 'acı, sting, si: 'කටුක, harsh
 slave: ko: '노예, slavery, ko: '노예, bond, te: 'బానిస, addicted
-loose: sw: 'huru, independent, id: 'longgar, loosely, ru: 'свободный, vacant, ko: '느슨하게, slack, ro: 'liber, freely, az: 'boş, empty, az: 'boş, deserted, az: 'boş, blank, ku: 'serbixwe, independently, si: 'ලිහිල්, permissive, sv: 'lösa, resolve, sv: 'lösa, solve
+loose: sw: 'huru, independent, id: 'longgar, loosely, ru: 'свободный, vacant, ko: '느슨하게, slack, ro: 'liber, freely, az: 'boş, empty, az: 'boş, deserted, az: 'boş, blank, ku: 'serbixwe, independently, sv: 'lösa, resolve, sv: 'lösa, solve
 text: am: 'ጽሑፍ, article, am: 'ጽሑፍ, publication, ku: 'nivîstok, pen
 worst: sw: 'mbaya, bad, sw: 'mbaya, worse, sw: 'mbaya, rough, sw: 'mbaya, adverse, pa: 'ਸਭ, most, ta: 'மோசமான, nasty, te: 'చెత్త, rubbish, te: 'చెత్త, trash, te: 'చెత్త, garbage, gu: 'ખરાબ, badly, am: 'መጥፎ, poorly, kn: 'ಕೆಟ್ಟ, ill
 credit: sw: 'mikopo, mortgage, sw: 'mikopo, lending, vi: 'thẻtíndụng, credit-card, fa: 'ﺭﺎﺒﺘﻋﺍ, prestige, fa: 'ﺭﺎﺒﺘﻋﺍ, validity, fa: 'ﺭﺎﺒﺘﻋﺍ, credibility, ta: 'கடன், debt, ta: 'கடன், lend, ta: 'கடன், borrow, ta: 'கடன், loan, si: 'ණය, owe, si: 'ණය, borrowing
@@ -585,14 +590,13 @@ dust: es: 'polvo, powder, te: 'దుమ్ము, dirt, am: 'አፈር, soil, n
 practical: zh: '实用, functional, hi: 'व्यावहारिक, pragmatic, sw: 'vitendo, actions, id: 'praktis, practically, es: 'práctico, handy, de: 'praktisch, convenient, de: 'praktisch, virtually, fa: 'ﯽﻠﻤﻋ, applied, am: 'ተግባራዊ, apply, am: 'ተግባራዊ, implement, am: 'ተግባራዊ, implementation, kn: 'ಪ್ರಾಯೋಗಿಕ, experimental, kn: 'ಪ್ರಾಯೋಗಿಕ, empirical
 colour: zh: '颜色, color, hi: 'रंग, paint, hi: 'रंग, whim, hi: 'रंग, dye, sw: 'rangi, pale, sw: 'rangi, coloured, sw: 'rangi, colorful, gu: 'રંગ, nuance, am: 'ቀለም, ink, ro: 'culoare, flush
 nose: te: 'ముక్కు, beak
-friendly: hi: 'अनुकूल, suited, hi: 'अनुकूल, favorable, hi: 'अनुकूल, congruent, tr: 'samimi, intimate, tr: 'samimi, sincere, de: 'freundlich, kindly, ta: 'நட்பு, ally, ta: 'நட்பு, friendship, fi: 'ystävällinen, kind
+friendly: hi: 'अनुकूल, suited, hi: 'अनुकूल, favorable, hi: 'अनुकूल, congruent, tr: 'samimi, sincere, de: 'freundlich, kindly, ta: 'நட்பு, ally, ta: 'நட்பு, friendship, fi: 'ystävällinen, kind
 supply: sw: 'usambazaji, distribution, id: 'menyediakan, provide, id: 'menyediakan, providing, id: 'menyediakan, furnish, id: 'menyediakan, allocate, ar: 'ﺽﺮﻌﻟﺍ, width, vi: 'cungcấp, provided, vi: 'cungcấp, provision, vi: 'cungcấp, cater, de: 'liefern, deliver, ta: 'வழங்கல், presentation, nl: 'levering, delivery, hu: 'kínálat, bid
 yesterday: hi: 'कल, tomorrow, pa: 'ਕੱਲ੍ਹ, nowadays, ur: 'کل, total
 hesternal-tense: 
-fail: zh: '失败, failure, zh: '失败, failing, hi: 'असफल, unsuccessful, sw: 'kushindwa, defeat, fa: 'ﺖﺴﮑﺷ, setback, gu: 'નિષ્ફળ, frustrate, gu: 'નિષ્ફળ, thwarting, pl: 'zawieść, confound, pl: 'zawieść, disappoint, my: 'ဆုံးရှုံး, losing, az: 'uğursuz, unfortunate, az: 'uğursuz, unlucky, si: 'අසමත්, incapable, si: 'අසමත්, overlook
+fail: zh: '失败, failure, hi: 'असफल, unsuccessful, sw: 'kushindwa, defeat, fa: 'ﺖﺴﮑﺷ, setback, gu: 'નિષ્ફળ, frustrate, gu: 'નિષ્ફળ, thwarting, pl: 'zawieść, confound, pl: 'zawieść, disappoint, my: 'ဆုံးရှုံး, losing, az: 'uğursuz, unfortunate, az: 'uğursuz, unlucky, si: 'අසමත්, incapable, si: 'අසමත්, overlook
 wear: hi: 'पहनना, commute, bn: 'পরা, wearing, de: 'tragen, carry, fr: 'porter, porter
 blind: 
-dozen: sw: 'kadhaa, several, vi: 'tá, distractor, az: 'çox, very, az: 'çox, much, az: 'çox, too, az: 'çox, many, az: 'çox, lot, az: 'çox, greatly, az: 'çox, plenty, az: 'çox, commonly, az: 'çox, multiple, az: 'çox, multi, ku: 'deste, block, ku: 'deste, bundle
 fly: sw: 'kuruka, flying, sw: 'kuruka, jump, bn: 'মাছি, flyer, fa: 'ﺯﺍﻭﺮﭘ, flight, az: 'uçmaq, slide, az: 'uçmaq, tumble, az: 'uçmaq, soar
 devil: mr: 'भूत, ghost
 gradually: hi: 'धीरे-धीरे, slowly, id: 'bertahap, gradual, bn: 'ধীরেধীরে, softly, ta: 'படிப்படியாக, steadily
@@ -649,13 +653,13 @@ sufficiently: zh: '充分, full, zh: '充分, fully, hi: 'पर्याप्�
 witness: ko: '증거, evidence, pl: 'dowód, proof, kn: 'ಸಾಕ್ಷಿ, testify
 kitchen: es: 'cocina, cooking, tr: 'mutfak, culinary, ku: 'aşxane, inn, ku: 'aşxane, restaurant, el: 'κουζίνα, cooker
 sell: hi: 'बेचना, selling, hi: 'बेचना, vend, sw: 'kuuza, sale, ko: '팔다, betray, pa: 'ਵੇਚਣ, seller, vi: 'bán, semi, si: 'අලෙවි, marketing
-treatment: zh: '治疗, treat, zh: '治疗, treating, zh: '治疗, therapy, hi: 'इलाज, cure, hi: 'इलाज, medication, sw: 'matibabu, medical, ar: 'ﺝﻼﻋ, remedy, ta: 'சிகிச்சை, therapist, te: 'చికిత్స, aid, my: 'ကုသ, heal, th: 'การรักษา, preserving, th: 'การรักษา, retaining, fi: 'hoito, care
+treatment: zh: '治疗, treat, zh: '治疗, treating, zh: '治疗, therapy, hi: 'इलाज, cure, hi: 'इलाज, medication, sw: 'matibabu, medical, ar: 'ﺝﻼﻋ, remedy, ta: 'சிகிச்சை, therapist, te: 'చికిత్స, aid, my: 'ကုသ, heal, th: 'การรักษา, retaining, th: 'การรักษา, preserving, fi: 'hoito, care
 speed: zh: '速度, velocity, hi: 'गति, pace, hi: 'गति, momentum, sw: 'kasi, steadily, sw: 'kasi, sharply, sw: 'kasi, drastically, mr: 'गती, motion, mr: 'गती, accelerate, ml: 'വേഗം, quickly, my: 'အရှိန်, acceleration
 computer: sw: 'kompyuta, computing, my: 'ကွန်ပျူတာ, computation
 eternal: sw: 'milele, ever, sw: 'milele, forever, tr: 'sonsuz, infinite, te: 'శాశ్వత, permanent, az: 'əbədi, abide
 library: sw: 'maktaba, librarian, fr: 'bibliothèque, bookcase
 containing: ko: '포함, included, ta: 'கொண்ட, having, ur: 'استعمال, usage, ur: 'استعمال, utilize, az: 'olan, being, si: 'අඩංගු, contain, th: 'มี, possess
-base: zh: '基础, foundation, zh: '基础, basis, sw: 'msingi, based, sw: 'msingi, fundamental, sw: 'msingi, primary, sw: 'msingi, elementary, sw: 'msingi, core, sw: 'msingi, basic, ur: 'بنیاد, premise, am: 'መሠረት, according, am: 'መሠረት, accordance, am: 'መሠረት, pursuant, ku: 'bingeh, establishment, fi: 'pohja, bottom
+base: zh: '基础, foundation, zh: '基础, basis, sw: 'msingi, based, sw: 'msingi, fundamental, sw: 'msingi, primary, sw: 'msingi, elementary, sw: 'msingi, core, sw: 'msingi, basic, ur: 'بنیاد, premise, ku: 'bingeh, establishment, fi: 'pohja, bottom
 confusion: tr: 'karışıklık, mess, pa: 'ਉਲਝਣ, confused, pa: 'ਉਲਝਣ, confusing, mr: 'गोंधळ, anarchy, ta: 'குழப்பம், chaos, it: 'confusione, fuss, kn: 'ಗೊಂದಲ, confuse, hu: 'zavar, disturb, hu: 'zavar, bother, hu: 'zavar, embarrassment
 cook: zh: '厨师, chef, id: 'memasak, cooking, fa: 'ﻦﺘﺨﭘ, bake, pl: 'gotować, boil
 desert: id: 'gurun, wilderness, pt: 'deserto, deserted, cs: 'dezert, dessert
@@ -671,13 +675,11 @@ hide: zh: '隐藏, conceal, hi: 'छिपाना, secrete, sw: 'kujificha, di
 expedition: hi: 'अभियान, campaign, sw: 'msafara, convoy, ar: 'ﺔﻠﻤﺣ, drive, pa: 'ਮੁਹਿੰਮ, crusade, fa: 'ﺮﻔﺳ, voyage, fa: 'ﺮﻔﺳ, trip, fa: 'ﺮﻔﺳ, tour, fa: 'ﺮﻔﺳ, journey, fr: 'expédition, shipment, ta: 'பயணம், traveled, it: 'spedizione, dispatch, it: 'spedizione, consignment
 ignorant: zh: '无知, ignorance, hi: 'अनजान, unaware, hi: 'अनजान, unfamiliar, hi: 'अनजान, ignorative, sw: 'wajinga, foolish, id: 'bodoh, silly, id: 'bodoh, stupid, id: 'bodoh, ridiculous, am: 'ደንቆሮ, deaf, ku: 'nezan, awkward
 cloud: ku: 'ewr, thunderstorm
-waste: hi: 'बेकार, useless, hi: 'बेकार, unnecessary, mr: 'कचरा, rubbish, mr: 'कचरा, trash, mr: 'कचरा, garbage, it: 'rifiuto, refuse, it: 'rifiuto, refusal, it: 'rifiuto, rejection, my: 'စွန့်ပစ်, abandoned, cs: 'odpad, junk
 february: 
-disease: zh: '疾病, illness, zh: '疾病, sickness, sw: 'ugonjwa, coronary, ar: 'ﺽﺮﻣ, satisfactory, ar: 'ﺽﺮﻣ, satisfying, ta: 'நோய், syndrome, kn: 'ರೋಗ, diagnosis, kn: 'ರೋಗ, iterative, kn: 'ರೋಗ, epidemiology, my: 'အနာ, injury, my: 'အနာ, sore
+disease: zh: '疾病, illness, zh: '疾病, sickness, sw: 'ugonjwa, coronary, ar: 'ﺽﺮﻣ, satisfactory, ar: 'ﺽﺮﻣ, satisfying, ta: 'நோய், syndrome, kn: 'ರೋಗ, diagnosis, kn: 'ರೋಗ, epidemiology, my: 'အနာ, injury, my: 'အနာ, sore
 initiative-case: 
 aunt: 
 humble: ko: '겸손한, modest, gu: 'નમ્ર, polite, az: 'məzlum, depressed
-compliance: sw: 'kufuata, follow, es: 'conformidad, accordance, bn: 'সম্মতি, consent, bn: 'সম্মতি, willingness, fa: 'ﻕﺎﺒﻄﻧﺍ, adaptation, fa: 'ﻕﺎﺒﻄﻧﺍ, adapt, mr: 'पालन, comply, mr: 'पालन, obey, mr: 'पालन, adhere, gu: 'પાલન, abide, si: 'අනුකූල, conform, si: 'අනුකූල, compatible
 delayed-imperative: 
 reported-evidential: 
 midnight: pl: 'północ, north
@@ -694,6 +696,7 @@ donate: sw: 'kuchangia, contribute, ko: '기부, contribution, gu: 'દાન, d
 forehead: es: 'frente, front
 angel: ar: 'ﻙﻼﻣ, landowner, ta: 'தேவதை, fairy, te: 'దూత, messenger
 singular: sw: 'umoja, united, sw: 'umoja, unity, sw: 'umoja, inclusive, id: 'tunggal, single, id: 'tunggal, sole, mr: 'असामान्य, unusual, mr: 'असामान्य, abnormal, ro: 'singular, singular-number, az: 'qəribə, strange, az: 'qəribə, strangely, az: 'qəribə, weird, az: 'qəribə, bizarre, cs: 'pozoruhodný, remarkable, fi: 'yksikkö, unit
+error: zh: '错误, wrong, zh: '错误, mistake, zh: '错误, mistaken, sw: 'makosa, offenses, id: 'kesalahan, fault, id: 'kesalahan, guilt, de: 'Fehler, flaw, te: 'లోపం, defect, te: 'లోపం, deficiency, gu: 'ભૂલ, bug, pl: 'błąd, gaffe, az: 'səhv, omission, hu: 'hiba, failure, hu: 'hiba, blemish
 dawn: es: 'amanecer, sunrise, de: 'Dämmerung, twilight, hu: 'hajnal, orient
 sheep: sw: 'kondoo, lamb, ko: '양, amount, ko: '양, positive
 patience: mr: 'संयम, restraint, te: 'సహనం, tolerance, ur: 'صبر, patient, kn: 'ತಾಳ್ಮೆ, impatient, az: 'səbir, tolerating
@@ -701,7 +704,6 @@ referential: zh: '参考, reference, zh: '参考, refer, sw: 'rejea, resume, bn:
 corn: fr: 'blé, wheat, mr: 'धान्य, grain
 majority: sw: 'wengi, many, ru: 'большинство, most, kn: 'ಬಹುತೇಕ, almost, th: 'ส่วนใหญ่, largely, th: 'ส่วนใหญ่, mostly, th: 'ส่วนใหญ่, mainly, th: 'ส่วนใหญ่, primarily
 measures: sw: 'hatua, point, sw: 'hatua, action, sw: 'hatua, step, sw: 'hatua, stage, ar: 'الإجراءات, actions, bn: 'ব্যবস্থা, arranging, my: 'အစီအမံ, arrangements, si: 'පියවර, move, cs: 'opatření, measure
-occasionally: hi: 'कभीकभी, sometimes, hi: 'कभीकभी, seldom, sw: 'marakwamara, repeated, sw: 'marakwamara, frequently, sw: 'marakwamara, regular, sw: 'marakwamara, constant, sw: 'marakwamara, constantly, sw: 'marakwamara, frequent, sw: 'marakwamara, regularly, sw: 'marakwamara, periodical, sw: 'marakwamara, periodically, tr: 'bazen, sometime, am: 'አልፎአልፎ, rarely
 profit: hi: 'लाभ, advantage, hi: 'लाभ, gain, hi: 'लाभ, benefit, hi: 'लाभ, mileage, sw: 'faida, profitable, sw: 'faida, viable, ru: 'прибыль, earnings, pa: 'ਲਾਭ, beneficiary, am: 'ትርፍ, spare, am: 'ትርፍ, surplus, az: 'gəlir, income, az: 'gəlir, revenue, ku: 'birin, merit, fi: 'voitto, victory
 sugar: ar: 'ﺮﻜﺴﻟﺍ, drunkenness, tr: 'şeker, candy, pa: 'ਖੰਡ, segment, vi: 'đường, way, vi: 'đường, road, vi: 'đường, street, vi: 'đường, tract
 humanity: ta: 'மனித, human
@@ -723,7 +725,7 @@ print: es: 'impresión, impression, es: 'impresión, printing, tr: 'baskı, edit
 solid-matter: 
 oh: ar: 'ﺎﻳ, ya, mr: 'अरे, array, ur: 'ارے, hey
 discourse-context: 
-vocative-case: cs: 'vokativ, vocative
+vocative-case: 
 noon: hi: 'दोपहर, afternoon, hi: 'दोपहर, midday, pl: 'południe, south, sv: 'middag, dinner
 cabin: es: 'cabina, booth, vi: 'lều, tent, vi: 'lều, lodge, az: 'daxma, hut, ku: 'koz, post, sv: 'stuga, cottage
 alarm: sw: 'kengele, bell, ar: 'ﺭﺍﺬﻧﺇ, alert, ko: '경보, alarmed, kn: 'ಎಚ್ಚರಿಕೆ, warning, kn: 'ಎಚ್ಚರಿಕೆ, warn, az: 'həyəcan, excitement, el: 'τρομάζω, frighten, el: 'τρομάζω, terrify, th: 'ปลุก, wake
@@ -739,11 +741,11 @@ hell:
 defective: zh: '缺陷, defect, zh: '缺陷, flaw, zh: '缺陷, blemish, hi: 'दोषपूर्ण, faulty, id: 'cacat, imperfect, id: 'cacat, disabled, id: 'cacat, disability, es: 'defectuoso, flawed, pt: 'defeituoso, malfunction
 mixed: sw: 'mchanganyiko, mixture, sw: 'mchanganyiko, combination, vi: 'hỗnhợp, composite, fa: 'ﻁﻮﻠﺨﻣ, mix, fr: 'mixte, joint, az: 'qarışıq, confused
 admonitive-mood: 
-mistaken: zh: '错误, wrong, zh: '错误, mistake, zh: '错误, error, id: 'salah, wrongly, id: 'salah, faulty, tr: 'yanlış, false, pa: 'ਗ਼ਲਤ, unacceptable, pa: 'ਗ਼ਲਤ, flawed, fa: 'ﻩﺎﺒﺘﺷﺍ, gaffe, ta: 'தவறாக, abuse, az: 'səhv, omission, ku: 'şaş, surprised, ku: 'şaş, amazed, si: 'වැරදි, offenses
 ambition: sw: 'tamaa, disappointed, sw: 'tamaa, disappointment, sw: 'tamaa, lust, sw: 'tamaa, greedy, sw: 'tamaa, discourage, ar: 'ﺡﻮﻤﻃ, ambitious
 somehow: te: 'ఏదో, something, ro: 'oarecum, somewhat, az: 'birtəhər, barely, nl: 'hoedanook, anyway
-counsel: bn: 'পরামর্শ, advise, bn: 'পরামর্শ, consultation, bn: 'পরামর্শ, exhortation, ko: '조언, advice, vi: 'tưvấn, consultant, fr: 'Conseil, hint, mr: 'वकील, lawyer, mr: 'वकील, advocate, mr: 'वकील, attorney, az: 'məsləhət, advisory, nl: 'raad, council, si: 'උපදෙස්, instruction, si: 'උපදෙස්, consult, si: 'උපදෙස්, instruct
+counsel: bn: 'পরামর্শ, advise, bn: 'পরামর্শ, consultation, ko: '조언, advice, vi: 'tưvấn, consultant, fr: 'Conseil, hint, mr: 'वकील, lawyer, mr: 'वकील, advocate, mr: 'वकील, attorney, az: 'məsləhət, advisory, nl: 'raad, council, si: 'උපදෙස්, instruction, si: 'උපදෙස්, consult, si: 'උපදෙස්, instruct
 constitution: sw: 'katiba, charter, mr: 'घटना, incident, mr: 'घटना, occurrence, ta: 'அரசியலமைப்பு, constitutional
+instrument: zh: '仪器, instruments, hi: 'साधन, tool, sw: 'chombo, vessel, sw: 'chombo, entity, sw: 'chombo, organ, sw: 'chombo, container, bn: 'যন্ত্র, device, fa: 'ﺭﺍﺰﺑﺍ, utility, gu: 'સાધન, wrench, gu: 'સાધન, appliance, am: 'መሣሪያ, gear, am: 'መሣሪያ, fixture, kn: 'ಉಪಕರಣ, equipment, kn: 'ಉಪಕರಣ, apparatus
 firmly: hi: 'दृढ़तासे, tightly, sw: 'imara, established, sw: 'imara, solid, sw: 'imara, stable, pt: 'firmemente, steadily, de: 'fest, fixed, de: 'fest, tight, am: 'በጥብቅ, strictly, am: 'በጥብቅ, strictness, pl: 'mocno, heavily, ku: 'saxlem, physician, sv: 'fast, though, sv: 'fast, firm
 online: ku: 'bike, bike
 tide: ru: 'волна, wave, gu: 'ભરતી, recruit, gu: 'ભરતી, hiring, gu: 'ભરતી, recruitment
@@ -768,7 +770,7 @@ profession: zh: '职业, occupational, hi: 'व्यवसाय, career, bn: '
 nurse: 
 teaching: pt: 'ensino, tuition, mr: 'शिक्षण, education, mr: 'शिक्षण, teach, am: 'ትምህርት, course, am: 'ትምህርት, subject, am: 'ትምህርት, lesson, fi: 'opetus, instruction
 shoes: zh: '鞋, shoe, hi: 'जूते, footwear, sw: 'viatu, sandal, az: 'ayaqqabı, boot
-vague: zh: '模糊, ambiguity, hi: 'अस्पष्ट, obscure, hi: 'अस्पष्ट, ambiguous, hi: 'अस्पष्ट, unclear, ar: 'ﺾﻣﺎﻏ, mysterious, ru: 'неопределенный, uncertain, ru: 'неопределенный, indefinite, ru: 'неопределенный, indefinitive, pt: 'vago, vacant, pa: 'ਅਸਪਸ਼ਟ, unintelligible, fr: 'vague, wave, ta: 'தெளிவற்ற, obscurity, ro: 'vag, loosely
+vague: zh: '模糊, ambiguity, hi: 'अस्पष्ट, obscure, hi: 'अस्पष्ट, ambiguous, hi: 'अस्पष्ट, unclear, ar: 'ﺾﻣﺎﻏ, mysterious, ru: 'неопределенный, uncertain, ru: 'неопределенный, indefinite, pt: 'vago, vacant, pa: 'ਅਸਪਸ਼ਟ, unintelligible, fr: 'vague, wave, ta: 'தெளிவற்ற, obscurity, ro: 'vag, loosely
 activity: sw: 'shughuli, transaction, ta: 'செயல்பாடு, function, am: 'ሥራ, work, am: 'ሥራ, labor, am: 'ሥራ, labour, am: 'ሥራ, job, am: 'ሥራ, career, am: 'ሥራ, employment, am: 'ሥራ, assignment, my: 'လှုပ်ရှားမှု, action, my: 'လှုပ်ရှားမှု, movement
 saturday: es: 'sábado, sabbath, pa: 'ਸ਼ਨੀਵਾਰ, weekend
 capacity: hi: 'क्षमता, potential, hi: 'क्षमता, competence, sw: 'uwezo, able, sw: 'uwezo, capable, sw: 'uwezo, ability, sw: 'uwezo, incapable, sw: 'uwezo, competent, ar: 'ﺔﻌﺳ, amplitude, pa: 'ਸਮਰੱਥਾ, capability, ta: 'திறன், skill, ta: 'திறன், effectiveness, ml: 'ശേഷി, faculty
@@ -799,7 +801,7 @@ annual: sw: 'mwaka, year, sw: 'mwaka, annually, id: 'tahunan, yearly, my: 'န�
 southern: hi: 'दक्षिण, south, hu: 'déli, midday
 ceremony: zh: '仪式, ritual, zh: '仪式, rite, hi: 'समारोह, function, bn: 'অনুষ্ঠান, celebration, ko: '의식, consciousness, pa: 'ਸਮਾਰੋਹ, concert, kn: 'ಕಾರ್ಯಕ್ರಮ, programme, si: 'උත්සවය, event, si: 'උත්සවය, festival
 hunting: hi: 'शिकार, hunt, hi: 'शिकार, victim, hi: 'शिकार, prey, fr: 'chasse, chase, az: 'ov, haul, el: 'κυνήγι, shooting
-liberal: hi: 'उदार, generous, vi: 'tựdo, freely, vi: 'tựdo, freelance, gu: 'ઉદાર, permissive, my: 'ကျယ်ဝန်းသော, vast, my: 'ကျယ်ဝန်းသော, extensive, my: 'ကျယ်ဝန်းသော, broad, my: 'ကျယ်ဝန်းသော, wide, ku: 'dilfireh, glad, th: 'ใจกว้าง, tolerant
+liberal: hi: 'उदार, generous, vi: 'tựdo, freely, vi: 'tựdo, freelance, my: 'ကျယ်ဝန်းသော, vast, my: 'ကျယ်ဝန်းသော, extensive, my: 'ကျယ်ဝန်းသော, wide, my: 'ကျယ်ဝန်းသော, broad, ku: 'dilfireh, glad, th: 'ใจกว้าง, tolerant
 christianity: 
 princess: az: 'şahzadə, prince
 altar: fa: 'ﺏﺍﺮﺤﻣ, sanctuary
@@ -834,6 +836,7 @@ bride: sw: 'bibi, grandmother, es: 'novia, girlfriend
 depend: zh: '依赖, dependence, hi: 'निर्भर, incumbent, id: 'tergantung, dependent, pt: 'depender, rely, tr: 'bağlı, bound, tr: 'bağlı, connected, vi: 'phụthuộc, subordinate, ku: 'pêvgirêdan, affix
 giant: hi: 'विशाल, huge, hi: 'विशाल, enormous, hi: 'विशाल, spacious, sw: 'kubwa, great, sw: 'kubwa, large, sw: 'kubwa, big, sw: 'kubwa, serious, sw: 'kubwa, vast, sw: 'kubwa, loud, sw: 'kubwa, tremendous, sw: 'kubwa, dominant, id: 'raksasa, monster, id: 'raksasa, monstrous, ko: '거대한, massive
 simplicity: zh: '简单, simple, id: 'kesederhanaan, frugality, gu: 'સરળતા, facilitator, si: 'සරල, plain, si: 'සරල, straightforward, si: 'සරල, simplify
+autumn: zh: '秋季, fall
 veil: hi: 'परदा, curtain, bn: 'পর্দা, screen, fr: 'voile, sail, fr: 'voile, sailing, mr: 'पडदा, membrane, my: 'အဖုံး, cover, my: 'အဖုံး, cap, my: 'အဖုံး, lid
 gathering: hi: 'सभा, assembly, sw: 'mkutano, meeting, sw: 'mkutano, conference, sw: 'mkutano, congress, id: 'pertemuan, encounter, es: 'reunión, rally, es: 'reunión, reunion, gu: 'ભેગી, accompany, gu: 'ભેગી, emerge, kn: 'ಸಭೆ, assemble, ml: 'ശേഖരണം, storage, el: 'συγκέντρωση, concentration
 theatre: zh: '剧院, theater, kn: 'ನಾಟಕ, drama
@@ -850,6 +853,7 @@ burnt: pa: 'ਸਾੜ, burn, pl: 'spalony, flared
 flash: ko: '플래시, flashlight, el: 'λάμψη, glow, el: 'λάμψη, shine, fi: 'salama, lightning
 portrait: hi: 'चित्र, picture, hi: 'चित्र, painting, ar: 'ﺓﺭﻮﺻ, image, ar: 'ﺓﺭﻮﺻ, photocopy, pt: 'retrato, portrayal, fa: 'ﺮﯾﻮﺼﺗ, illustration
 suggest: zh: '建议, suggestion, zh: '建议, recommendation, sw: 'kupendekeza, propose, sw: 'kupendekeza, recommend, ko: '제안, proposition, pa: 'ਸੁਝਾਅ, feedback, vi: 'đềnghị, proposal, mr: 'सूचित, indicate, pl: 'sugerować, imply, kn: 'ಸೂಚಿಸುತ್ತದೆ, signify, az: 'təklif, offer, az: 'təklif, offering, si: 'යෝජනා, nominate
+conflict: zh: '冲突, clash, hi: 'संघर्ष, struggle, ko: '충돌, bump, pa: 'ਅਪਵਾਦ, exception, fa: 'ﺩﺎﻀﺗ, contrast, ta: 'மோதல், confrontation, ur: 'تنازعہ, dispute, ur: 'تنازعہ, controversy, ku: 'şer, battle, ku: 'şer, fight, ku: 'şer, fighting, ku: 'şer, quarrel, el: 'σύγκρουση, crash, el: 'σύγκρουση, impact
 curse: bn: 'অভিশাপ, damn, nl: 'vloek, expletive
 imprecative-mood: 
 helpless: az: 'aciz, frustrate, si: 'අසරණ, needy
@@ -859,7 +863,7 @@ indifference: hi: 'उदासीनता, apathy, sw: 'kutojali, careless, mr
 horizon: am: 'አድማስ, scope, ku: 'asûman, sky
 assumptive-mood: fa: 'ﯽﺿﺮﻓﺖﻟﺎﺣ, hypothetical-mood
 steep: sw: 'mwinuko, elevation, vi: 'dốc, sloped, mr: 'जास्त, much, am: 'ሾጣጣ, cone, ku: 'tûj, sharp, si: 'අධික, excessive
-harmony: zh: '和谐, consonance, sw: 'maelewano, compromise, am: 'መስማማት, consent, am: 'መስማማት, fitness, my: 'သဟဇာတ, compatible, si: 'සමගිය, unity, el: 'αρμονία, tune
+harmony: sw: 'maelewano, compromise, am: 'መስማማት, consent, am: 'መስማማት, fitness, my: 'သဟဇာတ, compatible, si: 'සමගිය, unity, el: 'αρμονία, tune
 thunder: si: 'අකුණු, lightning
 childhood: 
 knee: ko: '무릎, lap
@@ -904,7 +908,7 @@ medicine: hi: 'दवा, drug, hi: 'दवा, pharmaceutical, sw: 'dawa, remed
 proofread: 
 nest: vi: 'lồng, cage, kn: 'ಗೂಡು, niche, sv: 'bo, live
 fourteen: pa: 'ਬਿਨਾ, without, pa: 'ਬਿਨਾ, exclusive
-objection: zh: '异议, dissent, zh: '异议, disagreement, bn: 'আপত্তি, protest, ko: '반대, opposition, ko: '반대, opposing, ur: 'اعتراض, object, ml: 'തടസ്സം, barrier, ml: 'തടസ്സം, obstacle, ml: 'തടസ്സം, interruption, cs: 'námitka, plea
+objection: zh: '异议, disagreement, bn: 'আপত্তি, protest, ko: '반대, opposition, ko: '반대, opposing, ur: 'اعتراض, object, ml: 'തടസ്സം, barrier, ml: 'തടസ്സം, obstacle, ml: 'തടസ്സം, interruption, cs: 'námitka, plea
 acid: zh: '酸, sour, es: 'ácido, acidic, ko: '산, mountain, ko: '산, mount
 namely: id: 'yaitu, i.e., ar: 'ﻱﺃ, any, th: 'คือ, is
 weapon: zh: '武器, arms, sw: 'silaha, armor, sw: 'silaha, disarm, sw: 'silaha, firearm, sw: 'silaha, armed, am: 'የጦርመሣሪያ, missile, ro: 'armă, gun
@@ -935,12 +939,10 @@ temporary: sw: 'muda, interval, sw: 'muda, duration, sw: 'muda, temporal, sw: 'm
 delimitative-aspect: 
 pile: hi: 'ढेर, stack, hi: 'ढेर, dump, sw: 'rundo, bunch, ko: '말뚝, stake, de: 'Stapel, batch, fa: 'ﻩﺩﻮﺗ, lump, am: 'ምሰሶ, pier, si: 'ගොඩක්, lot
 bone: pa: 'ਹੱਡੀ, fracture, ur: 'ہڈی, cord, ku: 'hestî, skeleton, sv: 'ben, leg
-instruments: zh: '仪器, instrument, sw: 'vyombo, entities, sw: 'vyombo, containers, vi: 'dụngcụ, apparatus, vi: 'dụngcụ, tool, fa: 'ابزار, gizmo, gu: 'સાધનો, equipment, fi: 'välineet, means
 monday: 
 tuesday: vi: 'thứba, third
 wednesday: vi: 'thứtư, fourth, ur: 'بدھ, wed
 federal: zh: '联邦, federation, ta: 'மத்திய, central
-desirable: tr: 'çekici, attractive, tr: 'çekici, catching, fa: 'ﺏﻮﻠﻄﻣ, favorable, ur: 'ضروری, necessary, ur: 'ضروری, essential, ur: 'ضروری, imperative, th: 'น่าพอใจ, satisfactory
 representative: zh: '代表, represent, zh: '代表, behalf, zh: '代表, representing, zh: '代表, delegate, hi: 'प्रतिनिधि, attorney, id: 'wakil, deputy, te: 'ప్రతినిధి, spokesperson, my: 'ကိုယ်စားလှယ်, agent
 pole: sw: 'pole, sorry, ar: 'ﺩﻮﻤﻋ, column, tr: 'kutup, polar, vi: 'cực, extreme, mr: 'काठी, stick, te: 'పోల్, poll, my: 'မြော, float, th: 'เสา, post, fi: 'napa, navel
 linen: es: 'lino, flax, pl: 'bielizna, underwear, az: 'kətan, canvas
@@ -952,7 +954,7 @@ stomach: hi: 'पेट, belly, hi: 'पेट, abdomen, sw: 'tumbo, abdominal, 
 upstairs: hi: 'ऊपर, up, hi: 'ऊपर, over, hi: 'ऊपर, above, pa: 'ਚੁਬਾਰੇ, attic, gu: 'ઉપરતરફ, upward
 varied: hi: 'विभिन्न, different, hi: 'विभिन्न, various, hi: 'विभिन्न, multiple, sw: 'mbalimbali, range, sw: 'mbalimbali, diverse, sw: 'mbalimbali, multi, pa: 'ਵੱਖ, separation, pa: 'ਵੱਖ, vary, pa: 'ਵੱਖ, exclude, pa: 'ਵੱਖ, isolate, vi: 'thayđổi, alter, vi: 'thayđổi, fluctuate, ta: 'பல்வேறு, variety
 brass: hi: 'पीतल, bronze, sw: 'shaba, copper, tr: 'pirinç, rice
-summit: hi: 'शिखर, peak, hi: 'शिखर, climax, id: 'puncak, top, pa: 'ਸੰਮੇਲਨ, convention, te: 'శిఖరం, ridge, ku: 'ser, over, ku: 'ser, head, ku: 'ser, above, ku: 'ser, main, ku: 'ser, lace, si: 'සමුළුව, conference
+summit: hi: 'शिखर, peak, id: 'puncak, top, pa: 'ਸੰਮੇਲਨ, convention, te: 'శిఖరం, ridge, ku: 'ser, over, ku: 'ser, head, ku: 'ser, above, ku: 'ser, main, ku: 'ser, lace, si: 'සමුළුව, conference
 cheap: hi: 'सस्ता, inexpensive, sw: 'nafuu, affordable, id: 'murah, low, id: 'murah, cheaply, ku: 'erzan, convenient, ku: 'erzan, favorable, ku: 'erzan, payable, th: 'ถูก, okay
 contest: hi: 'प्रतियोगिता, competition, sw: 'mashindano, tournament, ko: '경쟁, compete, ko: '경쟁, competitive, pa: 'ਮੁਕਾਬਲੇ, encounter, pa: 'ਮੁਕਾਬਲੇ, competitor, fa: 'ﻪﻘﺑﺎﺴﻣ, race, fa: 'ﻪﻘﺑﺎﺴﻣ, racing, ta: 'போட்டியில், match, ur: 'مقابلہ, confront, am: 'ተቃወመ, protest, am: 'ተቃወመ, resent
 exclusive-person: 
@@ -970,7 +972,7 @@ discharge: id: 'melepaskan, release, id: 'melepaskan, detach, id: 'melepaskan, r
 heir: hi: 'वारिस, inherit, pa: 'ਵਾਰਸ, possess
 oak: 
 unpleasant: id: 'menyenangkan, delight, id: 'menyenangkan, pleasing, ru: 'неприятный, nasty, vi: 'khóchịu, uneasy, vi: 'khóchịu, annoyed, vi: 'khóchịu, upsetting, kn: 'ಅಹಿತಕರ, uncomfortable, cs: 'nepříjemný, annoying
-incomplete: hi: 'अधूरा, imperfective, es: 'incompleto, uncompleted, ko: '불완전한, faulty, tr: 'eksik, missing, tr: 'eksik, lacking, gu: 'અપૂર્ણ, imperfect, gu: 'અપૂર્ણ, flawed, ml: 'അപൂര്ണ്ണമായ, partial
+incomplete: es: 'incompleto, uncompleted, ko: '불완전한, faulty, tr: 'eksik, missing, tr: 'eksik, lacking, gu: 'અપૂર્ણ, imperfect, gu: 'અપૂર્ણ, flawed, ml: 'അപൂര്ണ്ണമായ, partial
 program: zh: '程序, procedure, zh: '程序, programme, sw: 'mpango, deal, sw: 'mpango, plan, sw: 'mpango, scheme, sw: 'mpango, initiative, fa: 'ﻪﻣﺎﻧﺮﺑ, schedule, fr: 'programme, syllabus, mr: 'कार्यक्रम, event, ta: 'திட்டம், proposal, ta: 'திட்டம், project, pl: 'program, curriculum, pl: 'program, agenda, my: 'အစီအစဉ်, arrangement
 piano: 
 persuade: zh: '说服, convince, hi: 'मनाना, celebrate, hi: 'मनाना, commemorate, gu: 'સમજાવવા, explain, ml: 'പേരിപ്പിക്കുക, incite, ml: 'പേരിപ്പിക്കുക, motivate, my: 'သှေးဆောငျ, tempt
@@ -992,14 +994,13 @@ lip: sw: 'mdomo, beak, sw: 'mdomo, oral, el: 'χείλος, brink
 retire: zh: '退休, retirement, zh: '退休, retiree, zh: '退休, retired, id: 'mundur, retreat, ta: 'ஓய்வு, rest, ta: 'ஓய்வு, leisure, ro: 'retrage, withdraw, ku: 'xwebişûndekişandin, resign, cs: 'odejít, depart
 economy: zh: '经济, economic, zh: '经济, economical, zh: '经济, economically, sw: 'uchumi, economics, sw: 'uchumi, recession, pt: 'economia, saving, kn: 'ಆರ್ಥಿಕ, financial, kn: 'ಆರ್ಥಿಕ, fiscal, fi: 'talous, household
 gallery: vi: 'bộsưutập, collection, kn: 'ಗ್ಯಾಲರಿ, traversing
-parallel: sw: 'sambamba, alongside, sw: 'sambamba, compatible, vi: 'songsong, parallelism, ta: 'இணை, associate, ta: 'இணை, affix, te: 'సమాంతర, horizontal, gu: 'સમાંતર, longitudinal
+parallel: sw: 'sambamba, alongside, sw: 'sambamba, compatible, ta: 'இணை, associate, ta: 'இணை, affix, te: 'సమాంతర, horizontal, gu: 'સમાંતર, longitudinal
 atelic-aspect: 
 continent: zh: '大陆, continental, mr: 'खंड, volume, mr: 'खंड, clause
 knock: sw: 'kubisha, hesitate, es: 'golpe, blow, es: 'golpe, coup, es: 'golpe, slam, pt: 'batida, beat, tr: 'vurmak, hit, de: 'klopfen, pat, my: 'ခေါက်, fold, my: 'ခေါက်, folding, ro: 'cioc, beak, az: 'döymək, forge, ku: 'lêdan, clap, el: 'χτύπημα, bump
-prohibition: hi: 'निषेध, prohibit, hi: 'निषेध, taboo, hi: 'निषेध, inhibition, sw: 'kukataza, forbid, id: 'larangan, restriction, es: 'prohibición, ban, bn: 'নিষেধ, veto, ko: '금지, barring, pt: 'proibição, prohibiting, ta: 'தடை, barrier, ta: 'தடை, restricted
 prohibitive-mood: zh: '令人望而却步心情, prhobitive-mood
 tie: zh: '领带, necktie, sw: 'tai, eagle, nl: 'binden, bind
-cell: sw: 'kiini, essence, sw: 'kiini, nucleus, bn: 'কোষ, vagina, ru: 'клетка, cage, am: 'ሕዋስ, organ, pl: 'komórka, cellphone, pl: 'komórka, cell-phone, ml: 'കോശം, tissue, az: 'kamera, chamber, az: 'kamera, camera
+cell: sw: 'kiini, essence, sw: 'kiini, nucleus, bn: 'কোষ, vagina, ru: 'клетка, cage, am: 'ሕዋስ, organ, pl: 'komórka, cell-phone, pl: 'komórka, cellphone, ml: 'കോശം, tissue, az: 'kamera, chamber, az: 'kamera, camera
 egg: hi: 'अंडा, testicle
 artificial: hi: 'कृत्रिम, synthetic, vi: 'nhântạo, artificiality
 inspiration: hi: 'प्रेरणा, motive, hi: 'प्रेरणा, motivation, sw: 'msukumo, impulse, bn: 'অনুপ্রেরণা, encouragement, ko: '영감, brainstorm, pa: 'ਪ੍ਰੇਰਨਾ, inspire, mr: 'प्रेरणा, stimulus, mr: 'प्रेरणा, motivate, te: 'ప్రేరణ, stimulation, am: 'መሪነት, leadership
@@ -1041,13 +1042,15 @@ collar: es: 'collar, necklace, ar: 'ﻕﻮﻃ, surround, bn: 'মণ্ডল, z
 deliberately: zh: '故意, intentional, sw: 'makusudi, deliberate, sw: 'makusudi, intentionally, id: 'sengaja, purposive, de: 'bewusst, aware, de: 'bewusst, conscious, cs: 'záměrně, intently
 beer: pt: 'cerveja, pint
 velvet: 
-sermon: zh: '讲道, exhortation, ko: '설교, preach, te: 'ఉపన్యాసం, discourse, te: 'ఉపన్యాసం, lecture
+sermon: ko: '설교, preach, te: 'ఉపన్యాసం, discourse, te: 'ఉపన్యాసం, lecture
+abuse: zh: '滥用, abusing, ta: 'தவறாக, mistaken, ta: 'தவறாக, wrongly, te: 'తిట్టు, damn, sv: 'missbruk, addiction, th: 'การละเมิด, violation
 flock: sw: 'kundi, group, sw: 'kundi, herd, sw: 'kundi, batch, id: 'kawanan, swarm, ko: '대군, tycoon
 niece: sw: 'mpwa, nephew, vi: 'cháugái, granddaughter, it: 'nipote, grandson, it: 'nipote, grandchild
 thirteen: pa: 'ਤੀਹ, thirty
 justify: sw: 'kuhalalisha, validate, sw: 'kuhalalisha, justifying, pa: 'ਜਾਇਜ਼, legitimate, vi: 'biệnhộ, plead, vi: 'biệnhộ, advocate, de: 'rechtfertigen, warrant, fa: 'ﻪﯿﺟﻮﺗ, justification, mr: 'समायोजित, adjust, ku: 'bersivkirin, react, si: 'යුක්තිසහගත, justified
 manuscript: sw: 'muswada, bill, id: 'naskah, script, ko: '원고, plaintiff
 warrior: sw: 'shujaa, hero, ko: '전사, transcription, am: 'ተዋጊ, militant, my: 'စစ်သား, soldier, ku: 'şervan, combatants
+friday: ta: 'வெள்ளி, silver, ta: 'வெள்ளி, venus
 brush: vi: 'chải, comb
 download: 
 cream: vi: 'kem, ice-cream
@@ -1090,7 +1093,7 @@ trap: sw: 'mtego, grip, ta: 'பொறி, mower, sv: 'fälla, convict
 cake: sw: 'keki, pastry, id: 'kue, cookie, es: 'pastel, pie, es: 'pastel, pastel, pl: 'ciasto, dough, ku: 'paste, paste
 sir: zh: '先生, mr, zh: '先生, mister, es: 'señor, lord, fa: 'ﺎﻗﺁ, gentleman, th: 'ท่าน, thou
 seventeen: 
-feminine: hi: 'स्त्री, feminine-, sw: 'kike, female, sw: 'kike, female-, id: 'wanita, lady, mr: 'नाजूक, delicate, mr: 'नाजूक, fragile, az: 'qadın, woman
+feminine: hi: 'स्त्री, feminine-, sw: 'kike, female, id: 'wanita, lady, mr: 'नाजूक, delicate, mr: 'नाजूक, fragile, az: 'qadın, woman
 honey: 
 unfortunately: zh: '不幸, unfortunate, tr: 'neyazıkki, sadly, vi: 'khôngmay, unlucky
 legend: ar: 'ﺓﺭﻮﻄﺳﺃ, myth
@@ -1103,19 +1106,19 @@ earn: id: 'mendapatkan, get, id: 'mendapatkan, getting, id: 'mendapatkan, gain, 
 animated: es: 'animado, lively, pt: 'animado, excited, vi: 'hoạthình, cartoon, ur: 'متحرک, dynamic, th: 'กระปรี้กระเปร่า, energetic
 dressing: es: 'vendaje, bandage, ar: 'ﺔﺼﻠﺻ, sauce
 scenery: es: 'paisaje, landscape, pt: 'cenário, scenario, de: 'Landschaft, countryside, ro: 'decor, decoration, si: 'දර්ශනය, philosophy
-oppose: zh: '反对, opposition, zh: '反对, opposed, zh: '反对, opposing, sw: 'kupinga, resist, sw: 'kupinga, interrupt, pa: 'ਦਾਵਿਰੋਧ, withstand, fa: 'ﺖﻔﻟﺎﺨﻣ, dissent, mr: 'विरोध, hostility, mr: 'विरोध, contradiction, gu: 'વિરોધ, protest, my: 'ဆန့်ကျင်, against, my: 'ဆန့်ကျင်, anti, my: 'ဆန့်ကျင်, contrary, cs: 'odporovat, contradict
+oppose: zh: '反对, opposition, zh: '反对, opposed, zh: '反对, opposing, sw: 'kupinga, resist, sw: 'kupinga, interrupt, pa: 'ਦਾਵਿਰੋਧ, withstand, mr: 'विरोध, hostility, mr: 'विरोध, contradiction, gu: 'વિરોધ, protest, my: 'ဆန့်ကျင်, against, my: 'ဆန့်ကျင်, anti, my: 'ဆန့်ကျင်, contrary, cs: 'odporovat, contradict
 chorus: ur: 'کورس, course, sv: 'kör, drive
 rational: zh: '有理, justified, sw: 'mantiki, logic, sw: 'mantiki, logical, sw: 'mantiki, unreasonable, ko: '합리적인, reasonable, vi: 'hợplý, sensible, fa: 'ﯽﻘﻄﻨﻣ, reasonably, gu: 'બુદ્ધિગમ્ય, plausible, ku: 'parî, division
 crop: zh: '作物, crops, hi: 'फ़सल, harvest, pt: 'cortar, cut, vi: 'trồngtrọt, cultivate, fa: 'ﻝﻮﺼﺤﻣ, product, mr: 'पीक, peak, az: 'məhsul, yield, el: 'καλλιέργεια, farming
 processing: mr: 'प्रक्रिया, process, mr: 'प्रक्रिया, procedure, ml: 'നടപടി, action, el: 'επεξεργασία, edit
 wolf: 
+refusal: zh: '拒绝, deny, zh: '拒绝, reject, zh: '拒绝, denial, zh: '拒绝, rejection, hi: 'इनकार, negation, sw: 'kukataa, refuse, id: 'penolakan, renunciation, ar: 'ﺾﻓﺭ, decline, ar: 'ﺾﻓﺭ, disapprove, ru: 'отказ, failure, it: 'rifiuto, waste, kn: 'ನಿರಾಕರಣೆ, silencing
 carpet: zh: '地毯, rug
 despise: zh: '鄙视, contempt, pa: 'ਨਫ਼ਰਤ, hatred, pa: 'ਨਫ਼ਰਤ, disgust, pa: 'ਨਫ਼ਰਤ, loathing
 fertile: ml: 'സമൃദ്ധമായ, abundant
 whistle: sw: 'filimbi, flute
 cheese: si: 'චීස්, cheeseburger
 bite: hi: 'काटना, chop, hi: 'काटना, carve, hi: 'काटना, deduct, fa: 'ﺶﯿﻧ, sting, mr: 'हानी, harm, mr: 'हानी, deprivation, my: 'ကိုက်, correspond, az: 'yemək, eat, az: 'yemək, meal, az: 'yemək, dining
-exclamation: zh: '感叹, exclamative, fa: 'ﺩﺎﯾﺮﻓ, shout, fa: 'ﺩﺎﯾﺮﻓ, scream, am: 'ቃለአጋኖ, bang
 escort: ar: 'مرافقة, accompaniment, de: 'begleiten, accompany, ta: 'துணை, deputy, ta: 'துணை, sub, ta: 'துணை, auxiliary, ta: 'துணை, accessory, ta: 'துணை, supplementary, it: 'scorta, spare, az: 'müşayiət, convoy, hu: 'kíséret, entourage
 wander: zh: '漫步, stroll, bn: 'চরা, depart, pa: 'ਭਟਕਣਾ, distortion, vi: 'đilangthang, hike, de: 'wandern, migrate, my: 'လှည့်လည်, circulate, ku: 'gerrîn, travel
 navy: ru: 'флот, fleet, de: 'Marine, marine, si: 'නාවික, navel
@@ -1136,7 +1139,7 @@ reckless: hi: 'लापरवाह, careless, hi: 'लापरवाह, unti
 abstract: ar: 'ﺺﺨﻠﻣ, summary, am: 'ረቂቅ, draft, ku: 'veqetî, separate, el: 'περίληψη, resume, el: 'περίληψη, syllabus
 accent: hi: 'उच्चारण, pronounce, hi: 'उच्चारण, pronunciation, sw: 'lafudhi, intonation, ar: 'ﺔﺠﻬﻟ, dialect, ru: 'акцент, emphasis
 thursday: 
-sincerely: hi: 'ईमानदारीसे, honestly, id: 'sungguh-sungguh, seriously, ru: 'Суважением, regards, tr: 'içtenlikle, faithfully, vi: 'chânthành, sincere, az: 'səmimi, frank, nl: 'oprecht, genuine
+sincerely: hi: 'ईमानदारीसे, honestly, id: 'sungguh-sungguh, seriously, tr: 'içtenlikle, faithfully, vi: 'chânthành, sincere, az: 'səmimi, frank, nl: 'oprecht, genuine
 traffic: ko: '교통, transportation, pa: 'ਆਵਾਜਾਈ, transport, de: 'Verkehr, circulation, ta: 'போக்குவரத்து, transit, az: 'hərəkət, move, az: 'hərəkət, moving, az: 'hərəkət, motion
 architecture: sw: 'usanifu, architectural, te: 'నిర్మాణం, structure, te: 'నిర్మాణం, construction, te: 'నిర్మాణం, texture
 disposal: sw: 'ovyo, distraction, es: 'disposición, disposition, ru: 'удаление, removal, ru: 'удаление, removing, ko: '처분, dispose, vi: 'xửlý, treat, fr: 'disposition, provision, fr: 'disposition, layout, it: 'disposizione, arrangement, pl: 'sprzedaż, sale, si: 'බැහැර, rid, si: 'බැහැර, exclude, el: 'διάθεση, mood, el: 'διάθεση, placing
@@ -1155,7 +1158,6 @@ sharing: zh: '分享, share, ru: 'разделение, division, ru: 'разд�
 thrill: zh: '颤抖, tremble, zh: '颤抖, shiver, id: 'sensasi, sensation, es: 'emoción, excitement, es: 'emoción, emotion, ru: 'трепет, awe, am: 'ደስታ, pleasure, am: 'ደስታ, joy, am: 'ደስታ, happiness, am: 'ደስታ, fun, am: 'ደስታ, enjoyment, cs: 'vzrušení, arousal, sv: 'spänning, tension
 swim: sw: 'kuogelea, swimming, ur: 'تیر, arrow, az: 'üzmək, drift
 strip: hi: 'पट्टी, bandage, hi: 'पट्टी, stripe, ar: 'ﻉﺎﻄﻗ, sector, ko: '조각, piece, ko: '조각, sculpture, pt: 'faixa, lane, pa: 'ਪੱਟੀ, bar, pa: 'ਪੱਟੀ, belt, fa: 'ﺭﺍﻮﻧ, tape, fr: 'bande, band, hu: 'szalag, ribbon
-ultimately: zh: '最终, final, zh: '最终, ultimate, hi: 'अंतमें, finally, sw: 'hatimaye, eventually, vi: 'cuốicùng, terminal, mr: 'शेवटी, end, az: 'nəticədə, consequently
 envelope: es: 'sobre, upon, es: 'sobre, concerning, es: 'sobre, onto, ar: 'ﻑﺮﻇ, circumstance, tr: 'zarf, adverb, ta: 'உறை, sheath, am: 'ፖስታ, mail, am: 'ፖስታ, courier
 cigarette: sw: 'sigara, smoking, ko: '담배, tobacco, ko: '담배, weed
 motor: hi: 'मोटर, automobile, es: 'motor, engine, vi: 'độngcơ, motive, fa: 'ﺭﻮﺗﻮﻣ, motorbike
@@ -1167,7 +1169,7 @@ ministry:
 sexual: sw: 'ngono, sex, vi: 'tìnhdục, sexuality, si: 'ලිංගික, genital
 axe: 
 diamond: pa: 'ਹੀਰਾ, gem, ku: 'cewher, jewel
-alternate: zh: '备用, spare, sw: 'mbadala, alternative, sw: 'mbadala, substitute, ru: 'заместитель, deputy, mr: 'पर्यायी, optional, ta: 'மாற்று, replacement, ta: 'மாற்று, transplant, gu: 'વૈકલ્પિક, alternatively, ur: 'متبادل, substitution, ur: 'متبادل, synonym, si: 'විකල්ප, options, cs: 'střídat, rotate, sv: 'alternativ, option
+alternate: zh: '备用, spare, sw: 'mbadala, alternative, sw: 'mbadala, substitute, ru: 'заместитель, deputy, mr: 'पर्यायी, optional, ta: 'மாற்று, replacement, ta: 'மாற்று, transplant, gu: 'વૈકલ્પિક, alternatively, ur: 'متبادل, substitution, si: 'විකල්ප, options, cs: 'střídat, rotate, sv: 'alternativ, option
 echo: vi: 'bắtchước, imitating, gu: 'પડઘો, resonance
 identity: hi: 'पहचान, identify, hi: 'पहचान, identification, pa: 'ਪਛਾਣ, acquaintance, pa: 'ਪਛਾਣ, identifiable, mr: 'ओळख, recognition, ta: 'அடையாள, symbolic, ku: 'nasname, pass, th: 'เอกลักษณ์, entity
 ambassador: ko: '대사, metabolism, ta: 'தூதர், messenger, ta: 'தூதர், diplomat
@@ -1181,7 +1183,6 @@ ray: ar: 'ﻉﺎﻌﺷ, beam, pt: 'raio, radius, fr: 'rayon, aisle, ku: 'tîrêj
 climbing: sw: 'kupanda, rise, sw: 'kupanda, plant, sw: 'kupanda, planting, sw: 'kupanda, sow, sw: 'kupanda, rising, sw: 'kupanda, climb, vi: 'leo, creep
 cellar: ru: 'подвал, basement, fa: 'ﺭﺎﺒﻧﺍ, warehouse, te: 'గది, room, te: 'గది, chamber
 memorable: ar: 'ﺯﺭﺎﺑ, prominent, ru: 'памятный, commemorative, ur: 'یادگار, monument, ur: 'یادگار, memorial, ur: 'یادگار, commemorate
-device: zh: '设备, equipment, zh: '设备, apparatus, hi: 'युक्ति, tactic, id: 'alat, tool, id: 'alat, appliance, id: 'alat, gizmo, bn: 'যন্ত্র, instrument, fa: 'ﻩﺎﮕﺘﺳﺩ, machinery, am: 'መሣሪያ, gear, am: 'መሣሪያ, brace, am: 'መሣሪያ, fixture, my: 'စက်ကိရိယာ, mechanism, cs: 'zařízení, facility
 senate: 
 coffin: ko: '관, tract
 swallow: hi: 'निगलना, ingest, sw: 'kumeza, ingestion, ko: '제비, lot, pl: 'łyk, sip, az: 'udmaq, absorb
@@ -1191,15 +1192,14 @@ swing: es: 'oscilación, oscillation, vi: 'lunglay, waver
 meadow: id: 'padangrumput, pasture, fr: 'pré, pre, am: 'መስክ, field, it: 'prato, lawn
 complex: zh: '复杂, complicated, zh: '复杂, complicate, hi: 'जटिल, sophisticated, ru: 'сложный, tricky, vi: 'phứctạp, compound, gu: 'જટિલ, critical, hu: 'összetett, composite
 resignation: zh: '辞职, resign, id: 'pengundurandiri, retirement, es: 'renuncia, renunciation, es: 'renuncia, forgoing, mr: 'राजीनामा, quit, nl: 'ontslag, dismissal
-repeatedly: zh: '反复, repeated, sw: 'kurudia, repeat, sw: 'kurudia, recur, sw: 'kurudia, duplication, gu: 'વારંવાર, frequently, gu: 'વારંવાર, frequent, ro: 'repetat, iterative
 conspiracy: sw: 'njama, plot, mr: 'कट, cut, my: 'အကြံ, advice
 pub: tr: 'bar, bar, ku: 'qehwe, coffee, cs: 'hospoda, inn
 pepper: 
 melody: es: 'melodía, tune, vi: 'giaiđiệu, tone
-speculation: zh: '推测, speculate, sw: 'uvumi, gossip, sw: 'uvumi, rumour, sw: 'uvumi, rumor, ur: 'قیاس, analogy, ur: 'قیاس, supposedly, az: 'fərziyyə, hypothesis
 candidate: sw: 'mgombea, contestant, pt: 'candidato, applicant, te: 'అభ్యర్థి, recruit, el: 'υποψήφιος, prospective
 patron: zh: '顾客, customer, hi: 'संरक्षक, mentor, es: 'patrón, pattern, kn: 'ಪೋಷಕ, supporting, ro: 'patron, employer, nl: 'patroon, cartridge
 fox: ku: 'rêvî, gut
+regretted: zh: '后悔, regret, my: 'နောင်တ, contrition
 chimney: hi: 'चिमनी, fireplace
 hedge: sw: 'ua, flower, id: 'pagar, fence, es: 'cobertura, coverage, bn: 'প্রতিবন্ধক, curb, th: 'กั้น, partition
 accuracy: hi: 'शुद्धता, precision, sw: 'usahihi, accurately, sw: 'usahihi, correctly, sw: 'usahihi, correctness, el: 'ακρίβεια, expensiveness, th: 'ความถูกต้อง, validity
@@ -1218,14 +1218,14 @@ sweat: ko: '땀, stitch, am: 'ላብ, precipitation
 executive: tr: 'yönetici, administrator, vi: 'chấphành, execution, ta: 'நிர்வாகி, administer, am: 'አስፈጻሚ, enforcement, my: 'အုပ်ချုပ်ရေး, administration, ku: 'bikaranînî, practice, ku: 'bikaranînî, application, ku: 'bikaranînî, practise, fi: 'johtaja, leader, fi: 'johtaja, manager, fi: 'johtaja, director
 illusion: sw: 'udanganyifu, fraud, sw: 'udanganyifu, deception
 uncertainty: zh: '不确定, uncertain, zh: '不确定, unsure, tr: 'belirsizlik, ambiguity, am: 'ጥርጣሬ, suspicion, pl: 'niepewność, precariousness, th: 'ความไม่แน่นอน, instability
-fold: hi: 'तह, folding, sw: 'mara, times, bn: 'ভাঁজ, lap, kn: 'ಪದರ, layer, my: 'ခေါက်, knock, az: 'qat, condominium, ku: 'pêçan, wrap, cs: 'složit, pass
+fold: hi: 'तह, folding, bn: 'ভাঁজ, lap, kn: 'ಪದರ, layer, my: 'ခေါက်, knock, az: 'qat, condominium, ku: 'pêçan, wrap, cs: 'složit, pass
 boundary: ko: '경계, bound, ko: '경계, border, ko: '경계, confine, pa: 'ਸੀਮਾ, range, pa: 'ਸੀਮਾ, limitation, pa: 'ਸੀਮਾ, limit, pa: 'ਸੀਮਾ, delimited, mr: 'सीमा, fringe
 stress: zh: '强调, underline, zh: '强调, emphasize, zh: '强调, stressed, zh: '强调, emphasizing, hi: 'तनाव, strain, hi: 'तनाव, tension, bn: 'জোর, emphasis, vi: 'căngthẳng, taut, mr: 'ताण, tense, ta: 'மனஅழுத்தம், depression, te: 'ఒత్తిడి, pressure, kn: 'ಒತ್ತಡ, thrust, ku: 'dûbare, repeat, ku: 'dûbare, repetition
 consumption: sw: 'matumizi, use, sw: 'matumizi, usage, sw: 'matumizi, expenditure, sw: 'matumizi, consumer, mr: 'वापर, consume, mr: 'वापर, utilize, ku: 'xerc, fee, ku: 'xerc, toll
 groan: 
 resemble: zh: '类似, similar, ar: 'ﻪﺑﺎﺸﺗ, similarity, pa: 'ਵਰਗੇ, like, gu: 'મળતા, founds, ur: 'مشابہت, imitating, my: 'တူ, nephew, my: 'တူ, hammer, az: 'xatırlatmaq, remind
 sack: zh: '解雇, dismiss, zh: '解雇, dismissal, ru: 'мешок, bag
-needle: sw: 'sindano, injection, sw: 'sindano, syringe, es: 'aguja, stylus, my: 'အပ်, ought-to, hu: 'tű, pin, ku: 'derzî, brace, ku: 'derzî, bracket
+needle: sw: 'sindano, injection, sw: 'sindano, syringe, es: 'aguja, stylus, my: 'အပ်, ought-to, hu: 'tű, pin, ku: 'derzî, bracket
 phenomenon: hi: 'घटना, event, hi: 'घटना, incident, hi: 'घटना, occurrence, hi: 'घटना, incidence, sw: 'jambo, thing, sw: 'jambo, matter, sw: 'jambo, affair, id: 'gejala, symptom, ko: '현상, phenomenal, ur: 'رجحان, tendency, ur: 'رجحان, trend
 behave: sw: 'kuishi, live, sw: 'kuishi, survive, bn: 'আচরণকরা, treat, ta: 'நடந்து, ongoing, ta: 'நடந்து, underway
 controlled: fa: 'ﻝﺮﺘﻨﮐ, control, ur: 'کنٹرول, harness, ro: 'dirijat, directed, az: 'nəzarət, oversee, si: 'පාලනය, govern
@@ -1263,6 +1263,7 @@ skirt: de: 'Rock, rock
 weekly: 
 technical: zh: '技术, technique, zh: '技术, technology, id: 'teknis, technically, es: 'técnico, technician, pa: 'ਤਕਨੀਕੀ, advanced, pa: 'ਤਕਨੀਕੀ, tech, th: 'วิชาการ, academic
 vehicle: sw: 'gari, drive, sw: 'gari, car, sw: 'gari, cart, tr: 'araç, means, mr: 'वाहन, automobile, ta: 'வாகன, automotive, gu: 'વાહન, carriage, az: 'vasitə, remedy
+flattering: pl: 'pochlebny, approving, pl: 'pochlebny, complimentary, my: 'ချော့မော့, feigning
 strengthen: ko: '강하게하다, intensify, pa: 'ਮਜ਼ਬੂਤ, strong, pa: 'ਮਜ਼ਬੂਤ, reinforce, pa: 'ਮਜ਼ਬੂਤ, consolidate, fr: 'renforcer, boost, gu: 'મજબૂત, strongly
 crow: hi: 'कौआ, rook, ur: 'بانگ, marijuana
 attribute: pa: 'ਗੁਣ, virtue, pa: 'ਗੁਣ, characteristic, pa: 'ਗੁਣ, trait, gu: 'લક્ષણ, feature, gu: 'લક્ષણ, symptom, gu: 'લક્ષણ, characterize
@@ -1301,9 +1302,9 @@ resurrection: zh: '复活, revive, id: 'kebangkitan, revival, sv: 'uppståndelse
 shelf: zh: '架, rack, ta: 'அலமாரியில், cupboard, my: 'စင်, stage, sv: 'hylla, acclaim
 fan: id: 'penggemar, enthusiast, th: 'แฟน, boyfriend
 tropical: ko: '열렬한, passionate
-overthrow: ar: 'ﻁﺎﻘﺳﺇ, drop, ar: 'ﻁﺎﻘﺳﺇ, projection, bn: 'পরাস্ত, overcome, tr: 'devirmek, topple, pa: 'ਅੰਤ, end, pa: 'ਅੰਤ, finally, pl: 'obalenie, subversion, ku: 'qûlipandin, tumble, fi: 'kaataa, pour
 arbitrary: mr: 'अनियंत्रित, uncontrolled, ta: 'தன்னிச்சையான, spontaneous, ku: 'kêfî, conversation, ku: 'kêfî, funny, ku: 'kêfî, celebration
 mercury: pa: 'ਤਾਪਮਾਨ, temperature, gu: 'બુધ, wed
+benevolent: zh: '仁慈, kindness, sw: 'wema, virtue, sw: 'wema, virtuous, sw: 'wema, goodness, tr: 'hayırsever, charitable, vi: 'nhântừ, mercy, ur: 'ادار, generous
 suicide: 
 pluck: hi: 'साहस, courage, id: 'memetik, berry, ru: 'срывать, frustrate, ru: 'срывать, disrupt, tr: 'koparmak, extort, pa: 'ਖੋਹ, rob, pa: 'ਖੋਹ, snatch, my: 'ခူး, pick, el: 'κόβω, carve
 reporter: zh: '记者, journalist, hu: 'riporter, interviewer
@@ -1329,7 +1330,7 @@ excursion: zh: '远足, hike, es: 'excursión, tour, tr: 'gezi, trip, tr: 'gezi,
 dome: 
 stubborn: ml: 'വഴങ്ങാത്ത, stiff, ku: 'hişk, hard, ku: 'hişk, harsh
 muscle: 
-magnitude: sw: 'ukubwa, size, ar: 'ﻢﺠﺣ, bulk, pa: 'ਤੀਬਰਤਾ, intensity, vi: 'độlớn, amplitude, fa: 'ﻩﺯﺍﺪﻧﺍ, gauge, ur: 'شدت, severity, kn: 'ಪ್ರಮಾಣ, quantity, kn: 'ಪ್ರಮಾಣ, modulo, kn: 'ಪ್ರಮಾಣ, proportion, kn: 'ಪ್ರಮಾಣ, amounting, nl: 'omvang, extent, cs: 'rozsah, range, cs: 'rozsah, scope, th: 'ขนาด, scale
+magnitude: sw: 'ukubwa, size, ar: 'ﻢﺠﺣ, bulk, pa: 'ਤੀਬਰਤਾ, intensity, vi: 'độlớn, amplitude, fa: 'ﻩﺯﺍﺪﻧﺍ, gauge, ur: 'شدت, severity, kn: 'ಪ್ರಮಾಣ, quantity, kn: 'ಪ್ರಮಾಣ, modulo, kn: 'ಪ್ರಮಾಣ, amounting, kn: 'ಪ್ರಮಾಣ, proportion, nl: 'omvang, extent, cs: 'rozsah, range, cs: 'rozsah, scope, th: 'ขนาด, scale
 rub: gu: 'ઘસવું, fling, ml: 'തടവുക, pat, si: 'රබර්, rubber
 cowardly: 
 toast: ta: 'சிற்றுண்டி, snack, az: 'qızartmaq, fry
@@ -1371,25 +1372,23 @@ beneficial: zh: '有利, favorable, sw: 'manufaa, usefulness, id: 'bermanfaat, h
 dragon: de: 'Drachen, kite
 auditory-evidential: 
 exporting: zh: '出口, exit, zh: '出口, export, my: 'တင်ပို့, shipment
-termination: zh: '终止, terminate, hi: 'समाप्ति, expiration, es: 'terminación, completion, ru: 'прекращение, cease, ko: '종료, quitting, vi: 'chấmdứt, end, te: 'రద్దు, cancellation, gu: 'સમાપ્તિ, exp, it: 'fine, ending, my: 'အဆုံး, climax, ku: 'xelasî, conclusion, sv: 'uppsägning, dismissal
+termination: zh: '终止, terminate, hi: 'समाप्ति, expiration, es: 'terminación, completion, ru: 'прекращение, cease, ko: '종료, quitting, vi: 'chấmdứt, end, te: 'రద్దు, cancellation, gu: 'સમાપ્તિ, exp, it: 'fine, ending, ku: 'xelasî, conclusion, sv: 'uppsägning, dismissal
 linger: es: 'persistir, persist, vi: 'kéodài, prolonged, ur: 'تاخیر, delay
 lid: zh: '盖, cover, tr: 'kapak, cap, ml: 'അടപ്പ്, cork, my: 'အဖုံး, veil, az: 'qapaq, valve, hu: 'fedő, covering, fi: 'kansi, deck
 regulation: sw: 'udhibiti, censorship, ko: '규제, regulate, fr: 'règlement, settlement, mr: 'नियम, rule, mr: 'नियम, prescription, mr: 'नियम, norm, ta: 'கட்டுப்பாடு, control, ta: 'கட்டுப்பாடு, constraint, ta: 'கட்டுப்பாடு, restriction, kn: 'ನಿಯಂತ್ರಣ, restrain, az: 'nizamlama, adjustment, ku: 'rêz, layout
 mayor: ko: '시장, market, ro: 'primar, primary
-violation: zh: '违反, violate, id: 'pelanggaran, offence, id: 'pelanggaran, offense, id: 'pelanggaran, offenses, es: 'violación, rape, ru: 'нарушение, disturbance, ru: 'нарушение, disruption, ku: 'birîn, injury, ku: 'birîn, sore, th: 'การละเมิด, abuse
 hardware: sw: 'vifaa, material, sw: 'vifaa, materials
 circus: 
 minority: ku: 'kêmî, deficit
 riot: zh: '暴动, rebellion, id: 'kerusuhan, unrest, pt: 'revolta, revolt, el: 'ταραχή, stir
 orchestra: hu: 'zenekar, band
 bacon: 
-unlimited: zh: '无限, infinite, id: 'takterbatas, indefinite, id: 'takterbatas, indefinitive, kn: 'ಅನಿಯಮಿತ, irregular, ku: 'bêsînor, absolutely
+unlimited: zh: '无限, infinite, id: 'takterbatas, indefinite, kn: 'ಅನಿಯಮಿತ, irregular, ku: 'bêsînor, absolutely
 defending: sw: 'kutetea, defend, tr: 'savunma, defense, tr: 'savunma, plea, tr: 'savunma, defence, vi: 'bảovệ, protect, vi: 'bảovệ, protecting, vi: 'bảovệ, protective, gu: 'બચાવ, rescue, az: 'müdafiə, protection, ku: 'parastina, preserving, si: 'ආරක්ෂා, preserve
 disadvantage: hi: 'हानि, loss, hi: 'हानि, deprivation, hi: 'हानि, losses, bn: 'অসুবিধা, difficulty, ru: 'недостаток, flaw, ru: 'недостаток, drawback, pt: 'desvantagem, handicap, vi: 'bấtlợi, adverse, ur: 'نقصان, harm, am: 'መሰናክል, obstacle, am: 'መሰናክል, setback, az: 'ziyan, damage
 deliberation: zh: '审议, scrutinizing, id: 'pertimbangan, consideration, id: 'pertimbangan, judgement, ru: 'обдумывание, cogitation, tr: 'danışma, consultation, tr: 'danışma, advisory, pa: 'ਵਿਚਾਰ, reconsider, vi: 'thậntrọng, considerate, my: 'စဉ်းစား, thinking, cs: 'uvažování, reasoning, fi: 'keskustelu, conversation, fi: 'keskustelu, discussion, fi: 'keskustelu, debate
 musician: hi: 'संगीतकार, composer, ar: 'ﻲﻘﻴﺳﻮﻣ, musical
 mentally: pa: 'ਮਾਨਸਿਕ, mental, vi: 'tinhthần, spiritual, vi: 'tinhthần, morale, fa: 'ﯽﻨﻫﺫ, subjective, mr: 'मानसिक, psychological, mr: 'मानसिक, cognitive, mr: 'मानसिक, psychiatric, si: 'මානසික, emotional
-denial: zh: '拒绝, deny, zh: '拒绝, refusal, zh: '拒绝, reject, zh: '拒绝, rejection, hi: 'इनकार, negation, sw: 'kunyimwa, deprivation, id: 'penolakan, renunciation, ru: 'отказ, failure, ko: '부정, negative, ko: '부정, negate, pa: 'ਇਨਕਾਰ, refuse, gu: 'અસ્વીકાર, disapproval, am: 'ክህደት, treason, kn: 'ನಿರಾಕರಣೆ, silencing
 inadequate: zh: '不足, lacking, zh: '不足, insufficient, zh: '不足, deficiency, sw: 'duni, miserable, sw: 'duni, inferior, ar: 'ﻢﺋﻼﻣﺮﻴﻏ, awkward, ko: '부적당한, inappropriate, tr: 'yetersiz, inefficient, ta: 'போதிய, ample, kn: 'ಅಸಮರ್ಪಕ, malfunction, si: 'ප්රමාණවත්, sufficient, si: 'ප්රමාණවත්, adequate
 architect: my: 'ဗိသုကာ, architectural
 lemon: 
@@ -1407,7 +1406,6 @@ preventing: zh: '防止, prevent, sw: 'kuzuia, block, sw: 'kuzuia, restrain, sw:
 inferential-evidential: 
 publisher: es: 'editor, editor, bn: 'প্রকাশক, publishing
 vinegar: 
-utility: zh: '效用, effectiveness, hi: 'उपयोगिता, usefulness, sw: 'shirika, organization, sw: 'shirika, corporation, sw: 'shirika, organisation, sw: 'shirika, organizational, pa: 'ਸਹੂਲਤ, facility, pa: 'ਸਹੂਲਤ, facilitate, fa: 'ﺭﺍﺰﺑﺍ, instrument, fa: 'ﺭﺍﺰﺑﺍ, tool, ta: 'பயன்பாடு, use, ta: 'பயன்பாடு, application, ta: 'பயன்பாடு, usage
 ash: ta: 'சாம்பல், gray, ta: 'சாம்பல், grey, am: 'አምድ, column, nl: 'as, axis
 tunnel: ta: 'சுரங்கப்பாதை, subway, si: 'උමග, aquarium
 puzzle: id: 'membingungkan, confuse, id: 'membingungkan, confusing
@@ -1438,6 +1436,7 @@ glove: te: 'తొడుగు, sheath
 kneel: 
 geography: 
 systematic: sw: 'utaratibu, procedure, sw: 'utaratibu, routine, sw: 'utaratibu, mechanism, ta: 'முறையான, legitimate, gu: 'વ્યવસ્થિત, tidy, gu: 'વ્યવસ્થિત, adjusting, ur: 'منظم, organized, ur: 'منظم, organize, am: 'ደምበኛ, client, am: 'ደምበኛ, customer
+invincible: 
 investment: zh: '投资, invest, es: 'inversión, inversion, fa: 'ﯼﺭﺍﺬﮔﻪﯾﺎﻣﺮﺳ, venture, kn: 'ಬಂಡವಾಳ, portfolio, ml: 'നിക്ഷേപം, deposit
 verbal: hi: 'मौखिक, spoken, hi: 'मौखिक, oral, sw: 'matusi, insulting, my: 'နှုတ်နှင့်ဆိုင်သော, verbalizer, cs: 'slovní, lexical
 secular: pa: 'ਨਿਰਪੱਖ, fair, pa: 'ਨਿਰਪੱਖ, neutral, pl: 'świecki, lay, si: 'ලෞකික, temporal
@@ -1457,7 +1456,7 @@ cluster: hi: 'समूह, group, hi: 'समूह, conglomerate, ar: 'ﺔﻠ�
 rhetoric: 
 rung: id: 'anaktangga, stair, ur: 'قطار, row, ur: 'قطار, queue, nl: 'sport, sport, fi: 'askelma, tread
 oar: tr: 'kürek, shovel, ta: 'துடுப்பு, fin, my: 'တက်, rise, my: 'တက်, climb
-login: te: 'లాగిన్, log, gu: 'પ્રવેશ, entrance, gu: 'પ્રવેશ, admission, gu: 'પ્રવેશ, entry, gu: 'પ્રવેશ, penetrate, gu: 'પ્રવેશ, entrant, gu: 'પ્રવેશ, enrollment
+login: te: 'లాగిన్, log, gu: 'પ્રવેશ, entrance, gu: 'પ્રવેશ, admission, gu: 'પ્રવેશ, entry, gu: 'પ્રવેશ, penetrate, gu: 'પ્રવેશ, enrollment, gu: 'પ્રવેશ, entrant
 telescope: sw: 'darubini, microscope
 spelling: mr: 'शब्दलेखन, spell
 cloudy: 
@@ -1468,14 +1467,17 @@ willow: de: 'Weide, pasture
 camel: gu: 'ઊંટ, bishop
 amateur: si: 'ආධුනික, apprentice
 isolation: hi: 'अलगाव, disjunction, sw: 'kutengwa, separated, sw: 'kutengwa, ostracize, pa: 'ਇਕੱਲਤਾ, loneliness, mr: 'अलग, discrete, te: 'ఒంటరిగా, alone, ro: 'izolare, containment, ku: 'dorgirtî, surround
+sometime: sw: 'wakatimwingine, sometimes, tr: 'bazen, occasionally, pa: 'ਕਦੇ, ever, pa: 'ਕਦੇ, rarely, ta: 'சிறிது, lightly, te: 'కొంత, bunch, kn: 'ಕೆಲವು, some, kn: 'ಕೆಲವು, few, kn: 'ಕೆಲವು, certain, si: 'සමහරවිට, might, si: 'සමහරවිට, probably, si: 'සමහරවිට, possibly, si: 'සමහරවිට, maybe, cs: 'někdy, someday
 biography: ko: '전기, electricity, cs: 'životopis, resume
 donkey: 
+rumour: zh: '谣言, rumor, sw: 'uvumi, gossip, id: 'isu, issue, ru: 'слух, hearing, tr: 'söylenti, hearsay, it: 'voce, voice, it: 'voce, item, el: 'φήμη, fame, el: 'φήμη, reputation, el: 'φήμη, renown
 perspective: mr: 'दृष्टीकोन, outlook, ur: 'نقطہنظر, approach, am: 'አመለካከት, attitude, my: 'ရှုထောင့်, aspect, ro: 'perspectivă, prospect
 pro: te: 'అనుకూల, positive, te: 'అనుకూల, adaptive, cs: 'pro, for
 monthly: mr: 'मासिक, magazine
+reverie: zh: '梦想, dream
 vacation: zh: '假期, vocation, hi: 'छुट्टी, leave, hi: 'छुट्टी, holiday, id: 'liburan, getaway, am: 'የእረፍትጊዜ, leisure, am: 'የእረፍትጊዜ, interval
 click: id: 'klik, clique, ru: 'щелчок, snap
-oval: hi: 'अंडाकार, ellipsis
+oval: 
 elastic: zh: '弹, projectiles, ar: 'ﻁﺎﻄﻣ, rubber, mr: 'लवचिक, flexible
 dictionary: ko: '사전, pre, tr: 'sözlük, lexical, az: 'lüğət, vocabulary
 ham: hi: 'जांघ, thigh, az: 'bud, hip, sv: 'skinka, buttock
@@ -1490,6 +1492,7 @@ chart: id: 'grafik, graph, es: 'gráfico, plot, es: 'gráfico, graphic, bn: 'ত
 twin: zh: '双, double, ko: '쌍, pair, ta: 'இரட்டை, dual, te: 'జంట, couple
 operating: zh: '操作, operate, zh: '操作, operated, zh: '操作, manipulation, zh: '操作, manipulate, zh: '操作, operational, id: 'operasi, operation, id: 'operasi, surgery, ta: 'இயக்க, execute, el: 'λειτουργικός, functional, sv: 'rörelse, movement, sv: 'rörelse, motion
 omen: mr: 'सुचवणे, infer, az: 'əlamət, token, az: 'əlamət, indication
+wretchedness: es: 'miseria, misery
 bamboo: ml: 'മുള, sprout, si: 'උණ, fever, si: 'උණ, flu
 dealer: zh: '零售商, retailer, hi: 'विक्रेता, seller, hi: 'विक्रेता, salesman, hi: 'विक्रेता, vendor, hi: 'विक्रेता, salesperson, id: 'pedagang, merchant, de: 'Händler, dealership, gu: 'વેપારી, merchandise, am: 'አከፋፋይ, distributor, kn: 'ವ್ಯಾಪಾರಿ, stockbroker, kn: 'ವ್ಯಾಪಾರಿ, businessman, kn: 'ವ್ಯಾಪಾರಿ, shopper
 accumulation: zh: '积累, accumulate, sw: 'mkusanyiko, collection, sw: 'mkusanyiko, concentration, ko: '축적, fund, vi: 'tíchlũy, cumulative, fr: 'accumulation, amassing
@@ -1520,7 +1523,7 @@ salad: hi: 'सलाद, lettuce, ar: 'ﺔﻄﻠﺳ, power, ta: 'கலவை, 
 affirmative-mood: 
 nominal: pa: 'ਨਾਮਾਤਰ, graze, my: 'အမည်ခံ, nominalization, ku: 'binavkirî, appointment, ku: 'binavkirî, designate, th: 'น้อย, little
 demonstrate: sw: 'kuonyesha, display, sw: 'kuonyesha, illustrate, sw: 'kuonyesha, portray, sw: 'kuonyesha, highlight, bn: 'প্রদর্শন, demonstration, tr: 'göstermek, represent, vi: 'chứngminh, prove, de: 'zeigen, indicate, my: 'ပြသ, show, si: 'පෙන්නුම්, indicating
-dissatisfaction: am: 'ቅሬታ, complaining, kn: 'ಅಸಮಾಧಾನ, upset, my: 'မကျေနပ်မှု, frustration, cs: 'nespokojenost, discontentment, th: 'ความไม่พอใจ, disapproval
+dissatisfaction: am: 'ቅሬታ, complaining, kn: 'ಅಸಮಾಧಾನ, upset, my: 'မကျေနပ်မှု, frustration, th: 'ความไม่พอใจ, disapproval
 shrug: de: 'zucken, twitch
 football: zh: '足球, soccer, it: 'calcio, kick, it: 'calcio, calcium
 partnership: sw: 'ushirikiano, cooperation, sw: 'ushirikiano, integration, id: 'persekutuan, alliance, es: 'asociación, association, vi: 'côngty, corporation, fa: 'ﺖﮐﺭﺎﺸﻣ, contribute, ta: 'கூட்டு, joint, ta: 'கூட்டு, collective, gu: 'ભાગીદારી, participation, my: 'မိတ်ဖက်, partner
@@ -1551,7 +1554,7 @@ atonement: ko: '보상, rewards
 sponge: sv: 'svamp, fungus, fi: 'sieni, mushroom
 squirrel: 
 irrealis-mood: 
-scarcity: zh: '缺乏, lack, hi: 'कमी, cut, hi: 'कमी, lacking, hi: 'कमी, reduction, hi: 'कमी, deficiency, hi: 'कमी, decrease, hi: 'कमी, drawback, hi: 'कमी, shortage, hi: 'कमी, miss, ru: 'дефицит, deficit, el: 'έλλειψη, failing, sv: 'brist, want
+scarcity: zh: '缺乏, lack, hi: 'कमी, cut, hi: 'कमी, lacking, hi: 'कमी, reduction, hi: 'कमी, deficiency, hi: 'कमी, decrease, hi: 'कमी, drawback, hi: 'कमी, shortage, hi: 'कमी, miss, ru: 'дефицит, deficit, sv: 'brist, want
 volcano: 
 equilibrium: zh: '平衡, balance, fa: 'ﻝﺩﺎﻌﺗ, par, ur: 'توازن, symmetry, th: 'สมดุล, equivalence
 scarf: 
@@ -1559,7 +1562,7 @@ exploit: zh: '利用, utilize, hi: 'शोषण, soaking, sw: 'kunyonya, absorb
 geological: te: 'భూగర్భ, underground
 passport: 
 vacancy: sw: 'nafasi, position, sw: 'nafasi, chance, sw: 'nafasi, opportunity, sw: 'nafasi, space, sw: 'nafasi, ranked, id: 'kekosongan, vacuum, es: 'vacante, vacant, tr: 'boşluk, gap, pa: 'ਖਾਲੀ, evacuate, pa: 'ਖਾਲੀ, vacate, pa: 'ਖਾਲੀ, emptying, kn: 'ಖಾಲಿ, empty, kn: 'ಖಾಲಿ, blank
-affinity: hi: 'समानता, equality, hi: 'समानता, analogy, hi: 'समानता, similarity, hi: 'समानता, kinship, hi: 'समानता, commonality, hi: 'समानता, parallelism, sw: 'mshikamano, solidarity, fa: 'ﯽﮕﺘﺴﺑﺍﻭ, dependence, gu: 'આકર્ષણ, attraction, ur: 'تعلق, having, ur: 'تعلق, belong, ur: 'تعلق, hail
+affinity: hi: 'समानता, equality, hi: 'समानता, analogy, hi: 'समानता, similarity, hi: 'समानता, kinship, hi: 'समानता, commonality, sw: 'mshikamano, solidarity, fa: 'ﯽﮕﺘﺴﺑﺍﻭ, dependence, gu: 'આકર્ષણ, attraction, ur: 'تعلق, having, ur: 'تعلق, belong, ur: 'تعلق, hail
 immoral: tr: 'ahlaksız, vicious, fa: 'ﺪﺳﺎﻓ, rotten, am: 'ሥነምግባር, morality, am: 'ሥነምግባር, ethics
 biscuit: zh: '饼干, cookie
 trance: sw: 'maono, vision, ar: 'ﺓﻮﺸﻧ, ecstasy, bn: 'সমাধি, burial, ru: 'транс, trans, pa: 'ਦਰਸ਼ਨ, philosophy
@@ -1584,6 +1587,7 @@ adviser: zh: '顾问, advisor, zh: '顾问, counselor, hi: 'सलाहका�
 cricket: ku: 'tifik, fireplace
 denote: zh: '表示, signify, hi: 'सूचितकरना, inform, sw: 'kuashiria, imply, id: 'menunjukkan, show, id: 'menunjukkan, indicate, id: 'menunjukkan, indicating, vi: 'chứngtỏ, testify, pl: 'oznaczać, mean, kn: 'ಸೂಚಿಸಲು, specify, el: 'σημαίνω, spell, sv: 'beteckna, designate
 pigeon: 
+adaptation: zh: '适应, adapt, ru: 'приспособление, fixture, ko: '적응, accommodation, ko: '적응, adaptive, fa: 'ﻕﺎﺒﻄﻧﺍ, compliance, kn: 'ರೂಪಾಂತರ, transformation, kn: 'ರೂಪಾಂತರ, transform, nl: 'aanpassing, adjustment
 operator: th: 'ผู้ประกอบการ, practitioner, th: 'ผู้ประกอบการ, tycoon, th: 'ผู้ประกอบการ, businessperson
 badge: bn: 'ব্যাজ, simulation, ru: 'знак, sign, my: 'တံဆိပ်, seal, my: 'တံဆိပ်, medal, my: 'တံဆိပ်, label, az: 'nişan, engagement, ku: 'nîşan, signal, ku: 'nîşan, symbol, th: 'สัญลักษณ์, glyph
 triangle: 
@@ -1598,7 +1602,7 @@ transmission: hi: 'हस्तांतरण, transfer, sw: 'maambukizi, infec
 refresh: zh: '刷新, refreshed, sw: 'mahitaji, demand, sw: 'mahitaji, requirement, ru: 'обновление, renewal, ko: '새롭게하다, renovate, tr: 'yenileme, renovation, az: 'təzələmək, renew
 dancer: 
 migration: zh: '迁移, migrate, sw: 'uhamiaji, immigration, gu: 'સ્થળાંતર, relocation, gu: 'સ્થળાંતર, relocate, ur: 'نقلمکانی, displacement, kn: 'ವಲಸೆ, immigrant, si: 'සංක්රමණය, transition
-slang: ar: 'ﺔﻴﻣﺎﻋ, colloquial, bn: 'অপভাষা, jargon
+violate: zh: '违反, violation, ko: '위반, offence, ko: '위반, offense, de: 'verletzen, hurt, de: 'verletzen, injure, fi: 'rikkoa, disobey
 tennis: 
 windy: ta: 'கொந்தளிப்பான, turbulent
 weave: zh: '编织, braid, hi: 'बुनना, knit, hi: 'बुनना, knitting, es: 'tejido, tissue, fa: 'ﺖﻓﺎﺑ, texture, th: 'สาน, fabricate
@@ -1660,6 +1664,7 @@ metre: zh: '仪表, meter, es: 'metro, subway, el: 'μέτρο, measure
 racial: zh: '种族, race, hi: 'जातीय, ethnic, sw: 'ubaguziwarangi, racism, te: 'జాతి, strain, am: 'የዘር, descent
 comet: es: 'cometa, kite, ar: 'ﺐﻧﺬﻤﻟﺍ, offender
 innovation: vi: 'sựđổimới, renewal, ta: 'கண்டுபிடிப்பு, discovery, ta: 'கண்டுபிடிப்பு, invention
+ban: zh: '禁止, forbid, zh: '禁止, prohibit, zh: '禁止, prohibiting, pa: 'ਪਾਬੰਦੀ, constraint, pa: 'ਪਾਬੰਦੀ, restriction, ta: 'தடை, barrier, ta: 'தடை, restricted, it: 'bandire, banish, fi: 'kieltää, deny, fi: 'kieltää, negate
 medieval: id: 'pertengahan, mid
 sparrow: 
 footnote: pl: 'notatka, memo, az: 'qeyd, remark, az: 'qeyd, celebrate, az: 'qeyd, registration, az: 'qeyd, stressed, az: 'qeyd, recording
@@ -1676,11 +1681,11 @@ chip: hi: 'टुकड़ा, piece, hi: 'टुकड़ा, fragment, hi: '�
 yawn: id: 'menguap, evaporate, th: 'อ้าปากค้าง, gasp
 mole: hi: 'तिल, sesame
 pottery: pa: 'ਮਿੱਟੀ, soil, pa: 'ਮਿੱਟੀ, clay
-disobey: kn: 'ಮುರಿ, rebate, fi: 'rikkoa, violate
 embryo: zh: '胎, tire, zh: '胎, tyre, zh: '胎, fetal, hi: 'भ्रूण, fetus, ta: 'கரு, nucleus, my: 'အလောင်း, corpse
 deduction: zh: '扣除, deduct, tr: 'kesinti, interruption, de: 'Abzug, rebate, fa: 'ﺮﺴﮐ, fraction, mr: 'कपात, reduction, ta: 'துப்பறியும், detective, te: 'మినహాయింపు, exception, te: 'మినహాయింపు, exempt, kn: 'ನಿರ್ಣಯ, determination, kn: 'ನಿರ್ಣಯ, inference, el: 'αφαίρεση, removing
 predicament: zh: '困境, dilemma, hi: 'स्थिति, position, hi: 'स्थिति, situation, hi: 'स्थिति, status, sw: 'tatizo, problem, ta: 'இக்கட்டான, embarrassing, sv: 'predika, preach
 yeast: ar: 'ﺓﺮﻴﻤﺧ, enzyme, am: 'እርሻ, farm, am: 'እርሻ, farming, el: 'ζύμη, dough, el: 'ζύμη, pastry
+jargon: mr: 'व्यवसाय, businesses, kn: 'ಪರಿಭಾಷೆ, terminology
 plum: 
 graveyard: es: 'cementerio, cemetery
 graduate: zh: '毕业, graduation, id: 'lulus, pass, es: 'graduado, postgraduate, sv: 'examen, exam
@@ -1688,12 +1693,14 @@ irrigation:
 capitalist: sw: 'ubepari, capitalism
 elasticity: ar: 'ﺔﻧﻭﺮﻣ, flexibility
 shark: 
+default: hi: 'चूक, omission, hi: 'चूक, gaffe, id: 'kegagalan, failure, es: 'defecto, defect, es: 'defecto, blemish, ko: '태만, neglect, pt: 'padrão, standard, pt: 'padrão, pattern, fr: 'défaut, flaw, gu: 'મૂળભૂત, fundamental, gu: 'મૂળભૂત, basic, gu: 'મૂળભૂત, fundamentally, gu: 'મૂળભૂત, basically, pl: 'zaniedbanie, negligence
 punctual: gu: 'નિયમિત, regular, gu: 'નિયમિત, regularly, gu: 'નિયમિત, routine, kn: 'ಸಮಯಕ್ಕೆ, timespan, az: 'dəqiq, exactly, az: 'dəqiq, exact, az: 'dəqiq, precisely, az: 'dəqiq, accurate, az: 'dəqiq, precise, az: 'dəqiq, accurately, fi: 'täsmällinen, explicit
 realism: 
 increasingly: vi: 'lên, up, vi: 'lên, onto, te: 'ఎక్కువగా, largely, te: 'ఎక్కువగా, mostly, kn: 'ಹೆಚ್ಚು, more, kn: 'ಹೆಚ್ಚು, than, kn: 'ಹೆಚ್ಚು, much, kn: 'ಹೆಚ್ಚು, greatly, kn: 'ಹೆಚ್ಚು, highly, ku: 'diçe, getting, cs: 'stále, steadily
 cafe: es: 'cafetería, cafeteria, pt: 'café, coffee, fr: 'café, café, it: 'bar, bar, nl: 'cafe, inn
 ambulance: 
 wallet: zh: '钱包, purse, fr: 'portefeuille, portfolio
+ecstatic: de: 'begeistert, enthusiastic, de: 'begeistert, enthusiastically, ur: 'خوش, amused
 grimace: es: 'mueca, grin, ar: 'ﺮﺸﻛ, mug
 scientist: hi: 'वैज्ञानिक, scientific, ar: 'ﻢﻟﺎﻋ, scholar, pa: 'ਵਿਗਿਆਨੀ, biologist, sv: 'forskare, researcher, sv: 'forskare, investigator
 equanimity: ur: 'تحمل, restraint, ro: 'calm, calm
@@ -1702,18 +1709,18 @@ outdoor: sw: 'nje, out, sw: 'nje, outside, sw: 'nje, outer, sw: 'nje, external, 
 radio: es: 'radio, radium, es: 'radio, radius
 bean: id: 'kacang, nut, id: 'kacang, pea, id: 'kacang, peanut, ko: '콩, soya, fa: 'ﺕﺎﺑﻮﺒﺣ, cereal
 informal: pa: 'ਰਸਮੀ, formal, pa: 'ਰਸਮੀ, formally, am: 'መደበኛ, regular, am: 'መደበኛ, routine, si: 'අනියම්, affair, si: 'අනියම්, casual
+speculate: ko: '추측, guess, gu: 'અનુમાન, inference
 steak: gu: 'ટુકડો, fragment, el: 'μπριζόλα, chop
 nitrogen: 
 razor: ml: 'കത്തി, knife
 mutter: ko: '속삭임, whisper
-introductory: zh: '介绍, introduction, zh: '介绍, introduce, zh: '介绍, presentation, pa: 'ਸ਼ੁਰੂਆਤੀ, beginner, pa: 'ਸ਼ੁਰੂਆਤੀ, preliminaries, vi: 'mởđầu, inchoative, fr: 'préliminaire, preliminary, ta: 'அறிமுக, debut, gu: 'પ્રારંભિક, early, gu: 'પ્રારંભિક, initial, it: 'introduttivo, inceptive, az: 'başlanğıc, onset
+introductory: zh: '介绍, introduction, zh: '介绍, introduce, zh: '介绍, presentation, pa: 'ਸ਼ੁਰੂਆਤੀ, beginner, pa: 'ਸ਼ੁਰੂਆਤੀ, preliminaries, fr: 'préliminaire, preliminary, ta: 'அறிமுக, debut, gu: 'પ્રારંભિક, early, gu: 'પ્રારંભિક, initial, az: 'başlanğıc, onset
 analyze: ar: 'ﻞﻴﻠﺤﺗ, parse, bn: 'বিশ্লেষণকরা, analyse, ko: '분석, analysis, ku: 'lêkolîn, research, ku: 'lêkolîn, survey, ku: 'lêkolîn, explore, ku: 'lêkolîn, investigate, ku: 'lêkolîn, exploration, ku: 'lêkolîn, checkout
-contrasting: zh: '对比, contrast, vi: 'tươngphản, contrastive, fa: 'ﺩﺎﻀﺘﻣ, antonym, ta: 'முரண்பாடான, contradictory, ta: 'முரண்பாடான, illogical, te: 'విభిన్న, distinct, te: 'విభిన్న, diverse, gu: 'વિરોધાભાસી, contradict, am: 'ተቃራኒ, opposite, am: 'ተቃራኒ, contrary, el: 'αντίθετος, opposed
+contrasting: zh: '对比, contrast, vi: 'tươngphản, contrastive, ta: 'முரண்பாடான, contradictory, ta: 'முரண்பாடான, illogical, te: 'విభిన్న, distinct, te: 'విభిన్న, diverse, gu: 'વિરોધાભાસી, contradict, am: 'ተቃራኒ, opposite, am: 'ተቃራኒ, contrary, el: 'αντίθετος, opposed
 propaganda: zh: '宣传, publicize, hi: 'प्रचार, proclaim, hi: 'प्रचार, publicity, hi: 'प्रचार, promotional, bn: 'প্রচারণা, campaign, pa: 'ਪ੍ਰਚਾਰ, preach, fa: 'ﺕﺎﻐﯿﻠﺒﺗ, advertisement, fa: 'ﺕﺎﻐﯿﻠﺒﺗ, advertising, fa: 'ﺕﺎﻐﯿﻠﺒﺗ, advertise, kn: 'ಪ್ರಚಾರ, promotion, kn: 'ಪ್ರಚಾರ, promote
 undress: es: 'desnudo, bare, es: 'desnudo, naked, te: 'బట్టలు, clothes
-incentive: hi: 'प्रोत्साहन, encouragement, hi: 'प्रोत्साहन, stimulus, sw: 'motisha, motivation, bn: 'উদ্দীপক, encouraging, ko: '자극, irritated, ko: '자극, stimulate, ko: '자극, stimulation, vi: 'khuyếnkhích, encourage, vi: 'khuyếnkhích, promote, fa: 'ﻩﺰﯿﮕﻧﺍ, motive, gu: 'પ્રોત્સાહન, exhortation, gu: 'પ્રોત્સાહન, motivate
+incentive: hi: 'प्रोत्साहन, encouragement, hi: 'प्रोत्साहन, stimulus, sw: 'motisha, motivation, bn: 'উদ্দীপক, encouraging, ko: '자극, irritated, ko: '자극, stimulate, ko: '자극, stimulation, vi: 'khuyếnkhích, encourage, vi: 'khuyếnkhích, promote, fa: 'ﻩﺰﯿﮕﻧﺍ, motive, gu: 'પ્રોત્સાહન, motivate
 furrow: nl: 'voor, for, nl: 'voor, before
-wrench: sw: 'bisibisi, screwdriver, id: 'kunci, key, gu: 'સાધન, instrument, gu: 'સાધન, tool, gu: 'સાધન, appliance, ro: 'cheie, clue
 judaism: 
 recipient: zh: '接受者, taker, id: 'penerima, beneficiary, es: 'recipiente, container, tr: 'alıcı, buyer, tr: 'alıcı, purchaser
 lens: de: 'Linse, lentil, my: 'မှန်ဘီလူး, microscope, ro: 'obiectiv, objective, ku: 'nîsk, pea, el: 'φακός, flashlight
@@ -1722,6 +1729,7 @@ cancer: az: 'xərçəng, lobster
 pawn: ar: 'ﻦﻫﺭ, mortgage, pt: 'penhor, pledge, ta: 'சிப்பாய், soldier, az: 'piyada, pedestrian
 reminder: zh: '提醒, remind, id: 'peringatan, warning, id: 'peringatan, caution, id: 'peringatan, memorial, id: 'peringatan, commemorative, pa: 'ਯਾਦ, memorization, fr: 'rappel, recall, it: 'promemoria, memo, my: 'သတိပေး, warn, my: 'သတိပေး, alert, ro: 'aducereaminte, remembering, th: 'การแจ้งเตือน, notification
 leak: ar: 'ﺏﺮﺴﺗ, spill, fr: 'fuite, fleeing, am: 'ፈሰሰ, flow, it: 'perdita, loss, ku: 'qûl, hole
+vindication: hi: 'प्रमाण, proof, sw: 'uthibitisho, confirmation, vi: 'sựbiệnhộ, justification, ur: 'ثبوت, evidence, kn: 'ಸಮರ್ಥನೆ, justified, fi: 'puolustus, defense, fi: 'puolustus, defence
 complexity: bn: 'জটিলতা, complication, my: 'ရှုပ်ထွေး, complicated, my: 'ရှုပ်ထွေး, mess
 talkative: tr: 'konuşkan, communicative, te: 'చురుకైన, agile
 sufficiency: hi: 'प्रचुरता, abundance, tr: 'yeterlik, proficiency, tr: 'yeterlik, competence, ur: 'کفالت, sponsorship, az: 'kifayət, sufficient
@@ -1732,7 +1740,6 @@ intervene: sw: 'kuingiliakati, interfere, ar: 'ﻞﺧﺪﺗ, interference, ar: '
 discount: hi: 'छूट, exemption, hi: 'छूट, rebate, ar: 'ﺮﻌﺴﻟﺍﺾﻴﻔﺨﺗ, sale, mr: 'सवलत, concession, ro: 'reducere, reduction, az: 'güzəşt, concede, ku: 'kêmkirinî, insult
 hierarchy: sw: 'uongozi, leadership, vi: 'hệthống, system
 jade: 
-abusing: zh: '滥用, abuse, ko: '학대, mistreating
 snarl: 
 lizard: 
 pad: ar: 'ﺓﺩﺎﺳﻭ, pillow, ar: 'ﺓﺩﺎﺳﻭ, cushion, az: 'pəncə, paw
@@ -1742,6 +1749,7 @@ mosquito:
 fluent: es: 'fluido, fluid, fr: 'facile, simple, fr: 'facile, easy, sv: 'flytande, liquid, th: 'คล่องแคล่ว, active
 deviation: es: 'desviación, deflection, fa: 'ﻑﺍﺮﺤﻧﺍ, offset, ta: 'விலகல், distortion, ta: 'விலகல், opt, ku: 'ferq, difference, ku: 'ferq, discrepancy, cs: 'odchylka, variance
 explorer: de: 'Forscher, researcher, fa: 'جستجوگر, seeker
+expiring: zh: '到期, expire, ko: '만료, expiration, gu: 'નિવૃત્ત, retiree, gu: 'નિવૃત્ત, retired, ur: 'ختم, finish, ur: 'ختم, abolish
 wrestle: sw: 'kushindana, compete, ur: 'کشتی, boat, nl: 'worstelen, struggle, th: 'ต่อสู้, tackle
 mosaic: bn: 'বিচিত্র, diverse
 plug: es: 'enchufe, socket, tr: 'fiş, voucher, de: 'Stecker, connector
@@ -1751,7 +1759,7 @@ pregnancy: sw: 'mimba, conception, sw: 'mimba, conceive, ar: 'ﻞﻤﺣ, carry, 
 grocery: 
 communist: 
 amaze: id: 'menakjubkan, surprising, id: 'menakjubkan, amazing, id: 'menakjubkan, stunning, tr: 'şaşırtmak, mislead, tr: 'şaşırtmak, confuse, tr: 'şaşırtmak, stun, fa: 'ﻥﺩﺮﮐﺕﺎﻣ, confound, mr: 'आश्चर्यचकित, amazed, ur: 'حیران, surprised
-contrition: id: 'penyesalan, regret, id: 'penyesalan, remorse, el: 'συντριβή, crush
+contrition: id: 'penyesalan, regret, id: 'penyesalan, remorse, my: 'နောင်တ, regretted, el: 'συντριβή, crush
 prosecutive-case: 
 dictator: 
 preoccupation: es: 'preocupación, concern, es: 'preocupación, worry, tr: 'kaygı, anxiety, de: 'Beschäftigung, employment, ml: 'ചിന്ത, thought, my: 'အဆက်မပြတ်, constantly, az: 'qayğı, care
@@ -1775,7 +1783,7 @@ ballet: fa: 'ﻪﻟﺎﺑ, fin, te: 'బ్యాలెట్, ballot
 urine: bn: 'প্রস্রাব, piss
 garlic: 
 middle-class: 
-tongs: sw: 'koleo, shovel, id: 'penjepit, brace, vi: 'kẹp, clip
+tongs: sw: 'koleo, shovel, vi: 'kẹp, clip
 challenging: sw: 'changamoto, challenge, fr: 'difficile, hard, fr: 'difficile, difficult, az: 'çətin, tough, az: 'çətin, unlikely
 strawberry: am: 'እንጆሪ, berry
 pollution: zh: '污染, pollute
@@ -1793,10 +1801,9 @@ contractor: ar: 'مقاول, entrepreneur, cs: 'dodavatel, supplier
 notify: zh: '通知, inform, zh: '通知, notification, id: 'memberitahu, advise, tr: 'bildirmek, declare, vi: 'thôngbáo, announcement, vi: 'thôngbáo, announce, gu: 'સૂચિત, imply, nl: 'aankondigen, heralding, cs: 'oznámit, disclose, fi: 'ilmoittaa, communicate
 ballroom: 
 artisan: sw: 'fundi, mechanic, sw: 'fundi, plumber, sw: 'fundi, technician
-unpaid: tr: 'ödenmemiş, outstanding, cs: 'nezaplacený, owing
+unpaid: tr: 'ödenmemiş, outstanding
 ingredient: id: 'bahan, material, id: 'bahan, materials, id: 'bahan, ingredients, bn: 'উপাদান, element, bn: 'উপাদান, component, mr: 'घटक, ally, mr: 'घटक, factor, mr: 'घटक, parameter, ml: 'ഘടകം, unit, ml: 'ഘടകം, module
 banana: bn: 'কলা, tissue
-antithesis: hi: 'विलोम, antonym, sw: 'kinyume, opposite, sw: 'kinyume, opposed, sw: 'kinyume, contrary, id: 'pertentangan, disagreement, fa: 'ﺩﺎﻀﺗ, contrast, fa: 'ﺩﺎﻀﺗ, conflict, ur: 'برعکس, unlike, ml: 'ശമ്പളം, salary, ml: 'ശമ്പളം, paycheck
 generator: mr: 'वीज, thunderstorm
 rib: fa: 'ﻩﺪﻧﺩ, gear, ro: 'coastă, coast
 nickel: 
@@ -1818,7 +1825,6 @@ unemployment: bn: 'বেকারি, bakery
 caterpillar: 
 calcium: it: 'calcio, kick, it: 'calcio, football, it: 'calcio, soccer
 historic-tense: 
-hearsay: tr: 'söylenti, rumour, tr: 'söylenti, rumor, el: 'φήμη, fame, el: 'φήμη, reputation, el: 'φήμη, renown, fi: 'juoru, gossip
 spectrum: 
 sodium: 
 trustee: pt: 'administrador, administer, pt: 'administrador, administrator, ro: 'administrator, superintendent, ro: 'administrator, concierge
@@ -1827,10 +1833,11 @@ gourd: es: 'calabaza, pumpkin, my: 'သခွားသီး, cucumber, fi: 'kur
 wrinkle: sw: 'kasoro, defect, pa: 'ਪਾਪ, commit
 spike: hi: 'कील, wedge, ar: 'ﺭﺎﻤﺴﻣ, nail, de: 'Spitze, lace, de: 'Spitze, tip, th: 'ขัดขวาง, interrupt
 tick: id: 'kutu, louse, ar: 'ﺔﻣﻼﻋ, mark, ar: 'ﺔﻣﻼﻋ, marker
+rape: hi: 'बलात्कार, outrage, es: 'violación, violation, fa: 'ﺯﻭﺎﺠﺗ, exceed, fa: 'ﺯﻭﺎﺠﺗ, aggression, az: 'zorlamaq, coerce, hu: 'erőszak, violence
 atheism: 
 monitor: sw: 'kufuatilia, track, es: 'monitor, display, tr: 'izlemek, watch, tr: 'izlemek, pursue, am: 'ተቆጣጠር, takeover, my: 'စောငျ့ရှောကျ, observe, sv: 'övervaka, supervise, sv: 'övervaka, oversee
 conditional: sw: 'masharti, attached, ur: 'مشروط, subject, az: 'şərti, conventional, az: 'şərti, contingency
-probe: hi: 'जांच, examination, hi: 'जांच, inquiry, hi: 'जांच, investigation, hi: 'जांच, investigate, hi: 'जांच, enquiry, hi: 'जांच, checkup, pa: 'ਪੜਤਾਲ, evaluation, vi: 'thămdò, exploration, ta: 'விசாரணை, trial, ta: 'விசாரணை, interrogation, gu: 'તપાસ, check, gu: 'તપાસ, cheque, gu: 'તપાસ, diagnostic, gu: 'તપાસ, scrutinizing
+probe: hi: 'जांच, examination, hi: 'जांच, inquiry, hi: 'जांच, investigation, hi: 'जांच, investigate, hi: 'जांच, enquiry, hi: 'जांच, checkup, pa: 'ਪੜਤਾਲ, evaluation, vi: 'thămdò, exploration, ta: 'விசாரணை, trial, gu: 'તપાસ, check, gu: 'તપાસ, cheque, gu: 'તપાસ, diagnostic, gu: 'તપાસ, scrutinizing
 quarterly: ur: 'سہماہی, quarter
 gender: bn: 'লিঙ্গ, sex, ko: '성별, sexuality, pa: 'ਲਿੰਗ, penis, vi: 'tính, compute, az: 'cins, breed, hu: 'nem, not, hu: 'nem, no, hu: 'nem, non
 platinum: 
@@ -1845,6 +1852,7 @@ gasoline: zh: '汽油, petrol
 kidney: ko: '신장, height, ko: '신장, extension
 unattended: es: 'desesperado, desperate, pa: 'ਆਟੋਮੈਟਿਕ, automate, fi: 'yksin, alone, fi: 'yksin, solo
 loot: zh: '抢劫, robbery, zh: '抢劫, looting, bn: 'লুণ্ঠন, spoil, ru: 'добыча, prey, ru: 'добыча, mining, fa: 'ﺕﺭﺎﻏ, rob, it: 'bottino, haul
+overworked: 
 arsenic: 
 statistical: zh: '统计, statistics, sw: 'takwimu, figure, tr: 'istatistiksel, statistically, gu: 'આંકડાકીય, numerical, ro: 'statistic, statistic
 grasshopper: 
@@ -1872,16 +1880,17 @@ diagonal: am: 'አግድም, horizontal
 subconscious: 
 eyebrow: 
 sneeze: 
-hilarious: id: 'riang, cheerful, ar: 'ﺡﺮﻣ, fun, pt: 'divertido, entertaining, pt: 'divertido, amused, pt: 'divertido, amusing, pa: 'ਪ੍ਰਸੰਨ, pleasing, vi: 'vuivẻ, glad, fa: 'ﺭﺍﺩﻩﺪﻨﺧ, funny
+hilarious: id: 'riang, cheerful, ar: 'ﺡﺮﻣ, fun, pt: 'divertido, entertaining, pt: 'divertido, amusing, pt: 'divertido, amused, pa: 'ਪ੍ਰਸੰਨ, pleasing, vi: 'vuivẻ, glad, fa: 'ﺭﺍﺩﻩﺪﻨﺧ, funny
 occupancy: zh: '占用, occupation, bn: 'দখল, possession, ru: 'размещение, placing, ru: 'размещение, placement, vi: 'chiếm, occupied, vi: 'chiếm, seize, vi: 'chiếm, occupy, it: 'occupazione, employment, sv: 'beläggning, covering
 hinduism: 
 refugee: de: 'Flüchtling, fugitive, fa: 'ﺮﺟﺎﻬﻣ, immigrant
 shuttle: ko: '우주선, spaceship, pt: 'transporte, carriage, pt: 'transporte, transport, pt: 'transporte, transportation, de: 'pendeln, commute, my: 'လွန်း, too
+twinge: hi: 'आवेश, stab, az: 'əzab, anguish, cs: 'škubnutí, twitch, sv: 'sting, sting
 protein: zh: '蛋白, egg-white
+self-satisfied: 
 vomit: 
 gene: zh: '基因, genetically, ta: 'மரபணு, genetic, my: 'မျိုးရိုးဗီဇ, genetics
 freshman: gu: 'નવા, new, gu: 'નવા, newly, ur: 'افزائش, proliferating, hu: 'újonc, newcomer, hu: 'újonc, recruit
-definitive: zh: '明确, clear, hi: 'अंतिम, final, ru: 'окончательный, ultimate, pt: 'definitivo, definite, tr: 'kesin, absolute, tr: 'kesin, precise, fa: 'ﯽﻌﻄﻗ, terminative, ta: 'உறுதியான, assertive, te: 'నిశ్చయాత్మక, affirmative, gu: 'નિર્ણાયક, decisive, gu: 'નિર્ણાયક, crucial, am: 'ወሳኝ, critical, si: 'නිශ්චිත, exact, si: 'නිශ්චිත, certainty
 accoutrements: zh: '装备, equip
 shatter: bn: 'ধ্বংসকরা, demolish, ko: '파편, fragment, pa: 'ਚੂਰ, crush, fr: 'briser, break, fr: 'briser, smash, az: 'pozmaq, disturb
 sociology: 
@@ -1890,8 +1899,10 @@ voter: zh: '选民, constituency, zh: '选民, electorate, si: 'ඡන්ද, vo
 mobility: vi: 'diđộng, mobile, vi: 'diđộng, portable, ta: 'இயக்கம், movement, ta: 'இயக்கம், motion, ku: 'hejînî, fluctuation
 regional: id: 'daerah, county, id: 'daerah, area, id: 'daerah, zone, vi: 'khuvực, ward, vi: 'khuvực, sphere, vi: 'khuvực, sector, te: 'ప్రాంతీయ, provincial, kn: 'ಪ್ರಾದೇಶಿಕ, spatial, my: 'ဒေသဆိုင်ရာ, local, el: 'περιφερειακός, peripheral
 motion-uphill: 
+retrospective: vi: 'quákhứ, past, kn: 'ಹಿಂದಿನ, previous, kn: 'ಹಿಂದಿನ, rear, kn: 'ಹಿಂದಿನ, predecessor
 cube: mr: 'घन, solid
 carrot: az: 'kök, fat, az: 'kök, root, az: 'kök, stem
+entrap: 
 molecular: zh: '分子, molecule, mr: 'आण्विक, nuclear, mr: 'आण्विक, atomic, ta: 'மூலக்கூறு, substrate
 accountant: id: 'akuntan, auditor, es: 'contador, purser
 stink: id: 'bau, smell
@@ -1918,7 +1929,7 @@ keyboard:
 unreliable: hi: 'अविश्वसनीय, incredible, sw: 'uhakika, sure, sw: 'uhakika, definite, sw: 'uhakika, uncertain, sw: 'uhakika, assurance, sw: 'uhakika, unsure, pa: 'ਭਰੋਸੇਯੋਗ, dependable, ta: 'நம்பமுடியாத, incredibly
 elite: te: 'ఉన్నత, superior
 yen: 
-parenthesis: pa: 'ਬਰੈਕਟ, bracket, my: 'ကွင်း, venue, si: 'වරහන, brace
+parenthesis: pa: 'ਬਰੈਕਟ, bracket, my: 'ကွင်း, venue
 rugby: 
 bible: zh: '圣经, scripture
 causation: bn: 'করণ, performing, it: 'causa, cause
@@ -1959,8 +1970,10 @@ clinical: gu: 'તબીબી, medical
 radium: es: 'radio, radio, es: 'radio, radius
 rarefied: fi: 'ohut, thin
 refrigerator: zh: '冰箱, fridge, az: 'soyuducu, cooler
+satyr: 
 archaeological: pa: 'ਪੁਰਾਤੱਤਵ, archaeology, pa: 'ਪੁਰਾਤੱਤਵ, archeology, ta: 'தொல்பொருள், fossil
 idiosyncrasy: hi: 'लत, addiction, mr: 'वागणे, posing, gu: 'શૈલી, style, gu: 'શૈલી, genre
+unacceptable: pa: 'ਗ਼ਲਤ, mistaken, pa: 'ਗ਼ਲਤ, flawed
 massage: 
 specification: zh: '规范, norm, zh: '规范, standardize, id: 'spesifikasi, specifications, mr: 'तपशील, detail, gu: 'સ્પષ્ટીકરણ, explanatory, kn: 'ವಿವರಣೆಯನ್ನು, explanation, hu: 'leírás, description
 sensory: sw: 'hisia, feeling, sw: 'hisia, impression, sw: 'hisia, emotion, sw: 'hisia, mood, sw: 'hisia, sensation, sw: 'hisia, impressed, sw: 'hisia, emotions, sw: 'hisia, emotional, vi: 'cảm, feel, ta: 'உணர்ச்சி, passionate
@@ -1980,20 +1993,20 @@ emission: sw: 'chafu, dirty, es: 'emisión, broadcast, ko: '방사, radiation
 overlap: sw: 'mwingiliano, interaction, sw: 'mwingiliano, interactive
 invert: hi: 'पलटना, inversion, id: 'membalikkan, reverse, es: 'invertir, invest, ar: 'ﺲﻜﻋ, contrary, pa: 'ਉਲਟ, opposite, pa: 'ਉਲਟ, unlike, pa: 'ਉਲਟ, contradict, pa: 'ਉਲਟ, flip
 classmate: 
-itinerary: zh: '行程, stroke, sw: 'ratiba, schedule, sw: 'ratiba, timetable, sw: 'ratiba, scheduling, sw: 'ratiba, timeline, ru: 'маршрут, route, tr: 'yol, way, tr: 'yol, road, tr: 'yol, path, vi: 'hànhtrình, voyage, vi: 'hànhtrình, cruise, vi: 'hànhtrình, journey, my: 'ခရီးစဉ်, tour
+itinerary: zh: '行程, stroke, sw: 'ratiba, schedule, sw: 'ratiba, timetable, sw: 'ratiba, timeline, sw: 'ratiba, scheduling, ru: 'маршрут, route, tr: 'yol, way, tr: 'yol, road, tr: 'yol, path, vi: 'hànhtrình, voyage, vi: 'hànhtrình, cruise, vi: 'hànhtrình, journey, my: 'ခရီးစဉ်, tour
 microwave: 
 oust: id: 'mengusir, repel, id: 'mengusir, deport, es: 'expulsar, expel, es: 'expulsar, eject, ru: 'вытеснять, displace, ur: 'شکست, defeat, ur: 'شکست, checkmate, my: 'ဖြုတ်ချ, topple, th: 'ขับไล่, banish, fi: 'syrjäyttää, outdate
 hairdresser: 
 folklore: sw: 'ngano, wheat, te: 'జానపద, folk
 capillary: 
-buttocks: zh: '臀部, hip, zh: '臀部, buttock, ur: 'کولہوں, posterior, am: 'መቀመጫ, seat, ro: 'fund, bottom
+buttocks: zh: '臀部, hip, zh: '臀部, buttock, am: 'መቀመጫ, seat, ro: 'fund, bottom
 controller: zh: '调节器, conditioner, sw: 'mtawala, ruler, id: 'pengawas, superintendent, id: 'pengawas, supervisor, fr: 'manette, joystick, el: 'ελεγκτής, auditor
 terrorism: hi: 'आतंक, terror, hi: 'आतंक, horror, hi: 'आतंक, panic, vi: 'khủngbố, terrorist
 slogan: ar: 'ﺭﺎﻌﺷ, logo, mr: 'घोषणा, announcement, mr: 'घोषणा, declaration, mr: 'घोषणा, announce, el: 'σύνθημα, signal, el: 'σύνθημα, password, el: 'σύνθημα, cue
 overtime: sw: 'nyongeza, cumulative, sw: 'nyongeza, accessory, sw: 'nyongeza, increment, sw: 'nyongeza, supplementary, gu: 'સમય, time, gu: 'સમય, period
 sublimate: mr: 'शुद्ध, pure, mr: 'शुद्ध, refine
-hyperbole: zh: '夸张, exaggerated, tr: 'abartma, overcharge, fa: 'ﻪﻐﻟﺎﺒﻣ, exaggerate
 grill: pt: 'grade, grid, vi: 'nướng, bake, de: 'Grill, barbecue, ku: 'sorkirin, attract, ku: 'sorkirin, motivate
+wow: ar: 'رائع, superb, ar: 'رائع, terrific, ur: 'زبردست, great, ur: 'زبردست, tremendous, kn: 'ಅದ್ಭುತ, wonderful, kn: 'ಅದ್ಭುತ, brilliant, kn: 'ಅದ್ಭುತ, fantastic, kn: 'ಅದ್ಭುತ, amazing, kn: 'ಅದ್ಭುತ, phenomenal
 cobalt: 
 oat: 
 motion-upriver: 
@@ -2004,12 +2017,12 @@ video:
 boycott: ar: 'ﺔﻌﻃﺎﻘﻣ, county, vi: 'tẩychay, ostracize, ta: 'புறக்கணிப்பு, neglect, am: 'አድማ, strike
 quiz: sw: 'jaribio, attempt, es: 'examen, examination, es: 'examen, exam, pt: 'questionário, questionnaire, th: 'ทดสอบ, test
 hockey: 
-alliteration: id: 'purwakanti, assonance
 guerrilla: 
 magnesium: 
 awareness: ko: '인식, aware, ko: '인식, perceive, ko: '인식, recognize, ko: '인식, recognition, te: 'అవగాహన, understanding, te: 'అవగాహన, perception, nl: 'bewustzijn, consciousness, si: 'දැනුවත්, conscious, si: 'දැනුවත්, educate, si: 'දැනුවත්, knowledgeable, si: 'දැනුවත්, publicize
 pharmacy: zh: '药店, drugstore, id: 'farmasi, pharmaceutical, si: 'ඖෂධ, medication
-rearrange: sw: 'upya, renew, sw: 'upya, reconstruct, sw: 'upya, reconsider, sw: 'upya, renewal, sw: 'upya, anew, pa: 'ਤਬਦੀਲ, replacing, vi: 'sắpxếplại, reschedule, my: 'ပွောငျးလဲ, change, my: 'ပွောငျးလဲ, switch, az: 'düzəltmək, straighten
+unambitious: cs: 'ambiciózní, ambitious, fi: 'vaatimaton, modest
+rearrange: sw: 'upya, renew, sw: 'upya, reconstruct, sw: 'upya, reconsider, sw: 'upya, anew, sw: 'upya, renewal, pa: 'ਤਬਦੀਲ, replacing, vi: 'sắpxếplại, reschedule, my: 'ပွောငျးလဲ, change, my: 'ပွောငျးလဲ, switch, az: 'düzəltmək, straighten
 reliability: bn: 'বিশ্বাসযোগ্যতা, credibility, az: 'etibarlılıq, validity
 kelp: 
 reimburse: zh: '补偿, compensate, zh: '补偿, remunerate, vi: 'trảlại, render, te: 'తిరిగి, re, gu: 'ભરપાઈ, reimbursement, ur: 'آفسیٹ, offset, fi: 'korvata, replace
@@ -2053,7 +2066,6 @@ visa:
 infrastructure: pa: 'ਬੁਨਿਆਦੀ, fundamental, pa: 'ਬੁਨਿਆਦੀ, basic, pa: 'ਬੁਨਿਆਦੀ, fundamentally
 firefly: 
 detector: 
-euphemism: ur: 'الفاظ, wording, ur: 'الفاظ, ord, fi: 'kiertoilmaus, periphrasis
 splice: ar: 'ﻖﺼﻟ, affix, pt: 'emendar, amend, az: 'toy, wedding, nl: 'verbinding, connection, el: 'συνδέω, attach, el: 'συνδέω, connect
 bromine: 
 palladium: ko: '보장, assure
@@ -2107,15 +2119,15 @@ polygon: ta: 'கோணம், angle, my: 'အနား, near
 sabotage: zh: '破坏, destroy, zh: '破坏, breaking, zh: '破坏, wreck, zh: '破坏, undermine, zh: '破坏, disrupt, ar: 'ﺐﻳﺮﺨﺗ, subversion, ku: 'hilweşîn, coincide
 feminist: 
 conjugate: el: 'κλίνω, incline
+modernize: sw: 'kisasa, modern, sw: 'kisasa, contemporary, sw: 'kisasa, sophisticated, ar: 'ﺚﻳﺪﺤﺗ, update, ku: 'rojanekirin, refreshed, th: 'ทันสมัย, fashionable
 extremist: ar: 'ﻑﺮﻄﺘﻣ, radical, tr: 'aşırı, extreme, tr: 'aşırı, excessive, pa: 'ਅੱਤਵਾਦੀ, militant, pa: 'ਅੱਤਵਾਦੀ, terrorist
 algorithm: 
-anthropomorphism: 
 laser: 
 millimeter: zh: '毫米, millimetre
 flex: tr: 'esnek, flexible, vi: 'uốncong, curved, ta: 'சாதகமான, favorable, ur: 'فلیکس, flax, el: 'καλώδιο, cable, sv: 'böja, bend
-modifier: zh: '修改, modification, zh: '修改, amend, zh: '修改, revise
 anode: 
 snuggle: 
+dog-tired: 
 part-time: 
 tuna: ro: 'ton, tone, ro: 'ton, tune, el: 'τόνος, ton
 refinery: 
@@ -2130,12 +2142,14 @@ ordinal: sw: 'makutano, junction, sw: 'makutano, intersection, tr: 'sıra, row, 
 kilometre: zh: '公里, kilometer, tr: 'kilometre, mileage
 fax: 
 genetics: tr: 'genetik, genetic, tr: 'genetik, genetically, my: 'မျိုးရိုးဗီဇ, gene
+screwdriver: sw: 'bisibisi, wrench
 appetizer: ru: 'закуска, snack
 broccoli: 
 adapter: 
 spam: 
 vector: it: 'vettore, carrier
-unspecified: zh: '不明, unclear, pt: 'indeterminado, indefinite, pt: 'indeterminado, indefinitive, my: 'သတ်မှတ်, determine, my: 'သတ်မှတ်, define, my: 'သတ်မှတ်, assign, my: 'သတ်မှတ်, specify
+tactic: hi: 'युक्ति, device, sw: 'mbinu, approach, sw: 'mbinu, technique, sw: 'mbinu, methodology, ko: '술책, fetch, gu: 'યુક્તિ, trick, ml: 'തന്ത്രം, plot
+unspecified: zh: '不明, unclear, pt: 'indeterminado, indefinite, my: 'သတ်မှတ်, determine, my: 'သတ်မှတ်, define, my: 'သတ်မှတ်, assign, my: 'သတ်မှတ်, specify
 alright: pa: 'ਠੀਕ, recover, pa: 'ਠੀਕ, correctly, pa: 'ਠੀਕ, fasten, pa: 'ਠੀਕ, valid, pa: 'ਠੀਕ, okay, gu: 'ઠીકછે, ok, am: 'እሺ, all-right, ro: 'bine, well
 vitamin: 
 doorman: es: 'portero, porter, es: 'portero, goalkeeper, ar: 'بواب, concierge, am: 'ዘበኛ, guard
@@ -2147,7 +2161,6 @@ copulate:
 hourglass: 
 syntactic: zh: '句法, syntax, ar: 'ﻱﻮﺤﻧ, grammatical, ta: 'விதி, fate, ta: 'விதி, destiny
 creativity: sw: 'ubunifu, innovative, vi: 'sángtạo, create, my: 'ဖန်တီးမှု, creative, az: 'yaradıcılıq, creation
-pleonasm: el: 'πλεονασμός, redundancy
 e-book: 
 workplace: gu: 'કામ, work, gu: 'કામ, working, gu: 'કામ, job, gu: 'કામ, operate, az: 'iş, affair
 boron: 
@@ -2168,16 +2181,14 @@ locative: mr: 'ठिकाण, venue, mr: 'ठिकाण, locating
 logarithm: 
 mantis: ur: 'کیڑا, worm
 ecology: zh: '生态, ecological, pa: 'ਵਾਤਾਵਰਣ, environmental, kn: 'ಪರಿಸರ, environment, kn: 'ಪರಿಸರ, environmentally
-pejorative: hi: 'अपमानजनक, offensive, tr: 'aşağılayıcı, insulting
 sophisticate: my: 'ခေတ်မီဆန်းပြား, sophisticated, nl: 'misleiden, deceive, nl: 'misleiden, mislead
 kilogram: am: 'ግራም, gram
-renter: zh: '承租人, tenant, fa: 'مستاجر, occupant, my: 'ငှားရမ်း, hiring, my: 'ငှားရမ်း, rental, my: 'ငှားရမ်း, renting
+renter: zh: '承租人, tenant, fa: 'مستاجر, occupant, my: 'ငှားရမ်း, rental, my: 'ငှားရမ်း, renting, my: 'ငှားရမ်း, hiring
 overeat: 
 copier: zh: '复印机, photocopier
 subset: id: 'bagian, part, id: 'bagian, parts, id: 'bagian, piece, id: 'bagian, passage, id: 'bagian, portion, id: 'bagian, section, az: 'alt, bottom
 sequential: ru: 'последовательный, consistent, ru: 'последовательный, consecutive, ru: 'последовательный, coherent, ru: 'последовательный, serial, pa: 'ਕ੍ਰਮ, order, pa: 'ਕ੍ਰਮ, sequence, pl: 'ciągły, continuous, az: 'ardıcıl, consistently
 eavesdrop: 
-metonymy: bn: 'লক্ষণা, synecdoche
 haircut: gu: 'વાળ, hair, am: 'ቁርጥ, determined, am: 'ቁርጥ, determination, kn: 'ಕ್ಷೌರ, shave, cs: 'střih, cut
 impound: bn: 'বাজেয়াপ্তকরা, seize, ru: 'изымать, withdraw, vi: 'nhốt, confine, fa: 'ﻦﺘﺷﺍﺩﻪﮕﻧ, hold, fa: 'ﻦﺘﺷﺍﺩﻪﮕﻧ, maintain, az: 'qovmaq, banish, hu: 'lefoglal, reserve, th: 'ยึด, fasten
 iridium: 
@@ -2198,13 +2209,11 @@ seminar: nl: 'congres, congress
 stereo: 
 fastener: es: 'cierre, closure, ar: 'ﻞﻔﻗ, lock, pl: 'łącznik, linker, el: 'συνδετήρας, clip, el: 'συνδετήρας, stapler
 upcoming: hi: 'आगामी, subsequent, gu: 'આગામી, next, sv: 'kommande, coming
-onomatopoeia: 
 neon: 
 streamline: id: 'mempersingkat, shorten, pt: 'simplificar, simplify, tr: 'kolaylaştırmak, ease, tr: 'kolaylaştırmak, facilitate, vi: 'sắpxếp, arrangement, vi: 'sắpxếp, arrangements, vi: 'sắpxếp, arrange, vi: 'sắpxếp, arranging, am: 'ማስተላለፍ, transfer, fi: 'tehostaa, intensify
 newsstand: az: 'köşk, booth
 pasta: id: 'pasta, paste, pt: 'massa, mass, pt: 'massa, bulk, pt: 'massa, dough
 briefcase: ar: 'ﺔﺒﻴﻘﺣ, bag, pt: 'pasta, portfolio
-clockwise: 
 deluxe: 
 artifact: kn: 'ಕಲಾಕೃತಿ, artwork, ku: 'berhemên, crops
 lunchtime: 
@@ -2224,9 +2233,10 @@ recycle: sw: 'kusaga, grinding, am: 'ሠራ, construct
 backpack: hi: 'बैग, bag, ur: 'بیگ, beg
 restart: es: 'reiniciar, reboot, pa: 'ਚਾਲੂ, operational, ml: 'പുനരാരംഭിക്കുക, resume, ku: 'jinûve, re
 hepatitis: 
+paycheck: zh: '薪水, salary, sw: 'malipo, charge, sw: 'malipo, payment, pt: 'salário, wages, pt: 'salário, wage
 torus: tr: 'yumru, lump
-oxymoron: zh: '矛盾, contradiction, zh: '矛盾, contradictory, kn: 'ವಿರೋಧಾಭಾಸ, paradox
 realtor: 
+mid-autumn: 
 milligram: 
 pixel: 
 preview: pa: 'ਝਲਕ, browse
@@ -2236,9 +2246,8 @@ break-in: zh: '打破, break, gu: 'તોડી, demolish, gu: 'તોડી, br
 solute: 
 wheelchair: 
 genocide: 
-perfective: hi: 'साधक, seeker, te: 'సంపూర్ణ, holistic, kn: 'ಪರಿಪೂರ್ಣ, perfect, my: 'စုံလင်သော, thorough, hu: 'befejezett, finished
 firefighting: id: 'pemadamkebakaran, firefighter
-gallium: cs: 'kovovýprvek, osmium, cs: 'kovovýprvek, europium, cs: 'kovovýprvek, dysprosium, cs: 'kovovýprvek, gadolinium, cs: 'kovovýprvek, erbium
+gallium: cs: 'kovovýprvek, osmium, cs: 'kovovýprvek, europium, cs: 'kovovýprvek, dysprosium, cs: 'kovovýprvek, erbium, cs: 'kovovýprvek, gadolinium
 zirconium: 
 hotline: 
 nonlinear: 
@@ -2264,290 +2273,294 @@ astronaut: ta: 'விண்வெளி, space
 extraterrestrial: es: 'extraterrestre, alien
 crackpot: hi: 'बेवकूफ, stupid, id: 'gila, mad, id: 'gila, crazy, id: 'gila, insane, ru: 'ненормальный, abnormal
 marathon: 
+mid-spring: 
 autism: 
 ionize: 
-invading: zh: '入侵, invade, id: 'invasi, invasion, vi: 'xâmlược, aggression, kn: 'ಆಕ್ರಮಣ, onset
+verb-affix: 
 emanating: zh: '发出, sending, vi: 'phátra, generate, te: 'వచ్చే, coming, kn: 'ಹೊರಸೂಸುವ, emitting
-xenon: 
-unused: 
-professor: ko: '교수, instruction, pt: 'professor, teacher, fa: 'ﺩﺎﺘﺳﺍ, master
-accident: hi: 'दुर्घटना, crash, hi: 'दुर्घटना, casualty, sw: 'ajali, accidental, id: 'kecelakaan, wreck, ar: 'ﺙﺩﺎﺣ, incident, ku: 'qeza, breakdown
-hourly: bn: 'ঘনঘন, frequently
-swearing: ko: '서약, pledge, tr: 'küfür, expletive, pa: 'ਸਹੁੰ, swear
-rescuing: hi: 'बचाव, defend, hi: 'बचाव, rescue, ta: 'மீட்டு, redeem, ro: 'salvare, salvation, az: 'nicat, prosper
-compile: ur: 'مرتب, formulate, hu: 'összeállít, compose, th: 'รวบรวม, consolidate, th: 'รวบรวม, integrate
-redirecting: 
-poet: 
-forging: zh: '锻造, forge, pa: 'ਲੈਟਰਹੈੱਡ, letterhead
-suasion: hi: 'उत्तेजना, excitement, hi: 'उत्तेजना, stimulation
-paralegal: 
-actor-role: 
-maturation: zh: '成熟, mature, bn: 'পূর্ণতা, fullness, bn: 'পূর্ণতা, congestion
-showroom: kn: 'ಕೋಣೆ, lounge, si: 'ප්රදර්ශනාගාරය, outlet
-physics: zh: '物理, physical, zh: '物理, physically
-one-second: gu: 'એકબીજા, one-another
-nonremittal: id: 'datar, flat
-projector: 
-receptor: fa: 'ﻩﺪﻧﺮﯿﮔ, catcher, kn: 'ಗ್ರಾಹಕ, customer, kn: 'ಗ್ರಾಹಕ, consumer
-blue-jean: 
-air-force: 
-si-units: 
-tapered: hi: 'पतला, thin, hi: 'पतला, skinny, hi: 'पतला, dilute, de: 'Kegel, cone
 obviousness: es: 'evidencia, evidence, ar: 'وضوح, clarity, tr: 'açıklık, openness, tr: 'açıklık, clearance, tr: 'açıklık, distinctiveness, az: 'aşkarlıq, publicity
-recruiter: zh: '招聘, hiring, zh: '招聘, recruitment, vi: 'tuyểndụng, recruit, gu: 'નિમણૂક, appointment, kn: 'ಹೊಸದಾಗಿ, newly
-striped: zh: '条纹, stripe, ar: 'ﻂﻄﺨﻣ, scheme, ar: 'ﻂﻄﺨﻣ, planner, ar: 'ﻂﻄﺨﻣ, blueprint
-yogurt: 
-railcar: es: 'automotor, automotive
-post-office: de: 'Post, post, de: 'Post, mail, my: 'စာတိုက်, postal
+dissatisfy: 
+distractor: hi: 'विचलित, distract, vi: 'tá, dozen
+cardboard: sw: 'kadi, card, pt: 'cartão, carton
+containers: sw: 'vyombo, instruments, sw: 'vyombo, entities, gu: 'કન્ટેનર, container
+feces: sw: 'kinyesi, stool, sw: 'kinyesi, poop, id: 'kotoran, dirt, si: 'මුහුණු, faces
+swearing: ko: '서약, pledge, tr: 'küfür, expletive, pa: 'ਸਹੁੰ, swear
+houseplant: si: 'ශාක, plant
+mid-summer: 
+krypton: 
+human-body: 
+contacting: zh: '联系, contact, vi: 'liênhệ, connected, ta: 'தொடர்பு, communication, ta: 'தொடர்பு, communicate, ta: 'தொடர்பு, interaction, ta: 'தொடர்பு, interact, ta: 'தொடர்பு, communicative, gu: 'સંપર્ક, consult, am: 'በማግኘትላይ, undergoing, az: 'əlaqə, relation, az: 'əlaqə, relationship, az: 'əlaqə, link, sv: 'kontakt, connector
+conquering: sw: 'mshindi, winner, vi: 'chiếnthắng, victory, vi: 'chiếnthắng, winning, my: 'သိမ်းပိုက်, occupied, si: 'යටත්, surrender, si: 'යටත්, liable, si: 'යටත්, subordinate, si: 'යටත්, subordinates
+nonremittal: id: 'datar, flat
+connectors: zh: '连接器, connector, vi: 'kếtnối, connecting, vi: 'kếtnối, connect, az: 'bağlayıcı, conjunction, si: 'සම්බන්ධක, relational
+hypnothize: 
+buddhism: pa: 'ਬੁੱਧ, wed, si: 'බුද්ධාගම, fragment
+conferring: id: 'berunding, negotiate, pa: 'ਗੱਲਬਾਤ, chatting, kn: 'ಸಮಾಲೋಚನೆ, consultation, hu: 'átadó, surrendering
+raincoat: 
+blue-jean: 
 phoneme: gu: 'ઉચ્ચારણ, utterance, gu: 'ઉચ્ચારણ, syllable
+mid-winter: 
+one-another: zh: '另一个, another, hi: 'एकदूसरे, each-other, pt: 'outro, else, gu: 'એકબીજા, one-second
+invading: zh: '入侵, invade, id: 'invasi, invasion, vi: 'xâmlược, aggression, kn: 'ಆಕ್ರಮಣ, onset
+air-force: 
+non-human: 
+inject: sw: 'kuingiza, insert, bn: 'উদ্বুদ্ধকরা, impulse, ru: 'вводить, introduce, ko: '주입, injection, am: 'ወጋ, pierce, am: 'ወጋ, stab
+rashness: sw: 'papara, impatient
+undressing: 
+toner: vi: 'mực, ink
+corroding: 
+polarity: zh: '极性, polar, gu: 'વલણ, bent, gu: 'વલણ, attitude, gu: 'વલણ, tendency, gu: 'વલણ, trend, gu: 'વલણ, stance
 ghostwriter: 
 fool-around: 
-next-to: id: 'disamping, beside, id: 'disamping, alongside, vi: 'bêncạnh, next, ur: 'اسکےبعد, afterwards, ur: 'اسکےبعد, afterward
-volubility: 
-web-site: zh: '网站, website, sw: 'tovuti, site, cs: 'webovástránka, webpage
-raincoat: 
+paralegal: 
+safflower: 
+inhibition: zh: '抑制, restrain, zh: '抑制, curb, zh: '抑制, inhibit, hi: 'निषेध, prohibit, bn: 'নিষেধ, veto, ko: '금지, forbid, pa: 'ਰੋਕ, deter
+reviewer: zh: '评论家, critic, sw: 'mkaguzi, inspector, sw: 'mkaguzi, auditor, es: 'crítico, critical, vi: 'phêbình, critically
+post-office: de: 'Post, post, de: 'Post, mail, my: 'စာတိုက်, postal
+koran: 
+motorist: zh: '司机, driver
+showroom: kn: 'ಕೋಣೆ, lounge, si: 'ප්රදර්ශනාගාරය, outlet
+attributes: zh: '属性, property, sw: 'sifa, praise, sw: 'sifa, reputation, sw: 'sifa, merit, sw: 'sifa, renown, sw: 'sifa, qualities, tr: 'özellikler, specifications
 excavate: zh: '挖掘, excavation, id: 'menggali, dig, ar: 'ﺮﻔﺣ, drill, ko: '파다, investigate, az: 'oymaq, carve
-rashness: sw: 'papara, impatient
-modal-case: 
-roles: zh: '角色, role
+causative: my: 'အကွောငျး, about, my: 'အကွောငျး, cause, my: 'အကွောငျး, theme, my: 'အကွောငျး, topic
+projector: 
+receptor: fa: 'ﻩﺪﻧﺮﯿﮔ, catcher, kn: 'ಗ್ರಾಹಕ, customer, kn: 'ಗ್ರಾಹಕ, consumer
 upside-down: hi: 'उल्टा, upside, id: 'terbalik, inverse, ta: 'தலைகீழாக, reverse, ur: 'الٹا, inversion
-ethium: 
-nth-root: 
-installing: zh: '安装, mount, zh: '安装, installation, zh: '安装, install, zh: '安装, instal, hi: 'स्थापित, established, sw: 'kufunga, shut, pt: 'instalação, facility, tr: 'yükleme, shipment, vi: 'càiđặt, setting, fr: 'pose, pose, sv: 'montera, assemble
+triggered: zh: '触发, triggering, fa: 'باعث, caused, az: 'səbəb, reason, az: 'səbəb, cause
+costly: zh: '昂贵, expensive, ku: 'biha, charge, ku: 'biha, price, ku: 'biha, amount, ku: 'biha, prize, ku: 'biha, invoice
+legality: zh: '合法性, validity, sw: 'uhalali, justification
+else-if: kn: 'ಬೇರೆ, else
 comic-strip: sv: 'tecknadserie, cartoon
 color-blind: 
-toner: vi: 'mực, ink
-quarreling: zh: '争吵, quarrel, hi: 'झगड़ा, variance, vi: 'tranhcãi, controversy
-bald: ko: '노골적인, raw, nl: 'kaal, bare
-krypton: 
-inexperience: my: 'အတွေ့အကြုံ, experienced, my: 'အတွေ့အကြုံ, experiential
-safflower: 
-polarity: zh: '极性, polar, gu: 'વલણ, bent, gu: 'વલણ, attitude, gu: 'વલણ, tendency, gu: 'વલણ, trend, gu: 'વલણ, stance
-extinguisher: mr: 'उपकरण, appliance
-boardroom: 
-non-human: 
-rhenium: 
-departmental: zh: '部门, department, tr: 'bölüm, part, tr: 'bölüm, chapter, tr: 'bölüm, episode, tr: 'bölüm, segment, ta: 'துறை, sector
-microphone: fr: 'micro, micro
-pro-phrase: es: 'Profrase, pro-sentence
-causative: my: 'အကွောငျး, about, my: 'အကွောငျး, cause, my: 'အကွောငျး, theme, my: 'အကွောငျး, topic
-trial-number: 
-receptionist: ur: 'استقبالیہ, reception, si: 'පිළිගැනීමේ, welcome
-disembarking: 
-index-finger: it: 'indice, index, el: 'δείκτης, indicator
-centric-case: 
 delimitation: sw: 'uwekaji, placement, vi: 'phânđịnh, delimited, ta: 'எல்லை, range, ta: 'எல்லை, limit, ta: 'எல்லை, border, hu: 'elhatárolás, containment
-redecorate: es: 'renovar, renew, es: 'renovar, renovate
-meandering: zh: '弯曲, bent, zh: '弯曲, curved, zh: '弯曲, bend, gu: 'સર્પાકાર, spiral
-attaching: hi: 'संलग्न, attached, hi: 'संलग्न, engage, id: 'melampirkan, attach, id: 'melampirkan, enclose, ru: 'прикрепление, attachment, fr: 'fixation, fixture, gu: 'જોડાણ, connection, gu: 'જોડાણ, amalgamation, ur: 'منسلک, associated, ur: 'منسلک, connected, am: 'በማያያዝ, along, si: 'අනුයුක්ත, assign, sv: 'fästa, fasten
-coworker: zh: '同事, colleague, pa: 'ਕੰਮ, performers, de: 'Mitarbeiter, employee, de: 'Mitarbeiter, employee's, pl: 'współpracownik, associate
-mobile-phone: pt: 'celular, cellphone, pt: 'celular, cell-phone, si: 'ජංගමදුරකථන, mobile
+recruiter: zh: '招聘, hiring, zh: '招聘, recruitment, vi: 'tuyểndụng, recruit, gu: 'નિમણૂક, appointment, kn: 'ಹೊಸದಾಗಿ, newly
+ration: ko: '정액, sperm, az: 'ehtiyat, spare, az: 'ehtiyat, reserve, hu: 'adag, portion, ku: 'par, part, ku: 'par, share, ku: 'par, par, ku: 'par, quota
+disembarking: 
+touring: zh: '旅游, tourism, es: 'turismo, sightsee, ko: '여행, traveled, tr: 'tur, tour, vi: 'dulịch, travel, kn: 'ಪ್ರವಾಸಿ, tourist
+unquote: ta: 'மேற்கோள், quote, ta: 'மேற்கோள், quotation
+roles: zh: '角色, role
+striped: zh: '条纹, stripe, ar: 'ﻂﻄﺨﻣ, scheme, ar: 'ﻂﻄﺨﻣ, planner, ar: 'ﻂﻄﺨﻣ, blueprint
+receptionist: ur: 'استقبالیہ, reception, si: 'පිළිගැනීමේ, welcome
+reshaping: nl: 'hervormen, reforming, el: 'αναμόρφωση, rehabilitation
+index-finger: it: 'indice, index, el: 'δείκτης, indicator
+thorium-atom: vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
+rhenium: 
+morpheme: 
+mobile-phone: pt: 'celular, cell-phone, pt: 'celular, cellphone, si: 'ජංගමදුරකථන, mobile
+suburb: sw: 'kitongoji, hamlet, tr: 'banliyö, commuter, fa: 'ﺮﻬﺷﻪﻣﻮﺣ, countryside
 mail-carrier: 
-goal-trigger: 
+si-units: 
+erasing: tr: 'silme, wipe, ur: 'صفائی, cleanliness, it: 'cancellazione, cancellation
 lanthanum: vi: 'tênchấthóahọc, tellurium, vi: 'tênchấthóahọc, scandium
 neodymium: 
-rhodium-atom: vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
+aerosol: 
+unused: 
+departing: hi: 'प्रस्थान, departure, id: 'berangkat, depart, tr: 'çıkış, exit, tr: 'çıkış, outlet, it: 'partenza, leaving, az: 'qalxan, shield
+rescuing: hi: 'बचाव, defend, hi: 'बचाव, rescue, ta: 'மீட்டு, redeem, ro: 'salvare, salvation, az: 'nicat, prosper
+quarreling: zh: '争吵, quarrel, hi: 'झगड़ा, variance, vi: 'tranhcãi, controversy
+disapproving: zh: '不赞成, disapproval, zh: '不赞成, disapprove, hi: 'अनुमोदन, approval, hi: 'अनुमोदन, approving
+surprisingly: bn: 'আশ্চর্যজনক, amazing, pa: 'ਹੈਰਾਨੀ, surprise, gu: 'આશ્ચર્યજનક, surprising
+dramatically: pa: 'ਨਾਟਕੀ, dramatic, my: 'သိသိသာသာ, sharply, my: 'သိသိသာသာ, obviously, my: 'သိသိသာသာ, significantly, my: 'သိသိသာသာ, substantially
+work-out: hi: 'व्यायाम, exercise, hi: 'व्यायाम, athletics, id: 'bekerja, work, ru: 'разрабатывать, elaborate, vi: 'tậpthểdục, exercising, fa: 'ﻥﺩﺮﮐﺭﺎﮐ, working, ur: 'مشقت, hardship, kn: 'ಕೆಲಸ, job, kn: 'ಕೆಲಸ, operate
+bald: ko: '노골적인, raw, nl: 'kaal, bare
+poet: 
+thulium-atom: ar: 'ﻱﺰﻠﻓﺮﺼﻨﻋﻡﻮﻴﻠﺜﻟﺍﺓﺭﺫ, thallium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
+boardroom: 
+terbium-atom: vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
+praseodymium: 
+tapered: hi: 'पतला, thin, hi: 'पतला, skinny, hi: 'पतला, dilute, de: 'Kegel, cone
+bad-tempered: ar: 'ﺞﺋﺎﻫ, rough
+to-case: es: 'acaso, at-case, bn: 'থেকেকেস, from-case, gu: 'કેસ, case, it: 'acaso, randomly
+rhodium-atom: vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
+according-to: tr: 'göre, than, tr: 'göre, accordingly, it: 'secondo, second, az: 'görə, due, cs: 'podle, by
+paralyzed: 
+individually: hi: 'व्यक्तिगतरूपसे, personally, ru: 'вотдельности, separately, tr: 'bireysel, individual, pa: 'ਵੱਖਰੇ, separate, pa: 'ਵੱਖਰੇ, distinct, pa: 'ਵੱਖਰੇ, differ, pa: 'ਵੱਖਰੇ, differently, pa: 'ਵੱਖਰੇ, spatial, vi: 'cánhân, personal, vi: 'cánhân, individuals, kn: 'ಪ್ರತ್ಯೇಕವಾಗಿ, exclusively
+nth-root: 
+meandering: zh: '弯曲, bent, zh: '弯曲, curved, zh: '弯曲, bend, gu: 'સર્પાકાર, spiral
+civil-rights: 
+antibody: ku: 'laş, corpse
+redecorate: es: 'renovar, renew, es: 'renovar, renovate
+trial-number: 
+flow-current: 
+triple-point: 
+fining: zh: '澄清, clarify, es: 'fin, end, vi: 'xửphạt, penalize, my: 'ကောင်းသော, good, my: 'ကောင်းသော, fine
+retail-store: 
+binary-value: 
+microphone: fr: 'micro, micro
+physics: zh: '物理, physical, zh: '物理, physically
+modal-case: 
+hourly: bn: 'ঘনঘন, frequently
+pro-sentence: es: 'Profrase, pro-phrase
+centric-case: 
+inexperience: my: 'အတွေ့အကြုံ, experienced, my: 'အတွေ့အကြုံ, experiential
+extinguisher: mr: 'उपकरण, appliance
+goal-trigger: 
+departmental: zh: '部门, department, tr: 'bölüm, part, tr: 'bölüm, chapter, tr: 'bölüm, episode, tr: 'bölüm, segment, ta: 'துறை, sector
+ethium: 
 middle-voice: 
 oblique-case: 
 patient-case: 
-chatting: tr: 'sohbet, chat, pa: 'ਗੱਲਬਾਤ, conferring, az: 'söhbət, talk, az: 'söhbət, conversation, az: 'söhbət, talking
 prehodiernal: 
-feces: sw: 'kinyesi, stool, sw: 'kinyesi, poop, id: 'kotoran, dirt, si: 'මුහුණු, faces
-praseodymium: 
-terbium-atom: vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
-thulium-atom: ar: 'ﻱﺰﻠﻓﺮﺼﻨﻋﻡﻮﻴﻠﺜﻟﺍﺓﺭﺫ, thallium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
-verb-affix: 
-triggered: zh: '触发, triggering, fa: 'باعث, caused, az: 'səbəb, reason, az: 'səbəb, cause
-thorium-atom: vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
-swear-in: kn: 'ಪ್ರತಿಜ್ಞೆ, swear
-inject: sw: 'kuingiza, insert, bn: 'উদ্বুদ্ধকরা, impulse, ru: 'вводить, introduce, ko: '주입, injection, am: 'ወጋ, pierce, am: 'ወጋ, stab
-disapproving: zh: '不赞成, disapproval, zh: '不赞成, disapprove, hi: 'अनुमोदन, approval, hi: 'अनुमोदन, approving
-cesium: 
-skateboard: 
-contacting: zh: '联系, contact, vi: 'liênhệ, connected, ta: 'தொடர்பு, communication, ta: 'தொடர்பு, communicate, ta: 'தொடர்பு, interaction, ta: 'தொடர்பு, interact, ta: 'தொடர்பு, communicative, gu: 'સંપર્ક, consult, am: 'በማግኘትላይ, undergoing, az: 'əlaqə, relation, az: 'əlaqə, relationship, az: 'əlaqə, link, sv: 'kontakt, connector
-conquering: sw: 'mshindi, winner, vi: 'chiếnthắng, victory, vi: 'chiếnthắng, winning, my: 'သိမ်းပိုက်, occupied, si: 'යටත්, surrender, si: 'යටත්, liable, si: 'යටත්, subordinate, si: 'යටත්, subordinates
-binary-value: 
-smartphone: zh: '手机, cellphone, zh: '手机, cell-phone
-retail-store: 
-advertiser: zh: '广告, ad, zh: '广告, advertisement, zh: '广告, advertising, zh: '广告, advertise, zh: '广告, advert, sw: 'mtangazaji, presenter, sw: 'mtangazaji, announcer
-connectors: zh: '连接器, connector, vi: 'kếtnối, connecting, vi: 'kếtnối, connect, az: 'bağlayıcı, conjunction, si: 'සම්බන්ධක, relational
-triple-point: 
-chauvinist: 
-flow-current: 
 subsisting: ur: 'سیدھا, straight, ur: 'سیدھا, straightforward, ur: 'سیدھا, straighten
-dramatically: pa: 'ਨਾਟਕੀ, dramatic, my: 'သိသိသာသာ, sharply, my: 'သိသိသာသာ, obviously, my: 'သိသိသာသာ, significantly, my: 'သိသိသာသာ, substantially
-morpheme: 
-bad-tempered: ar: 'ﺞﺋﺎﻫ, rough
-else-if: kn: 'ಬೇರೆ, else
-civil-rights: 
-unquote: ta: 'மேற்கோள், quote, ta: 'மேற்கோள், quotation
-suburb: sw: 'kitongoji, hamlet, tr: 'banliyö, commuter, fa: 'ﺮﻬﺷﻪﻣﻮﺣ, countryside
-surprisingly: bn: 'আশ্চর্যজনক, amazing, pa: 'ਹੈਰਾਨੀ, surprise, gu: 'આશ્ચર્યજનક, surprising
-according-to: zh: '根据, according, zh: '根据, pursuant, tr: 'göre, than, tr: 'göre, accordingly, gu: 'અનુસાર, accordance, it: 'secondo, second, az: 'görə, due, cs: 'podle, by
-surrendering: zh: '投降, surrender, fr: 'abandon, abandonment, mr: 'परत, refundable, hu: 'átadó, conferring, si: 'භාර, charge
-individually: hi: 'व्यक्तिगतरूपसे, personally, ru: 'вотдельности, separately, tr: 'bireysel, individual, pa: 'ਵੱਖਰੇ, separate, pa: 'ਵੱਖਰੇ, distinct, pa: 'ਵੱਖਰੇ, differ, pa: 'ਵੱਖਰੇ, differently, pa: 'ਵੱਖਰੇ, spatial, vi: 'cánhân, personal, vi: 'cánhân, individuals, kn: 'ಪ್ರತ್ಯೇಕವಾಗಿ, exclusively
-reviewer: zh: '评论家, critic, sw: 'mkaguzi, inspector, sw: 'mkaguzi, auditor, es: 'crítico, critical, vi: 'phêbình, critically
-fragmentation: tr: 'parçalanma, disjunction, gu: 'વિભાજન, divide, pl: 'podział, division
+xenon: 
+actor-role: 
 first-hand: 
-old-age: zh: '老年, elderly, my: 'အသက်ကြီး, aged
-makers: 
+professor: ko: '교수, instruction, pt: 'professor, teacher, fa: 'ﺩﺎﺘﺳﺍ, master
+counterattack: my: 'တန်ပြန်, counter
+skateboard: 
+movie-theater: id: 'bioskop, cinema
+vanadium-atom: vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
+smartphone: zh: '手机, cell-phone, zh: '手机, cellphone
+fragmentation: tr: 'parçalanma, disjunction, gu: 'વિભાજન, divide, pl: 'podział, division
 notability: hi: 'प्रसिद्धि, fame, tr: 'şöhret, celebrity, fa: 'شهرت, renown, pl: 'rozgłos, prominence
-legality: zh: '合法性, validity, sw: 'uhalali, justification
-attributes: zh: '属性, property, sw: 'sifa, praise, sw: 'sifa, reputation, sw: 'sifa, merit, sw: 'sifa, renown, sw: 'sifa, qualities, tr: 'özellikler, specifications
-undressing: 
-galaxy-gender: 
-vocalizations: zh: '发声, utterance, ta: 'குரல், voice, my: 'အသံ, tone, my: 'အသံ, sounds, my: 'အသံ, audio
-eulers-number: 
-strikebreaker: 
-folk-music: 
+full-time: az: 'tam, whole, az: 'tam, full, az: 'tam, complete, az: 'tam, fully
 short-circuit: 
-automatically: gu: 'આપોઆપ, automatic, gu: 'આપોઆપ, automate
-lative-case: 
-unavailable: fi: 'poissa, absent
-evoking: zh: '唤起, evoke
-netium: 
-swimming-pool: es: 'piscina, pool, ru: 'бассейн, basin
-spreadsheet: 
-restatement: pt: 'correção, correction, ku: 'divêt, should
-trans-numeral: 
-polonium-atom: vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
+fluorine-atom: vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
+strikebreaker: 
+eulers-number: 
 multal-number: 
-thallium-atom: ar: 'ﻱﺰﻠﻓﺮﺼﻨﻋﻡﻮﻴﻠﺜﻟﺍﺓﺭﺫ, thulium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
-paralyzed: 
+attaching: hi: 'संलग्न, attached, hi: 'संलग्न, engage, id: 'melampirkan, attach, id: 'melampirkan, enclose, ru: 'прикрепление, attachment, fr: 'fixation, fixture, gu: 'જોડાણ, connection, gu: 'જોડાણ, amalgamation, ur: 'منسلک, associated, ur: 'منسلک, connected, am: 'በማያያዝ, along, si: 'අනුයුක්ත, assign, sv: 'fästa, fasten
+advertiser: zh: '广告, ad, zh: '广告, advertisement, zh: '广告, advertising, zh: '广告, advertise, zh: '广告, advert, sw: 'mtangazaji, presenter, sw: 'mtangazaji, announcer
 locative-case: 
+maturation: zh: '成熟, mature, bn: 'পূর্ণতা, fullness, bn: 'পূর্ণতা, congestion
+spreadsheet: 
+coworker: zh: '同事, colleague, pa: 'ਕੰਮ, performers, de: 'Mitarbeiter, employee, de: 'Mitarbeiter, employee's, pl: 'współpracownik, associate
+restatement: pt: 'correção, correction, ku: 'divêt, should
+galaxy-gender: 
+folk-music: 
 referral: sw: 'rufaa, appeal, ko: '추천, recommendation, ko: '추천, nominate, ko: '추천, endorse, pt: 'referência, reference, vi: 'giớithiệu, introduce, vi: 'giớithiệu, recommend, mr: 'संदर्भ, context, ta: 'குறிப்பு, note, my: 'လွှဲပြောင်း, transfer, my: 'လွှဲပြောင်း, extradition, ro: 'trimitere, sending, si: 'යොමු, refer
-costly: zh: '昂贵, expensive, ku: 'biha, charge, ku: 'biha, price, ku: 'biha, amount, ku: 'biha, prize, ku: 'biha, invoice
-abessive-case: 
 personalize: es: 'personalizar, customize, gu: 'વ્યક્તિગત, individual, gu: 'વ્યક્તિગત, personal, gu: 'વ્યક્તિગત, personally
+star-gender: 
+polonium-atom: vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
+abessive-case: 
 adessive-case: 
 agentive-case: 
-reverential: my: 'ရို, trait
-erasing: tr: 'silme, wipe, ur: 'صفائی, cleanliness, it: 'cancellazione, cancellation
-passive-voice: 
 agent-trigger: 
+website: zh: '网站, web-site, sw: 'tovuti, site, ku: 'malpera, webpage
+swimming-pool: es: 'piscina, pool, ru: 'бассейн, basin
 common-gender: 
+automatically: gu: 'આપોઆપ, automatic, gu: 'આપોઆપ, automate
+old-age: zh: '老年, elderly, my: 'အသက်ကြီး, aged
+trans-numeral: 
 citation-form: 
-complimentary: zh: '免费, gratis, id: 'gratis, free, pt: 'cortesia, courtesy, ta: 'பாராட்டு, praise, ta: 'பாராட்டு, compliment, ta: 'பாராட்டு, appreciation, ta: 'பாராட்டு, congratulation, am: 'ማሟያ, complement, pl: 'pochlebny, approving, kn: 'ಪೂರಕ, expletive, kn: 'ಪೂರಕ, supplement, kn: 'ಪೂರಕ, supplementary
-fluorine-atom: vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
-movie-theater: id: 'bioskop, cinema
-koran: 
-referring: te: 'సూచిస్తూ, indicating, gu: 'ઉલ્લેખ, mention, it: 'riferimento, reference, si: 'සඳහන්, indicate
-rubidium-atom: vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
-star-gender: 
-counterattack: my: 'တန်ပြန်, counter
-ergative-case: 
+unavailable: fi: 'poissa, absent
+evaluative: zh: '评价, appraisal, ta: 'மதிப்பிடும், assessing, my: 'အကဲဖြတ်, assessment, my: 'အကဲဖြတ်, evaluation
 direct-object: sw: 'mojakwamojakitu, indirect-object
-vanadium-atom: vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
-strontium-atom: vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
-fundraise: ta: 'நிதி, financial, ta: 'நிதி, fund, ta: 'நிதி, fiscal, ta: 'நிதி, finance
-final-particle: 
-ruthenium-atom: vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
-wear-out: my: 'ဟောင်းနွမ်း, old
-police-officer: 
-prime-minister: si: 'අගමැති, prime
-antessive-case: 
-primary-object: 
-adverbial-case: 
-flats: zh: '公寓, apartment, gu: 'ફ્લેટ, flat
-possessed-case: 
-reshaping: nl: 'hervormen, reforming, el: 'αναμόρφωση, rehabilitation
-subessive-case: 
-evitative-case: 
-shorts: 
+vocalizations: zh: '发声, utterance, ta: 'குரல், voice, my: 'အသံ, tone, my: 'အသံ, sounds, my: 'အသံ, audio
+ergative-case: 
+makers: 
 finite-verb: 
+thallium-atom: ar: 'ﻱﺰﻠﻓﺮﺼﻨﻋﻡﻮﻴﻠﺜﻟﺍﺓﺭﺫ, thulium-atom, vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
 gnomic-mood: 
-animate-gender: 
-empathetic-joy: 
-sender: pa: 'ਭੇਜਣ, sending
-headphone: ro: 'cască, helmet, ku: 'laptop, laptop
-critical-point: 
+rubidium-atom: vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
+passive-voice: 
+gas-pedal: 
+lative-case: 
 computer-virus: 
-imaginary-unit: 
-vehicle-gender: 
-mineral-gender: 
-corroding: 
-generalization: zh: '概括, generalize, my: 'ယေဘုယျအားဖြင့်, generally
-suspiciousness: id: 'kecurigaan, suspicion, de: 'Misstrauen, distrust, my: 'သံသယဖြစ်ဖွယ်, suspicious
+prime-minister: si: 'අගමැති, prime
+accident: hi: 'दुर्घटना, crash, hi: 'दुर्घटना, casualty, sw: 'ajali, accidental, id: 'kecelakaan, wreck, ar: 'ﺙﺩﺎﺣ, incident, ku: 'qeza, breakdown
+police-officer: 
+possessed-case: 
+mistreating: zh: '虐待, mistreat, ko: '학대, abusing, pa: 'ਦੁੱਖ, hurts
+ruthenium-atom: vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, strontium-atom
+sender: pa: 'ਭੇਜਣ, sending
 verbal-noun: 
-videoconference: 
-different-event: 
-processor: 
-crastinal-tense: 
-collective-noun: 
-self-confidence: 
-work-out: hi: 'व्यायाम, exercise, hi: 'व्यायाम, athletics, id: 'bekerja, work, ru: 'разрабатывать, elaborate, vi: 'tậpthểdục, exercising, fa: 'ﻥﺩﺮﮐﺭﺎﮐ, working, ur: 'مشقت, hardship, kn: 'ಕೆಲಸ, job, kn: 'ಕೆಲಸ, operate
-cardboard: sw: 'kadi, card, pt: 'cartão, carton
-past-perfective: 
-exocentric-case: 
+strontium-atom: vi: 'chấthóahọcnguyêntử, thorium-atom, vi: 'chấthóahọcnguyêntử, thulium-atom, vi: 'chấthóahọcnguyêntử, terbium-atom, vi: 'chấthóahọcnguyêntử, rhodium-atom, vi: 'chấthóahọcnguyêntử, vanadium-atom, vi: 'chấthóahọcnguyêntử, fluorine-atom, vi: 'chấthóahọcnguyêntử, polonium-atom, vi: 'chấthóahọcnguyêntử, thallium-atom, vi: 'chấthóahọcnguyêntử, rubidium-atom, vi: 'chấthóahọcnguyêntử, ruthenium-atom
+final-particle: 
+summarizing: hi: 'सारांश, summary, sw: 'muhtasari, outline, vi: 'tổnghợp, synthesis, gu: 'સારાંશ, summarize, kn: 'ಸಂಕ್ಷಿಪ್ತವಾಗಿ, briefly
+generalization: zh: '概括, generalize, my: 'ယေဘုယျအားဖြင့်, generally
+compile: ur: 'مرتب, formulate, hu: 'összeállít, compose, th: 'รวบรวม, consolidate, th: 'รวบรวม, integrate
+imaginary-unit: 
+evitative-case: 
+critical-point: 
+swear-in: kn: 'ಪ್ರತಿಜ್ಞೆ, swear
+mineral-gender: 
+pronouncing: zh: '发音, pronounce, zh: '发音, pronunciation, sw: 'kutamka, utterance, ur: 'اعلان, declare, ur: 'اعلان, announce, ur: 'اعلان, heralding
+vehicle-gender: 
+primary-object: 
+chauvinist: 
+animate-gender: 
+subessive-case: 
+empathetic-joy: 
+installing: zh: '安装, mount, zh: '安装, installation, zh: '安装, install, zh: '安装, instal, hi: 'स्थापित, established, sw: 'kufunga, shut, pt: 'instalação, facility, tr: 'yükleme, shipment, vi: 'càiđặt, setting, fr: 'pose, pose, sv: 'montera, assemble
+suspiciousness: id: 'kecurigaan, suspicion, de: 'Misstrauen, distrust, my: 'သံသယဖြစ်ဖွယ်, suspicious
+adverbial-case: 
+antessive-case: 
+universe-gender: 
 transitive-verb: 
 clause-tail: 
+crastinal-tense: 
+past-perfective: 
 second-language: 
-universe-gender: 
 indirect-speech: 
-reflexive-voice: 
+cesium: 
+different-event: 
+absolutive-case: 
+videoconference: 
+self-confidence: 
+rationality: hi: 'चेतना, consciousness, el: 'λογική, logic
+netium: 
+impersonal-verb: 
+wear-out: my: 'ဟောင်းနွမ်း, old
+patient-trigger: 
 locality-gender: 
-touring: zh: '旅游, tourism, es: 'turismo, sightsee, ko: '여행, traveled, tr: 'tur, tour, vi: 'dulịch, travel, kn: 'ಪ್ರವಾಸಿ, tourist
-business-person: pa: 'ਕਾਰੋਬਾਰਵਿਅਕਤੀ, businessperson, ro: 'omdeafaceri, businessman
 research-gender: 
 artistic-gender: 
-departing: hi: 'प्रस्थान, departure, id: 'berangkat, depart, tr: 'çıkış, exit, tr: 'çıkış, outlet, it: 'partenza, leaving, az: 'qalxan, shield
-virtual-machine: 
-patient-trigger: 
+business-person: pa: 'ਕਾਰੋਬਾਰਵਿਅਕਤੀ, businessperson, ro: 'omdeafaceri, businessman
 abstract-gender: 
-evaluative: zh: '评价, appraisal, ta: 'மதிப்பிடும், assessing, my: 'အကဲဖြတ်, assessment, my: 'အကဲဖြတ်, evaluation
-rationality: hi: 'चेतना, consciousness, el: 'λογική, logic
-impersonal-verb: 
-absolutive-case: 
+volubility: 
+flats: zh: '公寓, apartment, gu: 'ફ્લેટ, flat
+collective-noun: 
+suasion: hi: 'उत्तेजना, excitement, hi: 'उत्तेजना, stimulation
+reflexive-voice: 
+virtual-machine: 
+exocentric-case: 
 propositive-mood: 
-planetary-gender: 
-at-case: es: 'acaso, to-case, ko: '...에서케이스, from-case, it: 'acaso, randomly, ml: 'കേസ്, case
+associative-case: 
+railcar: es: 'automotor, automotive
+yogurt: 
+fundraise: ta: 'நிதி, financial, ta: 'நிதி, fund, ta: 'நிதி, fiscal, ta: 'நிதி, finance
+core-benefactive: 
+redirecting: 
 inanimate-gender: 
+grammatical-case: 
 electric-current: kn: 'ವಿದ್ಯುತ್, power, kn: 'ವಿದ್ಯುತ್, electric, kn: 'ವಿದ್ಯುತ್, electricity, kn: 'ವಿದ್ಯುತ್, electrical
 reciprocal-voice: 
-associative-case: 
-grammatical-case: 
-core-benefactive: 
-aerosol: 
-houseplant: si: 'ශාක, plant
-buddhism: pa: 'ਬੁੱਧ, wed, si: 'බුද්ධාගම, fragment
 superlative-case: 
-dissatisfy: 
-human-body: 
-fining: zh: '澄清, clarify, es: 'fin, end, vi: 'xửphạt, penalize, my: 'ကောင်းသော, good, my: 'ကောင်းသော, fine
-summarizing: hi: 'सारांश, summary, sw: 'muhtasari, outline, vi: 'tổnghợp, synthesis, gu: 'સારાંશ, summarize, kn: 'ಸಂಕ್ಷಿಪ್ತವಾಗಿ, briefly
-successive-clause: 
-gas-pedal: 
-hypnothize: 
-full-time: az: 'tam, whole, az: 'tam, full, az: 'tam, complete, az: 'tam, fully
+processor: 
+evoking: zh: '唤起, evoke
+planetary-gender: 
+forging: zh: '锻造, forge, pa: 'ਲੈਟਰਹੈੱਡ, letterhead
+headphone: ro: 'cască, helmet, ku: 'laptop, laptop
 applicative-voice: 
 antipassive-voice: 
 telecommunication: my: 'ဆက်သွယ်ရေး, communication
-ration: ko: '정액, sperm, az: 'ehtiyat, spare, az: 'ehtiyat, reserve, hu: 'adag, portion, ku: 'par, part, ku: 'par, share, ku: 'par, par, ku: 'par, quota
-luminous-intensity: 
-superiors: vi: 'cấptrên, superior, si: 'උසස්, advanced, si: 'උසස්, elevate
-pronouncing: zh: '发音, pronounce, zh: '发音, pronunciation, sw: 'kutamka, utterance, ur: 'اعلان, declare, ur: 'اعلان, announce, ur: 'اعلان, heralding
+successive-clause: 
+shorts: 
 passive-participle: 
-grammatical-object: 
-antibody: ku: 'laş, corpse
+superlative-degree: 
+singulative-number: 
+denominator: pa: 'ਹਰ, every, pa: 'ਹਰ, everybody, mr: 'भाजक, modulo
+excessive-duration: 
+present-participle: 
+existential-clause: 
 necessitative-mood: 
 continutive-aspect: 
-superlative-degree: 
-present-participle: 
-excessive-duration: 
-existential-clause: 
-singulative-number: 
-epenthetic-morpheme: 
+grammatical-object: 
+luminous-intensity: 
 postpositional-case: 
-motorist: zh: '司机, driver
-negatory-quantifier: 
-supercritical-fluid: 
 connective-particle: 
+epenthetic-morpheme: 
+next-to: id: 'disamping, beside, id: 'disamping, alongside, vi: 'bêncạnh, next, ur: 'اسکےبعد, afterwards, ur: 'اسکےبعد, afterward
+supercritical-fluid: 
+referring: te: 'సూచిస్తూ, indicating, gu: 'ઉલ્લેખ, mention, it: 'riferimento, reference, si: 'සඳහන්, indicate
+negatory-quantifier: 
 elective-quantifier: gu: 'વૈકલ્પિકક્વૉન્ટિફાયર, alternative-quantifier
+allocutive-agreement: 
+distributive-pronoun: 
+universal-quantifier: 
+computer-programming: 
 assertive-quantifier: 
 frequentative-aspect: 
-universal-quantifier: 
-allocutive-agreement: 
-computer-programming: 
-distributive-pronoun: 
-denominator: pa: 'ਹਰ, every, pa: 'ਹਰ, everybody, mr: 'भाजक, modulo
+superiors: vi: 'cấptrên, superior, si: 'උසස්, advanced, si: 'උසස්, elevate
 counterfactual-conditional: 
