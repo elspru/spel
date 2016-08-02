@@ -7,7 +7,7 @@ mom
 hello g
 ancestor
 grandparent
-hungry
+hungry g 3
 genitive-case g 2
 adjective g
 and g 2
@@ -24,6 +24,7 @@ epistemic-mood g 2
 instrumental-case g 2
 interior-context g 2 en in
 person-context g 2
+independent-clause g
 dependent-clause g 2
 perfective-aspect g 2
 past-tense g 2
@@ -60,6 +61,7 @@ illative-case g 3
 directive-mood g 2
 what g
 question-word g 3
+copula g 2
 person g 3
 male
 could
@@ -76,6 +78,7 @@ two
 see
 know
 down
+after g
 first
 alienable-possession g 3
 never
@@ -91,13 +94,13 @@ progressive-aspect g 3
 long
 say
 how
-even
 again
 here g 3
 think
 under-context g 2 en under
 found
 hand
+also g
 young
 against
 god
@@ -127,16 +130,16 @@ name g 2
 proper-noun g
 country
 visible-evidential g 3
-better
+better g
 moment
 cannot
 water
 desiderative-mood g 3
 light
 word g
-given
 door
 morning
+until g
 terminative-case g
 white
 money
@@ -181,6 +184,7 @@ optative-mood g 3
 fire
 hour
 war
+several
 behind
 lost
 thousand
@@ -192,19 +196,18 @@ making
 potential-mood g 3
 allative-case g
 anthropic-gender g
-following
 five
 different-subject g
 answer
 sea
 fear g
-understand
+understand g
 terms
 doubt g
 dubitative-mood g 3
 black
 bring
-beautiful
+beautiful g
 sort
 ten
 story
@@ -222,14 +225,12 @@ line
 table
 river
 eye
-later
 suddenly
-past
 deep
 purpose
 blood
 rose
-cold
+cold g
 forward
 late
 suppose
@@ -240,7 +241,7 @@ copy
 husband
 six
 living
-peace
+peace g
 remember
 natural
 fall
@@ -249,6 +250,7 @@ except g
 copyright
 army
 horse
+future
 west
 pay
 red
@@ -266,16 +268,18 @@ especially
 bear
 window
 beauty
+latter
 duty
 distance
 foot
 wild
 green
 trouble g
-smile
-sleep
+smile g
+sleep g
 quotative-case g
 visit
+follow
 presence
 sweet
 mouth
@@ -287,7 +291,7 @@ inclusive-person g
 influence
 appear
 secret
-please
+please g
 precative-mood g 3
 polite-register g
 evil
@@ -312,7 +316,7 @@ wonder g
 born
 court
 gnomic-aspect g 2
-respect
+respect g
 worth
 tree
 wall
@@ -322,6 +326,7 @@ inchoative-aspect g 2
 command
 jussive-mood g 3
 month
+perfect
 experience
 circumstances
 fresh
@@ -342,6 +347,7 @@ hill
 music
 distal-demonstrative g
 cry
+seven
 private
 news
 scene
@@ -367,7 +373,7 @@ corner
 trademark
 justice
 produce
-laugh
+laugh g
 forget
 europe
 eight
@@ -380,7 +386,6 @@ wise g
 possessive-marker g
 pleasant
 grave
-modern
 island
 camp
 touch
@@ -389,23 +394,25 @@ shore
 domain
 commissive-mood g 2
 degree
+winter
 conduct
 running
 minute
 lead
 glass
 board
-vain
+vain g
 affairs
 safe
 doctor
 completive-aspect g 3
+repeated
 darkness
-warm
+warm g
 drink
 example
 anger g
-spite
+spite g
 directly
 hat
 dog
@@ -413,13 +420,13 @@ silver
 servant
 pride g
 train
-moral
+moral g
 enter
 sword
 attack
-health
+health g
 paragraph
-social
+social g
 refund
 official
 glance
@@ -435,10 +442,11 @@ using
 judge
 captain
 cessative-aspect g 2
-curious
+curious g
 foreign
 intensifier g
 importance
+finally
 neck
 liberty
 sides
@@ -480,6 +488,7 @@ file
 shoulder
 comfort
 anyone
+desired g
 grass
 draw
 opening
@@ -492,13 +501,12 @@ expense
 yours
 million
 pray
-tired
+tired g
 kill
 shadow
 weight
 brave
 satisfied g
-numerous
 telling
 national
 weak
@@ -528,9 +536,10 @@ twice
 priest
 wounded g
 palace
-fool
+fool g
 favour
-sympathy
+nine
+sympathy g
 burst
 putting
 dressed
@@ -539,7 +548,6 @@ literature
 rank
 storm
 pocket
-independent-clause g
 november
 december
 absence
@@ -569,7 +577,7 @@ fields
 april
 october
 objects
-bitter
+bitter g
 slave
 loose
 text g
@@ -577,7 +585,7 @@ worst
 credit
 features
 fifteen
-cruel
+cruel g
 dust
 practical
 colour
@@ -589,18 +597,17 @@ hesternal-tense g
 fail
 wear
 blind
-dozen
 fly
 devil
 gradually
 mission
-sacrifice
+sacrifice g
 conscience
 minister
 hate g
 centre
 rational-gender g
-enjoy
+enjoy g
 brief
 worship
 skin
@@ -625,9 +632,9 @@ cousin
 bridge
 stock
 salt
-innocent
+innocent g
 avoid
-admiration
+admiration g
 queen
 count
 dance
@@ -636,7 +643,7 @@ fill
 prisoner
 shop
 stairs
-pardon
+pardon g
 gay
 sand
 september
@@ -668,13 +675,11 @@ hide
 expedition
 ignorant g
 cloud
-waste
 february
 disease
 initiative-case g
 aunt
 humble g
-compliance
 delayed-imperative g
 reported-evidential g 3
 midnight
@@ -691,6 +696,7 @@ donate
 forehead
 angel
 singular g
+error
 dawn
 sheep
 patience g
@@ -698,7 +704,6 @@ referential g
 corn
 majority
 measures
-occasionally
 profit
 sugar
 humanity
@@ -724,7 +729,7 @@ vocative-case g 2
 noon
 cabin
 alarm
-nervous
+nervous g
 observation
 aspect g
 applicable
@@ -736,18 +741,18 @@ hell
 defective
 mixed
 admonitive-mood g
-mistaken
 ambition g
 somehow
 counsel
 constitution
+instrument
 firmly
 online
 tide
 college
 tail
 generation
-crowded
+crowded g
 cat
 direct-evidential g 3
 treaty
@@ -769,6 +774,7 @@ vague
 activity
 saturday
 capacity
+sunshine
 widow
 shed
 star
@@ -830,6 +836,7 @@ bride
 depend
 giant
 simplicity
+autumn
 veil
 gathering
 theatre
@@ -837,7 +844,7 @@ comparison
 composition
 rival
 coach
-humour
+humour g
 novel
 revenge
 jealous g
@@ -846,6 +853,7 @@ burnt
 flash
 portrait
 suggest
+conflict
 curse
 imprecative-mood g 3
 helpless
@@ -888,7 +896,7 @@ funeral
 flour
 romantic
 dollar
-jest
+jest g
 sixteen
 colony
 wing
@@ -923,6 +931,7 @@ revelation
 wash
 confession
 nonsense
+coal
 restore
 canoe
 vice
@@ -930,12 +939,10 @@ temporary
 delimitative-aspect g 3
 pile
 bone
-instruments
 monday
 tuesday
 wednesday
 federal
-desirable
 representative
 pole
 linen
@@ -991,7 +998,6 @@ parallel
 atelic-aspect g 3
 continent
 knock
-prohibition
 prohibitive-mood g
 tie
 cell
@@ -1037,12 +1043,14 @@ deliberately
 beer
 velvet
 sermon
+abuse
 flock
 niece
 thirteen
 justify
 manuscript
 warrior
+friday
 brush
 download
 cream
@@ -1063,7 +1071,7 @@ transcribe
 bet
 virus
 hospitality
-childish
+childish g
 robe
 reflect
 attain
@@ -1071,7 +1079,7 @@ opera
 hiding
 elbow
 repair
-suspicious
+suspicious g
 educational
 pit
 disorder
@@ -1081,13 +1089,12 @@ abbey
 loyalty g
 mechanical
 successfully
-trap
+trap g
 cake
 sir
 seventeen
 feminine
 honey
-sunny
 unfortunately
 legend
 stove
@@ -1096,7 +1103,7 @@ swell
 improve
 swamp
 earn
-animated
+animated g
 dressing
 scenery
 oppose
@@ -1105,13 +1112,13 @@ rational
 crop
 processing
 wolf
+refusal
 carpet
 despise
 fertile
 whistle
 cheese
 bite
-exclamation
 escort
 wander
 navy
@@ -1138,7 +1145,7 @@ architecture
 disposal
 crack
 ornament
-amuse
+amuse g
 recovery
 code
 hunter
@@ -1148,10 +1155,9 @@ democracy
 battery
 wax
 sharing
-thrill
+thrill g
 swim
 strip
-ultimately
 envelope
 cigarette
 motor
@@ -1160,7 +1166,7 @@ reaction
 partially
 baggage
 ministry
-sexual
+sexual g
 axe
 diamond
 alternate
@@ -1169,7 +1175,7 @@ identity
 ambassador
 shapes
 consist
-lazy
+lazy g
 momentane-aspect g 3
 encoding
 imaginary
@@ -1177,7 +1183,6 @@ ray
 climbing
 cellar
 memorable
-device
 senate
 coffin
 swallow
@@ -1187,15 +1192,14 @@ swing
 meadow
 complex
 resignation
-repeatedly
 conspiracy
 pub
 pepper
 melody
-speculation
 candidate
 patron
 fox
+regretted g
 chimney
 hedge
 accuracy
@@ -1213,7 +1217,7 @@ actor
 sweat
 executive
 illusion
-uncertainty
+uncertainty g
 fold
 boundary
 stress
@@ -1232,7 +1236,7 @@ habitual
 habitual-aspect g 2
 expert
 impress
-bounded
+bounded g
 baker
 olive
 van
@@ -1241,7 +1245,7 @@ expose
 birthday
 hammer
 fragrant
-trivial
+trivial g
 pet
 skull
 legislature
@@ -1259,6 +1263,7 @@ skirt
 weekly
 technical
 vehicle
+flattering g
 strengthen
 crow
 attribute
@@ -1297,9 +1302,9 @@ resurrection
 shelf
 fan
 tropical
-overthrow
-arbitrary
+arbitrary g
 mercury
+benevolent g
 suicide
 pluck
 reporter
@@ -1363,7 +1368,7 @@ secondly
 violin
 resident
 respectively
-beneficial
+beneficial g
 dragon
 auditory-evidential g 3
 exporting
@@ -1372,7 +1377,6 @@ linger
 lid
 regulation
 mayor
-violation
 hardware
 circus
 minority
@@ -1385,7 +1389,6 @@ disadvantage
 deliberation
 musician
 mentally
-denial
 inadequate
 architect
 lemon
@@ -1403,7 +1406,6 @@ preventing
 inferential-evidential g 3
 publisher
 vinegar
-utility
 ash
 tunnel
 puzzle
@@ -1426,7 +1428,7 @@ provoke
 inability
 declarative-mood g
 chocolate
-privileged
+privileged g
 hermit
 coincidence
 scratch
@@ -1434,6 +1436,7 @@ glove
 kneel
 geography
 systematic
+invincible g
 investment
 verbal g
 secular
@@ -1464,11 +1467,14 @@ willow
 camel
 amateur
 isolation
+sometime
 biography
 donkey
+rumour
 perspective
 pro
 monthly
+reverie g
 vacation
 click
 oval
@@ -1486,6 +1492,7 @@ chart
 twin
 operating
 omen
+wretchedness g
 bamboo
 dealer
 accumulation
@@ -1506,7 +1513,7 @@ aggressive
 friction
 spider
 potato
-greed
+greed g
 multiply
 spin
 calendar
@@ -1580,6 +1587,7 @@ adviser
 cricket
 denote
 pigeon
+adaptation g
 operator
 badge
 triangle
@@ -1594,7 +1602,7 @@ transmission
 refresh
 dancer
 migration
-slang
+violate
 tennis
 windy
 weave
@@ -1656,14 +1664,16 @@ metre
 racial
 comet
 innovation
+ban
 medieval
 sparrow
 footnote
 measurement
 ratification
 orbit
-frugal
+frugal g
 golf
+zero
 homeless
 chewing
 fulfill
@@ -1671,11 +1681,11 @@ chip
 yawn
 mole
 pottery
-disobey
 embryo
 deduction
 predicament
 yeast
+jargon
 plum
 graveyard
 graduate
@@ -1683,12 +1693,14 @@ irrigation
 capitalist
 elasticity
 shark
+default
 punctual
 realism
 increasingly
 cafe
 ambulance
 wallet
+ecstatic g
 grimace
 scientist
 equanimity g
@@ -1697,6 +1709,7 @@ outdoor
 radio
 bean
 informal
+speculate
 steak
 nitrogen
 razor
@@ -1708,7 +1721,6 @@ propaganda
 undress
 incentive
 furrow
-wrench
 judaism
 recipient
 lens
@@ -1717,6 +1729,7 @@ cancer
 pawn
 reminder
 leak
+vindication g
 complexity
 talkative
 sufficiency
@@ -1727,7 +1740,6 @@ intervene
 discount
 hierarchy
 jade
-abusing
 snarl
 lizard
 pad
@@ -1737,6 +1749,7 @@ mosquito
 fluent
 deviation
 explorer
+expiring g
 wrestle
 mosaic
 plug
@@ -1746,7 +1759,7 @@ pregnancy
 grocery
 communist
 amaze
-contrition
+contrition g
 prosecutive-case g
 dictator
 preoccupation g
@@ -1791,7 +1804,6 @@ artisan
 unpaid
 ingredient
 banana
-antithesis
 generator
 rib
 nickel
@@ -1813,7 +1825,6 @@ unemployment
 caterpillar
 calcium
 historic-tense g
-hearsay
 spectrum
 sodium
 trustee
@@ -1822,6 +1833,7 @@ gourd
 wrinkle
 spike
 tick
+rape
 atheism
 monitor
 conditional
@@ -1833,13 +1845,14 @@ dual-number g 3
 lung
 scouring
 tag
-super
+super g
 trolley
 locally
 gasoline
 kidney
 unattended
 loot
+overworked g
 arsenic
 statistical
 grasshopper
@@ -1857,7 +1870,7 @@ situate
 rocket
 dividend
 skate
-obsession
+obsession g
 allotment
 pant
 digital
@@ -1867,16 +1880,17 @@ diagonal
 subconscious
 eyebrow
 sneeze
-hilarious
+hilarious g
 occupancy
 hinduism
 refugee
 shuttle
+twinge g
 protein
+self-satisfied g
 vomit
 gene
 freshman
-definitive
 accoutrements
 shatter
 sociology
@@ -1885,8 +1899,10 @@ voter
 mobility
 regional
 motion-uphill g 3
+retrospective g
 cube
 carrot
+entrap g
 molecular
 accountant
 stink
@@ -1911,7 +1927,7 @@ donor
 manganese
 keyboard
 unreliable
-elite
+elite g
 yen
 parenthesis
 rugby
@@ -1954,8 +1970,10 @@ clinical
 radium
 rarefied
 refrigerator
+satyr g
 archaeological
 idiosyncrasy
+unacceptable
 massage
 specification
 sensory
@@ -1966,7 +1984,7 @@ anthropology
 tasty
 sedan
 transitive g
-cower
+cower g
 sunflower
 ion
 extradition
@@ -1987,8 +2005,8 @@ terrorism
 slogan
 overtime
 sublimate
-hyperbole
 grill
+wow g
 cobalt
 oat
 motion-upriver g 3
@@ -1999,11 +2017,11 @@ video
 boycott
 quiz
 hockey
-alliteration
 guerrilla
 magnesium
 awareness
 pharmacy
+unambitious g
 rearrange
 reliability
 kelp
@@ -2048,7 +2066,6 @@ visa
 infrastructure
 firefly
 detector
-euphemism
 splice
 bromine
 palladium
@@ -2102,15 +2119,15 @@ polygon
 sabotage
 feminist
 conjugate
+modernize
 extremist
 algorithm
-anthropomorphism
 laser
 millimeter
 flex
-modifier
 anode
 snuggle
+dog-tired g
 part-time
 tuna
 refinery
@@ -2125,11 +2142,13 @@ ordinal g
 kilometre
 fax
 genetics
+screwdriver
 appetizer
 broccoli
 adapter
 spam
 vector
+tactic
 unspecified
 alright
 vitamin
@@ -2142,7 +2161,6 @@ copulate
 hourglass
 syntactic
 creativity
-pleonasm
 e-book
 workplace
 boron
@@ -2163,7 +2181,6 @@ locative
 logarithm
 mantis
 ecology
-pejorative
 sophisticate
 kilogram
 renter
@@ -2172,7 +2189,6 @@ copier
 subset
 sequential g
 eavesdrop
-metonymy
 haircut
 impound
 iridium
@@ -2193,13 +2209,11 @@ seminar
 stereo
 fastener
 upcoming
-onomatopoeia
 neon
 streamline
 newsstand
 pasta
 briefcase
-clockwise
 deluxe
 artifact
 lunchtime
@@ -2219,9 +2233,10 @@ recycle
 backpack
 restart
 hepatitis
+paycheck
 torus
-oxymoron
 realtor
+mid-autumn
 milligram
 pixel
 preview
@@ -2231,7 +2246,6 @@ break-in
 solute
 wheelchair
 genocide
-perfective
 firefighting
 gallium
 zirconium
@@ -2259,291 +2273,294 @@ astronaut
 extraterrestrial
 crackpot
 marathon
+mid-spring
 autism
 ionize
-invading
+verb-affix g
 emanating
-xenon
-unused
-professor
-accident
-hourly
-swearing
-rescuing
-compile
-redirecting
-poet
-forging
-suasion
-paralegal
-actor-role g
-maturation
-showroom
-physics
-one-second
-nonremittal
-projector
-receptor
-blue-jean
-air-force
-si-units
-tapered
 obviousness
-recruiter
-striped
-yogurt
-railcar
-post-office
+dissatisfy
+distractor
+cardboard
+containers
+feces
+swearing
+houseplant
+mid-summer
+krypton
+human-body
+contacting
+conquering
+nonremittal
+connectors
+hypnothize
+buddhism
+conferring
+raincoat
+blue-jean
 phoneme
+mid-winter
+one-another
+invading
+air-force
+non-human g
+inject
+rashness
+undressing
+toner
+corroding
+polarity
 ghostwriter
 fool-around
-next-to
-volubility
-web-site
-raincoat
+paralegal
+safflower
+inhibition
+reviewer
+post-office
+koran
+motorist
+showroom
+attributes
 excavate
-rashness
-modal-case g
-roles
+causative g
+projector
+receptor
 upside-down
-ethium
-nth-root
-installing
+triggered
+costly
+legality
+else-if g
 comic-strip
 color-blind
-toner
-quarreling
-bald
-krypton
-inexperience
-safflower
-polarity
-extinguisher
-boardroom
-non-human g
-rhenium
-departmental
-microphone
-pro-phrase g
-causative g
-trial-number g 3
-receptionist
-disembarking
-index-finger
-centric-case g
 delimitation
-redecorate
-meandering
-attaching
-coworker
+recruiter
+ration
+disembarking
+touring
+unquote g
+roles
+striped
+receptionist
+reshaping
+index-finger
+thorium-atom
+rhenium
+morpheme
 mobile-phone
+suburb
 mail-carrier
-goal-trigger g
+si-units
+erasing
 lanthanum
 neodymium
+aerosol
+unused
+departing
+rescuing
+quarreling
+disapproving
+surprisingly
+dramatically
+work-out
+bald
+poet
+thulium-atom
+boardroom
+terbium-atom
+praseodymium
+tapered
+bad-tempered
+to-case g
 rhodium-atom
+according-to
+paralyzed
+individually
+nth-root
+meandering
+civil-rights
+antibody
+redecorate
+trial-number g 3
+flow-current
+triple-point
+fining
+retail-store
+binary-value g
+microphone
+physics
+modal-case g
+hourly
+pro-sentence g
+centric-case g
+inexperience
+extinguisher
+goal-trigger g
+departmental
+ethium
 middle-voice g 3 
 oblique-case g
 patient-case g
-chatting
 prehodiernal g
-feces
-praseodymium
-terbium-atom
-thulium-atom
-verb-affix g
-triggered
-thorium-atom
-swear-in
-inject
-disapproving
-cesium
-skateboard
-contacting
-conquering
-binary-value g
-smartphone
-retail-store
-advertiser
-connectors
-triple-point
-chauvinist
-flow-current
 subsisting
-dramatically
-morpheme
-bad-tempered
-else-if g
-civil-rights
-unquote g
-suburb
-surprisingly
-according-to
-surrendering
-individually
-reviewer
-fragmentation
+xenon
+actor-role g
 first-hand
-old-age
-makers
+professor
+counterattack
+skateboard
+movie-theater
+vanadium-atom
+smartphone
+fragmentation
 notability
-legality
-attributes
-undressing
-galaxy-gender g
-vocalizations
-eulers-number
-strikebreaker
-folk-music
+full-time
 short-circuit
-automatically
-lative-case g
-unavailable
-evoking
-netium
-swimming-pool
-spreadsheet
-restatement
-trans-numeral g
-polonium-atom
+fluorine-atom
+strikebreaker
+eulers-number
 multal-number g 3
-thallium-atom
-paralyzed
+attaching
+advertiser
 locative-case g 3
+maturation
+spreadsheet
+coworker
+restatement
+galaxy-gender g
+folk-music
 referral
-costly
-abessive-case g
 personalize
+star-gender g
+polonium-atom
+abessive-case g
 adessive-case g
 agentive-case g
-reverential
-erasing
-passive-voice g 3
 agent-trigger g
+website
+swimming-pool
 common-gender g
+automatically
+old-age
+trans-numeral g
 citation-form g
-complimentary
-fluorine-atom
-movie-theater
-koran
-referring
-rubidium-atom
-star-gender g
-counterattack
-ergative-case g
+unavailable
+evaluative
 direct-object g
-vanadium-atom
-strontium-atom
-fundraise
-final-particle g
-ruthenium-atom
-wear-out
-police-officer
-prime-minister
-coordinator
-antessive-case g
-primary-object g
-adverbial-case g
-flats
-possessed-case g 3
-reshaping
-subessive-case g
-evitative-case g
-shorts
+vocalizations
+ergative-case g
+makers
 finite-verb g
+thallium-atom
 gnomic-mood g
-animate-gender g 3
-empathetic-joy g
-sender
-headphone
-critical-point
+rubidium-atom
+passive-voice g 3
+gas-pedal
+lative-case g
 computer-virus
-imaginary-unit
-vehicle-gender g
-mineral-gender g
-corroding
-generalization
-suspiciousness
+prime-minister
+accident
+police-officer
+possessed-case g 3
+mistreating
+ruthenium-atom
+sender
 verbal-noun g
-videoconference
-different-event g
-processor
-crastinal-tense g
-collective-noun g 3
-self-confidence g
-work-out
-cardboard
-past-perfective g
-exocentric-case g
+strontium-atom
+final-particle g
+summarizing
+generalization
+compile
+imaginary-unit
+evitative-case g
+critical-point
+swear-in
+mineral-gender g
+pronouncing
+vehicle-gender g
+primary-object g
+chauvinist
+animate-gender g 3
+subessive-case g
+empathetic-joy g
+installing
+suspiciousness
+adverbial-case g
+antessive-case g
+universe-gender g
 transitive-verb g
 clause-tail g
+crastinal-tense g
+past-perfective g
 second-language g
-universe-gender g
 indirect-speech g
-reflexive-voice g 3
+cesium
+different-event g
+absolutive-case g
+videoconference
+self-confidence g
+rationality
+netium
+impersonal-verb g
+wear-out g
+patient-trigger g
 locality-gender g
-touring
-business-person
 research-gender g
 artistic-gender g
-departing
-virtual-machine
-patient-trigger g
+business-person
 abstract-gender g
-evaluative
-rationality
-impersonal-verb g
-absolutive-case g
+volubility
+flats
+collective-noun g 3
+suasion
+reflexive-voice g 3
+virtual-machine
+exocentric-case g
 propositive-mood g
-planetary-gender g
-at-case g
+associative-case g
+railcar
+yogurt
+fundraise
+core-benefactive g
+redirecting
 inanimate-gender g 3
+grammatical-case
 electric-current g
 reciprocal-voice g 3
-associative-case g
-grammatical-case
-core-benefactive g
-aerosol
-houseplant
-buddhism
 superlative-case g
-dissatisfy
-human-body
-fining
-summarizing
-successive-clause g
-gas-pedal
-hypnothize
-full-time
+processor
+evoking
+planetary-gender g
+forging
+headphone
 applicative-voice g 3
 antipassive-voice g 3
 telecommunication
-ration
-luminous-intensity g
-superiors
-pronouncing
+successive-clause g
+shorts
 passive-participle g
-grammatical-object
-antibody
+superlative-degree g
+singulative-number g
+denominator
+excessive-duration g
+present-participle g
+existential-clause g
 necessitative-mood g
 continutive-aspect g
-superlative-degree g
-present-participle g
-excessive-duration g
-existential-clause g
-singulative-number g
-epenthetic-morpheme g
+grammatical-object
+luminous-intensity g
 postpositional-case g
-motorist
-negatory-quantifier g
-supercritical-fluid
 connective-particle g
+epenthetic-morpheme g
+next-to
+supercritical-fluid
+referring
+negatory-quantifier g
 elective-quantifier g
+allocutive-agreement g
+distributive-pronoun g 3
+universal-quantifier g
+computer-programming
 assertive-quantifier g
 frequentative-aspect g
-universal-quantifier g
-allocutive-agreement g
-computer-programming
-distributive-pronoun g 3
-denominator
+superiors
 counterfactual-conditional g

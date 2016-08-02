@@ -201,7 +201,7 @@ different-subject g
 answer
 sea
 fear g
-understand
+understand g
 terms
 doubt g
 dubitative-mood g 3
@@ -241,7 +241,7 @@ copy
 husband
 six
 living
-peace
+peace g
 remember
 natural
 fall
@@ -291,7 +291,7 @@ inclusive-person g
 influence
 appear
 secret
-please
+please g
 precative-mood g 3
 polite-register g
 evil
@@ -316,7 +316,7 @@ wonder g
 born
 court
 gnomic-aspect g 2
-respect
+respect g
 worth
 tree
 wall
@@ -373,7 +373,7 @@ corner
 trademark
 justice
 produce
-laugh
+laugh g
 forget
 europe
 eight
@@ -401,7 +401,7 @@ minute
 lead
 glass
 board
-vain
+vain g
 affairs
 safe
 doctor
@@ -536,7 +536,7 @@ twice
 priest
 wounded g
 palace
-fool
+fool g
 favour
 nine
 sympathy g
@@ -643,7 +643,7 @@ fill
 prisoner
 shop
 stairs
-pardon
+pardon g
 gay
 sand
 september
@@ -818,7 +818,7 @@ definite-article g
 emperor
 administration
 previously
-ugly
+ugly g
 harmless
 training
 roll
@@ -844,7 +844,7 @@ comparison
 composition
 rival
 coach
-humour
+humour g
 novel
 revenge
 jealous g
@@ -896,7 +896,7 @@ funeral
 flour
 romantic
 dollar
-jest
+jest g
 sixteen
 colony
 wing
@@ -1145,7 +1145,7 @@ architecture
 disposal
 crack
 ornament
-amuse
+amuse g
 recovery
 code
 hunter
@@ -1245,7 +1245,7 @@ expose
 birthday
 hammer
 fragrant
-trivial
+trivial g
 pet
 skull
 legislature
@@ -1302,7 +1302,7 @@ resurrection
 shelf
 fan
 tropical
-arbitrary
+arbitrary g
 mercury
 benevolent g
 suicide
@@ -1880,7 +1880,7 @@ diagonal
 subconscious
 eyebrow
 sneeze
-hilarious
+hilarious g
 occupancy
 hinduism
 refugee
@@ -2678,7 +2678,7 @@ syria
 conjecture
 plunge
 rash
-majestic
+majestic g
 portugal
 switzerland
 salute
@@ -3735,7 +3735,7 @@ reusable
 isobar
 diode
 synapse
-blase
+blase g
 turkeys
 geo-science
 all-organic

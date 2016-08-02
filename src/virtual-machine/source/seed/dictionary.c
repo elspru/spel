@@ -40,7 +40,7 @@ inline void x4124000000000000(v8us *hook_list) {
     hook_list[DATIVE_SPOT][0] = WRONG_WORD;
   }
 }
-inline void x60AA000000000000(v8us *hook_list) {
+inline void x8006000000000000(v8us *hook_list) {
   if (memcmp((char *)&hook_list[ACCUSATIVE_SPOT],
              (char *)&hook_list[INSTRUMENTAL_SPOT], 16) != 0) {
     hook_list[DATIVE_SPOT][0] = FACT_WORD;
@@ -53,4 +53,10 @@ inline void xA130143D143D0000(uint16_t *accusative, uint16_t *instrumental) {
   if (*instrumental) {
      *accusative = (uint16_t)~(*accusative);
   }
+}
+inline void xC450143D143D0000(uint16_t *accusative, uint16_t *instrumental) {
+  *accusative = (uint16_t)(*accusative - *instrumental);
+}
+inline void x8006143D143D0000(uint16_t *accusative, uint16_t *instrumental) {
+  *accusative = (uint16_t)(*accusative + *instrumental);
 }

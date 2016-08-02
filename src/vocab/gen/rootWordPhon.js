@@ -405,7 +405,7 @@ var Bit4Alphabet =     ["m","k","i","a","y","u","p","w",
         ["ﺈ","aʔ"],  ["ﻺ","lo"],  ["ﺫ","ð"], ["ﻐ","ɣ"],
         ["ﺮ","r"], ["ﻰ","ji"], ["ش","ʃ"],  ["ز","z"],
         ["ص","sˤ"],  ["خ","x"], ["ﻳ","ja"], ["ذ","ð"],
-        ["ه","h"],   ["ض","dˤ"],
+        ["ه","h"],   ["ض","dˤ"], ["ﻸ","la"], 
         ["4",""],  ["ئ","ʔ"], ["د","d"],
     /* punctuation */
         ["\\" + String.fromCharCode(0x5D), ""],
@@ -558,34 +558,34 @@ var Glyph24Alphabet =     ["m","k","i","a","y","u","p","w",
                         "n","s","t","l","h","f",".","c",
                     "e","o","r","b","g","d","z","j"],
         matchReplaceArray = [
-  ///* arabic overflow */
-  //      ["ي", "aj"], ["ﺶ", "s"], ["ﺷ", "s"], ["ﺷ", "s"],
-  //      ["ت", "t"], ["ؤ", ""], ["ن", "n"], ["ﺗ", "t"], 
-  //      ["س", "s"], ["ط", "tˤ"], ["ﻷ", "lo"], ["ا", "a"], 
-  //      ["ﺔ", "t"], ["ﺃ", "ʔ"],  ["ﺒ", "p"], ["ﺬ", "t"], 
+  /* arabic overflow */
+        ["ي", "aj"], ["ﺶ", "s"], ["ﺷ", "s"], ["ﺷ", "s"],
+        ["ت", "t"], ["ؤ", ""], ["ن", "n"], ["ﺗ", "t"], 
+        ["س", "s"], ["ط", "tˤ"], ["ﻷ", "lo"], ["ا", "a"], 
+        ["ﺔ", "t"], ["ﺃ", "ʔ"],  ["ﺒ", "p"], ["ﺬ", "t"], 
 
-  //      ["ﺚ", "t"], ["ة", "t"], ["ل", "l"],["ﻟ", "l"],
-  //      ["ﺰ", "s"], ["ﺥ", "k"], ["ﻜ", "k"], ["ﺻ","sˤ"],
-  //      ["ب","b"], ["ﻨ","n"], ["ر","r"], ["ﻦ","n"], 
-  //      ["ى", "aj"],["ﻗ","q"], ["ث","t"], ["ﺤ","ħ"], 
+        ["ﺚ", "t"], ["ة", "t"], ["ل", "l"],["ﻟ", "l"],
+        ["ﺰ", "s"], ["ﺥ", "k"], ["ﻜ", "k"], ["ﺻ","sˤ"],
+        ["ب","b"], ["ﻨ","n"], ["ر","r"], ["ﻦ","n"], 
+        ["ى", "aj"],["ﻗ","q"], ["ث","t"], ["ﺤ","ħ"], 
 
-  //      ["ك", "k"], ["ﺴ", "s"],["ع","ʕ"], ["م","ʕ"], 
-  //      ["ﻔ","f"], ["ﺨ","x"], ["ﻝ","l"], ["ج","dʒ"],
-  //      ["ﻱ","j"], ["ق","g"], ["ﺧ","x"], ["ﺜ",""],
-  //      ["ﻥ","n"], [String.fromCharCode(0x64b),"n"],
-  //      ["ﺎ","a"], ["ﺋ","ʔ"], ["ﺸ","ʃ"], ["ﺍ","a"],
-  //      ["ﻀ","ð"], ["ﻮ","w"], ["ﻃ","tˤ"], ["ح","h"],
-  //      ["ﺯ","z"], ["ﺟ","dʒ"],["ﺠ","dʒ"], ["ﻲ","j"],
-  //      ["ﻠ","l"], ["ﻻ","lo"],["و", "w"], ["ﻤ","m"],
-  //      ["ﻴ","ji"],  ["ﻅ","zˤ"],  ["ﺂ","ʔa:"],
-  //      [String.fromCharCode(0x64f),"u"],
-  //      ["ﻸ","lo"],  ["ف","f"], ["ﺼ","sˤ"],  ["ﺆ","ʔ"],
-  //      ["ﺈ","aʔ"], ["ﻺ","lo"],  ["ﺫ","ð"], ["ﻐ","ɣ"],
-  //      ["ﺮ","r"], ["ﻰ","ji"],  ["ش","ʃ"], ["ز","z"],
-  //      ["ص","sˤ"], ["خ","x"],  ["ﻳ","ja"],  ["ذ","ð"],
+        ["ك", "k"], ["ﺴ", "s"],["ع","ʕ"], ["م","ʕ"], 
+        ["ﻔ","f"], ["ﺨ","x"], ["ﻝ","l"], ["ج","dʒ"],
+        ["ﻱ","j"], ["ق","g"], ["ﺧ","x"], ["ﺜ",""],
+        ["ﻥ","n"], [String.fromCharCode(0x64b),"n"],
+        ["ﺎ","a"], ["ﺋ","ʔ"], ["ﺸ","ʃ"], ["ﺍ","a"],
+        ["ﻀ","ð"], ["ﻮ","w"], ["ﻃ","tˤ"], ["ح","h"],
+        ["ﺯ","z"], ["ﺟ","dʒ"],["ﺠ","dʒ"], ["ﻲ","j"],
+        ["ﻠ","l"], ["ﻻ","lo"],["و", "w"], ["ﻤ","m"],
+        ["ﻴ","ji"],  ["ﻅ","zˤ"],  ["ﺂ","ʔa:"],
+        [String.fromCharCode(0x64f),"u"],
+        ["ﻸ","lo"],  ["ف","f"], ["ﺼ","sˤ"],  ["ﺆ","ʔ"],
+        ["ﺈ","aʔ"], ["ﻺ","lo"],  ["ﺫ","ð"], ["ﻐ","ɣ"],
+        ["ﺮ","r"], ["ﻰ","ji"],  ["ش","ʃ"], ["ز","z"],
+        ["ص","sˤ"], ["خ","x"],  ["ﻳ","ja"],  ["ذ","ð"],
  
-  //      ["ه","h"],  ["ض","dˤ"],
-  //      ["4",""],  ["ئ","ʔ"],
+        ["ه","h"],  ["ض","dˤ"],
+        ["4",""],  ["ئ","ʔ"],  ["ﻸ","la"],
         /* punctuation */
         ["\\" + String.fromCharCode(0x5D), ""],
         ["\\" + String.fromCharCode(91), ""],
@@ -676,35 +676,35 @@ function ipaTo28Glyph(word) {
                          "e","o","r","b", "g","d","z","j",
                          "v","q","6","x"],
         matchReplaceArray = [
-  ///* arabic overflow */
-  //      ["ي", "aj"], ["ﺶ", "s"], ["ﺷ", "s"], ["ﺷ", "s"],
-  //      ["ت", "t"], ["ؤ", ""], ["ن", "n"], ["ﺗ", "t"], 
-  //      ["س", "s"], ["ط", "tˤ"], ["ﻷ", "lo"], ["ا", "a"], 
-  //      ["ﺔ", "t"], ["ﺃ", "ʔ"],  ["ﺒ", "p"], ["ﺬ", "t"], 
+  /* arabic overflow */
+        ["ي", "aj"], ["ﺶ", "s"], ["ﺷ", "s"], ["ﺷ", "s"],
+        ["ت", "t"], ["ؤ", ""], ["ن", "n"], ["ﺗ", "t"], 
+        ["س", "s"], ["ط", "tˤ"], ["ﻷ", "lo"], ["ا", "a"], 
+        ["ﺔ", "t"], ["ﺃ", "ʔ"],  ["ﺒ", "p"], ["ﺬ", "t"], 
 
-  //      ["ﺚ", "t"], ["ة", "t"], ["ل", "l"],["ﻟ", "l"],
-  //      ["ﺰ", "s"], ["ﺥ", "k"], ["ﻜ", "k"], ["ﺻ","sˤ"],
-  //      ["ب","b"], ["ﻨ","n"], ["ر","r"], ["ﻦ","n"], 
-  //      ["ى", "aj"],["ﻗ","q"], ["ث","t"], ["ﺤ","ħ"], 
+        ["ﺚ", "t"], ["ة", "t"], ["ل", "l"],["ﻟ", "l"],
+        ["ﺰ", "s"], ["ﺥ", "k"], ["ﻜ", "k"], ["ﺻ","sˤ"],
+        ["ب","b"], ["ﻨ","n"], ["ر","r"], ["ﻦ","n"], 
+        ["ى", "aj"],["ﻗ","q"], ["ث","t"], ["ﺤ","ħ"], 
 
-  //      ["ك", "k"], ["ﺴ", "s"],["ع","ʕ"], ["م","ʕ"], 
-  //      ["ﻔ","f"], ["ﺨ","x"], ["ﻝ","l"], ["ج","dʒ"],
-  //      ["ﻱ","j"], ["ق","g"], ["ﺧ","x"], ["ﺜ",""],
-  //      ["ﻥ","n"], [String.fromCharCode(0x64b),"n"],
-  //      ["ﺎ","a"], ["ﺋ","ʔ"], ["ﺸ","ʃ"], ["ﺍ","a"],
-  //      ["ﻀ","ð"], ["ﻮ","w"], ["ﻃ","tˤ"], ["ح","h"],
-  //      ["ﺯ","z"], ["ﺟ","dʒ"],["ﺠ","dʒ"], ["ﻲ","j"],
-  //      ["ﻠ","l"], ["ﻻ","lo"],["و", "w"], ["ﻤ","m"],
-  //      ["ﻴ","ji"], ["ﻅ","zˤ"], ["ﺂ","ʔa:"],
-  //      [String.fromCharCode(0x64f),"u"],
-  //      ["ﻸ","lo"], ["ف","f"],  ["ﺼ","sˤ"],  ["ﺆ","ʔ"],
-  //      ["ﺈ","aʔ"],  ["ﻺ","lo"],  ["ﺫ","ð"], ["ﻐ","ɣ"],
-  //      ["ﺮ","r"], ["ﻰ","ji"],  ["ش","ʃ"],  ["ز","z"],
-  //      ["ص","sˤ"],  ["خ","x"],  ["ﻳ","ja"],  ["ذ","ð"],
+        ["ك", "k"], ["ﺴ", "s"],["ع","ʕ"], ["م","ʕ"], 
+        ["ﻔ","f"], ["ﺨ","x"], ["ﻝ","l"], ["ج","dʒ"],
+        ["ﻱ","j"], ["ق","g"], ["ﺧ","x"], ["ﺜ",""],
+        ["ﻥ","n"], [String.fromCharCode(0x64b),"n"],
+        ["ﺎ","a"], ["ﺋ","ʔ"], ["ﺸ","ʃ"], ["ﺍ","a"],
+        ["ﻀ","ð"], ["ﻮ","w"], ["ﻃ","tˤ"], ["ح","h"],
+        ["ﺯ","z"], ["ﺟ","dʒ"],["ﺠ","dʒ"], ["ﻲ","j"],
+        ["ﻠ","l"], ["ﻻ","lo"],["و", "w"], ["ﻤ","m"],
+        ["ﻴ","ji"], ["ﻅ","zˤ"], ["ﺂ","ʔa:"],
+        [String.fromCharCode(0x64f),"u"],
+        ["ﻸ","lo"], ["ف","f"],  ["ﺼ","sˤ"],  ["ﺆ","ʔ"],
+        ["ﺈ","aʔ"],  ["ﻺ","lo"],  ["ﺫ","ð"], ["ﻐ","ɣ"],
+        ["ﺮ","r"], ["ﻰ","ji"],  ["ش","ʃ"],  ["ز","z"],
+        ["ص","sˤ"],  ["خ","x"],  ["ﻳ","ja"],  ["ذ","ð"],
 
-  //      ["ه","h"], ["ئ","ʔ"],
-  //      ["4",""],  ["ض","dˤ"],
-  //      /* punctuation */
+        ["ه","h"], ["ئ","ʔ"],
+        ["4",""],  ["ض","dˤ"], ["ﻸ","la"],
+        /* punctuation */
         ["\\" + String.fromCharCode(0x5D), ""],
         ["\\" + String.fromCharCode(91), ""],
         [String.fromCharCode(0x200B), ""],
@@ -826,7 +826,7 @@ function ipaTo32Glyph(word) {
         ["ص","sˤ"],  ["خ","x"],  ["ﻳ","ja"],  ["ذ","ð"],
 
         ["ه","h"],  ["ض","dˤ"],
-        ["4",""],  ["ئ","ʔ"],
+        ["4",""],  ["ئ","ʔ"],  ["ﻸ","la"],
         /* punctuation */
         [String.fromCharCode(0x200B), ""],
         ["\\" + String.fromCharCode(0x5D), ""],
@@ -1122,7 +1122,7 @@ function main() {
         G28GramMax = 666,
         G28RootMax = 5898,
         someG28Words = ["litre"],
-        someG32Words = [/*"liberia", "litre", "brachylogia", 
+        someG32Words = ["ob-","-oma","iraq",/*"liberia", "litre", "brachylogia", 
             "gamma", "astatine", "xml", "wiki", "topos",
             "trademark",*/ "antessive-case",/* "cocoa", "meter", "bromine", 
             "canada", "adam"*/];
@@ -1250,7 +1250,7 @@ function main() {
                 "shortGramCount": shortGramCount, 
                  "availableList":availableList};
     }
-    var fileContents = io.fileRead("comboUniqList.txt"),
+    var fileContents = io.fileRead("comboUniqList-core.txt"),
         midFileContents = io.fileRead("comboUniqList-mid.txt"),
         megaFileContents = io.fileRead("comboUniqList-mega.txt"),
         wordLines = stringToWordLines(fileContents),
@@ -1305,9 +1305,10 @@ function main() {
     // mainWords.map(getTranslations.curry(transObj));
     //for (i = 0; i << wordLines.length; i++) {
     wordLines.forEach(function (line) {
-      console.log("word lines");
+      console.log("core words");
      // line = wordLines[i];
-      if (!rootList["X" + line[0]]) {
+      if (!rootList["X" + line[0]] /* ||
+          (line[1] && !gramList["X" + line[0]])*/) {
         tmpObj = makeWord(line, phonObjX, rootPhonObjX, availableList, rootCount,
                 gramCount, shortGramCount);
         gramCount = tmpObj.gramCount;
@@ -1332,7 +1333,8 @@ function main() {
 // mid words
     midWordLines.forEach(function (line) {
       console.log("mid words");
-      if (!rootList["X" + line[0]]) {
+      if (!rootList["X" + line[0]] /*||
+          (line[1] && !gramList["X" + line[0]])*/) {
         tmpObj = makeWord(line, phonObjX, rootPhonObjX, availableList, rootCount,
                   gramCount, shortGramCount);
         gramCount = tmpObj.gramCount;
@@ -1359,7 +1361,8 @@ function main() {
 // mega words
     megaWordLines.forEach(function (line) {
       console.log("mega words");
-      if (!rootList["X" + line[0]]) {
+      if (!rootList["X" + line[0]]/* ||
+          (line[1] && !gramList["X" + line[0]])*/) {
         tmpObj = makeWord(line, phonObjX, rootPhonObjX, availableList, rootCount,
                   gramCount, shortGramCount);
         gramCount = tmpObj.gramCount;

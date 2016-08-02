@@ -23,9 +23,9 @@ contact: streondj at gmail dot com
 
 #define WORD_WIDTH 2
 #define GLOTTAL_STOP 0xC
-#define MAX_LENGTH 0xFFU
-#define SENTENCE_LENGTH 0xFF
-#define WORD_LENGTH 0x05
+#define MAX_SIZE 0xFFU
+#define SENTENCE_SIZE 0xFF
+#define WORD_SIZE 0x05
 #define WRONG_BINARY 0
 #define LONG_ROOT 1
 #define SHORT_ROOT 2
@@ -37,9 +37,9 @@ contact: streondj at gmail dot com
 #define CONSONANT_TWO_WIDTH 3
 #define VOWEL_WIDTH 3
 #define TONE_WIDTH 2
-#define BRICK_BYTE_LENGTH 0x20
-#define BRICK_LENGTH 0x10
-#define BRICK_WORD_LENGTH 0xF
+#define BRICK_BYTE_SIZE 0x20
+#define BRICK_SIZE 0x10
+#define BRICK_WORD_SIZE 0xF
 #define MAX_SENTENCE_BRICK 0x4
 #define QUOTE_INDICATOR 0x1D
 #define SINGLE_BYTE_QUOTE 0x0
@@ -48,7 +48,7 @@ contact: streondj at gmail dot com
 #define EIGHT_BYTE_QUOTE 0x3
 #define SIXTEEN_BYTE_QUOTE 0x4
 #define SILENCE_GLYPH '.'
-#define SILENCE_GLYPH_LENGTH 1
+#define SILENCE_GLYPH_SIZE 1
 
 #define QUOTE_LITERAL_XOR_ADDRESS_SPOT 8
 #define QUOTE_LITERAL 0
@@ -64,9 +64,9 @@ contact: streondj at gmail dot com
 #define DATIVE_CASE 0x49E
 #define INSTRUMENTAL_CASE 0x05BE
 #define CONDITIONAL_MOOD 0x87E
-#define QUOTE_WORD_LENGTH 2
+#define QUOTE_WORD_SIZE 2
 #define MAX_GRAMMATICALCASE_INE_SENTENCE 8
-#define HOOK_LIST_LENGTH 3
+#define HOOK_LIST_SIZE 3
 #define HOOK_LIST_WIDTH 8
 #define VERB_SPOT 3
 #define ACCUSATIVE_SPOT 2
@@ -76,10 +76,10 @@ contact: streondj at gmail dot com
 #define QUOTE_GRAMMAR_WORD 0x0A3E  // bu
 #define NUMBER_GRAMMAR_WORD 0x127E // do
 #define SAY_VERB 0x6048            // hsin
-#define SUBTRACTION_VERB 0xA2CD    // crut
+#define SUBTRACTION_VERB 0xC450    // htof
 #define INCREASE_VERB 0x8006       // nyis /* add */
 #define EXCLUSIVEOR_VERB 0xA010
-#define ANDOR_VERB 0x0150 // htam
+#define ANDOR_VERB 0x0130 // hnam
 #define NOT_VERB 0xA130   // hnat     /* with conditional ESS toffoli gate  */
 #define ABOVE_VERB 0xC118 // hyaf    /* shift above (left) */
 #define DOWN_VERB 0x6068  // hcin     /* shift down (right) */
@@ -135,47 +135,46 @@ typedef uint8_t v16uc __attribute__((vector_size(16)));
 typedef uint16_t v16us __attribute__((vector_size(32)));
 typedef uint16_t v8us __attribute__((vector_size(16)));
 typedef uint16_t v4us __attribute__((vector_size(8)));
-#define V8US_LENGTH 16
+#define V8US_SIZE 16
 /*#define NULL 0*/
 
-extern void delete_empty_glyph(const uint16_t length, const char *letter,
-                               uint16_t *fresh_length, char *neatLetter);
-/*@unused@*/ extern void derive_first_word(const uint8_t length,
+extern void delete_empty_glyph(const uint16_t size, const char *letter,
+                               uint16_t *fresh_size, char *tidyLetter);
+/*@unused@*/ extern void derive_first_word(const uint8_t size,
                                            const char *sentence,
-                                           uint8_t *fresh_length, char *word);
-extern void encode_ACC_word_PL(const uint8_t ACC_GEN_length,
-                               const char *restrict ACC_sentence,
-                               uint8_t *restrict DAT_GEN_length,
-                               uint16_t *restrict DAT_encode_sentence,
-                               uint8_t *restrict DAT_GEN_remainder);
-/*@unused@*/ extern void encode_ACC_word_DAT_number(const uint8_t word_length,
-                                                    const char *word,
-                                                    uint16_t *number);
+                                           uint8_t *fresh_size, char *word);
+extern void code_ACC_word_PL(const uint8_t ACC_GEN_size,
+                             const char *restrict ACC_sentence,
+                             uint8_t *restrict DAT_GEN_size,
+                             uint16_t *restrict DAT_code_sentence,
+                             uint8_t *restrict DAT_GEN_remainder);
+/*@unused@*/ extern void code_ACC_word_DAT_number(const uint8_t word_size,
+                                                  const char *word,
+                                                  uint16_t *number);
 
-/*@unused@*/ extern void text_copy(const uint8_t length,
+/*@unused@*/ extern void text_copy(const uint8_t size,
                                    const char *restrict ACC_text,
                                    char *restrict DAT_text);
 
-/*@unused@*/ extern void brick_encode(const uint8_t encode_text_length,
-                                      const uint16_t *encode_text,
-                                      uint8_t *brick_length, uint16_t *brick,
-                                      uint8_t *remainder);
-/*@unused@*/ extern void sentence_encode(const uint16_t text_length,
-                                         const char *text,
-                                         uint8_t *brick_length, v16us *brick,
-                                         uint16_t *remainder);
-/*@unused@*/ extern void text_encode(const uint16_t text_length,
-                                     const char *text, uint16_t *brick_length,
-                                     v16us *brick, uint16_t *text_remainder);
-/*@unused@*/ extern void realize(const v4us encoded_name, v8us *hook_list);
-/*@unused@*/ extern void burden_hook_list(const uint8_t brick_length,
-                                          const v16us *brick,
-                                          uint8_t *brick_spot,
-                                          v4us *encoded_name, v8us *hook_list);
-/*@unused@*/ extern void realize_sentence(const uint8_t brick_length,
-                                          const v16us *brick,
-                                          v4us *encoded_name, v8us *hook_list);
-/*@unused@*/ extern void realize_text(const uint16_t brick_length,
-                                      const v16us *brick, v4us *encoded_name,
-                                      v8us *hook_list);
+/*@unused@*/ extern void tablet_code(const uint8_t code_text_size,
+                                     const uint16_t *code_text,
+                                     uint8_t *tablet_size, uint16_t *tablet,
+                                     uint8_t *remainder);
+/*@unused@*/ extern void sentence_code(const uint16_t text_size,
+                                       const char *text, uint8_t *tablet_size,
+                                       v16us *tablet, uint16_t *remainder);
+/*@unused@*/ extern void text_code(const uint16_t text_size, const char *text,
+                                   uint16_t *tablet_size, v16us *tablet,
+                                   uint16_t *text_remainder);
+/*@unused@*/ extern void play(const v4us coded_name, v8us *hook_list);
+/*@unused@*/ extern void burden_hook_list(const uint8_t tablet_size,
+                                          const v16us *tablet,
+                                          uint8_t *tablet_spot,
+                                          v4us *coded_name, v8us *hook_list);
+/*@unused@*/ extern void play_sentence(const uint8_t tablet_size,
+                                       const v16us *tablet, v4us *coded_name,
+                                       v8us *hook_list);
+/*@unused@*/ extern void play_text(const uint16_t tablet_size,
+                                   const v16us *tablet, v4us *coded_name,
+                                   v8us *hook_list);
 #endif

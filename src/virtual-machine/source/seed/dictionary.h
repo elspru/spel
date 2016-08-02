@@ -16,9 +16,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 contact: streondj at gmail dot com
 */
-extern  void x6048009D00000000(unsigned char *text); /*say*/
-extern  void x6048029D00000000(signed char *text); /*say*/
-extern  void x4124000000000000(v8us *hook_list); /*equal*/
-extern  void x60AA000000000000(v8us *hook_list);  /*increase*/
+extern void x6048009D00000000(unsigned char *text); /*say*/
+extern void x6048029D00000000(signed char *text); /*say*/
+extern void x4124000000000000(v8us *hook_list); /*equal*/
+extern void x8006000000000000(v8us *hook_list);  /*increase*/
   /*not (CCNOT)*/
-extern  void xA130143D143D0000(uint16_t* accusative, uint16_t* instrumental);
+extern void xA130143D143D0000(uint16_t* accusative, uint16_t* instrumental);
+extern void xC450143D143D0000(uint16_t* accusative, uint16_t* instrumental);
+extern void x8006143D143D0000(uint16_t* accusative, uint16_t* instrumental);

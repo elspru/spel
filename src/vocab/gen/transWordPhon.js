@@ -253,6 +253,7 @@ function arabicToIPA(word) {
     word = word.replace(/ﺯ/g,"z");
     word = word.replace(/ﺤ/g,"ħ");
     word = word.replace(/ﻼ/g,"lo");
+    word = word.replace(/ﻸ/g,"la");
     word = word.replace(/ﻺ/g,"lo");
     word = word.replace(/ﻷ/g, "lo");
     word = word.replace(/ﻨ/g,"n");
