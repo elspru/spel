@@ -33,19 +33,19 @@ inline void x6048029D00000000(signed char *text) {
   printf("%s", text);
 }
 inline void x4124000000000000(v8us *hook_list) {
-  if (memcmp((char *)&hook_list[ACCUSATIVE_SPOT],
-             (char *)&hook_list[INSTRUMENTAL_SPOT], 16) == 0) {
-    hook_list[DATIVE_SPOT][0] = FACT_WORD;
+  if (memcmp((char *)&hook_list[ACCUSATIVE_INDEXFINGER],
+             (char *)&hook_list[INSTRUMENTAL_INDEXFINGER], 16) == 0) {
+    hook_list[DATIVE_INDEXFINGER][0] = TRUTH_WORD;
   } else {
-    hook_list[DATIVE_SPOT][0] = WRONG_WORD;
+    hook_list[DATIVE_INDEXFINGER][0] = LIE_WORD;
   }
 }
 inline void x8006000000000000(v8us *hook_list) {
-  if (memcmp((char *)&hook_list[ACCUSATIVE_SPOT],
-             (char *)&hook_list[INSTRUMENTAL_SPOT], 16) != 0) {
-    hook_list[DATIVE_SPOT][0] = FACT_WORD;
+  if (memcmp((char *)&hook_list[ACCUSATIVE_INDEXFINGER],
+             (char *)&hook_list[INSTRUMENTAL_INDEXFINGER], 16) != 0) {
+    hook_list[DATIVE_INDEXFINGER][0] = TRUTH_WORD;
   } else {
-    hook_list[DATIVE_SPOT][0] = WRONG_WORD;
+    hook_list[DATIVE_INDEXFINGER][0] = LIE_WORD;
   }
 }
 

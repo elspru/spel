@@ -1,0 +1,53 @@
+.347AAB875.mu.elspru.nwo finished cases and aspects
+.347AAB878.mu.elspru.nwo working on moods
+.347AB048B.mu.elspru.nwo okay finished moods
+.347AB0550.mu.elspru.nwo still have to do pro-forms and suffixes, as well as a few minor ones.
+.347B1450A.mu.elspru.nwo evidential-case should be added to caseTable
+.347B14521.mu.elspru.nwo also best to make that initial translation working for ryip
+.347B1454B.mu.elspru.nwo then can also have a seperate security bot, which will be responsible for oping, voicing, kicking and banning.
+.347B14568.mu.elspru.nwo security-guard is xwax
+.347B14591.mu.elspru.nwo military is slin
+.347B14598.mu.elspru.nwo safe is sif
+.347B145A8.mu.elspru.nwo security is synonym of safe and care
+.347B1466A.mu.elspru.nwo I guess security-guard is the most pertinent.
+.347B1913B.mu.elspru.nwo  sortWordBlacklist can be processed in transWordUnique
+.347B19146.mu.elspru.nwo since all translations can be useful.
+.347B19175.mu.elspru.nwo also have to make business cards and meditation course material for tommorrow in case someone shows up
+.347B48749.mu.elspru.nwo so got idea that sris or ryip could cross post to gnusocial via bitlbee
+.347B48754.mu.elspru.nwo also to twitter.
+.347B48766.mu.elspru.nwo it would be possible to crosspost to the various gnusocial instances based on their primary language
+.347B48792.mu.elspru.nwo the key thing would be to pick up responses, which I guess would be the job of ryip
+.347B50436.mu.elspru.nwo anyways it seems like a distraction to be working on that stuff, it's been almost two hours and I've made little headway
+.347B50545.mu.elspru.nwo okay I'll try to get it to simply connect to bitlbee and repost stuff there or something.
+.347B5320B.mu.elspru.nwo okay so if this worked then it should cross post to gnusocial and twitter from IRC
+.347B53403.mu.elspru.nwo testing crosspost
+.347B5359A.mu.elspru.nwo testing crosspost again
+.347B53785.mu.elspru.nwo crosspost test 3
+.347B53860.mu.elspru.nwo w00t w00t crossposting worked :-) now #spel changelog is live
+.347B54371.mu.elspru.nwo so next have to finish specifying grammar word lengths, and make alternatives such as "me" for first-person.
+.347B5462B.mu.elspru.nwo ideally alternatives will also have a language parameter for those grammar words which don't have an English counterpart such as "ga" in Japanese for nominative case marking, and "wa" for topic case marking
+.347B54732.mu.elspru.nwo that would mean the translation part would have to pick up the languages of alternatives and make sure there are translations available for them
+.347B71A29.mu.elspru.nwo seems like the only truly portable form of parallelism is #OpenCl, and thus #WebCl for Javascript. OpenCl works in C and C++ also.
+.347BA8B69.mu.elspru.nwo 180 degrees of appreciation #vipassana #observation_meditation
+.347BB2516.mu.elspru.nwo  /names
+.347BB2559.mu.elspru.nwo seems the bots sometimes quit,  though it's more rare, I'm not sure why they do it.
+.348036979.mu.elspru.nwo okay, so barring any major revelations the language is pretty-much complete. I've decided not to bother with alternative-forms, will probably just use glossing-abbreviations for the SPEL variants of languages. attempting to use something like "with" would them prompt the user asking if they meant "instrumental-case" (ins) or "comitative-case" (com)
+.34803710A.mu.elspru.nwo troclyash /troʃlyaʃ/ is the new name of the language, it means "international-language".　
+.34803714B.mu.elspru.nwo *troclyac
+.3480373B1.mu.elspru.nwo Can have a look at SPEL's core-language, and maybe even learn some TroshLyash at http://wyn.bot.nu/spel/src/vocab/gen/start.html
+.348075783.mu.elspru.nwo so now I have to learn OpenCl. 8-O namaste, I hope I am worthy.
+.3480A5BA9.mu.elspru.nwo okay so got some basic info about my opencl devices. I have two devices, one of them has 4 compute-units, the other has two.
+.3480A6080.mu.elspru.nwo the Mali-T628 #opencl device clockFreq is 600Mhz, Mem is 32Kb local, 65Kb constant, 131Kb global cache.
+.3480A6200.mu.elspru.nwo with 256 #opencl work-items, that is 128B working memory, and 256B constant input per work-item or "kernel".
+.3480A6879.mu.elspru.nwo great, so depending on number of steps and space for grammar information, should be able to translate 16Kb of text per #opencl kernel call.
+.3480A6B69.mu.elspru.nwo though 4KB (one page) of translation per call is probably a more realistic goal.
+.3480AA7BB.mu.elspru.nwo First thing to do is make the TroshLyash encoder and decoder.
+.3480AA8B4.mu.elspru.nwo All TroshLyash roots and grammar words (2-5 ASCII glyphs) can be represented in 16 bits using the encoding.
+.3480AA99B.mu.elspru.nwo I guess I'll make a blog post about the encoding, since it is too complex to tweet.
+.3480B3453.mu.elspru.nwo I've decided to remove "q" /ŋ/ and "x" /x/ from list of final consonants as they can be easily ocnfused with "n" /n/ and the alignment "h" /h/　
+.348120AAA.mu.elspru.nwo okay so now that have the encoding in theory <bit.ly/24OrNEZ>, can start writing some #opencl kernels
+.348127189.mu.elspru.nwo I noticed that a few of the words I have defined didn't properly translate, and tracked it down to the fact that they were synonymous for method calls, so have to change everything from objects to Maps,
+.348166684.mu.elspru.nwo found out that javascript Map objects can't be stringified, so used a work around of putting an X in front of all words stored in dictionary.
+.3481667B9.mu.elspru.nwo since country names are temporary concepts I've decided to remove them from the vocabulary. can make compounds to represent them, or use name quotes.
+.348306B26.mu.elspru.nwo For a minimal viable product (MVP) we'll simply need to be OpenCl compatible. Could have most function compatible with #OpenCl kernels.
+I make also okay grammar working

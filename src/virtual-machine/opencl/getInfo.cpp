@@ -1,5 +1,6 @@
     #include <iostream>
-    #include <CL/cl.hpp>
+    #include <CL/cl.h>
+
      
     int main(){
         //get all platforms (drivers)

@@ -28,6 +28,8 @@ cat framenet.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
 cat uld-en.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
+cat si-units.txt >> comboWordList.txt
+echo -e "\n" >> comboWordList.txt
 cat atoms.txt >> comboWordList.txt
 echo -e "\n" >> comboWordList.txt
 # core finish

@@ -16,12 +16,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 contact: streondj at gmail dot com
 */
-#include <stdint.h> // opencl compatible
-#include <stdio.h>  // NOT opencl compatible
-#include <assert.h>
-#include <string.h> // NOT opencl compatible// uses memset and memcmp
 #include "seed.h"
 #include "dictionary.h"
+#include <assert.h>
+#include <stdint.h> // opencl compatible
+#include <stdio.h>  // NOT opencl compatible
+#include <string.h> // NOT opencl compatible// uses memset and memcmp
 
 #define TRUE 1
 #define FALSE 0
@@ -34,90 +34,50 @@ static const char vowel_group[] = {'i', 'a', 'u', 'e', 'o', '6'};
 static const uint8_t vowel_group_size = 6;
 static const char tone_group[] = {'7', '_'};
 static const uint8_t tone_group_size = 2;
-#define CONSONANT_ONE_ENCODE_SIZE 32
-static const uint8_t consonant_one_code_group[CONSONANT_ONE_ENCODE_SIZE][2] =
+#define CONSONANT_ONE_ENCODE_LONG 32
+static const uint8_t consonant_one_code_group[CONSONANT_ONE_ENCODE_LONG][2] =
     {/* LOC 0 ESS consonant one */
-     {(uint8_t)'S', 0x0},
-     {(uint8_t)'m', 0x1},
-     {(uint8_t)'k', 0x2},
-     {(uint8_t)'y', 0x3},
-     {(uint8_t)'p', 0x4},
-     {(uint8_t)'w', 0x5},
-     {(uint8_t)'n', 0x6},
-     {(uint8_t)'L', 0x7},
-     {(uint8_t)'S', 0x8},
-     {(uint8_t)'s', 0x9},
-     {(uint8_t)'t', 0xA},
-     {(uint8_t)'l', 0xB},
-     {(uint8_t)'f', 0xC},
-     {(uint8_t)'c', 0xD},
-     {(uint8_t)'r', 0xE},
-     {(uint8_t)'L', 0xF},
-     {(uint8_t)'S', 0x10},
-     {(uint8_t)'b', 0x11},
-     {(uint8_t)'g', 0x12},
-     {(uint8_t)'d', 0x13},
-     {(uint8_t)'z', 0x14},
-     {(uint8_t)'j', 0x15},
-     {(uint8_t)'v', 0x16},
-     {(uint8_t)'L', 0x17},
-     {(uint8_t)'S', 0x18},
-     {(uint8_t)'q', 0x19},
-     {(uint8_t)'x', 0x1A},
-     {(uint8_t)'1', 0x1B},
-     {(uint8_t)'8', 0x1C},
-     {(uint8_t)'Q', 0x1D},
-     {(uint8_t)'S', 0x1E},
-     {(uint8_t)'L', 0x1F}};
-#define CONSONANT_TWO_ENCODE_SIZE 11
-static const uint8_t consonant_two_code_group[CONSONANT_TWO_ENCODE_SIZE][2] = {
+     {(uint8_t)'S', 0x0},  {(uint8_t)'m', 0x1},  {(uint8_t)'k', 0x2},
+     {(uint8_t)'y', 0x3},  {(uint8_t)'p', 0x4},  {(uint8_t)'w', 0x5},
+     {(uint8_t)'n', 0x6},  {(uint8_t)'L', 0x7},  {(uint8_t)'S', 0x8},
+     {(uint8_t)'s', 0x9},  {(uint8_t)'t', 0xA},  {(uint8_t)'l', 0xB},
+     {(uint8_t)'f', 0xC},  {(uint8_t)'c', 0xD},  {(uint8_t)'r', 0xE},
+     {(uint8_t)'L', 0xF},  {(uint8_t)'S', 0x10}, {(uint8_t)'b', 0x11},
+     {(uint8_t)'g', 0x12}, {(uint8_t)'d', 0x13}, {(uint8_t)'z', 0x14},
+     {(uint8_t)'j', 0x15}, {(uint8_t)'v', 0x16}, {(uint8_t)'L', 0x17},
+     {(uint8_t)'S', 0x18}, {(uint8_t)'q', 0x19}, {(uint8_t)'x', 0x1A},
+     {(uint8_t)'1', 0x1B}, {(uint8_t)'8', 0x1C}, {(uint8_t)'Q', 0x1D},
+     {(uint8_t)'S', 0x1E}, {(uint8_t)'L', 0x1F}};
+#define CONSONANT_TWO_ENCODE_LONG 11
+static const uint8_t consonant_two_code_group[CONSONANT_TWO_ENCODE_LONG][2] = {
     /* LOC 1 ESS consonant two */
-    {(uint8_t)'y', 0},
-    {(uint8_t)'w', 1},
-    {(uint8_t)'s', 2},
-    {(uint8_t)'z', 2},
-    {(uint8_t)'l', 3},
-    {(uint8_t)'f', 4},
-    {(uint8_t)'v', 4},
-    {(uint8_t)'c', 5},
-    {(uint8_t)'j', 5},
-    {(uint8_t)'r', 6},
-    {(uint8_t)'x', 7}};
-#define VOWEL_ENCODE_SIZE 8
-static const uint8_t vowel_code_group[VOWEL_ENCODE_SIZE][2] = {
+    {(uint8_t)'y', 0}, {(uint8_t)'w', 1}, {(uint8_t)'s', 2}, {(uint8_t)'z', 2},
+    {(uint8_t)'l', 3}, {(uint8_t)'f', 4}, {(uint8_t)'v', 4}, {(uint8_t)'c', 5},
+    {(uint8_t)'j', 5}, {(uint8_t)'r', 6}, {(uint8_t)'x', 7}};
+#define VOWEL_ENCODE_LONG 8
+static const uint8_t vowel_code_group[VOWEL_ENCODE_LONG][2] = {
     /* LOC 2 ESS vowel */
-    {(uint8_t)'i', 0},
-    {(uint8_t)'a', 1},
-    {(uint8_t)'u', 2},
-    {(uint8_t)'e', 3},
-    {(uint8_t)'o', 4},
-    {(uint8_t)'6', 5},
-    {(uint8_t)'U', 6},
-    {(uint8_t)'U', 7}};
-#define TONE_ENCODE_SIZE 4
-static const uint8_t tone_code_group[TONE_ENCODE_SIZE][2] = {
+    {(uint8_t)'i', 0}, {(uint8_t)'a', 1}, {(uint8_t)'u', 2}, {(uint8_t)'e', 3},
+    {(uint8_t)'o', 4}, {(uint8_t)'6', 5}, {(uint8_t)'U', 6}, {(uint8_t)'U', 7}};
+#define TONE_ENCODE_LONG 4
+static const uint8_t tone_code_group[TONE_ENCODE_LONG][2] = {
     /* LOC 3 ESS tone */
     {(uint8_t)'M', 0},
     {(uint8_t)'7', 1},
     {(uint8_t)'_', 2},
     {(uint8_t)'U', 3}};
-#define CONSONANT_THREE_ENCODE_SIZE 8
+#define CONSONANT_THREE_ENCODE_LONG 8
 static const uint8_t
-    consonant_three_code_group[CONSONANT_THREE_ENCODE_SIZE][2] = {
+    consonant_three_code_group[CONSONANT_THREE_ENCODE_LONG][2] = {
         /* LOC 4 ESS consonant three */
-        {(uint8_t)'m', 0},
-        {(uint8_t)'k', 1},
-        {(uint8_t)'p', 2},
-        {(uint8_t)'n', 3},
-        {(uint8_t)'s', 4},
-        {(uint8_t)'t', 5},
-        {(uint8_t)'f', 6},
-        {(uint8_t)'c', 7}};
+        {(uint8_t)'m', 0}, {(uint8_t)'k', 1}, {(uint8_t)'p', 2},
+        {(uint8_t)'n', 3}, {(uint8_t)'s', 4}, {(uint8_t)'t', 5},
+        {(uint8_t)'f', 6}, {(uint8_t)'c', 7}};
 // static const char secondary_group[] = {'f','s','c','y',
 //    'r','w','l','x', 'z','j','v'};
-//#define SECONDARY_SET_SIZE 11
+//#define SECONDARY_SET_LONG 11
 // static const char last_group[] = {'p','t','k','f', 's','c','n','m'};
-//#define LAST_SET_SIZE 8
+//#define LAST_SET_LONG 8
 
 static inline uint8_t vowel_Q(const char glyph) {
   uint8_t i;
@@ -185,7 +145,7 @@ static inline void copy_ACC_text_DAT_tablet(const char *restrict text,
                                             const uint8_t tablet_size) {
   uint8_t text_spot;
   uint8_t tablet_spot = 0;
-  assert(tablet_size >= text_size / 2 / BRICK_SIZE);
+  assert(tablet_size >= text_size / 2 / TABLET_LONG);
   assert(text != NULL);
   assert(tablet != NULL);
   // printf("copy_ACC_text_DAT_tablet ");
@@ -214,17 +174,17 @@ static inline void copy_ACC_text_DAT_tablet(const char *restrict text,
   return;
 
 inline void derive_first_word(const uint8_t ACC_GEN_size,
-                              const char *restrict ACC_sentence,
+                              const char *restrict ACC_independentClause,
                               uint8_t *restrict DAT_GEN_size,
                               char *restrict DAT_word) {
   uint8_t start = 0;
-  assert(ACC_sentence != NULL);
+  assert(ACC_independentClause != NULL);
   if (ACC_GEN_size < 2) {
     derive_first_word_exit;
   }
   assert(ACC_GEN_size > 1);
   assert(DAT_word != NULL);
-  assert(*DAT_GEN_size >= WORD_SIZE);
+  assert(*DAT_GEN_size >= WORD_LONG);
   /* algorithm:
       if glyph zero ESS vowel
       then if glyph two not ESS consonant
@@ -234,53 +194,57 @@ inline void derive_first_word(const uint8_t ACC_GEN_size,
       then
           if glyph one ESS consonant CNJ glyph two ESS vowel
               CNJ glyph three ESS consonant
-          then copy ACC sentence ABL glyph zero ALLA glyph
+          then copy ACC independentClause ABL glyph zero ALLA glyph
                   four DAT word
               CNJ copy ACC number four DAT size
               answer
           else if glyph one ESS vowel
-          then copy ACC sentence ABL glyph zero ALLA glyph two
+          then copy ACC independentClause ABL glyph zero ALLA glyph two
               DAT word CNJ
               copy ACC number two DAT size
   */
-  assert(vowel_Q(ACC_sentence[start + 0]) == TRUE ||
-         consonant_Q(ACC_sentence[start + 0]) == TRUE);
-  if (vowel_Q(ACC_sentence[start]) == TRUE) {
-    if (consonant_Q(ACC_sentence[start + 1]) == FALSE ||
-        consonant_Q(ACC_sentence[start + 2]) == FALSE) {
+  assert(vowel_Q(ACC_independentClause[start + 0]) == TRUE ||
+         consonant_Q(ACC_independentClause[start + 0]) == TRUE);
+  if (vowel_Q(ACC_independentClause[start]) == TRUE) {
+    if (consonant_Q(ACC_independentClause[start + 1]) == FALSE ||
+        consonant_Q(ACC_independentClause[start + 2]) == FALSE) {
       derive_first_word_exit;
     }
-    assert(consonant_Q(ACC_sentence[start + 1]) == TRUE);
-    assert(consonant_Q(ACC_sentence[start + 2]) == TRUE);
+    assert(consonant_Q(ACC_independentClause[start + 1]) == TRUE);
+    assert(consonant_Q(ACC_independentClause[start + 2]) == TRUE);
     start = 2;
   }
-  if (consonant_Q(ACC_sentence[start]) == TRUE) {
-    if (consonant_Q(ACC_sentence[start + 1]) == TRUE) {
-      if (vowel_Q(ACC_sentence[start + 2]) == FALSE) {
+  if (consonant_Q(ACC_independentClause[start]) == TRUE) {
+    if (consonant_Q(ACC_independentClause[start + 1]) == TRUE) {
+      if (vowel_Q(ACC_independentClause[start + 2]) == FALSE) {
         derive_first_word_exit;
       }
-      assert(vowel_Q(ACC_sentence[start + 2]) == TRUE);
-      if (tone_Q(ACC_sentence[start + 3]) == TRUE) {
-        if (consonant_Q(ACC_sentence[start + 4]) == FALSE) {
+      assert(vowel_Q(ACC_independentClause[start + 2]) == TRUE);
+      if (tone_Q(ACC_independentClause[start + 3]) == TRUE) {
+        if (consonant_Q(ACC_independentClause[start + 4]) == FALSE) {
           derive_first_word_exit;
         }
-        assert(consonant_Q(ACC_sentence[start + 4]) == TRUE);
-        text_copy((uint8_t)(start + 5), ACC_sentence + start, DAT_word);
+        assert(consonant_Q(ACC_independentClause[start + 4]) == TRUE);
+        text_copy((uint8_t)(start + 5), ACC_independentClause + start,
+                  DAT_word);
         *DAT_GEN_size = (uint8_t)5;
       } else {
-        if (consonant_Q(ACC_sentence[start + 3]) == FALSE) {
+        if (consonant_Q(ACC_independentClause[start + 3]) == FALSE) {
           derive_first_word_exit;
         }
-        assert(consonant_Q(ACC_sentence[start + 3]) == TRUE);
-        text_copy((uint8_t)(start + 4), ACC_sentence + start, DAT_word);
+        assert(consonant_Q(ACC_independentClause[start + 3]) == TRUE);
+        text_copy((uint8_t)(start + 4), ACC_independentClause + start,
+                  DAT_word);
         *DAT_GEN_size = (uint8_t)4;
       }
-    } else if (vowel_Q(ACC_sentence[start + 1]) == TRUE) {
-      if (tone_Q(ACC_sentence[start + 2]) == TRUE) {
-        text_copy((uint8_t)(start + 3), ACC_sentence + start, DAT_word);
+    } else if (vowel_Q(ACC_independentClause[start + 1]) == TRUE) {
+      if (tone_Q(ACC_independentClause[start + 2]) == TRUE) {
+        text_copy((uint8_t)(start + 3), ACC_independentClause + start,
+                  DAT_word);
         *DAT_GEN_size = (uint8_t)3;
       } else {
-        text_copy((uint8_t)(start + 2), ACC_sentence + start, DAT_word);
+        text_copy((uint8_t)(start + 2), ACC_independentClause + start,
+                  DAT_word);
         *DAT_GEN_size = (uint8_t)2;
       }
     }
@@ -293,114 +257,114 @@ inline void derive_first_word(const uint8_t ACC_GEN_size,
 static inline void code_ACC_consonant_one(const uint8_t type,
                                           const uint8_t consonant_one,
                                           uint16_t *restrict number) {
-  uint8_t i, consonant_number = CONSONANT_ONE_ENCODE_SIZE;
+  uint8_t i, consonant_number = CONSONANT_ONE_ENCODE_LONG;
   assert(consonant_Q((char)consonant_one) == TRUE);
   if (consonant_one != 0 && type != SHORT_ROOT) {
-    for (i = 0; i < CONSONANT_ONE_ENCODE_SIZE; i++) {
+    for (i = 0; i < CONSONANT_ONE_ENCODE_LONG; i++) {
       if (consonant_one_code_group[i][0] == consonant_one) {
         consonant_number = consonant_one_code_group[i][1];
-        assert(consonant_number < CONSONANT_ONE_ENCODE_SIZE);
+        assert(consonant_number < CONSONANT_ONE_ENCODE_LONG);
         if (type == LONG_ROOT) {
           *number = consonant_number;
           break;
         } else if (type == LONG_GRAMMAR) {
-          *number |= (uint16_t)(consonant_number << BANNER_WIDTH);
+          *number |= (uint16_t)(consonant_number << BANNER_THICK);
           break;
         } else if (type == SHORT_GRAMMAR) {
-          *number |= (uint16_t)(consonant_number << CONSONANT_ONE_WIDTH);
+          *number |= (uint16_t)(consonant_number << CONSONANT_ONE_THICK);
           break;
         }
       }
     }
   }
-  assert(consonant_number != CONSONANT_ONE_ENCODE_SIZE);
+  assert(consonant_number != CONSONANT_ONE_ENCODE_LONG);
 }
 
 static inline void code_ACC_consonant_two(const uint8_t type,
                                           const uint8_t consonant_two,
                                           uint16_t *restrict number) {
-  uint8_t i, consonant_number = CONSONANT_TWO_ENCODE_SIZE;
+  uint8_t i, consonant_number = CONSONANT_TWO_ENCODE_LONG;
   uint16_t start_number = *number;
   // printf("n %04X, t %X c2 %c \n", (uint) *number,
   //       (uint) type, (char) consonant_two);
   assert(consonant_Q((char)consonant_two) == TRUE);
   if (consonant_two != 0 && type == SHORT_ROOT) {
-    for (i = 0; i < CONSONANT_ONE_ENCODE_SIZE; i++) {
+    for (i = 0; i < CONSONANT_ONE_ENCODE_LONG; i++) {
       if (consonant_one_code_group[i][0] == consonant_two) {
         consonant_number = consonant_one_code_group[i][1];
-        assert(consonant_number < CONSONANT_ONE_ENCODE_SIZE);
-        *number |= (uint16_t)(consonant_number << BANNER_WIDTH);
+        assert(consonant_number < CONSONANT_ONE_ENCODE_LONG);
+        *number |= (uint16_t)(consonant_number << BANNER_THICK);
         break;
       }
     }
   }
   if (consonant_two != 0 && type != SHORT_ROOT && type != SHORT_GRAMMAR) {
-    for (i = 0; i < CONSONANT_TWO_ENCODE_SIZE; i++) {
+    for (i = 0; i < CONSONANT_TWO_ENCODE_LONG; i++) {
       if (consonant_two_code_group[i][0] == consonant_two) {
         consonant_number = consonant_two_code_group[i][1];
-        assert(consonant_number < CONSONANT_TWO_ENCODE_SIZE);
+        assert(consonant_number < CONSONANT_TWO_ENCODE_LONG);
         if (type == LONG_ROOT) {
           // printf("C2LR cn %04X\n", (uint) consonant_number);
           // printf("C2LR %04X\n", (uint) consonant_number <<
-          //       (CONSONANT_ONE_WIDTH));
-          *number |= (uint16_t)(consonant_number << CONSONANT_ONE_WIDTH);
+          //       (CONSONANT_ONE_THICK));
+          *number |= (uint16_t)(consonant_number << CONSONANT_ONE_THICK);
           break;
         } else if (type == LONG_GRAMMAR) {
           *number |= (uint16_t)(consonant_number
-                                << (BANNER_WIDTH + CONSONANT_ONE_WIDTH));
+                                << (BANNER_THICK + CONSONANT_ONE_THICK));
           break;
         }
       }
     }
   }
   assert(consonant_number == 0 || *number != start_number);
-  assert(consonant_number != CONSONANT_ONE_ENCODE_SIZE);
+  assert(consonant_number != CONSONANT_ONE_ENCODE_LONG);
 }
 
 static inline void code_ACC_vowel(const uint8_t type, const uint8_t vowel,
                                   uint16_t *restrict number) {
-  uint8_t i, vowel_number = VOWEL_ENCODE_SIZE;
+  uint8_t i, vowel_number = VOWEL_ENCODE_LONG;
   // uint16_t start_number = *number;
   // printf("n %04X, t %X v %c \n", (uint) *number,
   //       (uint) type, (char) vowel);
   assert(vowel_Q((char)vowel) == TRUE);
   if (vowel != 0) {
-    for (i = 0; i < VOWEL_ENCODE_SIZE; i++) {
+    for (i = 0; i < VOWEL_ENCODE_LONG; i++) {
       if (vowel_code_group[i][0] == vowel) {
         vowel_number = vowel_code_group[i][1];
-        assert(vowel_number < VOWEL_ENCODE_SIZE);
+        assert(vowel_number < VOWEL_ENCODE_LONG);
         if (type == LONG_ROOT) {
           // printf("VLR %04X\n", (uint) vowel_number << (
-          //       CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH));
+          //       CONSONANT_ONE_THICK + CONSONANT_TWO_THICK));
           *number |= (uint16_t)(vowel_number
-                                << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH));
+                                << (CONSONANT_ONE_THICK + CONSONANT_TWO_THICK));
           break;
         } else if (type == SHORT_ROOT) {
           *number |=
-              (uint16_t)(vowel_number << (BANNER_WIDTH + CONSONANT_ONE_WIDTH));
+              (uint16_t)(vowel_number << (BANNER_THICK + CONSONANT_ONE_THICK));
           break;
         } else if (type == LONG_GRAMMAR) {
-          // printf("VLG %04X\n", (uint) vowel_number << (BANNER_WIDTH +
-          //       CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH));
+          // printf("VLG %04X\n", (uint) vowel_number << (BANNER_THICK +
+          //       CONSONANT_ONE_THICK + CONSONANT_TWO_THICK));
           *number |=
-              (uint16_t)(vowel_number << (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
-                                          CONSONANT_TWO_WIDTH));
+              (uint16_t)(vowel_number << (BANNER_THICK + CONSONANT_ONE_THICK +
+                                          CONSONANT_TWO_THICK));
           break;
         } else if (type == SHORT_GRAMMAR) {
-          *number |= (uint16_t)(vowel_number << (CONSONANT_ONE_WIDTH * 2));
+          *number |= (uint16_t)(vowel_number << (CONSONANT_ONE_THICK * 2));
           break;
         }
       }
     }
   }
   // assert(vowel_number == 0 || *number != start_number);
-  assert(vowel_number != VOWEL_ENCODE_SIZE);
+  assert(vowel_number != VOWEL_ENCODE_LONG);
 }
 
 static inline void code_ACC_type(const char *word, const uint8_t ACC_GEN_size,
                                  uint8_t *type, uint16_t *number) {
   assert(word != NULL);
-  assert(ACC_GEN_size <= WORD_SIZE);
+  assert(ACC_GEN_size <= WORD_LONG);
   // printf("w %s\n", word);
   if (ACC_GEN_size == 2 || ACC_GEN_size == 3) {
     *type = SHORT_GRAMMAR;
@@ -424,96 +388,96 @@ static inline void code_ACC_type(const char *word, const uint8_t ACC_GEN_size,
     *type = LONG_ROOT;
     *number = 0;
   } else {
-    *type = WRONG_BINARY;
+    *type = ERROR_BINARY;
     *number = 0;
   }
-  assert(*type != WRONG_BINARY);
+  assert(*type != ERROR_BINARY);
 }
 
 static inline void code_ACC_tone(const uint8_t type, const uint8_t tone,
                                  uint16_t *restrict number) {
-  uint8_t i, tone_number = TONE_ENCODE_SIZE;
+  uint8_t i, tone_number = TONE_ENCODE_LONG;
   uint16_t start_number = *number;
   // printf("n %04X, t %X tn %c \n", (uint) *number,
   //       (uint) type, (char) tone);
   assert(tone_Q((char)tone) == TRUE);
   if (tone != 0) {
-    for (i = 0; i < TONE_ENCODE_SIZE; i++) {
+    for (i = 0; i < TONE_ENCODE_LONG; i++) {
       if (tone_code_group[i][0] == tone) {
         tone_number = tone_code_group[i][1];
         if (type == LONG_ROOT) {
           // printf("TLR %X\n", (uint)(tone_number <<
-          //       (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH + VOWEL_WIDTH)));
+          //       (CONSONANT_ONE_THICK + CONSONANT_TWO_THICK + VOWEL_THICK)));
           *number |=
-              (uint16_t)(tone_number << (CONSONANT_ONE_WIDTH +
-                                         CONSONANT_TWO_WIDTH + VOWEL_WIDTH));
+              (uint16_t)(tone_number << (CONSONANT_ONE_THICK +
+                                         CONSONANT_TWO_THICK + VOWEL_THICK));
           break;
         } else if (type == SHORT_ROOT) {
           *number |=
               (uint16_t)(tone_number
-                         << (BANNER_WIDTH + CONSONANT_ONE_WIDTH + VOWEL_WIDTH));
+                         << (BANNER_THICK + CONSONANT_ONE_THICK + VOWEL_THICK));
           break;
         } else if (type == LONG_GRAMMAR) {
           *number |=
-              (uint16_t)(tone_number << (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
-                                         CONSONANT_TWO_WIDTH + VOWEL_WIDTH));
+              (uint16_t)(tone_number << (BANNER_THICK + CONSONANT_ONE_THICK +
+                                         CONSONANT_TWO_THICK + VOWEL_THICK));
           break;
         } else if (type == SHORT_GRAMMAR) {
           *number |= (uint16_t)(tone_number
-                                << (CONSONANT_ONE_WIDTH * 2 + VOWEL_WIDTH));
+                                << (CONSONANT_ONE_THICK * 2 + VOWEL_THICK));
           break;
         }
       }
     }
   }
   assert(tone_number == 0 || *number != start_number);
-  assert(tone_number != TONE_ENCODE_SIZE);
+  assert(tone_number != TONE_ENCODE_LONG);
 }
 
 static inline void code_ACC_consonant_three(const uint8_t type,
                                             const uint8_t consonant_three,
                                             const uint8_t tone,
                                             uint16_t *number) {
-  uint8_t i, consonant_number = CONSONANT_THREE_ENCODE_SIZE;
+  uint8_t i, consonant_number = CONSONANT_THREE_ENCODE_LONG;
   uint16_t start_number = *number;
   // printf("n %04X, t %X c %c  tn %c\n", (uint) *number,
   //       (uint) type, (char) consonant_three, (char) tone);
   if (consonant_three != 0 && type != SHORT_GRAMMAR && type != LONG_GRAMMAR) {
-    for (i = 0; i < CONSONANT_THREE_ENCODE_SIZE; i++) {
+    for (i = 0; i < CONSONANT_THREE_ENCODE_LONG; i++) {
       if (consonant_three_code_group[i][0] == consonant_three) {
         consonant_number = consonant_three_code_group[i][1];
         if (type == LONG_ROOT && tone == 0) {
           // printf("C3LR %04X \n", (uint) (consonant_number
-          //               << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH +
-          //                  VOWEL_WIDTH + TONE_WIDTH)));
+          //               << (CONSONANT_ONE_THICK + CONSONANT_TWO_THICK +
+          //                  VOWEL_THICK + TONE_THICK)));
           *number |= (uint16_t)(consonant_number
-                                << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH +
-                                    VOWEL_WIDTH + TONE_WIDTH));
+                                << (CONSONANT_ONE_THICK + CONSONANT_TWO_THICK +
+                                    VOWEL_THICK + TONE_THICK));
           break;
         } else if (type == SHORT_ROOT && tone == 0) {
           // printf("SR %04X \n", (uint) (consonant_number
-          //               << (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
-          //               VOWEL_WIDTH)));
+          //               << (BANNER_THICK + CONSONANT_ONE_THICK +
+          //               VOWEL_THICK)));
           *number |= (uint16_t)(consonant_number
-                                << (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
-                                    VOWEL_WIDTH + TONE_WIDTH));
+                                << (BANNER_THICK + CONSONANT_ONE_THICK +
+                                    VOWEL_THICK + TONE_THICK));
           break;
         } else if (type == LONG_ROOT && tone != 0) {
           *number |= (uint16_t)(consonant_number
-                                << (CONSONANT_ONE_WIDTH + CONSONANT_TWO_WIDTH +
-                                    VOWEL_WIDTH + TONE_WIDTH));
+                                << (CONSONANT_ONE_THICK + CONSONANT_TWO_THICK +
+                                    VOWEL_THICK + TONE_THICK));
           break;
         } else if (type == SHORT_ROOT && tone != 0) {
           *number |= (uint16_t)(consonant_number
-                                << (BANNER_WIDTH + CONSONANT_ONE_WIDTH +
-                                    VOWEL_WIDTH + TONE_WIDTH));
+                                << (BANNER_THICK + CONSONANT_ONE_THICK +
+                                    VOWEL_THICK + TONE_THICK));
           break;
         }
       }
     }
   }
   assert(consonant_number == 0 || *number != start_number);
-  assert(consonant_number != CONSONANT_THREE_ENCODE_SIZE);
+  assert(consonant_number != CONSONANT_THREE_ENCODE_LONG);
 }
 #define code_exit                                                              \
   *DAT_number = 0;                                                             \
@@ -540,7 +504,7 @@ void code_ACC_word_DAT_number(const uint8_t ACC_GEN_size,
           consonant_three = 0, type = LONG_ROOT;
   uint16_t number = 0;
   assert(ACC_GEN_size > 0);
-  assert(ACC_GEN_size <= WORD_SIZE);
+  assert(ACC_GEN_size <= WORD_LONG);
   assert(word != NULL);
   assert(DAT_number != NULL);
   code_ACC_type(word, ACC_GEN_size, &type, &number);
@@ -614,9 +578,9 @@ void code_ACC_word_DAT_number(const uint8_t ACC_GEN_size,
 }
 
 void code_ACC_word_PL(const uint8_t ACC_GEN_size,
-                      const char *restrict ACC_sentence,
+                      const char *restrict ACC_independentClause,
                       uint8_t *restrict DAT_GEN_size,
-                      uint16_t *restrict DAT_code_sentence,
+                      uint16_t *restrict DAT_code_independentClause,
                       uint8_t *restrict DAT_GEN_remainder) {
   /* identify if two glyph or four glyph word
       if there is a bad parse
@@ -626,12 +590,12 @@ void code_ACC_word_PL(const uint8_t ACC_GEN_size,
       this is can be used in a reduce like manner,
       so many function together, which is enabled if size is
       full width, or 0xFF the last two glyphs can
-      overlap with next sentence, so if they are a four glyph word
+      overlap with next independentClause, so if they are a four glyph word
       then keep them, otherwise ignore.
   algorithm:
   */
-  char DAT_word[WORD_SIZE];
-  uint8_t DAT_word_GEN_size = WORD_SIZE;
+  char DAT_word[WORD_LONG];
+  uint8_t DAT_word_GEN_size = WORD_LONG;
   uint8_t i = 0;
   uint8_t j = 0;
   uint16_t number = 0;
@@ -639,15 +603,15 @@ void code_ACC_word_PL(const uint8_t ACC_GEN_size,
   // if (ACC_GEN_size == 0xFF) { // see assumptions
   //    size = 0xFF - 2;
   //}
-  memset(DAT_word, 0, WORD_SIZE);
-  assert(ACC_sentence != NULL);
+  memset(DAT_word, 0, WORD_LONG);
+  assert(ACC_independentClause != NULL);
   assert(ACC_GEN_size > 0);
-  assert(DAT_code_sentence != NULL);
+  assert(DAT_code_independentClause != NULL);
   assert(*DAT_GEN_size >= ACC_GEN_size / 2);
   for (; i < ACC_GEN_size; j++) {
-    derive_first_word((uint8_t)(ACC_GEN_size - i), ACC_sentence + i,
+    derive_first_word((uint8_t)(ACC_GEN_size - i), ACC_independentClause + i,
                       &DAT_word_GEN_size, DAT_word);
-    // printf("%s %d \n", ACC_sentence +i,
+    // printf("%s %d \n", ACC_independentClause +i,
     //    (int) DAT_word_GEN_size);
     if (DAT_word_GEN_size == 0) {
       *DAT_GEN_remainder = (uint8_t)(ACC_GEN_size - i);
@@ -655,30 +619,31 @@ void code_ACC_word_PL(const uint8_t ACC_GEN_size,
     }
     code_ACC_word_DAT_number(DAT_word_GEN_size, DAT_word, &number);
     i = (uint8_t)(i + DAT_word_GEN_size);
-    DAT_code_sentence[j] = number;
-    DAT_word_GEN_size = WORD_SIZE;
+    DAT_code_independentClause[j] = number;
+    DAT_word_GEN_size = WORD_LONG;
   }
   *DAT_GEN_size = j;
 }
 
 /* remember if binary_phrase_list beginning is one
-    then is last tablet or only of sentence
+    then is last tablet or only of independentClause
     else if binary_phrase_list begining is zero,
-    then is part tablet of sentence
+    then is part tablet of independentClause
 */
 static inline void establish_ACC_binary_phrase_list(
-    const uint16_t *restrict code_text, const uint8_t sentence_size,
+    const uint16_t *restrict code_text, const uint8_t independentClause_size,
     uint16_t *binary_phrase_list, uint16_t *tablet) {
   uint8_t current = 0;
   uint8_t i = 0;
   assert(code_text != NULL);
-  assert(sentence_size != 0);
-  assert(sentence_size <= BRICK_WORD_SIZE * MAX_SENTENCE_BRICK + 1);
+  assert(independentClause_size != 0);
+  assert(independentClause_size <=
+         TABLET_WORD_LONG * MAX_INDEPENDENTCLAUSE_TABLET + 1);
   assert(binary_phrase_list != NULL);
   if (*binary_phrase_list == 0) {
     current = (uint8_t)~current;
   }
-  for (i = 0; i < sentence_size; i++) {
+  for (i = 0; i < independentClause_size; i++) {
     if (current == 2)
       break;
     switch (current) {
@@ -686,7 +651,7 @@ static inline void establish_ACC_binary_phrase_list(
         *binary_phrase_list |= 0 << (i + 1);
         break; */
     case 0xFF:
-      *binary_phrase_list |= (uint16_t)(1 << (i + 1));
+      *binary_phrase_list = (uint16_t)(*binary_phrase_list | 1 << (i + 1));
       break;
     default:
       break;
@@ -718,7 +683,7 @@ void tablet_code(const uint8_t code_text_size, const uint16_t *code_text,
                  uint8_t *tablet_size, uint16_t *tablet, uint8_t *remainder) {
   uint16_t binary_phrase_list = 0;
   uint8_t i = 0;
-  uint8_t sentence_size = 0;
+  uint8_t independentClause_size = 0;
   uint8_t tablet_number = 0;
   assert(code_text != NULL);
   assert(code_text_size > 0);
@@ -727,28 +692,28 @@ void tablet_code(const uint8_t code_text_size, const uint16_t *code_text,
   assert(remainder != NULL);
   assert(*tablet_size >= 16);
   /* algorithm:
-      detect end of sentence marker deontic-mood,
+      detect end of independentClause marker deontic-mood,
       set remainder as the rest.
       determine if can fit in one tablet or need multiple*/
   for (i = 0; i < code_text_size; i++) {
     if (code_text[i] == DEONTIC_MOOD || code_text[i] == REALIS_MOOD) {
-      sentence_size = (uint8_t)(i + 1);
+      independentClause_size = (uint8_t)(i + 1);
       break;
     }
   }
-  assert(sentence_size > 0);
-  for (i = 0; i < sentence_size; i = (uint8_t)(i + BRICK_WORD_SIZE)) {
-    if (sentence_size - i > BRICK_WORD_SIZE) {
+  assert(independentClause_size > 0);
+  for (i = 0; i < independentClause_size; i = (uint8_t)(i + TABLET_WORD_LONG)) {
+    if (independentClause_size - i > TABLET_WORD_LONG) {
       binary_phrase_list = 0;
     } else {
       binary_phrase_list = 1;
     }
     establish_ACC_binary_phrase_list(
-        code_text + i, (uint8_t)(sentence_size - i), &binary_phrase_list,
-        tablet + tablet_number);
+        code_text + i, (uint8_t)(independentClause_size - i),
+        &binary_phrase_list, tablet + tablet_number);
     ++tablet_number;
   }
-  *remainder = (uint8_t)(code_text_size - sentence_size);
+  *remainder = (uint8_t)(code_text_size - independentClause_size);
   *tablet_size = (uint8_t)(tablet_number);
 }
 
@@ -806,10 +771,10 @@ static inline void derive_quote_word(const uint8_t quote_class_size,
                                      const uint8_t quote_size,
                                      const char *quote_text,
                                      uint16_t *restrict quote_word) {
-  char word[WORD_SIZE];
+  char word[WORD_LONG];
   uint16_t quote_number = 0;
-  uint8_t word_size = WORD_SIZE;
-  memset(word, 0, WORD_SIZE);
+  uint8_t word_size = WORD_LONG;
+  memset(word, 0, WORD_LONG);
   // printf("quote_class_size %X\n", (uint)quote_class_size);
   assert(quote_class != NULL);
   assert(quote_class_size > 0);
@@ -817,25 +782,26 @@ static inline void derive_quote_word(const uint8_t quote_class_size,
   assert(quote_size < 16);
   assert(quote_word != NULL);
   if (quote_size == 1) {
-    *quote_word = (uint16_t)(QUOTE_INDICATOR |
-                             ((quote_text[0] - 0x30) << QUOTE_LITERAL_SPOT));
+    *quote_word =
+        (uint16_t)(QUOTED_REFERENTIAL |
+                   ((quote_text[0] - 0x30) << QUOTED_LITERAL_INDEXFINGER));
     return;
   } else if (quote_size == 2) {
     *quote_word =
-        (uint16_t)QUOTE_INDICATOR | (TWO_BYTE_QUOTE << CONSONANT_ONE_WIDTH);
+        (uint16_t)QUOTED_REFERENTIAL | (TWO_BYTE_QUOTED << CONSONANT_ONE_THICK);
   } else if (quote_size > 2 && quote_size <= 4) {
-    *quote_word =
-        (uint16_t)QUOTE_INDICATOR | (FOUR_BYTE_QUOTE << CONSONANT_ONE_WIDTH);
+    *quote_word = (uint16_t)QUOTED_REFERENTIAL |
+                  (FOUR_BYTE_QUOTED << CONSONANT_ONE_THICK);
   } else if (quote_size > 4 && quote_size <= 8) {
-    *quote_word =
-        (uint16_t)QUOTE_INDICATOR | (EIGHT_BYTE_QUOTE << CONSONANT_ONE_WIDTH);
+    *quote_word = (uint16_t)QUOTED_REFERENTIAL |
+                  (EIGHT_BYTE_QUOTED << CONSONANT_ONE_THICK);
   } else if (quote_size > 8 && quote_size <= 16) {
-    *quote_word =
-        (uint16_t)QUOTE_INDICATOR | (SIXTEEN_BYTE_QUOTE << CONSONANT_ONE_WIDTH);
+    *quote_word = (uint16_t)QUOTED_REFERENTIAL |
+                  (SIXTEEN_BYTE_QUOTED << CONSONANT_ONE_THICK);
   }
   // constant data
-  *quote_word |= QUOTE_LITERAL << QUOTE_LITERAL_XOR_ADDRESS_SPOT;
-  *quote_word |= FALSE << QUOTE_INTEGER_SPOT;
+  *quote_word |= QUOTED_LITERAL << QUOTED_LITERAL_XOR_ADDRESS_INDEXFINGER;
+  *quote_word |= FALSE << QUOTED_INTEGER_INDEXFINGER;
   derive_first_word(quote_class_size, quote_class, &word_size, word);
   assert(word_size > 0 && "to derive type of quote");
   if (word_size > 0)
@@ -847,11 +813,11 @@ static inline void derive_quote_word(const uint8_t quote_class_size,
   // printf("quote_number %X\n", (uint) quote_number);
   switch (quote_number) {
   case TEXT_WORD:
-    *quote_word |= SINGLE_BYTE_QUOTE << QUOTE_GLYPH_WIDTH_SPOT;
-    *quote_word |= TEXT_CLASS << QUOTE_CLASS_SPOT;
+    *quote_word |= SINGLE_BYTE_QUOTED << QUOTED_GLYPH_THICK_INDEXFINGER;
+    *quote_word |= TEXT_CLASS << QUOTED_CLASS_INDEXFINGER;
     break;
   case NUMBER_WORD:
-    *quote_word |= NUMBER_CLASS << QUOTE_CLASS_SPOT;
+    *quote_word |= NUMBER_CLASS << QUOTED_CLASS_INDEXFINGER;
     break;
   default:
     printf("unknown quote_number %X\n", (uint)quote_number);
@@ -965,16 +931,16 @@ static void convert_last_number_to_quote(uint8_t *last_tablet_spot,
   //       (uint)tablet_spot, (uint)number_spot);
   if (number <= 0xFFFF) {
     *last_tablet_spot = (uint8_t)(tablet_spot + 1);
-    tablet[0][tablet_spot] = (uint16_t)(SHORT_NUMBER_QUOTE);
+    tablet[0][tablet_spot] = (uint16_t)(SHORT_NUMBER_QUOTED);
     ++tablet_spot;
     tablet[0][tablet_spot] = (uint16_t)(number);
   }
   assert(number_spot <= 2);
 }
 
-void sentence_code(const uint16_t text_size, const char *text,
-                   uint8_t *tablet_size, v16us *tablet,
-                   uint16_t *text_remainder) {
+void independentClause_code(const uint16_t text_size, const char *text,
+                            uint8_t *tablet_size, v16us *tablet,
+                            uint16_t *text_remainder) {
   /* algorithm:
       loop through glyphs,
       derive words
@@ -988,26 +954,26 @@ void sentence_code(const uint16_t text_size, const char *text,
   uint8_t text_spot = 0;
   uint8_t tablet_spot = 1;
   uint8_t quote_spot = 0;
-  char word[WORD_SIZE];
+  char word[WORD_LONG];
   uint8_t word_size = 0;
-  char derived_word[WORD_SIZE];
-  uint8_t derived_word_size = WORD_SIZE;
+  char derived_word[WORD_LONG];
+  uint8_t derived_word_size = WORD_LONG;
   uint16_t number = 0;
   uint16_t quote_word = 0;
   uint16_t binary_phrase_list = (uint16_t)1;
   uint8_t quote_size = 0;
   uint8_t quote_tablet_size = 0;
   uint8_t current = 0x0;
-  memset(word, 0, WORD_SIZE);
-  memset(derived_word, 0, WORD_SIZE);
+  memset(word, 0, WORD_LONG);
+  memset(derived_word, 0, WORD_LONG);
   assert(text != NULL);
   assert(text_size > 0);
   assert(tablet != NULL);
   assert(tablet_size != NULL);
   assert(text_remainder != NULL);
   // printf("tablet_size %X text %s\n",(uint) *tablet_size, text);
-  // assert(*tablet_size >= text_size/2/15 /*MAX_SENTENCE_BRICK*/);
-  // printf("sentence encoding\n");
+  // assert(*tablet_size >= text_size/2/15 /*MAX_INDEPENDENTCLAUSE_TABLET*/);
+  // printf("independentClause encoding\n");
   for (text_spot = 0; text_spot < text_size; ++text_spot) {
     glyph = text[text_spot];
     if (consonant_Q(glyph) == TRUE || vowel_Q(glyph) == TRUE ||
@@ -1018,22 +984,22 @@ void sentence_code(const uint16_t text_size, const char *text,
     }
     if (word_size >= 2) {
       // printf("tablet_spot %X\n", (uint) tablet_spot);
-      memset(derived_word, 0, WORD_SIZE);
-      derived_word_size = WORD_SIZE;
+      memset(derived_word, 0, WORD_LONG);
+      derived_word_size = WORD_LONG;
       derive_first_word(word_size, word, &derived_word_size, derived_word);
       if (derived_word_size > 0) {
         number = 0;
         code_ACC_word_DAT_number(derived_word_size, derived_word, &number);
         // printf("n 0x%X \n", (uint) number);
         if (number != 0) {
-          memset(word, 0, WORD_SIZE);
+          memset(word, 0, WORD_LONG);
           switch (number) {
           case NUMBER_GRAMMAR_WORD:
             /* if preceded by a quote word, then do as a default.
                if preceded by numbers then convert them to a quote,
                and adjust tablet_spot accordingly */
-            if ((tablet[0][tablet_spot - 1] & QUOTE_INDICATOR) ==
-                QUOTE_INDICATOR) {
+            if ((tablet[0][tablet_spot - 1] & QUOTED_REFERENTIAL) ==
+                QUOTED_REFERENTIAL) {
               // tablet[0][tablet_spot] = number;
               //++tablet_spot;
               break;
@@ -1046,28 +1012,28 @@ void sentence_code(const uint16_t text_size, const char *text,
               ++tablet_spot;
               break;
             }
-          case QUOTE_GRAMMAR_WORD:
+          case QUOTED_GRAMMAR_WORD:
             // printf("detected quote word %X\n", (uint)text_spot);
             ++text_spot;
             detect_ACC_quote_size((uint8_t)(text_size - text_spot),
                                   text + text_spot, &quote_size, &quote_spot);
             // printf("detected quote size %X\n", (uint) quote_size);
             // printf("quote_spot %X\n", (uint) quote_spot - text_spot);
-            // printf("quote %s\n", text + text_spot + SILENCE_GLYPH_SIZE);
-            derive_quote_word((uint8_t)(quote_spot - SILENCE_GLYPH_SIZE),
-                              text + text_spot + SILENCE_GLYPH_SIZE, quote_size,
+            // printf("quote %s\n", text + text_spot + SILENCE_GLYPH_LONG);
+            derive_quote_word((uint8_t)(quote_spot - SILENCE_GLYPH_LONG),
+                              text + text_spot + SILENCE_GLYPH_LONG, quote_size,
                               text + text_spot + quote_spot, &quote_word);
             // printf("quote_word %X\n", (uint)quote_word);
             tablet[0][tablet_spot] = quote_word;
             ++tablet_spot;
             copy_ACC_text_DAT_tablet(
                 text + text_spot + quote_spot, quote_size, tablet, tablet_spot,
-                (uint8_t)(*tablet_size * BRICK_SIZE - tablet_spot));
+                (uint8_t)(*tablet_size * TABLET_LONG - tablet_spot));
             // printf("text_spot %X, quote_spot %X, quote_size %X\n",
             //       (uint)text_spot, (uint)quote_spot,
             //       (uint)quote_size);
-            text_spot = (uint8_t)(text_spot + (quote_spot)*2 + QUOTE_WORD_SIZE +
-                                  quote_size - 1);
+            text_spot = (uint8_t)(text_spot + (quote_spot)*2 +
+                                  QUOTED_WORD_LONG + quote_size - 1);
             word_size = 0;
             fit_quote_size(quote_size, &quote_tablet_size);
             // printf("qll %X\n", (uint)
@@ -1077,34 +1043,40 @@ void sentence_code(const uint16_t text_size, const char *text,
             //        tablet_spot);
             break;
           case ACCUSATIVE_CASE:
-            binary_phrase_list ^= (uint16_t)(1 << tablet_spot);
+            binary_phrase_list =
+                (uint16_t)(binary_phrase_list ^ 1 << tablet_spot);
             tablet[0][tablet_spot] = number;
             ++tablet_spot;
             break;
           case INSTRUMENTAL_CASE:
-            binary_phrase_list ^= (uint16_t)(1 << tablet_spot);
+            binary_phrase_list =
+                (uint16_t)(binary_phrase_list ^ 1 << tablet_spot);
             tablet[0][tablet_spot] = number;
             ++tablet_spot;
             break;
           case DATIVE_CASE:
-            binary_phrase_list ^= (uint16_t)(1 << tablet_spot);
+            binary_phrase_list =
+                (uint16_t)(binary_phrase_list ^ 1 << tablet_spot);
             tablet[0][tablet_spot] = number;
             ++tablet_spot;
             break;
           case CONDITIONAL_MOOD:
             tablet[0][tablet_spot] = number;
-            binary_phrase_list ^= (uint16_t)(1 << tablet_spot);
+            binary_phrase_list =
+                (uint16_t)(binary_phrase_list ^ 1 << tablet_spot);
             ++tablet_spot;
             break;
           case DEONTIC_MOOD:
             tablet[0][tablet_spot] = number;
-            binary_phrase_list ^= (uint16_t)(1 << tablet_spot);
+            binary_phrase_list =
+                (uint16_t)(binary_phrase_list ^ 1 << tablet_spot);
             current = 2;
             ++tablet_spot;
             break;
           case REALIS_MOOD:
             tablet[0][tablet_spot] = number;
-            binary_phrase_list ^= (uint16_t)(1 << tablet_spot);
+            binary_phrase_list =
+                (uint16_t)(binary_phrase_list ^ 1 << tablet_spot);
             current = 2;
             ++tablet_spot;
             break;
@@ -1131,42 +1103,42 @@ inline void play(const v4us coded_name, v8us *hook_list) {
   void *accusative = NULL;
   void *instrumental = NULL;
   // void *dative =  NULL;
-  assert(coded_name[VERB_SPOT] != 0);
+  assert(coded_name[VERB_INDEXFINGER] != 0);
   assert(hook_list != NULL);
   // quizing hash key name
   printf("coded_name play %04X%04X%04X%04X\n", (uint)coded_name[3],
          (uint)coded_name[2], (uint)coded_name[1], (uint)coded_name[0]);
-  switch (coded_name[ACCUSATIVE_SPOT]) {
-  case UNSIGNED_CHAR_QUOTE:
-    accusative = (unsigned char *)&(hook_list[ACCUSATIVE_SPOT]);
+  switch (coded_name[ACCUSATIVE_INDEXFINGER]) {
+  case UNSIGNED_CHAR_QUOTED:
+    accusative = (unsigned char *)&(hook_list[ACCUSATIVE_INDEXFINGER]);
     break;
-  case SIGNED_CHAR_QUOTE:
-    accusative = (char *)&(hook_list[ACCUSATIVE_SPOT]);
+  case SIGNED_CHAR_QUOTED:
+    accusative = (char *)&(hook_list[ACCUSATIVE_INDEXFINGER]);
     break;
-  case SHORT_NUMBER_QUOTE:
-    accusative = (uint16_t *)&(hook_list[ACCUSATIVE_SPOT]);
+  case SHORT_NUMBER_QUOTED:
+    accusative = (uint16_t *)&(hook_list[ACCUSATIVE_INDEXFINGER]);
     break;
-  case WRONG_BINARY:
+  case ERROR_BINARY:
     break;
   default:
-    printf("unrecognized type %04X", (uint)coded_name[ACCUSATIVE_SPOT]);
+    printf("unrecognized type %04X", (uint)coded_name[ACCUSATIVE_INDEXFINGER]);
     assert(0 != 0);
     break;
   }
-  switch (coded_name[INSTRUMENTAL_SPOT]) {
-  case UNSIGNED_CHAR_QUOTE:
-    instrumental = (unsigned char *)&(hook_list[INSTRUMENTAL_SPOT]);
+  switch (coded_name[INSTRUMENTAL_INDEXFINGER]) {
+  case UNSIGNED_CHAR_QUOTED:
+    instrumental = (unsigned char *)&(hook_list[INSTRUMENTAL_INDEXFINGER]);
     break;
-  case SIGNED_CHAR_QUOTE:
-    instrumental = (char *)&(hook_list[INSTRUMENTAL_SPOT]);
+  case SIGNED_CHAR_QUOTED:
+    instrumental = (char *)&(hook_list[INSTRUMENTAL_INDEXFINGER]);
     break;
-  case SHORT_NUMBER_QUOTE:
-    instrumental = (uint16_t *)&(hook_list[INSTRUMENTAL_SPOT]);
+  case SHORT_NUMBER_QUOTED:
+    instrumental = (uint16_t *)&(hook_list[INSTRUMENTAL_INDEXFINGER]);
     break;
-  case WRONG_BINARY:
+  case ERROR_BINARY:
     break;
   default:
-    printf("unrecognized type %04X", (uint)coded_name[ACCUSATIVE_SPOT]);
+    printf("unrecognized type %04X", (uint)coded_name[ACCUSATIVE_INDEXFINGER]);
     assert(0 != 0);
     break;
   }
@@ -1206,24 +1178,24 @@ static inline void play_quote(const v16us *tablet, const uint8_t tablet_spot,
   uint8_t quote_spot = 0;
   uint8_t quote_size;
   assert(tablet != NULL);
-  assert(tablet_spot < BRICK_SIZE);
-  assert(tablet_size < MAX_SENTENCE_BRICK);
+  assert(tablet_spot < TABLET_LONG);
+  assert(tablet_size < MAX_INDEPENDENTCLAUSE_TABLET);
   assert(quote_word != NULL);
   assert(quote_fill != NULL);
   word = tablet[0][tablet_spot];
   // printf("quote quizing, word %04X\n", (uint) (*tablet)[tablet_spot]);
-  if ((word & CONSONANT_ONE_MASK) == QUOTE_INDICATOR) {
+  if ((word & CONSONANT_ONE_MASK) == QUOTED_REFERENTIAL) {
     // then is quote
     *quote_word = word;
     // printf("quote detected %04X\n", (uint)word);
     quote_size = (uint8_t)(
-        1 << (((*quote_word >> CONSONANT_ONE_WIDTH) & 7 /* 3 bit mask */) - 1));
+        1 << (((*quote_word >> CONSONANT_ONE_THICK) & 7 /* 3 bit mask */) - 1));
     // printf("quote_size %X \n", (uint)quote_size);
     // printf("tablet_spot %X \n", (uint)tablet_spot);
-    assert(quote_size < tablet_size * BRICK_SIZE * WORD_WIDTH);
+    assert(quote_size < tablet_size * TABLET_LONG * WORD_THICK);
     // printf("quote_fill ");
     if (quote_size == 0) {
-      (*quote_fill)[0] = (uint16_t)(word >> QUOTE_LITERAL_SPOT);
+      (*quote_fill)[0] = (uint16_t)(word >> QUOTED_LITERAL_INDEXFINGER);
       // printf("%04X ", (uint)(*quote_fill)[0]);
     }
     for (quote_spot = 0; quote_spot < quote_size; ++quote_spot) {
@@ -1254,7 +1226,7 @@ inline void burden_hook_list(const uint8_t tablet_size,
   // printf("indicator %X\n", (uint) indicator);
   // printf("indicator_list %X\n", (uint) indicator_list);
   for (tablet_number = 0; tablet_number < tablet_size; ++tablet_number) {
-    for (; *tablet_spot < BRICK_SIZE; ++*tablet_spot) {
+    for (; *tablet_spot < TABLET_LONG; ++*tablet_spot) {
       // printf("BHL tablet_spot %X\n", (uint)*tablet_spot);
       // if previous is indicated then quiz if is quote
       if (((indicator_list & (1 << (*tablet_spot - 1))) >>
@@ -1272,28 +1244,28 @@ inline void burden_hook_list(const uint8_t tablet_size,
         case ACCUSATIVE_CASE:
           // printf("detected accusative case\n");
           if (quote_word != 0) {
-            (*coded_name)[ACCUSATIVE_SPOT] = quote_word;
+            (*coded_name)[ACCUSATIVE_INDEXFINGER] = quote_word;
             // printf("coded_name ACC %04X%04X%04X%04X\n",
             //       (uint)(*coded_name)[3], (uint)(*coded_name)[2],
             //       (uint)(*coded_name)[1], (uint)(*coded_name)[0]);
-            hook_list[ACCUSATIVE_SPOT] = quote_fill;
+            hook_list[ACCUSATIVE_INDEXFINGER] = quote_fill;
             // printf("ACC quote_fill %X\n", (uint)quote_fill[0]);
             // printf("ACC hook_list %X\n",
-            // (uint)hook_list[ACCUSATIVE_SPOT][0]);
+            // (uint)hook_list[ACCUSATIVE_INDEXFINGER][0]);
             quote_word = 0;
           }
           break;
         case DATIVE_CASE:
           if (quote_word != 0) {
-            (*coded_name)[DATIVE_SPOT] = quote_word;
-            hook_list[DATIVE_SPOT] = quote_fill;
+            (*coded_name)[DATIVE_INDEXFINGER] = quote_word;
+            hook_list[DATIVE_INDEXFINGER] = quote_fill;
             quote_word = 0;
           }
           break;
         case INSTRUMENTAL_CASE:
           if (quote_word != 0) {
-            (*coded_name)[INSTRUMENTAL_SPOT] = quote_word;
-            hook_list[INSTRUMENTAL_SPOT] = quote_fill;
+            (*coded_name)[INSTRUMENTAL_INDEXFINGER] = quote_word;
+            hook_list[INSTRUMENTAL_INDEXFINGER] = quote_fill;
             quote_word = 0;
           }
           break;
@@ -1309,10 +1281,10 @@ inline void burden_hook_list(const uint8_t tablet_size,
       break;
   }
 }
-inline void play_sentence(const uint8_t tablet_size,
-                          const v16us *restrict tablet, v4us *coded_name,
-                          v8us *hook_list) {
-  /* go through coded sentence,
+inline void play_independentClause(const uint8_t tablet_size,
+                                   const v16us *restrict tablet,
+                                   v4us *coded_name, v8us *hook_list) {
+  /* go through coded independentClause,
       loading quotes into temporary register,
       append to case list,
       when get to case, move to appropriate case register,
@@ -1344,23 +1316,23 @@ inline void play_sentence(const uint8_t tablet_size,
   //       (uint)(*coded_name)[2], (uint)(*coded_name)[1],
   //       (uint)(*coded_name)[0]);
   for (tablet_number = 0; tablet_number < tablet_size; ++tablet_number) {
-    for (; tablet_spot < BRICK_SIZE; ++tablet_spot) {
+    for (; tablet_spot < TABLET_LONG; ++tablet_spot) {
       // if current is indicated then quiz if is case or
       // verb
       if (((indicator_list & (1 << tablet_spot)) >> tablet_spot) == indicator) {
-        word = tablet[tablet_number][tablet_spot];
-        // printf("word %X\n", (uint)word);
+        word = (*tablet)[tablet_spot];
+        // printf("word %X tablet_spot %X\n", (uint)word, (uint)tablet_spot);
         switch (word) {
         case CONDITIONAL_MOOD:
           word = tablet[0][tablet_spot - 1];
           // printf("COND word %04X \n", (uint) word);
-          coded_name[0][VERB_SPOT] = word;
+          coded_name[0][VERB_INDEXFINGER] = word;
           // printf("coded_name COND %04X%04X%04X%04X\n",
           //       (uint)(*coded_name)[3], (uint)(*coded_name)[2],
           //       (uint)(*coded_name)[1], (uint)(*coded_name)[0]);
           play(*coded_name, hook_list);
-          // if dative is WRONG_WORD then skip to next sentence
-          if (hook_list[DATIVE_SPOT][0] == WRONG_WORD) {
+          // if dative is LIE_WORD then skip to next independentClause
+          if (hook_list[DATIVE_INDEXFINGER][0] == LIE_WORD) {
             exit = TRUE;
           } else {
             ++tablet_spot;
@@ -1376,7 +1348,7 @@ inline void play_sentence(const uint8_t tablet_size,
         case DEONTIC_MOOD:
           // quizing verb
           word = tablet[0][tablet_spot - 1];
-          (*coded_name)[VERB_SPOT] = word;
+          (*coded_name)[VERB_INDEXFINGER] = word;
           // printf("coded_name DEO %04X%04X%04X%04X\n",
           //       (uint)(*coded_name)[3], (uint)(*coded_name)[2],
           //       (uint)(*coded_name)[1], (uint)(*coded_name)[0]);
@@ -1387,7 +1359,7 @@ inline void play_sentence(const uint8_t tablet_size,
         case REALIS_MOOD:
           // quizing verb
           word = tablet[0][tablet_spot - 1];
-          (*coded_name)[VERB_SPOT] = word;
+          (*coded_name)[VERB_INDEXFINGER] = word;
           printf("coded_name REAL %04X%04X%04X%04X\n", (uint)(*coded_name)[3],
                  (uint)(*coded_name)[2], (uint)(*coded_name)[1],
                  (uint)(*coded_name)[0]);
@@ -1395,8 +1367,9 @@ inline void play_sentence(const uint8_t tablet_size,
           play((*coded_name), hook_list);
           exit = TRUE;
           break;
-        case WRONG_BINARY:
-          assert(WRONG_BINARY != WRONG_BINARY);
+        case ERROR_BINARY:
+          printf("%d tablet_spot\n", (uint)tablet_spot);
+          assert(ERROR_BINARY != ERROR_BINARY);
           break;
         default:
           // printf("tablet_spot %X\n", (uint)tablet_spot);
@@ -1418,29 +1391,30 @@ inline void play_sentence(const uint8_t tablet_size,
 inline void text_code(const uint16_t max_text_size, const char *text,
                       uint16_t *tablet_size, v16us *tablet,
                       uint16_t *text_remainder) {
-  /* find end of sentence for each,
-    then pass each sentence to sentence code,
+  /* find end of independentClause for each,
+    then pass each independentClause to independentClause code,
     return the result */
   const uint16_t max_tablet_size = *tablet_size;
-  uint8_t sentence_tablet_size = MAX_SENTENCE_BRICK;
+  uint8_t independentClause_tablet_size = MAX_INDEPENDENTCLAUSE_TABLET;
   uint16_t text_spot = 0;
   assert(text != NULL);
   assert(max_text_size != 0);
   assert(tablet != NULL);
   assert(tablet_size != NULL);
-  assert(*tablet_size * BRICK_BYTE_SIZE <= MAX_WRITE_MEMORY);
+  assert(*tablet_size * TABLET_BYTE_LONG <= MAX_WRITE_MEMORY);
   assert(text_remainder != NULL);
   *tablet_size = 0;
   *text_remainder = max_text_size;
   for (; *tablet_size < max_tablet_size;) {
-    if ((max_tablet_size - *tablet_size) < MAX_SENTENCE_BRICK) {
-      sentence_tablet_size = (uint8_t)(max_tablet_size - *tablet_size);
+    if ((max_tablet_size - *tablet_size) < MAX_INDEPENDENTCLAUSE_TABLET) {
+      independentClause_tablet_size = (uint8_t)(max_tablet_size - *tablet_size);
     } else {
-      sentence_tablet_size = (uint8_t)MAX_SENTENCE_BRICK;
+      independentClause_tablet_size = (uint8_t)MAX_INDEPENDENTCLAUSE_TABLET;
     }
-    sentence_code(*text_remainder, text + text_spot, &sentence_tablet_size,
-                  &tablet[*tablet_size], text_remainder);
-    *tablet_size = (uint16_t)(*tablet_size + sentence_tablet_size);
+    independentClause_code(*text_remainder, text + text_spot,
+                           &independentClause_tablet_size,
+                           &tablet[*tablet_size], text_remainder);
+    *tablet_size = (uint16_t)(*tablet_size + independentClause_tablet_size);
     if (*text_remainder == 0) {
       break;
     }
@@ -1456,8 +1430,8 @@ inline void text_code(const uint16_t max_text_size, const char *text,
 inline void play_text(const uint16_t max_tablet_size, const v16us *tablet,
                       v4us *coded_name, v8us *hook_list) {
   /*
-    identify sentence tablet,
-    then pass to sentence_play,
+    identify independentClause tablet,
+    then pass to independentClause_play,
     and so on until reach end.
   */
   uint16_t tablet_spot = 0;
@@ -1466,7 +1440,7 @@ inline void play_text(const uint16_t max_tablet_size, const v16us *tablet,
   assert(coded_name != NULL);
   assert(hook_list != NULL);
   for (; tablet_spot < max_tablet_size; ++tablet_spot) {
-    play_sentence((uint8_t)(max_tablet_size - tablet_spot),
-                  &tablet[tablet_spot], coded_name, hook_list);
+    play_independentClause((uint8_t)(max_tablet_size - tablet_spot),
+                           &tablet[tablet_spot], coded_name, hook_list);
   }
 }

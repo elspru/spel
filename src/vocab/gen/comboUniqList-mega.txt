@@ -197,11 +197,12 @@ potential-mood g 3
 allative-case g
 anthropic-gender g
 five
+same-subject-marker g
 different-subject g
 answer
 sea
 fear g
-understand g
+understand
 terms
 doubt g
 dubitative-mood g 3
@@ -218,6 +219,7 @@ interest g
 write
 bed
 age
+counterfactual-conditional g 2
 art
 vialis-case g
 brother
@@ -241,7 +243,7 @@ copy
 husband
 six
 living
-peace g
+peace
 remember
 natural
 fall
@@ -291,7 +293,7 @@ inclusive-person g
 influence
 appear
 secret
-please g
+please
 precative-mood g 3
 polite-register g
 evil
@@ -316,7 +318,7 @@ wonder g
 born
 court
 gnomic-aspect g 2
-respect g
+respect
 worth
 tree
 wall
@@ -373,7 +375,7 @@ corner
 trademark
 justice
 produce
-laugh g
+laugh
 forget
 europe
 eight
@@ -401,7 +403,7 @@ minute
 lead
 glass
 board
-vain g
+vain
 affairs
 safe
 doctor
@@ -474,6 +476,7 @@ choose
 animal
 zoic-gender g
 eventive-mood g 
+same-event-marker g
 multiplicative-case g
 cross
 thick
@@ -536,7 +539,7 @@ twice
 priest
 wounded g
 palace
-fool g
+fool
 favour
 nine
 sympathy g
@@ -643,7 +646,7 @@ fill
 prisoner
 shop
 stairs
-pardon g
+pardon
 gay
 sand
 september
@@ -792,6 +795,7 @@ shock g
 driving
 treasure
 seed
+recent-past-tense g 3
 awake
 furniture
 rope
@@ -818,7 +822,7 @@ definite-article g
 emperor
 administration
 previously
-ugly g
+ugly
 harmless
 training
 roll
@@ -844,7 +848,7 @@ comparison
 composition
 rival
 coach
-humour g
+humour
 novel
 revenge
 jealous g
@@ -896,7 +900,7 @@ funeral
 flour
 romantic
 dollar
-jest g
+jest
 sixteen
 colony
 wing
@@ -1145,7 +1149,7 @@ architecture
 disposal
 crack
 ornament
-amuse g
+amuse
 recovery
 code
 hunter
@@ -1224,6 +1228,7 @@ stress
 consumption
 groan
 resemble
+quoted g 2
 sack
 needle
 phenomenon
@@ -1245,7 +1250,7 @@ expose
 birthday
 hammer
 fragrant
-trivial g
+trivial
 pet
 skull
 legislature
@@ -1302,7 +1307,7 @@ resurrection
 shelf
 fan
 tropical
-arbitrary g
+arbitrary
 mercury
 benevolent g
 suicide
@@ -1824,6 +1829,7 @@ budge
 unemployment
 caterpillar
 calcium
+remote-past-tense g 3
 historic-tense g
 spectrum
 sodium
@@ -1857,6 +1863,7 @@ arsenic
 statistical
 grasshopper
 socialist
+sensory-evidential-mood g 2
 tablecloth
 controversial
 leash
@@ -1880,7 +1887,7 @@ diagonal
 subconscious
 eyebrow
 sneeze
-hilarious g
+hilarious
 occupancy
 hinduism
 refugee
@@ -2104,6 +2111,7 @@ anticlimax g
 selenium
 cortex
 sulfur
+current-relevance-marker g
 airport
 imposter
 cockroach
@@ -2337,7 +2345,6 @@ recruiter
 ration
 disembarking
 touring
-unquote g
 roles
 striped
 receptionist
@@ -2379,12 +2386,14 @@ nth-root
 meandering
 civil-rights
 antibody
+month-of-may
 redecorate
 trial-number g 3
 flow-current
 triple-point
 fining
 retail-store
+unit-of-mass
 binary-value g
 microphone
 physics
@@ -2471,6 +2480,7 @@ summarizing
 generalization
 compile
 imaginary-unit
+speed-of-light
 evitative-case g
 critical-point
 swear-in
@@ -2496,6 +2506,7 @@ indirect-speech g
 cesium
 different-event g
 absolutive-case g
+change-of-event g
 videoconference
 self-confidence g
 rationality
@@ -2535,9 +2546,11 @@ headphone
 applicative-voice g 3
 antipassive-voice g 3
 telecommunication
+soon-future-tense g 3
 successive-clause g
 shorts
 passive-participle g
+single-action-verb g 3
 superlative-degree g
 singulative-number g
 denominator
@@ -2550,11 +2563,13 @@ grammatical-object
 luminous-intensity g
 postpositional-case g
 connective-particle g
+remote-future-tense g 3
 epenthetic-morpheme g
 next-to
 supercritical-fluid
 referring
 negatory-quantifier g
+amount-of-substance g
 elective-quantifier g
 allocutive-agreement g
 distributive-pronoun g 3
@@ -2562,7 +2577,10 @@ universal-quantifier g
 computer-programming
 assertive-quantifier g
 frequentative-aspect g
+floating-point-number g
+past-passive-participle g
 superiors
+locative-directional-case g
 counterfactual-conditional g
 literal
 years
@@ -2678,7 +2696,7 @@ syria
 conjecture
 plunge
 rash
-majestic g
+majestic
 portugal
 switzerland
 salute
@@ -3735,7 +3753,7 @@ reusable
 isobar
 diode
 synapse
-blase g
+blase
 turkeys
 geo-science
 all-organic
@@ -3876,6 +3894,7 @@ user-interface
 screenshot
 scroll-bar
 hovercraft
+slash-and-burn
 stabilizer
 brain-storming
 consumer-focus
@@ -3896,6 +3915,7 @@ computer-program
 spyware
 brownian
 operating-system
+read-only-memory
 african-american
 formalwear
 modeling
@@ -3910,6 +3930,9 @@ genitals
 gladiolus
 start-ups
 goalpost
+random-access-memory
+central-processing-unit
+frequently-asked-questions
 said
 came
 eyes
@@ -4087,7 +4110,6 @@ moonlight
 california
 promises
 bushes
-quoted
 students
 venice
 gratefully
@@ -4405,6 +4427,8 @@ fondly
 unsolicited
 mike
 moscow
+brother-in-law
+son-in-law
 groom
 noticing
 particles
@@ -4460,7 +4484,6 @@ directors
 substituted
 bricks
 palestine
-sloping
 whiteness
 tickets
 sagacity
@@ -4576,7 +4599,7 @@ thirty-two
 desertion
 sentry
 millionaire
-awed g
+awed
 unwonted
 empress
 gout
@@ -4719,12 +4742,14 @@ commune
 awkwardness
 bookseller
 levy
+mother-in-law
 subtlety
 ghent
 swoon
 presentiment
 ethereal
 iceland
+well-to-do
 sonnet
 lodges
 metaphysics
@@ -4773,7 +4798,6 @@ inlaid
 crammed
 allegory
 tic
-stepmother
 airship
 parsonage
 infatuation
@@ -4861,6 +4885,7 @@ testament
 piers
 ode
 coroner
+daughter-in-law
 platter
 decorous
 bats
@@ -5268,6 +5293,7 @@ forty-six
 wince
 well-worn
 carbine
+good-for-nothing
 irascible
 converging
 fireman
@@ -5443,7 +5469,6 @@ sixty-two
 shotgun
 malachi
 unchallenged
-de-
 undeceive
 unsaid
 putty
@@ -5588,6 +5613,7 @@ tokyo
 cockade
 purging
 unshaven
+mother-of-pearl
 chaldean
 trumps
 mountebank
@@ -5622,7 +5648,6 @@ palanquin
 buttermilk
 batman
 pantheism
-im-
 overrated
 eighty-four
 ioc
@@ -5639,6 +5664,7 @@ horsehair
 impaled
 polynesia
 -oid
+bric-a-brac
 midwinter
 vaporous
 hoover
@@ -5781,6 +5807,7 @@ all-embracing
 hessian
 hussar
 tapioca
+man-at-arms
 weathercock
 bruising
 eighty-three
@@ -5857,6 +5884,7 @@ rummage
 anodyne
 batting
 cartel
+so-and-so
 cameras
 sealskin
 hexameter
@@ -5864,7 +5892,6 @@ kaleidoscope
 jaundice
 repertory
 shakespearean
-en-
 phosphorescence
 seventy-seven
 unsociable
@@ -5946,6 +5973,7 @@ austro-hungarian
 ninety-three
 ellipses
 improvisation
+out-and-out
 topmast
 moribund
 anyways
@@ -5982,6 +6010,7 @@ iberian
 telepathy
 hackney
 shortwave
+black-and-white
 wheelwright
 bouillon
 counterpoint
@@ -5990,6 +6019,7 @@ gregorian
 zebedee
 typify
 egoistic
+happy-go-lucky
 magpies
 neolithic
 somnambulist
@@ -6042,7 +6072,6 @@ gelding
 muskrat
 saccharine
 accentuation
-per-
 diphthong
 gravitate
 homosexuality
@@ -6132,6 +6161,7 @@ bittern
 nankeen
 taffeta
 disagreeing
+merry-go-round
 obesity
 weaning
 -fy
@@ -6212,6 +6242,7 @@ parabola
 penthouse
 pigsty
 rolling-pin
+south-south-east
 tinder-box
 abided
 apocalyptic
@@ -6254,6 +6285,7 @@ one-armed
 sandalwood
 speller
 caoutchouc
+forget-me-not
 patronymic
 recrudescence
 rose-garden
@@ -6266,6 +6298,7 @@ well-read
 camouflage
 equilateral
 phenol
+cul-de-sac
 libellous
 tatting
 wineglass
@@ -6345,6 +6378,7 @@ herbivorous
 skater
 sunni
 aspirate
+fleur-de-lis
 quaternary
 sub-lieutenant
 succoth
@@ -6380,6 +6414,7 @@ phrenology
 condor
 deafen
 isomeric
+ladies-in-waiting
 undeterred
 verdigris
 underpaid
@@ -6424,6 +6459,7 @@ odorless
 sepia
 stultify
 chit-chat
+half-and-half
 hegelian
 hippodrome
 zoroastrian
@@ -6485,6 +6521,7 @@ man-eater
 beirut
 hosier
 yellow-green
+cap-a-pie
 half-baked
 ormolu
 parenchyma
@@ -6657,7 +6694,6 @@ un-american
 privatization
 rase
 rewrote
-grand-
 thick-skinned
 ethylene
 cicatrix
@@ -6728,6 +6764,7 @@ febrifuge
 endue
 syncopated
 colloquialism
+hard-and-fast
 multiplex
 anaconda
 berthed
@@ -6825,7 +6862,7 @@ pylorus
 battle-ax
 antinomy
 bigamist
-e-
+great-great-grandmother
 marmoset
 neuritis
 verifiable
@@ -6919,6 +6956,7 @@ dextrin
 g-d
 perigee
 polysyllabic
+splay
 carburetor
 lexicography
 teamwork
@@ -6974,9 +7012,11 @@ cursor
 dustbin
 heliocentric
 hobnob
+tug-of-war
 zoophyte
 apologetics
 high-level
+jack-in-the-box
 librettist
 amine
 backslide
@@ -7056,6 +7096,7 @@ topless
 translucency
 individualization
 minting
+touch-and-go
 kleptomaniac
 manichaean
 sphincter
@@ -7079,6 +7120,7 @@ mastoid
 numismatics
 prawn
 terminator
+free-for-all
 jeep
 mezzo-soprano
 mid-may
@@ -7113,6 +7155,7 @@ mid-june
 nitration
 self-induction
 myopia
+pick-me-up
 sagittal
 empiricist
 microscopy
@@ -7160,9 +7203,11 @@ accrediting
 caryatid
 crematorium
 one-way
+weston-super-mare
 nubile
 prophylaxis
 proselytize
+rat-tat-tat
 tin-plate
 apple-cheeked
 bluestocking
@@ -7173,6 +7218,7 @@ cartography
 indiscrimination
 lamppost
 toll-bar
+volumetric
 abattoir
 callsign
 prewar
@@ -7233,6 +7279,7 @@ thallium
 typesetter
 akkub
 cavort
+dyed-in-the-wool
 epizootic
 eructation
 francs-tireurs
@@ -7339,6 +7386,7 @@ abit
 aquatics
 bisexuality
 bunion
+catch-as-catch-can
 circuit-rider
 computational
 leningrad
@@ -7410,6 +7458,7 @@ chromosphere
 confabulate
 copper-bottomed
 cyanosis
+fly-by-night
 haemorrhoids
 oxychloride
 phosphide
@@ -7458,7 +7507,6 @@ red-top
 upstate
 zoning
 -cracy
-carrousel
 ethane
 maharaja
 mechanization
@@ -7499,6 +7547,7 @@ stocktaking
 tax-free
 togarmah
 circuitry
+hand-me-down
 howdy-do
 megalomaniac
 mottle
@@ -7596,7 +7645,7 @@ agoraphobia
 amortize
 anticyclone
 bigfoot
-counterclaim
+cock-a-doodle-doo
 devalue
 erythema
 escrow
@@ -7654,7 +7703,6 @@ archived
 asthenia
 centuple
 collectible
-dead-end
 em-dash
 folksy
 gris-gris
@@ -7787,6 +7835,7 @@ decagon
 dendrology
 diploid
 dopamine
+examination-in-chief
 glycine
 hydrazine
 insufflation
@@ -7817,13 +7866,16 @@ briquette
 butyl
 deckle-edged
 dermatologist
+door-to-door
 europeanization
 exclusivism
 hallucinogenic
 herpetology
+hole-in-the-wall
 kathmandu
 knee-jerk
 lauric
+man-o-war
 marshallese
 medially
 miaow
@@ -7881,6 +7933,7 @@ myocardium
 omnifarious
 outpatient
 paver
+pay-as-you-go
 quickie
 re-laid
 scoliosis
@@ -7910,6 +7963,7 @@ intransigence
 isotropic
 non-ferrous
 non-proliferation
+one-to-one
 pertussis
 pie-eyed
 prettify
@@ -7936,6 +7990,7 @@ hippies
 hooper
 islamist
 mastitis
+niece-in-law
 orthopedics
 otology
 pathogenesis

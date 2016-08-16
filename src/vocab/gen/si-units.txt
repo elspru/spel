@@ -59,23 +59,23 @@ radioactivity
 absorbed-dose
 equivalent-dose
 catalytic-activity
-deca
-hecto
-kilo
-mega
-giga
-tera
-peta
-exa
-zetta
-yotta
-deci
-centi
-milli
-micro
-nano
-pico
-femto
-atto
-zepto
-yocto
+deca g 3
+hecto g 3
+kilo g 3
+mega g 3
+giga g 3
+tera g 3
+peta g 3
+exa g 3
+zetta g 3
+yotta g 3
+deci g 3
+centi g 3
+milli g 3
+micro g 3
+nano g 3
+pico g 3
+femto g 3
+atto g 3
+zepto g 3
+yocto g 3

@@ -1,4 +1,4 @@
-#!/usr/bin/nodejs
+#!/usr/bin/node
 ////////////////////////////////////////////////////////////////
 //          0x10            0x20            0x30            0x40
 //3456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0
@@ -166,13 +166,15 @@ function main() {
         sortAll2 = sortAll.curry(freqWords),
         result = "";
     //console.log("wl " + JSON.stringify(wordLines));
-    console.log("sorting");
+    console.log("sorting core");
     result = sortAll2(coreWordLines);
     console.log("writing core result");
     io.fileWrite("sortedComboList-core.txt", result);
+    console.log("sorting mid");
     result = sortAll2(midWordLines);
     console.log("writing mid result");
     io.fileWrite("sortedComboList-mid.txt", result);
+    console.log("sorting mega");
     result = sortAll2(megaWordLines);
     console.log("writing mega result");
     io.fileWrite("sortedComboList-mega.txt", result);

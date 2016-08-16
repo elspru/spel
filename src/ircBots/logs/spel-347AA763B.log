@@ -1,0 +1,58 @@
+4855B11B73 elspru:hello
+4855B123A4 elspru:awesome so now with day change it will be possible to make good logs
+.4855B16099.mu.elspru.nwoh gotta also make the new stuff
+.4855B16653.mu.elspru.nwoh i mean finish with the cases, that will be good
+.4855B25A67.mu.elspru.nwoh so rather than making it by date, can do it by word count
+.4855B26096.mu.elspru.nwoh something like 720 words.  after that can package it into a blog post.
+.4855B26451.mu.elspru.nwoh the title should be about 6 words long, so can make it consist of the most common words which aren't grammar words.
+.4855B2662B.mu.elspru.nwoh for english that would be words with a length greater than 3.
+.4855B26902.mu.elspru.nwoh or can simply have a blacklist of english grammar words which should not be included.
+.4855B26BAB.mu.elspru.nwoh I guess I'll go set that up.
+.4855B27868.mu.elspru.nwoh 720 is 12 times 60 btw
+.4855B29260.mu.elspru.nwoh javascript is great, works everywhere. web apps, console, even IRC :-D.
+.4856179065.mu.elspru.nwoh okay wrote it now gotta test it
+.4856179531.mu.elspru.nwoh ideally need a way of testing it seperate from reloading the bot..
+4856662233 <elspru> hope this worked
+.485666B989.mu.elspru.nwo okay so gotta finish that grammar words length thing
+.485666BA22.mu.elspru.nwo and then can work on the bots some more
+.3479BB664.mu.elspru.nwo fixed up the seconds
+.3479BB688.mu.elspru.nwo now records in duodecimal unix time
+.3479BB792.mu.elspru.nwo or rather dozenal
+.3479BBA13.mu.elspru.nwo so the idea is the grammar words will have 2 or 3 appended to them, based on if they should be generated in the form of 2 or three letters.
+.3479BBA7A.mu.elspru.nwo also there will be a seperate counter for 2 letter words, so that when get to 1/phi count of them will switch over to next alphabet for generating
+.3479BBB1A.mu.elspru.nwo most of this will occur in rootWordPhon.js with some editing of the text files to enter the grammar word length information thereafter
+.347A06009.mu.elspru.nwo  /names
+.347A06978.mu.elspru.nwo added password check to bots so can upload source code
+.347A06998.mu.elspru.nwo might do it some other way, by simply keeping it in a file outside the actual folder, would be best I think.
+.347A069AA.mu.elspru.nwo maybe in /etc/spelbots or something
+.347A14791.mu.elspru.nwo  /names
+.347A147A9.mu.elspru.nwo seems the bots are now fairly stable
+.347A5B467.mu.elspru.nwo there was some interesting drama in the auxlang facebook group
+.347A60035.mu.elspru.nwo okay I've updated rootWordPhon.js and jslinted it
+.347A60047.mu.elspru.nwo can update the relevant grammar entries and then test it out
+.347A63673.mu.elspru.nwo have another thing to do, which is to add in the translation option to compound grammatical terms, to instead use adpositions from other languages, such as ge from japanese or "for" "from" from English.
+.347A636AA.mu.elspru.nwo another thing is i'm leaning towards tripartite, because then wont need to indicate autocausiative and anticausative verbs, since they will be shown via the subject or agent marking
+.347A63816.mu.elspru.nwo agent it be happy ya  autocausative
+.347A63824.mu.elspru.nwo subject it be happy ya anticausative
+.347A64095.mu.elspru.nwo actually I think we can keep nominative accusative, and simply use topic to indicate anticausative
+.347A64145.mu.elspru.nwo for instance nom pirate be sink acc ship; topic ship be sink
+.347A64557.mu.elspru.nwo anyways so I think it might be best in a post-translation step, perhaps during uniqueness or something. perhaps even during rootWordPhon.
+.347A64AB7.mu.elspru.nwo  also want to add those language codes to thesaurus, to see if perhaps there is one language of few speakers which is causing large amounts of ambiguity
+.347A65066.mu.elspru.nwo also wanted to make a new kind of thesaurus which is better of the bots to make suggestions.
+.347A650A7.mu.elspru.nwo it would have entries for all the words, and their definition would consist of one or more of the unique words.
+.347A65151.mu.elspru.nwo potentially can do it by merging blacklist and unique words objects, and then filtering each entry so it only has existing words.
+.347A6A932.mu.elspru.nwo right so I'll also have to make a list of all the grammar words i need, and which ones are two letter and which one are three letter.
+.347A6A94B.mu.elspru.nwo it would be good to also have that equivalence thing put in there
+.347A6A963.mu.elspru.nwo probably also with the glossing abbreviation for good measure
+.347A6A983.mu.elspru.nwo that would make it more of a table like object, though I'd like it to keep categories also
+.347A6A9B0.mu.elspru.nwo another thing is I'd like to make an expandable table like they have with Bootstrap
+.347A70083.mu.elspru.nwo okay finally got transWordUnique to output a good suggestList.txt
+.347A70096.mu.elspru.nwo also have got the collapsible stuff working on the grammar table
+.347A978A0.mu.elspru.nwo /names
+.347AA7065.mu.elspru.nwo  /names
+.347AA7091.mu.elspru.nwo Went to Shambhala today, and had a good convo with Ken, about SPEL and related matters.
+.347AA7153.mu.elspru.nwo My thinking is would be good to get at least some primitive translation going between the various channels via ryip
+.347AA7377.mu.elspru.nwo on the other hand it would be good to get the vm working in order to start writing in the lyic
+.347AA7390.mu.elspru.nwo but in order to start writing in lyic need to have the grammar stabilized
+.347AA763B.mu.elspru.nwo so can set the core grammatical concepts to be g 2, and leave it after that
+grammar words also make good thing

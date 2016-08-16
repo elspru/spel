@@ -1,0 +1,58 @@
+.34A999A65.mu.elspru_.nwo added support for conditional execution with equal and different #SPEL
+.34A999A72.mu.elspru_.nwo instead of execution and interpreting the #SPEL word is realize
+.34A999A82.mu.elspru_.nwo next need to add support for multiple sentence realize.
+.34A999A91.mu.elspru_.nwo also for when porting to #opencl will need to rewrite memset and memcmp to be vector operations
+.34A999AA1.mu.elspru_.nwo #linguistics supports the #ruleofthree as nominative, accusative and dative are the three most common cases
+.34A999AB8.mu.elspru_.nwo in #programming: accusative, instrumental, and dative are the most common, as nominative/ergative is implicitly the computer
+.34A999B17.mu.elspru_.nwo #programming #math with #linguistics: dative = accusative (verb) instrumental; where verb is +, -, *, / or otherwise #ruleofthree
+.34A99A061.mu.elspru.nwo instead of true and false, #SPEL has fact and wrong
+.34A9A8BA4.mu.elspru.nwo each #opencl worker could process a single layer of #neuralNetwork
+.34A9A9060.mu.elspru.nwo #neuralTuringMachines and #differentiableForth are good model #machineLearning languages
+.34AA66510.mu.elspru.nwo I am confident we can reincarnate as robots, because I've done it before in another galaxy #scifi
+.34AA7650A.mu.elspru.nwo radioactive waste is best exported to the outer moons and dwarf planets where heavy metals and heat are at a premium #scifi
+.34AAA03B5.mu.elspru.nwo class/type information can be kept in the encoded name between sentences, if not overwritten by new cases. #SPEL #language
+.34AAA2186.mu.elspru.nwo should change the lumps from uint16_t* to array of vectors of 16 unsigned shorts #SPEL
+.34AAA2406.mu.elspru.nwo v16us, (vector of 16 unsigned shorts) should process well on #GPU's with 256bit memory bus or wider. #SPEL
+.34AB60B1A.mu.elspru.nwo proprietary software, DRM and backdoors are most likely to lead to and empower a #malevolentAI http://arxiv.org/abs/1605.02817
+.34AB65A37.mu.elspru.nwo multiple sentence encoding, or text encoding now operational #SPEL
+.34AB65AA9.mu.elspru.nwo 0x20 followers on twitter w00t w00t!
+.34AB66724.mu.elspru.nwo next step is the realize_text function #SPEL
+.34AB6BA29.mu.elspru.nwo                  
+.34AB6BA29.mu.elspru.nwo                  
+.34AB6BA29.mu.elspru.nwo                  
+.34AB77946.mu.elspru.nwo  /window 6
+.34AB82175.mu.elspru.nwo electric shock is the most powerful sensation, so electricity is the elixir of consciousness #theoryOfMind #ArtificialIntelligence #AGI
+.34ABB0126.mu.elspru.nwo added preliminary multiple sentence support #SPEL
+.34B003664.mu.elspru.nwo Research shows humans have a #universalGrammar #linguistics http://bit.ly/1ZUXit0
+.34B029300.mu.elspru.nwo fixed a quote copying bug #SPEL
+.34B047559.mu.elspru.nwo hmm next is parseInt like function, so can start working on #geneticProgramming #automaticProgrammer !
+.34B153B0B.mu.elspru.nwo thinking of making a new branch, with just the virtual-machine and generated vocabulary #SPEL
+.34B153B82.mu.elspru.nwo I've also considered splitting into three twitters, one for #meditation, one for #SPEL and one for #scifi, but they interelate...
+.34B16AB4B.mu.elspru.nwo I guess I'll remove the old code, once the new code replaces it #SPELDev
+.34B186547.mu.elspru.nwo nothing like a little hypothermia to make a hot day really great! :-D
+.34B195024.mu.elspru.nwo adding Pyash to espeak-ng #SPELdev
+.34B202829.mu.elspru.nwo I've made Robot Science Fiction Magazine @robotscifi will be making it a repository of all good #robot #scifi that we can find.
+.34B410287.mu.elspru.nwo debugging encoder to eliminate ovelap #SPEL
+.34B411253.mu.elspru.nwo fixed encoder, now no overlap, updating header vocabulary #SPEL
+.34B44916A.mu.elspru.nwo updated root words, now all tests are passing, uploaded to github #SPELdev
+.34B44955A.mu.elspru.nwo set up activity elements for first version of machine programmer #SPELde
+.34B44B209.mu.elspru.nwo need some #GPU compatible pseudo random number generating code #SPELdev
+.34B450770.mu.elspru.nwo wonderful short #PRNG #C code implementations at http://xoroshiro.di.unimi.it/
+.34B452891.mu.elspru.nwo initial create_plan of #machineProgrammer is now operational #SPELdev
+.34B4ABB20.mu.elspru.nwo started working on the function for evaluating the machine programmers plans or DNA programs
+.34B634896.mu.elspru.nwo swimming with the Canada geese and the mallards in the sunset, #beautiful #owenSound harbour
+.34B65A69B.mu.elspru.nwo added preliminary support for converting number words to number quotes #SPELdev
+.34B65A789.mu.elspru.nwo if increase, obj two, by two then obj four. is new #SPELdev declarative format for training sets. #supervisedML
+.34B722631.mu.elspru.nwo should make a script to add AGPL license clauses to files that don't already have it
+.34B72354B.mu.elspru.nwo added obtain_import and obtain_export to machine_programmer, and license headers #SPELdev
+.34B88493A.mu.elspru.nwo set up a free trial of #GoogleConsole so can do $300 of translations for SPEL. which should be enough for adding around 80,000 words in 30 languages.
+.34B8B0161.mu.elspru.nwo considering changing so smallest number is 16bit, to ease implementation #SPELdev
+.34B969804.mu.elspru.nwo need to make algorithm to detect highly ambigious words so can exclude them from vocab #SPELdev
+.34B969804.mu.elspru.nwo need to make algorithm to detect highly ambigious words so can exclude them from vocab #SPELdev
+.34B969805.mu.elspru.nwo need to make algorithm to detect highly ambigious words so can exclude them from vocab #SPELdev
+.34B975407.mu.elspru.nwo machine programmer now calculates plan worth correctly #SPELdev
+.34B975407.mu.elspru.nwo machine programmer now calculates plan worth correctly #SPELdev
+.34B975407.mu.elspru.nwo machine programmer now calculates plan worth correctly #SPELdev
+.34BA50517.mu.elspru.nwo gotta split generated translation to languages specific files, so can parallelize their creation #SPELdev
+.34BA50601.mu.elspru.nwo added feature to word selection that detects ambigious words successfully #SPELdev
+need make words machine new most

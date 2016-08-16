@@ -1,36 +1,36 @@
-.34A05190B.mu.elspru.nwo lwetkxam in troclyac means evolutionary computer-programming
-.34A071922.mu.pyic.nwo largest stable nuclide is 208 (Pb), so can set as max deme popultion for #geneticprogramming, 56 (Fe) should be top of bell curve.
-.34A0728A7.mu.pyic.nwo paleolithic humans, and WoW guilds, are often most stable in 50-60 range, iron peak is most stable at isotope 56. #asabovesobelow
-.34A0908A4.mu.pyic.nwo to increase diversity can have slightly different function sets when initializing deme (island) populations #geneticprogramming
-.34A0915B6.mu.pyic.nwo crowd function set length can be between golden-ratio and 1/#goldenratio, select random from provided functions #geneticprogramming
-.34A0AB373.mu.elspru.nwo #endogamy or #speciation as in #NEAT may be beneficial to arriving at optimal solutions sooners in #geneticprogramming
-.34A0B1413.mu.elspru.nwo #fermiparadox can be neatly explained by #zoohypothesis, because allopatric #speciation improves galactic #geneticprogramming
-.34A0B1558.mu.elspru.nwo maybe a #geneticprogramming goal of water-based life in the galaxy, is to make solid based life, to populate less habitable planets
-.34A0B53B5.mu.elspru.nwo NeuroEvolution of Augmenting Topologies #NEAT evolving #neuronets with #geneticprogramming
-.34A0B5728.mu.elspru.nwo Oxygen is third most common element in the galaxy, its most stable isotope has 16 elements, can have 16 functions #geneticprogramming
-.34A1B6829.mu.elspru.nwo console trans stopped working, so #SPEL vocab is stable (unless someone wants to pay for a Google API key to extend it further).
-.34A1B6865.mu.elspru.nwo console trans stopped working, so #SPEL vocab is stable (unless someone wants to pay for a Google API key to extend it
-.34A1B6895.mu.elspru.nwo #SPEL lump_encode now works for sentences greater than 16 words long, (max 60 words).
-.34A1B69A6.mu.elspru.nwo console trans stopped working, so #SPEL vocab is stable (unless someone wants to pay for a Google API key to extend it
-.34A1B8941.mu.elspru.nwo bitlbee upgrade means I have to upgrade my secretary bot
-.34A1B8A29.mu.elspru.nwo bitlbee upgrade means I have to upgrade my secretary bot
-.34A1B8B74.mu.elspru.nwo imagine porting to new hardware by running a #machinelearning algorithm to find the machine instructions, and rewrite libraries
-.34A1B9228.mu.elspru.nwo imagine there is a hardware fault, the OS detects it, and #geneticprogramming rebuilds affected libraries around the fault
-.34A23AA70.mu.elspru.nwo the next part to write for #SPEL is the encoding of quotes, the most complex part, so may need partial rewrite of whole encoder.
-.34A23AB29.mu.elspru.nwo #TPU's used by #Google, use #integermath. So avoid floating points in your #machinelearning algorithms, to be #TPU compatible.
-.34A23B42B.mu.elspru.nwo #SPEL virtual-machine algorithms use uintN_t family of types, making it easier to implement with fewer circuits in #FPGA and #ASIC
-.34A26503B.mu.elspru.nwo __private memory in #opencl should not amount that fits in registers which is usually 32B, use -Wstack-usage=32 on #GCC
-.34A348126.mu.elspru.nwo hmmm, seems that assigning to a pointer takes up 8 bytes on the stack. so is not same as __private memory usage.
-.34A388B92.mu.elspru.nwo mina hdesbwih jyinhyanci gjakpa hlatfali I for independance to dairy-way galaxy, came.
-.34A3A384B.mu.elspru.nwo mina hdesbwih jyinhyanci gjakpa hlatfali I for independance to dairy-way galaxy, came. #scifi
-.34A40A195.mu.elspru.nwo write a mostly correct program, and then have #geneticprogramming tweak it till it works perfectly. #programming
-.34A473420.mu.elspru.nwo as robots we could sit still in #meditation without feeling physical discomfort #transhumanism #singularity
-.34A474940.mu.elspru.nwo #AdaptiveResonanceTheory (ART) could be used for identifying #speciation in #NEAT #machinelearning
-.34A474A52.mu.elspru.nwo The breaking problems into subproblems part of #dynamicProgramming can be used for more scalable #programSynthesis
-.34A4918B8.mu.elspru.nwo #geneticprogramming the mother of my #brainchild
-.34A492948.mu.elspru.nwo modified #SPEL #encoding binary indexing, now flips a bit for case and sentence endings, easier implemention.
-.34A493245.mu.elspru.nwo #AntColonyOptimization could be used in #GridComputing where users/nodes can pick/pheremone stages and types of solvers to run.
-.34A572048.mu.elspru.nwo figuring out memory layout implementation
-.34A61AA29.mu.elspru.nwo #aging and #death is inevitable, so creating ever better host bodies and environments is fruitful
-.34A682589.mu.elspru.nwo made a bare minimum #helloWorld interpreter of the encoding for #SPEL
-.34A682876.mu.elspru.nwo next have to add some more verbs, and support dependant execution for #SPEL
+.34BA50820.mu.elspru.nwo anything that has more synonyms than languages is considered ambigious #SPELdev
+.350003B04.mu.elspru.nwo next have to evaluate a group of plans, and return the winning plans index.
+.350004095.mu.elspru.nwo actually even before that have to make a crowd of plans #SPELdev
+.350007306.mu.elspru.nwo create_plan now implemented #SPELdev
+.350012170.mu.elspru.nwo arabic is the toughtest, because it doesn't have espeak-ng support, and has over 200 glyphs which have to be manually converted to IPA equivalents #SPELdev
+.350049B86.mu.elspru.nwo check_crowd now works #SPELdev next have to support multi-command programs
+.350279446.mu.elspru.nwo fixed up translation scripts, now have ~2,400 core words, and ~5,000 with extended word base #SPELdev
+.3503217AB.mu.elspru.nwo Over 38k words have been translated to 35+ languages and refined down to 8k words for SPEL vocab #SPELdev
+.3503A4024.mu.elspru.nwo window 2
+.3503A4096.mu.elspru.nwo it was a close call, but managed to complete translations before the $392.31 of Google API free trial money was up #SPELdev
+.3504368B0.mu.elspru.nwo definition generating algorithm: grab dictionary entries in multiple languages, get most common core root words. #SPELdev
+.3504AA230.mu.elspru.nwo need a command line function for encoding and decoding sentences. #SPELdev
+.350810988.mu.elspru.nwo thinking of making a console dictionary and translator for #Linux distors using #SPELdev and #OmegaWiki datasets
+.350845915.mu.elspru.nwo RFC2229 Dictd, is also a good source of #vocabulary, #definitions and #translations  #SPELDev
+.350846882.mu.elspru.nwo dico and dicod can interface with databases in various formats, so may be able to plug-in omegawiki or a spel database #SPELDev
+.350846B5B.mu.elspru.nwo OmegaWiki seems to have the best translation model, with definition-based translation, similar to an interlingua. Pyash can thus have single meaning per word #SPELDev
+.350846B8B.mu.elspru.nwo #OmegaWiki seems to have the best #translation model, with definition-based translation, similar to an #interlingua. #SPELDev
+.350865489.mu.elspru.nwo having analyzed the omegawiki dataset, it has become clear that there are too many definitions. leading to too many ambigious words #SPELDev
+.3508654B3.mu.elspru.nwo having analyzed the omegawiki dataset, it has become clear that there are too many definitions. thus too many ambigious words #SPELDev
+.350865696.mu.elspru.nwo the core vocab is based on special english and wordnet vocab, so can source definitions from them #SPELDev
+.350887B8B.mu.elspru.nwo I'm finding the definitions rather frustrating, so I'll leave the vocab as is for stability and continue working on the machine programmer #SPELDev
+.350887BA1.mu.elspru.nwo I'm finding the definitions rather frustrating, so I'll leave the vocab as is for stability and work on the machine programmer #SPELDev
+.3508A6324.mu.elspru.nwo I'm thinking about making a teacher robot to teach me SPEL and refine the vocabulary at the same time #SPELDev
+.3508A63B0.mu.elspru.nwo I got the #idea while #meditating in my hammock during a rainstorm. A thin tarp overhead pattering with raindrops.
+.3508A6487.mu.elspru.nwo The first step will be to have a custom suggest list, particularly for grammar words. #SPELDev
+.3508A6579.mu.elspru.nwo While my son was trying to hide in my armpit from the rainstorm. I was doing hexadecimal calculations. If I have 0x1000 words, then can have 15 glyphs per definition, and fit it into a 16 bit address space. #SPELDev
+.3508A6595.mu.elspru.nwo While my son was trying to hide in my armpit from the rainstorm. I was doing hexadecimal calculations.
+.3508A6649.mu.elspru.nwo If I have 0x1000 words, then can have 15 glyphs per definition, and fit it into a 16 bit address space 0x10,000 bytes. #SPELDev
+.350906719.mu.elspru.nwo I figured out how to refine omegaWiki definitions,  by excluding those which aren't popular. For instance if a definition has less than 40 expressions, then it is not included. leaving about ~2000 definitions. #SPELDev
+.350906745.mu.elspru.nwo I figured out how to refine omegaWiki definitions,  by excluding those which aren't popular. For instance if a definition has less than 40 expressions. #SPELDev
+.350906796.mu.elspru.nwo I figured out how to refine omegaWiki definitions,  by excluding those which aren't popular. If less than 40 expressions, then only ~2000 make the cut #SPELDev
+.3509067B3.mu.elspru.nwo Refined omegaWiki definitions,  by excluding those which aren't popular. If less than 40 expressions, then only ~2000 make the cut #SPELDev
+.350907071.mu.elspru.nwo can also get definitions for the existing SPEL words, by using most popular definition from omegaWiki for it #SPELDev
+.350907245.mu.elspru.nwo there is no word for teacher in Pyash, only professor or author, so will use pfos (professor) for the professor bot #SPELDev
+.350907853.mu.elspru.nwo so I think I'll work at least an hour a day on the machine programmer, since it is very difficult, and easy to proctrastinate #SPELDev
+.350908333.mu.elspru.nwo I think my secretary bot sris is now properly reposting to gnusocial.no #SPELDev

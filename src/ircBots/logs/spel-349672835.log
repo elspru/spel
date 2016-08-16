@@ -1,0 +1,52 @@
+.348306BA7.mu.elspru.nwo Currently many potential users don't have #OpenCl hardware or software, so MVP must be lowest-common-denomenator (LCD) compatible, single-processor javascript.
+.348307061.mu.elspru.nwo MVP for translations software needs better load time, than currently being offered, which will require a server connection.
+.3483070A0.mu.elspru.nwo MVP for programming language will need a single thread virtual machine.
+.348307902.mu.elspru.nwo  adding server is easier than making virtual machine, so will start with that.
+.348347ABA.mu.elspru.nwo so have to add an upload button to the meditation app, and then set up uploading, test driven development.
+.348352294.mu.elspru.nwo okay added button but the cross domain XHR is giving me some issues, will figure out tommorrow
+.3483B48B7.mu.elspru.nwo connection with server established w00t w00t!
+.348437455.mu.elspru.nwo uploading is working for the meditation app. made new backend format and reintegrating it with app.
+.34863BA51.mu.elspru.nwo added stat for number of mindful activity days, and number of sitting meditation days to meditation app
+.348697645.mu.elspru.nwo it seems I'll have to write a meditation textbook, with all the lessons that I'm teaching, can't really expect to be able to teach everything, nor for students to remember everything from our short weekly sessions together.
+.34869788B.mu.elspru.nwo ideally will write the book in Lyash variant.
+.34869791B.mu.elspru.nwo I'm also hoping on rewriting the Vinaya as I think of it in Lyash
+.348698037.mu.elspru.nwo A gender neutral, family compatible, version of the Vinaya
+.3486A704B.mu.elspru.nwo SPEL may help with #antiradicalization by making language less of an isolation barrier.
+.348789112.mu.elspru.nwo May have to rewrite the irc bots with other libraries, since the node-irc ones  doesn't seem to be possible to stop them from rejoining
+.3488167B7.mu.elspru.nwo Made a garden layout plan in SVG, yard was dry. now with rain it is like a pond, will have to add drainage.
+.34887432A.mu.elspru.nwo submited second set of meditation logs for C.MI. meditation certification am on way to being member of International Association of Meditation Instructors.
+.34892323B.mu.elspru.nwo for meditation screen, can have brain wave setting, length of meditation, with option of stopwatch, and frequency of re-entrainment
+.348923278.mu.elspru.nwo also for hz below a certain level, can have the option of flashing screen.
+.348A69105.mu.elspru_.nwo development meditation app has basic intros and flashing http://wyn.bot.nu/qanim/mediapp2.html
+.348AA6209.mu.elspru_.nwo okay now just need to add username and password login ability to the app
+.348B80350.mu.elspru_.nwo so I am going to be calling the vocab stable 1.0,  and make a new word-adder, which will add new words ontop of the existing ones, so that the base will stay, and new words will be added ontop.
+.348B83224.mu.elspru.nwo I'll be stabilizing the vocab soon, and making translations to the 24 supported languages
+.348B8323B.mu.elspru.nwo I need to add a new script, which will add new words ontop of existing ones, rather than shifting it all around.
+.348B8A069.mu.elspru.nwo can probably make flash cards by harvesting images from wikimedia, might need a scrapebot.
+.348B91735.mu.elspru.nwo generating word lists, suggests lists, thesaurus, objects in #javascript #scripting #auxlang
+.348BAA915.mu.elspru.nwo   /join #nodejs
+.348BAA9A4.mu.elspru.nwo looking for parallel #mapReduce in #nodejs
+.348BB0951.mu.elspru.nwo word lists are now available at http://wyn.bot.nu/spel/src/vocab/gen/allLangs/ in form langCode-gramList.txt and langCode-rootList.txt
+.349010102.mu.elspru.nwo thinking can have single process #vm and a #opencl #webcl version. extra motivation for #firefox
+.349010228.mu.elspru.nwo first have to make a build environment, which has seperate stack size checks for GPU functions and CPU bound ones, #gcc makes possible
+.349010249.mu.elspru.nwo first have to make a build environment, which has seperate stack size checks for GPU functions and CPU bound ones
+.3490141BB.mu.pyic.nwo I think #UNL core vocab is very odd, like "lime tree" is core :-|
+.349014257.mu.pyic.nwo I've had to delete #unl relations and attributes, as they conflict with international glossing standards
+.349014411.mu.pyic.nwo I'm deleting all #UNL dictionaries and word lists to clean things up
+.3490144A2.mu.pyic.nwo #wordnet, #special-english, #oxford-3000, are good quality word lists for #machine_translation
+.349015160.mu.pyic.nwo reduced vocab from 4024 words til 2822 words, that's 30% less of "core words" like art-noveau, a type of art that was trendy in the early 1900's.
+.34903B2A3.mu.pyic.nwo #gcc allows making stack limit with -Wstack-usage=$LIMIT
+.3490B7606.mu.elspru.nwo need scripted way of having short form grammar words for all supported languages
+.3490B7836.mu.elspru.nwo can use either glossing abbreviations, lyash words, or synthesize abbreviations from local language #machine_interlingua
+.349261A40.mu.pyic.nwo for all you fellow #gardeners check out http://pfaf.org for edible and medicinal, plants, shrubs, vines and trees.
+.349266710.mu.pyic.nwo I'm a big fan of #automation, so I hope to #automate #meditation instruction, using videos and a course #webapp. multilingual
+.3493AB100.mu.elspru_.nwo cross-training is important for creativity http://bit.ly/1SNrjW9
+.3493AB245.mu.elspru_.nwo I wonder how windsurfing will help me with #computer_programming
+.3494B2533.mu.pyic.nwo derive_first_word works #SPEL :-D
+.349538516.mu.pyic.nwo set up syntastic for #vim it's fantastic :-D
+.349594834.mu.pyic.nwo  /join #opencl
+.34960269B.mu.pyic.nwo wrote encode_ACC_word_DAT_number() #SPEL
+.349602776.mu.pyic.nwo adding Bengali and Punjabi support #SPEL #troclyac #machine_translation
+.349660319.mu.pyic.nwo time to test encode_ACC_word_DAT_number() #SPEL
+.349672835.mu.pyic.nwo telic-aspect add accusative-case unit check benefactive-case #SPEL necessitative-mood
+meditation new add I need words

@@ -11,7 +11,7 @@ space-context g 2
 destination-case g 2
 way-case g 2
 realis-mood g 2
-irrealis-mood g 2
+irrealis-mood g 3
 interior-context g 2 en in
 surface-context g 2 en on
 under-context g 2 en under
@@ -152,6 +152,7 @@ delative-case g 3
 prolative-case g 3
 its g 3
 neo g 
+counterfactual-conditional g 3
 
 
 first-person g
@@ -483,211 +484,229 @@ independent-clause g
 dependent-clause g 2
 
 
-affection g
-anger g
-angst g
-anguish g
-misery g
-annoyance g
-anxiety g
-apathy g
-arousal g
-awe g
-boredom g
-confidence g
-believe g
-faithful g
-contempt g
-contentment g
-courage g
-curiosity g
-depression g
-desire g
-desireable g
-desired g
-curious g
-lovable g
-I-feel g
+affection g 3
+anger g 3
+angst g 3
+anguish g 3
+misery g 3
+annoyance g 3
+anxiety g 3
+apathy g 3
+arousal g 3
+awe g 3
+boredom g 3
+confidence g 3
+believe g 3
+faithful g 3
+contempt g 3
+contentment g 3
+courage g 3
+curiosity g 3
+depression g 3
+desire g 3
+desireable g 3
+desired g 3
+curious g 3
+lovable g 3
+I-feel g 3
 hungry g 3
-greed g
-despair g
-ambition g
-anticlimax g
-disappointment g
-phobia g
-hate g
-disgust g
-distrust g
-doubt g
-dread g
-frightened g
-ecstasy g
-clever g
-wise g
-embarrassment g
-envy g
-euphoria g
-excitement g
-fear g
-frustration g
-gratitude g
-thank g
-grief g
-pain g
-guilt g
-guilty g
-blame g
-happiness g
-happy g
-hatred g
-hope g
-horror g
-hostility g
-hostile g
-hurt g
-wounded g
-hysteria g
-injury g
-indifference g
-interest g
-jealousy g
-jealous g
-joy g
-loathing g
-loneliness g
-lonely g
-love g
-lust g
-outrage g
-panic g
-passion g
-pity g
-pleasure g
-pride g
-empathetic-joy g
-rage g
-regret g
-sorry g
-remorse g
-sad g
-sadness g
-satisfaction g
-satisfied g
-schadenfreude g
-self-confidence g
-shame g
-shock g
-shyness g
-sorrow g
-suffering g
-torture g
-trouble g
-surprise g
-surprised g
-strange g
-trust g
-loyalty g
-wonder g
-worry g
-preoccupation g
-zeal g
-zest g
-mudita g
-enthusiasm g
-diligence g
-anxious g
-forgiveness g
-forgive g
-patience g
-equanimity g
-effort g
-change g
-adaptation g
-dissatisfaction g
-generous g
-charm g
-virtue g
-proper g
-determined g
-epiphany g
-grace g
-friendship g
-oppress g
-ignorant g
-compassion g
-hubris g
-humble g
-honour g
-accomplished g
-success g
-belongingness g
-sombre g
-melancholy g
-gloomy g
+greed g 3
+despair g 3
+ambition g 3
+anticlimax g 3
+disappointment g 3
+phobia g 3
+hate g 3
+disgust g 3
+distrust g 3
+doubt g 3
+dread g 3
+frightened g 3
+ecstasy g 3
+clever g 3
+wise g 3
+embarrassment g 3
+envy g 3
+euphoria g 3
+excitement g 3
+fear g 3
+frustration g 3
+gratitude g 3
+thank g 3
+grief g 3
+pain g 3
+guilt g 3
+guilty g 3
+blame g 3
+happiness g 3
+happy g 3
+hatred g 3
+hope g 3
+horror g 3
+hostility g 3
+hostile g 3
+hurt g 3
+wounded g 3
+hysteria g 3
+injury g 3
+indifference g 3
+interest g 3
+jealousy g 3
+jealous g 3
+joy g 3
+loathing g 3
+loneliness g 3
+lonely g 3
+love g 3
+lust g 3
+outrage g 3
+panic g 3
+passion g 3
+pity g 3
+pleasure g 3
+pride g 3
+empathetic-joy g 3
+rage g 3
+regret g 3
+sorry g 3
+remorse g 3
+sad g 3
+sadness g 3
+satisfaction g 3
+satisfied g 3
+schadenfreude g 3
+self-confidence g 3
+shame g 3
+shock g 3
+shyness g 3
+sorrow g 3
+suffering g 3
+torture g 3
+trouble g 3
+surprise g 3
+surprised g 3
+strange g 3
+trust g 3
+loyalty g 3
+wonder g 3
+worry g 3
+preoccupation g 3
+zeal g 3
+zest g 3
+mudita g 3
+enthusiasm g 3
+diligence g 3
+anxious g 3
+forgiveness g 3
+forgive g 3
+patience g 3
+equanimity g 3
+effort g 3
+change g 3
+adaptation g 3
+dissatisfaction g 3
+generous g 3
+charm g 3
+virtue g 3
+proper g 3
+determined g 3
+epiphany g 3
+grace g 3
+friendship g 3
+oppress g 3
+ignorant g 3
+compassion g 3
+hubris g 3
+humble g 3
+honour g 3
+accomplished g 3
+success g 3
+belongingness g 3
+sombre g 3
+melancholy g 3
+gloomy g 3
 auspicious 
-wow g
-beautiful g
-ambitious g
-unambitious g
-attachment g
-honorable g
-significant g
-suspicious g
-enjoy g
-self-satisfied g
-flattering g
-fat g
-thin g
-spite g
-health g
-social g
-sacrifice g
-trap g
-entrap g
-admiration g
-tired g
-dog-tired g
-overworked g
-expiring g
-wear-out g
-animated g
-invincible g
-cower g
-ecstatic g
-thrill g
-nervous g
-obsession g
-hurts g
-twinge g
-smile g
-bitter g
-sympathy g
-beneficial g
-cruel g
-regretted g
-contrition g
-wretchedness g
-privileged g
-better g
-elite g
-super g
-benevolent g
-moral g
-vindication g
-cold g
-hot g
-warm g
-satyr g
-sexual g
-sleep g
-reverie g
-uncertainty g
-lazy g
-crowded g
-bounded g
-frugal g
-childish g
-innocent g
+wow g 3
+beautiful g 3
+ambitious g 3
+unambitious g 3
+attachment g 3
+honorable g 3
+significant g 3
+suspicious g 3
+enjoy g 3
+self-satisfied g 3
+flattering g 3
+fat g 3
+thin g 3
+spite g 3
+health g 3
+social g 3
+sacrifice g 3
+trap g 3
+entrap g 3
+admiration g 3
+tired g 3
+dog-tired g 3
+overworked g 3
+expiring g 3
+wear-out g 3
+animated g 3
+invincible g 3
+cower g 3
+ecstatic g 3
+thrill g 3
+nervous g 3
+obsession g 3
+hurts g 3
+twinge g 3
+smile g 3
+bitter g 3
+sympathy g 3
+beneficial g 3
+cruel g 3
+regretted g 3
+contrition g 3
+wretchedness g 3
+privileged g 3
+better g 3
+elite g 3
+super g 3
+benevolent g 3
+moral g 3
+vindication g 3
+cold g 3
+hot g 3
+warm g 3
+satyr g 3
+sexual g 3
+sleep g 3
+reverie g 3
+uncertainty g 3
+lazy g 3
+crowded g 3
+bounded g 3
+frugal g 3
+childish g 3
+innocent g 3
+understand g 3
+humour g 3
+amuse g 3
+jest g 3
+hilarious g 3
+vain g 3
+arbitrary g 3
+trivial g 3
+fool g 3
+blase g 3
+please g 3
+pardon g 3
+ugly g 3
+laugh g 3
+respect g 3
+majestic g 3
+awed g 3
+peace g 3
 
 
 be g
@@ -736,8 +755,8 @@ extreme g
 unquote g
 than g
 exclusive-or g
-but g
-clause-tail g
+but g 3
+clause-tail g 2
 fraction g
 then g
 there g
@@ -761,6 +780,7 @@ otherwise g
 else-if g
 hello g
 quote g 2
+quoted g 2
 after g
 him g
 outside-of g
@@ -20742,6 +20762,89 @@ thursday
 friday
 saturday
 sunday
+
+
+metre
+length
+kilogram
+mass
+second
+time
+ampere
+electric-current
+kelvin
+thermodynamic-temperature
+temperature
+mole
+molecular-weight
+amount-of-substance
+candela
+luminous-intensity
+radian
+angle
+degree
+steradian
+hertz
+newton
+frequency
+force
+weight
+pascal
+pressure
+joule
+watt
+coulomb
+volt
+farad
+ohm
+siemens
+weber
+tesla
+henry
+celsius
+lumen
+lux
+becquerel
+gray
+sievert
+katal
+energy
+work
+heat
+power
+radiant-flux
+electric-charge
+voltage
+electric-capacitance
+electric-resistance
+magnetic-flux
+inductance
+luminous-flux
+illuminance
+radioactivity
+absorbed-dose
+equivalent-dose
+catalytic-activity
+deca g 3
+hecto g 3
+kilo g 3
+mega g 3
+giga g 3
+tera g 3
+peta g 3
+exa g 3
+zetta g 3
+yotta g 3
+deci g 3
+centi g 3
+milli g 3
+micro g 3
+nano g 3
+pico g 3
+femto g 3
+atto g 3
+zepto g 3
+yocto g 3
 
 
 hydrogen

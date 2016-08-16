@@ -11,7 +11,7 @@ space-context g 2
 destination-case g 2
 way-case g 2
 realis-mood g 2
-irrealis-mood g 2
+irrealis-mood g 3
 interior-context g 2 en in
 surface-context g 2 en on
 under-context g 2 en under
@@ -152,3 +152,4 @@ delative-case g 3
 prolative-case g 3
 its g 3
 neo g 
+counterfactual-conditional g 3

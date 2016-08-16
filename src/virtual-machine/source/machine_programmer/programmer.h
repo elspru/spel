@@ -18,28 +18,24 @@ contact: streondj at gmail dot com
 */
 #ifndef PROGRAMMER_H
 #define PROGRAMMER_H
+#include "../seed/seed.h"
 /* requires including seed.h */
-extern void composition_program(const uint8_t activity_atom_size,
-                        const v16us* restrict activity_atom, 
-                        const uint16_t program_size,
-                        uint64_t* random_seed,
-                        v16us* restrict program);
-extern void quiz_program(const uint16_t quiz_sentence_size,
-                       const v16us* restrict quiz_sentence_list,
-                       const uint16_t program_size,
-                       const v16us* restrict program,
-                       uint16_t* program_worth);
-extern void composition_population(const uint8_t activity_atom_size,
-                         const v16us* restrict activity_atom,
-                         const uint16_t program_size,
-                         const uint8_t population_size,
-                         uint64_t* random_seed,
-                         v16us* restrict population);
-extern void quiz_population(const uint16_t quiz_sentence_size,
-                        const v16us* restrict quiz_sentence_list,
-                        const uint16_t program_size,
-                        const uint8_t population_size,
-                        const v16us* restrict population,
-                        uint8_t* champion,
-                        uint16_t* champion_worth);
+void composition_program(const uint8_t activity_atom_size,
+                         const v16us *activity_atom,
+                         const uint16_t program_size, uint64_t *random_seed,
+                         v16us *program);
+void quiz_program(const uint16_t quiz_independentClause_size,
+                  const v16us *quiz_independentClause_list,
+                  const uint16_t program_size, const v16us *program,
+                  uint16_t *program_worth);
+void composition_population(const uint8_t activity_atom_size,
+                            const v16us *activity_atom,
+                            const uint16_t program_size,
+                            const uint8_t population_size,
+                            uint64_t *random_seed, v16us *population);
+void quiz_population(const uint16_t quiz_independentClause_size,
+                     const v16us *quiz_independentClause_list,
+                     const uint16_t program_size, const uint8_t population_size,
+                     const v16us *population, uint8_t *champion,
+                     uint16_t *champion_worth);
 #endif

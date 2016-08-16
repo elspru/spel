@@ -1,4 +1,4 @@
-#!/usr/bin/nodejs --harmony
+#!/usr/bin/node
 var io = require("../lib/io"),
     irc = require('irc'),
     botb = require("./ircBotBase"),
@@ -19,8 +19,8 @@ bitlBot = botb(initBitlObj);
 bitlBot.connect();
 bitlBot.addListener("registered", function () {
     bitlBot.say("nickserv", "identify " + initBitlObj.password);
-    console.log("identified");
-    setTimeout(bitlBot.say("nickserv", "yes"), 8000);
+    console.log("identified for bitlbee");
+    setTimeout(function () {bitlBot.say("nickserv", "yes");}, 8000);
 });
 /* log channels */
 function unique(wordArray) {
@@ -76,6 +76,8 @@ initObj.channels.forEach(function (channel) {
             return;
         }
         console.log(line);
+        if (initObj.admins.indexOf(from) !== -1) {
+        if (message.length < 140) {
         initBitlObj.channels.forEach(function (channel) {
             if (channel !== "&bitlbee") {
                 bitlBot.say(channel, /*from + ":" + */ message);
@@ -85,6 +87,11 @@ initObj.channels.forEach(function (channel) {
                 console.log("yes");
             }
         });
+        } else {
+          bot.say(channel, "message length is " + message.length + 
+                  " too long for twitter (140)");
+        }
+        }
         if (fileWords.length > 720) {
             title = topSixWords(fileWords);
             io.fileWrite(logDir + logName + "-" + timeStamp + 

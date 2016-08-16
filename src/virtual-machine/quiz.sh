@@ -18,11 +18,11 @@
 #
 # update source file format
 FILES="source/virtual-machine.c source/seed/seed.c source/seed/seed.h \
- source/machine_programmer/programmer.c source/machine_programmer.h \
+ source/machine_programmer/programmer.c source/machine_programmer/programmer.h \
   source/machine_programmer/prng.c source/machine_programmer/prng.h"
 for i in $FILES
 do
-  clang-format-3.6 $i > tmp;
+  clang-format $i > tmp;
   mv tmp $i;
 done
 

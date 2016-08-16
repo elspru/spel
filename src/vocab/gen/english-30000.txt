@@ -82,6 +82,7 @@
 28 this 4015425
 0 demonstrative
 29 him 3971997
+0 clause-tail
 30 but 3894211
 31 all 3703342
 32 she 3415846
@@ -581,6 +582,7 @@
 464 necessary 176467
 465 age 176320
 466 else 175980
+0 counterfactual-conditional
 467 force 175520
 468 idea 174236
 469 longer 173897
@@ -760,6 +762,7 @@
 639 sleep 124634
 640 persons 123820
 641 blockquote 123703
+0 quoted
 0 start-quote g
 0 end-quote g
 0 quotative-case

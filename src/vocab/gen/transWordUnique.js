@@ -1,4 +1,4 @@
-#!/usr/bin/nodejs
+#!/usr/bin/node
 ////////////////////////////////////////////////////////////////
 //          0x10            0x20            0x30            0x40
 //3456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0
@@ -239,7 +239,7 @@ function returnIfUnique(transEntry, allDefinObj, index,
         thesaurusEntry.push("AMBIGIOUS:" + thesaurusEntry.length);
         blacklist["X" + enDef] = thesaurusEntry;
     } else if (rootBlacklist.indexOf(enDef) !== -1 ||
-        /\W/.test(enDef.replace(/-/,""))) {
+        /\W/.test(enDef.replace(/-/g,""))) {
         result = "BLIST"; 
         thesaurusEntry.push("BLIST:");
         blacklist["X" + enDef] = thesaurusEntry;
@@ -322,6 +322,7 @@ function main() {
         blacklistWords = wordOfEachLine(0, blackLines),
         wordLines = stringToWordLines(fileContents),
         atomWords =  (io.fileRead("atoms.txt") +"\n" + 
+                      io.fileRead("si-units.txt") +"\n" +
                       io.fileRead("calendar.txt") +"\n" +
                       io.fileRead("numbers.txt")).split("\n"),
         //wordLines = removeBlacklisted(wordLines, blacklist),

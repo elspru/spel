@@ -18,5 +18,6 @@ contact: streondj at gmail dot com
 */
 #ifndef PRNG_H
 #define PRNG_H
+#include <stdint.h>
 uint64_t splitMix64(uint64_t *seed);
 #endif

@@ -44,8 +44,8 @@ extreme g
 unquote g
 than g
 exclusive-or g
-but g
-clause-tail g
+but g 3
+clause-tail g 2
 fraction g
 then g
 there g
@@ -69,6 +69,7 @@ otherwise g
 else-if g
 hello g
 quote g 2
+quoted g 2
 after g
 him g
 outside-of g
