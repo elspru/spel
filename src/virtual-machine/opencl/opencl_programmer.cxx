@@ -166,7 +166,6 @@ int main(void) {
 
   /* [Setup memory] */
   /* Number of elements in the arrays of input and output data. */
-  cl_int arraySize = 0xFF;
 
   /* The buffers are the size of the arrays. */
   uint16_t activity_atom_size = MAX_INDEPENDENTCLAUSE_TABLET * 1;
@@ -174,7 +173,6 @@ int main(void) {
   uint8_t population_size = 4;
   size_t activity_atom_byte_size = activity_atom_size * sizeof(v16us);
   size_t population_byte_size = program_size * population_size * sizeof(v16us);
-  // size_t bufferSize = arraySize * sizeof(cl_int);
 
   /*
    * Ask the OpenCL implementation to allocate buffers for the data.
@@ -312,16 +310,16 @@ int main(void) {
       clSetKernelArg(kernel, 4, sizeof(uint64_t), (uint64_t *)&random_seed));
   printf("arg5\n");
   setKernelArgumentsSuccess &=
-      checkSuccess(clSetKernelArg(kernel, 5, sizeof(uint64_t), NULL));
+      checkSuccess(clSetKernelArg(kernel, 5, sizeof(uint64_t *), NULL));
   printf("arg6\n");
   setKernelArgumentsSuccess &= checkSuccess(
       clSetKernelArg(kernel, 6, sizeof(cl_mem), &memoryObjects[1]));
-  /*printf("arg7\n");
-  setKernelArgumentsSuccess &= checkSuccess(clSetKernelArg(
-      kernel, 7, sizeof(uint8_t *), (uint8_t *)&newspaper_indexFinger)); */
   printf("arg7\n");
+  setKernelArgumentsSuccess &=
+      checkSuccess(clSetKernelArg(kernel, 7, sizeof(uint8_t *), NULL));
+  printf("arg8\n");
   setKernelArgumentsSuccess &= checkSuccess(
-      clSetKernelArg(kernel, 7, sizeof(cl_mem), &memoryObjects[2]));
+      clSetKernelArg(kernel, 8, sizeof(cl_mem), &memoryObjects[2]));
 
   if (!setKernelArgumentsSuccess) {
     cleanUpOpenCL(context, commandQueue, program, kernel, memoryObjects,
@@ -342,11 +340,12 @@ int main(void) {
    * array so the number of
    * instances needed is the number of elements in the array.
    */
-  size_t globalWorksize[1] = {arraySize};
+  size_t globalWorksize[1] = {population_size};
+  size_t localWorksize[1] = {2};
   /* Enqueue the kernel */
   if (!checkSuccess(clEnqueueNDRangeKernel(commandQueue, kernel, 1, NULL,
-                                           globalWorksize, NULL, 0, NULL,
-                                           &event))) {
+                                           globalWorksize, localWorksize, 0,
+                                           NULL, &event))) {
     cleanUpOpenCL(context, commandQueue, program, kernel, memoryObjects,
                   numberOfMemoryObjects);
     cerr << "Failed enqueuing the kernel. " << __FILE__ << ":" << __LINE__

@@ -77,11 +77,16 @@ void *copy_randomAccessMemory(void *dest, const void *src, size_t n) {
   return dest;
 }
 
-void agree(const int c, const v16us error_news, uint8_t *newspaper_indexFinger,
-           v16us *newspaper) {
+void agree(const int c, const v16us error_news,
+           local uint8_t *newspaper_indexFinger, global v16us *newspaper) {
+  uint8_t program_indexFinger = get_global_id(0);
   if (*newspaper_indexFinger < NEWSPAPER_LONG) {
     if (!c) {
-      *newspaper = error_news;
+      if (program_indexFinger < NEWSPAPER_LONG) {
+        newspaper[program_indexFinger] = error_news;
+      } else {
+        newspaper[*newspaper_indexFinger] = error_news;
+      }
       *newspaper_indexFinger += 1;
     }
   }
@@ -164,16 +169,17 @@ kernel void composition_population(
     constant const v16us *restrict activity_atom, const uint16_t program_size,
     const uint8_t population_size, const uint64_t random_seed,
     local uint64_t *random_workplace, global v16us *restrict population,
-    /*    global uint8_t *newspaper_indexFinger, */
-    global v16us *newspaper) {
+    local uint8_t *newspaper_indexFinger, global v16us *newspaper) {
   uint8_t program_indexFinger = get_global_id(0);
+  // v16us news = 1;
   // for (; program_indexFinger < population_size; ++program_indexFinger) {
   if (program_indexFinger < population_size) {
+    agree(1 == 0, (v16us){program_indexFinger, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xA,
+                          0xB, 0xC, 0xD, 0xE, 0xF},
+          newspaper_indexFinger, newspaper);
     composition_program(activity_atom_size, activity_atom, program_size,
                         roll_u64(random_seed, 8 * program_indexFinger),
                         random_workplace, &population[program_indexFinger]);
-    newspaper[program_indexFinger].s1 = 0x3333;
-    newspaper[program_indexFinger].s0 = 0x0000;
   }
   //}
 }
