@@ -13,17 +13,17 @@ bot = botb(initObj);
 bot.connect();
 /* translational duties */
 initObj.channels.forEach(function (inchannel) {
-bot.addListener('message' + channel, function (from, message) {
-    "use strict";
-    initObj.channels.forEach(function(outchannel) {
-        if (inchannel === outchannel) {
-            return false;
-        }
-        if (message === "hello") {
-            bot.say("#spel-fr", from + ";  bonjour");
-        }
-    }
-    console.log("message sent");
+  bot.addListener('message' + inchannel, function (from, message) {
+      "use strict";
+      initObj.channels.forEach(function(outchannel) {
+          if (inchannel === outchannel) {
+              return false;
+          }
+          if (message === "hello") {
+              bot.say("#spel-fr", from + ";  bonjour");
+          }
+      });
+      console.log("message sent");
+  });
 });
-}
 console.log("additional listeners setup");

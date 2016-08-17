@@ -77,20 +77,23 @@ initObj.channels.forEach(function (channel) {
         }
         console.log(line);
         if (initObj.admins.indexOf(from) !== -1) {
-        if (message.length < 140) {
-        initBitlObj.channels.forEach(function (channel) {
-            if (channel !== "&bitlbee") {
-                bitlBot.say(channel, /*from + ":" + */ message);
-                console.log("cross posted to " + channel);
+        if (message.substring(0, initObj.name.length + 1) === initObj.name + ":") {
+          var newMessage = message.substring(initObj.name.length + 2);
+          if (newMessage.length < 140) {
+            initBitlObj.channels.forEach(function (channel) {
+                if (channel !== "&bitlbee") {
+                    bitlBot.say(channel, /*from + ":" + */ newMessage);
+                    console.log("cross posted to " + channel);
+                } else {
+                    bitlBot.say("nickserv", "yes");
+                    console.log("yes");
+                }
+            });
             } else {
-                bitlBot.say("nickserv", "yes");
-                console.log("yes");
+              bot.say(channel, "message length is " + newMessage.length + 
+                      " too long for twitter (140)");
             }
-        });
-        } else {
-          bot.say(channel, "message length is " + message.length + 
-                  " too long for twitter (140)");
-        }
+          }
         }
         if (fileWords.length > 720) {
             title = topSixWords(fileWords);
