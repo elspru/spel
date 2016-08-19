@@ -15,8 +15,8 @@ done
 #g++ -c -o seed.o -ldictionary.o seed.cxx
 #g++   -c \
 #-o programmer.o opencl_programmer.cxx -lseed -lOpenCL -L./lib -lCommon  -L./common 
-#g++ programmer.o seed.o -lOpenCL -L./lib -lCommon  -L./common -lseed -o programmer
+#g++ programmer.o seed.o -lOpenCL ./lib -lCommon  -L./common -lseed -o programmer
 rm program2
-g++ dictionary.cxx seed.cxx opencl_programmer.cxx -lOpenCL -L./lib -lCommon \
-    -L./common -o program2
+g++ dictionary.cxx seed.cxx opencl_programmer.cxx -lOpenCL  \
+    -lCommon -L./common -o program2
 #    g++ opencl_programmer.cpp -o programmer -lOpenCL -L./lib -lCommon  -L./common 

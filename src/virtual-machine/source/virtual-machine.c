@@ -469,7 +469,8 @@ static void quiz_programmer() {
   uint8_t champion = 0;
   uint16_t champion_worth = 0;
   v16us program = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-  v16us population[4];
+  v16us population[4] = {{0}, {0}, {0}, {0}};
+  // memset(activity_atom, 0, MAX_INDEPENDENTCLAUSE_TABLET * TABLET_BYTE_LONG);
   memset(quiz_independentClause_list, 0,
          (size_t)(quiz_independentClause_list_size * TABLET_LONG * WORD_THICK));
   text_code(activity_atom_text_size, activity_atom_text, &activity_atom_size,

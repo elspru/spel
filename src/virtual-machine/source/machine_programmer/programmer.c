@@ -39,7 +39,7 @@ void composition_program(const uint8_t activity_atom_size,
   /*algorithm:
       select a random element,
       add it to the program.*/
-  uint8_t nomination;
+  uint8_t nomination = 0;
   assert(activity_atom_size > 0);
   assert(activity_atom != NULL);
   assert(program_size > 0);
@@ -50,11 +50,10 @@ void composition_program(const uint8_t activity_atom_size,
   *random_seed = splitMix64(random_seed);
   // printf("composition2 \n");
   nomination = (uint8_t)(activity_atom_size - 1);
-  // printf("composition3 \n");
-  // nomination = (uint8_t)(0x123456789ABCDEF % nomination);
+  // printf("composition3 %X\n", nomination);
   // printf("composition4 \n");
-  nomination = (uint8_t)((*random_seed) % (nomination));
-  // printf("composition5 \n");
+  nomination = (uint8_t)((uint8_t)*random_seed % (uint8_t)nomination);
+  // printf("composition5 %X\n", nomination);
   *program = activity_atom[nomination];
 }
 
