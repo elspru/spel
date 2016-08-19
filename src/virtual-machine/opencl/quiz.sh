@@ -1,3 +1,5 @@
 #!/bin/bash
-./make.sh
-./program2
+make clean
+./align_text.sh
+make
+binary/programmer

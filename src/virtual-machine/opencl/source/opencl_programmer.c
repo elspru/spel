@@ -24,7 +24,6 @@ contact: streondj at gmail dot com
 #include <string.h>
 
 #include "generic.h"
-#include "programmer.h"
 #include "seed.h"
 
 #define NEWSPAPER_LONG 0x10
@@ -32,9 +31,6 @@ contact: streondj at gmail dot com
 uint8_t newspaper_indexFinger = 0;
 const uint16_t newspaper_byte_size = NEWSPAPER_LONG * TABLET_BYTE_LONG;
 // v16us newspaper[NEWSPAPER_LONG] = {0};
-
-// using namespace std;
-// using namespace seed;
 
 /**
  * \brief Basic integer array addition implemented in OpenCL.
@@ -51,14 +47,14 @@ int main(void) {
   cl_program program = 0;
   cl_device_id device_id = 0;
   cl_kernel kernel = 0;
-  int numberOfMemoryObjects = 3;
+  // int numberOfMemoryObjects = 3;
   cl_mem memoryObjects[3] = {0, 0, 0};
   cl_platform_id platform_id = NULL;
   cl_uint ret_num_devices;
   cl_int errorNumber;
   cl_int ret;
   /* Load the source code containing the kernel*/
-  char fileName[] = "assets/opencl_programmer.cl";
+  char fileName[] = "source/parallel/composition_population.cl";
   FILE *fp;
   char *source_str;
   size_t source_size;
@@ -162,7 +158,8 @@ int main(void) {
   uint8_t program_size = 1;
   uint8_t population_size = 4;
   size_t activity_atom_byte_size = activity_atom_size * sizeof(v16us);
-  size_t population_byte_size = program_size * population_size * sizeof(v16us);
+  uint16_t population_byte_size =
+      (uint16_t)(program_size * (uint16_t)(population_size * sizeof(v16us)));
 
   /*
    * Ask the OpenCL implementation to allocate buffers for the data.
@@ -171,7 +168,7 @@ int main(void) {
    * The read/write flags relate to accesses to the memory from within the
    * kernel.
    */
-  bool createMemoryObjectsSuccess = true;
+  int createMemoryObjectsSuccess = TRUE;
 
   memoryObjects[0] =
       clCreateBuffer(context, CL_MEM_READ_ONLY | CL_MEM_ALLOC_HOST_PTR,
@@ -201,7 +198,7 @@ int main(void) {
   /* [Map the buffers to pointers] */
   /* Map the memory buffers created by the OpenCL implementation to pointers so
    * we can access them on the CPU. */
-  bool mapMemoryObjectsSuccess = true;
+  int mapMemoryObjectsSuccess = TRUE;
 
   v16us *activity_atom = (v16us *)clEnqueueMapBuffer(
       command_waiting_line, memoryObjects[0], CL_TRUE, CL_MAP_WRITE, 0,
@@ -240,13 +237,13 @@ int main(void) {
   uint16_t quiz_independentClause_list_size = 4;
   v16us quiz_independentClause_list[8];
   uint16_t text_remainder = 0;
-  uint16_t program_worth = 0;
+  // uint16_t program_worth = 0;
   uint64_t random_seed = 0x0123456789ABCDEF;
   uint16_t tablet_indexFinger = 0;
-  uint8_t champion = 0;
-  uint16_t champion_worth = 0;
-  v16us program_;
-  v16us population[4];
+  // uint8_t champion = 0;
+  // uint16_t champion_worth = 0;
+  // v16us program_;
+  // v16us population[4];
   memset(quiz_independentClause_list, 0,
          (size_t)(quiz_independentClause_list_size * TABLET_LONG * WORD_THICK));
   text_code(activity_atom_text_size, activity_atom_text, &activity_atom_size,
@@ -289,7 +286,7 @@ int main(void) {
   /* [Un-map the buffers] */
 
   /* [Set the kernel arguments] */
-  bool setKernelArgumentsSuccess = true;
+  int setKernelArgumentsSuccess = TRUE;
   printf("arg0\n");
   setKernelArgumentsSuccess &= success_verification(clSetKernelArg(
       kernel, 0, sizeof(uint8_t), (uint8_t *)&activity_atom_size));
@@ -400,7 +397,7 @@ int main(void) {
     printf("%04X ", (uint)((uint16_t *)output)[tablet_indexFinger]);
   }
   printf("\n");
-  printf("program %04X \n", (uint)output[1].s1);
+  // printf("program %04X \n", (uint)*((uint16_t *)&(output[1])));
 
   printf("newspaper \n");
   for (tablet_indexFinger = 0;
