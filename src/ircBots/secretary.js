@@ -16,7 +16,9 @@ bot = botb(initObj);
 bot.connect();
 /* bitllbee start */
 bitlBot = botb(initBitlObj);
-bitlBot.connect();
+bot.addListener("registered", function () {
+  setTimeout(function() {bitlBot.connect();}, 1000);
+});
 bitlBot.addListener("registered", function () {
     bitlBot.say("nickserv", "identify " + initBitlObj.password);
     console.log("identified for bitlbee");
@@ -59,6 +61,7 @@ function topSixWords(wordArray) {
     title = wordArray.slice(0, 6).join(" ");
     return title;
 }
+// post IRC messages to other networks
 initObj.channels.forEach(function (channel) {
     bot.addListener("message" + channel, function (from, message) {
         "use strict";
@@ -70,7 +73,7 @@ initObj.channels.forEach(function (channel) {
             timeStamp = Math.floor((Date.now() / 1000)).
                 toString(12).toUpperCase(),
             fileWords = fileContents.split(" "),
-            line = "." + timeStamp + ".mu." + from + ".nwo " +
+            line = "." + timeStamp + ".dose." + from + ".ginyeh: " +
                 message;
         if (/^\ *\//.test(line)) {
             return;
@@ -105,4 +108,13 @@ initObj.channels.forEach(function (channel) {
         }
     });
 });
+// post replies from other networks to IRC
 console.log("setup additional listeners");
+initBitlObj.channels.forEach(function (channel) {
+  bitlBot.addListener("message" + channel, function (from, message) {
+    "use strict";
+    if (/@streondj/.test(message)) {
+      bot.say("#spel",  channel + " " + from +  " " + message);
+    }
+  });
+});

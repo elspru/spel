@@ -1,33 +1,62 @@
-.35092BAA3.mu.htafdresgi.nwo testing out of band communication
-.350930194.mu.htafdresgi.nwo pfos: hello
-.350930194.mu.pfos.nwo htafdresgi: hello
-.350930305.mu.htafdresgi.nwo pfos: hello
-.350930305.mu.pfos.nwo htafdresgi: hello
-.3509303A7.mu.htafdresgi.nwo okay cool, so this will go into my normal logs, without being posted online.
-.350930515.mu.htafdresgi.nwo sris: to set up with pfos: random word, suggest a word, review sentence vocab, review sentence grammar #SPELDev
-.350930A16.mu.htafdresgi.nwo pfos: word
-.350930B23.mu.htafdresgi.nwo pfos: word
-.350931356.mu.htafdresgi.nwo pfos: word
-.350931356.mu.pfos.nwo tcep,32 Xchalk
-.3509313AB.mu.htafdresgi.nwo pfos: word
-.3509313AB.mu.pfos.nwo hfis features
-.350931400.mu.htafdresgi.nwo pfos: word
-.350931401.mu.pfos.nwo nrif nibble
-.350931448.mu.htafdresgi.nwo sris: awesome now pfos can give random Pyash word and its English equivalent, I'll #gitpush #SPELDev
-.35094B775.mu.htafdresgi.nwo pfos: word
-.35094B775.mu.pfos.nwo pyin drink
-.35094B779.mu.htafdresgi.nwo pfos: word
-.35094B779.mu.pfos.nwo qrak strikebreaker
-.35094B788.mu.htafdresgi.nwo pfos: word
-.35094B788.mu.pfos.nwo twac window
-.35094B792.mu.htafdresgi.nwo pfos: word
-.35094B792.mu.pfos.nwo kfan conduct
-.35094B795.mu.htafdresgi.nwo pfos: word
-.35094B795.mu.pfos.nwo hwis wild
-.35094B7A1.mu.htafdresgi.nwo pfos: word
-.35094B7A1.mu.pfos.nwo lyin please
-.35094B952.mu.htafdresgi.nwo pfos: word
-.35094B952.mu.pfos.nwo bwon bean
-.350951091.mu.htafdresgi.nwo sris: I've made a version of assert for OpenCl for debugging, it's called agree, writes error a newspaper to be read on output #SPELDev
-.350951A44.mu.htafdresgi.nwo sris: now I just need a command line Pyash encoder that outputs opencl literals. So can have language neutral error messages #SPELDev
-.350952360.mu.htafdresgi.nwo sris: wondering if can support just the #opencl version, probably would be easy to port to vanilla C if necessary later via script #SPELDev
+.351171085.mu.htafdresgi.nwo pfos: encoding need text argument
+.351171085.mu.pfos.nwo htafdresgi: encoding <<required, must>> text argument
+.351171090.mu.htafdresgi.nwo pfos: encoding required text argument
+.351171090.mu.pfos.nwo htafdresgi: encoding required text argument
+.351171090.mu.pfos.nwo htafdresgi: kfon pyic tyeh hrut
+.351171096.mu.htafdresgi.nwo pfos: encoding required text argument error
+.351171096.mu.pfos.nwo htafdresgi: encoding required text argument error
+.351171096.mu.pfos.nwo htafdresgi: kfon pyic tyeh hrut croc
+.3511713A4.mu.htafdresgi.nwo pfos: world hey
+.3511713A5.mu.pfos.nwo htafdresgi: world <<hello, oh>>
+.3511713B5.mu.htafdresgi.nwo pfos: world vocative-case
+.3511713B6.mu.pfos.nwo htafdresgi: world vocative-case
+.3511713B6.mu.pfos.nwo htafdresgi: hwac wu
+.351171934.mu.htafdresgi.nwo pfos: dictionary kfintu
+.351171934.mu.pfos.nwo ko: '사전,pre,tr: 'sözlük,lexical,az: 'lüğət,vocabulary
+.351171941.mu.htafdresgi.nwo pfos: define kfintu
+.351171949.mu.htafdresgi.nwo pfos: definitions kfintu
+.351171949.mu.pfos.nwo zh: 定义,defined,zh: 定义,definition,zh: 定义,defines,sw: ufafanuzi,exposition,sw: ufafanuzi,commentary,sw: ufafanuzi,elaboration,sw: ufafanuzi,exegesis,sw: ufafanuzi,expository,sw: ufafanuzi,clarification,id: definisi,definitional,bn: সংজ্ঞা,defining,ur: تعریفیں,mapping,kn: ವ್ಯಾಖ್ಯಾನಗಳು,commentaries,ml: നിർവചനങ്ങൾ,adverbs,ml: നിർവചനങ്ങൾ,countable,az: anlayışl
+.351171958.mu.htafdresgi.nwo pfos: synonymous kfintu
+.351171958.mu.pfos.nwo zh: 代名词,synonym,sw: sawa,same,sw: sawa,equal,sw: sawa,similar,sw: sawa,alike,sw: sawa,equivalent,sw: sawa,rightly,sw: sawa,analogous,sw: sawa,ok,sw: sawa,all-right,am: ተመሳሳይ,identical,am: ተመሳሳይ,consistent,el: συνώνυμος,namesake
+.3511719A2.mu.htafdresgi.nwo pfos: encoding kfintu
+.3511719A2.mu.pfos.nwo zh: '编码,encode,ta: 'குறியீட்டு,index
+.351171A65.mu.htafdresgi.nwo pfos: code kfintu
+.351171A65.mu.pfos.nwo zh: '码,yard,ar: 'ﺰﻣﺭ,symbol,ko: '암호,password,sv: 'koda,encode
+.351171A96.mu.htafdresgi.nwo pfos: indepdent-clause
+.351171A96.mu.pfos.nwo htafdresgi:
+.351171A96.mu.pfos.nwo htafdresgi: hzes
+.351171A9B.mu.htafdresgi.nwo pfos: independent-clause
+.351171A9B.mu.pfos.nwo htafdresgi: independent-clause
+.351171A9B.mu.pfos.nwo htafdresgi: tyah
+.351172085.mu.htafdresgi.nwo pfos: length
+.351172085.mu.pfos.nwo htafdresgi: <<long>>
+.351172130.mu.htafdresgi.nwo pfos: time
+.351172131.mu.pfos.nwo htafdresgi: <<moment, hour, overtime, when, season>>
+.351172138.mu.htafdresgi.nwo pfos: date
+.351172138.mu.pfos.nwo htafdresgi: <<day>>
+.3511727B2.dose.htafdresgi.ginyehpfos: initiative-case
+.3511727B3.dose.pfos.ginyehhtafdresgi: initiative-case
+.3511727B3.dose.pfos.ginyehhtafdresgi: nyeh
+.35117287A.dose.htafdresgi.ginyeh: htafdresgi: humble
+.351172882.dose.htafdresgi.ginyeh: pfos: humble
+.351172883.dose.pfos.ginyeh: htafdresgi: humble
+.351172883.dose.pfos.ginyeh: htafdresgi: nleh
+.351172896.dose.htafdresgi.ginyeh: pfos: _humble
+.351172896.dose.pfos.ginyeh: htafdresgi: _humble
+.351172896.dose.pfos.ginyeh: htafdresgi: hmen
+.3511729AA.dose.htafdresgi.ginyeh: pfos: secretary nominative-case chat log accusative-case blog potential-mood
+.3511729AB.dose.pfos.ginyeh: htafdresgi: secretary nominative-case <<dialogue>> <<enter, subscribe, login, treasure, newspaper>> accusative-case blog potential-mood
+.351172A04.dose.htafdresgi.ginyeh: pfos: secretary nominative-case dialogue newspaper accusative-case blog potential-mood
+.351172A04.dose.pfos.ginyeh: htafdresgi: secretary nominative-case dialogue newspaper accusative-case blog potential-mood
+.351172A04.dose.pfos.ginyeh: htafdresgi: sris na dwac gzat ka blo_k tsah
+.351172A39.dose.htafdresgi.ginyeh: sris: secretary nominative-case dialogue newspaper accusative-case blog potential-mood
+.351172A47.dose.htafdresgi.ginyeh: sris: sris na dwac gzat ka blo_k tsah
+.351172B26.dose.htafdresgi.ginyeh: pfos: me genetive-case wife nominative-case beautiful copula realis-mood
+.351172B27.dose.pfos.ginyeh: htafdresgi: me  wife nominative-case beautiful copula realis-mood
+.351172B27.dose.pfos.ginyeh: htafdresgi: mi hzes hcis na myih co li
+.351172B3B.dose.htafdresgi.ginyeh: pfos: me genitive-case wife nominative-case beautiful copula realis-mood
+.351172B3B.dose.pfos.ginyeh: htafdresgi: me genitive-case wife nominative-case beautiful copula realis-mood
+.351172B3B.dose.pfos.ginyeh: htafdresgi: mi ti hcis na myih co li
+.351172B50.dose.htafdresgi.ginyeh: pfos: me genitive-case wife nominative-case _beautiful copula realis-mood
+.351172B50.dose.pfos.ginyeh: htafdresgi: me genitive-case wife nominative-case _beautiful copula realis-mood
+.351172B50.dose.pfos.ginyeh: htafdresgi: mi ti hcis na hyus co li

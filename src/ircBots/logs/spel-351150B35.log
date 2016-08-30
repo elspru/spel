@@ -1,0 +1,133 @@
+.35092BAA3.mu.htafdresgi.nwo testing out of band communication
+.350930194.mu.htafdresgi.nwo pfos: hello
+.350930194.mu.pfos.nwo htafdresgi: hello
+.350930305.mu.htafdresgi.nwo pfos: hello
+.350930305.mu.pfos.nwo htafdresgi: hello
+.3509303A7.mu.htafdresgi.nwo okay cool, so this will go into my normal logs, without being posted online.
+.350930515.mu.htafdresgi.nwo sris: to set up with pfos: random word, suggest a word, review sentence vocab, review sentence grammar #SPELDev
+.350930A16.mu.htafdresgi.nwo pfos: word
+.350930B23.mu.htafdresgi.nwo pfos: word
+.350931356.mu.htafdresgi.nwo pfos: word
+.350931356.mu.pfos.nwo tcep,32 Xchalk
+.3509313AB.mu.htafdresgi.nwo pfos: word
+.3509313AB.mu.pfos.nwo hfis features
+.350931400.mu.htafdresgi.nwo pfos: word
+.350931401.mu.pfos.nwo nrif nibble
+.350931448.mu.htafdresgi.nwo sris: awesome now pfos can give random Pyash word and its English equivalent, I'll #gitpush #SPELDev
+.35094B775.mu.htafdresgi.nwo pfos: word
+.35094B775.mu.pfos.nwo pyin drink
+.35094B779.mu.htafdresgi.nwo pfos: word
+.35094B779.mu.pfos.nwo qrak strikebreaker
+.35094B788.mu.htafdresgi.nwo pfos: word
+.35094B788.mu.pfos.nwo twac window
+.35094B792.mu.htafdresgi.nwo pfos: word
+.35094B792.mu.pfos.nwo kfan conduct
+.35094B795.mu.htafdresgi.nwo pfos: word
+.35094B795.mu.pfos.nwo hwis wild
+.35094B7A1.mu.htafdresgi.nwo pfos: word
+.35094B7A1.mu.pfos.nwo lyin please
+.35094B952.mu.htafdresgi.nwo pfos: word
+.35094B952.mu.pfos.nwo bwon bean
+.350951091.mu.htafdresgi.nwo sris: I've made a version of assert for OpenCl for debugging, it's called agree, writes error a newspaper to be read on output #SPELDev
+.350951A44.mu.htafdresgi.nwo sris: now I just need a command line Pyash encoder that outputs opencl literals. So can have language neutral error messages #SPELDev
+.350952360.mu.htafdresgi.nwo sris: wondering if can support just the #opencl version, probably would be easy to port to vanilla C if necessary later via script #SPELDev
+.350953273.mu.htafdresgi.nwo a single division is 4 #flops, so convert your divisions into multiplications #opencl
+.3509533A6.mu.htafdresgi.nwo sris: #opencl processors are more cost effective and numerous than #cuda ones. #chooseWisely
+.35095341B.mu.htafdresgi.nwo sris: a single division is 4 #flops, so convert your divisions into multiplications #opencl #GPU #programming
+.350953932.mu.htafdresgi.nwo sris: #GPU #GFLOPS $0.05/GF are about a hundred times cheaper than #CPU #GFLOPS $5/GF
+.35096A559.mu.htafdresgi.nwo sris: #POCL to the rescue! allows compiling on non-#opencl enabled devices. http://pocl.sourceforge.net/ #portability
+.35096B191.mu.htafdresgi.nwo sris: seems the Mali SDK tricked me into using proprietary common.h file. will rewrite based on nice #OpenCL tutorial http://bit.ly/2b0IYRZ
+.350970320.mu.htafdresgi.nwo sris: #OpenCL 1.1 is the most widely supported version of OpenCl, even #Nvidia supports it (somewhat)
+.3509B4129.mu.htafdresgi.nwo sris: ported programmer to portable opencl and compiles with autotools #SPELDev
+.350A15371.mu.elspru.nwo @AMDCustomerCare When will XDMA compatible motherboards support Libreboot and-or RYF? my open letter: https://loadaverage.org/notice/8439759
+.350A22307.mu.elspru.nwo I seperated the #OpenCL machine programmer from SPEL and into it's own project https://github.com/elspru/Machine-Programmer
+.350B3B0B6.mu.elspru.nwo pfos: word
+.350B3B0B6.mu.pfos.nwo hkum speculative-mood
+.350B3B0B9.mu.elspru.nwo pfos: word
+.350B3B0B9.mu.pfos.nwo psas produce
+.350B3B100.mu.elspru.nwo pfos: word
+.350B3B100.mu.pfos.nwo tcic body
+.350B3B102.mu.elspru.nwo pfos: word
+.350B3B102.mu.pfos.nwo vrit distractor
+.350B3B104.mu.elspru.nwo pfos: word
+.350B3B104.mu.pfos.nwo tlun trousers
+.350B3B105.mu.elspru.nwo pfos: word
+.350B3B105.mu.pfos.nwo pris virus
+.350B3B109.mu.elspru.nwo pfos: word
+.350B3B109.mu.pfos.nwo hjuc loot
+.350B3B110.mu.elspru.nwo pfos: word
+.350B3B110.mu.pfos.nwo kxam scandium
+.350B3B112.mu.elspru.nwo pfos: word
+.350B3B112.mu.pfos.nwo cruk tiger
+.350B3B114.mu.elspru.nwo pfos: word
+.350B3B114.mu.pfos.nwo kyuk attack
+.350B3B116.mu.elspru.nwo pfos: word
+.350B3B116.mu.pfos.nwo hnos flood
+.350B3B11A.mu.elspru.nwo pfos: word
+.350B3B11A.mu.pfos.nwo hras sand
+.350B3B11B.mu.elspru.nwo pfos: word
+.350B3B11B.mu.pfos.nwo dwet overtime
+.350B3B121.mu.elspru.nwo pfos: word
+.350B3B121.mu.pfos.nwo hvef evitative-case
+.350B3B126.mu.elspru.nwo pfos: word
+.350B3B126.mu.pfos.nwo gjek else-if
+.350B3B128.mu.elspru.nwo pfos: word
+.350B3B129.mu.pfos.nwo fyon affinity
+.350B3B420.mu.elspru.nwo pfos: word
+.350B3B420.mu.pfos.nwo clim spice
+.350B3B423.mu.elspru.nwo pfos: word
+.350B3B423.mu.pfos.nwo hdis guilty
+.350B3B425.mu.elspru.nwo pfos: word
+.350B3B425.mu.pfos.nwo kfen concepts
+.350B3B427.mu.elspru.nwo pfos: word
+.350B3B427.mu.pfos.nwo htip ten
+.351128298.mu.htafdresgi.nwo sris: spent a whole week trying to get #OpenCL to work on an #Nvidia laptop, still doesn't.
+.351128367.mu.htafdresgi.nwo sris: Once the #machineProgrammer is working, and fleshed out basic SPEL libraries, can set it to work coding libreware #OpenCL drivers.
+.351129185.mu.htafdresgi.nwo sris: spent a whole week trying to get #OpenCL to work
+.351129185.mu.htafdresgi.nwo                     on an #Nvidia laptop, still doesn't.
+.351129228.mu.htafdresgi.nwo sris: on a new laptop. works on the Intel GPU, with beignet, 23 compute units. but with Nvidia drivers at best got 5 compute unites #OpenCL
+.35112934A.mu.htafdresgi.nwo sris: I did make fairly extensive installation documentation.  though by installing the proprietary Nvidia drivers I've broken several Ubuntu installations.
+.351129389.mu.htafdresgi.nwo sris: I wrote some installation documentation.  though by installing the proprietary Nvidia drivers I've broken several Ubuntu installations.
+.351129454.mu.htafdresgi.nwo sris: once the #machineProgrammer is working, and fleshed out some Pyash libraries, will have to get it writing libreware #OpenCL drivers.
+.351129554.mu.htafdresgi.nwo sris: meanwhile will update my secretary robot for collecting replies, and professor bot for translating down to Pyash vocabulary.
+.351150077.mu.htafdresgi.nwo l
+.351150092.mu.htafdresgi.nwo pfos: what is up
+.3511502B1.mu.htafdresgi.nwo pfos: what novel
+.3511502B2.mu.pfos.nwo htafdresgi: what novel
+.351150504.mu.htafdresgi.nwo pfos: what novel
+.351150504.mu.pfos.nwo htafdresgi: what novel
+.351150680.mu.htafdresgi.nwo pfos: what novel
+.351150680.mu.pfos.nwo htafdresgi: what novel
+.351150681.mu.pfos.nwo htafdresgi:
+.351150769.mu.htafdresgi.nwo pfos: what neo
+.351150769.mu.pfos.nwo htafdresgi: what neo
+.35115076A.mu.pfos.nwo htafdresgi:
+.351150823.mu.htafdresgi.nwo pfos: what happening
+.351150823.mu.pfos.nwo htafdresgi: what <<events, sago, occurring>>
+.351150830.mu.htafdresgi.nwo pfos: what occuring
+.351150830.mu.pfos.nwo htafdresgi: what
+.351150831.mu.pfos.nwo htafdresgi: ke,29 hzes,29
+.351150883.mu.htafdresgi.nwo pfos: what occuring interrogative-mood
+.351150883.mu.pfos.nwo htafdresgi: what  interrogative-mood
+.351150883.mu.pfos.nwo htafdresgi: ke hzes ri
+.351150903.mu.htafdresgi.nwo pfos: what neo occuring
+.351150903.mu.pfos.nwo htafdresgi: what neo
+.351150903.mu.pfos.nwo htafdresgi: ke nyoh hzes
+.35115095B.mu.htafdresgi.nwo pfos: what neo occuring realis-mood
+.351150960.mu.pfos.nwo htafdresgi: what neo  realis-mood
+.351150960.mu.pfos.nwo htafdresgi: ke nyoh hzes li
+.351150974.mu.htafdresgi.nwo pfos: what neo boring realis-mood
+.351150974.mu.pfos.nwo htafdresgi: what neo <<bore, lazy>> realis-mood
+.35115097A.mu.htafdresgi.nwo pfos: what neo bore realis-mood
+.35115097A.mu.pfos.nwo htafdresgi: what neo bore realis-mood
+.35115097A.mu.pfos.nwo htafdresgi: ke nyoh kcun li
+.3511509A7.mu.htafdresgi.nwo pfos: green monk
+.3511509A7.mu.pfos.nwo htafdresgi: green <<nun, monks, hermit, capuchin, ascetic, munich, abbot>>
+.3511509B7.mu.htafdresgi.nwo pfos: green ascetic
+.3511509B8.mu.pfos.nwo htafdresgi: green ascetic
+.3511509B8.mu.pfos.nwo htafdresgi: ksin pces
+.351150B12.mu.htafdresgi.nwo pfos: evergreen ascetic
+.351150B12.mu.pfos.nwo htafdresgi: evergreen ascetic
+.351150B12.mu.pfos.nwo htafdresgi: vren pces
+.351150B35.mu.htafdresgi.nwo pfos: evergreen ascetic research-gender
+pfos: htafdresgi: sris: #OpenCL neo I
