@@ -99,11 +99,11 @@ luminous-intensity g
 assertive-quantifier g
 elective-quantifier g
 universal-quantifier g
-negatory-quantifier g
+negatory-quantifier g 2
 alternative-quantifier g
 conjunction g
-and-or g 
-exclusive-or g 
+and-or g 2
+exclusive-or g 2
 definite-article g
 abstract-gender g
 vegetal-gender g
@@ -153,3 +153,7 @@ prolative-case g 3
 its g 3
 neo g 
 counterfactual-conditional g 3
+proximal-demonstrative g 3
+medial-demonstrative g 3
+distal-demonstrative g 3
+

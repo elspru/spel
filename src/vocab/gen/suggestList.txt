@@ -21,7 +21,7 @@ its: their, it
 her: their, it
 on: against
 at: horse, here
-by: passing, and, according-to
+by: passing, and
 which: who, what, it
 have: becoming
 or: and-or
@@ -48,7 +48,7 @@ any: namely, all
 your: yours, their
 indicative-mood: directive-mood
 man: person, husband, male
-than: according-to, maximize, what, increasingly
+than: maximize, what, increasingly
 our: us, spring
 some: several, nothing, sometime, one
 very: 
@@ -112,7 +112,8 @@ give: giving, yeah
 off: distant, stopped, covered, lost, go, who
 face: surface, mouth, wash, person
 right: justice, law
-another: one-another, other
+another: one-another, other, second
+alternative-quantifier: elective-quantifier
 part: partially, subset, departmental, participate, quantum, allotment, ration
 head: president, auto, summit
 new: neo, novel, nine, fresh, freshman, young
@@ -127,7 +128,7 @@ far: distant, until, distance
 called: say, think
 whole: all, full-time
 set: putting, together, series, file
-both: two
+both: second, two
 find: found, how, see
 look: see, gaze, glance
 let: bus, day, pay, two, accommodate, late, discharge
@@ -161,13 +162,13 @@ best: better
 use: consumption, using, expend
 myself: me, magnetic, kill
 since: latter, first, after, because, sedan
-power: strength, salad, electric-current, authority
+power: strength, energy, salad, electric-current, authority
 themselves: their
 used: old, familiar, using
 rather: instead
 present: available
 voice: audio, noise, vocalizations, rumour
-others: other
+others: other, second
 less: down, subtract
 next: next-to, forward, after, upcoming
 within: inner, deep, between
@@ -183,7 +184,7 @@ true: truth, realistic
 anything: what, nothing
 keep: holding, putting
 means: medium, how, vehicle
-near: nearly, proximity, polygon
+near: nearly, proximity
 state: country, government, circumstances, enter
 hundred: cent, saw
 alone: lonely, girl, only, isolation, unattended
@@ -210,7 +211,6 @@ during: medium, moment, between, meantime, season
 business: trade, shop, profession, company, affairs
 whether: go
 manner: how, fashion
-second: secondly, according-to, other
 reason: account, because, triggered
 united: singular, union
 call: oxidize
@@ -221,8 +221,8 @@ dead: extinct, death
 earth: country, floor
 boy: son, male
 forth: forward, previously
-feel: think, sensory, hear
-coming: future, come, emanating, upcoming
+feel: think, sensory, inductance, hear
+coming: future, come, upcoming
 spirit: soul, mind
 care: service, grooming, preoccupation, treatment
 ground: floor, country
@@ -244,7 +244,6 @@ able: qualified, capacity, worth, could
 live: behave, living, neighborhood, stay, nest
 lady: feminine, girl
 subject: discipline, conditional, teaching
-same-subject-marker: 
 hard: violently, challenging, grave, stubborn
 around: nearly, round
 ask: hear, please, pray
@@ -261,12 +260,12 @@ party: feast, invitation, half, comma, page
 fine: fining, beautiful
 ready: already, chalk, tiptoe
 common: generic, mutual, public
-talk: story, speech, discuss
+talk: story, speech, discuss, chatting
 mark: traces, tag, tick, trademark, nomination
 written: bitter, write
 necessary: sticky, intransitive, required
-else: other, plus, one-another, secondly, else-if
-force: strength, impose, ball, oblige
+else: other, plus, one-another, else-if
+force: strength, impose, ball, oblige, energy
 idea: concepts
 across: cross
 early: hurry, primitive, opening, introductory
@@ -323,7 +322,6 @@ certainly: indeed, feast
 wind: air
 receive: receipt, accept, derive, attain, buy
 attention: focus, charm
-length: long
 probably: perhaps, sometime
 glad: satisfied, hilarious, enjoy, liberal
 important: consequential
@@ -333,7 +331,7 @@ opinion: observation, opine
 faith: believe, loyalty
 ago: east, behind, previously, ancestor, sedan
 agreement: protocol, treaty, agree, chord
-charge: paycheck, expense, costly, debit
+charge: paycheck, expense, costly, surrendering, debit
 arm: hand, poor, elbow, shoulder, battery
 send: sent, ship
 silence: quiet, peace
@@ -413,7 +411,7 @@ boat: ship, float, yacht, wrestle, canoe
 somewhat: nothing, somehow, until
 sudden: suddenly
 value: worth, rank
-due: because, according-to
+due: because
 support: crutch, help
 date: day
 reading: read
@@ -422,7 +420,7 @@ wait: waiting
 permission: ear, license, allowance
 piece: chip, subset, strip, towel, participate, scrap, allotment
 ex: old, example
-conversation: dialogue, speech, arbitrary, deliberation
+conversation: dialogue, speech, chatting, arbitrary, deliberation
 proper: perfect, applicable
 opportunity: vacancy, avenue, accommodate
 afternoon: noon, late
@@ -448,14 +446,14 @@ picture: portrait, photograph, frame, film
 personal: private, staff, individually, unique, personalize
 watch: wristwatch, monitor, see, hour
 pleased: satisfied, enjoy
-hot: warm, fire, burning
+hot: heat, warm, fire, burning
 effort: scramble, trying
 prepared: already, infectious
 attempt: quiz, trying
 fast: hurry, expedite, rapidly
 determined: designer, haircut, inevitable, assigned
 beneath: down, underlie
-talking: say, speech, telling
+talking: say, speech, chatting, telling
 turning: round, spin, stopped, curve
 century: age
 intended: focus, chalk, planned, purpose
@@ -595,7 +593,6 @@ honor: respect, glory
 bottom: down, background, floor, buttocks, subset, base
 additional: excess
 aid: aids, help, treatment
-same-event-marker: 
 fully: sufficiently, actively, completeness, full-time
 delight: unpleasant, enjoy
 amount: quantum, relatively, number, sheep, costly
@@ -605,7 +602,7 @@ stranger: guest, unknown, foreign
 facts: truth
 creature: biological, animal, industry
 false: lie
-tall: high, long
+tall: high, long, length
 gate: door, opening
 quietly: quiet
 freely: liberty, liberal, loose
@@ -646,7 +643,6 @@ add: plus, collector
 leading: lead, consequential, popular, pioneer, driving
 mass: quality, cluster, pasta, month, table
 established: installing, firmly, establish
-gray: brown, ash
 thin: tapered, narrow, rarefied
 check: probe
 virtue: benevolent, attribute, conduct
@@ -660,7 +656,6 @@ material: hardware, ingredient, literature, museum
 principal: cardinal, capital
 frank: honest, sincerely
 guess: speculate, prediction, assess
-heat: summer, warm
 bent: meandering, twisted, polarity
 guard: doorman, staff
 naturally: natural
@@ -703,7 +698,7 @@ eh?: what
 listen: hear, listener
 hurt: pain, violate, wounded
 express: demonstrative
-height: high, kidney
+height: length, high, kidney
 size: shapes, magnitude
 edge: board, margin
 task: affairs, duty, pregnancy
@@ -787,7 +782,7 @@ dignity: respect, glory, pride
 catch: arrest, grab
 amongst: between
 current: stream, running
-sending: emanating, sent, transmission, sender, referral
+sending: sent, transmission, sender, referral
 possibly: probability, perhaps, could, sometime
 separate: aside, individually, unique, disconnect, divorce, abstract
 receiving: receipt, accept, attain
@@ -839,7 +834,6 @@ car: auto, train, vehicle, sedan, machine, truck
 theory: principle, theorem, ideology
 nobody: anyone
 closely: carefully, narrow
-energy: strength
 bare: undress, shame, only, hollow, bald
 partly: half, partially, today
 color: colour
@@ -854,7 +848,7 @@ brilliant: shiny, wise, wow
 bringing: bring, giving
 goods: mall
 tale: story
-grey: brown, ash
+grey: gray, brown
 highly: high, increasingly, bridge
 excited: animated, enthusiasm, provoke
 throne: crown
@@ -878,7 +872,7 @@ gently: soft, carefully
 connection: attaching, relations, splice
 protection: shelter, defending
 conscious: awake, unconscious, deliberately, awareness
-edition: board, print, expense
+edition: board, print, expense, frequency
 directed: recipe, guideline, direction, controlled
 flight: bird, wing, air, fly
 evident: evidential, transparent, apparently, found
@@ -962,7 +956,7 @@ softly: soft, gradually
 reality: truth, indeed
 glorious: noble, holy
 likewise: similarly, also, equally
-site: scene, website, places
+site: scene, web-site, places
 sail: ship, veil
 frightened: apprehensive, fear
 unhappy: sad
@@ -1057,7 +1051,7 @@ appeal: referral, draw, complaint, profession
 strongly: strengthen
 lack: scarcity, absence, tribe
 breaking: sabotage, brake, destroying, break-in
-violence: violently, strength, rape
+violence: violently, strength, energy, rape
 render: reimburse, making
 career: profession, living, activity
 design: designer
@@ -1151,7 +1145,7 @@ enormous: giant, super
 conviction: punishment, reliance
 wooden: tree
 prefer: choose
-fever: fire, bamboo
+fever: heat, fire, temperature, bamboo
 treat: treatment, behave, disposal
 warning: reminder, alarm
 impulse: inspiration, inject, pulse, continuity
@@ -1163,7 +1157,7 @@ rush: grab, crowded, hurry, scramble, running
 deny: refusal, ban
 correct: perfect, repair
 perform: begin, speech, fulfill
-accordingly: thus, according-to, applicable
+accordingly: thus, applicable
 notion: concepts, connotation
 discussion: discuss, argument, deliberation
 actions: practical, measures, stock
@@ -1217,7 +1211,7 @@ crew: staff, company
 perceive: understand, see, awareness
 declare: notify, public, pronouncing
 yard: code, page, court
-version: translation, copy
+version: translation, copy, frequency
 odd: curious, oddly
 grateful: thank
 infinite: unlimited, eternal, infinitive
@@ -1241,7 +1235,7 @@ organization:
 somebody: who, person, anyone
 incident: phenomenon, accident, constitution, circumstances, adventure
 bar: pub, strip, twelve, cafe, barium, baggage
-row: line, ordinal, respectively, rung, government, series
+row: line, heat, ordinal, respectively, rung, government, series
 poverty: poor
 bottle: glass
 stir: shake, riot, resurrection
@@ -1262,7 +1256,7 @@ lightly: light, sometime
 exception: discrimination, conflict, deduction, except
 offering: sacrifice, suggest
 display: demonstrate, exhibit, monitor, scene, demonstrator
-strain: stress, embrace, racial, tribe
+strain: stress, embrace, voltage, racial, tribe
 confined: bounded, narrow
 aim: purpose, focus
 critical: reviewer, grave, complex, crisis
@@ -1291,7 +1285,6 @@ performing: exhibit, causation
 grounds: terms
 marble: stone
 recently: lately
-recent-past-tense: 
 ability: capacity, talent
 wave: tide, vague, wavelength
 folk: popular, folklore
@@ -1539,7 +1532,7 @@ alarmed: alarm, wonder, apprehensive
 furnish: supply, devote, furniture, submit, giving
 culture: civilization
 trick: fool, cunning, tactic, strategy, art
-column: pole, ash, foot
+column: pole, foot
 financial: money, silver, fundraise, economy
 drama: theatre
 joke: jest, humour
@@ -1574,7 +1567,7 @@ doorway: door, input
 convenient: practical, cheap
 mail: letter, postal, post-office, email, mile, envelope
 paint: colour, sketch
-surrender: conquering, tradition
+surrender: surrendering, conquering, tradition
 mild: soft
 promptly: once
 department: departmental, branch
@@ -1591,7 +1584,7 @@ dish: food, court
 straw: grass
 net: web, holy
 impatient: rashness, patience
-warmth: enthusiasm, warm
+warmth: enthusiasm, warm, heat, temperature
 certainty: indeed, believe
 restless: apprehensive, unsteady
 salvation: recovery, rescuing, escape
@@ -1659,7 +1652,6 @@ luxury: comfort
 saving: economy, frugal
 string: rope, series, chord
 combination: coincidence, mixed, salad
-temperature: warm, mercury
 strict: 
 professional: profession
 injured: wounded
@@ -1695,7 +1687,7 @@ chase: hunting, yacht
 occupy: occupancy, arrest
 gown: coat, dressed, robe
 lock: fastener, castle, palace
-hesitation: reluctance, doubt
+hesitation: reluctance, doubt, frequency
 proposal: suggest, program
 destiny: fortune, syntactic
 happily: fortunately
@@ -1835,7 +1827,6 @@ favorable: beneficial, friendly, pleasant, flex, cheap
 dependent: depend, reliance
 warrant: guarantee, justify, command
 convention: treaty, summit, session
-angle: corner, polygon
 widely: 
 prejudice: hate, bias, knot
 porch: hall, balcony
@@ -1966,7 +1957,7 @@ expressing: phrase
 ruler: duke, controller, king, governor
 crazy: affairs, crackpot, fool
 entertain: amuse, relaxation, speech
-hesitate: knock, behind
+hesitate: knock, frequency, behind
 greeting: applause
 monstrous: giant, terrible
 barely: only, somehow
@@ -2162,7 +2153,7 @@ adequate: sufficiently, completeness, proportional, applicable, inadequate
 treason: rebel
 split: distribute
 historian: historical
-intensity: strength, magnitude, intensifier
+intensity: strength, magnitude, energy, intensifier
 creed: reliance, religion, confession
 attraction: charm, affinity, fascinate
 concert: ceremony, music, proximity
@@ -2217,7 +2208,7 @@ disappear: invisible
 counter: rival, counterattack, disk
 venus: silver, friday
 attract: fascinate, draw, impress, grill
-astonishing: wonder, oddly
+astonishing: wonder, awed, oddly
 competition: contest, rival, bet
 ink: toner, imperial, colour
 crystal: glass, quartz, decision
@@ -2264,7 +2255,7 @@ scared: apprehensive, fear
 imprisonment: prison, captivity, arrest
 substitute: alternate, allowance, vice, instead
 usage: consumption, using, containing
-restoration: restore, repair, recovery
+restoration: restore, repair, recovery, rehabilitation
 jurisdiction: authority, justice
 primary: base, planet, mayor, primitive
 beam: ray
@@ -2299,7 +2290,7 @@ disturbance: disorder, crisis
 tenth: ten
 polish: 
 comparative: comparison, relatively
-imposing: putting, impose
+imposing: putting, impose, majestic
 a.m.: morning, shiny
 cage: castle, cell, nest
 cargo: baggage
@@ -2308,17 +2299,17 @@ skilful: sent, cunning, qualified
 scream: cry
 compromise: harmony, reconcile
 ammunition: shoot
-secondary: vice
+secondary: second, vice
 assistant: supporter, help, vice
 cane: stock, pipe
 argue: discuss
 logic: argument, rational, rationality
 panic: terrorism, fear
 rural: village
-circulation: cyclic, circle, traffic, transmission
+circulation: cyclic, circle, frequency, traffic, transmission
 sustain: develop
 crash: accident, fall, shock, conflict
-quote: extract, unquote
+quote: extract, quoted
 lacking: inadequate, scarcity, tribe, incomplete
 gradual: gradually
 detached: 
@@ -2362,10 +2353,10 @@ payable: cheap
 definition: connotation, justice
 thumb: inch
 revolutionary: revolution
-circuit: circle, pulse, round
-energetic: actively, animated
+circuit: circle, frequency, pulse, round
+energetic: actively, energy, animated
 repetition: repeated, stress
-amazing: wonder, amaze, surprisingly, wow
+amazing: wonder, amaze, surprisingly, awed, wow
 tip: pointed, spike
 kick: football, calcium, tank, shock, stairs
 dig: excavate, pit
@@ -2408,7 +2399,7 @@ scope: horizon, province, domain, magnitude
 vegetation: vegetable
 swelling: swell
 topic: story, causative
-superb: perfect, wow, super, surpassing
+superb: perfect, wow, majestic, super, surpassing
 confidential: secret
 sunrise: dawn
 lifetime: living
@@ -2438,7 +2429,7 @@ drum: dance
 sanction: license
 bin: box, basket, tank
 dispose: disposal, impose
-duration: temporary
+duration: temporary, length
 weigh: weight
 monastery: abbey, church
 publish: distribute
@@ -2453,7 +2444,7 @@ practise: training, executive
 sanctuary: altar
 casual: generic, coincidence, informal, temporary
 historic: historical
-bored: bore, lazy
+bored: blase, bore, lazy
 shrink: gather
 treating: treatment
 expenditure: expense, consumption
@@ -2601,7 +2592,7 @@ pat: knock, pot, stomach, rub
 belly: stomach, ship
 neutral: secular, passive
 diligence: talent
-disgusted: hate
+disgusted: blase, hate
 compose: write, compile, essay
 icy: cold, ice, frozen
 inconvenience: trouble
@@ -2616,7 +2607,7 @@ episode: departmental, consequential, quantum
 achieve: attain, derive, result
 persistent: 
 starve: hungry
-consultation: counsel, deliberation, conferring, discuss
+consultation: counsel, deliberation, discuss
 sour: acid
 underline: stress
 parade: march
@@ -2669,6 +2660,7 @@ imply: denote, notify, suppose, suggest, say
 attach: attaching, splice
 suite: wing
 jewel: treasure, ornament, diamond, flourish
+secondly: second
 rainy: rain
 emotional: sensory, mentally, sensitive
 radical: extremist
@@ -2746,7 +2738,7 @@ conjunction: cooperate, continuity, together, connectors
 intermediate: medium
 formula: recipe, principle, press
 cheat: fool
-haunt: appear
+haunt: frequency, appear
 mining: mineral, iodine, loot
 register: list, subscribe, enter, treasure
 indefinite: unlimited, vague, unspecified
@@ -2796,6 +2788,7 @@ advertisement: advertiser, propaganda, complaint
 theft: steal, kidnapping
 spontaneous: instinct, natural, arbitrary, random, suddenly
 utility: instrument
+ash: gray
 expletive: swearing, vain, curse
 revive: resurrection, again
 connect: hook, connectors, splice
@@ -2816,7 +2809,7 @@ dispatch: expedition, letter, kill
 onto: envelope, increasingly, against
 unit: ingredient, singular
 complaining: complaint, dissatisfaction
-chat: dialogue
+chat: chatting, dialogue
 gambling: bet, indulge
 amber: yellow
 ton: tin, tuna, choke
@@ -2907,7 +2900,7 @@ transformation: convergence, adaptation, translation
 fringe: margin, boundary, pointed
 medal: badge, reward, coin
 location: places, posture
-quotation: extract, unquote
+quotation: extract, quoted
 custody: captivity, arrest
 plausible: rational
 toss: cast
@@ -3010,7 +3003,7 @@ administer: administration, trustee, executive
 unimportant: trivial
 economical: economy, economist, frugal
 stride: progress, passing, pitch
-axis: print, ash, shoulder
+axis: print, shoulder
 satisfying: disease, satisfied
 reliable: honest
 disgusting: hate
@@ -3070,7 +3063,7 @@ inhabitant: resident
 flute: whistle
 reproduction: fertility
 consistency: stability
-span: margin, opening, inch
+span: length, margin, opening, inch
 attic: upstairs, bridge, roof
 affirmative: agree
 t: 
@@ -3083,7 +3076,7 @@ pitcher: pot
 officially: official
 annoy: tease, bore, narrow
 glide: slip
-abandonment: abandoned
+abandonment: abandoned, surrendering
 trait: attribute
 composer: musician
 continuation: continuity, begin
@@ -3184,7 +3177,7 @@ forge: forging, falsify, knock
 fossil: oil, organic, archaeological
 constraint: ban, regulation
 zest: enthusiasm, experience, hobby, taste, spice
-cycle: circle, bicycle
+cycle: circle, frequency, bicycle
 nap: sleep
 hamlet: suburb, village
 paw: foot, pad
@@ -3207,7 +3200,7 @@ ferry: yacht, phrase, ship
 panel: board
 straightforward: directly, transparent, subsisting, linear, frugal, simplicity
 hazardous: dangerous, threatening
-altitude: high
+altitude: length, high
 cumulative: overtime, accumulation, gross
 fibre: scratch
 export: exporting
@@ -3269,13 +3262,12 @@ detection: found, searching, revelation
 smash: destroying, shatter
 facilitate: expedite, streamline, accommodate
 correctness: accuracy, truth, perfect
-frequency: circle
 stitch: sewing, sweat, abridge
 stab: twinge, inject, shoot, grab
 chop: bite, cutting, steak
 password: code, slogan
 hemisphere: pointed
-heating: warm, heater
+heating: warm, heat, temperature, heater
 depressing: provoke, despair
 coup: revolution, knock, rebel, success
 dedication: loyalty, volunteer
@@ -3301,7 +3293,7 @@ halfway: half
 sheath: pod, coat, envelope, glove, apron
 memorandum: treaty, representation
 absorb: exploit, consist, swallow, embrace
-cone: tapered, steep
+cone: tapered, steep, angle
 educate: educational, training, awareness, train
 enquiry: probe, observation, question
 symmetry: equilibrium
@@ -3390,7 +3382,7 @@ vibration: shock
 enclose: attaching, bounded
 incongruous: nonsense
 plow: hill
-rotation: circle, spin, revolution
+rotation: circle, frequency, spin, revolution
 knob: bud
 physiological: corporal
 gutter: channel
@@ -3455,7 +3447,7 @@ blonde: yellow
 renunciation: sacrifice, refusal, resignation
 cue: slogan
 runner: hall
-negotiate: discuss, conferring, dialogue, sue
+negotiate: discuss, dialogue, sue
 premium: reward
 reporting: relations, documentary
 regime: administration, government
@@ -3478,7 +3470,7 @@ storage: gathering
 coalition: union
 distract: distractor, scatter
 flaw: defective, disadvantage, error, default
-lengthy: long, extend
+lengthy: long, length, extend
 concede: accept, discount
 broadcast: emission, transmission
 dial: choose, ring
@@ -3546,7 +3538,7 @@ disc: disk
 qualify: qualified
 trend: conduct, direction, polarity, phenomenon, instinct, alignment
 density: crowded
-induction: derive
+induction: inductance, derive
 chew: chewing
 corporate: company
 acquit: done, innocent
@@ -3606,6 +3598,7 @@ requirement: refresh, claim, desire
 minus: subtract, least, delete
 advisor: adviser
 translating: translation, interpret, translator, religion
+pascal: 
 untidy: reckless
 postage: postal
 emphasize: stress
@@ -3762,7 +3755,7 @@ dentist: doctor
 jewellery: ornament, treasure
 biology: biological
 tuition: training, teaching
-potency: strength
+potency: strength, energy
 alcoholic: drunk, wine
 installation: installing, putting
 discriminate: discrimination, bias
@@ -3775,7 +3768,6 @@ solo: lonely, unattended
 excavation: excavate, pit
 commemorate: persuade, memorable, remember
 historically: historical
-remote-past-tense: 
 hearsay: rumour
 nuclear: molecular, atom
 capability: capacity, efficiency
@@ -3807,7 +3799,7 @@ nutrition: food
 restrict: preventing, abridge
 pedestrian: walking, pawn
 landmark: historical, direction
-vat: barrel, tank
+vat: watt, barrel, tank
 allege: accuse, argument
 junk: scrap
 constituency: voter, circle
@@ -3863,7 +3855,6 @@ segment: partially, departmental, sugar
 cancel: delete, scrap, abandoned
 filter: sieve
 meter: metre
-sensory-evidential-mood: 
 widen: extend, floor
 damaging: destroying
 depress: suppress, press
@@ -3872,7 +3863,7 @@ reconstruct: rearrange, repair
 umpire: judge
 atomic: atom, molecular
 sophisticated: complex, modernize, sophisticate
-emit: discharge, shoot
+emit: discharge, shoot, emitting
 twitch: shrug, twinge
 inappropriate: inadequate
 variant: other, variable
@@ -3900,7 +3891,7 @@ instability: unsteady, uncertainty
 deprivation: disadvantage, bite
 crouch: squat, cower
 exponent: exponential, agent
-generate: produce, chalk, emanating, establish
+generate: produce, chalk, establish
 approximation: approximate, prediction, nearly
 reconsider: rearrange, deliberation, again
 disability: defective, inability
@@ -3993,7 +3984,7 @@ athletics: athletic, work-out, sports
 infect: cross
 premise: base, theorem
 firstly: first
-secrete: secretion, hide, expend
+secrete: secretion, hide, expend, emitting
 psychologist: psychology
 spinach: parental
 intensive: nervous
@@ -4013,7 +4004,7 @@ notation: nomination
 typically: often, especially
 bounce: leap
 commitment: bet
-queue: tail, rung, trivial, snake
+queue: tail, heat, rung, trivial, snake
 bracket: supporter, elbow, parenthesis, hook, needle
 disruption: disorder, recovery
 inverse: upside-down, engaged
@@ -4117,7 +4108,7 @@ portrayal: photograph, portrait, shoulder
 pre: east, dictionary, meadow, previously
 advert: advertiser, referential
 stun: shock, amaze
-incidence: phenomenon, dip
+incidence: phenomenon, dip, frequency
 topple: heart, oust
 measurable: measurement
 consensus: coincidence, unanimous, agree
@@ -4154,6 +4145,7 @@ acceleration: expedite, speed
 differentiate: discrimination, diversity
 seasonal: season
 reopen: again
+pico: 
 kidnap: kidnapping
 villager: village
 sesame: mole
@@ -4228,7 +4220,7 @@ duplication: copy
 rectangle: square
 generalize: generalization, generic
 revolutionize: revolution
-rotate: circle, spin, alternate
+rotate: circle, frequency, spin, alternate
 teen: young, tin
 anymore: already
 experimentation: pilot, essay, experience
@@ -4291,7 +4283,7 @@ hesitant: unsteady, reluctance
 orientation: direction
 parse: analyze
 fabricate: making, produce, weave
-thermal: oil
+thermal: heat, oil
 amalgamate: integrated
 stereotype: discrimination
 environmental: neighborhood, ecology
@@ -4323,6 +4315,7 @@ stockholder: shareholder
 clinic: hospital
 certification: certificate, verification, guarantee
 businessman: dealer, business-person
+lumen: 
 collocation: editorial
 hardworking: worker
 syllabus: program, abstract
@@ -4359,7 +4352,8 @@ motorcycle: bicycle
 locale: locally, scene, places, language, region, country
 multi: varied, several, newspaper, bridge
 semester: session
-muggy: damp, warm
+lux: 
+muggy: damp, warm, temperature
 morphology: morphological, form, science
 flu: influence, bamboo
 graphics: chart
@@ -4379,7 +4373,6 @@ operational: operating, running, restart
 trajectory: ball, orbit
 equivalence: equilibrium
 relevance: importance, relations, applicable
-current-relevance-marker: 
 bike: bicycle, online, round
 directive: command, guideline, demonstrative, referential, recipe
 airline: bird, air
@@ -4398,6 +4391,7 @@ nationwide: national, country
 underwater: submarine
 flawed: defective, unacceptable, incomplete, random
 expertise: experience, knowledge
+polygon: angle
 placement: delimitation, occupancy, putting
 logo: slogan
 ord: 
@@ -4425,6 +4419,7 @@ assessing: evaluative, assess
 ongoing: continuity, behave
 neural: nervous
 anti: rival, resistance, against, oppose
+ohm: 
 internationally: international
 integrate: synchronize, integrated, coordinate, compile
 freckle: stain
@@ -4511,6 +4506,7 @@ obligate: oblige, duty
 detonate: burst
 dimensional: shapes, aspect
 lightweight: light
+mega: 
 soccer: football, calcium, ball
 entitlement: justice, franchise, claim, law
 leftovers: remains, gather, scrap
@@ -4550,6 +4546,7 @@ thank-you: thank
 mastermind: mind, thinker, soul
 ecological: ecology
 directional: direction
+atto: 
 immigrant: refugee, migration
 laptop: distant, headphone
 containment: holding, isolation, delimitation
@@ -4574,6 +4571,7 @@ arousal: thrill
 sync: synchronize, sink
 acidic: acid
 environmentally: neighborhood, ecology
+farad: 
 chemotherapy: chemical
 lexical: dictionary, word, literally, verbal
 modulo: denominator, magnitude
@@ -4590,12 +4588,15 @@ chairperson: president, speaker
 condominium: mutual, fold, villa
 handout: leaflet, allotment
 charismatic: charm
+coulomb: 
 determiner: decision
+nano: 
 pesticide: insect
 underpants: pant, slip
 hypothesize: suppose
 fridge: refrigerator
 reboot: restart
+weber: 
 quantified: measurement
 allergy: hate, sensitivity
 brainstorm: shake, inspiration
@@ -4605,6 +4606,7 @@ replicate: copy
 angst: fear, anger
 ceasefire: truce
 dunking: 
+candela: 
 gaffe: default, error
 industrialize: industry
 joystick: controller
@@ -4616,548 +4618,540 @@ sauna:
 checkout: analyze
 hijack: kidnapping, steal
 nonmetal: metalloid
+peta: 
 reschedule: rearrange
 runny: damp
+joule: 
 ytterbium: 
 finalize: database
 radon: 
-deport: oust
-amounting: magnitude
-descendent: familiar, generation, seed
-descriptor: descriptive
-freshly: fresh, lately, scratch
-unplug: disconnect
-specialties: features, privileged
-afterward: future, after, climate, latter, next-to
-defence: defending, vindication
-reforming: reform, reshaping
-credit-card: credit
-inventory: list
-dubnium: 
-gizmo: 
-imitating: echo, copy, resemble
-importing: enter, import, submit
-will-be: 
-surviving: living
-salesperson: dealer, salespeople
-subregion: region
-broadly: 
-stunning: amaze
-shopper: guest, dealer
-anew: rearrange, again, scratch
-thwarting: fail, vain
-converb: 
-from-case: to-case
-entertainer: artist
-intoxicants: drunk
-trajector: 
-veridical: 
-miss: scarcity, never
-ingredients: ingredient
-remunerate: reimburse, pay, reward
-founds: resemble, found
-usitative: 
-enrollment: login
-influencing: influence
-arriving: come
-toiletry: cosmetic, wash, restroom
-retreat: digress, retire, budge
-timeline: hour, itinerary
-p.m.: night
-achieving: attain, result, derive
-outage: cutting, hang
-enormously: super, bridge
-mistreat: mistreating, steal
-negotiation: dialogue, speech, discuss
-legislate: law
-evading: avoid, steal
-breathing: immune, breath
-arraignment: criticism
-committing: done
-retiree: retire, expiring
-rewards: reward, atonement
-quitting: termination
-cogitation: deliberation
-retired: retire, expiring, pension
-hafnium: 
-refreshed: refresh, fresh, fascinate, modernize
-andative: 
-reassure: guarantee
-redesign: again, reform
-suntan: brown
-relocate: migration
-burying: funeral
-releasing: discharge
-renovate: repair, redecorate, refresh, again
-undergoing: contacting
-firefighter: firefighting
-no-one: nothing
-curium: 
-squad: rot
-typicality: 
-healthcare: health
-labeling: tag
-calendric: 
-fleeing: escape, leak
-distributor: dealer
-concessive: budge, soft
-bungling: corruption
-camping: camp
-estimating: prediction, approximate
-scheduling: itinerary, calendar, programmer
-samarium: 
-experiencer: 
-europium: gallium
-lutetium: 
-repayment: return, refund, pay
-subparts: 
-replacing: instead, rearrange
-cooperative: cooperate, mutual
-educated: educational, scholarship
-bloodshed: bloody
-delimited: boundary, delimitation, bounded
-moderator: president, foreman
-incredibly: super, unreliable
-supplier: caterer, supporter, contractor, manufacturer
-ignorative: ignorant
-endangering: dangerous
-cotheme: 
-commonality: generic, affinity, popular, subscribe
-attributed: assigned, accuse
-presenter: advertiser, submit
-astatine: 
-circumfix: 
-francium: 
-emphasizing: stress
-soaking: exploit
-instructor: adviser
-internship: experience
-flared: burnt
-nobelium: 
-purchaser: recipient
-onwards: latter, forward, first, after
-remodel: reform
-battlefield: war
-o'clock: hour, poetry
-emote: 
-indium: 
-excluding: except
-locating: locative, putting
-exp: termination, experience
-radius: radio, radium, ray, orbit, print
-sideways: aside, holding, lateral
-desirability: desire
-relating: applicable, relatively, pipe
-submitting: submit, sent
-easy: fluent, light
-socially: social
-posing: idiosyncrasy, appear
-outside-of: except
-applied: practical
-trendiness: 
-clique: click
-fermium: 
-airfare: air, rent
-armed: weapon
-advisable: desired
-constructive: manufacturer, developer, structural, founder
-authorise: authority, official
-recurse: 
-dominance: influence, domain
-friendship: friendly
-lawrencium: 
-repairperson: 
-downing: 
-recreational: hobby, relaxation
-coughing: cough
-reserving: putting, book
-announcer: advertiser, public, speaker
-sunscreen: sunshine
-protactinium: 
-résumé: 
-incarcerated: prisoner, prison, captivity
-journey: visit, itinerary, expedition, excursion
-one-second: one-another
-emergence: appear, born
-flatware: 
-cell-phone: smartphone, mobile-phone, cell
-connector: connectors, copula, plug, contacting
-investigator: scientist
-deixis: 
-employing: using, worker
-rulings: making, decision
-eventive: adventure
-appellations: 
-cognizer: 
-identicality: 
-authentic: official
-retaining: treatment
-verbalizer: verbal
-difficulty: trouble, disadvantage
-ineffability: 
-facet: aspect, direction, half
-intestines: bowel
-borrowing: credit
-dodging: avoid
-intercepting: preventing
-offenses: error, sin
-correlate: hook, mutual
-entertaining: amuse, hilarious
-auditor: reviewer, accountant, thank, controller
-tumour: knot
-neptunium: 
-improvised: temporary
-endstate: 
-agentive: 
-litigation: claim, court
-wildlife: wild
-rental: rent, renter
-americium: 
-packaging: roll
-explaining: interpret, telling
-enforcing: applicable, push
-berkelium: 
-masculine-: male
-all-right: alright, better
-misdeed: evil
-caused: occurring, triggered, direction, because
-used-to: habitual
-noncombatant: 
+recruitment: recruiter, tide
 appointing: nomination, assigned
-notification: notify, reminder
-performers: player, coworker, actor
-segments: paragraph
-advisory: adviser, deliberation, counsel
-patientive: 
-adorning: ornament
-each-other: one-another, mutual
-chatting: conferring
-cheek: play, surface
-crosswalk: line
-via: passing, using
-bend: meandering, curve, flex
-allocation: assigned, allotment, dividend, allowance, sharing
-exertive: 
-epidemiology: disease
-assemble: gather, gathering, collector, installing
-attendee: engaged
-wide: liberal
-audition: choose, dog
-apart-from: except, expose
-automate: unattended, auto, automatically
-supposedly: suppose, perhaps, apparently
-contrary: invert, contrasting, against, oppose
-motorbike: motor
-besieging: preventing, siege
-month-of-may: 
-adducing: 
-genkan: 
-stinginess: greed
-braid: weave, knitted
-belt: strip, leash
-herbicide: poison
-cellphone: smartphone, mobile-phone, cell
-phonological: audio
-hassium: 
-refundable: extradition, return
+obligated: duty, thank, oblige, bounded, guilty
+artworks: art
+litigation: claim, court
+preserving: holding, defending, treatment
+mistreat: mistreating, steal
+repayment: return, refund, pay
+delimited: boundary, delimitation, bounded
+fairness: justice, integrity
+feigning: feign, flattering
+redesign: again, reform
+prohibiting: ban
+uncompleted: incomplete
 arranging: measures, streamline
-scrutinizing: deliberation, verification, probe, carefully
-beginner: introductory, begin
-rented: rent
-unit-of-mass: 
-frugality: frugal, simplicity
-interrelated: mutual
-archeology: archaeological
-purser: accountant, treasurer
-tolerating: bear, patience
-relational: relations, connectors
-permitting: license
-renovation: rejuvenation, repair, refresh, alignment
-roadways: highway
-backward: behind, refund
-complain: complaint, accuse
+credit-card: credit
+amounting: magnitude
+herbicide: poison
+releasing: discharge
+fluctuate: varied
+reforming: reform
+instead-of: instead
+timespan: punctual
+remunerate: reimburse, pay, reward
+matching: tailor
+wisecrack: jest
+landlord: owner
+entertainer: artist
+locating: locative, putting
+goalkeeper: doorman
+forgoing: resignation
+arraignment: criticism
+afterward: future, after, climate, latter, next-to
+concessive: budge, soft
+broad: liberal
+bend: meandering, curve, flex
+salesperson: dealer, salespeople
+incoming: come, earn
+adjusting: tailor, systematic
+samarium: 
+endstate: 
+to-close: 
+proportion: balanced, magnitude, quantum, proportional
+surviving: living
+presenter: advertiser, submit
+café: cafe
+coughing: cough
+centimeter: centimetre
+storeroom: shed, stock
+inspecting: verification
+enrollment: login
+etc.: guitar
+charitable: social, benevolent
+specialties: features, privileged
+achieving: attain, result, derive
+excluding: except
+connector: connectors, copula, plug, contacting
+correlate: hook, mutual
+negotiation: dialogue, speech, discuss
+vocational: profession
+dominance: influence, domain
+neptunium: 
+emergence: appear, born
+underway: conduct, behave, running
+passionate: tropical, sensory, fresh
+p.m.: night
+quitting: termination
+seaborgium: 
+andative: 
+gradable: 
+workbook: book
+submitting: submit, sent
+intoxicants: drunk
+that-which: who, it
+enormously: super, bridge
+ingredients: ingredient
+timeline: hour, itinerary
+influencing: influence
+wide: liberal
 exercising: gymnastics, work-out
-subordinates: conquering
-dvd: 
+reassuring: reliance, believe
+armed: weapon
+commonality: generic, affinity, popular, subscribe
+candidness: honest, franchise
+brag: bragging
+hiker: traveller
+advisory: adviser, deliberation, counsel
+supplier: caterer, supporter, contractor, manufacturer
+refundable: extradition, surrendering, return
+europium: gallium
+cyan: blue
+each-other: one-another, mutual
+dyadic: binary
+grinding: recycle, mill
+firefighter: firefighting
+ice-cream: cream, ice
+sideways: aside, holding, lateral
+amazed: wonder, amaze
+amused: hilarious, ecstatic
+relocate: migration
+conferral: allotment, transmission
+dysprosium: gallium
+flatware: 
+infected: infectious
+masculine-: male
+perceiver: 
+distributor: dealer
+moderator: president, foreman
+relating: applicable, relatively, pipe
+renovation: rehabilitation, rejuvenation, repair, refresh, alignment
+flextime: 
+cordless: wireless
+astatine: 
+dubnium: 
+fermium: 
+archeology: archaeological
+catalog: directory, list, chart, table
+entrant: login
+cooperative: cooperate, mutual
+critique: criticism
+contour: form, line
+hafnium: 
+justifying: justify
+holmium: 
+experiencer: 
+usitative: 
+performers: player, coworker, actor
+battlefield: war
+fleeing: escape, leak
+motorbike: motor
+emphasizing: stress
+undergoing: contacting
+veridical: 
+closure: loom, fastener
+endangering: dangerous
+cellphone: smartphone, mobile-phone, cell
+entrée: 
+regression: return
+conferring: chatting, surrendering
+to-split: distribute
 bureaucratic: bureaucracy, official
-surrendering: conferring
-config: structural
+cheek: play, surface
+assemble: gather, gathering, collector, installing
+journey: visit, itinerary, expedition, excursion
+nobelium: 
+constructive: manufacturer, developer, structural, founder
+packaging: roll
+trendiness: 
+from-case: to-case
+smuggling: kidnapping
+renovate: repair, redecorate, refresh, again
+repairperson: 
+posing: idiosyncrasy, appear
+attendee: engaged
+automotive: auto, railcar, vehicle, truck
+desirability: desire
+committing: done
+deciding: decision, disconnect
+protactinium: 
+adducing: 
+defence: defending, vindication
+identicality: 
+verbalizer: verbal
+patrolling: patrol
+silencing: refusal
+bohrium: 
+ineffability: 
+climb: climbing, oar
+importing: enter, import, submit
+imitating: echo, copy, resemble
+intercepting: preventing
+investigator: scientist
+dancing: play, dance
+cell-phone: smartphone, mobile-phone, cell
+freeing: 
+converb: 
+outside-of: except
+adorning: ornament
+agentive: 
+refreshed: refresh, energy, fresh, fascinate, modernize
+hassium: 
+stinginess: greed
+broadly: 
+recreational: hobby, relaxation
+misdeed: evil
+wildlife: wild
+incarcerated: prisoner, prison, captivity
+lawrencium: 
+braid: weave, knitted
+hindering: preventing
+noncombatant: 
+notification: notify, reminder
+ignorative: ignorant
+yaor: 
+entertaining: amuse, hilarious
+recording: documentary, subscribe, footnote
+appellations: 
+soprano: childish
+typicality: 
+scheduling: itinerary, calendar, programmer
+apart-from: except, expose
+heralding: pronouncing, notify
+healthcare: health
+cogitation: deliberation
+goodness: benevolent, favour, beneficial
+relational: relations, connectors
+one-second: one-another
+authentic: official
+anew: rearrange, again, scratch
+airfare: air, rent
+feminine-: feminine
+patientive: 
+intestines: bowel
+supposedly: suppose, perhaps, apparently
+audition: choose, dog
+affordable: cheap, available
+decay: rot
+difficulty: trouble, disadvantage
+subpart: 
+gizmo: 
+socially: social
+shopper: guest, dealer
+deploy: scatter, distribute, indulge, develop, accommodate
+automate: unattended, auto, automatically
+competence: capacity, sufficiency, qualified, authority
+epidemiology: disease
+retreat: digress, retire, budge
+retiree: retire, expiring
+tolerating: bear, patience
+according-to: second
+scrutinizing: deliberation, verification, probe, carefully
+at-case: to-case
+predicting: prediction
+contrary: invert, contrasting, against, oppose
+outage: cutting, hang
+interrelated: mutual
+phonological: audio
+have-to: must, duty
+struggle: conflict, scramble, war, wrestle
+no-one: nothing
+announcer: advertiser, public, speaker
+meitnerium: 
+trajector: 
+whitespace: white
+overcharge: overcrowd
+incredibly: super, unreliable
+subordinates: conquering
+mendelevium: found
+i.e.: namely
+advisable: desired
+amusing: hilarious
+einsteinium: 
+californium: 
+unattributed: anonymous
+by-law: law
+frugality: frugal, simplicity
+berkelium: 
+hiring: recruiter, rent, tide, renter
+burying: funeral
+unauthorize: 
+rented: rent
+onwards: latter, forward, first, after
+relativizer: comparison
+emptying: sediment, vacancy
+radiation: radioactivity, emission
+retired: retire, expiring, pension
+pro-sentence: pro-phrase
+fluidic: 
 state-marker: 
 space-marker: 
-candidness: honest, franchise
-soprano: childish
-entourage: escort
-bathtub: bath
-unattributed: anonymous
-proportion: balanced, magnitude, quantum, proportional
-detransitive: intransitive
-ditransitive: intransitive
-have-to: must, duty
-radiation: emission
-subject-case: topic-case
-overcharge: overcrowd
-cheeseburger: cheese
 workforce: staff
-identifiable: identity
-renting: rent, renter
-reassuring: reliance, believe
-wholes: 
-regression: return
-dyadic: binary
-proliferating: multiply, freshman, owner
-dysprosium: gallium
-vocational: profession
-storeroom: shed, stock
-fairness: justice, integrity
-artworks: art
-circumscribed: bounded
-qualities: attributes, quality, features
-neighbourhood: neighborhood
-donut: disorder, bud
-reciprocality: 
-feigning: feign, flattering
-detaching: disconnect
-per-cent: cent
-relationships: relations
-interestingly: draw, pleasant, curious
-passionate: tropical, sensory, fresh
-break-down: brake, break-in, scatter
-reimbursement: refund, reimburse, allowance
-nonfunctional: passive
-workbook: book
-at-case: to-case
-seaborgium: 
-aside-from: except, aside
-importe: 
-wellness: health, welfare
-deciding: decision, disconnect
-bulletin: leaflet, newsletter
-getaway: vacation, escape
-exemplariness: 
-cordless: wireless
-hiring: recruiter, rent, tide, renter
-to-split: distribute
-professionals: expert, industry
-supplementary: overtime, escort
-meitnerium: 
-robb: 
-expensiveness: accuracy
-affordable: cheap, available
-artificiality: artificial
-mendelevium: found
-neuter-gender: masculine-gender
-einsteinium: 
-winn: 
-recruitment: recruiter, tide
-californium: 
-statistically: statistical
-ought-to: must, needle
-preserving: holding, defending, treatment
-relativizer: comparison
-justifying: justify
-cheaply: cheap
-perceiver: 
-belongingness: 
-compatibility: alignment
-critique: criticism
+cheeseburger: cheese
+americium: 
+detransitive: intransitive
+subject-case: topic-case
+ditransitive: intransitive
 photocopier: copier
-checkup: probe, verification
-alarming: terrible, dangerous
-schadenfreude: 
-opposing: oppose, defendant, resistance, objection, against
-subpart: 
-misidentify: 
-decay: rot
-embarrassment: shame, trouble, shyness, confusion
-commemorative: reminder, memorable
-by-law: law
-obligated: duty, thank, oblige, bounded, guilty
-freeing: 
-communicative: talkative, contacting
-orientational: 
-accompanier: 
-anticausative: 
-approximative: approximate
-amount-marker: 
-attenuative: 
-social-marker: 
-amusing: hilarious
-contrastive: contrasting
-rutherfordium: 
-architectural: architecture, architect
-unauthorize: 
-developmental: evolutionary, progress, develop
-coreference: 
-institutional: structural
-pro-phrase: pro-sentence
-recording: documentary, subscribe, footnote
-bohrium: 
-yaor: 
-alternatively: alternate
+identifiable: identity
+wellness: health, welfare
 ceasing: stopped
+freshly: fresh, lately, scratch
+authorise: authority, official
 excreting: secretion
-familiarize: familiar, read
-losses: disadvantage, lost
+misidentify: 
+alternatively: alternate
+permitting: license
+bloodshed: bloody
+mechanisms: mechanical
+accompanier: 
+facet: aspect, direction, half
+attenuative: 
+interestingly: draw, pleasant, curious
+rotting: rot
+artificiality: artificial
+expensiveness: accuracy
+will-be: 
+instructor: adviser
+contrastive: contrasting
+soya: bean
+unquote: quoted
+intentionally: deliberately
+orientational: 
 substantially: dramatically
-i.e.: namely
-computing: computer, calculator
-obj: 
-automotive: auto, railcar, vehicle, truck
+reimbursement: refund, reimburse, allowance
+webpage: web-site
+hallway: hall
+institutional: structural
+traversing: gallery
+coreference: 
+wagering: bet
+estimated: approximate
+supplementary: overtime, escort
+internship: experience
+familiarize: familiar, read
+easy: fluent, light
+purser: accountant, treasurer
+worthwhile: beneficial, worth, dear
+stunning: amaze, awed
+reassure: guarantee
+entourage: escort
+thwarting: fail, vain
+enforcing: applicable, push
+neighbourhood: neighborhood
 exclamative: 
 exhortative: 
 electrician: electronic
 efficiently: effectively
 drastically: speed, violently
-complimentary: flattering
+statistically: statistical
+beginner: introductory, begin
+backward: behind, refund
 preliminaries: preparation, introductory
-whitespace: white
-holmium: 
-combatants: warrior
-critic: reviewer, censor
-intentionally: deliberately
-soya: bean
-patrolling: patrol
+dealership: agent, dealer, salespeople
+computing: computer, calculator
+eventive: adventure
+improvised: temporary
+bulletin: leaflet, newsletter
+recurse: 
 coordinator: copula
-businessperson: business-person, operator
-forgoing: resignation
+canvas: web, linen
+neuter-gender: masculine-gender
+proliferating: multiply, freshman, owner
+importe: 
+employing: using, worker
+emanating: emitting
+belongingness: 
 consignment: expedition
-renewal: rejuvenation, rearrange, reform, refresh, innovation
-objective-case: destination-case
-downsize: narrow
-hallway: hall
-nominalization: nominal
+inventory: list
+dvd: 
+schadenfreude: 
+communicative: talkative, contacting
+clique: click
+rewards: reward, atonement
+embarrassment: shame, trouble, shyness, confusion
+getaway: vacation, escape
+friendship: friendly
 detaining: holding, arrest
-downturn: crisis
-employed: engaged
-to-close: 
-broad: liberal
-conferral: allotment, transmission
-employer's: owner
-rehabilitation: recovery, reshaping
-wealthiness: 
-inelative-case: elative-case
-posessive-case: genitive-case
-resultative: result
-deploy: scatter, distribute, indulge, develop, accommodate
-translative: translation, interpret
-traversing: gallery
-web-site: website
-precariousness: unsteady, dangerous, uncertainty
-employee's: staff, coworker
-matching: tailor
-contour: form, line
-fluidic: 
-quantification: measurement
-that-which: who, it
-etc.: guitar
-mechanisms: mechanical
-professionally: profession, industry, expert
-speed-of-light: 
-erbium: gallium
-sociability: hospitality
-loosely: loose, vague
-auspicious-: beneficial
-feminine-: feminine
+cotheme: 
+losses: disadvantage, lost
 rising: climbing
-hiker: traveller
-struggle: conflict, scramble, war, wrestle
-projectiles: elastic
-complementizer: 
-brag: bragging
-auxiliary-verb: verb
+amount-marker: 
+social-marker: 
+reciprocality: 
+resultative: result
+architectural: architecture, architect
+sightsee: touring, bore, excursion
+critic: reviewer, censor
+lutetium: 
+translative: translation, interpret
+crosswalk: line
+deport: oust
+anticausative: 
+approximative: approximate
+developmental: evolutionary, progress, develop
+config: structural
+compatibility: alignment
+arriving: come
+detaching: disconnect
+exp: termination, experience
+professionals: expert, industry
+cheaply: cheap
+cognizer: 
+complimentary: flattering
+caused: occurring, triggered, direction, because
+offenses: error, sin
+commemorative: reminder, memorable
+exemplariness: 
+nonfunctional: passive
+radius: radio, radium, ray, orbit, print
+rutherfordium: 
+rental: rent, renter
+wealthiness: 
+relationships: relations
+circumscribed: bounded
+dodging: avoid
+employer's: owner
+o'clock: hour, poetry
+downing: 
+auspicious-: beneficial
+egg-white: protein
+renewal: rejuvenation, rearrange, reform, refresh, innovation, rehabilitation
+belt: strip, leash
+objective-case: destination-case
+nominalization: nominal
+businessperson: business-person, operator
+francium: 
+byebye: farewell, hello
+employee's: staff, coworker
+randomize: random
+for-example: example
+in-language: language
+inelative-case: elative-case
+dependable: safe, unreliable
+housekeep: 
+problem: predicament, trouble, question
+posessive-case: genitive-case
+evading: avoid, steal
+soaking: exploit
+precariousness: unsteady, dangerous, uncertainty
+per-cent: cent
+quantification: measurement
+rulings: making, decision
+outdate: oust
+hotdog: sausage
+checkup: probe, verification
+exertive: 
+all-right: alright, better
 standardize: specification
 sponsorship: scholarship, sufficiency
-for-example: example
-distinctiveness: unique, obviousness
-postessive-case: genitive-case
-in-language: language
-amazed: wonder, amaze
-centimeter: centimetre
-indirect-object: direct-object
-change-of-event: 
-goodness: benevolent, favour, beneficial
-charitable: social, benevolent
-progression: progress, evolutionary
-flextime: 
-amused: hilarious, ecstatic
-byebye: farewell, hello
-goalkeeper: doorman
-rotted: rot
-prhobitive-mood: prohibitive-mood
-worthwhile: beneficial, worth, dear
-sacrificing: sacrifice
-punishments: punishment
-climb: climbing, oar
-gradable: 
-problem: predicament, trouble, question
-fluctuate: varied
-grinding: recycle, mill
-facilitator: simplicity
-worrying: 
-sightsee: touring, bore, excursion
-closure: loom, fastener
-silencing: refusal
-praiseworthiness: 
-interviewer: reporter
-dancing: play, dance
-rotting: rot
-landowner: angel
-smuggling: kidnapping
-entrant: login
-heralding: pronouncing, notify
-subjunctive-mood: conditional-mood, optative-mood
-infected: infectious
-locales: locally, places
-canvas: web, linen
-landlord: owner
-genetically: gene, genetics
-ice-cream: cream, ice
-wisecrack: jest
-incoming: come, earn
-underway: conduct, behave, running
-enthusiastically: enthusiasm, tiptoe, ecstatic
-adjusting: tailor, systematic
-enforcement: executive
-entrée: 
-prohibiting: ban
-emitting: emanating
-uncompleted: incomplete
-egg-white: protein
-euphoria: enthusiasm
-soon-future-tense: 
-ied: 
-linker: fastener
-randomize: random
-webpage: website
-inspecting: verification
-estimated: approximate
-dealership: agent, dealer, salespeople
-gadolinium: gallium
+renting: rent, renter
+résumé: 
+remodel: reform
+segments: paragraph
+professionally: profession, industry, expert
 homeowner: owner
-outdate: oust
-prepositional-case: nominative-case
-single-action-verb: 
-instead-of: instead
-housekeep: 
-make-up: grooming, cosmetic
-radiation-sickness: disorder
-timespan: punctual
-hotdog: sausage
-dependable: safe, unreliable
+retaining: treatment
+qualities: attributes, quality, features
+bathtub: bath
 venitive: 
-café: cafe
-remote-future-tense: 
-hindering: preventing
-competence: capacity, sufficiency, qualified, authority
-amount-of-substance: 
+reshaping: rehabilitation
+gadolinium: gallium
 mudita: 
-emptying: sediment, vacancy
+complementizer: 
+progression: progress, evolutionary
+auxiliary-verb: verb
+auditor: reviewer, accountant, thank, controller
+squad: rot
+distinctiveness: unique, obviousness
+landowner: angel
+robb: 
+aside-from: except, aside
+indirect-object: direct-object
+postessive-case: genitive-case
+facilitator: simplicity
+applied: practical
+wholes: 
+estimating: prediction, approximate
+employed: engaged
+make-up: grooming, cosmetic
+reserving: putting, book
+legislate: law
+circumfix: 
+sociability: hospitality
+replacing: instead, rearrange
+projectiles: elastic
+prhobitive-mood: prohibitive-mood
+rotted: rot
+descendent: familiar, generation, seed
+loosely: loose, vague
+ought-to: must, needle
+obj: 
+sunscreen: sunshine
+donut: disorder, bud
+website: web-site
+descriptor: descriptive
+subjunctive-mood: conditional-mood, optative-mood
+camping: camp
+opposing: oppose, defendant, resistance, objection, against
+calendric: 
+roadways: highway
+downsize: narrow
+used-to: habitual
+locales: locally, places
+praiseworthiness: 
+ied: 
+educated: educational, scholarship
+miss: scarcity, never
+interviewer: reporter
+curium: 
+winn: 
+attributed: assigned, accuse
+enthusiastically: enthusiasm, tiptoe, ecstatic
+sacrificing: sacrifice
+worrying: 
+combatants: warrior
+via: passing, using
+linker: fastener
+erbium: gallium
+break-down: brake, break-in, scatter
+explaining: interpret, telling
+punishments: punishment
+indium: 
+toiletry: cosmetic, wash, restroom
+founds: resemble, found
+alarming: terrible, dangerous
+genetically: gene, genetics
+unplug: disconnect
+newton: 
+subregion: region
+labeling: tag
+genkan: 
+radiation-sickness: disorder
+borrowing: credit
+prepositional-case: nominative-case
+emote: 
+purchaser: recipient
+breathing: immune, breath
+complain: complaint, accuse
+enforcement: executive
+flared: burnt
+besieging: preventing, siege
+tumour: knot
+deixis: 
 institutionalization: institutions
-wagering: bet
-floating-point-number: 
-alternative-quantifier: elective-quantifier
-predicting: prediction
-cyan: blue
-past-passive-participle: 
-catalog: directory, list, chart, table
-locative-directional-case: 
+downturn: crisis
+euphoria: enthusiasm
+subparts: 
+allocation: assigned, allotment, dividend, allowance, sharing
+suntan: brown
+bungling: corruption

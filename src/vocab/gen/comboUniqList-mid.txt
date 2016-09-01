@@ -33,6 +33,7 @@ comitative-case g 3
 present-tense g 2
 benefactive-case g 3
 essive-case g 3
+negatory-quantifier g
 surface-context g 2 en on
 adpositional-case g 2
 location-case g 2 en at
@@ -47,6 +48,7 @@ demonstrative g
 clause-tail g 2
 but g 3
 all
+universal-quantifier g
 feminine-gender g 2
 plural-number g 2
 one
@@ -60,6 +62,7 @@ there g 3
 elative-case g 3
 illative-case g 3
 directive-mood g 2
+elective-quantifier g
 what g
 question-word g 3
 copula g 2
@@ -68,6 +71,7 @@ male
 could
 other g 3
 number g 2
+assertive-quantifier g
 time-context g 2
 temporal-case g 3
 only g 3
@@ -186,6 +190,7 @@ fire
 hour
 war
 several
+second
 behind
 lost
 thousand
@@ -220,7 +225,7 @@ interest g 3
 write
 bed
 age
-counterfactual-conditional g 2
+counterfactual-conditional g 3
 art
 vialis-case g
 brother
@@ -264,6 +269,7 @@ office
 government
 church
 strength
+length g
 company
 paper
 probability g
@@ -349,7 +355,6 @@ success g 3
 trying
 hill
 music
-distal-demonstrative g
 cry
 seven
 private
@@ -361,6 +366,7 @@ distributive-case g
 learn
 political
 speech
+henry
 lie
 cast
 authority
@@ -510,6 +516,7 @@ tired g 3
 kill
 shadow
 weight
+gray
 brave
 satisfied g 3
 telling
@@ -518,6 +525,7 @@ weak
 valley
 speculative-mood g 2
 yellow
+heat
 remains
 equally
 box
@@ -609,6 +617,7 @@ mission
 sacrifice g 3
 conscience
 minister
+energy
 hate g 3
 centre
 rational-gender g
@@ -853,6 +862,7 @@ coach
 humour g 3
 novel
 revenge
+distal-demonstrative g 3
 jealous g 3
 invitation
 burnt
@@ -968,6 +978,7 @@ landing
 statue
 artillery
 arrest
+temperature g
 neighborhood
 embrace
 pack
@@ -1041,6 +1052,7 @@ damp
 traveller
 tin
 complaint
+angle
 cow
 mill
 map
@@ -1371,7 +1383,6 @@ insect
 posture
 owl
 permanently
-secondly
 violin
 resident
 respectively
@@ -1413,7 +1424,6 @@ preventing
 inferential-evidential g 3
 publisher
 vinegar
-ash
 tunnel
 puzzle
 mathematics
@@ -1617,6 +1627,7 @@ weave
 collector
 spine
 chord
+frequency
 loom
 directory
 thinker
@@ -1890,6 +1901,7 @@ diagonal
 subconscious
 eyebrow
 sneeze
+watt
 hilarious g 3
 occupancy
 hinduism
@@ -2069,6 +2081,7 @@ jeans
 alignment
 database
 coupon
+voltage
 calculator
 investor
 x-ray
@@ -2080,6 +2093,7 @@ splice
 bromine
 palladium
 silicon
+volt
 cosmetic
 grooming
 hiccup
@@ -2126,7 +2140,6 @@ payroll
 hormone
 developer
 perforate
-polygon
 sabotage
 feminist
 conjugate
@@ -2162,12 +2175,14 @@ vector
 tactic
 unspecified
 alright
+ampere
 vitamin
 doorman
 subsidize
 cadmium
 simultaneity
 titanium
+kilo g 3
 copulate
 hourglass
 syntactic
@@ -2175,6 +2190,7 @@ creativity
 e-book
 workplace
 boron
+inductance
 helicopter
 tellurium
 deadline
@@ -2193,6 +2209,7 @@ logarithm
 mantis
 ecology
 sophisticate
+radioactivity
 kilogram
 renter
 overeat
@@ -2220,6 +2237,7 @@ seminar
 stereo
 fastener
 upcoming
+celsius
 neon
 streamline
 newsstand
@@ -2287,304 +2305,301 @@ marathon
 mid-spring
 autism
 ionize
-referring
-blue-jean
-obviousness
-antibody
-showroom
-dissatisfy
-distractor
-departing
+denominator
+redirecting
+triggered
 motorist
-air-force
-containers
-suasion
-undressing
+legality
+attaching
+cardboard
+referring
 houseplant
-phoneme
+folk-music
+mid-summer
 human-body
-nonremittal
-contacting
-conquering
-reshaping
+chatting
+obviousness
+nth-root
+mid-winter
+projector
+pro-phrase g
+bald
+polarity
 hypnothize
-connectors
-sender
-conferring
-ration
-invading
-emanating
-one-another
+swearing
+nonremittal
+non-human g
 feces
-website
-makers
-suburb
-costly
+notability
+one-another
+superiors
+excavate
+microphone
+safflower
+redecorate
+post-office
+receptor
+rashness
+poet
+buddhism
+contacting
 ghostwriter
 fool-around
-poet
-paralegal
-mid-summer
-yogurt
-nth-root
-inhibition
-mid-winter
-post-office
-swear-in
-attributes
-projector
+hourly
+conquering
+modal-case g
+web-site
+undressing
+coworker
+air-force
+neodymium
+subsisting
+rhenium
 upside-down
-swearing
-toner
-comic-strip
+connectors
+paralegal
+wear-out g 3
 color-blind
-superiors
-goal-trigger g
-delimitation
-bald
-recruiter
+comic-strip
+krypton
+blase g 3
+advertiser
+forging
+aerosol
 disembarking
-receptionist
-thorium-atom
-thulium-atom
-evoking
-terbium-atom
-praseodymium
 verb-affix g
+delimitation
+compile
+volubility
+index-finger
+thorium-atom
+skateboard
+smartphone
+tapered
+quarreling
+raincoat
+inhibition
+mail-carrier
+mobile-phone
+hertz
+antibody
+reviewer
+boardroom
+striped
+lanthanum
+work-out
+thulium-atom
+inject
+makers
+terbium-atom
+disapproving
+costly
+praseodymium
+swear-in
 rhodium-atom
+morpheme
+chauvinist
+surprisingly
+bad-tempered
+dramatically
+suasion
+to-case g
+individually
 railcar
+unavailable
+civil-rights
+emitting
+month-of-may
+receptionist
 trial-number g 3
-non-human g
-safflower
+evaluative
+surrendering
+spreadsheet
+flow-current
+triple-point
+retail-store
+unit-of-mass
+restatement
+binary-value g
+old-age
+first-hand
+professor
 centric-case g
 inexperience
 extinguisher
-causative g
+personalize
+goal-trigger g
 departmental
-unused
-index-finger
 middle-voice g 3 
 oblique-case g
-receptor
 patient-case g
 prehodiernal g
-netium
-mobile-phone
-lanthanum
-neodymium
-mail-carrier
-excavate
-si-units
-cesium
-pro-sentence g
-boardroom
-legality
-shorts
-rhenium
-ethium
-disapproving
-surprisingly
-inject
-quarreling
-binary-value g
-unit-of-mass
-retail-store
-dramatically
-redecorate
-triple-point
-flow-current
-meandering
-coworker
-microphone
-bad-tempered
-month-of-may
-polarity
-civil-rights
-striped
-xenon
-rashness
-else-if g
-individually
-according-to
-krypton
-locative-case g 3
-touring
-paralyzed
-erasing
-counterattack
-modal-case g
-forging
-next-to
-skateboard
-automatically
-fining
-smartphone
-first-hand
-eulers-number
-rescuing
-subsisting
-accident
-strikebreaker
-advertiser
-short-circuit
-spreadsheet
-notability
-restatement
-polonium-atom
-thallium-atom
-maturation
-actor-role g
-folk-music
-trans-numeral g
-personalize
-star-gender g
-vocalizations
-rubidium-atom
-attaching
-unavailable
-vanadium-atom
-wear-out g 3
-movie-theater
-fragmentation
-blase g 3
-passive-voice g 3
-fluorine-atom
-physics
-triggered
-multal-number g 3
 swimming-pool
-galaxy-gender g
+star-gender g
+vanadium-atom
+ration
+polonium-atom
+short-circuit
+blue-jean
+fining
+automatically
+causative g
+strikebreaker
+fluorine-atom
+else-if g
+si-units
+multal-number g 3
+eulers-number
+movie-theater
 finite-verb g
-ergative-case g
+gnomic-mood g
+thallium-atom
+phoneme
+lative-case g
+galaxy-gender g
+vocalizations
+flats
+locative-case g 3
+koran
+recruiter
+meandering
 abessive-case g
 adessive-case g
-direct-object g
-gnomic-mood g
 agentive-case g
-evaluative
+trans-numeral g
 agent-trigger g
 common-gender g
-cardboard
 citation-form g
-lative-case g
-computer-virus
-critical-point
-possessed-case g 3
-imaginary-unit
-empathetic-joy g 3
-old-age
-subessive-case g
-gas-pedal
-full-time
-mineral-gender g
-referral
-vehicle-gender g
-speed-of-light
-mistreating
-final-particle g
-animate-gender g 3
+containers
+rubidium-atom
 verbal-noun g
-suspiciousness
-ruthenium-atom
-prime-minister
-evitative-case g
-summarizing
-strontium-atom
-roles
-adverbial-case g
-pronouncing
-antessive-case g
-tapered
-compile
+toner
+direct-object g
+ergative-case g
+departing
+installing
+fragmentation
+counterattack
+passive-voice g 3
+empathetic-joy g 3
 primary-object g
+computer-virus
+rescuing
+erasing
+corroding
+prime-minister
+processor
 police-officer
+possessed-case g 3
+next-to
+rehabilitation
+full-time
+mistreating
+ruthenium-atom
+final-particle g
+strontium-atom
+referral
 generalization
+gas-pedal
+evitative-case g
+imaginary-unit
+speed-of-light
+suspiciousness
+critical-point
+summarizing
+mineral-gender g
+vehicle-gender g
+touring
+actor-role g
+evoking
+animate-gender g 3
+rationality
+subessive-case g
+adverbial-case g
+antessive-case g
+universe-gender g
+physics
+headphone
+transitive-verb g
+absolutive-case g
+second-language g
+indirect-speech g
+past-perfective g
+invading
+impersonal-verb g
+self-confidence g 3
+pronouncing
 crastinal-tense g
-reflexive-voice g 3
-patient-trigger g
 different-event g
 change-of-event g
-chauvinist
-past-perfective g
-absolutive-case g
-business-person
-rationality
-virtual-machine
-second-language g
-exocentric-case g
-to-case g
-koran
-indirect-speech g
-universe-gender g
-videoconference
-collective-noun g 3
 locality-gender g
 research-gender g
 artistic-gender g
+suburb
+maturation
 abstract-gender g
-impersonal-verb g
-transitive-verb g
-self-confidence g 3
-electric-current g
-planetary-gender g
-volubility
+reflexive-voice g 3
+exocentric-case g
+business-person
+collective-noun g 3
+videoconference
+patient-trigger g
+virtual-machine
+superlative-case g
+sender
 inanimate-gender g 3
 grammatical-case
-superlative-case g
-fundraise
-redirecting
-professor
-work-out
 propositive-mood g
 associative-case g
-core-benefactive g
+shorts
+electric-current g
 reciprocal-voice g 3
-processor
-raincoat
-successive-clause g
-headphone
-soon-future-tense g 3
-telecommunication
+attributes
+accident
+core-benefactive g
+planetary-gender g
 applicative-voice g 3
+ethium
+paralyzed
+cesium
+netium
+successive-clause g
+xenon
 antipassive-voice g 3
-corroding
-single-action-verb g 3
-singulative-number g
-morpheme
-excessive-duration g
-existential-clause g
-grammatical-object
-denominator
-passive-participle g
-superlative-degree g
+telecommunication
+soon-future-tense g 3
+dissatisfy
 present-participle g
-continutive-aspect g
-necessitative-mood g
+single-action-verb g 3
+radian
+grammatical-object
+roles
+excessive-duration g
+singulative-number g
+superlative-degree g
+existential-clause g
 luminous-intensity g
+necessitative-mood g
+continutive-aspect g
+passive-participle g
 postpositional-case g
-remote-future-tense g 3
-installing
-connective-particle g
-elective-quantifier g
-negatory-quantifier g
 epenthetic-morpheme g
-amount-of-substance g
 supercritical-fluid
-flats
-reviewer
+connective-particle g
+remote-future-tense g 3
+yogurt
+amount-of-substance g
+showroom
 frequentative-aspect g
-universal-quantifier g
-distributive-pronoun g 3
-hourly
-assertive-quantifier g
-aerosol
-allocutive-agreement g
 computer-programming
+distributive-pronoun g 3
+unused
+allocutive-agreement g
 floating-point-number g
-buddhism
+distractor
+fundraise
 past-passive-participle g
 locative-directional-case g
-counterfactual-conditional g
 literal
 years
 asked
@@ -2708,7 +2723,6 @@ jupiter
 fascinating
 navigation
 ingenuity
-stature
 poland
 luminous
 daisy
@@ -3075,6 +3089,7 @@ grenada
 sudan
 lunge
 haiti
+cinder
 monaco
 uruguay
 zoology
@@ -3243,7 +3258,6 @@ zimbabwe
 architrave
 cornea
 molar
-voltage
 centipede
 cyberspace
 monogamy
@@ -3264,7 +3278,6 @@ nostalgia
 bassoon
 djibouti
 slovakia
-volt
 femur
 scalpel
 swaziland
@@ -3400,7 +3413,6 @@ skyscraper
 protean
 parasitism
 lodestone
-frequencies
 gyroscope
 sterilize
 okra
@@ -3420,7 +3432,6 @@ recessive
 metacarpal
 viviparous
 follicle
-ampere
 hibernation
 dinosaur
 herbal
@@ -3566,7 +3577,6 @@ symbiosis
 synergy
 typeface
 woodwind
-geothermal
 oxymoron
 vacuole
 anaerobic
@@ -3590,7 +3600,6 @@ collagen
 isomer
 polynomial
 exoskeleton
-inductor
 cholesterol
 widget
 debug
@@ -3633,303 +3642,302 @@ looter
 microchip
 aquifer
 pedicure
-pythagoras
-pearls
+consumers
+ironically
+automation
 photon
-thermals
-driveshaft
+eiderdown
+pythagoras
+cirrus
+stainless
+isobar
 nucleotide
-web-host
-podcast
-headrest
-hatchback
-hematite
-terabyte
+pillowcase
+rower
+curler
+skydiving
+lipid
 phenotypic
 epigenetic
-seismology
-phishing
 inbreeding
-shift-key
-geophysics
+impassable
+ionosphere
+dustcloth
+pearls
 dimorphism
 unselected
-hydrofoil
-junk-mail
-copernicus
-tweezer
-hyperlink
-home-page
-incubator
-tremors
-clip-art
-kohlrabi
-flowchart
-bookmark
-neutralist
-gimbals
-chequebook
-malware
-truffle
-caps-lock
-hydroponic
-undertow
-read-only
-protons
-epicenter
-mainsail
-beachfront
-eukaryotes
-dumping
-caspian
-powerline
-occluded
-convergent
-dopant
-baltic
-monorail
-allelic
-metals
-calcite
-weeds
-decibel
-composting
-crystals
-pancreas
-angiosperm
-exothermic
-crafts
-mouthwash
-involuntary
-bitmap
-acupressure
-speedometer
-thymine
-topsoil
-guanine
-snorkel
-endothermic
-ponytail
-self-esteem
-inbox
-zealand
-etc
-hotspot
-cirrus
-quilting
-rearview
-tectonic
-mm-hmm
-judo
-inhaler
-perfumery
-thruster
-antigen
-playoff
-nontoxic
-shuffle
-sculptor
-pistachio
-semolina
-diode
-shipyard
-synapse
-skincare
-montage
-sledding
-troposphere
-hydrosphere
-world-class
-radiocarbon
-skimmed
-one-third
-typological
-biome
-dramatize
-turkeys
-paragliding
-parachuting
-minibus
-blimp
-inhibitor
-reusable
-centrifugal
-roto-tiller
-coevolution
-talcum
-needlepoint
-alveoli
-all-organic
-coaxial
-reverential
-isobar
-seedlings
-desiccant
-minibar
-jackets
-ostriches
-data-mining
-domain-name
-flash-drive
-floppy-disk
-brain-child
-motherboard
-rower
-platelet
-geo-science
-velvet-worm
-quasar
-lithosphere
-zero-impact
-text-editor
-ironically
-postbox
-boxers
-groundcover
-two-thirds
-blog
-ammeter
-hoarfrost
-trojan-horse
-estrogen
-radian
-scalar
-nameless
-emus
-lipid
-hypnotherapy
-balearic
-sandpit
-thermosphere
-consumers
-purine
-chairlift
-impassable
-constriction
-bedcover
-oscilloscope
-zealot
-non-carbon
-parterre
-bodywork
-impermanence
-pillowcase
-meiosis
-fluorescence
-turbine
-vibraphone
-chiropractic
-curler
-photovoltaic
-condensed
-sharecropper
-inscriptions
-air-pressure
-buttress
-watercolor
-mutualism
 field-crop
-sunroof
-gneiss
-nightdress
-slow-release
-armrest
-neoclassic
-over-harvest
 over-breed
-bikini
-self-watering
-search-engine
-computability
-combinatorics
+two-thirds
+seismology
+drainpipe
+neutralist
+composting
+vibraphone
+driveshaft
+one-third
+pistachio
+perfumery
+gynecology
+start-ups
+eukaryotes
+weeds
+watercolor
+convergent
+petals
+mouthwash
+phloem
+dollhouse
+dramatize
+hoarfrost
+scalar
+dopant
+powerline
+metals
+geophysics
+exothermic
+diode
+endothermic
+mutualism
+formalwear
+frying
+incubator
+mm-hmm
+hydrofoil
+involuntary
+inbox
+purine
+hatchback
+self-esteem
+gladiolus
+typological
+nonprofit
+coevolution
+desiccant
+tremors
+estrogen
 genotypic
+caspian
+allelic
+platelet
+text-editor
+calcite
+thymine
+guanine
+world-class
+motherboard
+floppy-disk
+flash-drive
+hotspot
+domain-name
+radiocarbon
+data-mining
+reusable
+cytosine
+blimp
+hydrosphere
+fractals
+reverential
+brownian
+modeling
+web-host
+inducer
+talcum
+postbox
+roto-tiller
+terabyte
+phishing
+playoff
+coaxial
+hydroponics
+clip-art
+bookmark
+troposphere
+toolbar
+teminal
+spyware
+all-organic
+biome
+boxers
+centrifugal
+ostriches
+spammer
+condensed
+nontoxic
+runtime
+podcast
+speedometer
+bikini
+ammeter
+seedlings
+tectonic
+copernicus
+armrest
+malware
+nth-power g
+thruster
+turbine
+dynamical
+sledding
+paragliding
+skincare
+equations
+shipyard
+semolina
+needlepoint
+sculptor
+synapse
+rearview
+quilting
+brain-child
+zealand
+ponytail
+transducer
+velvet-worm
+groundcover
+acupressure
+crystals
+inhibitor
+zero-impact
+gimbals
+pancreas
+itemize
+montage
+emus
+geo-science
+meiosis
+shift-key
+monorail
+minibus
+minibar
+lithosphere
+baltic
+mainsail
+chiropractic
+junk-mail
+hyperlink
+kohlrabi
+occluded
+home-page
+macrame
+hematite
+headrest
+undertow
+chairlift
+turkeys
+goalpost
+genitals
+flowchart
+farmyard
+falkland
+espresso
+eggplant
+earthing
+dumbbell
+doorbell
+hypnotherapy
+bitmap
+milliliter
+tweezer
+antigen
+fallopian
+crafts
+constriction
+truffle
+oscilloscope
+dot-matrix
+buttress
+topsoil
+caps-lock
+bodywork
+blog
+air-pressure
+trojan-horse
+epicenter
+bedcover
+thermocouple
+no-till
+balearic
+thermals
+read-only
+inhaler
+inscriptions
+fluorescence
+reptiles
+impermanence
+panels
+molluscs
+non-carbon
+angiosperm
+gneiss
+sharecropper
+ip-address
+shuffle
+photovoltaic
+alveoli
+slow-release
+over-harvest
+versions
+neoclassic
+stabilizer
+self-watering
+rheostat
+waveform
+screenshot
 crossbreeding
+scroll-bar
+cyanobacteria
 absolute-zero
 horsehoe-crab
-sunburn
-milliliter
-hertz
-dollhouse
-physiotherapy
-macrame
-nonprofit
-congressional
-toolbar
-drainpipe
-transducer
-petals
-waveform
-dustcloth
-phloem
-rheostat
-eiderdown
-wave-particle
-photoelectric
-resuscitation
-subsoil
-cytosine
-doorbell
-staples
-cyanobacteria
-dot-matrix
-panels
-dumbbell
-automation
-teminal
-no-till
-photosynthesis
-earthing
-spyware
-ionosphere
-spammer
-mathematicians
-fallopian
-eggplant
-ip-address
-word-processor
-user-interface
-waders
-espresso
-runtime
-slash-and-burn
-hovercraft
-virtual-memory
-versions
-screenshot
-scroll-bar
-stabilizer
-consumer-focus
+nightdress
 status-bar
+sunroof
+sunburn
+resuscitation
+congressional
+chequebook
+photoelectric
+hovercraft
+search-engine
+jackets
+wave-particle
+physiotherapy
+combinatorics
+parterre
+beachfront
+computability
+mathematicians
+word-processor
+virtual-memory
+user-interface
+dumping
+photosynthesis
+nameless
+waders
+quasar
+slash-and-burn
+consumer-focus
 brain-storming
-falkland
-farmyard
-nth-power g
-gynecology
 ultrasonography
-dynamical
-fractals
-spatio-temporal
 cloud-computing
+subsoil
 virtual-reality
+snorkel
+spatio-temporal
 operating-system
 computer-program
-brownian
-itemize
 cross-validation
-modeling
-formalwear
 african-american
 read-only-memory
-equations
-molluscs
-reptiles
-interdisciplinary
-genitals
 social-networking
-start-ups
-gladiolus
-frying
+interdisciplinary
+sandpit
+staples
+protons
+etc
+zealot
+decibel
 random-access-memory
-goalpost
 central-processing-unit
+skimmed
 frequently-asked-questions

@@ -8,7 +8,9 @@ var io = require("../lib/io"),
     langObj = JSON.parse(io.fileRead("langWords-mega.json")),
     thesaurus = uniqueObj.thesaurus,
     blacklist = uniqueObj.blacklist,
-    mainWordsAr = Object.keys(thesaurus),
+    dictionary = JSON.parse(io.fileRead("dictionary.json")),
+    mainWordsAr = Object.keys(dictionary.en.pyash_ablativeCase).map(
+      function(word){ return word.substring(1); }),
     rootList = langObj.rootList,
     gramList = langObj.gramList,
     bot;
@@ -18,62 +20,78 @@ console.log("connecting");
 bot = botb(initObj);
 bot.connect();
 /* translational duties */
-function repairWord(word) {
+function translateWord(regional_dictionary, word) {
+  var translation = regional_dictionary["X" + word];
+  console.log("w " + word + " t " + translation);
+  if (translation === undefined) { translation = word; }
+  return translation;
+}
+function repairWord(regional_dictionary, word) {
   function approvedWords(word) {
-      if (thesaurus["X" + word] !== undefined) {
+      if (regional_dictionary.pyash_dativeCase["X" + word] !== undefined) {
           return true;
       }
       return false;
   }
-  var newWord = /^_/.test(word) ? word.substring(1) : word;
+  function approvedEnWords(word) {
+      if (dictionary.en.pyash_dativeCase["X" + word] !== undefined) {
+          return true;
+      }
+      return false;
+  }
   var result = "";
-  if (mainWordsAr.indexOf("X" + newWord) !== -1) {
+  var bword = regional_dictionary.blacklist["X" + word];
+  var bentry = blacklist["X" + bword];
+  console.log("bentry " + bentry);
+  if (approvedWords(word)) {
     result = word;
-  } else if (blacklist["X" + newWord]) {
-    var bentry = blacklist["X" + newWord];
+  } else if (bentry) {
+    // assumed dictionary results in pyash word
     if (Array.isArray(bentry)) {
-        result += bentry.filter(approvedWords).join(", ");
+        console.log(bentry.filter(approvedEnWords));
+        console.log(bentry.filter(approvedEnWords).map(translateWord.curry(
+                  dictionary.en.pyash_dativeCase)));
+        result += bentry.filter(approvedEnWords).map(translateWord.curry(
+                  dictionary.en.pyash_dativeCase)).map(translateWord.curry(
+                  regional_dictionary.pyash_ablativeCase)).join(", ");
     }
     result =  '<<' + result + '>>';
+  } else {
+    result = "<<>>";
   }
   return result;
 }
-function translateWord(word) {
-  var pyashWord = "";
-  if (/^_/.test(word)) {
-    //console.log("w " + word.substring(1) + " r " + rootList["X" +
-    //            word.substring(1)][0]);
-    pyashWord = rootList["X" + word.substring(1)][0];
-  } else if (gramList["X" + word]) {
-    console.log("gram word " + word);
-    pyashWord = gramList["X" + word][0];
-  } else {
-    console.log("root word " + word);
-    pyashWord = rootList["X" + word][0];
-  }
-  return pyashWord;
-}
-function randomWord() {
+function randomWord(regional_dictionary) {
   var word =  mainWordsAr[Math.random() * mainWordsAr.length | 0];
-  return rootList[word][0] + " " +  word.substring(1);
+  return word + " " + regional_dictionary.pyash_ablativeCase["X" + word];
 }
 initObj.channels.forEach(function (channel) {
   bot.addListener('message' + channel, function (from, message) {
       "use strict";
       if (message.substring(0, initObj.name.length + 1) === initObj.name + ":") {
         var newMessage = message.substring(initObj.name.length + 2);
+        var channel_language_code = channel.split("-")[1] || "pya";
+        console.log("clc " + channel_language_code);
+        var regional_dictionary = dictionary[channel_language_code];
         var newMessageAr = newMessage.split(" ");
         if (newMessage === "tlat") {
-          var word = randomWord(); 
-          console.log("random word " + JSON.stringify(word));
+          var word = randomWord(regional_dictionary); 
           bot.say(channel, word);
         } else if (newMessageAr[newMessageAr.length-1] === "kfintu") {
-          bot.say(channel, thesaurus["X" + newMessageAr[0]]);
+          if (thesaurus["X" + newMessageAr[0]]) {
+            bot.say(channel, from +": " + thesaurus["X" + newMessageAr[0]]);
+          } else {
+            bot.say(channel, from +": " + newMessageAr[0] + " hfangwohli");
+          }
         } else {
-          var repaired = (newMessage.split(" ").map(repairWord)).join(" ");
+          console.log("repairing " + newMessage);
+          var repaired = (newMessage.split(" ").
+                map(repairWord.curry(regional_dictionary))).join(" ");
+          console.log(JSON.stringify(repaired));
           bot.say(channel, from + ": " + repaired);
           if (!/<</.test(repaired)) {
-            var translated = repaired.split(" ").map(translateWord).join(" ");
+            var translated = repaired.split(" ").map(translateWord.curry(
+                regional_dictionary.pyash_dativeCase)).join(" ");
             bot.say(channel, from + ": " + translated);
           }
         }

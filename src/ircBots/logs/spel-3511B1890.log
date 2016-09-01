@@ -1,0 +1,149 @@
+.351171085.mu.htafdresgi.nwo pfos: encoding need text argument
+.351171085.mu.pfos.nwo htafdresgi: encoding <<required, must>> text argument
+.351171090.mu.htafdresgi.nwo pfos: encoding required text argument
+.351171090.mu.pfos.nwo htafdresgi: encoding required text argument
+.351171090.mu.pfos.nwo htafdresgi: kfon pyic tyeh hrut
+.351171096.mu.htafdresgi.nwo pfos: encoding required text argument error
+.351171096.mu.pfos.nwo htafdresgi: encoding required text argument error
+.351171096.mu.pfos.nwo htafdresgi: kfon pyic tyeh hrut croc
+.3511713A4.mu.htafdresgi.nwo pfos: world hey
+.3511713A5.mu.pfos.nwo htafdresgi: world <<hello, oh>>
+.3511713B5.mu.htafdresgi.nwo pfos: world vocative-case
+.3511713B6.mu.pfos.nwo htafdresgi: world vocative-case
+.3511713B6.mu.pfos.nwo htafdresgi: hwac wu
+.351171934.mu.htafdresgi.nwo pfos: dictionary kfintu
+.351171934.mu.pfos.nwo ko: '사전,pre,tr: 'sözlük,lexical,az: 'lüğət,vocabulary
+.351171941.mu.htafdresgi.nwo pfos: define kfintu
+.351171949.mu.htafdresgi.nwo pfos: definitions kfintu
+.351171949.mu.pfos.nwo zh: 定义,defined,zh: 定义,definition,zh: 定义,defines,sw: ufafanuzi,exposition,sw: ufafanuzi,commentary,sw: ufafanuzi,elaboration,sw: ufafanuzi,exegesis,sw: ufafanuzi,expository,sw: ufafanuzi,clarification,id: definisi,definitional,bn: সংজ্ঞা,defining,ur: تعریفیں,mapping,kn: ವ್ಯಾಖ್ಯಾನಗಳು,commentaries,ml: നിർവചനങ്ങൾ,adverbs,ml: നിർവചനങ്ങൾ,countable,az: anlayışl
+.351171958.mu.htafdresgi.nwo pfos: synonymous kfintu
+.351171958.mu.pfos.nwo zh: 代名词,synonym,sw: sawa,same,sw: sawa,equal,sw: sawa,similar,sw: sawa,alike,sw: sawa,equivalent,sw: sawa,rightly,sw: sawa,analogous,sw: sawa,ok,sw: sawa,all-right,am: ተመሳሳይ,identical,am: ተመሳሳይ,consistent,el: συνώνυμος,namesake
+.3511719A2.mu.htafdresgi.nwo pfos: encoding kfintu
+.3511719A2.mu.pfos.nwo zh: '编码,encode,ta: 'குறியீட்டு,index
+.351171A65.mu.htafdresgi.nwo pfos: code kfintu
+.351171A65.mu.pfos.nwo zh: '码,yard,ar: 'ﺰﻣﺭ,symbol,ko: '암호,password,sv: 'koda,encode
+.351171A96.mu.htafdresgi.nwo pfos: indepdent-clause
+.351171A96.mu.pfos.nwo htafdresgi:
+.351171A96.mu.pfos.nwo htafdresgi: hzes
+.351171A9B.mu.htafdresgi.nwo pfos: independent-clause
+.351171A9B.mu.pfos.nwo htafdresgi: independent-clause
+.351171A9B.mu.pfos.nwo htafdresgi: tyah
+.351172085.mu.htafdresgi.nwo pfos: length
+.351172085.mu.pfos.nwo htafdresgi: <<long>>
+.351172130.mu.htafdresgi.nwo pfos: time
+.351172131.mu.pfos.nwo htafdresgi: <<moment, hour, overtime, when, season>>
+.351172138.mu.htafdresgi.nwo pfos: date
+.351172138.mu.pfos.nwo htafdresgi: <<day>>
+.3511727B2.dose.htafdresgi.ginyehpfos: initiative-case
+.3511727B3.dose.pfos.ginyehhtafdresgi: initiative-case
+.3511727B3.dose.pfos.ginyehhtafdresgi: nyeh
+.35117287A.dose.htafdresgi.ginyeh: htafdresgi: humble
+.351172882.dose.htafdresgi.ginyeh: pfos: humble
+.351172883.dose.pfos.ginyeh: htafdresgi: humble
+.351172883.dose.pfos.ginyeh: htafdresgi: nleh
+.351172896.dose.htafdresgi.ginyeh: pfos: _humble
+.351172896.dose.pfos.ginyeh: htafdresgi: _humble
+.351172896.dose.pfos.ginyeh: htafdresgi: hmen
+.3511729AA.dose.htafdresgi.ginyeh: pfos: secretary nominative-case chat log accusative-case blog potential-mood
+.3511729AB.dose.pfos.ginyeh: htafdresgi: secretary nominative-case <<dialogue>> <<enter, subscribe, login, treasure, newspaper>> accusative-case blog potential-mood
+.351172A04.dose.htafdresgi.ginyeh: pfos: secretary nominative-case dialogue newspaper accusative-case blog potential-mood
+.351172A04.dose.pfos.ginyeh: htafdresgi: secretary nominative-case dialogue newspaper accusative-case blog potential-mood
+.351172A04.dose.pfos.ginyeh: htafdresgi: sris na dwac gzat ka blo_k tsah
+.351172A39.dose.htafdresgi.ginyeh: sris: secretary nominative-case dialogue newspaper accusative-case blog potential-mood
+.351172A47.dose.htafdresgi.ginyeh: sris: sris na dwac gzat ka blo_k tsah
+.351172B26.dose.htafdresgi.ginyeh: pfos: me genetive-case wife nominative-case beautiful copula realis-mood
+.351172B27.dose.pfos.ginyeh: htafdresgi: me  wife nominative-case beautiful copula realis-mood
+.351172B27.dose.pfos.ginyeh: htafdresgi: mi hzes hcis na myih co li
+.351172B3B.dose.htafdresgi.ginyeh: pfos: me genitive-case wife nominative-case beautiful copula realis-mood
+.351172B3B.dose.pfos.ginyeh: htafdresgi: me genitive-case wife nominative-case beautiful copula realis-mood
+.351172B3B.dose.pfos.ginyeh: htafdresgi: mi ti hcis na myih co li
+.351172B50.dose.htafdresgi.ginyeh: pfos: me genitive-case wife nominative-case _beautiful copula realis-mood
+.351172B50.dose.pfos.ginyeh: htafdresgi: me genitive-case wife nominative-case _beautiful copula realis-mood
+.351172B50.dose.pfos.ginyeh: htafdresgi: mi ti hcis na hyus co li
+.3511A7B83.dose.elspru.ginyeh: pfos: reincarnation
+.3511A7B83.dose.pfos.ginyeh: elspru: reincarnation
+.3511A7B83.dose.pfos.ginyeh: elspru: nref
+.3511A7BA2.dose.elspru.ginyeh: pfos: electronic reincarnation liberty
+.3511A7BA2.dose.pfos.ginyeh: elspru: electronic reincarnation liberty
+.3511A7BA2.dose.pfos.ginyeh: elspru: hlin nref syut
+.3511A7BB5.dose.elspru.ginyeh: pfos: incarnation
+.3511A7BB5.dose.pfos.ginyeh: elspru: <<embodiment, body, reincarnation, nationalization>>
+.3511B0364.dose.elspru.ginyeh: pfos: main languages of status net are english spanish french and german
+.3511B0364.dose.pfos.ginyeh: elspru: <<sensitive, cardinal, capital, summit>> <<language>> <<between>> <<predicament, rank>> <<web, holy>> <<it>> english spanish french and german
+.3511B0378.dose.elspru.ginyeh: pfos: cardinal languages of status net are english spanish french and german
+.3511B0378.dose.pfos.ginyeh: elspru: cardinal <<language>> <<between>> <<predicament, rank>> <<web, holy>> <<it>> english spanish french and german
+.3511B0381.dose.elspru.ginyeh: pfos cardinal kfintu
+.3511B0387.dose.elspru.ginyeh: pfos: cardian kfintu
+.3511B0390.dose.elspru.ginyeh: pfos: cardinal kfintu
+.3511B0390.dose.pfos.ginyeh: vi: 'chủyếu,essentially,vi: 'chủyếu,primarily,vi: 'chủyếu,predominantly,gu: 'મુખ્ય,chief,gu: 'મુખ્ય,main,gu: 'મુખ્ય,principal,gu: 'મુખ્ય,major,gu: 'મુખ્ય,staple,kn: 'ಪ್ರಧಾನ,prime
+.3511B0435.dose.elspru.ginyeh: pfos: not recognized
+.3511B0435.dose.pfos.ginyeh: elspru: <<never, pitch, cannot, gender>> <<accrediting, well-known, identity>>
+.3511B0446.dose.elspru.ginyeh: pfos: cannot find
+.3511B0446.dose.pfos.ginyeh: elspru: cannot <<found, how, see>>
+.3511B0450.dose.elspru.ginyeh: pfos: find cannot
+.3511B0450.dose.pfos.ginyeh: elspru: <<found, how, see>> cannot
+.3511B0455.dose.elspru.ginyeh: pfos: found cannot
+.3511B0455.dose.pfos.ginyeh: elspru: found cannot
+.3511B0455.dose.pfos.ginyeh: elspru: hfan hnas
+.3511B0460.dose.elspru.ginyeh: pfos: found not
+.3511B0460.dose.pfos.ginyeh: elspru: found <<never, pitch, cannot, gender>>
+.3511B0476.dose.elspru.ginyeh: pfos: found negative
+.3511B0477.dose.pfos.ginyeh: elspru: found <<evil>>
+.3511B0485.dose.elspru.ginyeh: pfos: found nr
+.3511B0485.dose.pfos.ginyeh: elspru: found <<>>
+.3511B0487.dose.elspru.ginyeh: pfos: found nor
+.3511B0487.dose.pfos.ginyeh: elspru: found <<never, what>>
+.3511B0494.dose.elspru.ginyeh: pfos: found opposite
+.3511B0494.dose.pfos.ginyeh: elspru: found <<invert, contrasting, against>>
+.3511B04A2.dose.elspru.ginyeh: pfos: found none
+.3511B04A2.dose.pfos.ginyeh: elspru: found <<never, nothing>>
+.3511B04A7.dose.elspru.ginyeh: pfos: found nothing
+.3511B04A7.dose.pfos.ginyeh: elspru: found nothing
+.3511B04A7.dose.pfos.ginyeh: elspru: hfan hmin
+.3511B050A.dose.elspru.ginyeh: pfos: found never
+.3511B050A.dose.pfos.ginyeh: elspru: found never
+.3511B050A.dose.pfos.ginyeh: elspru: hfan hkap
+.3511B0527.dose.elspru.ginyeh: pfos: anti
+.3511B0527.dose.pfos.ginyeh: elspru: <<rival, resistance, against, oppose>>
+.3511B0530.dose.elspru.ginyeh: pfos: un
+.3511B0530.dose.pfos.ginyeh: elspru: <<flour>>
+.3511B0590.dose.elspru.ginyeh: pfos: negation
+.3511B0590.dose.pfos.ginyeh: elspru: <<refusal>>
+.3511B0725.dose.elspru.ginyeh: pfos: negatory-quantifier
+.3511B0725.dose.pfos.ginyeh: elspru: negatory-quantifier
+.3511B0725.dose.pfos.ginyeh: elspru: gwoh
+.3511B0774.dose.elspru.ginyeh: pfos: found negatory-quantifier realis-mood
+.3511B0774.dose.pfos.ginyeh: elspru: found negatory-quantifier realis-mood
+.3511B0774.dose.pfos.ginyeh: elspru: hfan gwoh li
+.3511B0887.dose.elspru.ginyeh: pfos: welkj kfintu
+.3511B0887.dose.pfos.ginyeh: welkj hfangwohli
+.3511B0983.dose.elspru.ginyeh: pfos: another
+.3511B0983.dose.pfos.ginyeh: elspru: <<one-another, other>>
+.3511B0999.dose.elspru.ginyeh: pfos: all
+.3511B0999.dose.pfos.ginyeh: elspru: all
+.3511B0999.dose.pfos.ginyeh: elspru: hsut
+.3511B0AA5.dose.elspru.ginyeh: pfos: distal-demonstrative
+.3511B0AA5.dose.pfos.ginyeh: elspru: distal-demonstrative
+.3511B0AA5.dose.pfos.ginyeh: elspru: tseh
+.3511B0AB7.dose.elspru.ginyeh: pfos: medial-demonstrative
+.3511B0AB7.dose.pfos.ginyeh: elspru: <<>>
+.3511B0B5B.dose.elspru.ginyeh: pfos: demonstrative
+.3511B0B60.dose.pfos.ginyeh: elspru: demonstrative
+.3511B0B60.dose.pfos.ginyeh: elspru: di
+.3511B0B76.dose.elspru.ginyeh: pfos: proximal
+.3511B0B76.dose.pfos.ginyeh: elspru: <<proximity>>
+.3511B1057.dose.elspru.ginyeh: pfos: what
+.3511B1057.dose.pfos.ginyeh: elspru: what
+.3511B1057.dose.pfos.ginyeh: elspru: ke
+.3511B1805.dose.elspru.ginyeh: pfos: cardinal languages of status net are english spanish french and german
+.3511B1805.dose.pfos.ginyeh: elspru: cardinal <<language>> <<between>> <<predicament, rank>> <<web, holy>> <<it>> english spanish french and german
+.3511B1812.dose.elspru.ginyeh: pfos: cardinal language of status net are english spanish french and german
+.3511B1813.dose.pfos.ginyeh: elspru: cardinal language <<between>> <<predicament, rank>> <<web, holy>> <<it>> english spanish french and german
+.3511B1859.dose.elspru.ginyeh: pfos: status-net genitive-case cardinal language nominative-case english and spanish and french and german accusative-case copula realis-mood
+.3511B185A.dose.pfos.ginyeh: elspru: <<>> genitive-case cardinal language nominative-case english and spanish and french and german accusative-case copula realis-mood
+.3511B1867.dose.elspru.ginyeh: pfos: status net genitive-case cardinal language nominative-case english and spanish and french and german accusative-case copula realis-mood
+.3511B1868.dose.pfos.ginyeh: elspru: <<predicament, rank>> <<web, holy>> genitive-case cardinal language nominative-case english and spanish and french and german accusative-case copula realis-mood
+.3511B188B.dose.elspru.ginyeh: pfos: liberty social genitive-case cardinal language english and spanish and french and german accusative-case copula realis-mood
+.3511B1890.dose.pfos.ginyeh: elspru: liberty social genitive-case cardinal language english and spanish and french and german accusative-case copula realis-mood
+.3511B1890.dose.pfos.ginyeh: elspru: syut syih ti krat pyac qlis wa pyec wa frec wa hdem ka co li
+pfos: elspru: htafdresgi: found nominative-case french

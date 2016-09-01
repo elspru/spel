@@ -62,11 +62,11 @@ function topSixWords(wordArray) {
     return title;
 }
 // post IRC messages to other networks
-initObj.channels.forEach(function (channel) {
-    bot.addListener("message" + channel, function (from, message) {
+initObj.channels.forEach(function (input_channel) {
+    bot.addListener("message" + input_channel, function (from, message) {
         "use strict";
         var logDir = "logs/",
-            logName = channel.replace(/#/, ""),
+            logName = input_channel.replace(/#/, ""),
             logFile = logDir + logName + ".log",
             title = "",
             fileContents = io.fileRead(logFile),
@@ -82,18 +82,27 @@ initObj.channels.forEach(function (channel) {
         if (initObj.admins.indexOf(from) !== -1) {
         if (message.substring(0, initObj.name.length + 1) === initObj.name + ":") {
           var newMessage = message.substring(initObj.name.length + 2);
+          var input_channel_language_code = input_channel.split("-")[1] || "pya";
           if (newMessage.length < 140) {
-            initBitlObj.channels.forEach(function (channel) {
-                if (channel !== "&bitlbee") {
-                    bitlBot.say(channel, /*from + ":" + */ newMessage);
-                    console.log("cross posted to " + channel);
-                } else {
-                    bitlBot.say("nickserv", "yes");
-                    console.log("yes");
-                }
+            var language_channel_list = initBitlObj.language[input_channel_language_code];
+            if (input_channel_language_code === "pya") {
+            initBitlObj.channels.forEach(function (produce_channel) {
+              if (produce_channel !== "&bitlbee") {
+                  bitlBot.say(produce_channel, /*from + ":" + */ newMessage);
+                  console.log("cross posted to " + produce_channel);
+              } else {
+                  bitlBot.say("nickserv", "yes");
+                  console.log("yes");
+              }
             });
+            } else if (language_channel_list) {
+              language_channel_list.forEach(function (produce_channel) {
+                bitlBot.say(produce_channel, /*from + ":" + */ newMessage);
+                console.log("cross posted to " + produce_channel);
+              });
+            }
             } else {
-              bot.say(channel, "message length is " + newMessage.length + 
+              bot.say(input_channel, "message length is " + newMessage.length + 
                       " too long for twitter (140)");
             }
           }

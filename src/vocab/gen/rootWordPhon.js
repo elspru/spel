@@ -1171,16 +1171,16 @@ function main() {
                 }
                 if (someG32Words.indexOf(word) > -1 || (gram &&
                         (gramCount > ((G28GramMax / 1.61) |
-                        0))) || (gram && (shortGramCount >
+                        0))) || (gramLength === 2 && gram && (shortGramCount >
                         ((G28ShortGramMax / 1.61) | 0)))) {
                     gramGlyphWord = ipaTo32Glyph(phonWord);
                 } else if ((gram && (gramCount > ((G24GramMax /
-                        1.61) | 0))) || (gram && (shortGramCount >
+                        1.61) | 0))) || (gramLength === 2 && gram && (shortGramCount >
                         ((G24ShortGramMax / 1.61) | 0)))) {
                     gramGlyphWord = ipaTo28Glyph(phonWord);
                 } else if ((gram && (gramCount >
                         ((G16GramMax / 1.61) | 0))) ||
-                        (gram && (shortGramCount >
+                        (gramLength === 2 && gram && (shortGramCount >
                         ((G16ShortGramMax / 1.61) | 0)))) {
                     gramGlyphWord = ipaTo24Glyph(phonWord);
                 } else {

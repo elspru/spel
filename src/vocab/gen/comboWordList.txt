@@ -153,6 +153,10 @@ prolative-case g 3
 its g 3
 neo g 
 counterfactual-conditional g 3
+proximal-demonstrative g 3
+medial-demonstrative g 3
+distal-demonstrative g 3
+
 
 
 first-person g

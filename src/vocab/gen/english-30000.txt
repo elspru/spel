@@ -57,6 +57,7 @@
 0 second-person
 17 you 6048903
 18 not 5741803
+0 negatory-quantifier
 19 be 5662527
 0 its
 20 her 5202501
@@ -81,10 +82,12 @@
 0 ablative-case
 28 this 4015425
 0 demonstrative
+0 proximal-demonstrative
 29 him 3971997
 0 clause-tail
 30 but 3894211
 31 all 3703342
+0 universal-quantifier
 32 she 3415846
 0 feminine-gender
 33 they 3340398
@@ -123,6 +126,7 @@
 0 directive-mood
 0 deontic-mood
 58 any 1665366
+0 elective-quantifier
 59 your 1658553
 60 what 1605908
 0 question-word
@@ -138,6 +142,7 @@
 66 our 1498473
 67 some 1476767
 0 number g
+0 assertive-quantifier
 68 very 1462382
 69 time 1449681
 0 time-context
@@ -190,6 +195,7 @@
 106 day 882331
 107 where 881975
 108 those 878621
+0 medial-demonstrative
 109 came 873144
 110 come 873007
 111 himself 863478
@@ -255,6 +261,7 @@
 165 once 534154
 0 semelfactive-aspect
 166 another 533985
+0 alternative-quantifier
 167 left 531797
 168 part 526137
 169 saw 520922
@@ -970,7 +977,6 @@
 834 music 94284.2
 835 opportunity 94123.6
 836 that's 93912.4
-0 distal-demonstrative
 837 german 93866.5
 838 afternoon 93839.6
 839 cry 93675.0
@@ -3367,6 +3373,7 @@
 3190 revenge 23465.8
 3191 lucy 23459.5
 3192 yonder 23446.8
+0 distal-demonstrative
 3193 resources 23435.7
 3194 jealous 23421.5
 3195 we're 23376.4
